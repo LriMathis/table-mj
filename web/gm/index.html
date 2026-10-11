@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#13100c">
+<title>GM Table</title>
+<link rel="icon" type="image/svg+xml" href="/shared/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="/shared/style.css">
+</head>
+<body>
+<header id="top">
+  <div class="brand"><span class="logo"><i class="ico" style="--i:url(/shared/icons/lantern.svg)"></i></span><div><div data-t>GM Table</div><div id="camp-name" class="camp-name" title="Active campaign" data-t></div></div></div>
+  <nav id="tabs">
+    <button data-tab="campaigns" title="Campaigns" data-t><i class="ico" style="--i:url(/shared/icons/campaigns.svg)"></i><span data-t>Campaigns</span></button>
+    <button data-tab="characters" title="Characters" data-t><i class="ico" style="--i:url(/shared/icons/characters.svg)"></i><span data-t>Characters</span></button>
+    <button data-tab="combat" title="Combat" data-t><i class="ico" style="--i:url(/shared/icons/combat.svg)"></i><span data-t>Combat</span></button>
+    <button data-tab="map" title="Map" data-t><i class="ico" style="--i:url(/shared/icons/map.svg)"></i><span data-t>Map</span></button>
+    <button data-tab="spellbook" title="Spellbook" data-t><i class="ico" style="--i:url(/shared/icons/spellbook.svg)"></i><span data-t>Spellbook</span></button>
+    <button data-tab="bestiary" title="Bestiary" data-t><i class="ico" style="--i:url(/shared/icons/bestiary.svg)"></i><span data-t>Bestiary</span></button>
+    <button data-tab="journal" title="Journal" data-t><i class="ico" style="--i:url(/shared/icons/journal.svg)"></i><span data-t>Journal</span></button>
+    <button data-tab="tools" title="Tools" data-t><i class="ico" style="--i:url(/shared/icons/tools.svg)"></i><span data-t>Tools</span></button>
+  </nav>
+  <div class="top-right">
+    <span id="savestate" title="Save status" data-t>✔ saved</span>
+    <button class="small hbtn" id="theme-btn" title="Appearance, themes and language" data-t><i class="ico i-palette"></i> Settings</button>
+    <a href="/player" target="_blank" class="btn small" title="Open the view to show players (second screen)" data-t><i class="ico i-eye"></i> Player view</a>
+  </div>
+</header>
+<div id="layout">
+  <main id="main"></main>
+  <aside id="dice">
+    <div class="dice-head">
+      <h3 data-t><i class="ico" style="--i:url(/shared/icons/dice.svg)"></i> Dice</h3>
+      <label class="chk" title="The roll does not appear in the player view" data-t><input type="checkbox" id="d-secret"> secret</label>
+    </div>
+    <div class="dice-btns">
+      <button data-die="4">d4</button><button data-die="6">d6</button><button data-die="8">d8</button>
+      <button data-die="10">d10</button><button data-die="12">d12</button><button data-die="20" class="d20">d20</button>
+      <button data-die="100">d100</button>
+    </div>
+    <div class="adv-row">
+      <label data-t><input type="radio" name="adv" value="0" checked> normal</label>
+      <label data-t><input type="radio" name="adv" value="1"> advantage</label>
+      <label data-t><input type="radio" name="adv" value="-1"> disadvantage</label>
+    </div>
+    <form id="d-form" class="row">
+      <input id="d-expr" placeholder="e.g. 2d6+3, 4d6kh3, d20+5" autocomplete="off" data-t>
+      <button class="primary" data-t>Roll</button>
+    </form>
+    <div class="row group-roll">
+      <select id="g-skill" title="Group roll: every PC rolls" data-t></select>
+      <button id="g-roll" title="Every character makes this roll" data-t>Group roll</button>
+    </div>
+    <div id="d-last"></div>
+    <div class="log-head"><span data-t>History <span class="muted small" data-t>(<i class="ico i-player"></i> = player roll)</span></span><button class="link" id="d-clear" data-t>clear</button></div>
+    <div id="d-log"></div>
+  </aside>
+</div>
+<div id="modal" class="hidden"><div class="modal-box"></div></div>
+<div id="toasts"></div>
+<script src="/shared/i18n-fr.js"></script>
+<script src="/shared/i18n.js"></script>
+<script src="/shared/core.js"></script>
+<script src="/shared/spells.js"></script>
+<script src="/shared/mapview.js"></script>
+<script src="/shared/classes.js"></script>
+<script src="/shared/levelup.js"></script>
+<script src="/gm/characters.js"></script>
+<script src="/gm/combat.js"></script>
+<script src="/gm/map.js"></script>
+<script src="/gm/spellbook.js"></script>
+<script src="/gm/bestiary.js"></script>
+<script src="/gm/tools.js"></script>
+<script src="/gm/campaigns.js"></script>
+<script>
+  translatePage();
+  document.getElementById('theme-btn').onclick = themeModal;
+  boot();
+</script>
+</body>
+</html>

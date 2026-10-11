@@ -1,7 +1,7 @@
 __pycache__/
 *.pyc
-# binaire cloudflared téléchargé automatiquement (partie à distance)
-outils/
-# archives automatiques : gardées sur le PC du MJ seulement
-donnees/sauvegardes-auto/
-donnees/corbeille/
+# cloudflared binary, downloaded automatically for remote play
+tools/
+# automatic archives: kept on the game master's computer only
+data/backups/
+data/trash/

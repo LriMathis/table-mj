@@ -1,128 +1,136 @@
-# Table du MJ — D&D 5e
+# GM Table — D&D 5e
 
-Table virtuelle pour Donjons & Dragons 5e. Le maître du jeu gère la partie depuis son PC ; les joueurs suivent la carte et jouent leur personnage depuis un navigateur (téléphone, tablette ou ordinateur), en local ou à distance.
+A virtual tabletop for Dungeons & Dragons 5th edition. The game master runs the game from their computer; players follow the map and play their character from a browser (phone, tablet or computer), on the same network or remotely.
 
-- Carte de combat avec grille, pions, brouillard de guerre, règle et signaux
-- Suivi du combat : initiative, PV, états, attaques et sorts résolus automatiquement
-- Grimoire de 477 sorts en français, montée de niveau guidée pour les 13 classes
-- Plusieurs campagnes, bestiaire illustré, journal, sauvegardes automatiques
-- Aucune dépendance : Python 3 (bibliothèque standard) et JavaScript sans compilation
+- Battle map with grid, tokens, fog of war, ruler and pings
+- Combat tracker: initiative, hit points, conditions, automatically resolved attacks and spells
+- 477-spell spellbook, guided level-up for all 13 classes
+- Multiple campaigns, illustrated bestiary, journal, automatic backups
+- English and French interface, chosen on each device
+- No dependencies: Python 3 (standard library) and plain JavaScript, no build step
 
-## Prérequis
+## Requirements
 
-- Python 3.10 ou plus récent
-- Linux, macOS ou Windows (les scripts `.sh` sont pour Linux et macOS ; sous Windows, utilisez `python table_mj.py`)
+- Python 3.10 or later
+- Linux, macOS or Windows (the `.sh` scripts are for Linux and macOS; on Windows, run `python main.py`)
 
-## Démarrage
+## Getting started
 
 ```bash
 git clone git@github.com:LriMathis/table-mj.git
 cd table-mj
-./lancer_distance.sh
+./start-remote.sh
 ```
 
-| Commande | Usage |
+| Command | Use |
 |---|---|
-| `./lancer_mj.sh` | MJ seul, sur ce PC |
-| `./lancer_reseau.sh` | MJ et joueurs sur le même réseau local |
-| `./lancer_distance.sh` | MJ et joueurs par Internet |
+| `./start.sh` | Game master only, on this computer |
+| `./start-lan.sh` | Game master and players on the same local network |
+| `./start-remote.sh` | Game master and players over the internet |
 
-Options de `table_mj.py` : `--reseau`, `--distance`, `--port N`, `--donnees DOSSIER`, `--fiches DOSSIER`, `--no-browser`.
+`main.py` options: `--lan`, `--remote`, `--port N`, `--data FOLDER`, `--sheets FOLDER`, `--no-browser`.
 
-- **Interface MJ** : http://127.0.0.1:8765/ (ouverte automatiquement). Elle n'est accessible que depuis le PC du MJ.
-- **Vue joueurs** : l'adresse à communiquer s'affiche dans le terminal et dans l'onglet **Carte → Joueurs connectés**.
-- Accès direct : `/#combat`, `/#grimoire`… pour un onglet du MJ ; `/joueurs?perso=vex&onglet=sorts` pour la fiche d'un joueur.
-- Le serveur s'arrête avec **Ctrl+C**. Laissez le terminal ouvert pendant la partie.
+- **Game master interface**: http://127.0.0.1:8765/ (opens automatically). It is only reachable from the game master's computer.
+- **Player view**: the address to share is printed in the terminal and shown in **Map → Connected players**.
+- Direct links: `/#combat`, `/#spellbook`… open a GM tab; `/player?char=vex&tab=spells` opens a player's sheet.
+- Stop the server with **Ctrl+C**. Keep the terminal open during the session.
 
-### Réseau local
+### Local network
 
-Les joueurs ouvrent `http://<ip-du-pc>:8765/joueurs`. Si la page ne répond pas, autorisez le port dans le pare-feu : `sudo ufw allow 8765/tcp`.
+Players open `http://<computer-ip>:8765/player`. If the page does not load, allow the port in the firewall: `sudo ufw allow 8765/tcp`.
 
-### Partie à distance
+### Remote play
 
-Le serveur tourne sur le PC du MJ ; un tunnel HTTPS gratuit et sans compte le rend joignable depuis Internet.
+The server runs on the game master's computer; a free HTTPS tunnel, with no account needed, makes it reachable from the internet.
 
-1. Le MJ lance `./lancer_distance.sh`. Au premier lancement, `cloudflared` est téléchargé dans `outils/` (environ 40 Mo).
-2. Une adresse `https://xxxx.trycloudflare.com/joueurs` s'affiche dans le terminal et dans l'onglet Carte, avec un bouton de copie.
-3. Les joueurs ouvrent cette adresse dans leur navigateur. Ils n'ont rien à installer.
+1. The game master runs `./start-remote.sh`. On first use, `cloudflared` is downloaded to `tools/` (about 40 MB).
+2. An address such as `https://xxxx.trycloudflare.com/player` is printed in the terminal and shown in the Map tab, with a copy button.
+3. Players open this address in their browser. They have nothing to install.
 
-L'adresse change à chaque lancement. La voix n'est pas gérée : utilisez un outil comme Discord en parallèle.
+The address changes at every start. Voice chat is not included: use a tool such as Discord alongside.
 
-**Sécurité** : le tunnel pointe vers un port séparé qui ne sert que la vue joueurs. L'interface et l'API du MJ y répondent 403, et toute requête relayée par un proxy est refusée sur l'API du MJ. Si cloudflared n'est pas disponible, le serveur utilise `ssh` et localhost.run en secours ; dans ce mode, les images de plus de 300 Ko environ peuvent ne pas s'afficher.
+**Security**: the tunnel points to a separate port that only serves the player view. The game master interface and API return 403 there, and any request relayed by a proxy is refused by the game master API. If cloudflared is unavailable, the server falls back to `ssh` and localhost.run; in that mode, images larger than about 300 KB may not load.
 
-## Fonctionnalités
+## Features
 
-### Carte de combat
-- Création d'une carte par glisser-déposer d'une image ; grille réglable ou calibrée en traçant une case.
-- Pions en médaillon : anneau aux couleurs du camp (bleu pour les PJ, rouge pour les adversaires, or pour les PNJ) et arc de points de vie.
-- États affichés en pastilles ; pions morts, cachés et combattant actif clairement signalés.
-- Brouillard de guerre peint au pinceau, règle de mesure (diagonale = 1 case), signaux visibles par tous (Alt + clic pour le MJ, appui long pour les joueurs).
-- Le MJ choisit la carte montrée aux joueurs et peut leur envoyer son cadrage.
+### Battle map
+- Create a map by dropping an image; adjustable grid, or calibrate it by drawing one square.
+- Medallion tokens: ring in the side's color (blue for PCs, red for opponents, gold for NPCs) and a hit point arc.
+- Conditions shown as badges; dead, hidden and active combatants clearly marked.
+- Fog of war painted with a brush, measuring ruler (diagonal = 1 square), pings visible to everyone (Alt + click for the GM, long press for players).
+- The GM chooses which map players see and can send them their framing.
 
-### Combat et sorts
-- Grimoire de 477 sorts en français : noms et résumés d'[AideDD](https://www.aidedd.org), mécaniques du SRD 5.1.
-- Dégâts selon le niveau d'emplacement ou, pour les tours de magie, selon le niveau du personnage.
-- Gestion automatique des rayons multiples, jets de sauvegarde (DD, moitié des dégâts), soins, PV temporaires, concentration et rituels.
-- Lancement depuis la fiche ou le panneau de tour : l'emplacement est consommé, puis la cible est choisie.
-- Les noms de sorts personnalisés sont reconnus (par exemple « Poigne des morts » pour *Contact glacial*).
+### Combat and spells
+- 477 spells with names and summaries from [AideDD](https://www.aidedd.org) and mechanics from the SRD 5.1; official English names are shown in the English interface.
+- Damage scales with the slot level or, for cantrips, the character level.
+- Multiple rays, saving throws (DC, half damage), healing, temporary hit points, concentration and rituals are handled automatically.
+- Cast from the sheet or the turn panel: the slot is spent, then the target is chosen.
+- Custom spell names on character sheets are recognized.
 
-### Vue joueurs
-- Fiche, actions, sorts, dés, journal et groupe, sur un écran adapté au téléphone.
-- En combat, attaques et sorts ne sont possibles qu'à son tour (sauf réactions) ; le joueur est alerté quand son tour arrive.
-- Les dés sont lancés par le serveur. Le MJ voit chaque jet et applique les dégâts d'un clic.
-- L'état des adversaires est donné qualitativement (blessé, en sang…), jamais en PV exacts.
+### Player view
+- Sheet, actions, spells, dice, journal and party, on a phone-friendly screen.
+- In combat, attacks and spells are only possible on the player's turn (except reactions); players are alerted when their turn comes.
+- Dice are rolled by the server. The GM sees every roll and applies damage in one click.
+- Opponents' health is given as a state (wounded, bloodied…), never as exact hit points.
 
-### Montée de niveau
-Assistant en étapes conforme aux règles officielles pour les 13 classes :
-1. Points de vie (moyenne, jet ou maximum), aptitudes de classe et sous-classe.
-2. Amélioration de caractéristiques ou don (16 dons, effets appliqués).
+### Level-up
+A step-by-step wizard following the official rules for all 13 classes:
+1. Hit points (average, roll or maximum), class features and subclass.
+2. Ability score improvement or feat (16 feats, effects applied).
 3. Expertise.
-4. Nouveaux sorts et remplacement d'un sort connu.
-5. Récapitulatif modifiable.
+4. New spells and replacing a known spell.
+5. Editable summary.
 
-Possibilité d'enchaîner plusieurs niveaux, d'annuler les 5 derniers passages, ou de laisser les joueurs monter de niveau eux-mêmes.
+Several levels can be chained, the last 5 level-ups can be undone, and the GM can let players level up their own characters.
 
-### Outils du MJ
-- Plusieurs campagnes, chacune avec ses personnages, cartes, combats et journal ; bestiaire et images partagés.
-- Création de campagne à partir des fiches du dossier `fiches/` ou de personnages d'une autre campagne.
-- Diffusion d'un texte ou d'une image sur tous les écrans des joueurs.
-- Quêtes et PNJ révélés aux joueurs à la demande ; les notes du MJ ne leur sont jamais envoyées.
-- Réglages des joueurs : déplacements, actions, montée de niveau.
-- Bestiaire illustré avec fiches cliquables pour lancer les dés.
-- 8 thèmes visuels, choisis par chaque appareil.
+### GM tools
+- Multiple campaigns, each with its own characters, maps, combats and journal; the bestiary and images are shared.
+- New campaigns can be created from the sheets in `sheets/` or from characters of another campaign.
+- Show a text or an image on every player's screen.
+- Quests and NPCs revealed to players on demand; GM notes are never sent to them.
+- Player settings: token movement, actions, level-up.
+- Illustrated bestiary with clickable stat blocks that roll the dice.
+- 8 visual themes and 2 languages, chosen on each device.
 
-## Sauvegardes
+## Game content
 
-Tout est enregistré automatiquement dans `donnees/`. Des archives `.zip` sont également créées dans `donnees/sauvegardes-auto/` au démarrage, toutes les 20 minutes en cas de modification et à chaque changement de campagne. Une sauvegarde manuelle est possible depuis l'onglet Campagnes.
+The bundled game content (character sheets, class features, feats, spell summaries, monsters) is in French. The interface translates the game terms it stores (abilities, skills, conditions, damage types, classes, spell names) when it runs in English.
 
-Les archives automatiques ne sont pas versionnées dans ce dépôt.
+## Backups
 
-## Structure du projet
+Everything is saved automatically in `data/`. `.zip` archives are also created in `data/backups/` at startup, every 20 minutes when something changed and at each campaign switch. A manual backup can be made from the Campaigns tab.
+
+Data saved by earlier versions (French folder names such as `donnees/`) is moved to the current layout automatically on first start; nothing is overwritten.
+
+The automatic archives are not versioned in this repository.
+
+## Project structure
 
 ```
-table_mj.py              point d'entrée
-lancer_*.sh              scripts de lancement
-serveur/                 serveur HTTP (bibliothèque standard uniquement)
-  principal.py           démarrage, sauvegardes automatiques
-  web.py                 routes : API du MJ (poste local) et API des joueurs
-  distance.py            tunnel pour la partie à distance
-  stockage.py            fichiers, campagne active, fusion des modifications
-  campagnes.py           gestion des campagnes, import des fiches
-  joueurs.py             données filtrées pour les joueurs, jets, attaques, sorts
-  regles.py              règles 5e
-  des.py                 lanceur de dés
-  fiches.py              lecture des fiches texte
+main.py                  entry point
+start*.sh                launch scripts
+server/                  HTTP server (standard library only)
+  app.py                 startup, command line, automatic backups
+  web.py                 routes: game master API (local) and player API
+  tunnel.py              tunnel for remote play
+  storage.py             data files, active campaign, merging of changes
+  campaigns.py           campaigns and sheet import
+  players.py             filtered data for players, rolls, attacks, spells
+  rules.py               D&D 5e rules
+  dice.py                dice roller
+  sheets.py              text character sheet parser
+  i18n.py                server messages in French
 web/
-  commun/                styles, thèmes, carte, dés, base de sorts
-  mj/                    interface du MJ
-  joueurs/               interface des joueurs
-donnees/                 campagnes, bestiaire et images
-fiches/                  fiches de personnages à importer (.txt / .md)
-ressources/              portraits et images d'origine
+  shared/                styles, themes, map, dice, spell database, translations
+  gm/                    game master interface
+  player/                player interface
+data/                    campaigns, bestiary and images
+sheets/                  character sheets to import (.txt / .md)
+assets/                  original portraits and images
 ```
 
-## Crédits
+## Credits
 
-- Icônes et portraits des monstres : [game-icons.net](https://game-icons.net) (Lorc, Delapouite, Skoll, Caro Asercion, DarkZaitzev, Carl Olsen), licence [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
-- Sorts : noms et résumés [AideDD](https://www.aidedd.org), mécaniques SRD 5.1 ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
-- Partie à distance : [cloudflared](https://github.com/cloudflare/cloudflared) (Cloudflare Quick Tunnels).
+- Icons and monster portraits: [game-icons.net](https://game-icons.net) (Lorc, Delapouite, Skoll, Caro Asercion, DarkZaitzev, Carl Olsen), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+- Spells: names and summaries from [AideDD](https://www.aidedd.org), mechanics from the SRD 5.1 ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
+- Remote play: [cloudflared](https://github.com/cloudflare/cloudflared) (Cloudflare Quick Tunnels).
