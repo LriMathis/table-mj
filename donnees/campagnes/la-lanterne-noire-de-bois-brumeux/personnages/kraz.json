@@ -1,0 +1,112 @@
+{
+ "id": "kraz",
+ "name": "Aziz",
+ "title": "Le Bouffon des Ombres",
+ "player": "Mathis",
+ "race": "Gobelin",
+ "classe": "Roublard — Assassin",
+ "niveau": 5,
+ "historique": "Artiste de cirque / Escroc",
+ "alignement": "Chaotique Neutre",
+ "taille": "Petite",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 14
+ },
+ "saves": [
+  "DEX",
+  "INT"
+ ],
+ "prof": 3,
+ "hpMax": 38,
+ "hp": 38,
+ "hpTemp": 0,
+ "ca": 16,
+ "initBonus": 4,
+ "xp": 6500,
+ "hitDie": 8,
+ "hitDice": 5,
+ "skills": {
+  "Acrobaties": 7,
+  "Discrétion": 10,
+  "Escamotage": 7,
+  "Tromperie": 5,
+  "Intimidation": 5
+ },
+ "attacks": [
+  {
+   "name": "Dague",
+   "bonus": 7,
+   "damage": "1d4+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Arbalète de poing",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "resources": [
+  {
+   "name": "Ruse du gobelin",
+   "max": 1,
+   "cur": 1,
+   "reset": "court"
+  },
+  {
+   "name": "Le Faux Kraz",
+   "max": 1,
+   "cur": 1,
+   "reset": "long"
+  }
+ ],
+ "spellcasting": null,
+ "spells": {},
+ "features": [
+  {
+   "name": "Attaque sournoise — 3d6",
+   "text": "une fois par tour, Kraz inflige 3d6 dégâts supplémentaires lorsqu'il attaque avec avantage ou lorsqu'un allié est adjacent à la cible."
+  },
+  {
+   "name": "Action rusée",
+   "text": "action bonus pour Foncer, Se désengager ou Se cacher."
+  },
+  {
+   "name": "Ruse du gobelin",
+   "text": "peut devenir invisible jusqu'au début de son prochain tour après avoir effectué une attaque ou utilisé son action pour se cacher. 1 fois par repos court."
+  },
+  {
+   "name": "Assassinat",
+   "text": "contre une créature qui n'a pas encore joué pendant le combat, Kraz a avantage à ses jets d'attaque et toute attaque réussie est un coup critique."
+  },
+  {
+   "name": "Boîtes à malice",
+   "text": "Kraz peut poser une petite boîte piégée en action bonus. Lorsqu'une créature s'en approche, elle explose dans un nuage de fumée et de lames : jet de DEX DD 14, 2d6 dégâts perforants et la cible ne peut pas utiliser de réaction jusqu'à son prochain tour."
+  },
+  {
+   "name": "Le Faux Kraz",
+   "text": "une fois par repos long, Kraz crée un double illusoire de lui-même pendant 1 minute. Le double peut se déplacer et provoquer des distractions mais disparaît dès qu'il subit des dégâts."
+  }
+ ],
+ "equipment": "Deux dagues courbes, arbalète de poing, 20 carreaux, armure de cuir clouté, masque de porcelaine fissuré, nécessaire de voleur, plusieurs petites boîtes à ressort.",
+ "gold": 0,
+ "conditions": [],
+ "deathSaves": {
+  "s": 0,
+  "f": 0
+ },
+ "exhaustion": 0,
+ "notes": "",
+ "sheet": "# 1. KRAZ — Le Bouffon des Ombres\n\n**Inspiration : Shaco — LoL**\n**Race :** Gobelin\n**Classe :** Roublard — Assassin\n**Niveau :** 5\n**Historique :** Artiste de cirque / Escroc\n**Alignement :** Chaotique Neutre\n**Taille :** Petite\n**Vitesse :** 9 m\n\n### Caractéristiques\n\n* **FOR 8** (-1)\n* **DEX 18** (+4)\n* **CON 14** (+2)\n* **INT 12** (+1)\n* **SAG 10** (+0)\n* **CHA 14** (+2)\n\n**PV :** 38\n**CA :** 16\n**Initiative :** +4\n**Bonus de maîtrise :** +3\n\n### Compétences\n\nAcrobaties +7, Discrétion +10, Escamotage +7, Tromperie +5, Intimidation +5.\n\n### Équipement\n\nDeux dagues courbes, arbalète de poing, 20 carreaux, armure de cuir clouté, masque de porcelaine fissuré, nécessaire de voleur, plusieurs petites boîtes à ressort.\n\n### Capacités principales\n\n**Attaque sournoise — 3d6 :** une fois par tour, Kraz inflige 3d6 dégâts supplémentaires lorsqu'il attaque avec avantage ou lorsqu'un allié est adjacent à la cible.\n\n**Action rusée :** action bonus pour Foncer, Se désengager ou Se cacher.\n\n**Ruse du gobelin :** peut devenir invisible jusqu'au début de son prochain tour après avoir effectué une attaque ou utilisé son action pour se cacher. 1 fois par repos court.\n\n**Assassinat :** contre une créature qui n'a pas encore joué pendant le combat, Kraz a avantage à ses jets d'attaque et toute attaque réussie est un coup critique.\n\n**Boîtes à malice :** Kraz peut poser une petite boîte piégée en action bonus. Lorsqu'une créature s'en approche, elle explose dans un nuage de fumée et de lames : jet de DEX DD 14, 2d6 dégâts perforants et la cible ne peut pas utiliser de réaction jusqu'à son prochain tour.\n\n**Le Faux Kraz :** une fois par repos long, Kraz crée un double illusoire de lui-même pendant 1 minute. Le double peut se déplacer et provoquer des distractions mais disparaît dès qu'il subit des dégâts.\n\n### Style de jeu\n\nKraz est un personnage de **furtivité, pièges et tromperie**. Il préfère attaquer une cible isolée plutôt que participer à un combat frontal.\n\n### Personnalité\n\n> « Tu sais ce qui est drôle ? Quand quelqu'un croit avoir gagné. »\n\nIl adore les mauvaises blagues, les pièges ridicules et faire croire qu'il est beaucoup moins dangereux qu'il ne l'est.",
+ "portrait": "/data/images/300d3fb6c2_kraz-carre.png",
+ "color": "#ed333b",
+ "source": "message.txt",
+ "inspiration": "",
+ "playerNotes": "Niko est surement noir et j'aime pas ca"
+}

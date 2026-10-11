@@ -1,0 +1,37 @@
+{
+ "id": "gardien-pierre",
+ "name": "Le Gardien de Pierre (Colosse)",
+ "type": "Créature artificielle",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 110,
+ "hpFormula": "13d10+39",
+ "vitesse": "9 m",
+ "size": 3,
+ "stats": {
+  "FOR": 22,
+  "DEX": 9,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 1
+ },
+ "attacks": [
+  {
+   "name": "Poing de pierre",
+   "bonus": 8,
+   "damage": "2d10+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Rocher (18 m)",
+   "bonus": 8,
+   "damage": "3d10+6",
+   "type": "contondant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux poings.\n**Lenteur (recharge 5-6).** Créatures à 3 m : SAG DD 15 ou ralenties (vitesse /2, pas de réaction) 1 minute.\n**Corps de pierre.** Résistance aux dégâts non magiques ; immunisé poison, psychique.\n**Reconnaissance.** Si Gruk est en *Forme titanesque* et lui parle (ou le touche), le Gardien s'arrête 1 round et murmure « …petit frère ? ». Trois réussites d'Athlétisme/Persuasion DD 14 (une par round) l'apaisent définitivement.",
+ "portrait": "/data/images/df0e27f582_monstre-gardien-pierre.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

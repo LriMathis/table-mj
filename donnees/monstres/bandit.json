@@ -1,0 +1,37 @@
+{
+ "id": "bandit",
+ "name": "Bandit",
+ "type": "Humanoïde",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "attacks": [
+  {
+   "name": "Cimeterre",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Arbalète légère",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "traits": "",
+ "portrait": "/data/images/2567d86ad5_monstre-bandit.svg",
+ "notes": ""
+}

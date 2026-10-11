@@ -1,0 +1,31 @@
+{
+ "id": "rat-geant",
+ "name": "Rat géant",
+ "type": "Bête",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "9 m",
+ "size": 0.5,
+ "stats": {
+  "FOR": 7,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Odorat aiguisé.** Avantage aux tests de Perception basés sur l'odorat.\n**Tactique de groupe.** Avantage si un allié est à 1,50 m de la cible.",
+ "portrait": "/data/images/364846e1a5_monstre-rat-geant.svg",
+ "notes": ""
+}

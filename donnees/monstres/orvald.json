@@ -1,0 +1,37 @@
+{
+ "id": "orvald",
+ "name": "Orvald Sombrecierge, l'Homme à la Lanterne Noire",
+ "type": "Humanoïde (nécromancien)",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "attacks": [
+  {
+   "name": "Bâton-réverbère",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "contondant + 2d8 nécrotique"
+  },
+  {
+   "name": "Rayon de la Lanterne (36 m)",
+   "bonus": 8,
+   "damage": "4d8",
+   "type": "nécrotique"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux attaques.\n**La Lanterne Noire** (objet : CA 15, 30 PV, immunisée au nécrotique et au poison, vulnérable au radiant). Tant qu'elle brûle : Orvald a la résistance à tous les dégâts sauf radiants, et au début de chaque round elle libère **1 Spectre**.\n**Moisson d'âmes (réaction).** Quand une créature meurt à 18 m, il récupère 10 PV.\n**Sorts (DD 16, +8).** Toucher vampirique, Ténèbres, Peur, Contresort, Flétrissement (8d8, CON DD 16, 1/jour), Animation des morts.\n**Résistance légendaire (2/jour).**\n**Actions légendaires (3/round).** Pas d'ombre : se téléporte de 9 m (1). Rayon de la Lanterne (2). Appel des âmes : un spectre apparaît (2).\n**Phase 2 (sous 68 PV).** La lanterne murmure « Papa… » : c'est la voix de Lysa. Voir le chapitre 11.",
+ "portrait": "/data/images/907c19f365_monstre-orvald.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

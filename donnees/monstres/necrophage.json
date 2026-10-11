@@ -1,0 +1,43 @@
+{
+ "id": "necrophage",
+ "name": "Nécrophage",
+ "type": "Mort-vivant",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "attacks": [
+  {
+   "name": "Épée longue",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Drain de vie",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Arc long",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux épées longues, ou une épée et un drain de vie.\n**Drain de vie.** CON DD 13 ou PV max réduits du montant des dégâts.\n**Sensibilité au soleil.**",
+ "portrait": "/data/images/ee0b5a8379_monstre-necrophage.svg",
+ "notes": ""
+}

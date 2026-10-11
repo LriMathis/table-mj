@@ -1,0 +1,37 @@
+{
+ "id": "kobold",
+ "name": "Kobold",
+ "type": "Humanoïde",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 5,
+ "hpFormula": "2d6-2",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 7,
+  "DEX": 15,
+  "CON": 9,
+  "INT": 8,
+  "SAG": 7,
+  "CHA": 8
+ },
+ "attacks": [
+  {
+   "name": "Dague",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Fronde",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "traits": "**Sensibilité au soleil.** Désavantage aux attaques et à la Perception (vue) en plein soleil.\n**Tactique de groupe.** Avantage si un allié est à 1,50 m de la cible.",
+ "portrait": "/data/images/7ba8f8feeb_monstre-kobold.svg",
+ "notes": ""
+}

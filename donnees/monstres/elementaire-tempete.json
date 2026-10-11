@@ -1,0 +1,37 @@
+{
+ "id": "elementaire-tempete",
+ "name": "Élémentaire de tempête enchaîné",
+ "type": "Élémentaire",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "0 m, vol 27 m",
+ "size": 2,
+ "stats": {
+  "FOR": 14,
+  "DEX": 20,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "attacks": [
+  {
+   "name": "Coup de vent",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Éclair (18 m)",
+   "bonus": 8,
+   "damage": "2d10",
+   "type": "foudre"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux attaques.\n**Tourbillon (recharge 4-6).** Créatures dans son espace ou à 1,50 m : FOR DD 13, 3d8+2 contondants et projetées de 6 m (vers le bord de la tour !).\n**Chaînes de flamme noire.** Tant que les 4 chaînes tiennent (CA 15, 15 PV chacune, vulnérables au radiant), il a la résistance à tous les dégâts et est furieux.\n**Libération.** Aélis peut lui parler (action : Persuasion ou Arcanes DD 15). Trois réussites, ou les 4 chaînes brisées : l'élémentaire se retourne contre les harpies et lui offre la *Plume-Éclair*.",
+ "portrait": "/data/images/d2dd338600_monstre-elementaire-tempete.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

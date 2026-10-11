@@ -1,0 +1,37 @@
+{
+ "id": "goule",
+ "name": "Goule",
+ "type": "Mort-vivant",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 13,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 2,
+   "damage": "2d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "traits": "**Griffes.** Une cible non elfe ni mort-vivant : sauvegarde de CON DD 10 ou paralysée 1 minute (nouvelle sauvegarde à la fin de chaque tour).",
+ "portrait": "/data/images/9b372f2906_monstre-goule.svg",
+ "notes": ""
+}

@@ -1,0 +1,139 @@
+{
+ "id": "vex",
+ "name": "Vex",
+ "title": "Le Petit Seigneur des Morts",
+ "player": "Lucas",
+ "race": "Kobold",
+ "classe": "Magicien — École de Nécromancie",
+ "niveau": 5,
+ "historique": "Ermite / Chercheur de secrets",
+ "alignement": "Neutre",
+ "taille": "Petite",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "saves": [
+  "INT",
+  "SAG"
+ ],
+ "prof": 3,
+ "hpMax": 32,
+ "hp": 1,
+ "hpTemp": 0,
+ "ca": 12,
+ "initBonus": 2,
+ "xp": 6500,
+ "hitDie": 6,
+ "hitDice": 5,
+ "skills": {
+  "Arcanes": 7,
+  "Histoire": 7,
+  "Investigation": 7,
+  "Médecine": 4,
+  "Religion": 7,
+  "Discrétion": 5
+ },
+ "attacks": [],
+ "resources": [
+  {
+   "name": "Cri draconique",
+   "max": 1,
+   "cur": 1,
+   "reset": "court"
+  },
+  {
+   "name": "Le Bâton de la Dernière Question",
+   "max": 1,
+   "cur": 0,
+   "reset": "long"
+  }
+ ],
+ "spellcasting": {
+  "ability": "INT",
+  "dc": 15,
+  "attack": 7,
+  "slots": {
+   "1": {
+    "max": 4,
+    "cur": 3
+   },
+   "2": {
+    "max": 3,
+    "cur": 3
+   },
+   "3": {
+    "max": 2,
+    "cur": 1
+   }
+  }
+ },
+ "spells": {
+  "0": [
+   "Rayon de givre",
+   "Poigne des morts",
+   "Prestidigitation",
+   "Message"
+  ],
+  "1": [
+   "Projectile magique",
+   "Bouclier",
+   "Rayon maladif",
+   "Détection de la magie"
+  ],
+  "2": [
+   "Rayon ardent",
+   "Fausse vie",
+   "Ténèbres"
+  ],
+  "3": [
+   "Animation des morts",
+   "Toucher vampirique"
+  ]
+ },
+ "features": [
+  {
+   "name": "Animation des morts",
+   "text": "Vex peut relever les morts pour créer des serviteurs squelettiques.\nIl commence l'aventure avec 2 squelettes qu'il appelle :\n* Os\n* Os²\nIl leur donne constamment des ordres absurdes.\n> « Os, protège-moi ! Os², protège Os ! »"
+  },
+  {
+   "name": "Récolte macabre",
+   "text": "Lorsqu'une créature meurt à proximité de Vex après avoir subi ses sorts, il peut récupérer une partie de son énergie vitale.\nUne fois par tour, lorsqu'un sort de Vex tue une créature, il récupère 5 PV."
+  },
+  {
+   "name": "Résistance nécrotique",
+   "text": "Vex possède une résistance aux dégâts nécrotiques.\nIl a également avantage aux jets de sauvegarde contre les effets de peur provoqués par les morts-vivants."
+  },
+  {
+   "name": "Cri draconique",
+   "text": "Vex pousse un cri terrifiant.\nLes ennemis à proximité doivent réussir un jet de SAG DD 13 ou avoir désavantage à leur prochaine attaque.\n1 utilisation par repos court."
+  },
+  {
+   "name": "Petite taille, gros problème",
+   "text": "Vex peut utiliser une créature alliée comme couverture lorsqu'il se trouve à côté d'elle.\nIl est particulièrement doué pour se cacher derrière Gruk."
+  },
+  {
+   "name": "Le Bâton de la Dernière Question",
+   "text": "Un vieux bâton noir terminé par un petit crâne.\nUne fois par repos long, Vex peut poser une question à un cadavre.\nLe cadavre répond par quelques mots s'il possède l'information.\nExemple :\n> « Qui t'a tué ? »\nLe cadavre :\n> « L'homme... à la lanterne... noire... »\nCela peut permettre au MJ de relier Vex directement à l'intrigue des quatre premiers héros."
+  }
+ ],
+ "equipment": "",
+ "gold": 0,
+ "conditions": [],
+ "deathSaves": {
+  "s": 0,
+  "f": 0
+ },
+ "exhaustion": 0,
+ "notes": "",
+ "sheet": "# ☠️ VEX — Le Petit Seigneur des Morts\n\n**Race :** Kobold\n**Classe :** Magicien — École de Nécromancie\n**Niveau :** 5\n**Historique :** Ermite / Chercheur de secrets\n**Alignement :** Neutre\n**Taille :** Petite\n**Vitesse :** 9 m\n\n---\n\n## 📊 Caractéristiques\n\n* **FOR 7** (-2)\n* **DEX 14** (+2)\n* **CON 14** (+2)\n* **INT 18** (+4)\n* **SAG 12** (+1)\n* **CHA 10** (+0)\n\n**PV :** 32\n**CA :** 12\n**Initiative :** +2\n**Bonus de maîtrise :** +3\n**DD des sorts :** 15\n**Attaque magique :** +7\n\n---\n\n## 🧠 Compétences\n\n* Arcanes +7\n* Histoire +7\n* Investigation +7\n* Médecine +4\n* Religion +7\n* Discrétion +5\n\n---\n\n# ☠️ Sorts\n\n### Tours de magie\n\n* **Rayon de givre**\n* **Poigne des morts**\n* **Prestidigitation**\n* **Message**\n\n### Niveau 1\n\n* **Projectile magique**\n* **Bouclier**\n* **Rayon maladif**\n* **Détection de la magie**\n\n### Niveau 2\n\n* **Rayon ardent**\n* **Fausse vie**\n* **Ténèbres**\n\n### Niveau 3\n\n* **Animation des morts**\n* **Toucher vampirique**\n\n---\n\n# 💀 Pouvoirs de nécromancien\n\n### Animation des morts\n\nVex peut relever les morts pour créer des serviteurs squelettiques.\n\nIl commence l'aventure avec **2 squelettes** qu'il appelle :\n\n* **Os**\n* **Os²**\n\nIl leur donne constamment des ordres absurdes.\n\n> « Os, protège-moi ! Os², protège Os ! »\n\n---\n\n### Récolte macabre\n\nLorsqu'une créature meurt à proximité de Vex après avoir subi ses sorts, il peut récupérer une partie de son énergie vitale.\n\n**Une fois par tour**, lorsqu'un sort de Vex tue une créature, il récupère **5 PV**.\n\n---\n\n### Résistance nécrotique\n\nVex possède une résistance aux dégâts nécrotiques.\n\nIl a également avantage aux jets de sauvegarde contre les effets de peur provoqués par les morts-vivants.\n\n---\n\n# 🦎 Pouvoirs de Kobold\n\n### Cri draconique\n\nVex pousse un cri terrifiant.\n\nLes ennemis à proximité doivent réussir un jet de SAG DD 13 ou avoir **désavantage à leur prochaine attaque**.\n\n**1 utilisation par repos court.**\n\n### Petite taille, gros problème\n\nVex peut utiliser une créature alliée comme couverture lorsqu'il se trouve à côté d'elle.\n\nIl est particulièrement doué pour se cacher derrière Gruk.\n\n---\n\n# 🪄 Objet spécial\n\n## Le Bâton de la Dernière Question\n\nUn vieux bâton noir terminé par un petit crâne.\n\nUne fois par repos long, Vex peut poser **une question à un cadavre**.\n\nLe cadavre répond par quelques mots s'il possède l'information.\n\nExemple :\n\n> « Qui t'a tué ? »\n\nLe cadavre :\n\n> « L'homme... à la lanterne... noire... »\n\nCela peut permettre au MJ de relier Vex directement à l'intrigue des quatre premiers héros.\n\n---\n\n# 👻 Apparence\n\nVex est un petit kobold aux écailles gris foncé.\n\nIl porte :\n\n* une grande robe beaucoup trop longue ;\n* plusieurs petits crânes accrochés à sa ceinture ;\n* des lunettes rondes ;\n* un sac rempli d'os ;\n* un vieux grimoire presque aussi grand que lui.\n\nIl possède une petite lanterne verte qu'il ne quitte jamais.\n\n---\n\n# 🎭 Personnalité\n\nVex est extrêmement intelligent mais socialement catastrophique.\n\nIl ne comprend pas pourquoi les gens trouvent les cadavres « dérangeants ».\n\nPour lui, un squelette est simplement :\n\n**« Un collègue qui ne se plaint jamais. »**\n\nIl est également persuadé qu'il deviendra un jour le plus grand nécromancien de l'histoire.\n\nLe problème : il est terrifié par les fantômes.\n\n> « Les morts-vivants ? Aucun problème. Les fantômes ? NON. ÇA, C'EST PAS NORMAL. »\n\n---\n\n# 🎯 Motivation\n\nVex cherche le **Premier Cadavre**, une créature légendaire dont le squelette serait capable de répondre à n'importe quelle question.\n\nIl pense que ce cadavre se trouve quelque part sous la colline de Bois-Brumeux.\n\nIl rejoint donc les quatre autres héros.\n\nAu départ, il ne cherche pas vraiment à devenir leur ami.\n\nIl veut simplement savoir pourquoi **la porte aux quatre symboles** semble également réagir à sa présence.\n\n---\n\n# 🤝 Relations possibles\n\n### Kraz\n\nVex adore Kraz parce qu'il est difficile à prévoir.\n\nLes deux pourraient devenir un duo spécialisé dans les plans ridicules.\n\n### Gruk\n\nVex utilise Gruk comme « mur de protection mobile ».\n\nGruk trouve Vex bizarre mais l'aime bien.\n\n### Aélis\n\nVex est fasciné par sa magie élémentaire.\n\nIl veut absolument comprendre comment l'énergie élémentaire peut interagir avec l'énergie nécrotique.\n\n### Ryûn\n\nRyûn se méfie énormément de Vex.\n\nVex, lui, trouve le fait que Ryûn parle aux esprits **« scientifiquement fascinant »**.\n\n---\n\n## ⚔️ Rôle dans le groupe\n\n**Vex est le contrôleur / mage à distance.**\n\nIl peut :\n\n* affaiblir les ennemis ;\n* invoquer des morts-vivants ;\n* infliger des dégâts à distance ;\n* manipuler le champ de bataille ;\n* apporter des connaissances magiques ;\n* et, surtout, créer des situations complètement absurdes avec ses squelettes.",
+ "portrait": "/data/images/06492c3add_vex-carre.png",
+ "color": "",
+ "source": "message2.txt",
+ "inspiration": ""
+}

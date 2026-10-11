@@ -1,0 +1,31 @@
+{
+ "id": "loup",
+ "name": "Loup",
+ "type": "Bête",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "12 m",
+ "size": 1,
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Tactique de groupe.** Avantage si un allié est à 1,50 m de la cible.\n**Morsure.** Si la cible est une créature : sauvegarde de FOR DD 11 ou à terre.",
+ "portrait": "/data/images/e338eeac97_monstre-loup.svg",
+ "notes": ""
+}

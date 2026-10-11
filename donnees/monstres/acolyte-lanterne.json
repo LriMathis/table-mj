@@ -1,0 +1,37 @@
+{
+ "id": "acolyte-lanterne",
+ "name": "Acolyte de la Lanterne",
+ "type": "Humanoïde (Confrérie)",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "attacks": [
+  {
+   "name": "Dague",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Flamme noire (18 m)",
+   "bonus": 4,
+   "damage": "2d6",
+   "type": "nécrotique"
+  }
+ ],
+ "traits": "**Dévotion sombre.** Avantage aux sauvegardes contre charmé et effrayé.\n**Dernier souffle.** Quand l'acolyte meurt, une fumée noire s'échappe de sa bouche et file vers le nord (vers la Lanterne Noire).\n**Ce sont des villageois désespérés** : un acolyte à moins de la moitié de ses PV peut se rendre (Persuasion ou Intimidation DD 12).",
+ "portrait": "/data/images/8cfad30e47_monstre-acolyte-lanterne.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

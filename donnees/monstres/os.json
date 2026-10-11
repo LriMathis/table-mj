@@ -1,0 +1,37 @@
+{
+ "id": "os",
+ "name": "Os (squelette de Vex)",
+ "type": "Mort-vivant allié",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "attacks": [
+  {
+   "name": "Épée courte",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Arc court",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Serviteur de Vex.** Obéit aux ordres de Vex (action bonus de Vex), même absurdes.\n**Protège-moi !** Quand Vex est attaqué à 1,50 m d'Os, Os peut utiliser sa réaction pour imposer le désavantage à l'attaque.\n**Vulnérabilité** contondant. **Immunités** poison, épuisement.",
+ "portrait": "/data/images/portrait_os.jpg",
+ "notes": "Campagne : La Lanterne Noire"
+}

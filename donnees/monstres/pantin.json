@@ -1,0 +1,37 @@
+{
+ "id": "pantin",
+ "name": "Pantin du carnaval",
+ "type": "Créature artificielle",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "attacks": [
+  {
+   "name": "Coup de bâton",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  },
+  {
+   "name": "Ficelles (3 m)",
+   "bonus": 4,
+   "damage": "",
+   "type": "entravé (FOR DD 12)"
+  }
+ ],
+ "traits": "**Fausse apparence.** Immobile, il ressemble à une marionnette géante ordinaire.\n**Ficelles.** La cible est entravée (FOR ou DEX DD 12 pour se libérer). Couper les ficelles (CA 12, 5 PV) libère la cible.\n**Rire enregistré.** Chaque fois qu'un pantin est détruit, tous les autres éclatent de rire.\n**Immunités** poison, psychique.",
+ "portrait": "/data/images/01942d6ef5_monstre-pantin.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

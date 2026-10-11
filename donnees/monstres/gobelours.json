@@ -1,0 +1,37 @@
+{
+ "id": "gobelours",
+ "name": "Gobelours",
+ "type": "Humanoïde",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "attacks": [
+  {
+   "name": "Morgenstern",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Javeline",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Brute.** Une arme de corps à corps inflige un dé supplémentaire (inclus).\n**Attaque surprise.** +2d6 dégâts contre une créature surprise au premier round.",
+ "portrait": "/data/images/9dff608619_monstre-gobelours.svg",
+ "notes": ""
+}

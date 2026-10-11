@@ -1,0 +1,31 @@
+{
+ "id": "fantome",
+ "name": "Fantôme",
+ "type": "Mort-vivant",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 11,
+ "hp": 45,
+ "hpFormula": "10d8",
+ "vitesse": "0 m, vol 12 m",
+ "size": 1,
+ "stats": {
+  "FOR": 7,
+  "DEX": 13,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "attacks": [
+  {
+   "name": "Toucher flétrissant",
+   "bonus": 5,
+   "damage": "4d6+3",
+   "type": "nécrotique"
+  }
+ ],
+ "traits": "**Mouvement incorporel.** Traverse créatures et objets.\n**Visage terrifiant.** SAG DD 13 ou effrayé 1 minute ; échec de 5 ou plus = vieillit de 1d4×10 ans.\n**Possession (recharge 6).** CHA DD 13.\n*(Vex est terrifié.)*",
+ "portrait": "/data/images/7b7a73f45c_monstre-fantome.svg",
+ "notes": ""
+}

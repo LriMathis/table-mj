@@ -1,0 +1,31 @@
+{
+ "id": "esprit-renard",
+ "name": "Esprit-renard corrompu",
+ "type": "Fée (esprit)",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "12 m",
+ "size": 1,
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "attacks": [
+  {
+   "name": "Morsure fantôme",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "psychique"
+  }
+ ],
+ "traits": "**Clignement.** Action bonus : se téléporte de 9 m.\n**Fumée noire.** Ses yeux fument de la même fumée que la Lanterne Noire.\n**Purification.** Ryûn (ou Kitsu) peut apaiser un esprit à 9 m : action, Dressage ou Survie DD 14. Réussite : l'esprit cesse le combat et redevient argenté (compte comme vaincu pour l'XP).\n**Résistance** aux dégâts non magiques.",
+ "portrait": "/data/images/9ddf5a330b_monstre-esprit-renard.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

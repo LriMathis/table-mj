@@ -1,0 +1,37 @@
+{
+ "id": "gobelin",
+ "name": "Gobelin",
+ "type": "Humanoïde",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 8
+ },
+ "attacks": [
+  {
+   "name": "Cimeterre",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Arc court",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Fuite agile.** Peut Se désengager ou Se cacher par une action bonus à chacun de ses tours.",
+ "portrait": "/data/images/1c88cec6d2_monstre-gobelin.svg",
+ "notes": ""
+}

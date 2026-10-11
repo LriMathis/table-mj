@@ -1,0 +1,37 @@
+{
+ "id": "porte-lanterne",
+ "name": "Porte-Lanterne",
+ "type": "Humanoïde (Confrérie)",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "attacks": [
+  {
+   "name": "Masse d'armes",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant + 1d8 nécrotique"
+  },
+  {
+   "name": "Flamme noire (18 m)",
+   "bonus": 5,
+   "damage": "3d6",
+   "type": "nécrotique"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux attaques.\n**Petite lanterne (action bonus).** Une créature à 9 m : SAG DD 13 ou effrayée jusqu'à la fin de son prochain tour.\n**Sorts (DD 13).** Fléau, Silence, Ténèbres.",
+ "portrait": "/data/images/9984bba09f_monstre-porte-lanterne.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

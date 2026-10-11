@@ -1,0 +1,31 @@
+{
+ "id": "alpha-brume",
+ "name": "Grand-Croc, alpha de brume",
+ "type": "Bête (brume)",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "12 m",
+ "size": 2,
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 15,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux morsures.\n**Hurlement de la brume (recharge 5-6).** Chaque ennemi à 9 m : SAG DD 12 ou effrayé jusqu'à la fin de son prochain tour.\n**Marque de la lanterne.** Une brûlure noire en forme de flamme sur le flanc : Vex ou un test d'Arcanes DD 13 reconnaît une magie qui *enchaîne les âmes*.",
+ "portrait": "/data/images/b22c3f58e8_monstre-alpha-brume.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

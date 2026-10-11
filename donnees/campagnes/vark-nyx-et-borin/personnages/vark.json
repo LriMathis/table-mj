@@ -1,0 +1,380 @@
+{
+ "id": "vark",
+ "name": "Vark",
+ "title": "Le Chevalier aux Mille Cicatrices",
+ "player": "",
+ "race": "Demi-orque",
+ "classe": "Paladin",
+ "niveau": 4,
+ "historique": "Soldat déserteur",
+ "alignement": "Loyal Neutre",
+ "taille": "Moyenne",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "saves": [
+  "SAG",
+  "CHA"
+ ],
+ "prof": 2,
+ "hpMax": 37,
+ "hp": 37,
+ "hpTemp": 0,
+ "ca": 18,
+ "initBonus": 0,
+ "xp": 5366,
+ "hitDie": 10,
+ "hitDice": 4,
+ "skills": {
+  "Athlétisme": 6,
+  "Intimidation": 4,
+  "Persuasion": 4,
+  "Perspicacité": 3
+ },
+ "attacks": [
+  {
+   "name": "Épée longue",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "resources": [
+  {
+   "name": "Sens divin",
+   "max": 3,
+   "cur": 3,
+   "reset": "long"
+  },
+  {
+   "name": "Imposition des mains",
+   "max": 20,
+   "cur": 20,
+   "reset": "long"
+  },
+  {
+   "name": "Résistance demi-orque",
+   "max": 1,
+   "cur": 1,
+   "reset": "long"
+  }
+ ],
+ "spellcasting": {
+  "ability": "CHA",
+  "dc": 12,
+  "attack": 4,
+  "slots": {
+   "1": {
+    "max": 3,
+    "cur": 3
+   }
+  }
+ },
+ "spells": {},
+ "features": [
+  {
+   "name": "Sens divin",
+   "text": "Vark peut détecter la présence de célestes, de fiélons et de morts-vivants dans un rayon de 18 m, à condition qu'ils ne soient pas derrière une couverture totale. Il peut utiliser cette capacité 3 fois par jour."
+  },
+  {
+   "name": "Imposition des mains",
+   "text": "Vark possède une réserve de 5 PV qu'il peut distribuer pour soigner ses blessures ou celles d'un allié au toucher."
+  },
+  {
+   "name": "Style de combat",
+   "text": "Vark privilégie le combat défensif. Lorsqu'il porte une armure, il utilise son bouclier pour protéger ses alliés et tenir les passages étroits."
+  },
+  {
+   "name": "Résistance demi-orque",
+   "text": "Lorsqu'il tombe à 0 PV sans mourir sur le coup, Vark peut rester à 1 PV à la place. Cette capacité se recharge après un repos long."
+  },
+  {
+   "name": "Frappe déterminée",
+   "text": "Une fois par tour, lorsque Vark touche une créature avec son épée longue, il peut choisir de renoncer à son attaque suivante pour adopter une posture défensive, augmentant sa CA de 2 jusqu'au début de son prochain tour."
+  },
+  {
+   "name": "Santé divine",
+   "text": "Immunité aux maladies."
+  },
+  {
+   "name": "Serment sacré",
+   "text": "Aptitude de Paladin gagnée au niveau 3."
+  },
+  {
+   "name": "Incantation",
+   "text": "Aptitude de Paladin (niveau 2)."
+  },
+  {
+   "name": "Châtiment divin",
+   "text": "Dépensez un emplacement en touchant : +2d8 radiants (+1d8 par niveau d'emplacement, +1d8 contre morts-vivants et fiélons)."
+  }
+ ],
+ "equipment": "Épée longue, bouclier gravé de runes, cotte de mailles, symbole sacré en acier noir, pierre à aiguiser et vieux médaillon militaire.",
+ "gold": 0,
+ "conditions": [],
+ "deathSaves": {
+  "s": 0,
+  "f": 0
+ },
+ "exhaustion": 0,
+ "notes": "",
+ "sheet": "# 1. VARK — Le Chevalier aux Mille Cicatrices\n\n**Inspiration :** Garen — LoL\n**Race :** Demi-orque\n**Classe :** Paladin — Niveau 1\n**Historique :** Soldat déserteur\n**Alignement :** Loyal Neutre\n**Taille :** Moyenne\n**Vitesse :** 9 m\n\n## CARACTÉRISTIQUES\n* **FOR 16** (+3)\n* **DEX 10** (+0)\n* **CON 14** (+2)\n* **INT 8** (-1)\n* **SAG 12** (+1)\n* **CHA 15** (+2)\n\n**PV :** 12\n**CA :** 18\n**Initiative :** +0\n**Bonus de maîtrise :** +2\n\n## COMPÉTENCES\nAthlétisme +5, Intimidation +4, Persuasion +4, Intuition +3.\n\n## ÉQUIPEMENT\nÉpée longue, bouclier gravé de runes, cotte de mailles, symbole sacré en acier noir, pierre à aiguiser et vieux médaillon militaire.\n\n## CAPACITÉS PRINCIPALES\n\n**Sens divin :** Vark peut détecter la présence de célestes, de fiélons et de morts-vivants dans un rayon de 18 m, à condition qu'ils ne soient pas derrière une couverture totale. Il peut utiliser cette capacité 3 fois par jour.\n\n**Imposition des mains :** Vark possède une réserve de 5 PV qu'il peut distribuer pour soigner ses blessures ou celles d'un allié au toucher.\n\n**Style de combat :** Vark privilégie le combat défensif. Lorsqu'il porte une armure, il utilise son bouclier pour protéger ses alliés et tenir les passages étroits.\n\n**Résistance demi-orque :** lorsqu'il tombe à 0 PV sans mourir sur le coup, Vark peut rester à 1 PV à la place. Cette capacité se recharge après un repos long.\n\n**Frappe déterminée :** une fois par tour, lorsque Vark touche une créature avec son épée longue, il peut choisir de renoncer à son attaque suivante pour adopter une posture défensive, augmentant sa CA de 2 jusqu'au début de son prochain tour.\n\n## STYLE DE JEU\nVark est un combattant robuste qui protège ses compagnons et encaisse les coups à leur place. Il ne possède pas encore les pouvoirs magiques avancés d'un paladin expérimenté, mais sa détermination et son sens du devoir en font un allié fiable.\n\n## PERSONNALITÉ\nVark parle peu et déteste les promesses non tenues. Il cherche à racheter les fautes commises pendant son service militaire. Il conserve une cicatrice sur le visage, souvenir d'une bataille où il a abandonné ses compagnons pour sauver sa propre vie.\n\n« Je ne te promets pas la victoire. Je te promets que je serai encore là quand tout semblera perdu. »\n\n## PARTICULARITÉ\nVark refuse de porter un casque. Il affirme que les soldats qui meurent pour lui méritent de voir son visage une dernière fois.",
+ "portrait": "/data/images/perso_vark.svg",
+ "color": "#7b8590",
+ "source": "3_fiches_personnages_niveau_1.txt",
+ "inspiration": "Garen — LoL",
+ "levelHistory": [
+  {
+   "niveau": 2,
+   "t": 1791645651907,
+   "snap": {
+    "id": "vark",
+    "name": "Vark",
+    "title": "Le Chevalier aux Mille Cicatrices",
+    "player": "",
+    "race": "Demi-orque",
+    "classe": "Paladin",
+    "niveau": 2,
+    "historique": "Soldat déserteur",
+    "alignement": "Loyal Neutre",
+    "taille": "Moyenne",
+    "vitesse": "9 m",
+    "stats": {
+     "FOR": 16,
+     "DEX": 10,
+     "CON": 14,
+     "INT": 8,
+     "SAG": 12,
+     "CHA": 15
+    },
+    "saves": [
+     "SAG",
+     "CHA"
+    ],
+    "prof": 2,
+    "hpMax": 17,
+    "hp": 17,
+    "hpTemp": 0,
+    "ca": 18,
+    "initBonus": 0,
+    "xp": 5366,
+    "hitDie": 10,
+    "hitDice": 2,
+    "skills": {
+     "Athlétisme": 5,
+     "Intimidation": 4,
+     "Persuasion": 4,
+     "Perspicacité": 3
+    },
+    "attacks": [
+     {
+      "name": "Épée longue",
+      "bonus": 5,
+      "damage": "1d8+3",
+      "type": "tranchant"
+     }
+    ],
+    "resources": [
+     {
+      "name": "Sens divin",
+      "max": 3,
+      "cur": 3,
+      "reset": "long"
+     },
+     {
+      "name": "Imposition des mains",
+      "max": 5,
+      "cur": 5,
+      "reset": "long"
+     },
+     {
+      "name": "Résistance demi-orque",
+      "max": 1,
+      "cur": 1,
+      "reset": "long"
+     }
+    ],
+    "spellcasting": null,
+    "spells": {},
+    "features": [
+     {
+      "name": "Sens divin",
+      "text": "Vark peut détecter la présence de célestes, de fiélons et de morts-vivants dans un rayon de 18 m, à condition qu'ils ne soient pas derrière une couverture totale. Il peut utiliser cette capacité 3 fois par jour."
+     },
+     {
+      "name": "Imposition des mains",
+      "text": "Vark possède une réserve de 5 PV qu'il peut distribuer pour soigner ses blessures ou celles d'un allié au toucher."
+     },
+     {
+      "name": "Style de combat",
+      "text": "Vark privilégie le combat défensif. Lorsqu'il porte une armure, il utilise son bouclier pour protéger ses alliés et tenir les passages étroits."
+     },
+     {
+      "name": "Résistance demi-orque",
+      "text": "Lorsqu'il tombe à 0 PV sans mourir sur le coup, Vark peut rester à 1 PV à la place. Cette capacité se recharge après un repos long."
+     },
+     {
+      "name": "Frappe déterminée",
+      "text": "Une fois par tour, lorsque Vark touche une créature avec son épée longue, il peut choisir de renoncer à son attaque suivante pour adopter une posture défensive, augmentant sa CA de 2 jusqu'au début de son prochain tour."
+     }
+    ],
+    "equipment": "Épée longue, bouclier gravé de runes, cotte de mailles, symbole sacré en acier noir, pierre à aiguiser et vieux médaillon militaire.",
+    "gold": 0,
+    "conditions": [],
+    "deathSaves": {
+     "s": 0,
+     "f": 0
+    },
+    "exhaustion": 0,
+    "notes": "",
+    "sheet": "# 1. VARK — Le Chevalier aux Mille Cicatrices\n\n**Inspiration :** Garen — LoL\n**Race :** Demi-orque\n**Classe :** Paladin — Niveau 1\n**Historique :** Soldat déserteur\n**Alignement :** Loyal Neutre\n**Taille :** Moyenne\n**Vitesse :** 9 m\n\n## CARACTÉRISTIQUES\n* **FOR 16** (+3)\n* **DEX 10** (+0)\n* **CON 14** (+2)\n* **INT 8** (-1)\n* **SAG 12** (+1)\n* **CHA 15** (+2)\n\n**PV :** 12\n**CA :** 18\n**Initiative :** +0\n**Bonus de maîtrise :** +2\n\n## COMPÉTENCES\nAthlétisme +5, Intimidation +4, Persuasion +4, Intuition +3.\n\n## ÉQUIPEMENT\nÉpée longue, bouclier gravé de runes, cotte de mailles, symbole sacré en acier noir, pierre à aiguiser et vieux médaillon militaire.\n\n## CAPACITÉS PRINCIPALES\n\n**Sens divin :** Vark peut détecter la présence de célestes, de fiélons et de morts-vivants dans un rayon de 18 m, à condition qu'ils ne soient pas derrière une couverture totale. Il peut utiliser cette capacité 3 fois par jour.\n\n**Imposition des mains :** Vark possède une réserve de 5 PV qu'il peut distribuer pour soigner ses blessures ou celles d'un allié au toucher.\n\n**Style de combat :** Vark privilégie le combat défensif. Lorsqu'il porte une armure, il utilise son bouclier pour protéger ses alliés et tenir les passages étroits.\n\n**Résistance demi-orque :** lorsqu'il tombe à 0 PV sans mourir sur le coup, Vark peut rester à 1 PV à la place. Cette capacité se recharge après un repos long.\n\n**Frappe déterminée :** une fois par tour, lorsque Vark touche une créature avec son épée longue, il peut choisir de renoncer à son attaque suivante pour adopter une posture défensive, augmentant sa CA de 2 jusqu'au début de son prochain tour.\n\n## STYLE DE JEU\nVark est un combattant robuste qui protège ses compagnons et encaisse les coups à leur place. Il ne possède pas encore les pouvoirs magiques avancés d'un paladin expérimenté, mais sa détermination et son sens du devoir en font un allié fiable.\n\n## PERSONNALITÉ\nVark parle peu et déteste les promesses non tenues. Il cherche à racheter les fautes commises pendant son service militaire. Il conserve une cicatrice sur le visage, souvenir d'une bataille où il a abandonné ses compagnons pour sauver sa propre vie.\n\n« Je ne te promets pas la victoire. Je te promets que je serai encore là quand tout semblera perdu. »\n\n## PARTICULARITÉ\nVark refuse de porter un casque. Il affirme que les soldats qui meurent pour lui méritent de voir son visage une dernière fois.",
+    "portrait": "/data/images/perso_vark.svg",
+    "color": "#7b8590",
+    "source": "3_fiches_personnages_niveau_1.txt",
+    "inspiration": "Garen — LoL"
+   }
+  },
+  {
+   "niveau": 3,
+   "t": 1791645662910,
+   "snap": {
+    "id": "vark",
+    "name": "Vark",
+    "title": "Le Chevalier aux Mille Cicatrices",
+    "player": "",
+    "race": "Demi-orque",
+    "classe": "Paladin",
+    "niveau": 3,
+    "historique": "Soldat déserteur",
+    "alignement": "Loyal Neutre",
+    "taille": "Moyenne",
+    "vitesse": "9 m",
+    "stats": {
+     "FOR": 16,
+     "DEX": 10,
+     "CON": 14,
+     "INT": 8,
+     "SAG": 12,
+     "CHA": 15
+    },
+    "saves": [
+     "SAG",
+     "CHA"
+    ],
+    "prof": 2,
+    "hpMax": 29,
+    "hp": 29,
+    "hpTemp": 0,
+    "ca": 18,
+    "initBonus": 0,
+    "xp": 5366,
+    "hitDie": 10,
+    "hitDice": 3,
+    "skills": {
+     "Athlétisme": 5,
+     "Intimidation": 4,
+     "Persuasion": 4,
+     "Perspicacité": 3
+    },
+    "attacks": [
+     {
+      "name": "Épée longue",
+      "bonus": 5,
+      "damage": "1d8+3",
+      "type": "tranchant"
+     }
+    ],
+    "resources": [
+     {
+      "name": "Sens divin",
+      "max": 3,
+      "cur": 3,
+      "reset": "long"
+     },
+     {
+      "name": "Imposition des mains",
+      "max": 15,
+      "cur": 15,
+      "reset": "long"
+     },
+     {
+      "name": "Résistance demi-orque",
+      "max": 1,
+      "cur": 1,
+      "reset": "long"
+     }
+    ],
+    "spellcasting": {
+     "ability": "CHA",
+     "dc": 12,
+     "attack": 4,
+     "slots": {
+      "1": {
+       "max": 3,
+       "cur": 3
+      }
+     }
+    },
+    "spells": {},
+    "features": [
+     {
+      "name": "Sens divin",
+      "text": "Vark peut détecter la présence de célestes, de fiélons et de morts-vivants dans un rayon de 18 m, à condition qu'ils ne soient pas derrière une couverture totale. Il peut utiliser cette capacité 3 fois par jour."
+     },
+     {
+      "name": "Imposition des mains",
+      "text": "Vark possède une réserve de 5 PV qu'il peut distribuer pour soigner ses blessures ou celles d'un allié au toucher."
+     },
+     {
+      "name": "Style de combat",
+      "text": "Vark privilégie le combat défensif. Lorsqu'il porte une armure, il utilise son bouclier pour protéger ses alliés et tenir les passages étroits."
+     },
+     {
+      "name": "Résistance demi-orque",
+      "text": "Lorsqu'il tombe à 0 PV sans mourir sur le coup, Vark peut rester à 1 PV à la place. Cette capacité se recharge après un repos long."
+     },
+     {
+      "name": "Frappe déterminée",
+      "text": "Une fois par tour, lorsque Vark touche une créature avec son épée longue, il peut choisir de renoncer à son attaque suivante pour adopter une posture défensive, augmentant sa CA de 2 jusqu'au début de son prochain tour."
+     },
+     {
+      "name": "Santé divine",
+      "text": "Immunité aux maladies."
+     },
+     {
+      "name": "Serment sacré",
+      "text": "Aptitude de Paladin gagnée au niveau 3."
+     },
+     {
+      "name": "Incantation",
+      "text": "Aptitude de Paladin (niveau 2)."
+     },
+     {
+      "name": "Châtiment divin",
+      "text": "Dépensez un emplacement en touchant : +2d8 radiants (+1d8 par niveau d'emplacement, +1d8 contre morts-vivants et fiélons)."
+     }
+    ],
+    "equipment": "Épée longue, bouclier gravé de runes, cotte de mailles, symbole sacré en acier noir, pierre à aiguiser et vieux médaillon militaire.",
+    "gold": 0,
+    "conditions": [],
+    "deathSaves": {
+     "s": 0,
+     "f": 0
+    },
+    "exhaustion": 0,
+    "notes": "",
+    "sheet": "# 1. VARK — Le Chevalier aux Mille Cicatrices\n\n**Inspiration :** Garen — LoL\n**Race :** Demi-orque\n**Classe :** Paladin — Niveau 1\n**Historique :** Soldat déserteur\n**Alignement :** Loyal Neutre\n**Taille :** Moyenne\n**Vitesse :** 9 m\n\n## CARACTÉRISTIQUES\n* **FOR 16** (+3)\n* **DEX 10** (+0)\n* **CON 14** (+2)\n* **INT 8** (-1)\n* **SAG 12** (+1)\n* **CHA 15** (+2)\n\n**PV :** 12\n**CA :** 18\n**Initiative :** +0\n**Bonus de maîtrise :** +2\n\n## COMPÉTENCES\nAthlétisme +5, Intimidation +4, Persuasion +4, Intuition +3.\n\n## ÉQUIPEMENT\nÉpée longue, bouclier gravé de runes, cotte de mailles, symbole sacré en acier noir, pierre à aiguiser et vieux médaillon militaire.\n\n## CAPACITÉS PRINCIPALES\n\n**Sens divin :** Vark peut détecter la présence de célestes, de fiélons et de morts-vivants dans un rayon de 18 m, à condition qu'ils ne soient pas derrière une couverture totale. Il peut utiliser cette capacité 3 fois par jour.\n\n**Imposition des mains :** Vark possède une réserve de 5 PV qu'il peut distribuer pour soigner ses blessures ou celles d'un allié au toucher.\n\n**Style de combat :** Vark privilégie le combat défensif. Lorsqu'il porte une armure, il utilise son bouclier pour protéger ses alliés et tenir les passages étroits.\n\n**Résistance demi-orque :** lorsqu'il tombe à 0 PV sans mourir sur le coup, Vark peut rester à 1 PV à la place. Cette capacité se recharge après un repos long.\n\n**Frappe déterminée :** une fois par tour, lorsque Vark touche une créature avec son épée longue, il peut choisir de renoncer à son attaque suivante pour adopter une posture défensive, augmentant sa CA de 2 jusqu'au début de son prochain tour.\n\n## STYLE DE JEU\nVark est un combattant robuste qui protège ses compagnons et encaisse les coups à leur place. Il ne possède pas encore les pouvoirs magiques avancés d'un paladin expérimenté, mais sa détermination et son sens du devoir en font un allié fiable.\n\n## PERSONNALITÉ\nVark parle peu et déteste les promesses non tenues. Il cherche à racheter les fautes commises pendant son service militaire. Il conserve une cicatrice sur le visage, souvenir d'une bataille où il a abandonné ses compagnons pour sauver sa propre vie.\n\n« Je ne te promets pas la victoire. Je te promets que je serai encore là quand tout semblera perdu. »\n\n## PARTICULARITÉ\nVark refuse de porter un casque. Il affirme que les soldats qui meurent pour lui méritent de voir son visage une dernière fois.",
+    "portrait": "/data/images/perso_vark.svg",
+    "color": "#7b8590",
+    "source": "3_fiches_personnages_niveau_1.txt",
+    "inspiration": "Garen — LoL"
+   }
+  }
+ ]
+}

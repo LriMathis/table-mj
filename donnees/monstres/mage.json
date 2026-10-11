@@ -1,0 +1,37 @@
+{
+ "id": "mage",
+ "name": "Mage",
+ "type": "Humanoïde",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "attacks": [
+  {
+   "name": "Dague",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Rayon de feu",
+   "bonus": 6,
+   "damage": "2d10",
+   "type": "feu"
+  }
+ ],
+ "traits": "**Sorts (DD 14, +6).** Projectile magique, Bouclier, Boule de feu (8d6, DEX DD 14), Contresort, Invisibilité supérieure, Cône de froid.",
+ "portrait": "/data/images/29be003705_monstre-mage.svg",
+ "notes": ""
+}

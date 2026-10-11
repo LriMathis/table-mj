@@ -1,0 +1,31 @@
+{
+ "id": "zombie",
+ "name": "Zombie",
+ "type": "Mort-vivant",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 8,
+ "hp": 22,
+ "hpFormula": "3d8+9",
+ "vitesse": "6 m",
+ "size": 1,
+ "stats": {
+  "FOR": 13,
+  "DEX": 6,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 6,
+  "CHA": 5
+ },
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "traits": "**Robustesse de mort-vivant.** S'il tombe à 0 PV, sauvegarde de CON DD 5 + dégâts subis (sauf radiant ou critique) : réussite = il reste à 1 PV.",
+ "portrait": "/data/images/1811d5fa65_monstre-zombie.svg",
+ "notes": ""
+}

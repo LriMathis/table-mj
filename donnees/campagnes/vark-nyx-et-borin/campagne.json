@@ -1,0 +1,1033 @@
+{
+ "log": [
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-fleche-haut\"></i> <b>Vark</b> passe au <b>niveau 4</b> : Force 16 → 18 (mod. +3 → +4) · PV max 29 → 37 (moyenne 6 +2 CON) · Imposition des mains : 15 → 20 · Compétences : Athlétisme +5 → +6 · Épée longue : +5 → +6, dégâts 1d8+4",
+   "secret": false,
+   "id": "mv2jkh4usswyo",
+   "t": 1791645662910
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-fleche-haut\"></i> <b>Vark</b> passe au <b>niveau 3</b> : PV max 17 → 29 (maximum 10 +2 CON) · Aptitude : Santé divine · Aptitude : Serment sacré · Aptitude du niveau 2 (rattrapage) : Incantation · Aptitude du niveau 2 (rattrapage) : Châtiment divin · Imposition des mains : 5 → 15 · Incantation (CHA) : DD 12, attaque +4 · Emplacements de sorts : niv. 1 0 → 3",
+   "secret": false,
+   "id": "mv2jk8n8nvtlu",
+   "t": 1791645651908
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-xp\"></i> <b>Vark</b> gagne 5000 XP (total 5366)",
+   "secret": false,
+   "id": "mv2jjgze39rhb",
+   "t": 1791645616058
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-soin\"></i> <b>Borin</b> récupère 10 PV → 21/21",
+   "secret": false,
+   "id": "mv2iu5zvpqdvs",
+   "t": 1791644435419
+  },
+  {
+   "kind": "info",
+   "text": "▲ <b>Vark</b> passe au niveau 2 (+5 PV, maîtrise +2)",
+   "secret": false,
+   "id": "mv2itiq0xf0ig",
+   "t": 1791644405256
+  },
+  {
+   "kind": "roll",
+   "label": "PV niveau 2",
+   "who": "Vark",
+   "expr": "1d10+2",
+   "total": 5,
+   "detail": "1d10[3] + 2",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2itip2qua3x",
+   "t": 1791644405222
+  },
+  {
+   "kind": "info",
+   "text": "▲ <b>Nyx</b> passe au niveau 2 (+4 PV, maîtrise +2)",
+   "secret": false,
+   "id": "mv2itfchzr29u",
+   "t": 1791644400881
+  },
+  {
+   "kind": "roll",
+   "label": "PV niveau 2",
+   "who": "Nyx",
+   "expr": "1d6+1",
+   "total": 4,
+   "detail": "1d6[3] + 1",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2itfbe30ugu",
+   "t": 1791644400842
+  },
+  {
+   "kind": "info",
+   "text": "▲ <b>Borin</b> passe au niveau 2 (+10 PV, maîtrise +2)",
+   "secret": false,
+   "id": "mv2itber1owoo",
+   "t": 1791644395779
+  },
+  {
+   "kind": "roll",
+   "label": "PV niveau 2",
+   "who": "Borin",
+   "expr": "1d8+3",
+   "total": 10,
+   "detail": "1d8[7] + 3",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2itbecnkdlw",
+   "t": 1791644395765
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-drapeau\"></i> <b>Fin du combat.</b>",
+   "secret": false,
+   "id": "mv2it1wulhx8r",
+   "t": 1791644383470
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-xp\"></i> <b>1100 XP</b> partagés : 366 XP chacun pour Borin, Nyx, Vark",
+   "secret": false,
+   "id": "mv2it1wmoczcd",
+   "t": 1791644383463
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-degats\"></i> <b>Fantôme</b> subit 6 dégâts → 0/45 PV — <i class=\"ico i-mort\"></i> <b>vaincu</b>",
+   "secret": false,
+   "id": "mv2isr0nujpbb",
+   "t": 1791644369351
+  },
+  {
+   "kind": "roll",
+   "who": "Vark",
+   "label": "Dégâts Épée longue tranchant",
+   "expr": "1d8+3",
+   "total": 6,
+   "detail": "1d8[3] + 3",
+   "secret": false,
+   "id": "mv2isq534frwj",
+   "t": 1791644368215
+  },
+  {
+   "kind": "roll",
+   "who": "Vark",
+   "label": "Épée longue → Fantôme",
+   "expr": "1d20+5",
+   "total": 22,
+   "detail": "1d20[17] + 5 vs CA 11 : TOUCHÉ",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2isq4qwyzrz",
+   "t": 1791644368202
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 5 — tour de <b>Vark</b>",
+   "secret": false,
+   "id": "mv2isox7nuiur",
+   "t": 1791644366635
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-degats\"></i> <b>Fantôme</b> subit 16 dégâts → 1/45 PV",
+   "secret": false,
+   "id": "mv2isl89gqo52",
+   "t": 1791644361849
+  },
+  {
+   "kind": "roll",
+   "who": "Nyx",
+   "label": "Dégâts Orbe chromatique au choix (acide, froid, feu, foudre, poison, tonnerre)",
+   "expr": "3d8",
+   "total": 16,
+   "detail": "3d8[4, 6, 6]",
+   "secret": false,
+   "id": "mv2isjgffpk35",
+   "t": 1791644359551
+  },
+  {
+   "kind": "roll",
+   "who": "Nyx",
+   "label": "Orbe chromatique → Fantôme",
+   "expr": "1d20+5",
+   "total": 23,
+   "detail": "1d20[18] + 5 vs CA 11 : TOUCHÉ",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2isjflb58u0",
+   "t": 1791644359521
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sorts\"></i> <b>Nyx</b> lance <b>Orbe chromatique</b> — emplacement niv. 1 → Fantôme",
+   "secret": false,
+   "id": "mv2isjfb4fkhl",
+   "t": 1791644359511
+  },
+  {
+   "kind": "roll",
+   "who": "Nyx",
+   "label": "Orbe chromatique → Fantôme",
+   "expr": "1d20+5",
+   "total": 8,
+   "detail": "1d20[3] + 5 vs CA 11 : raté",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2isfkbinqbu",
+   "t": 1791644354507
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sorts\"></i> <b>Nyx</b> lance <b>Orbe chromatique</b> — emplacement niv. 1 → Fantôme",
+   "secret": false,
+   "id": "mv2isfk44bgnj",
+   "t": 1791644354500
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 5 — tour de <b>Nyx</b>",
+   "secret": false,
+   "id": "mv2is3rssm76e",
+   "t": 1791644339224
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 5 — tour de <b>Fantôme</b>",
+   "secret": false,
+   "id": "mv2is389dt612",
+   "t": 1791644338521
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-degats\"></i> <b>Fantôme</b> subit 3 dégâts → 17/45 PV",
+   "secret": false,
+   "id": "mv2irzyz18om8",
+   "t": 1791644334299
+  },
+  {
+   "kind": "roll",
+   "who": "Borin",
+   "label": "Dégâts Marteau de forgeron contondant",
+   "expr": "1d4+2",
+   "total": 3,
+   "detail": "1d4[1] + 2",
+   "secret": false,
+   "id": "mv2irz5nruzji",
+   "t": 1791644333243
+  },
+  {
+   "kind": "roll",
+   "who": "Borin",
+   "label": "Marteau de forgeron → Fantôme",
+   "expr": "1d20+4",
+   "total": 16,
+   "detail": "1d20[12] + 4 vs CA 11 : TOUCHÉ",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2irz58ovq9p",
+   "t": 1791644333228
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-degats\"></i> <b>Fantôme</b> subit 7 dégâts → 20/45 PV",
+   "secret": false,
+   "id": "mv2iryfsdvokr",
+   "t": 1791644332312
+  },
+  {
+   "kind": "roll",
+   "who": "Borin",
+   "label": "Dégâts Marteau de forgeron (critique) contondant",
+   "expr": "2d4+2",
+   "total": 7,
+   "detail": "2d4[1, 4] + 2",
+   "secret": false,
+   "id": "mv2irxkz8um87",
+   "t": 1791644331203
+  },
+  {
+   "kind": "roll",
+   "who": "Borin",
+   "label": "Marteau de forgeron → Fantôme",
+   "expr": "1d20+4",
+   "total": 24,
+   "detail": "1d20[<b>20</b>] + 4 vs CA 11 : TOUCHÉ",
+   "crit": true,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2irxkjkypib",
+   "t": 1791644331188
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-degats\"></i> <b>Fantôme</b> subit 5 dégâts → 27/45 PV",
+   "secret": false,
+   "id": "mv2irwkzc1zqn",
+   "t": 1791644329907
+  },
+  {
+   "kind": "roll",
+   "who": "Borin",
+   "label": "Dégâts Marteau de forgeron contondant",
+   "expr": "1d4+2",
+   "total": 5,
+   "detail": "1d4[3] + 2",
+   "secret": false,
+   "id": "mv2irvl781ssa",
+   "t": 1791644328619
+  },
+  {
+   "kind": "roll",
+   "who": "Borin",
+   "label": "Marteau de forgeron → Fantôme",
+   "expr": "1d20+4",
+   "total": 11,
+   "detail": "1d20[7] + 4 vs CA 11 : TOUCHÉ",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2irvkgajc37",
+   "t": 1791644328592
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-soin\"></i> <b>Borin</b> récupère 1 PV → 1/11",
+   "secret": false,
+   "id": "mv2iru1gp37og",
+   "t": 1791644326612
+  },
+  {
+   "kind": "roll",
+   "label": "Sauvegarde CON",
+   "who": "Borin",
+   "expr": "1d20+5",
+   "total": 14,
+   "detail": "1d20[9] + 5",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2ir392gozwg",
+   "t": 1791644291894
+  },
+  {
+   "kind": "roll",
+   "label": "Sauvegarde CON",
+   "who": "Borin",
+   "expr": "1d20+5",
+   "total": 9,
+   "detail": "1d20[4] + 5",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2ir1zyntn30",
+   "t": 1791644290270
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 5 — tour de <b>Borin</b> (inconscient : jet contre la mort !)",
+   "secret": false,
+   "id": "mv2iqz2u1o722",
+   "t": 1791644286486
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 4 — tour de <b>Vark</b>",
+   "secret": false,
+   "id": "mv2iqyuztuku4",
+   "t": 1791644286203
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 4 — tour de <b>Nyx</b>",
+   "secret": false,
+   "id": "mv2iqvdkwg2z5",
+   "t": 1791644281688
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-degats\"></i> <b>Borin</b> subit 22 dégâts → 0/11 PV — <i class=\"ico i-mort\"></i> <b>MORT INSTANTANÉE</b> (dégâts restants ≥ PV max)",
+   "secret": false,
+   "id": "mv2iqphfy7atl",
+   "t": 1791644274051
+  },
+  {
+   "kind": "roll",
+   "who": "Fantôme",
+   "label": "Dégâts Toucher flétrissant nécrotique",
+   "expr": "4d6+3",
+   "total": 22,
+   "detail": "4d6[5, 2, 6, 6] + 3",
+   "secret": false,
+   "id": "mv2iqgk0fgqpa",
+   "t": 1791644262480
+  },
+  {
+   "kind": "roll",
+   "who": "Fantôme",
+   "label": "Toucher flétrissant → Borin",
+   "expr": "1d20+5",
+   "total": 18,
+   "detail": "1d20[13] + 5 vs CA 16 : TOUCHÉ",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2iqgjvjhipn",
+   "t": 1791644262475
+  },
+  {
+   "kind": "roll",
+   "who": "Fantôme",
+   "label": "Toucher flétrissant → Borin",
+   "expr": "1d20+5",
+   "total": 14,
+   "detail": "1d20[9] + 5 vs CA 16 : raté",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2iqfxzshgp3",
+   "t": 1791644261687
+  },
+  {
+   "kind": "roll",
+   "who": "Fantôme",
+   "label": "Toucher flétrissant → Borin",
+   "expr": "1d20+5",
+   "total": 10,
+   "detail": "1d20[5] + 5 vs CA 16 : raté",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "secret": false,
+   "id": "mv2iqehru673r",
+   "t": 1791644259807
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 4 — tour de <b>Fantôme</b>",
+   "secret": false,
+   "id": "mv2iq5gg443tj",
+   "t": 1791644248096
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 4 — tour de <b>Borin</b>",
+   "secret": false,
+   "id": "mv2iq4zcqmoak",
+   "t": 1791644247480
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-degats\"></i> <b>Fantôme</b> subit 8 dégâts → 32/45 PV",
+   "secret": false,
+   "id": "mv2iq3pcpr15u",
+   "t": 1791644245824
+  },
+  {
+   "who": "Vark",
+   "label": "Dégâts Épée longue tranchant",
+   "expr": "1d8+3",
+   "total": 8,
+   "detail": "1d8[5] + 3",
+   "apply": {
+    "type": "dmg",
+    "n": 8,
+    "dtype": "tranchant",
+    "uid": "cbmv2ij9o6b0blp",
+    "name": "Fantôme"
+   },
+   "kind": "roll",
+   "id": "j1a126518afby5lc7",
+   "t": 1791644240636,
+   "secret": false,
+   "src": "joueur",
+   "char": "vark",
+   "applied": true
+  },
+  {
+   "who": "Vark",
+   "label": "Épée longue → Fantôme",
+   "expr": "1d20+5",
+   "total": 12,
+   "detail": "1d20[7] + 5 — <b>TOUCHÉ</b>",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "kind": "roll",
+   "id": "j1a126518afbtx9gy",
+   "t": 1791644240635,
+   "secret": false,
+   "src": "joueur",
+   "char": "vark"
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 3 — tour de <b>Vark</b>",
+   "secret": false,
+   "id": "mv2ipljdbcbgg",
+   "t": 1791644222281
+  },
+  {
+   "who": "Nyx",
+   "label": "d100",
+   "expr": "1d100",
+   "total": 34,
+   "detail": "1d100[34]",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "kind": "roll",
+   "id": "j1a1264f4c0chxm0p",
+   "t": 1791644093452,
+   "secret": false,
+   "src": "joueur",
+   "char": "nyx"
+  },
+  {
+   "who": "Nyx",
+   "label": "d10",
+   "expr": "1d10",
+   "total": 7,
+   "detail": "1d10[7]",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "kind": "roll",
+   "id": "j1a1264f494732lkq",
+   "t": 1791644092743,
+   "secret": false,
+   "src": "joueur",
+   "char": "nyx"
+  },
+  {
+   "who": "Nyx",
+   "label": "d100",
+   "expr": "1d100",
+   "total": 13,
+   "detail": "1d100[13]",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "kind": "roll",
+   "id": "j1a1264f476e47bxr",
+   "t": 1791644092270,
+   "secret": false,
+   "src": "joueur",
+   "char": "nyx"
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-degats\"></i> <b>Borin</b> subit 2 dégâts → 9/11 PV",
+   "secret": false,
+   "id": "mv2imh5wr8t41",
+   "t": 1791644076644
+  },
+  {
+   "who": "Nyx",
+   "label": "Dégâts Trait de feu feu",
+   "expr": "1d10",
+   "total": 2,
+   "detail": "1d10[2]",
+   "apply": {
+    "type": "dmg",
+    "n": 2,
+    "dtype": "feu",
+    "uid": "cbmv2ij6kfg33uz",
+    "name": "Borin"
+   },
+   "kind": "roll",
+   "id": "j1a1264efbefxz17m",
+   "t": 1791644072945,
+   "secret": false,
+   "src": "joueur",
+   "char": "nyx",
+   "applied": true
+  },
+  {
+   "who": "Nyx",
+   "label": "Trait de feu → Borin",
+   "expr": "1d20+5",
+   "total": 20,
+   "detail": "1d20[15] + 5 — <b>TOUCHÉ</b>",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "kind": "roll",
+   "id": "j1a1264efbef9gbr6",
+   "t": 1791644072944,
+   "secret": false,
+   "src": "joueur",
+   "char": "nyx"
+  },
+  {
+   "text": "🔮 <b>Nyx</b> lance <b>Trait de feu</b> → Borin",
+   "kind": "info",
+   "id": "j1a1264efbefa8p3z",
+   "t": 1791644072943,
+   "secret": false,
+   "src": "joueur",
+   "char": "nyx"
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 3 — tour de <b>Nyx</b>",
+   "secret": false,
+   "id": "mv2ily5i8u1j2",
+   "t": 1791644052006
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 3 — tour de <b>Fantôme</b>",
+   "secret": false,
+   "id": "mv2ilxr4fuzgq",
+   "t": 1791644051488
+  },
+  {
+   "text": "🔋 <b>Borin</b> utilise <b>Marteau runique</b> (0/1)",
+   "kind": "info",
+   "id": "j1a1264e6ecbduw5v",
+   "t": 1791644036811,
+   "secret": false,
+   "src": "joueur",
+   "char": "borin"
+  },
+  {
+   "who": "Borin",
+   "label": "Initiative",
+   "expr": "1d20+0",
+   "total": 13,
+   "detail": "1d20[13] + 0",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "kind": "roll",
+   "id": "j1a1264e6124rq9ky",
+   "t": 1791644033316,
+   "secret": false,
+   "src": "joueur",
+   "char": "borin"
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-degats\"></i> <b>Fantôme</b> subit 5 dégâts → 40/45 PV",
+   "secret": false,
+   "id": "mv2ilehpnhu1o",
+   "t": 1791644026525
+  },
+  {
+   "who": "Borin",
+   "label": "Dégâts Marteau de forgeron contondant",
+   "expr": "1d4+2",
+   "total": 5,
+   "detail": "1d4[3] + 2",
+   "apply": {
+    "type": "dmg",
+    "n": 5,
+    "dtype": "contondant",
+    "uid": "cbmv2ij9o6b0blp",
+    "name": "Fantôme"
+   },
+   "kind": "roll",
+   "id": "j1a1264e05f7fcwh6",
+   "t": 1791644009976,
+   "secret": false,
+   "src": "joueur",
+   "char": "borin",
+   "applied": true
+  },
+  {
+   "who": "Borin",
+   "label": "Marteau de forgeron → Fantôme",
+   "expr": "1d20+4",
+   "total": 17,
+   "detail": "1d20[13] + 4 — <b>TOUCHÉ</b>",
+   "crit": false,
+   "fumble": false,
+   "adv": 0,
+   "kind": "roll",
+   "id": "j1a1264e05f7u88xn",
+   "t": 1791644009975,
+   "secret": false,
+   "src": "joueur",
+   "char": "borin"
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 3 — tour de <b>Borin</b>",
+   "secret": false,
+   "id": "mv2ijx9wiyvkx",
+   "t": 1791643957556
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 2 — tour de <b>Vark</b>",
+   "secret": false,
+   "id": "mv2ijkf0yapl7",
+   "t": 1791643940892
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 2 — tour de <b>Nyx</b>",
+   "secret": false,
+   "id": "mv2ijkbnc007r",
+   "t": 1791643940771
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 2 — tour de <b>Fantôme</b>",
+   "secret": false,
+   "id": "mv2ijk2rf1a4m",
+   "t": 1791643940451
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 2 — tour de <b>Borin</b>",
+   "secret": false,
+   "id": "mv2ijjyiu3hnp",
+   "t": 1791643940298
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 1 — tour de <b>Vark</b>",
+   "secret": false,
+   "id": "mv2ijjo6pjrdg",
+   "t": 1791643939926
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 1 — tour de <b>Nyx</b>",
+   "secret": false,
+   "id": "mv2ijj6u276xx",
+   "t": 1791643939302
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-eclair\"></i> <b>Initiative</b> : Nyx <b>15</b> · Fantôme <b>17</b> · Vark <b>15</b> · Borin <b>18</b>",
+   "secret": false,
+   "id": "mv2ijh2yu45wn",
+   "t": 1791643936570
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-eclair\"></i> <b>Initiative</b> : Vark <b>10</b> · Borin <b>8</b> · Nyx <b>18</b> · Fantôme <b>15</b>",
+   "secret": false,
+   "id": "mv2ijgaoyxlyi",
+   "t": 1791643935552
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-eclair\"></i> <b>Initiative</b> : Nyx <b>9</b> · Vark <b>14</b> · Fantôme <b>2</b> · Borin <b>12</b>",
+   "secret": false,
+   "id": "mv2ijfsoc4nr1",
+   "t": 1791643934904
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-eclair\"></i> <b>Initiative</b> : Borin <b>1</b> · Nyx <b>18</b> · Fantôme <b>6</b> · Vark <b>11</b>",
+   "secret": false,
+   "id": "mv2ijfkjqdqmu",
+   "t": 1791643934611
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-eclair\"></i> <b>Initiative</b> : Fantôme <b>11</b> · Borin <b>20</b> · Nyx <b>18</b> · Vark <b>9</b>",
+   "secret": false,
+   "id": "mv2ijfdmgarsu",
+   "t": 1791643934362
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-eclair\"></i> <b>Initiative</b> : Fantôme <b>21</b> · Borin <b>13</b> · Nyx <b>9</b> · Vark <b>3</b>",
+   "secret": false,
+   "id": "mv2ije17c068j",
+   "t": 1791643932619
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-sablier\"></i> Round 1 — tour de <b>Fantôme</b>",
+   "secret": false,
+   "id": "mv2ijbc0qwxun",
+   "t": 1791643929120
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-combat\"></i> <b>Le combat commence !</b>",
+   "secret": false,
+   "id": "mv2ijbc0a592a",
+   "t": 1791643929120
+  },
+  {
+   "kind": "info",
+   "text": "<i class=\"ico i-eclair\"></i> <b>Initiative</b> : Borin <b>18</b> · Nyx <b>14</b> · Vark <b>4</b> · Fantôme <b>18</b>",
+   "secret": false,
+   "id": "mv2ijbbpmf8pe",
+   "t": 1791643929109
+  }
+ ],
+ "journal": {
+  "notes": [],
+  "quests": [],
+  "npcs": []
+ },
+ "combat": {
+  "active": false,
+  "round": 0,
+  "turn": 0,
+  "list": [
+   {
+    "uid": "cbmv2ij6kfg33uz",
+    "kind": "pc",
+    "charId": "borin",
+    "init": null,
+    "initMod": 0
+   },
+   {
+    "uid": "cbmv2ij6kfn99hr",
+    "kind": "pc",
+    "charId": "nyx",
+    "init": null,
+    "initMod": 2
+   },
+   {
+    "uid": "cbmv2ij6kfjeevw",
+    "kind": "pc",
+    "charId": "vark",
+    "init": null,
+    "initMod": 0
+   }
+  ]
+ },
+ "maps": [
+  {
+   "id": "mapmv2ihijtttu2i",
+   "name": "Screenshot From 2026-10-06 18-12-12",
+   "url": "/data/images/de483eefc5_screenshot-from-2026-10-06-18-12-12.png",
+   "w": 841,
+   "h": 643,
+   "grid": {
+    "size": 70,
+    "ox": 0,
+    "oy": 0,
+    "show": true,
+    "color": "#000000",
+    "alpha": 0.35,
+    "snap": true,
+    "meters": 1.5
+   },
+   "tokens": [
+    {
+     "id": "tkmv2iieui5knjg",
+     "x": 3,
+     "y": 5,
+     "size": 1,
+     "name": "",
+     "img": "",
+     "ref": {
+      "kind": "pc",
+      "id": "borin"
+     },
+     "hidden": false
+    },
+    {
+     "id": "tkmv2iih4sl1gwb",
+     "x": 4,
+     "y": 3,
+     "size": 1,
+     "name": "",
+     "img": "",
+     "ref": {
+      "kind": "pc",
+      "id": "nyx"
+     },
+     "hidden": false
+    },
+    {
+     "id": "tkmv2iih4s93dm5",
+     "x": 2,
+     "y": 4,
+     "size": 1,
+     "name": "",
+     "img": "",
+     "ref": {
+      "kind": "pc",
+      "id": "vark"
+     },
+     "hidden": false
+    }
+   ],
+   "fog": {
+    "on": true,
+    "rev": {
+     "0,0": 1,
+     "1,0": 1,
+     "2,0": 1,
+     "3,0": 1,
+     "4,0": 1,
+     "5,0": 1,
+     "6,0": 1,
+     "7,0": 1,
+     "8,0": 1,
+     "9,0": 1,
+     "10,0": 1,
+     "11,0": 1,
+     "12,0": 1,
+     "0,1": 1,
+     "1,1": 1,
+     "2,1": 1,
+     "3,1": 1,
+     "4,1": 1,
+     "5,1": 1,
+     "6,1": 1,
+     "7,1": 1,
+     "8,1": 1,
+     "9,1": 1,
+     "10,1": 1,
+     "11,1": 1,
+     "12,1": 1,
+     "0,2": 1,
+     "1,2": 1,
+     "2,2": 1,
+     "3,2": 1,
+     "4,2": 1,
+     "5,2": 1,
+     "6,2": 1,
+     "7,2": 1,
+     "8,2": 1,
+     "9,2": 1,
+     "10,2": 1,
+     "11,2": 1,
+     "12,2": 1,
+     "0,3": 1,
+     "1,3": 1,
+     "2,3": 1,
+     "3,3": 1,
+     "4,3": 1,
+     "5,3": 1,
+     "6,3": 1,
+     "7,3": 1,
+     "8,3": 1,
+     "9,3": 1,
+     "10,3": 1,
+     "11,3": 1,
+     "12,3": 1,
+     "0,4": 1,
+     "1,4": 1,
+     "2,4": 1,
+     "3,4": 1,
+     "4,4": 1,
+     "5,4": 1,
+     "6,4": 1,
+     "7,4": 1,
+     "8,4": 1,
+     "9,4": 1,
+     "10,4": 1,
+     "11,4": 1,
+     "12,4": 1,
+     "0,5": 1,
+     "1,5": 1,
+     "2,5": 1,
+     "3,5": 1,
+     "4,5": 1,
+     "5,5": 1,
+     "6,5": 1,
+     "7,5": 1,
+     "8,5": 1,
+     "9,5": 1,
+     "10,5": 1,
+     "11,5": 1,
+     "12,5": 1,
+     "0,6": 1,
+     "1,6": 1,
+     "2,6": 1,
+     "3,6": 1,
+     "4,6": 1,
+     "5,6": 1,
+     "6,6": 1,
+     "7,6": 1,
+     "8,6": 1,
+     "9,6": 1,
+     "10,6": 1,
+     "11,6": 1,
+     "12,6": 1,
+     "0,7": 1,
+     "1,7": 1,
+     "2,7": 1,
+     "3,7": 1,
+     "4,7": 1,
+     "5,7": 1,
+     "6,7": 1,
+     "7,7": 1,
+     "8,7": 1,
+     "9,7": 1,
+     "10,7": 1,
+     "11,7": 1,
+     "12,7": 1,
+     "0,8": 1,
+     "1,8": 1,
+     "2,8": 1,
+     "3,8": 1,
+     "4,8": 1,
+     "5,8": 1,
+     "6,8": 1,
+     "7,8": 1,
+     "8,8": 1,
+     "9,8": 1,
+     "10,8": 1,
+     "11,8": 1,
+     "12,8": 1,
+     "0,9": 1,
+     "1,9": 1,
+     "2,9": 1,
+     "3,9": 1,
+     "4,9": 1,
+     "5,9": 1,
+     "6,9": 1,
+     "7,9": 1,
+     "8,9": 1,
+     "9,9": 1,
+     "10,9": 1,
+     "11,9": 1,
+     "12,9": 1
+    }
+   },
+   "view": {
+    "z": 0.7115885823020041,
+    "x": 71.48839638681807,
+    "y": 79.07187200596871
+   }
+  }
+ ],
+ "currentMap": "mapmv2ihijtttu2i",
+ "seeded": true,
+ "encounters": [],
+ "settings": {},
+ "playerMap": "mapmv2ihijtttu2i"
+}

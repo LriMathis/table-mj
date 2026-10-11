@@ -1,0 +1,31 @@
+{
+ "id": "feu-follet-noir",
+ "name": "Feu follet noir",
+ "type": "Mort-vivant",
+ "cr": "2",
+ "xp": 450,
+ "ca": 19,
+ "hp": 22,
+ "hpFormula": "9d4",
+ "vitesse": "0 m, vol 15 m",
+ "size": 0.5,
+ "stats": {
+  "FOR": 1,
+  "DEX": 28,
+  "CON": 10,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "attacks": [
+  {
+   "name": "Choc",
+   "bonus": 4,
+   "damage": "2d8",
+   "type": "foudre"
+  }
+ ],
+ "traits": "**Invisibilité.** Peut devenir invisible à volonté (action).\n**Consumer la vie.** Action bonus : une créature à 0 PV à 1,50 m doit réussir CON DD 10 ou mourir ; le feu follet récupère 3d6 PV.\n**Lueur trompeuse.** Il imite la lueur verte de la lanterne de Vex pour attirer le groupe dans un piège.\n**Immunités** foudre, poison. **Résistances** acide, froid, feu, nécrotique, tonnerre.",
+ "portrait": "/data/images/f82fe237a3_monstre-feu-follet-noir.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

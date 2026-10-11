@@ -1,0 +1,37 @@
+{
+ "id": "troll",
+ "name": "Troll",
+ "type": "Géant",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 84,
+ "hpFormula": "8d10+40",
+ "vitesse": "9 m",
+ "size": 2,
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 20,
+  "INT": 7,
+  "SAG": 9,
+  "CHA": 7
+ },
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Une morsure et deux griffes.\n**Régénération.** Récupère 10 PV au début de son tour, sauf s'il a subi des dégâts d'acide ou de feu ce tour-là.",
+ "portrait": "/data/images/f5e798b416_monstre-troll.svg",
+ "notes": ""
+}

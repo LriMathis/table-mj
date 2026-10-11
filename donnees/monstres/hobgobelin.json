@@ -1,0 +1,37 @@
+{
+ "id": "hobgobelin",
+ "name": "Hobgobelin",
+ "type": "Humanoïde",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 18,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "attacks": [
+  {
+   "name": "Épée longue",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Arc long",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Avantage martial.** Une fois par tour, +2d6 dégâts si un allié est à 1,50 m de la cible.",
+ "portrait": "/data/images/d5c38f0871_monstre-hobgobelin.svg",
+ "notes": ""
+}

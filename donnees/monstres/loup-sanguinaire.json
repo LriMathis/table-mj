@@ -1,0 +1,31 @@
+{
+ "id": "loup-sanguinaire",
+ "name": "Loup sanguinaire",
+ "type": "Bête",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 37,
+ "hpFormula": "5d10+10",
+ "vitesse": "15 m",
+ "size": 2,
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Tactique de groupe.** Avantage si un allié est à 1,50 m de la cible.\n**Morsure.** FOR DD 13 ou à terre.",
+ "portrait": "/data/images/e8f1b572c6_monstre-loup-sanguinaire.svg",
+ "notes": ""
+}

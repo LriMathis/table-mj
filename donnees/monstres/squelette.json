@@ -1,0 +1,37 @@
+{
+ "id": "squelette",
+ "name": "Squelette",
+ "type": "Mort-vivant",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "attacks": [
+  {
+   "name": "Épée courte",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Arc court",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Vulnérabilité** contondant. **Immunités** poison, épuisement, empoisonné.",
+ "portrait": "/data/images/fd83d183f4_monstre-squelette.svg",
+ "notes": ""
+}

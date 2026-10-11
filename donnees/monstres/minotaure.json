@@ -1,0 +1,37 @@
+{
+ "id": "minotaure",
+ "name": "Minotaure",
+ "type": "Monstruosité",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 76,
+ "hpFormula": "9d10+27",
+ "vitesse": "12 m",
+ "size": 2,
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 16,
+  "CHA": 9
+ },
+ "attacks": [
+  {
+   "name": "Hache à deux mains",
+   "bonus": 6,
+   "damage": "2d12+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Encorner",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Charge.** S'il se déplace d'au moins 3 m en ligne droite puis encorne : +2d8 dégâts, FOR DD 14 ou repoussé de 3 m et à terre.",
+ "portrait": "/data/images/162a54eae9_monstre-minotaure.svg",
+ "notes": ""
+}

@@ -1,0 +1,37 @@
+{
+ "id": "ours-hibou",
+ "name": "Ours-hibou",
+ "type": "Monstruosité",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "size": 2,
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 7,
+   "damage": "1d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Un bec et des griffes.",
+ "portrait": "/data/images/37702d7981_monstre-ours-hibou.svg",
+ "notes": ""
+}

@@ -1,0 +1,37 @@
+{
+ "id": "orc",
+ "name": "Orc",
+ "type": "Humanoïde",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 15,
+ "hpFormula": "2d8+6",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 7,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "attacks": [
+  {
+   "name": "Hache à deux mains",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javeline",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Agressif.** Par une action bonus, se déplace de sa vitesse vers un ennemi qu'il voit.",
+ "portrait": "/data/images/2c7ef87930_monstre-orc.svg",
+ "notes": ""
+}

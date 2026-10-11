@@ -1,0 +1,31 @@
+{
+ "id": "loup-brume",
+ "name": "Loup de brume",
+ "type": "Bête (brume)",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 26,
+ "hpFormula": "4d10+4",
+ "vitesse": "12 m",
+ "size": 1,
+ "stats": {
+  "FOR": 14,
+  "DEX": 15,
+  "CON": 13,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Tactique de groupe.** Avantage si un allié est à 1,50 m de la cible.\n**Morsure.** FOR DD 12 ou la cible tombe à terre.\n**Pas de brume (recharge 5-6).** Action bonus : se téléporte de 9 m vers un espace brumeux visible.\n**Corps de brume.** Résistance aux dégâts contondants, perforants et tranchants non magiques tant qu'il est dans la brume (au MJ).",
+ "portrait": "/data/images/d3fe48a5d3_monstre-loup-brume.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

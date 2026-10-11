@@ -1,0 +1,31 @@
+{
+ "id": "spectre",
+ "name": "Spectre",
+ "type": "Mort-vivant",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "0 m, vol 15 m",
+ "size": 1,
+ "stats": {
+  "FOR": 1,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "attacks": [
+  {
+   "name": "Drain de vie",
+   "bonus": 4,
+   "damage": "3d6",
+   "type": "nécrotique"
+  }
+ ],
+ "traits": "**Drain de vie.** CON DD 10 ou PV max réduits du montant des dégâts jusqu'au prochain repos long.\n**Mouvement incorporel.** Traverse murs et créatures.\n**Âmes volées.** Ce sont des âmes prisonnières de la Lanterne Noire : la *Lanterne des Veilleurs* de Vex peut les libérer (voir le chapitre 10).\n**Sensibilité au soleil.**",
+ "portrait": "/data/images/4e38bba2f1_monstre-spectre.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

@@ -1,0 +1,37 @@
+{
+ "id": "harpie",
+ "name": "Harpie des Hurlevents",
+ "type": "Monstruosité",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "6 m, vol 12 m",
+ "size": 1,
+ "stats": {
+  "FOR": 12,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Massue",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  }
+ ],
+ "traits": "**Chant envoûtant.** Chaque humanoïde à 90 m : SAG DD 11 ou charmé et doit se déplacer vers la harpie (au sommet d'une tour, c'est *très* dangereux).\n**Attaques multiples.** Griffes + massue.",
+ "portrait": "/data/images/f19e023164_monstre-harpie.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

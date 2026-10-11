@@ -1,0 +1,31 @@
+{
+ "id": "ombre",
+ "name": "Ombre",
+ "type": "Mort-vivant",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "12 m",
+ "size": 1,
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "attacks": [
+  {
+   "name": "Drain de force",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "nécrotique"
+  }
+ ],
+ "traits": "**Furtivité dans l'ombre.** Peut se cacher par une action bonus dans la pénombre.\n**Drain de force.** La FOR de la cible diminue de 1d4 ; à 0, elle meurt.",
+ "portrait": "/data/images/39af5e3829_monstre-ombre.svg",
+ "notes": ""
+}

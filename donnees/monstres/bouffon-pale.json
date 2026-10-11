@@ -1,0 +1,43 @@
+{
+ "id": "bouffon-pale",
+ "name": "Le Bouffon Pâle",
+ "type": "Monstruosité (métamorphe)",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 60,
+ "hpFormula": "11d8+11",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 11,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "attacks": [
+  {
+   "name": "Dague courbe",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Dague courbe (2e)",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Attaque sournoise (bonus)",
+   "bonus": 0,
+   "damage": "3d6",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Le double de Kraz.** Il a pris l'apparence exacte de Kraz (voix, masque fissuré, rire). Il prétend être le *vrai* Kraz.\n**Attaques multiples.** Deux dagues. Attaque sournoise 3d6 une fois par tour avec avantage ou un allié adjacent.\n**Lecture des pensées.** Il connaît les pensées de surface d'une créature à 18 m (il imite donc très bien).\n**Boîtes à malice inversées.** Action bonus : une boîte qui explose quand un *allié de Kraz* s'approche (DEX DD 14, 2d6 perforants).\n**Faiblesse.** Il ne sait pas *pourquoi* Kraz rit. Une vraie blague de Kraz (Représentation DD 13) le fige 1 round.",
+ "portrait": "/data/images/45612e8d14_monstre-bouffon-pale.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}

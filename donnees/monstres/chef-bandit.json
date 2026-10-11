@@ -1,0 +1,37 @@
+{
+ "id": "chef-bandit",
+ "name": "Chef bandit",
+ "type": "Humanoïde",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "attacks": [
+  {
+   "name": "Cimeterre",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Dague",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux cimeterres et une dague.\n**Parade (réaction).** +2 à la CA contre une attaque au corps à corps.",
+ "portrait": "/data/images/ad45a4c918_monstre-chef-bandit.svg",
+ "notes": ""
+}

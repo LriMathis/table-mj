@@ -1,0 +1,37 @@
+{
+ "id": "ogre",
+ "name": "Ogre",
+ "type": "Géant",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "size": 2,
+ "stats": {
+  "FOR": 19,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 7
+ },
+ "attacks": [
+  {
+   "name": "Massue",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Javeline",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "traits": "",
+ "portrait": "/data/images/77cb25f010_monstre-ogre.svg",
+ "notes": ""
+}

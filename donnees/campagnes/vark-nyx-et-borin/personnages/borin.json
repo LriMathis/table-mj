@@ -1,0 +1,132 @@
+{
+ "id": "borin",
+ "name": "Borin",
+ "title": "Le Dernier Forgerune",
+ "player": "",
+ "race": "Nain des montagnes",
+ "classe": "Artificier",
+ "niveau": 2,
+ "historique": "Artisan de guilde",
+ "alignement": "Neutre Bon",
+ "taille": "Moyenne",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "saves": [
+  "CON",
+  "INT"
+ ],
+ "prof": 2,
+ "hpMax": 21,
+ "hp": 21,
+ "hpTemp": 0,
+ "ca": 16,
+ "initBonus": 0,
+ "xp": 366,
+ "hitDie": 8,
+ "hitDice": 2,
+ "skills": {
+  "Arcanes": 5,
+  "Investigation": 5,
+  "Histoire": 5,
+  "Perception": 3
+ },
+ "attacks": [
+  {
+   "name": "Marteau de forgeron",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "resources": [
+  {
+   "name": "Marteau runique",
+   "max": 1,
+   "cur": 0,
+   "reset": "long"
+  },
+  {
+   "name": "Plaque défensive",
+   "max": 1,
+   "cur": 1,
+   "reset": "court"
+  }
+ ],
+ "spellcasting": {
+  "ability": "INT",
+  "dc": 13,
+  "attack": 5,
+  "slots": {
+   "1": {
+    "max": 2,
+    "cur": 2
+   }
+  }
+ },
+ "spells": {
+  "0": [
+   "Réparation",
+   "Trait de feu"
+  ],
+  "1": [
+   "Bouclier",
+   "Soin des blessures"
+  ]
+ },
+ "features": [
+  {
+   "name": "Maître artisan",
+   "text": "Borin maîtrise les outils de forgeron et les outils de bricoleur. Il peut réparer des objets métalliques simples et fabriquer de petits objets non magiques à partir de matériaux appropriés."
+  },
+  {
+   "name": "Magie artisanale",
+   "text": "Borin utilise son Intelligence pour lancer ses sorts. Sa magie prend la forme de runes, de mécanismes et de petites constructions métalliques."
+  },
+  {
+   "name": "Résistance naine",
+   "text": "Borin possède l'avantage aux jets de sauvegarde contre le poison et la résistance aux dégâts de poison."
+  },
+  {
+   "name": "Vision dans le noir",
+   "text": "Borin voit dans l'obscurité jusqu'à 18 m, comme si la lumière était faible. Dans les ténèbres, il distingue les nuances de gris plutôt que les couleurs."
+  },
+  {
+   "name": "Connaissance de la pierre",
+   "text": "Lorsqu'il effectue un test d'Intelligence lié à l'origine d'un travail de maçonnerie, d'une construction en pierre ou d'un ouvrage souterrain, il peut ajouter deux fois son bonus de maîtrise si sa maîtrise s'applique."
+  },
+  {
+   "name": "Marteau runique",
+   "text": "Borin peut graver une rune temporaire sur son marteau pendant un repos court. Une fois avant son prochain repos long, lorsqu'il touche une créature avec ce marteau, il peut activer la rune pour infliger 1d4 dégâts de force supplémentaires."
+  },
+  {
+   "name": "Plaque défensive",
+   "text": "Une fois par repos court, Borin peut utiliser sa réaction lorsqu'un allié situé à 3 m ou moins est touché par une attaque. Il projette une petite plaque métallique magique qui confère à cet allié un bonus de +2 à la CA contre cette attaque, pouvant ainsi la faire échouer."
+  },
+  {
+   "name": "Réparation d'urgence",
+   "text": "Borin peut utiliser son action pour réparer un objet non magique cassé, si les dégâts sont mineurs et qu'il possède les outils nécessaires. Cette capacité ne permet pas de réparer instantanément un équipement détruit ou de soigner une créature."
+  }
+ ],
+ "equipment": "Marteau de forgeron, armure d'écailles, bouclier en fer runique, outils de forgeron, sacoche de composants, boîte à outils et carnet de plans métalliques.",
+ "gold": 0,
+ "conditions": [],
+ "deathSaves": {
+  "s": 0,
+  "f": 0
+ },
+ "exhaustion": 0,
+ "notes": "",
+ "sheet": "# 3. BORIN — Le Dernier Forgerune\n\n**Inspiration :** Ornn — LoL\n**Race :** Nain des montagnes\n**Classe :** Artificier — Niveau 1\n**Historique :** Artisan de guilde\n**Alignement :** Neutre Bon\n**Taille :** Moyenne\n**Vitesse :** 7,50 m\n\n## CARACTÉRISTIQUES\n* **FOR 14** (+2)\n* **DEX 10** (+0)\n* **CON 16** (+3)\n* **INT 16** (+3)\n* **SAG 12** (+1)\n* **CHA 8** (-1)\n\n**PV :** 11\n**CA :** 16\n**Initiative :** +0\n**Bonus de maîtrise :** +2\n\n## COMPÉTENCES\nArcanes +5, Investigation +5, Histoire +5, Perception +3.\n\n## ÉQUIPEMENT\nMarteau de forgeron, armure d'écailles, bouclier en fer runique, outils de forgeron, sacoche de composants, boîte à outils et carnet de plans métalliques.\n\n## CAPACITÉS PRINCIPALES\n\n**Maître artisan :** Borin maîtrise les outils de forgeron et les outils de bricoleur. Il peut réparer des objets métalliques simples et fabriquer de petits objets non magiques à partir de matériaux appropriés.\n\n**Magie artisanale :** Borin utilise son Intelligence pour lancer ses sorts. Sa magie prend la forme de runes, de mécanismes et de petites constructions métalliques.\n\n**Résistance naine :** Borin possède l'avantage aux jets de sauvegarde contre le poison et la résistance aux dégâts de poison.\n\n**Vision dans le noir :** Borin voit dans l'obscurité jusqu'à 18 m, comme si la lumière était faible. Dans les ténèbres, il distingue les nuances de gris plutôt que les couleurs.\n\n**Connaissance de la pierre :** lorsqu'il effectue un test d'Intelligence lié à l'origine d'un travail de maçonnerie, d'une construction en pierre ou d'un ouvrage souterrain, il peut ajouter deux fois son bonus de maîtrise si sa maîtrise s'applique.\n\n## SORTS\n\nTours de magie :\n- Réparation\n- Trait de feu\n\nNiveau 1 :\n- Bouclier\n- Soin des blessures\n\nEmplacements de sorts : 2 emplacements de niveau 1 par repos long.\n\nNote de règle : pour un artificier officiel de D&D 5e, les sorts et capacités exacts dépendent de la version utilisée. Borin est ici conçu comme un personnage débutant inspiré de l'artificier, avec quelques adaptations pour le rendre jouable dès le niveau 1.\n\n## TECHNIQUES SPÉCIALES\n\n**Marteau runique :** Borin peut graver une rune temporaire sur son marteau pendant un repos court. Une fois avant son prochain repos long, lorsqu'il touche une créature avec ce marteau, il peut activer la rune pour infliger 1d4 dégâts de force supplémentaires.\n\n**Plaque défensive :** une fois par repos court, Borin peut utiliser sa réaction lorsqu'un allié situé à 3 m ou moins est touché par une attaque. Il projette une petite plaque métallique magique qui confère à cet allié un bonus de +2 à la CA contre cette attaque, pouvant ainsi la faire échouer.\n\n**Réparation d'urgence :** Borin peut utiliser son action pour réparer un objet non magique cassé, si les dégâts sont mineurs et qu'il possède les outils nécessaires. Cette capacité ne permet pas de réparer instantanément un équipement détruit ou de soigner une créature.\n\n## STYLE DE JEU\nBorin est un artisan combattant capable de se défendre tout en apportant une aide technique au groupe. Il privilégie la préparation, les améliorations d'équipement et la protection de ses alliés. Il est moins mobile que les autres personnages, mais sa robustesse et son intelligence lui permettent de trouver des solutions inattendues.\n\n## PERSONNALITÉ\nBorin est bourru, méthodique et extrêmement fier de son travail. Il considère qu'un objet bien fabriqué vaut davantage qu'un discours héroïque et supporte mal que quelqu'un maltraite une arme ou un outil.\n\n« Si ça casse, c'est que c'était mal conçu. Si ça ne se répare pas, c'est que tu n'as pas encore trouvé comment faire. »\n\n## PARTICULARITÉ\nBorin transporte un morceau de métal noir qu'il a découvert dans les ruines d'une ancienne forge. Il est persuadé qu'il s'agit d'un fragment d'une arme légendaire, mais aucune chaleur ni aucun outil ne semblent pouvoir le modifier.\n\n\n## RÉSUMÉ DES PERSONNAGES\n\nVark — Paladin : combattant protecteur. Point fort : résistance et soutien. Point faible : mobilité limitée.\n\nNyx — Ensorceleuse : magie et tromperie. Point fort : dégâts magiques et défense réactive. Point faible : peu de PV.\n\nBorin — Artificier : artisan combattant. Point fort : intelligence et polyvalence. Point faible : peu de mobilité.\n\nNote générale : ces personnages sont des créations maison inspirées de D&D 5e. Certaines capacités sont adaptées pour le jeu et ne correspondent pas exactement aux règles officielles. Pour une partie avec un MJ, harmoniser les capacités spéciales et les sorts avec la version de D&D utilisée.",
+ "portrait": "/data/images/perso_borin.svg",
+ "color": "#8c6a3c",
+ "source": "3_fiches_personnages_niveau_1.txt",
+ "inspiration": "Ornn — LoL",
+ "dead": false
+}

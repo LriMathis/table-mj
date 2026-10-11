@@ -1,0 +1,37 @@
+{
+ "id": "premier-cadavre",
+ "name": "Le Premier Cadavre",
+ "type": "Mort-vivant (ancien)",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 180,
+ "hpFormula": "19d10+76",
+ "vitesse": "0 m",
+ "size": 4,
+ "stats": {
+  "FOR": 24,
+  "DEX": 6,
+  "CON": 18,
+  "INT": 26,
+  "SAG": 24,
+  "CHA": 22
+ },
+ "attacks": [
+  {
+   "name": "Main d'os",
+   "bonus": 10,
+   "damage": "3d10+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Souvenir de mort (36 m)",
+   "bonus": 0,
+   "damage": "6d10",
+   "type": "psychique (SAG DD 20, moitié)"
+  }
+ ],
+ "traits": "**Ne combat jamais**, sauf si on profane son trône. Il est le *cinquième sceau*, volontaire.\n**Mémoire des morts.** Il sait tout ce que chaque mort a emporté dans la tombe.\n**Une question.** Il accorde une question à chacun de ceux qui ont rallumé la lumière des Veilleurs (les héros), une seule fois.\n**Sa voix** est un chœur de milliers de voix chuchotées.",
+ "portrait": "/data/images/41aaa34fff_monstre-premier-cadavre.svg",
+ "notes": "Campagne : La Lanterne Noire"
+}
