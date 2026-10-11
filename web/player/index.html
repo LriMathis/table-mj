@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#16130f">
+<title>GM Table — Players</title>
+<link rel="icon" type="image/svg+xml" href="/shared/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="/shared/style.css">
+<link rel="stylesheet" href="/player/player.css">
+</head>
+<body class="player">
+<div id="stage">
+  <div id="pv" class="map-vp"></div>
+  <div id="topbar">
+    <div id="camp-title"></div>
+    <div id="round" class="hidden"></div>
+    <div id="ini"></div>
+  </div>
+  <div id="turn" class="hidden" data-t><i class="ico i-combat"></i> It's your turn!</div>
+  <div id="feed"></div>
+  <div id="hud"><button id="h-me" title="Find me" data-t><i class="ico i-target"></i></button><button id="h-in" title="Zoom in" data-t>＋</button><button id="h-out" title="Zoom out" data-t>－</button><button id="h-fit" title="Show the whole map" data-t>⤢</button><button id="h-full" title="Full screen" data-t>⛶</button><button id="h-theme" title="Appearance and language" data-t><i class="ico i-palette"></i></button><button id="h-panel" title="Show / hide the panel" data-t>☰</button></div>
+</div>
+<aside id="panel">
+  <div id="me-head"></div>
+  <nav id="ptabs">
+    <button data-pt="sheet"><i class="ico" style="--i:url(/shared/icons/sheet.svg)"></i><span data-t>Sheet</span></button>
+    <button data-pt="actions"><i class="ico" style="--i:url(/shared/icons/actions.svg)"></i><span data-t>Actions</span></button>
+    <button data-pt="spells"><i class="ico" style="--i:url(/shared/icons/spells.svg)"></i><span data-t>Spells</span></button>
+    <button data-pt="dice"><i class="ico" style="--i:url(/shared/icons/dice.svg)"></i><span data-t>Dice</span></button>
+    <button data-pt="journal"><i class="ico" style="--i:url(/shared/icons/journal.svg)"></i><span data-t>Journal</span></button>
+    <button data-pt="party"><i class="ico" style="--i:url(/shared/icons/party.svg)"></i><span data-t>Party</span></button>
+  </nav>
+  <div id="pbody"></div>
+</aside>
+<div id="result" class="hidden"></div>
+<div id="pick" class="hidden"></div>
+<div id="modal" class="hidden"><div class="modal-box"></div></div>
+<div id="toasts"></div>
+<div id="lbl" class="hidden"></div>
+<script src="/shared/i18n-fr.js"></script>
+<script src="/shared/i18n.js"></script>
+<script>translatePage();</script>
+<script src="/shared/core.js"></script>
+<script src="/shared/spells.js"></script>
+<script src="/shared/mapview.js"></script>
+<script src="/shared/classes.js"></script>
+<script src="/shared/levelup.js"></script>
+<script src="/player/player.js"></script>
+</body>
+</html>
