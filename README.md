@@ -134,3 +134,5 @@ assets/                  original portraits and images
 - Icons and monster portraits: [game-icons.net](https://game-icons.net) (Lorc, Delapouite, Skoll, Caro Asercion, DarkZaitzev, Carl Olsen), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 - Spells: names and summaries from [AideDD](https://www.aidedd.org), mechanics from the SRD 5.1 ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
 - Remote play: [cloudflared](https://github.com/cloudflare/cloudflared) (Cloudflare Quick Tunnels).
+- Bestiary entries and monster artwork marked with a 5e.tools source: stat blocks and illustrations from official Dungeons & Dragons books, © Wizards of the Coast, gathered via [5e.tools](https://5e.tools); unofficial fan use, not endorsed by Wizards of the Coast.
+- Ground textures of the generated maps: [ambientCG](https://ambientcg.com) (CC0). Maps built with [Forgotten Adventures](https://www.forgotten-adventures.net) assets are kept out of this repository (personal-use licence).
