@@ -1,0 +1,42 @@
+{
+ "id": "yochlol",
+ "name": "Yochlol",
+ "type": "Fiélon (démon, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 15,
+  "CHA": 15
+ },
+ "saves": "DEX +6, INT +5, SAG +6, CHA +6",
+ "skills": "Perspicacité +6, Supercherie +10",
+ "resistances": "feu, foudre, froid ; contondants, perforants et tranchants infligés par des attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision dans le noir 36 m, Perception passive 12",
+ "languages": "abyssal, commun des profondeurs, elfique",
+ "traits": "**Incantation innée.** La caractéristique d'incantation de la yochlol est le Charisme (DD du jet de sauvegarde contre les sorts 14). La yochlol peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *détection des pensées, toile d'araignée*\n- 1/jour chacun : *dominer un humanoïde*\n**Marche dans les toiles.** La yochlol ignore les restrictions de déplacement imposées par les toiles d'araignée.\n**Métamorphe.** La yochlol peut utiliser son action pour se métamorphoser en une drow ou une araignée géante, ou pour reprendre sa véritable forme. Ses statistiques restent les mêmes, quelle que soit la forme adoptée. Ses objets portés ou transportés ne sont pas transformés. La yochlol reprend sa forme véritable si elle meurt.\n**Pattes d'araignée.** La yochlol peut escalader les surfaces difficiles, y compris les plafonds, la tête en bas, sans faire de test de caractéristique.\n**Résistance à la magie.** La yochlol est avantagée lors des jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** La yochlol effectue deux attaques au corps à corps.\n**Coup (morsure sous forme d'araignée).** *Attaque d'arme au corps à corps :* +6 pour toucher, allonge 1,50 m (3 m sous forme de démon), une cible. *Touché :* 5 (1d6+2) dégâts contondants (perforants sous forme d'araignée) plus 21 (6d6) dégâts de poison.\n**Forme de brume.** La yochlol se transforme en brume toxique ou reprend sa forme véritable. L'équipement transporté ou revêtu est également transformé. Elle reprend sa forme véritable si elle meurt. Sous forme de brume, la yochlol est neutralisée et ne peut plus parler. Elle a une vitesse en vol de 9 mètres, elle peut effectuer des vols stationnaires et traverser les emplacements qui ne sont pas complètement hermétiques. Elle est avantagée lors des jets de sauvegarde de Force, Dextérité et Constitution et elle est immunisée contre les dégâts non magiques. Sous forme de brume, la yochlol peut entrer dans un emplacement occupé par une créature et s'y arrêter. Chaque fois qu'une créature comme son tour avec la yochlol dans son emplacement, elle doit réussir un jet de sauvegarde de Constitution DD 14 pour ne pas être empoisonnée jusqu'au début de son prochain tour. La cible est neutralisée tant qu'elle est empoisonnée de cette façon.",
+ "portrait": "/data/images/2b56d32cd0_monstre-yochlol.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 60 · image : Manuel des monstres p. 59",
+ "attacks": [
+  {
+   "name": "Coup (morsure sous forme d'araignée)",
+   "bonus": 6,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ]
+}

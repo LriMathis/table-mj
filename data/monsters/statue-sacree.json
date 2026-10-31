@@ -1,0 +1,49 @@
+{
+ "id": "statue-sacree",
+ "name": "Sacred Statue",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "comme l'alignement de l'eidolon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 19,
+ "hp": 95,
+ "hpFormula": "10d10+40",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 8,
+  "CON": 19,
+  "INT": 14,
+  "SAG": 19,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "les langues que l'eidolon connaissait dans la vie",
+ "traits": "**Fausse apparence.** Si la statue est immobile au début du combat, elle a un avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte de la statue, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que la statue n'est pas un objet.\n**Habitant fantôme.** L'Eidolon qui entre dans la statue reste à l'intérieur jusqu'à ce que la statue tombe à 0 points de vie, l'éidolon utilise un action bonus pour sortir de la statue, ou l'éidolon est tourné ou forcé par un effet tel que le sort Dissipation du mal et du bien. Lorsque l'eidolon quitte la statue, elle apparaît dans un espace inoccupé au sein de 1,50 m de la statue.\n**Inerte.** Sans Eidolon à l'intérieur, la statue est un objet.\n**Nature inhabituelle.** La statue n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** La statue fait deux attaques de Chelem ou de Rock.\n**Clamer.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 43 (6d12 + 4) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +8 au toucher, portée 18 m / 72 m, une cible. Touché : 37 (6d10 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 8,
+   "damage": "6d12+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 8,
+   "damage": "6d10+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b0db0d3808_monstre-statue-sacree.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Statue sacrée",
+ "caNote": "armure naturelle",
+ "saves": "SAG +8",
+ "resistances": "acide, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

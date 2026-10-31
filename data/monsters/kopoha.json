@@ -1,0 +1,42 @@
+{
+ "id": "kopoha",
+ "name": "Kopoha",
+ "type": "Céleste (titan)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique bon",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 22,
+ "hp": 313,
+ "hpFormula": "19d12+190",
+ "vitesse": "15 m, vol 15 m, nage 15 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 21,
+  "CON": 30,
+  "INT": 21,
+  "SAG": 22,
+  "CHA": 27
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 16",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (3/jour).** Si Kopoha échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Kopoha a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les armes de Kopoha sont magiques.\n**Découpe intérieure.** L'innée de Kopoha caractéristique d'incantation est Charisme (save spell DD 23, +15 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Restauration supérieure, Passage sans trace, Respiration aquatique, Marche sur l'eau\n- 1/jour chacun : Communion, Dissipation du mal et du bien, Tremblement de terre, Tempête de feu, Changement de plan (autoseulement)",
+ "actionsText": "**Bolt.** Attaque de sort à distance : +15 au toucher, portée 180 m, une cible. Touché : 24 (7d6) dégâts de l'un des types suivants (le choix de l'empyréen): acide, froid, feu, force, foudre, rayonnant, ou tonnerre.",
+ "attacks": [
+  {
+   "name": "Bolt",
+   "bonus": 15,
+   "damage": "7d6",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/1369e4a3e8_monstre-kopoha.webp",
+ "notes": "",
+ "source": "Turn of Fortune's Wheel (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +17, INT +12, SAG +13, CHA +15",
+ "skills": "Perspicacité +13, Persuasion +15",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, kopoha peut entreprendre l'une des actions ci-après.\n**Attaque.** Kopoha fait une attaque.\n**Bolster.** Kopoha renforce toutes les créatures non hostiles au sein de 36 m jusqu'à la fin de son prochain tour. Les créatures boulonnées ne peuvent pas être charmé ou effrayé, et elles gagnent un avantage sur tests de caractéristique et jet de sauvegarde jusqu'à la fin du prochain tour de Kopoha.\n**Grève de tremblement (coûts 2 actions).** Kopoha frappe le sol avec sa maul, déclenchant un tremblement de terre. Toutes les autres créatures sur le terrain dans 18 m de Kopoha doivent réussir sur un DD 25 jet de sauvegarde de Force ou être à terre."
+}

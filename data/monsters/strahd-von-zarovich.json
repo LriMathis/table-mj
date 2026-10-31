@@ -1,0 +1,42 @@
+{
+ "id": "strahd-von-zarovich",
+ "name": "Strahd von Zarovich",
+ "type": "Mort-vivant (vampire)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 16,
+ "hp": 204,
+ "hpFormula": "24d8+96",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 22",
+ "languages": "abyssal, commun, draconique, elfique, géant, infernal",
+ "traits": "**Restauration de lord noir.** Si Strahd meurt, il ressuscite avec toute sa points de vie en 1d10 semaines quelque part à Barovia.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Strahd échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Échappement de la fausseté.** Si Strahd tombe à 0 points de vie en dehors de son lieu de repos, il utilise Shape-Shift pour devenir brume (aucune action requise). S'il ne peut pas utiliser Shape-Shift, il est détruit. Bien que Strahd ait 0 points de vie sous forme de brouillard, il ne peut pas revenir à sa forme de vampire, et il doit atteindre son lieu de repos dans les 2 heures ou être détruit. Une fois dans son lieu de repos, Strahd revient à sa forme vampire et a l'état paralysé jusqu'à ce qu'il retrouve n'importe quel points de vie, et il retrouve 1 points de vie après avoir passé 1 heure là-bas.\n**Escalade des araignées.** Strahd peut monter des surfaces difficiles, y compris des plafonds, sans faire de test de caractéristique.\n**Faiblesse du vampire.** Strahd présente ces faiblesses :\n- **Interdiction** Strahd ne peut pas entrer dans une résidence sans une invitation d'un occupant.\n- **Eau courante** Strahd prend 20 dégâts d'acide s'il finit son tour dans l'eau courante.\n- **Attrapez le cœur** Si une arme qui traite dégâts perforants est jetée dans le cœur de Strahd alors que Strahd a l'état neutralisé dans son lieu de repos, Strahd a l'état paralysé jusqu'à ce que l'arme soit enlevée.\n- **Lumière solaire** Strahd prend 20 dégâts radiants s'il commence son tour dans la lumière du soleil. En plein soleil, il a un désavantage sur jets d'attaque et tests de caractéristique.\n**Commandement du comte.** Strahd castes Injonction (version de niveau 2), ne nécessitant aucun composant de sort et utilisant le même caractéristique d'incantation que Spellcasting.",
+ "actionsText": "**Multiattaques.** Strahd fait deux attaques de la grève de la mort. Il peut remplacer l'une de ces attaques par une utilisation de (A) Bite ou (B) Spellcasting pour lancer Boule de feu si disponible.\n**Grève de la mort.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts tranchants plus 14 (4d6) dégâts nécrotiques. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 14) de l'une des deux mains.\n**Bite (Forme de base ou de vampire seulement).** Jet de sauvegarde de Constitution : DD 17, une créature dans 1,50 m qui est prêt ou qui a l'état agrippé, neutralisé, ou entravé. Échec : 7 (1d6 + 4) dégâts perforants plus 10 (3d6) dégâts nécrotiques. La maximum de points de vie de la cible diminue d'un montant égal à la dégâts nécrotiques prise, et Strahd retrouve la points de vie égale à ce montant. Un Humanoïde réduit à 0 points de vie par ce dégâts augmente la nuit suivante comme un Vampire Spawn sous le contrôle de Strahd, à moins que l'Humanoïde soit rétabli à la vie ou son corps est détruit.\n**Détection orthographique.** Strahd lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection des pensées, Nappe de brouillard, Main de mage\n- 1/jour chacun : Invisibilité supérieure, Métamorphose, Scrutation\n- 2/jour chacun : Animation des morts, Boule de feu, Bourrasque, Image miroir, Antidétection",
+ "attacks": [
+  {
+   "name": "Grève de la mort",
+   "bonus": 9,
+   "damage": "1d8+4",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/7d734fcfcb_monstre-strahd-von-zarovich.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "DEX +9, SAG +7, CHA +9",
+ "skills": "Arcanes +15, Perception +12, Religion +10, Discrétion +14",
+ "resistances": "nécrotique",
+ "bonusActions": "**Forme-filtre.** Si Strahd n'est pas dans le soleil ou l'eau courante, il forme une chauve-souris minuscule (Speed 1,50 m, Fly Speed 9 m), un loup moyen (Speed 12 m) ou un nuage moyen de brouillard (Speed 1,50 m, Fly Speed 6 m [hover]), ou il retourne à sa forme vampire. Tout ce qu'il porte se transforme avec lui.\nAlors qu'il est en forme de chauve-souris ou de loup, Strahd ne peut pas parler. Ses statistiques de jeu, autres que sa taille et Speed, sont inchangées.\nAlors que sous forme de brouillard, Strahd ne peut pas prendre d'actions, parler, ou manipuler des objets. Il est sans poids et peut entrer dans l'espace d'un ennemi et s'arrêter là. Si l'air peut passer dans un espace, Strahd peut le faire, mais il ne peut pas passer dans le liquide. Strahd a la résistance à tous les dégâts, sauf les dégâts qu'il prend de la lumière du soleil.\n**Charme.** Strahd lance Charme-personne, ne nécessitant aucun composant de sort et utilisant le même caractéristique d'incantation que Spellcasting. Lorsque le sort est lancé de cette façon, sa durée est de 24 heures, et la cible charmé est un destinataire volontaire de la Bite de Strahd, dont les dégâts ne mettent pas fin au sort. Lorsque le sort se termine, la cible ignore que c'était charmé par Strahd.\n- À volonté : Charme-personne",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, strahd von zarovich peut entreprendre l'une des actions ci-après.\n**Grève.** Strahd se déplace jusqu'à la moitié de sa vitesse, et il fait une attaque de la grève de la mort."
+}

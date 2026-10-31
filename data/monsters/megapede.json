@@ -1,0 +1,40 @@
+{
+ "id": "megapede",
+ "name": "Megapede",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 175,
+ "hpFormula": "13d20+39",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La mégapede fait une attaque Bite et utilise soit Life Drain ou psychique Bomb.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 6 m, une cible. Touché : 22 (3d10 + 6) dégâts perforants plus 22 (5d8) dégâts de poison.\n**Drain de vie.** La mégapede draine magiquement l'énergie de la vie d'autres créatures à proximité. Chaque créature dans 4,50 m de la mégapede doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 16 (3d10) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Bombe psychique.** La mégapede cible une créature qu'elle peut voir en 18 m de lui-même. La cible doit faire un DD 15 jet de sauvegarde de Sagesse. Lors d'une sauvegarde ratée, la cible prend 22 (5d8) dégâts psychiques et est neutralisé jusqu'à la fin de son prochain tour. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts et n'est pas neutralisé.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "3d10+6",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/eca841305a_monstre-megapede.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +7, SAG +4",
+ "skills": "Perception +8, Discrétion +4"
+}

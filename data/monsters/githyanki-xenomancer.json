@@ -1,0 +1,46 @@
+{
+ "id": "githyanki-xenomancer",
+ "name": "Githyanki Xenomancer",
+ "type": "Humanoïde (druide, Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 14,
+ "hp": 157,
+ "hpFormula": "21d8+63",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 18,
+  "CON": 17,
+  "INT": 15,
+  "SAG": 18,
+  "CHA": 13
+ },
+ "senses": "Perception passive 18",
+ "languages": "Gith plus quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le githyanki fait trois attaques de l'état-major, trois attaques de Bolt Telekinetic, ou une combinaison de ces attaques.\n**Personnel.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants, ou 6 (1d8 + 2) dégâts contondants lorsqu'il est utilisé avec deux mains, plus 14 (4d6) dégâts psychiques.\n**Bolt télécinétique.** Attaque de sort à distance : +8 au toucher, portée 18 m, une cible. Touché : 20 (3d10 + 4) dégâts de force.\n**Coulisse (Psioniques).** Le githyanki lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Druidisme, Lumière, Main de mage (la main est invisible)\n- 1/jour chacun : Domination de monstre, Cage de force, Changement de plan, Télékinésie\n- 2/jour chacun : Invisibilité (autoseulement), Passage sans trace (autoseulement)",
+ "attacks": [
+  {
+   "name": "Personnel",
+   "bonus": 6,
+   "damage": "1d6+2",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "Bolt télécinétique",
+   "bonus": 8,
+   "damage": "3d10+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/a8741d137f_monstre-githyanki-xenomancer.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "saves": "DEX +8, CON +7, SAG +8",
+ "skills": "Dressage +8, Nature +6, Perception +8, Survie +8",
+ "bonusActions": "**Étape astrale (Recharge 4-6).** Les téléports githyanki, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

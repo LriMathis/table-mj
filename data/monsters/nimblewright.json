@@ -1,0 +1,49 @@
+{
+ "id": "nimblewright",
+ "name": "Nimblewright",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 18,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 17,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "comprend une langue connue de son créateur mais ne peut pas parler",
+ "traits": "**Résistance magique.** Le nimblewright a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes de la nimblewright sont magiques.\n**Réparable.** Tant qu'il reste au moins 1 points de vie, le nimblewright retrouve 1 points de vie lorsqu'un sort Réparation est lancé dessus.\n**C'est sûr..** Le nimblewright a un avantage sur Force et jet de sauvegarde de Dextérité fait contre les effets qui le frapperaient à terre.",
+ "actionsText": "**Multiattaques.** Le nimblewright fait trois attaques : deux avec son violeur et une avec son poignard.\n**Violeur.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants.\n**Déclencheur.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts perforants. Ou attaque d'armes rangées : +6 au toucher, portée 6/18 m., une cible. Touché : 6 (1d4 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f83f1ed0ec_monstre-nimblewright.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6",
+ "skills": "Acrobaties +8, Perception +2",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "épuisement, effrayé, pétrifié, empoisonné",
+ "reactions": "**Parry.** Le nimblewright ajoute 2 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, le nimblewright doit voir l'attaquant et utiliser une arme de mêlée."
+}

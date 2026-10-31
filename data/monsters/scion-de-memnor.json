@@ -1,0 +1,57 @@
+{
+ "id": "scion-de-memnor",
+ "name": "Scion of Memnor",
+ "type": "Géant (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique neutre",
+ "cr": "26",
+ "xp": 90000,
+ "ca": 20,
+ "hp": 656,
+ "hpFormula": "32d20+320",
+ "vitesse": "18 m, vol 24 m (vol stationnaire)",
+ "stats": {
+  "FOR": 30,
+  "DEX": 18,
+  "CON": 30,
+  "INT": 24,
+  "SAG": 22,
+  "CHA": 26
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 24",
+ "languages": "géant, primordial",
+ "traits": "**Volée.** Le scion ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.\n**Résistance légendaire (6/jour).** Si le scion échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le scion a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le scion inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le scion fait une attaque en utilisant Cloud Morningstar ou Wind Javelin, ainsi que deux attaques Slam.\n**Nuage d'étoile du matin.** Attaque d'arme au corps à corps : +18 au toucher, allonge 9 m, une cible. Touché : 32 (4d10 + 10) dégâts de force plus 22 (4d10) dégâts de tonnerre.\n**Javelin du vent.** Attaque d'arme à distance : +18 au toucher, portée 36/144 m., une cible. Touché : 42 (5d12 + 10) dégâts de tonnerre, et la cible doit réussir sur un DD 26 jet de sauvegarde de Force ou avoir l'état à terre.\n**Clamer.** Attaque d'arme au corps à corps : +18 au toucher, allonge 6 m, une cible. Touché : 28 (4d8 + 10) dégâts de force.\n**Thunderous Vortex (Recharge 5-6).** Le scion crée magiquement un vortex de vent dans une sphère 18 m -radius centrée sur un point qu'il peut voir en lui-même. Chaque créature dans la sphère doit réussir sur un DD 24 jet de sauvegarde de Force ou être tirée tout droit vers le centre de la sphère, se terminant dans un espace inoccupé le plus près possible du centre. Puis une explosion de tonnerre éclate dans une sphère 9 m -radius centrée sur le même point. Chaque créature dans cette zone prend 52 (8d12) dégâts de tonnerre et doit réussir sur un DD 24 jet de sauvegarde de Constitution ou avoir l'état étourdi jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Nuage d'étoile du matin",
+   "bonus": 18,
+   "damage": "4d10+10",
+   "type": "force + tonnerre"
+  },
+  {
+   "name": "Javelin du vent",
+   "bonus": 18,
+   "damage": "5d12+10",
+   "type": "tonnerre"
+  },
+  {
+   "name": "Clamer",
+   "bonus": 18,
+   "damage": "4d8+10",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/fa1c771d52_monstre-scion-de-memnor.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Scion de Memnor",
+ "caNote": "armure naturelle",
+ "saves": "DEX +12, CHA +16",
+ "skills": "Arcanes +15, Perception +14",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "tonnerre",
+ "conditionImmunities": "charmé, effrayé, paralysé, pétrifié",
+ "bonusActions": "**Le brouillard de la perception.** Le scion évoque un nuage magique qui remplit une sphère 9 m -radius centrée sur un point qu'il peut voir en lui-même. Chaque créature dans cette zone doit faire un DD 24 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, une créature a l'état charmé jusqu'à la fin de son prochain tour. Bien qu'il ait l'état charmé, la créature doit utiliser son action pour faire une attaque de mêlée contre une créature autre que lui-même du choix de la scion. Si aucune créature n'est à sa portée, la créature affectée attaque une créature du choix du scion, en lançant son arme si nécessaire. Lors d'un jet de sauvegarde réussi, une créature est à l'abri du brouillard de Tromperie du scion pendant les 24 prochaines heures."
+}

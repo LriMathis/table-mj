@@ -1,0 +1,46 @@
+{
+ "id": "replique-quadrone",
+ "name": "Replica Quadrone",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "Modron, peut comprendre Commun mais ne parle que des réponses préprogrammées",
+ "traits": "**Esprit axiomatique.** Le quadron ne peut être contraint d'agir d'une manière contraire à sa nature ou à ses instructions.\n**Démantèlement.** Si la réplique du quadrone meurt, son corps tombe dans un tas de parties (géres, plaques, vis et fils), laissant derrière ses armes et tout ce qu'il transportait.",
+ "actionsText": "**Multiattaques.** Le quadrone fait deux coups de poing ou quatre coups de feu.\n**Fist.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts contondants.\n**Saubèche.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ba3c618199_monstre-replique-quadrone.webp",
+ "notes": "",
+ "source": "The Orrery of the Wanderer (5e.tools, traduction automatique)",
+ "aka": "Réplique quadrone",
+ "caNote": "armure naturelle",
+ "skills": "Perception +2"
+}

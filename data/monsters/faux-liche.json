@@ -1,0 +1,44 @@
+{
+ "id": "faux-liche",
+ "name": "False Lich",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 18,
+ "hp": 199,
+ "hpFormula": "21d8+105",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 20,
+  "INT": 25,
+  "SAG": 19,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 14",
+ "languages": "abyssal, commun, draconique, nain, elfique, géant, infernal, primordial, commun des profondeurs",
+ "traits": "**Résistance légendaire (3/jour).** Si le faux lich échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le faux lich a un avantage sur jet de sauvegarde contre les sorts et les effets magiques.",
+ "actionsText": "**Multiattaques.** Le faux lich fait deux attaques de Death Rend et utilise Bloodcurdling Lament si disponible.\n**Décès Rend.** Attaque de sort au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 23 (3d10 + 7) dégâts nécrotiques.\n**Lamentage de la circulation sanguine (Recharge 5-6).** Le faux lich émet un hibou chargé d'énergie maligne. Chaque créature dans 9 m de la fausse lich doit réussir sur une DD 22 jet de sauvegarde de Sagesse ou avoir l'état effrayé pendant 1 minute. Alors qu'effrayé de cette façon, une créature a également l'état inconscient. Une créature affectée peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Le faux lich lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 22) :\n- À volonté : Détection de la magie, Vol, Main de mage, Prestidigitation\n- 1/jour chacun : Globe d'invulnérabilité, Immobilisation de monstre\n- 3/jour chacun : Dissipation de la magie, Invisibilité (autoseulement)",
+ "attacks": [
+  {
+   "name": "Décès Rend",
+   "bonus": 14,
+   "damage": "3d10+7",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/426136d5b0_monstre-faux-liche.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Faux liche",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, INT +14, SAG +11, CHA +9",
+ "immunities": "nécrotique, poison, psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, étourdi",
+ "bonusActions": "**Siphon de l'âme.** Le faux lich cible une créature il peut voir en lui-même 36 m. La cible doit faire un DD 22 jet de sauvegarde de Charisme ; si la cible a l'état inconscient, elle a un désavantage sur ce jet de sauvegarde. La cible prend 21 (6d6) dégâts de force sur une sauvegarde ratée ou la moitié de ces dégâts sur une sauvegarde réussie. Le faux lich récupère alors un nombre de points de vie égal à la quantité de dégâts de force prise.\nSi ce dégâts réduit la cible à 0 points de vie, la cible meurt immédiatement, son corps disparaît, et son âme est piégée à l'intérieur d'un des joyaux de l'âme dans le crâne de faux lich. Après 24 heures, la gemme transfère l'âme au créateur du faux lich.\nLorsque le faux lich est réduit à 0 points de vie, il est détruit et désintégré, laissant derrière les pierres précieuses. Crushing une gemme libère toutes les âmes piégées à l'intérieur, auquel point le corps de l'âme se reforme dans un espace inoccupé le plus proche de la gemme et dans le même état que celui où son âme était piégée.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, faux liche peut entreprendre l'une des actions ci-après.\n**Téléportation épineuse.** Le faux lich, avec tout ce qu'il porte ou transporte, téléporte dans un espace inoccupé qu'il peut voir en lui-même en 18 m. Il fait alors une attaque de la Rende de la Mort si possible.\n**Lancer un sort (coûts 2 actions).** Le faux lich utilise Spellcasting."
+}

@@ -1,0 +1,45 @@
+{
+ "id": "ishel",
+ "name": "Ishel",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "hp": 24,
+ "hpFormula": "3d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Ishel a un avantage sur jet de sauvegarde contre le fait d'être charmé, et la magie ne peut pas endormir Ishel.\n**Sensibilité à la lumière du soleil.** Alors qu'en plein soleil, Ishel a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Découpe intérieure.** Le caractéristique d'incantation d'Ishel est Charisme (save DD 11). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Acrobatie des mains.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné pendant 1 heure. Si le jet de sauvegarde échoue par 5 ou plus, la cible est également inconscient alors qu'empoisonné de cette façon. La cible se réveille si elle prend des dégâts ou si une autre créature prend une action pour la secouer.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/16dde8146f_monstre-ishel.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne",
+ "skills": "Perception +2, Discrétion +4"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "rak-tulkhesh",
+ "name": "Rak Tulkhesh",
+ "type": "Fiélon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "28",
+ "xp": 120000,
+ "ca": 23,
+ "hp": 478,
+ "hpFormula": "33d12+264",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 19,
+  "CON": 27,
+  "INT": 21,
+  "SAG": 22,
+  "CHA": 26
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 24",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Criticale.** Rak Tulkhesh marque un coup critique sur un rouleau de 19 ou 20 et roule les dés de dégâts trois fois, au lieu de deux fois.\n**Résistance légendaire (3/jour).** Si Rak Tulkhesh échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Rak Tulkhesh a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Whirlwind des armes.** Une aura magique d'armes entoure Rak Tulkhesh dans un rayon de 3 m. Au début de chacun de ses tours, toute autre créature dans l'aura prend 14 (4d6) dégâts de force.\n**Découpe intérieure.** caractéristique d'incantation de Rak Tulkhesh est Charisme (spell save DD 24). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection des pensées, Dissipation de la magie, Esprits gardiens\n- 1/jour chacun : Châtiment du ban, Châtiment aveuglant, Châtiment débilitant",
+ "actionsText": "**Multiattaques.** Rak Tulkhesh fait quatre attaques d'armes.\n**Arme à mélèze frêlée.** Attaque d'arme au corps à corps : +17 au toucher, allonge 3 m, une cible. Touché : 28 (3d12 + 9) dégâts de force.\n**Arme à portée de main.** Attaque d'arme à distance : +12 au toucher, portée 45/180 m., une cible. Touché : 17 (3d8 + 4) dégâts de force.\n**Modifier la forme.** Rak Tulkhesh se polymorphe magiquement en humanoïde, bête, ou géant qui a une cote de défi pas plus élevé que la sienne, ou de nouveau dans sa forme réelle. Il revient à sa vraie forme s'il meurt. Tout équipement qu'il porte ou qu'il porte est absorbé ou porté par le nouveau formulaire (son choix).\nDans une nouvelle forme, Rak Tulkhesh conserve son alignement, points de vie, dés de vie, la capacité de parler, les compétences, la résistance légendaire, et Intelligence, Sagesse, et Charisme, ainsi que cette action. Ses statistiques et ses capacités sont autrement remplacées par celles du nouveau formulaire, à l'exception des caractéristiques de classe ou des actions légendaires de ce formulaire.",
+ "attacks": [
+  {
+   "name": "Arme à mélèze frêlée",
+   "bonus": 17,
+   "damage": "3d12+9",
+   "type": "force"
+  },
+  {
+   "name": "Arme à portée de main",
+   "bonus": 12,
+   "damage": "3d8+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/a8712866c4_monstre-rak-tulkhesh.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +17, CON +16, SAG +14, CHA +16",
+ "skills": "Athlétisme +17, Intimidation +16, Perception +14",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, rak tulkhesh peut entreprendre l'une des actions ci-après.\n**Attaque.** Rak Tulkhesh fait une attaque d'arme.\n**Fin de magie (coûts 2 actions).** Rak Tulkhesh lance Dissipation de la magie.\n**Rage de provocation (coûts 3 actions).** Chaque créature de la 18 m de Rak Tulkhesh doit réussir sur une DD 24 jet de sauvegarde de Sagesse ou utiliser sa réaction pour faire une attaque d'arme de mêlée contre une créature aléatoire à portée de main. Si aucune créature n'est à portée de main, elle attaque une créature à portée de main, en lançant son arme si nécessaire. Cette attaque est faite avec un avantage et gagne un bonus de +4 à la jet de dégâts."
+}

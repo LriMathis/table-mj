@@ -1,0 +1,47 @@
+{
+ "id": "edwin-odesseiron",
+ "name": "Edwin Odesseiron",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 13,
+ "hp": 195,
+ "hpFormula": "30d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "abyssal, aquatique, aérien, commun, igné, infernal, terreux, Thayan",
+ "traits": "**Prévus.** Si Edwin a la condition neutralisé, paralysé, ou étourdi, un sort Prévoyance déclenche, jetant Dissipation de la magie à de niveau 6, ciblant Edwin. Il a aussi un corps créé par le sort Clone stocké dans une caverne à un kilomètre sous la ville de Baldur's Gate.\n**Simulacrum.** Edwin est toujours accompagné d'un simulacre de lui-même. La copie est identique à lui à tous égards sauf qu'elle a 58 points de vie, n'a pas la portée de puissance et ne peut lancer que les sorts ' à volonté ' disponibles dans la fonction Spellcasting d'Edwin.\n**Matériel spécial.** Edwin manie un Bâton de surpuissance. Tout en tenant le personnel accorde un bonus +2 à l'attaque et jets de dégâts fait avec, et un bonus +2 à classe d'armure, jet de sauvegarde, et épeler jets d'attaque (tous pris en compte dans les statistiques d'Edwin).",
+ "actionsText": "**Multiattaques.** Edwin fait une attaque du personnel de puissance ou utilise la projection orthographique ou la projection orthographique du personnel. Il fait ensuite deux attaques de Blast Elemental.\n**Le personnel du pouvoir.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants ou 6 (1d8 + 2) dégâts contondants si elle est maniée avec deux mains. Edwin peut dépenser l'une des charges du personnel pour traiter un 14 (4d6) dégâts de force supplémentaire sur un coup.\n**Blast élémentaire.** Attaque de sort à distance : +12 au toucher, portée 36 m, une cible. Touché : 38 (6d10 + 5) acide, froid, foudre, ou dégâts de feu.\n**Edwin's Choking Cloud (Recharge 6).** Edwin crée une sphère 6 m -radius de brouillard toxique centrée sur un point au sein de 36 m. Le nuage s'étend autour des coins mais ne dure que jusqu'au prochain virage d'Edwin. Lorsqu'une créature entre dans la zone du nuage pour la première fois sur un tour ou commence son tour là, elle doit faire un DD 18 jet de sauvegarde de Constitution. La créature prend 45 (10d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Les créatures sont touchées même si elles retiennent leur souffle ou n'ont pas besoin de respirer.\n**Détection orthographique.** Edwin lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Armure de mage, Image miroir, Bouclier, Serviteur invisible\n- 1/jour chacun : Clone, Dédale, Nuée de météores, Téléportation\n- 2/jour chacun : Prévoyance, Contresort, Dissipation de la magie, Boule de feu, Simulacre, Scrutation\n**Dépouillement du personnel.** En tenant le personnel du pouvoir, Edwin lance l'un des sorts suivants (spell save DD 18, +12 au toucher with attaques de sort). Ces sorts nécessitent des charges; le personnel a 20 charges, et il reprend 2d8 + 4 dépenses quotidiennes à l'aube. 1 charge chacun : missile magique, rayon d'enfêtrement 2 charge : lévite 5 charge chacun : cône de froid, boule de feu (de niveau 5), monstre de cale, éclair (de niveau 5), mur de force 6 charge : globe d'invulnérabilité",
+ "attacks": [
+  {
+   "name": "Le personnel du pouvoir",
+   "bonus": 7,
+   "damage": "1d6+2",
+   "type": "contondant + force"
+  },
+  {
+   "name": "Blast élémentaire",
+   "bonus": 12,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/4e579e68f9_monstre-edwin-odesseiron.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "saves": "INT +12, SAG +9",
+ "skills": "Arcanes +15, Histoire +15",
+ "bonusActions": "**Invoquer les chiens de l'enfer.** Edwin appelle magiquement trois chiens de l'enfer. Les chiens de l'enfer se présentent dans un espace inoccupé au sein de 18 m d'Edwin, et agissent comme alliés d'Edwin. Ils restent pendant 10 minutes, jusqu'à ce qu'ils meurent ou qu'Edwin les rejette comme une action.",
+ "reactions": "**Les pieds évasifs d'Edwin.** En réaction à des dégâts, Edwin téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

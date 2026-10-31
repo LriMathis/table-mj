@@ -1,0 +1,48 @@
+{
+ "id": "marcheur-coldlight",
+ "name": "Coldlight Walker",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Lumière aveugle.** Le marcheur apporte une lumière lumineuse dans un rayon de 6 m et une lumière dim pour un 6 m supplémentaire. En tant qu'action bonus, le marcheur peut cibler une créature dans sa lumière vive qu'il peut voir et le forcer à réussir sur un DD 14 jet de sauvegarde de Constitution ou être aveuglé jusqu'au début du prochain virage du marcheur.\n**C'est la fin de l'histoire.** Toute créature tuée par le marcheur gèle pendant 9 jours, pendant lesquels il ne peut pas être décongelé, blessé par le feu, animé, ou ressuscité d'entre les morts.\n**Nature inhabituelle.** Le marcheur n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le marcheur fait deux attaques.\n**Clamer.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d8 + 2) dégâts contondants plus 14 (4d6) dégâts de froid.\n**Rayon froid.** Attaque de sort à distance : +3 au toucher, portée 18 m, une cible. Touché : 25 (4d10 + 3) dégâts de froid.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "2d8+2",
+   "type": "contondant + froid"
+  },
+  {
+   "name": "Rayon froid",
+   "bonus": 3,
+   "damage": "4d10+3",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/36679e2b67_monstre-marcheur-coldlight.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Marcheur Coldlight",
+ "caNote": "armure naturelle",
+ "saves": "INT +2, SAG +3",
+ "immunities": "froid",
+ "conditionImmunities": "aveuglé, charmé, épuisement, paralysé, pétrifié, empoisonné"
+}

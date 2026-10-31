@@ -1,0 +1,40 @@
+{
+ "id": "fomorien-profondeur-crawler",
+ "name": "Fomorian Deep Crawler",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "tout alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 14,
+ "hp": 184,
+ "hpFormula": "16d12+80",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 9,
+  "SAG": 17,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "géant, commun des profondeurs",
+ "traits": "**Contortionniste.** Le fomorien peut entrer dans un espace assez grand pour une Grande créature sans serrer.\n**Échelle de calibrage.** Bien que le fomorien ait l'état à terre, ramper ne lui coûte pas de mouvement supplémentaire. En outre, l'état à terre n'accorde pas d'avantage sur jets d'attaque contre le fomorien.\n**Escalade des araignées.** Le fomorien peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Le fomorien fait deux attaques de Slam et utilise Crawling Hex si elle est disponible.\n**Clamer.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 22 (3d10 + 6) dégâts contondants.\n**Crawling Hex (Recharge 4-6).** Le fomorien cible une créature il peut voir en lui-même 18 m. La cible doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou prendre 31 (7d8) dégâts psychiques, avoir l'état à terre, et devenir maudit pendant 1 heure. Bien que maudite de cette façon, la cible ne peut pas se tenir debout et finir l'état à terre sur elle-même.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "3d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ac6b1ee4de_monstre-fomorien-profondeur-crawler.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Fomorien profondeur Crawler",
+ "caNote": "armure naturelle",
+ "skills": "Perception +7, Discrétion +6"
+}

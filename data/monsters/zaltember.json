@@ -1,0 +1,45 @@
+{
+ "id": "zaltember",
+ "name": "Zaltember",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 30,
+ "hpFormula": "4d10+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Bataille.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts tranchants, ou 14 (2d10 + 3) dégâts tranchants si utilisé avec deux mains.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 10 (2d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a6a2dd4780_monstre-zaltember.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne",
+ "immunities": "feu"
+}

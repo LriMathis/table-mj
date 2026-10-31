@@ -1,0 +1,40 @@
+{
+ "id": "thri-kreen-psion",
+ "name": "Thri-kreen Psion",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 149,
+ "hpFormula": "23d8+46",
+ "vitesse": "12 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "Thri-kreen; télépathie 36 m.",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le thri-kreen fait trois attaques Psionic Lance.\n**Lance psionique.** Jet d'attaque au corps à corps ou à distance : +7, allonge 3 m ou portée 36 m. Touché : 18 (4d6 + 4) dégâts psychiques.\n**Détection orthographique.** Le thri-kreen lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Main de mage (la main est invisible)\n- 1/jour chacun : Détection des pensées, Communication à distance, Perturbations synaptiques",
+ "attacks": [
+  {
+   "name": "Lance psionique",
+   "bonus": 7,
+   "damage": "4d6+4",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/1363351c62_monstre-thri-kreen-psion.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "saves": "FOR +7, DEX +5, CON +5, INT +7",
+ "skills": "Perception +4, Discrétion +8",
+ "resistances": "psychique"
+}

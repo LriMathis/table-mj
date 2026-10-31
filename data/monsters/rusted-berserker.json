@@ -1,0 +1,45 @@
+{
+ "id": "rusted-berserker",
+ "name": "Rusted Berserker",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le Rusted fait deux attaques, en utilisant Greatsword ou Javelin dans n'importe quelle combinaison.\n**Grande épée.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts tranchants, et la cible a l'état empoisonné jusqu'à la fin de son prochain tour.\n**Javelin.** Jet d'attaque au corps à corps ou à distance : +6, allonge 1,50 m ou portée 9/36 m. Touché : 11 (2d6 + 4) dégâts perforants, et la cible a l'état empoisonné jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b5e54c3ea8_monstre-rusted-berserker.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, pétrifié, empoisonné"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "hache-du-soldat-mirabar",
+ "name": "Axe of Mirabar Soldier",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 18,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, nain",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le soldat fait deux attaques. S'il a une main tirée, il peut également faire une attaque de main.\n**Bataille.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains.\n**Handaxe.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Grosse arbalète.** Attaque d'arme à distance : +3 au toucher, portée 30/120 m., une cible. Touché : 6 (1d10 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Handaxe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 3,
+   "damage": "1d10+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4891103d52_monstre-hache-du-soldat-mirabar.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Hache du soldat Mirabar",
+ "caNote": "Armure de plaque",
+ "skills": "Athlétisme +5, Perception +2"
+}

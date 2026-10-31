@@ -1,0 +1,39 @@
+{
+ "id": "lame-de-nuit",
+ "name": "Night Blade",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 60, Perception passive 10",
+ "languages": "commun",
+ "traits": "**Aura de meurtre.** Tant que la lame de nuit n'est pas neutralisé, les créatures hostiles de 1,50 m de celle-ci deviennent vulnérables à dégâts perforants à moins qu'elles n'aient une résistance ou une immunité à de tels dégâts.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3081952b7c_monstre-lame-de-nuit.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Lame de nuit",
+ "skills": "Intimidation +4, Discrétion +6"
+}

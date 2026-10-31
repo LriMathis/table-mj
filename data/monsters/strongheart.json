@@ -1,0 +1,42 @@
+{
+ "id": "strongheart",
+ "name": "Strongheart",
+ "type": "Humanoïde (humain, paladin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 20,
+ "hp": 55,
+ "hpFormula": "10d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, nain",
+ "traits": "**Matériel spécial.** Strongheart manie Acier, un bon mot de longue durée, sensible et légitime (voir l'annexe A).",
+ "actionsText": "**Multiattaques.** Strongheart fait trois attaques en acier.\n**Acier.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants lorsqu'il est utilisé à deux mains. Une fois sur chacun de ses tours, Strongheart peut également faire briller la lame avec la lumière sainte. S'il le fait, la cible est aveuglé jusqu'au prochain tour de Strongheart.\n**Revivifier (Recharges à l'aube suivante).** Tout en tenant Steel, Strongheart lance Retour à la vie.\n**Détection orthographique.** Strongheart lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- 1/jour chacun : Restauration partielle, Délivrance des malédictions, Zone de vérité\n- 3/jour chacun : Injonction, Détection du mal et du bien, Protection contre le mal et le bien",
+ "attacks": [
+  {
+   "name": "Acier",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/17ba852eae_monstre-strongheart.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque, Bouclier",
+ "saves": "SAG +3, CHA +5",
+ "skills": "Perspicacité +3, Persuasion +5",
+ "conditionImmunities": "effrayé",
+ "reactions": "**Protéger un autre.** Quand une créature Strongheart peut voir attaquer une autre créature qui est dans 1,50 m de lui, Strongheart peut utiliser sa réaction pour imposer un désavantage sur la jet d'attaque, à condition qu'il porte un bouclier."
+}

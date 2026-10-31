@@ -1,0 +1,55 @@
+{
+ "id": "dragon-adulte-moonstone",
+ "name": "Adult Moonstone Dragon",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 19,
+ "hp": 195,
+ "hpFormula": "17d12+85",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 18,
+  "CON": 20,
+  "INT": 22,
+  "SAG": 20,
+  "CHA": 23
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 20",
+ "languages": "commun, draconique, elfique, gnome, sylvestre",
+ "traits": "**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants plus 7 (2d6) dégâts radiants.\n**Griffe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +10 au toucher, allonge 4,50 m, une cible. Touché : 9 (1d8 + 5) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 18 jet de sauvegarde de Force ou être à terre.\n**Arme respiratoire (Recharge 5-6).** Le dragon utilise l'une des armes suivantes :\n- **Respiration de rêve** Le dragon expire la brume dans un cône 27 m. Chaque créature dans cette zone doit réussir sur un DD 18 jet de sauvegarde de Constitution ou tomber inconscient pendant 10 minutes. Cet effet se termine pour une créature si la créature prend des dégâts ou si quelqu'un utilise une action pour la réveiller.\n- **Respiration au clair de lune** Le dragon exhale un faisceau de clair de lune dans une ligne 27 m large. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 49 (9d10) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 19):\n- À volonté : Lueurs féeriques\n- 1/jour chacun : Apaisement des émotions, Invisibilité, Retour à la vie",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "2d10+5",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 10,
+   "damage": "1d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/1389c698d4_monstre-dragon-adulte-moonstone.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon adulte Moonstone",
+ "caNote": "armure naturelle",
+ "saves": "INT +11, SAG +10, CHA +11",
+ "skills": "Perception +10, Persuasion +11, Discrétion +9",
+ "conditionImmunities": "charmé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon adulte moonstone peut entreprendre l'une des actions ci-après.\n**Queue.** Le dragon fait une attaque de Tail.\n**Lancer un sort (coûts 2 actions).** Le dragon utilise la chasse à l'or."
+}

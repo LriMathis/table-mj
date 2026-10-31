@@ -1,0 +1,40 @@
+{
+ "id": "pouding-noir",
+ "name": "Pouding noir",
+ "type": "Vase",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 7,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 5,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "immunities": "acide, foudre, froid, tranchants",
+ "conditionImmunities": "à terre, agrippé, assourdi, charmé, effrayé, entravé, épuisement",
+ "senses": "Vision aveugle 18 m, Perception passive 8",
+ "languages": "aucune",
+ "traits": "**Informe.** Le pouding peut se déplacer dans un espace étroit d’une largeur minimale de 2,5 cm sans dépense supplémentaire en déplacement.\n**Masse corrosive.** Une créature qui touche le pouding par un jet d’attaque de corps à corps subit 4 (1d8) dégâts d’acide. Les projectiles non magiques sont détruits dès qu’ils ont touché le pouding et infligé le moindre dégât. Toute arme non magique qui inflige le moindre dégât au pouding en le touchant physiquement subit aussitôt un malus cumulatif de −1 aux jets d’attaque. L’arme est détruite si ce malus atteint −5.\nOn peut annuler ce malus en lançant le sort *réparation* sur l’arme.\nEn 1 minute, le pouding peut dévorer une épaisseur de 60 cm de bois ou métal non magique.\n**Pattes d’araignée.** Le pouding peut parcourir les parois les plus difficiles à escalader, y compris les plafonds, sans passer par un test de caractéristique.",
+ "actionsText": "**Pseudopode caustique.** Corps à corps : +5, allonge 3 m. Touché : 17 (4d6 + 3) dégâts d’acide. Toute armure non magique portée par la cible subit un malus cumulatif de −1 à la CA qu’elle confère. L’armure est détruite si ce malus réduit sa CA à 10. On peut annuler ce malus en lançant le sort *réparation* sur l’armure.",
+ "reactions": "**Division.** Déclencheur : alors que le pouding est de taille G ou M et dispose d’au moins 10 points de vie, il se retrouve En péril ou subit des dégâts de foudre ou tranchants. Conséquences : le pouding se scinde en deux nouveaux **poudings noirs**. Chaque nouveau pouding présente une catégorie de taille de moins que le pouding dont il est issu et agit au même rang d’Initiative. Les points de vie du pouding « parent » sont divisés équitablement entre les deux nouveaux poudings (arrondir à l’inférieur).",
+ "attacks": [
+  {
+   "name": "Pseudopode caustique",
+   "bonus": 5,
+   "damage": "4d6+3",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/d6fcf49561_monstre-pouding-noir.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 298"
+}

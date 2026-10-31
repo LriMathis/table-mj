@@ -1,0 +1,41 @@
+{
+ "id": "banshie",
+ "name": "Banshie",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 58,
+ "hpFormula": "13d8",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 17
+ },
+ "saves": "SAG +2, CHA +5",
+ "resistances": "acide, feu, foudre, tonnerre ; contondants, perforants et tranchants infligés par des attaques non-magiques",
+ "immunities": "froid, nécrotiques, poison",
+ "conditionImmunities": "à terre, charmé, empoigné, empoisonné, entravé, épuisé, paralysé, pétrifié, terrorisé",
+ "senses": "vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, elfique",
+ "traits": "**Déplacement intangible.** La banshie peut traverser créatures et objets en les considérant comme un terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l'intérieur d'un objet.\n**Détection de la vie.** La banshie peut sentir par magie la présence de créatures vivantes dans un rayon de 7,5 kilomètres. Elle sait dans quelle direction générale elles se situent, mais pas où exactement.",
+ "actionsText": "**Contact corrupteur.** *Attaque de sort au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 12 (3d6+2) dégâts nécrotiques.\n**Gémissement (1/jour).** La banshie pousse un gémissement lugubre, si elle n'est pas exposée à la lumière du soleil. Ce gémissement ne produit aucun effet sur les créatures artificielles et les morts-vivants. Toutes les autres créatures situées à 9 mètres ou moins d'elle et qui peuvent l'entendre doivent chacune effectuer un jet de sauvegarde de Constitution DD 13. En cas d'échec, une créature tombe à 0 point de vie. En cas de réussite, elle subit 10 (3d6) dégâts psychiques.\n**Visage terrifiant.** Les créatures autres que les morts-vivants situées à 18 mètres ou moins de la banshie et qui peuvent la voir doivent chacune réussir un jet de sauvegarde de Sagesse DD 13 pour ne pas être terrorisées pendant 1 minute. Une créature terrorisée peut retenter le jet de sauvegarde à la fin de chacun de ses tours (elle est désavantagée lors du jet si la banshie est dans son champ de vision) et mettre fin à l'effet dont elle est victime en cas de réussite. Si une cible réussit son jet de sauvegarde ou si l'effet dont elle est victime prend fin, elle est immunisée contre le visage terrifiant de cette banshie pendant les 24 prochaines heures.",
+ "portrait": "/data/images/3c9d96d0b4_monstre-banshie.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 24 · image : Manuel des monstres p. 23",
+ "attacks": [
+  {
+   "name": "Contact corrupteur",
+   "bonus": 4,
+   "damage": "3d6+2",
+   "type": "nécrotique"
+  }
+ ]
+}

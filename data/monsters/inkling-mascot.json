@@ -1,0 +1,41 @@
+{
+ "id": "inkling-mascot",
+ "name": "Inkling Mascot",
+ "type": "Vase",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 18,
+ "hpFormula": "4d4+8",
+ "vitesse": "3 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 7,
+  "CHA": 11
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 8",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Amorphe.** L'encre peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.",
+ "actionsText": "**Bloc.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts psychiques.\n**Vaporisateur d'encre (1/jour).** L'encre vaporise l'encre visqueuse à une créature en lui-même. La cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être aveuglé jusqu'à la fin du prochain tour de l'encre.",
+ "attacks": [
+  {
+   "name": "Bloc",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/3f1c92c7a5_monstre-inkling-mascot.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "skills": "Discrétion +5",
+ "immunities": "psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, à terre",
+ "bonusActions": "**Vols d'ombre.** Alors que dans la lumière ou l'obscurité, l'encre prend l'action Se cacher."
+}

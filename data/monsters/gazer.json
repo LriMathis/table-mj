@@ -1,0 +1,41 @@
+{
+ "id": "gazer",
+ "name": "Gazer",
+ "type": "Aberration (tyrannoeil)",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "3d4+6",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 3,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "—",
+ "traits": "**Mimétisme.** Le gazier peut imiter des sons simples de la parole qu'il a entendue, dans n'importe quelle langue. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 10 test de Sagesse (Perspicacité).",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants.\n**Rayons oculaires.** Le gazier tire deux des rayons oculaires magiques suivants au hasard (roulez deux d4 s, et reroulez des duplicatas), en choisissant une ou deux cibles qu'il peut voir à l'intérieur de 18 m :\n- **1: Rayon de délire** La créature ciblée doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou être charmé jusqu'au prochain tour du gazier. Alors que la cible est charmé de cette manière, sa vitesse est réduite de moitié, et il a un désavantage sur jets d'attaque.\n- **2: Peur Ray** La créature ciblée doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou être effrayé jusqu'au début du prochain tour du gazier.\n- **3: Rayon de gel** La cible doit réussir sur un DD 12 jet de sauvegarde de Dextérité ou prendre 10 (3d6) dégâts de froid.\n- **4: Rayon télékinétique** Si la cible est une créature qui est moyenne ou plus petite, elle doit réussir sur un DD 12 jet de sauvegarde de Force ou être déplacée vers 9 m directement à l'écart du gazier. Si la cible est un objet minuscule qui n'est ni porté ni porté, le gazier le déplace jusqu'à 9 m dans n'importe quelle direction. Le gazier peut également exercer un contrôle fin sur les objets avec ce rayon, comme manipuler un outil simple ou ouvrir un conteneur.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/afb6ae881a_monstre-gazer.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "saves": "SAG +2",
+ "skills": "Perception +4, Discrétion +5",
+ "conditionImmunities": "à terre",
+ "bonusActions": "**Agressifs.** Le gazier se dirige vers une créature hostile qu'il peut voir."
+}

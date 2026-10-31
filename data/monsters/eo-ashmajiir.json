@@ -1,0 +1,42 @@
+{
+ "id": "eo-ashmajiir",
+ "name": "Eo Ashmajiir",
+ "type": "Humanoïde (tieffelin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 16,
+ "hp": 126,
+ "hpFormula": "28d8+0",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 20
+ },
+ "senses": "Perception passive 12",
+ "languages": "abyssal, céleste, commun, draconique, infernal, commun des profondeurs",
+ "traits": "**foudre Affinité.** Lorsque Eo utilise Spellcasting pour lancer un sort qui traite dégâts de foudre, ce sort inflige 5 dégâts supplémentaires. Quand Eo jette un sort qui inflige un type de dégâts de la liste suivante, elle peut changer ce type de dégâts de foudre: acide, froid, feu, poison, tonnerre.",
+ "actionsText": "**Orbes jumelés.** Attaque de sort au corps à corps ou à distance : +9 au toucher, allonge 1,50 m ou portée 27 m, deux cibles. Touché : 27 (5d8 + 5) acide, froid, feu, foudre, poison ou dégâts de tonnerre (le choix d'Eo).\n**L'orthographe jumelée.** Eo utilise Spellcasting pour lancer Bannissement, dominer la personne, doigt de mort, ou mot de puissance stupéfiant. Ce sort cible une deuxième créature de portée.\n**Décharge (1/jour).** Eo émet un mince rayon vert à une créature dans 18 m. La cible doit faire un DD 17 jet de sauvegarde de Dextérité. Sur une sauvegarde échouée, la cible prend 89 (14d6 + 40) dégâts de force. Si ces dégâts réduisent la cible à 0 points de vie, elle est désintégrée. Une créature désintégrée et tout ce qu'elle porte, sauf des objets magiques, sont réduits à un tas de poussières grises fines. La créature ne peut être restaurée à la vie qu'au moyen d'une vraie résurrection ou d'un sort Souhait.\n**Détection orthographique.** Eo lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 17, +9 au toucher avec attaques de sort) :\n- À volonté : Détection de la magie, Détection des pensées, Lumière, Main de mage, Projectile magique, Prestidigitation, Bouclier, Poigne électrique\n- 1/jour chacun : Chaîne d'éclairs, Doigt de mort, Mot de pouvoir étourdissant, Téléportation, Souhait *\n- 2/jour chacun : Bannissement, Contresort, Domination de personne, Boule de feu, Éclair, Image miroir, Foulée brumeuse\n* Eo utilise pour s'assurer qu'elle a un simulacre d'elle-même en tout temps.",
+ "attacks": [
+  {
+   "name": "Orbes jumelés",
+   "bonus": 9,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/d19b6e6879_monstre-eo-ashmajiir.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +4, CHA +9",
+ "skills": "Arcanes +9, Tromperie +9, Persuasion +9",
+ "resistances": "foudre",
+ "reactions": "**Réplique de choc.** En réaction à la prise de dégâts, Eo entoure son attaquant d'une bobine de foudre. La cible doit faire un DD 17 jet de sauvegarde de Dextérité. Il prend 16 (2d10 + 5) dégâts de foudre sur une sauvegarde ratée, la moitié de ces dégâts sur une sauvegarde réussie."
+}

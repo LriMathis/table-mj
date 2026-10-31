@@ -1,0 +1,46 @@
+{
+ "id": "chef-gobelin",
+ "name": "Chef gobelin",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 17,
+ "hp": 21,
+ "hpFormula": "6d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 10
+ },
+ "skills": "Discrétion +6",
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, gobelin",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le gobelin effectue deux attaques, réparties à sa guise entre Cimeterre et Arc court.\n**Cimeterre.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts tranchants, plus 2 (1d4) dégâts tranchants si le jet d’attaque avait l’Avantage.\n**Arc court.** À distance : +4, portée 24/96 m. Touché : 5 (1d6 + 2) dégâts perforants, plus 2 (1d4) dégâts perforants si le jet d’attaque avait l’Avantage.",
+ "bonusActions": "**Fuite agile.** Le gobelin entreprend l’action Désengagement ou Furtivité.",
+ "reactions": "**Attaque redirigée.** Déclencheur : une créature que le gobelin voit effectue un jet d’attaque contre lui. Conséquences : le gobelin choisit un allié de taille P ou M dans un rayon de 1,50 m ; le gobelin et cet allié échangent leurs places, et l’allié devient la nouvelle cible de l’attaque.",
+ "attacks": [
+  {
+   "name": "Cimeterre",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant (+1d4 tranchant sous condition)"
+  },
+  {
+   "name": "Arc court",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant (+1d4 perforant sous condition)"
+  }
+ ],
+ "portrait": "/data/images/993a94817b_monstre-chef-gobelin.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 164"
+}

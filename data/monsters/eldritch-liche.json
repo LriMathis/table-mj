@@ -1,0 +1,44 @@
+{
+ "id": "eldritch-liche",
+ "name": "Eldritch Lich",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 17,
+ "hp": 165,
+ "hpFormula": "22d8+66",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 11,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 19,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 17",
+ "languages": "commun, profond, télépathie 36 m",
+ "traits": "**Far Realm Parasite.** À l'intérieur du torse des lichs se trouve un parasite vermifique qui contient l'âme des lichs. Quand le lich meurt, il implose dans le parasite, qui disparaît ensuite dans le Far Realm. En 2d4 jours, le parasite provoque la réapparition des lichs dans les 1d4 miles de l'endroit où il est mort. Si le lich est mort à l'intérieur d'un cercle magique pour contenir Undead, le lich réapparaît plutôt comme un Otyugh avec tous les souvenirs du lich.\n**Résistance légendaire (4/jour).** Si le lich échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Nature inhabituelle.** Les lichs n'ont pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le lich fait une attaque parasitique du Tentacle ou utilise Spellcasting. Le lich utilise également psychique Whisper deux fois.\n**Tentacle parasitaire.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une créature. Touché : 25 (6d6 + 4) dégâts perforants plus 25 (6d6 + 4) dégâts nécrotiques. La cible doit réussir sur un DD 17 jet de sauvegarde de Constitution ou être empoisonné. La cible empoisonné peut répéter l'enregistrement à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. La troisième fois que la cible échoue, la cible meurt et se dissout dans un Babélien qui obéit au lich et utilise l'initiative de la cible.\n**psychique Whisper.** Le lich cible une créature il peut voir en lui-même 36 m. La cible doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou prendre 25 (6d6 + 4) dégâts psychiques et être étourdi jusqu'à la fin du prochain tour de lich comme des murmures incompréhensibles remplissent l'esprit de la cible.\n**Détection orthographique.** Le lich lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection de la magie, Main de mage, Prestidigitation\n- 1/jour chacun : Oeil magique, Porte dimensionnelle, Changement de plan (autoseulement)\n- 2/jour chacun : Dissipation de la magie, Voracité de Hadar, Éclair",
+ "attacks": [
+  {
+   "name": "Tentacle parasitaire",
+   "bonus": 9,
+   "damage": "6d6+4",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/de98b809db_monstre-eldritch-liche.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 1: Spelljammer Creatures (5e.tools, traduction automatique)",
+ "aka": "Eldritch liche",
+ "caNote": "armure naturelle",
+ "saves": "INT +9, SAG +7",
+ "skills": "Arcanes +14, Perception +7",
+ "resistances": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "reactions": "**Étape lointaine.** Immédiatement après avoir subi des dégâts, le lich, ainsi que tout équipement qu'il porte ou transporte, téléporte magiquement jusqu'à 18 m dans un espace inoccupé qu'il peut voir."
+}

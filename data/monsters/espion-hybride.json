@@ -1,0 +1,39 @@
+{
+ "id": "espion-hybride",
+ "name": "Hybrid Spy",
+ "type": "Humanoïde (hybride simique)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 17,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "Commun plus une langue",
+ "traits": "**Peau de caméléon.** L'hybride a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher.\n**Escalade des araignées.** L'hybride peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** L'hybride fait deux attaques de mots courts.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8cbdb5afb7_monstre-espion-hybride.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Espion hybride",
+ "skills": "Perception +4, Discrétion +5"
+}

@@ -1,0 +1,44 @@
+{
+ "id": "woodcrasher-baloth",
+ "name": "Woodcrasher Baloth",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 95,
+ "hpFormula": "10d12+30",
+ "vitesse": "9 m, escalade 15 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 9,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 5
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Frais de chargement.** Si la baloth se déplace au moins directement vers une créature et la frappe avec une attaque de gore au même tour, cette cible doit réussir sur une DD 13 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, la baloth peut faire une attaque de stomp contre elle en tant qu'action bonus.",
+ "actionsText": "**Gore.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 24 (4d8 + 6) dégâts perforants.\n**Stompe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature à terre. Touché : 22 (3d10 + 6) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 9,
+   "damage": "4d8+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Stompe",
+   "bonus": 9,
+   "damage": "3d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/9adf3b05f7_monstre-woodcrasher-baloth.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

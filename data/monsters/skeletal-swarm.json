@@ -1,0 +1,42 @@
+{
+ "id": "skeletal-swarm",
+ "name": "Skeletal Swarm",
+ "type": "Nuée de taille moyenne (Mort-vivant)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 60,
+ "hpFormula": "8d10+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Clatter sourd.** Les créatures sont assourdi dans l'espace de l'essaim.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un petit humanoïde. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Couper.** Attaque d'arme au corps à corps : +4 au toucher, allonge 0 m, une cible dans l'espace de l'essaim. Touché : 11 (2d8 + 2) dégâts tranchants, ou 6 (1d8 + 2) dégâts tranchants si l'essaim a la moitié de son points de vie ou moins.",
+ "attacks": [
+  {
+   "name": "Couper",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/5bb697d7f1_monstre-skeletal-swarm.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "caNote": "déchets d'armures",
+ "vulnerabilities": "contondant",
+ "resistances": "tranchant, perforant",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi"
+}

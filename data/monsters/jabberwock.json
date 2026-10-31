@@ -1,0 +1,50 @@
+{
+ "id": "jabberwock",
+ "name": "Jabberwock",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 115,
+ "hpFormula": "10d12+50",
+ "vitesse": "9 m, escalade 9 m, vol 18 m, nage 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 20,
+  "INT": 4,
+  "SAG": 7,
+  "CHA": 11
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 18",
+ "languages": "—",
+ "traits": "**Sécurisation de la Burble.** Le jabberwock s'entaille à lui-même à moins qu'il ne soit neutralisé. Toute créature qui commence son tour à l'intérieur de 9 m du jabberwock et qui est en mesure d'entendre son cambriolage doit faire un DD 18 jet de sauvegarde de Charisme. Sur un jet de sauvegarde échoué, la créature ne peut pas prendre de réactions avant le début de son prochain tour, et elle roule un d4 pour déterminer ce qu'elle fait pendant son tour actuel:\n- **1-2** La créature ne fait rien.\n- **3** La créature ne fait rien sauf utiliser tout son mouvement pour se déplacer dans une direction aléatoire.\n- **4** La créature soit fait une attaque de mêlée contre une créature aléatoire qu'elle peut voir ou ne fait rien si aucune créature visible n'est à sa portée.\n**Résistance légendaire (3/jour).** Si le jabberwock échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Régénération.** Le jabberwock retrouve 10 points de vie au début de son tour. Si le jabberwock prend dégâts tranchants, ce trait ne fonctionne pas au début de son prochain tour. Le jabberwock meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Uncanny Tracker.** Le jabberwock peut suivre imperrement toute créature qu'il a blessée au cours des dernières 24 heures, et il connaît la distance et la direction de sa carrière aussi longtemps que les deux d'entre eux sont sur le même plan d'existence.",
+ "actionsText": "**Multiattaques.** Le jabberwock fait deux attaques de Rend.\n**Rend.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 21 (3d10 + 5) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +10 au toucher, allonge 4,50 m, une cible. Touché : 10 (1d10 + 5) dégâts contondants.\n**Gaz de feu (Recharge 5-6).** Sauf si c'est aveuglé, le jabberwock émet une ligne de feu 36 m -long, 1,50 m -large de ses yeux. Chaque créature dans cette ligne doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 31 (7d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 10,
+   "damage": "3d10+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 10,
+   "damage": "1d10+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/fa6045f9df_monstre-jabberwock.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +10, DEX +6, CON +10, INT +2, SAG +3, CHA +5",
+ "skills": "Perception +8",
+ "vulnerabilities": "tranchant d'une épée vorpal",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, jabberwock peut entreprendre l'une des actions ci-après.\n**Attaque de queue.** Le jabberwock fait une attaque Tail.\n**Attaque de la ronde (2 actions).** Le jabberwock fait une attaque de Rend.\n**Attaque de l'escadre (3 actions).** Le jabberwock bat ses ailes. Chaque créature dans 3 m du jabberwock doit réussir sur un DD 18 jet de sauvegarde de Dextérité ou prendre 8 (1d6 + 5) dégâts contondants et être à terre."
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dyrrn",
+ "name": "Dyrrn",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "24",
+ "xp": 62000,
+ "ca": 21,
+ "hp": 325,
+ "hpFormula": "31d8+186",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 26,
+  "DEX": 21,
+  "CON": 22,
+  "INT": 26,
+  "SAG": 23,
+  "CHA": 24
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 23",
+ "languages": "profond, télépathie 36 m",
+ "traits": "**Esprit étranger.** Si une créature essaie de lire les pensées de Dyrrn ou lui fournit dégâts psychiques, elle doit réussir sur un DD 23 jet de sauvegarde d'Intelligence ou être étourdi pendant 1 minute. La créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Résistance légendaire (3/jour).** Si Dyrrn échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Dyrrn a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** Dyrrn retrouve 20 points de vie au début de son tour. Si Dyrrn prend dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Dyrrn meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Téléportation.** Comme un action bonus, Dyrrn peut téléporter jusqu'à 9 m vers un espace inoccupé qu'il peut voir.",
+ "actionsText": "**Multiattaques.** Dyrrn fait une attaque Tentacle Whip et utilise sa corruption une fois. Dyrrn peut remplacer son attaque de Whip Tentacle par Extract Brain s'il a une créature agrippé.\n**Whip Tentacle.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 24 (3d10 + 8) dégâts tranchants. Si la cible est une créature moyenne ou plus petite, c'est agrippé (évasion DD 23), tiré dans un espace inoccupé à l'intérieur de 1,50 m de Dyrrn, et doit réussir sur un DD 23 jet de sauvegarde d'Intelligence ou être étourdi jusqu'à ce que ce grappin se termine. Dyrrn ne peut pas utiliser le même fouet de tente sur une autre cible jusqu'à ce que ce grappin se termine. Dyrrn a deux fouets tentaculaires.\n**Corruption.** Dyrrn cible une créature il peut voir dans 18 m de lui. La cible doit réussir sur un DD 23 jet de sauvegarde de Constitution ou prendre 22 (4d6 + 8) dégâts nécrotiques et devenir corrompu pendant 1 minute.\nLa chair d'une créature corrompue se tord de manière extraterrestre. La créature a un désavantage sur jets d'attaque, sa vitesse est réduite de moitié, et si elle essaie de lancer un sort, elle doit d'abord réussir sur un DD 15 test d'Intelligence ou le sort échoue et est gaspillé. La créature corrompue peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une créature neutralisé agrippé par Dyrrn. Touché : 55 (10d10) dégâts perforants. Si ces dégâts réduisent la cible à 0 points de vie, Dyrrn tue la cible en enlevant et en dévorant son cerveau.",
+ "attacks": [
+  {
+   "name": "Whip Tentacle",
+   "bonus": 15,
+   "damage": "3d10+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 15,
+   "damage": "10d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/72f9569b2b_monstre-dyrrn.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +15, SAG +13, CHA +14",
+ "skills": "Arcanes +15, Histoire +15, Perspicacité +13, Perception +13",
+ "resistances": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, épuisement, effrayé, empoisonné, à terre",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dyrrn peut entreprendre l'une des actions ci-après.\n**Whip Tentacle.** Dyrrn fait une attaque avec son Tentacle Whip.\n**Aberration en friche (coûts 2 actions).** Dyrrn régurgite un intellect dévorant dans un espace inoccupé à l'intérieur de 1,50 m. L'intellect dévorer est sous le contrôle de Dyrrn et agit immédiatement après Dyrrn dans l'ordre d'initiative.\n**Blast mental (coûts 3 actions).** Dyrrn émet magiquement de l'énergie psychique dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 23 jet de sauvegarde d'Intelligence ou prendre 30 (5d8 + 8) dégâts psychiques et être étourdi pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès."
+}

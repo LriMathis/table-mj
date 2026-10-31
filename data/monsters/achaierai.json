@@ -1,0 +1,47 @@
+{
+ "id": "achaierai",
+ "name": "Achaierai",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "infernal",
+ "traits": "**Résistance magique.** L'achaierai a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'achaierai fait deux attaques avec ses Talons et une attaque avec son bec.\n**Bec.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 14 (3d6 + 4) dégâts perforants.\n**Talons.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 7,
+   "damage": "3d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Talons",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/24bfdeb321_monstre-achaierai.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4",
+ "bonusActions": "**Attaque de printemps.** L'achaierai prend l'action Se désengager.",
+ "reactions": "**Nuage défensif.** Après avoir subi des dégâts, l'acaierai peut utiliser sa réaction pour libérer un nuage de gaz toxique dans un rayon 3 m. Toutes les créatures du nuage prennent 7 (2d6) dégâts de poison et doivent réussir sur un DD 15 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Alors qu'empoisonné la cible est confuse comme si à partir d'un sort Confusion. À la fin de ses tours, la cible touchée peut répéter le jet de sauvegarde de Constitution. Si elle réussit, la confusion se termine. Achaierai est à l'abri des effets de ce nuage."
+}

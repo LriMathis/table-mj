@@ -1,0 +1,39 @@
+{
+ "id": "elise",
+ "name": "Elise",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 9,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 9,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Formulaire immuable.** Elise est à l'abri de tout sort ou effet qui pourrait modifier sa forme.\n**foudre absorption.** Chaque fois qu'Elise est soumise à dégâts de foudre, elle ne prend aucun dégâts et récupère plutôt un nombre de points de vie égal à la dégâts de foudre distribuée.\n**Résistance magique.** Elise a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'Elise sont magiques.",
+ "actionsText": "**Multiattaques.** Elise fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/cbac5354e2_monstre-elise.webp",
+ "notes": "",
+ "source": "Van Richten's Guide to Ravenloft (5e.tools, traduction automatique)",
+ "immunities": "froid, foudre, poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

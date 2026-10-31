@@ -1,0 +1,44 @@
+{
+ "id": "quavilithku-spyder-fiend",
+ "name": "Quavilithku Spyder-Fiend",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 19,
+ "hp": 256,
+ "hpFormula": "27d10+108",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 19,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 18",
+ "languages": "abyssal, commun, télépathie 36 m",
+ "traits": "**Résistance magique.** Le quavilithku a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Escalade des araignées.** Le quavilithku peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sens du Web.** Lorsqu'il est en contact avec un web, le quavilithku connaît l'emplacement exact de toute autre créature en contact avec le même web.\n**Web Walker.** Le quavilithku ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** Le quavilithku fait deux attaques Bite.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants plus 17 (5d6) dégâts de poison. Si la cible est une créature, elle doit réussir sur un DD 18 jet de sauvegarde de Constitution ou avoir l'état empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, une créature ne peut pas retrouver points de vie. Une créature empoisonné peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Dissoudre le Web (Recharge 5-6).** Le quavilithku expulse les toiles trempées à l'acide dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Constitution, en prenant 44 (8d10) dégâts d'acide sur un sauvegarde raté ou la moitié de ces dégâts sur un succès. Les objets non magiques dans la zone qui ne sont pas portés ou transportés prennent 44 (8d10) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "2d10+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/d6e6b97eb5_monstre-quavilithku-spyder-fiend.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +10, SAG +8",
+ "skills": "Investigation +9, Perception +8, Discrétion +9",
+ "resistances": "froid, feu, foudre",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Évaluer la faiblesse.** Le quavilithku taille une créature qu'il peut voir en 12 m de lui-même. Jusqu'au début du prochain tour du quavilithku, il a avantage sur jets d'attaque contre la créature."
+}

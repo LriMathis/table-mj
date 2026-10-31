@@ -1,0 +1,51 @@
+{
+ "id": "werevulture",
+ "name": "Werevulture",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Perception passive 15",
+ "languages": "Fréquent (ne peut pas parler sous forme de vautour)",
+ "traits": "**Régénération.** Le wevenvuture reprend 10 points de vie au début de son tour. Si le wedvutture prend dégâts radiants, ce trait ne fonctionne pas au début du tour suivant du wedvutture. Le wedvurture meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Le wousselture fait deux attaques de Talon, ou il fait une attaque de Beak et une attaque de Talon.\n**Bec (Vulture ou forme hybride seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants. Si la cible est un humanoïde, elle doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être maudite jusqu'à ce qu'elle soit ciblée par le sort Délivrance des malédictions ou un effet similaire. Si la cible maudite tombe à 0 points de vie, il devient un wedvurture sous le contrôle de le MD et retrouve 10 points de vie.\n**Talon.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 13 (4d4 + 3) dégâts tranchants.\n**Longbow (forme humaine ou hybride seulement).** Attaque d'arme à distance : +4 au toucher, portée 45/180 m., une cible. Touché : 11 (2d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec (Vulture ou forme hybride seulement)",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Talon",
+   "bonus": 5,
+   "damage": "4d4+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow (forme humaine ou hybride seulement)",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8cbde46f1b_monstre-werevulture.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "skills": "Perception +5",
+ "bonusActions": "**Modifier la forme.** Les polymorphes du wedvurture en hybride vulture-humanoïde, en vautour, ou en retour dans sa forme humanoïde. Ses statistiques de jeu, autres que sa vitesse, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa forme humanoïde s'il meurt."
+}

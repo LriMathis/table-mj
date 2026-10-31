@@ -1,0 +1,52 @@
+{
+ "id": "ezmerelda-d-avenir",
+ "name": "Ezmerelda d'Avenir",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 19,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 11,
+  "CHA": 17
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, elfique",
+ "traits": "**Matériel spécial.** En plus de son armure magique et de ses armes, Ezmerelda possède deux potions de guérison, six coupes d'eau sainte et trois pieux en bois.\n**Détection orthographique.** Ezmerelda est un spellcaster de niveau 7. Son caractéristique d'incantation est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort). Ezmerelda a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Trait de feu, Lumière, Main de mage, Prestidigitation\n- Niveau 1 (4 emplacements) : Protection contre le mal et le bien, Projectile magique, Bouclier\n- Niveau 2 (3 emplacements) : Vision dans le noir, Déblocage, Image miroir\n- Niveau 3 (3 emplacements) : Clairvoyance, Éclair, Cercle magique\n- Niveau 4 (1 emplacements) : Invisibilité supérieure",
+ "actionsText": "**Multiattaques.** Ezmerelda fait trois attaques: deux avec son +1 rapier et une avec sa main +1 ou son mot-clé argenté.\n**Rapier +1.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts perforants.\n**Porte-main +1.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Mots-clés argentés.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.\n**Malédiction (Recharges après un repos long).** Ezmerelda cible une créature qu'elle peut voir au sein de 9 m d'elle. La cible doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être maudite. Bien que maudite, la cible est vulnérable à un type de dégâts du choix d'Ezmerelda. La malédiction dure jusqu'à la fin avec un sort Restauration supérieure, un sort Délivrance des malédictions ou une magie similaire. Lorsque la malédiction prend fin, Ezmerelda prend 3d6 dégâts psychiques.\n**Mauvais oeil (recharge après un repos court ou long).** Ezmerelda cible une créature qu'elle peut voir dans 3 m de sa et jette l'un des sorts suivants sur la cible (enregistrer DD 14), exigeant ni composants somatiques ni matériels pour le faire: l'amitié animale, la personne de charme, ou tenir personne. Si la cible réussit sur la jet de sauvegarde initiale, Ezmerelda est aveuglé jusqu'à la fin de son prochain tour. Une fois qu'une cible réussit sur un jet de sauvegarde contre cet effet, elle est à l'abri de la puissance de l'œil maléfique de tous Vistani pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "Rapier +1",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Porte-main +1",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Mots-clés argentés",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/fd31f36d9d_monstre-ezmerelda-d-avenir.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "caNote": "+1 armure en cuir clouté",
+ "saves": "SAG +3",
+ "skills": "Acrobaties +7, Arcanes +6, Tromperie +9, Perspicacité +3, Médecine +3, Perception +6, Représentation +6, Escamotage +7, Discrétion +7, Survie +6"
+}

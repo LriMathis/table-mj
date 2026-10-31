@@ -1,0 +1,46 @@
+{
+ "id": "norker",
+ "name": "Norker",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 17,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 8,
+  "SAG": 8,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, gobelin",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le norker fait une mace et une morsure.\n**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants.\n**Mace.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Mace",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/89ab9b12b8_monstre-norker.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +3",
+ "reactions": "**Récuse défensive.** Si une créature au sein de 1,50 m du norker fait une attaque de mêlée contre elle, le norker peut utiliser sa réaction pour lui causer 4 dégâts perforants."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "rusted-wyrm",
+ "name": "Rusted Wyrm",
+ "type": "Créature artificielle",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 20,
+ "hp": 231,
+ "hpFormula": "14d20+84",
+ "vitesse": "12 m, nage 18 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 13,
+  "CON": 22,
+  "INT": 8,
+  "SAG": 14,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (3/jour).** Si le Rusted échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Les Rusted font deux attaques Bite.\n**Morceau.** Jet d'attaque au corps à corps : +12, allonge 6 m. Touché : 29 (4d10 + 7) dégâts perforants.\n**Souffle de vapeur (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 19, chaque créature et objet inflammable qui n'est pas porté ou transporté dans un cône 18 m. Échec : 45 (7d12) dégâts de feu, et la cible commence à graver. Réussite : Demi-dégâts seulement. Échec ou réussite : Être sous l'eau n'accorde pas de résistance à ce dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "4d10+7",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b5e54c3ea8_monstre-rusted-wyrm.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "immunities": "feu, poison",
+ "conditionImmunities": "épuisement, effrayé, pétrifié, empoisonné",
+ "bonusActions": "**Encaissant la rouille.** Jet de sauvegarde de Constitution : DD 19, une créature à l'intérieur de 6 m du Rusted. Échec : 14 (4d6) dégâts de poison, et la cible a l'état empoisonné jusqu'à la fin de son prochain tour. Alors qu'empoisonné, la cible a l'état paralysé."
+}

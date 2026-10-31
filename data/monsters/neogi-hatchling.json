@@ -1,0 +1,37 @@
+{
+ "id": "neogi-hatchling",
+ "name": "Neogi Hatchling",
+ "type": "Aberration",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "loyal mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 11,
+ "hp": 7,
+ "hpFormula": "3d4",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 13,
+  "CON": 10,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Fortitude mentale.** Le néogi a un avantage sur jet de sauvegarde contre charmé ou effrayé, et la magie ne peut pas endormir le néogi.\n**Escalade des araignées.** Le néogi peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants plus 3 (1d6) dégâts de poison, et la cible doit réussir sur un DD 10 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 minute. Une cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/e83a306502_monstre-neogi-hatchling.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)"
+}

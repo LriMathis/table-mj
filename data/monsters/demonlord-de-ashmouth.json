@@ -1,0 +1,55 @@
+{
+ "id": "demonlord-de-ashmouth",
+ "name": "Demonlord of Ashmouth",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 178,
+ "hpFormula": "17d10+85",
+ "vitesse": "6 m, vol 18 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 17,
+  "CON": 21,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** Les ténèbres magiques n'entravent pas la vision sombre du démon.\n**Résistance magique.** Le démon a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le démon fait trois attaques à la mêlée : deux avec sa haie et une avec sa queue. Il peut utiliser Hurl Flame à la place de toute attaque de mêlée.\n**Bataille.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 15 (2d8 + 6) dégâts tranchants, ou 17 (2d10 + 6) dégâts tranchants si utilisé avec deux mains.\n**Queue.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 10 (1d8 + 6) dégâts perforants. Si la cible est une créature autre qu'un mort-vivant ou une construction, elle doit réussir sur un DD 17 jet de sauvegarde de Constitution ou perdre 10 (3d6) points de vie au début de chacun de ses tours en raison d'une blessure infernale. Chaque fois que le démon frappe la cible blessée avec cette attaque, les dégâts infligés par la blessure augmentent de 10 (3d6). N'importe quelle créature peut prendre une action pour stagner la plaie avec un succès DD 12 test de Sagesse (Médecine). La blessure se ferme aussi si la cible reçoit une guérison magique.\n**Feu de hurl.** Attaque de sort à distance : +7 au toucher, portée 45 m, une cible. Touché : 14 (4d6) dégâts de feu. Si la cible est un objet inflammable qui n'est pas porté ou transporté, elle prend également feu.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 10,
+   "damage": "2d8+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 10,
+   "damage": "1d8+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Feu de hurl",
+   "bonus": 7,
+   "damage": "4d6",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/72b8b34518_monstre-demonlord-de-ashmouth.webp",
+ "notes": "",
+ "source": "PSI (5e.tools, traduction automatique)",
+ "aka": "Demonlord de Ashmouth",
+ "caNote": "armure naturelle",
+ "saves": "FOR +10, DEX +7, SAG +7, CHA +7",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

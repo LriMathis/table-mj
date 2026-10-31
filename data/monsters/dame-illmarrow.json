@@ -1,0 +1,51 @@
+{
+ "id": "dame-illmarrow",
+ "name": "Lady Illmarrow",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 19,
+ "hp": 199,
+ "hpFormula": "21d8+105",
+ "vitesse": "9 m, vol 12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 20,
+  "INT": 27,
+  "SAG": 21,
+  "CHA": 24
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 22",
+ "languages": "commun, draconique, elfique",
+ "traits": "**Résistance légendaire (3/jour).** Si Illmarrow échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Illmarrow a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Réjuvenance.** Le corps d'Illmarrow se transforme en poussière quand elle tombe à 0 points de vie, et son équipement est laissé derrière. Elle gagne un nouveau corps après 1d10 jours, récupérant tout son points de vie et redevenant active. Le nouveau corps apparaît à moins de deux cents milles de l'endroit où elle a été détruite.\n**Détection orthographique.** Illmarrow est un spellcaster de niveau 20. Son caractéristique d'incantation est Intelligence (save spell DD 23, +15 au toucher avec attaques de sort). Illmarrow a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Contact glacial (voir \"Actions\" ci-dessous), Trait de feu, Main de mage, Prestidigitation, Rayon de givre\n- Niveau 1 (4 emplacements) : Projectile magique, Bouclier, Sommeil\n- Niveau 2 (3 emplacements) : Flou, Détection des pensées, Image miroir\n- Niveau 3 (3 emplacements) : Animation des morts, Contresort, Boule de feu, Vol, Éclair\n- Niveau 4 (3 emplacements) : Flétrissement, Confusion, Métamorphose\n- Niveau 5 (3 emplacements) : Brume mortelle, Cône de froid, Immobilisation de monstre, Scrutation\n- Niveau 6 (2 emplacements) : Chaîne d'éclairs, Cercle de mort, Création de mort-vivant\n- Niveau 7 (2 emplacements) : Doigt de mort, Cage de force, Rayons prismatiques\n- Niveau 8 (1 emplacements) : Nuage incendiaire, Dédale\n- Niveau 9 (1 emplacements) : Mot de pouvoir mortel, Arrêt du temps",
+ "actionsText": "**Touche froide (sort mineur).** Attaque de sort à distance : +15 au toucher, portée 36 m, une créature. Touché : 18 (4d8) dégâts nécrotiques, et la cible ne peut pas retrouver points de vie avant le début du prochain tour d'Illmarrow. Si la cible n'est pas morte, elle a aussi un désavantage sur jets d'attaque contre Illmarrow jusqu'à la fin de son prochain tour.\n**Griffe paralysante.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une créature. Touché : 13 (3d6 + 3) dégâts tranchants plus 10 (3d6) dégâts de froid, et la cible doit réussir sur un DD 20 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**poison Respiration (Recharge 5-6).** Illmarrow exhale des gaz toxiques dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 20 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 35 (10d6) dégâts de poison et est empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, la créature ne peut pas retrouver points de vie. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas empoisonné.\nUn humanoïde réduit à 0 points de vie par ce dégâts meurt et s'élève au début du prochain tour d'Illmarrow en tant que zombie. Le zombie agit immédiatement après Illmarrow dans le compte d'initiative et est en permanence sous son commandement, suivant ses ordres verbaux.",
+ "attacks": [
+  {
+   "name": "Touche froide (sort mineur)",
+   "bonus": 15,
+   "damage": "4d8",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Griffe paralysante",
+   "bonus": 10,
+   "damage": "3d6+3",
+   "type": "tranchant + froid"
+  }
+ ],
+ "portrait": "/data/images/fade96b1ac_monstre-dame-illmarrow.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "aka": "Dame Illmarrow",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, INT +15, SAG +12",
+ "skills": "Arcanes +15, Histoire +15, Perspicacité +12, Perception +12",
+ "resistances": "froid, foudre",
+ "immunities": "nécrotique, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dame illmarrow peut entreprendre l'une des actions ci-après.\n**sort mineur.** Illmarrow lance un sort mineur.\n**Griffe paralysante.** Illmarrow utilise sa griffe paralysante.\n**Présence effrayante (coûts 2 actions).** Illmarrow cible jusqu'à trois créatures qu'elle peut voir dans 9 m d'elle. Chaque cible doit réussir sur un DD 20 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. Une cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une cible est réussi ou si l'effet se termine pour elle, la cible est immunisée contre la présence effrayante d'Illmarrow pendant les 24 prochaines heures.\n**poison Respiration (coûts 3 actions).** Illmarrow recharge sa respiration poison et l'utilise."
+}

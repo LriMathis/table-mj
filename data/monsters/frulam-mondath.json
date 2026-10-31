@@ -1,0 +1,40 @@
+{
+ "id": "frulam-mondath",
+ "name": "Frulam Mondath",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 18,
+  "CHA": 15
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, draconique, infernal",
+ "traits": "**Détection orthographique.** Frulam est un spellcaster de niveau 5 qui utilise Sagesse comme son caractéristique d'incantation (save spell DD 14, +6 au toucher avec attaques de sort). Frulam a les sorts suivants préparés à partir de la liste des sorts clercs:\n- Sorts mineurs (à volonté) : Lumière, Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Injonction, Soins, Mot de guérison, Sanctuaire\n- Niveau 2 (3 emplacements) : Apaisement des émotions, Immobilisation de personne, Arme spirituelle\n- Niveau 3 (2 emplacements) : Mot de guérison de groupe, Esprits gardiens",
+ "actionsText": "**Multiattaques.** Frulam attaque deux fois avec son haleter.\n**Halbère.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 7 (1d10 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Halbère",
+   "bonus": 5,
+   "damage": "1d10+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c9c94d90f8_monstre-frulam-mondath.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne",
+ "saves": "SAG +6, CHA +4",
+ "skills": "Tromperie +4, Histoire +2, Religion +2"
+}

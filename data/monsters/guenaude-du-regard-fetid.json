@@ -1,0 +1,40 @@
+{
+ "id": "guenaude-du-regard-fetid",
+ "name": "Hag of the Fetid Gaze",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, draconique, sylvestre",
+ "traits": "**Amphibie.** La colère peut respirer de l'air et de l'eau.\n**Mimétisme.** La harpe peut imiter des sons animaux et des voix humanoïdes. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 14 test de Sagesse (Perspicacité).\n**Découpe intérieure.** Le caractéristique d'incantation inné du ham est Charisme (sorption sauvegardez DD 12). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes, Illusion mineure, Moquerie cruelle\n**Diffusion d'orthographes partagées (Couvé seulement).** Alors que les trois membres d'un corbeau hang sont dans 9 m l'un de l'autre, ils peuvent chacun lancer les sorts suivants à partir de la liste de sorts de l'assistant, mais doivent partager l'emplacements de sort entre eux :\n- Niveau 1 (4 emplacements) : Charme-personne, Trait ensorcelé\n- Niveau 2 (3 emplacements) : Modification d'apparence, Suggestion\n- Niveau 3 (3 emplacements) : Dissipation de la magie, Glyphe de protection, Lenteur\n- Niveau 4 (3 emplacements) : Flétrissement, Métamorphose\n- Niveau 5 (2 emplacements) : Domination de personne, Apparence trompeuse\n- Niveau 6 (1 emplacements) : Danse irrésistible d'Otto\nPour lancer ces sorts, chaque hag est un spellcaster de niveau 12 qui utilise Intelligence comme son caractéristique d'incantation. Le DD de sauvegarde des sorts est 12 + le modificateur Intelligence de l'hag, et le bonus attaque de sort est 4 + le modificateur Intelligence de l'hag.",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Apparence illusoire.** La harpe se couvre et tout ce qu'elle porte ou porte avec une illusion magique qui la fait ressembler à une autre créature de sa taille générale et de sa forme humanoïde. L'illusion se termine si le ham prend un action bonus pour y mettre fin ou si elle meurt.\nLes changements résultant de cet effet ne permettent pas d'empêcher l'inspection physique. Par exemple, la harpe pourrait sembler avoir une peau lisse, mais quelqu'un la toucherait sentirait sa chair rugueuse. Autrement, une créature doit prendre une mesure pour inspecter visuellement l'illusion et réussir sur un DD 20 test d'Intelligence (Investigation) pour discerner que le gag est déguisé.\n**Passage invisible.** Le hang tourne magiquement invisible jusqu'à ce qu'elle attaque ou jette un sort, ou jusqu'à ce que son concentration se termine (comme si concentrating sur un sort). Alors qu'invisible, elle ne laisse aucune preuve physique de son passage, de sorte qu'elle ne peut être suivie que par la magie. Tout équipement qu'elle porte ou porte est invisible avec elle.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c248ff08ac_monstre-guenaude-du-regard-fetid.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Guenaude du regard Fetid",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +3, Tromperie +4, Perception +4, Discrétion +3"
+}

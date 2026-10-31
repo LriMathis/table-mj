@@ -1,0 +1,48 @@
+{
+ "id": "xenk-yendar",
+ "name": "Xenk Yendar",
+ "type": "Humanoïde (paladin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 157,
+ "hpFormula": "21d8+63",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, Thayan, commun des profondeurs",
+ "traits": "**Aura de protection.** Xenk et ses alliés au sein de 3 m de lui ont un avantage sur jet de sauvegarde.",
+ "actionsText": "**Multiattaques.** Xenk fait trois attaques Daggersword et utilise Daggersword Flourish. Il peut remplacer Daggersword Flourish par Cleansing Touch s'il est disponible.\n**Mots-clés.** Choisissez l'attaque qui correspond à la forme actuelle du mot daggersword (voir Maj du mot daggersword ci-dessous) :\n**Mot long.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains, plus 6 (1d12) dégâts radiants.\n**Mot court et poignard.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 6 (1d12) dégâts radiants.\n**Daggersword Flourish.** Choisissez l'option qui correspond au formulaire actuel du mot daggersword (voir Maj du mot daggersword ci-dessous) :\n**Mot long.** Xenk détache magiquement la lame de la longue épée de sa nuque, lançant la lame sur une créature qu'il peut voir en 9 m de lui-même. La cible doit faire un DD 16 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la cible est empalée par la lame, prenant 14 (3d6 + 4) dégâts perforants et est à terre. A la fin du virage actuel, la lame se reconnecte magiquement à sa pointe.\n**Mot court et poignard.** Xenk crie avec les deux armes. Chaque créature de son choix dans 3 m de lui doit faire un lancer DD 16 Dextérité. Lors d'une sauvegarde ratée, la créature prend 7 (2d6) dégâts perforants et a un désavantage sur jets d'attaque jusqu'au début du prochain tour de Xenk. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et ne subit aucun autre effet.\n**Touche nettoyante (1/jour).** Xenk touche une créature en 1,50 m de lui-même. La cible récupère magiquement 27 (6d8) points de vie et gagne le bénéfice d'un sort Restauration partielle.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 8,
+   "damage": "1d8+4",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Mot court et poignard",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/a63125a761_monstre-xenk-yendar.webp",
+ "notes": "",
+ "source": "Thieves' Gallery (5e.tools, traduction automatique)",
+ "caNote": "demi-plaque",
+ "saves": "FOR +8, CHA +7",
+ "skills": "Athlétisme +8, Histoire +6, Perspicacité +7, Survie +7",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "bonusActions": "**Maj de mots-clefs.** Xenk change la forme de son mot dague, en choisissant l'une des formes suivantes: un mot long, ou un mot court dans une main et un dague dans l'autre."
+}

@@ -1,0 +1,46 @@
+{
+ "id": "sephek-kaltro",
+ "name": "Sephek Kaltro",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun",
+ "traits": "**Régénération de froid.** Si la température autour de lui est de 0 degrés Fahrenheit ou inférieure, Sephek retrouve 5 points de vie au début de son tour. S'il prend dégâts de feu, ce trait ne fonctionne pas au début du prochain tour de Sephek. Sephek meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Découpe intérieure.** Sephek peut injecter innéement Foulée brumeuse jusqu'à trois fois par jour, ne nécessitant aucun composant. Son caractéristique d'incantation inné est Charisme.\n- À volonté : Foulée brumeuse",
+ "actionsText": "**Multiattaques.** Sephek attaque deux fois avec une arme.\n**L'épée de glace.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si Sephek utilise l'arme avec deux mains, plus 5 (2d4) dégâts de froid.\n**Dagueur de glace.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 5 (2d4) dégâts de froid.",
+ "attacks": [
+  {
+   "name": "L'épée de glace",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant + froid"
+  },
+  {
+   "name": "Dagueur de glace",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + froid"
+  }
+ ],
+ "portrait": "/data/images/de651ac2dc_monstre-sephek-kaltro.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "skills": "Perception +5, Survie +5",
+ "immunities": "froid",
+ "conditionImmunities": "charmé, effrayé"
+}

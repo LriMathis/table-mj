@@ -1,0 +1,44 @@
+{
+ "id": "waeloquay",
+ "name": "Waeloquay",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 14,
+ "hp": 290,
+ "hpFormula": "20d20+80",
+ "vitesse": "9 m, nage 27 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "aquatique, commun",
+ "traits": "**Résistance magique.** Waeloquay a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Résistance légendaire (3/jour).** Si Waeloquay échoue à un jet de sauvegarde, il peut choisir de réussir à la place.\n**Formulaire Eau.** Waeloquay peut entrer dans l'espace d'une créature hostile et s'arrêter là. Il peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.",
+ "actionsText": "**Multiattaques.** Waeloquay fait trois attaques de Slam.\n**Clamer.** Attaque d'arme au corps à corps : +14 au toucher, allonge 4,50 m, une cible. Touché : 26 (4d8 + 8) dégâts contondants.\n**Whelm (Recharge 4-6).** Chaque créature dans l'espace de Waeloquay doit faire un DD 22 jet de sauvegarde de Force. Lors d'une sauvegarde ratée, une cible prend 21 (3d8 + 8) dégâts contondants. S'il est grand ou plus petit, il a également l'état agrippé (évasion DD 20). Jusqu'à ce que ce grappin se termine, la cible est entravé et incapable de respirer, à moins qu'il puisse respirer de l'eau. Si l'enregistrement est réussi, la cible est chassée de l'espace de Waeloquay. Waeloquay peut battre une grande créature ou jusqu'à quatre créatures moyennes ou plus petites à la fois. Au début de chaque tour de Waeloquay, chaque cible agrippé par elle prend 21 (3d8 + 8) dégâts contondants. Une créature au sein de 1,50 m de Waeloquay peut tirer une créature ou un objet de lui en prenant une action pour faire un DD 22 test de Force et réussir.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 14,
+   "damage": "4d8+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/91d2bca8cc_monstre-waeloquay.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "SAG +6, CHA +7",
+ "skills": "Athlétisme +14, Nature +5",
+ "resistances": "acide, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, waeloquay peut entreprendre l'une des actions ci-après.\n**Débit.** Waeloquay monte à sa vitesse.\n**Crush (coûts 2 actions).** une créature que Waeloquay est en train de grappiller prend 44 (8d8 + 8) dégâts contondants.\n**Pummel (coûts 2 actions).** Waeloquay fait une attaque de Slam avec avantage."
+}

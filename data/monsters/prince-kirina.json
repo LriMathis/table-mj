@@ -1,0 +1,38 @@
+{
+ "id": "prince-kirina",
+ "name": "Prince Kirina",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 11,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Le sang royal.** Si Kirina est réduit à la moitié de son points de vie ou moins, il utilise l'action Esquiver pour éviter de prendre d'autres dégâts.",
+ "actionsText": "**Multiattaques.** Kirina fait deux attaques de longues paroles. S'il a un mot court dessiné, il peut également faire une attaque de mot court.\n**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/e71cf64615_monstre-prince-kirina.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "skills": "Athlétisme +5, Perception +2"
+}

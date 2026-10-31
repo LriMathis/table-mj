@@ -1,0 +1,42 @@
+{
+ "id": "sorcellerie-mister",
+ "name": "Mister Witch",
+ "type": "Humanoïde (elfe, Shadar-kai)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 10,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Ancêtre fécale.** La sorcière a un avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas le mettre au lit.\n**Matériel spécial.** La sorcière porte et est attelée au Montre Witchlight.",
+ "actionsText": "**Multiattaques.** La sorcière fait deux attaques de Cane.\n**Cane.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts contondants plus 6 (1d12) dégâts nécrotiques.\n**Détection orthographique.** Lors du transport du Montre Witchlight, Witch lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 13, +5 au toucher with attaques de sort) :\n- À volonté : Trait de feu, Invisibilité (après coulée, rouler un d8 ; sur un rouleau de 3 ou 8, Sorcière ne peut pas lancer le sort à nouveau jusqu'à l'aube suivante), Message",
+ "attacks": [
+  {
+   "name": "Cane",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/912253e7d8_monstre-sorcellerie-mister.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Sorcellerie Mister",
+ "saves": "INT +5, SAG +3",
+ "skills": "Arcanes +5, Tromperie +4, Perception +3",
+ "resistances": "nécrotique",
+ "bonusActions": "**Bénédiction de la Reine du Corbeau (1/jour).** Sortir par magie téléporte, avec tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir. Jusqu'au début de son prochain tour, il apparaît fantômement et résiste à tous les dégâts."
+}

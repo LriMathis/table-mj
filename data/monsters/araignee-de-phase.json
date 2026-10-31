@@ -1,0 +1,39 @@
+{
+ "id": "araignee-de-phase",
+ "name": "Araignée de phase",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "7d10+7",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "skills": "Discrétion +7",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "aucune",
+ "traits": "**Marche dans les toiles.** L’araignée n’est pas soumise aux contraintes de déplacement imposées par les toiles et connaît la position de toute autre créature en contact avec la même toile qu’elle.\n**Pattes d’araignée.** L’araignée peut parcourir les parois les plus difficiles à escalader, y compris les plafonds, sans passer par un test de caractéristique.\n**Vision éthérée.** L’araignée voit à 18 m dans le Plan Éthéré quand elle est sur le Plan Matériel, et inversement.",
+ "actionsText": "**Attaques multiples.** L’araignée effectue deux attaques de Morsure.\n**Morsure.** Corps à corps : +5, allonge 1,50 m. Touché : 8 (1d10 + 3) dégâts perforants plus 9 (2d8) dégâts de poison. Si ces dégâts réduisent la cible à 0 point de vie, celle-ci devient Stabilisée et subit l’état Empoisonné pendant 1 heure. Tant qu’elle est ainsi Empoisonnée, la cible subit en outre l’état Paralysé.",
+ "bonusActions": "**Saut éthéré.** L’araignée se téléporte du Plan Matériel vers le Plan Éthéré ou vice versa.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1d10+3+2d8",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/f4f6f9e9ba_monstre-araignee-de-phase.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 318"
+}

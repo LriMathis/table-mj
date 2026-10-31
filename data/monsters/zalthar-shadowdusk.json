@@ -1,0 +1,42 @@
+{
+ "id": "zalthar-shadowdusk",
+ "name": "Zalthar Shadowdusk",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 20,
+ "hp": 180,
+ "hpFormula": "19d8+95",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 11,
+  "CON": 20,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "abyssal, commun, profond",
+ "traits": "**Matériel spécial.** Zalthar a un long mot Voleuse des neuf vies avec 5 charges restantes.\n**Résistance magique.** Zalthar a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Le maréchal n'est pas mort.** Sauf si Zalthar est neutralisé, il et les créatures non mortes de son choix dans 18 m de lui ont avantage sur jet de sauvegarde contre les fonctionnalités qui deviennent non mortes.\n**Détection orthographique.** Zalthar est un épeautre de niveau 19. Son caractéristique d'incantation est Charisme (save spell DD 18, +10 au toucher avec attaques de sort). Il a les sorts de paladin suivants préparés:\n- Niveau 1 (4 emplacements) : Injonction, Duel forcé, Châtiment calcinant\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Arme magique\n- Niveau 3 (3 emplacements) : Dissipation de la magie, Arme élémentaire\n- Niveau 4 (3 emplacements) : Localisation de créature, Châtiment débilitant\n- Niveau 5 (2 emplacements) : Vague destructrice (nécrotique)",
+ "actionsText": "**Multiattaques.** Zalthar fait trois longues attaques.\n**Neuf vies Voleur Longsword.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 11 (1d8 + 7) dégâts tranchants, ou 12 (1d10 + 7) dégâts tranchants si utilisé avec deux mains, plus 18 (4d8) dégâts nécrotiques.\n**Orbe de feu d'enfer (1/jour).** Zalthar lance une boule de feu magique qui explose à un point qu'il peut voir dans 36 m de lui. Chaque créature dans une sphère 6 m -radius centrée sur ce point doit faire un DD 18 jet de sauvegarde de Dextérité. La sphère s'étend autour des coins. Une créature prend 35 (10d6) dégâts de feu et 35 (10d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Neuf vies Voleur Longsword",
+   "bonus": 13,
+   "damage": "1d8+7",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/9baa9f11b2_monstre-zalthar-shadowdusk.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque, Bouclier",
+ "saves": "DEX +6, SAG +9, CHA +10",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, effrayé, empoisonné",
+ "reactions": "**Parry.** Zalthar ajoute 6 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, Zalthar doit voir l'agresseur et manier une arme de mêlée."
+}

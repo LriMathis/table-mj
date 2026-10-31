@@ -1,0 +1,40 @@
+{
+ "id": "pretresse-drow-de-lolth",
+ "name": "Prêtresse drow de Lolth",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "caNote": "armure d'écailles",
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "saves": "CON +4, SAG +6, CHA +7",
+ "skills": "Discrétion +5, Perception +6, Perspicacité +6, Religion +4",
+ "senses": "vision dans le noir 36 m, Perception passive 16",
+ "languages": "commun des profondeurs, elfique",
+ "traits": "**Ascendance féerique.** Le drow est avantagé lors des jets de sauvegarde contre l'état charmé et la magie ne peut pas l'endormir.\n**Incantation.** La drow est une lanceuse de sorts de niveau 10. Sa caractéristique d'incantation est la Sagesse (DD du jet de sauvegarde contre les sorts 14, +6 pour toucher avec les attaques de sort). Voici la liste des sorts de prêtre préparés par la drow :\n- Tours de magie (à volonté) : *assistance, bouffée de poison, épargner les mourants, résistance, thaumaturgie*\n- Niveau 1 (4 emplacements) : *amitié avec les animaux, détection du poison et des maladies, rayon empoisonné, soin des blessures*\n- Niveau 2 (3 emplacements) : *protection contre le poison, restauration inférieure, toile d'araignée*\n- Niveau 3 (3 emplacements) : *dissipation de la magie, invoquer des animaux* (2 araignées géantes)\n- Niveau 4 (3 emplacements) : *divination, liberté de mouvement*\n- Niveau 5 (2 emplacements) : *fléau d'insectes, soin des blessures de groupe*\n**Incantation innée.** La caractéristique d'incantation de la drow est le Charisme (DD du jet de sauvegarde contre les sorts 15). Elle peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *lumières dansantes*\n- 1/jour chacun : *lévitation* (soi-même uniquement), *lueurs féeriques, ténèbres*\n**Sensibilité à la lumière du soleil.** Le drow est désavantagé lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à la lumière du soleil.",
+ "actionsText": "**Attaques multiples.** La drow effectue deux attaques avec son fléau.\n**Fléau.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (1d6+2) dégâts perforants plus 17 (5d6) dégâts de poison.\n**Convocation de démon (1/jour).** La drow tente de convoquer par magie une yochlol avec 30 % de chances de réussite. Si la tentative échoue, la drow subit 5 (1d10) dégâts psychiques. Sinon, le démon convoqué apparaît dans un emplacement inoccupé situé à 18 mètres ou moins de son invocatrice, se comporte comme son allié et ne peut convoquer d'autres démons. Il reste pendant 10 minutes, jusqu'à ce que lui ou son invocatrice meure ou jusqu'à ce que son invocatrice le renvoie par une action.",
+ "portrait": "/data/images/5de4f7b365_monstre-pretresse-drow-de-lolth.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 126 · image : Manuel des monstres p. 123",
+ "attacks": [
+  {
+   "name": "Fléau",
+   "bonus": 5,
+   "damage": "1d6+2+5d6",
+   "type": "perforant + poison"
+  }
+ ]
+}

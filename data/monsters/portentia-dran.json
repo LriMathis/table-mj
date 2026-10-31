@@ -1,0 +1,40 @@
+{
+ "id": "portentia-dran",
+ "name": "Portentia Dran",
+ "type": "Monstruosité (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, elfique",
+ "traits": "**Attaque d'éternuement (1/Turn).** Portentia inflige un dégâts supplémentaire de 14 (4d6) lorsqu'elle frappe une cible avec une attaque d'arme et a un avantage sur la jet d'attaque, ou lorsque la cible est à l'intérieur de 1,50 m d'un allié de Portentia qui n'est pas neutralisé et Portentia n'a pas d'inconvénient sur la jet d'attaque.",
+ "actionsText": "**Multiattaques.** Portentia fait trois attaques à la mêlée.\n**Mot-clé.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.\n**Modifier la forme.** Portentia se polymorphe magiquement en un humanoïde ou une bête qui a une cote de défi égale ou inférieure à la sienne, ou de nouveau dans sa forme réelle. Tout équipement qu'elle porte ou qu'elle porte est absorbé ou porté par le nouveau formulaire (son choix). Dans une nouvelle forme, Portentia conserve ses statistiques de jeu et sa capacité à parler, mais ses modes de mouvement, Force, Dextérité, et sens spéciaux sont remplacés par ceux de la nouvelle forme, et elle gagne toutes les statistiques et capacités (sauf les fonctionnalités de classe, les actions légendaires, et les lair actions) que la nouvelle forme a mais qu'elle manque.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/cdb3d00e71_monstre-portentia-dran.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne",
+ "skills": "Tromperie +6, Perspicacité +3, Perception +3",
+ "conditionImmunities": "charmé"
+}

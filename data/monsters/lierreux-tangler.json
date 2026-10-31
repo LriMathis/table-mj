@@ -1,0 +1,40 @@
+{
+ "id": "lierreux-tangler",
+ "name": "Vine Blight Tangler",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 19,
+ "hpFormula": "3d8",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 8,
+  "CON": 14,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Constriction de la vigne.** Jet d'attaque au corps à corps : +4, allonge 3 m. Touché : 1d10 + 2 dégâts contondants. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 12) d'une des trois vignes.\n**Vins enveloppants (Recharge 5-6).** Les vignes qui se gravissent apparaissent momentanément sur chaque ennemi dans une Sphère 3 m -radius centrée sur un point du choix de la brûlure au sein de 18 m de lui. Chaque cible doit réussir sur un DD 12 jet de sauvegarde de Force ou avoir l'état entravé jusqu'au début du prochain tour du feu.",
+ "attacks": [
+  {
+   "name": "Constriction de la vigne",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/bb67001506_monstre-lierreux-tangler.webp",
+ "notes": "",
+ "source": "Stranger Things: Welcome to the Hellfire Club (5e.tools, traduction automatique)",
+ "aka": "Lierreux Tangler",
+ "skills": "Discrétion +1",
+ "conditionImmunities": "assourdi"
+}

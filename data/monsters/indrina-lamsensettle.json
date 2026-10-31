@@ -1,0 +1,32 @@
+{
+ "id": "indrina-lamsensettle",
+ "name": "Indrina Lamsensettle",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 11,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "deux langues différentes",
+ "traits": "",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/525be46366_monstre-indrina-lamsensettle.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Perspicacité +4, Persuasion +5",
+ "reactions": "**Parry.** Indrina ajoute 2 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, Indrina doit voir l'agresseur et utiliser une arme à la mêlée."
+}

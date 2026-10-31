@@ -1,0 +1,42 @@
+{
+ "id": "drone-de-detention-avance",
+ "name": "Advanced Detention Drone",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 142,
+ "hpFormula": "15d10+60",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 8,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les commandes données dans n'importe quelle langue mais ne peut pas parler",
+ "traits": "**Régénération.** Le drone retrouve 10 points de vie au début de son tour s'il a au moins 1 points de vie.\n**Stockage d'orthographe.** Un orthographe qui porte l'amulette du drone peut faire en sorte que le drone stocke un sort de de niveau 4 ou moins. Pour ce faire, le porteur doit jeter le sort sur le drone. Le sort n'a pas d'effet mais est stocké dans le drone. Lorsqu'il est commandé par le porteur ou lorsqu'une situation est définie par l'orthographe, le drone lance le sort stocké avec tous les paramètres définis par le lanceur d'origine, ne nécessitant aucun composant. Lorsque le sort est lancé ou qu'un nouveau sort est stocké, tout sort précédemment stocké est perdu.",
+ "actionsText": "**Multiattaques.** Le drone fait deux coups de poing.\n**Fist.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.\n**Orbe de détention.** Le drone lance une petite orbe de force magique sur une créature qu'il peut voir en lui-même en 9 m. La créature doit réussir sur un DD 15 jet de sauvegarde de Constitution ou être encastrée dans l'orbe, qui s'étend à une taille juste assez grande pour contenir la créature. Pendant qu'elle est enfermée, la créature n'a pas besoin de respirer, de manger ou de boire, et elle n'a pas d'âge. Rien ne peut passer par l'orbe, ni aucune créature ne peut téléporter ou utiliser le voyage planaire pour entrer ou sortir de l'orbe. En tant qu'action bonus, le drone peut déplacer l'orbe et son contenu jusqu'à 9 m dans n'importe quelle direction. Un casting réussi du sort Dissipation de la magie sur l'orbe (DD 15) le détruit. L'orbe reste intacte jusqu'à ce que le drone passe une action pour mettre fin à l'effet ou que le drone soit détruit. Un drone ne peut avoir qu'une seule orbe de retenue active à la fois; si le drone crée une orbe de détention lorsqu'il en a déjà une, la première orbe disparaît, libérant la créature à l'intérieur.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d69f5f4457_monstre-drone-de-detention-avance.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Drone de détention avancé",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "reactions": "**Bouclier.** Lorsqu'une créature attaque le porteur de l'amulette du drone, le drone accorde un bonus de +2 à la CA du porteur si le drone se trouve à l'intérieur de la 1,50 m du porteur."
+}

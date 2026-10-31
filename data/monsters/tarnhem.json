@@ -1,0 +1,54 @@
+{
+ "id": "tarnhem",
+ "name": "Tarnhem",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 19,
+ "hp": 262,
+ "hpFormula": "21d12+126",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 15,
+  "CON": 22,
+  "INT": 20,
+  "SAG": 16,
+  "CHA": 22
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 13",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Throès de la mort.** Quand Tarnhem meurt, il explose, et chaque créature dans 9 m de lui doit faire un DD 20 jet de sauvegarde de Dextérité, en prenant 70 (20d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. L'explosion enflamme des objets inflammables dans cette zone qui ne sont ni portés ni transportés, et elle détruit les armes de Tarnhem.\n**feu Aura.** Au début de chacun des virages de Tarnhem, chaque créature de 1,50 m prend 10 (3d6) dégâts de feu, et les objets inflammables dans l'aura qui ne sont pas portés ou transportés en feu. Une créature qui touche Tarnhem ou la frappe avec une attaque de melee alors que dans 1,50 m il prend 10 (3d6) dégâts de feu.\n**Résistance magique.** Tarnhem a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les armes de Tarnhem sont magiques.",
+ "actionsText": "**C'est la peine de se venger..** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 13 (2d4 + 8) dégâts contondants plus 7 (2d6) dégâts de feu.\n**Multiattaques.** Tarnhem fait deux attaques : l'une avec sa longue épée et l'autre avec son fouet.\n**Mot long.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts tranchants plus 13 (3d8) dégâts de foudre. Si Tarnhem marque un coup critique, il roule des dés de dégâts trois fois, au lieu de deux fois.\n**Whip.** Attaque d'arme au corps à corps : +14 au toucher, allonge 9 m, une cible. Touché : 15 (2d6 + 8) dégâts tranchants plus 10 (3d6) dégâts de feu, et la cible doit réussir sur un DD 20 jet de sauvegarde de Force ou être tiré jusqu'à 7,50 m vers Tarnhem.\n**Téléportation.** Tarnhem téléporte magiquement, avec tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.",
+ "attacks": [
+  {
+   "name": "C'est la peine de se venger.",
+   "bonus": 14,
+   "damage": "2d4+8",
+   "type": "contondant + feu"
+  },
+  {
+   "name": "Mot long",
+   "bonus": 14,
+   "damage": "3d8+8",
+   "type": "tranchant + foudre"
+  },
+  {
+   "name": "Whip",
+   "bonus": 14,
+   "damage": "2d6+8",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/806bdf5e9d_monstre-tarnhem.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +14, CON +12, SAG +9, CHA +12",
+ "resistances": "froid, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

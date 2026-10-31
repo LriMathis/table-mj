@@ -1,0 +1,39 @@
+{
+ "id": "neothelid",
+ "name": "Neothelid",
+ "type": "Aberration",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 16,
+ "hp": 232,
+ "hpFormula": "15d20+75",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 7,
+  "CON": 21,
+  "INT": 3,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "senses": "Vision aveugle 36 m (aveugle au-delà de ce rayon), Perception passive 13",
+ "languages": "—",
+ "traits": "**Sens de la créature.** Le néothélide est conscient de la présence de créatures au sein de 1,5 km qui ont un score Intelligence de 4 ou plus. Il connaît la distance et la direction de chaque créature, ainsi que le score Intelligence de chaque créature, mais ne peut rien sentir d'autre à ce sujet. Une créature protégée par un sort Esprit impénétrable, un sort Antidétection ou une magie similaire ne peut pas être perçue de cette manière.\n**Résistance magique.** Le néothélide a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Tentacules.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 21 (3d8 + 8) dégâts contondants plus 11 (2d10) dégâts psychiques. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 18 jet de sauvegarde de Force ou être avalée par le néothélide. Une créature avalée est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors du néothélide, et il prend 21 (6d6) dégâts d'acide au début de chacun des tours du néothélide.\nSi le néothélide prend 30 dégâts ou plus sur un seul tour d'une créature à l'intérieur, le néothélide doit réussir sur un DD 18 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m du néothélide. Si le néothélide meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 6 m de mouvement, sortant d'à terre.\n**acide Respiration (Recharge 5-6).** Le néothélide expire de l'acide dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 35 (10d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Coulisse (Psioniques).** Le néothélide lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Lévitation\n- 1/jour chacun : Confusion, Esprit faible, Télékinésie",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 13,
+   "damage": "3d8+8",
+   "type": "contondant + psychique + acide"
+  }
+ ],
+ "portrait": "/data/images/c5c4f1b63f_monstre-neothelid.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +1, SAG +8, CHA +6"
+}

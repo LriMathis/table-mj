@@ -1,0 +1,47 @@
+{
+ "id": "bavlorna-blightstraw",
+ "name": "Bavlorna Blightstraw",
+ "type": "Fée (guenaude)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 110,
+ "hpFormula": "13d8+52",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 16,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 14",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Amphibie.** Bavlorna peut respirer l'air et l'eau.\n**Bout de l'immortalité.** Bavlorna est immunisée contre tout effet qui l'aurait vieillie, et elle ne peut pas mourir à partir de la vieillesse.\n**Widdershins Allergie.** Si une créature dans 3 m de Bavlorna utilise au moins 3 m de mouvement pour courir dans le sens contraire des aiguilles d'une montre, Bavlorna est surmontée par un ajustement d'éternuement et ne peut pas jeter des sorts jusqu'à la fin de son prochain tour. En outre, toute créature Bavlorna a avalé est immédiatement expulsée et tombe à terre dans un espace inoccupé au sein de 1,50 m d'elle.",
+ "actionsText": "**Multiattaques.** Bavlorna fait une attaque Bite et une attaque Withering Ray.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts perforants, et la cible est agrippé (évasion DD 16) si c'est une créature moyenne ou plus petite. Jusqu'à ce que le grappin se termine, la cible est entravé, et Bavlorna ne peut pas utiliser son attaque Bite sur une autre cible.\n**Rayon de flétrissement.** Attaque de sort à distance : +6 au toucher, portée 18 m, une cible. Touché : 17 (4d6 + 3) dégâts nécrotiques.\n**Créer des Lornlings (Recharge 5-6).** Bavlorna crée une ou deux duplicata 0,30 m d'elle-même, appelées lornlings (utiliser le bloc de statistiques Quickling à l'appendice C). Chaque lézard apparaît dans un espace inoccupé au sein de 1,50 m de Bavlorna, obéit à ses commandements et prend son tour immédiatement après les siennes. Un lézard dure 1 heure, jusqu'à ce qu'il ou Bavlorna meurt, ou jusqu'à ce que Bavlorna le rejette comme une action. Bavlorna ne peut avoir plus de huit lornlings en existence à la fois.\n**Détection orthographique.** Bavlorna lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Détection de la magie\n- 1/jour : Changement de plan (autoseulement)\n- 2/jour chacun : Création de nourriture et d'eau, Métamorphose, Délivrance des malédictions",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d6+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Rayon de flétrissement",
+   "bonus": 6,
+   "damage": "4d6+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/162a3d5c3b_monstre-bavlorna-blightstraw.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +7, INT +6, SAG +4, CHA +5",
+ "skills": "Arcanes +9, Tromperie +5, Perception +4, Discrétion +3",
+ "bonusActions": "**Avalez.** Bavlorna avale une petite créature ou une petite créature qu'elle lutte, mettant fin au grappin. La créature avalée est aveuglé et entravé, elle a 3 contre les attaques et autres effets en dehors de Bavlorna, et elle prend 10 (3d6) dégâts d'acide au début de chacun de ses tours. Si la créature avalée est l'un des lornlings de Bavlorna, Bavlorna gagne tous les souvenirs de lornling lorsque le dégâts d'acide le réduit à 0 points de vie.\nBavlorna ne peut avoir qu'une créature avalé à la fois. Si Bavlorna meurt, une créature avalée n'est plus entravé et peut s'échapper du corps en utilisant 1,50 m de mouvement, sortant d'à terre."
+}

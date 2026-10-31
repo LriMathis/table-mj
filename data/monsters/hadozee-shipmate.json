@@ -1,0 +1,40 @@
+{
+ "id": "hadozee-shipmate",
+ "name": "Hadozee Shipmate",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, Hadozée",
+ "traits": "**Glisse.** S'il n'est pas neutralisé ou s'il porte une armure lourde, le hadozee peut étendre ses membranes de peau pour atteindre 1,50 m horizontalement pour chaque 0,30 m qu'il descend dans l'air.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8f8627f5df_monstre-hadozee-shipmate.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "saves": "DEX +4, CON +2",
+ "skills": "Perception +4, Survie +6",
+ "reactions": "**Descente sûre.** Lorsqu'il endommage une chute, le hadozee étend ses membranes de peau pour réduire les dégâts de la chute à 0, à condition qu'il ne porte pas d'armure lourde."
+}

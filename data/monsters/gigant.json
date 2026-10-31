@@ -1,0 +1,47 @@
+{
+ "id": "gigant",
+ "name": "Gigant",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 17,
+ "hp": 325,
+ "hpFormula": "21d20+105",
+ "vitesse": "15 m, creusement 15 m, vol 24 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 14,
+  "CON": 21,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "—",
+ "traits": "**Carapace résistant à l'orthographe.** Le gigant a un avantage sur jet de sauvegarde contre les sorts, et toute créature qui fait un attaque de sort contre le gigant a un désavantage sur le jet d'attaque.",
+ "actionsText": "**Multiattaques.** Le gigant attaque un Mandible et deux Talons.\n**Obtention à partir de matières textiles.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une créature. Touché : 21 (4d6 + 7) dégâts tranchants, et la cible a l'état agrippé (évasion DD 17). Jusqu'à ce que le grappin se termine, la cible prend 21 (4d6 + 7) dégâts tranchants au début de chaque tour du gigant. Alors que le gigant s'attaque à une cible, il ne peut pas utiliser Mandibles contre d'autres cibles.\n**Talons.** Attaque d'arme au corps à corps : +13 au toucher, allonge 6 m, une cible. Touché : 17 (3d6 + 7) dégâts tranchants, et la cible est tirée directement vers le gigant.\n**Échelle Poussière (Recharge 5-6).** Le gigant libère la poussière magique de ses ailes dans un cube 9 m. Chaque créature dans cette zone doit faire un DD 19 jet de sauvegarde de Constitution, en prenant 45 (10d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Sur un succès ou un échec, la créature a l'état empoisonné pendant 1 heure. Alors qu'empoisonné de cette façon, la créature ne peut pas retrouver points de vie.",
+ "attacks": [
+  {
+   "name": "Obtention à partir de matières textiles",
+   "bonus": 13,
+   "damage": "4d6+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Talons",
+   "bonus": 13,
+   "damage": "3d6+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/011fdde1b0_monstre-gigant.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, SAG +8",
+ "skills": "Perception +8",
+ "bonusActions": "**Drone.** Le gigant produit un son épouvantable en battant rapidement ses ailes. Chaque créature au sein de 3 m du gigant doit réussir sur un DD 19 jet de sauvegarde de Constitution ou prendre 10 (3d6) dégâts de tonnerre et avoir l'état neutralisé jusqu'à la fin de son prochain tour. Le gigant peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

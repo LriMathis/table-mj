@@ -1,0 +1,46 @@
+{
+ "id": "dao",
+ "name": "Dao",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "caNote": "armure naturelle",
+ "hp": 187,
+ "hpFormula": "15d10+105",
+ "vitesse": "9 m, fouissement 9 m, vol 9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 12,
+  "CON": 24,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "saves": "INT +5, SAG +5, CHA +6",
+ "conditionImmunities": "pétrifié",
+ "senses": "vision dans le noir 36 m, Perception passive 11",
+ "languages": "terreux",
+ "traits": "**Incantation innée.** La caractéristique d'incantation du dao est le Charisme (DD du jet de sauvegarde contre les sorts 14, +6 pour toucher avec les attaques de sort). Le dao peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *détection de la magie, détection du mal et du bien, façonnage de la pierre*\n- 3/jour chacun : *déplacer la terre, langues, passe-muraille*\n- 1/jour chacun : *assassin imaginaire, changement de plan, forme gazeuse, invisibilité, invoquer un élémentaire* (élémentaire de la terre seulement), *mur de pierre*\n**Pied sûr.** Le dao est avantagé lors des jets de sauvegarde de Force et de Dextérité effectués contre les effets susceptibles de le jeter à terre.\n**Traverser la terre.** Le dao peut creuser à travers la terre et la pierre non travaillées et non magiques. Quand il se déplace de cette façon, il ne laisse aucune trace ni aucun tunnel derrière lui.\n**Trépas élémentaire.** Quand le dao meurt, son corps se désagrège en une poudre cristalline en ne laissant derrière lui que les objets qu'il portait ou transportait.",
+ "actionsText": "**Attaques multiples.** Le dao effectue deux attaques de poing ou deux attaques de maillet d'armes.\n**Maillet d'armes.** *Attaque d'arme au corps à corps :* +10 pour toucher, allonge 1,50 m, une cible. *Touché :* 20 (4d6+6) dégâts contondants. Si la cible est une créature de Très Grande taille ou plus petite, elle doit réussir un test de Force DD 18 pour ne pas être jetée à terre.\n**Poing.** *Attaque d'arme au corps à corps :* +10 pour toucher, allonge 1,50 m, une cible. *Touché :* 15 (2d8+6) dégâts contondants.",
+ "portrait": "/data/images/3f02ea5d8e_monstre-dao.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 145 · image : Manuel des monstres p. 144",
+ "attacks": [
+  {
+   "name": "Maillet d'armes",
+   "bonus": 10,
+   "damage": "4d6+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Poing",
+   "bonus": 10,
+   "damage": "2d8+6",
+   "type": "contondant"
+  }
+ ]
+}

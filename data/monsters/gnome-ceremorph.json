@@ -1,0 +1,52 @@
+{
+ "id": "gnome-ceremorph",
+ "name": "Gnome Ceremorph",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 58,
+ "hpFormula": "13d6+13",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "profond, gnome, télépathie 36 m, commun des profondeurs",
+ "traits": "**Résistance magique.** Le cérémorphe a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**La diffusion de l'orthographe innée (Psioniques).** Le caractéristique d'incantation inné du cérémorphe est Intelligence (spell save DD 15). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Détection des pensées, Lévitation\n- 1/jour chacun : Domination de monstre, Changement de plan (autoseulement)",
+ "actionsText": "**Tentacules.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 15 (2d10 + 4) dégâts psychiques. Si la cible est moyenne ou plus petite, elle est agrippé (évasion DD 9) et doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou être étourdi jusqu'à ce que ce grappin se termine.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, un humanoïde neutralisé agrippé par le cérémorphe. Touché : 55 (10d10) dégâts perforants. Si ce dégâts réduit la cible à 0 points de vie, le cérémorphe tue la cible en extrayant et en dévorant son cerveau.\n**Pistol laser.** Attaque d'arme à distance : +5 au toucher, portée 12/36 m., une cible. Touché : 12 (3d6 + 2) dégâts radiants.\n**Boussole mentale (Recharge 5-6).** Le cérémorphe émet magiquement de l'énergie psychique dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou prendre 22 (4d8 + 4) dégâts psychiques et être étourdi pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "psychique"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 7,
+   "damage": "10d10",
+   "type": "perforant"
+  },
+  {
+   "name": "Pistol laser",
+   "bonus": 5,
+   "damage": "3d6+2",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/52f64aebd1_monstre-gnome-ceremorph.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "saves": "INT +7, SAG +6, CHA +6",
+ "skills": "Arcanes +7, Tromperie +6, Perspicacité +6, Perception +6, Persuasion +6, Discrétion +5"
+}

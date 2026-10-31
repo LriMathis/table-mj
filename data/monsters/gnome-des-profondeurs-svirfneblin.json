@@ -1,0 +1,45 @@
+{
+ "id": "gnome-des-profondeurs-svirfneblin",
+ "name": "Gnome des profondeurs (svirfneblin)",
+ "type": "Humanoïde (gnome)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "caNote": "chemise de mailles",
+ "hp": 16,
+ "hpFormula": "3d6+6",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "skills": "Discrétion +4, Investigation +3, Perception +2",
+ "senses": "vision dans le noir 36 m, Perception passive 12",
+ "languages": "commun des profondeurs, gnome, terreux",
+ "traits": "**Camouflage dans la rocaille.** Le gnome est avantagé lors des tests de Dextérité (Discrétion) effectués pour se cacher dans des environnements rocailleux.\n**Incantation innée.** La caractéristique d'incantation innée du gnome est l'Intelligence (DD du jet de sauvegarde contre les sorts 11). Le gnome peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *non-détection* (soi-même uniquement)\n- 1/jour chacun : *cécité/surdité, déguisement, flou*\n**Ruse gnome.** Le gnome est avantagé lors des jets de sauvegarde d'Intelligence, de Sagesse et de Charisme contre la magie.",
+ "actionsText": "**Pic de guerre.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d8+2) dégâts perforants.\n**Fléchette empoisonnée.** *Attaque d'arme à distance :* +4 pour toucher, portée 9/36 m, une créature. *Touché :* 4 (1d4+2) dégâts perforants et la cible doit réussir un jet de sauvegarde de Constitution DD 12 pour ne pas être empoisonnée pendant 1 minute. La cible peut retenter le jet de sauvegarde à la fin de chacun de ses tours et met fin à l'effet dont elle est victime en cas de réussite.",
+ "portrait": "/data/images/6d583d838f_monstre-gnome-des-profondeurs-svirfneblin.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 163 · image : Manuel des monstres p. 162",
+ "attacks": [
+  {
+   "name": "Pic de guerre",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Fléchette empoisonnée",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ]
+}

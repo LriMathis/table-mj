@@ -1,0 +1,40 @@
+{
+ "id": "enderman",
+ "name": "Enderman",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 18,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "Fin de la séance",
+ "traits": "**Téléportation évasive.** Chaque fois qu'il prend des dégâts ou est la cible d'une attaque variée, l'Enderman peut se téléporter, avec tout équipement qu'il porte ou qu'il transporte, dans un espace inoccupé qu'il peut voir en 6 m (aucune action requise). Si cet effet est déclenché par une attaque variée, le téléporteur Enderman se trouve juste avant que l'attaque ne frappe, ce qui fait que l'attaque manque. Ce trait est supprimé alors que l'Enderman possède l'état neutralisé.\n**Implosion.** Lorsque l'Enderman tombe à 0 points de vie, il meurt comme son corps implose. Rouler un d10. Sur un rouleau de 9 ou moins, l'Enderman ne laisse pas de restes. Sur un rouleau de 10, l'Enderman laisse derrière lui un orbe violet brillant appelé une perle Ender, d'une valeur de 500 gp. Une créature peut jeter la perle jusqu'à 18 m ; si la perle atterrit dans un espace inoccupé assez grand pour contenir la créature, la créature téléporte dans cet espace, avec tout équipement qu'elle porte ou transporte, et la perle disparaît.\n**Sensibilité à la lumière du soleil.** En plein soleil, l'Enderman présente un désavantage sur jets d'attaque.\n**Susceptibilité à l'eau.** L'Enderman prend 1 dégâts de froid pour chaque 1,50 m qu'il se déplace dans l'eau, pour chaque gallon d'eau éclaboussé sur elle, ou quand il commence son tour dans la pluie.",
+ "actionsText": "**Multiattaques.** L'Enderman fait deux attaques de Slam.\n**Clamer.** Attaque d'arme au corps à corps : +7 au toucher ; allonge 3 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants plus 9 (2d8) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/4135bcd238_monstre-enderman.webp",
+ "notes": "",
+ "source": "MCV3MC (5e.tools, traduction automatique)",
+ "saves": "FOR +5, CON +5",
+ "skills": "Perception +7, Discrétion +7, Survie +7",
+ "resistances": "nécrotique"
+}

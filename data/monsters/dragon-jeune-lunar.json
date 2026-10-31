@@ -1,0 +1,49 @@
+{
+ "id": "dragon-jeune-lunar",
+ "name": "Young Lunar Dragon",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 123,
+ "hpFormula": "13d10+52",
+ "vitesse": "12 m, creusement 6 m, vol 24 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 72 m, Perception passive 16",
+ "languages": "draconique",
+ "traits": "**Tunneler.** Le dragon peut s'enfoncer dans une roche solide à la moitié de sa vitesse de creusement et laisse un tunnel 3 m-diamètre dans son sillage.\n**Nature inhabituelle.** Le dragon n'a pas besoin d'air.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 3 (1d6) dégâts de froid.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.\n**froid Respiration (Recharge 5-6).** Le dragon exhale une explosion de gel dans un cône 9 m. Chaque créature dans le cône doit faire un DD 15 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 27 (6d8) dégâts de froid, et sa vitesse est réduite de moitié jusqu'à la fin de son prochain tour. Lors d'une sauvegarde réussie, la créature prend la moitié de ces dégâts, et sa vitesse n'est pas réduite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/eda322920b_monstre-dragon-jeune-lunar.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Dragon jeune Lunar",
+ "caNote": "armure naturelle",
+ "saves": "CON +7, SAG +3",
+ "skills": "Perception +6, Discrétion +7",
+ "immunities": "froid",
+ "bonusActions": "**Phase (2/jour).** Le dragon devient partiellement incorporé aussi longtemps qu'il maintient concentration sur l'effet (comme si concentrating sur un sort). Bien qu'en partie incorporel, le dragon a une résistance au bludgeoning, au perçage et au dégâts tranchants."
+}

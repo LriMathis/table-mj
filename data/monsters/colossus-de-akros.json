@@ -1,0 +1,49 @@
+{
+ "id": "colossus-de-akros",
+ "name": "Colossus of Akros",
+ "type": "Créature artificielle",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 21,
+ "hp": 350,
+ "hpFormula": "20d20+140",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 10,
+  "CON": 25,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "Céleste et commun mais ne peut pas parler",
+ "traits": "**Détruire la destruction.** Lorsque le colosse tombe à 0 points de vie, il s'effondre et est détruit. Toute créature qui se trouve au sol dans la 9 m de la statue d'effondrement doit faire un DD 22 jet de sauvegarde de Dextérité, en prenant 22 (4d10) dégâts contondants et 22 (4d10) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**feu absorption.** Chaque fois que le colosse est soumis à dégâts de feu, il ne prend aucun dégâts et récupère plutôt un nombre de points de vie égal à la dégâts de feu traitée.\n**Formulaire immuable.** Le colosse est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Armes magiques.** Les attaques d'armes du colosse sont magiques.\n**Monstre de siège.** Le colosse cause deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le colosse d'Akros fait deux attaques à la mêlée.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +16 au toucher, allonge 4,50 m, ou portée 60/180 m., une cible. Touché : 23 (4d6 + 9) dégâts perforants, ou 27 (4d8 + 9) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee. Si le colosse fait une attaque variée avec cette lance, la lance revient magiquement à sa main après l'attaque.\n**Épée.** Attaque d'arme au corps à corps : +16 au toucher, allonge 4,50 m, une cible. Touché : 36 (6d8 + 9) dégâts tranchants.\n**Flammes d'Akros (Recharge 6).** Les flammes magiques émettent du colosse vers jusqu'à trois créatures que le colosse peut voir dans 27 m de lui. Chaque cible doit faire un DD 24 jet de sauvegarde de Dextérité, en prenant 36 (8d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Lors d'une sauvegarde ratée, une cible prend également le feu par magie pendant 1 minute. À la fin de chacun de ses tours par la suite, la cible brûlante répète le jet de sauvegarde. Il prend 18 (4d8) dégâts de feu sur une sauvegarde échouée, et l'effet se termine sur une réussite.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 16,
+   "damage": "4d6+9",
+   "type": "perforant"
+  },
+  {
+   "name": "Épée",
+   "bonus": 16,
+   "damage": "6d8+9",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/7b2f331121_monstre-colossus-de-akros.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Colossus de Akros",
+ "caNote": "armure naturelle",
+ "saves": "FOR +16, CON +14",
+ "skills": "Athlétisme +16, Perception +7",
+ "immunities": "feu, poison, psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, étourdi, inconscient"
+}

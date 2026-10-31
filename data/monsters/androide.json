@@ -1,0 +1,45 @@
+{
+ "id": "androide",
+ "name": "Android",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 91,
+ "hpFormula": "14d8+28",
+ "vitesse": "9 m, vol 9 m (vol stationnaire) (aviation uniquement), nage 9 m (seul plongeur)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 18 m (sentry only), Vision dans le noir 18 m, Perception passive 17",
+ "languages": "Commune plus les langues parlées par son créateur",
+ "traits": "**Spécialisation de la conception.** Lorsque l'androïde est créé, il gagne l'un des six dessins possibles adaptés à son rôle (choisir ou rouler un d6) : 1, avioniste; 2, diplomate; 3, plongeur; 4, liste de duels; 5, médecin; 6, sentinelle. Cette conception détermine certains traits dans ce bloc de statistiques.\n**Surcharge de foudre.** Lorsque l'androïde prend dégâts de foudre, il doit réussir sur un DD 10 jet de sauvegarde de Constitution ou avoir l'état étourdi jusqu'au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** L'androïde fait deux attaques force Strike.\n**Grève de force.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 12/36 m., une cible. Touché : 15 (2d10 + 4) dégâts de force. Si la cible est une créature moyenne ou plus petite, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou avoir l'état à terre.\n**Diffusion d'orthographe (Diplomate et Médic seulement).** L'androïde lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation :\n- 2/jour chacun : Soins (sous forme de sort de niveau 3; médicament seulement), Identification, Don des langues (diplomate seulement)",
+ "attacks": [
+  {
+   "name": "Grève de force",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/9becdab4c3_monstre-androide.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Androïde",
+ "caNote": "armure naturelle",
+ "saves": "CON +5, SAG +4",
+ "skills": "Histoire +4, Perception +7",
+ "resistances": "acide, feu",
+ "immunities": "froid, poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "reactions": "**Parry (Dueliste seulement).** L'android ajoute 3 à sa CA contre une melee jet d'attaque qui la frapperait. Pour ce faire, l'androïde doit voir l'attaquant."
+}

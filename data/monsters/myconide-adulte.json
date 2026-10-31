@@ -1,0 +1,38 @@
+{
+ "id": "myconide-adulte",
+ "name": "Myconide adulte",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "caNote": "armure naturelle",
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 7
+ },
+ "senses": "vision dans le noir 36 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Soleillite aiguë.** Quand le myconide est exposé à la lumière du soleil, il est désavantagé sur ses tests de caractéristique, ses jets d'attaque et ses jets de sauvegarde. Il périt s'il passe plus d'une heure sous la lumière directe du soleil.\n**Spores de détresse.** Quand le myconide subit des dégâts, tous les myconides situés dans un rayon de 72 mètres perçoivent sa douleur.",
+ "actionsText": "**Poing.** *Attaque d'arme au corps à corps :* +2 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (2d4) dégâts contondants plus 5 (2d4) dégâts de poison.\n**Spores de communication.** Un nuage de spores de 6 mètres de rayon s'étend autour du myconide. Il contourne les angles et affecte uniquement les créatures dotées d'une Intelligence de 2 ou plus autres que les morts-vivants, les créatures artificielles et les élémentaires. Les créatures affectées sont alors capables de communiquer par télépathie tant qu'elles restent à 9 mètres ou moins les unes des autres. Cet effet dure 1 heure.\n**Spores pacificatrices (3/jour).** Le myconide projette un nuage de spores sur une créature située dans son champ de vision et dans un rayon de 1,50 mètre. La cible doit réussir un jet de sauvegarde de Constitution DD 11, sans quoi elle est étourdie pendant une minute. Elle peut refaire ce jet à la fin de chacun de ses tours et met un terme à l'étourdissement dès qu'elle en réussit un.",
+ "portrait": "/data/images/f6c6478d56_monstre-myconide-adulte.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 232 · image : Manuel des monstres p. 231",
+ "attacks": [
+  {
+   "name": "Poing",
+   "bonus": 2,
+   "damage": "2d4+2d4",
+   "type": "contondant + poison"
+  }
+ ]
+}

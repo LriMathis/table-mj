@@ -1,0 +1,49 @@
+{
+ "id": "eater-de-la-connaissance",
+ "name": "Eater of Knowledge",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 102,
+ "hpFormula": "12d10+36",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Perception passive 16",
+ "languages": "télépathie 36 m",
+ "traits": "**Cerveaux débordés.** Lorsque le consommateur de connaissances est rencontré pour la première fois, rouler 1d10 pour déterminer le nombre de cerveaux qu'il a déjà consommé.\n**Résistance magique.** Le mangeur de la connaissance a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le mangeur de la connaissance fait deux attaques de Slam. Si les deux attaques frappent la même créature et que la cible est grande ou plus petite, elle a l'état agrippé (évasion DD 14) et doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou avoir l'état étourdi jusqu'à ce que le grappin se termine.\n**Clamer.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, un humanoïde avec l'état neutralisé. Touché : 45 (10d8) dégâts perforants. Si ces dégâts réduisent la cible à 0 points de vie, le consommateur de connaissances tue la cible en extrayant et en consommant son cerveau.\n**Coulisse (Psioniques).** Le mangeur de connaissances lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme son caractéristique d'incantation (spell save DD 15). Il a dû consommer le nombre requis de cerveaux pour lancer le sort, comme indiqué:\n- 1/jour chacun : Changement de plan (seul, 0 cerveau), Détection de la magie (1 cerveau), Image silencieuse (2 cerveaux), Invisibilité (3 cerveaux), Motif hypnotique (4 cerveaux), Image majeure (5 cerveaux), Télékinésie (6 cerveaux), Oeil magique (7 cerveaux), Double illusoire (8 cerveaux), Invisibilité supérieure (9 cerveaux), Suggestion de groupe (10 cerveaux ou plus)",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 7,
+   "damage": "10d8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6afe98d6f4_monstre-eater-de-la-connaissance.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Eater de la connaissance",
+ "caNote": "armure naturelle",
+ "saves": "FOR +7, INT +7",
+ "skills": "Arcanes +7, Perception +6",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé, effrayé"
+}

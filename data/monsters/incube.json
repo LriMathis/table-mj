@@ -1,0 +1,40 @@
+{
+ "id": "incube",
+ "name": "Incube",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 20
+ },
+ "skills": "Discrétion +7, Intuition +5, Perception +5, Persuasion +9, Tromperie +9",
+ "resistances": "feu, froid, poison, psychiques",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "abyssal, commun, infernal, télépathie 18 m",
+ "traits": "**Forme de succube.** Lorsque l’incube termine un Repos long, il peut se transformer en **succube**, le profil de celle-ci remplaçant alors le sien. Rien de ce qu’il porte n’est transformé.",
+ "actionsText": "**Attaques multiples.** L’incube effectue deux attaques de Contact fébrile.\n**Contact fébrile.** Corps à corps : +7, allonge 1,50 m. Touché : 15 (3d6 + 5) dégâts psychiques, et la cible est maudite pendant 24 heures ou jusqu’à ce que l’incube meure. Tant que persiste la malédiction, la cible ne reçoit aucun bénéfice en terminant un Repos court.\n**Incantation.** L’incube lance l’un des sorts suivants sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 15) :\n- À volonté : *déguisement*, *forme éthérée*\n- 1/jour chacun : *motif hypnotique*, *songe*",
+ "bonusActions": "**Cauchemar (recharge 6).** JS Sagesse : DD 15, une créature que l’incube voit dans un rayon de 18 m. Échec : si la cible a 20 points de vie ou moins, elle subit l’état Inconscient pendant 1 heure, jusqu’à ce qu’elle subisse des dégâts ou qu’une créature dans un rayon de 1,50 m consacre une action à la réveiller. Sinon, la cible subit 18 (4d8) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Contact fébrile",
+   "bonus": 7,
+   "damage": "3d6+5",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/d9754e8c0d_monstre-incube.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

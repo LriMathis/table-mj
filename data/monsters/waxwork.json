@@ -1,0 +1,48 @@
+{
+ "id": "waxwork",
+ "name": "Waxwork",
+ "type": "Créature artificielle",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "7d8+21",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 10",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Mélable.** Si la cire prend dégâts de feu, jusqu'à la fin de son prochain tour, sa vitesse diminue par 6 m et il a Désavantage sur jet de sauvegarde.",
+ "actionsText": "**Multiattaques.** La cire fait deux attaques de couteau de sculpting.\n**Couteau de sculpture.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts tranchants.\n**Lob de cire.** Jet d'attaque à distance : +5, portée 6/18 m. Touché : 8 (2d4 + 3) dégâts contondants, et la vitesse de la cible diminue par 3 m jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Couteau de sculpture",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Lob de cire",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/bd9c5e7eec_monstre-waxwork.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant, tranchant",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné, étourdi, inconscient",
+ "bonusActions": "**Forme-filtre.** La forme de la cire se transforme en un humanoïde de sa taille, ou elle revient à sa vraie forme. Ses statistiques de jeu sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé."
+}

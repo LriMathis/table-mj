@@ -1,0 +1,46 @@
+{
+ "id": "naga-corrupteur",
+ "name": "Naga corrupteur",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 135,
+ "hpFormula": "18d10+36",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "saves": "DEX +6, CON +5, SAG +5, CHA +6",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "abyssal, commun",
+ "traits": "**Restauration fiélonne.** S’il meurt, le naga revient à la vie en 1d6 jours et récupère tous ses points de vie. Seul le sort *souhait* peut empêcher ce trait de fonctionner.",
+ "actionsText": "**Attaques multiples.** Le naga effectue trois attaques, réparties à sa guise entre Morsure et Rayon nécrotique.\n**Morsure.** Corps à corps : +7, allonge 3 m. Touché : 7 (1d6 + 4) dégâts perforants plus 14 (4d6) dégâts de poison.\n**Rayon nécrotique.** À distance : +6, portée 18 m. Touché : 21 (6d6) dégâts nécrotiques.\n**Incantation.** Le naga lance l’un des sorts suivants sans composantes matérielles ni somatiques, l’Intelligence étant sa caractéristique d’incantation (DD de sauvegarde 14) :\n- À volonté : *détection de la magie*, *illusion mineure*, *main du mage*, *respiration aquatique*\n- 2/jour chacun : *détection des pensées*, *éclair* (au 4e niveau), *immobilisation de personne* (au 3e niveau), *porte dimensionnelle*",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 7,
+   "damage": "1d6+4+4d6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Rayon nécrotique",
+   "bonus": 6,
+   "damage": "6d6",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/76c1412df8_monstre-naga-corrupteur.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 233"
+}

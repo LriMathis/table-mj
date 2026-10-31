@@ -1,0 +1,45 @@
+{
+ "id": "baalzebul",
+ "name": "Baalzebul",
+ "type": "Fiélon (diable)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "26",
+ "xp": 90000,
+ "ca": 19,
+ "hp": 540,
+ "hpFormula": "40d12+280",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 15,
+  "CON": 25,
+  "INT": 21,
+  "SAG": 24,
+  "CHA": 26
+ },
+ "senses": "Vision dans le noir 36 m, Perception des vibrations 3 m, Perception passive 17",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**La vue du diable.** Les ténèbres magiques n'entravent pas la vision obscure de Baalzebul.\n**Régénération fidendoise.** Baalzebul retrouve 20 points de vie au début de son tour. S'il prend dégâts radiants ce trait ne fonctionne pas au début de son prochain tour. Baalzebul meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Seigneur des mouches.** Les insectes n'attaquent pas Baalzébul, et il peut leur donner des ordres.\n**Résistance légendaire (3/jour).** Si Baalzebul échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Baalzebul a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Poignée de la limace (formule de limace seulement).** Une créature qui commence son tour dans 3 m de Baalzebul doit réussir sur un DD 21 jet de sauvegarde de Constitution ou avoir l'état empoisonné jusqu'au début de son prochain tour. Sur un jet de sauvegarde réussi, une créature est à l'abri de cette puanteur pendant 1 heure.",
+ "actionsText": "**Multiattaques.** Baalzebul utilise le Cœur de Pestilence (si disponible), puis fait trois attaques de Slam.\n**Clamer.** Attaque d'arme au corps à corps : +17 au toucher, allonge 3 m, une cible. Touché : 19 (3d6 + 9) dégâts contondants plus 7 (2d6) dégâts nécrotiques.\n**Éruption pulmonaire (formulaire de limace seulement, recharger 4-6).** Baalzebul provoque des déchets et du liquide caustique pour se déverser du sol à un moment qu'il peut voir dans 90 m. Chaque créature dans une sphère 4,50 m -radius centrée sur ce point doit faire un DD 21 jet de sauvegarde de Constitution. Les cibles prennent 36 (8d8) dégâts d'acide sur une sauvegarde ratée, soit la moitié de celle sur une sauvegarde réussie. Les créatures qui échouent l'enregistrement ont l'état empoisonné pendant 1 minute.\n**Cœur de Pestilence (Recharge 5-6).** Baalzébul canalise la peste dans son corps, des créatures malades au sein de 15 m qui peuvent le voir. Les créatures malades doivent faire un DD 21 jet de sauvegarde de Charisme, suivi d'un DD 21 jet de sauvegarde de Constitution. À défaut de la sauvegarde Charisme fait qu'une créature a l'état effrayé, tandis qu'à défaut de la sauvegarde Constitution rend une créature faible. Bien qu'affaibli, une créature inflige la moitié des dégâts aux attaques de mêlée. Les deux effets durent 1 minute ou jusqu'à ce qu'un sort Restauration supérieure ou similaire soit lancé.\n**Diffusion orthographique (formulaire à arêtes seulement).** Baalzebul lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 24):\n- À volonté : Animation des morts, Ténèbres, Détection du mal et du bien, Détection de la magie, Dissipation du mal et du bien, Sanctification, Immobilisation de monstre, Suggestion, Téléportation, Vision suprême\n- 1/jour chacun : Symbole (douleur ou folie), Souhait",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 17,
+   "damage": "3d6+9",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/732a2f3d35_monstre-baalzebul.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +17, CON +15, INT +13, CHA +16",
+ "skills": "Athlétisme +17, Tromperie +24, Perspicacité +15, Intimidation +16, Persuasion +16",
+ "resistances": "acide, froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "bonusActions": "**Déplacement.** Baalzebul téléporte magiquement, avec tout équipement qu'il porte et transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, baalzebul peut entreprendre l'une des actions ci-après.\n**Pummel.** Baalzebul fait une attaque de Slam.\n**Téléportation.** Baalzébul utilise Déplacement.\n**Gorge des insectes (coûts 2 actions).** Baalzebul dégorge un essaim de mouches mordantes à un point qu'il peut voir en 90 m de lui-même. Chaque créature dans une sphère 6 m -radius centrée sur ce point doit faire un DD 21 jet de sauvegarde de Constitution. Une créature prend 44 (8d10) dégâts perforants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Les mouches à morsure persistent pendant 1 minute, ou jusqu'à ce que Baalzebul utilise à nouveau cette capacité. Les créatures qui entrent dans la zone des mouches ou qui terminent leur tour à l'intérieur doivent répéter le jet de sauvegarde.\n**Appel d'offres (coûts 3 actions).** Baalzebul convoque un Diable osseux allié dans un espace inoccupé qu'il peut voir."
+}

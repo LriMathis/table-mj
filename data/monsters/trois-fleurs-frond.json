@@ -1,0 +1,39 @@
+{
+ "id": "trois-fleurs-frond",
+ "name": "Tri-flower Frond",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 10,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "1,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 9,
+  "SAG": 13,
+  "CHA": 9
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 10",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La fronde triflore utilise sa fleur d'oranger, puis sa fleur jaune, puis sa fleur rouge.\n**Blossom orange.** La fronde tri-fleur choisit une créature qu'elle peut voir dans 1,50 m de lui. La cible doit réussir sur un DD 11 jet de sauvegarde de Constitution ou être empoisonné pendant 1 heure. Alors qu'empoisonné de cette façon, la cible est inconscient. À la fin de chaque minute, la cible empoisonné peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès.\n**Blossom jaune.** La fronde tri-fleur choisit une créature qu'elle peut voir dans 1,50 m de lui. La cible doit réussir sur un DD 11 jet de sauvegarde de Dextérité, ou elle est recouverte de sève corrosive et prend 5 dégâts d'acide au début de chacun de ses tours. L'utilisation de la cible avec de l'eau réduit le dégâts d'acide de 1 point par pinte ou par fiole d'eau utilisée.\n**Blossom rouge.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une créature. Touché : 2 (1d4) dégâts perforants, et la cible est agrippé (évasion DD 11). Jusqu'à ce que ce grappin se termine, la cible prend 5 (2d4) dégâts de poison au début de chacun de ses tours. La fleur rouge ne peut gripper qu'une cible à la fois. Une autre créature à la portée de la fronde triflore peut utiliser son action pour mettre fin au grappin sur la cible.",
+ "attacks": [
+  {
+   "name": "Blossom rouge",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/48e094c916_monstre-trois-fleurs-frond.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Trois fleurs Frond",
+ "conditionImmunities": "aveuglé, assourdi, épuisement, à terre"
+}

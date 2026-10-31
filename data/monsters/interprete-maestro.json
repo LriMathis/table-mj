@@ -1,0 +1,40 @@
+{
+ "id": "interprete-maestro",
+ "name": "Performer Maestro",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 18,
+ "hp": 110,
+ "hpFormula": "17d8+34",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 19
+ },
+ "senses": "Perception passive 15",
+ "languages": "Commun plus une autre langue",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'interprète fait trois attaques Rapier.\n**Violeur.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts perforants plus 7 (2d6) dégâts psychiques.\n**Cantique en train de m'enchanter.** Jet de sauvegarde de Sagesse : DD 15, chaque créature dans un 6 m -radius Sphere centré sur un point au sein de 36 m. Échec : 20 (3d10 + 4) dégâts psychiques, et la cible a l'état charmé jusqu'à la fin du prochain tour de l'interprète. Réussite : Demi-dégâts seulement.\n**Détection orthographique.** L'interprète lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Illusion mineure, Prestidigitation\n- 1/jour : Fou rire de Tasha (version de niveau 3)",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/8bdb7e1cc3_monstre-interprete-maestro.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Interprète Maestro",
+ "saves": "DEX +7, CHA +7",
+ "skills": "Acrobaties +10, Athlétisme +4, Perception +5, Représentation +10, Discrétion +7"
+}

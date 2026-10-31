@@ -1,0 +1,58 @@
+{
+ "id": "oussa",
+ "name": "Oussa",
+ "type": "Monstruosité (métamorphe, yuan-ti)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Changeur de forme.** Oussa peut utiliser son action pour se polymorphiser en serpent moyen, ou revenir dans sa forme réelle. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il ne change pas de forme s'il meurt.\n**Résistance magique.** Oussa a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Type de Malison.** Oussa a l'un des types suivants:\n- **Type 1:** Corps humain avec tête de serpent\n- **Type 2:** Tête et corps humains avec serpents pour bras\n- **Type 3:** Tête humaine et haut du corps avec un corps inférieur serpentine au lieu des jambes\n**Cartouches d'orthographe innées (Forme Yuan-ti seulement).** Le caractéristique d'incantation inné d'Oussa est Charisme (sorption sauvegardez DD 13). Oussa peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Amitié avec les animaux (snakes seulement)\n- 3/jour : Suggestion",
+ "actionsText": "**Multiattaques (formulaire Yuan-ti seulement).** Oussâ fait deux attaques ou deux attaques à la mêlée, mais ne peut constricter qu'une seule fois.\n**Bite (Forme de serpent seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d4 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Constriction.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants, et la cible est agrippé (évasion DD 13). Jusqu'à ce que ce grappin se termine, la cible est entravé, et Oussa ne peut pas constricter une autre cible.\n**Scimitar (Forme Yuan-ti seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Longbow (formulaire Yuan-ti seulement).** Attaque d'arme à distance : +4 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bite (Forme de serpent seulement)",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Scimitar (Forme Yuan-ti seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow (formulaire Yuan-ti seulement)",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/36996c29d5_monstre-oussa.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

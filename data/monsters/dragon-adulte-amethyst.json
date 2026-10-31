@@ -1,0 +1,51 @@
+{
+ "id": "dragon-adulte-amethyst",
+ "name": "Adult Amethyst Dragon",
+ "type": "Dragon (gemme)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 19,
+ "hp": 229,
+ "hpFormula": "17d12+119",
+ "vitesse": "12 m, vol 24 m (vol stationnaire), nage 12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 14,
+  "CON": 25,
+  "INT": 20,
+  "SAG": 17,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 23",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Amphibie.** Le dragon peut respirer à la fois l'air et l'eau.\n**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 18 (2d10 + 7) dégâts perforants plus 9 (2d8) dégâts de force.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 11 (1d8 + 7) dégâts tranchants.\n**Singularité Respiration (Recharge 5-6).** Le dragon crée une perle brillante de force gravitationnelle dans sa bouche, puis libère l'énergie dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 20 jet de sauvegarde de Force. Sur une sauvegarde ratée, la créature prend 45 (10d8) dégâts de force, et sa vitesse devient 0 jusqu'au début du prochain tour du dragon. Lors d'une sauvegarde réussie, la créature prend la moitié de ces dégâts, et sa vitesse n'est pas réduite.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- 1/jour chacun : Clignotement, Contrôle de l'eau, Dissipation de la magie, Protection contre le mal et le bien, Communication à distance",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d10+7",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "1d8+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b5e7dd797f_monstre-dragon-adulte-amethyst.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon adulte Amethyst",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +12, SAG +8, CHA +10",
+ "skills": "Arcanes +15, Perception +13, Persuasion +10, Discrétion +7",
+ "resistances": "force, psychique",
+ "conditionImmunities": "effrayé, à terre",
+ "bonusActions": "**Modifier la forme.** Le dragon se transforme magiquement en toute créature moyenne ou petite, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si le dragon est réduit à 0 points de vie ou utilise un action bonus pour y mettre fin.\n**Étape psychique.** Le dragon se téléporte magiquement dans un espace inoccupé qu'il peut voir à l'intérieur de 18 m.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon adulte amethyst peut entreprendre l'une des actions ci-après.\n**Griffe.** Le dragon fait une attaque de griffes.\n**Psionics (coûts 2 actions).** Le dragon utilise psychique Step ou Spellcasting.\n**Cristal explosif (coûts 3 actions).** Le dragon crache un améthyste qui explose à un point qu'il peut voir à l'intérieur de 18 m. Chaque créature dans une sphère 6 m -radius centrée sur ce point doit réussir sur une DD 20 jet de sauvegarde de Dextérité ou prendre 13 (3d8) dégâts de force et être à terre."
+}

@@ -1,0 +1,46 @@
+{
+ "id": "orc-rouge-fang-de-shargaas",
+ "name": "Orc Red Fang of Shargaas",
+ "type": "Humanoïde (orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, orc",
+ "traits": "**Action énergique.** À chacun de ses tours, l'orc peut utiliser un action bonus pour prendre l'action Foncer, Se désengager ou Se cacher.\n**Main de Shargaas.** L'orc inflige 2 dés supplémentaires de dégâts lorsqu'il frappe une cible avec une attaque d'arme (inclus dans ses attaques).\n**La vue de Shargaas.** Les ténèbres magiques n'entravent pas la vision obscure de l'orc.\n**Tueuse.** Dans le premier tour d'un combat, l'orc a l'avantage sur jets d'attaque contre toute créature qui n'a pas encore pris de tour. Si l'orc frappe une créature qui tourne qui était surpris, le coup est automatiquement un coup critique.",
+ "actionsText": "**Multiattaques.** L'orc fait deux attaques de scimitar ou de fléchettes.\n**Scimitar.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 13 (3d6 + 3) dégâts tranchants.\n**Débrouille-toi.** Attaque d'arme à distance : +5 au toucher, portée 6/18 m., une cible. Touché : 10 (3d4 + 3) dégâts perforants.\n**Veil de Shargaas (Recharges après un repos court ou long).** L'orc lance Ténèbres sans aucun composant. Sagesse est son caractéristique d'incantation.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 5,
+   "damage": "3d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 5,
+   "damage": "3d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/64c245839f_monstre-orc-rouge-fang-de-shargaas.webp",
+ "notes": "",
+ "source": "Volo's Guide to Monsters (5e.tools, traduction automatique)",
+ "aka": "Orc rouge Fang de Shargaas",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Intimidation +1, Perception +2, Discrétion +5"
+}

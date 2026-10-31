@@ -1,0 +1,46 @@
+{
+ "id": "vecna-le-archlich",
+ "name": "Vecna the Archlich",
+ "type": "Mort-vivant (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "26",
+ "xp": 90000,
+ "ca": 18,
+ "hp": 272,
+ "hpFormula": "32d8+128",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 22,
+  "SAG": 24,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 25",
+ "languages": "commun, draconique, elfique, infernal",
+ "traits": "**Résistance légendaire (5/jour).** Si Vecna échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Matériel spécial.** Vecna porte une dague magique nommée Afterwindt. Dans les mains de toute personne autre que Vecna, Afterwindt est un poignard +2.\n**Décoloration.** Si Vecna est tué, son âme refuse d'accepter son destin et vit comme un esprit désincarné qui façonne un nouveau corps pour elle-même après 1d100 ans. L'âme de Vecna peut modeler un nouveau corps même si son vieux corps a été brûlé à des cendres ou autrement effacé. Lorsque le nouveau corps est complet, Vecna retrouve tout son points de vie et redevient actif. Le nouveau corps de Vecna apparaît n'importe où dans 150 km où Vecna a été tué.\n**Nature inhabituelle.** La Vecna n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Vecna utilise Flight of the Damned (si disponible), Rotten Fate, ou Spellcasting. Il fait ensuite deux attaques avec Afterwindt.\n**Après réflexion.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d4 + 5) dégâts perforants, plus 9 (2d8) dégâts nécrotiques. Si la cible est une créature, elle est affligée par la magie entropique, prenant 9 (2d8) dégâts nécrotiques au début de chacun de ses tours. Immédiatement après avoir pris ces dégâts à son tour, la cible peut faire un DD 20 jet de sauvegarde de Constitution, mettant fin à l'effet sur elle-même sur un succès. Jusqu'à ce qu'il réussisse sur cette sauvegarde, la cible affligée ne peut pas retrouver points de vie.\n**Vol du (Recharge 5-6).** Vecna évoque un torrent d'entités spectrales volantes qui remplissent un cône 36 m et traversent toutes les créatures de cette région avant de se dissiper. Chaque créature dans cette zone doit faire un DD 22 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 36 (8d8) dégâts nécrotiques et est effrayé de Vecna pendant 1 minute. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas effrayé. Une créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Dénomination des produits.** Vecna provoque la magie nécrotique pour engloutir une créature il peut voir dans 36 m de lui-même. La cible doit faire un DD 22 jet de sauvegarde de Constitution, en prenant 96 (8d8 + 60) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Un humanoïde tué par cette magie monte comme un Zombi au début du prochain tour de Vecna et agit immédiatement après Vecna dans l'ordre d'initiative. Le Zombi est sous le contrôle de Vecna.\n**Détection orthographique.** Vecna lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Intelligence comme caractéristique d'incantation (spell save DD 22) :\n- À volonté : Animation des morts (en tant qu'action), Détection de la magie, Dissipation de la magie, Vol, Éclair, Main de mage, Prestidigitation\n- 1/jour chacun : Domination de monstre, Globe d'invulnérabilité, Changement de plan (autoseulement)\n- 2/jour chacun : Porte dimensionnelle, Invisibilité, Scrutation (en tant qu'action)",
+ "attacks": [
+  {
+   "name": "Après réflexion",
+   "bonus": 13,
+   "damage": "1d4+5",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/88fe40c84d_monstre-vecna-le-archlich.webp",
+ "notes": "",
+ "source": "VD (5e.tools, traduction automatique)",
+ "aka": "Vecna le Archlich",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, INT +14, SAG +15",
+ "skills": "Arcanes +22, Histoire +14, Perspicacité +15, Perception +15",
+ "resistances": "froid, foudre, nécrotique",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, étourdi",
+ "bonusActions": "**Vile Teleport.** Vecna téléporte, avec tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir. Il peut faire en sorte que chaque créature de son choix dans 4,50 m de son espace de destination prenne 10 (3d6) dégâts psychiques. Si au moins une créature prend ce dégâts, Vecna récupère 80 points de vie.",
+ "reactions": "**Contrepellation du drain.** Vecna prononce un mot d'horreur pour interrompre une créature qu'il peut voir qui jette un sort. Si le sort est de niveau 4 ou inférieur, il échoue et n'a aucun effet. Si le sort est de niveau 5 ou supérieur, Vecna fait un test d'Intelligence (DD 10 + le niveau du sort). Sur un succès, le sort échoue et n'a aucun effet. Quel que soit le niveau du sort, le lanceur prend 10 (3d6) dégâts psychiques si le sort échoue.\n**Répudiation de la coqueluche.** En réponse à une attaque, Vecna prononce un mot tombé, en confiant 10 (3d6) dégâts nécrotiques à l'agresseur, et Vecna téléporte, avec tout l'équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

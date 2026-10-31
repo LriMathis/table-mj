@@ -1,0 +1,39 @@
+{
+ "id": "jaculi",
+ "name": "Jaculi",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 16,
+ "hpFormula": "3d10",
+ "vitesse": "9 m, escalade 6 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 8,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Camouflage.** Le jaculi a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher.\n**Sensation de Keen.** Le jaculi a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts perforants.\n**Printemps.** Le jaculi monte jusqu'à 9 m en ligne droite et fait une attaque de morsure contre une cible à sa portée. Cette attaque a un avantage si le jaculi ressort au moins 3 m. Si l'attaque frappe, la morsure offre un 7 (2d6) dégâts perforants supplémentaire.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9a977e83ad_monstre-jaculi.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +4, Perception +1, Discrétion +4"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "ssendam-seigneur-de-madness",
+ "name": "Ssendam, Lord of Madness",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 19,
+ "hp": 299,
+ "hpFormula": "26d10+156",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 24,
+  "CON": 22,
+  "INT": 20,
+  "SAG": 18,
+  "CHA": 26
+ },
+ "senses": "Vision aveugle 18 m, Vision parfaite 36 m, Perception passive 21",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Aura de la folie.** Toute créature (autre qu'undead ou Constructs) qui termine son tour dans 3 m de Ssendam doit réussir sur un DD 20 jet de sauvegarde de Charisme ou être infligée avec une folie aléatoire à court terme. Si une créature réussit contre toute capacité de folie de Ssendam, ils sont immunisés contre la folie de Ssendam pendant 1 heure.\n**Résistance légendaire (3/jour).** Si Ssendam échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Ssendam a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes de Ssendam sont magiques.\n**Régénération (Forme d'Amoeba d'or seulement).** Ssendam retrouve 40 points de vie au début de son tour si elle a au moins 1 points de vie.",
+ "actionsText": "**Multiattaques.** Ssendam fait trois attaques : une avec son Touch of Madness et deux avec son personnel du Chaos.\n**Touche de folie.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d10 + 5) dégâts tranchants plus 11 (2d10) dégâts nécrotiques. Une cible qui échoue un DD 20 jet de sauvegarde de Charisme est infligée avec une folie aléatoire à court terme. Si elle est déjà folle, la folie existante est remplacée par une folie aléatoire à long terme.\n**Personnel du Chaos.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants plus 11 (2d10) dégâts nécrotiques. La cible doit réussir sur un DD 19 jet de sauvegarde de Constitution ou avoir l'état étourdi pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur un succès.\n**Invoquer Slaadi (1/jour).** Ssendam appelle la mort de 1d4 + 1 Slaadi. Un slaad convoqué apparaît dans un espace inoccupé à l'intérieur de 18 m de Ssendam, agit comme un allié de Ssendam, et ne peut pas convoquer d'autres slaadi. Il reste 1 minute, jusqu'à ce qu'il ou Ssendam meurt, ou jusqu'à ce que Ssendam le rejette comme une action.\n**Téléportation.** Ssendam téléporte magiquement, avec tout équipement qu'elle porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'elle peut voir.\n**Détection orthographique.** Ssendam lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 23) :\n- À volonté : Détection du mal et du bien, Détection de la magie, Détection des pensées, Dissipation de la magie, Peur, Vol, Suggestion de groupe, Changement de plan\n- 1/jour chacun : Mot de pouvoir mortel, Mot de pouvoir étourdissant\n- 2/jour chacun : Doigt de mort, Colonne de flamme",
+ "attacks": [
+  {
+   "name": "Touche de folie",
+   "bonus": 12,
+   "damage": "1d10+5",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Personnel du Chaos",
+   "bonus": 12,
+   "damage": "2d6+5",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/8f0bb221bb_monstre-ssendam-seigneur-de-madness.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "aka": "Ssendam, seigneur de Madness",
+ "caNote": "armure naturelle",
+ "saves": "DEX +14, CON +13, CHA +15",
+ "skills": "Arcanes +12, Tromperie +15, Perspicacité +18, Intimidation +15, Perception +11",
+ "resistances": "acide, froid, feu, foudre, tonnerre",
+ "immunities": "nécrotique, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "bonusActions": "**Modifier la forme.** Ssendam se transforme en un humanoïde de taille petite ou moyenne, en une petite aberration qui ressemble à une amoéba dorée, ou de nouveau à cette forme de slaad doré. Tout équipement qu'elle porte ou qu'elle transporte n'est pas transformé. Elle revient à sa vraie forme si elle meurt. Ses statistiques sur les humanoïdes, autres que sa taille, sont les mêmes.\nAlors que dans sa forme amoéba, Ssendam a également les mêmes statistiques avec les changements suivants. Elle ne peut prendre aucune action (sauf son action Change Shape), parler ou manipuler des objets. Elle a une vitesse de mouvement de 12 m et peut entrer dans l'espace d'une créature hostile et s'arrêter là. En outre, Ssendam peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer. Elle a un avantage sur Force et jet de sauvegarde de Dextérité et a une résistance à tous les dégâts sauf psychiques et radieux.",
+ "reactions": "**Amoéba.** Lorsqu'elle est endommagée, Ssendam utilise sa réaction pour activer Change Shape pour se transformer en sa forme d'amibe dorée. Cela réduit les dégâts à 0.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, ssendam, seigneur de madness peut entreprendre l'une des actions ci-après.\n**Personnel du Chaos.** Ssendam fait une attaque du Chaos Staff.\n**Téléportation.** Ssendam utilise son action de Téléport.\n**Subversion (coûts 2 actions).** Ssendam force toute créature souffrant de folie au sein de 18 m à utiliser leur réaction pour attaquer une autre créature au sein de 1,50 m."
+}

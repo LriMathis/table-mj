@@ -1,0 +1,47 @@
+{
+ "id": "yuan-ti-malison-type-1",
+ "name": "Yuan-ti Malison (Type 1)",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m, escalade 9 m (forme de serpent seulement)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Résistance magique.** L'yuan-ti a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'yuan-ti fait deux attaques, en utilisant Bite ou poison Ray dans n'importe quelle combinaison, et il peut utiliser Spellcasting pour lancer Suggestion si disponible.\n**Morceau.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Rayon poison (formulaire Yuan-ti seulement).** Jet d'attaque à distance : +5, portée 36 m. Touché : 12 (2d8 + 3) dégâts de poison.\n**Diffusion de l'orthographe (Forme Yuan-ti seulement).** L'yuan-ti lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Amitié avec les animaux (snakes seulement)\n- 2/jour : Suggestion",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Rayon poison (formulaire Yuan-ti seulement)",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/cc320335fe_monstre-yuan-ti-malison-type-1.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "skills": "Discrétion +4 (+6 while in snake form)",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Forme-filtre.** La forme yuan-ti se transforme en serpent moyen ou revient à sa vraie forme. S'il meurt, il reste dans sa forme actuelle. Les statistiques du jeu du yuan-ti sont les mêmes dans chaque forme, sauf où noté. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé."
+}

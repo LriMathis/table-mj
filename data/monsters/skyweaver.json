@@ -1,0 +1,38 @@
+{
+ "id": "skyweaver",
+ "name": "Skyweaver",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Perception passive 10",
+ "languages": "aérien, commun",
+ "traits": "**Détection orthographique.** Le Skyweaver est un spellcaster de niveau 6. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Il connaît les sorts de sorciers suivants:\n- Sorts mineurs (à volonté) : Protection contre les armes, Lumière, Message, Rayon de givre, Poigne électrique\n- Niveau 1 (4 emplacements) : Feuille morte, Armure de mage, Trait ensorcelé\n- Niveau 2 (3 emplacements) : Bourrasque, Invisibilité\n- Niveau 3 (3 emplacements) : Vol, Éclair",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/bcfd5708ff_monstre-skyweaver.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Persuasion +5"
+}

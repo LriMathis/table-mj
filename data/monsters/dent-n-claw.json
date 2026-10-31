@@ -1,0 +1,41 @@
+{
+ "id": "dent-n-claw",
+ "name": "Tooth-N-Claw",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "comprend Infernal mais ne peut pas le dire",
+ "traits": "**L'ouïe et l'odeur de Keen.** Dent-N-Claw a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou l'odeur.\n**Tactiques de conditionnement.** Dent-N-Claw a avantage sur un jet d'attaque contre une créature si au moins un de ses alliés est dans 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 7 (2d6) dégâts de froid.\n**Respiration verglaçante (Recharge 5-6).** La Dent-N-Claw expire une explosion glacée dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant + froid"
+  }
+ ],
+ "portrait": "/data/images/477669f92b_monstre-dent-n-claw.webp",
+ "notes": "",
+ "source": "Essentials Kit: Storm Lord's Wrath (5e.tools, traduction automatique)",
+ "aka": "Dent-n- Claw",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5",
+ "immunities": "froid"
+}

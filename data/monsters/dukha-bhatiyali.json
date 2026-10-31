@@ -1,0 +1,57 @@
+{
+ "id": "dukha-bhatiyali",
+ "name": "Dukha Bhatiyali",
+ "type": "Humanoïde (humain, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 120,
+ "hpFormula": "16d8+48",
+ "vitesse": "9 m (12 m en forme de tigre)",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "Fréquent (ne peut pas parler sous forme de tigre)",
+ "traits": "**Changeur de forme.** Dukha peut utiliser son action pour se polymorphiser en un hybride tigre-humanoïde ou en un tigre, ou revenir dans sa forme réelle, qui est humanoïde. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**L'ouïe et l'odeur de Keen.** Dukha a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou l'odeur.\n**Ponce (Tiger ou formulaire hybride seulement).** Si Dukha se déplace au moins 4,50 m droit vers une créature et la frappe avec une attaque de griffe au même tour, cette cible doit réussir sur un DD 14 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, Dukha peut faire une attaque de morsure contre elle en tant qu'action bonus.",
+ "actionsText": "**Multiattaque (forme humaine ou hybride seulement).** Sous forme humanoïde, Dukha fait deux attaques de scimitar ou deux attaques de longbow. Sous forme hybride, il peut attaquer comme un humanoïde ou faire deux attaques de griffes.\n**Bite (forme Tiger ou hybride seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants. Si la cible est un humanoïde, elle doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie de westiger.\n**Griffe (Tigre ou formulaire hybride seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants.\n**Scimitar (forme humaine ou hybride seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Longbow (forme humaine ou hybride seulement).** Attaque d'arme à distance : +4 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bite (forme Tiger ou hybride seulement)",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe (Tigre ou formulaire hybride seulement)",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Scimitar (forme humaine ou hybride seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow (forme humaine ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e0e62f8878_monstre-dukha-bhatiyali.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "skills": "Perception +5, Discrétion +4",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées"
+}

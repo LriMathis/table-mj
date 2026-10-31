@@ -1,0 +1,39 @@
+{
+ "id": "ixitxachitl",
+ "name": "Ixitxachitl",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 18,
+ "hpFormula": "4d6+4",
+ "vitesse": "0 m, nage 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "abyssal, Autres produits",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0a0208abb5_monstre-ixitxachitl.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "reactions": "**Tail barbelé.** Lorsqu'une créature provoque une attaque d'opportunité à partir de l'ixitxachitl, l'ixitxachitl peut faire l'attaque suivante au lieu d'utiliser sa morsure.\nAttaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants."
+}

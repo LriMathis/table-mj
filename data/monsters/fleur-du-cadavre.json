@@ -1,0 +1,40 @@
+{
+ "id": "fleur-du-cadavre",
+ "name": "Corpse Flower",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 12,
+ "hp": 127,
+ "hpFormula": "15d10+45",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 7,
+  "SAG": 15,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 36 m (aveugle au-delà de ce rayon), Perception passive 12",
+ "languages": "—",
+ "traits": "**Corps.** Lorsqu'il est rencontré pour la première fois, une fleur de cadavre contient les cadavres des humanoïdes 1d6 + 3. Une fleur de cadavre peut contenir les restes de jusqu'à neuf Humanoïdes. Ces restes ont 3 contre les attaques et d'autres effets en dehors de la fleur du cadavre. Si la fleur du cadavre meurt, les cadavres à l'intérieur peuvent être libérés.\n**Escalade des araignées.** La fleur du cadavre peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Détachement de la mort.** Chaque créature qui commence son tour à l'intérieur de 3 m de la fleur du cadavre ou l'un de ses zombies doit faire un DD 14 jet de sauvegarde de Constitution, à moins que la créature soit un Construct ou un mort-vivant. Sur une sauvegarde ratée, la créature est empoisonné jusqu'au début de son prochain tour. Sur un salut réussi, la créature est immunisée contre le sternum de la mort de toutes les fleurs du cadavre pendant 24 heures.",
+ "actionsText": "**Multiattaques.** La fleur du cadavre fait trois attaques du Tentacle.\n**Tentacle.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 9 (2d6 + 2) dégâts contondants plus 10 (3d6) dégâts de poison.\n**Récolte les morts.** La fleur du cadavre avale un corps humanoïde non sécurisé dans la 3 m de celui-ci, ainsi que tout équipement que le corps porte ou porte.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 5,
+   "damage": "2d6+2",
+   "type": "contondant + poison"
+  }
+ ],
+ "portrait": "/data/images/97010f7b28_monstre-fleur-du-cadavre.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Fleur du cadavre",
+ "conditionImmunities": "aveuglé, assourdi, empoisonné",
+ "bonusActions": "**Digest.** La fleur du cadavre digère un cadavre dans son corps et retrouve instantanément 11 (2d10) points de vie. Rien du corps digéré ne reste. Tout équipement sur le corps est expulsé de la fleur du cadavre dans son espace.\n**Réanimée.** La fleur du cadavre anime un cadavre dans son corps, le transformant en Zombi. Le zombie apparaît dans un espace inoccupé au sein de 1,50 m de la fleur du cadavre et agit immédiatement après lui dans l'ordre d'initiative. Le zombie agit comme un allié de la fleur du cadavre mais n'est pas sous son contrôle, et la puanteur de la fleur s'accroche à elle (voir Stench of Death)."
+}

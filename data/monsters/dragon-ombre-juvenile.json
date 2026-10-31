@@ -1,0 +1,43 @@
+{
+ "id": "dragon-ombre-juvenile",
+ "name": "Juvenile Shadow Dragon",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m, escalade 9 m, vol 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, draconique",
+ "traits": "**Ombre vivante.** Pendant qu'il est dans la lumière ou l'obscurité, le dragon a une résistance aux dégâts qui n'est pas force, psychique, ou radiant.\n**Sensibilité à la lumière du soleil.** Alors qu'au soleil, le dragon a un désavantage sur tests de caractéristique et jets d'attaque.",
+ "actionsText": "**Multiattaques.** Le dragon fait deux attaques de Rend.\n**Rend.** Jet d'attaque au corps à corps : +5, allonge 3 m. Touché : 7 (1d8 + 3) dégâts tranchants plus 3 (1d6) dégâts nécrotiques.\n**Shadow Breath (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 13, chaque créature dans un cône 9 m. Échec : 17 (5d6) dégâts nécrotiques. Réussite : Demi-dégâts. Échec ou réussite : Un Humanoïde réduit à 0 points de vie par ce dégâts meurt, et un Ombre se lève de son corps. L'ombre est sous le contrôle du dragon et partage l'Initiative du dragon, mais agit immédiatement après le dragon.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/8cb4d2ffa1_monstre-dragon-ombre-juvenile.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Dragon ombre juvénile",
+ "saves": "DEX +4",
+ "skills": "Perception +4, Discrétion +6",
+ "resistances": "Voir l'ombre vivante",
+ "immunities": "nécrotique",
+ "bonusActions": "**Vols d'ombre.** Dans la Lumière Dim ou l'Obscur, le dragon prend l'action Se cacher."
+}

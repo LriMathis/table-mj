@@ -1,0 +1,48 @@
+{
+ "id": "oread",
+ "name": "Oread",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 18
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, sylvestre",
+ "traits": "**invisible dans feu.** L'oread est invisible alors qu'il est complètement immergé dans le feu.\n**Résistance magique.** L'oread a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** Le caractéristique d'incantation de l'oread est Charisme (save DD 14, +6 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Trait de feu (voir \"Actions\" ci-dessous)\n- 1/jour chacun : Représailles infernales (voir \"Réactions\" ci-dessous), Rayon ardent\n- 3/jour : Mains brûlantes",
+ "actionsText": "**Multiattaques.** L'oread attaque deux fois avec sa touche de feu ou son boulon d'incendie.\n**Touche ardente.** Attaque de sort au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d10 + 4) dégâts de feu.\n**feu Bolt (sort mineur).** Attaque de sort à distance : +6 au toucher, portée 36 m, une cible. Touché : 5 (1d10) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Touche ardente",
+   "bonus": 6,
+   "damage": "1d10+4",
+   "type": "feu"
+  },
+  {
+   "name": "feu Bolt (sort mineur)",
+   "bonus": 6,
+   "damage": "1d10",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/1ef1a3d02d_monstre-oread.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Acrobaties +4, Athlétisme +4, Représentation +6",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "reactions": "**Réplique hellish (de niveau 2 Spell; 1/Jour).** Lorsque l'oread est endommagé par une créature dans 18 m de l'oread qu'il peut voir, la créature qui a endommagé l'oread doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 16 (3d10) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

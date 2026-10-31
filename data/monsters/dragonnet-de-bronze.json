@@ -1,0 +1,40 @@
+{
+ "id": "dragonnet-de-bronze",
+ "name": "Dragonnet de bronze",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m, vol 18 m, nage 9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "saves": "DEX +2, SAG +2",
+ "skills": "Discrétion +2, Perception +4",
+ "immunities": "foudre",
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer sous l’eau comme à l’air libre.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue deux attaques de Saignée.\n**Saignée.** Corps à corps : +5, allonge 1,50 m. Touché : 8 (1d10 + 3) dégâts tranchants.\n**Souffle de foudre (recharge 5–6).** JS Dextérité : DD 12, chaque créature dans une Ligne de 12 m de long sur 1,50 m de large. Échec : 16 (3d10) dégâts de foudre. Réussite : demi-dégâts.\n**Souffle répulsif.** JS Force : DD 12, chaque créature dans un Cône de 9 m. Échec : la cible est repoussée du dragon sur 9 m en ligne droite et subit l’état À terre.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/90808d6542_monstre-dragonnet-de-bronze.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 107"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "stonemelder",
+ "name": "Stonemelder",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 17,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 17
+ },
+ "senses": "Perception des vibrations 9 m, Perception passive 12",
+ "languages": "commun, terreux",
+ "traits": "**Burst de mort.** Quand le Stonemelder meurt, il se tourne vers la pierre et explose dans une explosion de durs de roche, devenant une pile fumante de décombres. Chaque créature de 3 m du Stonemelder explosant doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 11 (2d10) dégâts contondants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Le Stonemelder est un spellcaster de niveau 7. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Il connaît les sorts de sorciers suivants:\n- Sorts mineurs (à volonté) : Aspersion d'acide, Protection contre les armes, Lumière, Réparation, Façonnage de la terre\n- Niveau 1 (4 emplacements) : Repli expéditif, Simulacre de vie, Bouclier\n- Niveau 2 (3 emplacements) : Poigne terreuse de Maximilien, Fracassement\n- Niveau 3 (3 emplacements) : Éruption de terre, Fusion dans la pierre\n- Niveau 4 (1 emplacements) : Peau de pierre",
+ "actionsText": "**Barre noire de la Terre.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants. Le Stonemelder peut également dépenser un emplacement de sort pour infliger des dégâts supplémentaires, en fournissant 2d8 dégâts contondants pour une fente de niveau 1, plus un 1d8 supplémentaire pour chaque niveau de la fente au-dessus du 1er.",
+ "attacks": [
+  {
+   "name": "Barre noire de la Terre",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/599327148d_monstre-stonemelder.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "Armure Splint",
+ "skills": "Intimidation +5, Perception +2"
+}

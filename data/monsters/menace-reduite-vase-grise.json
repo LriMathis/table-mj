@@ -1,0 +1,41 @@
+{
+ "id": "menace-reduite-vase-grise",
+ "name": "Reduced-Threat Gray Ooze",
+ "type": "Vase",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 8,
+ "hp": 22,
+ "hpFormula": "3d8+9",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 6,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 2
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "**Amorphe.** L'ooze peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Corrode métal.** Toute arme non magique faite de métal qui frappe les corrodes. Après avoir causé des dégâts, l'arme prend une pénalité permanente et cumulative de −1 à jets de dégâts. Si sa peine tombe à −5, l'arme est détruite. Les munitions non magiques en métal qui frappent l'ooze sont détruites après avoir causé des dégâts.\nL'ooze peut manger dans un métal non magique de 2 pouces d'épaisseur en 1 tour.\n**Fausse apparence.** Bien que l'ooze reste immobile, il est indissociable d'une piscine huileuse ou d'une roche humide.",
+ "actionsText": "**Pseudopod.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants plus 7 (2d6) dégâts d'acide, et si la cible porte une armure métallique non magique, son armure est partiellement corrodée et prend une pénalité permanente et cumulative à la CA qu'elle offre. L'armure est détruite si la pénalité réduit son CA à 10.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/029a9a02b8_monstre-menace-reduite-vase-grise.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Menace réduite vase grise",
+ "skills": "Discrétion +2",
+ "resistances": "acide, froid, feu",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, à terre"
+}

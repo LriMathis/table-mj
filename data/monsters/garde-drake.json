@@ -1,0 +1,46 @@
+{
+ "id": "garde-drake",
+ "name": "Guard Drake",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "7d8+21",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "comprend Draconic mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le garde fait une attaque Bite et une attaque Tail.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants.\n**Queue.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/57affc6248_monstre-garde-drake.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Garde Drake",
+ "caNote": "armure naturelle",
+ "skills": "Perception +2"
+}

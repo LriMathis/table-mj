@@ -1,0 +1,51 @@
+{
+ "id": "tortle",
+ "name": "Tortle",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 17,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Perception passive 11",
+ "languages": "aquatique, commun",
+ "traits": "**Maintenez votre souffle.** La torche peut retenir son souffle pendant 1 heure.",
+ "actionsText": "**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si utilisé avec deux mains en melee.\n**Acrobatie légère.** Attaque d'arme à distance : +2 au toucher, portée 24/96 m., une cible. Touché : 4 (1d8) dégâts perforants.\n**Défense de la coquille.** La torche se retire dans sa coquille. Jusqu'à ce qu'il émerge, il gagne un bonus de +4 à CA et a un avantage sur Force et jet de sauvegarde de Constitution. Alors que dans sa coque, la torche est à terre, sa vitesse est 0 et ne peut pas augmenter, il a un désavantage sur jet de sauvegarde de Dextérité, il ne peut pas prendre de réactions, et la seule action qu'il peut prendre est un action bonus à émerger.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 2,
+   "damage": "1d8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d8647adaa8_monstre-tortle.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +4, Survie +3"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "oceanus",
+ "name": "Oceanus",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 30,
+ "hpFormula": "4d8+12",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "aquatique, elfique",
+ "traits": "**Amphibie.** Oceanus peut respirer l'air et l'eau.\n**Ami de la mer.** En utilisant des gestes et des sons, Oceanus peut communiquer des idées simples avec toute bête qui a une vitesse de nage innée.",
+ "actionsText": "**Trident.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.\n**Acrobatie légère.** Attaque d'arme à distance : +3 au toucher, portée 24/96 m., une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Trident",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c60fe89546_monstre-oceanus.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "CON +5",
+ "skills": "Athlétisme +4, Perception +3"
+}

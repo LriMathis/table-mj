@@ -1,0 +1,46 @@
+{
+ "id": "jarazoun",
+ "name": "Jarazoun",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 200,
+ "hpFormula": "16d10+112",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 12,
+  "CON": 24,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "igné",
+ "traits": "**Suppression élémentaire.** Si Jarazoun meurt, son corps se désintègre dans un éclair de feu et de fumée, laissant derrière lui seulement l'équipement Jarazoun portait ou transportait.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Jarazoun est Charisme (spell save DD 15, +7 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie\n- 1/jour chacun : Invocation d'élémentaire (Élémentaire du feu seulement), Forme gazeuse, Invisibilité, Image majeure, Changement de plan, Mur de feu\n- 3/jour chacun : Agrandissement/Rapetissement, Don des langues",
+ "actionsText": "**Multiattaques.** Jarazoun fait deux attaques de scimitar ou utilise sa Flamme Hurl deux fois.\n**Scimitar.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants plus 7 (2d6) dégâts de feu.\n**Feu de hurl.** Attaque de sort à distance : +7 au toucher, portée 36 m, une cible. Touché : 17 (5d6) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 10,
+   "damage": "2d6+6",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Feu de hurl",
+   "bonus": 7,
+   "damage": "5d6",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/b22b2e7832_monstre-jarazoun.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +7, SAG +6, CHA +7",
+ "immunities": "feu"
+}

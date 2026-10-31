@@ -1,0 +1,41 @@
+{
+ "id": "alcool-indentured",
+ "name": "Indentured Spirit",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 7,
+  "DEX": 13,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Mouvement intégré.** L'esprit peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.",
+ "actionsText": "**Touche de flétrissement.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 10 (3d6) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Touche de flétrissement",
+   "bonus": 3,
+   "damage": "3d6",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/1e3600a8be_monstre-alcool-indentured.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Alcool Indentured",
+ "resistances": "acide, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

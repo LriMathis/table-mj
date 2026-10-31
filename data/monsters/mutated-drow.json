@@ -1,0 +1,46 @@
+{
+ "id": "mutated-drow",
+ "name": "Mutated Drow",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 14,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Sensation de Keen.** Le drow a un avantage sur tests de Sagesse (Perception) qui se fie à l'odeur.\n**Ancêtre fécale.** Le drow a l'avantage sur jet de sauvegarde contre le charmé, et la magie ne peut pas mettre le drow à dormir.\n**Sensibilité à la lumière du soleil.** En plein soleil, le drow présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Découpe intérieure.** L'innée caractéristique d'incantation du drow est Charisme (spell save DD 15). Le sillon peut innément lancer les sorts suivants, ne nécessitant pas de composants matériels:\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques",
+ "actionsText": "**Multiattaques.** Le front fait deux attaques d'étoiles du matin.\n**Matinée.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts perforants.\n**Roche.** Attaque d'arme à distance : +12 au toucher, portée 18/72 m., une cible. Touché : 30 (4d10 + 8) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 12,
+   "damage": "3d8+8",
+   "type": "perforant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 12,
+   "damage": "4d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ce8444ae7a_monstre-mutated-drow.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, SAG +7, CHA +7",
+ "skills": "Perspicacité +7, Perception +7"
+}

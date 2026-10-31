@@ -1,0 +1,48 @@
+{
+ "id": "scrapper",
+ "name": "Scrapper",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 126,
+ "hpFormula": "12d10+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Chassis électrifié.** Une créature qui frappe le scrappeur avec une attaque de melee tandis que dans 1,50 m il prend 19 (3d12) dégâts de foudre.",
+ "actionsText": "**Multiattaques.** Le scrappeur fait deux attaques Spike Punch. Il peut remplacer l'un d'eux par une attaque de Wires.\n**Punch d'épique.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts contondants plus 5 (1d10) dégâts perforants.\n**Fils.** Attaque d'arme au corps à corps : +8 au toucher, allonge 6 m, une créature grande ou plus petite. Touché : La cible a l'état agrippé (évasion DD 16) et doit réussir sur un DD 16 jet de sauvegarde de Force ou être tiré dans un espace inoccupé dans 1,50 m de la raclette et prendre 19 (3d12) dégâts de foudre. Le scrappeur peut avoir seulement une créature agrippé de cette façon à la fois.\n**Perle oculaire (Recharge 5-6).** Le scrappeur tire un faisceau magique de son oeil étendu à une créature qu'il peut voir à l'intérieur de 36 m. La cible doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 44 (8d10) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Punch d'épique",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "contondant + perforant"
+  },
+  {
+   "name": "Fils",
+   "bonus": 8,
+   "damage": "3d12",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/410c787057_monstre-scrapper.webp",
+ "notes": "",
+ "source": "MisMV1 (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6",
+ "resistances": "foudre",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "geant-blanc-moray-eel",
+ "name": "Giant White Moray Eel",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 60,
+ "hpFormula": "8d12+8",
+ "vitesse": "0 m, nage 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Respiration d'eau.** L'anguille ne peut respirer que sous l'eau.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une créature. Touché : 11 (2d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e13a73cd90_monstre-geant-blanc-moray-eel.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Géant blanc Moray Eel",
+ "skills": "Perception +2, Discrétion +4"
+}

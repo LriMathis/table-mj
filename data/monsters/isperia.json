@@ -1,0 +1,43 @@
+{
+ "id": "isperia",
+ "name": "Isperia",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal neutre",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 17,
+ "hp": 261,
+ "hpFormula": "18d20+72",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 23,
+  "SAG": 26,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 25",
+ "languages": "commun, sphinx",
+ "traits": "**Inscrutable.** Isperia est à l'abri de tout effet qui sentirait ses émotions ou lire ses pensées, ainsi que tout sort de divination qu'elle refuse. tests de Sagesse (Perspicacité) fait pour vérifier ses intentions ou la sincérité ont désavantage.\n**Résistance légendaire (3/jour).** Si Isperia échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Isperia a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** L'innée d'Isperia caractéristique d'incantation est Sagesse (spell save DD 23). L'Isperia peut innerately fondre Emprisonnement deux fois par jour, ne nécessitant aucun composant matériel.\n- 2/jour : Emprisonnement\n**Détection orthographique.** Isperia est un speller de niveau 15 Azorius. Son caractéristique d'incantation est Sagesse (save spell DD 23, +14 au toucher avec attaques de sort). Isperia a les sorts clerc suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Lumière, Résistance, Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Injonction, Détection du mal et du bien, Frappe piégeuse, Sanctuaire, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Verrou magique, Augure, Apaisement des émotions, Immobilisation de personne, Silence, Zone de vérité\n- Niveau 3 (3 emplacements) : Malédiction, Clairvoyance, Contresort, Dissipation de la magie, Don des langues\n- Niveau 4 (3 emplacements) : Divination, Localisation de créature\n- Niveau 5 (2 emplacements) : Dissipation du mal et du bien, Scrutation\n- Niveau 6 (1 emplacements) : Mot de retour\n- Niveau 7 (1 emplacements) : Parole divine\n- Niveau 8 (1 emplacements) : Champ antimagie",
+ "actionsText": "**Multiattaques.** Isperia fait deux attaques de griffes. Elle peut jeter un sort avec un temps de lancer d'une action au lieu d'une attaque de griffe.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 21 (3d10 + 5) dégâts tranchants. Si la cible est une créature, elle doit réussir sur un DD 23 jet de sauvegarde de Sagesse ou prendre 14 (4d6) dégâts psychiques après chaque attaque qu'elle fait contre Isperia avant le début de son prochain tour.\n**Autorité juridique suprême.** Isperia choisit jusqu'à trois créatures qu'elle peut voir au sein de 27 m d'elle. Chaque cible doit réussir sur un DD 23 jet de sauvegarde d'Intelligence ou Isperia choisit une action pour cette cible: Attaquer, Cast a Spell, Foncer, Se désengager, Esquiver, Aider, Se cacher, Se tenir prêt, Chercher ou Utiliser un objet. La cible touchée ne peut pas prendre cette action pendant 1 minute. À la fin de chacun des virages de la cible, il peut mettre fin à l'effet sur lui-même avec un succès DD 23 jet de sauvegarde d'Intelligence. Une cible qui réussit sur le jet de sauvegarde devient immunisée contre l'Autorité juridique suprême d'Isperia pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "3d10+5",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/d39f041c99_monstre-isperia.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +11, INT +13, SAG +15",
+ "skills": "Arcanes +13, Histoire +13, Perspicacité +15, Perception +15",
+ "immunities": "psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, isperia peut entreprendre l'une des actions ci-après.\n**Attaque de griffes.** Isperia fait une attaque de griffes.\n**Lancer un sort (coûts 2 actions).** Isperia jette un sort de de niveau 3 ou moins à partir de sa liste de sorts préparés, en utilisant un emplacement de sort comme normal.\n**Autorité juridique suprême (coûts 3 actions).** Isperia utilise l'autorité juridique suprême."
+}

@@ -1,0 +1,42 @@
+{
+ "id": "boneless",
+ "name": "Boneless",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Enlèvement.** Les désossés ne dépensent pas de mouvement supplémentaire pour déplacer une créature qu'elle lutte.\n**Compression.** L'osseux peut se déplacer dans un espace aussi étroit que 1 pouce sans dépenser de mouvement supplémentaire pour le faire.",
+ "actionsText": "**Mère.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 7 (2d4 + 2) dégâts contondants. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 12). Jusqu'à ce que le grappin se termine, la cible a les conditions aveuglé et entravé, est asphyxiante, et prend 7 (2d4 + 2) dégâts contondants au début de chaque tour désossé. L'osseux ne peut étouffer qu'une créature à la fois. Tout en s'attaquant à une cible, les désossés ne peuvent pas reprendre cette action.",
+ "attacks": [
+  {
+   "name": "Mère",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/bc95285ac8_monstre-boneless.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "skills": "Discrétion +4",
+ "resistances": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "bonusActions": "**Dévoilement de la chair (1/jour).** Jet de sauvegarde de Sagesse : DD 11, chaque créature dans 9 m qui peut voir l'os. Échec : La cible a l'état effrayé. Échec ou réussite : L'osseuse monte à sa vitesse sans provoquer Opportunity Attacks."
+}

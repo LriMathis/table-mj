@@ -1,0 +1,42 @@
+{
+ "id": "venerable-heure-dragon",
+ "name": "Ancient Time Dragon",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "26",
+ "xp": 90000,
+ "ca": 22,
+ "hp": 536,
+ "hpFormula": "29d20+232",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 14,
+  "CON": 26,
+  "INT": 27,
+  "SAG": 18,
+  "CHA": 23
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 30",
+ "languages": "tous",
+ "traits": "**Cycle de renaissance.** Si le dragon meurt, son âme s'assemble en un œuf sidérurgique et se téléporte vers un plan d'existence aléatoire. L'œuf est immunisé contre tous les dégâts et éclos dans un dragon de temps qui se wymling après 1d100 ans. Le dragon conserve tous les souvenirs et la connaissance qu'il a acquis dans sa vie précédente.\n**Résistance légendaire (5/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon fait trois attaques Rend.\n**Rend.** Attaque d'arme au corps à corps : +17 au toucher, allonge 4,50 m, une cible. Touché : 22 (3d8 + 9) dégâts tranchants plus 10 (3d6) dégâts de force.\n**Temps Respiration (Recharge 5-6).** Le dragon exhale une vague de lumière chatoyante dans un cône 27 m. Des objets non magiques et de la végétation dans cette zone qui ne sont pas portés ou transportés s'écroulent à la poussière. Chaque créature dans cette zone doit faire un DD 24 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 52 (8d12) dégâts de force et est magiquement affaiblie car elle est déssynchronisée à partir du flux de temps. Alors que la créature est dans cet état, jets d'attaque contre elle ont avantage, il a l'état empoisonné, et d'autres créatures ont la résistance à tous les dégâts qu'elle inflige. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement. Une créature affaiblie peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même après qu'il ait réussi sur trois de ces sauvegardes.\n**Portail horaire (1/jour).** Le dragon conjure un 6 m-diamètre, portail circulaire dans l'espace entre ses cornes ou dans un espace inoccupé qu'il peut voir en lui-même. Le portail se connecte à un emplacement précis sur n'importe quel plan d'existence à un moment donné jusqu'à 8 000 ans du présent, qu'il soit passé ou futur. Le portail dure 24 heures ou jusqu'à ce que le concentration du dragon se termine (comme si concentrating sur un sort). Le portail a un front et un dos sur chaque avion où il apparaît. Le voyage à travers le portail n'est possible qu'en passant par son front. Tout ce qui le fait est transporté à destination, apparaissant dans l'espace inoccupé le plus proche du portail. Les divinités et autres dirigeants planaires peuvent empêcher les portails créés par le dragon d'ouvrir en présence des dirigeants ou n'importe où dans leurs domaines.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 17,
+   "damage": "3d8+9",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/10f07be604_monstre-venerable-heure-dragon.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Vénérable heure dragon",
+ "caNote": "armure naturelle",
+ "saves": "DEX +10, CON +16, SAG +12, CHA +14",
+ "skills": "Arcanes +16, Histoire +24, Perception +20, Discrétion +18",
+ "reactions": "**Réactifs.** Après avoir utilisé la résistance légendaire ou en réponse à être frappé par un jet d'attaque, le dragon fait une attaque Rend.\n**Temps lent.** Immédiatement après qu'une créature puisse voir son tour, le dragon cible une créature qu'il peut voir en 27 m elle-même affaiblie par son souffle temporel. Jusqu'à ce que l'effet affaibli se termine sur la cible, sa vitesse devient 0, et sa vitesse ne peut pas augmenter.\n**Le décalage horaire.** Le dragon réduit de moitié les dégâts qu'il prend d'une attaque faite contre lui, à condition qu'il puisse voir l'attaquant. Le dragon peut alors immédiatement se téléporter, avec tout équipement qu'il porte ou transporte, jusqu'à 18 m dans un espace inoccupé qu'il peut voir."
+}

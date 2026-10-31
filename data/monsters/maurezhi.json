@@ -1,0 +1,48 @@
+{
+ "id": "maurezhi",
+ "name": "Maurezhi",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 88,
+ "hpFormula": "16d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 17,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, elfique, télépathie 36 m",
+ "traits": "**Formulaire d'évaluation.** Le maurezhi peut supposer l'apparition de tout humanoïde moyen qu'il mange. Il reste sous cette forme pendant les jours 1d6, pendant lesquels la forme se désintègre progressivement jusqu'à ce que, lorsque l'effet se termine, la forme s'efface du corps du démon.\n**Résistance magique.** Le maurezhi a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le maurezhi fait une attaque Bite et une attaque Claw.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d10 + 3) dégâts perforants. Si la cible est un Humanoïde, son score Charisme est réduit de 1d4. Cette réduction dure jusqu'à ce que la cible termine un repos court ou long. La cible meurt si cela réduit sa Charisme à 0. Elle monte 24 heures plus tard en Goule à moins qu'elle n'ait été régénérée ou que son cadavre ait été détruit.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts tranchants. Si la cible est une créature autre qu'un Undead, elle doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Élever le Ghoul (Recharge 5-6).** Le maurezhi vise un ghoul mort ou Blême qu'il peut voir dans 9 m de lui. La cible est relancée avec tout son points de vie.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d10+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/fdb07ce7a6_monstre-maurezhi.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +5",
+ "resistances": "froid, feu, foudre, nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, empoisonné"
+}

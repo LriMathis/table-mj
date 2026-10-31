@@ -1,0 +1,55 @@
+{
+ "id": "tombe-tapper",
+ "name": "Tomb Tapper",
+ "type": "Créature artificielle",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 207,
+ "hpFormula": "18d12+90",
+ "vitesse": "9 m, creusement 3 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision aveugle 72 m (aveugle au-delà de ce rayon), Perception passive 16",
+ "languages": "Il comprend le commun et le commun, mais ne parle pas., télépathie 18 m",
+ "traits": "**pétrifié Décès.** Une tombette réduite à 0 points de vie se transforme en une statue de pierre sans vie. Tout ce qu'il porte ou qu'il porte n'est pas transformé.\n**Magie sensée.** Le tombeau détecte la magie au sein de 9 m et peut utiliser une action pour identifier l'emplacement de toute créature, objet, ou zone dans cette gamme qui porte la magie. Ce sens pénètre les barrières mais est bloqué par une mince feuille de plomb.\n**Tunneler.** Le tombeau peut creuser à travers la roche solide à la moitié de sa vitesse de creusement et laisse dans son sillage un tunnel 3 m-large, 6 m-tall.\n**Nature inhabituelle.** La cartouche de tombe n'a pas besoin d'air ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le tombeau fait deux attaques de mêlée avec son lugehammer ou avec ses griffes. S'il frappe la même créature avec les deux griffes, il peut tirer cette créature dans 1,50 m de sa bouche et faire une attaque de morsure contre elle.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 22 (3d10 + 6) dégâts tranchants.\n**Griffe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 16 (3d6 + 6) dégâts tranchants.\n**Lugehammer.** Attaque d'arme au corps à corps ou à distance : +10 au toucher, allonge 4,50 m ou portée 9/36 m., une cible. Touché : 27 (6d6 + 6) budgésage ou dégâts de force (choix de la tapperette). Si le marteau est jeté, il retourne à la taupe de la tombe à la fin de son tour, atterrissant aux pieds de la taupe de la tombe s'il n'a pas la main libre pour attraper l'arme.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "3d10+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "3d6+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Lugehammer",
+   "bonus": 10,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/7e18b1b17c_monstre-tombe-tapper.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Tombe Tapper",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6",
+ "resistances": "foudre",
+ "immunities": "froid, feu",
+ "conditionImmunities": "charmé, effrayé"
+}

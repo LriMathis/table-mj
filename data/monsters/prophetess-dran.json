@@ -1,0 +1,39 @@
+{
+ "id": "prophetess-dran",
+ "name": "Prophetess Dran",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, elfique",
+ "traits": "**Éminence divine.** En tant qu'action bonus, Prophetess peut dépenser un emplacement de sort pour faire en sorte que ses attaques d'armes de mêlée traitent magiquement un 10 (3d6) dégâts radiants supplémentaire à une cible sur un coup. Ce bénéfice dure jusqu'à la fin du tour. Si Prophetesse dépense un emplacement de sort de niveau 2 ou plus, le dégâts supplémentaire augmente de 1d6 pour chaque niveau au-dessus du 1er.\n**Ancêtre fécale.** Prophétesse a avantage sur jet de sauvegarde contre être charmé, et la magie ne peut pas la mettre au sommeil.\n**Détection orthographique.** Prophétesse est un épeautre de niveau 5. Son caractéristique d'incantation est Sagesse (save spell DD 13, +5 au toucher avec attaques de sort). Prophétesse a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Lumière, Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Soins, Éclair traçant, Sanctuaire\n- Niveau 2 (3 emplacements) : Restauration partielle, Arme spirituelle\n- Niveau 3 (2 emplacements) : Dissipation de la magie, Esprits gardiens",
+ "actionsText": "**Maul.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/019f6006cb_monstre-prophetess-dran.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "skills": "Médecine +5, Persuasion +3, Religion +5"
+}

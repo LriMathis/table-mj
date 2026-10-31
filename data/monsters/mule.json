@@ -1,0 +1,38 @@
+{
+ "id": "mule",
+ "name": "Mule",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 10,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "saves": "FOR +4",
+ "senses": "Perception passive 10",
+ "languages": "aucune",
+ "traits": "**Bête de somme.** La mule est considérée comme d’une catégorie de taille de plus que la réalité lorsqu’il s’agit de déterminer sa capacité de charge.",
+ "actionsText": "**Sabots.** Corps à corps : +4, allonge 1,50 m. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Sabots",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/172997af73_monstre-mule.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

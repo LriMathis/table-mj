@@ -1,0 +1,40 @@
+{
+ "id": "jamna-gleamsilver",
+ "name": "Jamna Gleamsilver",
+ "type": "Humanoïde (gnome)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 22,
+ "hpFormula": "4d6+8",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, gnome, gobelin, sylvestre",
+ "traits": "**Action énergique.** Jamna peut prendre un action bonus pour prendre l'action Foncer, Se désengager ou Se cacher.\n**Gnome Cunning.** Jamna a un avantage sur Intelligence, Sagesse et jet de sauvegarde de Charisme contre la magie.\n**Détection orthographique.** Jamna est un spellcaster de niveau 4 qui utilise Intelligence comme son caractéristique d'incantation (Spell save DD 12, +4 au toucher avec attaques de sort). Jamna a les sorts suivants préparés à partir de la liste des sorts de l'assistant.\n- Sorts mineurs (à volonté) : Main de mage, Illusion mineure, Prestidigitation, Rayon de givre\n- Niveau 1 (3 emplacements) : Charme-personne, Couleurs dansantes, Déguisement, Grande foulée",
+ "actionsText": "**Multiattaques.** Jamna attaque deux fois avec ses mots courts.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants ou 9 (1d6 + 3) plus (1d6) dégâts perforants si la cible est moyenne ou plus grande.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/349ed0411d_monstre-jamna-gleamsilver.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +5, INT +4",
+ "skills": "Acrobaties +5, Tromperie +3, Perspicacité +2, Perception +4, Persuasion +3, Discrétion +7"
+}

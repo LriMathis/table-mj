@@ -1,0 +1,42 @@
+{
+ "id": "pierre-tuteur-garde-anime",
+ "name": "Stone Guardian (Shield Guardian)",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 142,
+ "hpFormula": "15d10+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 8,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les commandes données dans n'importe quelle langue mais ne peut pas parler",
+ "traits": "**Bound.** Le gardien de pierre est magiquement lié à une amulette. Tant que le gardien et son amulette sont sur le même plan d'existence, le porteur de l'amulette peut télépathiquement appeler le gardien à y aller, et le gardien connaît la distance et la direction vers l'amulette. Si le gardien se trouve à l'intérieur de 18 m du porteur de l'amulette, la moitié des dégâts que le porteur prend (arrondi) sont transférés au gardien.\n**Régénération.** Le gardien de pierre retrouve 10 points de vie au début de son tour s'il a au moins 1 points de vie.\n**Stockage d'orthographe.** Un spelcaster qui porte l'amulette du gardien de pierre peut faire stocker un sort de de niveau 4 ou moins. Pour ce faire, le porteur doit jeter le sort sur le gardien. Le sort n'a pas d'effet mais est stocké au sein du tuteur. Lorsqu'il est commandé par le porteur ou lorsqu'une situation a été prédéfinie par l'épellcaster, le gardien jette le sort stocké avec tous les paramètres définis par le lanceur d'origine, ne nécessitant aucun composant. Lorsque le sort est lancé ou qu'un nouveau sort est stocké, tout sort précédemment stocké est perdu.",
+ "actionsText": "**Multiattaques.** Le gardien fait deux coups de poing.\n**Fist.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2b93144c15_monstre-pierre-tuteur-garde-anime.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "aka": "Pierre tuteur ( garde animé )",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "reactions": "**Bouclier.** Lorsqu'une créature attaque le porteur de l'amulette du gardien, celui-ci accorde un bonus de +2 à la CA du porteur si le gardien est dans la 1,50 m du porteur."
+}

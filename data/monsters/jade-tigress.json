@@ -1,0 +1,50 @@
+{
+ "id": "jade-tigress",
+ "name": "Jade Tigress",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 71,
+ "hpFormula": "11d8+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun",
+ "traits": "**Défense non armée.** Bien que Jade Tigress ne porte pas d'armure et n'ait aucun bouclier, son CA inclut son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Jade Tigress fait trois attaques.\n**Grève de force.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts de force, et si la cible est une créature, elle doit réussir sur une DD 15 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin du prochain tour de Jade Tigress.\n**empoisonné Dart.** Attaque d'arme à distance : +5 au toucher, portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants plus 7 (3d4) dégâts de poison, et la cible doit réussir sur un DD 15 jet de sauvegarde de Constitution ou gagner 1 niveau d'épuisement.\n**Auto-guérison (recharge après un repos long).** Jade Tigress retrouve 2d8 + 2 points de vie, et tous les niveaux d'épuisement se terminent sur elle.",
+ "attacks": [
+  {
+   "name": "Grève de force",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "force"
+  },
+  {
+   "name": "empoisonné Dart",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/0444b62539_monstre-jade-tigress.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "caNote": "Défense non armée",
+ "saves": "FOR +7, CON +5",
+ "skills": "Athlétisme +7, Perspicacité +6, Intimidation +3, Perception +6",
+ "resistances": "poison",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Échappement de Nimble.** Jade Tigress prend l'action Se désengager ou Se cacher.",
+ "reactions": "**Missile défectueux.** En réponse à une attaque d'armes, Jade Tigress détourne le missile. Les dégâts qu'elle prend de l'attaque sont réduits de 1d10 + 9. Si les dégâts sont réduits à 0, Jade Tigress capture le missile s'il est assez petit pour tenir dans une main et Jade Tigress a une main libre."
+}

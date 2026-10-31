@@ -1,0 +1,39 @@
+{
+ "id": "jaune-musk-zombi",
+ "name": "Yellow Musk Zombie",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 9,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 9,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Fortitude non-morte.** Si les dégâts réduisent le zombie à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + les dégâts pris, à moins que les dégâts soient en feu ou d'un coup critique. Sur un succès, le zombie tombe à 1 points de vie à la place.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/bbf126cb07_monstre-jaune-musk-zombi.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Jaune Musk zombi",
+ "conditionImmunities": "charmé, épuisement"
+}

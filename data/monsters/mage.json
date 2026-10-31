@@ -2,13 +2,15 @@
  "id": "mage",
  "name": "Mage",
  "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
  "cr": "6",
  "xp": 2300,
- "ca": 12,
- "hp": 40,
- "hpFormula": "9d8",
+ "ca": 15,
+ "hp": 81,
+ "hpFormula": "18d8",
  "vitesse": "9 m",
- "size": 1,
  "stats": {
   "FOR": 9,
   "DEX": 14,
@@ -17,21 +19,23 @@
   "SAG": 12,
   "CHA": 11
  },
+ "saves": "INT +6, SAG +4",
+ "skills": "Arcanes +6, Histoire +6, Perception +4",
+ "senses": "Perception passive 14",
+ "languages": "commun et trois autres langues",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le mage effectue trois attaques de Jaillissement arcanique.\n**Jaillissement arcanique.** Corps à corps ou à distance : +6, allonge 1,50 m ou portée 36 m. Touché : 16 (3d8 + 3) dégâts de force.\n**Incantation.** Le mage lance l’un des sorts suivants, l’Intelligence étant sa caractéristique d’incantation (DD de sauvegarde 14) :\n- À volonté : *armure du mage* (compris dans la CA), *détection de la magie*, *lumière*, *main du mage*, *prestidigitation*\n- 2/jour chacun : *boule de feu* (au 4e niveau), *invisibilité*\n- 1/jour chacun : *cône de froid*, *vol*",
+ "bonusActions": "**Foulée brumeuse (3/jour).** Le mage lance *foulée brumeuse*, avec la même caractéristique d’incantation que pour Incantation.",
+ "reactions": "**Magie protectrice (3/jour).** Le mage lance *bouclier* ou *contresort* en réponse au déclencheur du sort correspondant, avec la même caractéristique d’incantation que pour Incantation.",
  "attacks": [
   {
-   "name": "Dague",
-   "bonus": 5,
-   "damage": "1d4+2",
-   "type": "perforant"
-  },
-  {
-   "name": "Rayon de feu",
+   "name": "Jaillissement arcanique",
    "bonus": 6,
-   "damage": "2d10",
-   "type": "feu"
+   "damage": "3d8+3",
+   "type": "force"
   }
  ],
- "traits": "**Sorts (DD 14, +6).** Projectile magique, Bouclier, Boule de feu (8d6, DEX DD 14), Contresort, Invisibilité supérieure, Cône de froid.",
- "portrait": "/data/images/29be003705_monstre-mage.svg",
- "notes": ""
+ "portrait": "/data/images/ae7dc06df1_monstre-mage.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
 }

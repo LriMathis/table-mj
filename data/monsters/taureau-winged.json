@@ -1,0 +1,38 @@
+{
+ "id": "taureau-winged",
+ "name": "Winged Bull",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 95,
+ "hpFormula": "10d10+40",
+ "vitesse": "18 m, vol 18 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Perception passive 10",
+ "languages": "Céleste, mais ne peut pas parler.",
+ "traits": "**Frais.** Si le taureau se déplace au moins 6 m droit vers une créature et le frappe avec une attaque de gore au même tour, la cible prend un 19 (3d12) dégâts perforants supplémentaire.",
+ "actionsText": "**Gore.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 18 (2d12 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 7,
+   "damage": "2d12+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6603bd4b49_monstre-taureau-winged.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Taureau Winged"
+}

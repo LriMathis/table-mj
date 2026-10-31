@@ -1,0 +1,48 @@
+{
+ "id": "hadozee-guerrier",
+ "name": "Hadozee Warrior",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 16,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, Hadozée",
+ "traits": "**Glisse.** S'il n'est pas neutralisé ou s'il porte une armure lourde, le hadozee peut étendre ses membranes de peau pour atteindre 1,50 m horizontalement pour chaque 0,30 m qu'il descend dans l'air.",
+ "actionsText": "**Multiattaques.** Le hadozee fait deux attaques de Shortsword.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Acrobatie légère.** Attaque d'arme à distance : +5 au toucher, portée 24/96 m., une cible. Touché : 12 (2d8 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/eacb153e03_monstre-hadozee-guerrier.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Hadozee guerrier",
+ "caNote": "Breastplate",
+ "saves": "DEX +5, CON +3",
+ "skills": "Perception +3, Discrétion +5, Survie +5",
+ "reactions": "**Descente sûre.** Lorsqu'il endommage une chute, le hadozee étend ses membranes de peau pour réduire les dégâts de la chute à 0, à condition qu'il ne porte pas d'armure lourde.\n**Uncanny Dodge.** Le hadozee réduit de moitié les dégâts qu'il prend d'une attaque qui le frappe, à condition qu'il puisse voir l'attaquant."
+}

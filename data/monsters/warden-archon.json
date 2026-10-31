@@ -1,0 +1,48 @@
+{
+ "id": "warden-archon",
+ "name": "Warden Archon",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal bon",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 15,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 9 m, Perception passive 20",
+ "languages": "tous",
+ "traits": "**Aura de la Menace.** Tant que l'archen n'a pas l'état neutralisé, chaque créature du choix de l'archen qui commence son tour dans 6 m de l'archen doit faire un DD 15 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature a l'état effrayé jusqu'au début de son prochain tour. Sur un salut réussi, la créature est immunisée contre l'aura de la Menace de tous les arqués pendant 24 heures.\n**Vigile éternelle.** L'archon ne peut pas être surpris. De plus, il sait quand une créature utilise un portail qu'elle est chargée de garder.",
+ "actionsText": "**Multiattaques.** L'archen fait deux attaques de Griffe et une attaque de Bite de Tracker.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants. Si la cible est une créature moyenne ou plus petite, la cible a l'état agrippé (évasion DD 18). L'archon peut avoir seulement une créature agrippé de cette façon à la fois.\n**Morceau de tracker.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 15 (3d6 + 5) dégâts perforants. Si la cible est une créature, pendant les 24 prochaines heures, l'archéon connaît la distance et la direction vers la cible pendant qu'ils sont tous les deux sur le même plan d'existence.\n**Téléportation.** Les téléports arqués, ainsi que tout équipement qu'ils portent ou transportent, se trouvent dans un espace inoccupé qu'ils peuvent voir à l'intérieur de 36 m.\n**Détection orthographique.** L'archon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection du mal et du bien\n- 1/jour chacun : Aide, Flamme éternelle, Protection contre le mal et le bien, Scrutation (en tant qu'action)",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morceau de tracker",
+   "bonus": 8,
+   "damage": "3d6+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/17cffebbda_monstre-warden-archon.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "CON +6, SAG +7",
+ "skills": "Arcanes +5, Athlétisme +8, Perception +10",
+ "immunities": "foudre",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé"
+}

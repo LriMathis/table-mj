@@ -1,0 +1,54 @@
+{
+ "id": "iymrith",
+ "name": "Iymrith",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 22,
+ "hp": 481,
+ "hpFormula": "26d20+208",
+ "vitesse": "12 m, creusement 12 m, vol 24 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 10,
+  "CON": 27,
+  "INT": 18,
+  "SAG": 17,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 27",
+ "languages": "commun, draconique, géant, terreux",
+ "traits": "**Résistance légendaire (3/jour).** Si Iymrith échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Iymrith peut utiliser sa Présence effrayante. Elle fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +16 au toucher, allonge 4,50 m, une cible. Touché : 20 (2d10 + 9) dégâts perforants plus 11 (2d10) dégâts de foudre.\n**Griffe.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 16 (2d6 + 9) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +16 au toucher, allonge 6 m, une cible. Touché : 18 (2d8 + 9) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix d'Iymrith qui se trouve à l'intérieur de 36 m d'Iymrith et consciente de lui doit réussir sur un DD 20 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante d'Iymrith pendant les 24 prochaines heures.\n**foudre Respiration (Recharge 5-6).** Iymrith exhale la foudre dans une ligne 36 m qui est large. Chaque créature dans cette ligne doit faire un DD 23 jet de sauvegarde de Dextérité, en prenant 88 (16d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Modifier la forme.** Iymrith se polymorphe magiquement en Géant des tempêtes femelle ou en retour dans sa forme réelle. Elle revient à sa vraie forme si elle meurt. Tout équipement qu'elle porte ou qu'elle porte est absorbé ou porté par la nouvelle forme (le choix d'Iymrith).\nEn forme de géant de tempête, Iymrith conserve son alignement, points de vie, dés de vie, la capacité de parler, les compétences, la résistance légendaire, les actions de la tanière, et les scores Intelligence, Sagesse et Charisme, ainsi que cette action. Ses statistiques sont autrement remplacées par celles du nouveau formulaire.\n**Détection orthographique.** Iymrith lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 20) :\n- 1/jour chacun : Détection de la magie, Dissipation de la magie, Tempête de grêle, Façonnage de la pierre, Téléportation\nLorsqu'elle jette son sort Façonnage de la pierre, Iymrith peut façonner la pierre ciblée en un Gargouille vivant au lieu de modifier la pierre telle que décrite dans la description du sort. Cette transformation est permanente et ne peut être inversée ou dissipée.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 16,
+   "damage": "2d10+9",
+   "type": "perforant + foudre"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 16,
+   "damage": "2d6+9",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 16,
+   "damage": "2d8+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e0537dcd5a_monstre-iymrith.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +15, SAG +10, CHA +12",
+ "skills": "Perception +17, Discrétion +7",
+ "immunities": "foudre",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, iymrith peut entreprendre l'une des actions ci-après.\n**Détecter.** Iymrith fait un test de Sagesse (Perception).\n**Attaque de queue.** Iymrith fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** Iymrith bat ses ailes. Chaque créature dans 4,50 m d'Iymrith doit réussir sur un DD 24 jet de sauvegarde de Dextérité ou prendre 16 (2d6 + 9) dégâts contondants et être à terre. Iymrith peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

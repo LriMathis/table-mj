@@ -1,0 +1,42 @@
+{
+ "id": "vol-dagger",
+ "name": "Flying Dagger",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 17,
+ "hp": 7,
+ "hpFormula": "3d4",
+ "vitesse": "0 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 5,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 7",
+ "languages": "—",
+ "traits": "**Susceptibilité antimagique.** La dague est neutralisé alors qu'elle se trouve dans la zone d'un Champ antimagie. Si la cible est Dissipation de la magie, la dague doit réussir sur une jet de sauvegarde de Constitution contre la DD de sauvegarde des sorts du lanceur ou tomber inconscient pendant 1 minute.\n**Fausse apparence.** Bien que la dague reste immobile et ne vole pas, elle est indistinguable d'une dague normale.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ba4656d267_monstre-vol-dagger.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Vol Dagger",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, paralysé, pétrifié, empoisonné"
+}

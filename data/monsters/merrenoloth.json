@@ -1,0 +1,43 @@
+{
+ "id": "merrenoloth",
+ "name": "Merrenoloth",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m, nage 12 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 10,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "abyssal, infernal, télépathie 18 m",
+ "traits": "**Résistance magique.** Le merrenoloth a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le merrenoloth fait une attaque d'Oar et utilise Fear Gaze.\n**Oreille.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (2d4 + 3) dégâts de feu.\n**Crainte d'avoir une vision.** Le merrenoloth cible une créature qu'il peut voir à l'intérieur de 18 m. La cible doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou devenir effrayé du merrenoloth pendant 1 minute. La cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Le merrenoloth lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Charme-personne, Ténèbres, Détection de la magie, Dissipation de la magie, Bourrasque\n- 3/jour : Contrôle de l'eau",
+ "attacks": [
+  {
+   "name": "Oreille",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/ebdd3711e6_monstre-merrenoloth.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "saves": "DEX +5, INT +5",
+ "skills": "Histoire +5, Nature +5, Perception +4, Survie +4",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Téléportation.** Le merrenoloth téléporte, avec tout équipement qu'il porte ou transporte, jusqu'à 18 m dans un espace inoccupé qu'il peut voir."
+}

@@ -1,0 +1,50 @@
+{
+ "id": "maitre-de-fosse-yuan-ti",
+ "name": "Yuan-ti Pit Master",
+ "type": "Monstruosité (occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 88,
+ "hpFormula": "16d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir du yuan-ti.\n**Résistance magique.** L'yuan-ti a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'yuan-ti fait trois attaques Bite ou deux attaques Spectral Fangs.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Fangs spectraux.** Attaque de sort à distance : +6 au toucher, portée 36 m, une cible. Touché : 16 (3d8 + 3) dégâts de poison.\n**Merrshaulk's Slumber (1/jour).** L'yuan-ti cible jusqu'à cinq créatures qu'il peut voir dans 18 m de lui. Chaque cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou tomber dans un sommeil magique et être inconscient pendant 10 minutes. Une cible endormie se réveille si elle prend des dégâts ou si quelqu'un utilise une action pour agiter ou la gifler éveillé. Ce sommeil magique n'a aucun effet sur une créature immunisée à être charmé.\n**Diffusion de l'orthographe (Forme Yuan-ti seulement).** L'yuan-ti lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Amitié avec les animaux (snakes seulement), Assistance, Main de mage, Message\n- 2/jour chacun : Immobilisation de personne, Invisibilité\n- 3/jour : Suggestion",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Fangs spectraux",
+   "bonus": 6,
+   "damage": "3d8+3",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/c3b1a909e5_monstre-maitre-de-fosse-yuan-ti.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Maître de fosse yuan-ti",
+ "caNote": "armure naturelle",
+ "saves": "SAG +4, CHA +6",
+ "skills": "Tromperie +6, Discrétion +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Modifier la forme.** L'yuan-ti se transforme en serpent moyen ou de nouveau en sa vraie forme. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il ne change pas de forme s'il meurt."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "jorasco-medecin",
+ "name": "Jorasco Medic",
+ "type": "Humanoïde (halfelin)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 58,
+ "hpFormula": "9d6+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 17,
+  "CHA": 14
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, halfelin",
+ "traits": "**Heureusement..** Lorsque le médecin roule un 1 sur le d20 d'un test D20, il peut rerouler la matrice, et il doit utiliser le nouveau rouleau.",
+ "actionsText": "**Multiattaques.** Le médecin fait deux attaques radiant Burst.\n**radiant Burst.** Jet d'attaque au corps à corps ou à distance : +5, allonge 1,50 m ou portée 9 m. Touché : 7 (2d6) dégâts radiants, et la créature a l'état aveuglé jusqu'au début du prochain tour du médecin.",
+ "attacks": [
+  {
+   "name": "radiant Burst",
+   "bonus": 5,
+   "damage": "2d6",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/c8186b0ac7_monstre-jorasco-medecin.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "aka": "Jorasco médecin",
+ "saves": "CON +5, SAG +5",
+ "skills": "Perspicacité +5, Médecine +5, Perception +5, Discrétion +4",
+ "bonusActions": "**Marque de guérison (2/jour).** Le médical lance Soins ou Restauration partielle, en utilisant Sagesse comme caractéristique d'incantation.\n- 2/jour : Soins, Restauration partielle"
+}

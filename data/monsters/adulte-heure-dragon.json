@@ -1,0 +1,42 @@
+{
+ "id": "adulte-heure-dragon",
+ "name": "Adult Time Dragon",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 19,
+ "hp": 250,
+ "hpFormula": "20d12+120",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 14,
+  "CON": 23,
+  "INT": 23,
+  "SAG": 16,
+  "CHA": 20
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 25",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon fait trois attaques Rend.\n**Rend.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 14 (2d6 + 7) dégâts tranchants plus 7 (2d6) dégâts de force.\n**Temps Respiration (Recharge 5-6).** Le dragon exhale une vague de lumière chatoyante dans un cône 18 m. Des objets non magiques et de la végétation dans cette zone qui ne sont pas portés ou transportés s'écroulent à la poussière. Chaque créature dans cette zone doit faire un DD 20 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 36 (8d8) dégâts de force et est magiquement affaiblie car elle est déssynchronisée à partir du flux de temps. Alors que la créature est dans cet état, jets d'attaque contre elle ont avantage, et il a l'état empoisonné. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement. Une créature affaiblie peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même après qu'il ait réussi sur trois de ces sauvegardes.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 13,
+   "damage": "2d6+7",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/05e5fd964b_monstre-adulte-heure-dragon.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Adulte heure dragon",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +12, SAG +9, CHA +11",
+ "skills": "Arcanes +12, Histoire +18, Perception +15, Discrétion +14",
+ "reactions": "**Réactifs.** Après avoir utilisé la résistance légendaire ou en réponse à être frappé par un jet d'attaque, le dragon fait une attaque Rend.\n**Temps lent.** Immédiatement après qu'une créature puisse voir son tour, le dragon cible une créature qu'il peut voir en 18 m elle-même affaiblie par son souffle temporel. Jusqu'à ce que l'effet affaibli se termine sur la cible, sa vitesse devient 0, et sa vitesse ne peut pas augmenter.\n**Le décalage horaire.** Le dragon réduit de moitié les dégâts qu'il prend d'une attaque faite contre lui, à condition qu'il puisse voir l'attaquant. Le dragon peut alors immédiatement se téléporter, avec tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

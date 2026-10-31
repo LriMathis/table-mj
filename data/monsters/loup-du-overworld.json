@@ -1,0 +1,40 @@
+{
+ "id": "loup-du-overworld",
+ "name": "Wolf of the Overworld",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 15",
+ "languages": "—",
+ "traits": "**Tactiques de conditionnement.** Le loup a un avantage sur jets d'attaque contre une créature si au moins un des alliés du loup est dans 1,50 m de la créature et l'allié n'a pas l'état neutralisé.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher ; allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 11 jet de sauvegarde de Force ou avoir l'état à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/67ddf57644_monstre-loup-du-overworld.webp",
+ "notes": "",
+ "source": "MCV3MC (5e.tools, traduction automatique)",
+ "aka": "Loup du Overworld",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5, Discrétion +4"
+}

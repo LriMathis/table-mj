@@ -1,0 +1,45 @@
+{
+ "id": "presence-de-veiled",
+ "name": "Veiled Presence",
+ "type": "Céleste",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 20,
+ "hp": 300,
+ "hpFormula": "40d8+120",
+ "vitesse": "12 m, vol 24 m (vol stationnaire)",
+ "stats": {
+  "FOR": 14,
+  "DEX": 24,
+  "CON": 16,
+  "INT": 24,
+  "SAG": 20,
+  "CHA": 22
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 22",
+ "languages": "tous",
+ "traits": "**Présence inviolable.** La présence voilée ne peut être ciblée par la magie de divination ou par des éléments qui liraient son esprit ou détermineraient son type de créature.\n**Résistance légendaire (3/jour).** Si la présence voilée échoue à un jet de sauvegarde, elle peut choisir de réussir.",
+ "actionsText": "**Multiattaques.** La présence voilée fait deux attaques de la Blade du Jugement et peut utiliser la Révélation.\n**Blade de jugement.** Attaque d'arme au corps à corps ou à distance : +14 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 10 (1d6 + 7) dégâts perforants plus 27 (6d8) dégâts radiants. Si la cible est une créature, elle doit réussir sur un DD 22 jet de sauvegarde de Charisme, ou à son tour suivant, elle peut soit bouger, soit agir, mais pas les deux.\n**Révélation.** La présence voilée révèle un aperçu de sa nature à l'autre monde à une créature qu'elle peut voir en elle-même en 9 m. La cible doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou avoir l'état paralysé jusqu'à la fin de son prochain tour, après quoi la cible est à l'abri de cette révélation pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "Blade de jugement",
+   "bonus": 14,
+   "damage": "1d6+7",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/d9c1c6dfa2_monstre-presence-de-veiled.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Présence de Veiled",
+ "caNote": "armure naturelle",
+ "saves": "DEX +14, INT +14",
+ "skills": "Perception +12, Discrétion +21",
+ "resistances": "nécrotique, radiant",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Uncanny Dodge.** Lorsqu'un attaquant peut voir la présence voilée frapper la présence voilée avec une attaque, la présence voilée réduit de moitié les dégâts de l'attaque contre elle.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, présence de veiled peut entreprendre l'une des actions ci-après.\n**Étape éclair.** La présence voilée téléporte magiquement, avec tout équipement qu'elle porte ou transporte, jusqu'à 12 m dans un espace inoccupé qu'elle peut voir.\n**Stab (coûts 2 actions).** La présence voilée fait une attaque de Blade of Judgment.\n**Radiance de mer (coûts 3 actions).** La présence voilée émane magiquement de lumière éblouissante dans une sphère 3 m -radius centrée sur elle-même jusqu'à la fin de son prochain tour, pendant lequel le temps jets d'attaque contre elle a désavantage et il a avantage sur jets d'attaque. La sphère se déplace avec la présence voilée. Quand une autre créature commence son tour dans la lumière ou entre la lumière pour la première fois à son tour, cette créature doit faire un DD 22 jet de sauvegarde de Constitution, en prenant 18 (4d8) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

@@ -1,0 +1,49 @@
+{
+ "id": "maitre-voleur",
+ "name": "Master Thief",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 84,
+ "hpFormula": "13d8+26",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Perception passive 13",
+ "languages": "n'importe quelle langue (habituellement commune) plus les voleurs ne peuvent pas",
+ "traits": "**Évasion.** Si le voleur est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, le voleur ne prend pas de dégâts s'il réussit sur le jet de sauvegarde et seulement la moitié des dégâts s'il échoue, à condition que le voleur n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le voleur fait trois attaques Shortsword ou Shortbow.\n**Mot-clé.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 3 (1d6) dégâts de poison.\n**Saubèche.** Attaque d'arme à distance : +7 au toucher, portée 24/96 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 3 (1d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/9b0bdb800f_monstre-maitre-voleur.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Maître voleur",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +7, INT +3",
+ "skills": "Acrobaties +7, Athlétisme +3, Perception +3, Escamotage +7, Discrétion +7",
+ "bonusActions": "**Action énergique.** Le voleur prend l'action Foncer, Se désengager ou Se cacher.",
+ "reactions": "**Uncanny Dodge.** Le voleur réduit de moitié les dégâts qu'il prend d'une attaque qui le frappe. Le voleur doit pouvoir voir l'agresseur."
+}

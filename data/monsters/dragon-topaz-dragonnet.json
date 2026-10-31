@@ -1,0 +1,42 @@
+{
+ "id": "dragon-topaz-dragonnet",
+ "name": "Topaz Dragon Wyrmling",
+ "type": "Dragon (gemme)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m, vol 18 m, nage 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 36 m, Perception passive 15",
+ "languages": "draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer à la fois l'air et l'eau.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d10 + 2) dégâts perforants plus 2 (1d4) dégâts nécrotiques.\n**Respiration dessicante (Recharge 5-6).** Le dragon exhale l'énergie nécrotique jaunâtre dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 11 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la créature prend 21 (6d6) dégâts nécrotiques et est affaiblie jusqu'à la fin de son prochain tour. Une créature affaiblie a un désavantage sur Force -basé tests de caractéristique et jet de sauvegarde de Force, et les attaques d'armes de la créature qui dépendent de Force infligent la moitié des dégâts. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas affaiblie.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 12) :\n- 1/jour chacun : Fléau",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/31406b9d0c_monstre-dragon-topaz-dragonnet.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon Topaz dragonnet",
+ "caNote": "armure naturelle",
+ "saves": "DEX +3, CON +3, SAG +3, CHA +4",
+ "skills": "Intimidation +6, Perception +5, Discrétion +3",
+ "resistances": "froid, nécrotique"
+}

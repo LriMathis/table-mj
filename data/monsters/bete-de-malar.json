@@ -1,0 +1,48 @@
+{
+ "id": "bete-de-malar",
+ "name": "Beast of Malar",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 168,
+ "hpFormula": "16d8+96",
+ "vitesse": "15 m, creusement 12 m (forme terrestre seulement), vol 18 m (forme du ciel seulement), nage 12 m (forme maritime seulement)",
+ "stats": {
+  "FOR": 21,
+  "DEX": 16,
+  "CON": 23,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 20",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Amphibie (forme de mer seulement).** La bête respire l'air et l'eau.\n**L'immortalité divine.** Si la bête meurt, son corps se dissout en goo noir, et il gagne un nouveau corps après 1d10 jours, renaissant avec tous ses points de vie à la place de Malar.\n**Résistance légendaire (3/jour).** Si la bête échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** La bête a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** La bête retrouve 20 points de vie au début de son tour. Si la bête prend dégâts radiants ou endommage un coup critique, ce trait ne fonctionne pas au début du prochain tour de la bête. La bête meurt seulement si elle commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** La bête fait trois attaques, en utilisant Bite ou Claws dans n'importe quelle combinaison.\n**Morceau.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 23 (4d8 + 5) dégâts perforants.\n**Griffes (Formulaire de terre ou de ciel seulement).** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 18 (3d8 + 5) dégâts tranchants. Si la cible est grande ou plus petite, elle a l'état à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "4d8+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes (Formulaire de terre ou de ciel seulement)",
+   "bonus": 9,
+   "damage": "3d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/537d3aa5ac_monstre-bete-de-malar.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Bête de Malar",
+ "saves": "FOR +9",
+ "skills": "Perception +10, Discrétion +7",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Forme récupérative-Shift.** La bête se transforme en forme terrestre, en forme de mer ou en forme de ciel et retrouve 9 (2d8) points de vie. Ses statistiques de jeu sont les mêmes dans chaque forme, sauf s'il est noté. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé."
+}

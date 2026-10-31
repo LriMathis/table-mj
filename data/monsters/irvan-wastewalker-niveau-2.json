@@ -1,0 +1,41 @@
+{
+ "id": "irvan-wastewalker-niveau-2",
+ "name": "Irvan Wastewalker (Tier 2)",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 99,
+ "hpFormula": "18d8+18",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, gobelin",
+ "traits": "**Fortitude (Recharge après un repos court ou long).** Si le dégâts réduit Irvan à 0 points de vie, il peut faire un jet de sauvegarde de Constitution avec un DD égal à 5 + le dégâts pris. Lors d'une sauvegarde réussie, Irvan tombe à 1 points de vie à la place.",
+ "actionsText": "**Multiattaques.** Irvan fait deux attaques de Dagger.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 14 (4d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 6,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/809eccc870_monstre-irvan-wastewalker-niveau-2.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Irvan Wastewalker (niveau 2)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +6, CON +4",
+ "skills": "Acrobaties +6, Tromperie +5, Discrétion +9, Survie +5"
+}

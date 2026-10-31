@@ -1,0 +1,40 @@
+{
+ "id": "mercykiller-bloodhound",
+ "name": "Mercykiller Bloodhound",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 18,
+ "hp": 104,
+ "hpFormula": "16d8+48",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 8
+ },
+ "senses": "Perception passive 18",
+ "languages": "Commun plus une langue de plus",
+ "traits": "**Sens du portail.** Le son de sang peut sentir la présence de portails en 9 m de lui-même, y compris des portails inactifs, et connaît instinctivement la destination de chaque portail.",
+ "actionsText": "**Multiattaques.** Le chien fait trois attaques de Gauntlet.\n**Ganteau éclabouillé.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants plus 10 (3d6) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Ganteau éclabouillé",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/e89fd96ba9_monstre-mercykiller-bloodhound.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "skills": "Perception +8, Survie +8",
+ "bonusActions": "**Marqué pour la poursuite (3/jour).** Le chien de sang tente de placer une marque magique sur une créature qu'il peut voir en 9 m lui-même. La cible doit réussir sur un DD 13 jet de sauvegarde de Charisme ou être maudite pendant 24 heures. Une créature qui manque n'importe lequel de ses points de vie a un désavantage sur ce jet de sauvegarde. Tout en maudit de cette façon, le son de sang peut sentir la direction et la distance à la cible aussi longtemps que les deux sont sur le même plan d'existence. Si la cible n'est pas dans le même avion, le chien de sang sait sur quel plan elle est."
+}

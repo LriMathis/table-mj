@@ -1,0 +1,43 @@
+{
+ "id": "quandrix-professeur-de-theorie",
+ "name": "Quandrix Professor of Theory",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 15,
+  "CHA": 13
+ },
+ "senses": "Perception passive 15",
+ "languages": "Commun plus quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le professeur fait deux attaques heuristiques de Lance. Il peut également utiliser Overrider Theorem, si disponible.\n**Lance heuristique.** Attaque de sort au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 18 m, une créature. Touché : 13 (2d8 + 4) dégâts psychiques, et la cible est empoisonné jusqu'à la fin de son prochain tour.\n**Surplombant le théorème (Recharge 4-6).** Le professeur influence magiquement l'esprit de jusqu'à deux créatures qu'il peut voir en 18 m de lui-même. Chaque cible doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou devenir charmé par le professeur jusqu'au début du prochain tour du professeur. La créature charmé doit immédiatement utiliser sa réaction, si disponible, pour avancer sa vitesse vers une autre créature du choix du professeur et faire une attaque de mêlée contre cette autre créature.\n**Détection orthographique.** Le professeur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15):\n- À volonté : Assistance, Main de mage, Illusion mineure\n- 1/jour chacun : Armure de mage, Image majeure, Mirage (en tant qu'action), Lien télépathique de Rary",
+ "attacks": [
+  {
+   "name": "Lance heuristique",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/2f66e0371c_monstre-quandrix-professeur-de-theorie.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Quandrix professeur de théorie",
+ "saves": "CON +5, INT +7, SAG +5, CHA +4",
+ "skills": "Arcanes +10, Perspicacité +5, Investigation +10, Perception +5",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Diviser par zéro (2/jour).** Lorsque le professeur voit une autre créature en 18 m elle-même jeter un sort, le professeur peut essayer d'annuler la formation du sort. La créature doit réussir sur un DD 15 jet de sauvegarde en utilisant le caractéristique d'incantation du sort, ou le sort échoue et est gaspillé."
+}

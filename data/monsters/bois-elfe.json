@@ -1,0 +1,46 @@
+{
+ "id": "bois-elfe",
+ "name": "Wood Elf",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, elfique",
+ "traits": "**Audition et vue.** L'elfe de bois a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou la vue.",
+ "actionsText": "**Multiattaques.** L'elfe de bois fait deux attaques de mêlée ou deux attaques de portée.\n**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Longbow.** Attaque d'arme à distance : +4 au toucher, intervalle 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c849afa143_monstre-bois-elfe.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Bois elfe",
+ "caNote": "Armure en cuir",
+ "skills": "Nature +4, Perception +5, Discrétion +6, Survie +5"
+}

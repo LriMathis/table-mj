@@ -1,0 +1,51 @@
+{
+ "id": "qunbraxel",
+ "name": "Qunbraxel",
+ "type": "Aberration (flagelleur mental, occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 12,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 19,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "profond, télépathie 18 m, commun des profondeurs",
+ "traits": "**Résistance magique.** Qunbraxel a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Qunbraxel fait deux attaques Eldritch Bolt, ou une attaque Eldritch Bolt et une attaque Tentacle.\n**Tentacle.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 15 (2d10 + 4) dégâts psychiques. Si la cible est moyenne ou plus petite, elle a l'état agrippé (évasion DD 16) et doit réussir sur un DD 16 jet de sauvegarde d'Intelligence ou avoir l'état étourdi jusqu'à ce que le grappin se termine.\n**Bouchon d'Eldritch.** Attaque de sort à distance : +8 au toucher, portée 36 m, une cible. Touché : 20 (3d10 + 4) dégâts de force.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, un humanoïde avec l'état étourdi qui est agrippé par Qunbraxel. Touché : 55 (10d10) dégâts perforants. Si ce dégâts réduit la cible à 0 points de vie, Qunbraxel la tue en extrayant et en dévorant son cerveau.\n**Boussole mentale (Recharge 5-6).** Qunbraxel émet magiquement de l'énergie psychique dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 16 jet de sauvegarde d'Intelligence ou prendre 26 (5d8 + 4) dégâts psychiques et avoir l'état étourdi pendant 1 minute. Une créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Coulisse (Psioniques).** Qunbraxel lance l'un des sorts suivants, ne nécessitant pas de composants de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Détection de la magie, Détection des pensées, Lévitation, Armure de mage (autoseulement), Main de mage (la main est invisible), Prestidigitation\n- 1/jour chacun : Domination de monstre, Changement de plan (autoseulement)\n- 2/jour chacun : Confusion, Communication à distance, Télékinésie",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 8,
+   "damage": "2d10+4",
+   "type": "psychique"
+  },
+  {
+   "name": "Bouchon d'Eldritch",
+   "bonus": 8,
+   "damage": "3d10+4",
+   "type": "force"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 8,
+   "damage": "10d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e37a483fed_monstre-qunbraxel.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "saves": "INT +8, SAG +6, CHA +8",
+ "skills": "Arcanes +8, Perspicacité +6, Perception +6, Discrétion +6"
+}

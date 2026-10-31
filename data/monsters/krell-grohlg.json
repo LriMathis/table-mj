@@ -1,0 +1,38 @@
+{
+ "id": "krell-grohlg",
+ "name": "Krell Grohlg",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, orc",
+ "traits": "**Détection orthographique.** Krell est un orthographe de niveau 4. Son caractéristique d'incantation est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). Il a les sorts druides suivants préparés:\n- Sorts mineurs (à volonté) : Druidisme, Flammes, Gourdin magique\n- Niveau 1 (4 emplacements) : Enchevêtrement, Grande foulée, Communication avec les animaux, Vague tonnante\n- Niveau 2 (3 emplacements) : Sphère de feu, Peau d'écorce",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +6 au toucher (+4 au toucher avec shillelagh), allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants, 8 (1d8 + 4) dégâts contondants s'il est porté à deux mains, ou 6 (1d8 + 2) dégâts contondants s'il est porté à Gourdin magique.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/a58b94ceab_monstre-krell-grohlg.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "skills": "Médecine +4, Nature +3, Perception +4"
+}

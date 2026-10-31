@@ -1,0 +1,46 @@
+{
+ "id": "golem-de-pierre",
+ "name": "Golem de pierre",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non aligné",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 220,
+ "hpFormula": "21d10+105",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 9,
+  "CON": 20,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 1
+ },
+ "immunities": "poison, psychiques",
+ "conditionImmunities": "charmé, effrayé, empoisonné, épuisement, paralysé, pétrifié",
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "comprend le commun et deux autres langues mais ne peut pas parler",
+ "traits": "**Forme immuable.** Le golem ne peut pas être métamorphosé.\n**Résistance à la magie.** Le golem a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le golem effectue deux attaques, réparties à sa guise entre Coup et Trait de force.\n**Coup.** Corps à corps : +10, allonge 1,50 m. Touché : 15 (2d8 + 6) dégâts contondants plus 9 (2d8) dégâts de force.\n**Trait de force.** À distance : +9, portée 36 m. Touché : 22 (4d10) dégâts de force.",
+ "bonusActions": "**Lenteur (recharge 5–6).** Le golem lance *lenteur*, sans composantes de sort, la Constitution étant sa caractéristique d’incantation (DD de sauvegarde 17).",
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 10,
+   "damage": "2d8+6+2d8",
+   "type": "contondant + force"
+  },
+  {
+   "name": "Trait de force",
+   "bonus": 9,
+   "damage": "4d10",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/d8920ec899_monstre-golem-de-pierre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 169"
+}

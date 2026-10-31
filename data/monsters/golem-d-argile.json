@@ -1,0 +1,41 @@
+{
+ "id": "golem-d-argile",
+ "name": "Golem d'argile",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non aligné",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 14,
+ "hp": 123,
+ "hpFormula": "13d10+52",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 9,
+  "CON": 18,
+  "INT": 3,
+  "SAG": 8,
+  "CHA": 1
+ },
+ "resistances": "contondants, perforants, tranchants",
+ "immunities": "acide, poison, psychiques",
+ "conditionImmunities": "charmé, effrayé, empoisonné, épuisement, paralysé, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun et une autre langue",
+ "traits": "**Absorption de l’acide.** Chaque fois que le golem est soumis à des dégâts d’acide, il ne subit aucun dégât et récupère en fait autant de points de vie que les dégâts d’acide ainsi évités.\n**Folie furieuse.** Chaque fois que le golem commence son tour En péril, lancez 1d6. Sur un résultat de 6, il devient fou. À chacun de ses tours tant qu’il est dans cet état, le golem attaque la créature la plus proche qu’il voit. Si aucune créature n’est assez proche pour qu’il puisse se déplacer et l’attaquer, le golem s’en prend à un objet. Une fois le golem devenu fou, il continue à l’être jusqu’à sa destruction ou qu’il ne soit plus En péril.\n**Forme immuable.** Le golem ne peut pas être métamorphosé.\n**Résistance à la magie.** Le golem a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le golem effectue deux attaques de Coup, ou trois attaques de Coup s’il a utilisé Accélération ce tour-ci.\n**Coup.** Corps à corps : +9, allonge 1,50 m. Touché : 10 (1d10 + 5) dégâts contondants plus 6 (1d12) dégâts d’acide, et le maximum de points de vie de la cible diminue d’un montant égal aux dégâts d’acide subis.",
+ "bonusActions": "**Accélération (recharge 5–6).** Le golem entreprend les actions Désengagement et Pointe.",
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 9,
+   "damage": "1d10+5+1d12",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/03ffdb5817_monstre-golem-d-argile.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 167"
+}

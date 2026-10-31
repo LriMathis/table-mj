@@ -1,0 +1,39 @@
+{
+ "id": "aldani-lobsterfolk",
+ "name": "Aldani (Lobsterfolk)",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "6 m, nage 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 8,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun",
+ "traits": "**Amphibie.** L'aldani peut respirer de l'air et de l'eau.",
+ "actionsText": "**Multiattaques.** L'aldani fait deux attaques avec ses griffes.\n**Griffe.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants, et la cible est agrippé (évasion DD 11). L'aldani a deux griffes, chacune ne pouvant battre qu'une cible.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/99e3aaaf38_monstre-aldani-lobsterfolk.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4, Survie +4"
+}

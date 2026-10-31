@@ -1,0 +1,51 @@
+{
+ "id": "shemeshka",
+ "name": "Shemeshka",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 17,
+ "hp": 162,
+ "hpFormula": "25d8+50",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 21,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 18",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance légendaire (4/jour).** Si Shemeshka échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Shemeshka a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Matériel spécial.** Shemeshka porte une couronne magique appelée le Razorvine Tiara. Dans les mains de toute personne autre que Shemeshka, le Razorvine Tiara fonctionne comme un Sceptre tentacule qui traite dégâts tranchants au lieu de dégâts contondants.",
+ "actionsText": "**Multiattaques.** Shemeshka utilise Arcane Flux ou Spellcasting. Elle fait ensuite une attaque de griffe ou une attaque avec son Razorvine Tiara.\n**Flux d'arcane.** Shemeshka provoque une explosion d'énergie arcane autour d'une créature qu'elle peut voir au sein de 36 m d'elle-même. La cible doit faire un DD 18 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la cible prend 45 (7d12) dégâts de force et a l'état neutralisé jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement.\n**Griffe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d4 + 5) dégâts tranchants plus 14 (4d6) dégâts de poison.\n**Razorvine Tiara.** Attaque d'arme au corps à corps : +10 au toucher, allonge 4,50 m, une cible. Touché : 10 (3d6) dégâts tranchants plus 9 (2d8) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution, ou sa vitesse est réduite de moitié et elle a un désavantage sur jets d'attaque et jet de sauvegarde jusqu'à la fin de son prochain tour.\n**Détection orthographique.** Shemeshka lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 18):\n- À volonté : Modification d'apparence, Ténèbres, Invisibilité (autoseulement), Main de mage, Prestidigitation\n- 1/jour chacun : Bannissement, Contact avec un autre plan (en tant qu'action), Esprit impénétrable\n- 2/jour chacun : Détection des pensées, Porte dimensionnelle, Suggestion",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "2d4+5",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Razorvine Tiara",
+   "bonus": 10,
+   "damage": "3d6",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/66e9c9bb46_monstre-shemeshka.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, INT +10, SAG +8, CHA +9",
+ "skills": "Tromperie +9, Perspicacité +8, Perception +8",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "bonusActions": "**Téléportation.** Shemeshka téléporte, avec tout équipement qu'elle porte ou transporte, jusqu'à 18 m dans un espace inoccupé qu'elle peut voir.",
+ "reactions": "**Contre-orbite (3/jour).** Shemeshka prononce un mot magique pour interrompre une créature qu'elle peut voir qui jette un sort. Si le sort est de niveau 5 ou inférieur, il échoue et n'a aucun effet. Si le sort est de niveau 6 ou supérieur, Shemeshka fait un test d'Intelligence (DD 10 + le niveau du sort). Sur un succès, le sort échoue et n'a aucun effet. Quel que soit le niveau du sort, le lanceur gagne l'état empoisonné jusqu'à la fin de son prochain tour."
+}

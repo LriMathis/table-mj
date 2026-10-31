@@ -1,0 +1,52 @@
+{
+ "id": "swanmay",
+ "name": "Swanmay",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "9 m, vol 12 m (cygne seulement)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, sylvestre",
+ "traits": "**Flyby (formulaire du cygne seulement).** Le swanmay ne provoque pas une action Opportunity Attack quand il vole hors de la portée de l'ennemi.",
+ "actionsText": "**Multiattaques.** Le swanmay fait deux attaques, en utilisant Beak, Longbow, ou Scimitar dans n'importe quelle combinaison.\n**Bec (formulaire du cygne seulement).** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 7 (1d6 + 4) dégâts perforants. Si la cible est une créature grande ou plus petite, elle a l'état à terre.\n**Scimitar (forme humaine seulement).** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts tranchants.\n**Longbow (forme humaine seulement).** Jet d'attaque à distance : +6, portée 45/180 m. Touché : 13 (2d8 + 4) dégâts perforants.\n**Détection orthographique.** Le swanmay lance l'un des sorts suivants, ne nécessitant aucun composant Somatic ou Matériau et utilisant Sagesse comme caractéristique d'incantation (sorption sauvegardez DD 13):\n- À volonté : Druidisme, Communication avec les animaux (formulaire du cygne seulement)\n- 1/jour chacun : Amitié avec les animaux, Sens animal, Croissance d'épines",
+ "attacks": [
+  {
+   "name": "Bec (formulaire du cygne seulement)",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Scimitar (forme humaine seulement)",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow (forme humaine seulement)",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e7d418730b_monstre-swanmay.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "saves": "CON +4, SAG +5",
+ "skills": "Nature +4, Perception +5",
+ "bonusActions": "**Forme-filtre.** Le cygne se transforme en petit cygne, ou il revient à sa vraie forme humanoïde. Ses statistiques de jeu sont les mêmes dans chaque forme, sauf s'il est noté. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé."
+}

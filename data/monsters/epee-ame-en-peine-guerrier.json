@@ -1,0 +1,49 @@
+{
+ "id": "epee-ame-en-peine-guerrier",
+ "name": "Sword Wraith Warrior",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 6,
+  "SAG": 9,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Nature inhabituelle.** Le guerrier n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Bataille.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains.\n**Longbow.** Attaque d'arme à distance : +3 au toucher, portée 45/180 m., une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e3396a6046_monstre-epee-ame-en-peine-guerrier.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Épée âme en peine guerrier",
+ "caNote": "Chemise chaîne, Bouclier",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, effrayé, empoisonné, inconscient",
+ "bonusActions": "**Fureur martielle.** Le guerrier fait une attaque Battleaxe ou Longbow, et jets d'attaque contre elle a avantage jusqu'au début de son prochain tour."
+}

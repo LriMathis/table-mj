@@ -1,0 +1,39 @@
+{
+ "id": "shockerstomper",
+ "name": "Shockerstomper",
+ "type": "Créature artificielle",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 18,
+ "hp": 300,
+ "hpFormula": "300d1",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 1,
+  "SAG": 1,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 5",
+ "languages": "—",
+ "traits": "**Désactiver.** Lorsqu'une jambe tombe à 0 points de vie, elle est désactivée, et Shockerstomper peut utiliser une réaction pour la détacher de son corps principal. Lorsque l'une de ses jambes est désactivée, la vitesse de marche de Shockerstomper est réduite par 3 m. La contraption s'arrête et s'arrête si quatre de ses sept jambes sont désactivées.\n**Surface électrifiée.** Une créature qui termine son tour en contact avec le corps de Shockerstomper (saucer ou tourelles) doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 22 (4d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Formulaire immuable.** Shockerstomper est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Module de contrôle.** Une créature au-dessus ou au-dessus de la plate-forme de Shockerstomper peut localiser son module de contrôle avec un succès DD 15 test d'Intelligence (Investigation) ou test de Sagesse (Perception). En action, un personnage peut essayer d'ouvrir le panneau d'accès du module de contrôle, soit en le déchirant avec un DD 25 test de Force (Athlétisme) réussi, soit en le délogeant avec les outils des voleurs et un DD 25 test de Dextérité réussi. Derrière le panneau, intégré dans le plancher du module de commande, se trouve un hémisphère cristallin pulsant de diamètre 1,50 m avec CA 10, 25 points de vie, et l'immunité au poison et dégâts psychiques. La destruction de l'hémisphère cristallin ferme Shockerstomper.\n**foudre Tourelle.** Un personnage peut essayer de brancher la buse d'une tourelle de foudre avec une roche 5 kg ou un objet similaire, ce faisant avec un succès DD 15 test de Force (Athlétisme). Une tourelle branchée ne peut pas tirer la foudre jusqu'à ce qu'une créature utilise une action pour essayer d'éliminer l'obstruction, ce qui nécessite un autre succès DD 15 test de Force (Athlétisme). Shockerstomper n'a pas la capacité de dégager une obstruction elle-même.",
+ "actionsText": "**Multiattaques.** Shockerstomper fait trois attaques de Turret foudre et deux attaques de Stomp.\n**foudre Tourelle.** La tourelle tire un éclair magique sur une créature dans 18 m de Shockerstomper. La cible doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 44 (8d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Stompe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une créature. Touché : 22 (3d10 + 6) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Stompe",
+   "bonus": 8,
+   "damage": "3d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/6759ef4cc6_monstre-shockerstomper.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, assourdi, charmé, effrayé, paralysé, empoisonné"
+}

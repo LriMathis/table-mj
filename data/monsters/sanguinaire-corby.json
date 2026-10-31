@@ -1,0 +1,42 @@
+{
+ "id": "sanguinaire-corby",
+ "name": "Dire Corby",
+ "type": "Humanoïde (un gros corby)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun des profondeurs",
+ "traits": "**Dire Cacophony.** Toute créature autre qu'un puissant corby qui commence son tour dans 18 m d'un puissant corby et peut l'entendre doit faire un DD 11 jet de sauvegarde de Sagesse. Lors d'une sauvegarde ratée, la créature est incapable d'utiliser l'action Foncer, ne peut pas grimper ou lancer d'autres sorts que sorts mineurs jusqu'au début de son prochain virage.\n**Audience Keen.** Le gros corby a un avantage sur tests de Sagesse (Perception) qui se fie à l'audience.",
+ "actionsText": "**Multiattaques.** Le corby a deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/518f84fad5_monstre-sanguinaire-corby.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "aka": "Sanguinaire Corby",
+ "caNote": "armure naturelle",
+ "skills": "Acrobaties +4, Perception +3",
+ "vulnerabilities": "tonnerre",
+ "conditionImmunities": "effrayé"
+}

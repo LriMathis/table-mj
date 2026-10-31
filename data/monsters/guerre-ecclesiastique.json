@@ -1,0 +1,42 @@
+{
+ "id": "guerre-ecclesiastique",
+ "name": "War Priest",
+ "type": "Humanoïde (clerc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 117,
+ "hpFormula": "18d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 17,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "deux langues différentes",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le prêtre de guerre fait deux attaques Maul, et il utilise Saint feu.\n**Maul.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants plus Touché : 10 (3d6) dégâts radiants.\n**Saint feu.** Le prêtre de guerre cible une créature il peut voir dans 18 m de lui. La cible doit faire un DD 15 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la cible prend 12 (2d8 + 3) dégâts radiants, et c'est aveuglé jusqu'au prochain tour du prêtre de guerre. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts et n'est pas aveuglé.\n**Détection orthographique.** Le prêtre de guerre lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 15):\n- À volonté : Lumière, Stabilisation, Thaumaturgie\n- 1/jour chacun : Bannissement, Injonction, Dissipation de la magie, Colonne de flamme, Gardien de la foi, Immobilisation de personne, Restauration partielle, Retour à la vie",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 7,
+   "damage": "2d6+3",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/8156bf8e7c_monstre-guerre-ecclesiastique.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Guerre ecclésiastique",
+ "caNote": "plaque",
+ "saves": "CON +6, SAG +7",
+ "skills": "Intimidation +5, Religion +4",
+ "bonusActions": "**Lumière de guérison (Recharge 4-6).** Le prêtre de guerre ou une créature de son choix au sein de 18 m de lui retrouve 12 (2d8 + 3) points de vie."
+}

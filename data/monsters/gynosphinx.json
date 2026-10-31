@@ -1,0 +1,43 @@
+{
+ "id": "gynosphinx",
+ "name": "Gynosphinx",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 170,
+ "hpFormula": "20d10+60",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 18,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "skills": "Arcanes +12, Histoire +12, Perception +8, Religion +12",
+ "resistances": "nécrotiques, radiants",
+ "immunities": "psychiques",
+ "conditionImmunities": "charmé, effrayé",
+ "senses": "Vision véritable 36 m, Perception passive 18",
+ "languages": "céleste, commun",
+ "traits": "**Insondable.** Nulle magie ne permet d’observer le sphinx à distance ni de détecter ses pensées sans son consentement. Les tests de Sagesse (Intuition) visant à percer ses intentions ou évaluer sa sincérité subissent le Désavantage.\n**Résistance légendaire (3/jour, ou 4/jour dans son antre).** Si le sphinx rate un jet de sauvegarde, il peut décider de le réussir tout de même.",
+ "actionsText": "**Attaques multiples.** Le sphinx effectue trois attaques de Griffe.\n**Griffe.** Corps à corps : +8, allonge 1,50 m. Touché : 14 (3d6 + 4) dégâts tranchants.\n**Incantation.** Le sphinx lance l’un des sorts suivants sans composantes matérielles, l’Intelligence étant sa caractéristique d’incantation (DD de sauvegarde 16) :\n- À volonté : *détection de la magie*, *identification*, *illusion mineure*, *main du mage*, *prestidigitation*\n- 1/jour chacun : *changement de plan*, *délivrance des malédictions*, *dissipation de la magie*, *don des langues*, *localisation d’objet*, *mythes et légendes*\n**Rugissement débilitant (Recharge 5–6).** JS Sagesse : DD 16, chaque ennemi dans une Émanation de 90 m centrée sur le sphinx. Échec : 35 (10d6) dégâts psychiques, et la cible subit l’état Neutralisé jusqu’au début du tour suivant du sphinx.",
+ "legendary": "**Utilisations d'action Légendaire : 3 (4 dans son antre).** Aussitôt après le tour d'une autre créature, le sphinx peut dépenser une utilisation pour entreprendre l'une des actions ci-après. Le sphinx récupère toutes ses utilisations dépensées au début de chacun de ses tours.\n**Poids des années.** JS Constitution : DD 16, une créature que le sphinx voit dans un rayon de 36 m. Échec : la cible reçoit 1 niveau d’Épuisement. Tant que la cible a le moindre niveau d’Épuisement, elle paraît 3d10 ans plus âgée que la réalité. Échec ou réussite : le sphinx ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.\n**Traque arcanique.** Le sphinx se téléporte en un espace inoccupé qu’il voit dans un rayon de 9 m, et il effectue une attaque de Griffe.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "3d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1f4549b526_monstre-gynosphinx.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 273",
+ "aka": "Sphinx érudit (2024)"
+}

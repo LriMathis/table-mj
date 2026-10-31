@@ -1,0 +1,41 @@
+{
+ "id": "thopter-aigle",
+ "name": "Thopter (Eagle)",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 3,
+ "hpFormula": "1d6",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 2,
+  "SAG": 14,
+  "CHA": 7
+ },
+ "senses": "Perception passive 14",
+ "languages": "—",
+ "traits": "**C'est la vue..** Le thoptère a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Talons.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Talons",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ddd1ff4629_monstre-thopter-aigle.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "aka": "Thopter ( aigle )",
+ "skills": "Perception +4",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

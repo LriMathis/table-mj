@@ -1,0 +1,49 @@
+{
+ "id": "mordakhesh",
+ "name": "Mordakhesh",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 170,
+ "hpFormula": "20d8+80",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 15,
+  "SAG": 17,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 18",
+ "languages": "commun, infernal",
+ "traits": "**Immunité magique limitée.** Mordakhesh ne peut pas être affecté ou détecté par des sorts de de niveau 6 ou plus bas à moins qu'il ne le veuille. Mordakhesh a un avantage sur jet de sauvegarde contre tous les autres sorts et effets magiques.\n**Découpe intérieure.** caractéristique d'incantation de Mordakhesh est Charisme (sorption sauvegardez DD 18, +10 au toucher avec attaques de sort). Mordakhesh peut innerately lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Orbe chromatique (voir \"Actions\" ci-dessous), Détection des pensées, Déguisement\n- 1/jour chacun : Châtiment du ban, Vague destructrice, Vol, Suggestion de groupe, Châtiment débilitant, Suggestion, Vision suprême",
+ "actionsText": "**Multiattaques.** Mordakhesh fait trois grandes attaques d'épée.\n**Grande épée.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants plus 5 (1d10) dégâts de force.\n**Orbe chromatique.** Attaque de sort à distance : +10 au toucher, portée 36 m, une créature. Touché : 13 (3d8) dégâts d'un type choisi par Mordakhesh: acide, froid, feu, foudre, poison, ou tonnerre.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "tranchant + force"
+  },
+  {
+   "name": "Orbe chromatique",
+   "bonus": 10,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/6e76726f96_monstre-mordakhesh.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "FOR +10, CON +9, SAG +8, CHA +10",
+ "skills": "Athlétisme +10, Perspicacité +8, Perception +8, Persuasion +10",
+ "vulnerabilities": "perforant des armes magiques maniées par de bonnes créatures",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, mordakhesh peut entreprendre l'une des actions ci-après.\n**Attaque.** Mordakhesh fait une attaque d'arme ou lance Orbe chromatique.\n**Résistance chromatique.** Modakhesh acquiert une résistance à un type de dégâts de son choix – acide, froid, feu, foudre, poison ou tonnerre – jusqu'au début de son prochain tour.\n**Commandement du chef de guerre (coûts 2 actions).** Mordakhesh cible jusqu'à deux alliés qu'il peut voir au sein de 9 m de lui. Si une cible peut le voir et l'entendre, la cible peut faire une attaque d'arme comme une réaction et gagne un avantage sur le jet d'attaque."
+}

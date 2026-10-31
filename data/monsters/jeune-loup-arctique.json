@@ -1,0 +1,40 @@
+{
+ "id": "jeune-loup-arctique",
+ "name": "Young Winter Wolf",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 37,
+ "hpFormula": "5d10+10",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**L'ouïe et l'odeur de Keen.** Le loup a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou l'odeur.\n**Tactiques de conditionnement.** Le loup a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du loup est dans 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0fe03390e5_monstre-jeune-loup-arctique.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Jeune loup arctique",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3, Discrétion +4"
+}

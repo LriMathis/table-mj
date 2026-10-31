@@ -1,0 +1,52 @@
+{
+ "id": "bronzefume",
+ "name": "Bronzefume",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 20,
+ "hp": 220,
+ "hpFormula": "22d20+110",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "aquatique, draconique",
+ "traits": "**Amphibie.** La tortue dragon peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** La tortue dragon fait trois attaques : une avec sa morsure et deux avec ses griffes. Il peut faire une attaque de queue à la place de ses deux attaques de griffes.\n**Morceau.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 26 (3d12 + 7) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 16 (2d8 + 7) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 26 (3d12 + 7) dégâts contondants. Si la cible est une créature, elle doit réussir sur une DD 20 jet de sauvegarde de Force ou être poussée jusqu'à 3 m loin de la tortue dragon et à terre.\n**Souffle de vapeur (Recharge 5-6).** La tortue du dragon exhale la vapeur d'échouement dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Constitution, en prenant 52 (15d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Être sous l'eau n'accorde pas de résistance à ces dégâts.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 13,
+   "damage": "3d12+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 13,
+   "damage": "2d8+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 13,
+   "damage": "3d12+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/eac1d26c80_monstre-bronzefume.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CON +11, SAG +7",
+ "resistances": "feu"
+}

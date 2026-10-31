@@ -1,0 +1,51 @@
+{
+ "id": "wereraven",
+ "name": "Wereraven",
+ "type": "Monstruosité (Lycanthrope)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 54,
+ "hpFormula": "12d8",
+ "vitesse": "9 m, vol 15 m (forme de corbeau ou hybride seulement)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 13,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Perception passive 16",
+ "languages": "Commun plus une autre langue",
+ "traits": "**Mimétisme.** Le wadraven peut imiter des voix et des sons animaux. Une créature qui entend cet imitation peut dire qu'il est une imitation seulement avec un succès DD 12 test de Sagesse (Perspicacité).",
+ "actionsText": "**Multiattaques.** Le wadraven fait deux attaques, en utilisant Scratch ou Shortbow dans n'importe quelle combinaison. Il peut remplacer une attaque par une attaque de bec.\n**Bec (forme Raven ou hybride seulement).** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 11 (2d8 + 2) dégâts perforants. Si la cible est un humanoïde, elle est soumise à l'effet suivant. Jet de sauvegarde de Constitution : DD 10. La cible est maudite. Si la cible maudite tombe à 0 points de vie, il devient plutôt un Wereraven sous le contrôle de le MD et a 10 points de vie. Réussite : La cible est à l'abri de cette malédiction pendant 24 heures.\n**Gratte-toi.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 7 (2d4 + 2) dégâts tranchants.\n**Shortbow (forme humaine ou hybride seulement).** Jet d'attaque à distance : +4, portée 24/96 m. Touché : 9 (2d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec (forme Raven ou hybride seulement)",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Gratte-toi",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Shortbow (forme humaine ou hybride seulement)",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/235b8725ec_monstre-wereraven.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "skills": "Perspicacité +4, Perception +6",
+ "bonusActions": "**Forme-filtre.** La forme de woreraven se transforme en un hybride raven-humanoïde moyen ou un petit corbeau, ou elle revient à sa forme humanoïde véritable. Ses statistiques de jeu, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé."
+}

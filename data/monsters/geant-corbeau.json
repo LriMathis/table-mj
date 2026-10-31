@@ -1,0 +1,45 @@
+{
+ "id": "geant-corbeau",
+ "name": "Giant Raven",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 10,
+ "hp": 22,
+ "hpFormula": "3d10+6",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Perception passive 13",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**La vue et l'odeur de Keen.** Le corbeau a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue ou de l'odeur.\n**Tactiques de conditionnement.** Le corbeau a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du corbeau est dans le 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le corbeau fait deux attaques : une avec son bec et une avec ses talons.\n**Bec.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts perforants.\n**Talons.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Talons",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/e7728d1ce2_monstre-geant-corbeau.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Géant corbeau",
+ "skills": "Perception +3"
+}

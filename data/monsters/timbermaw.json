@@ -1,0 +1,45 @@
+{
+ "id": "timbermaw",
+ "name": "Timbermaw",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Camouflage en pierre.** La scie à bois a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans un terrain rocheux.",
+ "actionsText": "**Multiattaques.** La scie fait une attaque avec ses tentacules. Si cette attaque frappe, la scie à bois peut faire une attaque de bec contre la même cible.\n**Tentacules.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts tranchants.\n**Bec.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Bec",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f3bdfe6dfd_monstre-timbermaw.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques"
+}

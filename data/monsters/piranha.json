@@ -1,0 +1,37 @@
+{
+ "id": "piranha",
+ "name": "Piranha",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 1,
+ "hpFormula": "1d4–1",
+ "vitesse": "1,5 m, nage 12 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 16,
+  "CON": 9,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 2
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "aucune",
+ "traits": "**Respiration aquatique.** Le piranha ne peut respirer que sous l’eau.",
+ "actionsText": "**Morsure.** Corps à corps : +5 (avec Avantage si la cible n’a pas tous ses points de vie), allonge 1,50 m. Touché : 1 dégât perforant.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0b2455ea09_monstre-piranha.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "tasloi-sniper",
+ "name": "Tasloi Sniper",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 21,
+ "hpFormula": "6d6",
+ "vitesse": "7,50 m, escalade 7,50 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 18,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "gobelin, sylvestre, Tasloi",
+ "traits": "**Expert Javelin.** Tasloi peut utiliser leur Dextérité pour l'attaque et jets de dégâts avec un javelot, comme si le javelot avait la propriété finesse.\n**Échappement de Nimble.** Le tasloi peut prendre l'action Se désengager ou Se cacher en action bonus sur chacun de ses tours.",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.\n**Fumer.** Attaque d'arme à distance : +6 au toucher, portée 7,50/30 m., une cible. Touché : 5 (1 + 4) dégâts perforants et 7 (2d6) dégâts de poison. La cible doit réussir sur un DD 10 jet de sauvegarde de Constitution ou avoir l'état empoisonné pendant 1 heure.\n**Javelin.** Attaque d'arme à distance : +6 au toucher, portée 9/36 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Fumer",
+   "bonus": 6,
+   "damage": "2d6",
+   "type": "poison"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4d24a552cf_monstre-tasloi-sniper.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "skills": "Discrétion +8"
+}

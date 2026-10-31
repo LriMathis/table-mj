@@ -1,0 +1,55 @@
+{
+ "id": "souffle-amer",
+ "name": "Bitter Breath",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 178,
+ "hpFormula": "17d10+85",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 17,
+  "CON": 21,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas la vision sombre de Bitter Breath.\n**Résistance magique.** Bitter Breath a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Bitter Breath fait trois attaques de mêlée: deux avec sa fourchette et une avec sa queue. Il peut utiliser Hurl Flame à la place de toute attaque de mêlée.\n**Fourche.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 15 (2d8 + 6) dégâts perforants.\n**Queue.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 10 (1d8 + 6) dégâts perforants. Si la cible est une créature autre qu'un mort-vivant ou une construction, elle doit réussir sur un DD 17 jet de sauvegarde de Constitution ou perdre 10 (3d6) points de vie au début de chacun de ses tours en raison d'une blessure infernale. Chaque fois que Bitter Breath frappe la cible blessée avec cette attaque, les dégâts infligés par la blessure augmentent de 10 (3d6). N'importe quelle créature peut prendre une action pour stagner la plaie avec un succès DD 12 test de Sagesse (Médecine). La blessure se ferme aussi si la cible reçoit une guérison magique.\n**Feu de hurl.** Attaque de sort à distance : +7 au toucher, portée 45 m, une cible. Touché : 14 (4d6) dégâts de feu. Si la cible est un objet inflammable qui n'est pas porté ou transporté, elle prend également feu.",
+ "attacks": [
+  {
+   "name": "Fourche",
+   "bonus": 10,
+   "damage": "2d8+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 10,
+   "damage": "1d8+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Feu de hurl",
+   "bonus": 7,
+   "damage": "4d6",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/0c4e798306_monstre-souffle-amer.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Souffle amer",
+ "caNote": "armure naturelle",
+ "saves": "FOR +10, DEX +7, SAG +7, CHA +7",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "nanny-pu-pu",
+ "name": "Nanny Pu'pu",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, draconique, sylvestre",
+ "traits": "**Amphibie.** Pu'pu peut respirer l'air et l'eau.\n**Mimétisme.** Pu'pu peut imiter des sons animaux et des voix humanoïdes. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 14 test de Sagesse (Perspicacité).\n**Découpe intérieure.** L'innée de Pu'pu caractéristique d'incantation est Charisme (spell save DD 12). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes, Illusion mineure, Moquerie cruelle",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Apparence illusoire.** Pu'pu se couvre et tout ce qu'elle porte ou porte avec une illusion magique qui lui fait ressembler à une autre créature de sa taille générale et de sa forme humanoïde. L'illusion se termine si Pu'pu prend un action bonus pour y mettre fin ou si elle meurt.\nLes changements résultant de cet effet ne permettent pas d'empêcher l'inspection physique. Par exemple, Pu'pu pourrait sembler avoir une peau lisse, mais quelqu'un la toucherait sentirait sa chair rugueuse. Sinon, une créature doit prendre une action pour inspecter visuellement l'illusion et réussir sur un DD 20 test d'Intelligence (Investigation) pour discerner que Pu'pu est déguisé.\n**Passage invisible.** Pu'pu tourne magiquement invisible jusqu'à ce qu'elle attaque ou jette un sort, ou jusqu'à ce que son concentration se termine (comme si concentrating sur un sort). Alors qu'invisible, elle ne laisse aucune preuve physique de son passage, de sorte qu'elle ne peut être suivie que par la magie. Tout équipement qu'elle porte ou porte est invisible avec elle.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f1ddb72a82_monstre-nanny-pu-pu.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +3, Tromperie +4, Perception +4, Discrétion +3"
+}

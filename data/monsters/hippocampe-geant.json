@@ -1,0 +1,38 @@
+{
+ "id": "hippocampe-geant",
+ "name": "Hippocampe géant",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 16,
+ "hpFormula": "3d10",
+ "vitesse": "1,5 m, nage 12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Perception passive 11",
+ "languages": "aucune",
+ "traits": "**Respiration aquatique.** L’hippocampe ne peut respirer que sous l’eau.",
+ "actionsText": "**Coup de bélier.** Corps à corps : +4, allonge 1,50 m. Touché : 9 (2d6 + 2) dégâts contondants, ou 11 (2d8 + 2) dégâts contondants si l’hippocampe s’est déplacé d’au moins 6 m en ligne droite vers la cible juste avant de la toucher.",
+ "bonusActions": "**Accélération bulleuse.** Alors qu’il est sous l’eau, l’hippocampe se déplace à concurrence de la moitié de sa Vitesse de nage sans provoquer d’attaques d’Opportunité.",
+ "attacks": [
+  {
+   "name": "Coup de bélier",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "contondant (+2d8+2 contondant sous condition)"
+  }
+ ],
+ "portrait": "/data/images/824095220a_monstre-hippocampe-geant.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "skeletal-horreur",
+ "name": "Skeletal Horror",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 13,
+ "hp": 150,
+ "hpFormula": "20d10+40",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'horreur fait deux attaques avec ses griffes.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 19 (3d10 + 3) dégâts tranchants.\n**Vague des os (Recharge 5-6).** L'horreur s'écrase en ennemis comme une vague avant de se reformer rapidement. Chaque créature au sein de 3 m de l'horreur doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 18 (4d8) dégâts contondants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature qui échoue ce jet de sauvegarde est également à terre.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "3d10+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b7eb41a3c4_monstre-skeletal-horreur.webp",
+ "notes": "",
+ "source": "Adventures in the Forgotten Realms: Deepest Night (5e.tools, traduction automatique)",
+ "aka": "Skeletal horreur",
+ "skills": "Perception +3",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

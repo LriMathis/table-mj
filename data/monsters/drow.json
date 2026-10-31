@@ -1,0 +1,45 @@
+{
+ "id": "drow",
+ "name": "Drow",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "caNote": "chemise de mailles",
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "skills": "Discrétion +4, Perception +2",
+ "senses": "vision dans le noir 36 m, Perception passive 12",
+ "languages": "commun des profondeurs, elfique",
+ "traits": "**Ascendance féerique.** Le drow est avantagé lors des jets de sauvegarde contre l'état charmé et la magie ne peut pas l'endormir.\n**Incantation innée.** La caractéristique d'incantation du drow est le Charisme (DD du jet de sauvegarde contre les sorts 11). Le drow peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *lumières dansantes*\n- 1/jour chacun : *lueurs féeriques, ténèbres*\n**Sensibilité à la lumière du soleil.** Le drow est désavantagé lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à la lumière du soleil.",
+ "actionsText": "**Épée courte.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (1d6+2) dégâts perforants.\n**Arbalète de poing.** *Attaque d'arme à distance :* +4 pour toucher, portée 9/36 m, une cible. *Touché :* 5 (1d6+2) dégâts perforants, et la cible doit réussir un jet de sauvegarde de Constitution DD 13 pour ne pas être empoisonnée pendant 1 heure. Si elle rate son jet de sauvegarde de 5 points ou plus, elle est également inconsciente tant qu'elle reste ainsi empoisonnée. Elle reprend conscience avant si elle subit des dégâts ou si une autre créature consacre une action à la secouer pour lui faire reprendre ses esprits.",
+ "portrait": "/data/images/897512e5ce_monstre-drow.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 125 · image : internet",
+ "attacks": [
+  {
+   "name": "Épée courte",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Arbalète de poing",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ]
+}

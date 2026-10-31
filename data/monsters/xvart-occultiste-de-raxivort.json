@@ -1,0 +1,46 @@
+{
+ "id": "xvart-occultiste-de-raxivort",
+ "name": "Xvart Warlock of Raxivort",
+ "type": "Monstruosité",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d6+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "abyssal",
+ "traits": "**La bénédiction de Raxivort.** Lorsque le xvart réduit un ennemi à 0 points de vie, le xvart gagne 4 points de vie temporaires.\n**La langue de Raxivort.** Le xvart peut communiquer avec des chauves-souris et des rats ordinaires, ainsi qu'avec des chauves-souris et des rats géants.",
+ "actionsText": "**Multiattaques.** Le xvart fait deux attaques de Scimitar ou de Raxivort.\n**Scimitar.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.\n**La morsure de Raxivort.** Attaque de sort à distance : +3 au toucher, portée 9 m, une créature. Touché : 7 (1d10 + 2) dégâts de poison.\n**Détection orthographique.** Le xvart lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 11) :\n- À volonté : Détection de la magie, Armure de mage (autoseulement), Main de mage, Illusion mineure, Prestidigitation\n- 1/jour chacun : Mains brûlantes, Invisibilité",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "La morsure de Raxivort",
+   "bonus": 3,
+   "damage": "1d10+2",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/c4e08cf716_monstre-xvart-occultiste-de-raxivort.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Xvart occultiste de Raxivort",
+ "skills": "Discrétion +3",
+ "bonusActions": "**Faible cintrage.** Le xvart prend l'action Se désengager."
+}

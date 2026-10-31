@@ -1,0 +1,44 @@
+{
+ "id": "momie-auguste-moins-eleve",
+ "name": "Lesser Mummy Lord",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 17,
+ "hp": 97,
+ "hpFormula": "13d8+39",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 11,
+  "SAG": 18,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Résistance magique.** La momie lord a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Réjuvenance.** Un seigneur momie détruit gagne un nouveau corps en 24 heures si son cœur est intact, récupérant tout son points de vie et redevenant actif. Le nouveau corps apparaît dans le 1,50 m du cœur de la momie.\n**Matériel spécial.** La momie porte un Anneau de feu résistance.",
+ "actionsText": "**Multiattaques.** La momie peut utiliser son Dreadful Glare et fait une attaque avec son poing pourri.\n**Fistillation de rotation.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 14 (3d6 + 4) dégâts contondants plus 21 (6d6) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Constitution ou être maudite avec la pourriture momie. La cible maudite ne peut pas récupérer points de vie, et son maximum de points de vie diminue de 10 (3d6) toutes les 24 heures qui s'écoulent. Si la malédiction réduit le maximum de points de vie à 0, la cible meurt, et son corps se transforme en poussière. La malédiction dure jusqu'à ce qu'elle soit enlevée par le sort Délivrance des malédictions ou toute autre magie.\n**C'est terrible..** La momie lord cible une créature il peut voir dans 18 m de lui. Si la cible peut voir la momie seigneur, elle doit réussir sur un DD 16 jet de sauvegarde de Sagesse contre cette magie ou devenir effrayé jusqu'à la fin du prochain tour de la momie. Si la cible échoue le jet de sauvegarde par 5 ou plus, elle est également paralysé pour la même durée. Une cible qui réussit sur le jet de sauvegarde est à l'abri de l'épouvantable glare de toutes les momies et de tous les seigneurs de la momie pour les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Fistillation de rotation",
+   "bonus": 9,
+   "damage": "3d6+4",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/2a70c5de0e_monstre-momie-auguste-moins-eleve.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Momie auguste moins élevé",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, INT +5, SAG +9, CHA +8",
+ "skills": "Histoire +5, Religion +5",
+ "resistances": "feu",
+ "immunities": "nécrotique, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "feyr",
+ "name": "Feyr",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 88,
+ "hpFormula": "16d10",
+ "vitesse": "0 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**Nature inhabituelle.** La fée ne demande pas d'air.",
+ "actionsText": "**Multiattaques.** La fée fait une attaque de la part de la Frayeuse et une attaque du Tentacle.\n**C'est terrible..** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 8 (1d10 + 3) dégâts perforants, et chaque créature à l'intérieur de 3 m de la fée qui peut le voir doit réussir sur une DD 13 jet de sauvegarde de Sagesse ou être effrayé de la fée jusqu'à la fin du tour suivant de la fée.\n**Tentacle.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une créature. Touché : 17 (4d6 + 3) dégâts psychiques, et la cible est agrippé (évasion DD 13). Jusqu'à ce que ce grappin finisse, la faction ne peut pas utiliser cette tente contre d'autres cibles. La frayère a deux tentacules, chacun d'entre eux pouvant battre une créature.\n**Invisibilité.** La fée devient invisible jusqu'à ce qu'elle attaque, utilise Nightmare Fuel ou utilise un action bonus pour devenir visible.\n**Carburant pour les cauchemars (1/jour).** La fée cible une créature inconscient qu'elle peut voir en elle-même. La cible doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou prendre 27 (5d10) dégâts psychiques, et la fée gagne points de vie temporaires égal aux dégâts infligés.",
+ "attacks": [
+  {
+   "name": "C'est terrible.",
+   "bonus": 6,
+   "damage": "1d10+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 6,
+   "damage": "4d6+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/4f54739357_monstre-feyr.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +5, SAG +5",
+ "skills": "Perception +5, Discrétion +9",
+ "conditionImmunities": "effrayé"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "alcool-draconic",
+ "name": "Draconic Spirit",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m, vol 18 m, nage 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 18 m, Perception passive 12",
+ "languages": "draconique, comprend les langues que vous connaissez",
+ "traits": "**Résistances partagées.** Lorsque vous invoquez l'esprit, choisissez une de ses résistances. Vous avez résistance au type de dégâts choisi jusqu'à la fin du sort.",
+ "actionsText": "**Multiattaques.** L'esprit fait un certain nombre d'attaques Rend égal à la moitié du niveau du sort (ronde vers le bas), et il utilise l'arme de souffle.\n**Rend.** Attaque d'arme au corps à corps : votre bonus d'attaque de sort, allonge 3 m. Touché : 1d6 + 4 + summonSpellLevel dégâts perforants.\n**Arme respiratoire.** Jet de sauvegarde de Dextérité : DD est égal à votre DD de sauvegarde des sorts, chaque créature dans un cône 9 m. Échec : 2d6 dégâts d'un type que cet esprit a Résistance à (votre choix lorsque vous lancez le sort). Réussite : Demi-dégâts.",
+ "attacks": [],
+ "portrait": "/data/images/241b8c5cd5_monstre-alcool-draconic.webp",
+ "notes": "points de vie : 50 + 10 pour chaque niveau de sort supérieur à 5",
+ "source": "Player's Handbook (2024) (5e.tools, traduction automatique)",
+ "aka": "Alcool Draconic",
+ "resistances": "acide, froid, feu, foudre, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

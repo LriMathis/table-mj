@@ -1,0 +1,39 @@
+{
+ "id": "marron-scavver",
+ "name": "Brown Scavver",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 51,
+ "hpFormula": "6d10+18",
+ "vitesse": "0 m, vol 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 17,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Nature inhabituelle.** Le scavver ne demande pas d'air.",
+ "actionsText": "**Morceaux de swalling.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants. Si la cible est une créature moyenne ou plus petite, elle doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou être avalée par le scavver. Le scavver peut être avalé par une créature à la fois.\nUne créature avalée est aveuglé et entravé, a 3 contre les attaques et d'autres effets en dehors du scavver, et prend 13 (3d8) dégâts de poison au début de chacun des tours du scavver du gaz toxique dans le goéland du scavver.\nSi le scavver prend 15 dégâts ou plus sur un seul tour d'une créature à l'intérieur, le scavver doit réussir sur un DD 20 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter la créature avalée, qui tombe à terre dans un espace à l'intérieur de 3 m du scavver. Si le scavver meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 3 m de mouvement, sortant d'à terre.",
+ "attacks": [
+  {
+   "name": "Morceaux de swalling",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6f941abdb1_monstre-marron-scavver.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Marron Scavver",
+ "caNote": "armure naturelle"
+}

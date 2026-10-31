@@ -1,0 +1,46 @@
+{
+ "id": "kiddywidget",
+ "name": "Kiddywidget",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 16,
+ "hp": 15,
+ "hpFormula": "2d6+8",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 60, Perception passive 10",
+ "languages": "Éclat-veinard",
+ "traits": "**Nature inhabituelle.** Le gamin n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le kiddywidget fait deux attaques : une avec sa morsure et une avec sa queue.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants. Si la cible est une créature, c'est agrippé par le kiddywidget (évasion DD 8).\n**Queue.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants plus 2 (1d4) dégâts de foudre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant + foudre"
+  }
+ ],
+ "portrait": "/data/images/b0cbbf7676_monstre-kiddywidget.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "aveuglé, assourdi, épuisement, paralysé, pétrifié, empoisonné"
+}

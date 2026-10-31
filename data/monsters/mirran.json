@@ -1,0 +1,47 @@
+{
+ "id": "mirran",
+ "name": "Mirran",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 12,
+ "hp": 230,
+ "hpFormula": "20d12+100",
+ "vitesse": "15 m, nage 15 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Perception passive 19",
+ "languages": "commun, géant",
+ "traits": "**Amphibie.** Mirran peut respirer l'air et l'eau.\n**Découpe intérieure.** L'innée de Mirran caractéristique d'incantation est Charisme (spell save DD 17). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Feuille morte, Lévitation, Lumière\n- 3/jour chacun : Contrôle du climat, Respiration aquatique",
+ "actionsText": "**Multiattaques.** Mirran fait deux attaques de grands mots.\n**Grande épée.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 30 (6d6 + 9) dégâts tranchants.\n**Roche.** Attaque d'arme à distance : +14 au toucher, portée 18/72 m., une cible. Touché : 35 (4d12 + 9) dégâts contondants.\n**foudre Strike (Recharge 5-6).** Mirran lance un éclair magique à un point qu'il peut voir à l'intérieur de 150 m. Chaque créature dans 3 m de ce point doit faire un DD 17 jet de sauvegarde de Dextérité, en prenant 54 (12d8) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 14,
+   "damage": "6d6+9",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 14,
+   "damage": "4d12+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c4efe10a63_monstre-mirran.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "saves": "FOR +14, CON +10, SAG +9, CHA +9",
+ "skills": "Arcanes +8, Athlétisme +14, Tromperie +9, Histoire +8, Perception +9, Représentation +9",
+ "resistances": "froid",
+ "immunities": "foudre, tonnerre"
+}

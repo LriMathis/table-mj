@@ -1,0 +1,41 @@
+{
+ "id": "usagt",
+ "name": "Usagt",
+ "type": "Aberration (changement de forme)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 97,
+ "hpFormula": "13d8+39",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 15,
+  "SAG": 20,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 30 m, Perception passive 18",
+ "languages": "tous, télépathie 9 m",
+ "traits": "**Invisibilité.** La vraie forme de l'usagt est invisible.\n**Changeur de forme.** L'usagt peut utiliser son action pour se polymorphiser en un humanoïde petit, moyen ou grand qu'il a vu en personne ou télépathiquement, ou de nouveau dans sa forme réelle. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Bien que polymorphe, l'usagt n'est pas invisible. Sa nouvelle forme semble porter des vêtements, porter des équipements, et même manier des armes, mais ce sont toutes les parties de l'usagt lui-même; ils disparaissent si la créature a été lâchée ou enlevée. Il ne peut pas activer, utiliser, manier, ou autrement bénéficier de l'un de ses équipements apparents. Il revient à sa vraie forme s'il meurt.\n**Découpe intérieure.** Le caractéristique d'incantation inné de l'usagt est le Charisme (spell save DD 15). Il peut lancer les sorts suivants, ne nécessitant aucun composant de sort :\n- À volonté : Bannissement, Détection des pensées, Déguisement",
+ "actionsText": "**Multiattaques.** L'usagt fait deux attaques avec ses griffes.\n**Griffes.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts tranchants plus 11 (2d6 + 4) dégâts psychiques.\n**Perspective personnelle.** L'usagt cible une créature qu'il peut voir dans 9 m de lui. La cible doit contester sa test de Charisme (Tromperie) contre la test de Sagesse (Perspicacité) de l'USagt.\nLa cible a un avantage sur le rouleau si elle est immunisée à être charmé. Une cible peut choisir d'échouer cette vérification.\nSi l'usagt gagne, il apprend par magie l'identité d'une créature du passé de la cible, quelqu'un que la cible souhaite qu'elle puisse parler à nouveau ou avec qui la cible n'a pas dit quelque chose. Si aucune créature de ce genre n'existe dans le passé de la cible, l'usagt apprend cela à la place.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/8ed70f85e8_monstre-usagt.webp",
+ "notes": "",
+ "source": "Adventures in the Forgotten Realms: The Hidden Page (5e.tools, traduction automatique)",
+ "saves": "INT +5, SAG +8, CHA +4",
+ "skills": "Histoire +5, Perspicacité +8, Perception +8, Représentation +7, Discrétion +5",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "reactions": "**Réponse à l'invisibilité (Recharges lorsque l'Usagt utilise sa capacité de changement de forme).** Lorsque l'usagt prend des dégâts, il peut choisir de revenir à sa forme par défaut, invisible et de passer à 4,50 m sans provoquer d'attaques d'opportunités."
+}

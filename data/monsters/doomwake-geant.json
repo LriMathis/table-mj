@@ -1,0 +1,43 @@
+{
+ "id": "doomwake-geant",
+ "name": "Doomwake Giant",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 162,
+ "hpFormula": "13d12+78",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 12,
+  "CON": 22,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "géant",
+ "traits": "**Aura d'Erebos.** Toute créature qui commence son tour au sein de 3 m du géant doit réussir sur un DD 18 jet de sauvegarde de Constitution, ou il prend 10 (3d6) dégâts nécrotiques et ne peut pas retrouver points de vie avant le début de son prochain tour. Sur un jet de sauvegarde réussi, la créature est à l'abri de l'aura d'Erebos du géant pendant 24 heures.\n**Résistance magique.** Le géant a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +11 au toucher, allonge 4,50 m, une cible. Touché : 20 (3d8 + 7) dégâts contondants plus 10 (3d6) dégâts nécrotiques.\n**Gusteuse nocive (Recharge 5-6).** Le géant exhale une rafale puissante qui crée une explosion de brouillard mortel dans une ligne 18 m large. Chaque créature dans cette ligne doit faire un DD 18 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 36 (8d8) dégâts nécrotiques et est à terre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas à terre.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 11,
+   "damage": "3d8+7",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/a30e234f95_monstre-doomwake-geant.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Doomwake géant",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, SAG +6",
+ "skills": "Intimidation +7, Perception +6",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "effrayé, empoisonné"
+}

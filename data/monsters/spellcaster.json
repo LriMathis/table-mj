@@ -1,0 +1,40 @@
+{
+ "id": "spellcaster",
+ "name": "Spellcaster",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 15,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, plus un de votre choix",
+ "traits": "**Rôle magique.** Choisissez un rôle pour le sortcaster : guérisseur ou mage. Votre choix détermine quel caractère Spellcasting utiliser ci-dessous.\n**(Healer).** caractéristique d'incantation est Sagesse (spell save DD 12, +4 au toucher avec attaques de sort). L'orthographe a les sorts clerc suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Flamme sacrée\n- Niveau 1 (2 emplacements) : Soins\n**Coulisse (Mage).** caractéristique d'incantation est Intelligence (spell save DD 12, +4 au toucher avec attaques de sort). L'orthographe a préparé les sorts suivants :\n- Sorts mineurs (à volonté) : Trait de feu, Lumière\n- Niveau 1 (2 emplacements) : Sommeil",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants, ou 4 (1d8) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5fb92dfd11_monstre-spellcaster.webp",
+ "notes": "",
+ "source": "ESK (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "SAG +4",
+ "skills": "Arcanes +4, Investigation +4, Religion +4"
+}

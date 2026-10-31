@@ -1,0 +1,39 @@
+{
+ "id": "draconian-soldat-de-pied",
+ "name": "Draconian Foot Soldier",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 11,
+  "CON": 13,
+  "INT": 8,
+  "SAG": 8,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, draconique",
+ "traits": "**Chute contrôlée.** Lorsque le draconien tombe et n'est pas neutralisé, il soustrait jusqu'à 30 m de la chute lors du calcul des dégâts de la chute.\n**Throès de la mort.** Lorsque le draconien est réduit à 0 points de vie, son corps se transforme en pierre et libère un gaz pétrifiant. Chaque créature au sein de 1,50 m du draconien doit réussir sur un DD 11 jet de sauvegarde de Constitution ou être entravé alors qu'elle commence à tourner en pierre. La créature entravé doit répéter la jet de sauvegarde à la fin de son prochain tour. Sur un succès, l'effet se termine ; sinon la créature est pétrifié pendant 1 minute. Après 1 minute, le corps de la draconienne s'écroule en poussière.",
+ "actionsText": "**Multiattaques.** Le draconien fait deux attaques de mots courts.\n**Mot-clé.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/48abc159d8_monstre-draconian-soldat-de-pied.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Draconian soldat de pied",
+ "caNote": "armure naturelle"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "dragon-sapphire-dragonnet",
+ "name": "Sapphire Dragon Wyrmling",
+ "type": "Dragon (gemme)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m, creusement 4,50 m, escalade 9 m, vol 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 15",
+ "languages": "draconique, télépathie 36 m",
+ "traits": "**Escalade des araignées.** Le dragon peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Tunneler.** Le dragon peut creuser à la moitié de sa vitesse de creusement et laisser un tunnel 1,50 m dans son sillage.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants plus 3 (1d6) dégâts de tonnerre.\n**Respiration débilitante (Recharge 5-6).** Le dragon exhale un pouls de sons à forte hauteur, presque inaudibles, dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 13 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 22 (4d10) dégâts de tonnerre et est neutralisé jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas neutralisé.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation :\n- 1/jour chacun : Alarme, Disque flottant de Tenser",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/624d197025_monstre-dragon-sapphire-dragonnet.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon Sapphire dragonnet",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +5, SAG +3, CHA +4",
+ "skills": "Histoire +4, Perception +5, Persuasion +6, Discrétion +4",
+ "resistances": "foudre, tonnerre",
+ "conditionImmunities": "effrayé"
+}

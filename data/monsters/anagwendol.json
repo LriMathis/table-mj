@@ -1,0 +1,49 @@
+{
+ "id": "anagwendol",
+ "name": "Anagwendol",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 17,
+ "hp": 190,
+ "hpFormula": "20d8+100",
+ "vitesse": "9 m, vol 27 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 18,
+  "CON": 20,
+  "INT": 18,
+  "SAG": 20,
+  "CHA": 22
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 20",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance magique.** Anagwendo a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Anagwendo fait deux attaques en utilisant son Defending Greatsword, Longbow, ou une combinaison des deux.\n**Défendre la Grande Parole.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 19 (4d6 + 5) dégâts tranchants plus 22 (5d8) dégâts radiants.\n**Longbow.** Attaque d'arme à distance : +9 au toucher, portée 45/180 m., une cible. Touché : 8 (1d8 + 4) dégâts perforants dégâts plus 22 (5d8) dégâts radiants.\n**Touche de guérison (2/jour).** Anagwendo touche une autre créature. La cible récupère magiquement 30 (6d8 + 3) points de vie et est libérée de toute malédiction, maladie, poison, cécité, ou surdité.",
+ "attacks": [
+  {
+   "name": "Défendre la Grande Parole",
+   "bonus": 10,
+   "damage": "4d6+5",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 9,
+   "damage": "1d8+4",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/4444742d9d_monstre-anagwendol.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +9, SAG +10, CHA +11",
+ "skills": "Perception +10",
+ "resistances": "radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "bonusActions": "**Le travail d'épée défensive.** Anagwendo peut renoncer à attaquer avec son Grand Mot Défendre à ce tour et gagner un +3 à son classe d'armure. Elle peut encore attaquer avec sa Longbow."
+}

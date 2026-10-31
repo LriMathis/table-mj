@@ -1,0 +1,40 @@
+{
+ "id": "sibylle-de-l-eau",
+ "name": "Sibylle de l'eau",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 58,
+ "hpFormula": "9d10+9",
+ "vitesse": "0 m, nage 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "resistances": "feu ; contondants, perforants et tranchants des attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "à terre, empoigné, empoisonné, entravé, épuisé, inconscient, paralysé",
+ "senses": "vision aveugle 9 m, Perception passive 10",
+ "languages": "comprend l'aquatique, mais incapable de parler",
+ "traits": "**Invisible dans l'eau.** Tant que la sibylle est entièrement immergée, elle est invisible.\n**Liée à l'eau.** La sibylle meurt si elle quitte la pièce d'eau à laquelle elle est liée ou si cette eau disparaît.",
+ "actionsText": "**Comprimer.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 3 m, une créature. *Touché :* 13 (3d6+3) dégâts contondants. Si la cible est de taille Moyenne ou plus petite, elle est empoignée (évasion DD 13) et attirée sur 1,50 mètre en direction de la sibylle. Jusqu'à la fin de l'empoignade, la cible est entravée, la sibylle essaie de la noyer et ne peut pas comprimer une autre victime.",
+ "portrait": "/data/images/c0bbcb6409_monstre-sibylle-de-l-eau.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 265 · image : Manuel des monstres p. 264",
+ "attacks": [
+  {
+   "name": "Comprimer",
+   "bonus": 5,
+   "damage": "3d6+3",
+   "type": "contondant"
+  }
+ ]
+}

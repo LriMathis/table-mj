@@ -1,0 +1,47 @@
+{
+ "id": "sunder-chaman",
+ "name": "Sunder Shaman",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 20,
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 15,
+  "CON": 21,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "géant",
+ "traits": "**Sans déconner.** Au début de son tour, le géant peut gagner de l'avantage sur toute l'arme à melee jets d'attaque qu'il fait pendant ce tour, mais jets d'attaque contre lui a avantage jusqu'au début de son prochain tour.\n**Monstre de siège.** Le géant inflige deux dégâts aux objets et aux structures.\n**Camouflage en pierre.** Le géant a l'avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans un terrain rocheux.",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques de clam. La première de ces attaques qui frappes inflige 18 (4d8) de plus si le géant a pris des dégâts depuis son dernier tour.\n**Clamer.** Attaque d'arme au corps à corps : +10 au toucher, allonge 4,50 m, une cible. Touché : 24 (4d8 + 6) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +10 au toucher, portée 18/72 m., une cible. Touché : 28 (4d10 + 6) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 18 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "4d8+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 10,
+   "damage": "4d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3cb0df4932_monstre-sunder-chaman.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Sunder chaman",
+ "caNote": "armure de pierre",
+ "saves": "DEX +6, CON +9, SAG +5",
+ "skills": "Athlétisme +10, Perception +5"
+}

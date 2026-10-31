@@ -1,0 +1,30 @@
+{
+ "id": "na",
+ "name": "Na",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 3,
+ "hpFormula": "1d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/863b826d58_monstre-na.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)"
+}

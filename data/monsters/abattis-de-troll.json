@@ -1,0 +1,37 @@
+{
+ "id": "abattis-de-troll",
+ "name": "Abattis de troll",
+ "type": "Géant",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 14,
+ "hpFormula": "4d6",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 9,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "aucune",
+ "traits": "**Régénération.** L’abattis récupère 5 points de vie au début de chacun de ses tours. S’il subit des dégâts d’acide ou de feu, ce trait ne fonctionne pas à son tour suivant. L’abattis ne meurt que s’il commence son tour à 0 point de vie et ne se régénère pas.\n**Trollesquerie.** L’abattis dispose des mêmes sens que le troll dont il est issu. Si l’abattis n’est pas détruit dans les 24 heures, lancez 1d12. Sur un résultat de 12, l’abattis devient un **troll** à part entière. Sinon, le membre dépérit.",
+ "actionsText": "**Saignée.** Corps à corps : +6, allonge 1,50 m. Touché : 9 (2d4 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/0d779aa3f9_monstre-abattis-de-troll.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

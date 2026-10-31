@@ -1,0 +1,42 @@
+{
+ "id": "lorehold-professeur-d-ordre",
+ "name": "Lorehold Professor of Order",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 15,
+  "CHA": 13
+ },
+ "senses": "Perception passive 15",
+ "languages": "Commun plus quatre langues",
+ "traits": "**Voix du passé (1/jour).** Le professeur peut lancer le sort Contact avec un autre plan pour contacter un esprit mort-vivant, en utilisant Intelligence comme le caractéristique d'incantation.",
+ "actionsText": "**Multiattaques.** Le professeur fait deux attaques contre les Bursts. Il peut également utiliser force Barrier, si disponible.\n**Résoudre les bourres.** Attaque de sort au corps à corps : +7 au toucher, allonge 9 m, une cible. Touché : 13 (2d8 + 4) dégâts de force. Si la cible est une créature grande ou plus petite, elle doit réussir sur une DD 15 jet de sauvegarde de Force ou être poussée jusqu'à 3 m directement loin du professeur et devenir entravé jusqu'au début du prochain tour du professeur.\n**force Barrière (Recharge 5-6).** Le professeur crée magiquement un mur de force translucide et dorée en lui-même. Le mur dure 1 minute ou jusqu'à ce que le professeur utilise à nouveau cette action. La barrière peut être un plan vertical ou horizontal jusqu'à 9 m sur un côté ou un dôme hémisphérique 3 m-radius avec un plancher. Le mur fournit 3. Il a CA 17, 30 points de vie, et l'immunité au poison et dégâts psychiques.\n**Détection orthographique.** Le professeur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15):\n- À volonté : Compréhension des langues, Assistance, Lumière\n- 2/jour chacun : Porte dimensionnelle, Localisation d'objet, Armure de mage, Façonnage de la pierre",
+ "attacks": [
+  {
+   "name": "Résoudre les bourres",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/b75d404091_monstre-lorehold-professeur-d-ordre.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Lorehold professeur d'ordre",
+ "saves": "CON +5, INT +7, SAG +5, CHA +4",
+ "skills": "Arcanes +7, Histoire +7, Perception +5",
+ "resistances": "force",
+ "reactions": "**Stasis d'Arcane (2/jour).** Lorsqu'une créature que le professeur peut voir dans 18 m jette un sort, le professeur peut par magie verrouiller le casting dans le moment avant l'achèvement. L'orthographe doit réussir sur un DD 15 jet de sauvegarde en utilisant le caractéristique d'incantation du orthographe, ou le sort échoue et est gaspillé."
+}

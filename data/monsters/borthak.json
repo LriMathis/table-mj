@@ -1,0 +1,48 @@
+{
+ "id": "borthak",
+ "name": "Borthak",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 16,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 16,
+  "CON": 22,
+  "INT": 4,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Aura glaciaire.** Au bout du virage du borthak, la glace glissante recouvre les surfaces de 3 m du borthak. Cette glace est un terrain difficile. Lorsqu'une créature autre que le borthak entre dans la zone de glace pour la première fois sur un virage ou y commence son virage, elle doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou avoir l'état à terre. La glace disparaît au début du prochain tour du borthak.\n**Pieds sur le Web.** Le borthak peut se déplacer sur des surfaces glacées sans avoir besoin de faire un test de caractéristique. De plus, un terrain difficile, composé de glace ou de neige, ne lui coûte pas un déplacement supplémentaire.",
+ "actionsText": "**Multiattaques.** Le borthak fait une attaque Bite ou utilise la régurgitation nocive si disponible, et il fait deux attaques Stomp.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d8 + 7) dégâts perforants plus 7 (2d6) dégâts d'acide.\n**Stompe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 11 (1d8 + 7) dégâts contondants.\n**Régularisation nocive (Recharge 5-6).** Le borthak jette de l'acide sur une créature qu'il peut voir en lui-même. La cible doit faire un DD 21 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 24 (7d6) dégâts d'acide et a l'état empoisonné jusqu'au prochain tour du borthak. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d8+7",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Stompe",
+   "bonus": 12,
+   "damage": "1d8+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e349c1aed1_monstre-borthak.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +12, CON +11, CHA +7",
+ "resistances": "acide, froid",
+ "reactions": "**Taile réactive.** Lorsqu'une créature dans 3 m du borthak frappe le borthak avec un jet d'attaque, le borthak balance sa queue en représailles. La créature déclenchante et toute créature dans 1,50 m de celle-ci doivent réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 16 (2d8 + 7) dégâts contondants.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, borthak peut entreprendre l'une des actions ci-après.\n**Bouge.** Le borthak monte à sa vitesse sans provoquer des attaques d'opportunités.\n**Bite (coûts 2 actions).** Le borthak fait une attaque Bite."
+}

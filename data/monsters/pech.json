@@ -1,0 +1,41 @@
+{
+ "id": "pech",
+ "name": "Pech",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 17,
+ "hp": 82,
+ "hpFormula": "11d6+44",
+ "vitesse": "9 m, creusement 6 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception des vibrations 36 m, Perception passive 14",
+ "languages": "commun, terreux",
+ "traits": "**Résistance magique.** Le pech a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sensibilité à la lumière du soleil.** En plein soleil, le pech présente un désavantage sur jets d'attaque.",
+ "actionsText": "**Multiattaques.** Le pech fait deux attaques Fortified Pickaxe. Si elle frappe une créature grande ou plus petite avec les deux attaques, la cible doit réussir sur un DD 14 jet de sauvegarde de Force ou avoir l'état à terre.\n**Pickaxe fortifié.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts de force. Si la cible est un Construire ou un objet, l'attaque est automatiquement un coup critique.\n**Diffusion d'orthographes communales (2/jour).** Le pech fonctionne avec trois pechs ou plus pour lancer des sorts, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation (enregistrer DD 12). Si au moins trois autres pechs sont dans 9 m de celui-ci, le pech peut lancer Mur de pierre. Si au moins sept autres pechs sont dans 9 m de lui, il peut lancer Restauration supérieure. Les autres pech impliqués dans la coulée du sort ne peuvent pas avoir l'état neutralisé et doivent avoir au moins une utilisation de Spellcasting Communal restant, qu'il doit immédiatement dépenser pour participer (aucune action requise).\n- 2/jour : Mur de pierre, Restauration supérieure\n**Forme de pierre (3/jour).** Le pech lance Façonnage de la pierre, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation.\n- 3/jour chacun : Façonnage de la pierre",
+ "attacks": [
+  {
+   "name": "Pickaxe fortifié",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/cf8db93357_monstre-pech.webp",
+ "notes": "",
+ "source": "Descent into the Lost Caverns of Tsojcanth (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +6, SAG +4",
+ "skills": "Athlétisme +6, Perception +4, Survie +4",
+ "conditionImmunities": "pétrifié"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "leucrotta",
+ "name": "Leucrotta",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 67,
+ "hpFormula": "9d10+18",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 9,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "abyssal, gnoll",
+ "traits": "**Mimétisme.** Le leucrotta peut imiter les sons de Bête et les voix humanoïdes. Une créature qui entend les sons peut dire qu'ils sont des imitations seulement avec un succès DD 14 test de Sagesse (Perspicacité).\n**Poignée.** Toute créature autre qu'une leucrotta ou une gnoll qui commence son tour à l'intérieur de 1,50 m de la leucrotta doit réussir sur une DD 12 jet de sauvegarde de Constitution ou être empoisonné jusqu'au prochain tour de la créature. Sur un jet de sauvegarde réussi, la créature est immunisée contre le stench de tous les leucrottas pendant 1 heure.",
+ "actionsText": "**Multiattaques.** La leucrotta fait une attaque Bite et une attaque Hooves.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants. Si le leucrotta marque un coup critique, il roule les dés de dégâts trois fois, au lieu de deux fois.\n**Des voyous.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Des voyous",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d2bbb03c6f_monstre-leucrotta.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +2, Perception +5",
+ "bonusActions": "**Retraite de coups de pied.** Immédiatement après que la leucrotta fasse une attaque de Hooves, il prend l'action Se désengager."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dispositif-de-chargement",
+ "name": "Loading Rig",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 18,
+ "hp": 39,
+ "hpFormula": "6d10+6",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 13,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 6",
+ "languages": "—",
+ "traits": "**Susceptibilité antimagique.** La plate-forme est neutralisé alors que dans la zone d'un Champ antimagie. Si elle est ciblée par Dissipation de la magie, la plate-forme doit réussir sur un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur ou tomber inconscient pendant 1 minute.\n**Instable.** Si le gréement prend des dégâts, il doit réussir sur un DD 10 jet de sauvegarde de Constitution ou être neutralisé avec une vitesse de 0 jusqu'à ce qu'une créature l'active avec un DD 10 test d'Intelligence (Arcanes) réussi en action.",
+ "actionsText": "**Multiattaques.** L'armure fait deux attaques à la mêlée.\n**Clamer.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/21e1596818_monstre-dispositif-de-chargement.webp",
+ "notes": "",
+ "source": "Krenko's Way (5e.tools, traduction automatique)",
+ "aka": "Dispositif de chargement",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

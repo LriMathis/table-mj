@@ -64,6 +64,84 @@ def find_spell(name, level=None):
     return None, None
 
 
+# ---------------------------------------------------------------- D&D 2024 spell choices at level-up (same tables as web/shared/levelup.js)
+
+FULL24 = [4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 16, 17, 17, 18, 18, 19, 20, 21, 22]
+HALF24 = [2, 3, 4, 5, 6, 6, 7, 7, 9, 9, 10, 10, 11, 11, 12, 12, 14, 14, 15, 15]
+T2 = [2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+T3 = [3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+RULES24 = {
+    "barde": (T2, FULL24, ["Barde"]), "clerc": (T3, FULL24, ["Clerc"]), "druide": (T2, FULL24, ["Druide"]),
+    "paladin": (None, HALF24, ["Paladin"]), "rodeur": (None, HALF24, ["Rôdeur"]),
+    "ensorceleur": ([4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], [2, 4, 6, 7, 9, 10, 11, 12, 14, 15, 16, 16, 17, 17, 18, 18, 19, 20, 21, 22], ["Ensorceleur"]),
+    "occultiste": (T2, [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15], ["Occultiste"]),
+    "magicien": (T3, None, ["Magicien"]),   # spellbook: 2 new spells per level
+}
+CLASS_PREFIX = [("ensorcel", "ensorceleur"), ("magicien", "magicien"), ("druid", "druide"), ("clerc", "clerc"), ("barde", "barde"),
+                ("rodeu", "rodeur"), ("paladin", "paladin"), ("occultiste", "occultiste")]
+
+
+def class_key(classe):
+    s = norm(classe or "")
+    for p, k in CLASS_PREFIX:
+        if s.startswith(p):
+            return k
+    if s.startswith("sorci"):
+        return "ensorceleur" if re.search(r"lignee|ensorcel|draconi|sauvage", s) else "occultiste"
+    return None
+
+
+def check_spells_2024(c, nc):
+    """Error message if a player's level-up adds spells outside the 2024 rules, otherwise None."""
+    cls = class_key(c.get("classe"))
+    if cls not in RULES24:
+        return None
+    tours, prep, lists = RULES24[cls]
+    n = int(nc.get("niveau") or 1)
+    if cls == "barde" and n >= 10:
+        lists = ["Barde", "Clerc", "Druide", "Magicien"]
+    slots = ((nc.get("spellcasting") or {}).get("slots") or {})
+    max_lvl = max([int(k) for k, v in slots.items() if str(k).isdigit() and (v or {}).get("max", 0) > 0] or [0])
+    old = {(int(l), x) for l, names in (c.get("spells") or {}).items() for x in names or []}
+    new = {(int(l), x) for l, names in (nc.get("spells") or {}).items() for x in names or []}
+    added, removed = new - old, old - new
+    for lvl, name in added:
+        _, sp = find_spell(name, lvl)
+        if not sp or not set(sp.get("c24") or []) & set(lists):
+            return t("{spell} is not on your class spell list (2024 rules).", spell=name)
+        if lvl > max_lvl:
+            return t("{spell} is too high a level for you.", spell=name)
+    new_cantrips = sum(1 for l, _ in added if l == 0) - sum(1 for l, _ in removed if l == 0)
+    new_spells = sum(1 for l, _ in added if l > 0)
+    swaps = sum(1 for l, _ in removed if l > 0)
+    allowed_c = (tours[n - 1] - tours[n - 2]) if tours and n > 1 else 0
+    allowed_s = (prep[n - 1] - prep[n - 2] if prep else 2) + min(swaps, 1)
+    if new_cantrips > allowed_c or new_spells > allowed_s or swaps > 1:
+        return t("Too many new spells for this level (2024 rules).")
+    return None
+
+
+def attacks_per_action(c):
+    """Attacks made with one Attack action (Extra Attack), as web/shared/economy.js."""
+    s, n = norm(c.get("classe") or ""), int(c.get("niveau") or 1)
+    k = 1
+    if s.startswith("guerri"):
+        k = 4 if n >= 20 else 3 if n >= 11 else 2 if n >= 5 else 1
+    elif s.startswith(("barbare", "moine", "paladin", "rodeu")) and n >= 5:
+        k = 2
+    for f in c.get("features") or []:
+        m = re.match(r"attaque supplementaire(?:\s*\((\d)\))?", norm((f or {}).get("name", "")) if isinstance(f, dict) else "")
+        if m:
+            k = max(k, int(m.group(1)) + 1 if m.group(1) else 2)
+    return k
+
+
+def cast_kind(sp):
+    """Casting time -> 'a' (action), 'b' (bonus action) or 'r' (reaction)."""
+    s = norm((sp or {}).get("temps") or "")
+    return "b" if "bonus" in s else "r" if "reaction" in s else "a"
+
+
 def mod(score):
     try:
         return (int(score) - 10) // 2
@@ -79,7 +157,8 @@ def skill_bonus(c, sk):
 
 
 def save_bonus(c, ab):
-    return mod((c.get("stats") or {}).get(ab, 10)) + (int(c.get("prof") or 0) if ab in (c.get("saves") or []) else 0)
+    return (mod((c.get("stats") or {}).get(ab, 10)) + (int(c.get("prof") or 0) if ab in (c.get("saves") or []) else 0)
+            + int(c.get("saveItemBonus") or 0))   # magic items (cloak / ring of protection…), set by items.apply_inventory
 
 
 def check_bonus(c, key):

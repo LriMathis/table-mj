@@ -1,0 +1,46 @@
+{
+ "id": "amble",
+ "name": "Amble",
+ "type": "Humanoïde (torche)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 18,
+  "CHA": 14
+ },
+ "senses": "Perception passive 18",
+ "languages": "aquatique, commun, druidique",
+ "traits": "**Le cœur de la lumière de la lune et de l'ombre.** Au début d'un repos court ou long, Amble peut toucher un point dans l'espace, et une sphère de magie invisible, 9 m -radius apparaît, centrée sur ce point. 3 bloque la sphère.\nAlors que dans la sphère, Amble et leurs alliés gagnent un bonus de +5 à Dextérité (Discrétion) et tests de Sagesse (Perception), et toute lumière provenant de flammes ouvertes dans la sphère n'est pas visible à l'extérieur.\nLa sphère disparaît à la fin du reste ou quand Amble quitte la sphère.\n**Maintenez votre souffle.** Amble peut retenir leur respiration jusqu'à 1 heure à la fois.\n**Baume de la cour d'été (12d6).** (As a action bonus) Amble peut choisir une créature ils peuvent voir dans 36 m d'entre eux et dépenser jusqu'à 6d6 de leur pool de die. Faites rouler les dés et ajoutez-les ensemble. La cible retrouve un nombre de points de vie égal au total. La cible gagne également 1 points de vie temporaire par décès dépensé. Amble retrouve tous les dés dépensés quand ils terminent un repos long.\n**Voies cachées (4 jours).** (As a action bonus) Amble peut téléporter jusqu'à 18 m vers un espace inoccupé qu'ils peuvent voir.\n**Détection orthographique.** Amble est un spellcaster de niveau 12. Leur caractéristique d'incantation est Sagesse (save spell DD 16, +8 au toucher avec attaques de sort). Amble a les sorts druides suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Réparation, Façonnage de l'eau, Gourdin magique\n- Niveau 1 (4 emplacements) : Absorption des éléments, Soins, Enchevêtrement, Communication avec les animaux\n- Niveau 2 (3 emplacements) : Vision dans le noir, Immobilisation de personne, Restauration partielle, Rayon de lune\n- Niveau 3 (3 emplacements) : Invocation d'animaux, Dissipation de la magie, Respiration aquatique\n- Niveau 4 (3 emplacements) : Charme-monstre, Liberté de mouvement\n- Niveau 5 (2 emplacements) : Restauration supérieure, Soins de groupe\n- Niveau 6 (1 emplacements) : Invocation de fée",
+ "actionsText": "**Forme du changement (2/jour).** Il est magiquement polymorphe en bête avec une cote de défi de 1 ou moins, et peut rester sous cette forme jusqu'à 6 heures. L'équipement d'Amble fusionne avec leur nouvelle forme. Amble revient à leur vraie forme s'ils meurent ou tombent inconscient. Amble peut revenir à leur vraie forme en utilisant un action bonus à leur tour.\nLes statistiques de jeu d'Amble sont remplacées par les statistiques de la bête, mais elles conservent leur alignement, leur personnalité et leurs scores Intelligence, Sagesse et Charisme. Amble conserve également toute leur compétence et les compétences de jet de sauvegarde, en plus d'obtenir celles de la créature. Si la créature a la même compétence qu'Amble et le bonus dans son bloc de statistiques est plus élevé, utilisez le bonus de la créature au lieu d'Amble.\nQuand Amble se transforme, ils supposent les points de vie et dés de vie de la bête. Quand Amble revient à leur forme normale, ils reviennent au nombre de points de vie qu'ils avaient avant de se transformer. Cependant, si Amble revient à la suite de la chute à 0 points de vie, tout dégâts excédentaire porte sur leur forme normale.\nAmble ne peut pas jeter des sorts, et leur capacité à parler ou à prendre toute action qui nécessite des mains est limitée aux capacités de leur forme de bête. La transformation ne brise pas le concentration d'Amble sur un sort qu'ils ont déjà lancé, ou les empêche de prendre des actions qui font partie d'un sort.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.\n**Club.** Attaque d'arme au corps à corps : +6 au toucher (+8 au toucher avec shillelagh), allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants ou 8 (1d8 + 4) dégâts contondants avec shillelagh.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Club",
+   "bonus": 6,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/56c37ab6a4_monstre-amble.webp",
+ "notes": "",
+ "source": "Locathah Rising (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle, Anneau de protection",
+ "saves": "FOR +6, DEX +4, CON +7, INT +4, SAG +8, CHA +6",
+ "skills": "Dressage +8, Perspicacité +8, Médecine +8, Perception +8, Survie +8"
+}

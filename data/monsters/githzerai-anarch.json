@@ -1,0 +1,41 @@
+{
+ "id": "githzerai-anarch",
+ "name": "Githzerai Anarch",
+ "type": "Humanoïde (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 20,
+ "hp": 144,
+ "hpFormula": "17d8+68",
+ "vitesse": "9 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 21,
+  "CON": 18,
+  "INT": 18,
+  "SAG": 20,
+  "CHA": 14
+ },
+ "senses": "Perception passive 20",
+ "languages": "gith",
+ "traits": "**Résistance légendaire (3/jour).** Si le githzerai échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**psychique Défense.** Alors que le githzerai ne porte pas d'armure et ne porte pas de bouclier, son CA comprend son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Le githzerai fait trois attaques frappe à mains nues.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts contondants plus 18 (4d8) dégâts psychiques.\n**Coulisse (Psioniques).** Le githzerai lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Main de mage (la main est invisible)\n- 1/jour chacun : Globe d'invulnérabilité, Changement de plan, Mur de force\n- 3/jour chacun : Voir l'invisible, Télékinésie",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 10,
+   "damage": "1d8+5",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/566be16a9b_monstre-githzerai-anarch.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "défense psychique",
+ "saves": "FOR +8, DEX +10, INT +9, SAG +10",
+ "skills": "Arcanes +9, Perspicacité +10, Perception +10",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, githzerai anarch peut entreprendre l'une des actions ci-après.\n**Grève.** Le githzerai fait une attaque frappe à mains nues.\n**Téléportation.** Les téléportages githzerai, ainsi que tout équipement qu'ils portent ou transportent, se trouvent dans un espace inoccupé qu'ils peuvent voir à l'intérieur de 9 m.\n**Changement Gravité (coûts 3 actions).** Le githzerai lance le sort Inversion de la gravité, en utilisant Sagesse comme caractéristique d'incantation. Le sort a l'effet normal, sauf que le githzerai peut orienter la zone dans n'importe quelle direction et que les créatures et les objets tombent vers la fin de la zone."
+}

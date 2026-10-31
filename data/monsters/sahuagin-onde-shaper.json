@@ -1,0 +1,47 @@
+{
+ "id": "sahuagin-onde-shaper",
+ "name": "Sahuagin Wave Shaper",
+ "type": "Humanoïde (sahuagine)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 60,
+ "hpFormula": "11d8+11",
+ "vitesse": "9 m, nage 12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "sahuagin",
+ "traits": "**Frénésie sanguine.** Le shaper d'onde a avantage sur melee jets d'attaque contre toute créature qui n'a pas tout son points de vie.\n**Amphibie limitée.** Le shaper peut respirer de l'air et de l'eau, mais il doit être submergé au moins une fois toutes les 4 heures pour éviter l'étouffement.\n**Télépathie des requins.** Le shaper d'onde peut par magie commander n'importe quel requin dans 36 m de lui, en utilisant une télépathie limitée.\n**Découpe intérieure.** Le caractéristique d'incantation du shaper d'onde est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort). Il peut lancer les sorts suivants, ne nécessitant que des composants verbaux:\n- À volonté : Message\n- 1/jour : Compréhension des langues",
+ "actionsText": "**Multiattaques.** Le shaper fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d8 + 1) dégâts perforants plus 13 (3d8) dégâts de froid.\n**Griffes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d8 + 1) dégâts tranchants plus 13 (3d8) dégâts de froid.\n**Whirlpool (1/jour).** Le shaper d'onde cible un plan d'eau au moins 15 m carré et 7,50 m profonde, ce qui provoque la formation d'un tourbillon au centre de la zone. Le tourbillon forme un vortex large de 1,50 m à la base, jusqu'à 15 m large au sommet, haut de 7,50 m et dure 1 minute ou jusqu'à ce que le shaper d'onde soit neutralisé. Toute créature ou objet dans l'eau et à l'intérieur de 7,50 m du vortex est tiré 3 m vers elle. Une créature peut nager loin du vortex en réussissant sur un DD 14 test de Force (Athlétisme).\nQuand une créature entre dans le vortex pour la première fois sur un tour ou commence son tour là, elle doit faire un DD 14 jet de sauvegarde de Force. Sur une sauvegarde ratée, la créature prend 9 (2d8) dégâts contondants et est prise dans le vortex jusqu'à ce qu'elle se termine. Sur un succès, la créature prend la moitié des dégâts et n'est pas prise dans le vortex. Une créature prise dans le vortex peut utiliser son action pour essayer de nager loin du vortex comme décrit ci-dessus, mais elle a un désavantage sur le test de Force (Athlétisme) pour le faire.\nLa première fois qu'un objet entre dans le vortex, il prend 9 (2d8) dégâts contondants. Ces dégâts se produisent chaque tour qu'il reste dans le vortex.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d8+1",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "2d8+1",
+   "type": "tranchant + froid"
+  }
+ ],
+ "portrait": "/data/images/da7a425de0_monstre-sahuagin-onde-shaper.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Sahuagin onde Shaper",
+ "caNote": "armure naturelle",
+ "saves": "INT +6",
+ "skills": "Arcanes +6, Intimidation +4, Perception +5"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "corrompu-avatar-de-lurue",
+ "name": "Corrupted Avatar of Lurue",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "15 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 17,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "céleste, elfique, sylvestre, télépathie 18 m",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'avatar fait deux attaques : l'une avec ses sabots et l'autre avec sa corne.\n**Des voyous.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 32 (8d6 + 4) dégâts nécrotiques.\n**Corne.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 32 (8d6 + 4) dégâts nécrotiques. Si la cible est un humanoïde, elle doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être transformée en loup sous le contrôle de l'avatar. Cette transformation dure 1 heure, ou jusqu'à ce que la cible tombe à 0 points de vie ou meurt. Les statistiques de jeu de la cible sont remplacées par les statistiques du loup, mais il conserve son points de vie. La cible est limitée dans les actions qu'elle peut effectuer par la nature de sa forme de loup, et elle ne peut pas parler, jeter des sorts, ou prendre toute autre action qui nécessite des mains ou des paroles. L'engrenage de la cible se mélange dans la nouvelle forme, et il ne peut pas activer, utiliser, manier, ou autrement bénéficier de l'un de ses équipements.",
+ "attacks": [
+  {
+   "name": "Des voyous",
+   "bonus": 7,
+   "damage": "8d6+4",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Corne",
+   "bonus": 7,
+   "damage": "8d6+4",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/a3844a9e44_monstre-corrompu-avatar-de-lurue.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Corrompu Avatar de Lurue",
+ "caNote": "armure naturelle",
+ "saves": "INT +3, SAG +6, CHA +6",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, paralysé, empoisonné"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "deux-tetes-cerberus",
+ "name": "Two-Headed Cerberus",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**Agressifs.** En tant qu'action bonus, le cerberus peut se diriger à sa vitesse vers une créature hostile qu'il peut voir.\n**Multi-têtes.** Le cerberus ne peut pas être surpris, et il a avantage sur jet de sauvegarde contre être inconscient.\n**Tactiques de conditionnement.** Le cerberus a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du cerberus est à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le cerbère fait deux attaques de morsure.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants plus 2 (1d4) dégâts de feu.\n**Arme respiratoire (Recharge 5-6).** Le cerberus expire un cône 4,50 m de roche fondue. Chaque créature dans le cône doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 10 (3d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Sur une sauvegarde ratée, une créature est également entravé par la roche durcissante. Une créature peut faire un DD 12 test de Force (Athlétisme) comme action, se libérer ou une créature à portée de la roche sur un succès. La roche a CA 17 et 10 points de vie, et il est immunisé contre le feu, le poison, et dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/0f512dbf2d_monstre-deux-tetes-cerberus.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Deux têtes Cerberus",
+ "skills": "Perception +5, Discrétion +4",
+ "immunities": "feu, nécrotique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, étourdi"
+}

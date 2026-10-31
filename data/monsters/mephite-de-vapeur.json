@@ -1,0 +1,41 @@
+{
+ "id": "mephite-de-vapeur",
+ "name": "Méphite de vapeur",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 10,
+ "hp": 17,
+ "hpFormula": "5d6",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 5,
+  "DEX": 11,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "skills": "Discrétion +2",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné, épuisement",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "primordial (aquatique, igné)",
+ "traits": "**Explosion finale.** Le méphite explose quand il meurt. JS Dextérité : DD 10, chaque créature dans une Émanation de 1,50 m centrée sur le méphite. Échec : 5 (2d4) dégâts de feu. Réussite : demi-dégâts.\n**Forme floue.** Les jets d’attaque contre le méphite subissent le Désavantage sauf si le méphite subit l’état Neutralisé.",
+ "actionsText": "**Griffe.** Corps à corps : +2, allonge 1,50 m. Touché : 2 (1d4) dégâts tranchants plus 2 (1d4) dégâts de feu.\n**Souffle de vapeur (recharge 6).** JS Constitution : DD 10, chaque créature dans un Cône de 4,50 m. Échec : 5 (2d4) dégâts de feu, et la Vitesse de la cible est réduite de 3 m jusqu’à la fin du tour suivant du méphite. Réussite : demi-dégâts uniquement. Échec ou réussite : être sous l’eau n’octroie pas la Résistance à ces dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 2,
+   "damage": "1d4+1d4",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/a6adf8ce49_monstre-mephite-de-vapeur.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 219",
+ "aka": "Méphite vaporeux (2024)"
+}

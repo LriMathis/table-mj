@@ -1,0 +1,39 @@
+{
+ "id": "geant-conduite-lezard",
+ "name": "Giant Riding Lizard",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 19,
+ "hpFormula": "3d10+3",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Escalade des araignées.** Le lézard peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/98de810f80_monstre-geant-conduite-lezard.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Géant conduite lézard",
+ "caNote": "armure naturelle"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "epee-volante",
+ "name": "Épée volante",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "non aligné",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 17,
+ "hp": 14,
+ "hpFormula": "4d6",
+ "vitesse": "1,5 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 5,
+  "CHA": 1
+ },
+ "saves": "DEX +4",
+ "immunities": "poison, psychiques",
+ "conditionImmunities": "assourdi, charmé, effrayé, empoisonné, épuisement, paralysé, pétrifié",
+ "senses": "Vision aveugle 18 m, Perception passive 7",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Taillade.** Corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Taillade",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/5279fe8754_monstre-epee-volante.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 238"
+}

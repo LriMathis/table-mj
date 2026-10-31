@@ -1,0 +1,57 @@
+{
+ "id": "kyrilla-accursed-gorgone",
+ "name": "Kyrilla, Accursed Gorgon",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 127,
+ "hpFormula": "15d10+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun, draconique, primordial",
+ "traits": "**Nourriture sous la douleur (2/jour).** La première fois qu'elle frappe avec une attaque d'arme à son tour, Kyrilla peut fournir un 16 (3d10) dégâts de poison supplémentaire à la cible et récupère un nombre de points de vie égal à la moitié des dégâts infligés.\n**Résistance légendaire (2/jour).** Si elle échoue un jet de sauvegarde, Kyrilla peut choisir de réussir à la place.\n**Gaz pétrifiant.** Quand une créature qui peut voir les yeux de Kyrilla commence son tour dans 9 m d'elle, Kyrilla peut la forcer à faire un DD 14 jet de sauvegarde de Constitution si Kyrilla n'est pas neutralisé et peut voir la créature. Si le jet de sauvegarde échoue par 5 ou plus, la créature est instantanément pétrifié. Sinon, une créature qui échoue au save commence à se tourner vers la pierre et est entravé. La créature entravé doit répéter la jet de sauvegarde à la fin de son prochain tour, devenant pétrifié sur un échec ou mettant fin à l'effet sur un succès. La pétrification dure jusqu'à ce que la créature soit libérée par le sort Restauration supérieure ou toute autre magie.\nSauf si surpris, une créature peut ouvrir les yeux pour éviter le jet de sauvegarde au début de son tour. Si la créature le fait, elle ne peut pas voir Kyrilla avant le début de son prochain tour, quand elle peut à nouveau détourner ses yeux. Si la créature regarde Kyrilla dans l'intervalle, elle doit immédiatement faire le sauvetage.\nLe regard maudit de Kyrilla n'affecte ni mort ni construction. Si Kyrilla se voit réfléchir sur une surface polie au sein de 9 m d'elle et dans une zone de lumière vive, elle est, en raison de sa malédiction, affectée par son propre regard.\n**Sensibilité à la lumière du soleil.** En plein soleil, Kyrilla a un désavantage sur jets d'attaque et tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Kyrilla fait une attaque pour constricter et deux attaques avec ses griffes, ou elle fait trois attaques avec sa longbow.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (3d6 + 3) dégâts tranchants.\n**Constriction.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 10 (3d6) dégâts contondants, et la cible est agrippé (évasion DD 13) si c'est une créature grande ou plus petite. Jusqu'à ce que ce grappin se termine, la cible est entravé, et Kyrilla ne peut pas restreindre une autre cible.\n**Longbow.** Attaque d'arme à distance : +7 au toucher, portée 45/180 m., une cible. Touché : 16 (3d8 + 3) dégâts perforants.\n**Invoquer le storm des serpents toxiques (Recharge 5-6).** Kyrilla conjure un essaim de serpents toxiques dans un espace vide au sein de 3 m d'elle. L'essaim est sous le contrôle de Kyrilla et agit à son tour, immédiatement après elle dans l'ordre d'initiative.\nIl existe encore jusqu'à 1 heure. Elle ne peut pas convoquer plus de trois essaims par jour. Kyrilla peut bannir tout ou partie de ses essaims convoqués avec un action bonus.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "3d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 4,
+   "damage": "3d6",
+   "type": "contondant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 7,
+   "damage": "3d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6ec9e5ecc8_monstre-kyrilla-accursed-gorgone.webp",
+ "notes": "",
+ "source": "Adventures in the Forgotten Realms: Deepest Night (5e.tools, traduction automatique)",
+ "aka": "Kyrilla, Accursed gorgone",
+ "caNote": "armure naturelle",
+ "saves": "SAG +6, CHA +6",
+ "skills": "Tromperie +6, Perspicacité +6, Perception +6, Discrétion +7",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, kyrilla, accursed gorgone peut entreprendre l'une des actions ci-après.\n**Griffe.** Kyrilla ou un essaim de serpents venimeux fait une attaque d'arme.\n**Détecter.** Kyrilla fait un test de Sagesse (Perception).\n**Pâtisserie.** Kyrilla passe à sa vitesse sans provoquer d'attaques d'opportunités."
+}

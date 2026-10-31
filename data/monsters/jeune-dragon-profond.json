@@ -1,0 +1,42 @@
+{
+ "id": "jeune-dragon-profond",
+ "name": "Young Deep Dragon",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "12 m, creusement 6 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 45 m, Perception passive 18",
+ "languages": "commun, draconique, commun des profondeurs",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le dragon fait trois attaques Rend.\n**Rend.** Jet d'attaque au corps à corps : +7, allonge 3 m. Touché : 11 (2d6 + 4) dégâts tranchants plus 3 (1d6) dégâts de poison.\n**Respiration de cauchemar (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 14, chaque créature dans un cône 9 m. Échec : 22 (4d10) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin du prochain tour du dragon. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/2a7351865f_monstre-jeune-dragon-profond.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Jeune dragon profond",
+ "saves": "DEX +4, SAG +5",
+ "skills": "Perception +8, Discrétion +7",
+ "resistances": "poison, psychique",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

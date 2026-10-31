@@ -1,0 +1,48 @@
+{
+ "id": "gnoll-witherling",
+ "name": "Gnoll Witherling",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 8,
+  "CON": 12,
+  "INT": 5,
+  "SAG": 5,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 7",
+ "languages": "comprend Gnoll mais ne peut pas parler",
+ "traits": "**Nature inhabituelle.** Le flétrissement ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le flétrissement fait deux attaques Bite ou Spiked Club.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts nécrotiques.\n**Club piqué.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Club piqué",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ef84767146_monstre-gnoll-witherling.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "bonusActions": "**Rampage.** Après le dépérissement réduit une créature à 0 points de vie avec une attaque à la mêlée à son tour, la gnolle se déplace jusqu'à la moitié de sa vitesse et fait une attaque Bite.",
+ "reactions": "**Grève victorieuse.** En réponse à une gnoll réduite à 0 points de vie dans 9 m du dépérissement, le dépérissement fait une attaque Bite ou Spiked Club."
+}

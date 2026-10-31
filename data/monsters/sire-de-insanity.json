@@ -1,0 +1,50 @@
+{
+ "id": "sire-de-insanity",
+ "name": "Sire of Insanity",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 157,
+ "hpFormula": "15d12+60",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 6,
+  "CON": 19,
+  "INT": 14,
+  "SAG": 19,
+  "CHA": 22
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 14",
+ "languages": "abyssal, commun, télépathie 36 m",
+ "traits": "**Aura de l'érosion mentale.** Toute créature qui commence son tour à l'intérieur de 9 m de la sire doit faire un DD 18 jet de sauvegarde de Sagesse. Sur un salut réussi, la créature est à l'abri de cette aura pendant les 24 prochaines heures. Lors d'une sauvegarde ratée, la créature a un désavantage pendant 1 minute sur les sauvegardes Sagesse et tests de Charisme et Sagesse et Charisme. Au début de chacun de ses tours, la sire peut supprimer cette aura jusqu'au début de son prochain tour.\n**Résistance magique.** Le sire a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** Le caractéristique d'incantation inné de la sire est Charisme (spell save DD 18, +10 au toucher with attaques de sort). Le sire peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Clairvoyance, Couronne du dément, Image majeure, Suggestion\n- 1/jour chacun : Confusion, Suggestion de groupe",
+ "actionsText": "**Multiattaques.** Le sire fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une créature. Touché : 25 (3d12 + 6) dégâts perforants plus 16 (3d10) dégâts psychiques.\n**Griffes.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 10 (1d8 + 6) dégâts tranchants plus 9 (2d8) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "3d12+6",
+   "type": "perforant + psychique"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 10,
+   "damage": "1d8+6",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/0f88649ee6_monstre-sire-de-insanity.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Sire de Insanity",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, INT +6, SAG +8, CHA +10",
+ "skills": "Tromperie +10, Intimidation +10",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

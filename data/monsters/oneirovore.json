@@ -1,0 +1,43 @@
+{
+ "id": "oneirovore",
+ "name": "Oneirovore",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 19,
+ "hp": 237,
+ "hpFormula": "19d10+133",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 25,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 14",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Stompe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 16 (2d12 + 3) dégâts de force.\n**Réaliser des cauchemars (Recharge 4-6).** L'oneirovore manipule la perception des créatures voisines, les envoyant dans une panique. Les créatures du choix de l'oneirovore qu'il peut voir dans 18 m doivent faire un DD 19 jet de sauvegarde de Charisme. Sur un sauvetage raté, la créature a l'état charmé, leur vision déformée de telle sorte qu'ils voient leurs alliés comme des créatures de peur et de haine pures. Alors que charmé, une créature utilisera leurs actions pour attaquer leurs alliés dans l'intention de tuer. Une créature charmé peut répéter la jet de sauvegarde à la fin de chaque tour, mettant fin à l'effet sur un succès.\n**Cry d'avertissement (1/jour).** L'oneirovore laisse sortir un cri aux oreilles, appelant à des renforts infernaux. Les créatures qui ne sont pas des Fiends qui sont dans 36 m de l'oneirovore doivent faire un DD 19 jet de sauvegarde de Constitution, en prenant 55 (10d10) dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Les petits diables au sein d'un 1,5 km -radius, centrés sur l'oneirovore, sont tenus par contrat de venir à son aide en entendant son Avertissement Cry. Les diables de rang supérieur peuvent enquêter s'ils le désirent, mais l'appel n'a aucune influence magique sur eux.",
+ "attacks": [
+  {
+   "name": "Stompe",
+   "bonus": 7,
+   "damage": "2d12+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/abde230e09_monstre-oneirovore.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +11, INT +5",
+ "skills": "Perspicacité +4, Nature +5, Perception +4, Survie +4",
+ "resistances": "feu, poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "psychique",
+ "conditionImmunities": "aveuglé, charmé, effrayé"
+}

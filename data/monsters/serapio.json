@@ -1,0 +1,41 @@
+{
+ "id": "serapio",
+ "name": "Serapio",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "abyssal, commun",
+ "traits": "**Résistance magique.** Serapio a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Sérapio fait deux attaques du Talon.\n**Talon.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 3) dégâts perforants plus 14 (3d8) dégâts de poison.\n**Modifier la forme.** Serapio se transforme magiquement en hibou moyenne, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si Sérapio est réduit à 0 points de vie ou si elle utilise son action pour l'en finir.\n**Vents de peste (formulaire de fin seulement); Recharge 5-6).** Sérapio émet un vent froid, maladie -rided dans une ligne 18 m qui est large 3 m. Chaque créature dans cette zone doit réussir sur un DD 13 jet de sauvegarde de Constitution ou prendre 26 (4d12) dégâts de froid et devenir empoisonné.\nAlors qu'empoisonné de cette façon, la créature ne peut pas retrouver points de vie. A la fin de chaque heure, la créature doit réussir sur un DD 13 jet de sauvegarde de Constitution ou gagner 1 niveau d'épuisement. Si la créature est en plein soleil quand elle fait ce jet de sauvegarde, elle réussit automatiquement sur l'enregistrement.\nSi la créature est ciblée par la magie qui met fin à un poison ou maladie, comme la restauration moindre, alors que la créature n'est pas dans la lumière directe du soleil, l'effet ne se termine pas.",
+ "attacks": [
+  {
+   "name": "Talon",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/624d91100b_monstre-serapio.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "saves": "DEX +6, CON +5",
+ "skills": "Perception +5, Discrétion +6",
+ "resistances": "froid, poison",
+ "conditionImmunities": "empoisonné"
+}

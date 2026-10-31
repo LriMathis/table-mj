@@ -1,0 +1,42 @@
+{
+ "id": "thunderbeast-squelette",
+ "name": "Thunderbeast Skeleton",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 68,
+ "hpFormula": "8d12+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, Touché : 18 (4d6 + 4) dégâts perforants.\n**Queue.** +7 au toucher, allonge 3 m, une cible. Touché : 18 (4d6 + 4) dégâts contondants. Succède sur un DC14 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "4d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/60dcc28515_monstre-thunderbeast-squelette.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Thunderbeast squelette",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné, épuisement"
+}

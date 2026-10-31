@@ -1,0 +1,54 @@
+{
+ "id": "stalagma-steelshadow",
+ "name": "Stalagma Steelshadow",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 19,
+ "hp": 243,
+ "hpFormula": "18d12+126",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 25,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 21",
+ "languages": "draconique, nain, terreux",
+ "traits": "**Résistance légendaire (3/jour).** Si Stalagma échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Stalagma peut utiliser sa présence effrayante. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 19 (2d10 + 8) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d6 + 8) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 17 (2d8 + 8) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix de Stalagma qui se trouve à l'intérieur de 36 m de Stalagma et consciente de lui doit réussir sur un DD 18 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante de Stalagma pour les 24 prochaines heures.\n**Armes respiratoires (Recharge 5-6).** Le dragon utilise l'une des armes suivantes.\n- **acide Respiration** Le dragon exhale de l'acide dans une ligne 18 m large. Chaque créature dans cette ligne doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 58 (13d8) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **Respiration paralysante** Le dragon exhale du gaz paralysant dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 20 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Modifier la forme.** Stalagma se polymorphe magiquement en un humanoïde ou une bête qui a une cote de défi pas plus élevé que la sienne, ou de nouveau dans sa forme réelle. Il revient à sa vraie forme s'il meurt. Tout équipement qu'il porte ou qu'il porte est absorbé ou porté par la nouvelle forme (le choix de Stalagma).\nDans une nouvelle forme, Stalagma conserve son alignement, points de vie, dés de vie, la capacité de parler, les compétences, la résistance légendaire, les actions de lair, et Intelligence, Sagesse, et Charisme, ainsi que cette action. Ses statistiques et ses capacités sont autrement remplacées par celles du nouveau formulaire, à l'exception de toutes les caractéristiques de classe ou des actions légendaires de ce formulaire.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 13,
+   "damage": "2d10+8",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 13,
+   "damage": "2d6+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 13,
+   "damage": "2d8+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3e28cbe33d_monstre-stalagma-steelshadow.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +12, SAG +6, CHA +10",
+ "skills": "Arcanes +8, Histoire +8, Perception +11, Discrétion +5",
+ "immunities": "froid",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, stalagma steelshadow peut entreprendre l'une des actions ci-après.\n**Détecter.** Stalagma fait un test de Sagesse (Perception).\n**Attaque de queue.** Stalagma fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** Stalagma bat ses ailes. Chaque créature dans 3 m de Stalagma doit réussir sur un DD 22 jet de sauvegarde de Dextérité ou prendre 15 (2d6 + 8) dégâts contondants et être à terre. Stalagma peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

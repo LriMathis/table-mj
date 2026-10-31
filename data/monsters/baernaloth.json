@@ -1,0 +1,50 @@
+{
+ "id": "baernaloth",
+ "name": "Baernaloth",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 17,
+ "hp": 256,
+ "hpFormula": "27d10+108",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 22,
+  "SAG": 16,
+  "CHA": 21
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 19",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance légendaire (4/jour).** Si le baernaloth échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le baernaloth a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le baernaloth fait une attaque de Bite Anguishing et une attaque de Griffe. Il peut également utiliser Teleport.\n**Bite d'angoisse.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d10 + 4) dégâts perforants plus 10 (3d6) dégâts psychiques. Si la cible est une créature, elle ne peut retrouver points de vie qu'au début du prochain tour du baernaloth.\n**Griffe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants plus 17 (5d6) dégâts nécrotiques.\n**Miasma de discorde (Recharge 5-6).** Le baernaloth exhale des vapeurs grises qui s'assemblent à un point qu'il peut voir à l'intérieur de 36 m lui-même. Les vapeurs remplissent une sphère 6 m -radius centrée sur ce point, puis disparaissent. Chaque créature non-yugoloth dans cette zone doit faire un DD 19 jet de sauvegarde de Sagesse. Lors d'une sauvegarde ratée, la créature prend 35 (10d6) dégâts psychiques et a l'état charmé jusqu'à la fin de son prochain tour. Une créature charmé traite ainsi ses alliés comme des ennemis, et les couleurs de son corps et de son équipement deviennent des nuances de gris. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement.\n**Invoquer Yugoloth (1/jour).** Le baernaloth a une chance de 50 pour cent d'appeler son choix de mezzoloths 1d4, 1 arcanaloth, ou 1 baernaloth (le mezzoloth et l'arcanaloth apparaissent dans le Monster Manual). Un yugoloth convoqué apparaît dans un espace inoccupé au sein de 18 m du baernaloth, agit comme un allié du baernaloth, et ne peut pas convoquer d'autres yugoloths. Il reste 1 minute, jusqu'à ce qu'il ou le baernaloth meurt, ou jusqu'à ce que le baernaloth le rejette comme une action.\n**Téléportation.** Les téléportations baernaloth, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.\n**Détection orthographique.** Le baernaloth lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Détection des pensées, Force fantasmagorique, Suggestion\n- 1/jour chacun : Brume mortelle, Changement de plan (autoseulement), Scrutation (en tant qu'action)",
+ "attacks": [
+  {
+   "name": "Bite d'angoisse",
+   "bonus": 10,
+   "damage": "1d10+4",
+   "type": "perforant + psychique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "2d6+4",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/0fd54bf282_monstre-baernaloth.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, SAG +9",
+ "skills": "Arcanes +12, Perspicacité +9, Perception +9",
+ "resistances": "froid, feu, foudre, nécrotique, psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "reactions": "**Afflict Despair.** Lorsqu'une créature que le baernaloth peut voir dans 18 m de lui-même frappe avec un jet d'attaque ou réussit sur un jet de sauvegarde, le baernaloth force la créature à rerouler le d20 et à utiliser le nouveau résultat.\n**Douleurs inévitables.** Lorsque le baernaloth est endommagé par une autre créature, cette créature doit faire un DD 19 jet de sauvegarde de Constitution, en prenant 14 (4d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

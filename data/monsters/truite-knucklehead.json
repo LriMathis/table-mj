@@ -1,0 +1,44 @@
+{
+ "id": "truite-knucklehead",
+ "name": "Knucklehead Trout",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "0 m, nage 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Respiration d'eau.** La truite ne peut respirer que sous l'eau.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Queue.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ce1422a377_monstre-truite-knucklehead.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Truite Knucklehead"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "augrek-brighthelm",
+ "name": "Augrek Brighthelm",
+ "type": "Humanoïde (Nain du bouclier)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 15,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, nain",
+ "traits": "**Résilience des nains.** Augrek a un avantage sur jet de sauvegarde contre le poison.\n**Information sur le jeu de rôles.** L'adjoint du shérif Augrek garde la porte sud-ouest de Bryn Shander et accueille les visiteurs en ville. Elle a un bon cœur.\nIdéal: \"Tu iras plus loin dans la vie avec un mot gentil qu'une hache.\"\nObligation : \"Bryn Shander est chez moi. C'est mon travail de la protéger.\"\nFaux : \"Je suis amoureux du shérif Southwell. Un jour, j'espère l'épouser.\"",
+ "actionsText": "**Marteau de guerre.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts contondants, ou 7 (1d10 + 2) dégâts contondants si utilisé avec deux mains.\n**Grosse arbalète.** Attaque d'arme à distance : +2 au toucher, portée 30/120 m., une cible. Touché : 5 (1d10) dégâts perforants. Augrek porte dix boulons arbalètes.",
+ "attacks": [
+  {
+   "name": "Marteau de guerre",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "contondant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 2,
+   "damage": "1d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8741d855ec_monstre-augrek-brighthelm.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne, Bouclier",
+ "skills": "Athlétisme +4, Perception +2",
+ "resistances": "poison"
+}

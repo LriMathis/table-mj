@@ -1,0 +1,52 @@
+{
+ "id": "menace-reduite-ettercap",
+ "name": "Reduced-Threat Ettercap",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 15,
+  "CON": 13,
+  "INT": 7,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Escalade des araignées.** L'ettercap peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sens du Web.** Pendant qu'il est en contact avec un web, l'ettercap connaît l'emplacement exact de toute autre créature en contact avec le même web.\n**Web Walker.** L'ettercap ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** L'ettercap fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 6 (1d8 + 2) dégâts perforants plus 4 (1d8) dégâts de poison. La cible doit réussir sur un DD 11 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Griffes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts tranchants.\n**Web (Recharge 5-6).** Attaque d'arme à distance : +4 au toucher, portée 9/18 m., une créature grande ou plus petite. Touché : La créature est entravé par webbing. En action, la créature entravé peut faire un DD 11 test de Force, en s'échappant de la webbing sur un succès. L'effet se termine si la toile est détruite. La sangle a CA 10, 5 points de vie, est vulnérable à dégâts de feu et immunisée contre le bludgeon, le poison et dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Site Web 5",
+   "bonus": 4,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/7242a2db6f_monstre-menace-reduite-ettercap.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Menace réduite ettercap",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3, Discrétion +4, Survie +3"
+}

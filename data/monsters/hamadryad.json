@@ -1,0 +1,38 @@
+{
+ "id": "hamadryad",
+ "name": "Hamadryad",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "sylvestre",
+ "traits": "**Résistance magique.** Le hamadryad a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Parlez avec les bêtes et les plantes.** Le hamadryad peut communiquer avec les Bêtes et les Plantes comme s'ils partageaient une langue.\n**Essence d'arbres.** Une fois à son tour, le hamadryad peut utiliser 3 m de son mouvement pour passer magiquement dans un arbre vivant à sa portée et émerger d'un second arbre vivant à l'intérieur de 18 m du premier arbre, apparaissant dans un espace inoccupé à l'intérieur de 1,50 m du second arbre. Les deux arbres doivent être grands ou plus grands.",
+ "actionsText": "**Multiattaques.** Le hamadryad fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, portée 1,50 m, une cible. Touché : 5 (1d4 + 3) plus 10 (3d6) dégâts de poison.\n**Détection orthographique.** Le hamadryad lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (Spell save DD 12):\n- 1/jour chacun : Peau d'écorce, Liane avide, Passage sans trace\n- 2/jour : Enchevêtrement",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "3d6",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/ea7c5360dc_monstre-hamadryad.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "skills": "Perception +2, Discrétion +6"
+}

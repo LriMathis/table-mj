@@ -1,0 +1,45 @@
+{
+ "id": "dryade",
+ "name": "Dryade",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "skills": "Discrétion +5, Perception +4",
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "elfique, sylvestre",
+ "traits": "**Communication avec les bêtes et les plantes.** La dryade peut communiquer avec les Bêtes et les Plantes comme si elles parlaient la même langue.\n**Résistance à la magie.** La dryade a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** La dryade effectue une attaque de Vrille cinglante ou de Décharge d’épines, et peut recourir à Incantation pour lancer *charme-monstre*.\n**Vrille cinglante.** Corps à corps : +6, allonge 3 m. Touché : 8 (1d8 + 4) dégâts tranchants.\n**Décharge d’épines.** À distance : +6, portée 18 m. Touché : 7 (1d6 + 4) dégâts perforants.\n**Incantation.** La dryade lance l’un des sorts suivants sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 14) :\n- À volonté : *amitié avec les animaux*, *charme-monstre* (dure 24 heures ; se termine prématurément si la dryade relance le sort), *druidisme*\n- 1/jour chacun : *enchevêtrement*, *passage sans trace*",
+ "bonusActions": "**Passage par les arbres.** Si elle est dans un rayon de 1,50 m d’un arbre de taille G ou supérieure, la dryade se téléporte en un espace inoccupé à 1,50 m ou moins d’un autre arbre de taille G ou supérieure, dans un rayon de 18 m du premier.",
+ "attacks": [
+  {
+   "name": "Vrille cinglante",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Décharge d’épines",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6b016eb05c_monstre-dryade.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 117"
+}

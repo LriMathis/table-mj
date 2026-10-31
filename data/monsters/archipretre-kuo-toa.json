@@ -1,0 +1,45 @@
+{
+ "id": "archipretre-kuo-toa",
+ "name": "Archiprêtre kuo-toa",
+ "type": "Humanoïde (kuo-toa)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 13,
+ "caNote": "armure naturelle",
+ "hp": 97,
+ "hpFormula": "13d8+39",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "skills": "Perception +9, Religion +6",
+ "senses": "vision dans le noir 36 m, Perception passive 19",
+ "languages": "commun des profondeurs",
+ "traits": "**Amphibie.** Le kuo-toa peut respirer à l'air libre et sous l'eau.\n**Incantation.** Le kuo-toa est un lanceur de sorts de niveau 10. Sa caractéristique d'incantation est la Sagesse (DD des jets de sauvegarde contre ses sorts 14, +6 pour toucher avec les attaques de sort). Voici les sorts de prêtre qu'il a préparés :\n- Tours de magie (à volonté) : *assistance, flamme sacrée, thaumaturgie*\n- Niveau 1 (4 emplacements) : *bouclier de la foi, détection de la magie, sanctuaire*\n- Niveau 2 (3 emplacements) : *arme spirituelle, immobilisation de personne*\n- Niveau 3 (3 emplacements) : *esprits gardiens, langues*\n- Niveau 4 (3 emplacements) : *contrôle de l'eau, divination*\n- Niveau 5 (2 emplacements) : *scrutation, soin des blessures de groupe*\n**Perception surnaturelle.** Le kuo-toa sent la présence des créatures invisibles ou dans le plan éthéré dans un rayon de 9 mètres autour de lui. Il peut localiser avec précision leur position lorsqu'elles se déplacent.\n**Sensibilité à la lumière du soleil.** Le kuo-toa est désavantagé lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à la lumière du soleil.\n**Glissant.** Le kuo-toa est avantagé lors des tests de caractéristique et des jets de sauvegarde effectués pour échapper à une empoignade.",
+ "actionsText": "**Attaques multiples.** Le kuo-toa effectue deux attaques au corps à corps.\n**Sceptre.** *Attaque d'arme au corps à corps :* +6 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d6+3) dégâts contondants plus 14 (4d6) dégâts de foudre.\n**Attaque à mains nues.** *Attaque d'arme au corps à corps :* +6 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (1d4+3) dégâts contondants.",
+ "portrait": "/data/images/05b3e16329_monstre-archipretre-kuo-toa.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 199 · image : Manuel des monstres p. 198",
+ "attacks": [
+  {
+   "name": "Sceptre",
+   "bonus": 6,
+   "damage": "1d6+3+4d6",
+   "type": "contondant + foudre"
+  },
+  {
+   "name": "Attaque à mains nues",
+   "bonus": 6,
+   "damage": "1d4+3",
+   "type": "contondant"
+  }
+ ]
+}

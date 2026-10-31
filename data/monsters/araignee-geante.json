@@ -2,13 +2,15 @@
  "id": "araignee-geante",
  "name": "Araignée géante",
  "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
  "cr": "1",
  "xp": 200,
  "ca": 14,
  "hp": 26,
  "hpFormula": "4d10+4",
  "vitesse": "9 m, escalade 9 m",
- "size": 2,
  "stats": {
   "FOR": 14,
   "DEX": 16,
@@ -17,21 +19,20 @@
   "SAG": 11,
   "CHA": 4
  },
+ "skills": "Discrétion +7, Perception +4",
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "aucune",
+ "traits": "**Marche dans les toiles.** L’araignée n’est pas soumise aux contraintes de déplacement imposées par les toiles et connaît la position de toute autre créature en contact avec la même toile qu’elle.\n**Pattes d’araignée.** L’araignée peut parcourir les parois les plus difficiles à escalader, y compris les plafonds, sans passer par un test de caractéristique.",
+ "actionsText": "**Morsure.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Toile d’araignée (recharge 5–6).** JS Dextérité : DD 13, une créature que l’araignée voit dans un rayon de 18 m. Échec : la cible subit l’état Entravé jusqu’à ce que la toile soit détruite (CA 10 ; 5 pv ; Vulnérabilité aux dégâts de feu ; Immunité contre les dégâts psychiques et de poison).",
  "attacks": [
   {
    "name": "Morsure",
    "bonus": 5,
-   "damage": "1d8+3",
-   "type": "perforant + 2d8 poison (CON DD 11, moitié)"
-  },
-  {
-   "name": "Toile (5-6)",
-   "bonus": 5,
-   "damage": "",
-   "type": "entravé"
+   "damage": "1d8+3+2d6",
+   "type": "perforant + poison"
   }
  ],
- "traits": "**Pattes d'araignée.** Escalade sans test.\n**Toile.** Recharge 5-6, portée 9/18 m, la cible est entravée (FOR DD 12 pour se libérer).",
- "portrait": "/data/images/d82a74a1a9_monstre-araignee-geante.svg",
- "notes": ""
+ "portrait": "/data/images/ee288be2b8_monstre-araignee-geante.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 319"
 }

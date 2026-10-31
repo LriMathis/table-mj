@@ -1,0 +1,39 @@
+{
+ "id": "jeune-horizonback-tortoise",
+ "name": "Young Horizonback Tortoise",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 68,
+ "hpFormula": "8d12+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Perception passive 11",
+ "languages": "C'est Goblin qui comprend, mais il ne peut pas parler.",
+ "traits": "**Amphibie.** La jeune tortue horizonback peut respirer l'air et l'eau.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 18 (4d6 + 4) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "4d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/70ab121bdc_monstre-jeune-horizonback-tortoise.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Jeune Horizonback Tortoise",
+ "caNote": "armure naturelle"
+}

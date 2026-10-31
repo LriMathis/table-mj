@@ -1,0 +1,47 @@
+{
+ "id": "thessalar-s-homoncule",
+ "name": "Thessalar's Homunculus",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 5,
+ "hpFormula": "2d4",
+ "vitesse": "6 m, vol 12 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Bond télépathique.** Tandis que l'homunculus est sur le même plan d'existence que son maître, il peut par magie transmettre ce qu'il sent à son maître, et les deux peuvent communiquer télépathiquement.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 1 dégâts perforants, et la cible doit réussir sur un DD 10 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Si le jet de sauvegarde échoue par 5 ou plus, la cible est plutôt empoisonné pendant 5 minutes (1d10) et inconscient alors qu'empoisonné de cette façon.\n**Épice acide.** Attaque d'arme à distance : +4 au toucher, portée 9 m, une cible. Touché : 5 (1d6 + 2) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "Épice acide",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/13cd972c8f_monstre-thessalar-s-homoncule.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "aka": "Thessalar's homoncule",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

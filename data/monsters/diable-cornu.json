@@ -1,0 +1,47 @@
+{
+ "id": "diable-cornu",
+ "name": "Diable cornu",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 199,
+ "hpFormula": "19d10+95",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 17,
+  "CON": 21,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "saves": "FOR +10, DEX +7, SAG +7, CHA +8",
+ "resistances": "froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision dans le noir 45 m, Perception passive 13",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**Résistance à la magie.** Le diable a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration diabolique.** Si le diable meurt hors des Neuf Enfers, son corps disparaît dans un nuage de fumée sulfureuse, tandis qu’il en acquiert aussitôt un nouveau et revient à la vie avec tous ses pv quelque part dans les Neuf Enfers.",
+ "actionsText": "**Attaques multiples.** Le diable effectue trois attaques, réparties à sa guise entre Fourche incendiaire et Jet de flammes. Il peut remplacer l’une de ces attaques par une utilisation de Queue infernale.\n**Fourche incendiaire.** Corps à corps : +10, allonge 3 m. Touché : 15 (2d8 + 6) dégâts perforants plus 9 (2d8) dégâts de feu.\n**Jet de flammes.** À distance : +8, portée 45 m. Touché : 26 (5d8 + 4) dégâts de feu. Si la cible est un objet inflammable qui n’est porté par personne, elle s’embrase.\n**Queue infernale.** JS Dextérité : DD 17, une créature que le diable voit dans un rayon de 3 m. Échec : 10 (1d8 + 6) dégâts nécrotiques, et la cible subit une plaie infernale si elle n’en a pas déjà une. Ainsi blessée, la cible perd 10 (3d6) points de vie au début de chacun de ses tours. La plaie se referme au bout de 1 minute, si un sort restitue des points de vie à la cible ou si elle-même ou une créature dans un rayon de 1,50 m d’elle consacre une action à panser la plaie et réussit un test de Sagesse (Médecine) DD 17.",
+ "attacks": [
+  {
+   "name": "Fourche incendiaire",
+   "bonus": 10,
+   "damage": "2d8+6+2d8",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Jet de flammes",
+   "bonus": 8,
+   "damage": "5d8+4",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/e57a097599_monstre-diable-cornu.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 67"
+}

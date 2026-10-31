@@ -1,0 +1,41 @@
+{
+ "id": "menace-reduite-pouding-noir",
+ "name": "Reduced-Threat Black Pudding",
+ "type": "Vase",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 7,
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 5,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "**Amorphe.** Le pudding peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Forme corrosive.** Une créature qui touche le pudding ou le frappe avec une attaque de melee alors que dans 1,50 m il prend 4 (1d8) dégâts d'acide. Toute arme non magique faite de métal ou de bois qui frappe le pudding corrodes. Après avoir causé des dégâts, l'arme prend une pénalité permanente et cumulative de −1 à jets de dégâts. Si sa peine tombe à −5, l'arme est détruite. Les munitions non magiques en métal ou en bois qui frappent le pudding sont détruites après avoir causé des dégâts. Le pudding peut manger à travers 2 pouces-épaisseur, bois non magique ou en métal en 1 rond.\n**Escalade des araignées.** Le pudding peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Pseudopod.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants plus 18 (4d8) dégâts d'acide. De plus, l'armure non magique portée par la cible est partiellement dissoute et prend une pénalité permanente et cumulative de −1 pour le CA qu'elle offre. L'armure est détruite si la pénalité réduit son CA à 10.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/0cb072042b_monstre-menace-reduite-pouding-noir.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Menace réduite pouding noir",
+ "immunities": "acide, froid, foudre, tranchant",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, à terre",
+ "reactions": "**Séparer.** Lorsqu'un pudding qui est moyen ou plus est soumis à la foudre ou dégâts tranchants, il se divise en deux nouveaux puddings s'il a au moins 10 points de vie. Chaque nouveau pudding a points de vie égal à la moitié du pudding original, arrondi vers le bas. Les nouveaux puddings sont d'une taille plus petite que le pudding original."
+}

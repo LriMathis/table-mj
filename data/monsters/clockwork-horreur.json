@@ -1,0 +1,55 @@
+{
+ "id": "clockwork-horreur",
+ "name": "Clockwork Horror",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 18,
+ "hp": 60,
+ "hpFormula": "8d6+32",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "Thri-kreen, Ziklight",
+ "traits": "**Arrêt.** Si elle est ciblée par Dissipation de la magie, l'horreur doit réussir sur un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur ou tomber inconscient pendant 1 minute ou jusqu'à ce qu'il prenne des dégâts.\n**Nature inhabituelle.** L'horreur n'exige ni air, ni nourriture, ni boisson, ni sommeil.",
+ "actionsText": "**Multiattaques.** L'horreur fait une attaque Bite et deux attaques de scie tournante, ou elle fait deux attaques foudre Jolt.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.\n**Scie tournante.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.\n**foudre Jolt.** Attaque de sort à distance : +4 au toucher, portée 36 m, une cible. Touché : 7 (1d10 + 2) dégâts de foudre.\n**Interface Helm Spelljamming.** L'horreur s'attache à une barre enchevêtrée qu'elle peut voir en 1,50 m et s'accroche instantanément à la barre. Si une autre créature est déjà attachée à la barre, l'attitude de cette créature à la barre prend fin lorsque l'attitude de l'horreur commence. L'horreur peut diriger la barre même si ce n'est pas un sorcier. L'horreur peut se détacher de la barre en action bonus, qui finit par s'accrocher à la barre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Scie tournante",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "foudre Jolt",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/5ea5f34830_monstre-clockwork-horreur.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 1: Spelljammer Creatures (5e.tools, traduction automatique)",
+ "aka": "Clockwork horreur",
+ "caNote": "armure naturelle",
+ "saves": "FOR +4, SAG +4",
+ "skills": "Perception +6",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

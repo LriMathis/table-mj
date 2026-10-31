@@ -1,0 +1,43 @@
+{
+ "id": "gideon-lightward",
+ "name": "Gideon Lightward",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 11,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 18,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun",
+ "traits": "**Régénération.** Gideon retrouve 10 points de vie au début de chacun de ses tours. S'il prend dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Gideon n'est détruit que s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Gédéon attaque deux fois avec ses poings.\n**Fist.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.\n**Gaz de dépérissement.** Gideon cible une créature qu'il peut voir dans 18 m de lui. La cible doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 22 (4d10) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ae69eb3bf5_monstre-gideon-lightward.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "saves": "DEX +4, CON +7, SAG +7",
+ "skills": "Perspicacité +7, Religion +6",
+ "vulnerabilities": "radiant",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, paralysé, empoisonné"
+}

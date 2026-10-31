@@ -1,0 +1,40 @@
+{
+ "id": "jeune-dragon-de-bronze",
+ "name": "Jeune dragon de bronze",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal bon",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 142,
+ "hpFormula": "15d10+60",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 10,
+  "CON": 19,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "saves": "DEX +3, SAG +4",
+ "skills": "Discrétion +3, Intuition +4, Perception +7",
+ "immunities": "foudre",
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 17",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer sous l’eau comme à l’air libre.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée. Il peut remplacer l’une de ces attaques par une utilisation de Souffle répulsif.\n**Saignée.** Corps à corps : +8, allonge 3 m. Touché : 16 (2d10 + 5) dégâts tranchants.\n**Souffle de foudre (recharge 5–6).** JS Dextérité : DD 15, chaque créature dans une Ligne de 18 m de long sur 1,50 m de large. Échec : 49 (9d10) dégâts de foudre. Réussite : demi-dégâts.\n**Souffle répulsif.** JS Force : DD 15, chaque créature dans un Cône de 9 m. Échec : la cible est repoussée du dragon sur 12 m en ligne droite et subit l’état À terre.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/343ab2d928_monstre-jeune-dragon-de-bronze.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 105"
+}

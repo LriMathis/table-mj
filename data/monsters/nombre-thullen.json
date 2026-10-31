@@ -1,0 +1,47 @@
+{
+ "id": "nombre-thullen",
+ "name": "Count Thullen",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 14,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun, draconique, druidique, géant",
+ "traits": "**Sensation de Keen.** Thullen a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Découpe intérieure.** caractéristique d'incantation innée de Thullen est Charisme. Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Nappe de brouillard, Lumière\n- 1/jour chacun : Contrôle du climat, Forme gazeuse\n- 3/jour chacun : Feuille morte, Vol, Foulée brumeuse, Télékinésie\n**Détection orthographique.** Thullen est un épeautre de niveau 9. Son caractéristique d'incantation est Sagesse (save spell DD 15, +7 au toucher avec attaques de sort). Il a préparé les sorts druides suivants:\n- Sorts mineurs (à volonté) : Druidisme, Réparation, Flammes\n- Niveau 1 (4 emplacements) : Soins, Enchevêtrement, Vague tonnante\n- Niveau 2 (3 emplacements) : Messager animal, Peau d'écorce, Bourrasque\n- Niveau 3 (3 emplacements) : Appel de la foudre, Invocation d'animaux, Communication avec les plantes\n- Niveau 4 (3 emplacements) : Liberté de mouvement, Liane avide\n- Niveau 5 (1 emplacements) : Invocation d'élémentaire",
+ "actionsText": "**Multiattaques.** Thullen fait deux attaques d'étoiles du matin.\n**Matinée.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts perforants.\n**Roche.** Attaque d'arme à distance : +12 au toucher, portée 18/72 m., une cible. Touché : 30 (4d10 + 8) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 12,
+   "damage": "3d8+8",
+   "type": "perforant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 12,
+   "damage": "4d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/197f5463d7_monstre-nombre-thullen.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Nombre Thullen",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, SAG +7, CHA +7",
+ "skills": "Perspicacité +7, Perception +7"
+}

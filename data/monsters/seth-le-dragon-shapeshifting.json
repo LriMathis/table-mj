@@ -1,0 +1,50 @@
+{
+ "id": "seth-le-dragon-shapeshifting",
+ "name": "Seth the Shapeshifting Dragon",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 153,
+ "hpFormula": "18d8+72",
+ "vitesse": "15 m, nage 15 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 25,
+  "CON": 19,
+  "INT": 13,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 16",
+ "languages": "aquatique, commun, draconique",
+ "traits": "**Amphibie.** Seth peut respirer l'air et l'eau.\n**invisible dans l'eau.** Seth a l'état invisible tout en étant complètement immergé dans l'eau.",
+ "actionsText": "**Multiattaques.** Seth fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 10 (1d6 + 7) dégâts perforants plus 9 (2d8) dégâts de froid.\n**Griffe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d6 + 7) dégâts tranchants.\n**Riptide Respiration (Recharge 5-6).** Seth exhale un torrent d'eau frigide dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la créature prend 36 (8d8) dégâts de froid et a l'état neutralisé jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "1d6+7",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 11,
+   "damage": "2d6+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8b15e0c684_monstre-seth-le-dragon-shapeshifting.webp",
+ "notes": "",
+ "source": "MisMV1 (5e.tools, traduction automatique)",
+ "aka": "Seth le dragon Shapeshifting",
+ "saves": "FOR +7, DEX +11, CON +8",
+ "skills": "Perception +6, Discrétion +11",
+ "resistances": "froid, feu",
+ "immunities": "poison",
+ "conditionImmunities": "agrippé, empoisonné, entravé",
+ "bonusActions": "**Modifier la forme.** Seth se transforme magiquement en un petit humanoïde ou une bête minuscule ou petite, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si Seth est réduit à 0 points de vie ou utilise un autre action bonus pour y mettre fin.\n**Supervitesse (2/jour).** La vitesse de Seth est doublée tant qu'il maintient concentration (comme si concentrating sur un sort). Alors que sa vitesse est ainsi augmentée, tous les jets d'attaque contre lui sont désavantagés, et il devient partiellement incorporel, lui permettant de se déplacer à travers des créatures et des objets comme s'ils étaient terrain difficile. Seth prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet."
+}

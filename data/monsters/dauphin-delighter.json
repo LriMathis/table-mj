@@ -1,0 +1,42 @@
+{
+ "id": "dauphin-delighter",
+ "name": "Dolphin Delighter",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "0 m, nage 18 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 13,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 13",
+ "languages": "aquatique, télépathie 36 m",
+ "traits": "**Maintenez votre souffle.** Le dauphin peut retenir son souffle pendant 20 minutes.",
+ "actionsText": "**Multiattaques.** Le dauphin fait deux attaques Dazzling.\n**C'est un clam éblouissant..** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants plus 7 (2d6) dégâts psychiques, et la cible est aveuglé jusqu'au début du prochain tour du dauphin.",
+ "attacks": [
+  {
+   "name": "C'est un clam éblouissant.",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/041547a1f7_monstre-dauphin-delighter.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Dauphin Delighter",
+ "caNote": "armure naturelle",
+ "saves": "SAG +3, CHA +5",
+ "skills": "Perception +3, Représentation +5",
+ "bonusActions": "**La lumière délicieuse (Recharge 5-6).** Le dauphin émane magiquement de la lumière dans un rayon de 3 m pendant un instant. Le dauphin et chaque créature de son choix dans cette lumière gagnent 11 (2d10) points de vie temporaires.\n**Feuille de fée.** Le dauphin téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir. Immédiatement avant la téléportation, le dauphin peut choisir une créature dans 1,50 m. Cette créature peut se téléporter avec le dauphin, apparaissant dans un espace inoccupé au sein de 1,50 m de l'espace de destination du dauphin."
+}

@@ -1,0 +1,44 @@
+{
+ "id": "raezil",
+ "name": "Raezil",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun, elfique",
+ "traits": "**Action énergique.** À chacun de ses tours, Raezil peut utiliser un action bonus pour prendre l'action Foncer, Se désengager ou Se cacher.\n**Ancêtre fécale.** Raezil a l'avantage sur jet de sauvegarde contre charmé et la magie ne peut pas la mettre au lit.\n**Attaque d'éternuement (1/Turn).** Raezil inflige un dégâts supplémentaire de 7 (2d6) lorsqu'elle frappe une cible avec une attaque d'arme et a un avantage sur la jet d'attaque, ou lorsque la cible est dans la 1,50 m d'un de ses alliés qui n'est pas neutralisé et Raezil n'a pas d'inconvénient sur la jet d'attaque.",
+ "actionsText": "**Multiattaques.** Raezil fait deux attaques à la mêlée.\n**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Acrobatie des mains.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e971898017_monstre-raezil.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Perspicacité +4, Investigation +5, Perception +6, Persuasion +5, Escamotage +4, Discrétion +4"
+}

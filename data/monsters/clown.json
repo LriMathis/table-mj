@@ -1,0 +1,39 @@
+{
+ "id": "clown",
+ "name": "Clown",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 13,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Club coloré.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Club coloré",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5a5dbd963f_monstre-clown.webp",
+ "notes": "",
+ "source": "NERDS Restoring Harmony: Circus of Illusion (5e.tools, traduction automatique)",
+ "caNote": "chemise gonflée",
+ "skills": "Perception +2"
+}

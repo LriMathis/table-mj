@@ -1,0 +1,47 @@
+{
+ "id": "geant-zombi-serpent-constricteur",
+ "name": "Giant Zombie Constrictor Snake",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 187,
+ "hpFormula": "22d12+44",
+ "vitesse": "9 m, escalade 6 m, nage 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 1,
+  "SAG": 15,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 4,50 m, Vision dans le noir 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**Vulnérabilité à la lumière du soleil.** En plein soleil, le serpent a un désavantage sur jets d'attaque et sur tests de Sagesse (Perception) qui dépendent de la vue. Lorsque le serpent commence son tour dans la lumière du soleil, il souffre immédiatement 10 dégâts radiants.\n**Fortitude non-morte.** Si les dégâts réduisent le serpent à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + les dégâts pris, à moins que les dégâts soient rayonnants ou d'un coup critique. Sur un succès, le serpent tombe à 1 points de vie.",
+ "actionsText": "**Multiattaques.** Le serpent fait deux attaques : l'une avec sa morsure et l'autre avec une attaque constrictive.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 17 (3d8 + 4) dégâts perforants, et la cible doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 17 (5d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Constriction.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 17 (3d8 + 4) dégâts contondants, et la cible est agrippé (évasion DD 16). Jusqu'à ce que ce grappin se termine, la créature est entravé et le serpent ne peut pas constricter une autre cible.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "3d8+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 7,
+   "damage": "3d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/787cadcbb8_monstre-geant-zombi-serpent-constricteur.webp",
+ "notes": "",
+ "source": "Adventures in the Forgotten Realms: Deepest Night (5e.tools, traduction automatique)",
+ "aka": "Géant zombi serpent constricteur",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5, Discrétion +6",
+ "vulnerabilities": "poison"
+}

@@ -2,13 +2,15 @@
  "id": "spectre",
  "name": "Spectre",
  "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
  "cr": "1",
  "xp": 200,
  "ca": 12,
  "hp": 22,
  "hpFormula": "5d8",
- "vitesse": "0 m, vol 15 m",
- "size": 1,
+ "vitesse": "9 m, vol 15 m (vol stationnaire)",
  "stats": {
   "FOR": 1,
   "DEX": 14,
@@ -17,15 +19,22 @@
   "SAG": 10,
   "CHA": 11
  },
+ "resistances": "acide, contondants, feu, foudre, froid, perforants, tonnerre, tranchants",
+ "immunities": "nécrotiques, poison",
+ "conditionImmunities": "à terre, agrippé, charmé, empoisonné, entravé, épuisement, inconscient, paralysé, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend le commun et une autre langue mais ne peut pas parler",
+ "traits": "**Déplacement intangible.** Le spectre peut traverser d’autres créatures et objets comme s’il s’agissait d’un Terrain difficile. Il subit 5 (1d10) dégâts de force s’il termine son tour à l’intérieur d’un objet.\n**Sensibilité au soleil.** Tant qu’il est exposé à la lumière du soleil, le spectre subit le Désavantage aux tests de caractéristique et aux jets d’attaque.",
+ "actionsText": "**Absorption de vie.** Corps à corps : +4, allonge 1,50 m. Touché : 7 (2d6) dégâts nécrotiques. Si la cible est une créature, son maximum de points de vie est réduit d’un montant égal aux dégâts subis.",
  "attacks": [
   {
-   "name": "Drain de vie",
+   "name": "Absorption de vie",
    "bonus": 4,
-   "damage": "3d6",
+   "damage": "2d6",
    "type": "nécrotique"
   }
  ],
- "traits": "**Drain de vie.** CON DD 10 ou PV max réduits du montant des dégâts jusqu'au prochain repos long.\n**Mouvement incorporel.** Traverse murs et créatures.\n**Âmes volées.** Ce sont des âmes prisonnières de la Lanterne Noire : la *Lanterne des Veilleurs* de Vex peut les libérer (voir le chapitre 10).\n**Sensibilité au soleil.**",
- "portrait": "/data/images/4e38bba2f1_monstre-spectre.svg",
- "notes": "Campagne : La Lanterne Noire"
+ "portrait": "/data/images/aa22417065_monstre-spectre.jpg",
+ "notes": "Campagne : La Lanterne Noire\nÂmes volées : ce sont des âmes prisonnières de la Lanterne Noire ; la *Lanterne des Veilleurs* de Vex peut les libérer (voir le chapitre 10).",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 270"
 }

@@ -1,0 +1,38 @@
+{
+ "id": "mantrap",
+ "name": "Mantrap",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 45,
+ "hpFormula": "7d10+7",
+ "vitesse": "1,50 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 2
+ },
+ "senses": "Perception des vibrations 9 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Pollen attrayant (1/jour).** Lorsque le mantrap détecte des créatures à proximité, il peut utiliser sa réaction pour libérer du pollen dans un rayon de 9 m. Toute bête ou humanoïde dans la zone doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou être forcé d'utiliser tout son mouvement sur ses tours pour se rapprocher le plus possible du mantrap. Une cible affectée peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Fausse apparence.** Bien que le manteau demeure immobile, il est indistinct d'une plante tropicale ordinaire.",
+ "actionsText": "**Engloutissement.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature moyenne ou plus petite. Touché : La cible est piégée à l'intérieur des mâchoires foliaires du mantrap. Alors qu'elle est piégée de cette façon, la cible est aveuglé et entravé, a 3 d'une attaque et d'autres effets en dehors du mantrap, et prend 14 (4d6) dégâts d'acide au début de chaque tour de la cible. Si le mantrap meurt, la créature à l'intérieur n'est plus entravé par elle. Un mantrap ne peut engloutir qu'une créature à la fois.",
+ "attacks": [
+  {
+   "name": "Engloutissement",
+   "bonus": 4,
+   "damage": "4d6",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/e4df0cfd07_monstre-mantrap.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "conditionImmunities": "aveuglé, assourdi, épuisement, à terre"
+}

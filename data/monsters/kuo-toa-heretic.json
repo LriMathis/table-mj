@@ -1,0 +1,45 @@
+{
+ "id": "kuo-toa-heretic",
+ "name": "Kuo-toa Heretic",
+ "type": "Humanoïde (kuo-toa)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "commun des profondeurs",
+ "traits": "**Amphibie.** Le kuo-toa peut respirer l'air et l'eau.\n**Perception d'autres mondes.** Le kuo-toa peut sentir la présence de n'importe quelle créature dans 9 m qui est invisible ou sur le plan éthéré. Il peut identifier une telle créature qui bouge.\n**Slipperie.** Le kuo-toa a l'avantage sur tests de caractéristique et jet de sauvegarde fait pour échapper à un grappin.\n**Sensibilité à la lumière du soleil.** En plein soleil, le kuo-toa a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Défense non armée.** Le kuo-toa ajoute son modificateur Sagesse à son classe d'armure.",
+ "actionsText": "**Multiattaques.** Le kuo-toa fait une attaque de morsure et deux frappes à mains nues.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) perçage ou dégâts radiants.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) bludoning ou dégâts radiants plus 3 (1d6) dégâts de foudre, et la cible ne peut pas prendre de réactions avant la fin du prochain tour du kuo-toa.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "frappe à mains nues",
+   "bonus": 6,
+   "damage": "1d6",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/15e49e69e9_monstre-kuo-toa-heretic.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle, Défense non armée",
+ "skills": "Perception +6, Religion +5"
+}

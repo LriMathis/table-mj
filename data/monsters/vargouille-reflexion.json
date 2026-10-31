@@ -1,0 +1,41 @@
+{
+ "id": "vargouille-reflexion",
+ "name": "Vargouille Reflection",
+ "type": "Fiélon",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d4+10",
+ "vitesse": "1,50 m, vol 12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 2
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend Abyssal, infernal, et toutes les langues qu'il connaissait avant de devenir une vargouille, Mais ça ne peut pas parler",
+ "traits": "**Résistance magique.** La vargouille a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants plus 10 (3d6) dégâts psychiques.\n**Malédiction abdominale.** La vargouille cible un humanoïde en 1,50 m de lui-même qui a l'état neutralisé. La cible doit réussir sur un DD 12 jet de sauvegarde de Charisme ou devenir maudite. Le Charisme de la cible maudite diminue de 1 après chaque heure, car sa tête prend des aspects fous, et son Charisme ne peut pas augmenter. La malédiction n'avance pas alors que la cible est en plein soleil ou dans la zone d'un sort Lumière du jour. Lorsque le Charisme de la cible maudite devient 2, la cible meurt, et sa tête déchire de son corps et devient une nouvelle réflexion de vargouille. La fonte supprime la malédiction, une restauration plus importante ou un sort similaire sur la cible avant que la transformation ne soit terminée la malédiction et restaure la Charisme de la cible.\n**Réflexion horrible (Recharge 5-6).** La tête de la vargouille imite celle d'un Humanoïde que la vargouille peut voir en elle-même en 36 m. La cible doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou prendre 10 (3d6) dégâts psychiques et avoir l'état effrayé pendant 1 heure ou jusqu'à ce que la vargouille perde concentration (comme si concentrating sur un sort). Si le jet de sauvegarde de la cible est réussi ou si l'effet se termine sur elle, la cible est immunisée contre la Réflexion Horrifice de toutes les réflexions de vargouille pendant 1 heure.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/7c39083f67_monstre-vargouille-reflexion.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Vargouille réflexion",
+ "resistances": "froid, feu, foudre, psychique",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

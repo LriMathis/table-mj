@@ -1,0 +1,49 @@
+{
+ "id": "galazeth-prismari",
+ "name": "Galazeth Prismari",
+ "type": "Dragon (ensorceleur)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique neutre",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 21,
+ "hp": 402,
+ "hpFormula": "23d20+161",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 14,
+  "CON": 25,
+  "INT": 18,
+  "SAG": 20,
+  "CHA": 26
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 22",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (3/jour).** Si Galazeth échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Galazeth fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +15 au toucher, allonge 4,50 m, une cible. Touché : 13 (1d10 + 8) dégâts perforants plus 5 (1d10) dégâts de foudre.\n**Griffe.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 11 (1d6 + 8) dégâts tranchants. Si la cible est une créature grande ou plus petite, c'est à terre.\n**Éléments de danse Respiration (Recharge 5-6).** Galazeth expire une explosion de flammes et de glace dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 22 jet de sauvegarde de Dextérité, ne gagnant aucun bénéfice de couverture (autre que 3) et prenant 38 (7d10) dégâts de feu et 38 (7d10) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Galazeth lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 23) :\n- 1/jour chacun : Contrôle de l'eau, Bourrasque, Mur de pierre",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 15,
+   "damage": "1d10+8",
+   "type": "perforant + foudre"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 15,
+   "damage": "1d6+8",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/3947c04feb_monstre-galazeth-prismari.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +14, SAG +12, CHA +15",
+ "skills": "Acrobaties +16, Arcanes +18, Perception +12, Représentation +22",
+ "resistances": "foudre",
+ "immunities": "froid, feu",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, galazeth prismari peut entreprendre l'une des actions ci-après.\n**Griffe.** Galazeth fait une attaque de griffe.\n**Flash foudre (coûts 2 actions).** Galazeth se déplace jusqu'à la moitié de sa vitesse de vol sans provoquer d'attaques d'opportunités. Lorsqu'il passe dans 4,50 m d'une créature pendant ce mouvement, cette créature doit réussir sur un DD 22 jet de sauvegarde de Dextérité ou prendre 11 (2d10) dégâts de foudre. Une créature ne peut pas prendre plus d'une fois ce dégâts pendant le déplacement.\n**Création en flux (coûts 3 actions).** Galazeth invoque magiquement des mascottes élémentaires 1d4 dans des espaces inoccupés qu'il peut voir en lui-même. Les éléments d'art obéissent à ses ordres et prennent leur tour immédiatement après les siens. Toute créature, autre qu'un élément d'art, prend 5 (1d10) froid, feu, ou dégâts de foudre (le choix de Galazeth) si elle termine son tour dans 1,50 m d'un ou plusieurs de ces éléments. Lorsque l'un de ces éléments tombe à 0 points de vie, Galazeth peut voler jusqu'à 6 m sans provoquer d'attaques d'opportunité. Ces éléments disparaissent après 10 minutes, quand Galazeth meurt, ou quand il recourt à cette action."
+}

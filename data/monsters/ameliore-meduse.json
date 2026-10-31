@@ -1,0 +1,52 @@
+{
+ "id": "ameliore-meduse",
+ "name": "Enhanced Medusa",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 127,
+ "hpFormula": "17d8+51",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 14",
+ "languages": "commun",
+ "traits": "**Gaz pétrifiant.** Lorsqu'une créature qui peut voir les yeux de la médusa commence son tour à l'intérieur de 9 m de la médusa, la médusa peut la forcer à faire un DD 14 jet de sauvegarde de Constitution si la médusa n'est pas neutralisé et peut voir la créature. Si le jet de sauvegarde échoue par 5 ou plus, la créature est instantanément pétrifié. Sinon, une créature qui échoue au sauvetage commence à se tourner vers le métal, le bois ou la porcelaine (le choix de la médusa) et est entravé. La créature entravé doit répéter la jet de sauvegarde à la fin de son prochain tour, devenant pétrifié sur un échec ou mettant fin à l'effet sur un succès. La pétrification dure jusqu'à ce que la créature soit libérée par le sort Restauration supérieure ou toute autre magie.\nSauf si surpris, une créature peut ouvrir les yeux pour éviter le jet de sauvegarde au début de son tour. Si la créature le fait, elle ne peut voir la médusa qu'au début de son prochain tour, quand elle peut à nouveau détourner ses yeux. Si la créature regarde la médusa en attendant, elle doit immédiatement faire le sauvetage.\nSi la médusa se voit réfléchie sur une surface polie à l'intérieur de 9 m et dans une zone de lumière vive, la médusa est, en raison de sa malédiction, affectée par son propre regard.\n**Découpe intérieure.** Le caractéristique d'incantation inné de la médusa est Charisme (spell save DD 13). La médusa peut innéement lancer les sorts suivants, ne nécessitant pas de composants matériels:\n- Sorts mineurs (à volonté) : Lumière",
+ "actionsText": "**Multiattaques.** La médusa fait soit trois attaques à la mêlée – une avec ses cheveux de serpent et deux avec son mot court – soit deux attaques à portée de main avec sa longbow.\n**Poil de serpent.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d4 + 2) dégâts perforants plus 14 (4d6) dégâts de poison.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Longbow.** Attaque d'arme à distance : +5 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants plus 7 (2d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Poil de serpent",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 5,
+   "damage": "1d8+2",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/47646b3e30_monstre-ameliore-meduse.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "aka": "Amélioré méduse",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +5, Perspicacité +4, Perception +4, Discrétion +5"
+}

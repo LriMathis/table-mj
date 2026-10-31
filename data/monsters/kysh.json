@@ -1,0 +1,38 @@
+{
+ "id": "kysh",
+ "name": "Kysh",
+ "type": "Humanoïde (triton)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, primordial",
+ "traits": "**Amphibie.** Kysh peut respirer l'air et l'eau.\n**Émissaire de la mer.** Kysh peut communiquer des idées simples avec des bêtes amphibies et à la respiration de l'eau. Ils comprennent le sens de ses paroles, mais il ne peut pas les comprendre en retour.\n**Découpe intérieure.** Le caractéristique d'incantation de Kysh est Charisme (save spell DD 12, +4 au toucher avec attaques de sort). Il peut lancer le sort suivant, ne nécessitant que des éléments verbaux:\n- 1/jour : Nappe de brouillard",
+ "actionsText": "**Multiattaques.** Kysh fait deux attaques de mêlée avec sa lance.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3e6f5ff4d3_monstre-kysh.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "skills": "Persuasion +4, Survie +3"
+}

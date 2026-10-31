@@ -1,0 +1,40 @@
+{
+ "id": "eyestalk-de-gzemnid",
+ "name": "Eyestalk of Gzemnid",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 247,
+ "hpFormula": "15d20+90",
+ "vitesse": "15 m, creusement 9 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 7,
+  "CON": 22,
+  "INT": 1,
+  "SAG": 8,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 9 m, Perception des vibrations 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Tunneler.** Le paupière peut s'enfoncer dans une roche solide à la moitié de sa vitesse et laisse un tunnel de diamètre 3 m dans son sillage.",
+ "actionsText": "**Multiattaques.** Le paupière attaque avec sa morsure et utilise le Gaz d'éradication.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 22 (3d8 + 9) dégâts perforants. Si la cible est une créature grande ou plus petite, elle doit réussir sur une DD 19 jet de sauvegarde de Dextérité ou être avalée par le cygne. Une créature avalée est aveuglé et entravé, il a 3 contre les attaques et d'autres effets en dehors du cygne, et il prend 21 (6d6) dégâts d'acide au début de chaque tour du cygne.\nSi le paupière prend 30 dégâts ou plus sur un seul tour d'une créature à l'intérieur, le paupière doit réussir sur un DD 21 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m du paupière. Si le paupière meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 6 m de mouvement, sortant d'à terre.\n**Gaz d'éradication (Recharge 5-6).** Le paupière crée une zone de dévastation magique dans un cône 45 m. Toute créature dans cette zone doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 55 (10d10) dégâts nécrotiques. Si ce dégâts réduit une créature à 0 points de vie, son corps devient un tas de poussières violettes fines.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "3d8+9",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/5a91bb28fd_monstre-eyestalk-de-gzemnid.webp",
+ "notes": "",
+ "source": "Turn of Fortune's Wheel (5e.tools, traduction automatique)",
+ "aka": "Eyestalk de Gzemnid",
+ "caNote": "armure naturelle",
+ "saves": "CON +11, SAG +4"
+}

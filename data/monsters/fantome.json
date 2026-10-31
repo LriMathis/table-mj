@@ -2,13 +2,15 @@
  "id": "fantome",
  "name": "Fantôme",
  "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
  "cr": "4",
  "xp": 1100,
  "ca": 11,
  "hp": 45,
  "hpFormula": "10d8",
- "vitesse": "0 m, vol 12 m",
- "size": 1,
+ "vitesse": "1,5 m, vol 12 m (vol stationnaire)",
  "stats": {
   "FOR": 7,
   "DEX": 13,
@@ -17,15 +19,22 @@
   "SAG": 12,
   "CHA": 17
  },
+ "resistances": "acide, contondants, feu, foudre, froid, perforants, tonnerre, tranchants",
+ "immunities": "nécrotiques, poison",
+ "conditionImmunities": "à terre, agrippé, charmé, effrayé, empoisonné, entravé, épuisement, paralysé, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun et une autre langue",
+ "traits": "**Déplacement intangible.** Le fantôme peut traverser d’autres créatures et objets comme s’il s’agissait d’un Terrain difficile. Il subit 5 (1d10) dégâts de force s’il termine son tour à l’intérieur d’un objet.\n**Vision éthérée.** Le fantôme voit sur un rayon de 18 m dans le Plan Éthéré quand il est sur le Plan Matériel.",
+ "actionsText": "**Attaques multiples.** Le fantôme effectue deux attaques de Contact flétrissant.\n**Contact flétrissant.** Corps à corps : +5, allonge 1,50 m. Touché : 19 (3d10 + 3) dégâts nécrotiques.\n**Forme éthérée.** Le fantôme lance le sort *forme éthérée* sans composantes de sort, le Charisme étant sa caractéristique d’incantation. Le fantôme est visible depuis le Plan Matériel tant qu’il se trouve à la Frontière éthérée, et inversement, mais ne peut ni affecter, ni être affecté par quoi que ce soit depuis l’autre plan.\n**Possession (recharge 6).** JS Charisme : DD 13, un Humanoïde que le fantôme voit dans un rayon de 1,50 m. Échec : la cible est possédée par le fantôme ; le fantôme disparaît, la cible subit l’état Neutralisé et perd le contrôle de son corps. Le fantôme prend le contrôle du corps, mais la cible reste consciente. Le fantôme ne peut être ciblé par aucun sort, effet ou attaque, à l’exception de ceux qui ciblent spécifiquement les Morts-vivants. Le profil de jeu du fantôme reste le même, si ce n’est qu’il reprend la Vitesse de la cible, ainsi que ses modificateurs de Force, de Dextérité et de Constitution.\nCette possession persiste jusqu’à ce que le corps tombe à 0 point de vie ou que le fantôme le quitte par une action Bonus. Quand la possession prend fin, le fantôme apparaît en un espace inoccupé dans un rayon de 1,50 m de la cible, et celle-ci est immunisée contre la Possession de ce fantôme pendant 24 heures. Réussite : la cible est immunisée contre la Possession de ce fantôme pendant 24 heures.\n**Visage terrifiant.** JS Sagesse : DD 13, chaque créature dans un Cône de 18 m qui n’est pas un Mort-vivant et voit le fantôme. Échec : 10 (2d6 + 3) dégâts psychiques, et la cible subit l’état Effrayé jusqu’au début du tour suivant du fantôme. Réussite : la cible est immunisée contre le Visage terrifiant de ce fantôme pendant 24 heures.",
  "attacks": [
   {
-   "name": "Toucher flétrissant",
+   "name": "Contact flétrissant",
    "bonus": 5,
-   "damage": "4d6+3",
+   "damage": "3d10+3",
    "type": "nécrotique"
   }
  ],
- "traits": "**Mouvement incorporel.** Traverse créatures et objets.\n**Visage terrifiant.** SAG DD 13 ou effrayé 1 minute ; échec de 5 ou plus = vieillit de 1d4×10 ans.\n**Possession (recharge 6).** CHA DD 13.\n*(Vex est terrifié.)*",
- "portrait": "/data/images/7b7a73f45c_monstre-fantome.svg",
- "notes": ""
+ "portrait": "/data/images/3047ba9e89_monstre-fantome.jpg",
+ "notes": "(Vex est terrifié.)",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 132"
 }

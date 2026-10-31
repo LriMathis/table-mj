@@ -1,0 +1,48 @@
+{
+ "id": "deathlock",
+ "name": "Deathlock",
+ "type": "Mort-vivant (occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 36,
+ "hpFormula": "8d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Résistance au virage.** Le deathlock a un avantage sur jet de sauvegarde contre tout effet qui devient Undead.\n**Nature inhabituelle.** Le cadenas ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le cadenas fait deux attaques à la griffe mortelle ou à la tombe.\n**Griffe mortelle.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts nécrotiques.\n**Grave Bolt.** Attaque de sort à distance : +5 au toucher, portée 36 m, une cible. Touché : 14 (2d10 + 3) dégâts nécrotiques.\n**Détection orthographique.** Le deathlock lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Détection de la magie, Déguisement, Armure de mage, Main de mage\n- 1/jour chacun : Dissipation de la magie, Voracité de Hadar, Invisibilité, Pattes d'araignée",
+ "attacks": [
+  {
+   "name": "Griffe mortelle",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Grave Bolt",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/f78ff32ee9_monstre-deathlock.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "saves": "INT +4, CHA +5",
+ "skills": "Arcanes +4, Histoire +4",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

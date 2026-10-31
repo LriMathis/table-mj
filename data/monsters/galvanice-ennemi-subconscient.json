@@ -1,0 +1,42 @@
+{
+ "id": "galvanice-ennemi-subconscient",
+ "name": "Galvanice Weird",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "3d8+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Burst de mort.** Quand la galvanie meurt, elle explose dans une explosion de glace et de foudre. Chaque créature dans 3 m de l'explosion bizarre doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 7 (2d6) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants plus 5 (2d4) dégâts de foudre. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Constitution ou perdre la capacité d'utiliser des réactions jusqu'au début du prochain tour de l'étrange.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant + foudre"
+  }
+ ],
+ "portrait": "/data/images/e79e1f3938_monstre-galvanice-ennemi-subconscient.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Galvanice ennemi subconscient",
+ "caNote": "armure naturelle",
+ "resistances": "froid, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient"
+}

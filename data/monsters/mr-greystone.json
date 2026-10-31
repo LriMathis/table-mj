@@ -1,0 +1,46 @@
+{
+ "id": "mr-greystone",
+ "name": "Mr. Greystone",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, gobelin",
+ "traits": "**Brave.** Monsieur le Président. Greystone a un avantage sur jet de sauvegarde contre effrayé.\n**Brute.** Une arme à melee inflige une mort supplémentaire de ses dégâts quand M. Greystone frappe avec (inclus dans l'attaque).",
+ "actionsText": "**Multiattaques.** Monsieur le Président. Greystone fait deux attaques de mêlée ou deux attaques de portée.\n**Club.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.\n**Acrobatie des mains.** Attaque d'arme à distance : +5 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a32bd88950_monstre-mr-greystone.webp",
+ "notes": "",
+ "source": "NERDS Restoring Harmony: Adventure Together (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "FOR +7, DEX +5, CON +6",
+ "skills": "Athlétisme +10, Intimidation +5"
+}

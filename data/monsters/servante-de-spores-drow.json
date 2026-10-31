@@ -1,0 +1,40 @@
+{
+ "id": "servante-de-spores-drow",
+ "name": "Drow Spore Servant",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 15,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 2,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a4cc6ff3ff_monstre-servante-de-spores-drow.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Servante de spores drow",
+ "caNote": "Chemise chaîne",
+ "conditionImmunities": "aveuglé, charmé, effrayé, paralysé"
+}

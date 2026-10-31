@@ -1,0 +1,41 @@
+{
+ "id": "thopter-vautour",
+ "name": "Thopter (Vulture)",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 5,
+ "hpFormula": "1d8+1",
+ "vitesse": "3 m, vol 15 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 4
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**La vue et l'odeur de Keen.** Le thoptère a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue ou de l'odeur.\n**Tactiques de conditionnement.** Le thoptère a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du thoptère se trouve à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Bec.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ddd1ff4629_monstre-thopter-vautour.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "aka": "Thopter ( vautour )",
+ "skills": "Perception +3",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

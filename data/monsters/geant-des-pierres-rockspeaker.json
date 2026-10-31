@@ -1,0 +1,41 @@
+{
+ "id": "geant-des-pierres-rockspeaker",
+ "name": "Stone Giant Rockspeaker",
+ "type": "Géant (magicien)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "tout alignement",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 19,
+ "hp": 276,
+ "hpFormula": "24d12+120",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 19,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "commun, géant, terreux",
+ "traits": "**Résistance légendaire (3/jour).** Si le géant échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Rune en pierre.** Le géant a une rune de pierre inscrite sur un objet minéral en sa possession. Tout en tenant ou en portant l'objet portant la rune, le géant peut utiliser son action de Rayons Prismatiques.\nL'objet portant la rune a CA 18; 30 points de vie ; et l'immunité à la nécrose, poison, et dégâts psychiques. L'objet retrouve tout son points de vie à la fin de chaque tour, mais il se transforme en poussière si réduit à 0 points de vie ou quand le géant meurt. Si la rune est détruite, le géant peut inscrire une rune de pierre sur un objet en sa possession lorsqu'il termine un repos court ou long.",
+ "actionsText": "**Multiattaques.** Le géant fait trois attaques du Prism Staff.\n**Personnel de prisme.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 16 (3d6 + 6) dégâts contondants plus 13 (3d8) dégâts radiants.\n**Exploser la géode.** Le géant lance une géode à un point en 18 m de lui-même, et la géode explose dans un éclair éblouissant. Chaque créature dans une sphère 6 m -radius centrée sur ce point doit faire un DD 17 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 13 (3d8) dégâts perforants plus 13 (3d8) dégâts radiants et a l'état aveuglé jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement. Après que le géant lance la géode, rouler un d6 ; sur un rouleau de 4 ou moins, le géant n'a plus de géodes à lancer.\n**Rayons Prismatiques (exige une rune en pierre).** La rune de pierre du géant émet des faisceaux de lumière qui forment un cône 18 m. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Dextérité. Pour chaque créature dans cette zone, roulez un d6 pour déterminer le rayon qui l'affecte :\n**1-2: Rouge en feu.** Lors d'une sauvegarde ratée, la créature prend 35 (10d6) dégâts radiants et a l'état aveuglé jusqu'à la fin du prochain tour du géant. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement.\n**3-4: Bleu terrible.** Lors d'une sauvegarde ratée, la créature prend 35 (10d6) dégâts nécrotiques et a l'état effrayé jusqu'à la fin du prochain tour du géant. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement.\n**5-6: Vert de copeaux.** Lors d'une sauvegarde ratée, la créature prend 35 (10d6) dégâts de force et a l'état neutralisé jusqu'à la fin du prochain tour du géant. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Personnel de prisme",
+   "bonus": 11,
+   "damage": "3d6+6",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/f77fa89af6_monstre-geant-des-pierres-rockspeaker.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant des pierres Rockspeaker",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +10, INT +9, SAG +7",
+ "skills": "Athlétisme +16, Histoire +9, Perception +7"
+}

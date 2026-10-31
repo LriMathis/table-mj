@@ -1,0 +1,42 @@
+{
+ "id": "ramius",
+ "name": "Ramius",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 22,
+ "hp": 190,
+ "hpFormula": "20d8+100",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Perception passive 12",
+ "languages": "abyssal, céleste, commun, infernal",
+ "traits": "**Aura de protection.** Ramius et tout allié qui commence leur tour dans 9 m de lui ont un bonus de +4 à tous les jet de sauvegarde et la résistance aux dégâts non magiques.",
+ "actionsText": "**Multiattaques.** Ramius fait deux attaques de Longsword.\n**Mot long.** Attaque d'arme au corps à corps : +11 au toucher, atteindre 5 pieds, une cible. Touché : 10 (1d8 + 6) dégâts tranchants ou 11 (1d10 + 6) s'ils sont maniés en deux mains, plus 13 (3d8) dégâts radiants. Si la cible est une créature maléfique, elle doit réussir sur un DD 17 jet de sauvegarde de Charisme ou prendre un 13 (3d8) dégâts radiants supplémentaire.\n**Vague divine (Recharge 6).** Ramius frappe le sol et fait rayonner l'énergie sainte vers l'extérieur. Chaque créature de son choix au sein de 9 m de lui doit faire un DD 17 jet de sauvegarde de Constitution. Les cibles prennent 21 (6d6) dégâts de tonnerre plus 21 (6d6) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Les créatures qui échouent le save sont abattues (ont l'état à terre).\n**Détection orthographique.** Ramius lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- 1/jour chacun : Aura de pureté, Duel forcé, Aura du croisé, Protection contre la mort, Dissipation du mal et du bien, Appel de destrier, Restauration partielle, Délivrance des malédictions, Retour à la vie, Bouclier de la foi",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 11,
+   "damage": "1d8+6",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/d7aca0c0ae_monstre-ramius.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "plaque, +2 bouclier",
+ "saves": "SAG +7, CHA +9",
+ "skills": "Dressage +12, Athlétisme +11, Perspicacité +7, Religion +10",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques, dégâts causés par des sorts",
+ "reactions": "**Touche de guérison.** En réaction à Ramius ou à une créature adjacente prenant 50 points ou plus de dégâts, Ramius s'étend et canalise l'énergie divine, guérissant 13 (2d8 + 4) points de vie."
+}

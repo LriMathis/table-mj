@@ -1,0 +1,47 @@
+{
+ "id": "gnoll-chair-gnawer",
+ "name": "Gnoll Flesh Gnawer",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "gnoll",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le gnoll fait une attaque Bite et deux attaques Shortsword.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Une ruée soudaine.** Jusqu'à la fin du tour, la vitesse du gnoll augmente de 18 m et ne provoque pas d'opportunity attacks.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/41ca809500_monstre-gnoll-chair-gnawer.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Gnoll chair Gnawer",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +4",
+ "bonusActions": "**Rampage.** Après que le gnoll réduit une créature à 0 points de vie avec une attaque à la mêlée sur son tour, le gnoll se déplace jusqu'à la moitié de sa vitesse et fait une attaque Bite."
+}

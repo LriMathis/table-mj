@@ -1,0 +1,40 @@
+{
+ "id": "shanzezim",
+ "name": "Shanzezim",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 229,
+ "hpFormula": "17d10+136",
+ "vitesse": "9 m, vol 18 m, nage 27 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 12,
+  "CON": 26,
+  "INT": 18,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 13",
+ "languages": "aquatique",
+ "traits": "**Amphibie.** Shanzim peut respirer l'air et l'eau.\n**Suppression élémentaire.** Si Shanzezim meurt, son corps se désintègre dans une explosion d'eau et de mousse, laissant derrière lui seulement l'équipement que Shanzezim portait ou transportait.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Shanzim est Charisme (save spell DD 16, +8 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Création ou destruction d'eau, Détection du mal et du bien, Détection de la magie, Nappe de brouillard, Purification de nourriture et d'eau\n- 1/jour chacun : Invocation d'élémentaire (Élémentaire de l'eau seulement), Contrôle de l'eau, Forme gazeuse, Invisibilité, Changement de plan\n- 3/jour chacun : Don des langues, Respiration aquatique, Marche sur l'eau",
+ "actionsText": "**Multiattaques.** Shanzim fait deux attaques tridentes.\n**Trident.** Attaque d'arme au corps à corps ou à distance : +10 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 13 (2d6 + 6) dégâts perforants, ou 15 (2d8 + 6) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.\n**Jet d'eau.** Shanzim tire magiquement de l'eau dans une ligne 18 m qui est large 1,50 m. Chaque créature dans cette ligne doit faire un DD 16 jet de sauvegarde de Dextérité. En cas d'échec, une cible prend 21 (6d6) dégâts contondants et, s'il est Énorme ou plus petit, est poussé jusqu'à 6 m loin de Shanzim et à terre. Sur un succès, une cible prend la moitié du dégâts contondants, mais n'est ni poussé ni à terre.",
+ "attacks": [
+  {
+   "name": "Trident",
+   "bonus": 10,
+   "damage": "2d6+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/81f9693356_monstre-shanzezim.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, SAG +7, CHA +8",
+ "resistances": "acide, froid, foudre"
+}

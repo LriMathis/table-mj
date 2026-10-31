@@ -1,0 +1,51 @@
+{
+ "id": "mobar",
+ "name": "Mobar",
+ "type": "Humanoïde (gobelinoïde, métamorphe)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 42,
+ "hpFormula": "7d6",
+ "vitesse": "9 m (montée 9 m vol 18 m sous forme de chauve-souris ou hybride)",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "Goblin (ne peut pas parler sous forme de chauve-souris)",
+ "traits": "**Changeur de forme.** Mobar peut utiliser son action pour se polymorphiser en un hybride bat-humanoïde moyen, ou en une grande chauve-souris géante, ou de nouveau dans sa forme réelle, qui est humanoïde. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**Écholocalisation (Forme de base ou hybride seulement).** Mobar a la vue sur une gamme de 18 m aussi longtemps que ce n'est pas assourdi.\n**Audience Keen.** Mobar a un avantage sur tests de Sagesse (Perception) qui se fie à l'audience.\n**Évasion des nimelles (forme humaine seulement).** Mobar peut prendre l'action Se désengager ou Se cacher en action bonus à chacun de ses tours.\n**Sensibilité à la lumière du soleil.** En plein soleil, Mobar a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Oeil aveugle.** En raison de la mauvaise perception de la profondeur, Mobar a un désavantage sur n'importe quel jet d'attaque contre une cible plus que 9 m.",
+ "actionsText": "**Multiattaque (forme humaine ou hybride seulement).** Sous forme humanoïde, Mobar fait deux attaques de scimitar ou deux attaques de sauvagine. Sous forme hybride, il peut faire une attaque de morsure et une attaque de scimitar.\n**Bite (forme de base ou hybride seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 6 (1d6 + 3) dégâts perforants, et Mobar gagne points de vie temporaires égal aux dégâts infligés. Si la cible est un humanoïde, elle doit réussir sur un DD 10 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie de wedbat.\n**Scimitar (forme humaine ou hybride seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Shortbow (forme humaine ou hybride seulement).** Attaque d'arme à distance : +5 au toucher, portée 24/96 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bite (forme de base ou hybride seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Scimitar (forme humaine ou hybride seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Shortbow (forme humaine ou hybride seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4cb5a01cf1_monstre-mobar.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +5",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées"
+}

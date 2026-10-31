@@ -1,0 +1,38 @@
+{
+ "id": "gremishka",
+ "name": "Gremishka",
+ "type": "Monstruosité",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 31,
+ "hpFormula": "7d4+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 12",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Résistance magique.** La gremishka a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Bite (forme individuelle seulement).** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts perforants plus 7 (2d6) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Bite (forme individuelle seulement)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant + force"
+  }
+ ],
+ "portrait": "/data/images/a42eeee14f_monstre-gremishka.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "reactions": "**Allergie Magique (Forme Individuelle seulement; 1/Jour).** Déclencheur : Une créature dans 9 m de la gremishka jette un sort. Réponse : La gremishka reprend 15 points de vie, puis devient un essaim moyen de petites créatures."
+}

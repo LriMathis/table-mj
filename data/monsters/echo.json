@@ -1,0 +1,41 @@
+{
+ "id": "echo",
+ "name": "Echo",
+ "type": "Créature artificielle",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "Commun plus une autre langue",
+ "traits": "**Formulaire immuable.** L'écho ne peut pas changer de forme.",
+ "actionsText": "**Multiattaques.** L'écho fait deux attaques du Club.\n**Club.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b3613481a1_monstre-echo.webp",
+ "notes": "",
+ "source": "Project_Lamordia (5e.tools, traduction automatique)",
+ "skills": "Athlétisme +4, Perception +2",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Auto-préservation automatisée.** L'écho prend l'action Dash ou Désengagement."
+}

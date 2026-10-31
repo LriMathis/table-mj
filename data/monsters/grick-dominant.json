@@ -1,0 +1,51 @@
+{
+ "id": "grick-dominant",
+ "name": "Grick dominant",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 18,
+ "caNote": "armure naturelle",
+ "hp": 75,
+ "hpFormula": "10d10+20",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 4,
+  "SAG": 14,
+  "CHA": 9
+ },
+ "resistances": "contondants, perforants et tranchants infligés par des attaques non magiques",
+ "senses": "vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Camouflage dans la rocaille.** Le grick est avantagé lors des tests de Dextérité (Discrétion) effectués pour se cacher dans des environnements rocailleux.",
+ "actionsText": "**Attaques multiples.** Le grick effectue deux attaques : une avec sa queue et une avec ses tentacules. Si son attaque de tentacules touche, il peut effectuer une attaque de bec contre la même cible.\n**Queue.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 3 m, une cible. *Touché :* 11 (2d6+4) dégâts contondants.\n**Tentacules.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 3 m, une cible. *Touché :* 22 (4d8+4) dégâts tranchants.\n**Bec.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 3 m, une cible. *Touché :* 13 (2d8+4) dégâts perforants.",
+ "portrait": "/data/images/6bcdac9f02_monstre-grick-dominant.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 174 · image : Manuel des monstres p. 173",
+ "attacks": [
+  {
+   "name": "Queue",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Tentacules",
+   "bonus": 7,
+   "damage": "4d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Bec",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "perforant"
+  }
+ ]
+}

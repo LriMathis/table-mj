@@ -1,0 +1,54 @@
+{
+ "id": "drow-arachnomancer",
+ "name": "Drow Arachnomancer",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 15,
+ "hp": 162,
+ "hpFormula": "25d8+50",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 36 m, Perception passive 17",
+ "languages": "elfique, commun des profondeurs, peut parler avec des araignées",
+ "traits": "**Ancêtre fécale.** Le drow a l'avantage sur jet de sauvegarde contre le charmé, et la magie ne peut pas mettre le drow à dormir.\n**Escalade des araignées.** Le sillon peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sensibilité à la lumière du soleil.** En plein soleil, le drow présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Web Walker.** Le drow ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** Le drow fait trois attaques, en utilisant Bite, Poisonous Touch, Web, ou une combinaison d'entre eux. Une attaque peut être remplacée par une utilisation de Spellcasting.\n**Morceau (Forme d'épices seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts perforants, et la cible doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 31 (7d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si la dégâts de poison réduit la cible à 0 points de vie, la cible est stable mais empoisonné pendant 1 heure, même après avoir récupéré points de vie, et est paralysé alors qu'empoisonné de cette façon.\n**Touche toxique (Forme humaine seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 35 (10d6) dégâts de poison.\n**Web (Formulaire de sélection seulement); (Recharge 5-6)).** Attaque d'arme à distance : +8 au toucher, portée 9/18 m., une cible. Touché : La cible est entravé par webbing. En action, la cible entravé peut faire un DD 15 test de Force, éclater la webbing sur un succès. La sangle peut également être attaquée et détruite (CA 10; hp 5; vulnérabilité à dégâts de feu; immunité au bludgeon, poison et dégâts psychiques).\n**Détection orthographique.** Le sillon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Lumières dansantes, Main de mage\n- 1/jour chacun : Ténèbres, Dissipation de la magie, Forme éthérée, Lueurs féeriques, Vol, Fléau d'insectes, Invisibilité",
+ "attacks": [
+  {
+   "name": "Morceau (Forme d'épices seulement)",
+   "bonus": 8,
+   "damage": "2d8+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Touche toxique (Forme humaine seulement)",
+   "bonus": 8,
+   "damage": "10d6",
+   "type": "poison"
+  },
+  {
+   "name": "Web (Formulaire de sélection seulement); 5)",
+   "bonus": 8,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/7f00ac4408_monstre-drow-arachnomancer.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "CON +7, INT +9, CHA +8",
+ "skills": "Arcanes +9, Nature +9, Perception +7, Discrétion +8",
+ "resistances": "poison",
+ "bonusActions": "**Modifier la forme (recharge après un repos court ou long).** Le drow se transforme magiquement en une grande araignée, restant dans cette forme jusqu'à 1 heure, ou de nouveau dans sa vraie forme. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Il peut parler et jeter des sorts en forme d'araignée. Tout équipement qu'il porte ou qu'il transporte sous forme d'humanoïde se mélange dans la forme d'araignée. Il ne peut pas activer, utiliser, manier, ou autrement bénéficier de l'un de ses équipements. Il revient à sa forme humanoïde si elle meurt."
+}

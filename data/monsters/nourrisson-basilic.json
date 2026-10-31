@@ -1,0 +1,39 @@
+{
+ "id": "nourrisson-basilic",
+ "name": "Infant Basilisk",
+ "type": "Monstruosité",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 4,
+ "hpFormula": "1d4+2",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 8,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 8,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants plus 1 dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 2,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/eb3895e650_monstre-nourrisson-basilic.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Nourrisson basilic",
+ "caNote": "armure naturelle"
+}

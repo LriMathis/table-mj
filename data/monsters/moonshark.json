@@ -1,0 +1,39 @@
+{
+ "id": "moonshark",
+ "name": "Moonshark",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 126,
+ "hpFormula": "11d12+55",
+ "vitesse": "nage 15 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 11,
+  "CON": 21,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Frénésie sanguine.** Le requin a avantage sur melee jets d'attaque contre toute créature qui n'a pas tout son points de vie.\n**Respiration d'eau.** Le requin ne peut respirer que sous l'eau.\n**Argent Spear.** Un personnage au sein de 1,50 m du requin peut utiliser une action pour essayer de déloger la lance, ce faisant avec un DD 13 test de Force (Athlétisme) réussi. Tandis que la lance est logée dans le requin, le requin brille d'une lumière argentée, dégageant une lumière lumineuse dans un rayon de 3 m et une lumière faible pour un 3 m supplémentaire.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 22 (3d10 + 6) dégâts perforants. Si le requin manque, il peut utiliser un action bonus pour nager jusqu'à 7,50 m. Ce mouvement ne provoque pas d'attaques d'opportunités.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "3d10+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4225dfbbf2_monstre-moonshark.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3"
+}

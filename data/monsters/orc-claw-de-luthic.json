@@ -1,0 +1,40 @@
+{
+ "id": "orc-claw-de-luthic",
+ "name": "Orc Claw of Luthic",
+ "type": "Humanoïde (orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, orc",
+ "traits": "**Agressifs.** En tant qu'action bonus, l'orc peut se déplacer à sa vitesse vers une créature hostile qu'il peut voir.\n**Détection orthographique.** L'orc est un spellcaster de niveau 5. Son caractéristique d'incantation est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). L'orc a les sorts clerc suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Réparation, Résistance, Thaumaturgie\n- Niveau 1 (4 emplacements) : Fléau, Soins, Éclair traçant\n- Niveau 2 (3 emplacements) : Augure, Lien de protection\n- Niveau 3 (2 emplacements) : Malédiction, Création de nourriture et d'eau",
+ "actionsText": "**Multiattaques.** L'orc fait deux attaques de griffes, ou quatre attaques de griffes s'il reste moins de la moitié de son points de vie.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/27078d93f5_monstre-orc-claw-de-luthic.webp",
+ "notes": "",
+ "source": "Volo's Guide to Monsters (5e.tools, traduction automatique)",
+ "aka": "Orc Claw de Luthic",
+ "caNote": "Cache l'armure",
+ "skills": "Intimidation +2, Médecine +4, Survie +4"
+}

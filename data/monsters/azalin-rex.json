@@ -1,0 +1,50 @@
+{
+ "id": "azalin-rex",
+ "name": "Azalin Rex",
+ "type": "Mort-vivant (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 20,
+ "hp": 390,
+ "hpFormula": "52d8+156",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 21,
+  "SAG": 17,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 20",
+ "languages": "tous",
+ "traits": "**Restauration de lord noir.** Si Azalin meurt et que son pot spirituel demeure intact, il ressuscite avec tout son points de vie en 2d10 jours dans l'espace inoccupé le plus proche de son pot spirituel. Si la jarre d'Azalin est détruite, il ressuscite en 4d10 jours au château d'Avernus à Darkon.\n**Résistance légendaire (4/jour, ou 5/jour dans le domaine).** Si Azalin échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Azalin fait trois attaques, en utilisant Eldritch Burst ou Paralysing Touch dans n'importe quelle combinaison.\n**Laboureur d'Eldritch.** Jet d'attaque au corps à corps ou à distance : +12, allonge 1,50 m ou portée 36 m. Touché : 31 (4d12 + 5) dégâts de force.\n**Touche paralysante.** Jet d'attaque au corps à corps : +12, allonge 1,50 m. Touché : 15 (3d6 + 5) dégâts de froid, et la cible a l'état paralysé jusqu'au début du prochain tour d'Azalin.\n**Détection orthographique.** Azalin lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Détection de la magie, Détection des pensées, Dissipation de la magie, Invisibilité, Éclair (version de niveau 5), Main de mage, Prestidigitation\n- 1/jour chacun : Chaîne d'éclairs, Doigt de mort, Mot de pouvoir mortel\n- 2/jour chacun : Animation des morts, Porte dimensionnelle, Modification de mémoire, Changement de plan, Scrutation",
+ "attacks": [
+  {
+   "name": "Laboureur d'Eldritch",
+   "bonus": 12,
+   "damage": "4d12+5",
+   "type": "force"
+  },
+  {
+   "name": "Touche paralysante",
+   "bonus": 12,
+   "damage": "3d6+5",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/383b05ca33_monstre-azalin-rex.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "DEX +10, CON +10, INT +12, SAG +10",
+ "skills": "Arcanes +19, Histoire +12, Perspicacité +10, Perception +10",
+ "resistances": "froid, foudre",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "reactions": "**Siphon Spell.** Azalin lance Contresort en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting. Si la créature cible échoue à son jet de sauvegarde contre ce Contresort, Azalin vole la connaissance du sort déclencheur. Pendant 1 heure ou jusqu'à ce qu'Azalin reprenne cette Réaction, Azalin peut lancer ce sort une fois, en utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Contresort",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, azalin rex peut entreprendre l'une des actions ci-après.\n**Endritch Teleport.** Azalin téléporte jusqu'à 18 m dans un espace inoccupé qu'il peut voir et fait une attaque Eldritch Burst ou Paralysing Touch.\n**Connaissances interdites.** Jet de sauvegarde d'Intelligence : DD 20, jusqu'à trois créatures Azalin peut voir dans 18 m. Échec : 28 (8d6) dégâts psychiques, et la cible a l'état étourdi jusqu'à la fin du prochain tour d'Azalin. Réussite : Demi-dégâts seulement. Échec ou réussite : Azalin ne peut pas reprendre cette action avant le début de son prochain tour."
+}

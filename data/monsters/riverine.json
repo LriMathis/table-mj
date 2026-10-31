@@ -1,0 +1,42 @@
+{
+ "id": "riverine",
+ "name": "Riverine",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "tout alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 14,
+ "hp": 204,
+ "hpFormula": "24d10+72",
+ "vitesse": "9 m, nage 18 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 19,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 17",
+ "languages": "aquatique, commun, sylvestre",
+ "traits": "**Amphibie.** La rivière peut respirer l'air et l'eau.\n**Résistance légendaire (3/jour).** Si la rivière échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** La rivière fait deux attaques de la grève des inondations.\n**Grève d'inondation.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 14 (2d8 + 5) dégâts contondants plus 10 (3d6) dégâts de froid.\n**Détection orthographique.** La rivière jette l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Contrôle de l'eau, Nappe de brouillard\n- 1/jour : Restauration supérieure",
+ "attacks": [
+  {
+   "name": "Grève d'inondation",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "contondant + froid"
+  }
+ ],
+ "portrait": "/data/images/9fe9100490_monstre-riverine.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "saves": "INT +5, SAG +7, CHA +9",
+ "skills": "Perspicacité +7, Nature +5, Perception +7",
+ "resistances": "acide, feu",
+ "bonusActions": "**Étape du tourbillon.** La rivière se téléporte magiquement dans un espace inoccupé qu'elle peut voir en elle-même. L'espace qu'elle laisse et sa destination doivent être dans ou à la surface de l'eau.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, riverine peut entreprendre l'une des actions ci-après.\n**Rush à remous.** La rivière utilise son étape de tourbillon. Immédiatement après qu'il ait téléporté, chaque créature dans 1,50 m de l'espace de destination de la rivière prend 5 (1d10) dégâts de froid.\n**Raging Deluge (coûts 2 actions).** La rivière libère un torrent d'eau de rivière dans une ligne 9 m large de 1,50 m. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 11 (2d10) dégâts contondants et est à terre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas à terre."
+}

@@ -1,0 +1,42 @@
+{
+ "id": "tuteur-geant",
+ "name": "Guardian Giant",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 19,
+ "hp": 137,
+ "hpFormula": "11d12+66",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 17,
+  "CON": 22,
+  "INT": 10,
+  "SAG": 18,
+  "CHA": 12
+ },
+ "senses": "Perception passive 20",
+ "languages": "commun, géant",
+ "traits": "**Vigilant.** Le géant ne peut pas être surpris.",
+ "actionsText": "**Multiattaques.** Le géant fait trois attaques de lance.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +10 au toucher, allonge 3 m ou portée 18/72 m., une cible. Touché : 17 (3d6 + 7) dégâts perforants, ou 20 (3d8 + 7) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 10,
+   "damage": "3d6+7",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4f1d5bba6d_monstre-tuteur-geant.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Tuteur géant",
+ "caNote": "Armure demi-plate, Bouclier",
+ "saves": "DEX +6, SAG +7",
+ "skills": "Perspicacité +7, Perception +10",
+ "reactions": "**Protection.** Lorsqu'un attaquant que le géant peut voir fait un jet d'attaque contre une créature au sein de 3 m du géant, le géant peut imposer un désavantage sur le jet d'attaque."
+}

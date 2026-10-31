@@ -1,0 +1,49 @@
+{
+ "id": "100-mains-une",
+ "name": "Hundred-Handed One",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal neutre",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 15,
+ "hp": 243,
+ "hpFormula": "18d12+126",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 15,
+  "CON": 25,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "géant",
+ "traits": "**Réactifs.** Le géant peut réagir à chaque tour dans un combat.\n**Vigilant.** Le géant ne peut pas être surpris.",
+ "actionsText": "**Multiattaques.** Le géant fait quatre attaques de longues épées ou deux attaques de roche.\n**Mot long.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 21 (3d8 + 8) dégâts tranchants.\n**Roche.** Attaque d'arme à distance : +13 au toucher, portée 18/72 m., une cible. Touché : 30 (4d10 + 8) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 21 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 13,
+   "damage": "3d8+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 13,
+   "damage": "4d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e3f810e9a6_monstre-100-mains-une.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "100 mains une",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, SAG +8",
+ "skills": "Intimidation +8, Perception +8",
+ "conditionImmunities": "effrayé",
+ "reactions": "**Défendre l'attaque.** Le géant ajoute 5 à sa CA contre une attaque d'arme qui la frapperait. Pour ce faire, le géant doit voir l'attaquant et utiliser une arme à la mêlée."
+}

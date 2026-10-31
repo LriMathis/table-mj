@@ -1,0 +1,47 @@
+{
+ "id": "arlo-kettletoe-niveaux-5-a-8",
+ "name": "Arlo Kettletoe (Levels 5-8)",
+ "type": "Humanoïde (halfelin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 18,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Brave.** Arlo Kettletoe a un avantage sur jet de sauvegarde contre effrayé.",
+ "actionsText": "**Multiattaques.** Arlo Kettletoe fait deux attaques à la mêlée.\n**Grande épée.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.\n**Grosse arbalète.** Attaque d'arme à distance : +2 au toucher, portée 30/120 m., une cible. Touché : 5 (1d10) dégâts perforants.\n**Leadership (Recharges après un repos court ou long).** Pendant 1 minute, Arlo Kettletoe peut émettre une commande spéciale ou un avertissement chaque fois qu'une créature non hostile qu'elle peut voir dans 9 m en fait un jet d'attaque ou un jet de sauvegarde. La créature peut ajouter un d4 à son rouleau à condition qu'elle puisse entendre et comprendre Arlo Kettletoe. Une créature peut bénéficier d'un seul Leadership meurt à la fois. Cet effet se termine si Arlo Kettletoe est neutralisé.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 2,
+   "damage": "1d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e3ac158b74_monstre-arlo-kettletoe-niveaux-5-a-8.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "aka": "Arlo Kettletoe (niveaux 5 à 8)",
+ "caNote": "Armure de plaque",
+ "saves": "CON +4, SAG +2",
+ "reactions": "**Parry.** Arlo Kettletoe ajoute 2 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, Arlo Kettletoe doit voir l'attaquant et manier une arme de mêlée."
+}

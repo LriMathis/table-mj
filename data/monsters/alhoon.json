@@ -1,0 +1,50 @@
+{
+ "id": "alhoon",
+ "name": "Alhoon",
+ "type": "Mort-vivant (flagelleur mental, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m, vol 4,50 m (vol stationnaire)",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 17
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 17",
+ "languages": "profond, commun des profondeurs, télépathie 36 m",
+ "traits": "**Résistance magique.** L'alhoon a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Résistance au virage.** L'alhoon a l'avantage sur jet de sauvegarde contre tout effet qui tourne Undead.",
+ "actionsText": "**Multiattaques.** L'alhoon fait deux attaques de Grasp ou d'Arcane Bolt.\n**Gras de refroidissement.** Attaque de sort au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 14 (4d6) dégâts de froid, et l'alhoon retrouve 14 points de vie.\n**Arcane Bolt.** Attaque de sort à distance : +8 au toucher, portée 36 m, une cible. Touché : 28 (8d6) dégâts de force.\n**Boussole mentale (Recharge 5-6).** L'alhoon émet magiquement de l'énergie psychique dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 16 jet de sauvegarde d'Intelligence ou prendre 22 (4d8 + 4) dégâts psychiques et être étourdi pendant 1 minute. Une cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** L'alhoon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Lumières dansantes, Détection de la magie, Détection des pensées, Déguisement, Main de mage, Prestidigitation\n- 1/jour chacun : Domination de monstre, Globe d'invulnérabilité, Invisibilité, Modification de mémoire, Changement de plan (autoseulement), Mur de force",
+ "attacks": [
+  {
+   "name": "Gras de refroidissement",
+   "bonus": 8,
+   "damage": "4d6",
+   "type": "froid"
+  },
+  {
+   "name": "Arcane Bolt",
+   "bonus": 8,
+   "damage": "8d6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/d2569e0bae_monstre-alhoon.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +7, INT +8, SAG +7, CHA +7",
+ "skills": "Arcanes +8, Tromperie +7, Histoire +8, Perspicacité +7, Perception +7, Discrétion +5",
+ "resistances": "froid, foudre, nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "reactions": "**Oreille de négate (3/jour).** L'alhoon cible une créature qu'il peut voir dans 18 m de lui qui lance un sort. Si le sort est de niveau 3 ou inférieur, le sort échoue, mais n'importe quel emplacements de sort ou charges ne sont pas gaspillés."
+}

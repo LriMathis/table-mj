@@ -1,0 +1,40 @@
+{
+ "id": "allowak-yeti",
+ "name": "Allowak Yeti",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 51,
+ "hpFormula": "6d10+18",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, Yeti",
+ "traits": "**Peur de feu.** Si l'yéti prend dégâts de feu, il a un désavantage sur jets d'attaque et tests de caractéristique jusqu'à la fin de son prochain tour.\n**Sensation de Keen.** L'yéti présente un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Camouflage des neiges.** L'yéti a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans un terrain enneigé.",
+ "actionsText": "**Multiattaques.** L'yéti peut utiliser son gaz de refroidissement et fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants plus 3 (1d6) dégâts de froid.\n**Gaz de refroidissement.** L'yéti cible une créature il peut voir dans 9 m de lui. Si la cible peut voir l'yéti, la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution contre cette magie ou prendre 10 (3d6) dégâts de froid puis être paralysé pendant 1 minute, à moins qu'elle ne soit immunisée contre dégâts de froid. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde de la cible est réussi, ou si l'effet se termine sur elle, la cible est immunisée contre le gaz de refroidissement de tous les yétis (mais pas abominable yétis) pendant 1 heure.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant + froid"
+  }
+ ],
+ "portrait": "/data/images/dcb1913838_monstre-allowak-yeti.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3, Discrétion +3",
+ "immunities": "froid"
+}

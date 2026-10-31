@@ -1,0 +1,39 @@
+{
+ "id": "nuee-de-piranhas",
+ "name": "Nuée de piranhas",
+ "type": "Nuée (bêtes de taille TP)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 28,
+ "hpFormula": "8d8–8",
+ "vitesse": "1,5 m, nage 12 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 9,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 2
+ },
+ "resistances": "contondants, perforants, tranchants",
+ "conditionImmunities": "à terre, agrippé, charmé, effrayé, entravé, étourdi, paralysé, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "aucune",
+ "traits": "**Nuée.** La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut se déplacer par toute ouverture assez large pour un piranha de taille TP. La nuée ne peut ni récupérer de points de vie ni recevoir de points de vie temporaires.\n**Respiration aquatique.** La nuée ne peut respirer que sous l’eau.",
+ "actionsText": "**Morsures.** Corps à corps : +5 (avec Avantage si la cible n’a pas tous ses pv), allonge 1,50 m. Touché : 8 (2d4 + 3) dégâts perforants, ou 5 (1d4 + 3) dégâts perforants si la nuée est En péril.",
+ "attacks": [
+  {
+   "name": "Morsures",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "perforant (+1d4+3 perforant sous condition)"
+  }
+ ],
+ "portrait": "/data/images/0b2455ea09_monstre-nuee-de-piranhas.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

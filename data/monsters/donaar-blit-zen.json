@@ -1,0 +1,47 @@
+{
+ "id": "donaar-blit-zen",
+ "name": "Donaar Blit'zen",
+ "type": "Humanoïde (drakéide)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 18,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 8,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, draconique, orc",
+ "traits": "**Défi Champion (Recharge après un repos court ou long).** Comme un action bonus, Donaar provoque chaque créature de son choix qu'il peut voir au sein de 9 m de lui pour faire un DD 13 jet de sauvegarde de Sagesse. En cas d'échec, une créature ne peut pas volontairement se déplacer plus que 9 m loin de Donaar. Cet effet se termine sur la créature si Donaar est neutralisé ou meurt, ou si la créature est déplacée plus que 9 m loin de lui.\n**Détection orthographique.** Donaar est un spellcaster de niveau 5. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Il a préparé les sorts de paladin suivants:\n- Niveau 1 (4 emplacements) : Injonction, Duel forcé, Soins, Châtiment courroucé\n- Niveau 2 (2 emplacements) : Aide, Châtiment révélateur, Restauration partielle, Lien de protection, Zone de vérité",
+ "actionsText": "**Multiattaques.** Donaar fait deux attaques avec sa grande épée ou son fouet.\n**Grande épée.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants. Chaque fois que Donaar roule un 1 ou 2 sur un dégât, il peut rerouler le die et doit utiliser le nouveau rouleau.\n**Whip.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 5 (1d4 + 3) dégâts tranchants.\n**acide Vomissement.** Donaar régurgite l'acide dans une ligne 9 m large. Chaque créature dans cette ligne doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 7 (2d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Whip",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/37dd911da2_monstre-donaar-blit-zen.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "SAG +2, CHA +5",
+ "skills": "Histoire +2, Perspicacité +2, Intimidation +5, Persuasion +5",
+ "resistances": "acide"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "manteleur",
+ "name": "Manteleur",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 91,
+ "hpFormula": "14d10+14",
+ "vitesse": "3 m, vol 12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 7
+ },
+ "skills": "Discrétion +5",
+ "conditionImmunities": "effrayé",
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "profond, commun des profondeurs",
+ "traits": "**Sensibilité à la lumière.** Exposé à une Lumière vive, le manteleur subit le Désavantage aux jets d’attaque.",
+ "actionsText": "**Attaques multiples.** Le manteleur effectue une attaque d’Enveloppement et deux attaques de Queue.\n**Enveloppement.** Corps à corps : +6, allonge 1,50 m. Touché : 13 (3d6 + 3) dégâts perforants. Si la cible est une créature de taille G ou inférieure, le manteleur l’enveloppe. Tant que la cible est enveloppée par le manteleur, celle-ci subit l’état Aveuglé et le manteleur ne peut pas effectuer d’attaque d’Enveloppement sur une autre cible. En outre, le manteleur divise par deux les dégâts qu’il subit (arrondis à l’inférieur), et la cible subit le même montant de dégâts.\nPour se décrocher, le manteleur doit dépenser 1,50 m de déplacement. La cible ou une créature dans un rayon de 1,50 m peut entreprendre une action pour tenter de décrocher le manteleur, ce qui nécessite de réussir un test de Force (Athlétisme) DD 14.\n**Queue.** Corps à corps : +6, allonge 3 m. Touché : 8 (1d10 + 3) dégâts tranchants.",
+ "bonusActions": "**Lamentation.** JS Sagesse : DD 13, chaque créature dans une Émanation de 18 m centrée sur le manteleur. Échec : la cible subit l’état Effrayé jusqu’à la fin du tour suivant du manteleur. Réussite : la cible est immunisée contre la Lamentation de ce manteleur pendant 24 heures.\n**Fantasmagories (recharge après un Repos court ou long).** Le manteleur lance le sort *image miroir*, sans aucune composante, la Sagesse étant sa caractéristique d’incantation. Le sort prend fin prématurément si le manteleur démarre ou termine son tour sous une Lumière vive.",
+ "attacks": [
+  {
+   "name": "Enveloppement",
+   "bonus": 6,
+   "damage": "3d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 6,
+   "damage": "1d10+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/09563361ad_monstre-manteleur.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 213"
+}

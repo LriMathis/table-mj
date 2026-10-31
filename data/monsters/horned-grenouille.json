@@ -1,0 +1,39 @@
+{
+ "id": "horned-grenouille",
+ "name": "Horned Frog",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 18,
+ "hpFormula": "4d8",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 13,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Amphibie.** La grenouille peut respirer l'air et l'eau.\n**Leap debout.** Le long saut de la grenouille est jusqu'à 6 m et son saut en hauteur est jusqu'à 3 m, avec ou sans début de course.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants, et la cible est agrippé (évasion DD 11). Jusqu'à ce que ce grappin se termine, la cible est entravé, et la grenouille ne peut pas mordre une autre cible.\n**Avalez.** La grenouille fait une attaque de morsure contre une cible petite ou plus petite qu'elle est en train de combattre. Si l'attaque frappe, la cible est avalée, et le grappin se termine. La cible avalée est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors de la grenouille, et il prend 5 (2d4) dégâts d'acide au début de chaque tour de la grenouille. La grenouille ne peut avoir qu'une cible avalé à la fois. Si la grenouille meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 1,50 m de mouvement, sortant d'à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/50a4b22fea_monstre-horned-grenouille.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "aka": "Horned grenouille",
+ "skills": "Perception +2, Discrétion +3"
+}

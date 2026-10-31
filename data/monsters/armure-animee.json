@@ -1,0 +1,39 @@
+{
+ "id": "armure-animee",
+ "name": "Armure animée",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non aligné",
+ "cr": "1",
+ "xp": 200,
+ "ca": 18,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "7,5 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 13,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "immunities": "poison, psychiques",
+ "conditionImmunities": "assourdi, charmé, effrayé, empoisonné, épuisement, paralysé, pétrifié",
+ "senses": "Vision aveugle 18 m, Perception passive 6",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** L’armure effectue deux attaques de Coup.\n**Coup.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0e436d023d_monstre-armure-animee.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 237"
+}

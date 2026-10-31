@@ -1,0 +1,54 @@
+{
+ "id": "themberchaud",
+ "name": "Themberchaud",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 19,
+ "hp": 256,
+ "hpFormula": "19d12+133",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 25,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 23",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (3/jour).** Si Themberchaud échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Themberchaud peut utiliser sa présence effrayante. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 19 (2d10 + 8) dégâts perforants plus 7 (2d6) dégâts de feu.\n**Griffe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d6 + 8) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +14 au toucher, allonge 4,50 m, une cible. Touché : 17 (2d8 + 8) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix de Themberchaud qui se trouve à l'intérieur de 36 m de Themberchaud et conscient de lui doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante de Themberchaud pendant les 24 prochaines heures.\n**feu Respiration (Recharge 5-6).** Themberchaud exhale le feu dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 21 jet de sauvegarde de Dextérité, en prenant 63 (18d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "2d10+8",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 14,
+   "damage": "2d6+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 14,
+   "damage": "2d8+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/854493793f_monstre-themberchaud.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CON +13, SAG +7, CHA +11",
+ "skills": "Perception +13, Discrétion +6",
+ "immunities": "feu",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, themberchaud peut entreprendre l'une des actions ci-après.\n**Détecter.** Themberchaud fait un test de Sagesse (Perception).\n**Attaque de queue.** Themberchaud fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** Themberchaud bat ses ailes. Chaque créature de 3 m de Themberchaud doit réussir sur un DD 22 jet de sauvegarde de Dextérité ou prendre 15 (2d6 + 8) dégâts contondants et être à terre. Le mberchaud peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "thopter-faucon",
+ "name": "Thopter (Hawk)",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 5,
+  "DEX": 16,
+  "CON": 8,
+  "INT": 2,
+  "SAG": 14,
+  "CHA": 6
+ },
+ "senses": "Perception passive 14",
+ "languages": "—",
+ "traits": "**C'est la vue..** Le thoptère a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Talons.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Talons",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/ddd1ff4629_monstre-thopter-faucon.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "aka": "Thopter ( faucon )",
+ "skills": "Perception +4",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

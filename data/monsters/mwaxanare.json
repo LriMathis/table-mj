@@ -1,0 +1,38 @@
+{
+ "id": "mwaxanare",
+ "name": "Mwaxanaré",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 10,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 10,
+  "CON": 11,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Perception passive 11",
+ "languages": "aérien, commun, télépathie 9 m",
+ "traits": "**Détection orthographique.** Mwaxanaré est un orthographe de niveau 2. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Elle retrouve son emplacements de sort dépensé quand elle termine un repos court ou long. Elle connaît les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Décharge occulte, Main de mage\n- Niveau 1 (2 emplacements) : Charme-personne, Protection contre le mal et le bien, Serviteur invisible",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +2 au toucher. allonge 1,50 m ou portée 6/18 m., une cible. Touché : 2 (1d4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f1345972bc_monstre-mwaxanare.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Nature +3, Persuasion +5, Religion +3"
+}

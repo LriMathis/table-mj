@@ -1,0 +1,41 @@
+{
+ "id": "zombi-tyrannoeil",
+ "name": "Zombi tyrannœil",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "0 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "saves": "SAG +2",
+ "immunities": "poison",
+ "conditionImmunities": "à terre, empoisonné",
+ "senses": "vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend le commun des profondeurs et le profond, mais ne peut pas parler",
+ "traits": "**Robustesse de la non-vie.** Si des dégâts réduisent à 0 les points de vie du zombi, celui-ci doit effectuer un jet de sauvegarde de Constitution DD 5 + les dégâts subis, à moins que ces dégâts ne soient de type radiant ou infligés par un coup critique. En cas de réussite, le zombi tombe à 1 point de vie à la place.",
+ "actionsText": "**Morsure.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 14 (4d6) dégâts perforants.\n**Rayon oculaire.** Le zombi utilise un rayon oculaire magique aléatoire sur une cible située dans son champ de vision et dans un rayon de 18 mètres.\n- *1. Rayon de paralysie.* Constitution DD 14 ou paralysée pendant 1 minute (nouveau jet à la fin de chacun de ses tours).\n- *2. Rayon de terreur.* Sagesse DD 14 ou terrorisée pendant 1 minute (nouveau jet à la fin de chacun de ses tours).\n- *3. Rayon de nécrose.* Constitution DD 14 : 36 (8d8) dégâts nécrotiques, la moitié seulement en cas de réussite.\n- *4. Rayon de désintégration.* Si la cible est une créature : Dextérité DD 14 ou 45 (10d8) dégâts de force ; si les dégâts réduisent ses points de vie à 0, son corps est désintégré. Un objet non magique ou une création de force magique de Grande taille ou plus petite est désintégré sans jet de sauvegarde ; pour une cible plus grande, le rayon désintègre un cube de 3 mètres d'arête.",
+ "portrait": "/data/images/aa121dbc35_monstre-zombi-tyrannoeil.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 317 · image : Manuel des monstres p. 315",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 3,
+   "damage": "4d6",
+   "type": "perforant"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "hellion-hauteur",
+ "name": "Hellion (Huge)",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 195,
+ "hpFormula": "17d12+85",
+ "vitesse": "9 m, creusement 6 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 13,
+  "CON": 21,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Corps chauffé.** Une créature qui touche l'enfer ou la frappe avec une attaque de mêlée alors que dans 1,50 m il prend 10 (3d6) dégâts de feu.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 40 (6d10 + 7) dégâts perforants plus 10 (3d6) dégâts de feu. Si la cible est une créature, c'est agrippé (évasion DD 17). Jusqu'à ce que ce grappin se termine, la cible est entravé, et l'enfer ne peut mordre une autre cible.\n**Avalez.** L'enfer fait une attaque de morsure contre une créature moyenne ou plus petite qu'il est en train de lutter. Si l'attaque frappe, cette créature prend les dégâts de la morsure et est avalée, et le grappin se termine. En avalant, la créature est aveuglé et entravé, elle a 3 contre les attaques et autres effets en dehors de l'enfer, et il faut 21 (6d6) dégâts d'acide au début de chacun des tours de l'enfer.\nSi l'enfer prend 30 dégâts ou plus sur un seul tour d'une créature à l'intérieur, l'enfer doit réussir sur un DD 15 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace au sein de 3 m de l'enfer. Si l'enfer meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 4,50 m de mouvement, sortant d'à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "6d10+7",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/d9fafc3ecc_monstre-hellion-hauteur.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "aka": "Hellion (hauteur)",
+ "caNote": "armure naturelle",
+ "immunities": "froid, feu"
+}

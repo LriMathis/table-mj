@@ -1,0 +1,43 @@
+{
+ "id": "kansaldi-yeux",
+ "name": "Kansaldi Fire-Eyes",
+ "type": "Humanoïde (clerc, humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 172,
+ "hpFormula": "23d8+69",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 17,
+  "INT": 16,
+  "SAG": 19,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 18",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Matériel spécial.** Kansaldi a un rubis brillant intégré dans son oeil gauche. La gemme fonctionne comme son œil et accorde sa vision de la vérité (incluse ci-dessus). Le bijou ne peut pas être enlevé tant que Kansaldi est en vie. Quand elle meurt, une créature peut enlever le bijou comme une action. Le bijou fonctionne alors comme un Gemme de vision.",
+ "actionsText": "**Multiattaques.** Kansaldi fait deux attaques de Pike et utilise Flame Burst.\n**Poire.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 9 (1d10 + 4) dégâts perforants plus 16 (3d10) dégâts radiants.\n**Brûlure de flamme.** Kansaldi lance des flammes magiques sur une créature qu'elle peut voir en 18 m d'elle-même. La cible doit faire un DD 16 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la cible prend 11 (2d10) dégâts de feu et prend feu; jusqu'à ce qu'une créature prenne une action pour éteindre le feu, la cible prend 5 (1d10) dégâts de feu au début de chacun de ses tours. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts et ne prend pas feu.\n**Détection orthographique.** Kansaldi lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Lumière, Stabilisation, Thaumaturgie\n- 1/jour chacun : Barrière de lames, Dissipation de la magie, Colonne de flamme, Restauration partielle, Retour à la vie",
+ "attacks": [
+  {
+   "name": "Poire",
+   "bonus": 8,
+   "damage": "1d10+4",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/cce9d00846_monstre-kansaldi-yeux.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Kansaldi - yeux",
+ "caNote": "plaque",
+ "saves": "SAG +8, CHA +7",
+ "skills": "Perspicacité +12, Perception +8, Religion +7",
+ "immunities": "feu",
+ "bonusActions": "**Dragon Queen's Favor.** Kansaldi ou une créature elle peut voir dans 18 m d'elle-même magique retrouve 17 (2d12 + 4) points de vie."
+}

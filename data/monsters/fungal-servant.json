@@ -1,0 +1,44 @@
+{
+ "id": "fungal-servant",
+ "name": "Fungal Servant",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 17,
+ "hp": 97,
+ "hpFormula": "13d8+39",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 11,
+  "SAG": 18,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Résistance magique.** Le serviteur fongique a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Réjuvenance.** Un serviteur fongique détruit gagne un nouveau corps en 24 heures si son cœur est intact, récupérant tout son points de vie et redevenant actif. Le nouveau corps apparaît dans 1,50 m du cœur du serviteur fongique.\n**Détection orthographique.** La servante fongique est un épeautre de niveau 10. Son caractéristique d'incantation est Sagesse (save spell DD 17, +9 au toucher avec attaques de sort). Le serviteur fongique a les sorts clerciques suivants préparés:\n- Sorts mineurs (à volonté) : Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Injonction, Éclair traçant, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Silence, Arme spirituelle\n- Niveau 3 (3 emplacements) : Animation des morts, Dissipation de la magie\n- Niveau 4 (3 emplacements) : Divination, Gardien de la foi\n- Niveau 5 (2 emplacements) : Contagion, Fléau d'insectes\n- Niveau 6 (1 emplacements) : Contamination",
+ "actionsText": "**Multiattaques.** Le serviteur fongique peut utiliser son Épouvantable Glare et fait une attaque avec son poing pourri.\n**Fistillation de rotation.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 14 (3d6 + 4) dégâts contondants plus 21 (6d6) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Constitution ou être maudite avec la pourriture momie. La cible maudite ne peut pas récupérer points de vie, et son maximum de points de vie diminue de 10 (3d6) toutes les 24 heures qui s'écoulent. Si la malédiction réduit le maximum de points de vie de la cible à 0, la cible meurt, et son corps se transforme en spores. La malédiction dure jusqu'à ce qu'elle soit enlevée par le sort Délivrance des malédictions ou toute autre magie.\n**C'est terrible..** Le serviteur fongique cible une créature il peut voir dans 18 m de lui. Si la cible peut voir le serviteur fongique, elle doit réussir sur un DD 16 jet de sauvegarde de Sagesse contre cette magie ou devenir effrayé jusqu'à la fin du prochain tour du serviteur fongique. Si la cible échoue le jet de sauvegarde par 5 ou plus, elle est également paralysé pour la même durée. Une cible qui réussit sur le jet de sauvegarde est à l'abri de l'épouvantable glare de tous les serviteurs fongiques pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Fistillation de rotation",
+   "bonus": 9,
+   "damage": "3d6+4",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/31f2c942e5_monstre-fungal-servant.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, INT +5, SAG +9, CHA +8",
+ "skills": "Histoire +5, Religion +5",
+ "vulnerabilities": "feu",
+ "immunities": "nécrotique, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, fungal servant peut entreprendre l'une des actions ci-après.\n**Attaque.** Le serviteur fongique fait une attaque avec son poing pourri ou utilise son Épouvantable Glare.\n**Spores aveugles.** Les spores aveuglantes tourbillonnent magiquement autour du serviteur fongique. Chaque créature dans 1,50 m du serviteur fongique doit réussir sur un DD 16 jet de sauvegarde de Constitution ou être aveuglé jusqu'à la fin du prochain tour de la créature.\n**Parole blasphématoire (coûts 2 actions).** Le serviteur fongique prononce un mot blasphématoire. Chaque créature non morte au sein de 3 m du serviteur fongique qui peut entendre la parole magique doit réussir sur un DD 16 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin du prochain tour du serviteur fongique.\n**Énergie négative des canaux (coûts 2 actions).** Le serviteur fongique libère magiquement l'énergie négative. Les créatures au sein de 18 m de la servante fongique, y compris celles derrière les barrières et autour des coins, ne peuvent retrouver points de vie qu'à la fin du prochain tour de la servante fongique.\n**Whirlwind of Spores (coûts 2 actions).** Le serviteur fongique se transforme magiquement en un tourbillon de spores, se déplace jusqu'à 18 m et revient à sa forme normale. Alors que sous forme de tourbillon, le serviteur fongique est immunisé contre tous les dégâts, et il ne peut pas être agrippé, pétrifié, à terre, entravé, ou étourdi. L'équipement porté ou transporté par le serviteur fongique demeure en sa possession."
+}

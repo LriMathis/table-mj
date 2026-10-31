@@ -1,0 +1,40 @@
+{
+ "id": "nuee-de-zombi-limbs",
+ "name": "Swarm of Zombie Limbs",
+ "type": "Nuée de taille très petite (Mort-vivant)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 1,
+  "SAG": 5,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 7",
+ "languages": "—",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et il peut se déplacer à travers n'importe quelle ouverture assez grande pour un petit morceau de chair. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Flesh pourri.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 9 (2d6 + 2) dégâts nécrotiques, ou 5 (1d6 + 2) dégâts nécrotiques si l'essaim est en sang, et la cible a l'état empoisonné jusqu'à la fin de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Flesh pourri",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/0005f35503_monstre-nuee-de-zombi-limbs.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Nuée de zombi Limbs",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "anes-en-bois",
+ "name": "Wooden Donkey",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 10,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "**Bête de la charge.** L'âne est considéré comme un grand animal aux fins de la détermination de sa capacité de charge.\n**C'est sûr..** L'âne a l'avantage sur Force et jet de sauvegarde de Dextérité fait contre les effets qui lui frapperaient à terre.",
+ "actionsText": "**Des voyous.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Des voyous",
+   "bonus": 2,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c03f435535_monstre-anes-en-bois.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Ânes en bois",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, effrayé, paralysé, pétrifié, empoisonné"
+}

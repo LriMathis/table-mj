@@ -1,0 +1,38 @@
+{
+ "id": "hammerskull",
+ "name": "Hammerskull",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 19,
+ "hpFormula": "3d10+3",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "**Frais.** Si le marteau se déplace au moins 6 m droit vers une cible et la frappe avec une attaque de bélier au même tour, la cible prend un 5 (2d4) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre.\n**C'est sûr..** Le marteauxkull a un avantage sur Force et jet de sauvegarde de Dextérité fait contre les effets qui le frapperaient à terre.",
+ "actionsText": "**Ram.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (2d4 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Ram",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/705aaf44d6_monstre-hammerskull.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

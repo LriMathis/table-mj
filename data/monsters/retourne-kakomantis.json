@@ -1,0 +1,49 @@
+{
+ "id": "retourne-kakomantis",
+ "name": "Returned Kakomantis",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Perception passive 11",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**La colère fugace.** Si une autre créature inflige des dégâts au Retourné, le Retourné fait jets d'attaque avec avantage jusqu'à la fin de son prochain tour.\n**Résistance au virage.** Le Retourné a un avantage sur jet de sauvegarde contre tout effet qui devient mort-vivant.\n**Visage illisible.** Le Retourné est à l'abri de tout effet qui pourrait sentir ses émotions ou lire ses pensées. tests de Sagesse (Perspicacité) pour vérifier les intentions ou la sincérité du retour sont faites avec désavantage.",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Underworld Bolt.** Attaque de sort à distance : +4 au toucher, portée 36 m, une créature. Touché : 13 (2d8 + 2) dégâts nécrotiques, et la cible ne peut pas retrouver points de vie avant le début du prochain tour du Retour. Si la cible manque un de ses points de vie, elle prend plutôt 17 (2d12 + 2) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Underworld Bolt",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/e3b7e458d4_monstre-retourne-kakomantis.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Retourné Kakomantis",
+ "caNote": "armure naturelle",
+ "skills": "Acrobaties +5, Athlétisme +2, Discrétion +5",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

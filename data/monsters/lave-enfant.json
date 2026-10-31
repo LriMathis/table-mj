@@ -1,0 +1,46 @@
+{
+ "id": "lave-enfant",
+ "name": "Lava Child",
+ "type": "Humanoïde (lave enfant)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 11,
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "7,50 m, escalade 6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, igné",
+ "traits": "**Immunité des métaux.** L'enfant lave peut se déplacer à travers le métal sans entrave, et il a avantage sur jets d'attaque contre toute créature portant une armure métallique ou utilisant un bouclier métallique.",
+ "actionsText": "**Multiattaques.** L'enfant lave fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/07c650ee2c_monstre-lave-enfant.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Lave enfant",
+ "skills": "Athlétisme +6, Survie +2",
+ "immunities": "feu, contondant, perforant, tranchant des armes métalliques"
+}

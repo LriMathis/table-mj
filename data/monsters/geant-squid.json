@@ -1,0 +1,47 @@
+{
+ "id": "geant-squid",
+ "name": "Giant Squid",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 120,
+ "hpFormula": "16d12+16",
+ "vitesse": "1,50 m, nage 24 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 5,
+  "SAG": 11,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "—",
+ "traits": "**Respiration d'eau.** Le calmar ne peut respirer que sous l'eau.",
+ "actionsText": "**Multiattaques.** Le calmar fait une attaque Bite et une attaque Tentacle.\n**Morceau.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 28 (4d10 + 6) dégâts perforants.\n**Tentacle.** Jet d'attaque au corps à corps : +9, allonge 4,50 m. Touché : 19 (3d8 + 6) dégâts contondants. Si la cible est une créature Énorme ou plus petite, elle a l'état agrippé (évasion DD 16) de l'un des deux tentacules, et le calmar peut tirer la cible jusqu'à 3 m droit vers lui-même.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "4d10+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 9,
+   "damage": "3d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/fecfea9dd8_monstre-geant-squid.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Géant Squid",
+ "saves": "FOR +9, DEX +5",
+ "skills": "Perception +6",
+ "reactions": "**Nuage d'encre (1/jour).** Déclencheur : Le calmar est endommagé sous l'eau. Réponse : Le calmar libère l'encre qui remplit un Cube 4,50 m centré sur lui-même, et le calmar se déplace jusqu'à sa vitesse de nage. Le Cube est très obscurci pendant 1 minute ou jusqu'à ce qu'un fort courant ou un effet similaire disperse l'encre."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "rats-skeletal",
+ "name": "Skeletal Rats",
+ "type": "Nuée de taille très petite (Mort-vivant)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 10,
+ "hp": 24,
+ "hpFormula": "7d8-7",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 11,
+  "CON": 9,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** L'essaim a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un petit rat. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Morceaux.** Attaque d'arme au corps à corps : +2 au toucher, allonge 0 m, une cible dans l'espace de l'essaim. Touché : 7 (2d6) dégâts perforants, ou 3 (1d6) dégâts perforants si l'essaim a la moitié de son points de vie ou moins.",
+ "attacks": [
+  {
+   "name": "Morceaux",
+   "bonus": 2,
+   "damage": "2d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0f5be85e18_monstre-rats-skeletal.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Rats Skeletal",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

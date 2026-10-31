@@ -1,0 +1,54 @@
+{
+ "id": "lhammaruntosz",
+ "name": "Lhammaruntosz",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal bon",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 19,
+ "hp": 212,
+ "hpFormula": "17d12+102",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 23,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 22",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Lhammaruntosz peut respirer de l'air et de l'eau.\n**Résistance légendaire (3/jour).** Si Lhammaruntosz échoue avec un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Régénération.** Lhammaruntosz retrouve 5 points de vie au début de son tour.\n**Découpe intérieure.** caractéristique d'incantation de Lhammaruntosz est Charisme (spell save DD 17). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Création de nourriture et d'eau, Détection des pensées, Nappe de brouillard, Communication avec les animaux\n**Détection orthographique.** Lhammaruntosz est un orthographe de niveau 8. Son caractéristique d'incantation est Charisme (sorption sauvegardez DD 17 ; +9 au toucher avec attaques de sort). Elle a préparé les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Lumière, Main de mage, Réparation\n- Niveau 1 (4 emplacements) : Charme-personne, Détection de la magie, Repli expéditif, Sommeil\n- Niveau 2 (3 emplacements) : Ténèbres, Invisibilité, Suggestion\n- Niveau 3 (3 emplacements) : Dissipation de la magie, Protection contre une énergie\n- Niveau 4 (2 emplacements) : Porte dimensionnelle, Peau de pierre",
+ "actionsText": "**Multiattaques.** Lhammaruntosz peut utiliser sa Présence effrayante. Elle fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 18 (2d10 + 7) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d6 + 7) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +12 au toucher, allonge 4,50 m, une cible. Touché : 16 (2d8 + 7) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix de Lhammaruntosz qui est dans 36 m d'elle et consciente d'elle doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la présence effrayante de Lhammaruntosz pendant les 24 prochaines heures.\n**Armes respiratoires (Recharge 5-6).** Lhammaruntosz utilise l'une des armes suivantes.\n**foudre Respiration.** Lhammaruntosz exhale la foudre dans une ligne 27 m qui est large de 1,50 m. Chaque créature dans cette ligne doit faire un DD 19 jet de sauvegarde de Dextérité, en prenant 66 (12d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Respiration.** Lhammaruntosz exhale l'énergie de répulsion dans un cône 9 m. Chaque créature dans cette zone doit réussir sur un DD 19 jet de sauvegarde de Force. Sur un sauvetage raté, la créature est poussée 18 m loin du dragon.\n**Modifier la forme.** Lhammaruntosz se polymorphe magiquement en un humanoïde ou une bête qui n'a pas un défi plus élevé que le sien, ou de nouveau dans sa forme réelle. Elle revient à sa vraie forme si elle meurt. Tout équipement qu'elle porte ou qu'elle porte est absorbé ou porté par le nouveau formulaire (le choix de Lhammaruntosz).\nDans une nouvelle forme, Lhammaruntosz conserve son alignement, points de vie, dés de vie, la capacité de parler, les compétences, la résistance légendaire, les actions de lair, et les scores Intelligence, Sagesse et Charisme, ainsi que cette action. Ses statistiques et ses capacités sont remplacées par celles du nouveau formulaire, à l'exception des caractéristiques de classe ou des actions légendaires de ce formulaire.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d10+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "2d6+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 12,
+   "damage": "2d8+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f842eb1b50_monstre-lhammaruntosz.webp",
+ "notes": "",
+ "source": "Essentials Kit: Sleeping Dragon's Wake (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +11, SAG +7, CHA +9",
+ "skills": "Perspicacité +7, Perception +12, Discrétion +5",
+ "immunities": "foudre",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, lhammaruntosz peut entreprendre l'une des actions ci-après.\n**Détecter.** Lhammaruntosz fait un test de Sagesse (Perception).\n**Attaque de queue.** Lhammaruntosz fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** Lhammaruntosz bat ses ailes. Chaque créature de 3 m de Lhammaruntosz doit réussir sur un DD 20 jet de sauvegarde de Dextérité ou prendre 14 (2d6 + 7) dégâts contondants et être à terre. Lhammaruntosz peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

@@ -1,0 +1,44 @@
+{
+ "id": "ombre-miroir",
+ "name": "Mirror Shade",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 13,
+ "hp": 91,
+ "hpFormula": "14d8+28",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Si l'ombre du miroir se trouve à l'intérieur de 1,50 m d'une surface réfléchissante, comme un miroir, une vitre ou encore de l'eau morte, elle présente un avantage sur son rouleau d'initiative. Si une créature n'a pas observé le mouvement ou l'acte de l'ombre du miroir, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que l'ombre du miroir n'est pas la propre réflexion de la créature.\n**Mouvement des miroirs.** L'ombre du miroir peut se déplacer le long de la surface d'objets réfléchissants ou translucides, comme les miroirs, sans provoquer d'attaques d'opportunité. Il peut se déplacer à travers des objets translucides comme s'ils étaient un terrain difficile.",
+ "actionsText": "**Multiattaques.** L'ombre du miroir fait deux attaques Phantasmal Strike et utilise Reflect Fear.\n**Grève fantôme.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts radiants plus 7 (2d6) dégâts psychiques.\n**Refléter la peur.** L'ombre miroir cible une créature il peut voir en 18 m de lui-même et projette une illusion de la plus grande peur de cette créature. La cible doit faire un DD 16 jet de sauvegarde de Sagesse. Lors d'une sauvegarde ratée, la cible prend 28 (8d6) dégâts psychiques et a l'état effrayé jusqu'au prochain virage de la nuance miroir. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Grève fantôme",
+   "bonus": 7,
+   "damage": "1d8+3",
+   "type": "radiant + psychique"
+  }
+ ],
+ "portrait": "/data/images/fa54a3f977_monstre-ombre-miroir.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Ombre miroir",
+ "saves": "DEX +7, SAG +5",
+ "skills": "Tromperie +8, Discrétion +7",
+ "resistances": "acide, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison, psychique, radiant",
+ "conditionImmunities": "aveuglé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "bonusActions": "**Miroir volant.** Alors que dans 1,50 m d'une surface réfléchissante, comme un miroir, l'ombre du miroir prend l'action Se cacher."
+}

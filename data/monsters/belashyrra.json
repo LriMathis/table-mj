@@ -1,0 +1,43 @@
+{
+ "id": "belashyrra",
+ "name": "Belashyrra",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 19,
+ "hp": 304,
+ "hpFormula": "32d8+160",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 24,
+  "DEX": 21,
+  "CON": 20,
+  "INT": 25,
+  "SAG": 22,
+  "CHA": 23
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 23",
+ "languages": "profond, télépathie 36 m",
+ "traits": "**Esprit étranger.** Si une créature essaie de lire les pensées de Belashyrra ou lui fournit dégâts psychiques, elle doit réussir sur un DD 22 jet de sauvegarde d'Intelligence ou être étourdi pendant 1 minute. La créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Voleur des yeux.** Belashyrra peut voir à travers les yeux de toutes les créatures dans 36 m de lui. Il peut utiliser son Rayon Eye à travers n'importe quelle créature dans 36 m de lui, comme s'il était dans l'espace de cette créature.\n**Résistance légendaire (3/jour).** Si Belashyrra échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Belashyrra a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** Belashyrra retrouve 20 points de vie au début de son tour. Si elle prend dégâts radiants, ce trait ne fonctionne pas au début de son tour suivant. Belashyrra meurt seulement si elle commence son tour avec 0 points de vie et ne se régénère pas.\n**Téléportation.** En tant qu'action bonus, Belashyrra peut téléporter jusqu'à 9 m vers un espace inoccupé qu'il peut voir.",
+ "actionsText": "**Multiattaques.** Belashyrra fait deux attaques avec ses griffes et utilise son Rayon Eye une fois.\n**Griffe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 17 (3d6 + 7) dégâts tranchants.\n**Rayon oculaire.** Belashyrra tire l'un des rayons oculaires magiques suivants de son choix, ciblant une créature il peut voir dans 36 m de lui:\n- **1. Rayon Psyché-Reconstruction** La cible doit faire un DD 22 jet de sauvegarde de Sagesse, en prenant 49 (9d10) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si ce dégâts réduit une créature à 0 points de vie, elle meurt et se transforme en spectateur sous le contrôle de Belashyrra et agit immédiatement après Belashyrra dans l'ordre d'initiative. La cible ne peut pas être retournée à sa forme originale par quelque moyen que ce soit en deçà d'un sort Souhait.\n- **2. Rayon de domination** La cible doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou être charmé par Belashyrra pendant 1 minute ou jusqu'à ce que la cible soit endommagée. Belashyrra peut émettre des commandes télépathiques à la créature charmé (aucune action requise), qu'elle fait de son mieux pour obéir.\n- **3. Rayon de faiblesse mentale** La cible doit réussir sur un DD 22 jet de sauvegarde d'Intelligence ou prendre 36 (8d8) dégâts psychiques et ne pas pouvoir lancer des sorts ou activer des éléments magiques pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **4. Rayon aveugle** La cible et chaque créature de 3 m doivent réussir sur un DD 22 jet de sauvegarde de Constitution ou prendre 19 (3d12) dégâts radiants et être aveuglé pendant 1 minute. Jusqu'à la fin de cette cécité, Belashyrra peut voir à travers les yeux de la créature aveuglé. La créature aveuglé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 14,
+   "damage": "3d6+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/0a1d962aac_monstre-belashyrra.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +14, SAG +13, CHA +13",
+ "skills": "Arcanes +14, Perception +13",
+ "resistances": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, épuisement, effrayé, empoisonné, à terre",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, belashyrra peut entreprendre l'une des actions ci-après.\n**Griffe.** Belashyrra fait une attaque de griffes.\n**Peur de l'implant (coûts 2 actions).** Belashyrra cible une créature qu'elle peut voir à l'intérieur de 18 m. La cible doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou prendre 22 (4d10) dégâts psychiques et utiliser immédiatement sa réaction, si disponible, pour se déplacer aussi loin que sa vitesse le permet à partir de Belashyrra.\n**Rend Reality (coûts 3 actions).** Belashyrra déchire les liens de la réalité dans sa zone immédiate. Chaque créature dans 3 m de Belashyrra doit réussir sur un DD 22 jet de sauvegarde de Constitution ou prendre 19 (3d12) dégâts de force et gagner un niveau d'épuisement."
+}

@@ -1,0 +1,46 @@
+{
+ "id": "rusted-behemoth",
+ "name": "Rusted Behemoth",
+ "type": "Créature artificielle",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 157,
+ "hpFormula": "15d12+60",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 10,
+  "CON": 19,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le Rusted fait trois attaques, en utilisant Slam ou Rusted Shot Put dans n'importe quelle combinaison.\n**Clamer.** Jet d'attaque au corps à corps : +10, allonge 3 m. Touché : 20 (4d6 + 6) dégâts contondants.\n**Coups de feu écrasés.** Jet d'attaque à distance : +10, portée 18/72 m. Touché : 15 (2d8 + 6) dégâts contondants, et la cible a l'état empoisonné jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "4d6+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Coups de feu écrasés",
+   "bonus": 10,
+   "damage": "2d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b5e54c3ea8_monstre-rusted-behemoth.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, pétrifié, empoisonné",
+ "reactions": "**Cache de rouille.** Déclencheur : Le Rusted est frappé par un jet d'attaque qui traite contondant, perforant, ou dégâts tranchants. Réponse : Jet de sauvegarde de Constitution : DD 16, chaque créature du choix du Rusted dans une Emanation 1,50 m originaire du Rusted. Échec : la cible a l'état empoisonné jusqu'à la fin du prochain tour de la cible."
+}

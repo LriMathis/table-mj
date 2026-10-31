@@ -1,0 +1,47 @@
+{
+ "id": "neige-golem",
+ "name": "Snow Golem",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 8,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 6,
+  "CON": 14,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "**froid absorption.** Chaque fois que le golem est soumis à dégâts de froid, il ne prend aucun dégâts et récupère plutôt un nombre de points de vie égal à la dégâts de froid traitée.\n**Formulaire immuable.** Le golem est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Faire fondre.** Alors que dans une zone de chaleur extrême, le golem perd 1d6 points de vie au début de chacun de ses tours.\n**Nature inhabituelle.** Le golem n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le golem fait trois attaques à la mêlée.\n**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants plus 7 (2d6) dégâts de froid.\n**Boule de neige.** Attaque d'arme à distance : +0 au toucher, portée 18 m, une cible. Touché : 9 (2d6 + 2) dégâts de froid.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant + froid"
+  },
+  {
+   "name": "Boule de neige",
+   "bonus": 0,
+   "damage": "2d6+2",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/d9afd2dec3_monstre-neige-golem.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Neige Golem",
+ "vulnerabilities": "feu",
+ "immunities": "froid, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "ferocidon",
+ "name": "Ferocidon",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 51,
+ "hpFormula": "6d10+18",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 13,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Perception passive 15",
+ "languages": "—",
+ "traits": "**Ponce.** Si le ferocidon se déplace au moins 9 m droit vers une créature et le frappe avec une attaque de griffe au même tour, cette cible doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, le ferocidon peut faire une attaque de morsure contre elle sous forme d'action bonus.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d10+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/31ae66a2f3_monstre-ferocidon.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5"
+}

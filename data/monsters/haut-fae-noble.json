@@ -1,0 +1,43 @@
+{
+ "id": "haut-fae-noble",
+ "name": "High Fae Noble",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 17,
+ "hp": 175,
+ "hpFormula": "27d8+54",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 13,
+  "DEX": 25,
+  "CON": 15,
+  "INT": 19,
+  "SAG": 18,
+  "CHA": 22
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 19",
+ "languages": "commun, sylvestre, télépathie 36 m",
+ "traits": "**Aura de la splendeur écrasante.** Le fae élevé rayonne de magie éblouissante et mollante. Chaque créature du choix de la haute fae qui commence son tour à l'intérieur de 1,50 m de la haute fae doit réussir sur une DD 19 jet de sauvegarde de Sagesse ou avoir l'état charmé jusqu'au début de son prochain tour. Alors que charmé, la créature a également l'état neutralisé.\n**Résistance légendaire (3/jour).** Si le fae élevé échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** La haute fae a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** La haute fae fait deux attaques de Fae Blade. Il peut remplacer l'une de ces attaques par la Soliloque stupéfiante si disponible.\n**Blade des Fae.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 20 (3d8 + 7) dégâts de force.\n**Soliloque stupéfiant (Recharge 5-6).** La haute fae libère une chaîne de mots magiques. Chaque créature du choix de la haute fae en 9 m doit réussir sur une DD 19 jet de sauvegarde de Sagesse ou avoir l'état étourdi pendant 1 minute. Une créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** La haute fae lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Détection de la magie, Prestidigitation, Suggestion\n- 1/jour chacun : Image majeure, Zone de vérité",
+ "attacks": [
+  {
+   "name": "Blade des Fae",
+   "bonus": 12,
+   "damage": "3d8+7",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/05eaa79949_monstre-haut-fae-noble.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Haut Fae noble",
+ "saves": "DEX +12, INT +9, SAG +9, CHA +11",
+ "skills": "Histoire +9, Perspicacité +14, Perception +9",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "reactions": "**Étape captive.** Immédiatement après avoir subi des dégâts, le haut fae a magiquement l'état invisible et téléports, ainsi que tout équipement qu'il porte ou transporte, dans un espace inoccupé qu'il peut voir en lui-même. L'invisibilité dure jusqu'à la fin du prochain tour de la haute fae.\n**Ridiculaire.** Lorsqu'une créature manque à la haute fée avec un jet d'attaque, la haute fée se moque magiquement de la créature, en distribuant 5 (2d4) dégâts psychiques à l'attaquant."
+}

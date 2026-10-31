@@ -1,0 +1,48 @@
+{
+ "id": "brusipha",
+ "name": "Brusipha",
+ "type": "Humanoïde (minotaure, occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "abyssal, commun",
+ "traits": "**Rituel démoniaque.** Brusipha peut passer 3 heures à accomplir un rituel qui appelle 1d3 + 1 barlguras ou 1 hezrou. Elle doit sacrifier une créature vivante moyenne ou plus grande à Baphomet pendant ce rituel, et le rituel ne peut être exécuté que la nuit. Les démons disparaissent à l'aube.\n**Rappel de Labyrinthine.** Brusipha peut parfaitement se rappeler n'importe quel chemin qu'elle a parcouru.",
+ "actionsText": "**Multiattaques.** Brusipha fait deux attaques Eldritch Blast.\n**Blast d'Eldritch.** Attaque de sort à distance : +5 au toucher, portée 36 m, une cible. Touché : 8 (1d10 + 3) dégâts de force.\n**Gore.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants plus 4 (1d8) dégâts nécrotiques. Si Brusipha a déplacé au moins 3 m droit vers la cible immédiatement avant qu'elle ne frappe, la cible prend un 4 (1d8) dégâts perforants supplémentaire, et si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou être poussée jusqu'à 3 m de Brusipha et avoir l'état à terre.\n**Inciter les chasseurs (recharges après un repos court ou long).** Brusipha permet à chaque allié au sein de 9 m d'elle-même qui a le caractère Unerring Tracker de faire une attaque d'arme comme une réaction contre la cible de cet allié Unerring Tracker.\n**Détection orthographique.** Brusipha lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Prestidigitation, Communication avec les animaux\n- 1/jour chacun : Malédiction, Injonction, Couronne du dément",
+ "attacks": [
+  {
+   "name": "Blast d'Eldritch",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "force"
+  },
+  {
+   "name": "Gore",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/92788750a8_monstre-brusipha.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "SAG +5, CHA +5",
+ "skills": "Tromperie +5, Perception +7, Religion +3",
+ "bonusActions": "**Déclenchement du tracker.** Brusipha crée magiquement un lien psychique avec une créature qu'elle peut voir. Pour l'heure suivante, Brusipha connaît la distance actuelle et la direction vers la cible si elle est sur le même plan d'existence. Le lien se termine si Brusipha a l'état neutralisé ou utilise cette capacité sur une cible différente.",
+ "reactions": "**Bénédiction de Baphomet.** Lorsque Brusipha réduit une créature hostile à 0 points de vie, elle gagne 8 points de vie temporaires."
+}

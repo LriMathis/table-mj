@@ -1,0 +1,50 @@
+{
+ "id": "dragon-adulte-solar",
+ "name": "Adult Solar Dragon",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 17,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "9 m, vol 27 m (vol stationnaire)",
+ "stats": {
+  "FOR": 24,
+  "DEX": 15,
+  "CON": 22,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 54 m, Perception passive 23",
+ "languages": "draconique",
+ "traits": "**Volée.** Le dragon ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.\n**Résistance légendaire (2/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Pensées nébuleuses.** Les tentatives magiques de lire l'esprit du dragon ou de glaner ses pensées échouent automatiquement.\n**Monstre de siège.** Le dragon inflige deux dégâts aux objets et aux structures.\n**Nature inhabituelle.** Le dragon n'a pas besoin d'air.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque Bite et une attaque Tail.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 4,50 m, une cible. Touché : 14 (2d6 + 7) dégâts perforants plus 7 (2d6) dégâts radiants.\n**Queue.** Attaque d'arme au corps à corps : +12 au toucher, allonge 6 m, une cible. Touché : 10 (1d6 + 7) dégâts contondants.\n**Respiration photonique (Recharge 5-6).** Le dragon exhale un mot clignotant d'énergie radieuse qui voyage jusqu'à un point que le dragon peut voir en lui-même en 54 m, puis s'épanouit dans une sphère 9 m -radius centrée sur ce point. Chaque créature dans la sphère doit faire un DD 19 jet de sauvegarde de Constitution, en prenant 55 (10d10) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d6+7",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 12,
+   "damage": "1d6+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/9c33d2b617_monstre-dragon-adulte-solar.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Dragon adulte solar",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +11, SAG +8, CHA +7",
+ "skills": "Perception +13, Discrétion +7",
+ "immunities": "radiant",
+ "conditionImmunities": "aveuglé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon adulte solar peut entreprendre l'une des actions ci-après.\n**Attaque de queue.** Le dragon fait une attaque de Tail.\n**L'explosion de lumière (coûts 2 actions).** Le dragon émet une lumière magique dans une sphère 9 m -radius centrée sur lui-même. Chaque créature dans cette zone doit réussir sur un DD 23 jet de sauvegarde de Sagesse ou être aveuglé jusqu'à la fin de son prochain tour."
+}

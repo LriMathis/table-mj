@@ -1,0 +1,40 @@
+{
+ "id": "trilobite-geant",
+ "name": "Trilobite (Giant)",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 15,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 9,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Amphibie.** La trilobite peut respirer l'air et l'eau.",
+ "actionsText": "**Griffe.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants, et la cible est agrippé (évasion DD 11). La trilobite a deux griffes, chacune ne pouvant être prise que par une cible.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4649418363_monstre-trilobite-geant.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "aka": "Trilobite ( géant )",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +4"
+}

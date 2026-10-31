@@ -1,0 +1,49 @@
+{
+ "id": "nabassu",
+ "name": "Nabassu",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 190,
+ "hpFormula": "20d8+100",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 14,
+  "CON": 21,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Ombres démons.** Le nabassu obscurcit la zone autour de son corps dans un rayon de 3 m. La lumière non magique ne peut pas éclairer cette zone de lumière faible.\n**Dévorez l'âme.** Un nabassu peut manger l'âme d'une créature qu'il a tuée dans la dernière heure, à condition que cette créature n'est ni un Construction ni un Mort. Le dévorant exige que le nabassu soit à l'intérieur de 1,50 m du corps pendant au moins 10 minutes, après quoi il gagne un nombre de dés de vie (d8s) égal à la moitié du nombre de dés de vie de la créature. Roulez ces dés, et augmentez le points de vie du nabassu par les nombres roulés. Pour chaque 4 dés de vie que le nabassu gagne de cette façon, ses attaques infligent 3 (1d6) de dégâts supplémentaires sur un coup. Le nabassu conserve ces prestations pendant 6 jours. Une créature dévorée par un nabassu ne peut être restaurée à la vie que par un sort Souhait.\n**Résistance magique.** Le nabassu a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le nabassu fait une attaque Bite et une attaque Claw, et il utilise Soul-Stealing Gaze.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 38 (5d12 + 6) dégâts nécrotiques.\n**Griffe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 28 (4d10 + 6) dégâts de force.\n**Gaz de chasse d'âme.** Le nabassu cible une créature il peut voir dans 9 m de lui. Si la cible n'est pas un Construct ou un Undead, elle doit réussir sur un DD 16 jet de sauvegarde de Charisme ou prendre 13 (2d12) dégâts nécrotiques. Le maximum de points de vie de la cible est réduit d'un montant égal au dégâts nécrotiques distribué, et le nabassu récupère points de vie égal à la moitié de ce montant. Cette réduction dure jusqu'à ce que la cible termine un repos court ou long. La cible meurt si son maximum de points de vie est réduit à 0, et si la cible est un Humanoïde, elle augmente immédiatement comme un Goule sous le contrôle du nabassu.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "5d12+6",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 11,
+   "damage": "4d10+6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/a2cd9fbe9b_monstre-nabassu.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +11, DEX +7",
+ "skills": "Perception +7",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

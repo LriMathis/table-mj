@@ -1,0 +1,40 @@
+{
+ "id": "gargouille",
+ "name": "Gargouille",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "skills": "Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné, épuisement, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "primordial (terreux)",
+ "traits": "**Repli aérien.** La gargouille ne provoque pas d’attaque d’Opportunité lorsqu’elle quitte la zone d’allonge d’un ennemi en volant.",
+ "actionsText": "**Attaques multiples.** La gargouille effectue deux attaques de Griffe.\n**Griffe.** Corps à corps : +4, allonge 1,50 m. Touché : 7 (2d4 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/73229f3b07_monstre-gargouille.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 140"
+}

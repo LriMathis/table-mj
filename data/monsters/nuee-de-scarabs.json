@@ -1,0 +1,41 @@
+{
+ "id": "nuee-de-scarabs",
+ "name": "Swarm of Scarabs",
+ "type": "Nuée de taille très petite (Bête)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m, creusement 9 m, escalade 9 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 1,
+  "SAG": 12,
+  "CHA": 1
+ },
+ "senses": "Perception des vibrations 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un scarabée minuscule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.\n**Squelettenize.** Si l'essaim commence son tour dans le même espace qu'une créature morte qui est grande ou plus petite, le cadavre est détruit, laissant derrière lui seulement l'équipement et les os (ou exosquelette).\n**Escalade des araignées.** L'essaim peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Morceaux cornéens.** Attaque d'arme au corps à corps : +4 au toucher, allonge 0 m, une cible dans l'espace de l'essaim. Touché : 14 (4d6) dégâts perforants, ou 7 (2d6) dégâts perforants si l'essaim a la moitié de son points de vie ou moins. Si la cible est une créature, les scarabées s'enfoncent dans son corps, et la créature prend 3 (1d6) dégâts perforants au début de chacun de ses tours. Toute créature peut utiliser une action pour tuer ou enlever les scarabées avec le feu ou une arme qui traite dégâts perforants, causant 1 dégâts du type approprié à la cible. Une créature réduite à 0 points de vie par le dégâts perforants de l'essaim meurt.",
+ "attacks": [
+  {
+   "name": "Morceaux cornéens",
+   "bonus": 4,
+   "damage": "4d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6a2972e131_monstre-nuee-de-scarabs.webp",
+ "notes": "",
+ "source": "Van Richten's Guide to Ravenloft (5e.tools, traduction automatique)",
+ "aka": "Nuée de Scarabs",
+ "caNote": "armure naturelle",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

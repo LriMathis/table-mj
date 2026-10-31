@@ -1,0 +1,42 @@
+{
+ "id": "slithering-tracker",
+ "name": "Slithering Tracker",
+ "type": "Vase",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m, escalade 9 m, nage 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 19,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 12",
+ "languages": "comprend les langues qu'il connaissait dans sa forme précédente mais ne peut pas parler",
+ "traits": "**Fausse apparence.** Si le traqueur en mouvement est immobile au début du combat, il a un avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le traqueur slithering se déplacer ou agir, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que le traqueur slithering n'est pas une flaque.\n**Forme liquide.** Le traqueur peut entrer dans l'espace d'un ennemi et s'arrêter là. Il peut également se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Escalade des araignées.** Le traqueur de slithering peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts contondants.\n**Leech de la vie.** Une créature grande ou plus petite que le traqueur de slithering peut voir à l'intérieur de 1,50 m doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou être agrippé (évasion DD 13). Jusqu'à ce que ce grappin se termine, la cible est entravé et incapable de respirer à moins qu'il puisse respirer de l'eau. En outre, la cible agrippé prend 16 (3d10) dégâts nécrotiques au début de chacun de ses tours. Le traqueur de slithering ne peut battre qu'une cible à la fois.\nPendant qu'il s'attaque à la cible, le traqueur en glissière ne prend que la moitié des dégâts qui lui sont infligés (arrondis), et la cible prend l'autre moitié.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/dd513e5059_monstre-slithering-tracker.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "skills": "Discrétion +8, Survie +6",
+ "vulnerabilities": "froid, feu",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "aveuglé, assourdi, épuisement, agrippé, paralysé, pétrifié, à terre, entravé, inconscient",
+ "bonusActions": "**Volée d'eau.** S'il est sous l'eau, le traqueur de slithering prend l'action Se cacher, et il rend le test de Dextérité (Discrétion) avec avantage."
+}

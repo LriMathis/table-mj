@@ -1,0 +1,55 @@
+{
+ "id": "berceau-du-colline-scion",
+ "name": "Cradle of the Hill Scion",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 19,
+ "hp": 402,
+ "hpFormula": "23d20+161",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 24,
+  "INT": 9,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "géant, primordial",
+ "traits": "**L'éveil des Scion.** Le berceau est un conteneur pour le Scion de Grolantor. Lorsque le berceau tombe à 0 points de vie, son corps s'écroule à la saleté et à la mousse. Le scion apparaît instantanément dans l'espace occupé par le berceau et utilise le nombre d'initiatives du berceau.\n**Résistance légendaire (5/jour).** Si le berceau échoue un jet de sauvegarde, il peut choisir de réussir.\n**Résistance magique.** Le berceau a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le berceau inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le berceau fait trois attaques Slam ou Spit Rock dans n'importe quelle combinaison et une attaque Grasping Root.\n**Clamer.** Attaque d'arme au corps à corps : +14 au toucher, allonge 6 m, une cible. Touché : 33 (4d12 + 7) dégâts contondants.\n**Roche à cracher.** Attaque d'arme à distance : +14 au toucher, portée 36 m, une cible. Touché : 25 (4d8 + 7) dégâts contondants, et la cible doit réussir sur un DD 22 jet de sauvegarde de Force ou avoir l'état à terre.\n**Racine de graspage.** Attaque d'arme au corps à corps : +14 au toucher, allonge 9 m, une créature pas agrippé par le berceau. Touché : la cible a l'état agrippé (évasion DD 17). Jusqu'à la fin du grappin, la cible prend 29 (4d10 + 7) dégâts contondants au début de chacun de ses tours. La racine a CA 19 et peut être coupée en lui fournissant 15 dégâts tranchants ou plus sur une seule attaque. Couper la racine ne fait pas de mal au berceau mais finit le grappin.\n**Rolling Hills (Recharge 6).** Le berceau crée magiquement une vague de terre qui s'étend d'un point sur le sol en 36 m de lui-même. La vague est longue jusqu'à 9 m, grande jusqu'à 9 m et large jusqu'à 9 m. Chaque créature dans l'onde doit faire un DD 22 jet de sauvegarde de Force. Sur une sauvegarde ratée, une créature prend 58 (9d12) dégâts contondants, a l'état à terre, et est enterrée sous la saleté. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.\nUne créature enterrée a l'état entravé, a 3, et ne peut pas respirer. En action, une créature enterrée de cette manière, ou une autre créature dans 1,50 m de celle-ci qui n'est pas enterrée, peut faire un DD 17 test de Force (Athlétisme). Lors d'un contrôle réussi, la créature enterrée n'a plus les conditions à terre ou entravé.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 14,
+   "damage": "4d12+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche à cracher",
+   "bonus": 14,
+   "damage": "4d8+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Racine de graspage",
+   "bonus": 14,
+   "damage": "4d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4d5b5a0022_monstre-berceau-du-colline-scion.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Berceau du colline Scion",
+ "caNote": "armure naturelle",
+ "saves": "SAG +10, CHA +7",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, paralysé, pétrifié, empoisonné, à terre"
+}

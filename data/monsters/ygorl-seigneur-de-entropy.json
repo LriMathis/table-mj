@@ -1,0 +1,51 @@
+{
+ "id": "ygorl-seigneur-de-entropy",
+ "name": "Ygorl, Lord of Entropy",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 20,
+ "hp": 325,
+ "hpFormula": "26d10+182",
+ "vitesse": "12 m, escalade 12 m, nage 12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 18,
+  "CON": 24,
+  "INT": 20,
+  "SAG": 16,
+  "CHA": 26
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 13",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Aura entropique.** Chaque créature qui n'est pas une construction ou un mort-vivant qui termine son tour dans 4,50 m d'Ygorl prend 14 (4d6) dégâts nécrotiques.\n**Résistance légendaire (3/jour).** Si Ygorl échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Ygorl a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** L'innée d'Ygorl caractéristique d'incantation est Charisme (save spell DD 23, +15 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Flétrissement, Clignotement, Éclair de chaos *, Détection de la magie, Vol, Bouclier\n- 1/jour chacun : Mot de pouvoir mortel, Mot de pouvoir étourdissant, Symbole (mort seulement), Ennemi subconscient\n- 2/jour chacun : Doigt de mort, Contamination, Prison mentale *\n- 3/jour chacun : Cercle de mort, Énervation *, Symbole (discorde seulement)\n* L'orthographe du Guide de tout de Xanathar",
+ "actionsText": "**Multiattaques.** Ygorl fait trois attaques : deux avec sa scythe, et une avec sa Touche Entropique.\n**Scythe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une créature. Touché : 18 (2d10 + 7) dégâts tranchants plus 19 (3d12) dégâts nécrotiques. Toute créature réduite à 0 points de vie par cette attaque meurt, avec son corps et tout ce qu'il porte et transporte, sauf des objets magiques, explosant dans un nuage de cendres. La créature ne peut être restaurée à la vie qu'au moyen d'un sort Souhait.\n**Touche entropique.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d8 + 7) dégâts nécrotiques, et la cible doit réussir sur un DD 22 jet de sauvegarde de Constitution ou gagner un niveau d'épuisement.\n**Invoquer Slaadi (1/jour).** Ygorl appelle la mort de 1d4 + 1. Un slaad convoqué apparaît dans un espace inoccupé à l'intérieur de 18 m d'Ygorl, agit comme un allié d'Ygorl, et ne peut pas convoquer d'autres slaadi. Il reste 1 minute, jusqu'à ce qu'il ou Ygorl meurt, ou jusqu'à ce qu'Ygorl le rejette comme une action.\n**Téléportation.** Ygorl téléporte, avec tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.",
+ "attacks": [
+  {
+   "name": "Scythe",
+   "bonus": 14,
+   "damage": "2d10+7",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Touche entropique",
+   "bonus": 14,
+   "damage": "2d8+7",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/9bcb50493d_monstre-ygorl-seigneur-de-entropy.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "aka": "Ygorl, seigneur de Entropy",
+ "caNote": "armure naturelle",
+ "saves": "FOR +14, CON +14, CHA +15",
+ "skills": "Arcanes +12, Tromperie +15, Intimidation +15, Persuasion +15",
+ "resistances": "acide, froid, feu, foudre, tonnerre",
+ "immunities": "nécrotique, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, ygorl, seigneur de entropy peut entreprendre l'une des actions ci-après.\n**Scythe.** Ygorl fait une attaque avec son faux.\n**Téléportation.** Ygorl utilise son action Teleport.\n**Appeler le vide (coûts 3 actions).** Chaque créature qui n'est pas une construction ou un mort-vivant dans 9 m d'Ygorl doit faire un DD 22 jet de sauvegarde de Constitution contre la tentative du seigneur de l'entropie de défaire la vie, en prenant 42 (12d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Ygorl récupère ensuite un nombre de points de vie égal à la moitié du total des dégâts causés par toutes les créatures touchées."
+}

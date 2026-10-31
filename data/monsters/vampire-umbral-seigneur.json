@@ -1,0 +1,50 @@
+{
+ "id": "vampire-umbral-seigneur",
+ "name": "Vampire Umbral Lord",
+ "type": "Mort-vivant",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 16,
+ "hp": 187,
+ "hpFormula": "22d8+88",
+ "vitesse": "12 m, escalade 12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 23",
+ "languages": "Commun plus trois autres langues",
+ "traits": "**Résistance légendaire (3/jour, ou 4/jour à Lair).** Si le vampire échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Évasion de l'ombre.** Si le vampire tombe à 0 points de vie en dehors de son lieu de repos, il se téléporte dans son lieu de repos à moins qu'il ne soit dans l'eau courante ou la lumière du soleil. S'il ne peut pas se téléporter, il est détruit. Une fois à l'intérieur de son lieu de repos, il a l'état paralysé pendant 1 heure, après quoi il retrouve 1 points de vie.\n**Faiblesse du vampire.** Le vampire a ces faiblesses :\n- **Interdiction** Le vampire ne peut entrer dans une résidence sans une invitation d'un occupant.\n- **Eau courante** Le vampire prend 20 dégâts d'acide s'il finit son tour dans l'eau courante.\n- **Attrapez le cœur** Si une arme qui traite dégâts perforants est jetée dans le cœur du vampire alors que le vampire a l'état neutralisé à son lieu de repos, le vampire a l'état paralysé jusqu'à ce que l'arme soit enlevée.\n- **Lumière solaire** Le vampire prend 20 dégâts radiants s'il commence son tour dans la lumière du soleil. En plein soleil, il présente un désavantage sur jets d'attaque et tests de caractéristique.\n**Beguile.** Le vampire lance Injonction, ne nécessitant pas de composants de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 18). Le vampire ne peut pas reprendre cette action avant le début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Le vampire fait deux attaques, en utilisant Grave Strike ou Sickening Ray dans n'importe quelle combinaison.\n**Grève grave.** Jet d'attaque au corps à corps : +10, allonge 1,50 m. Touché : 9 (1d8 + 5) dégâts tranchants plus 13 (3d8) dégâts nécrotiques.\n**Rayon qui s'affaiblit.** Jet d'attaque à distance : +10, portée 36 m. Touché : 16 (2d10 + 5) dégâts nécrotiques, et la cible a l'état empoisonné jusqu'au début du prochain tour du vampire.\n**Faim de Hadar (Recharge 5-6).** Le vampire lance Voracité de Hadar (version de niveau 5), ne nécessitant aucun composant de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 18).\n- 5/recharge : Voracité de Hadar (version de niveau 5)",
+ "attacks": [
+  {
+   "name": "Grève grave",
+   "bonus": 10,
+   "damage": "1d8+5",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Rayon qui s'affaiblit",
+   "bonus": 10,
+   "damage": "2d10+5",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/097919f10e_monstre-vampire-umbral-seigneur.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Vampire Umbral seigneur",
+ "saves": "FOR +10, DEX +9, SAG +8, CHA +10",
+ "skills": "Arcanes +9, Perception +13, Discrétion +9",
+ "immunities": "froid, nécrotique",
+ "conditionImmunities": "charmé, épuisement",
+ "bonusActions": "**Égoutter les sanguines.** Jet de sauvegarde de Constitution : DD 18, une créature le vampire peut voir à l'intérieur de 9 m qui n'est pas un Construction ou un Undead. Échec : 14 (4d6) dégâts nécrotiques. Le maximum de points de vie de la cible diminue d'un montant égal aux dégâts subis, et le vampire retrouve points de vie égal à ce montant.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, vampire umbral seigneur peut entreprendre l'une des actions ci-après.\n**Grève ombriale.** Le vampire se déplace jusqu'à la moitié de sa vitesse, et il fait une grève grave ou un coup de Ray."
+}

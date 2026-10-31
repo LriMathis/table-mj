@@ -1,0 +1,41 @@
+{
+ "id": "flamme-de-danse",
+ "name": "Dancing Flame",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "abyssal, commun, infernal, télépathie 18 m",
+ "traits": "**Bond télépathique.** La flamme ignore la restriction de portée sur sa télépathie lors de la communication avec une créature qu'elle a charmé. Les deux n'ont même pas besoin d'être sur le même plan d'existence.\n**Flamme.** La flamme apporte une lumière lumineuse dans un rayon de 6 m et une lumière faible pour un 6 m supplémentaire. Si elle quitte le hall ou est réduite à 0 points de vie, elle est détruite et ne peut pas se reformer pendant 24 heures.",
+ "actionsText": "**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts de feu.\n**Charme.** Un humanoïde que la flamme peut voir à l'intérieur de 9 m doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou être magiquement charmé pendant 1 jour. La cible charmé obéit aux commandes verbales ou télépathiques de la flamme. Si la cible souffre d'un dégâts ou reçoit une commande suicidaire, elle peut répéter le jet de sauvegarde, mettant fin à l'effet sur un succès. Si la cible enregistre avec succès contre l'effet, ou si l'effet sur elle se termine, la cible est immunisée contre le charme de cette flamme pendant les 24 prochaines heures.\nLa flamme peut avoir seulement une cible charmé à la fois. Si elle en charme un autre, l'effet sur la cible précédente se termine.\n**Le baiser drainant.** La flamme embrasse une créature charmé par elle ou une créature volontaire. La cible doit faire un DD 15 jet de sauvegarde de Constitution contre cette magie, en prenant 32 (5d10 + 5) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Le maximum de points de vie de la cible est réduit d'un montant égal aux dégâts subis. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/f830cbceae_monstre-flamme-de-danse.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Flamme de danse",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +9, Perspicacité +5, Perception +5, Persuasion +9, Discrétion +7",
+ "resistances": "froid, feu, foudre, poison, contondant, perforant, tranchant d'attaques non magiques"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "iarno-glasstaff-albrek",
+ "name": "Iarno \"Glasstaff\" Albrek",
+ "type": "Humanoïde (humain, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, draconique, nain, elfique",
+ "traits": "**Matériel spécial.** Glasstaff possède un Bâton de la défense (voir appendice B). Avec le personnel en main, il peut utiliser une action pour lancer le sort Armure de mage et utiliser sa réaction pour lancer le sort Bouclier.",
+ "actionsText": "**Multiattaques.** Glasstaff fait deux attaques de Shocking Burst.\n**C'est la première fois qu'on fait ça..** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 6 (1d6 + 3) dégâts de foudre.\n**Détection orthographique.** Glasstaff lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumière, Main de mage\n- 1/jour chacun : Charme-personne, Immobilisation de personne, Projectile magique",
+ "attacks": [
+  {
+   "name": "C'est la première fois qu'on fait ça.",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/eadccd9eee_monstre-iarno-glasstaff-albrek.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "saves": "INT +5, SAG +3",
+ "skills": "Arcanes +5, Histoire +5",
+ "bonusActions": "**Téléport (2/jour).** Glasstaff téléporte magiquement, avec tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

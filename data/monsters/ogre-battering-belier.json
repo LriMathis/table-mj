@@ -1,0 +1,40 @@
+{
+ "id": "ogre-battering-belier",
+ "name": "Ogre Battering Ram",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 11,
+ "hp": 76,
+ "hpFormula": "9d10+27",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "commun, géant",
+ "traits": "**Monstre de siège.** L'ogre inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** L'ogre fait deux attaques de Bash.\n**Bouffées.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts contondants, et l'ogre peut repousser la cible 1,50 m si la cible est énorme ou plus petite.",
+ "attacks": [
+  {
+   "name": "Bouffées",
+   "bonus": 6,
+   "damage": "2d10+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/661ddc3ea7_monstre-ogre-battering-belier.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Ogre Battering bélier",
+ "caNote": "Cache l'armure",
+ "reactions": "**Bloquez le chemin.** Lorsqu'une créature entre dans un espace à l'intérieur de 1,50 m de l'ogre, l'ogre fait une attaque Bash contre cette créature. Si l'attaque frappe, la vitesse de la cible est réduite à 0 jusqu'au début du prochain tour de l'ogre."
+}

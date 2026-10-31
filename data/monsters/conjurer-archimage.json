@@ -1,0 +1,41 @@
+{
+ "id": "conjurer-archimage",
+ "name": "Conjurer Archmage",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 16,
+ "hp": 225,
+ "hpFormula": "41d8+41",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "Commun plus cinq autres langues",
+ "traits": "**Résistance magique.** L'arcade a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'arcade fait quatre attaques d'Arcane Burst.\n**La Burst d'Arcane.** Jet d'attaque au corps à corps ou à distance : +10, allonge 1,50 m ou portée 45 m. Touché : 27 (4d10 + 5) dégâts de force.\n**Détection orthographique.** L'archétype lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection de la magie, Appel de familier, Armure de mage (inclus dans CA), Main de mage, Prestidigitation, Serviteur invisible\n- 1/jour chacun : Nuage incendiaire, Éclair (version de niveau 8), Changement de plan, Téléportation\n- 2/jour : Porte dimensionnelle",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 10,
+   "damage": "4d10+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/a2fd77fb73_monstre-conjurer-archimage.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "aka": "Conjurer archimage",
+ "skills": "Arcanes +15, Histoire +10, Perception +7",
+ "bonusActions": "**Transposition bénigne (3/jour).** L'arcade téléporte jusqu'à 9 m dans un espace inoccupé qu'elle peut voir. S'il choisit plutôt un espace à portée qui est occupé par une créature volontaire, ils téléportent tous les deux, échangeant des lieux.",
+ "reactions": "**Magie protectrice (3/jour).** L'arcade lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Contresort, Bouclier"
+}

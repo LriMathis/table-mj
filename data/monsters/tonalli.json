@@ -1,0 +1,39 @@
+{
+ "id": "tonalli",
+ "name": "Tonalli",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "deux langues différentes",
+ "traits": "**Éminence divine.** En tant qu'action bonus, Tonalli peut dépenser un emplacement de sort pour faire en sorte que ses attaques d'armes à la mêlée traitent magiquement un 10 (3d6) dégâts radiants supplémentaire à une cible sur un coup. Ce bénéfice dure jusqu'à la fin du tour. Si Tonalli dépense un emplacement de sort de niveau 2 ou plus, les dégâts supplémentaires augmentent de 1d6 pour chaque niveau au-dessus du 1er.\n**Détection orthographique.** Tonalli est un spellcaster de niveau 5. Son caractéristique d'incantation est Sagesse (save spell DD 13, +5 au toucher avec attaques de sort). Tonalli a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Lumière, Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Soins, Éclair traçant, Sanctuaire\n- Niveau 2 (3 emplacements) : Restauration partielle, Arme spirituelle\n- Niveau 3 (2 emplacements) : Dissipation de la magie, Esprits gardiens",
+ "actionsText": "**Mace.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b8fb84a6be_monstre-tonalli.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne",
+ "skills": "Médecine +7, Persuasion +3, Religion +5"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "poulet-abyssal",
+ "name": "Abyssal Chicken",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 10,
+ "hpFormula": "3d4+3",
+ "vitesse": "9 m, vol 9 m (voir le mauvais flier ci-dessous)",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 4,
+  "SAG": 9,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 9",
+ "languages": "comprend Abyssal mais ne peut pas parler",
+ "traits": "**Mauvais Flier.** Le poulet abyssal tombe à la fin d'un virage s'il est dans l'air et la seule chose qui le tient à l'écart est sa vitesse de vol.",
+ "actionsText": "**Multiattaques.** Le poulet abyssal fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d4 + 2) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8a4626b6a2_monstre-poulet-abyssal.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Poulet Abyssal",
+ "caNote": "armure naturelle",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, empoisonné"
+}

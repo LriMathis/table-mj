@@ -1,0 +1,47 @@
+{
+ "id": "giff-choc-trooper",
+ "name": "Giff Shock Trooper",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 18,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 13
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun",
+ "traits": "**Connaissance des armes à feu.** La maîtrise de ses armes par le Giff lui permet d'ignorer les biens de chargement de toute arme à feu.\n**Première charge.** Si le giff déplace au moins 6 m en ligne droite et se termine à l'intérieur de 1,50 m d'une créature grande ou plus petite, cette créature doit réussir sur un DD 16 jet de sauvegarde de Force ou prendre 7 (2d6) dégâts contondants et être à terre.\n**Monstre de siège.** Le giff inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le giff fait deux grandes paroles ou des attaques de mousquet.\n**Grande épée.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 15 (3d6 + 5) dégâts tranchants.\n**Mousquet.** Attaque d'arme à distance : +5 au toucher, portée 12/36 m., une cible. Touché : 15 (2d12 + 2) dégâts perforants.\n**Bombe tonnerre.** Le giff allume une bombe de taille pamplemousse et la jette à un point jusqu'à 18 m, où il explose. Chaque créature dans une sphère 3 m -radius centrée sur ce point doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 18 (4d8) dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Après que le giff lance la bombe, roulez un d6 ; sur un rouleau de 4 ou moins, le giff n'a plus de bombes à lancer.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 8,
+   "damage": "3d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Mousquet",
+   "bonus": 5,
+   "damage": "2d12+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/97b0d59a1d_monstre-giff-choc-trooper.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Giff choc Trooper",
+ "caNote": "plaque",
+ "saves": "FOR +8, CON +7, SAG +4",
+ "skills": "Athlétisme +8, Intimidation +7, Perception +4"
+}

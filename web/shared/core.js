@@ -108,8 +108,12 @@ function queueSave(key, fn) {
     if (ok && !pending && !Object.keys(timers).some(k => k.startsWith('save:'))) saveState('ok');
   }, 300);
 }
-function saveChar(c) { queueSave('c:' + c.id, () => api('PUT', '/api/character/' + c.id, c, { 'X-Base-Rev': String(S.rev || 0) })); }
+function saveChar(c) {
+  if (Array.isArray(c.inventory) && typeof applyInventory === 'function') applyInventory(c);   // armor class and weapon attacks follow the equipment
+  queueSave('c:' + c.id, () => api('PUT', '/api/character/' + c.id, c, { 'X-Base-Rev': String(S.rev || 0) }));
+}
 function saveMon(m) { queueSave('m:' + m.id, () => api('PUT', '/api/monster/' + m.id, m)); }
+function saveItem(x) { queueSave('i:' + x.id, () => api('PUT', '/api/item/' + x.id, x)); }
 function saveCamp() { queueSave('camp', () => api('PUT', '/api/campaign', S.camp, { 'X-Base-Rev': String(S.rev || 0) })); }
 function flushSaves() {
   for (const k of Object.keys(timers)) if (k.startsWith('save:')) { clearTimeout(timers[k]); delete timers[k]; }
@@ -126,9 +130,10 @@ function campDefaults(c) {
 }
 async function loadAll() {
   const d = await api('GET', '/api/all');
-  S.chars = d.characters || {}; S.mons = d.monsters || {}; S.camp = campDefaults(d.campaign || {}); S.rev = d.rev; S.sheetsDir = d.sheetsDir;
+  S.chars = d.characters || {}; S.mons = d.monsters || {}; S.items = d.items || {}; S.camp = campDefaults(d.campaign || {}); S.rev = d.rev; S.sheetsDir = d.sheetsDir;
   S.dataDir = d.dataDir; S.campMeta = d.campaignMeta || {}; S.campId = S.campMeta.id || null;
   const b = $('#camp-name'); if (b) b.textContent = S.campMeta.name || '';
+  if (typeof onCampaignLoaded === 'function') onCampaignLoaded();
 }
 const charList = () => Object.values(S.chars).sort((a, b) => (a.order ?? 99) - (b.order ?? 99) || a.name.localeCompare(b.name));
 const monList = () => Object.values(S.mons).sort((a, b) => a.name.localeCompare(b.name));
@@ -385,7 +390,7 @@ function groupOptions() {
   <optgroup label="${t('Saving throws')}">${STATS.map(s => `<option value="sv:${s}">${t('{ability} save', { ability: abbr(s) })}</option>`).join('')}</optgroup>`;
 }
 function skillBonus(c, sk) { if (c.skills && c.skills[sk] != null) return +c.skills[sk]; const ab = (SKILLS.find(s => s[0] === sk) || [])[1]; return mod(c.stats?.[ab]); }
-function saveBonus(c, ab) { return mod(c.stats?.[ab]) + ((c.saves || []).includes(ab) ? +c.prof || 0 : 0); }
+function saveBonus(c, ab) { return mod(c.stats?.[ab]) + ((c.saves || []).includes(ab) ? +c.prof || 0 : 0) + (+c.saveItemBonus || 0); }
 function bonusFor(c, key) {
   if (key === 'init') return [t('Initiative'), +c.initBonus || 0];
   const [k, v] = key.split(':');
@@ -440,7 +445,7 @@ async function syncTick() {
 
 async function boot() {
   S.isGM = true;
-  try { await Promise.all([loadAll(), loadSpells()]); } catch (e) { $('#main').innerHTML = `<div class="empty">${t('Cannot reach the server. Run <code>./start.sh</code> in the project folder.')}</div>`; return; }
+  try { await Promise.all([loadAll(), loadSpells(), loadItems()]); } catch (e) { $('#main').innerHTML = `<div class="empty">${t('Cannot reach the server. Run <code>./start.sh</code> in the project folder.')}</div>`; return; }
   if (!S.camp.seeded && typeof seedBestiary === 'function') { seedBestiary(); S.camp.seeded = true; saveCamp(); }
   try { S.info = await api('GET', '/api/info'); } catch (e) { S.info = null; }
   initDicePanel();

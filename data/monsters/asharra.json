@@ -1,0 +1,44 @@
+{
+ "id": "asharra",
+ "name": "Asharra",
+ "type": "Humanoïde (aarakocra)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 31,
+ "hpFormula": "7d8",
+ "vitesse": "6 m, vol 15 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 17,
+  "CHA": 11
+ },
+ "senses": "Perception passive 17",
+ "languages": "aérien, commun",
+ "traits": "**Attaque de plongée.** Si l'aarakocra vole et plonge au moins 9 m droit vers une cible et la frappe avec une attaque d'arme à la mêlée, l'attaque inflige 3 (1d6) de plus de dégâts à la cible.\n**Danse des Sept Vents.** Asharra connaît un rituel appelé la Danse des Sept Vents, qui accorde temporairement un vol magique à jusqu'à dix créatures non volantes. Le rituel, qui prend 10 minutes à compléter, ne peut être exécuté que par un aîné aarakocra et nécessite une orchidée noire comme composant matériel.\nAsharra doit broyer l'orchidée pour la poudrer, l'inhaler et danser en rond autour des bénéficiaires du rituel sans interruption tandis que sept autres aarakocra chantent des prières aux ducs du Vent d'Aaqa. Quand la danse se termine, les ailes d'Asharra disparaissent et elle perd la capacité de voler. Les bénéficiaires du rituel gagnent chacun une vitesse de vol magique de 9 m (leur permettant de voler 6 km par heure). Ce bénéfice dure 3 jours, après quoi les ailes d'Asharra réapparaissent et elle retrouve la capacité de voler.\n**Détection orthographique.** Asharra est un spellcaster de niveau 5. Son caractéristique d'incantation est Sagesse (save spell DD 13, +5 au toucher avec attaques de sort). Asharra a les sorts druides suivants préparés:\n- Sorts mineurs (à volonté) : Druidisme, Réparation, Flammes\n- Niveau 1 (4 emplacements) : Détection de la magie, Lueurs féeriques, Vague tonnante\n- Niveau 2 (3 emplacements) : Bourrasque, Immobilisation de personne, Restauration partielle\n- Niveau 3 (2 emplacements) : Appel de la foudre, Mur de vent",
+ "actionsText": "**Talon.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Invoquer Air Élémental.** Cinq aarakocra dans 9 m de l'autre peuvent par magie convoquer un Élémentaire de l'air. Chacun des cinq doit utiliser son action et son mouvement sur trois tours consécutifs pour effectuer une danse aérienne et doit maintenir concentration tout en agissant ainsi (comme si concentrating sur un sort). Lorsque les cinq ont terminé leur troisième tour de la danse, l'élémental apparaît dans un espace inoccupé au sein de 18 m. Elle est amicale envers eux et obéit à leurs commandements. Il reste pendant 1 heure, jusqu'à ce qu'il ou tous ses convocateurs meurent, ou jusqu'à ce que l'un de ses convocateurs le rejette comme un action bonus. Un convocateur ne peut plus jouer la danse tant qu'il n'a pas fini un repos court. Lorsque l'élémentaire retourne à l'avion élémentaire de l'air, n'importe quel aarakocra dans 1,50 m de celui-ci peut revenir avec lui.",
+ "attacks": [
+  {
+   "name": "Talon",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3006ac221b_monstre-asharra.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "skills": "Histoire +4, Perspicacité +5, Perception +7"
+}

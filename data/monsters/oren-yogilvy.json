@@ -1,0 +1,39 @@
+{
+ "id": "oren-yogilvy",
+ "name": "Oren Yogilvy",
+ "type": "Humanoïde (Mêlement de coeur fort)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 9,
+ "hpFormula": "2d6+2",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, halfelin",
+ "traits": "**Demi-vieillesse.** Oren peut se déplacer dans l'espace de toute créature d'une taille plus grande que la sienne.\n**Heureusement..** Lorsque Oren roule un 1 sur un jet d'attaque, test de caractéristique ou jet de sauvegarde, il peut reroller le jeu et doit utiliser le nouveau rouleau.\n**Résilience totale.** Oren a un avantage sur jet de sauvegarde contre le poison\n**Information sur le jeu de rôles.** Oren est venu à Nurthfurrow's End à la recherche d'un travail facile et l'a trouvé. Il chante pour son souper, boit comme un poisson, et erre dans les champs la nuit en rêvant de nouvelles paroles pour divertir les autres invités de l'auberge. Oren aime soulever des problèmes de temps en temps, mais il n'a pas un os méchant dans son corps.\nIdéal: \"La musique est la nourriture de l'âme.\"\nObligation : \"Tu m'as eu à \"Je peux t'offrir un verre.\"\nFaux : \"J'ai un don pour me mettre en danger. Heureusement que j'ai de la chance!\"",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d4 + 1) dégâts perforants. Duvessa n'a qu'un poignard.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9cc2a77d12_monstre-oren-yogilvy.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "skills": "Perception +2, Représentation +7, Persuasion +5",
+ "resistances": "poison"
+}

@@ -1,0 +1,44 @@
+{
+ "id": "bael",
+ "name": "Bael",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 18,
+ "hp": 189,
+ "hpFormula": "18d10+90",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 17,
+  "CON": 20,
+  "INT": 21,
+  "SAG": 24,
+  "CHA": 24
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 23",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Crainte.** Toute créature, autre qu'un diable, qui commence son tour dans 3 m de Bael doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou être effrayé de lui jusqu'au début de son prochain tour. Une créature réussit sur ce jet de sauvegarde automatiquement si Bael le souhaite ou s'il est neutralisé.\n**Résistance légendaire (3/jour).** Si Bael échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Bael a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** Bael retrouve 20 points de vie au début de son tour. S'il prend froid ou dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Bael meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Bael fait deux attaques Hellish Morningstar.\n**Hellish Morningstar.** Attaque d'arme au corps à corps : +13 au toucher, allonge 6 m, une cible. Touché : 16 (2d8 + 7) dégâts de force plus 9 (2d8) dégâts nécrotiques.\n**Commandement infernal.** Chacun des alliés de Bael au sein de 18 m de lui ne peut être charmé ou effrayé avant la fin de son prochain tour.\n**Téléportation.** Bael téléporte, avec tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.\n**Détection orthographique.** Bael lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 21):\n- À volonté : Modification d'apparence (peut devenir moyen), Charme-personne, Détection de la magie, Invisibilité, Image majeure\n- 1/jour : Domination de monstre\n- 3/jour chacun : Dissipation de la magie, Vol, Suggestion, Mur de feu",
+ "attacks": [
+  {
+   "name": "Hellish Morningstar",
+   "bonus": 13,
+   "damage": "2d8+7",
+   "type": "force + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/929a2226f1_monstre-bael.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "plaque",
+ "saves": "DEX +9, CON +11, INT +11, CHA +13",
+ "skills": "Intimidation +13, Perception +13, Persuasion +13",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, bael peut entreprendre l'une des actions ci-après.\n**Magie folle.** Bael utilise Spellcasting ou Teleport.\n**Commandement infernal.** Bael utilise le commandement infernal.\n**Attaque (coûts 2 actions).** Bael fait une attaque Hellish Morningstar."
+}

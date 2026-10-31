@@ -1,0 +1,40 @@
+{
+ "id": "vargouille",
+ "name": "Vargouille",
+ "type": "Fiélon",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 18,
+ "hpFormula": "4d4+8",
+ "vitesse": "1,50 m, vol 12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 4,
+  "SAG": 7,
+  "CHA": 2
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "comprend Abyssal, infernal, et toutes les langues qu'il connaissait avant de devenir une vargouille mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Malédiction abdominale.** La vargouille cible un humanoïde neutralisé à l'intérieur de 1,50 m. La cible doit réussir sur un DD 12 jet de sauvegarde de Charisme ou devenir maudite. La cible maudite perd 1 point de Charisme après chaque heure, car sa tête prend des aspects de folie. La malédiction n'avance pas pendant que la cible est en plein soleil ou dans la zone d'un sort Lumière du jour ; ne comptez pas ce temps. Quand le Charisme de la cible maudite devient 2, il meurt, et sa tête déchire de son corps et devient une nouvelle vargouille. Casting Délivrance des malédictions, Restauration supérieure, ou un sort similaire sur la cible avant que la transformation soit terminée peut mettre fin à la malédiction. Ce faisant, il annule les changements apportés à la cible par la malédiction.\n**Éblouissant Shriek (Recharge 5-6).** Les shrieks de la vargouille. Chaque Humanoïde et Bête dans 9 m de la vargouille et capable de l'entendre doit réussir sur une DD 12 jet de sauvegarde de Sagesse ou être effrayé de la vargouille jusqu'à la fin du prochain tour de la vargouille. Alors qu'effrayé de cette façon, une cible est étourdi. Si le jet de sauvegarde d'une cible est réussi ou si l'effet se termine pour elle, la cible est immunisée contre le Shriek stupéfiant de toutes les vargouilles pendant 1 heure.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/2adfbf3d60_monstre-vargouille.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

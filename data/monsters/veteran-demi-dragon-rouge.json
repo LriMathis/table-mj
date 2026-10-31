@@ -1,0 +1,52 @@
+{
+ "id": "veteran-demi-dragon-rouge",
+ "name": "Vétéran demi-dragon rouge",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "n'importe quel alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "caNote": "harnois",
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "skills": "Athlétisme +5, Perception +2",
+ "resistances": "feu",
+ "senses": "vision aveugle 3 m, vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, draconique",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le vétéran effectue deux attaques avec son épée longue. S'il a une épée courte en main, il peut également effectuer une attaque avec cette arme.\n**Épée longue.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 7 (1d8+3) dégâts tranchants ou 8 (1d10+3) dégâts tranchants si elle est maniée à deux mains.\n**Épée courte.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d6+3) dégâts perforants.\n**Arbalète lourde.** *Attaque d'arme à distance :* +3 pour toucher, portée 30/120 m, une cible. *Touché :* 6 (1d10+1) dégâts perforants.\n**Souffle de feu (recharge 5-6).** Le vétéran souffle du feu sur un cône de 4,50 mètres. Les créatures dans cette zone doivent chacune effectuer un jet de sauvegarde de Dextérité DD 15 ; elles subissent 24 (7d6) dégâts de feu en cas de jet de sauvegarde raté ou la moitié de ces dégâts seulement en cas de réussite.",
+ "portrait": "/data/images/3406583a73_monstre-veteran-demi-dragon-rouge.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 42 · image : Manuel des monstres p. 41",
+ "attacks": [
+  {
+   "name": "Épée longue",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Épée courte",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Arbalète lourde",
+   "bonus": 3,
+   "damage": "1d10+1",
+   "type": "perforant"
+  }
+ ]
+}

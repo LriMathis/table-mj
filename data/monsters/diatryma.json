@@ -1,0 +1,37 @@
+{
+ "id": "diatryma",
+ "name": "Diatryma",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 19,
+ "hpFormula": "3d10+3",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Bec.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d0ff6ed61f_monstre-diatryma.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)"
+}

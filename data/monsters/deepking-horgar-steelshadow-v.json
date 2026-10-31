@@ -1,0 +1,46 @@
+{
+ "id": "deepking-horgar-steelshadow-v",
+ "name": "Deepking Horgar Steelshadow V",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 20,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "senses": "Perception passive 10",
+ "languages": "draconique, géant, nain",
+ "traits": "**Résilience des duers.** Horgar a un avantage sur jet de sauvegarde contre le poison, les sorts et les illusions, ainsi que pour résister à être charmé ou paralysé.\n**Sensibilité à la lumière du soleil.** En plein soleil, Horgar a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Gantelets de puissance d'Ogre.** Horgar wields Gantelets de puissance d'ogre lui donnant un score Force de 19 (+4).\n**Brave.** Horgar a un avantage sur jet de sauvegarde contre effrayé.",
+ "actionsText": "**agrandir (recharges après un repos court ou long).** Pendant 1 minute, Horgar augmente magiquement sa taille, avec tout ce qu'il porte ou porte. Horgar est grand, il double ses dégâts en cas d'attaque à l'arme Force (inclus dans les attaques), et il en fait un avantage. Si Horgar manque de la pièce pour devenir grand, il atteint la taille maximale possible dans l'espace disponible.\n**Invisibilité (Recharges après un repos court ou long).** Horgar tourne magiquement invisible jusqu'à ce qu'il attaque, jette un sort, ou utilise son Agrandir, ou jusqu'à ce que son concentration soit cassé, jusqu'à 1 heure (comme si concentrating sur un sort). Tout équipement Horgar porte ou porte invisible avec lui.\n**Multiattaques.** Horgar fait deux attaques à la mêlée.\n**+2 Guerre.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts contondants, ou 11 (1d10 + 6) dégâts contondants si utilisé avec deux mains. Alors que Horgar est agrandi, les dégâts augmentent à 15 (2d8 + 6) ou 17 (2d10 + 6) dégâts contondants, respectivement.\n**Grosse arbalète.** Attaque d'arme à distance : +2 au toucher, portée 30/120 m., une cible. Touché : 5 (1d10) dégâts perforants.\n**Leadership (Recharges après un repos court ou long).** Pendant 1 minute, Horgar peut émettre une commande ou un avertissement spécial chaque fois qu'une créature non hostile qu'il peut voir dans 9 m de Horgar fait un jet d'attaque ou un jet de sauvegarde. La créature peut ajouter un d4 à son rouleau à condition qu'elle puisse entendre et comprendre Horgar. Une créature peut bénéficier d'un seul Leadership meurt à la fois. Cet effet se termine si Horgar est neutralisé.",
+ "attacks": [
+  {
+   "name": "+2 Guerre",
+   "bonus": 8,
+   "damage": "1d8+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 2,
+   "damage": "1d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6e7046b733_monstre-deepking-horgar-steelshadow-v.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Harnois nain",
+ "saves": "CON +4, SAG +2",
+ "reactions": "**Parry.** Horgar ajoute 2 à sa CA contre une attaque de mêlée qui le frapperait. Pour ce faire, Horgar doit voir l'agresseur et utiliser une arme à la mêlée."
+}

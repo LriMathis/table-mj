@@ -1,0 +1,45 @@
+{
+ "id": "regisaur",
+ "name": "Regisaur",
+ "type": "Monstruosité (dinosaure)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 17,
+ "hp": 181,
+ "hpFormula": "11d20+66",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 8,
+  "CON": 23,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "**Résistance magique.** Le regisaur a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le régisaur fait une attaque Bite et une attaque Tail. Le régisaur ne peut pas cibler la même créature avec les deux attaques.\n**Morceau.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 47 (6d12 + 8) dégâts perforants, et la cible a l'état agrippé (évasion DD 18). Jusqu'à ce que ce grappin se termine, la cible a l'état entravé, et le registrateur ne peut pas Bit une autre cible.\n**Queue.** Attaque d'arme au corps à corps : +13 au toucher, allonge 6 m, une cible. Touché : 26 (4d8 + 8) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 13,
+   "damage": "6d12+8",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 13,
+   "damage": "4d8+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/260d2af6fd_monstre-regisaur.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "bonusActions": "**Avalez.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une créature énorme ou plus petite agrippé par le régulateur. Touché : Le régisaur avale la cible, et le grappin se termine. Une créature avalée a les conditions aveuglé et entravé, elle a 3 contre les attaques et autres effets en dehors du registre, et elle prend 7 (2d6) dégâts d'acide au début de chacun de ses tours. Le régisaur peut avoir jusqu'à deux créatures avalées à la fois.\nSi le régisaur prend 25 dégâts ou plus sur un seul tour d'une créature avalée, le régisaur doit réussir sur un DD 16 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter la créature, qui tombe dans un espace à l'intérieur de 1,50 m du régisaur et a l'état à terre ; la créature n'a plus les conditions aveuglé et entravé."
+}

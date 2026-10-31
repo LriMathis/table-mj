@@ -1,0 +1,44 @@
+{
+ "id": "geant-des-nuages-fantome",
+ "name": "Cloud Giant Ghost",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 15,
+ "hp": 104,
+ "hpFormula": "16d12",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 27,
+  "DEX": 11,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "commun, géant",
+ "traits": "**Vue éthérée.** Le fantôme peut voir 36 m dans l'avion éthéré quand il est sur l'avion matériel, et vice versa.\n**Mouvement intégré.** Le fantôme peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Régénération.** Le fantôme retrouve 10 points de vie au début de son tour. Si le fantôme prend dégâts radiants ou endommage une arme magique, ce trait ne fonctionne pas au début du prochain tour du fantôme. Le fantôme meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Le fantôme fait deux attaques à la mêlée.\n**Arme spectrale.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts de force.\n**Éthérité.** Le fantôme entre dans l'avion éthéré du plan matériel, ou vice versa. Il est visible sur l'avion matériel alors qu'il est dans l'éthéré frontalier, et vice versa, mais il ne peut pas affecter ou être affecté par rien sur l'autre plan.\n**Hurlement du vent (Recharge 6).** Le fantôme émet un terrible hurlement qui appelle un vent froid et mordant. Ce vent engloutit jusqu'à trois créatures du choix du fantôme qu'il peut voir à l'intérieur de 18 m. Chaque cible est tirée vers 6 m vers le fantôme et doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 16 (3d10) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Le fantôme lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation et ne nécessitant aucun composant matériel :\n- À volonté : Nappe de brouillard\n- 1/jour : Contrôle du climat\n- 3/jour : Télékinésie",
+ "attacks": [
+  {
+   "name": "Arme spectrale",
+   "bonus": 12,
+   "damage": "3d8+8",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/ac5bf8c64f_monstre-geant-des-nuages-fantome.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Géant des nuages fantôme",
+ "caNote": "armure naturelle",
+ "saves": "SAG +7, CHA +7",
+ "skills": "Perception +7",
+ "resistances": "froid",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

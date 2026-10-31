@@ -1,0 +1,40 @@
+{
+ "id": "joster-mareet",
+ "name": "Joster Mareet",
+ "type": "Fiélon (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "abyssal, commun, infernal, télépathie 18 m",
+ "traits": "**Bond télépathique.** Joster Mareet ignore la restriction de portée sur sa télépathie lors de la communication avec une créature qu'il a charmé. Les deux n'ont même pas besoin d'être sur le même plan d'existence.\n**Changeur de forme.** Joster Mareet peut utiliser son action pour se polymorphiser en un humanoïde petit ou moyen, ou revenir dans sa forme réelle. Sans ailes, Joster Mareet perd sa vitesse de vol. Outre sa taille et sa vitesse, ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.",
+ "actionsText": "**Griffe (formulaire de fin seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Charme.** Un humanoïde Joster Mareet peut voir dans 9 m de lui doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou être magiquement charmé pendant 1 jour. La cible charmé obéit aux commandes verbales ou télépathiques de Joster Mareet. Si la cible souffre d'un dégâts ou reçoit une commande suicidaire, elle peut répéter le jet de sauvegarde, mettant fin à l'effet sur un succès. Si la cible enregistre avec succès contre l'effet, ou si l'effet sur elle se termine, la cible est immunisée contre le charme de ce fiend pendant les 24 prochaines heures.\nJoster Mareet ne peut avoir qu'une cible charmé à la fois. Si elle en charme un autre, l'effet sur la cible précédente se termine.\n**Le baiser drainant.** Joster Mareet embrasse une créature charmé par elle ou une créature volontaire. La cible doit faire un DD 15 jet de sauvegarde de Constitution contre cette magie, en prenant 32 (5d10 + 5) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Le maximum de points de vie de la cible est réduit d'un montant égal aux dégâts subis. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0.\n**Éthérité.** Joster Mareet entre magiquement dans l'Aviation Ethérée de l'Aviation Matérielle, ou vice versa.",
+ "attacks": [
+  {
+   "name": "Griffe (formulaire de fin seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ade130801a_monstre-joster-mareet.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +9, Perspicacité +5, Perception +5, Persuasion +9, Discrétion +7",
+ "resistances": "froid, feu, foudre, poison, contondant, perforant, tranchant d'attaques non magiques"
+}

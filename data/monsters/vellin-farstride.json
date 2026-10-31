@@ -1,0 +1,41 @@
+{
+ "id": "vellin-farstride",
+ "name": "Vellin Farstride",
+ "type": "Humanoïde (halfelin)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 20,
+ "hp": 195,
+ "hpFormula": "30d6+90",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 20,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 20",
+ "languages": "abyssal, commun, halfelin, infernal, télépathie 9 m",
+ "traits": "**Animaux de compagnie.** Vellin est accompagné d'Akela (Loup avec 18 points de vie). Vellin peut monter ou démonter Akela en utilisant 1,50 m de mouvement. En montage, Vellin peut commander Akela à Foncer, Se désengager et Esquiver. En outre, Vellin a un compagnon Chouette avec 3 points de vie. Au tour de Vellin, le hibou peut effectuer un survol sur une créature de son choix. La prochaine attaque de Vellin contre cette créature a un avantage.\n**Brave.** Vellin a un avantage sur jet de sauvegarde contre effrayé.\n**Tueuse de Fiend.** Lorsque Vellin frappe un Fiend avec une attaque d'arme, il distribue un 7 (2d6) dégâts radiants supplémentaire.\n**Audition et vue.** Vellin a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou la vue.\n**Matériel spécial.** Vellin dispose d'un mot-clé +1 (argenté) et d'un bouclier +1.",
+ "actionsText": "**Multiattaques.** Vellin fait trois attaques de Shortsword argenté.\n**Mots-clés argentés.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d6 + 6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mots-clés argentés",
+   "bonus": 10,
+   "damage": "1d6+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9750e4a7b5_monstre-vellin-farstride.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus, +1 bouclier",
+ "saves": "DEX +9, SAG +6",
+ "skills": "Tromperie +4, Nature +8, Perception +10, Persuasion +8, Discrétion +13, Survie +10",
+ "bonusActions": "**Échappement de Nimble.** Vellin peut prendre l'action Se désengager ou Se cacher."
+}

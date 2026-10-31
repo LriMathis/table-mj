@@ -1,0 +1,45 @@
+{
+ "id": "oie-geant",
+ "name": "Giant Goose",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 60,
+ "hpFormula": "8d10+16",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "comprend Giant et Sylvan mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'oie fait une attaque à bec et deux attaques à aile.\n**Bec.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 9 (2d6 + 2) dégâts contondants.\n**Aile.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d10 + 2) dégâts contondants, et la cible doit réussir sur un DD 12 jet de sauvegarde de Force ou avoir l'état à terre.\n**Honk tonnerre (Recharge 5-6).** Les poules d'oie avec un volume de partage des oreilles. Chaque autre créature de 9 m de l'oie doit faire un DD 12 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 16 (3d10) dégâts de tonnerre et a l'état assourdi jusqu'au prochain tour de l'oie. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement. Le honk peut être entendu dans 90 m.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "contondant"
+  },
+  {
+   "name": "Aile",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3dabf91d73_monstre-oie-geant.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Oie géant",
+ "skills": "Perception +6"
+}

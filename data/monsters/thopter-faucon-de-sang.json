@@ -1,0 +1,41 @@
+{
+ "id": "thopter-faucon-de-sang",
+ "name": "Thopter (Blood Hawk)",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 5
+ },
+ "senses": "Perception passive 14",
+ "languages": "—",
+ "traits": "**C'est la vue..** Le thoptère a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Tactiques de conditionnement.** Le thoptère a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du thoptère se trouve à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Bec.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ddd1ff4629_monstre-thopter-faucon-de-sang.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "aka": "Thopter ( faucon de sang )",
+ "skills": "Perception +4",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

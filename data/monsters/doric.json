@@ -1,0 +1,49 @@
+{
+ "id": "doric",
+ "name": "Doric",
+ "type": "Humanoïde (druide)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 19,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "commun, druidique, elfique, infernal, sylvestre",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Doric fait deux attaques en forme de griffe ou de Sling. Elle peut remplacer une attaque par une utilisation de Spellcasting.\n**Griffe façonnée.** Attaque de sort au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants.\n**Écharpe.** Attaque d'arme à distance : +6 au toucher, portée 9/36 m., une cible. Touché : 8 (2d4 + 3) dégâts contondants.\n**Détection orthographique.** Doric lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Messager animal, Sens animal, Communication avec les animaux\n- 2/jour chacun : Soins, Enchevêtrement, Lueurs féeriques, Vague tonnante",
+ "attacks": [
+  {
+   "name": "Griffe façonnée",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 6,
+   "damage": "2d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f0ccf773fd_monstre-doric.webp",
+ "notes": "",
+ "source": "Thieves' Gallery (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "INT +6, SAG +7",
+ "skills": "Perspicacité +7, Nature +6, Perception +7, Survie +7",
+ "resistances": "feu",
+ "bonusActions": "**Changement de forme (5/jour).** Doric se transforme magiquement en Bête avec une cote de défi de 3 ou moins ou en hiboux (voir le Monster Manual).\nDoric peut rester dans cette forme jusqu'à 2 heures. Elle peut choisir si son équipement tombe au sol, se mélange avec sa nouvelle forme, ou est porté par la nouvelle forme. Doric revient à sa vraie forme si elle est neutralisé ou meurt. Elle peut revenir à son vrai formulaire en utilisant un action bonus.\nAlors que Doric est transformée, son bloc stat est remplacé par le bloc stat de cette forme, sauf qu'elle garde son points de vie actuel, son maximum de points de vie, ce action bonus, son alignement et ses scores Intelligence, Sagesse et Charisme.",
+ "reactions": "**Répudiation de feu (3/jour).** Quand Doric est endommagée par une créature qu'elle peut voir en 18 m d'elle-même, elle engloutit magiquement la créature en flammes. La créature doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 16 (3d10) dégâts de feu sur l'échec de l'enregistrement, ou la moitié de ces dégâts sur un succès."
+}

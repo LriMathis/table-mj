@@ -1,0 +1,42 @@
+{
+ "id": "tyrannoeil",
+ "name": "Tyrannœil",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "caNote": "armure naturelle",
+ "hp": 180,
+ "hpFormula": "19d10+76",
+ "vitesse": "0 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "saves": "INT +8, SAG +7, CHA +8",
+ "skills": "Perception +12",
+ "conditionImmunities": "à terre",
+ "senses": "vision dans le noir 36 m, Perception passive 22",
+ "languages": "commun des profondeurs, profond",
+ "traits": "**Cône antimagie.** L'œil central du tyrannœil crée une zone d'antimagie, comme avec le sort *champ antimagie*, en forme de cône de 45 mètres. Au début de chacun de ses tours, le tyrannœil décide de la direction vers laquelle diriger le cône et choisit s'il l'active ou non. La zone fonctionne aussi contre les rayons oculaires du tyrannœil qui l'a activée.",
+ "actionsText": "**Morsure.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 14 (4d6) dégâts perforants.\n**Rayons oculaires.** Le tyrannœil tire trois des rayons oculaires magiques suivants (déterminez-les aléatoirement et relancez en cas de résultats identiques), en désignant une à trois cibles situées à 36 mètres ou moins de lui et dans son champ de vision :\n- *1. Rayon de charme.* Sagesse DD 16 ou charmée par le tyrannœil pendant 1 heure. Le charme est rompu prématurément si le tyrannœil la blesse.\n- *2. Rayon de paralysie.* Constitution DD 16 ou paralysée pendant 1 minute (nouveau jet à la fin de chacun de ses tours).\n- *3. Rayon de terreur.* Sagesse DD 16 ou terrorisée pendant 1 minute (nouveau jet à la fin de chacun de ses tours).\n- *4. Rayon de lenteur.* Dextérité DD 16. En cas d'échec, sa vitesse est réduite de moitié pendant 1 minute ; elle ne peut effectuer aucune réaction et ne peut faire qu'une action ou une action bonus lors de son tour (pas les deux). Nouveau jet à la fin de chacun de ses tours.\n- *5. Rayon de nécrose.* Constitution DD 16 : 36 (8d8) dégâts nécrotiques, moitié en cas de réussite.\n- *6. Rayon de télékinésie.* Si la cible est une créature : Force DD 16 ou le tyrannœil la déplace de 9 mètres maximum dans la direction de son choix ; elle est entravée jusqu'au début du prochain tour du tyrannœil ou jusqu'à ce qu'il soit neutralisé. Un objet de 150 kilos ou moins que personne ne porte est déplacé de 9 mètres maximum ; le tyrannœil peut ainsi manipuler un outil simple ou ouvrir une porte ou un récipient.\n- *7. Rayon de sommeil.* Sagesse DD 16 ou endormie et inconsciente pendant 1 minute ; elle se réveille si elle subit des dégâts ou si une autre créature utilise une action pour la réveiller. Sans effet sur les créatures artificielles et les morts-vivants.\n- *8. Rayon de pétrification.* Dextérité DD 16. En cas d'échec, elle commence à se transformer en pierre et elle est entravée ; elle doit retenter le jet à la fin de son prochain tour : réussite, l'effet prend fin ; échec, elle est pétrifiée jusqu'à ce qu'elle soit libérée par *restauration supérieure* ou une magie similaire.\n- *9. Rayon de désintégration.* Dextérité DD 16 ou 45 (10d8) dégâts de force. Si les dégâts réduisent ses points de vie à 0, son corps est désintégré. Un objet non magique ou une création de force magique de Grande taille ou plus petite est désintégré sans jet de sauvegarde ; pour une cible plus grande, le rayon désintègre un cube de 3 mètres d'arête.\n- *10. Rayon de mort.* Dextérité DD 16 ou 55 (10d10) dégâts nécrotiques. La cible meurt si le rayon réduit à 0 ses points de vie.",
+ "legendary": "Le tyrannœil peut effectuer 3 actions légendaires et il utilise alors à chaque fois le rayon oculaire décrit ici. Il ne peut effectuer qu'une seule action légendaire à la fois et uniquement à la fin du tour d'une autre créature. Le tyrannœil récupère au début de son tour l'utilisation des actions légendaires déjà effectuées.\n**Rayon oculaire.** Le tyrannœil utilise un rayon oculaire aléatoire.",
+ "portrait": "/data/images/0571b8ca0f_monstre-tyrannoeil.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 290 · image : Manuel des monstres p. 289",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "4d6",
+   "type": "perforant"
+  }
+ ]
+}

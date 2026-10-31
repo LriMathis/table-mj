@@ -1,0 +1,50 @@
+{
+ "id": "ayo-jabe-niveau-3",
+ "name": "Ayo Jabe (Tier 3)",
+ "type": "Humanoïde (rôdeur, Génase d'eau)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 20,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, gobelin, orc",
+ "traits": "**Amphibie.** Ayo peut respirer l'air et l'eau.\n**Matériel spécial.** Ayo a un harpon de raidium (voir appendice B). Si Ayo roule un 1 sur un jet d'attaque fait avec le harpon, elle doit réussir sur un DD 20 jet de sauvegarde de Charisme ou gagner 1 niveau d'épuisement.",
+ "actionsText": "**Multiattaques.** Ayo fait trois attaques Harpoon ou Longbow.\n**Ruidium Harpoon.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts perforants plus 7 (2d6) dégâts psychiques.\n**Longbow.** Attaque d'arme à distance : +8 au toucher, portée 45/180 m., une cible. Touché : 18 (3d8 + 5) dégâts perforants.\n**Détection orthographique.** Ayo lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 14) :\n- 1/jour chacun : Amitié avec les animaux, Liberté de mouvement, Baies nourricières, Passage sans trace, Protection contre une énergie",
+ "attacks": [
+  {
+   "name": "Ruidium Harpoon",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "perforant + psychique"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 8,
+   "damage": "3d8+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4992fca1d2_monstre-ayo-jabe-niveau-3.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Ayo Jabe (niveau 3)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "FOR +6, DEX +8",
+ "skills": "Athlétisme +6, Perception +6, Survie +6",
+ "resistances": "acide",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Reposition.** Ayo donne des ordres à un allié qu'elle peut voir au sein de 9 m elle-même. Si la cible peut voir ou entendre Ayo, elle peut dépenser sa réaction pour passer à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "punaise-de-feu-geante",
+ "name": "Punaise de feu géante",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "non aligné",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 4,
+ "hpFormula": "1d6+1",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 3
+ },
+ "resistances": "feu",
+ "senses": "Vision aveugle 9 m, Perception passive 8",
+ "languages": "aucune",
+ "traits": "**Illumination.** Le scarabée émet une Lumière vive sur un rayon de 3 m et une Lumière faible sur 3 m de plus.",
+ "actionsText": "**Morsure.** Corps à corps : +1, allonge 1,50 m. Touché : 1 dégât de feu.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 1,
+   "damage": "1",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/4d3c3c19b7_monstre-punaise-de-feu-geante.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet",
+ "aka": "Scarabée de feu géant (2024)"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "minsc-and-boo",
+ "name": "Minsc and Boo!",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 13,
+ "hp": 187,
+ "hpFormula": "22d8+88",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, sylvestre",
+ "traits": "**Boo, le hamster de l'espace géant miniature.** Boo est le compagnon animal de Minsc. Boo est un hamster spatial géant miniature et a les statistiques d'un Rat.\n**Ennemi préféré.** L'ennemi privilégié de Minsc est le mal. Lorsqu'il frappe une créature maléfique avec une attaque à la mêlée, il distribue un 7 (2d6) dégâts tranchants supplémentaire.\n**Sans déconner.** Au début de son tour, Minsc peut choisir d'obtenir un avantage sur toute l'arme de mêlée jets d'attaque pendant ce tour, mais jets d'attaque contre lui a un avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Minsc fait deux attaques de Grande-parole.\n**Grande épée.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c5630121d6_monstre-minsc-and-boo.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "FOR +9, CON +8",
+ "skills": "Athlétisme +9, Perception +4, Survie +8",
+ "bonusActions": "**Va chercher les yeux, Boo.** En action bonus, Minsc parle à Boo et gagne l'inspiration d'aller dans une furie berker, pendant 1 minute. Alors que dans cette fureur irritante Minsc gagne ce qui suit:\n- Minsc a un avantage sur tests de Force et jet de sauvegarde de Force.\n- Minsc gagne un bonus de +4 à jets de dégâts lors de l'utilisation d'une arme à melee.\n- Minsc a une résistance au bludgeoning, au perçage et au dégâts tranchants.\n- Minsc peut faire une seule attaque d'arme en tant qu'action bonus à chacun de ses tours.\n- Minsc ne peut pas être charmé ou effrayé. Si Minsc est charmé ou effrayé quand il entre dans sa fureur, l'effet est suspendu pour la durée de la rage\n- Si Minsc tombe à 0 points de vie et ne meurt pas carrément, il peut faire un DD 10 jet de sauvegarde de Constitution. S'il réussit, il passe à 1 points de vie. Chaque fois qu'il utilise cette fonctionnalité après la première, le DD augmente de 5. Après 24 heures, le DD est réinitialisé à 10.",
+ "reactions": "**Cours, Boo, cours.** Si Boo prend des dégâts, Minsc peut choisir de prendre les dégâts à la place."
+}

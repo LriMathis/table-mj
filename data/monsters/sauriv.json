@@ -1,0 +1,40 @@
+{
+ "id": "sauriv",
+ "name": "Sauriv",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 13,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 18,
+  "CHA": 16
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, draconique",
+ "traits": "",
+ "actionsText": "**Violeur.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ce2f095023_monstre-sauriv.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +7, Perspicacité +6, Persuasion +7",
+ "reactions": "**Parry.** Sauriv ajoute 2 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, Sauriv doit voir l'agresseur et manier une arme de mêlée."
+}

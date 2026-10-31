@@ -1,0 +1,41 @@
+{
+ "id": "ghallanda-troubleshooter",
+ "name": "Ghallanda Troubleshooter",
+ "type": "Humanoïde (halfelin)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 78,
+ "hpFormula": "12d6+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, halfelin",
+ "traits": "**C'est vrai..** Le dépanneur peut se déplacer dans l'espace de n'importe quelle créature qui est de plus grande taille, mais il ne peut pas s'arrêter là.",
+ "actionsText": "**Multiattaques.** Le dépanneur fait deux attaques empoisonné Dagger.\n**Dague empoisonné.** Jet d'attaque au corps à corps ou à distance : +5, allonge 1,50 m ou portée 6/18 m. Touché : 5 (1d4 + 3) dégâts perforants, et la cible a l'état empoisonné jusqu'au prochain tour du dépanneur.\n**Détection orthographique.** Le dépanneur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- 1/jour chacun : Sommeil, Serviteur invisible",
+ "attacks": [
+  {
+   "name": "Dague empoisonné",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1c4c836f6a_monstre-ghallanda-troubleshooter.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "saves": "DEX +5, CON +5, SAG +4, CHA +5",
+ "skills": "Perspicacité +4, Perception +4, Discrétion +5",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Échappement de Nimble.** Le dépanneur prend l'action Se désengager ou Se cacher."
+}

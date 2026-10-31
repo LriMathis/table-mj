@@ -1,0 +1,43 @@
+{
+ "id": "ame-shaker",
+ "name": "Soul Shaker",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 76,
+ "hpFormula": "8d10+32",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 8,
+  "CON": 18,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "télépathie 18 m",
+ "traits": "**Lure enthousiasmée (1/jour).** Le shaker d'âme peut lancer le sort Quête, ne nécessitant aucun composant de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 12).\n**Reconstruction.** Lorsque le shaker de l'âme est réduit à 0 points de vie, il explose en 7 (1d4 + 5) griffes rampantes. Après 6 (1d12) jours, si au moins deux de ces griffes rampantes sont en vie, ils se téléportent à l'emplacement de la mort du shaker de l'âme et fusionnent, sur quoi le shaker de l'âme reforme et retrouve toute sa points de vie.\n**Nature inhabituelle.** Le shaker d'âme n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Gras d'écrasement.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts contondants. Si la cible est une créature moyenne ou plus petite, c'est agrippé (évasion DD 15). Le shaker d'âme peut avoir seulement une créature agrippé de cette façon à la fois.",
+ "attacks": [
+  {
+   "name": "Gras d'écrasement",
+   "bonus": 7,
+   "damage": "2d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/486cf28138_monstre-ame-shaker.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "aka": "Âme Shaker",
+ "caNote": "armure naturelle",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "bonusActions": "**Consommer la vitalité.** Le shaker d'âme cible une créature qu'il lutte. Si la cible n'est pas un Construct ou un Undead, la cible doit réussir sur un DD 14 jet de sauvegarde de Constitution ou prendre 7 (2d6) dégâts nécrotiques. La maximum de points de vie de la cible est réduite d'une quantité égale à la dégâts nécrotiques prise, et le shaker d'âme retrouve la points de vie égale à cette quantité. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0."
+}

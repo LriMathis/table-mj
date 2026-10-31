@@ -1,0 +1,47 @@
+{
+ "id": "membre-de-secte-de-imprecation",
+ "name": "Cultist of Bane",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 142,
+ "hpFormula": "19d8+57",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 19,
+  "CHA": 15
+ },
+ "senses": "Perception passive 18",
+ "languages": "commun",
+ "traits": "**Survivant déterminé.** Le cultivateur retrouve 10 points de vie au début de chacun de ses tours s'il est en sang et possède au moins 1 points de vie.",
+ "actionsText": "**Multiattaques.** Le cultivateur fait trois attaques, en utilisant Gauntlet ou Oppressive Burst dans n'importe quelle combinaison. Il peut remplacer une attaque par une utilisation de Spellcasting pour lancer Domination de personne, si disponible.\n**Gantelet.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 17 (3d8 + 4) dégâts contondants.\n**Une crise d'oppressive.** Jet d'attaque à distance : +8, portée 36 m. Touché : 16 (2d10 + 5) dégâts psychiques, et la cible ne peut pas prendre Réactions avant le début du prochain tour du culte.\n**Détection orthographique.** Le cultivateur lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 16) :\n- 1/jour : Domination de personne\n- 2/jour chacun : Apaisement des émotions, Détection des pensées",
+ "attacks": [
+  {
+   "name": "Gantelet",
+   "bonus": 8,
+   "damage": "3d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Une crise d'oppressive",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/b7dddfee21_monstre-membre-de-secte-de-imprecation.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Membre de secte de imprécation",
+ "saves": "CON +7, SAG +8, CHA +6",
+ "skills": "Intimidation +6, Perception +8",
+ "reactions": "**Contre-attaque.** Déclencheur : Le culte est frappé par un jet d'attaque. Réponse : Le culte fait une attaque de gantelet ou de Burst oppressive contre la créature qui déclenche."
+}

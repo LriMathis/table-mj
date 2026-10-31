@@ -1,0 +1,43 @@
+{
+ "id": "orok",
+ "name": "Orok",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 5,
+ "hpFormula": "2d6-2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 15,
+  "CON": 9,
+  "INT": 8,
+  "SAG": 7,
+  "CHA": 8
+ },
+ "senses": "Perception passive 8",
+ "languages": "Les deux, commun",
+ "traits": "**Tactiques de conditionnement.** Orok a un avantage sur un jet d'attaque contre une créature si au moins un des alliés d'Orok est à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Écharpe.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0debfb157f_monstre-orok.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)"
+}

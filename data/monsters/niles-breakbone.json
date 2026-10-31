@@ -1,0 +1,40 @@
+{
+ "id": "niles-breakbone",
+ "name": "Niles Breakbone",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 15,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "deux langues différentes",
+ "traits": "",
+ "actionsText": "**Violeur.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/253f371ef4_monstre-niles-breakbone.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "skills": "Tromperie +5, Perspicacité +4, Persuasion +5",
+ "reactions": "**Parry.** Niles ajoute 2 à sa CA contre une attaque à la mêlée qui la frapperait. Pour ce faire, Nils doit voir l'agresseur et utiliser une arme de mêlée."
+}

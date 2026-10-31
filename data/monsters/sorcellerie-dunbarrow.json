@@ -1,0 +1,40 @@
+{
+ "id": "sorcellerie-dunbarrow",
+ "name": "Dunbarrow Witch",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 72,
+ "hpFormula": "16d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 20
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, sylvestre, et une langue",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La sorcière fait deux attaques poison Dagger. Il peut remplacer une de ces attaques par Spellcasting.\n**Dague poison.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants plus 21 (6d6) dégâts de poison.\n**Concoction polymorphe (1/jour).** La sorcière lance une bouteille de liquide à un point jusqu'à 6 m loin de lui-même, qui se brise dans un nuage de fumée magique qui remplit une sphère 3 m -radius. Chaque créature dans cette zone doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou se transformer en une créature, comme si sous les effets d'un sort Métamorphose, se transformait en l'une des formes suivantes (rouler un d4): 1, chauve-souris; 2, grenouille; 3, lézard; ou 4, rat. Cette transformation dure 1 heure ou jusqu'à ce que la créature tombe à 0 points de vie sous sa nouvelle forme.\n**Chardons écaillés.** La sorcière cible un point qu'elle peut voir en elle-même. L'air y se solidifie magiquement en une vitre miroir, puis se brise dans un cône 4,50 m originaire de ce point. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 25 (10d4) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** La sorcière lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Armure de mage (autoseulement), Prestidigitation\n- 1/jour chacun : Malédiction, Dissipation de la magie\n- 2/jour chacun : Messager animal, Charme-personne, Fou rire de Tasha",
+ "attacks": [
+  {
+   "name": "Dague poison",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/0aba1ce37a_monstre-sorcellerie-dunbarrow.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Sorcellerie Dunbarrow",
+ "saves": "SAG +5, CHA +8",
+ "skills": "Arcanes +6, Nature +6"
+}

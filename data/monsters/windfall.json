@@ -1,0 +1,44 @@
+{
+ "id": "windfall",
+ "name": "Windfall",
+ "type": "Humanoïde (barde, tieffelin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 19,
+ "hp": 323,
+ "hpFormula": "34d8+170",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 24,
+  "CON": 20,
+  "INT": 22,
+  "SAG": 18,
+  "CHA": 26
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 21",
+ "languages": "commun, draconique, infernal",
+ "traits": "**Visage éblouissant.** Un tableau brillant de couleurs chromatiques émane de Windfall, ce qui fait que jets d'attaque contre elle a un désavantage. Ce caractère cesse de fonctionner alors que Windfall a l'état neutralisé ou une vitesse de 0.\n**Résistance légendaire (3/jour).** Si Windfall échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Matériel spécial.** Windfall porte un manteau magique irisé qui a été spécialement conçu pour elle et imprégné de la puissance de Tiamat. Quand elle meurt, le manteau fonctionne comme un Robe prismatique.",
+ "actionsText": "**Multiattaques.** Windfall fait deux attaques de Rapier Chromatique et utilise Dragon's Fury une fois.\n**Rapier chromatique.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 11 (1d8 + 7) dégâts perforants plus 21 (6d6) acide, froid, feu, éclair, ou dégâts de poison (le choix de Windfall).\n**La fureur du Dragon.** Windfall cible une créature elle peut voir dans 18 m d'elle-même et déclenche une explosion d'irre magique. La cible doit faire un DD 23 jet de sauvegarde de Sagesse. Lors d'une sauvegarde ratée, la cible prend 36 (8d8) dégâts psychiques et a l'état effrayé jusqu'au prochain tour de Windfall. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement.\n**Détection orthographique.** Windfall lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 23) :\n- À volonté : Détection de la magie, Lumière, Thaumaturgie\n- 1/jour : Immobilisation de monstre\n- 2/jour chacun : Motif hypnotique, Communication à distance\n- 3/jour chacun : Fracassement, Serviteur invisible",
+ "attacks": [
+  {
+   "name": "Rapier chromatique",
+   "bonus": 14,
+   "damage": "1d8+7",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9d61bd0687_monstre-windfall.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir Studded",
+ "saves": "FOR +9, DEX +14, SAG +11, CHA +15",
+ "skills": "Arcanes +13, Tromperie +22, Perspicacité +18, Perception +11, Représentation +22, Persuasion +22, Escamotage +14",
+ "resistances": "acide, froid, feu, foudre, tonnerre",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Scintillation stupéfiante (Recharge 5-6).** La chute de vent émet un vaste éventail de couleurs de son manteau. Chaque créature au sein de 9 m de Windfall qui peut la voir doit réussir sur un DD 23 jet de sauvegarde de Constitution ou avoir l'état étourdi jusqu'au prochain tour de Windfall.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, windfall peut entreprendre l'une des actions ci-après.\n**Défendre la danse.** Le vent monte à sa vitesse sans provoquer d'attaques d'opportunités.\n**La flamme du dragon.** Éruptions de vent avec flammes multicolores et cible une créature qu'elle peut voir au sein de 9 m d'elle-même. La cible doit faire un DD 23 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, la cible subit 26 (4d12) dégâts d'un type choisi par Windfall: acide, froid, feu, foudre, ou poison. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts.\n**Lancer un sort (coûts 2 actions).** La chute de vent utilise la projection orthographique."
+}

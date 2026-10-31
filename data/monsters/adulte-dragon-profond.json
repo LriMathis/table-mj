@@ -1,0 +1,44 @@
+{
+ "id": "adulte-dragon-profond",
+ "name": "Adult Deep Dragon",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 161,
+ "hpFormula": "17d12+51",
+ "vitesse": "12 m, creusement 9 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 16,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 45 m, Perception passive 21",
+ "languages": "commun, draconique, commun des profondeurs",
+ "traits": "**Résistance légendaire (3/jour, ou 4/jour à Lair).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon fait trois attaques Rend.\n**Rend.** Jet d'attaque au corps à corps : +9, allonge 3 m. Touché : 14 (2d8 + 5) dégâts tranchants plus 5 (1d10) dégâts de poison.\n**Respiration de cauchemar (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 15, chaque créature dans un cône 9 m. Échec : 38 (7d10) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin du prochain tour du dragon. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/2a7351865f_monstre-adulte-dragon-profond.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Adulte dragon profond",
+ "saves": "DEX +6, SAG +7",
+ "skills": "Perception +11, Discrétion +10",
+ "resistances": "poison, psychique",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "bonusActions": "**Forme-filtre.** La forme du dragon se transforme en humanoïde petit ou moyen ou en petite ou moyenne bête, ou elle revient à sa forme véritable. Ses statistiques de jeu, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, adulte dragon profond peut entreprendre l'une des actions ci-après.\n**Ponce.** Le dragon se déplace jusqu'à la moitié de sa vitesse, et il fait une attaque Rend.\n**Spore Salvo.** Jet de sauvegarde de Constitution : DD 15, une créature à l'intérieur de 9 m du dragon qu'il peut voir. Échec : 13 (3d8) dégâts de poison, et la cible a l'état empoisonné. Il répète l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur lui-même sur un succès. Après 1 minute, il réussit automatiquement. Échec ou réussite : Le dragon ne peut pas reprendre cette action avant le début de son prochain tour."
+}

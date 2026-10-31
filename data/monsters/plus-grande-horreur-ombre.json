@@ -1,0 +1,48 @@
+{
+ "id": "plus-grande-horreur-ombre",
+ "name": "Greater Shadow Horror",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 13,
+ "hp": 170,
+ "hpFormula": "20d12+40",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "—",
+ "traits": "**Mouvement intégré.** L'horreur peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance légendaire (2/jour).** Si l'horreur échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Vols d'ombre.** Alors que dans la lumière sombre ou sombre, l'horreur peut prendre l'action Se cacher comme un action bonus.\n**Fardeau d'ombre.** En tant qu'action bonus, l'horreur peut entrer dans une ombre à l'intérieur de 1,50 m et apparaît magiquement dans un espace inoccupé à l'intérieur de 1,50 m d'une seconde ombre qui est jusqu'à 18 m. Les deux ombres doivent être jetées par une créature ou un objet moyen ou plus grand.\n**Sensibilité à la lumière du soleil.** En plein soleil, l'horreur a un désavantage sur jets d'attaque et sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** L'horreur fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 21 (4d8 + 3) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 17 (4d6 + 3) dégâts tranchants, et la cible doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être effrayé de l'horreur jusqu'à la fin du prochain tour de la cible.\n**Ombres battantes (Recharge 5-6).** Chaque créature au sein de 18 m de l'horreur, sauf les autres horreurs, doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 36 (8d8) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "4d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "4d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d2baf51344_monstre-plus-grande-horreur-ombre.webp",
+ "notes": "",
+ "source": "Adventures in the Forgotten Realms: The Hidden Page (5e.tools, traduction automatique)",
+ "aka": "Plus grande horreur ombre",
+ "skills": "Perception +7, Discrétion +11",
+ "vulnerabilities": "radiant",
+ "conditionImmunities": "effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, plus grande horreur ombre peut entreprendre l'une des actions ci-après.\n**Griffe.** L'horreur fait une attaque à l'arme.\n**Glisse.** L'horreur monte à 6 m sans provoquer d'attaques d'opportunités.\n**Frighten Foe (coûts 2 actions).** L'horreur cible un ennemi qu'il peut voir dans 9 m de lui. Si la cible peut la voir et l'entendre, la cible doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être effrayé jusqu'à la fin du prochain tour de l'horreur."
+}

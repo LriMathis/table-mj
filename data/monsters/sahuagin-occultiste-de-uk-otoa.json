@@ -1,0 +1,52 @@
+{
+ "id": "sahuagin-occultiste-de-uk-otoa",
+ "name": "Sahuagin Warlock of Uk'otoa",
+ "type": "Humanoïde (sahuagine)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m, nage 12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 11,
+  "INT": 8,
+  "SAG": 8,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 9",
+ "languages": "commun, sahuagin",
+ "traits": "**Frénésie sanguine.** Le warlock a avantage sur melee jets d'attaque contre toute créature qui n'a pas tout son points de vie.\n**Amphibie limitée.** Le sorcier peut respirer de l'air et de l'eau, mais il doit être submergé au moins une fois toutes les 4 heures pour éviter l'étouffement.\n**Télépathie des requins.** Le sorcier peut par magie commander n'importe quel requin au sein de 36 m, en utilisant une télépathie limitée.\n**Découpe intérieure.** Le warlock innate caractéristique d'incantation est Charisme (spell save DD 13, +5 au toucher with attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Décharge occulte (voir \"Actions\" ci-dessous), Illusion mineure\n- 1/jour chacun : Armure d'Agathys, Tentacules de Hadar, Contresort, Couronne du dément, Invisibilité, Voracité de Hadar",
+ "actionsText": "**Multiattaques.** Le sorcier fait deux attaques : une avec sa morsure et une avec son épée de Fathoms.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d4 + 2) dégâts perforants.\n**Épée de Fathoms.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d10 + 2) dégâts tranchants, et si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Constitution ou commencer à s'étouffer. La créature qui s'étouffe est neutralisé jusqu'à la fin de son prochain tour, lorsque l'effet se termine sur elle.\n**Blast d'Eldritch (sort mineur).** Attaque de sort à distance : +5 au toucher, portée 36 m, une créature. Touché : 5 (1d10) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Épée de Fathoms",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Blast d'Eldritch (sort mineur)",
+   "bonus": 5,
+   "damage": "1d10",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/962c1c4d9c_monstre-sahuagin-occultiste-de-uk-otoa.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Sahuagin occultiste de Uk'otoa",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +1, Persuasion +5"
+}

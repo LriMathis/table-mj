@@ -1,0 +1,33 @@
+{
+ "id": "marionnette-halaster",
+ "name": "Halaster Puppet",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Susceptibilité antimagique.** La marionnette est détruite si un sort Dissipation de la magie réussi (DD 15) est jeté sur elle",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/ec62286121_monstre-marionnette-halaster.webp",
+ "notes": "points de vie : 8",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Marionnette Halaster",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "effrayé, épuisement"
+}

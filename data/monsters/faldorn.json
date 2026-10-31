@@ -1,0 +1,39 @@
+{
+ "id": "faldorn",
+ "name": "Faldorn",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 11,
+ "hp": 130,
+ "hpFormula": "20d8+40",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 20,
+  "CHA": 15
+ },
+ "senses": "Perception passive 20",
+ "languages": "commun, druidique, elfique, sylvestre",
+ "traits": "**Le personnel des Woodlands.** Cette équipe peut être maniée comme un quarterstaff magique qui accorde un bonus +2 à l'attaque et jets de dégâts fait avec elle et accorde Faldorn un bonus +2 pour épeler jets d'attaque (déjà pris en compte dans les attaques de Faldorn). Le personnel a 10 charges. Il reprend 1d6 + 4 dépensé charges chaque aube. Faldorn peut utiliser une action pour dépenser 1 ou plus des charges du personnel pour jeter l'un des sorts suivants à partir de lui, avec un DD de sauvegarde des sorts de 14:\n- 0 frais: Passage sans trace\n- 1 charge chacun: Amitié avec les animaux, Communication avec les animaux\n- 2 frais chacun: Peau d'écorce, Localisation d'animaux ou de plantes\n- 3 frais: Communication avec les plantes\n- 5 frais: Éveil\n- 6 frais: Mur d'épines",
+ "actionsText": "**Multiattaques.** Faldorn fait deux attaques du personnel des Woodlands et utilise Spellcasting. Ou elle utilise Spellcasting puis change de forme si disponible.\n**Le personnel des Woodlands.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants, ou 7 (1d8 + 3) dégâts contondants s'ils sont dotés de deux mains plus 7 (2d6) dégâts d'acide.\n**Lumière de l'ombre (Recharge 6).** Un faisceau d'éclairage graduel émerge de Faldorn dans une ligne longue 90 m large de 1,50 m. Chaque créature dans la ligne doit faire un jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 27 (6d8) dégâts radiants et est aveuglé jusqu'au prochain tour de Faldorn. Sur une sauvegarde réussie, il prend la moitié de ces dégâts et n'est pas aveuglé.\n**Forme du changement (2/jour).** Faldorn magiquement polymorphe en Bête ou Elemental avec une cote de défi de 6 ou moins, et peut rester dans cette forme jusqu'à 9 heures. Faldorn revient à sa vraie forme si elle meurt ou tombe inconscient. Elle peut revenir à son vrai formulaire en utilisant un action bonus à son tour. Alors que dans une nouvelle forme, Faldorn conserve ses statistiques de jeu et sa capacité à parler, mais ses CA, modes de mouvement, Force, et Dextérité sont remplacés par ceux de la nouvelle forme, et elle gagne des sens spéciaux, des compétences, des traits, des actions et des réactions (à l'exception des caractéristiques de classe, des actions légendaires et des actions de lair) que la nouvelle forme a mais qu'elle manque. Elle peut jeter ses sorts avec des composants verbaux ou somatiques dans sa nouvelle forme. Les attaques de la nouvelle forme sont magiques pour surmonter les résistances et l'immunité aux attaques non magiques.\n**Détection orthographique.** Faldorn lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Druidisme, Bouffée de poison, Gourdin magique\n- 1/jour chacun : Prémonition, Guérison\n- 2/jour chacun : Enchevêtrement, Localisation de créature, Communication avec les animaux, Peau de pierre, Passage par les arbres, Respiration aquatique",
+ "attacks": [
+  {
+   "name": "Le personnel des Woodlands",
+   "bonus": 8,
+   "damage": "1d6+3",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/f7b2432e2e_monstre-faldorn.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "saves": "INT +6, SAG +10",
+ "skills": "Médecine +10, Nature +11, Perception +10, Survie +15"
+}

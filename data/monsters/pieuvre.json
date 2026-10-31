@@ -1,0 +1,39 @@
+{
+ "id": "pieuvre",
+ "name": "Pieuvre",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 3,
+ "hpFormula": "1d6",
+ "vitesse": "1,5 m, nage 9 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "skills": "Discrétion +6, Perception +2",
+ "senses": "Vision dans le noir 9 m, Perception passive 12",
+ "languages": "aucune",
+ "traits": "**Compression.** La pieuvre peut se déplacer dans un espace étroit d’une largeur minimale de 2,5 cm sans dépense supplémentaire en déplacement.\n**Respiration aquatique.** La pieuvre ne peut respirer que sous l’eau.",
+ "actionsText": "**Tentacules.** Corps à corps : +4, allonge 1,50 m. Touché : 1 dégât contondant.",
+ "reactions": "**Nuage d’encre (1/jour).** Déclencheur : une créature termine son tour dans un rayon de 1,50 m de la pieuvre alors que celle-ci est sous l’eau. Conséquences : la pieuvre libère de l’encre qui remplit un Cube de 1,50 m centré sur elle, puis elle se déplace à concurrence de sa Vitesse de nage. Le Cube est à Visibilité nulle pendant 1 minute ou jusqu’à ce qu’un fort courant ou un effet similaire disperse l’encre.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 4,
+   "damage": "1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/969b111c53_monstre-pieuvre.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

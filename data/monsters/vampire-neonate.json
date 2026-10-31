@@ -1,0 +1,47 @@
+{
+ "id": "vampire-neonate",
+ "name": "Vampire Neonate",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun",
+ "traits": "**Régénération.** Le vampire retrouve 10 points de vie au début de son tour s'il a au moins 1 points de vie. Si le vampire prend dégâts radiants ou des dégâts de l'eau bénite, ce trait ne fonctionne pas au début du prochain tour du vampire.",
+ "actionsText": "**Multiattaques.** Le vampire fait deux attaques, dont une seule peut être une attaque mordue.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 8 (2d4 + 3) dégâts tranchants. Au lieu d'infliger des dégâts, le vampire peut faire face à la cible (évasion DD 13).\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature volontaire, ou une créature qui est agrippé par le vampire, neutralisé, ou entravé. Touché : 6 (1d6 + 3) dégâts perforants plus 7 (2d6) dégâts nécrotiques. Le maximum de points de vie de la cible est réduit d'un montant égal au dégâts nécrotiques pris, et le vampire retrouve le points de vie égal à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0.\n**Glamère vampire.** Le vampire obscurcit sa forme avec la magie qui affecte l'esprit qui fait que les autres la perçoivent comme un bel homme de la même taille et de la même forme. L'illusion se termine si le vampire prend un action bonus pour y mettre fin ou si le vampire meurt. Une créature qui peut voir le vampire peut prendre une action pour l'inspecter visuellement, mettant fin à l'effet mental sur elle-même et voyant la vraie forme du vampire avec un succès DD 20 test de Sagesse (Perception).\n**Aura du silence.** Le vampire se cache dans un manteau de silence à un rayon de 0,60 m. Dans ce rayon, l'effet est le même que le sort Silence.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "2d4+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/5681efe822_monstre-vampire-neonate.webp",
+ "notes": "",
+ "source": "PSI (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, SAG +3",
+ "skills": "Perception +3, Discrétion +6",
+ "resistances": "nécrotique, contondant, perforant, tranchant à partir d'attaques non magiques non faites avec des armes en bois vivant"
+}

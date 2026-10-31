@@ -1,0 +1,40 @@
+{
+ "id": "abyssal-wretch",
+ "name": "Abyssal Wretch",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 18,
+ "hpFormula": "4d8",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 5,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 9",
+ "languages": "comprend Abyssal mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f14e4b7d36_monstre-abyssal-wretch.webp",
+ "notes": "",
+ "source": "Mordenkainen's Tome of Foes (5e.tools, traduction automatique)",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

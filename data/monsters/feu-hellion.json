@@ -1,0 +1,43 @@
+{
+ "id": "feu-hellion",
+ "name": "Fire Hellion",
+ "type": "Fiélon (diable)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 175,
+ "hpFormula": "14d12+84",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 23,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 21
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "commun, géant, infernal",
+ "traits": "**Résistance magique.** L'enfer a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Prise d'âme.** Un Géant ou un Humanoïde qui est réduit à 0 points de vie par l'enfer meurt, et son âme se lève comme une lémure (voir le Monster Manual) sur Avernus, l'un des Neuf Hells, en 1d4 heures. Si la créature n'est pas ressuscitée avant alors, elle ne peut être rétablie à la vie que par un sort Souhait ou en tuant la lémure et en jetant la vraie résurrection sur le corps originel de la créature.",
+ "actionsText": "**Multiattaques.** L'enfer fait deux attaques de Morningstar.\n**Matinée.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 20 (3d8 + 7) dégâts perforants plus 11 (2d10) dégâts de feu. Si la cible est une créature, elle ne pourra retrouver points de vie qu'au prochain tour de l'enfer.\n**Orbe infernale.** L'enfer lance une boule de feu magique qui explose dans une sphère 6 m -radius centrée sur un point que l'enfer peut voir en lui-même. La sphère s'étend autour des coins. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Dextérité. Une créature prend 18 (4d8) dégâts de feu et 18 (4d8) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 11,
+   "damage": "3d8+7",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/501331d2e1_monstre-feu-hellion.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Feu Hellion",
+ "caNote": "plaque",
+ "saves": "SAG +6, CHA +9",
+ "skills": "Arcanes +7, Athlétisme +11, Perception +6",
+ "immunities": "feu",
+ "conditionImmunities": "charmé, effrayé"
+}

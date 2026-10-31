@@ -1,0 +1,38 @@
+{
+ "id": "miraj-vizann",
+ "name": "Miraj Vizann",
+ "type": "Humanoïde (Génase de la Terre)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 10,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 13,
+  "SAG": 11,
+  "CHA": 18
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, primordial",
+ "traits": "**Marche de la Terre.** Déplacement à travers 3 en terre ou en pierre coûte Miraj pas de mouvement supplémentaire.\n**Découpe intérieure.** L'innate de Miraj caractéristique d'incantation est Constitution (spell save DD 14). Il peut innéement lancer le sort suivant, ne nécessitant aucun composant matériel:\n- 1/jour : Passage sans trace\n**Détection orthographique.** Miraj est un spellcaster de niveau 11. Son caractéristique d'incantation est Charisme (save spell DD 15, +7 au toucher avec attaques de sort). Il connaît les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Aspersion d'acide, Protection contre les armes, Amis, Lumière, Message, Façonnage de la terre\n- Niveau 1 (4 emplacements) : Orbe chromatique, Armure de mage, Projectile magique\n- Niveau 2 (3 emplacements) : Poigne terreuse de Maximilien, Fracassement, Suggestion\n- Niveau 3 (3 emplacements) : Contresort, Éruption de terre\n- Niveau 4 (3 emplacements) : Métamorphose, Peau de pierre\n- Niveau 5 (2 emplacements) : Mur de pierre\n- Niveau 6 (1 emplacements) : Terraformage",
+ "actionsText": "**Personnel.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants, ou 5 (1d8 + 1) dégâts contondants lorsqu'il est utilisé à deux mains.",
+ "attacks": [
+  {
+   "name": "Personnel",
+   "bonus": 4,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b14df8c5a2_monstre-miraj-vizann.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "skills": "Arcanes +4, Tromperie +7"
+}

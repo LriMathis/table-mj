@@ -1,0 +1,47 @@
+{
+ "id": "diable-gele",
+ "name": "Diable gelé",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 18,
+ "hp": 228,
+ "hpFormula": "24d10+96",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "saves": "DEX +7, CON +9, SAG +7, CHA +9",
+ "skills": "Intuition +7, Perception +7, Persuasion +9",
+ "immunities": "feu, froid, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision aveugle 36 m, Perception passive 17",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**Résistance à la magie.** Le diable a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration diabolique.** Si le diable meurt hors des Neuf Enfers, son corps disparaît dans un nuage de fumée sulfureuse, tandis qu’il en acquiert aussitôt un nouveau et revient à la vie avec tous ses pv quelque part dans les Neuf Enfers.",
+ "actionsText": "**Attaques multiples.** Le diable effectue trois attaques de Lance de glace. Il peut en remplacer une par une attaque de Queue.\n**Lance de glace.** Corps à corps ou à distance : +10, allonge 1,50 m ou portée 9/36 m. Touché : 14 (2d8 + 5) dégâts perforants plus 10 (3d6) dégâts de froid. Jusqu’à la fin de son tour suivant, la cible ne peut entreprendre ni action Bonus ni Réaction, sa Vitesse est réduite de 3 m et elle peut se déplacer ou entreprendre son action à son tour, mais pas les deux. Touché ou raté : aussitôt après une attaque à distance, la lance retourne magiquement dans la main du diable.\n**Queue.** Corps à corps : +10, allonge 3 m. Touché : 15 (3d6 + 5) dégâts contondants plus 18 (4d8) dégâts de froid.\n**Mur de glace (recharge 6).** Le diable lance *mur de glace* (au 8e niveau) sans composantes de sort, l’Intelligence étant sa caractéristique d’incantation (DD de sauvegarde 17).",
+ "attacks": [
+  {
+   "name": "Lance de glace",
+   "bonus": 10,
+   "damage": "2d8+5+3d6",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Queue",
+   "bonus": 10,
+   "damage": "3d6+5+4d8",
+   "type": "contondant + froid"
+  }
+ ],
+ "portrait": "/data/images/fea2c9de87_monstre-diable-gele.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 70"
+}

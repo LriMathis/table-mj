@@ -1,0 +1,45 @@
+{
+ "id": "yuk-yuk",
+ "name": "Yuk Yuk",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, gobelin",
+ "traits": "**Échappement de Nimble.** Yuk Yuk peut prendre l'action Se désengager ou Se cacher en action bonus à chacun de ses tours.\n**Sourire.** Yuk Yuk a avantage sur les contrôles effectués pour éviter d'être surpris.",
+ "actionsText": "**Scimitar.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.\n**Saubèche.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4948b5f1c6_monstre-yuk-yuk.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir, Bouclier",
+ "skills": "Acrobaties +6, Athlétisme +3, Discrétion +6"
+}

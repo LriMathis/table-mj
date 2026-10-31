@@ -1,0 +1,41 @@
+{
+ "id": "levna-drakehorn",
+ "name": "Levna Drakehorn",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 18,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "**Compétences en bonus.** Levna est compétent avec des armes simples et martiales, des boucliers et toutes les armures.\n**Tactiques de conditionnement.** Levna a un avantage sur une jet d'attaque contre une créature si au moins un de ses alliés est dans 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Grande épée.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ef9e71edf5_monstre-levna-drakehorn.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "plaque",
+ "saves": "CON +4",
+ "skills": "Athlétisme +4, Intimidation +4, Perception +2",
+ "reactions": "**Protection.** Lorsqu'une créature Levna peut voir au sein de 1,50 m d'elle est visée par une attaque, elle peut imposer un désavantage au jet d'attaque si elle peut voir l'agresseur et qu'elle manie une arme de mêlée."
+}

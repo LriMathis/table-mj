@@ -1,0 +1,44 @@
+{
+ "id": "factol-skall",
+ "name": "Factol Skall",
+ "type": "Mort-vivant (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 17,
+ "hp": 210,
+ "hpFormula": "28d8+84",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 20,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 18",
+ "languages": "tous",
+ "traits": "**Aura de la mort.** Les créatures dans 9 m de Skall ont un désavantage sur la mort jet de sauvegarde.\n**Anéantissement cosmique.** Une créature tuée par Skall ne peut être rétablie à la vie qu'au moyen d'un sort Résurrection suprême ou Souhait.\n**Résistance légendaire (4/jour).** Si Skall échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Réjuvenance.** Si Skall meurt, il devient poussière. Si son orgie d'âmes n'a pas été détruite, Skall se reforme dans le Mortuaire en 1d10 jours. Il apparaît au sein de 1,50 m de l'orrie.\n**Résistance au virage.** Skall a un avantage sur jet de sauvegarde contre tout effet qui devient Undead.",
+ "actionsText": "**Multiattaques.** Skall fait une attaque Withering Touch ou utilise Spellcasting. Il utilise également Death Knell deux fois.\n**Touche de flétrissement.** Attaque de sort au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 32 (6d8 + 5) dégâts de froid plus 31 (7d8) dégâts nécrotiques, et si la cible est une créature, il ne peut pas retrouver points de vie avant le début du prochain tour de Skall.\n**Décès Knell.** Skall pointe son doigt sur une créature qu'il peut voir en 36 m de lui-même, remplissant l'esprit de la cible de visions de la mort et le péage plangent d'une cloche de fer. La cible doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou prendre 14 (4d6) dégâts psychiques et avoir l'état effrayé jusqu'au prochain tour de Skall.\n**Fog de la mort (1/jour).** Skall respire un brouillard mortel dans une sphère 9 m -radius centrée sur lui-même. La sphère s'étend autour des coins, et sa zone est 2. Le brouillard dure jusqu'au prochain virage de Skall, et il ne peut pas être dispersé par le vent. Ça ne bouge pas avec lui.\nChaque créature qui entre dans le brouillard pour la première fois sur un tour ou commence son tour là doit faire un DD 19 jet de sauvegarde de Constitution, en prenant 28 (8d6) dégâts nécrotiques et 28 (8d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Un humanoïde moyen ou plus petit tué par ce dégâts devient un zombie sous le contrôle de Skall. Le zombie agit sur l'initiative de Skall mais immédiatement après son tour. En l'absence de toute autre commande, le zombie essaie de tuer toute créature non-morte qu'il rencontre.\n**Détection orthographique.** Skall lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Intelligence comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Détection de la magie, Main de mage, Prestidigitation\n- 1/jour chacun : Doigt de mort, Changement de plan (autoseulement), Projection d'image\n- 2/jour chacun : Animation des morts (en tant qu'action), Dissipation de la magie, Communication avec les morts",
+ "attacks": [
+  {
+   "name": "Touche de flétrissement",
+   "bonus": 11,
+   "damage": "6d8+5",
+   "type": "froid + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/b895f099e0_monstre-factol-skall.webp",
+ "notes": "",
+ "source": "Adventure Atlas: The Mortuary (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +9, INT +11, SAG +8",
+ "skills": "Arcanes +17, Histoire +11, Médecine +8, Perception +8",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, étourdi",
+ "reactions": "**Contre-orthographe balai.** Skall bavarde ses dents pour interrompre une créature qu'il peut voir en 18 m de lui-même qui jette un sort. Si le sort est de niveau 4 ou inférieur, il échoue et n'a aucun effet. Si le sort est de niveau 5 ou supérieur, Skall fait un test d'Intelligence (DD 10 + le niveau du sort). Sur un contrôle réussi, le sort échoue et n'a aucun effet. Quel que soit le niveau du sort, le lanceur prend 10 (3d6) dégâts nécrotiques si le sort échoue.\n**Expérience de quasi-décès.** En réponse à une attaque, Skall téléporte, avec tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

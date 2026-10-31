@@ -212,19 +212,48 @@ function drawSheet() {
       ${c.source ? `<span class="muted small">${t('source')}: ${esc(c.source)}</span>` : ''}
     </div>
   </div>
-  <div class="subtabs">${[['sheet', '<i class="ico i-list"></i> ' + t('Sheet')], ['abilities', '<i class="ico i-sparkle"></i> ' + t('Features & spells')], ['original', '<i class="ico i-scroll"></i> ' + t('Original sheet')], ['notes', '<i class="ico i-quill"></i> ' + t('Notes & equipment')]].map(([k, l]) => `<button data-sub="${k}" class="${charSub === k ? 'active' : ''}">${l}</button>`).join('')}</div>
+  <div class="subtabs">${[['sheet', '<i class="ico i-list"></i> ' + t('Sheet')], ['abilities', '<i class="ico i-sparkle"></i> ' + t('Features & spells')], ['notes', '<i class="ico i-bag"></i> ' + t('Inventory & notes')], ['original', '<i class="ico i-scroll"></i> ' + t('Original sheet')]].map(([k, l]) => `<button data-sub="${k}" class="${charSub === k ? 'active' : ''}">${l}</button>`).join('')}</div>
   <div id="subbody" class="col" style="gap:12px"></div>`;
   const body = $('#subbody', el);
   if (charSub === 'sheet') body.innerHTML = sheetMain(c, nextXP, canLevel);
   else if (charSub === 'abilities') body.innerHTML = sheetFeatures(c);
   else if (charSub === 'original') body.innerHTML = `<div class="row"><button id="orig-edit"><i class="ico i-quill"></i> ${t('Edit the text')}</button><span class="muted small">${t('Dice formulas are clickable.')}</span></div>
      <div class="card md-view" id="orig-view">${c.sheet ? md(c.sheet) : `<span class="muted">${t('No text sheet.')}</span>`}</div>`;
-  else body.innerHTML = `<div class="grid2"><div class="card"><h4><i class="ico i-bag"></i> ${t('Equipment')}</h4><textarea data-k="equipment" data-live rows="8">${esc(c.equipment)}</textarea>
-      <div class="row" style="margin-top:6px"><label class="field"><span>${t('Gold pieces')}</span><input data-k="gold" data-num type="number" value="${c.gold || 0}" style="width:100px"></label>
-      <label class="field"><span>${t('Speed')}</span><input data-k="vitesse" value="${esc(c.vitesse)}"></label><label class="field"><span>${t('Size')}</span><input data-k="taille" value="${esc(c.taille)}"></label></div></div>
+  else body.innerHTML = `<div class="grid2"><div class="card"><h4><i class="ico i-bag"></i> ${t('Inventory')} <span class="muted small">${t('{n} attuned', { n: attunedCount(c) })}/${MAX_ATTUNED}</span>
+        <a class="small right" href="#" id="to-eq"><i class="ico i-bag"></i> ${t('Equipment catalog')}</a></h4>
+      ${invTableHTML(c)}
+      <div class="row" style="margin-top:8px"><input id="inv-add" list="inv-dl" placeholder="+ ${t('add an item from the catalog…')}" style="flex:1">
+        <datalist id="inv-dl">${eqAll().map(x => `<option value="${esc(x.name)}">${esc(x.cat || '')}</option>`).join('')}</datalist>
+        <button class="small" id="inv-free">+ ${t('free item')}</button></div>
+      ${c.equipment ? `<details style="margin-top:8px"><summary class="small muted">${t('Former equipment text (before the inventory)')}</summary><textarea data-k="equipment" data-live rows="4">${esc(c.equipment)}</textarea></details>` : ''}
+      <div class="field" style="margin-top:6px"><span><i class="ico i-purse"></i> Bourse <span class="muted small">— 10 pc = 1 pa · 10 pa = 1 po · 10 po = 1 pp</span></span>
+        <div class="row" style="flex-wrap:wrap">${COINS.map(k => `<label class="coin-in c-${k}" title="${COIN_LONG[k]}"><i></i><input data-purse="${k}" type="number" min="0" step="1" value="${purseOf(c)[k]}" style="width:78px"> ${k}</label>`).join('')}
+          <span class="muted small" id="purse-tot">= ${fmtPrice(purseCp(purseOf(c)) / 100)}</span><button class="small" id="purse-chg">Faire de la monnaie</button></div></div>
+      <div class="row" style="margin-top:6px"><label class="field"><span>${t('Speed')}</span><input data-k="vitesse" value="${esc(c.vitesse)}"></label><label class="field"><span>${t('Size')}</span><input data-k="taille" value="${esc(c.taille)}"></label></div></div>
       <div class="col"><div class="card"><h4><i class="ico i-quill"></i> ${t('GM notes')} <span class="muted small">(${t('never visible to players')})</span></h4><textarea data-k="notes" data-live rows="10" placeholder="${t('Secrets, goals, ties to the plot…')}">${esc(c.notes)}</textarea></div>
       <div class="card"><h4><i class="ico i-player"></i> ${t('Player notes')} <span class="muted small">(${t('written from the player view')})</span></h4><div class="md-view small">${c.playerNotes ? md(c.playerNotes) : `<span class="muted">${t('Nothing yet.')}</span>`}</div></div></div></div>`;
   bindSheet(el, c);
+  $$('[data-purse]', el).forEach(i => i.onchange = () => {
+    const p = purseOf(c); p[i.dataset.purse] = Math.max(0, Math.floor(num(i.value, 0))); setPurse(c, p); saveChar(c);
+    $('#purse-tot', el).textContent = '= ' + fmtPrice(c.gold);
+  });
+  $('#purse-chg', el) && ($('#purse-chg', el).onclick = () => changeModal(purseOf(c), (from, to, n) => {
+    const p = purseOf(c); p[from] -= n; p[to] += n * COIN_CP[from] / COIN_CP[to]; setPurse(c, p); saveChar(c); rerender();
+  }));
+}
+/* inventory of a character (GM): equip, attune, charges, quantity */
+function invTableHTML(c) {
+  const inv = (c.inventory || []).map(invView);
+  if (!inv.length) return `<div class="muted small">${t('Nothing yet.')}</div>`;
+  const order = v => v.equipped ? 0 : v.kind === 'magic' ? 1 : 2;
+  return `<div class="inv-list">${inv.map((v, i) => [v, i]).sort((a, b) => order(a[0]) - order(b[0])).map(([v, i]) => `<div class="inv-row ${v.equipped ? 'eq' : ''}">
+    ${itemThumb(v, 38)}<div class="grow"><b class="inv-name" data-invinfo="${i}">${esc(v.name)}</b>${v.def?.name && v.def.name !== v.name ? ` <span class="muted small">(${esc(v.def.name)})</span>` : ''}
+      <div class="muted small">${esc(v.cat || '')}${v.rarity ? ' · ' + esc(v.rarity) : ''}${v.weapon ? ` · ${esc(v.weapon.dmg)} ${esc(v.weapon.type)}` : ''}${v.armor ? ` · ${t('AC')} ${v.armor.type === 'shield' ? '+2' : v.armor.base}` : ''}</div></div>
+    ${v.charges ? `<span class="inv-ch" title="${t('Charges')}"><button class="icon small" data-invch="${i}:-1">−</button><b>${v.charges.cur}/${v.charges.max}</b><button class="icon small" data-invch="${i}:1">+</button></span>` : ''}
+    ${v.qty > 1 || !equippable(v) ? `<input class="n2" type="number" min="0" value="${v.qty || 1}" data-invqty="${i}" title="${t('Quantity')}">` : ''}
+    ${v.attune ? `<button class="small ${v.attuned ? 'primary' : ''}" data-invatt="${i}" title="${t('Attunement')}">${v.attuned ? '✔ ' : ''}${t('attuned')}</button>` : ''}
+    ${equippable(v) ? `<button class="small ${v.equipped ? 'primary' : ''}" data-inveq="${i}">${v.equipped ? '✔ ' + t('equipped') : t('Equip')}</button>` : ''}
+    <button class="icon small" data-invedit="${i}" title="${t('Edit')}">✎</button><button class="icon small" data-invdel="${i}" title="${t('Remove')}">✕</button></div>`).join('')}</div>`;
 }
 function sheetMain(c, nextXP, canLevel) {
   const ds = c.deathSaves || { s: 0, f: 0 };
@@ -244,7 +273,9 @@ function sheetMain(c, nextXP, canLevel) {
         <span>${t('failures')} ${[0, 1, 2].map(i => `<button class="pip f ${i < ds.f ? 'full' : ''}" data-ds="f:${i}"></button>`).join('')}</span>
         <button class="small" id="ds-roll">${t('Roll')}</button></div>` : ''}
     </div>
-    <div class="vital"><span class="k">${t('AC')}</span><input data-k="ca" data-num type="number" value="${c.ca}"></div>
+    <div class="vital" title="${esc(t('Computed from the equipment: {how}', { how: computeAC(c).how }))}"><span class="k">${t('AC')}</span>
+      ${!Array.isArray(c.inventory) ? `<input data-k="ca" data-num type="number" value="${c.ca}">` : c.caManual == null || c.caManual === '' ? `<span class="v">${c.ca}</span><button class="small link" id="ca-man" title="${t('Force a value')}">${t('auto')}</button>`
+        : `<input data-k="caManual" data-num type="number" value="${c.caManual}"><button class="small link warn" id="ca-auto" title="${t('Back to the value computed from the equipment ({n})', { n: computeAC(c).ac })}">${t('manual')}</button>`}</div>
     <div class="vital"><span class="k">${t('Initiative')}</span><span class="v" data-roll="1d20${fmod(+c.initBonus || 0)}" data-label="${t('Initiative')}" data-who="${esc(c.name)}" style="cursor:pointer">${fmod(+c.initBonus || 0)}</span><input data-k="initBonus" data-num type="number" value="${c.initBonus}" style="width:44px;font-size:.8rem"></div>
     <div class="vital"><span class="k">${t('Proficiency')}</span><input data-k="prof" data-num type="number" value="${c.prof}"></div>
     <div class="vital"><span class="k">${t('Speed')}</span><span style="font-size:.9rem;max-width:110px;text-align:center">${esc(c.vitesse)}</span></div>
@@ -274,9 +305,10 @@ function sheetMain(c, nextXP, canLevel) {
     <div class="muted small" style="margin-top:6px">${t('Passive Perception')}: <b>${10 + skillBonus(c, 'Perception')}</b> · ${t('Passive Investigation')}: <b>${10 + skillBonus(c, 'Investigation')}</b></div></div>
     <div class="col">
       <div class="card"><h4><i class="ico i-combat"></i> ${t('Attacks')}</h4><table class="t"><tr><th>${t('Name')}</th><th>${t('To hit')}</th><th>${t('Damage')}</th><th>${t('Type')}</th><th></th></tr>
-        ${(c.attacks || []).map((a, i) => `<tr><td><input data-k="attacks.${i}.name" value="${esc(a.name)}"></td><td style="width:60px"><input data-k="attacks.${i}.bonus" data-num value="${a.bonus}"></td>
-        <td style="width:90px"><input data-k="attacks.${i}.damage" value="${esc(a.damage)}"></td><td style="width:90px"><input data-k="attacks.${i}.type" value="${esc(a.type || '')}" title="${esc(term(a.type || ''))}"></td>
-        <td style="white-space:nowrap"><button class="small primary" data-atk="${i}"><i class="ico i-dice"></i></button><button class="small icon" data-delatk="${i}">✕</button></td></tr>`).join('')}
+        ${(c.attacks || []).map((a, i) => { const ro = a.auto ? `readonly title="${t('Computed from the equipped weapon: edit the inventory, or unequip it and add a manual attack')}"` : '';
+          return `<tr class="${a.auto ? 'auto-atk' : ''}"><td><input data-k="attacks.${i}.name" value="${esc(a.name)}" ${ro}></td><td style="width:60px"><input data-k="attacks.${i}.bonus" data-num value="${a.bonus}" ${ro}></td>
+        <td style="width:90px"><input data-k="attacks.${i}.damage" value="${esc(a.damage)}" ${ro}></td><td style="width:90px"><input data-k="attacks.${i}.type" value="${esc(a.type || '')}" title="${esc(term(a.type || ''))}" ${ro}></td>
+        <td style="white-space:nowrap"><button class="small primary" data-atk="${i}"><i class="ico i-dice"></i></button>${a.auto ? `<span class="tag" title="${t('Computed from the equipped weapon')}"><i class="ico i-bag"></i></span>` : `<button class="small icon" data-delatk="${i}">✕</button>`}</td></tr>`; }).join('')}
       </table><button class="small" id="atk-add" style="margin-top:6px">+ ${t('attack')}</button></div>
       <div class="card"><h4><i class="ico i-resource"></i> ${t('Resources')}</h4>
         ${(c.resources || []).map((r, i) => `<div class="res"><span class="rn">${esc(r.name)} <span class="muted small">${r.reset === 'aucun' ? '' : restName(r.reset)}</span></span>
@@ -326,10 +358,53 @@ function bindSheet(el, c) {
       let v = inp.value; if (inp.hasAttribute('data-num')) v = num(v);
       setPath(c, inp.dataset.k, v);
       if (inp.dataset.k === 'hpMax') c.hp = Math.min(c.hp, c.hpMax);
+      if (/^(caManual|prof|stats\.)/.test(inp.dataset.k)) applyInventory(c);   // armor class and weapon attacks depend on them
       if (inp.dataset.k === 'xp' && levelForXP(c.xp) > c.niveau) toast(`▲ ${t('{name} can level up!', { name: esc(c.name) })}`);
       save(!live);
     });
   });
+  // armor class: computed from the equipment, or forced by the GM
+  $('#ca-man', el) && ($('#ca-man', el).onclick = () => { c.caManual = c.ca; save(); });
+  $('#ca-auto', el) && ($('#ca-auto', el).onclick = () => { c.caManual = null; applyInventory(c); save(); });
+  // inventory
+  const inv = () => {
+    if (!Array.isArray(c.inventory)) { c.inventory = []; if (c.caManual == null) c.caManual = c.ca; }   // first item: keep the AC typed so far
+    return c.inventory;
+  }, invSave = () => { applyInventory(c); save(); };
+  $('#to-eq', el) && ($('#to-eq', el).onclick = e => { e.preventDefault(); eqFor = c.id; go('equipment'); });
+  $$('[data-invinfo]', el).forEach(b => b.onclick = () => modal(itemCardHTML(invView(inv()[+b.dataset.invinfo])) + `<div class="actions"><button data-close>${t('Close')}</button></div>`));
+  $$('[data-inveq]', el).forEach(b => b.onclick = () => {
+    const e = inv()[+b.dataset.inveq], v = invView(e);
+    e.equipped = !e.equipped;
+    if (e.equipped && (isArmor(v) || isShield(v))) inv().forEach(o => { if (o !== e && o.equipped && (isArmor(v) ? isArmor(invView(o)) : isShield(invView(o)))) o.equipped = false; });   // one armor, one shield
+    invSave();
+  });
+  $$('[data-invatt]', el).forEach(b => b.onclick = () => {
+    const e = inv()[+b.dataset.invatt];
+    if (!e.attuned && attunedCount(c) >= MAX_ATTUNED) return toast(`<i class="ico i-alert"></i> ${t('Already {n} attuned items (maximum).', { n: MAX_ATTUNED })}`);
+    e.attuned = !e.attuned; invSave();
+  });
+  $$('[data-invch]', el).forEach(b => b.onclick = () => { const [i, d] = b.dataset.invch.split(':').map(Number), ch = inv()[i].charges; ch.cur = clamp(ch.cur + d, 0, ch.max); save(); });
+  $$('[data-invqty]', el).forEach(i => i.onchange = () => { const e = inv()[+i.dataset.invqty]; e.qty = Math.max(0, num(i.value, 1)); if (!e.qty) inv().splice(+i.dataset.invqty, 1); invSave(); });
+  $$('[data-invdel]', el).forEach(b => b.onclick = () => { const e = inv()[+b.dataset.invdel]; confirmBox(t('Remove {item} from the inventory?', { item: esc(invView(e).name) }), () => { inv().splice(+b.dataset.invdel, 1); invSave(); }); });
+  $$('[data-invedit]', el).forEach(b => b.onclick = () => {
+    const e = inv()[+b.dataset.invedit], v = invView(e);
+    ask(t('Edit the item'), [{ k: 'name', label: t('Name'), value: v.name }, { k: 'notes', label: t('Notes (visible to the player)'), type: 'textarea', value: e.notes || '' },
+      ...(e.ref ? [] : [{ k: 'desc', label: t('Description'), type: 'textarea', value: e.desc || '' }]),
+      ...(v.charges || v.mech?.charges ? [{ k: 'cmax', label: t('Maximum charges'), type: 'number', value: v.charges?.max ?? v.mech.charges }] : [])], o => {
+      e.name = o.name && o.name !== itemDef(e.ref)?.name ? o.name : (e.ref ? '' : o.name); e.notes = o.notes; if ('desc' in o) e.desc = o.desc;
+      if (o.cmax != null) { e.charges ||= { cur: o.cmax, max: o.cmax }; e.charges.max = o.cmax; e.charges.cur = Math.min(e.charges.cur, o.cmax); }
+      invSave();
+    });
+  });
+  $('#inv-add', el) && ($('#inv-add', el).onchange = e => {
+    const q = spellKey(e.target.value), x = eqAll().find(y => spellKey(y.name) === q);
+    if (!x) return toast(t('Item not found in the catalog: use "+ free item" for a custom one.'));
+    giveItem(c, x); drawSheet();
+  });
+  $('#inv-free', el) && ($('#inv-free', el).onclick = () => ask(t('Free item'), [{ k: 'name', label: t('Name') }, { k: 'desc', label: t('Description'), type: 'textarea' }, { k: 'qty', label: t('Quantity'), type: 'number', value: 1 }], o => {
+    if (!o.name) return; inv().push({ uid: uid('it'), ref: null, name: o.name, desc: o.desc || '', qty: Math.max(1, o.qty || 1), equipped: false, attuned: false, kind: 'gear', cat: t('Miscellaneous') }); invSave();
+  }));
   const portrait = $('#portrait', el);
   dropImage(portrait, r => { c.portrait = r.url; save(); });
   $('#pc-noportrait', el) && ($('#pc-noportrait', el).onclick = () => { c.portrait = ''; save(); });

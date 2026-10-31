@@ -1,0 +1,40 @@
+{
+ "id": "troll-mutate",
+ "name": "Troll Mutate",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 95,
+ "hpFormula": "10d10+40",
+ "vitesse": "9 m, vol 9 m (forme ailée seulement)",
+ "stats": {
+  "FOR": 19,
+  "DEX": 13,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 9,
+  "CHA": 12
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 15",
+ "languages": "géant, télépathie 18 m",
+ "traits": "**Mutation.** Lorsque le mutat troll est créé, il gagne l'une des quatre mutations corporelles possibles au hasard: 1, Corps élastique; 2, miroir psionique; 3, éperon écarlate; ou 4, forme ailée. Cette mutation détermine certains traits dans ce bloc de statistiques.\n**Amorphe (corps élastique seulement).** Le mutat peut se déplacer dans un espace aussi étroit que 1 pouce sans serrer.\n**Résistance magique (Écarlate seulement).** Le mutat a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**psychique Rebuke (Rétroviseur Psionique seulement).** Si le mutat prend dégâts psychiques, chaque créature à l'intérieur de 6 m elle prend aussi ces dégâts.\n**Régénération.** Le mutat retrouve 10 points de vie au début de son tour. Si le mutat prend de l'acide ou du dégâts de feu, ce trait ne fonctionne pas au début du prochain tour du mutat. Le mutat ne meurt que s'il commence son tour avec 0 points de vie et ne se régénère pas. Si le mutat commence son tour avec 0 points de vie et se régénère, il gagne aléatoirement une mutation qu'il n'a pas déjà (jusqu'à un maximum de quatre mutations).",
+ "actionsText": "**Multiattaques.** Le mutat fait deux attaques Rend.\n**Rend.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m (ou 4,50 m si le mutat a la mutation du corps élastique), une cible. Touché : 15 (2d10 + 4) dégâts tranchants plus 9 (2d8) dégâts de force.\n**psychique Burst (Recharge 5-6).** Le mutat déclenche une vague d'énergie psychique. Chaque créature dans 9 m du mutat doit faire un DD 14 jet de sauvegarde d'Intelligence, en prenant 28 (8d6) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/a40db9f10d_monstre-troll-mutate.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +7, INT +6",
+ "skills": "Perception +5, Discrétion +4"
+}

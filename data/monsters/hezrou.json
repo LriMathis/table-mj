@@ -1,0 +1,42 @@
+{
+ "id": "hezrou",
+ "name": "Hezrou",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 157,
+ "hpFormula": "15d10+75",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 17,
+  "CON": 20,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 13
+ },
+ "saves": "FOR +7, CON +8, SAG +4",
+ "resistances": "feu, foudre, froid",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Puanteur.** JS Constitution : DD 16, toute créature qui commence son tour dans une Émanation de 3 m centrée sur le hezrou. Échec : la cible subit l’état Empoisonné jusqu’au début de son tour suivant.\n**Résistance à la magie.** Le hezrou a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration démoniaque.** Si le hezrou meurt hors des Abysses, son corps se dissout en ichor et il en acquiert aussitôt un nouveau en revenant à la vie avec tous ses pv, quelque part dans les Abysses.",
+ "actionsText": "**Attaques multiples.** Le hezrou effectue trois attaques de Saignée.\n**Saignée.** Corps à corps : +7, allonge 1,50 m. Touché : 6 (1d4 + 4) dégâts tranchants plus 9 (2d8) dégâts de poison.",
+ "bonusActions": "**Bond.** Le hezrou effectue un saut d’un maximum de 9 m en dépensant 3 m de déplacement.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 7,
+   "damage": "1d4+4+2d8",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/19ee05e81b_monstre-hezrou.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 54"
+}

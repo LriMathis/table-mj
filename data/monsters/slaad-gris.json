@@ -1,0 +1,52 @@
+{
+ "id": "slaad-gris",
+ "name": "Slaad gris",
+ "type": "Aberration (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "caNote": "armure naturelle",
+ "hp": 127,
+ "hpFormula": "17d8+51",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 8,
+  "CHA": 14
+ },
+ "skills": "Arcanes +5, Perception +6",
+ "resistances": "acide, feu, foudre, froid, tonnerre",
+ "senses": "vision aveugle 18 m, vision dans le noir 18 m, Perception passive 16",
+ "languages": "slaad, télépathie à 18 m",
+ "traits": "**Armes magiques.** Les armes du slaad portent des attaques magiques.\n**Incantation innée.** Le slaad utilise le Charisme comme caractéristique d'incantation (DD du jet de sauvegarde contre les sorts : 14). Le slaad peut lancer les sorts suivants de manière innée, sans utiliser de composantes matérielles.\n- À volonté : *détection de la magie, détection des pensées, image majeure, invisibilité* (sur soi uniquement), *main du mage*\n- 2/jour chacun : *boule de feu, langues, peur, vol*\n- 1/jour : *changement de plan* (sur soi uniquement)\n**Métamorphe.** Le slaad peut dépenser son action pour se métamorphoser en humanoïde de taille Moyenne ou Petite ou pour reprendre sa véritable apparence. En dehors de sa taille, son profil ne change pas, quelle que soit la forme qu'il revêt. L'équipement qu'il porte ou transporte ne se transforme pas en même temps que lui. S'il meurt, il reprend son apparence normale.\n**Régénération.** Le slaad récupère 10 points de vie au début de son tour tant qu'il lui reste au moins 1 point de vie.\n**Résistance à la magie.** Le slaad est avantagé lors de ses jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le slaad porte trois attaques, l'une avec sa morsure, les deux autres avec ses griffes ou son épée à deux mains.\n**Épée à deux mains.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 10 (2d6+3) dégâts tranchants.\n**Griffes (sous forme de slaad uniquement).** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 8 (1d10+3) dégâts tranchants.\n**Morsure (sous forme de slaad uniquement).** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d6+3) dégâts perforants.",
+ "portrait": "/data/images/5b8bbb4799_monstre-slaad-gris.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 269 · image : Manuel des monstres p. 266",
+ "attacks": [
+  {
+   "name": "Épée à deux mains",
+   "bonus": 7,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Griffes (sous forme de slaad uniquement)",
+   "bonus": 7,
+   "damage": "1d10+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure (sous forme de slaad uniquement)",
+   "bonus": 7,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ]
+}

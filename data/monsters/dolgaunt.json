@@ -1,0 +1,46 @@
+{
+ "id": "dolgaunt",
+ "name": "Dolgaunt",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision aveugle 36 m (aveugle au-delà de ce rayon), Perception passive 14",
+ "languages": "profond, gobelin",
+ "traits": "**Évasion.** Si le dolgaunt est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, le dolgaunt ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue. Il ne peut pas utiliser ce trait si c'est neutralisé.\n**Défense non armée.** Alors que le dolgaunt ne porte pas d'armure et n'a pas de bouclier, son CA inclut son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Le dolgaunt fait deux attaques de tentacules et deux frappes à mains nues. Jusqu'à deux attaques tentaculaires peuvent être remplacées par Vitality Drain.\n**Tentacle.** Attaque d'arme au corps à corps : +6 au toucher, allonge 4,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants. La cible est agrippé (évasion DD 12) si c'est une créature grande ou plus petite. Jusqu'à ce que ce grappin finisse, le dolgaunt ne peut pas utiliser le même tentacule sur une autre cible. Le dolgaunt a deux tentacules.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts contondants.\n**Égoutter la vitalité.** une créature agrippé par un tentacule du dolgaun doit faire un DD 11 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la cible prend 9 (2d8) dégâts nécrotiques, et le dolgaunt retrouve un nombre de points de vie égal à la moitié du dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "frappe à mains nues",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e484337bfe_monstre-dolgaunt.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "Défense non armée",
+ "skills": "Acrobaties +6, Perception +4, Discrétion +6",
+ "conditionImmunities": "aveuglé"
+}

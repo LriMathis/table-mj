@@ -1,0 +1,41 @@
+{
+ "id": "ashen-armure-animee",
+ "name": "Ashen Animated Armor",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 18,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 13,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 6",
+ "languages": "—",
+ "traits": "**Susceptibilité antimagique.** L'armure est neutralisé alors que dans la zone d'un Champ antimagie. Si elle est ciblée par Dissipation de la magie, l'armure doit réussir sur un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur ou tomber inconscient pendant 1 minute.\n**Fausse apparence.** Bien que l'armure reste immobile, elle est indistinctible d'un costume d'armure normal.\n**Créature d'Ashen.** Lorsque l'armure tombe à 0 points de vie, elle est réduite à un tas de cendres, et tout équipement qu'elle portait ou transportait tombe au sol.",
+ "actionsText": "**Multiattaques.** L'armure fait deux attaques à la mêlée.\n**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/53a81a7879_monstre-ashen-armure-animee.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "aka": "Ashen armure animée",
+ "caNote": "armure naturelle",
+ "immunities": "feu, poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

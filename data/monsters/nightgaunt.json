@@ -1,0 +1,47 @@
+{
+ "id": "nightgaunt",
+ "name": "Nightgaunt",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "9 m, vol 12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 20,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 13",
+ "languages": "Ça comprend le discours profond mais ne peut pas parler",
+ "traits": "**Volée.** La nightgaunt ne provoque pas un Opportunity Attack quand il vole hors de la portée de l'ennemi.",
+ "actionsText": "**Multiattaques.** Le nightgaunt fait deux attaques, en utilisant Claw ou Barb dans n'importe quelle combinaison. Il peut remplacer une attaque par une utilisation d'Ascend.\n**Griffe.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts tranchants plus 10 (3d6) dégâts de poison. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 13).\n**Barbe.** Jet d'attaque à distance : +8, portée 18 m. Touché : 21 (6d6) dégâts perforants, et la cible a l'état empoisonné jusqu'à la fin de son prochain tour.\n**Ascendance.** La nightgaunt s'envole en ligne droite et monte jusqu'à sa vitesse de vol. Si la ganteuse de nuit se bat contre une créature, elle ignore le coût supplémentaire du mouvement pour transporter la créature avec elle.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Barbe",
+   "bonus": 8,
+   "damage": "6d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8f01360442_monstre-nightgaunt.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "DEX +8, SAG +6",
+ "resistances": "foudre, poison, psychique",
+ "conditionImmunities": "aveuglé, assourdi, épuisement",
+ "bonusActions": "**Cocu.** Jet de sauvegarde de Sagesse : DD 16, une créature agrippé par la ganteuse. Échec : La cible a l'état neutralisé jusqu'au début du prochain tour de la nightgaunt."
+}

@@ -1,0 +1,42 @@
+{
+ "id": "fielon-golem-de-chair",
+ "name": "Fiendish Flesh Golem",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 12,
+ "hp": 210,
+ "hpFormula": "20d10+100",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 9,
+  "CON": 20,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Berserk.** Chaque fois que le golem commence son tour avec 100 points de vie ou moins, roulez un d6. Sur un 6, le golem devient berker. Sur chacun de ses virages pendant le bersk, le golem attaque la créature la plus proche qu'il puisse voir. Si aucune créature n'est assez proche pour se déplacer et attaquer, le golem attaque un objet, avec la préférence pour un objet plus petit que lui-même. Une fois que le golem devient berker, il continue à le faire jusqu'à ce qu'il soit détruit ou retrouve tout son points de vie. Si le créateur du golem est dans 18 m du golem berserk, le créateur peut essayer de le calmer en parlant fermement et avec persuasion. Le golem doit être en mesure d'entendre son créateur, qui doit prendre une action pour faire un DD 15 test de Charisme (Persuasion). Si le chèque réussit, le golem cesse d'être bercé. S'il prend des dégâts alors qu'il est toujours à 100 points de vie ou moins, le golem pourrait à nouveau faire du tort.\n**Formulaire immuable.** Le golem est à l'abri de tout sort ou effet qui modifierait sa forme.\n**foudre absorption.** Chaque fois que le golem est soumis à dégâts de foudre, il ne prend aucun dégâts et récupère plutôt un nombre de points de vie égal à la dégâts de foudre traitée.\n**Résistance magique.** Le golem a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes du golem sont magiques.",
+ "actionsText": "**Multiattaques.** Le golem fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d10 + 5) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0a09d0274f_monstre-fielon-golem-de-chair.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Fiélon golem de chair",
+ "caNote": "armure naturelle",
+ "resistances": "froid, feu",
+ "immunities": "foudre, poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine ou argentées",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

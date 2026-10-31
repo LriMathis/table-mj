@@ -1,0 +1,54 @@
+{
+ "id": "felgolos",
+ "name": "Felgolos",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal bon",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 19,
+ "hp": 212,
+ "hpFormula": "17d12+102",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 23,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 22",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Felgolos peut respirer l'air et l'eau.\n**Résistance légendaire (3/jour).** Si Felgolos échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Felgolos peut utiliser sa présence effrayante. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 18 (2d10 + 7) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d6 + 7) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +12 au toucher, allonge 4,50 m, une cible. Touché : 16 (2d8 + 7) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix de Felgolos qui se trouve à l'intérieur de 36 m de Felgolos et conscient de lui doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante de Felgolos pour les prochaines 24 heures.\n**Armes respiratoires (Recharge 5-6).** Felgolos utilise l'une des armes suivantes.\n- **foudre Respiration** Felgolos exhale la foudre dans une ligne 27 m qui est large. Chaque créature dans cette ligne doit faire un DD 19 jet de sauvegarde de Dextérité, en prenant 66 (12d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **Respiration** Felgolos exhale l'énergie de répulsion dans un cône 9 m. Chaque créature dans cette zone doit réussir sur un DD 19 jet de sauvegarde de Force. Lors d'une sauvegarde ratée, la créature est poussée 18 m loin de Felgolos.\n**Modifier la forme.** Felgolos se polymorphe magiquement en un humanoïde ou une bête qui a une cote de défi pas plus élevé que la sienne, ou de nouveau dans sa forme réelle. Il revient à sa vraie forme s'il meurt. Tout équipement qu'il porte ou qu'il transporte est absorbé ou porté par la nouvelle forme (le choix de Felgolos).\nDans une nouvelle forme, Felgolos conserve son alignement, points de vie, dés de vie, la capacité de parler, les compétences, la résistance légendaire, les actions de lair, et Intelligence, Sagesse, et Charisme, ainsi que cette action. Ses statistiques et ses capacités sont autrement remplacées par celles du nouveau formulaire, à l'exception de toutes les caractéristiques de classe ou des actions légendaires de ce formulaire.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d10+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "2d6+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 12,
+   "damage": "2d8+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8299eb5e47_monstre-felgolos.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +11, SAG +7, CHA +9",
+ "skills": "Perspicacité +7, Perception +12, Discrétion +5",
+ "immunities": "foudre",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, felgolos peut entreprendre l'une des actions ci-après.\n**Détecter.** Felgolos fait un test de Sagesse (Perception).\n**Attaque de queue.** Felgolos fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** Felgolos bat ses ailes. Chaque créature de 3 m de Felgolos doit réussir sur un DD 20 jet de sauvegarde de Dextérité ou prendre 14 (2d6 + 7) dégâts contondants et être à terre. Felgolos peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

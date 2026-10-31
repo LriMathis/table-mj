@@ -1,0 +1,41 @@
+{
+ "id": "xan-lamelune",
+ "name": "Xan Moonblade",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 13,
+ "hp": 112,
+ "hpFormula": "25d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, elfique",
+ "traits": "**Enchanteur.** Lorsque Xan lance un rire hideux, tient la personne, ou une suggestion, la cible a un inconvénient sur le jet de sauvegarde.\n**Ancêtre fécale.** Xan a l'avantage sur jet de sauvegarde contre charmé et la magie ne peut pas endormir Xan.\n**Matériel spécial.** Xan manie un Lamelune. Le Lamelune a un bonus +3 pour attaquer et jets de dégâts (déjà pris en compte dans les attaques de Xan) et a la propriété finesse.",
+ "actionsText": "**Multiattaques.** Xan fait trois attaques de la lame de lune.\n**Lame de lune.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts tranchants ou 11 (1d10 + 6) dégâts tranchants si elle est maniée avec deux mains, plus 7 (2d6) froid ou dégâts de feu (le choix de Xan).\n**Détection orthographique.** Xan lance l'un des sorts suivants en utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Aspersion d'acide, Lumière, Armure de mage, Main de mage, Prestidigitation\n- 1/jour chacun : Contresort, Vol, Invisibilité supérieure, Immobilisation de personne\n- 2/jour chacun : Détection de la magie, Fou rire de Tasha, Foulée brumeuse, Bouclier, Suggestion",
+ "attacks": [
+  {
+   "name": "Lame de lune",
+   "bonus": 9,
+   "damage": "1d8+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b9d3a22ed4_monstre-xan-lamelune.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "aka": "Xan lamelune",
+ "saves": "INT +6, SAG +4",
+ "skills": "Acrobaties +9, Arcanes +6, Histoire +6, Représentation +6",
+ "bonusActions": "**Bladesong (1/jour).** Xan peut utiliser un action bonus pour lancer un lamesong. Son lamesong dure 1 minute. En utilisant lamesong son mouvement augmente à 12 m, il gagne un bonus de +3 à son CA et il gagne un bonus de +3 à tous les contrôles concentration."
+}

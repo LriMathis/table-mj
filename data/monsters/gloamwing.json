@@ -1,0 +1,49 @@
+{
+ "id": "gloamwing",
+ "name": "Gloamwing",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "comprend Fréquent",
+ "traits": "**Lien de la mort.** Si son spectromètre est réduit à 0 points de vie, le glamour est détruit.\n**Volée.** La glamour ne provoque pas une attaque d'opportunité quand elle s'envole hors de la portée d'un ennemi.\n**Sensibilité à la lumière du soleil.** En plein soleil, le glamour a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le glamour fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 18 (3d8 + 5) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 15 (3d6 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "3d8+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 8,
+   "damage": "3d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/6c66458522_monstre-gloamwing.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +8, DEX +6",
+ "skills": "Perception +3, Discrétion +6",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné"
+}

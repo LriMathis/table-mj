@@ -1,0 +1,47 @@
+{
+ "id": "crime-bandit",
+ "name": "Bandit Crime Lord",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 169,
+ "hpFormula": "26d8+52",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 20,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Perception passive 20",
+ "languages": "commun, argot des voleurs",
+ "traits": "**Évasion.** Si le banditisme est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, le banditisme ne prend pas de dégâts s'il réussit sur le save et seulement la moitié des dégâts s'il échoue. Il ne peut pas utiliser ce trait s'il a l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Le bandit fait trois attaques, en utilisant Scimitar ou Pistol dans n'importe quelle combinaison.\n**Scimitar.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 12 (2d6 + 5) dégâts tranchants plus 14 (4d6) dégâts de poison.\n**Pistol.** Jet d'attaque à distance : +9, portée 9/27 m. Touché : 10 (1d10 + 5) dégâts perforants plus 14 (4d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Pistol",
+   "bonus": 9,
+   "damage": "1d10+5",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/e6fbc35e1d_monstre-crime-bandit.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Crime bandit",
+ "saves": "DEX +9, CON +6",
+ "skills": "Acrobaties +9, Perception +10, Discrétion +13",
+ "bonusActions": "**Une cible mortelle.** Le bandit se donne Avantage sur la prochaine jet d'attaque qu'il fait pendant le tour actuel. Si cette attaque frappe, la cible prend un 28 (8d6) dégâts de poison supplémentaire."
+}

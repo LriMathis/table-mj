@@ -1,0 +1,43 @@
+{
+ "id": "intendant-mossback",
+ "name": "Mossback Steward",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 227,
+ "hpFormula": "13d20+91",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 3,
+  "CON": 25,
+  "INT": 12,
+  "SAG": 17,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "télépathie 36 m, comprend Goblin, Commun et Primordial mais ne peut pas parler",
+ "traits": "**Amphibie.** Le steward du dos peut respirer l'air et l'eau.\n**Cadre massif.** Mossback Steward peut porter jusqu'à 10000 kg de poids au sommet de sa coquille, mais se déplace à la moitié de la vitesse si le poids dépasse 5000 kg. Des créatures moyennes ou plus petites peuvent se déplacer sous le steward Mossback alors que ce n'est pas à terre.\nToute créature sous Mossback Steward quand elle tombe à terre est agrippé (évasion DD 18). Jusqu'à la fin du grappin, la créature est à terre et entravé.\n**Découpe intérieure.** L'innée de Mossback Steward caractéristique d'incantation est Sagesse (spell save DD 15). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel.\n- À volonté : Amis\n- 1/repos : Suggestion, Divination",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 28 (3d12 + 9) dégâts contondants.\n**Shell Defense (Recharge 4-6).** Mossback Steward se retire dans sa coquille, tombe à terre, et gagne un bonus de +5 à CA. Tandis que Mossback Steward est dans sa coquille, sa vitesse est 0 et ne peut pas augmenter. Mossback Steward peut émerger de sa coquille comme une action, alors il n'est plus à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "3d12+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/a925ac90e6_monstre-intendant-mossback.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Intendant Mossback",
+ "caNote": "armure naturelle",
+ "saves": "FOR +12, CON +10",
+ "skills": "Arcanes +5, Perspicacité +7, Nature +5, Perception +7, Persuasion +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

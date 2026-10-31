@@ -1,0 +1,43 @@
+{
+ "id": "vorvolaka",
+ "name": "Vorvolaka",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 18,
+ "hp": 190,
+ "hpFormula": "20d8+100",
+ "vitesse": "6 m, vol 15 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 19,
+  "CON": 21,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 21",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Peur Aura.** Toute créature hostile qui commence son tour au sein de 6 m du vorvolaka doit réussir sur une DD 18 jet de sauvegarde de Sagesse ou avoir une condition effrayé jusqu'au début du prochain tour de la créature. Si le jet de sauvegarde d'une créature est un succès, ils sont à l'abri de l'aura de peur du vorvolaka pendant les 24 prochaines heures. Cette capacité ne fonctionne pas si le vorvolaka est inconscient.\n**Résistance magique.** Le vorvolaka a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** Le vorvolaka retrouve 15 points de vie au début de son tour s'il a au moins 1 points de vie. Si le vorvolaka prend dégâts radiants, ce trait ne fonctionne pas au début du tour suivant du vorvolaka.",
+ "actionsText": "**Multiattaques.** Le vorvolaka fait deux attaques de Talon. Il peut remplacer l'une des attaques par Rend Armor (si disponible).\n**Talon.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 22 (4d8 + 4) dégâts perforants plus 14 (4d6) dégâts nécrotiques.\n**Armor de la Rend (Recharge 4-6).** Le vorvolaka fait une attaque Talon contre une créature. Sur un coup, le CA de la créature est réduit de 2 pendant 1 minute. Les créatures qui ne portent pas d'armure sont immunisées contre cet effet, et la réduction totale ne peut pas amener une créature en dessous d'un CA de 10.",
+ "attacks": [
+  {
+   "name": "Talon",
+   "bonus": 9,
+   "damage": "4d8+4",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/2e4e0d365d_monstre-vorvolaka.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, SAG +6",
+ "skills": "Perspicacité +6, Perception +11, Religion +4, Survie +6",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "nécrotique",
+ "conditionImmunities": "charmé, épuisement, paralysé"
+}

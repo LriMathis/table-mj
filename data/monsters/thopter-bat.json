@@ -1,0 +1,39 @@
+{
+ "id": "thopter-bat",
+ "name": "Thopter (Bat)",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "1,50 m, vol 9 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 15,
+  "CON": 8,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Écholocation.** Le thoptère ne peut pas utiliser son blindsight pendant qu'assourdi.\n**Audience Keen.** Le thoptère a un avantage sur tests de Sagesse (Perception) qui se fie à l'audience.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une créature. Touché : 1 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/ddd1ff4629_monstre-thopter-bat.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

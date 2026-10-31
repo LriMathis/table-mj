@@ -1,0 +1,32 @@
+{
+ "id": "conservatory-etudiant",
+ "name": "Conservatory Student",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 11,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "deux langues différentes",
+ "traits": "",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/f5dc364246_monstre-conservatory-etudiant.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "aka": "Conservatory étudiant",
+ "skills": "Représentation +7"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "pluie",
+ "name": "Rain",
+ "type": "Céleste",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 60,
+ "hpFormula": "11d6+22",
+ "vitesse": "9 m, vol 36 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 18,
+  "CHA": 15
+ },
+ "senses": "Perception passive 14",
+ "languages": "céleste, commun",
+ "traits": "**Ailes de feu.** Les ailes de la pluie sont faites de flamme, et ils jettent la lumière lumineuse sur 4,50 m et la lumière faible pour un 4,50 m supplémentaire. Au début de chaque tour de Rain, chaque créature du choix de Rain au sein de 1,50 m d'elle prend 3 (1d6) dégâts de feu. Une créature qui frappe Rain avec une attaque de mêlée prend 3 (1d6) dégâts de feu.\n**Résistance magique.** La pluie a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** La pluie fait deux attaques de Hoof.\n**C'est vrai..** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (2d4) dégâts contondants.\n**Serrure de corne halourée (Recharge 5-6).** La pluie utilise sa corne auréolée pour produire l'un des effets magiques suivants:\n**Une tempête de paillettes.** La pluie émet un faisceau arc-en-ciel dans une ligne 9 m large. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts radiants sur un jet de sauvegarde échoué, ou la moitié de ces dégâts sur un succès ; les créatures de l'alignement mal ont désavantage sur ce jet de sauvegarde. Si les dégâts de cet effet réduit une créature à 0 points de vie, la créature meurt, et son corps se transforme en fleurs pailletées.\n**Rainbows de guérison.** La pluie libère une vague de lumière multicolore rajeunissante dans un cône 9 m. Chaque créature du choix de Rain dans cette région reprend 18 (4d8) points de vie.",
+ "attacks": [
+  {
+   "name": "C'est vrai.",
+   "bonus": 3,
+   "damage": "2d4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/69cbfe1b22_monstre-pluie.webp",
+ "notes": "",
+ "source": "MisMV1 (5e.tools, traduction automatique)",
+ "aka": "Pluie",
+ "caNote": "armure naturelle",
+ "saves": "DEX +3, CON +5, SAG +7",
+ "skills": "Acrobaties +3, Perspicacité +7, Discrétion +3",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu, poison, radiant",
+ "conditionImmunities": "charmé, paralysé, empoisonné",
+ "bonusActions": "**Échappement de Nimble.** La pluie prend soit la Se désengager soit l'action Se cacher."
+}

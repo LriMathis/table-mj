@@ -1,0 +1,51 @@
+{
+ "id": "grippli-guerrier",
+ "name": "Grippli Warrior",
+ "type": "Humanoïde (grippli)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 13,
+ "hpFormula": "3d6+3",
+ "vitesse": "9 m, escalade 9 m, nage 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "Grippli plus une autre langue (habituellement commune, draconienne ou primordiale)",
+ "traits": "**Maintenez votre souffle.** Le grippi peut retenir son souffle pendant 20 minutes.\n**Leap debout.** Le grippli peut sauter horizontalement 9 m ou 6 m verticalement à partir d'une position debout.",
+ "actionsText": "**Multiattaques.** Le grippli fait une attaque avec sa langue. Si cette attaque frappe, le grippi peut faire une attaque à la mêlée en utilisant son trident contre la même cible.\n**Langue.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature moyenne ou plus petite. Touché : La cible est agrippé (évasion DD 12). Jusqu'à ce que ce grappin se termine, la cible est entravé, et le grappin ne peut pas attraper une autre créature.\n**Trident.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee, plus 2 (1d4) dégâts perforants si le grippli avait avantage sur le jet d'attaque.\n**Saubèche.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, plus 2 (1d4) dégâts perforants si le grippli avait un avantage sur le jet d'attaque.",
+ "attacks": [
+  {
+   "name": "Langue",
+   "bonus": 4,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "Trident",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/7ddb609f09_monstre-grippli-guerrier.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Grippli guerrier",
+ "skills": "Athlétisme +2, Discrétion +4, Survie +4"
+}

@@ -1,14 +1,16 @@
 {
  "id": "gobelours",
  "name": "Gobelours",
- "type": "Humanoïde",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvaise",
  "cr": "1",
  "xp": 200,
- "ca": 16,
- "hp": 27,
- "hpFormula": "5d8+5",
+ "ca": 14,
+ "hp": 33,
+ "hpFormula": "6d8+6",
  "vitesse": "9 m",
- "size": 1,
  "stats": {
   "FOR": 15,
   "DEX": 14,
@@ -17,21 +19,27 @@
   "SAG": 11,
   "CHA": 9
  },
+ "skills": "Discrétion +6, Survie +2",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, gobelin",
+ "traits": "**Rapt.** Le gobelours n’a pas besoin de dépenser de déplacement supplémentaire pour déplacer une créature qu’il agrippe.",
+ "actionsText": "**Saisie.** Corps à corps : +4, allonge 3 m. Touché : 9 (2d6 + 2) dégâts contondants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 12).\n**Marteau léger.** Corps à corps ou à distance : +4 (avec Avantage si la cible est Agrippée par le gobelours), allonge 3 m ou portée 6/18 m. Touché : 9 (3d4 + 2) dégâts contondants.",
  "attacks": [
   {
-   "name": "Morgenstern",
+   "name": "Saisie",
    "bonus": 4,
-   "damage": "2d8+2",
-   "type": "perforant"
+   "damage": "2d6+2",
+   "type": "contondant"
   },
   {
-   "name": "Javeline",
+   "name": "Marteau léger",
    "bonus": 4,
-   "damage": "1d6+2",
-   "type": "perforant"
+   "damage": "3d4+2",
+   "type": "contondant"
   }
  ],
- "traits": "**Brute.** Une arme de corps à corps inflige un dé supplémentaire (inclus).\n**Attaque surprise.** +2d6 dégâts contre une créature surprise au premier round.",
- "portrait": "/data/images/9dff608619_monstre-gobelours.svg",
- "notes": ""
+ "portrait": "/data/images/e00b967056_monstre-gobelours.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 165",
+ "aka": "Combattant gobelours (2024)"
 }

@@ -1,0 +1,43 @@
+{
+ "id": "birdsquirrel",
+ "name": "Birdsquirrel",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "6 m, escalade 6 m, vol 9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "",
+ "languages": "—",
+ "traits": "**Tactiques de conditionnement.** Oiseaux écureuil a avantage sur un jet d'attaque contre une créature si au moins un des alliés de l'Oiseaux écureuil est à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** L'écureuil d'oiseaux fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6+2) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4+2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c4b7d7a9e8_monstre-birdsquirrel.webp",
+ "notes": "points de vie : 10",
+ "source": "Adventure with Muk (5e.tools, traduction automatique)"
+}

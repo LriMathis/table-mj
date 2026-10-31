@@ -1,0 +1,43 @@
+{
+ "id": "terre-totem-elemental",
+ "name": "Earth Totem Elemental",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 126,
+ "hpFormula": "12d10+60",
+ "vitesse": "9 m, creusement 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 8,
+  "CON": 20,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 10",
+ "languages": "terreux",
+ "traits": "**Glisse de terre.** Le totem élémentaire peut creuser à travers la terre et la pierre non magiques et non travaillées. Ce faisant, le totem élémentaire ne perturbe pas le matériel qu'il traverse.\n**Monstre de siège.** Le totem élémentaire inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le totem élémentaire fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 14 (2d8 + 5) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/313bd2b84e_monstre-terre-totem-elemental.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "aka": "Terre Totem Elemental",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "tonnerre",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, paralysé, pétrifié, empoisonné, inconscient"
+}

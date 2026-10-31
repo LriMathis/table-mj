@@ -1,0 +1,47 @@
+{
+ "id": "tyrannosaurus-zombi",
+ "name": "Tyrannosaurus Zombie",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 11,
+ "hp": 136,
+ "hpFormula": "13d12+52",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 6,
+  "CON": 19,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 6",
+ "languages": "—",
+ "traits": "**Dégorgement des zombies.** Comme un action bonus, le tyrannosaurus zombie peut digérer un Zombi normal, qui apparaît dans un espace inoccupé à l'intérieur de 3 m de lui. Le Zombi dégonflé agit de sa propre initiative. Après qu'un zombie soit dégonflé, roulez un d6. Sur un rouleau de 1, le tyrannosaurus zombie s'épuise de zombies pour dégourer et perd ce trait. Si le tyrannosaurus zombie a encore ce caractère quand il meurt, 1d4 zombies normaux éclatent de son corps au début de son prochain tour. Ces zombies agissent de leur propre initiative compte.\n**Fortitude non-morte.** Si les dégâts réduisent le tyrannosaurus zombie à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5+ les dégâts pris, à moins que les dégâts soient rayonnants ou d'un coup critique. Sur un succès, le zombie tombe à 1 points de vie à la place.",
+ "actionsText": "**Multiattaques.** Le tyrannosaurus zombie fait deux attaques: une avec sa morsure et une avec sa queue. Il ne peut pas faire les deux attaques contre la même cible.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 33 (4d12 + 7) dégâts perforants. Si la cible est une créature moyenne ou plus petite, c'est agrippé (évasion DD 17). Jusqu'à ce que ce grappin se termine, la cible est entravé et le tyrannosaurus zombie ne peut pas mordre une autre cible ou dégorger les zombies.\n**Queue.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 20 (3d8 + 7) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "4d12+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 10,
+   "damage": "3d8+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/19d83c7618_monstre-tyrannosaurus-zombi.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Tyrannosaurus zombi",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

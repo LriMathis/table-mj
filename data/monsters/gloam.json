@@ -1,0 +1,40 @@
+{
+ "id": "gloam",
+ "name": "Gloam",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** Le chat a l'avantage sur tests de Sagesse (Perception) qui dépendent de l'odeur.",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts tranchants.\n**Nuage de poussière.** À son premier tour au combat ou lorsqu'il est réduit à 0 points de vie, le chat expulse un nuage de poussière qui agit comme poussière d'éternuement et d'étouffement",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/98eb5e486e_monstre-gloam.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "dracolich",
+ "name": "Dracolich",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande ou Gigantesque",
+ "size": 4,
+ "alignment": "loyal mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 20,
+ "hp": 225,
+ "hpFormula": "18d12+108",
+ "vitesse": "12 m, creusement 9 m, vol 24 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 23,
+  "INT": 19,
+  "SAG": 15,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 24",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (3/jour, ou 4/jour à Lair).** Si le dracolich échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**La répression de la vie.** Les créatures de 18 m du dracolich ne peuvent pas retrouver points de vie.\n**Résistance magique.** Le dracolich a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Gemme de l'âme.** Le dracolich a un bijou magique. Si le dracolich est détruit alors que le bijou est sur le même plan d'existence que lui, le dracolich gagne un nouveau corps en 1d20 jours, récupérant tout son points de vie et apparaissant dans 1,50 m du bijou.\nLa gemme est un objet minuscule qui a CA 20; HP 50; et immunité à nécrotique, poison et dégâts psychiques. Le bijou retrouve tout son points de vie à la fin de chaque tour, mais il se tourne vers la poussière si réduit à 0 points de vie. Si le bijou est détruit, le dracolich peut en créer un nouveau en complétant un rituel de 8 heures à l'aide d'un bijou d'une valeur de 1 000 GP et en dépensant 5 000 GP, que le rituel consomme.",
+ "actionsText": "**Multiattaques.** Le dracolich fait trois attaques Rend. Il peut remplacer une attaque par une utilisation de Spellcasting pour lancer Rayon empoisonné (version de niveau 2).\n**Rend.** Jet d'attaque au corps à corps : +13, allonge 3 m. Touché : 18 (2d10 + 7) dégâts tranchants plus 4 (1d8) dégâts nécrotiques.\n**nécrotique Respiration (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 20, chaque créature dans un cône 18 m. Échec : 52 (8d12) dégâts nécrotiques. Réussite : Demi-dégâts.\n**Détection orthographique.** Le dracolich lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 19, +11 au toucher with attaques de sort) :\n- À volonté : Détection de la magie, Rayon empoisonné (version de niveau 2)\n- 1/jour chacun : Création de mort-vivant (version de niveau 8), Doigt de mort",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 13,
+   "damage": "2d10+7",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/3e15ec4e8b_monstre-dracolich.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "saves": "DEX +6, SAG +8",
+ "skills": "Perception +14, Discrétion +6",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dracolich peut entreprendre l'une des actions ci-après.\n**Ponce.** Le dracolich monte à la moitié de sa vitesse, et il fait une attaque Rend.\n**Rayon qui s'affaiblit.** Le dracolich utilise Spellcasting pour lancer Rayon empoisonné (version de niveau 2). Le dracolich ne peut pas reprendre cette action avant le début de son prochain tour.\n**Présence terrifiante.** Jet de sauvegarde de Sagesse : DD 19, chaque créature dans une émanation 9 m provenant du dracolich. Échec : 11 (2d10) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour. Échec ou réussite : Le dracolich ne peut pas reprendre cette action avant le début de son prochain tour."
+}

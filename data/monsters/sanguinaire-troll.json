@@ -1,0 +1,49 @@
+{
+ "id": "sanguinaire-troll",
+ "name": "Dire Troll",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 15,
+ "hp": 172,
+ "hpFormula": "15d12+75",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 15,
+  "CON": 21,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "géant",
+ "traits": "**Régénération.** Le troll retrouve 10 points de vie au début de son tour. Si le troll prend de l'acide ou du dégâts de feu, il ne récupère que 5 points de vie au début de son prochain tour. Le troll ne meurt que s'il est touché par une attaque qui fournit 10 ou plus d'acide ou dégâts de feu alors que le troll a 0 points de vie.",
+ "actionsText": "**Multiattaques.** Le troll fait une attaque Bite et quatre attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 10 (1d8 + 6) dégâts perforants plus 5 (1d10) dégâts de poison.\n**Griffes.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 16 (3d6 + 6) dégâts tranchants.\n**Whirlwind des griffes (Recharge 5-6).** Chaque créature dans 3 m du troll doit faire un DD 19 jet de sauvegarde de Dextérité, en prenant 44 (8d10) dégâts tranchants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "1d8+6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 11,
+   "damage": "3d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d53b7ca27e_monstre-sanguinaire-troll.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Sanguinaire troll",
+ "caNote": "armure naturelle",
+ "saves": "SAG +5, CHA +2",
+ "skills": "Perception +5",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "effrayé, empoisonné"
+}

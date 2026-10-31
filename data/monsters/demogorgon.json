@@ -1,0 +1,45 @@
+{
+ "id": "demogorgon",
+ "name": "Demogorgon",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** Le demogorgon a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Frénésie sanguine.** Le demogorgon a avantage sur melee jets d'attaque contre toute créature qui n'a pas toute sa points de vie.\n**Régénération.** Le démogorgon retrouve 10 points de vie au début de son tour. Si le demogorgon prend de l'acide ou du dégâts de feu, ce trait ne fonctionne pas au début du prochain tour du demogorgon. Le demogorgon meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Le demogorgon fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/80a1f377f4_monstre-demogorgon.webp",
+ "notes": "",
+ "source": "Hunt for the Thessalhydra (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3, Discrétion +5"
+}

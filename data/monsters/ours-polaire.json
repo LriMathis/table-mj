@@ -1,0 +1,39 @@
+{
+ "id": "ours-polaire",
+ "name": "Ours polaire",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non aligné",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 42,
+ "hpFormula": "5d10+15",
+ "vitesse": "12 m, nage 12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 7
+ },
+ "skills": "Perception +5, Discrétion +4",
+ "resistances": "froid",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** L’ours effectue deux attaques de Saignée.\n**Saignée.** Corps à corps : +7, allonge 1,50 m. Touché : 9 (1d8 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 7,
+   "damage": "1d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/53625b0bf6_monstre-ours-polaire.png",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "squelette-seigneur",
+ "name": "Skeleton Lord",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 18,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "toutes les langues qu'il connaissait dans la vie",
+ "traits": "**Peur Aura.** Toute créature hostile au seigneur squelette qui commence son tour dans 6 m du seigneur squelette doit faire un DD 17 jet de sauvegarde de Sagesse, à moins que le seigneur squelette soit neutralisé. Sur une sauvegarde ratée, la créature a l'état effrayé jusqu'au début de son prochain tour. Si le jet de sauvegarde d'une créature est réussi, alors la créature est immunisée contre la peur du seigneur squelette Aura pour les prochaines 24 heures.\n**Résistance magique.** Le seigneur du squelette a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques à l'arme du seigneur squelette sont magiques et gagnent un bonus de +1 à l'attaque et jets de dégâts (inclus dans l'attaque).",
+ "actionsText": "**Multiattaques.** Le seigneur du squelette fait trois attaques de Grande-épée.\n**Grande épée.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 10,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/792937ec9a_monstre-squelette-seigneur.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "aka": "Squelette seigneur",
+ "caNote": "plaque",
+ "vulnerabilities": "contondant des attaques magiques",
+ "resistances": "froid, nécrotique",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné"
+}

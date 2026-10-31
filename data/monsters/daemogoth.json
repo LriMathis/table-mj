@@ -1,0 +1,42 @@
+{
+ "id": "daemogoth",
+ "name": "Daemogoth",
+ "type": "Fiélon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 157,
+ "hpFormula": "15d12+60",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 15,
+  "CON": 19,
+  "INT": 21,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 16",
+ "languages": "abyssal, infernal, télépathie 36 m",
+ "traits": "**Pacte de douleur.** En utilisant un rituel de 10 minutes, le daemogoth peut forger un lien magique avec une créature volontaire qu'il touche tout au long du rituel. La créature devient liée par le pacte jusqu'à sa mort, le daemogoth meurt, ou le pacte est brisé par tout effet qui peut enlever une malédiction.\nLe daemogoth choisit un sort à partir du niveau=0;1;2;3. La créature liée peut lancer ce sort en utilisant ce pacte, ne nécessitant aucun composant matériel et en utilisant Intelligence comme caractéristique d'incantation. Lorsqu'il lance le sort, la créature prend 7 (2d6) dégâts psychiques, qui ne peut pas briser le concentration de la créature sur un sort. Une fois que la créature liée jette le sort de cette façon, il ne peut pas le faire à nouveau jusqu'à ce qu'il termine un repos long.",
+ "actionsText": "**Multiattaques.** Le daemogoth fait trois attaques d'Agonizing Burst. Il peut utiliser Terrify, si disponible, à la place d'une des attaques.\n**Une crise d'angoisse.** Attaque de sort au corps à corps ou à distance : +9 au toucher, allonge 3 m ou portée 36 m, une cible. Touché : 11 (2d10) dégâts de force. Si la cible est une créature, le daemogoth retrouve 5 points de vie.\n**Terrify (Recharge 4-6).** Le daemogoth cible une créature il peut voir en lui-même 36 m. La cible doit faire un DD 17 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la cible prend 33 (6d10) dégâts psychiques et est effrayé du daemogoth jusqu'à la fin du prochain tour du daemogoth, et le daemogoth reprend 5 points de vie. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts et n'est pas effrayé, et le daemogoth ne guérit pas.",
+ "attacks": [
+  {
+   "name": "Une crise d'angoisse",
+   "bonus": 9,
+   "damage": "2d10",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/181b7925c3_monstre-daemogoth.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +9, SAG +6, CHA +8",
+ "skills": "Arcanes +13, Tromperie +12, Histoire +9, Perception +6",
+ "immunities": "psychique",
+ "conditionImmunities": "effrayé"
+}

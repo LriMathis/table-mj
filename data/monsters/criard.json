@@ -1,0 +1,31 @@
+{
+ "id": "criard",
+ "name": "Criard",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 0,
+ "ca": 5,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "1,5 m",
+ "stats": {
+  "FOR": 1,
+  "DEX": 1,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "conditionImmunities": "assourdi, aveuglé, charmé, effrayé",
+ "senses": "Vision aveugle 9 m, Perception passive 6",
+ "languages": "aucune",
+ "traits": "",
+ "reactions": "**Hurlement.** Déclencheur : une créature ou une source de Lumière vive se déplace dans un rayon de 9 m du criard. Conséquences : le criard émet un hurlement audible dans un rayon de 90 m pendant 1 minute (le cri cesse s’il meurt).",
+ "attacks": [],
+ "portrait": "/data/images/eee6733115_monstre-criard.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 32"
+}

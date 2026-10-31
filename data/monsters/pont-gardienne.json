@@ -1,0 +1,49 @@
+{
+ "id": "pont-gardienne",
+ "name": "Deck Defender",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 16,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (can't see beyond this radius), Perception passive 10",
+ "languages": "comprend une de vos langues mais ne peut pas parler",
+ "traits": "**Chevalier allié.** Certaines des statistiques du défenseur de pont sont basées sur le personnage qui a dessiné la carte Knight. Là où le bloc de stat du défenseur de pont se réfère à \"vous\", il se réfère à ce caractère.\n**Polyvalence repliée.** Après avoir terminé un repos long, vous pouvez replier la forme du défenseur de pont, le changer en forme d'acrobate, de berserker ou de gardien.\n**Fragile.** Si le défenseur du pont est réduit à 0 points de vie, il s'effondre dans une pile haprisque de cartes de jeu non magiques et ne peut pas être ressuscité ou reconstruit.",
+ "actionsText": "**Multiattaques.** Le défenseur du pont fait un nombre d'attaques égal à la moitié de son bonus de maîtrise (arrondi).\n**Découpe de papier.** Attaque d'arme au corps à corps : PB + +3 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants.\n**Strike sans faille (Forme de Berserker seulement).** Attaque d'arme au corps à corps : PB + +3 au toucher (avec avantage), allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants, et les attaques faites contre le défenseur du pont jusqu'au début de son prochain tour ont avantage.",
+ "attacks": [
+  {
+   "name": "Découpe de papier",
+   "bonus": 3,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Strike sans faille (Forme de Berserker seulement)",
+   "bonus": 3,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/96d7176d81_monstre-pont-gardienne.webp",
+ "notes": "points de vie : 5 + 5 fois votre niveau (le défenseur du pont a un nombre de dés de vie [d8s] égal à votre niveau)",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Pont gardienne",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Étape rapide (formulaire d'acrobate seulement).** Le défenseur du pont prend l'action Foncer ou Se désengager.",
+ "reactions": "**Protection (Forme guardienne seulement).** Lorsqu'une créature que le défenseur de pont peut voir attaque une cible autre que le défenseur de pont et se trouve à l'intérieur de 1,50 m du défenseur de pont, le défenseur de pont impose un désavantage sur le jet d'attaque."
+}

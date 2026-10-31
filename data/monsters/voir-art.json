@@ -1,0 +1,48 @@
+{
+ "id": "voir-art",
+ "name": "Art Elemental Mascot",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 18,
+ "hpFormula": "4d6+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "senses": "Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Burst de mort.** Quand l'élémental meurt, il explose dans un éclat de lumière colorée. Chaque créature dans 1,50 m de l'élément doit réussir sur un DD 11 jet de sauvegarde de Constitution ou être aveuglé pendant 1 minute. Une créature aveuglé peut répéter l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "actionsText": "**Flacon joyeux.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 6 (2d4 + 1) dégâts de feu.\n**Bolt mélancolique.** Attaque d'arme à distance : +3 au toucher, portée 9 m, une cible. Touché : 6 (2d4 + 1) dégâts de froid.\n**Artistique captivante (1/jour).** L'élémental cible une créature qu'il peut voir en lui-même. La cible doit réussir sur un DD 12 jet de sauvegarde de Charisme ou être charmé pendant 1 minute. La cible charmé peut répéter l'enregistrement à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Flacon joyeux",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "feu"
+  },
+  {
+   "name": "Bolt mélancolique",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/6ee0ab8ae4_monstre-voir-art.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Voir art",
+ "skills": "Représentation +4",
+ "resistances": "froid, feu",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

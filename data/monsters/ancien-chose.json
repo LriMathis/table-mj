@@ -1,0 +1,43 @@
+{
+ "id": "ancien-chose",
+ "name": "Elder Thing",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 16,
+ "hp": 209,
+ "hpFormula": "22d10+88",
+ "vitesse": "6 m, vol 27 m (vol stationnaire)",
+ "stats": {
+  "FOR": 21,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 20,
+  "SAG": 17,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 13",
+ "languages": "Discours profond; télépathie 36 m.",
+ "traits": "**Résistance magique.** La chose aînée a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le truc aîné fait deux attaques du Tentacle apaisant et utilise psychique Skewer.\n**Tentacle apaisant.** Jet d'attaque au corps à corps : +10, allonge 3 m. Touché : 14 (2d8 + 5) dégâts psychiques, et la cible a l'état charmé jusqu'au début du prochain tour de la chose aînée.\n**Spores d'affranchissement mental (Recharge 6).** Jet de sauvegarde d'Intelligence : DD 18, chaque créature dans une Emanation 6 m originaire de la chose aînée. Échec : 55 (10d10) dégâts psychiques. Pendant 1 minute, chaque fois que la cible prend l'action Magie, elle prend 10 (3d6) dégâts psychiques. Réussite : Demi-dégâts seulement.\n**Écrevisse psychique.** Jet de sauvegarde de Sagesse : DD 18, une créature dans 18 m. Échec : 22 (4d10) dégâts psychiques. Si la cible a l'état charmé, elle gagne 1 niveau épuisement et a l'état étourdi pendant charmé.",
+ "attacks": [
+  {
+   "name": "Tentacle apaisant",
+   "bonus": 10,
+   "damage": "2d8+5",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/aa76172471_monstre-ancien-chose.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Ancien chose",
+ "saves": "CON +9, INT +10",
+ "resistances": "contondant, perforant, psychique, tranchant",
+ "immunities": "foudre",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Magie d'Eldritch (3/jour).** La chose ancienne lance Injonction, Détection des pensées, Bourrasque, ou Antidétection, ne nécessitant aucun composant de sort et en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18).\n- 3/jour : Injonction, Détection des pensées, Bourrasque, Antidétection"
+}

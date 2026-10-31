@@ -1,0 +1,44 @@
+{
+ "id": "ombre-assassin",
+ "name": "Shadow Assassin",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 14,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 19,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 19",
+ "languages": "comprend les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "**Amorphe.** L'assassin peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Vols d'ombre.** Alors que dans la lumière sombre ou sombre, l'assassin peut prendre l'action Se cacher comme un action bonus.\n**Faiblesse de la lumière du soleil.** Alors qu'au soleil, l'assassin a un désavantage sur jets d'attaque, tests de caractéristique et jet de sauvegarde.",
+ "actionsText": "**Multiattaques.** L'assassin fait deux attaques à Shadow Blade.\n**Lame d'ombre.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 10 (3d6) dégâts nécrotiques. À moins que la cible ne soit immunisée contre dégâts nécrotiques, le score Force de la cible est réduit de 1d4 chaque fois qu'elle est touchée par cette attaque. La cible meurt si son Force est réduit à 0. La réduction dure jusqu'à ce que la cible termine un repos court ou long. Si un humanoïde non malin meurt de cette attaque, un Ombre (voir le Monster Manual) s'élève du corps 1d4 heures plus tard.",
+ "attacks": [
+  {
+   "name": "Lame d'ombre",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/274e4b92e6_monstre-ombre-assassin.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Ombre assassin",
+ "saves": "DEX +8, INT +5",
+ "skills": "Perception +9, Discrétion +12",
+ "vulnerabilities": "radiant",
+ "resistances": "acide, froid, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "ultroloth",
+ "name": "Ultroloth",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 19,
+ "caNote": "armure naturelle",
+ "hp": 153,
+ "hpFormula": "18d8+72",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "skills": "Discrétion +8, Intimidation +9, Perception +7",
+ "resistances": "froid, feu, foudre ; contondants, perforants et tranchants émanant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "charmé, empoisonné, terrorisé",
+ "senses": "vision parfaite 36 m, Perception passive 17",
+ "languages": "abyssal, infernal, télépathie 36 m",
+ "traits": "**Armes magiques.** Les attaques d'arme d'un ultroloth sont de nature magique.\n**Incantation innée.** L'ultroloth utilise le Charisme comme caractéristique d'incantation innée (DD du jet de sauvegarde contre ses sorts : 17). Il peut lancer les sorts suivants de façon innée, sans dépenser de composantes matérielles.\n- À volonté : *clairvoyance, détection de la magie, détection des pensées, dissipation de la magie, invisibilité* (sur soi uniquement), *modification d'apparence, suggestion, ténèbres*\n- 3/jour chacun : *mur de feu, peur, porte dimensionnelle*\n- 1/jour chacun : *suggestion de groupe, tempête de feu*\n**Résistance à la magie.** L'ultroloth est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** L'ultroloth peut utiliser son regard hypnotisant et effectuer trois attaques de corps à corps.\n**Épée longue.** *Attaque d'arme au corps à corps :* +8 pour toucher, allonge 1,50 m, une cible. *Touché :* 7 (1d8+3) dégâts tranchants ou 8 (1d10+3) dégâts tranchants si le fiélon manie son arme à deux mains.\n**Regard hypnotisant.** Les yeux de l'ultroloth émettent une lueur opalescente alors qu'il vise une créature située dans son champ de vision et dans un rayon de 9 mètres. Si sa cible le voit, elle doit réussir un jet de sauvegarde de Sagesse DD 17, sans quoi elle succombe à la magie et se retrouve charmée jusqu'à la fin du prochain tour de l'ultroloth. Elle est étourdie tant qu'elle est charmée. Si elle a réussi son jet de sauvegarde, elle est immunisée contre le regard de cet ultroloth pendant les 24 heures qui suivent.\n**Téléportation.** L'ultroloth se téléporte par magie, avec tout l'équipement qu'il porte et transporte, jusqu'à un emplacement inoccupé situé dans son champ de vision et dans un rayon maximum de 18 mètres.",
+ "portrait": "/data/images/cfb04520d0_monstre-ultroloth.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 315 · image : internet",
+ "attacks": [
+  {
+   "name": "Épée longue",
+   "bonus": 8,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ]
+}

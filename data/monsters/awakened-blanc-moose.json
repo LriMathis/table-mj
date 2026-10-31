@@ -1,0 +1,45 @@
+{
+ "id": "awakened-blanc-moose",
+ "name": "Awakened White Moose",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 11,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 11",
+ "languages": "druidique",
+ "traits": "**Frais.** Si l'orignal se déplace au moins 6 m droit vers une cible et la frappe avec une attaque des bois au même tour, la cible prend un 9 (2d8) dégâts contondants supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Force ou être à terre.\n**C'est sûr..** L'orignal a un avantage sur Force et jet de sauvegarde de Dextérité fait contre les effets qui le frapperaient à terre.",
+ "actionsText": "**Multiattaques.** L'orignal fait deux attaques : une avec ses bois et une avec ses sabots.\n**Fourmis.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts perforants.\n**Des voyous.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d4 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Fourmis",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Des voyous",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/98f6fe0bfe_monstre-awakened-blanc-moose.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Awakened blanc Moose",
+ "caNote": "armure naturelle"
+}

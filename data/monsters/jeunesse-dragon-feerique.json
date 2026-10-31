@@ -1,0 +1,40 @@
+{
+ "id": "jeunesse-dragon-feerique",
+ "name": "Faerie Dragon Youth",
+ "type": "Dragon",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 21,
+ "hpFormula": "6d4+6",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "draconique, Sylvan; télépathie 18 m (dragons de la faérie seulement)",
+ "traits": "**Résistance magique.** Le dragon a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Morceau.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts perforants plus 2 (1d4) dégâts psychiques.\n**Euphorie Respiration (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 12, chaque créature dans un cône 4,50 m. Échec : La cible a l'état neutralisé jusqu'à la fin de son prochain tour et utilise tout son mouvement à son tour pour se déplacer dans une direction aléatoire.\n**Détection orthographique.** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (Spell save DD 12):\n- À volonté : Lumières dansantes, Main de mage, Illusion mineure",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/f6b7ce53f5_monstre-jeunesse-dragon-feerique.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Jeunesse dragon féerique",
+ "skills": "Arcanes +3, Perception +3, Discrétion +5",
+ "bonusActions": "**Invisibilité supérieure.** Le dragon lance Invisibilité supérieure sur lui-même, ne nécessitant aucun composant de sort et utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Invisibilité supérieure"
+}

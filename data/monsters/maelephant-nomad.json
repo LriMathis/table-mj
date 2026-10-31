@@ -1,0 +1,50 @@
+{
+ "id": "maelephant-nomad",
+ "name": "Maelephant Nomad",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 16,
+ "hp": 190,
+ "hpFormula": "20d10+80",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 17,
+  "CHA": 15
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 18",
+ "languages": "commun, infernal, Maelephant",
+ "traits": "**Résistance magique.** Le maelephant a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénérative.** Au début de son tour, si le maelephant a moins de la moitié de sa points de vie, il régénère 20 points de vie. Ce trait ne fonctionne pas si le maelephant commence son tour avec moins de 1 points de vie.",
+ "actionsText": "**Multiattaques.** Le maelephant fait deux attaques en utilisant sa griffe, son Trunk, ou une combinaison des deux.\n**Griffe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d10 + 6) dégâts tranchants.\n**Courroie.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 16 (3d6 + 6) dégâts perforants. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 18). Jusqu'à ce que ce grappin se termine, la cible a l'état entravé. Alors qu'il lutte contre une créature, le maelephant ne peut pas utiliser son attaque Trunk contre d'autres créatures.\n**Respiration nocive (Recharge 5-6).** Le maelephant libère un nuage de gaz nocif. Toutes les créatures dans un cône 9 m devant le maelephant doivent faire un DD 16 jet de sauvegarde de Constitution. Les cibles prennent 42 (12d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite. En outre, sur un échec de sauvegarde, les scores Intelligence et Charisme de la créature deviennent 1. La créature ne peut pas lancer des sorts, activer des objets magiques, comprendre le langage, ou communiquer de toute façon intelligible. La créature peut cependant identifier ses amis, les suivre et même les protéger. Une créature faible peut répéter l'épargne à chaque minute, mettant fin à l'effet sur un succès.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 11,
+   "damage": "2d10+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Courroie",
+   "bonus": 11,
+   "damage": "3d6+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/50ecb82cbb_monstre-maelephant-nomad.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne",
+ "saves": "FOR +11, CON +9",
+ "skills": "Athlétisme +16, Perspicacité +8, Intimidation +7, Perception +8",
+ "resistances": "acide, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "effrayé, empoisonné",
+ "bonusActions": "**Charge sans déclic.** Le maelephant se déplace vers 12 m vers une créature qu'il peut voir et si il se déplace au moins 6 m en ligne droite, il peut faire une attaque Claw. Sur un coup, la cible prend un 14 (4d6) dégâts de force supplémentaire et a l'état à terre.",
+ "reactions": "**Stance défensive.** En réaction à la prise de dégâts, le maelephant entre dans une position défensive jusqu'à la fin de son prochain tour. Alors que dans une position défensive, le maelephant se déplace à mi-vitesse et ne peut pas prendre actions bonus, mais son CA augmente de 5."
+}

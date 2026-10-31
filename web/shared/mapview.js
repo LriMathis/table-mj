@@ -39,23 +39,27 @@ const TOKEN_FILL = { pc: '#2a5a8a', mon: '#8a2a22', npc: '#7a6a20' };
 class MapView {
   constructor(vp, opts = {}) {
     this.vp = vp; this.opts = opts; this.player = !!opts.player; this.map = null;
-    vp.innerHTML = `<div class="map-world"><img class="bg" alt=""><canvas class="grid"></canvas><div class="toks"></div><canvas class="fog"></canvas><div class="ovl"></div><div class="pings"></div></div>
+    vp.innerHTML = `<div class="map-world"><img class="bg" alt=""><div class="burn"></div><canvas class="grid"></canvas><div class="wld"></div><div class="toks"></div><canvas class="fog"></canvas><div class="ovl"></div><div class="pings"></div></div>
       <div class="map-empty hidden"><div class="big"><i class="ico i-map"></i></div><div>${opts.emptyText || t('No map')}</div></div>`;
     this.world = $('.map-world', vp); this.img = $('img.bg', vp); this.gridC = $('canvas.grid', vp); this.fogC = $('canvas.fog', vp);
     this.toks = $('.toks', vp); this.ovl = $('.ovl', vp); this.pingL = $('.pings', vp); this.shownPings = new Set(); this.empty = $('.map-empty', vp);
+    this.wld = $('.wld', vp); WORLD.views.add(this);
     this.view = { x: 0, y: 0, z: 1 };
     this.img.onload = () => {
       const m = this.map; if (!m) return;
       if (!m.w || m.w !== this.img.naturalWidth) { m.w = this.img.naturalWidth; m.h = this.img.naturalHeight; opts.onDims && opts.onDims(m); }
-      this.sizeCanvases(); this.drawGrid(); this.drawFog(); this.drawTokens();
+      this.sizeCanvases(); this.drawGrid(); this.drawFog(); this.drawTokens(); this.drawWorld();
       if (!m.view || this._fitNext) { this._fitNext = false; this.fit(); }
     };
     vp.addEventListener('wheel', e => {
+      if (e.target.closest('.map-ui')) return;
       e.preventDefault();
       const r = vp.getBoundingClientRect(), px = e.clientX - r.left, py = e.clientY - r.top;
       this.zoomAt(px, py, e.deltaY < 0 ? 1.15 : 1 / 1.15);
     }, { passive: false });
     vp.addEventListener('pointerdown', e => {
+      // bars drawn over the map (class map-ui): their buttons must get the click, not start a pan
+      if (e.target.closest('.map-ui')) return;
       const panBtn = e.button === 1 || e.button === 2 || (e.button === 0 && (this.spaceDown || (opts.panOnLeft && opts.panOnLeft(e))));
       if (!panBtn) return;
       e.preventDefault();
@@ -70,17 +74,33 @@ class MapView {
     this._ku = e => { if (e.code === 'Space') this.spaceDown = false; };
     window.addEventListener('keydown', this._kd); window.addEventListener('keyup', this._ku);
   }
-  destroy() { window.removeEventListener('keydown', this._kd); window.removeEventListener('keyup', this._ku); }
+  destroy() { window.removeEventListener('keydown', this._kd); window.removeEventListener('keyup', this._ku); WORLD.views.delete(this); }
+  /* pins, routes and party of a world map (see world.js) */
+  drawWorld() {
+    if (!this.wld) return;
+    const o = this.opts.world ? this.opts.world() : {};
+    this.wld.innerHTML = this.map ? worldHTML(this.map, { player: this.player, iz: 1 / this.view.z, ...o }) : '';
+    this._wz = this.view.z;
+  }
   setMap(map, { fit } = {}) {
     const changed = map?.url !== this.map?.url || map?.id !== this.map?.id;
     this.map = map;
     this.empty.classList.toggle('hidden', !!map);
     this.world.classList.toggle('hidden', !map);
-    if (!map) return;
+    // world map: parchment presentation (wooden table, frame, burnt edges, title cartouche)
+    this.world.classList.toggle('is-world', isWorld(map));   // on the world layer: the viewport's class is rewritten by the tools
+    if (this.player) {
+      let c = this.vp.querySelector('.map-cartouche');
+      if (isWorld(map)) {
+        if (!c) { c = document.createElement('div'); c.className = 'map-cartouche'; this.vp.appendChild(c); }
+        c.innerHTML = `<small>${t('World map')}</small><b>${esc(String(map.name || '').replace(/^\s*[\w]+\s*·\s*/, ''))}</b>`;
+      } else if (c) c.remove();
+    }
+    if (!map) { if (this.wld) this.wld.innerHTML = ''; return; }
     if (map.view && !fit && !this.player) this.view = { ...map.view };
     this._fitNext = !!fit;
     if (changed || !this.img.complete) { this.img.src = map.url; }
-    else { this.sizeCanvases(); this.drawGrid(); this.drawFog(); this.drawTokens(); if (fit) this.fit(); }
+    else { this.sizeCanvases(); this.drawGrid(); this.drawFog(); this.drawTokens(); this.drawWorld(); if (fit) this.fit(); }
     this.applyView();
   }
   sizeCanvases() {
@@ -90,6 +110,8 @@ class MapView {
   }
   applyView() {
     this.world.style.transform = `translate(${this.view.x}px,${this.view.y}px) scale(${this.view.z})`;
+    this.world.style.setProperty('--iz', (1 / this.view.z).toFixed(4));   // world map markers keep the same size on screen
+    if (isWorld(this.map) && this._wz !== this.view.z) { clearTimeout(this._wzT); this._wzT = setTimeout(() => this.drawWorld(), 60); }
     const zl = this.vp.querySelector('.map-hud .zl'); if (zl) zl.textContent = Math.round(this.view.z * 100) + ' %';
   }
   viewChanged() { if (this.map && !this.player) { this.map.view = { ...this.view }; this.opts.onView && this.opts.onView(); } }
@@ -100,8 +122,10 @@ class MapView {
   zoom(f) { const r = this.vp.getBoundingClientRect(); this.zoomAt(r.width / 2, r.height / 2, f); }
   fit() {
     const m = this.map; if (!m || !m.w) return;
-    const r = this.vp.getBoundingClientRect(), z = Math.min(r.width / m.w, r.height / m.h) * 0.98;
-    this.view = { z, x: (r.width - m.w * z) / 2, y: (r.height - m.h * z) / 2 }; this.applyView(); this.viewChanged();
+    // top: height covered by a bar drawn over the map (GM world map header)
+    const r = this.vp.getBoundingClientRect(), top = this.opts.topInset ? this.opts.topInset() : 0, h = r.height - top;
+    const z = Math.min(r.width / m.w, h / m.h) * (isWorld(m) ? 0.94 : 0.98);
+    this.view = { z, x: (r.width - m.w * z) / 2, y: top + (h - m.h * z) / 2 }; this.applyView(); this.viewChanged();
   }
   centerOn(cx, cy, z) {
     const r = this.vp.getBoundingClientRect(); this.view.z = z || this.view.z;
@@ -115,7 +139,7 @@ class MapView {
   drawGrid() {
     const m = this.map, g = m.grid, ctx = this.gridC.getContext('2d');
     ctx.clearRect(0, 0, m.w, m.h);
-    if (!g.show || g.size < 4) return;
+    if (!g.show || g.size < 4 || isWorld(m)) return;
     ctx.strokeStyle = g.color; ctx.globalAlpha = g.alpha; ctx.lineWidth = Math.max(1, g.size / 70);
     ctx.beginPath();
     for (let x = ((g.ox % g.size) + g.size) % g.size; x <= m.w; x += g.size) { ctx.moveTo(x + .5, 0); ctx.lineTo(x + .5, m.h); }
@@ -180,7 +204,7 @@ class MapView {
       this.pingL.appendChild(d); setTimeout(() => d.remove(), 3200);
     }
   }
-  drawAll() { if (!this.map) return; this.sizeCanvases(); this.drawGrid(); this.drawFog(); this.drawTokens(); }
+  drawAll() { if (!this.map) return; this.sizeCanvases(); this.drawGrid(); this.drawFog(); this.drawTokens(); this.drawWorld(); }
 }
 /* distances are stored in meters (1 square = 1.5 m); shown in feet in English (1.5 m = 5 ft) */
 const toFeet = m => Math.round(m * 10 / 3 * 10) / 10;

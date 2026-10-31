@@ -1,0 +1,43 @@
+{
+ "id": "miirym",
+ "name": "Miirym",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 10,
+ "hp": 262,
+ "hpFormula": "25d10+125",
+ "vitesse": "0 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 23
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m; see also \"x-ray vision\" below, Perception passive 26",
+ "languages": "commun, draconique",
+ "traits": "**Bound à Candlekeeping.** Miirym ne peut pas quitter Candlekeeep et est à l'abri de tout effet qui la placerait dans un endroit extérieur, y compris un espace extra-dimensionnel. Si elle meurt, Miirym reprend sa forme et toute sa points de vie après 1d10 jours, réapparaissant à l'endroit où elle est morte ou dans l'espace inoccupé le plus proche.\n**Régénération.** Miirym retrouve 40 points de vie au début de son tour. Si Miirym prend des dégâts d'une arme magique ou d'un sort, ce trait ne fonctionne pas au début du prochain tour de Miirym. Miirym meurt seulement si elle commence son tour avec 0 points de vie et ne se régénère pas.\n**Mouvement intégré.** Miirym peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Elle prend 5 (1d10) dégâts de force si elle termine son tour à l'intérieur d'un objet.\n**Résistance légendaire (3/jour).** Si Miirym échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Vision des rayons X.** Miirym peut voir à travers la matière solide à une gamme de 18 m. Pour elle, les créatures opaques, les objets et les obstacles à l'intérieur de cette distance semblent transparents et n'empêchent pas la lumière de passer à travers eux. Cette vision peut pénétrer 1,50 m de pierre, 3 pouces de métal commun, et jusqu'à 3 m de bois ou de saleté. Les substances plus épaisses bloquent cette vision, tout comme une mince feuille de plomb.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 34 (9d6 + 3) dégâts de force.\n**Arme respiratoire (Recharge 5-6).** Miirym utilise l'une des armes suivantes :\n**froid Respiration.** Miirym exhale une explosion glacée dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 21 jet de sauvegarde de Constitution, en prenant 67 (15d8) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**nécrotique Respiration.** Miirym exhale un boulon d'énergie nécrotique dans une ligne 36 m large. Chaque créature dans cette ligne doit faire un DD 21 jet de sauvegarde de Dextérité, en prenant 82 (15d10) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Respiration paralysante.** Miirym exhale des gaz paralysants dans un cône 27 m. Chaque créature dans cette zone doit réussir sur un DD 21 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Présence effrayante.** Chaque créature du choix de Miirym qui est dans 36 m d'elle et consciente d'elle doit réussir sur un DD 21 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante de Miirym pour les prochaines 24 heures.\n**Détection orthographique.** Miirym lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (enregistrer DD 21) et ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes, Main de mage\n- 1/jour chacun : Dissipation du mal et du bien, Mur de force\n- 3/jour chacun : Détection de la magie, Détection des pensées, Dissipation de la magie, Localisation de créature",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "9d6+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/c58ad60964_monstre-miirym.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "saves": "DEX +7, CON +12, INT +11, SAG +9, CHA +13",
+ "skills": "Arcanes +11, Histoire +11, Perception +16, Discrétion +14",
+ "resistances": "acide, feu, foudre, tonnerre",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, empoisonné, à terre, entravé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, miirym peut entreprendre l'une des actions ci-après.\n**Morceau.** Miirym fait une attaque de morsure.\n**Téléportation (coûts 2 actions).** Miirym téléporte magiquement jusqu'à 36 m dans un espace inoccupé qu'elle peut voir."
+}

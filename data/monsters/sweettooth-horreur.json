@@ -1,0 +1,47 @@
+{
+ "id": "sweettooth-horreur",
+ "name": "Sweettooth Horror",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 58,
+ "hpFormula": "9d10+9",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Caramélisation.** Si l'horreur prend dégâts de feu, il libère un parfum doux et envoûtant. Chaque créature au sein de 9 m de l'horreur doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou avoir l'état charmé. Une créature charmé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Résistance magique.** L'horreur a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'horreur fait une attaque Bite et deux attaques Candy Cane.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants plus 10 (3d6) dégâts d'acide.\n**Canette à bonbons.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants. Si la cible est une créature grande ou plus petite, l'horreur peut choisir de ne pas causer de dégâts; au lieu de cela, la cible a l'état à terre, et l'horreur peut tirer la cible jusqu'à 1,50 m vers elle-même.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Canette à bonbons",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/92d11410d7_monstre-sweettooth-horreur.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Sweettooth horreur",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, empoisonné"
+}

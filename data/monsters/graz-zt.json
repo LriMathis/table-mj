@@ -1,0 +1,46 @@
+{
+ "id": "graz-zt",
+ "name": "Graz'zt",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "24",
+ "xp": 62000,
+ "ca": 20,
+ "hp": 346,
+ "hpFormula": "33d10+165",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 15,
+  "CON": 21,
+  "INT": 23,
+  "SAG": 21,
+  "CHA": 26
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 22",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Graz'zt échoue à un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Graz'zt a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Graz'zt fait deux attaques de Sorrow. Il peut remplacer une attaque par un recours à Spellcasting.\n**Une vague de douleur (Grande Parole).** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 20 (4d6 + 6) dégâts de force plus 14 (4d6) dégâts d'acide.\n**Téléportation.** Graz'zt téléporte, avec tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.\n**Détection orthographique.** Graz'zt lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 23):\n- À volonté : Charme-personne, Détection de la magie, Dissipation de la magie\n- 1/jour chacun : Domination de monstre, Invisibilité supérieure\n- 3/jour chacun : Ténèbres, Domination de personne, Télékinésie, Téléportation",
+ "attacks": [
+  {
+   "name": "Une vague de douleur (Grande Parole)",
+   "bonus": 13,
+   "damage": "4d6+6",
+   "type": "force + acide"
+  }
+ ],
+ "portrait": "/data/images/c0965dcefd_monstre-graz-zt.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +12, SAG +12",
+ "skills": "Tromperie +15, Perception +12, Persuasion +15",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison, contondant, perforant, tranchant qui est non magique",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "bonusActions": "**Modifier la forme.** Graz'zt se transforme en une forme qui ressemble à un humanoïde moyen ou de retour en sa forme véritable. Outre sa taille, ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé.",
+ "reactions": "**Négate Spell (Recharge 5-6).** Graz'zt essaie d'interrompre un sort qu'il voit une créature en train de lancer dans 18 m de lui. Si le sort est de niveau 3 ou inférieur, le sort échoue et n'a aucun effet. Si le sort est de niveau 4 ou supérieur, Graz'zt fait un test de Charisme contre un DD de 10 + niveau du sort. Sur un succès, le sort échoue et n'a aucun effet.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, graz'zt peut entreprendre l'une des actions ci-après.\n**Magie de l'abîme.** Graz'zt utilise Spellcasting ou Teleport.\n**Attaque.** Graz'zt fait une vague de douleur.\n**Danse, ma marionnette !.** une créature charmé par Graz'zt que Graz'zt peut voir doit utiliser sa réaction pour passer à sa vitesse que Graz'zt dirige."
+}

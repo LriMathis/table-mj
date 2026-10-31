@@ -1,0 +1,38 @@
+{
+ "id": "ankylosaure",
+ "name": "Ankylosaure",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "non alignée",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 68,
+ "hpFormula": "8d12+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "saves": "FOR +6",
+ "senses": "Perception passive 11",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** L’ankylosaure effectue deux attaques de Queue.\n**Queue.** Corps à corps : +6, allonge 3 m. Touché : 9 (1d10 + 4) dégâts contondants. Si la cible est une créature de taille TG ou inférieure, elle subit l’état À terre.",
+ "attacks": [
+  {
+   "name": "Queue",
+   "bonus": 6,
+   "damage": "1d10+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/530879f688_monstre-ankylosaure.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

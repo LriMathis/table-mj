@@ -1,0 +1,39 @@
+{
+ "id": "hellion-large",
+ "name": "Hellion (Large)",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "9 m, creusement 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Corps chauffé.** Une créature qui touche l'enfer ou la frappe avec une attaque de mêlée alors que dans 1,50 m il prend 7 (2d6) dégâts de feu.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 20 (3d10 + 4) dégâts perforants plus 7 (2d6) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "3d10+4",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/d9fafc3ecc_monstre-hellion-large.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "froid, feu"
+}

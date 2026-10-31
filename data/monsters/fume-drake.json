@@ -1,0 +1,39 @@
+{
+ "id": "fume-drake",
+ "name": "Fume Drake",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d6+5",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "draconique, igné",
+ "traits": "**Burst de mort.** Quand la fumée meurt, elle explose dans un nuage de fumées nocives. Chaque créature de 1,50 m de la fumée doit réussir sur un DD 11 jet de sauvegarde de Constitution ou prendre 4 (1d8) dégâts de poison.\n**Nature inhabituelle.** Le dragage à la fumée ne nécessite ni nourriture, ni boisson, ni sommeil.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts de feu.\n**Respiration à l'échelle (Recharge 6).** La fumée exhale un cône 4,50 m de vapeur d'échaudage. Chaque créature dans cette zone doit faire un DD 11 jet de sauvegarde de Dextérité, en prenant 4 (1d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/26f70ccada_monstre-fume-drake.webp",
+ "notes": "",
+ "source": "Dragons of Stormwreck Isle (5e.tools, traduction automatique)",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

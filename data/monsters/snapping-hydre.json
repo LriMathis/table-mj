@@ -1,0 +1,41 @@
+{
+ "id": "snapping-hydre",
+ "name": "Snapping Hydra",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 20,
+ "hp": 149,
+ "hpFormula": "13d12+65",
+ "vitesse": "9 m, nage 12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 5,
+  "CON": 21,
+  "INT": 2,
+  "SAG": 16,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 21",
+ "languages": "—",
+ "traits": "**Amphibie.** L'hydre peut respirer de l'air et de l'eau.\n**Têtes multiples.** L'hydre a cinq têtes. Chaque fois que l'hydre prend 30 ou plus de dégâts en un seul tour, une de ses têtes meurt. Si toutes ses têtes meurent, l'hydre meurt.\nÀ la fin de son tour, l'hydre pousse deux têtes pour chacune de ses têtes qui sont mortes depuis son dernier tour, à moins qu'elle n'ait pris dégâts de froid depuis son dernier tour. L'hydre retrouve 10 points de vie pour chaque tête replantée de cette façon.\n**Têtes réactives.** Pour chaque tête l'hydre a au-delà d'une, il obtient une réaction supplémentaire qui peut être utilisé seulement pour des attaques d'opportunité.\n**Réveille-toi.** Pendant que l'hydre dort, au moins une de ses têtes est réveillée.",
+ "actionsText": "**Multiattaques.** L'hydre fait autant d'attaques Bite qu'elle a des têtes.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 14 (2d8 + 5) dégâts perforants.\n**Défense de la coquille.** L'hydre retire ses membres et se dirige vers sa coquille. Jusqu'à ce qu'il émerge comme un action bonus, il gagne un bonus de +4 à CA et a un avantage sur Force et jet de sauvegarde de Constitution. Alors que dans sa coque, l'hydra a l'état à terre, sa vitesse est 0 et ne peut pas augmenter, ses têtes ne peuvent pas mourir, il a un désavantage sur jet de sauvegarde de Dextérité, et il ne peut pas prendre d'autres actions ou réactions.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e34e1a73db_monstre-snapping-hydre.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Snapping hydre",
+ "caNote": "armure naturelle",
+ "skills": "Perception +11",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, étourdi, inconscient"
+}

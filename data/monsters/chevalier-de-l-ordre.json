@@ -1,0 +1,49 @@
+{
+ "id": "chevalier-de-l-ordre",
+ "name": "Knight of the Order",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Régénération.** Le chevalier retrouve 10 points de vie au début de son tour. Si le chevalier prend feu ou dégâts radiants, ce trait ne fonctionne pas au début du prochain tour du chevalier. Le corps du chevalier n'est détruit que s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Réjuvenance.** Quand le corps du chevalier est détruit, son âme s'attarde. Après 24 heures, l'âme habite et anime un autre cadavre humanoïde sur le même plan d'existence et retrouve tout son points de vie. Alors que l'âme est sans bodiles, un sort Souhait peut être utilisé pour forcer l'âme à aller à l'au-delà et non revenir.\n**Tourner l'immunité.** Le chevalier est à l'abri des effets qui deviennent morts.\n**Tracker vengeur.** Le chevalier connaît la distance et la direction de toute créature contre laquelle il cherche à se venger, même si la créature et le chevalier sont sur différents plans d'existence. Si la créature qui est suivie par le chevalier meurt, le chevalier le sait.",
+ "actionsText": "**Multiattaques.** Le chevalier fait deux longues attaques ou deux coups de poing.\n**Mot long.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts tranchants. Si la cible est une créature contre laquelle le chevalier a juré vengeance, la cible prend un 14 (4d6) dégâts tranchants supplémentaire.\n**Fist.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants. Si la cible est une créature contre laquelle le chevalier a juré de se venger, la cible prend un 14 (4d6) dégâts contondants supplémentaire. Au lieu d'infliger des dégâts, le chevalier peut faire face à la cible (évasion DD 14) à condition que la cible soit grande ou plus petite.\n**Glare vengeur.** Le chevalier vise une créature il peut voir dans 9 m de lui et contre lequel il a juré vengeance. La cible doit faire un DD 15 jet de sauvegarde de Sagesse. En cas d'échec, la cible est paralysé jusqu'à ce que le chevalier lui inflige des dégâts, ou jusqu'à la fin du prochain tour du chevalier. Lorsque la paralysie se termine, la cible est effrayé du chevalier pendant 1 minute. La cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, avec un désavantage si elle peut voir le chevalier, mettant fin à l'état effrayé sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Fist",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2158c757c1_monstre-chevalier-de-l-ordre.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Chevalier de l'ordre",
+ "caNote": "enchaînée cassée",
+ "saves": "FOR +7, CON +7, SAG +6, CHA +7",
+ "resistances": "nécrotique, psychique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, étourdi"
+}

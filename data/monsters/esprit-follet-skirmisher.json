@@ -1,0 +1,45 @@
+{
+ "id": "esprit-follet-skirmisher",
+ "name": "Sprite Skirmisher",
+ "type": "Fée",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 10,
+ "hpFormula": "4d4",
+ "vitesse": "3 m, vol 12 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 18,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "",
+ "actionsText": "**Épée de l'aiguille.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 6 (1d4 + 4) dégâts perforants.\n**Enchanteur Bow.** Jet d'attaque à distance : +6, portée 12/48 m. Touché : 1 dégâts perforants, et la cible a l'état charmé jusqu'au début du prochain tour du sprite.\n**Vue du coeur.** Jet de sauvegarde de Charisme : DD 10, une créature à l'intérieur de 1,50 m le sprite peut voir (Célestiaux, Fiends, Undead échouent automatiquement l'enregistrement). Échec : Le sprite connaît les émotions de la cible.\n**Invisibilité.** Le sprite a l'état invisible pendant 1 minute. Cet effet se termine tôt immédiatement après que le sprite fasse un jet d'attaque ou inflige des dégâts, ou si le sprite a l'état neutralisé.",
+ "attacks": [
+  {
+   "name": "Épée de l'aiguille",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Enchanteur Bow",
+   "bonus": 6,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/3cb074a500_monstre-esprit-follet-skirmisher.webp",
+ "notes": "",
+ "source": "Heroes of the Borderlands (5e.tools, traduction automatique)",
+ "aka": "Esprit follet Skirmisher",
+ "skills": "Perception +3, Discrétion +8"
+}

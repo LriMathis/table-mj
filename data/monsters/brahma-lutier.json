@@ -1,0 +1,38 @@
+{
+ "id": "brahma-lutier",
+ "name": "Brahma Lutier",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, elfique",
+ "traits": "**Ancêtre fécale.** Brahma a un avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas la mettre au lit.\n**Taunt (2/jour).** Brahma peut utiliser un action bonus pour cibler une créature qu'elle peut voir dans 9 m d'elle. Si la cible peut entendre Brahma, elle doit réussir sur un DD 13 jet de sauvegarde de Charisme ou avoir un désavantage sur tests de caractéristique, jets d'attaque et jet de sauvegarde jusqu'au prochain tour de Brahma.\n**Détection orthographique.** Brahma est un spellcaster de niveau 4. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Elle a préparé les sorts de barde suivants :\n- Sorts mineurs (à volonté) : Main de mage, Message, Moquerie cruelle\n- Niveau 1 (4 emplacements) : Charme-personne, Héroïsme, Texte illusoire, Sommeil, Serviteur invisible\n- Niveau 2 (3 emplacements) : Nuée de dagues, Invisibilité",
+ "actionsText": "**Luth de guerre.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.\n**Chanson de la domination (3/jour).** Brahma cible une créature qui peut la voir ou l'entendre, qui doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être charmé par elle pendant 1 minute. La cible peut répéter l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Il a un désavantage sur ces sauvegardes si être charmé par Brahma est quelque chose de la cible désire ouvertement ou secrètement. Pendant 1 heure après la fin de l'effet charme, la cible a un désavantage sur Intelligence, Sagesse, ou tests de Charisme fait dans le cadre d'un concours avec Brahma.",
+ "attacks": [
+  {
+   "name": "Luth de guerre",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/3046d4e2d1_monstre-brahma-lutier.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Représentation +5, Persuasion +5"
+}

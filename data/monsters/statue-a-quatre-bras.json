@@ -1,0 +1,41 @@
+{
+ "id": "statue-a-quatre-bras",
+ "name": "Four-Armed Statue",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 178,
+ "hpFormula": "17d10+85",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 9,
+  "CON": 20,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Formulaire immuable.** La statue est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Résistance magique.** La statue a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes de la statue sont magiques.",
+ "actionsText": "**Multiattaques.** La statue fait quatre attaques à l'épée.\n**Épée.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts tranchants.\n**Lent (Recharge 5-6).** La statue cible une ou plusieurs créatures qu'elle peut voir dans 3 m de lui. Chaque cible doit faire un DD 17 jet de sauvegarde de Sagesse contre cette magie. Sur une sauvegarde ratée, une cible ne peut pas utiliser de réactions, sa vitesse est réduite de moitié, et elle ne peut pas faire plus d'une attaque à son tour. En outre, la cible peut prendre une action ou une action bonus à son tour, pas les deux. Ces effets durent 1 minute. Une cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Épée",
+   "bonus": 10,
+   "damage": "1d8+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/3494d21bc5_monstre-statue-a-quatre-bras.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Statue à quatre bras",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

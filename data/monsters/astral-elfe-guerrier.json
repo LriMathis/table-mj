@@ -1,0 +1,47 @@
+{
+ "id": "astral-elfe-guerrier",
+ "name": "Astral Elf Warrior",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 58,
+ "hpFormula": "13d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 16,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "céleste, commun, elfique",
+ "traits": "**Ancêtre fécale.** L'elfe a l'avantage sur jet de sauvegarde il fait d'éviter ou de terminer l'état charmé sur lui-même, et la magie ne peut pas le mettre au sommeil.\n**Nature inhabituelle.** L'elfe n'a pas besoin de dormir.",
+ "actionsText": "**Multiattaques.** L'elfe fait deux attaques Longsword ou Longbow.\n**Mot long.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants, ou 6 (1d10 + 1) dégâts tranchants lorsqu'il est utilisé avec deux mains, plus 10 (3d6) dégâts radiants.\n**Longbow.** Attaque d'arme à distance : +4 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants plus 10 (3d6) dégâts radiants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/3ce27b7026_monstre-astral-elfe-guerrier.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Astral elfe guerrier",
+ "caNote": "Breastplate",
+ "saves": "DEX +4, SAG +5",
+ "skills": "Intimidation +4, Survie +5"
+}

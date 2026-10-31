@@ -1,0 +1,44 @@
+{
+ "id": "undying-soldat",
+ "name": "Undying Soldier",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 17,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, elfique",
+ "traits": "**Éclairage.** Le soldat apporte magiquement une lumière lumineuse dans un rayon de 3 m et une lumière dim pour un 3 m supplémentaire. Le soldat peut éteindre ou restaurer cette lumière en action bonus.\n**Résistance au virage.** Le soldat a l'avantage sur jet de sauvegarde contre tout effet qui devient mort-vivant.",
+ "actionsText": "**Multiattaques.** Le soldat fait deux attaques de lance.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants ou 7 (1d8 + 3) dégâts perforants si utilisé avec deux mains pour faire une attaque de mêlée, plus 9 (2d8) dégâts radiants si la cible est un fiend ou un mort.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/de032ffd8a_monstre-undying-soldat.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "aka": "Undying soldat",
+ "caNote": "Breastplate, Bouclier",
+ "skills": "Athlétisme +5, Histoire +4, Perception +3, Religion +4",
+ "vulnerabilities": "nécrotique",
+ "resistances": "radiant, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

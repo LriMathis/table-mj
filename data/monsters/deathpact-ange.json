@@ -1,0 +1,43 @@
+{
+ "id": "deathpact-ange",
+ "name": "Deathpact Angel",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 18,
+ "hp": 175,
+ "hpFormula": "27d8+54",
+ "vitesse": "9 m, vol 27 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 20,
+  "CHA": 23
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 20",
+ "languages": "tous",
+ "traits": "**Exploitation des débiteurs.** En tant qu'action bonus, l'ange cible une créature charmé par elle qu'il peut voir dans 9 m de lui. L'ange distribue 11 (2d10) dégâts nécrotiques à la cible, et l'ange gagne points de vie temporaires égal aux dégâts infligés.\n**Volée.** L'ange ne provoque pas une attaque d'opportunité quand il vole hors de la portée d'un ennemi.\n**Résistance magique.** L'ange a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** Le caractéristique d'incantation inné de l'ange est Charisme (spell save DD 19, +11 au toucher with attaques de sort). L'ange peut innément jeter les sorts suivants, ne nécessitant pas de composants matériels:\n- À volonté : Injonction (sous forme de sort de niveau 2), Détection du mal et du bien\n- 1/jour : Rappel à la vie\n- 3/jour chacun : Charme-personne (sous forme de sort de niveau 5), Ténèbres, Suggestion",
+ "actionsText": "**Multiattaques.** L'ange fait deux attaques avec son faux. Elle peut remplacer les chaînes d'obligations par l'une de ces attaques.\n**Scythe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 9 (2d4 + 4) dégâts tranchants plus 27 (6d8) dégâts nécrotiques.\n**Chaînes d'obligations.** L'ange cible une créature charmé par elle qu'il peut voir dans 27 m de lui. La cible doit réussir sur un DD 19 jet de sauvegarde de Charisme ou devenir paralysé pendant 1 minute ou jusqu'à ce qu'elle prenne tout dégâts.",
+ "attacks": [
+  {
+   "name": "Scythe",
+   "bonus": 9,
+   "damage": "2d4+4",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/9babbb745b_monstre-deathpact-ange.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Deathpact ange",
+ "caNote": "armure naturelle",
+ "saves": "INT +9, SAG +10, CHA +11",
+ "skills": "Perspicacité +10, Intimidation +11, Perception +10, Persuasion +11",
+ "resistances": "nécrotique, radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "kelubar-consul",
+ "name": "Kelubar Consul",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 97,
+ "hpFormula": "13d8+39",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 13,
+  "CON": 17,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "abyssal, commun",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure du kélubar.\n**Liberté de circulation.** Le kélubar n'est pas affecté par un terrain difficile, et les sorts et autres effets magiques ne réduisent pas sa vitesse ou le font être paralysé ou entravé. Si le kélubar dépense 1,50 m de mouvement est automatiquement échappe aux contraintes non magiques ou à une créature qui l'a agrippé. Il est également capable de se déplacer sous l'eau sans mouvement ni sanctions d'attaque.\n**Sensation de Keen.** Le kelubar a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Résistance magique.** Le kelubar a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes du kélubar sont magiques.\n**Sans déconner.** Au début de son tour, le kelubar peut gagner de l'avantage sur toutes les armes à melee jets d'attaque qu'il fait pendant ce tour, mais jets d'attaque contre lui a avantage jusqu'au début de son prochain tour.\n**Attaque d'éternuement (1/Turn).** Le kelubar inflige un dégâts supplémentaire de 14 (4d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur le jet d'attaque, ou lorsque la cible est à l'intérieur de 1,50 m d'un allié du kelubar qui n'est pas neutralisé et le kelubar n'a pas d'inconvénient sur le jet d'attaque.\n**Poignée.** Toute créature qui n'est pas une démodand et commence son tour dans 9 m du kelubar doit réussir sur un DD 16 jet de sauvegarde de Constitution ou avoir l'état empoisonné pendant 1 minute. Sur un jet de sauvegarde réussi, la créature est immunisée contre la puanteur de ce kélubar pendant 1 heure.",
+ "actionsText": "**Multiattaques.** Le kélubar fait une attaque Bite et trois attaques de griffes.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts perforants plus 7 (2d6) dégâts d'acide.\n**Griffes.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts tranchants plus 7 (2d6) dégâts d'acide.\n**Détection orthographique.** Le kélubar lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Clairvoyance, Détection de la magie, Peur, Invisibilité (autoseulement), Pattes d'araignée, Don des langues\n- 2/jour chacun : Dissipation de la magie, Nappe de brouillard",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 9,
+   "damage": "1d8+5",
+   "type": "tranchant + acide"
+  }
+ ],
+ "portrait": "/data/images/f8b08bacca_monstre-kelubar-consul.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +9, CON +7, CHA +8",
+ "skills": "Athlétisme +9, Perspicacité +6, Persuasion +8",
+ "resistances": "froid, feu, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Invoquer la démodand (1/jour).** Le kélubar roule un d6. Un résultat de 1-2 convocations dans deux harceleurs farastu alliés, un résultat de 3-4 convocations dans un Kelubar consul allié.",
+ "reactions": "**Impossible Dodge.** Lorsqu'un attaquant que le kélubar peut voir le frappe avec une attaque, le kélubar peut utiliser sa réaction pour réduire de moitié les dégâts de l'attaque."
+}

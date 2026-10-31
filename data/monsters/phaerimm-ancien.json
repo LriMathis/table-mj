@@ -1,0 +1,49 @@
+{
+ "id": "phaerimm-ancien",
+ "name": "Phaerimm Elder",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 17,
+ "hp": 218,
+ "hpFormula": "23d12+69",
+ "vitesse": "9 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 17,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 18",
+ "languages": "télépathie 36 m understands Common and Deep Speech but can't speak",
+ "traits": "**Résistance magique.** Le phaerimm a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le phaerimm fait trois attaques de Mind Lash. Il peut remplacer une attaque par (A) une attaque Vicious Stinger ou (B) une utilisation de Spellcasting pour lancer Injonction (version de niveau 3).\n**L'esprit en laisse.** Jet d'attaque au corps à corps ou à distance : +9, allonge 3 m ou portée 36 m. Touché : 32 (6d8 + 4) dégâts psychiques.\n**Stinger vicieuse.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts perforants plus 26 (4d12) dégâts de poison, et la vitesse de la cible est réduite à 0 m jusqu'au début du prochain tour du phaerimm.\n**Siphon Magic (Recharge 5-6).** Le phaerimm se concentre sur un objet magique qu'il peut voir dans 3 m. Quand il le fait, le phaerim égoutte l'objet magique de toutes les charges. Peu importe si les charges sont drainées, le phaerimm peut lancer Clairvoyance, Quête, Image majeure, et Mirage une fois de plus ce jour-là.\n**Détection orthographique.** Le phaerimm lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Injonction (version de niveau 3), Détection de la magie, Détection des pensées, Main de mage\n- 1/jour chacun : Clairvoyance, Quête, Image majeure, Mirage",
+ "attacks": [
+  {
+   "name": "L'esprit en laisse",
+   "bonus": 9,
+   "damage": "6d8+4",
+   "type": "psychique"
+  },
+  {
+   "name": "Stinger vicieuse",
+   "bonus": 9,
+   "damage": "2d6+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/1e6c16ab61_monstre-phaerimm-ancien.webp",
+ "notes": "",
+ "source": "Netheril's Fall (5e.tools, traduction automatique)",
+ "aka": "Phaerimm ancien",
+ "saves": "CON +8, INT +8, SAG +8, CHA +9",
+ "skills": "Arcanes +13, Perspicacité +8, Perception +8",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Téléportation.** Le phaerimm téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir.",
+ "reactions": "**Magie protectrice (3/jour).** Le phaerimm lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Contresort, Bouclier"
+}

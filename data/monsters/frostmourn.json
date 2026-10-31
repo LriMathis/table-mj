@@ -1,0 +1,56 @@
+{
+ "id": "frostmourn",
+ "name": "Frostmourn",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 13,
+ "hp": 195,
+ "hpFormula": "17d12+85",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 9,
+  "CON": 21,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 18
+ },
+ "senses": "Perception passive 14",
+ "languages": "géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le givre fait une attaque de Geler Touch et une attaque d'Icy Axe. Il peut remplacer une de ces attaques par une attaque de Ray polaire.\n**Touche de congélation.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une créature. Touché : 18 (4d8) dégâts de froid plus 18 (4d8) dégâts nécrotiques. Si ces dégâts réduisent la cible à 0 points de vie, la cible tombe à 1 points de vie à la place et a l'état pétrifié, se transformant en une statue gelée.\nSi la statue prend dégâts contondants, elle se brise, tuant la créature gelée. Si la statue prend dégâts de feu, elle ne prend pas de dégâts et de dégels, mettant fin à la pétrification.\n**Hache glacée.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 19 (3d8 + 6) dégâts tranchants plus 7 (2d6) dégâts de froid.\n**Rayon polaire.** Attaque de sort à distance : +8 au toucher, portée 36 m, une cible. Touché : 31 (5d10 + 4) dégâts de froid, et la vitesse de la cible est réduite de 3 m jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Touche de congélation",
+   "bonus": 10,
+   "damage": "4d8",
+   "type": "froid + nécrotique"
+  },
+  {
+   "name": "Hache glacée",
+   "bonus": 10,
+   "damage": "3d8+6",
+   "type": "tranchant + froid"
+  },
+  {
+   "name": "Rayon polaire",
+   "bonus": 8,
+   "damage": "5d10+4",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/7c6df310cd_monstre-frostmourn.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +9, SAG +4",
+ "skills": "Athlétisme +10, Perception +4",
+ "vulnerabilities": "feu",
+ "immunities": "froid, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "reactions": "**Blizzard Escape.** Immédiatement après qu'une créature puisse voir le givre frapper avec un jet d'attaque, le givre se dissout momentanément en blizzard, réduisant ainsi de moitié les dégâts. Le givre peut alors se téléporter magiquement dans un espace inoccupé qu'il peut voir en lui-même en 9 m."
+}

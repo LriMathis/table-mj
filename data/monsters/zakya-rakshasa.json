@@ -1,0 +1,47 @@
+{
+ "id": "zakya-rakshasa",
+ "name": "Zakya Rakshasa",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 59,
+ "hpFormula": "7d8+28",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, infernal",
+ "traits": "**Immunité magique limitée.** Le rakshasa ne peut pas être affecté ou détecté par des sorts de de niveau 1 ou plus bas à moins qu'il ne le veuille. Il a un avantage sur jet de sauvegarde contre tous les autres sorts et effets magiques.\n**Armes magiques.** Les attaques d'armes du rakshasa sont magiques.\n**Proue Martiale (1/Turn).** Lorsque le rakshasa frappe une créature avec une attaque d'arme à la mêlée, l'attaque inflige 11 (2d10) de plus de dégâts au type d'arme, et la créature doit faire un DD 15 jet de sauvegarde de Force. Sur un échec, le rakshasa peut pousser la créature jusqu'à 3 m loin de lui, frapper la créature à terre, ou faire tomber la créature un élément qu'il tient du choix du rakshasa.\n**Découpe intérieure.** Le caractéristique d'incantation inné du rakshasa est Charisme (sorption sauvegardez DD 11). Le rakshasa peut inneralement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection des pensées, Déguisement\n- 1/jour : Bouclier",
+ "actionsText": "**Multiattaques.** Le rakshasa fait trois attaques d'armes à feu. Alternativement, il peut faire deux attaques variables avec ses javelins.\n**Mot long.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9975b03c79_monstre-zakya-rakshasa.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "Courrier d'échelle, Bouclier",
+ "skills": "Athlétisme +7, Perception +4",
+ "vulnerabilities": "perforant des armes magiques maniées par de bonnes créatures",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques"
+}

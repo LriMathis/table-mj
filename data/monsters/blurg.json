@@ -1,0 +1,45 @@
+{
+ "id": "blurg",
+ "name": "Blurg",
+ "type": "Humanoïde (orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 18,
+ "hp": 42,
+ "hpFormula": "5d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 18,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, orc, nain, elfique, commun des profondeurs",
+ "traits": "**Agressifs.** Comme un action bonus, Blurg peut se diriger à sa vitesse vers une créature hostile qu'il peut voir.\n**Découpe intérieure.** Blurg peut innéement lancer peut lancer le sort Téléportation une fois par jour, mais la destination prévue doit être à l'intérieur de 9 m d'un autre 1. Cet effet de téléportation peut être perturbé (voir « 1 »), c'est ainsi que les membres de la société se retrouvent parfois dans des coins lointains de l'Underdark, séparés de leurs semblables.\n- 1/jour chacun : Téléportation",
+ "actionsText": "**Multiattaques.** Blurg fait deux attaques de grandaxe.\n**Grandaxe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d12 + 4) dégâts tranchants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 6,
+   "damage": "1d12+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6609c335db_monstre-blurg.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "skills": "Intimidation +5, Survie +2"
+}

@@ -1,0 +1,31 @@
+{
+ "id": "bete-de-la-mer",
+ "name": "Beast of the Sea",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "1,50 m, nage 18 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 8,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 27 m, Perception passive 12",
+ "languages": "comprend les langues que vous connaissez",
+ "traits": "**Amphibie.** La bête peut respirer l'air et l'eau.\n**Obligations primaires.** Ajoutez votre bonus de maîtrise à n'importe quel test de caractéristique ou jet de sauvegarde que la bête fabrique.",
+ "actionsText": "**La grève de la bête.** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d6 + 2 plus votre modificateur Sagesse contondant ou dégâts perforants (votre choix lorsque vous appelez la bête), et la cible a l'état agrippé (évasion DD égale votre DD de sauvegarde des sorts).",
+ "attacks": [],
+ "portrait": "/data/images/a838f6435e_monstre-bete-de-la-mer.webp",
+ "notes": "points de vie : 5 plus cinq fois votre niveau rôdeur (la bête a un nombre de dés de vie [d8s] égal à votre niveau rôdeur)",
+ "source": "Player's Handbook (2024) (5e.tools, traduction automatique)",
+ "aka": "Bête de la mer"
+}

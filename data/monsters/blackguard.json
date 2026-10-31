@@ -1,0 +1,47 @@
+{
+ "id": "blackguard",
+ "name": "Blackguard",
+ "type": "Humanoïde (paladin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 119,
+ "hpFormula": "14d8+56",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Perception passive 12",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La garde noire fait trois attaques, en utilisant Glaive, Shortbow, ou les deux.\n**Glaive.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 9 (1d10 + 4) dégâts tranchants plus 9 (2d8) dégâts nécrotiques.\n**Saubèche.** Attaque d'arme à distance : +3 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Aspect terrible (recharge après un repos court ou long).** Chaque ennemi au sein de 9 m de la garde-noire doit réussir sur une DD 13 jet de sauvegarde de Sagesse ou être effrayé de la garde-noire pendant 1 minute. Si une cible effrayé termine son tour plus loin que 9 m de la garde noire, la cible peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Le garde-noir lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- 2/jour chacun : Injonction, Dissipation de la magie, Appel de destrier",
+ "attacks": [
+  {
+   "name": "Glaive",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 3,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1466b5455b_monstre-blackguard.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "plaque",
+ "saves": "SAG +5, CHA +5",
+ "skills": "Athlétisme +7, Tromperie +5, Intimidation +5",
+ "bonusActions": "**Frappe.** Immédiatement après que le garde-noir frappe une cible avec un jet d'attaque, le garde-noir peut forcer cette cible à faire un DD 13 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la cible subit l'un des effets suivants du choix du garde-noir :\n**Aveugle.** La cible est aveuglé pendant 1 minute. La cible aveuglé peut répéter l'enregistrement à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Tourne-toi.** La cible est repoussée vers 3 m et à terre."
+}

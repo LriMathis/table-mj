@@ -1,0 +1,42 @@
+{
+ "id": "clockwork-pierre-gardienne",
+ "name": "Clockwork Stone Defender",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 105,
+ "hpFormula": "14d8+42",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend une langue de son créateur mais ne peut pas parler",
+ "traits": "**Résistance magique.** L'horlogerie a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** L'horlogerie ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants, et si la cible est grande ou plus petite, c'est à terre.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/69b52ae260_monstre-clockwork-pierre-gardienne.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Clockwork pierre gardienne",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "reactions": "**Attaque d'interception.** En réponse à une autre créature dans 1,50 m d'elle étant frappée par un jet d'attaque, l'horlogerie donne à cette créature un bonus de +5 à son CA contre cette attaque, causant potentiellement une erreur. Pour utiliser cette capacité, l'horlogerie doit être capable de voir la créature et l'attaquant."
+}

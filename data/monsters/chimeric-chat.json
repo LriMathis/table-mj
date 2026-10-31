@@ -1,0 +1,39 @@
+{
+ "id": "chimeric-chat",
+ "name": "Chimeric Cat",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision aveugle 18 m, Perception des vibrations 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** Le chat a l'avantage sur tests de Sagesse (Perception) qui dépendent de l'odeur.",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/8f555a6fab_monstre-chimeric-chat.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Chimeric chat",
+ "skills": "Perception +3, Discrétion +4"
+}

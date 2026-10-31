@@ -1,0 +1,40 @@
+{
+ "id": "vieux-troglodyte",
+ "name": "Old Troglodyte",
+ "type": "Humanoïde (Troglodyte)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 11,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "Troglodyte",
+ "traits": "**Peau de caméléon.** Le troglodyte a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher.\n**Poignée.** Toute créature autre qu'un troglodyte qui commence son tour à l'intérieur de 1,50 m du troglodyte doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné jusqu'au prochain tour de la créature. Sur un jet de sauvegarde réussi, la créature est immunisée contre la puanteur de tous les troglodytes pendant 1 heure.\n**Sensibilité à la lumière du soleil.** En plein soleil, le troglodyte présente un désavantage sur jets d'attaque ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le troglodyte fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/4f2def8eba_monstre-vieux-troglodyte.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Vieux troglodyte",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +2"
+}

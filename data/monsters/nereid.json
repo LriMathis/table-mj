@@ -1,0 +1,38 @@
+{
+ "id": "nereid",
+ "name": "Nereid",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m, nage 18 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "aquatique, commun, elfique, sylvestre",
+ "traits": "**Amphibie.** Le néréide peut respirer l'air et l'eau.\n**Invisibilité aquatique.** Si elle est immergée dans l'eau, le nereid peut se faire invisible comme action bonus. Il reste invisible jusqu'à ce qu'il quitte l'eau, termine l'invisibilité comme un action bonus, ou meurt.\n**Dépendance du manteau.** Le néréide porte un manteau de tissu soyeux de la couleur de la mousse de mer, qui tient l'esprit de la créature. Le manteau a un CA et points de vie égal à celui du nereid, mais le vêtement ne peut pas être directement endommagé pendant que le nereid le porte. Si le manteau est détruit, le nereid devient empoisonné et meurt dans une heure. Un néréide est prêt à faire n'importe quoi en son pouvoir pour récupérer le manteau s'il est volé, y compris au service du voleur.\n**Forme de l'eau.** Le nereid peut lancer Contrôle de l'eau à volonté, ne nécessitant aucun composant. Sa caractéristique d'incantation pour elle est Charisme. Cette utilisation du sort a une gamme de 9 m et peut affecter un cube d'eau pas plus grand que 9 m sur un côté.\n**Parlez avec les animaux.** Le néréide peut comprendre et communiquer verbalement avec les bêtes.",
+ "actionsText": "**Aveuglant acide.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 9 m, une cible. Touché : 16 (2d12 + 3) dégâts d'acide, et la cible est aveuglé jusqu'au prochain tour du nereid.\n**Baiser noyé (Recharge 5-6).** Le nereid touche une créature qu'il peut voir dans 1,50 m de lui. La cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou prendre 22 (3d12 + 3) dégâts d'acide. En cas d'échec, il manque également de souffle et ne peut pas parler pendant 1 minute. À la fin de chacun de ses tours, il peut répéter l'épargne, mettant fin à l'effet sur lui-même sur un succès.\n**Laisse d'eau.** Le nereid provoque un 1,50 m cube d'eau à l'intérieur de 18 m de lui prendre une forme de son choix et frapper une cible il peut voir à l'intérieur de 1,50 m de cette eau. La cible doit faire un DD 13 jet de sauvegarde de Force. Sur une sauvegarde ratée, il prend 17 (4d6 + 3) dégâts contondants, et si c'est une créature grande ou plus petite, il est poussé jusqu'à 4,50 m en ligne droite ou est à terre (le choix de Nereid). Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts et n'est pas poussée ou à terre.",
+ "attacks": [
+  {
+   "name": "Aveuglant acide",
+   "bonus": 5,
+   "damage": "2d12+3",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/1db65aa054_monstre-nereid.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "skills": "Acrobaties +5, Nature +3, Discrétion +5, Survie +4"
+}

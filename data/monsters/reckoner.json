@@ -1,0 +1,40 @@
+{
+ "id": "reckoner",
+ "name": "Reckoner",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 18,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "Commun plus une langue",
+ "traits": "**Première grève.** Le comptable a l'avantage sur les rouleaux d'initiative.\n**Détection orthographique.** Le compteur est un brouillon de niveau 5 Boros. Son caractéristique d'incantation est Intelligence (save spell DD 12, +4 au toucher avec attaques de sort). Le comptable a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Protection contre les armes, Lumière, Message, Poigne électrique\n- Niveau 1 (4 emplacements) : Éclair traçant, Bouclier, Vague tonnante, Trait ensorcelé\n- Niveau 2 (3 emplacements) : Flou, Lévitation\n- Niveau 3 (2 emplacements) : Éclair",
+ "actionsText": "**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/2f9a6b84de_monstre-reckoner.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "skills": "Arcanes +4, Intimidation +2, Perception +3",
+ "reactions": "**Mots-clés:.** Lorsqu'une créature frappe le compteur avec une attaque, l'agresseur prend dégâts de foudre égale à la moitié des dégâts causés par l'attaque."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "yeti",
+ "name": "Yeti",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "caNote": "armure naturelle",
+ "hp": 51,
+ "hpFormula": "6d10+18",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "skills": "Discrétion +3, Perception +3",
+ "immunities": "froid",
+ "senses": "vision dans le noir 18 m, Perception passive 13",
+ "languages": "yeti",
+ "traits": "**Camouflage dans la neige.** Le yeti est avantagé lors des tests de Dextérité (Discrétion) effectués en terrain enneigé.\n**Odorat aiguisé.** Le yeti est avantagé lors des tests de Sagesse (Perception) basés sur l'odorat.\n**Peur du feu.** Si le yeti subit des dégâts de feu, il est désavantagé lors de ses jets d'attaque et de ses tests de caractéristique jusqu'à la fin de son prochain tour.",
+ "actionsText": "**Attaques multiples.** Le yeti peut utiliser son attaque de regard glaçant et faire deux attaques de griffes.\n**Griffe.** *Attaque d'arme au corps à corps :* +6 pour toucher, allonge 1,50 m, une cible. *Touché :* 7 (1d6+4) dégâts tranchants plus 3 (1d6) dégâts de froid.\n**Regard glaçant.** Le yeti vise une créature située dans son champ de vision et dans un rayon de 9 mètres. Si elle peut voir le yeti, elle doit réussir un jet de sauvegarde de Constitution DD 13 contre cette magie, sans quoi elle reçoit 10 (3d6) dégâts de froid et reste paralysée pendant 1 minute, à moins qu'elle ne soit immunisée contre le froid. La cible peut refaire ce jet de sauvegarde à la fin de chacun de ses tours et met un terme à l'effet dès qu'elle le réussit. Si elle réussit son jet de sauvegarde ou si l'effet se termine pour elle, elle est immunisée contre le regard glaçant de tous les yetis (mais pas des abominables yetis) pendant 1 heure.",
+ "portrait": "/data/images/8991ca0c17_monstre-yeti.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 306 · image : Manuel des monstres p. 305",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d6+4+1d6",
+   "type": "tranchant + froid"
+  }
+ ]
+}

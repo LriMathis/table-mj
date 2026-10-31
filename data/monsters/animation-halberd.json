@@ -1,0 +1,42 @@
+{
+ "id": "animation-halberd",
+ "name": "Animated Halberd",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 17,
+ "hpFormula": "5d6",
+ "vitesse": "0 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 5,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 7",
+ "languages": "—",
+ "traits": "**Susceptibilité antimagique.** L'épée est neutralisé alors que dans la zone d'un Champ antimagie. Si elle est ciblée par Dissipation de la magie, l'épée doit réussir sur un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur ou tomber inconscient pendant 1 minute.\n**Fausse apparence.** Bien que l'épée reste immobile et ne vole pas, elle est indistinguable d'une épée normale.",
+ "actionsText": "**Halbère.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d10 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Halbère",
+   "bonus": 3,
+   "damage": "1d10+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d4c7b053a1_monstre-animation-halberd.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Animation Halberd",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, paralysé, pétrifié, empoisonné"
+}

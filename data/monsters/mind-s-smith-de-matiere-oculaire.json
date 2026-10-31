@@ -1,0 +1,41 @@
+{
+ "id": "mind-s-smith-de-matiere-oculaire",
+ "name": "Mind's Eye Matter Smith",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "Commun plus deux autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La matière forge fait deux attaques manifestes force.\n**force manifeste.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 10 (2d6 + 3) dégâts de force.\n**Détection orthographique.** Le smith de matière lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation :\n- À volonté : Armure de mage, Main de mage, Prestidigitation\n- 1/jour chacun : Création de nourriture et d'eau, Fabrication (en tant qu'action)",
+ "attacks": [
+  {
+   "name": "force manifeste",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/d6f55c36aa_monstre-mind-s-smith-de-matiere-oculaire.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Mind's smith de matière oculaire",
+ "saves": "INT +4, CHA +5",
+ "skills": "Investigation +4, Perception +6",
+ "bonusActions": "**Planar Smithing.** Le smith de matière manipule magiquement l'énergie du plan d'existence sur lequel il est sur produire l'un des effets suivants (choisir un ou rouler un d4) :\n- **1-2: Chaînes** La matière forge crée des liaisons spectrales autour d'une créature qu'elle peut voir en elle-même en 9 m. La cible doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou avoir l'état entravé jusqu'à la fin de son prochain tour.\n- **3-4: Bouclier magique** Le smith de la matière conjure un bouclier spectral flottant qui accorde au smith de la matière un bonus de +5 à son CA jusqu'à ce que le bouclier disparaisse au début du prochain tour du smith de la matière. La première fois qu'une créature manque une mêlée jet d'attaque contre la matière forgeron pendant que le bouclier est conjuré, cette créature prend 7 (2d6) dégâts de force."
+}

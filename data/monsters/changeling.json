@@ -1,0 +1,39 @@
+{
+ "id": "changeling",
+ "name": "Changeling",
+ "type": "Humanoïde (changement, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, nain, elfique, halfelin, argot des voleurs",
+ "traits": "**Changer d'apparence.** Le changement peut utiliser son action pour se polymorphiser en un humanoïde moyen qu'il a vu, ou de nouveau dans sa forme réelle. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.",
+ "actionsText": "**Multiattaques.** Le changement fait deux attaques avec son poignard.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Visage déstabilisant (recharge après un repos court ou long).** Chaque créature dans 9 m du changement doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4e4ce11e4b_monstre-changeling.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Acrobaties +4, Tromperie +5, Perspicacité +2, Perception +2, Persuasion +5"
+}

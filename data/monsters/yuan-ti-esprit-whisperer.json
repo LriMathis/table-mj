@@ -1,0 +1,56 @@
+{
+ "id": "yuan-ti-esprit-whisperer",
+ "name": "Yuan-ti Mind Whisperer",
+ "type": "Monstruosité (occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir du yuan-ti.\n**Résistance magique.** L'yuan-ti a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**La bénédiction de Sseth.** Lorsque l'yuan-ti réduit un ennemi à 0 points de vie, l'yuan-ti gagne 9 points de vie temporaires.",
+ "actionsText": "**Multiattaques.** L'yuan-ti fait deux attaques Bite et une attaque Scimitar, ou il fait deux attaques Spectral Fangs.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Scimitar (Forme Yuan-ti seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Fangs spectraux.** Attaque de sort à distance : +5 au toucher, portée 36 m, une cible. Touché : 16 (3d8 + 3) dégâts psychiques.\n**Diffusion de l'orthographe (Forme Yuan-ti seulement).** L'yuan-ti lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Amitié avec les animaux (snakes seulement), Message, Illusion mineure, Prestidigitation\n- 2/jour chacun : Détection des pensées, Motif hypnotique\n- 3/jour : Suggestion",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Scimitar (Forme Yuan-ti seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Fangs spectraux",
+   "bonus": 5,
+   "damage": "3d8+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/8da091521a_monstre-yuan-ti-esprit-whisperer.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Yuan-ti esprit Whisperer",
+ "caNote": "armure naturelle",
+ "saves": "SAG +4, CHA +5",
+ "skills": "Tromperie +5, Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Modifier la forme.** L'yuan-ti se transforme en serpent moyen ou de nouveau en sa vraie forme. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. S'il meurt, il reste dans sa forme actuelle."
+}

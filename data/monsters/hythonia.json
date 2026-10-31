@@ -1,0 +1,55 @@
+{
+ "id": "hythonia",
+ "name": "Hythonia",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 17,
+ "hp": 199,
+ "hpFormula": "21d10+84",
+ "vitesse": "12 m, escalade 12 m, nage 12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 17,
+  "CON": 19,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "commun",
+ "traits": "**Résistance légendaire (3/jour).** Si Hythonia échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Gaz pétrifiant.** Lorsqu'une créature qui peut voir les yeux d'Hythonia commence son tour au sein de 9 m d'elle, Hythonia peut la forcer à faire un DD 18 jet de sauvegarde de Constitution si elle n'est pas neutralisé et peut voir la créature. Si le jet de sauvegarde échoue par 5 ou plus, la créature est instantanément pétrifié. Sinon, sur un échec de sauvegarde, la créature commence à se tourner vers la pierre et est entravé. La créature entravé doit répéter la jet de sauvegarde à la fin de son prochain tour, devenant pétrifié sur un échec ou mettant fin à l'effet sur un succès. La pétrification dure jusqu'à ce que la créature soit libérée par le sort Restauration supérieure ou toute autre magie. Sauf si surpris, une créature peut ouvrir ses yeux pour éviter le jet de sauvegarde au début de son tour. Si la créature le fait, elle ne peut pas voir Hythonia avant le début de son prochain tour, quand elle peut à nouveau détourner ses yeux. Si la créature regarde Hytonia dans l'intervalle, elle doit immédiatement faire le sauvetage. Si Hythonia se voit réfléchie sur une surface polie au sein de 9 m d'elle et dans une zone de lumière vive, elle est affectée par son propre regard.\n**Peau de cueillir (Traitement Mythique; Recharges après un repos court ou long).** Si Hythonia est réduite à 0 points de vie, elle ne meurt pas ou tombe inconscient. Au lieu de cela, elle perd sa peau, retrouve 199 points de vie et se déplace à sa vitesse sans provoquer d'attaques d'opportunités.\n**Découpe intérieure.** Le caractéristique d'incantation d'Hythonia est Charisme (savez le DD 18 par l'orthographe). Elle peut injecter innéement Animation d'objets une fois par jour ne nécessitant aucun composant matériel.\n- 1/jour : Animation d'objets",
+ "actionsText": "**Multiattaques.** Hythonia fait trois attaques: une avec ses griffes, une pour se constricter, et une avec ses cheveux écervelés.\n**Griffes.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts tranchants plus 4 (1d8) dégâts de poison.\n**Constriction.** Attaque d'arme au corps à corps : +11 au toucher, allonge 4,50 m, une créature grande ou plus petite. Touché : 16 (2d10 + 5) dégâts contondants, et la cible est agrippé (évasion DD 19). Jusqu'à ce que ce grappin se termine, la cible est entravé et prend 15 (3d6 + 5) dégâts contondants au début de chacun de ses tours, et Hythonia ne peut pas constricter une autre cible.\n**Cheveux écarlates.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 31 (4d12 + 5) dégâts contondants, et Hythonia peut tirer la cible jusqu'à 1,50 m plus près d'elle si c'est une créature grande ou plus petite.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 11,
+   "damage": "1d8+5",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 11,
+   "damage": "2d10+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Cheveux écarlates",
+   "bonus": 11,
+   "damage": "4d12+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4865de4b40_monstre-hythonia.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +11, CON +10, CHA +10",
+ "skills": "Tromperie +10, Perspicacité +9, Perception +9, Discrétion +9",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, hythonia peut entreprendre l'une des actions ci-après.\n**Bouge.** Hythonia se déplace à sa vitesse sans provoquer d'attaques d'opportunités.\n**Cheveux écarlates.** Hythonia fait une attaque avec ses cheveux snaky.\n**pétrifié Terre (coûts 2 actions).** L'hythonia provoque l'apparition de pics de pierre du sol dans un rayon de 9 m centré sur elle. La zone devient 3 jusqu'au début de son prochain tour. Toute créature, autre qu'Hythonia, prend 9 (2d8) dégâts perforants pour chaque 1,50 m qu'elle se déplace sur ces pics.\n**Actions mythiques.**\n**Griffes de numération.** Hythonia fait deux attaques avec ses griffes. Si les deux attaques frappent la même créature, il faut un 7 (2d6) dégâts de poison supplémentaire et doit réussir sur un DD 18 jet de sauvegarde de Constitution ou devenir paralysé jusqu'au début de son prochain tour.\n**Regardez-moi (coûts 3 actions).** Hythonia peut forcer une créature vue à voir ses yeux et à être affectée par son regard."
+}

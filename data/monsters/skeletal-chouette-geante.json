@@ -1,0 +1,42 @@
+{
+ "id": "skeletal-chouette-geante",
+ "name": "Skeletal Giant Owl",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 19,
+ "hpFormula": "3d10+3",
+ "vitesse": "1,50 m, vol 18 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "Chouette géante, comprend Common, Elvish, et Sylvan mais ne peut pas les parler",
+ "traits": "**Volée.** Le hibou ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.\n**Audition et vue.** La chouette a un avantage sur tests de Sagesse (Perception) qui se fie à l'ouïe ou à la vue.",
+ "actionsText": "**Talons.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 8 (2d6 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Talons",
+   "bonus": 3,
+   "damage": "2d6+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/cb00a9748d_monstre-skeletal-chouette-geante.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "aka": "Skeletal chouette géante",
+ "skills": "Perception +5, Discrétion +4",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

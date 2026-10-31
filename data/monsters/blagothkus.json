@@ -1,0 +1,40 @@
+{
+ "id": "blagothkus",
+ "name": "Blagothkus",
+ "type": "Géant (géant des nuages)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 17,
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 13,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 15
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, draconique, géant",
+ "traits": "**Sensation de Keen.** Blagothkus a un avantage sur tests de Sagesse (Perception) qui dépendent de l'odeur.\n**Découpe intérieure.** Blagothkus peut lancer innéement les sorts suivants (spell save DD 15), ne nécessitant aucun composant matériel:\n- 3/jour chacun : Nappe de brouillard, Lévitation\n**Détection orthographique.** Blagothkus est un spellcaster de niveau 5 qui utilise Intelligence comme son caractéristique d'incantation (save spell DD 15, +7 au toucher avec attaques de sort). Blagothkus a les sorts suivants préparés à partir de la liste des sorts de l'assistant :\n- Sorts mineurs (à volonté) : Lumière, Main de mage, Prestidigitation\n- Niveau 1 (4 emplacements) : Détection de la magie, Identification, Projectile magique, Bouclier\n- Niveau 2 (3 emplacements) : Bourrasque, Foulée brumeuse, Fracassement\n- Niveau 3 (2 emplacements) : Vol, Éclair",
+ "actionsText": "**Multiattaques.** Blagothkus attaque deux fois avec sa star du matin.\n**Matinée.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 10,
+   "damage": "3d8+8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/7ae67c2c51_monstre-blagothkus.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Armure Splint",
+ "saves": "CON +9, SAG +6, CHA +6",
+ "skills": "Arcanes +7, Perspicacité +6, Intimidation +6, Perception +6"
+}

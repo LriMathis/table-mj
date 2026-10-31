@@ -1,0 +1,46 @@
+{
+ "id": "kraken-ecclesiastique",
+ "name": "Kraken Priest",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Perception passive 15",
+ "languages": "deux langues différentes",
+ "traits": "**Amphibie.** Le prêtre peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Le prêtre fait deux attaques Thunderous Touch ou Thunderbolt.\n**Touche tonnerre.** Attaque de sort au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 27 (5d10) dégâts de tonnerre.\n**Bouton de tonnerre.** Attaque de sort à distance : +5 au toucher, portée 18 m, une cible. Touché : 11 (2d10) dégâts de foudre plus 11 (2d10) dégâts de tonnerre, et la cible est à terre.\n**Voix du Kraken (Recharge après un repos court ou long).** Un kraken parle à travers le prêtre avec une voix tonnerre audible au sein de 90 m. Les créatures du choix du prêtre qui peuvent entendre les paroles du kraken (qui sont prononcées en Abyssal, Infernal, ou Primordial) doivent réussir sur un DD 14 jet de sauvegarde de Sagesse ou être effrayé du prêtre pendant 1 minute. Une cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Le prêtre lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Sagesse comme caractéristique d'incantation (Spell save DD 13):\n- À volonté : Injonction, Création ou destruction d'eau\n- 1/jour : Tentacules noirs d'Evard\n- 3/jour chacun : Contrôle de l'eau, Ténèbres, Respiration aquatique, Marche sur l'eau",
+ "attacks": [
+  {
+   "name": "Touche tonnerre",
+   "bonus": 5,
+   "damage": "5d10",
+   "type": "tonnerre"
+  },
+  {
+   "name": "Bouton de tonnerre",
+   "bonus": 5,
+   "damage": "2d10",
+   "type": "foudre + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/3c458bf67e_monstre-kraken-ecclesiastique.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Kraken ecclésiastique",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5"
+}

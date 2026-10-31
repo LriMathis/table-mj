@@ -1,0 +1,41 @@
+{
+ "id": "inquisitor-de-l-esprit-feu",
+ "name": "Inquisitor of the Mind Fire",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 17,
+  "SAG": 16,
+  "CHA": 21
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 16",
+ "languages": "Commun plus deux autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'inquisiteur fait trois attaques Silvered Longsword ou utilise Mind feu trois fois. Il peut remplacer une attaque ou une utilisation de Mind feu par une utilisation de Spellcasting pour lancer Immobilisation de monstre si disponible.\n**Épée Longue Argentée.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts tranchants plus 4 (1d8) dégâts psychiques, et la cible a l'état effrayé jusqu'au prochain tour de l'inquisiteur. Critical Touché : Si la cible est une créature décalée, il faut un 4 (1d8) dégâts tranchants supplémentaire.\n**Commande de l'inquisiteur (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 16, chaque créature du choix de l'inquisiteur qu'il peut voir dans 18 m. Échec : La cible a l'état charmé jusqu'au prochain tour de l'inquisiteur. Au tour de la cible charmé, l'inquisiteur peut télépathiquement contrôler le mouvement de la cible et faire en sorte que la cible prenne l'action Attaquer (l'inquisiteur choisit la cible), l'action Foncer ou aucune action.\n**Mind feu.** Jet de sauvegarde d'Intelligence : DD 16, une créature l'inquisiteur peut voir dans 36 m. Échec : 9 (1d8 + 5) dégâts psychiques, et la cible a l'état étourdi jusqu'au début du prochain tour de l'inquisiteur.\n**Détection orthographique.** L'inquisiteur lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Détection de la magie, Détection des pensées, Dissipation de la magie, Main de mage (la main est invisible), Communication à distance\n- 1/jour chacun : Immobilisation de monstre, Modification de mémoire",
+ "attacks": [
+  {
+   "name": "Épée Longue Argentée",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/aa2db08a8d_monstre-inquisitor-de-l-esprit-feu.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Inquisitor de l'esprit feu",
+ "saves": "INT +6, SAG +6, CHA +8",
+ "skills": "Perspicacité +6, Perception +6",
+ "conditionImmunities": "charmé, effrayé"
+}

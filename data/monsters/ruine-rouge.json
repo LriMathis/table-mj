@@ -1,0 +1,42 @@
+{
+ "id": "ruine-rouge",
+ "name": "Red Ruin",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 20,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, draconique",
+ "traits": "**Dévotion draconienne.** Alors que Red Ruin peut voir un Dragon qui n'est pas hostile à elle, elle a un avantage sur jets d'attaque.\n**Maître de combat monté.** Quand Red Ruin est monté et qu'une créature cible son mont avec une attaque, Red Ruin peut faire en sorte que l'attaque la cible à la place.\n**Évasion montée.** Lorsque Red Ruin ou son support fait un jet de sauvegarde de Dextérité pour prendre la moitié des dégâts d'un effet, ils ne prennent aucun dégâts sur un succès et la moitié des dégâts sur une défaillance.",
+ "actionsText": "**Multiattaques.** Red Ruin fait trois attaques d'Ember Lance.\n**Ember Lance.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 10 (1d12 + 4) dégâts perforants plus 7 (2d6) dégâts de feu. Si la cible est une créature moyenne ou plus petite, elle doit réussir sur une DD 16 jet de sauvegarde de Force ou une chute à terre.\n**Acrobate à main explosive (Recharge 5-6).** Red Ruin tire une arbalète explosive à un point qu'elle peut voir en 36 m d'elle-même. Lorsque le boulon atteint ce point, ou s'il touche un objet tôt, il détone dans une sphère 6 m -radius. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 35 (10d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Ember Lance",
+   "bonus": 8,
+   "damage": "1d12+4",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/52d8afe25d_monstre-ruine-rouge.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Ruine rouge",
+ "caNote": "plaque, Bouclier",
+ "saves": "FOR +8, DEX +5",
+ "skills": "Athlétisme +8, Perception +6",
+ "resistances": "feu"
+}

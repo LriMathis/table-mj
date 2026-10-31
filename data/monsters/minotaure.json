@@ -2,13 +2,15 @@
  "id": "minotaure",
  "name": "Minotaure",
  "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvaise",
  "cr": "3",
  "xp": 700,
  "ca": 14,
- "hp": 76,
- "hpFormula": "9d10+27",
+ "hp": 85,
+ "hpFormula": "10d10+30",
  "vitesse": "12 m",
- "size": 2,
  "stats": {
   "FOR": 18,
   "DEX": 11,
@@ -17,21 +19,27 @@
   "SAG": 16,
   "CHA": 9
  },
+ "skills": "Perception +7, Survie +7",
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "abyssal",
+ "traits": "",
+ "actionsText": "**Coup de corne (recharge 5–6).** Corps à corps : +6, allonge 1,50 m. Touché : 18 (4d6 + 4) dégâts perforants. Si la cible est une créature de taille G ou inférieure, le minotaure s’est déplacé en ligne droite d’un minimum de 3 m juste avant de la toucher, la cible subit 10 (3d6) dégâts perforants supplémentaires, ainsi que l’état À terre.\n**Coutille abyssale.** Corps à corps : +6, allonge 3 m. Touché : 10 (1d12 + 4) dégâts tranchants plus 10 (3d6) dégâts nécrotiques.",
  "attacks": [
   {
-   "name": "Hache à deux mains",
+   "name": "Coup de corne (recharge 5–6)",
    "bonus": 6,
-   "damage": "2d12+4",
-   "type": "tranchant"
+   "damage": "4d6+4",
+   "type": "perforant"
   },
   {
-   "name": "Encorner",
+   "name": "Coutille abyssale",
    "bonus": 6,
-   "damage": "2d8+4",
-   "type": "perforant"
+   "damage": "1d12+4+3d6",
+   "type": "tranchant + nécrotique"
   }
  ],
- "traits": "**Charge.** S'il se déplace d'au moins 3 m en ligne droite puis encorne : +2d8 dégâts, FOR DD 14 ou repoussé de 3 m et à terre.",
- "portrait": "/data/images/162a54eae9_monstre-minotaure.svg",
- "notes": ""
+ "portrait": "/data/images/ec0f048029_monstre-minotaure.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 222",
+ "aka": "Minotaure de Baphomet (2024)"
 }

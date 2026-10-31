@@ -1,0 +1,47 @@
+{
+ "id": "chasseur-de-sang",
+ "name": "Blood Hunter",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 9,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Malédiction de sang de la liaison (1/jour).** En tant qu'action bonus, le chasseur de sang cible une créature il peut voir dans 9 m de lui. La cible doit réussir sur un DD 14 jet de sauvegarde de Force ou avoir sa vitesse réduite à 0 et être incapable de prendre des réactions. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Frénésie sanguine.** Le chasseur de sang a avantage sur melee jets d'attaque contre toute créature qui n'a pas toute sa points de vie.\n**Résistance magique.** Le chasseur de sang a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Diffusion d'orthographes innées (1/jour).** Le chasseur de sang peut innéement lancer Maléfice. Son caractéristique d'incantation inné est Intelligence.\n- À volonté : Maléfice",
+ "actionsText": "**Multiattaques.** Le chasseur de sang attaque deux fois avec une arme.\n**Grande épée.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants plus 3 (1d6) dégâts de feu.\n**Grosse arbalète.** Attaque d'arme à distance : +4 au toucher, portée 30/120 m., une cible. Touché : 6 (1d10 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 4,
+   "damage": "1d10+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8541ee4900_monstre-chasseur-de-sang.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Chasseur de sang",
+ "caNote": "demi-plaque",
+ "saves": "FOR +7, SAG +6",
+ "skills": "Acrobaties +4, Perspicacité +6, Perception +6"
+}

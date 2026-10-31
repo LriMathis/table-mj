@@ -1,0 +1,39 @@
+{
+ "id": "skeemo-weirdbottle",
+ "name": "Skeemo Weirdbottle",
+ "type": "Humanoïde (gnome)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 72,
+ "hpFormula": "16d6+16",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "abyssal, commun, gnome, commun des profondeurs",
+ "traits": "**Gnome Cunning.** Skeemo a un avantage sur Intelligence, Sagesse et jet de sauvegarde de Charisme contre la magie.\n**Détection orthographique.** Skeemo est un spellcaster de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort) Il a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Trait de feu, Lumière, Main de mage, Prestidigitation\n- Niveau 1 (4 emplacements) : Détection de la magie, Armure de mage, Projectile magique, Bouclier\n- Niveau 2 (3 emplacements) : Foulée brumeuse, Suggestion\n- Niveau 3 (3 emplacements) : Contresort, Boule de feu, Vol\n- Niveau 4 (3 emplacements) : Invisibilité supérieure, Tempête de grêle\n- Niveau 5 (1 emplacements) : Cône de froid",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants. Ou attaque d'armes rangées : +5 au toucher, portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/eaddb5d4cc_monstre-skeemo-weirdbottle.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "saves": "INT +6, SAG +4",
+ "skills": "Arcanes +6, Histoire +6, Perception +4, Représentation +5"
+}

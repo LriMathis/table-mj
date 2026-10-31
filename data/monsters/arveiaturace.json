@@ -1,0 +1,54 @@
+{
+ "id": "arveiaturace",
+ "name": "Arveiaturace",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 20,
+ "hp": 333,
+ "hpFormula": "18d20+144",
+ "vitesse": "12 m, creusement 12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 10,
+  "CON": 26,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Vision dans le noir 18 m, Perception passive 23",
+ "languages": "commun, draconique",
+ "traits": "**Marche sur glace.** Arveiaturace peut se déplacer à travers et monter des surfaces glacées sans avoir besoin de faire un test de caractéristique. De plus, 3 composés de glace ou de neige ne coûtent pas plus de mouvement.\n**Résistance légendaire (3/jour).** Si Arveiaturace échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** L'arvéiaturace peut utiliser sa présence effrayante. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 4,50 m, une cible. Touché : 19 (2d10 + 8) dégâts perforants plus 9 (2d8) dégâts de froid.\n**Griffe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 15 (2d6 + 8) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +14 au toucher, allonge 6 m, une cible. Touché : 17 (2d8 + 8) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix d'Arveiaturace qui se trouve à l'intérieur de 36 m d'Arveiaturace et consciente de celle-ci doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la présence effrayante d'Arveiaturace pendant les 24 prochaines heures.\n**froid Respiration (Recharge 5-6).** L'arveiaturace expire une explosion glacée dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 22 jet de sauvegarde de Constitution, en prenant 72 (16d8) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "2d10+8",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 14,
+   "damage": "2d6+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 14,
+   "damage": "2d8+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/a49f47348e_monstre-arveiaturace.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CON +14, SAG +7, CHA +8",
+ "skills": "Perception +13, Discrétion +6",
+ "immunities": "froid",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, arveiaturace peut entreprendre l'une des actions ci-après.\n**Détecter.** Arveiaturace fait un test de Sagesse (Perception).\n**Attaque de queue.** L'arvéiaturace fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** L'arvéiaturace bat ses ailes. Chaque créature de 4,50 m d'Arveiaturace doit réussir sur un DD 22 jet de sauvegarde de Dextérité ou prendre 15 (2d6 + 8) dégâts contondants et être à terre. L'Arveiaturace peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

@@ -1,0 +1,46 @@
+{
+ "id": "thayan-guerrier",
+ "name": "Thayan Warrior",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement non bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 11
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, Thayan",
+ "traits": "**Doomvault Dévotion.** Au sein du Doomvault, le guerrier a un avantage sur jet de sauvegarde contre charmé ou effrayé.\n**Tactiques de conditionnement.** Le guerrier a avantage sur un jet d'attaque contre une créature si au moins un des alliés du guerrier est dans 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le guerrier fait deux attaques à la mêlée.\n**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5c480fa2fa_monstre-thayan-guerrier.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Thayan guerrier",
+ "caNote": "Chemise chaîne, Bouclier",
+ "skills": "Perception +2"
+}

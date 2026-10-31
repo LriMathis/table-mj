@@ -1,0 +1,45 @@
+{
+ "id": "grutha",
+ "name": "Grutha",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 105,
+ "hpFormula": "10d12+40",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 8,
+  "CON": 19,
+  "INT": 5,
+  "SAG": 9,
+  "CHA": 6
+ },
+ "senses": "Perception passive 12",
+ "languages": "géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Grutha fait deux attaques de grand club.\n**Grand club.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 18 (3d8 + 5) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +8 au toucher, portée 18/72 m., une cible. Touché : 21 (3d10 + 5) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 8,
+   "damage": "3d8+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 8,
+   "damage": "3d10+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ad45e293d0_monstre-grutha.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +2"
+}

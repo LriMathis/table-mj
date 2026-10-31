@@ -1,0 +1,50 @@
+{
+ "id": "eriflamme",
+ "name": "Eriflamme",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "28",
+ "xp": 120000,
+ "ca": 19,
+ "hp": 518,
+ "hpFormula": "28d20+224",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 11,
+  "CON": 26,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Résistance légendaire (3/jour).** Si l'Eriflamme échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** L'Eriflamme a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'Eriflamme fait quatre attaques de griffe. Il peut remplacer une des attaques par une attaque Bite.\n**Griffe.** Attaque d'arme au corps à corps : +18 au toucher, allonge 4,50 m, une cible. Touché : 20 (3d6 + 10) dégâts tranchants plus 7 (2d6) dégâts de feu.\n**Morceau.** Attaque d'arme au corps à corps : +18 au toucher, allonge 3 m, une cible. Touché : 24 (4d6 + 10) dégâts perforants plus 33 (6d10) dégâts de feu.\n**Réforme.** Tous les éléments de feu de l'Eriflamme disparaissent et l'Eriflamme réapparaît dans l'un de leurs espaces. Le points de vie de l'Eriflamme est équivalent au points de vie combiné des éléments de feu.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 18,
+   "damage": "3d6+10",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 18,
+   "damage": "4d6+10",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/9198819f71_monstre-eriflamme.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +5, SAG +8, CHA +8",
+ "skills": "Arcanes +5, Athlétisme +18",
+ "immunities": "feu, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, effrayé, paralysé, empoisonné",
+ "reactions": "**Split (2/jour).** En réaction à la prise de dégâts, l'Eriflamme peut se diviser en éléments de feu et réduire les dégâts à 0. L'Eriflamme peut former jusqu'à 10 éléments de feu, en divisant le reste de points de vie entre eux. Les éléments d'incendie apparaissent dans les espaces adjacents à l'ancien emplacement de l'Eriflamme ou à l'intérieur de celui-ci, et tous agissent sur l'initiative de l'Eriflamme. Ils gagnent un bonus de +5 à jets d'attaque et ont l'action de la Réforme d'Eriflamme.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, eriflamme peut entreprendre l'une des actions ci-après.\n**Clamer.** L'Eriflamme fait une attaque Claw, qui traite dégâts de force au lieu de dégâts tranchants s'il frappe.\n**Pare-feu.** L'Eriflamme se déplace jusqu'à la moitié de sa vitesse. Il peut voler pendant ce mouvement.\n**Chompe (coûts 2 actions).** L'Eriflamme fait une attaque Bite avec avantage."
+}

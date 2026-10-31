@@ -1,0 +1,39 @@
+{
+ "id": "harmonium-peacekeeper",
+ "name": "Harmonium Peacekeeper",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 18,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 14",
+ "languages": "Commun plus une langue de plus",
+ "traits": "**Tactiques de conditionnement.** Le soldat de la paix a avantage sur un jet d'attaque contre une créature si au moins un des alliés du soldat de la paix est dans le 1,50 m de la créature et l'allié n'a pas l'état neutralisé.",
+ "actionsText": "**Catcheur électrifié.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants plus 4 (1d8) dégâts de foudre. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 13). Jusqu'à ce que l'état agrippé se termine, la cible a l'état entravé et ne peut pas se téléporter, le gardien de la paix ne peut pas faire d'attaques électrifiées Mancatcher, et la cible prend 8 (1d10 + 3) dégâts de foudre au début de chacun de ses tours.",
+ "attacks": [
+  {
+   "name": "Catcheur électrifié",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant + foudre"
+  }
+ ],
+ "portrait": "/data/images/2b20d022a3_monstre-harmonium-peacekeeper.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "skills": "Perception +4"
+}

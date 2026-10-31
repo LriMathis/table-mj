@@ -1,0 +1,41 @@
+{
+ "id": "blazebear",
+ "name": "Blazebear",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 14,
+ "hp": 189,
+ "hpFormula": "18d10+90",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 17,
+  "CON": 21,
+  "INT": 3,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**Résistance magique.** Le blazebear a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Visage de la souris.** Le blazebear peut voir normalement à travers 2 zones créées par le brouillard ou le brouillard, y compris les zones créées par des sorts tels que Fog Cloud.",
+ "actionsText": "**Multiattaques.** Le blazebear fait deux attaques Bite. Il peut remplacer une attaque par un gaz stupéfiant si disponible.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 20 (2d12 + 7) dégâts perforants plus 11 (2d10) dégâts de force.\n**Éblouissement (Recharge 5-6).** Le blazebear cible deux créatures qu'il peut voir en lui-même. Chaque cible doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou avoir l'état étourdi jusqu'au début du prochain tour du blazebear.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "2d12+7",
+   "type": "perforant + force"
+  }
+ ],
+ "portrait": "/data/images/6e7535fa16_monstre-blazebear.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +11, CHA +7",
+ "skills": "Perception +5",
+ "reactions": "**Antimagique Swipe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une créature jetant un sort de de niveau 3 ou inférieur. Touché : 22 (4d10) dégâts de force, et la cible doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou le sort échoue et n'a aucun effet."
+}

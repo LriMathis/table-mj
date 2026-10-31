@@ -1,0 +1,50 @@
+{
+ "id": "dragon-cristal-adulte",
+ "name": "Adult Crystal Dragon",
+ "type": "Dragon (gemme)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique neutre",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 16,
+ "hp": 172,
+ "hpFormula": "15d12+75",
+ "vitesse": "12 m, creusement 12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 12,
+  "CON": 21,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 20",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants plus 4 (1d8) dégâts radiants.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts tranchants.\n**Scintillation du souffle (Recharge 5-6).** Le dragon exhale un éclat brillant dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Constitution, en prenant 40 (9d8) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Le dragon gagne alors 15 points de vie temporaires en absorbant une partie de l'énergie rayonnante.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Lumières dansantes, Assistance\n- 1/jour chacun : Injonction, Divination, Motif hypnotique, Restauration partielle",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "1d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/01185e7ede_monstre-dragon-cristal-adulte.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon cristal adulte",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +9, SAG +6, CHA +8",
+ "skills": "Perception +10, Discrétion +9, Survie +6",
+ "resistances": "froid, radiant",
+ "bonusActions": "**Modifier la forme.** Le dragon se transforme magiquement en toute créature moyenne ou petite, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si le dragon est réduit à 0 points de vie ou utilise un action bonus pour y mettre fin.\n**Étape psychique.** Le dragon se téléporte magiquement dans un espace inoccupé qu'il peut voir à l'intérieur de 18 m.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon cristal adulte peut entreprendre l'une des actions ci-après.\n**Griffe.** Le dragon fait une attaque de griffe.\n**Psionics (coûts 2 actions).** Le dragon utilise psychique Step ou Spellcasting.\n**Starlight Strike (coûts 3 actions).** Le dragon libère un faisceau d'amarrage de lumière d'étoile à une créature qu'il peut voir dans 18 m de lui. La cible doit réussir sur un DD 17 jet de sauvegarde de Dextérité ou prendre 31 (9d6) dégâts radiants."
+}

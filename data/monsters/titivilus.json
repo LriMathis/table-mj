@@ -1,0 +1,44 @@
+{
+ "id": "titivilus",
+ "name": "Titivilus",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 20,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 22,
+  "CON": 17,
+  "INT": 24,
+  "SAG": 22,
+  "CHA": 26
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Titivilus échoue à un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Titivilus a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** Titivilus retrouve 10 points de vie au début de son tour. S'il prend froid ou dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Titimilus meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Ventriloque.** Chaque fois que Titimilus parle, il peut choisir un point dans 18 m de lui ; sa voix émane de ce point.",
+ "actionsText": "**Multiattaques.** Titivilus fait une attaque d'épée d'argent, et il utilise la Parole effrayante.\n**Épée d'argent.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts de force, ou 9 (1d10 + 4) dégâts de force si utilisé avec deux mains, plus 16 (3d10) dégâts nécrotiques. Si la cible est une créature, sa maximum de points de vie est réduite d'une quantité égale à la moitié de la dégâts nécrotiques prise.\n**Parole effrayante.** Titimilus cible une créature il peut voir dans 3 m de lui. La cible doit réussir sur un DD 21 jet de sauvegarde de Sagesse ou devenir effrayé de lui pendant 1 minute. Alors qu'effrayé de cette façon, la cible doit prendre l'action Foncer et s'éloigner de Titivilus par l'itinéraire le plus sûr disponible sur chacun de ses tours, à moins qu'il n'y ait nulle part où se déplacer, auquel cas il ne doit pas prendre l'action Foncer. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Téléportation.** Titivilus téléporte, avec tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.\n**Des mots qui se retournent.** Titivilus cible une créature qu'il peut voir dans 18 m de lui. La cible doit réussir sur un DD 21 jet de sauvegarde de Charisme ou devenir charmé par Titivilus pendant 1 minute. La cible charmé peut répéter la jet de sauvegarde si Titivilus lui inflige des dégâts. Une créature qui réussit sur le jet de sauvegarde est immunisée contre les mots de Titivilus pendant 24 heures.\n**Détection orthographique.** Titivilus lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 21) :\n- À volonté : Modification d'apparence, Image majeure, Antidétection, Communication à distance, Suggestion\n- 3/jour chacun : Double illusoire, Modification de mémoire",
+ "attacks": [
+  {
+   "name": "Épée d'argent",
+   "bonus": 9,
+   "damage": "1d8+4",
+   "type": "force + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/9d53f1d882_monstre-titivilus.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +11, CON +8, SAG +11, CHA +13",
+ "skills": "Tromperie +13, Perspicacité +11, Intimidation +13, Persuasion +13",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, titivilus peut entreprendre l'une des actions ci-après.\n**Orientations perturbatrices.** Titivilus utilise des mots qui tordent. Alternativement, il cible une créature charmé par celui qui est dans 18 m de lui; que la cible charmé doit réussir sur un DD 21 jet de sauvegarde de Charisme, ou Titimilus décide comment la cible agit lors de son prochain tour.\n**Téléportation.** Titimilus utilise Teleport.\n**Assassinat (coûts 2 actions).** Titivilus fait une attaque d'épée d'argent, ou il utilise un mot effrayant."
+}

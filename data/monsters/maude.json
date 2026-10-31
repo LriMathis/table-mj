@@ -1,0 +1,45 @@
+{
+ "id": "maude",
+ "name": "Maude",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, gobelin",
+ "traits": "**Brute.** Une arme à melee inflige une mort supplémentaire de ses dégâts quand Maude frappe avec elle (inclus dans l'attaque).\n**Attaque surprise.** Si Maude surprend une créature et la frappe avec une attaque au cours du premier tour de combat, la cible prend 7 (2d6) de plus de dégâts de l'attaque.\n**Cœur de Hrugek.** Maude a un avantage sur jet de sauvegarde contre charmé, effrayé, paralysé, empoisonné, étourdi, ou mis au sommeil.",
+ "actionsText": "**Multiattaques.** Maude fait deux attaques à la mêlée.\n**Matinée.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d8 + 3) dégâts perforants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 9 (2d6 + 3) dégâts perforants en melee ou 5 (1d6 + 3) dégâts perforants à portée.",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/33fc09426d_monstre-maude.webp",
+ "notes": "",
+ "source": "NERDS Restoring Harmony: Adventure Together (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne, Bouclier",
+ "skills": "Intimidation +2, Discrétion +6, Survie +3"
+}

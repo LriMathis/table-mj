@@ -1,0 +1,44 @@
+{
+ "id": "puissant-serviteur-de-leuk-o",
+ "name": "Mighty Servant of Leuk-o",
+ "type": "Créature artificielle",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 22,
+ "hp": 310,
+ "hpFormula": "27d12+135",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 1,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 19",
+ "languages": "comprend les langues des créatures qui y sont adaptées mais ne peut pas parler",
+ "traits": "**Existence immuable.** Le serviteur est à l'abri de tout sort ou effet qui pourrait modifier sa forme ou l'envoyer dans un autre plan d'existence.\n**Résistance magique.** Le serviteur a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques, et attaques de sort fait contre elle ont un désavantage.\n**Régénération.** Le serviteur retrouve 10 points de vie au début de son tour. S'il est réduit à 0 points de vie, ce trait ne fonctionne pas jusqu'à ce qu'une créature ajustée passe 24 heures à réparer l'artefact ou jusqu'à ce que l'artefact soit soumis à dégâts de foudre.\n**Leap debout.** Le long saut du serviteur est jusqu'à 15 m et son saut haut est jusqu'à 7,50 m, avec ou sans démarrage.\n**Nature inhabituelle.** Le serviteur n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Fist destructif.** Attaque d'arme au corps à corps : +17 au toucher, allonge 3 m, une cible. Touché : 36 (4d12 + 10) dégâts de force. Ou attaque d'armes rangées : +17 au toucher, portée 36 m, une cible. Touché : 36 (4d12 + 10) dégâts de force. Si la cible est un objet, elle prend trois dégâts.\n**Leap de crushing.** Si le serviteur saute au moins 7,50 m dans son mouvement, il peut alors utiliser cette action pour atterrir sur ses pieds dans un espace qui contient une ou plusieurs autres créatures. Chacune de ces créatures est poussée dans un espace inoccupé au sein de 1,50 m du serviteur et doit faire un DD 25 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 26 (4d12) dégâts contondants et est à terre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas à terre.",
+ "attacks": [
+  {
+   "name": "Fist destructif",
+   "bonus": 17,
+   "damage": "4d12+10",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/35791a260c_monstre-puissant-serviteur-de-leuk-o.webp",
+ "notes": "",
+ "source": "Tasha's Cauldron of Everything (5e.tools, traduction automatique)",
+ "aka": "Puissant serviteur de Leuk -o",
+ "caNote": "armure naturelle",
+ "saves": "SAG +9, CHA +7",
+ "skills": "Perception +9",
+ "resistances": "perforant, tranchant",
+ "immunities": "acide, contondant, froid, feu, foudre, nécrotique, poison, psychique, radiant",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, agrippé, neutralisé, paralysé, pétrifié, empoisonné, entravé, étourdi, inconscient"
+}

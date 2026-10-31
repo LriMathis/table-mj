@@ -1,0 +1,45 @@
+{
+ "id": "dragonflesh-grafter",
+ "name": "Dragonflesh Grafter",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, draconique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le greffon fait une attaque de griffe et une attaque de Grandclub.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants plus 5 (1d10) dégâts de poison.\n**Grand club.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 12 (2d8 + 3) dégâts contondants.\n**acide Retch (Recharge 5-6).** Le greffon recolle un jet de bile acide dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 14 (4d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Grand club",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2e8ffc1a9a_monstre-dragonflesh-grafter.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +5, CON +4"
+}

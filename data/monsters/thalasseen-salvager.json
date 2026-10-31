@@ -1,0 +1,46 @@
+{
+ "id": "thalasseen-salvager",
+ "name": "Merfolk Salvager",
+ "type": "Humanoïde (Merfolk)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "3 m, nage 12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "aquatique, commun",
+ "traits": "**Amphibie.** Le sauveteur peut respirer de l'air et de l'eau.",
+ "actionsText": "**Multiattaques.** Le sauveteur fait deux attaques avec son rapier corail.\n**Coral Rapier.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.\n**Toxine injectable (2/jour).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants, et la créature doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être paralysé jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Coral Rapier",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Toxine injectable (2/jour)",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/57208ed567_monstre-thalasseen-salvager.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Thalasséen Salvager",
+ "saves": "DEX +4",
+ "skills": "Athlétisme +3, Perception +2"
+}

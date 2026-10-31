@@ -1,0 +1,49 @@
+{
+ "id": "statue-de-vampiric-jade",
+ "name": "Vampiric Jade Statue",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Formulaire immuable.** La statue est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Résistance légendaire (3/jour).** Si la statue échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** La statue fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants. Si la cible est une créature, cette créature devient maudite par la statue. La malédiction dure 10 minutes. Pendant que la créature est maudite, la statue a avantage sur toutes les attaques contre elle.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/397b4a7354_monstre-statue-de-vampiric-jade.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Statue de Vampiric Jade",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "force",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, statue de vampiric jade peut entreprendre l'une des actions ci-après.\n**Morceau.** La statue fait une attaque de morsure.\n**Récipient sanguin.** Toutes les créatures actuellement maudites par la statue et dans 6 m d'elle prennent 5 dégâts nécrotiques.\n**Bouge.** La statue monte à sa vitesse sans provoquer d'attaques d'opportunités."
+}

@@ -1,0 +1,55 @@
+{
+ "id": "et-rin",
+ "name": "Ki-rin",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal bon",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 20,
+ "hp": 153,
+ "hpFormula": "18d10+54",
+ "vitesse": "18 m, vol 36 m (vol stationnaire)",
+ "stats": {
+  "FOR": 21,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 19,
+  "SAG": 20,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 9 m, Perception passive 19",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si le ki-rin échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le ki-rin a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le ki-rin fait deux attaques Hoof et une attaque Horn, ou il fait deux attaques Sacrées feu.\n**C'est vrai..** Attaque d'arme au corps à corps : +9 au toucher, allonge 4,50 m, une cible. Touché : 10 (2d4 + 5) dégâts de force.\n**Corne.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts radiants.\n**Sacré feu.** Attaque de sort à distance : +9 au toucher, portée 36 m, une cible. Touché : 18 (3d8 + 5) dégâts radiants.\n**Détection orthographique.** Le ki-rin lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Lumière, Image majeure (version de niveau 6), Thaumaturgie\n- 1/jour chacun : Bannissement, Apaisement des émotions, Création de nourriture et d'eau, Restauration supérieure, Changement de plan, Protection contre le mal et le bien, Retour à la vie, Marche sur le vent\n- 3/jour chacun : Soins, Dissipation de la magie, Restauration partielle, Communication à distance",
+ "attacks": [
+  {
+   "name": "C'est vrai.",
+   "bonus": 9,
+   "damage": "2d4+5",
+   "type": "force"
+  },
+  {
+   "name": "Corne",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "radiant"
+  },
+  {
+   "name": "Sacré feu",
+   "bonus": 9,
+   "damage": "3d8+5",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/41b5fa9206_monstre-et-rin.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Et rin",
+ "caNote": "armure naturelle",
+ "skills": "Perception +9, Perspicacité +9, Religion +8",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, et rin peut entreprendre l'une des actions ci-après.\n**Bouge.** Le ki-rin se déplace jusqu'à la moitié de sa vitesse sans provoquer opportunity attacks.\n**Frappe.** Le ki-rin fait un Hoof, Horn, ou feu Sacré."
+}

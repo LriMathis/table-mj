@@ -1,0 +1,42 @@
+{
+ "id": "nain-squelette",
+ "name": "Dwarf Skeleton",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend Dwarvish mais ne peut pas parler",
+ "traits": "**C'est sûr..** Le squelette a avantage sur Force et jet de sauvegarde de Dextérité fait contre les effets qui le rendent ont l'état à terre.",
+ "actionsText": "**Bataille.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f0c64c84f5_monstre-nain-squelette.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Nain squelette",
+ "caNote": "Chemise chaîne",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

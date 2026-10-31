@@ -1,0 +1,41 @@
+{
+ "id": "sofina",
+ "name": "Sofina",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 14,
+ "hp": 161,
+ "hpFormula": "19d8+76",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 20,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Perception passive 12",
+ "languages": "abyssal, commun, draconique, infernal, Thayan",
+ "traits": "**Matériel spécial.** Sofina porte une robe magique qui lui accorde un bonus de +2 à CA et un bonus de +1 à jet de sauvegarde (inclus ci-dessus).",
+ "actionsText": "**Multiattaques.** Sofina fait trois attaques nécrotique Strike.\n**Grève de nécrotique.** Attaque de sort au corps à corps ou à distance : +10 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 32 (5d10 + 5) dégâts nécrotiques.\n**Swarm des météores (1/jour).** Sofina appelle magiquement un essaim de météorites qui détone dans quatre sphères 12 m -radius, chacune centrée sur un point qu'elle peut voir au sein de 1,5 km. Ces sphères peuvent se chevaucher. Chaque créature dans une ou plusieurs de ces sphères doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 35 (10d6) dégâts de feu et 35 (10d6) dégâts contondants sur un jet de sauvegarde, ou la moitié de ces dégâts sur un succès. Une créature dans de multiples sphères ne prend ce dégâts qu'une seule fois.\n**Détection orthographique.** Sofina lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Main de mage, Message, Prestidigitation\n- 1/jour chacun : Tentacules noirs d'Evard, Doigt de mort, Arrêt du temps\n- 2/jour chacun : Malédiction, Main de Bigby, Porte dimensionnelle, Armure de mage, Sphère résiliente d'Otiluke, Vague tonnante",
+ "attacks": [
+  {
+   "name": "Grève de nécrotique",
+   "bonus": 10,
+   "damage": "5d10+5",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/5de9900140_monstre-sofina.webp",
+ "notes": "",
+ "source": "Thieves' Gallery (5e.tools, traduction automatique)",
+ "saves": "INT +10, SAG +7",
+ "skills": "Arcanes +10, Histoire +10, Perspicacité +7",
+ "resistances": "nécrotique",
+ "bonusActions": "**Invoquer la ruse (1/jour).** Sofina invoque magiquement l'esprit d'un assassin de Thayan, qui apparaît comme une wraith (voir le Monster Manual). La wraith convoquée apparaît dans un espace inoccupé au sein de 18 m de Sofina, qu'elle obéit. La wraith convoquée prend son tour immédiatement après Sofina. Il dure 1 heure, jusqu'à ce qu'il ou Sofina meurt, ou jusqu'à ce que Sofina le rejette comme un action bonus."
+}

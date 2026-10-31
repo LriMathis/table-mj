@@ -1,0 +1,40 @@
+{
+ "id": "dragonnet-d-airain",
+ "name": "Dragonnet d'airain",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m, creusement 4,5 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "saves": "DEX +2, SAG +2",
+ "skills": "Discrétion +2, Perception +4",
+ "immunities": "feu",
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "draconique",
+ "traits": "",
+ "actionsText": "**Saignée.** Corps à corps : +4, allonge 1,50 m. Touché : 7 (1d10 + 2) dégâts tranchants.\n**Souffle de feu (recharge 5–6).** JS Dextérité : DD 11, chaque créature dans une Ligne de 6 m de long sur 1,50 m de large. Échec : 14 (4d6) dégâts de feu. Réussite : demi-dégâts.\n**Souffle soporifique.** JS Constitution : DD 11, chaque créature dans un Cône de 4,50 m. Échec : la cible subit l’état Neutralisé jusqu’à la fin de son tour suivant, et réitère alors son JS. Deuxième échec : la cible subit l’état Inconscient pendant 1 minute. Cet effet prend fin pour la cible si celle-ci subit des dégâts ou si une créature dans un rayon de 1,50 m consacre une action à la réveiller.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/10e82ce565_monstre-dragonnet-d-airain.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 99"
+}

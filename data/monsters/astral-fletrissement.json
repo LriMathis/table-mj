@@ -1,0 +1,40 @@
+{
+ "id": "astral-fletrissement",
+ "name": "Astral Blight",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 8,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "**Éclairage.** Bien qu'il ait au moins 1 points de vie, la brûlure astrale jette une lumière faible dans un rayon de 3 m.\n**Nature inhabituelle.** La brûlure n'exige ni l'air ni le sommeil.",
+ "actionsText": "**Multiattaques.** La brûlure fait deux attaques de la vigne qui draine la chaleur.\n**Vin de drainage thermique.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 6 (1d6 + 3) dégâts radiants, et si la cible est une créature grande ou plus petite, c'est agrippé (évasion DD 13). Jusqu'à ce que ce grappin se termine, la cible prend 3 (1d6) dégâts de froid au début de chacun de ses tours. Le mildiou a deux vignes, chacune pouvant gripper une créature.",
+ "attacks": [
+  {
+   "name": "Vin de drainage thermique",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "radiant + froid"
+  }
+ ],
+ "portrait": "/data/images/dca24b2638_monstre-astral-fletrissement.webp",
+ "notes": "",
+ "source": "Light of Xaryxis (5e.tools, traduction automatique)",
+ "aka": "Astral flétrissement",
+ "caNote": "armure naturelle",
+ "resistances": "froid, radiant"
+}

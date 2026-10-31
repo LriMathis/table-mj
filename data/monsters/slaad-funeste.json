@@ -1,0 +1,52 @@
+{
+ "id": "slaad-funeste",
+ "name": "Slaad funeste",
+ "type": "Aberration (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "caNote": "armure naturelle",
+ "hp": 170,
+ "hpFormula": "20d8+80",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 19,
+  "INT": 15,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "skills": "Arcanes +6, Perception +8",
+ "resistances": "acide, feu, foudre, froid, tonnerre",
+ "senses": "vision aveugle 18 m, vision dans le noir 18 m, Perception passive 18",
+ "languages": "slaad, télépathie à 18 m",
+ "traits": "**Armes magiques.** Les armes du slaad portent des attaques magiques.\n**Incantation innée.** Le slaad utilise le Charisme comme caractéristique d'incantation (DD du jet de sauvegarde contre les sorts : 15, +7 pour toucher avec une attaque de sort). Il peut lancer les sorts suivants de manière innée, sans utiliser de composantes matérielles.\n- À volonté : *détection de la magie, détection des pensées, image majeure, invisibilité* (sur soi uniquement), *main du mage*\n- 2/jour chacun : *boule de feu, langues, peur, vol*\n- 1/jour chacun : *changement de plan* (sur soi uniquement), *nuage mortel*\n**Métamorphe.** Le slaad peut dépenser son action pour se métamorphoser en humanoïde de taille Moyenne ou Petite ou pour reprendre sa véritable apparence. En dehors de sa taille, son profil ne change pas, quelle que soit la forme qu'il revêt. L'équipement qu'il porte ou transporte ne se transforme pas en même temps que lui. S'il meurt, il reprend son apparence normale.\n**Régénération.** Le slaad récupère 10 points de vie au début de son tour tant qu'il lui reste au moins 1 point de vie.\n**Résistance à la magie.** Le slaad est avantagé lors de ses jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le slaad porte trois attaques, l'une avec sa morsure, les deux autres avec ses griffes ou son épée à deux mains.\n**Épée à deux mains.** *Attaque d'arme au corps à corps :* +9 pour toucher, allonge 1,50 m, une cible. *Touché :* 12 (2d6+5) dégâts tranchants plus 7 (2d6) dégâts nécrotiques.\n**Griffes (sous forme de slaad uniquement).** *Attaque d'arme au corps à corps :* +9 pour toucher, allonge 1,50 m, une cible. *Touché :* 10 (1d10+5) dégâts tranchants plus 7 (2d6) dégâts nécrotiques.\n**Morsure (sous forme de slaad uniquement).** *Attaque d'arme au corps à corps :* +9 pour toucher, allonge 1,50 m, une cible. *Touché :* 9 (1d8+5) dégâts perforants plus 7 (2d6) dégâts nécrotiques.",
+ "portrait": "/data/images/1a11ba70c3_monstre-slaad-funeste.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 270 · image : Manuel des monstres p. 269",
+ "attacks": [
+  {
+   "name": "Épée à deux mains",
+   "bonus": 9,
+   "damage": "2d6+5+2d6",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Griffes (sous forme de slaad uniquement)",
+   "bonus": 9,
+   "damage": "1d10+5+2d6",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Morsure (sous forme de slaad uniquement)",
+   "bonus": 9,
+   "damage": "1d8+5+2d6",
+   "type": "perforant + nécrotique"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "id": "bleak-cabal-vide-soother",
+ "name": "Bleak Cabal Void Soother",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 55,
+ "hpFormula": "10d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "Commun plus une langue de plus",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le vide soother fait deux attaques Mace ou Void Bolt.\n**Mace.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants plus 3 (1d6) dégâts de force.\n**Void Bolt.** Attaque de sort à distance : +4 au toucher, portée 27 m, une cible. Touché : 9 (2d8) dégâts de force.\n**Détection orthographique.** Le vide soother lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Assistance, Lumière\n- 1/jour chacun : Apaisement des émotions, Restauration partielle, Délivrance des malédictions, Protection contre une énergie",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant + force"
+  },
+  {
+   "name": "Void Bolt",
+   "bonus": 4,
+   "damage": "2d8",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/b8ae8917b1_monstre-bleak-cabal-vide-soother.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Bleak Cabal vide Soother",
+ "caNote": "Breastplate",
+ "saves": "CON +3, SAG +4",
+ "skills": "Médecine +4",
+ "bonusActions": "**Mot apaisant (3/jour).** Le vide soother parle un mot magique de miséricorde, guérir une créature il peut voir en 18 m de lui-même. La cible retrouve 4 (1d4 + 2) points de vie."
+}

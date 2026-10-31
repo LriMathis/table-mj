@@ -1,0 +1,47 @@
+{
+ "id": "officier-de-l-armee-de-dragon",
+ "name": "Dragon Army Officer",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 19,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, draconique",
+ "traits": "**Dévotion draconienne.** Alors que l'officier peut voir un Dragon qui n'est pas hostile à lui, l'officier a un avantage sur jets d'attaque.",
+ "actionsText": "**Multiattaques.** L'officier fait deux attaques de Vicious Lance et utilise des ordres d'assaut s'il est disponible.\n**Lance vicieuse.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants plus 2 (1d4) dégâts de feu.\n**Grosse arbalète.** Attaque d'arme à distance : +4 au toucher, portée 30/120 m., une cible. Touché : 7 (1d10 + 2) dégâts perforants plus 5 (1d10) dégâts de feu.\n**Ordonnances d'assaut (Recharge 5-6).** L'officier crie des ordres et cible jusqu'à deux autres créatures en 18 m de lui-même. Si une cible a le caractère Draconic Devotion et peut entendre l'officier, la cible peut utiliser sa réaction pour faire une attaque de mêlée.",
+ "attacks": [
+  {
+   "name": "Lance vicieuse",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/0413dd4605_monstre-officier-de-l-armee-de-dragon.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Officier de l'armée de dragon",
+ "caNote": "Attelle, Bouclier",
+ "saves": "DEX +4, SAG +4",
+ "skills": "Athlétisme +5, Perception +4"
+}

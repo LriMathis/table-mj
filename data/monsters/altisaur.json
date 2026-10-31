@@ -1,0 +1,45 @@
+{
+ "id": "altisaur",
+ "name": "Altisaur",
+ "type": "Monstruosité (dinosaure)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 15,
+ "hp": 198,
+ "hpFormula": "12d20+72",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 6,
+  "CON": 23,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Perception passive 21",
+ "languages": "—",
+ "traits": "**Résistance magique.** L'altisaur a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'altisaur fait une attaque de Stomp et une attaque de Tail. L'altisaur ne peut pas faire les deux attaques contre la même cible.\n**Stompe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 33 (7d6 + 9) dégâts contondants. Si la cible est une créature Énorme ou plus petite, elle doit réussir sur un DD 22 jet de sauvegarde de Force ou avoir l'état à terre.\n**Queue.** Attaque d'arme au corps à corps : +14 au toucher, allonge 6 m, une cible. Touché : 45 (8d8 + 9) dégâts contondants, et la cible est poussée jusqu'à 6 m horizontalement à partir de l'altisaur.",
+ "attacks": [
+  {
+   "name": "Stompe",
+   "bonus": 14,
+   "damage": "7d6+9",
+   "type": "contondant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 14,
+   "damage": "8d8+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/41d40c3b09_monstre-altisaur.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +11"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "nihiloor",
+ "name": "Nihiloor",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "profond, commun des profondeurs, télépathie 36 m",
+ "traits": "**Résistance magique.** Nihiloor a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**La diffusion de l'orthographe innée (Psioniques).** L'innée de Nihiloor caractéristique d'incantation est Intelligence (spell save DD 15). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Détection des pensées, Lévitation\n- 1/jour chacun : Domination de monstre, Changement de plan (autoseulement)",
+ "actionsText": "**Tentacules.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 15 (2d10 + 4) dégâts psychiques. Si la cible est moyenne ou plus petite, elle est agrippé (évasion DD 15) et doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou être étourdi jusqu'à ce que ce grappin se termine.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, un humanoïde neutralisé agrippé par Nihiloor. Touché : La cible prend 55 (10d10) dégâts perforants. Si ces dégâts réduisent la cible à 0 points de vie, Nihiloor tue la cible en extrayant et en dévorant son cerveau.\n**Boussole mentale (Recharge 5-6).** Nihiloor émet magiquement de l'énergie psychique dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou prendre 22 (4d8 + 4) dégâts psychiques et être étourdi pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "psychique"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 7,
+   "damage": "10d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/57ff528a88_monstre-nihiloor.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "saves": "INT +7, SAG +6, CHA +6",
+ "skills": "Arcanes +7, Tromperie +6, Perspicacité +6, Perception +6, Persuasion +6, Discrétion +4"
+}

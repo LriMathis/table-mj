@@ -1,0 +1,47 @@
+{
+ "id": "firbolg-primeval-warden",
+ "name": "Firbolg Primeval Warden",
+ "type": "Humanoïde (druide)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun, druidique, géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le firbolg fait deux attaques Spear ou feu Lance.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 9 (2d8) dégâts de feu.\n**feu Lance.** Attaque de sort à distance : +5 au toucher, portée 36 m, une cible. Touché : 14 (2d10 + 3) dégâts de feu.\n**Détection orthographique.** Le firbolg lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Enchevêtrement, Communication avec les animaux, Communication avec les plantes\n- 1/jour chacun : Communion avec la nature (en tant qu'action), Détection de la magie, Déguisement",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "feu Lance",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/89408d3ffa_monstre-firbolg-primeval-warden.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure, Bouclier",
+ "saves": "INT +3, SAG +5",
+ "skills": "Médecine +5, Nature +3, Perception +7",
+ "bonusActions": "**Étape cachée (2/jour).** Le firbolg tourne magiquement invisible jusqu'au début de son prochain tour, jusqu'à ce qu'il fasse un jet d'attaque, ou jusqu'à ce qu'il oblige quelqu'un à faire un jet de sauvegarde."
+}

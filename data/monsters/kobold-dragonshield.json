@@ -1,0 +1,40 @@
+{
+ "id": "kobold-dragonshield",
+ "name": "Kobold Dragonshield",
+ "type": "Dragon",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 44,
+ "hpFormula": "8d6+16",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 9,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, draconique",
+ "traits": "**La résistance du Dragon.** Le kobold a une résistance à un type de dégâts basés sur la couleur du dragon qui l'a investi avec puissance (choisir ou rouler un d10): 1–2, acide (noir ou cuivre); 3-4, froid (argent ou blanc); 5-6, feu (brass, or ou rouge); 7-8, éclair (bleu ou bronze); 9-10, poison (vert).\n**Cœur du Dragon.** Si le kobold est effrayé ou paralysé par un effet qui permet un jet de sauvegarde, il peut répéter l'enregistrement au début de son tour pour mettre fin à l'effet sur lui-même et tous les kobolds dans 9 m de celui-ci. Tout kobold qui bénéficie de ce trait (y compris le bouclier de dragon) a avantage sur son prochain jet d'attaque.\n**Tactiques de conditionnement.** Le kobold a avantage sur un jet d'attaque contre une créature si au moins un des alliés du kobold est dans le 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Sensibilité à la lumière du soleil.** En plein soleil, le kobold a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le Kobold fait deux attaques de Spear.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d6 + 1) dégâts perforants, ou 5 (1d8 + 1) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/35227bde7a_monstre-kobold-dragonshield.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "cuir, Bouclier",
+ "skills": "Perception +1",
+ "resistances": "voir la Résistance du Dragon ci-dessous"
+}

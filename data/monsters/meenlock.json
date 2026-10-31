@@ -1,0 +1,41 @@
+{
+ "id": "meenlock",
+ "name": "Meenlock",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 31,
+ "hpFormula": "7d6+7",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "télépathie 36 m",
+ "traits": "**Peur Aura.** Toute Bête ou Humanoïde qui commence son tour dans 3 m du meenlock doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou être effrayé jusqu'au prochain tour de la créature.\n**Sensibilité à la lumière.** Bien qu'en lumière vive, le meenlock a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui comptent sur la vue.",
+ "actionsText": "**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts tranchants, et la cible doit réussir sur un DD 11 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/491a6045a6_monstre-meenlock.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4, Discrétion +6, Survie +2",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Téléportage Ombre (Recharge 5-6).** Le meenlock téléporte dans un espace inoccupé au sein de 9 m, à condition que l'espace qu'il téléporte et sa destination soient dans la lumière ou l'obscurité. La destination n'a pas besoin d'être à portée de vue."
+}

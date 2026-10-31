@@ -1,0 +1,39 @@
+{
+ "id": "elan",
+ "name": "Élan",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 10,
+ "hp": 11,
+ "hpFormula": "2d10",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "skills": "Perception +2",
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Coup de tête.** Corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts contondants. Si la cible est une créature de taille G ou inférieure et si le cervidé s’est déplacé d’au moins 6 m en ligne droite vers elle juste avant de la toucher, la cible subit 3 (1d6) dégâts contondants supplémentaires, ainsi que l’état À terre.",
+ "attacks": [
+  {
+   "name": "Coup de tête",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/543bffbb8b_monstre-elan.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr",
+ "aka": "Grand cervidé (2024)"
+}

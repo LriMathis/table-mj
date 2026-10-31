@@ -1,0 +1,42 @@
+{
+ "id": "sentient-gelee-ocre",
+ "name": "Sentient Ochre Jelly",
+ "type": "Vase",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 8,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 6,
+  "CON": 14,
+  "INT": 5,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "commun",
+ "traits": "**Amorphe.** La gelée peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Escalade des araignées.** La gelée peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Pseudopod.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts contondants plus 3 (1d6) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/4d060f41d0_monstre-sentient-gelee-ocre.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Sentient gelée ocre",
+ "resistances": "acide",
+ "immunities": "foudre, tranchant",
+ "conditionImmunities": "aveuglé, assourdi, épuisement, effrayé, à terre",
+ "reactions": "**Séparer.** Lorsqu'une gelée moyenne ou plus est soumise à la foudre ou dégâts tranchants, elle se divise en deux nouveaux gelées si elle a au moins 10 points de vie. Chaque nouvelle gelée a points de vie égal à la moitié de la gelée originale, arrondie vers le bas. Les nouveaux gelées sont une taille plus petite que la gelée originale."
+}

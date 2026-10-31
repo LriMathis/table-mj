@@ -1,0 +1,40 @@
+{
+ "id": "stolos",
+ "name": "Stolos",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 91,
+ "hpFormula": "14d8+28",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "deux langues différentes, télépathie 9 m",
+ "traits": "**Aura sifflement.** Au début de chaque tour de Stolos, chaque créature de son choix dans 1,50 m de lui doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou prendre 10 (3d6) dégâts psychiques, à condition que Stolos n'est pas neutralisé.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Stolos est Charisme. Il peut lancer innéement les sorts suivants (spell save DD 15), ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Saut, Lévitation, Armure de mage (autoseulement), Communication avec les morts\n- 1/jour chacun : Portail magique, Vision suprême\n**Détection orthographique.** Stolos est un spellcaster de niveau 14. Son caractéristique d'incantation est Charisme (save spell DD 15, +7 au toucher avec attaques de sort). Il retrouve sa emplacements de sort dépensée lorsqu'il termine une repos court ou long. Il connaît les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Contact glacial, Décharge occulte, Assistance, Main de mage, Illusion mineure, Prestidigitation, Poigne électrique\n- Niveau 5 (3 emplacements) : Armure d'Agathys, Tentacules de Hadar, Couronne du dément, Clairvoyance, Contact avec un autre plan, Détection des pensées, Porte dimensionnelle, Murmures dissonants, Domination de bête, Télékinésie, Toucher du vampire",
+ "actionsText": "**Talons.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 8 (2d6 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Talons",
+   "bonus": 3,
+   "damage": "2d6+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b26158a592_monstre-stolos.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "saves": "SAG +4, CHA +7",
+ "skills": "Arcanes +4, Histoire +4",
+ "resistances": "psychique"
+}

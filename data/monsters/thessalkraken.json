@@ -1,0 +1,48 @@
+{
+ "id": "thessalkraken",
+ "name": "Thessalkraken",
+ "type": "Monstruosité (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 16,
+ "hp": 207,
+ "hpFormula": "18d12+90",
+ "vitesse": "6 m, nage 18 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 11,
+  "CON": 20,
+  "INT": 19,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 12",
+ "languages": "comprend Abyssal, céleste, infernal, et Primordial mais ne peut pas parler, télépathie 36 m",
+ "traits": "**Amphibie.** Le Thessalkraken peut respirer de l'air et de l'eau.\n**Liberté de circulation.** Le Thessalkraken ignore 3, et les effets magiques ne peuvent pas réduire sa vitesse ou la faire être entravé. Il peut dépenser 1,50 m de mouvement pour échapper aux contraintes non magiques ou être agrippé.",
+ "actionsText": "**Multiattaques.** Le Thessalkraken fait une attaque de morsure et deux attaques de tentacules. Il peut remplacer chaque attaque de tentacules par une seule utilisation de Fling.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 20 (3d8 + 7) dégâts perforants plus 5 (1d10) dégâts d'acide. Si la cible est une créature moyenne ou plus petite agrippé par le Thessalkraken, cette créature est avalée, et le grappin se termine. En avalant, la créature est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors du Thessalkraken, et il prend 21 (6d6) dégâts d'acide au début de chacun des tours de Thessalkraken.\nSi le Thessalkraken prend 35 dégâts ou plus sur un seul tour d'une créature à l'intérieur, il doit réussir sur un DD 23 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m du Thessalkraken. Si le Thessalkraken meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 3 m de mouvement, sortant d'à terre.\n**Tentacle.** Attaque d'arme au corps à corps : +12 au toucher, allonge 6 m, une cible. Touché : 17 (3d6 + 7) dégâts tranchants, et la cible est agrippé (évasion DD 16). Jusqu'à ce que ce grappin se termine, la cible est entravé. Le Thessalkraken a dix tentacules, qui peuvent chacun gripper une cible.\n**Vols.** Un objet moyen ou plus petit tenu ou créature agrippé par le Thessalkraken est jeté jusqu'à 12 m dans une direction aléatoire et à terre. Si une cible lancée frappe une surface solide, la cible prend 3 (1d6) dégâts contondants pour chaque 3 m qu'elle a lancé. Si la cible est lancée sur une autre créature, cette créature doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre les mêmes dégâts et être à terre.\n**acide Saliva (Recharge 5-6).** Le Thessalkraken crache une gobe d'acide à un point qu'il peut voir dans 18 m de lui. Chaque créature dans 3 m de ce point doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 22 (4d10) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "3d8+7",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 12,
+   "damage": "3d6+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/3db5ded34a_monstre-thessalkraken.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +12, DEX +5, CON +10, INT +9, SAG +7",
+ "immunities": "acide, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, effrayé, paralysé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, thessalkraken peut entreprendre l'une des actions ci-après.\n**Attaque de tension.** Le Thessalkraken fait une attaque de tentacules.\n**Vols.** Le Thessalkraken utilise Fling.\n**Enk Cloud (coûts 3 actions).** Sous l'eau, le Thessalkraken expulse un nuage d'encre dans un rayon de 18 m. Le nuage s'étend autour des coins, et cette zone est 2 pour les créatures autres que le Thessalkraken. Chaque créature autre que le Thessalkraken qui termine son tour là-bas doit réussir sur un DD 18 jet de sauvegarde de Constitution, en prenant 16 (3d10) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Un fort courant disperse le nuage, qui disparaît à la fin du prochain tour de Thessalkraken."
+}

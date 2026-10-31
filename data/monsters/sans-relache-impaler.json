@@ -1,0 +1,49 @@
+{
+ "id": "sans-relache-impaler",
+ "name": "Relentless Impaler",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 16,
+ "hp": 184,
+ "hpFormula": "16d10+96",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 22,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "comprend toutes les langues mais ne peut pas parler",
+ "traits": "**Prise de cœur de sang.** L'impaler est magiquement lié au poteau cérémonial et au cadavre sacrifié le lanceur rituel utilisé pour le créer. Si l'impaler est réduit à 0 points de vie, il disparaît, puis reforme 1d8 heures plus tard dans l'espace inoccupé le plus proche au bûcher et retrouve tout son points de vie. L'impaler ne meurt que s'il est réduit à 0 points de vie alors que soit le poteau cérémonial est retiré du corps du sacrifice, soit l'impaler est sur un autre plan d'existence que ce cadavre.\n**Résistance légendaire (3/jour).** Si l'impaler échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** L'impaler fait une attaque Spike et deux attaques Wicked Spear.\n**Spike.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d8 + 6) dégâts perforants, et la vitesse de la cible est réduite de moitié jusqu'au prochain tour de l'impaler.\n**Lance maladroit.** Attaque d'arme au corps à corps ou à distance : +11 au toucher, allonge 3 m ou portée 6/12 m., une cible. Touché : 13 (2d6 + 6) dégâts perforants plus 13 (3d8) dégâts nécrotiques.\n**Découpe d'épicéa (Recharge 5-6).** Des pics spectraux torsadés sortent du corps de l'impaler. Chaque créature dans 9 m de l'impaler doit faire un DD 19 jet de sauvegarde de Dextérité, en prenant 40 (9d8) dégâts de force sur un sauvegarde raté ou la moitié de ces dégâts sur un succès.",
+ "attacks": [
+  {
+   "name": "Spike",
+   "bonus": 11,
+   "damage": "2d8+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Lance maladroit",
+   "bonus": 11,
+   "damage": "2d6+6",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/f3963a6eee_monstre-sans-relache-impaler.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Sans relâche Impaler",
+ "caNote": "armure naturelle",
+ "saves": "FOR +11, DEX +8, CHA +9",
+ "skills": "Athlétisme +11, Perception +7, Survie +7",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, sans relâche impaler peut entreprendre l'une des actions ci-après.\n**Spike de vitesse.** L'impaler téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir. Il peut alors faire une attaque de Spike.\n**Blessures profondes (coûts 2 actions).** Chaque créature dont la vitesse est actuellement réduite par l'attaque Spike de l'impaler prend 18 (4d8) dégâts nécrotiques."
+}

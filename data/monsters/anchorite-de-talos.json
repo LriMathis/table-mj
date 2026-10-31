@@ -1,0 +1,46 @@
+{
+ "id": "anchorite-de-talos",
+ "name": "Anchorite of Talos",
+ "type": "Humanoïde (demi-orc, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 9,
+  "SAG": 15,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, orc",
+ "traits": "**Changeur de forme.** L'ancre peut utiliser son action pour se polymorphiser en sanglier ou en retour dans sa forme véritable, qui est humanoïde. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**Découpe intérieure.** caractéristique d'incantation inné de l'ancre est Sagesse (spell save DD 12). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Augure, Bénédiction, Éclair (défaut 8d6), Retour à la vie\n- 3/jour : Vague tonnante (défaut 2d8)",
+ "actionsText": "**Gantelet éclaboussé (Forme humaine seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts tranchants.\n**Tusque (forme de sang seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Gantelet éclaboussé (Forme humaine seulement)",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Tusque (forme de sang seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d583f277d1_monstre-anchorite-de-talos.webp",
+ "notes": "",
+ "source": "Essentials Kit: Dragon of Icespire Peak (5e.tools, traduction automatique)",
+ "aka": "Anchorite de Talos",
+ "caNote": "Cache l'armure",
+ "skills": "Nature +1, Discrétion +3, Survie +4"
+}

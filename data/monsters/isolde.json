@@ -1,0 +1,47 @@
+{
+ "id": "isolde",
+ "name": "Isolde",
+ "type": "Fée (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 19,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "abyssal, commun, infernal",
+ "traits": "**Bénédiction folle.** Le CA d'Isolde inclut son bonus Charisme.\n**Aura de résistance magique.** En tenant Nepenthe, Isolde crée une aura dans un rayon de 3 m autour d'elle. Alors que cette aura est active, Isolde et toutes les créatures amies avec elle dans l'aura ont avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** caractéristique d'incantation d'Isolde est Charisme (Spell save DD 14). Isolde peut lancer innéement les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour : Changement de plan (autoseulement)\n- 3/jour chacun : Modification d'apparence, Injonction, Détection de la magie",
+ "actionsText": "**Multiattaques.** Isolde fait deux attaques de melee ou utilise son feu Ray deux fois.\n**Nepenthe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m., une cible. Touché : 11 (1d8 + 7) dégâts tranchants, ou 12 (1d10 + 7) dégâts tranchants si utilisé avec deux mains pour faire une attaque de melee. Si la cible est un fiende ou un non-mort, il faut un 11 (2d10) dégâts radiants supplémentaire.\n**Rayon feu.** Attaque de sort à distance : +7 au toucher, portée 36 m, une cible. Touché : 10 (3d6) dégâts de feu.\n**Charm de folie.** Un humanoïde Isolde peut voir dans 9 m de lui doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être magiquement charmé pendant 1 jour. La cible charmé obéit aux commandes orales d'Isolde. Si la cible souffre d'un quelconque préjudice de la part d'Isolde ou d'une autre créature ou reçoit une commande suicidaire de la part d'Isolde, la cible peut répéter le jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une cible est réussi, ou si l'effet se termine pour elle, la créature est immunisée contre le charme Fiendish d'Isolde pour les prochaines 24 heures.",
+ "attacks": [
+  {
+   "name": "Nepenthe",
+   "bonus": 10,
+   "damage": "1d8+7",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Rayon feu",
+   "bonus": 7,
+   "damage": "3d6",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/04b42359d6_monstre-isolde.webp",
+ "notes": "",
+ "source": "Van Richten's Guide to Ravenloft (5e.tools, traduction automatique)",
+ "caNote": "Courrier d'échelle",
+ "saves": "FOR +7, CON +6, INT +5, CHA +6",
+ "skills": "Tromperie +6, Intimidation +6, Perception +4, Discrétion +7",
+ "resistances": "froid, feu, foudre, poison, contondant, perforant, tranchant d'attaques non magiques"
+}

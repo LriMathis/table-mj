@@ -1,0 +1,47 @@
+{
+ "id": "vegepygmy-scavenger",
+ "name": "Vegepygmy Scavenger",
+ "type": "Plante",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "3d6+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "Vegepygmy",
+ "traits": "**Camouflage des plantes.** Le vegepygmy a un avantage sur tests de Dextérité (Discrétion) il fait dans n'importe quel terrain avec une végétation abondante obscurcie.\n**Régénération.** Le vegepygmy retrouve 3 points de vie au début de son tour. S'il prend froid, feu, ou dégâts nécrotiques, ce trait ne fonctionne pas au début du tour suivant du vegepygmy. Le vegepygmy meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.\n**Écharpe.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c3d66c5b78_monstre-vegepygmy-scavenger.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +2, Escamotage +4, Discrétion +4",
+ "resistances": "foudre, perforant",
+ "bonusActions": "**Échappement de Nimble.** Le vegepygmy prend l'action Se désengager ou Se cacher."
+}

@@ -1,0 +1,47 @@
+{
+ "id": "bard",
+ "name": "Bard",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Perception passive 15",
+ "languages": "deux langues différentes",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le barde fait deux attaques Shortsword ou Shortbow. Il peut remplacer une attaque par une utilisation de Spellcasting.\n**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Saubèche.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Cacophonie (Recharge 4-6).** Chaque créature dans un cube 4,50 m originaire du barde doit faire un DD 12 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, une créature prend 9 (2d8) dégâts de tonnerre et est poussée jusqu'à 3 m loin du barde. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas poussée.\n**Détection orthographique.** Le bard lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Lumières dansantes, Main de mage, Prestidigitation\n- 1/jour chacun : Charme-personne, Invisibilité, Sommeil",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/fbc7c8f0d0_monstre-bard.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne",
+ "saves": "DEX +4, SAG +3",
+ "skills": "Acrobaties +4, Perception +5, Représentation +6",
+ "bonusActions": "**Taunt (2/jour).** Le bard cible une créature à l'intérieur de 9 m. Si la cible peut entendre le bard, la cible doit réussir sur un DD 12 jet de sauvegarde de Charisme ou avoir un désavantage sur tests de caractéristique, jets d'attaque et jet de sauvegarde jusqu'au prochain tour du bard."
+}

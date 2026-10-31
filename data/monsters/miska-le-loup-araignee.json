@@ -1,0 +1,52 @@
+{
+ "id": "miska-le-loup-araignee",
+ "name": "Miska the Wolf-Spider",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "24",
+ "xp": 62000,
+ "ca": 21,
+ "hp": 399,
+ "hpFormula": "38d12+152",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 18,
+  "CON": 19,
+  "INT": 18,
+  "SAG": 21,
+  "CHA": 22
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "abyssal, commun, télépathie 36 m",
+ "traits": "**Foul Ichor.** Une créature qui frappe Miska avec une attaque d'arme à la mêlée prend 7 (2d6) dégâts de poison.\n**Résistance légendaire (3/jour).** Si Miska échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Miska a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Escalade des araignées.** Miska peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sens du Web.** En contact avec un web, Miska connaît l'emplacement exact de toute autre créature en contact avec le même web.\n**Web Walker.** Miska ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** Miska fait une attaque de Bite Lupine et deux attaques de Trident de Chaos.\n**Morceaux de lupine.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants plus 27 (6d8) dégâts de poison. Si la cible est une créature, elle doit réussir sur un DD 21 jet de sauvegarde de Constitution ou avoir l'état empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, une créature a l'état neutralisé et ne peut pas récupérer points de vie. Une créature empoisonné peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Trident du Chaos.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 13 (2d6 + 6) dégâts perforants plus 9 (2d8) dégâts de force.\n**Détection orthographique.** Miska lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 21):\n- À volonté : Déguisement, Invisibilité, Main de mage, Illusion mineure, Toile d'araignée\n- 2/jour chacun : Domination de monstre, Suggestion de groupe, Image miroir, Télékinésie, Téléportation",
+ "attacks": [
+  {
+   "name": "Morceaux de lupine",
+   "bonus": 13,
+   "damage": "2d10+6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Trident du Chaos",
+   "bonus": 13,
+   "damage": "2d6+6",
+   "type": "perforant + force"
+  }
+ ],
+ "portrait": "/data/images/92bada4d86_monstre-miska-le-loup-araignee.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Miska le loup - araignée",
+ "caNote": "armure naturelle",
+ "saves": "DEX +11, CON +11, SAG +12",
+ "skills": "Perspicacité +12, Perception +12, Discrétion +11",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Fidélité de la demande.** Miska met fin magiquement aux conditions charmé et effrayé sur lui-même et sur l'un de ses alliés au sein de 36 m de lui-même.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, miska le loup - araignée peut entreprendre l'une des actions ci-après.\n**C'est vrai..** Miska fait un hurlement sanguinaire à une créature en 36 m de lui-même qui n'est pas un Fiend. La cible doit réussir sur un DD 20 jet de sauvegarde de Sagesse ou prendre 13 (2d12) dégâts psychiques.\n**Déchiqueteuse.** Miska se met à sa vitesse sans provoquer d'attaques d'occasions.\n**Lancer un sort (coûts 2 actions).** Miska utilise la technique de l'orthographe."
+}

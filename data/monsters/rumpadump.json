@@ -1,0 +1,37 @@
+{
+ "id": "rumpadump",
+ "name": "Rumpadump",
+ "type": "Plante",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Détresse Spores.** Lorsque Rumpadump prend des dégâts, tous les autres myconides de 72 m peuvent sentir sa douleur.\n**Maladie du soleil.** En plein soleil, Rumpadump présente un désavantage sur tests de caractéristique, jets d'attaque et jet de sauvegarde. Rumpadump meurt s'il passe plus d'une heure en plein soleil.",
+ "actionsText": "**Fist.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une cible. Touché : 1 (1d4 - 1) dégâts contondants plus 2 (1d4) dégâts de poison.\n**Rapport Spores (3/jour).** Un rayon de spores 3 m s'étend de Rumpadump. Ces spores peuvent se déplacer autour des coins et affecter seulement des créatures avec un Intelligence de 2 ou plus qui ne sont pas morts-vivants, des constructions ou des éléments. Les créatures touchées peuvent communiquer télépathiquement entre elles alors qu'elles sont au sein de 9 m l'une de l'autre. L'effet dure 1 heure.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 1,
+   "damage": "1d4-1",
+   "type": "contondant + poison"
+  }
+ ],
+ "portrait": "/data/images/2fbc524272_monstre-rumpadump.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)"
+}

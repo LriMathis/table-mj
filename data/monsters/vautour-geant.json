@@ -1,0 +1,39 @@
+{
+ "id": "vautour-geant",
+ "name": "Vautour géant",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 10,
+ "hp": 25,
+ "hpFormula": "3d10+9",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "skills": "Perception +3",
+ "resistances": "nécrotiques",
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "comprend le commun mais ne peut pas parler",
+ "traits": "**Tactique de meute.** Quand au moins un de ses alliés non Neutralisés se situe dans un rayon de 1,50 m de la créature qu’il cible, le vautour a l’Avantage au jet d’attaque correspondant.",
+ "actionsText": "**Coup de bec.** Corps à corps : +4, allonge 1,50 m. Touché : 9 (2d6 + 2) dégâts perforants, et la cible subit l’état Empoisonné jusqu’à la fin de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Coup de bec",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/88270f1eac_monstre-vautour-geant.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "grotte-blaireau",
+ "name": "Cave Badger",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "9 m, creusement 4,50 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 9 m, Perception des vibrations 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** Le blaireau a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Tunneler.** Quand le blaireau se jette, il laisse des tunnels derrière lui.",
+ "actionsText": "**Multiattaques.** Le blaireau fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 6 (2d4 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/86806b6921_monstre-grotte-blaireau.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Grotte blaireau",
+ "caNote": "armure naturelle"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "dragon-adulte-emerald",
+ "name": "Adult Emerald Dragon",
+ "type": "Dragon (gemme)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal neutre",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 18,
+ "hp": 207,
+ "hpFormula": "18d12+90",
+ "vitesse": "12 m, creusement 9 m, vol 24 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 12,
+  "CON": 21,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 23",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Perception du poste (1/jour).** Le dragon peut lancer Terrain hallucinatoire, ne nécessitant aucun composant de sort et en utilisant Intelligence comme caractéristique d'incantation (spell save DD 17).\n**Tunneler.** Le dragon peut creuser à la moitié de sa vitesse de creusement et laisser un tunnel 4,50 m dans son sillage.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants plus 7 (2d6) dégâts psychiques.\n**Griffe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts tranchants.\n**Respiration désorientante (Recharge 5-6).** Le dragon exhale une vague de dissonance psychique dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde d'Intelligence. Sur une sauvegarde ratée, la créature prend 42 (12d6) dégâts psychiques, et jusqu'à la fin de son prochain tour, quand la créature fait un jet d'attaque ou un test de caractéristique, elle doit rouler un d6 et réduire le total par le nombre roulé. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts sans effets supplémentaires.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Main de mage (la main est invisible), Illusion mineure\n- 1/jour chacun : Détection des pensées, Dissipation de la magie, Invisibilité, Image majeure",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "2d10+6",
+   "type": "perforant + psychique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 11,
+   "damage": "1d8+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/409f812db7_monstre-dragon-adulte-emerald.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon adulte Emerald",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CON +10, SAG +8, CHA +9",
+ "skills": "Arcanes +9, Tromperie +9, Perception +13, Discrétion +6",
+ "resistances": "feu, psychique",
+ "bonusActions": "**Modifier la forme.** Le dragon se transforme magiquement en toute créature moyenne ou petite, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si le dragon est réduit à 0 points de vie ou utilise un action bonus pour y mettre fin.\n**Étape psychique.** Le dragon se téléporte magiquement dans un espace inoccupé qu'il peut voir à l'intérieur de 18 m.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon adulte emerald peut entreprendre l'une des actions ci-après.\n**Griffe.** Le dragon fait une attaque de griffe.\n**Psionics (coûts 2 actions).** Le dragon utilise psychique Step ou Spellcasting.\n**Emeraude Embers (coûts 3 actions).** Le dragon crée une mote de flamme verte autour d'une créature qu'il peut voir à l'intérieur de 18 m. La cible doit réussir sur un DD 17 jet de sauvegarde de Dextérité ou prendre 31 (9d6) dégâts de feu."
+}

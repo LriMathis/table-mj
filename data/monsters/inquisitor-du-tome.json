@@ -1,0 +1,42 @@
+{
+ "id": "inquisitor-du-tome",
+ "name": "Inquisitor of the Tome",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 88,
+ "hpFormula": "16d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 13",
+ "languages": "Commun plus deux autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'inquisiteur fait trois attaques force Blade. Il peut remplacer une attaque par une utilisation de Spellcasting pour lancer Sphère résiliente d'Otiluke ou Télékinésie si disponible.\n**Lame force.** Jet d'attaque au corps à corps ou à distance : +7, allonge 1,50 m ou portée 36 m. Touché : 22 (4d8 + 4) dégâts de force. Si la cible est une créature grande ou plus petite, elle est poussée jusqu'à 3 m tout de suite de l'inquisiteur.\n**Détection orthographique.** L'inquisiteur lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection de la magie, Dissipation de la magie, Armure de mage (inclus dans CA), Main de mage (la main est invisible), Communication à distance\n- 1/jour chacun : Sphère résiliente d'Otiluke, Télékinésie",
+ "attacks": [
+  {
+   "name": "Lame force",
+   "bonus": 7,
+   "damage": "4d8+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/aa2db08a8d_monstre-inquisitor-du-tome.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Inquisitor du tome",
+ "saves": "INT +7, SAG +6, CHA +5",
+ "skills": "Arcanes +10, Histoire +7, Nature +7, Religion +10",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Imploser (Recharge 4-6).** Jet de sauvegarde de Dextérité : DD 15, chaque créature dans un 6 m -radius Sphere centré sur un point que l'inquisiteur peut voir dans 36 m. Échec : 27 (6d8) dégâts de force, et la cible a l'état à terre et est tiré jusqu'à 6 m directement vers le centre de la Sphère. Réussite : Demi-dégâts seulement."
+}

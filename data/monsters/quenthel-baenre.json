@@ -1,0 +1,46 @@
+{
+ "id": "quenthel-baenre",
+ "name": "Quenthel Baenre",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 19,
+ "hp": 132,
+ "hpFormula": "24d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 18,
+  "SAG": 20,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Quenthel a un avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas mettre Quenthel à dormir.\n**Sensibilité à la lumière du soleil.** En plein soleil, Quenthel a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Matériel spécial.** Quenthel possède un Sceptre tentacule.\n**Découpe intérieure.** Le caractéristique d'incantation de Quenthel est Charisme (Spell save DD 19). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques, Lévitation (autoseulement)\n**Détection orthographique.** Quenthel est un spellcaster de niveau 20. Son caractéristique d'incantation est Sagesse (enregistrer DD 20, +12 au toucher avec attaques de sort). Quenthel peut lancer n'importe quel niveau=0;1;2;3;4;5;6;7;8;9 à volonté.\n- À volonté : Aide, Animé mort, champ antimagique, projection astrale, augure, aura de la vie, aura de pureté, aura de vitalité, Malédiction, l'expulsion, phare de l'espoir, Maudite grâce, barrière de pales, bénir, cécité/surdité, émotions calmes, cérémonie, La clairvoyance, commande, commune, conjure céleste, contagion, flamme continue, de l'eau témoin, maîtrise de la météo, créer des aliments et de l'eau, créer ou détruire de l'eau, créer un décès, guérir les blessures, à l'aube, jour, quartier de la mort, détecter le mal et le bien, détecter la magie, détecter le poison et maladie, dissiper le mal et le bien, dissiper la magie, divination, Parole divine, tremblement de terre, renforcer les capacités, éthéré, mort fictive, trouver le chemin, trouver des pièges, tempête de feu, Frappe de flamme, interdiction, liberté de circulation, portail, geas, repos doux, glyphe de la guidance, une meilleure restauration, gardien de la foi, des directives, boulon de guidage, Seigneur., Dégâts, guérir, mot de guérison, festin des héros, personne en attente, sainte aura, arme sainte, infliger des blessures, peste insecte, légende lore, restauration moindre, transfert de vie, Lumière, localiser la créature, localiser l'objet, cercle magique, plaies de cure de masse, la masse guérit, mot de guérison de masse, fusion dans la pierre, les réparations, L'allié planaire, caractère contraignant des plans, changement de plan, mot de puissance guérir, prière de guérison, Protection contre l'énergie, la protection contre le mal et le bien, Protection contre le poison, purifier les aliments et les boissons, ressusciter les morts, régénérer, enlever la malédiction, résistance, résurrection, Revivifier, flamme sacrée, sanctuaire, les brouillages, envoi, bouclier de la foi, silence, épargner les mourants, parler avec des morts, les gardiens spirituels, lustre d'esprit, arme spirituelle, forme de pierre, Appel céleste, faisceaux de soleil, bouffées de soleil, symbole, temple des dieux, thaumaturgie, les morts, langues, vraie résurrection, vrai voir, lien de garde, marche de l'eau, Mot d'éclat, Mot de rappel, zone de vérité",
+ "actionsText": "**Multiattaques.** Quenthel fait trois attaques de tiges de tentacules.\n**Scorurge.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants plus 17 (5d6) dégâts de poison.\n**Invoquer le démon (1/jour).** Quenthel tente d'invoquer par magie un Yochlol avec une chance de succès 30 %. Si la tentative échoue, Quenthel prend 5 (1d10) dégâts psychiques. Sinon, le démon convoqué apparaît dans un espace inoccupé au sein de 18 m de son assignation, agit comme un allié de son assignation, et ne peut pas convoquer d'autres démons. Il reste 10 minutes, jusqu'à ce qu'il ou son convocateur décède, ou jusqu'à ce que son convocateur le rejette comme une action.\n**Tige de traction.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants. Si elle frappe une cible avec les trois tentacules, elle doit faire un DD 15 jet de sauvegarde de Constitution. En cas d'échec, la vitesse de la créature est réduite de moitié, elle a un désavantage sur jet de sauvegarde de Dextérité, et elle ne peut pas utiliser les réactions pendant 1 minute. De plus, à chacun de ses tours, il peut prendre une action ou une action bonus, mais pas les deux. A la fin de chacun de ses tours, il peut répéter le jet de sauvegarde, mettant fin à l'effet sur lui-même sur un succès.\n**Activation du Trône.** En étant assise sur son trône, Quenthel peut utiliser une action sur son tour pour lancer Désintégration (save DD 19). Une cible qui échoue son jet de sauvegarde prend 10d6 + 40 dégâts de force. Si ce dégâts réduit la cible à 0 points de vie, il est désintégré.",
+ "attacks": [
+  {
+   "name": "Scorurge",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Tige de traction",
+   "bonus": 9,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0d7e7c2d8a_monstre-quenthel-baenre.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "+3 courrier à échelle",
+ "saves": "CON +8, SAG +12, CHA +11",
+ "skills": "Perspicacité +12, Perception +12, Religion +11, Discrétion +9"
+}

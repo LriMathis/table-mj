@@ -1,0 +1,47 @@
+{
+ "id": "giff-warlord",
+ "name": "Giff Warlord",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 178,
+ "hpFormula": "21d8+84",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "**Connaissance des armes à feu.** La maîtrise de ses armes par le Giff lui permet d'ignorer les biens de chargement de toute arme à feu.\n**Résistance légendaire (2/jour).** Si le giff échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le Giff fait deux attaques de Morningstar.\n**Matinée.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts perforants.\n**Mousquet double barrelé.** Attaque d'arme à distance : +6 au toucher, portée 12/36 m., une cible. Touché : 28 (4d12 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 10,
+   "damage": "2d8+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Mousquet double barrelé",
+   "bonus": 6,
+   "damage": "4d12+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/650205002f_monstre-giff-warlord.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "demi-plaque",
+ "saves": "FOR +10, DEX +6, CON +8, SAG +6",
+ "skills": "Athlétisme +10, Perspicacité +6, Intimidation +12",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, giff warlord peut entreprendre l'une des actions ci-après.\n**Bouge.** Le giff se déplace à sa vitesse sans provoquer des attaques d'opportunité.\n**Cry de rallye.** Le giff termine l'état effrayé sur lui-même et chaque créature de son choix qu'il peut voir dans 9 m de lui.\n**Arme de choix (2 actions).** Le giff fait deux attaques Morningstar ou un coup de mousquet double-barré."
+}

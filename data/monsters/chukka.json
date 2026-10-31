@@ -1,0 +1,38 @@
+{
+ "id": "chukka",
+ "name": "Chukka",
+ "type": "Humanoïde (kenku)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "comprend Auran et Common mais ne parle que par l'utilisation de son caractère mimétiques",
+ "traits": "**Ambusher.** Dans le premier tour d'un combat, Chukka a avantage sur jets d'attaque contre toute créature il surpris.\n**Mimétisme.** Chukka peut imiter les sons qu'elle a entendus, y compris les voix. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 14 test de Sagesse (Perspicacité).",
+ "actionsText": "**Pike argentée.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d10) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Pike argentée",
+   "bonus": 2,
+   "damage": "1d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/39b41091de_monstre-chukka.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "skills": "Tromperie +4, Perception +2, Discrétion +5"
+}

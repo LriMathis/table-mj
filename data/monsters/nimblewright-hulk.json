@@ -1,0 +1,47 @@
+{
+ "id": "nimblewright-hulk",
+ "name": "Nimblewright Hulk",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 18,
+ "hp": 104,
+ "hpFormula": "11d10+44",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 18,
+  "CON": 19,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "comprend Common plus une autre langue mais ne peut pas parler",
+ "traits": "**Évasion.** Si le nimblewright est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le save et seulement la moitié des dégâts s'il échoue, à condition qu'il n'ait pas l'état neutralisé.\n**Résistance magique.** Le nimblewright a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le nimblewright fait quatre attaques, en utilisant Halting Slam ou radiant Ray dans n'importe quelle combinaison.\n**Halte au clam.** Jet d'attaque au corps à corps : +7, allonge 3 m. Touché : 15 (2d10 + 4) dégâts contondants, et la vitesse de la cible est réduite à 0 jusqu'à la fin de son prochain tour.\n**Rayon radiant.** Jet d'attaque à distance : +7, portée 18 m. Touché : 14 (4d6) dégâts radiants.",
+ "attacks": [
+  {
+   "name": "Halte au clam",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Rayon radiant",
+   "bonus": 7,
+   "damage": "4d6",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/0bf35d21cf_monstre-nimblewright-hulk.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "saves": "FOR +7, DEX +7",
+ "skills": "Acrobaties +7, Perception +7",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, paralysé, pétrifié, empoisonné"
+}

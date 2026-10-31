@@ -1,0 +1,53 @@
+{
+ "id": "plasmoid-guerrier",
+ "name": "Plasmoid Warrior",
+ "type": "Vase",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun",
+ "traits": "**Amorphe.** Le plasmoïde peut se presser dans un espace aussi étroit que 1 pouce de large, à condition qu'il ne porte rien. Il a un avantage sur tests de caractéristique il fait d'initier ou d'échapper à un grappin.\n**Maintenez votre souffle.** Le plasmoïde peut retenir son souffle pendant 1 heure.",
+ "actionsText": "**Multiattaques.** Le plasmoïde fait trois attaques de Pseudopod. Il peut remplacer une de ces attaques par une attaque de lance ou de pistol.\n**Pseudopod.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants, ou 7 (1d8 + 3) dégâts perforants lorsqu'il est utilisé avec deux mains pour faire une attaque de mêlée.\n**Pistol.** Attaque d'arme à distance : +4 au toucher, portée 9/27 m., une cible. Touché : 7 (1d10 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Pistol",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/73c14643ec_monstre-plasmoid-guerrier.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Plasmoid guerrier",
+ "caNote": "armure naturelle, Bouclier",
+ "skills": "Athlétisme +5, Discrétion +4",
+ "resistances": "acide, poison"
+}

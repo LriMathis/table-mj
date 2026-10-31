@@ -1,0 +1,41 @@
+{
+ "id": "maschin-i-bozorg",
+ "name": "Maschin-i-Bozorg",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 94,
+ "hpFormula": "9d10+45",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 20,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "comprend le gnomish mais ne peut pas parler",
+ "traits": "**Surchauffe.** Lorsque le maschin-i-bozorg est réduit à 0 points de vie, sa source d'énergie surcharge, superchauffant brièvement sa coque extérieure. Chaque créature dans 3 m du maschin-i-bozorg doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 7 (2d6) dégâts de feu sur un sauvegarde raté ou la moitié de ces dégâts sur un succès.",
+ "actionsText": "**Multiattaques.** Le maschin-i-bozorg fait deux attaques Jab poison.\n**poison Jab.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 13 (4d4 + 3) dégâts perforants, et la cible doit réussir sur un DD 16 jet de sauvegarde de Constitution ou avoir l'état empoisonné pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Jet à vapeur (Recharge 5-6).** Le maschin-i-bozorg émet de la vapeur d'échaudage dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 28 (8d6) dégâts de feu sur un sauvegarde raté ou la moitié de ces dégâts sur un succès.",
+ "attacks": [
+  {
+   "name": "poison Jab",
+   "bonus": 6,
+   "damage": "4d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ba1ca27ade_monstre-maschin-i-bozorg.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, assourdi, épuisement, effrayé, paralysé, empoisonné, inconscient",
+ "bonusActions": "**Écharpe de crushing.** Le maschin-i-bozorg se déplace à sa vitesse en ligne droite. Pendant ce mouvement, il peut pénétrer dans les espaces des créatures moyennes et plus petites. Une créature dont l'espace entre le maschin-i-bozorg doit faire un DD 15 jet de sauvegarde de Dextérité. Sur un salut réussi, la créature est poussée dans l'espace inoccupé le plus proche hors du chemin du maschin-i-bozorg. Sur une sauvegarde ratée, la créature prend 10 (3d6) dégâts contondants et a l'état à terre.\nSi le maschin-i-bozorg reste dans l'espace de la créature à terre, la créature a également l'état entravé jusqu'à ce qu'il ne soit plus dans le même espace que le maschin-i-bozorg. Alors qu'entravé de cette façon, la créature, ou une autre créature dans 1,50 m de lui, peut utiliser son action pour faire un DD 15 test de Force (Athlétisme). Sur un contrôle réussi, la créature est détournée vers un espace inoccupé de son choix au sein de 1,50 m du maschin-i-bozorg."
+}

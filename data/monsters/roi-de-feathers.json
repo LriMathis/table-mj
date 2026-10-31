@@ -1,0 +1,46 @@
+{
+ "id": "roi-de-feathers",
+ "name": "King of Feathers",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 13,
+ "hp": 200,
+ "hpFormula": "19d12+52",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 19,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Perception passive 14",
+ "languages": "—",
+ "traits": "**Détecter l'invisibilité.** Le Roi des plumes peut voir des créatures et des objets invisible comme s'ils étaient visibles.\n**Résistance légendaire (3/jour).** Si le roi des plumes échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Découpe intérieure.** Le roi des plumes caractéristique d'incantation inné est Sagesse. Il peut innéalement lancer le sort suivant, ne nécessitant aucun composant matériel:\n- À volonté : Foulée brumeuse",
+ "actionsText": "**Multiattaques.** Le roi des plumes fait deux attaques : l'une avec sa morsure et l'autre avec sa queue. Il ne peut pas faire les deux attaques contre la même cible.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 33 (4d12 + 7) dégâts perforants. Si la cible est une créature moyenne ou plus petite, c'est agrippé (évasion DD 17). Jusqu'à ce que ce grappin se termine, la cible est entravé, et le tyrannosaurus ne peut pas mordre une autre cible.\n**Queue.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 20 (3d8 + 7) dégâts contondants.\n**Invoquer le swarm (Recharge 5-6).** Le roi des plumes exhale un essaim d'insectes (wasps) qui se forme dans un espace à l'intérieur de 6 m de lui. L'essaim agit comme un allié du roi des plumes et prend son tour immédiatement après lui. L'essaim se disperse après 1 minute. Il ne peut pas utiliser l'action du Swarm d'Invocation alors qu'il est en train de lutter contre une créature avec ses mâchoires.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "4d12+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 10,
+   "damage": "3d8+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4b7225d779_monstre-roi-de-feathers.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Roi de Feathers",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4"
+}

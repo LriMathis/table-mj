@@ -1,0 +1,40 @@
+{
+ "id": "awakened-zurkhwood",
+ "name": "Awakened Zurkhwood",
+ "type": "Plante",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 59,
+ "hpFormula": "7d12+14",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 6,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "une langue connue de son créateur",
+ "traits": "**Fausse apparence.** Bien que l'arbre reste immobile, il est indistinguable d'un champignon de zurkhwood normal.\n**Mignon.** Si le zurkhwood éveillé a été créé par un souverain myconide, il ne peut pas parler.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 14 (3d6 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 6,
+   "damage": "3d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5ffb397750_monstre-awakened-zurkhwood.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant"
+}

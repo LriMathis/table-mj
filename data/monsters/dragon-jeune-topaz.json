@@ -1,0 +1,48 @@
+{
+ "id": "dragon-jeune-topaz",
+ "name": "Young Topaz Dragon",
+ "type": "Dragon (gemme)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 127,
+ "hpFormula": "17d10+34",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 18",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Amphibie.** Le dragon peut respirer à la fois l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 14 (2d10 + 3) dégâts perforants plus 3 (1d6) dégâts nécrotiques.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Respiration dessicante (Recharge 5-6).** Le dragon exhale l'énergie nécrotique jaunâtre dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 13 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la créature prend 28 (8d6) dégâts nécrotiques et est affaiblie jusqu'à la fin de son prochain tour. Une créature affaiblie a un désavantage sur Force -basé tests de caractéristique et jet de sauvegarde de Force, et les attaques d'armes de la créature qui dépendent de Force infligent la moitié des dégâts. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas affaiblie.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- 1/jour chacun : Fléau, Création ou destruction d'eau",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d10+3",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/31406b9d0c_monstre-dragon-jeune-topaz.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon jeune Topaz",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +5, SAG +5, CHA +6",
+ "skills": "Intimidation +9, Perception +8, Discrétion +4",
+ "resistances": "froid, nécrotique"
+}

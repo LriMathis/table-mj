@@ -1,0 +1,38 @@
+{
+ "id": "mite",
+ "name": "Mite",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "9 m, creusement 3 m, escalade 9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "sylvestre, commun des profondeurs",
+ "traits": "**Présence en mouvement.** Tandis que dans 9 m d'un acarien qui peut le voir, une créature non-fey a un désavantage sur tests de Dextérité et jet de sauvegarde de Dextérité.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Hex sanguin (Recharge 6).** L'acarien place un hexagone sur une créature qu'il peut voir à l'intérieur de 18 m pendant 1 minute. Si l'acarpe est cachée, l'utilisation de cette capacité ne révèle pas son emplacement. Alors que la créature est affectée par cet hexagone, chaque fois qu'elle fait un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, elle doit rouler un d6 et soustraire le nombre roulé du rouleau d20. À tout moment où il subit l'effet de l'hexagone, la cible peut attaquer un allié comme une réaction, ignorant l'effet de l'hexagone quand elle le fait. Il peut alors ignorer l'effet de l'hexagone jusqu'à la fin de son tour.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f439f30909_monstre-mite.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "skills": "Tromperie +3, Discrétion +6"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "espace-hamster",
+ "name": "Space Hamster",
+ "type": "Monstruosité",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 10,
+ "hpFormula": "4d4",
+ "vitesse": "6 m, creusement 1,50 m",
+ "stats": {
+  "FOR": 1,
+  "DEX": 20,
+  "CON": 10,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 13",
+ "languages": "télépathie 1,50 m",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants.\n**Allez pour les yeux (Recharge 6).** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 8 (1d6 + 5) dégâts perforants, et la cible doit réussir sur un DD 15 jet de sauvegarde de Dextérité ou être aveuglé jusqu'au début du prochain tour du hamster.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "Allez pour les yeux (Recharge 6)",
+   "bonus": 7,
+   "damage": "1d6+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/31c3b923e8_monstre-espace-hamster.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Espace Hamster",
+ "skills": "Perception +3, Discrétion +7",
+ "bonusActions": "**Évasion.** Le hamster prend l'action Foncer ou Se désengager."
+}

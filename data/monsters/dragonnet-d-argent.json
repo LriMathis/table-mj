@@ -1,0 +1,40 @@
+{
+ "id": "dragonnet-d-argent",
+ "name": "Dragonnet d'argent",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 17,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "saves": "DEX +2, SAG +2",
+ "skills": "Discrétion +2, Perception +4",
+ "immunities": "froid",
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "draconique",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le dragon effectue deux attaques de Saignée.\n**Saignée.** Corps à corps : +6, allonge 1,50 m. Touché : 9 (1d10 + 4) dégâts perforants.\n**Souffle glacial (recharge 5–6).** JS Constitution : DD 13, chaque créature dans un Cône de 4,50 m. Échec : 18 (4d8) dégâts de froid. Réussite : demi-dégâts.\n**Souffle paralysant.** JS Constitution : DD 13, chaque créature dans un Cône de 4,50 m. Premier échec : la cible subit l’état Neutralisé jusqu’à la fin de son tour suivant, et réitère alors son JS. Deuxième échec : la cible subit l’état Paralysé et réitère le JS à la fin de chacun de ses tours ; elle met un terme à l’effet sur elle-même en cas de réussite. Au bout de 1 minute, elle réussit automatiquement ce JS.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 6,
+   "damage": "1d10+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/19493d5659_monstre-dragonnet-d-argent.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 102"
+}

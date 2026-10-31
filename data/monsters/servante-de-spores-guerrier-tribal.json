@@ -1,0 +1,40 @@
+{
+ "id": "servante-de-spores-guerrier-tribal",
+ "name": "Tribal Warrior Spore Servant",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 2,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Lancer.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d6 + 1) dégâts perforants, ou 5 (1d8 + 1) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b11d6e539e_monstre-servante-de-spores-guerrier-tribal.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Servante de spores guerrier tribal",
+ "caNote": "Cache l'armure",
+ "conditionImmunities": "aveuglé, charmé, effrayé, paralysé"
+}

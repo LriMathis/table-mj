@@ -1,0 +1,48 @@
+{
+ "id": "empyreen",
+ "name": "Empyréen",
+ "type": "Céleste",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique bon (75 %) ou neutre mauvais (25 %)",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 22,
+ "caNote": "armure naturelle",
+ "hp": 313,
+ "hpFormula": "19d12+190",
+ "vitesse": "15 m, nage 15 m, vol 15 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 21,
+  "CON": 30,
+  "INT": 21,
+  "SAG": 22,
+  "CHA": 27
+ },
+ "saves": "FOR +17, INT +12, SAG +13, CHA +15",
+ "skills": "Perspicacité +13, Persuasion +15",
+ "immunities": "contondants, perforants et tranchants infligés par des attaques non magiques",
+ "senses": "vision parfaite 36 m, Perception passive 16",
+ "languages": "toutes",
+ "traits": "**Armes magiques.** Les attaques d'arme de l'empyréen sont magiques.\n**Incantation innée.** La caractéristique d'incantation de l'empyréen est le Charisme (DD du jet de sauvegarde contre les sorts 23, +15 pour toucher avec les attaques de sorts). L'empyréen peut lancer les sorts suivants sans composantes matérielles :\n- À volonté : *marche sur l'eau, passage sans trace, respiration aquatique, restauration supérieure*\n- 1/jour chacun : *changement de plan (soi-même uniquement), communion, dissipation du mal et du bien, tempête de feu, tremblement de terre*\n**Résistance à la magie.** L'empyréen est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.\n**Résistance légendaire (3/jour).** L'empyréen peut remplacer l'échec d'un de ses jets de sauvegarde par une réussite.",
+ "actionsText": "**Maillet d'armes.** *Attaque d'arme au corps à corps :* +17 pour toucher, allonge 3 m, une cible. *Touché :* 31 (6d6+10) dégâts contondants. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Constitution DD 15 pour ne pas être étourdie jusqu'à la fin du prochain tour de l'empyréen.\n**Projectile.** *Attaque de sort à distance :* +15 pour toucher, portée 180 m, une cible. *Touché :* 24 (7d6) dégâts d'un des types suivants (au choix de l'empyréen) : acide, feu, force, foudre, froid, radiant ou tonnerre.",
+ "legendary": "L'empyréen peut effectuer 3 actions légendaires qu'il choisit parmi celles décrites ici. Il ne peut en effectuer qu'une seule à la fois et uniquement à la fin du tour d'une autre créature. L'empyréen récupère au début de son tour l'utilisation des actions légendaires déjà effectuées.\n**Attaque.** L'empyréen effectue une attaque.\n**Frappe sismique (coûte 2 actions).** L'empyréen frappe le sol de son maillet d'armes, ce qui déclenche une secousse sismique. Toutes les créatures sur le sol à 18 mètres ou moins de l'empyréen doivent réussir un jet de sauvegarde de Force DD 25 pour ne pas être jetées à terre.\n**Soutien.** L'empyréen apporte son soutien à toutes les créatures non hostiles situées à 36 mètres ou moins de lui jusqu'à la fin de son prochain tour. Les créatures soutenues ne peuvent pas être charmées ni terrorisées et elles sont avantagées lors des tests de caractéristique et des jets de sauvegarde jusqu'à la fin du prochain tour de l'empyréen.",
+ "portrait": "/data/images/0094022fc1_monstre-empyreen.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 127 · image : Manuel des monstres p. 126",
+ "attacks": [
+  {
+   "name": "Maillet d'armes",
+   "bonus": 17,
+   "damage": "6d6+10",
+   "type": "contondant"
+  },
+  {
+   "name": "Projectile",
+   "bonus": 15,
+   "damage": "7d6",
+   "type": ""
+  }
+ ]
+}

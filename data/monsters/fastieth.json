@@ -1,0 +1,37 @@
+{
+ "id": "fastieth",
+ "name": "Fastieth",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 14,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 10,
+  "INT": 4,
+  "SAG": 11,
+  "CHA": 4
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Rapidité (Recharge 5-6).** Le fastieth peut prendre l'action Esquiver comme un action bonus.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d4c7b20aea_monstre-fastieth.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)"
+}

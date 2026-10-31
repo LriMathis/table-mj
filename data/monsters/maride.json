@@ -1,0 +1,40 @@
+{
+ "id": "maride",
+ "name": "Maride",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "caNote": "armure naturelle",
+ "hp": 229,
+ "hpFormula": "17d10+136",
+ "vitesse": "9 m, nage 27 m, vol 18 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 12,
+  "CON": 26,
+  "INT": 18,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "saves": "DEX +5, SAG +7, CHA +8",
+ "resistances": "acide, foudre, froid",
+ "senses": "vision aveugle 9 m, vision dans le noir 36 m, Perception passive 13",
+ "languages": "aquatique",
+ "traits": "**Amphibie.** Le maride peut respirer à l'air libre et sous l'eau.\n**Incantation innée.** La caractéristique d'incantation du maride est le Charisme (DD du jet de sauvegarde contre les sorts 16, +8 pour toucher avec les attaques de sort). Le maride peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *création ou destruction d'eau, détection de la magie, détection du mal et du bien, nappe de brouillard, purification de la nourriture et de l'eau*\n- 3/jour chacun : *langues, marche sur l'eau, respiration aquatique*\n- 1/jour chacun : *changement de plan, contrôle de l'eau, forme gazeuse, invisibilité, invoquer un élémentaire* (élémentaire de l'eau seulement)\n**Trépas élémentaire.** Quand le maride meurt, son corps se dissout en une gerbe d'eau et d'écume en ne laissant derrière lui que les objets qu'il portait ou transportait.",
+ "actionsText": "**Attaques multiples.** Le maride effectue deux attaques de trident.\n**Trident.** *Attaque d'arme au corps à corps ou à distance :* +10 pour toucher, allonge 1,50 m ou portée 6/18 m, une cible. *Touché :* 13 (2d6+6) dégâts perforants, ou 15 (2d8+6) dégâts perforants s'il est manié à deux mains pour effectuer une attaque au corps à corps.\n**Jet d'eau.** Le maride projette par magie de l'eau sur une ligne de 18 mètres de long et 1,50 mètre de large. Les créatures sur cette ligne doivent effectuer un jet de sauvegarde de Dextérité DD 16. En cas d'échec, une cible subit 21 (6d6) dégâts contondants et, si elle est de Très Grande taille ou plus petite, elle est repoussée sur une distance maximale de 6 mètres et jetée à terre. En cas de réussite, la cible subit la moitié des dégâts contondants seulement et elle n'est ni repoussée ni jetée à terre.",
+ "portrait": "/data/images/9af2986b48_monstre-maride.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 148 · image : Manuel des monstres p. 147",
+ "attacks": [
+  {
+   "name": "Trident",
+   "bonus": 10,
+   "damage": "2d6+6",
+   "type": "perforant"
+  }
+ ]
+}

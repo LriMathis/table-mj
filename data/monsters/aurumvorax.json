@@ -1,0 +1,47 @@
+{
+ "id": "aurumvorax",
+ "name": "Aurumvorax",
+ "type": "Monstruosité",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 36,
+ "hpFormula": "8d6+8",
+ "vitesse": "9 m, creusement 6 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Tunneler.** L'aurumvorax peut pénétrer dans la roche solide et le métal à la moitié de sa vitesse de creusement et laisse un tunnel 1,50 m-diamètre dans son sillage.",
+ "actionsText": "**Multiattaques.** L'aurumvorax fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants. Si la cible est une créature portant une armure de tout type, l'aurumvorax retrouve 4 (1d6 + 1) points de vie.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants. Si la cible est une créature moyenne ou plus petite, c'est agrippé (évasion DD 12). Jusqu'à ce que ce grappin se termine, l'aurumvorax ne peut pas utiliser son attaque de la griffe sur une autre cible, et quand il bouge, il peut traîner la créature agrippé avec elle, sans que la vitesse de l'aurumvorax soit réduite de moitié.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/21d68488aa_monstre-aurumvorax.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +4, CON +3",
+ "skills": "Perception +3, Discrétion +3",
+ "conditionImmunities": "pétrifié"
+}

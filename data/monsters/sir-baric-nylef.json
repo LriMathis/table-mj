@@ -1,0 +1,45 @@
+{
+ "id": "sir-baric-nylef",
+ "name": "Sir Baric Nylef",
+ "type": "Humanoïde (Illuskan humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 18,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 15,
+  "CHA": 15
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "**Brave.** Baric a un avantage sur jet de sauvegarde contre effrayé.\n**Information sur le jeu de rôles.** En tant que chevalier de l'Ordre du Gauntlet, sir Baric a prêté serment d'attraper les malfaiteurs et de les traduire en justice. Sa carrière actuelle est un brigand nain, Worvil \"le Weevil\" Forkbeard, qui est censé se cacher dans Icewind Dale. En plus de son équipement, Sir Baric a un cheval de guerre non armé, Henry.\nIdéal: \"Il ne faut pas laisser le mal prospérer dans ce monde.\"\nObligation : Tyr est mon seigneur, l'ordre, ma famille. Par mes actions, je rendrai hommage aux deux. »\nFaux : \"Je n'ai pas peur de mourir. Quand Tyr m'appellera enfin, je le retrouverai heureux. »",
+ "actionsText": "**Maul.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.\n**Grosse arbalète.** Attaque d'arme à distance : +2 au toucher, portée 30/120 m., une cible. Touché : 5 (1d10) dégâts perforants. Baric porte vingt boulons arbalètes.",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 2,
+   "damage": "1d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/efc061dad4_monstre-sir-baric-nylef.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "skills": "Perspicacité +4, Investigation +2, Médecine +4, Survie +4"
+}

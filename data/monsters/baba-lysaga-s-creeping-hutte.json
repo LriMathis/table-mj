@@ -1,0 +1,48 @@
+{
+ "id": "baba-lysaga-s-creeping-hutte",
+ "name": "Baba Lysaga's Creeping Hut",
+ "type": "Créature artificielle",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 16,
+ "hp": 263,
+ "hpFormula": "17d20+85",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 7,
+  "CON": 20,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 36 m (aveugle au-delà de ce rayon), Perception passive 6",
+ "languages": "—",
+ "traits": "**Nature construite.** Un objet animé ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.\nLa magie qui anime un objet est dissipée lorsque la construction tombe à 0 points de vie. Un objet d'animation réduit à 0 points de vie devient inanimé et est trop endommagé pour être d'une grande utilité ou d'une grande valeur pour quiconque.\n**Susceptibilité antimagique.** La cabane est neutralisé tandis que le joyau magique qui l'anime est dans la zone d'un Champ antimagie. Si elle est ciblée par Dissipation de la magie, la cabane doit réussir sur une jet de sauvegarde de Constitution contre la DD de sauvegarde des sorts du lanceur ou l'inconscient de chute pendant 1 minute.\n**Monstre de siège.** La cabane cause deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** La cabane fait trois attaques avec ses racines. Il peut remplacer une de ces attaques par une attaque de roche.\n**Racine.** Attaque d'arme au corps à corps : +12 au toucher, allonge 18 m, une cible. Touché : 30 (4d10 + 8) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +12 au toucher, portée 36 m, une cible. Touché : 21 (3d8 + 8) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Racine",
+   "bonus": 12,
+   "damage": "4d10+8",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 12,
+   "damage": "3d8+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/cb77a5c7d2_monstre-baba-lysaga-s-creeping-hutte.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Baba Lysaga's Creeping hutte",
+ "caNote": "armure naturelle",
+ "saves": "CON +9, SAG +0, CHA +0",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, à terre"
+}

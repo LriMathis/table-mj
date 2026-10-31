@@ -1,0 +1,47 @@
+{
+ "id": "jarl-grugnur",
+ "name": "Jarl Grugnur",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Grugnur fait deux longues attaques.\n**Mot long +2.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 23 (3d8 + 10) dégâts tranchants, ou 26 (3d10 + 10) dégâts tranchants si utilisé avec les deux mains.\n**Roche.** Attaque d'arme à distance : +12 au toucher, portée 18/72 m., une cible. Touché : 30 (4d10 + 8) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Mot long +2",
+   "bonus": 14,
+   "damage": "3d8+10",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 12,
+   "damage": "4d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e14849900c_monstre-jarl-grugnur.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne, Bouclier antiprojectiles",
+ "saves": "CON +10, SAG +7, CHA +7",
+ "skills": "Perspicacité +7, Perception +7",
+ "immunities": "froid"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "elementaire-de-la-terre-myrmidon",
+ "name": "Earth Elemental Myrmidon",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 18,
+ "hp": 127,
+ "hpFormula": "17d8+51",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "terreux, une langue du choix de son créateur",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le myrmidon fait deux attaques de Maul.\n**Maul.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts de force.\n**Strike Thunderous (Recharge 6).** Le myrmidon fait une attaque de Maul. Sur un coup, la cible prend un 22 (4d10) dégâts de tonnerre supplémentaire, et la cible doit réussir sur un DD 14 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/a2c19f6441_monstre-elementaire-de-la-terre-myrmidon.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Élémentaire de la terre Myrmidon",
+ "caNote": "plaque",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "paralysé, pétrifié, empoisonné, à terre"
+}

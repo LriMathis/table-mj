@@ -1,0 +1,49 @@
+{
+ "id": "arkhan-le-cruel",
+ "name": "Arkhan the Cruel",
+ "type": "Humanoïde (drakéide)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 23,
+ "hp": 221,
+ "hpFormula": "26d8+104",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m (can see invisible creatures out to the same range), Perception passive 10",
+ "languages": "commun, draconique",
+ "traits": "**Aura de la haine.** Alors qu'Arkhan n'est pas neutralisé, lui et tous les fous et morts-vivants au sein de 9 m de lui infligent 4 dégâts supplémentaires chaque fois qu'ils frappent avec une attaque d'arme à la mêlée (déjà pris en compte dans les attaques d'Arkhan). Ce dégâts supplémentaire est du même type que le type de dégâts de l'arme.\n**Main de Vecna.** Le Main de Vecna a 8 charges et récupère 1d4 + 4 charges dépensées chaque jour à l'aube. Arkhan peut lancer les sorts suivants de la main en dépensant le nombre spécifié de charges (spell save DD 18) : Doigt de mort (5 frais), Sommeil (1 frais), Lenteur (2 frais) et Téléportation (3 frais).\n**Matériel spécial.** Arkhan manie Fane - Eater et porte une combinaison d'Obsidian Flint plaque de dragon. L'armure donne l'avantage Arkhan sur tests de caractéristique et jet de sauvegarde fait pour éviter ou terminer l'état agrippé sur lui.\n**Découpe intérieure.** Le caractéristique d'incantation d'Arkhan est Charisme (Spell save DD 17). Il peut lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Quête, Rappel à la vie\n- 3/jour chacun : Animation des morts, Châtiment révélateur (à de niveau 4), Retour à la vie",
+ "actionsText": "**Multiattaques.** Arkhan fait trois attaques d'armes.\n**Fente-Eater (bataille).** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 16 (1d8 + 12) dégâts tranchants, ou 17 (1d10 + 12) dégâts tranchants lorsqu'il est utilisé avec deux mains, plus 9 (2d8) dégâts de froid. Si la cible est une créature et Arkhan roule un 20 sur la jet d'attaque, la créature prend un 9 (2d8) dégâts nécrotiques supplémentaire, et Arkhan récupère une quantité de points de vie égale à la dégâts nécrotiques distribuée.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +10 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 8 (1d6 + 5) dégâts perforants, plus 4 dégâts perforants et 9 (2d8) dégâts de froid si le javelot a été utilisé pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Fente-Eater (bataille)",
+   "bonus": 13,
+   "damage": "1d8+12",
+   "type": "tranchant + froid + nécrotique"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 10,
+   "damage": "1d6+5",
+   "type": "perforant + froid"
+  }
+ ],
+ "portrait": "/data/images/cdf72aff34_monstre-arkhan-le-cruel.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Arkhan le cruel",
+ "caNote": "Obsidian Flint plaque de dragon, Bouclier",
+ "saves": "SAG +5, CHA +9",
+ "skills": "Athlétisme +10, Tromperie +9, Intimidation +9",
+ "resistances": "feu, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "effrayé"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "commandant-de-bord-astral-elfe",
+ "name": "Astral Elf Commander",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 143,
+ "hpFormula": "26d8+26",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 13,
+  "INT": 18,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "céleste, commun, elfique",
+ "traits": "**Ancêtre fécale.** L'elfe a l'avantage sur jet de sauvegarde il fait d'éviter ou de terminer l'état charmé sur lui-même, et la magie ne peut pas le mettre au sommeil.\n**Nature inhabituelle.** L'elfe n'a pas besoin de dormir.",
+ "actionsText": "**Multiattaques.** L'elfe fait deux attaques Longsword ou Longbow.\n**Mot long.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants, ou 6 (1d10 + 1) dégâts tranchants lorsqu'il est utilisé avec deux mains, plus 14 (4d6) dégâts radiants.\n**Longbow.** Attaque d'arme à distance : +5 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants plus 14 (4d6) dégâts radiants.\n**Détection orthographique.** L'elfe lance le sort suivant, en utilisant Sagesse comme caractéristique d'incantation :\n- 2/jour : Téléportation",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 4,
+   "damage": "1d8+1",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 5,
+   "damage": "1d8+2",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/1fecd194af_monstre-commandant-de-bord-astral-elfe.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Commandant de bord Astral elfe",
+ "caNote": "demi-plaque",
+ "saves": "DEX +5, CON +4, SAG +7, CHA +7",
+ "skills": "Tromperie +7, Histoire +7, Intimidation +7, Survie +7"
+}

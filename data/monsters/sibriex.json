@@ -1,0 +1,44 @@
+{
+ "id": "sibriex",
+ "name": "Sibriex",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 19,
+ "hp": 150,
+ "hpFormula": "12d12+72",
+ "vitesse": "0 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 3,
+  "CON": 23,
+  "INT": 25,
+  "SAG": 24,
+  "CHA": 25
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 23",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Contamination.** Le sibriex émet une aura de corruption 9 m dans toutes les directions. La végétation se flétrit dans l'aura, et le sol dans l'aura est 3 pour d'autres créatures. Toute créature qui commence son tour dans l'aura doit réussir sur un DD 20 jet de sauvegarde de Constitution ou prendre 14 (4d6) dégâts de poison. Une créature qui réussit au secours est immunisée contre la Contamination de ce sibriex pendant 24 heures.\n**Résistance légendaire (3/jour).** Si le sibriex échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le sibriex a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le sibriex fait trois attaques en chaîne, et il utilise Squirt Bile.\n**Chaîne.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 20 (2d12 + 7) dégâts de force.\n**Bile d'écume.** Le sibriex cible une créature qu'il peut voir à l'intérieur de 36 m. La cible doit réussir sur un DD 20 jet de sauvegarde de Dextérité ou prendre 31 (9d6) dégâts d'acide.\n**Créature de la chaîne.** Le sibriex cible jusqu'à trois créatures qu'il peut voir dans 36 m de lui. Chaque cible doit faire un DD 20 jet de sauvegarde de Constitution. Sur un salut réussi, une créature devient immunisée contre la Créature de Warp de ce sibriex. Sur une sauvegarde échouée, la cible est empoisonné, ce qui lui fait gagner également 1 niveau d'épuisement. Alors qu'empoisonné de cette façon, la cible doit répéter le jet de sauvegarde au début de chacun de ses tours. Trois arrêts réussis contre le poison en finir, et mettre fin au poison élimine tous les niveaux d'épuisement causés par elle. Chaque sauvegarde échouée fait gagner à la cible un autre niveau d'épuisement. Une fois que la cible atteint 6 niveaux d'épuisement, elle meurt et se transforme instantanément en Mâne vivant sous le contrôle du sibriex. La transformation du corps ne peut être annulée que par un sort Souhait.\n**Détection orthographique.** Le sibriex lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 21) :\n- À volonté : Injonction, Dissipation de la magie, Immobilisation de monstre\n- 1/jour : Esprit faible",
+ "attacks": [
+  {
+   "name": "Chaîne",
+   "bonus": 13,
+   "damage": "2d12+7",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/d0f18fcae1_monstre-sibriex.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +13, CHA +13",
+ "skills": "Arcanes +13, Histoire +13, Perception +13",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, sibriex peut entreprendre l'une des actions ci-après.\n**Lancer une épeautre.** Le sibriex utilise le spellcasting.\n**Bile de pulvérisation.** Le sibriex utilise Squirt Bile.\n**La distorsion (coûts 2 actions).** Le sibriex utilise Warp Creature."
+}

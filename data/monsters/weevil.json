@@ -1,0 +1,42 @@
+{
+ "id": "weevil",
+ "name": "The Weevil",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Perception passive 10",
+ "languages": "deux langues différentes",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le Weevil fait trois attaques de mêlée avec ses mains. Ou le Weevil fait deux attaques variées avec ses handax.\n**Porte-main +1.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Porte-main +1",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/30d6500919_monstre-weevil.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Weevil",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "FOR +4, DEX +5, SAG +2",
+ "skills": "Athlétisme +4, Tromperie +4",
+ "reactions": "**Parry.** Le Weevil ajoute 2 à sa CA contre une attaque de melee qui la frapperait. Pour ce faire, le Weevil doit voir l'attaquant et utiliser une arme de mêlée."
+}

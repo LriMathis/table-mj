@@ -1,0 +1,40 @@
+{
+ "id": "junior-drow-pretresse-de-lolth",
+ "name": "Junior Drow Priestess of Lolth",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Éminence divine.** En tant qu'action bonus, la prêtresse peut dépenser un emplacement de sort pour provoquer ses attaques d'armes à la mêlée pour traiter magiquement un 10 (3d6) dégâts radiants supplémentaire à une cible sur un coup. Ce bénéfice dure jusqu'à la fin du tour. Si la prêtresse dépense un emplacement de sort de niveau 2 ou plus, le dégâts supplémentaire augmente de 1d6 pour chaque niveau au-dessus du 1er.\n**Détection orthographique.** La prêtresse est une épeautre de niveau 5. Son caractéristique d'incantation est Sagesse (save spell DD 13, +5 au toucher avec attaques de sort). La prêtresse a préparé les sorts clercs suivants:\n- Sorts mineurs (à volonté) : Lumière, Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Soins, Éclair traçant, Sanctuaire\n- Niveau 2 (3 emplacements) : Restauration partielle, Arme spirituelle\n- Niveau 3 (2 emplacements) : Dissipation de la magie, Esprits gardiens",
+ "actionsText": "**Mace.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b50fb51c90_monstre-junior-drow-pretresse-de-lolth.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Junior drow, prêtresse de lolth",
+ "caNote": "Chemise chaîne",
+ "skills": "Médecine +7, Persuasion +3, Religion +5"
+}

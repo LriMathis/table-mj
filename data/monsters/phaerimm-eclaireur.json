@@ -1,0 +1,48 @@
+{
+ "id": "phaerimm-eclaireur",
+ "name": "Phaerimm Scout",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "3 m, vol 12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 15",
+ "languages": "télépathie 36 m understands Common and Deep Speech but can't speak",
+ "traits": "**Résistance magique.** Le phaerimm a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le phaerimm fait deux attaques, en utilisant Stinger ou Mindwarp Ray dans n'importe quelle combinaison.\n**Aiguille.** Jet d'attaque au corps à corps : +3, allonge 1,50 m. Touché : 4 (1d6 + 1) dégâts perforants plus 9 (2d8) dégâts de poison.\n**Rayon des esprits.** Jet d'attaque à distance : +5, portée 36 m. Touché : 6 (1d6 + 3) dégâts psychiques, et la cible a l'état charmé jusqu'au début du prochain tour du phaerimm.\n**Détection orthographique.** Le phaerimm lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Détection de la magie, Détection des pensées, Main de mage\n- 1/jour : Clairvoyance",
+ "attacks": [
+  {
+   "name": "Aiguille",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Rayon des esprits",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/6ee5d37a6f_monstre-phaerimm-eclaireur.webp",
+ "notes": "",
+ "source": "Netheril's Fall (5e.tools, traduction automatique)",
+ "aka": "Phaerimm éclaireur",
+ "saves": "INT +4, CHA +5",
+ "skills": "Perception +5",
+ "conditionImmunities": "charmé",
+ "reactions": "**Uncanny Dodge.** Déclencheur : Le phaerimm est frappé par un jet d'attaque. Réponse : Le phaerimm réduit de moitié les dégâts (arrondis) qu'il prend de cette attaque."
+}

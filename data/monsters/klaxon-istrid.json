@@ -1,0 +1,42 @@
+{
+ "id": "klaxon-istrid",
+ "name": "Istrid Horn",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 117,
+ "hpFormula": "18d8+36",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 17,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, nain",
+ "traits": "**Résilience des nains.** Istrid a un avantage sur jet de sauvegarde contre empoisonné.\n**Détection orthographique.** Istrid est un spellcaster de niveau 9. Son caractéristique d'incantation est Sagesse (save spell DD 14, +6 au toucher avec attaques de sort) Elle a les sorts clerc suivants préparés:\n- Sorts mineurs (à volonté) : Lumière, Réparation, Flamme sacrée, Stabilisation\n- Niveau 1 (4 emplacements) : Faveur divine, Éclair traçant, Mot de guérison, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Restauration partielle, Arme magique, Immobilisation de personne, Silence, Arme spirituelle\n- Niveau 3 (3 emplacements) : Lueur d'espoir, Aura du croisé, Dissipation de la magie, Retour à la vie, Esprits gardiens, Marche sur l'eau\n- Niveau 4 (3 emplacements) : Bannissement, Liberté de mouvement, Gardien de la foi, Peau de pierre\n- Niveau 5 (1 emplacements) : Colonne de flamme, Soins de groupe, Immobilisation de monstre",
+ "actionsText": "**Multiattaques.** Istrid fait deux attaques à la mêlée.\n**Maul.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 8 (2d6 + 1) dégâts contondants.\n**Sens du trésor (3/jour).** Istrid repère magiquement les métaux précieux et les pierres, comme les pièces de monnaie et les pierres précieuses, au sein de 18 m d'elle.",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 4,
+   "damage": "2d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/02996385c7_monstre-klaxon-istrid.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "aka": "Klaxon Istrid",
+ "caNote": "Armure de plaque",
+ "saves": "CON +5, SAG +6",
+ "skills": "Intimidation +4, Religion +3",
+ "resistances": "poison"
+}

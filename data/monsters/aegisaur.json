@@ -1,0 +1,38 @@
+{
+ "id": "aegisaur",
+ "name": "Aegisaur",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 68,
+ "hpFormula": "8d12+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Queue.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 18 (4d6 + 4) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Queue",
+   "bonus": 7,
+   "damage": "4d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0635b4e049_monstre-aegisaur.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

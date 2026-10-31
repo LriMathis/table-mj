@@ -1,0 +1,39 @@
+{
+ "id": "nuee-de-chauves-souris",
+ "name": "Nuée de chauves-souris",
+ "type": "Nuée (bêtes de taille TP)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 11,
+ "hpFormula": "2d10",
+ "vitesse": "1,5 m, vol 9 m",
+ "stats": {
+  "FOR": 5,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 4
+ },
+ "resistances": "contondants, perforants, tranchants",
+ "conditionImmunities": "à terre, agrippé, charmé, effrayé, entravé, étourdi, paralysé, pétrifié",
+ "senses": "Vision aveugle 18 m, Perception passive 11",
+ "languages": "aucune",
+ "traits": "**Nuée.** La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut se déplacer par toute ouverture assez large pour une chauve-souris de taille TP. La nuée ne peut ni récupérer de points de vie ni recevoir de points de vie temporaires.",
+ "actionsText": "**Morsures.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (2d4) dégâts perforants, ou 2 (1d4) dégâts perforants si la nuée est En péril.",
+ "attacks": [
+  {
+   "name": "Morsures",
+   "bonus": 4,
+   "damage": "2d4",
+   "type": "perforant (+1d4 perforant sous condition)"
+  }
+ ],
+ "portrait": "/data/images/7a047f7759_monstre-nuee-de-chauves-souris.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "pour-trickster",
+ "name": "Imp Trickster",
+ "type": "Fiélon (diable)",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 21,
+ "hpFormula": "6d4",
+ "vitesse": "6 m, escalade 6 m, vol 12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "commun, infernal",
+ "traits": "**Résistance magique.** L'imp a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Sting.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 1d6 + 3 dégâts perforants plus 2d6 dégâts de poison.\n**Invisibilité.** L'imp a l'état invisible pendant 1 minute. Cet effet se termine tôt immédiatement après l'imp fait un jet d'attaque ou inflige des dégâts, ou si l'imp a l'état neutralisé.\n**Forme-filtre.** La forme imp change pour ressembler à un rat (Speed 6 m), à un corbeau (6 m, Fly 18 m) ou à une araignée (6 m, Climb 6 m), ou elle retourne à sa forme réelle. Ses statistiques de jeu sont les mêmes dans chaque forme, à l'exception de sa vitesse. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé.",
+ "attacks": [
+  {
+   "name": "Sting",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/6c9b7333c7_monstre-pour-trickster.webp",
+ "notes": "",
+ "source": "Stranger Things: Welcome to the Hellfire Club (5e.tools, traduction automatique)",
+ "aka": "Pour Trickster",
+ "skills": "Tromperie +4, Perspicacité +3, Discrétion +5",
+ "resistances": "froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

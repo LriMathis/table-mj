@@ -1,0 +1,517 @@
+{
+ "id": "husk",
+ "name": "Husk",
+ "title": "Le Marteau déchu",
+ "player": "",
+ "race": "Nain des montagnes (règles du nain 2024)",
+ "classe": "Paladin",
+ "niveau": 2,
+ "historique": "Soldat",
+ "alignement": "Neutre Bon",
+ "taille": "Moyenne",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "saves": [
+  "SAG",
+  "CHA"
+ ],
+ "prof": 2,
+ "hpMax": 26,
+ "hp": 26,
+ "hpTemp": 0,
+ "ca": 18,
+ "initBonus": 0,
+ "xp": 393,
+ "hitDie": 10,
+ "hitDice": 2,
+ "skills": {
+  "Athlétisme": 5,
+  "Intimidation": 4,
+  "Persuasion": 4,
+  "Perspicacité": 3
+ },
+ "attacks": [
+  {
+   "name": "Marteau de guerre (botte : Repousser 3 m)",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant",
+   "item": "ita3e567d363"
+  },
+  {
+   "name": "Marteau de guerre à deux mains",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Javeline (9/36 m, botte : Ralentir 3 m)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant",
+   "item": "it5fa1901469"
+  }
+ ],
+ "resources": [
+  {
+   "name": "Imposition des mains (PV)",
+   "max": 10,
+   "cur": 10,
+   "reset": "long"
+  },
+  {
+   "name": "Connaissance de la pierre",
+   "max": 2,
+   "cur": 2,
+   "reset": "long"
+  },
+  {
+   "name": "Javelines",
+   "max": 6,
+   "cur": 6,
+   "reset": "aucun"
+  }
+ ],
+ "spellcasting": {
+  "ability": "CHA",
+  "dc": 12,
+  "attack": 4,
+  "slots": {
+   "1": {
+    "max": 2,
+    "cur": 2
+   }
+  }
+ },
+ "spells": {
+  "1": [
+   "Bénédiction",
+   "Châtiment divin",
+   "Soins"
+  ]
+ },
+ "features": [
+  {
+   "name": "Imposition des mains",
+   "text": "Réserve de 5 PV par repos long. Action bonus : touche une créature et lui rend des PV pris dans la réserve, ou dépense 5 points pour la débarrasser de l'état empoisonné."
+  },
+  {
+   "name": "Maîtrise des armes",
+   "text": "Bottes du marteau de guerre (Repousser : en cas de coup, repousse la cible de 3 m, taille G ou inférieure) et de la javeline (Ralentir : la vitesse de la cible baisse de 3 m jusqu'à son prochain tour)."
+  },
+  {
+   "name": "Attaquant sauvage (don d'origine, Soldat)",
+   "text": "Une fois par tour, quand il touche avec une arme, il lance deux fois les dés de dégâts et garde le résultat de son choix."
+  },
+  {
+   "name": "Résistance naine",
+   "text": "Résistance aux dégâts de poison et avantage aux jets de sauvegarde contre l'état empoisonné. Husk tient l'alcool. Beaucoup trop bien."
+  },
+  {
+   "name": "Robustesse naine",
+   "text": "+1 PV par niveau."
+  },
+  {
+   "name": "Connaissance de la pierre",
+   "text": "Action bonus : perception des vibrations sur 18 m pendant 10 minutes, tant qu'il se tient sur de la pierre ou la touche. 2 utilisations par repos long."
+  },
+  {
+   "name": "Vision dans le noir",
+   "text": "36 m."
+  },
+  {
+   "name": "Maîtrises et langues",
+   "text": "Armes courantes et de guerre, toutes les armures, boucliers. Outils : jeu de dés. Langues : commun, nain, géant."
+  },
+  {
+   "name": "Style de combat",
+   "text": "Choisissez un style : Archerie (+2 attaque à distance), Défense (+1 CA en armure), Duel (+2 dégâts à une main), Arme à deux mains, Protection…"
+  },
+  {
+   "name": "Incantation",
+   "text": "Aptitude de Paladin gagnée au niveau 2."
+  },
+  {
+   "name": "Châtiment divin",
+   "text": "Dépensez un emplacement en touchant : +2d8 radiants (+1d8 par niveau d'emplacement, +1d8 contre morts-vivants et fiélons)."
+  }
+ ],
+ "equipment": "Marteau de guerre à la tête cabossée, cotte de mailles, bouclier, 6 javelines, symbole sacré (amulette usée, qu'il tripote en permanence), sac d'ecclésiastique, jeu de dés et jeu de cartes, trousse de soins, vêtements de voyageur, une alliance qu'il ne porte plus mais garde dans sa poche, un dessin d'enfant plié en quatre. 4 pa.",
+ "gold": 123,
+ "conditions": [],
+ "deathSaves": {
+  "s": 0,
+  "f": 0
+ },
+ "exhaustion": 0,
+ "notes": "Histoire : soldat, forgeron, mari et père ; habitué des tavernes et des tables de jeu. Dettes, boisson ; sa femme est partie avec leurs enfants. Il a prêté serment au fond de sa chute, sans savoir qui l'a entendu.\nDéfauts : addiction au jeu (du mal à refuser une partie à gros enjeux) et à l'alcool ; son serment et ses addictions se battent en permanence.\n« J'ai déjà tout misé une fois. Ce coup-ci, je joue pour les autres. »\nProgression prévue : niv. 2 Style de combat et Châtiment du paladin ; niv. 3 Serment de Dévotion (rédemption) ou de Vengeance (plus sombre) ; niv. 4 FOR 17 → 18.\nIdées pour la campagne : un joueur invétéré face au Jeu des Mille Fortunes ; la Main Pleine détient peut-être ses dettes ; Boris et Vesper sauront jouer sur son addiction.",
+ "sheet": "# HUSK — Le Marteau déchu (niveau 1)\n\n**Concept :** nain paladin en quête de rédemption · D&D 5e, règles 2024\n**Espèce :** Nain des montagnes (origine narrative, règles du nain 2024)\n**Classe :** Paladin 1 (serment choisi au niveau 3)\n**Historique :** Soldat\n**Alignement :** Neutre Bon\n\n### Caractéristiques\n(tableau standard + historique Soldat : +2 FOR, +1 CON)\nFOR 17 (+3) · DEX 10 (+0) · CON 14 (+2) · INT 8 (-1) · SAG 12 (+1) · CHA 14 (+2)\n\n### Statistiques\nBonus de maîtrise +2 · PV 13 (10 + CON 2 + Robustesse naine 1), dé de vie 1d10 · CA 18 (cotte de mailles 16 + bouclier +2)\nInitiative +0 · Vitesse 9 m · Vision dans le noir 36 m · Perception passive 11\nJets de sauvegarde : SAG +3, CHA +4 · Résistance : dégâts de poison\n\n### Compétences\nAthlétisme +5 · Intimidation +4 · Persuasion +4 · Perspicacité +3\n\n### Maîtrises et langues\nArmes courantes et de guerre, toutes les armures, boucliers · Outils : jeu de dés · Langues : commun, nain, géant\n\n### Attaques\n- Marteau de guerre : +5, 1d8 + 3 contondant (1d10 + 3 à deux mains). Botte Repousser : en cas de coup, repousse la cible de 3 m (taille G ou inférieure).\n- Javeline (x6) : +5, 1d6 + 3 perforant, portée 9/36 m. Botte Ralentir : la vitesse de la cible baisse de 3 m jusqu'à son prochain tour.\n- Attaquant sauvage : une fois par tour, quand il touche avec une arme, il lance deux fois les dés de dégâts et garde le résultat de son choix.\n\n### Sorts\nDD 12 · attaque de sort +4 · emplacements de niveau 1 : 2\nSorts préparés de niveau 1 (2) : Bénédiction, Châtiment divin\n\n### Capacités\n- **Imposition des mains** : réserve de 5 PV par repos long ; action bonus pour soigner, ou 5 points pour retirer l'état empoisonné.\n- **Maîtrise des armes** : bottes du marteau de guerre (Repousser) et de la javeline (Ralentir).\n- **Attaquant sauvage** (don d'origine, Soldat).\n- **Résistance naine** : résistance au poison, avantage aux JS contre l'état empoisonné. Husk tient l'alcool. Beaucoup trop bien.\n- **Robustesse naine** : +1 PV par niveau.\n- **Connaissance de la pierre** : action bonus, perception des vibrations sur 18 m pendant 10 minutes sur de la pierre ; 2 utilisations par repos long.\n\n### Équipement\nMarteau de guerre à la tête cabossée, cotte de mailles, bouclier, 6 javelines, symbole sacré (amulette usée, qu'il tripote en permanence), sac d'ecclésiastique, jeu de dés et jeu de cartes, trousse de soins, vêtements de voyageur, une alliance qu'il ne porte plus mais garde dans sa poche, un dessin d'enfant plié en quatre, 51 po 4 pa (qu'il essaie de ne pas jouer).\n\n### Histoire\nNé dans les forteresses des montagnes, Husk a été soldat, puis forgeron, puis mari et père. Il a aussi été un habitué des tavernes et des tables de jeu. Les dettes se sont accumulées, la boisson a rendu le reste supportable, puis plus rien ne l'a été. Un matin, sa femme est partie avec leurs enfants. Elle avait raison, et il le sait.\nC'est au fond de cette chute qu'il a prêté serment. Il n'est pas sûr de qui l'a entendu, ni pourquoi on lui a répondu. Mais depuis, son marteau frappe avec une force qui n'est pas tout à fait la sienne.\n\n### Personnalité\nBourru, honnête jusqu'à la brutalité, d'un courage qui frôle l'inconscience. Il protège les plus faibles comme s'il essayait de rattraper quelque chose. Il ne parle jamais de sa famille, sauf quand il a trop bu. Il a un sixième sens pour repérer un tricheur ou un menteur : il a été les deux.\n« J'ai déjà tout misé une fois. Ce coup-ci, je joue pour les autres. »\n\n### Défauts\n- Addiction au jeu : il a du mal à refuser une partie, surtout quand les enjeux sont élevés.\n- Addiction à l'alcool : il boit pour oublier, et ça marche de moins en moins.\n- Son serment et ses addictions se battent en permanence. Certains jours, le serment gagne.\n\n### Progression prévue\n- Niveau 2 : Style de combat, Châtiment du paladin (Châtiment divin toujours préparé, ce qui libère un sort préparé).\n- Niveau 3 : choix du serment (Dévotion pour un arc de rédemption, Vengeance pour un Husk plus sombre).\n- Niveau 4 : amélioration de caractéristique (FOR 17 → 18).\n",
+ "portrait": "/data/images/79a180080c_husk-portrait.png",
+ "color": "#8a5a2b",
+ "source": "import (texte collé)",
+ "inspiration": "",
+ "inventory": [
+  {
+   "uid": "ita3e567d363",
+   "ref": "eq-warhammer",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Marteau de guerre à la tête cabossée"
+  },
+  {
+   "uid": "itbdc9f69794",
+   "ref": "eq-chain-mail",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false
+  },
+  {
+   "uid": "it9ebf2ac1f2",
+   "ref": "eq-shield",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false
+  },
+  {
+   "uid": "it5fa1901469",
+   "ref": "eq-javelin",
+   "qty": 6,
+   "equipped": true,
+   "attuned": false,
+   "name": "Javelines"
+  },
+  {
+   "uid": "it49c3b6dd8e",
+   "ref": "eq-holy-symbol",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Symbole sacré (amulette usée, qu'il tripote en permanence)"
+  },
+  {
+   "uid": "it184e80cd38",
+   "ref": "eq-pack-priest",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false
+  },
+  {
+   "uid": "it411b1da87c",
+   "ref": "eq-gaming-set-cards",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Jeu de dés et jeu de cartes"
+  },
+  {
+   "uid": "it94b1ebb418",
+   "ref": "eq-healer-kit",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false
+  },
+  {
+   "uid": "it6444a2fa34",
+   "ref": "eq-travelers-clothes",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Vêtements de voyageur"
+  },
+  {
+   "uid": "it8f9eebe60c",
+   "ref": null,
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Une alliance qu'il ne porte plus mais garde dans sa poche",
+   "desc": "",
+   "kind": "gear",
+   "cat": "Divers"
+  },
+  {
+   "uid": "it7bf07e614c",
+   "ref": null,
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Un dessin d'enfant plié en quatre. 4 pa",
+   "desc": "",
+   "kind": "gear",
+   "cat": "Divers"
+  }
+ ],
+ "saveItemBonus": 0,
+ "purse": {
+  "pp": 0,
+  "po": 123,
+  "pa": 0,
+  "pc": 0
+ },
+ "lvlRoll": null,
+ "levelHistory": [
+  {
+   "niveau": 1,
+   "t": 1792877936092,
+   "snap": {
+    "id": "husk",
+    "name": "Husk",
+    "title": "Le Marteau déchu",
+    "player": "",
+    "race": "Nain des montagnes (règles du nain 2024)",
+    "classe": "Paladin",
+    "niveau": 1,
+    "historique": "Soldat",
+    "alignement": "Neutre Bon",
+    "taille": "Moyenne",
+    "vitesse": "9 m",
+    "stats": {
+     "FOR": 17,
+     "DEX": 10,
+     "CON": 14,
+     "INT": 8,
+     "SAG": 12,
+     "CHA": 14
+    },
+    "saves": [
+     "SAG",
+     "CHA"
+    ],
+    "prof": 2,
+    "hpMax": 13,
+    "hp": 13,
+    "hpTemp": 0,
+    "ca": 18,
+    "initBonus": 0,
+    "xp": 393,
+    "hitDie": 10,
+    "hitDice": 1,
+    "skills": {
+     "Athlétisme": 5,
+     "Intimidation": 4,
+     "Persuasion": 4,
+     "Perspicacité": 3
+    },
+    "attacks": [
+     {
+      "name": "Marteau de guerre (botte : Repousser 3 m)",
+      "bonus": 5,
+      "damage": "1d8+3",
+      "type": "contondant",
+      "item": "ita3e567d363"
+     },
+     {
+      "name": "Marteau de guerre à deux mains",
+      "bonus": 5,
+      "damage": "1d10+3",
+      "type": "contondant"
+     },
+     {
+      "name": "Javeline (9/36 m, botte : Ralentir 3 m)",
+      "bonus": 5,
+      "damage": "1d6+3",
+      "type": "perforant",
+      "item": "it5fa1901469"
+     }
+    ],
+    "resources": [
+     {
+      "name": "Imposition des mains (PV)",
+      "max": 5,
+      "cur": 5,
+      "reset": "long"
+     },
+     {
+      "name": "Connaissance de la pierre",
+      "max": 2,
+      "cur": 2,
+      "reset": "long"
+     },
+     {
+      "name": "Javelines",
+      "max": 6,
+      "cur": 6,
+      "reset": "aucun"
+     }
+    ],
+    "spellcasting": {
+     "ability": "CHA",
+     "dc": 12,
+     "attack": 4,
+     "slots": {
+      "1": {
+       "max": 2,
+       "cur": 2
+      }
+     }
+    },
+    "spells": {
+     "1": [
+      "Bénédiction",
+      "Châtiment divin"
+     ]
+    },
+    "features": [
+     {
+      "name": "Imposition des mains",
+      "text": "Réserve de 5 PV par repos long. Action bonus : touche une créature et lui rend des PV pris dans la réserve, ou dépense 5 points pour la débarrasser de l'état empoisonné."
+     },
+     {
+      "name": "Maîtrise des armes",
+      "text": "Bottes du marteau de guerre (Repousser : en cas de coup, repousse la cible de 3 m, taille G ou inférieure) et de la javeline (Ralentir : la vitesse de la cible baisse de 3 m jusqu'à son prochain tour)."
+     },
+     {
+      "name": "Attaquant sauvage (don d'origine, Soldat)",
+      "text": "Une fois par tour, quand il touche avec une arme, il lance deux fois les dés de dégâts et garde le résultat de son choix."
+     },
+     {
+      "name": "Résistance naine",
+      "text": "Résistance aux dégâts de poison et avantage aux jets de sauvegarde contre l'état empoisonné. Husk tient l'alcool. Beaucoup trop bien."
+     },
+     {
+      "name": "Robustesse naine",
+      "text": "+1 PV par niveau."
+     },
+     {
+      "name": "Connaissance de la pierre",
+      "text": "Action bonus : perception des vibrations sur 18 m pendant 10 minutes, tant qu'il se tient sur de la pierre ou la touche. 2 utilisations par repos long."
+     },
+     {
+      "name": "Vision dans le noir",
+      "text": "36 m."
+     },
+     {
+      "name": "Maîtrises et langues",
+      "text": "Armes courantes et de guerre, toutes les armures, boucliers. Outils : jeu de dés. Langues : commun, nain, géant."
+     }
+    ],
+    "equipment": "Marteau de guerre à la tête cabossée, cotte de mailles, bouclier, 6 javelines, symbole sacré (amulette usée, qu'il tripote en permanence), sac d'ecclésiastique, jeu de dés et jeu de cartes, trousse de soins, vêtements de voyageur, une alliance qu'il ne porte plus mais garde dans sa poche, un dessin d'enfant plié en quatre. 4 pa.",
+    "gold": 123,
+    "conditions": [],
+    "deathSaves": {
+     "s": 0,
+     "f": 0
+    },
+    "exhaustion": 0,
+    "notes": "Histoire : soldat, forgeron, mari et père ; habitué des tavernes et des tables de jeu. Dettes, boisson ; sa femme est partie avec leurs enfants. Il a prêté serment au fond de sa chute, sans savoir qui l'a entendu.\nDéfauts : addiction au jeu (du mal à refuser une partie à gros enjeux) et à l'alcool ; son serment et ses addictions se battent en permanence.\n« J'ai déjà tout misé une fois. Ce coup-ci, je joue pour les autres. »\nProgression prévue : niv. 2 Style de combat et Châtiment du paladin ; niv. 3 Serment de Dévotion (rédemption) ou de Vengeance (plus sombre) ; niv. 4 FOR 17 → 18.\nIdées pour la campagne : un joueur invétéré face au Jeu des Mille Fortunes ; la Main Pleine détient peut-être ses dettes ; Boris et Vesper sauront jouer sur son addiction.",
+    "sheet": "# HUSK — Le Marteau déchu (niveau 1)\n\n**Concept :** nain paladin en quête de rédemption · D&D 5e, règles 2024\n**Espèce :** Nain des montagnes (origine narrative, règles du nain 2024)\n**Classe :** Paladin 1 (serment choisi au niveau 3)\n**Historique :** Soldat\n**Alignement :** Neutre Bon\n\n### Caractéristiques\n(tableau standard + historique Soldat : +2 FOR, +1 CON)\nFOR 17 (+3) · DEX 10 (+0) · CON 14 (+2) · INT 8 (-1) · SAG 12 (+1) · CHA 14 (+2)\n\n### Statistiques\nBonus de maîtrise +2 · PV 13 (10 + CON 2 + Robustesse naine 1), dé de vie 1d10 · CA 18 (cotte de mailles 16 + bouclier +2)\nInitiative +0 · Vitesse 9 m · Vision dans le noir 36 m · Perception passive 11\nJets de sauvegarde : SAG +3, CHA +4 · Résistance : dégâts de poison\n\n### Compétences\nAthlétisme +5 · Intimidation +4 · Persuasion +4 · Perspicacité +3\n\n### Maîtrises et langues\nArmes courantes et de guerre, toutes les armures, boucliers · Outils : jeu de dés · Langues : commun, nain, géant\n\n### Attaques\n- Marteau de guerre : +5, 1d8 + 3 contondant (1d10 + 3 à deux mains). Botte Repousser : en cas de coup, repousse la cible de 3 m (taille G ou inférieure).\n- Javeline (x6) : +5, 1d6 + 3 perforant, portée 9/36 m. Botte Ralentir : la vitesse de la cible baisse de 3 m jusqu'à son prochain tour.\n- Attaquant sauvage : une fois par tour, quand il touche avec une arme, il lance deux fois les dés de dégâts et garde le résultat de son choix.\n\n### Sorts\nDD 12 · attaque de sort +4 · emplacements de niveau 1 : 2\nSorts préparés de niveau 1 (2) : Bénédiction, Châtiment divin\n\n### Capacités\n- **Imposition des mains** : réserve de 5 PV par repos long ; action bonus pour soigner, ou 5 points pour retirer l'état empoisonné.\n- **Maîtrise des armes** : bottes du marteau de guerre (Repousser) et de la javeline (Ralentir).\n- **Attaquant sauvage** (don d'origine, Soldat).\n- **Résistance naine** : résistance au poison, avantage aux JS contre l'état empoisonné. Husk tient l'alcool. Beaucoup trop bien.\n- **Robustesse naine** : +1 PV par niveau.\n- **Connaissance de la pierre** : action bonus, perception des vibrations sur 18 m pendant 10 minutes sur de la pierre ; 2 utilisations par repos long.\n\n### Équipement\nMarteau de guerre à la tête cabossée, cotte de mailles, bouclier, 6 javelines, symbole sacré (amulette usée, qu'il tripote en permanence), sac d'ecclésiastique, jeu de dés et jeu de cartes, trousse de soins, vêtements de voyageur, une alliance qu'il ne porte plus mais garde dans sa poche, un dessin d'enfant plié en quatre, 51 po 4 pa (qu'il essaie de ne pas jouer).\n\n### Histoire\nNé dans les forteresses des montagnes, Husk a été soldat, puis forgeron, puis mari et père. Il a aussi été un habitué des tavernes et des tables de jeu. Les dettes se sont accumulées, la boisson a rendu le reste supportable, puis plus rien ne l'a été. Un matin, sa femme est partie avec leurs enfants. Elle avait raison, et il le sait.\nC'est au fond de cette chute qu'il a prêté serment. Il n'est pas sûr de qui l'a entendu, ni pourquoi on lui a répondu. Mais depuis, son marteau frappe avec une force qui n'est pas tout à fait la sienne.\n\n### Personnalité\nBourru, honnête jusqu'à la brutalité, d'un courage qui frôle l'inconscience. Il protège les plus faibles comme s'il essayait de rattraper quelque chose. Il ne parle jamais de sa famille, sauf quand il a trop bu. Il a un sixième sens pour repérer un tricheur ou un menteur : il a été les deux.\n« J'ai déjà tout misé une fois. Ce coup-ci, je joue pour les autres. »\n\n### Défauts\n- Addiction au jeu : il a du mal à refuser une partie, surtout quand les enjeux sont élevés.\n- Addiction à l'alcool : il boit pour oublier, et ça marche de moins en moins.\n- Son serment et ses addictions se battent en permanence. Certains jours, le serment gagne.\n\n### Progression prévue\n- Niveau 2 : Style de combat, Châtiment du paladin (Châtiment divin toujours préparé, ce qui libère un sort préparé).\n- Niveau 3 : choix du serment (Dévotion pour un arc de rédemption, Vengeance pour un Husk plus sombre).\n- Niveau 4 : amélioration de caractéristique (FOR 17 → 18).\n",
+    "portrait": "/data/images/79a180080c_husk-portrait.png",
+    "color": "#8a5a2b",
+    "source": "import (texte collé)",
+    "inspiration": "",
+    "inventory": [
+     {
+      "uid": "ita3e567d363",
+      "ref": "eq-warhammer",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Marteau de guerre à la tête cabossée"
+     },
+     {
+      "uid": "itbdc9f69794",
+      "ref": "eq-chain-mail",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false
+     },
+     {
+      "uid": "it9ebf2ac1f2",
+      "ref": "eq-shield",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false
+     },
+     {
+      "uid": "it5fa1901469",
+      "ref": "eq-javelin",
+      "qty": 6,
+      "equipped": true,
+      "attuned": false,
+      "name": "Javelines"
+     },
+     {
+      "uid": "it49c3b6dd8e",
+      "ref": "eq-holy-symbol",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Symbole sacré (amulette usée, qu'il tripote en permanence)"
+     },
+     {
+      "uid": "it184e80cd38",
+      "ref": "eq-pack-priest",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it411b1da87c",
+      "ref": "eq-gaming-set-cards",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Jeu de dés et jeu de cartes"
+     },
+     {
+      "uid": "it94b1ebb418",
+      "ref": "eq-healer-kit",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it6444a2fa34",
+      "ref": "eq-travelers-clothes",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Vêtements de voyageur"
+     },
+     {
+      "uid": "it8f9eebe60c",
+      "ref": null,
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Une alliance qu'il ne porte plus mais garde dans sa poche",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     },
+     {
+      "uid": "it7bf07e614c",
+      "ref": null,
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Un dessin d'enfant plié en quatre. 4 pa",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     }
+    ],
+    "saveItemBonus": 0,
+    "purse": {
+     "pp": 0,
+     "po": 123,
+     "pa": 0,
+     "pc": 0
+    },
+    "lvlRoll": {
+     "niveau": 2,
+     "roll": 9,
+     "die": 10
+    }
+   }
+  }
+ ]
+}

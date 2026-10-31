@@ -1,0 +1,45 @@
+{
+ "id": "groff",
+ "name": "Groff",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 4,
+  "SAG": 13,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Si le groff est immobile au début du combat, il a avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'action du groff, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que le groff n'est pas un patch de tourbière ordinaire recouvert de mousse.\n**Maintenez votre souffle.** Le groff peut retenir sa respiration jusqu'à 1 heure.",
+ "actionsText": "**Multiattaques.** Le groff fait une attaque Bite et une attaque Swamp Claw.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts perforants.\n**Griffe de swamp.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts tranchants. Si la cible est une créature moyenne ou plus petite, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou être engloutie par le groff. Bien qu'engouffré, la cible ne peut pas respirer, est entravé, et prend 10 (3d6) dégâts de poison au début de chacun de ses tours. Lorsque le groff se déplace, la cible engloutie se déplace avec. Le groff ne peut avoir qu'une cible englouti à la fois.\nUne cible engloutie peut répéter le jet de sauvegarde à la fin de ses tours. Sur un succès, la cible s'échappe et pénètre dans l'espace inoccupé le plus proche.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "1d8+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe de swamp",
+   "bonus": 7,
+   "damage": "1d6+5",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/3736b34bf6_monstre-groff.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3, Discrétion +4"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "rosie-beestinger",
+ "name": "Rosie Beestinger",
+ "type": "Humanoïde (halfelin)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 45,
+ "hpFormula": "10d6+10",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, draconique, elfique, halfelin",
+ "traits": "**Brave.** Rosie a un avantage sur jet de sauvegarde contre effrayé.\n**Demi-vieillesse.** Rosie peut se déplacer dans l'espace de toute créature d'une taille plus grande que la sienne.\n**Évasion.** Si Rosie est soumise à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, elle ne prend plutôt aucun dégâts si elle réussit sur le jet de sauvegarde, et seulement la moitié des dégâts si elle échoue. Elle ne peut pas utiliser ce trait si elle est neutralisé.\n**Étape de l'ombre.** Lorsque Rosie est dans la lumière ou l'obscurité, elle peut utiliser un action bonus pour téléporter 18 m dans un espace inoccupé qu'elle peut voir aussi dans la lumière ou l'obscurité. Elle a alors l'avantage sur la première attaque de mêlée qu'elle fait avant la fin du tour.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Rosie est Sagesse (sorption sauvegardez DD 12). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Illusion mineure, Flamme sacrée, Thaumaturgie\n- 1/jour chacun : Injonction, Ténèbres, Vision dans le noir, Passage sans trace, Silence",
+ "actionsText": "**Multiattaques.** Rosie fait trois attaques, puis deux attaques frappe à mains nues.\n**Personnel du Maître (+1 Quarterstaff).** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants, ou 8 (1d8 + 4) dégâts contondants si utilisé avec deux mains.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants. Les frappes à mains nues de Rosie sont magiques.",
+ "attacks": [
+  {
+   "name": "Personnel du Maître (+1 Quarterstaff)",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "frappe à mains nues",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/bcf52742b8_monstre-rosie-beestinger.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "caNote": "Défense non armée",
+ "saves": "FOR +1, DEX +5",
+ "skills": "Acrobaties +5, Histoire +3, Intimidation +4, Discrétion +5",
+ "reactions": "**Missiles défectueux.** En réponse à une attaque d'armes, Rosie détourne le missile. Les dégâts qu'elle prend de l'attaque sont réduits de 1d10 + 9. Si les dégâts sont réduits à 0, elle attrape le missile s'il est assez petit pour tenir dans une main et elle a une main libre."
+}

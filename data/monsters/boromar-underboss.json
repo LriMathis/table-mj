@@ -1,0 +1,47 @@
+{
+ "id": "boromar-underboss",
+ "name": "Boromar Underboss",
+ "type": "Humanoïde (halfelin)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 104,
+ "hpFormula": "19d6+38",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Perception passive 18",
+ "languages": "commun, halfelin, argot des voleurs",
+ "traits": "**C'est vrai..** Le sous-vêtement peut se déplacer dans l'espace de n'importe quelle créature qui est de plus grande taille, mais il ne peut pas s'arrêter là.",
+ "actionsText": "**Multiattaques.** Le sous-boiss fait trois attaques, en utilisant empoisonné Blade ou Arcane Firearm dans n'importe quelle combinaison.\n**Lame empoisonné.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts tranchants plus 7 (2d6) dégâts de poison, et la cible a l'état empoisonné jusqu'au début du prochain tour des sous-boss. Si la cible est déjà empoisonné, elle prend plutôt un 7 (2d6) dégâts de poison supplémentaire.\n**Arme à feu Arcane.** Jet d'attaque à distance : +7, portée 9/27 m. Touché : 26 (4d10 + 4) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Lame empoisonné",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Arme à feu Arcane",
+   "bonus": 7,
+   "damage": "4d10+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/5bb1088aca_monstre-boromar-underboss.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "saves": "DEX +7, CON +5, SAG +5",
+ "skills": "Perspicacité +5, Perception +8, Escamotage +10",
+ "resistances": "poison",
+ "reactions": "**Uncanny Dodge.** Déclencheur : Le sous-vêtement est frappé par un jet d'attaque. Réponse : Le sous-vêtement réduit de moitié les dégâts (arrondis) qu'il prend lors de cette attaque."
+}

@@ -1,0 +1,52 @@
+{
+ "id": "baron-sahuagin",
+ "name": "Baron sahuagin",
+ "type": "Humanoïde (sahuagin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "caNote": "cuirasse",
+ "hp": 76,
+ "hpFormula": "9d10+27",
+ "vitesse": "9 m, nage 15 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "saves": "DEX +5, CON +6, INT +5, SAG +4",
+ "skills": "Perception +7",
+ "senses": "vision dans le noir 36 m, Perception passive 17",
+ "languages": "sahuagin",
+ "traits": "**Amphibie limitée.** Le sahuagin peut respirer dans l'air et dans l'eau, mais il a besoin de s'immerger au moins une fois toutes les 4 heures pour éviter de s'asphyxier.\n**Frénésie sanguinaire.** Le sahuagin est avantagé lors des jets d'attaque effectués contre les créatures qui n'ont pas la totalité de leurs points de vie.\n**Télépathie avec les requins.** Grâce à ce pouvoir de télépathie limitée, le sahuagin peut donner des ordres par magie à n'importe quel requin situé à 36 mètres ou moins de lui.",
+ "actionsText": "**Attaques multiples.** Le sahuagin effectue trois attaques au corps à corps : une avec sa morsure et deux avec ses griffes ou son trident.\n**Griffes.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 11 (2d6+4) dégâts tranchants.\n**Morsure.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 9 (2d4+4) dégâts perforants.\n**Trident.** *Attaque d'arme au corps à corps ou à distance :* +7 pour toucher, allonge 1,50 m ou portée 6/18 m, une cible. *Touché :* 11 (2d6+4) dégâts perforants ou 13 (2d8+4) dégâts perforants si le sahuagin utilise le trident à deux mains au corps à corps.",
+ "portrait": "/data/images/4254c0bd5e_monstre-baron-sahuagin.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 261 · image : Manuel des monstres p. 260",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 7,
+   "damage": "2d4+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Trident",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ]
+}

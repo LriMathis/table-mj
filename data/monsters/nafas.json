@@ -1,0 +1,44 @@
+{
+ "id": "nafas",
+ "name": "Nafas",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique bon",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 19,
+ "hp": 350,
+ "hpFormula": "28d10+196",
+ "vitesse": "9 m, vol 27 m (vol stationnaire)",
+ "stats": {
+  "FOR": 23,
+  "DEX": 18,
+  "CON": 24,
+  "INT": 15,
+  "SAG": 18,
+  "CHA": 23
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "aérien, commun",
+ "traits": "**Dimensionnellement Bound.** Nafas ne peut pas quitter l'escalier Infinite ou être piégé dans un contenant (comme un jet de fer). Les tentatives de transport de Nafas vers un autre avion sont gaspillées.\n**Dernier souhait.** Lorsque Nafas tombe à 0 points de vie, son corps se désintègre dans un tourbillon de poussières multiversales qui entoure une créature responsable de sa disparition. Cette créature entend alors le dernier souhait de Nafas: que la créature prenne sa place.\nSi la créature accepte, elle est transformée en djinni noble. Les statistiques de jeu de la créature sont remplacées par celles de Nafas (y compris ce trait), bien qu'elle conserve son nom, son alignement et sa personnalité. La créature hérite aussi du palais de Nafas et de tout ce qu'il contient.\nSi la créature refuse, Nafas gagne un nouveau corps en 1d10 jours, récupérant tout son points de vie et apparaissant dans un endroit aléatoire sûr sur l'escalier Infinite.\n**Résistance légendaire (5/jour).** Si Nafas échoue à un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Nafas a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Noble Genie.** Nafas ne subit aucune des sanctions qui suivent normalement la coulée du sort Souhait pour produire un effet autre que la duplication d'un autre sort.",
+ "actionsText": "**Multiattaques.** Nafas fait trois attaques Storm Shamshir et utilise Create Vortex.\n**Tempête Shamshir.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants plus 14 (4d6) éclair ou dégâts de tonnerre (le choix de Nafas).\n**Créer un Vortex.** Un 3 m -radius, 18 m -tout cylindre de poussière cosmique tourbillonne se forme sur un point Nafas peut voir au sein de 36 m de lui. Le vortex dure aussi longtemps que Nafas maintient concentration (comme si concentrating sur un sort). Lorsque le vortex apparaît, chaque créature autre que Nafas dans la région du vortex doit faire un DD 22 jet de sauvegarde de Force. Sur une sauvegarde ratée, une créature prend 36 (8d8) dégâts de force et a l'état entravé. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement et se déplace dans l'espace inoccupé le plus proche à l'extérieur du vortex.\nSur les tours suivants, Nafas peut utiliser cette action pour déplacer le vortex jusqu'à 18 m. Lorsque le vortex entre dans l'espace d'une créature pour la première fois sur un tour, la créature doit faire le même jet de sauvegarde que lorsque le vortex est apparu pour la première fois. Les créatures entravé par le vortex se déplacent avec.\nUne créature entravé par le vortex, ou une autre créature qui peut l'atteindre, peut utiliser son action pour faire un DD 22 test de Force. Lors d'un contrôle réussi, la créature entravé n'est plus entravé et se déplace vers l'espace inoccupé le plus proche à l'extérieur du vortex.\n**Détection orthographique.** Nafas lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 21) :\n- À volonté : Détection du mal et du bien, Détection de la magie, Thaumaturgie\n- 1/jour chacun : Forme gazeuse, Image majeure, Téléportation, Souhait\n- 3/jour chacun : Création de nourriture et d'eau (la nourriture est toujours savoureux), Dissipation de la magie, Invisibilité, Mythes et légendes (en tant qu'action), Don des langues, Marche sur le vent (en tant qu'action)",
+ "attacks": [
+  {
+   "name": "Tempête Shamshir",
+   "bonus": 13,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/044e238922_monstre-nafas.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +11, SAG +11, CHA +13",
+ "skills": "Perception +11, Représentation +13",
+ "resistances": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, tonnerre",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "reactions": "**Reculez.** Immédiatement après qu'une créature Nafas puisse voir son tour se terminer, Nafas exhale des vents forts dans un cône 9 m. Les créatures grandes ou plus petites dans cette zone doivent réussir sur un DD 22 jet de sauvegarde de Force ou être poussées à 4,50 m loin de lui.\n**Étape de Zephyr.** En réponse à une attaque de jet d'attaque, Nafas se déplace jusqu'à la moitié de sa vitesse de vol sans provoquer d'attaques d'opportunités."
+}

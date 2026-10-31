@@ -1,0 +1,41 @@
+{
+ "id": "dragonbait",
+ "name": "Dragonbait",
+ "type": "Humanoïde (sauriaux)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 120,
+ "hpFormula": "16d8+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 13,
+  "CON": 17,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Perception passive 13",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Santé Divine.** Dragonbait est immunisé contre maladie.\n**Résistance magique.** Tout en tenant sa sainte épée de vengeur, Dragonbait crée une aura dans un rayon de 3 m autour de lui. Alors que cette aura est active, Dragonbait et toutes les créatures amicales à lui dans l'aura ont avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Dragonbait fait deux attaques d'armes à la mêlée.\n**Saint Vengeur (+3 Longsword).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts tranchants, ou 10 (1d10 + 5) dégâts tranchants lorsqu'il est utilisé à deux mains. Si la cible est un fiend ou un non-décédé, il faut un 11 (2d10) dégâts radiants supplémentaire.\n**Alignement du sens.** Dragonbait choisit une créature qu'il peut voir dans 18 m de lui et détermine son alignement, tant que la créature n'est pas cachée de la magie de divination par un sort ou autre effet magique.",
+ "attacks": [
+  {
+   "name": "Saint Vengeur (+3 Longsword)",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/d499c215d8_monstre-dragonbait.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "Breastplate, Bouclier",
+ "saves": "SAG +6, CHA +7",
+ "skills": "Athlétisme +5, Médecine +6",
+ "conditionImmunities": "maladie"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "tecuziztecatl",
+ "name": "Tecuziztecatl",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 102,
+ "hpFormula": "12d10+36",
+ "vitesse": "9 m, escalade 9 m, nage 9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 13
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 13",
+ "languages": "La Commission européenne, primordial",
+ "traits": "**Amphibie.** Tecuziztecatl peut respirer l'air et l'eau.\n**Gloire.** Tecuziztecatl met la lumière en 6 m de lui-même.\n**Flexible.** Tecuziztecatl peut entrer dans un espace assez grand pour une créature moyenne sans serrer.\n**Escalade des araignées.** Tecuziztecatl peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Tecuziztecatl fait deux attaques pseudopodes.\n**Pseudopod.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 12 (2d8 + 3) dégâts contondants.\n**Craquage acide (Recharge 4-6).** Tecuziztecatl exhale de l'acide dans une ligne 9 m large. Chaque créature dans cette ligne doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 18 (4d8) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ca45bb942f_monstre-tecuziztecatl.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +3, Discrétion +2",
+ "resistances": "contondant d'attaques non magiques",
+ "immunities": "acide"
+}

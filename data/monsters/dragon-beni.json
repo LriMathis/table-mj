@@ -1,0 +1,48 @@
+{
+ "id": "dragon-beni",
+ "name": "Dragon Blessed",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 17,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, draconique, et deux langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le béni fait deux attaques Mace ou radiant Bolt.\n**Mace.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants plus 18 (4d8) dégâts radiants.\n**radiant Bolt.** Attaque de sort à distance : +6 au toucher, portée 36 m, une cible. Touché : 22 (5d8) dégâts radiants, et les bienheureux retrouve 5 (1d10) points de vie.\n**Détection orthographique.** Le bienheureux lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Lumière, Thaumaturgie\n- 1/jour chacun : Amélioration de caractéristique, Colonne de flamme, Soins de groupe, Retour à la vie, Don des langues",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 4,
+   "damage": "1d6+1",
+   "type": "contondant + radiant"
+  },
+  {
+   "name": "radiant Bolt",
+   "bonus": 6,
+   "damage": "5d8",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/37b279296a_monstre-dragon-beni.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon béni",
+ "caNote": "Courrier d'échelle",
+ "saves": "CON +6, SAG +6",
+ "skills": "Médecine +6, Religion +5",
+ "conditionImmunities": "effrayé"
+}

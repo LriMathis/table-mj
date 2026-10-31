@@ -1,0 +1,40 @@
+{
+ "id": "rath-modar",
+ "name": "Rath Modar",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 13,
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, draconique, infernal, primordial, Thayan",
+ "traits": "**Matériel spécial.** Rath a un Bâton de feu et des rouleaux de Porte dimensionnelle, Feuille morte et Boule de feu.\n**Détection orthographique.** Rath est un spellcaster de niveau 11 qui utilise Intelligence comme son caractéristique d'incantation (spell save DD 15, +7 au toucher avec attaques de sort). Rath a les sorts suivants préparés à partir de la liste des sorts de l'assistant :\n- Sorts mineurs (à volonté) : Trait de feu, Illusion mineure, Prestidigitation, Poigne électrique\n- Niveau 1 (4 emplacements) : Orbe chromatique, Couleurs dansantes, Armure de mage, Projectile magique\n- Niveau 2 (3 emplacements) : Détection des pensées, Image miroir, Force fantasmagorique\n- Niveau 3 (3 emplacements) : Contresort, Boule de feu, Image majeure\n- Niveau 4 (3 emplacements) : Confusion, Invisibilité supérieure\n- Niveau 5 (2 emplacements) : Double illusoire, Apparence trompeuse\n- Niveau 6 (1 emplacements) : Globe d'invulnérabilité",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d8) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 4,
+   "damage": "1d8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/9ed7c2f4dc_monstre-rath-modar.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "saves": "INT +7, SAG +5",
+ "skills": "Arcanes +7, Tromperie +3, Perspicacité +5, Discrétion +6",
+ "reactions": "**Auto-illusoire (recharges sur un repos court ou long).** Quand une créature Rath peut voir fait un jet d'attaque contre lui, il peut interposer un duplicata illusoire entre l'agresseur et lui. L'attaque manque automatiquement Rath, puis l'illusion se dissipe."
+}

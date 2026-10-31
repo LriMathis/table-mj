@@ -1,0 +1,41 @@
+{
+ "id": "pierre-juggernaut",
+ "name": "Stone Juggernaut",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 15,
+ "hp": 157,
+ "hpFormula": "15d10+75",
+ "vitesse": "15 m (dans une direction choisie au début de son tour)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Rouleaux dévastateurs.** Le juggernaut peut se déplacer dans l'espace d'une créature à terre. Une créature dont l'espace entre pour la première fois sur un tour doit faire un DD 17 jet de sauvegarde de Dextérité, en prenant 55 (10d10) dégâts contondants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Formulaire immuable.** Le juggernaut est à l'abri de tout sort ou effet qui pourrait modifier sa forme.\n**Régénération.** Tant qu'il reste 1 points de vie, le juggernaut retrouve magiquement toute sa points de vie tous les jours à l'aube. Le juggernaut est détruit et ne se régénère pas s'il tombe à 0 points de vie.\n**Monstre de siège.** Le juggernaut inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 25 (3d12 + 6) dégâts contondants. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 17 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "3d12+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/10477b3fd6_monstre-pierre-juggernaut.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Pierre Juggernaut",
+ "caNote": "armure naturelle",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques non faites avec des armes adamantines",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné, à terre"
+}

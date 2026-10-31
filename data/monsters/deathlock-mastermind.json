@@ -1,0 +1,48 @@
+{
+ "id": "deathlock-mastermind",
+ "name": "Deathlock Mastermind",
+ "type": "Mort-vivant (occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 13,
+ "hp": 110,
+ "hpFormula": "20d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir du cadenas de mort.\n**Résistance au virage.** Le deathlock a un avantage sur jet de sauvegarde contre tout effet qui devient Undead.\n**Nature inhabituelle.** Le cadenas ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le cadenas fait deux attaques à la griffe mortelle ou à la tombe.\n**Griffe mortelle.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (3d6 + 3 dégâts nécrotiques).\n**Grave Bolt.** Attaque de sort à distance : +6 au toucher, portée 36 m, une cible. Touché : 13 (3d8) dégâts nécrotiques. Si la cible est grande ou plus petite, elle doit réussir sur un DD 16 jet de sauvegarde de Force ou devenir entravé alors que les vrilles ombreuses l'enveloppent pendant 1 minute. Une cible entravé peut utiliser son action pour répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Le deathlock lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Détection de la magie, Déguisement, Armure de mage, Illusion mineure\n- 1/jour chacun : Ténèbres, Porte dimensionnelle, Dissipation de la magie, Vol, Invisibilité",
+ "attacks": [
+  {
+   "name": "Griffe mortelle",
+   "bonus": 6,
+   "damage": "3d6+3",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Grave Bolt",
+   "bonus": 6,
+   "damage": "3d8",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/f78ff32ee9_monstre-deathlock-mastermind.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "saves": "INT +5, CHA +6",
+ "skills": "Arcanes +5, Histoire +5, Perception +4",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

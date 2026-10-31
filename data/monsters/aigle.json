@@ -1,0 +1,38 @@
+{
+ "id": "aigle",
+ "name": "Aigle",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 4,
+ "hpFormula": "1d6+1",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 2,
+  "SAG": 14,
+  "CHA": 7
+ },
+ "skills": "Perception +6",
+ "senses": "Perception passive 16",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Serres.** Corps à corps : +4, allonge 1,50 m. Touché : 4 (1d4 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Serres",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/2198c17383_monstre-aigle.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

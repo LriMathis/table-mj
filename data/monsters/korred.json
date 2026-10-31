@@ -1,0 +1,47 @@
+{
+ "id": "korred",
+ "name": "Korred",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 93,
+ "hpFormula": "11d6+55",
+ "vitesse": "9 m, creusement 9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception des vibrations 36 m, Perception passive 15",
+ "languages": "nain, gnome, sylvestre, terreux, commun des profondeurs",
+ "traits": "**Camouflage en pierre.** Le korred a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans un terrain rocheux.",
+ "actionsText": "**Multiattaques.** Le korred fait deux attaques Greatclub ou Rock.\n**Grand club.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts contondants, ou 19 (3d8 + 6) dégâts contondants si le korred est au sol.\n**Roche.** Attaque d'arme à distance : +9 au toucher, portée 18/36 m., une cible. Touché : 10 (1d8 + 6) dégâts contondants, ou 19 (3d8 + 6) dégâts contondants si le korred est au sol.\n**Détection orthographique.** Le korred lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Communion avec la nature (en tant qu'action), Fusion dans la pierre, Façonnage de la pierre\n- 1/jour : Danse irrésistible d'Otto",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 9,
+   "damage": "1d8+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 9,
+   "damage": "1d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0ff56729f8_monstre-korred.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +9, Perception +5, Discrétion +5",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "bonusActions": "**Commande des cheveux.** Le korred a au moins une corde de longueur 15 m tissée de ses cheveux. Le korred commande à une telle corde à l'intérieur de 9 m de se déplacer jusqu'à 6 m et emprisonner une créature grande ou plus petite que le korred peut voir. La cible doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou devenir agrippé par la corde (évasion DD 13). Jusqu'à ce que ce grappin se termine, la cible est entravé. Le korred peut utiliser un action bonus pour libérer la cible, qui est également libérée si le korred meurt ou devient neutralisé.\nUne corde de cheveux korred a CA 20 et 20 points de vie. Il récupère 1 points de vie au début de chacun des virages du korred alors que la corde a au moins 1 points de vie et le korred est vivant. Si la corde tombe à 0 points de vie, elle est détruite."
+}

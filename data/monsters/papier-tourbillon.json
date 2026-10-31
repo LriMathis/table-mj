@@ -1,0 +1,42 @@
+{
+ "id": "papier-tourbillon",
+ "name": "Paper Whirlwind",
+ "type": "Nuée de taille très petite (Créature artificielle)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 24,
+ "hpFormula": "7d8-7",
+ "vitesse": "3 m, vol 15 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 8,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 15",
+ "languages": "—",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un petit corbeau. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Becs.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible dans l'espace de l'essaim. Touché : 7 (2d6) dégâts perforants, ou 3 (1d6) dégâts perforants si l'essaim a la moitié de son points de vie ou moins.",
+ "attacks": [
+  {
+   "name": "Becs",
+   "bonus": 4,
+   "damage": "2d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9b804468f7_monstre-papier-tourbillon.webp",
+ "notes": "",
+ "source": "Rise of Tiamat (5e.tools, traduction automatique)",
+ "aka": "Papier tourbillon",
+ "skills": "Perception +5",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

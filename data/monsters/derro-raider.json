@@ -1,0 +1,45 @@
+{
+ "id": "derro-raider",
+ "name": "Derro Raider",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 16,
+ "hpFormula": "3d6+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 5,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 7",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Résistance magique.** Le derro a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sensibilité à la lumière du soleil.** En plein soleil, le derro présente un désavantage sur jets d'attaque.",
+ "actionsText": "**Lance à crochet.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants. Si la cible est une créature moyenne ou plus petite, le derro peut choisir de n'infliger aucun dégâts, et la cible a plutôt l'état à terre.\n**Lancer le marteau.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m. Touché : 5 (1d6 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Lance à crochet",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Lancer le marteau",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/91307dc185_monstre-derro-raider.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Athlétisme +4, Discrétion +3"
+}

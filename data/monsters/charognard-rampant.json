@@ -1,0 +1,45 @@
+{
+ "id": "charognard-rampant",
+ "name": "Charognard rampant",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non-aligné",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "caNote": "armure naturelle",
+ "hp": 51,
+ "hpFormula": "6d10+18",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "skills": "Perception +3",
+ "senses": "vision dans le noir 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Odorat aiguisé.** Le charognard rampant est avantagé lors des tests de Sagesse (Perception) basés sur l'odorat.\n**Pattes d'araignée.** Le charognard rampant peut escalader les surfaces difficiles, y compris les plafonds la tête en bas, sans qu'un test de caractéristique ne soit nécessaire.",
+ "actionsText": "**Attaques multiples.** Le charognard rampant effectue deux attaques : une avec ses tentacules et une avec sa morsure.\n**Morsure.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 7 (2d4+2) dégâts perforants.\n**Tentacules.** *Attaque d'arme au corps à corps :* +8 pour toucher, allonge 3 m, une créature. *Touché :* 4 (1d4+2) dégâts de poison et la cible doit réussir un jet de sauvegarde de Constitution DD 13 pour ne pas être empoisonnée pendant 1 minute. La cible est paralysée pendant toute la durée d'action de ce poison. Elle peut retenter le jet de sauvegarde à la fin de chacun de ses tours et met fin à l'effet du poison dont elle est victime en cas de réussite.",
+ "portrait": "/data/images/3872ae407e_monstre-charognard-rampant.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 34 · image : Manuel des monstres p. 33",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacules",
+   "bonus": 8,
+   "damage": "1d4+2",
+   "type": "poison"
+  }
+ ]
+}

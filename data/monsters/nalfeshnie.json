@@ -1,0 +1,43 @@
+{
+ "id": "nalfeshnie",
+ "name": "Nalfeshnie",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 184,
+ "hpFormula": "16d10+96",
+ "vitesse": "6 m, vol 9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 19,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "saves": "CON +11, INT +9, SAG +6, CHA +7",
+ "resistances": "feu, foudre, froid",
+ "immunities": "poison",
+ "conditionImmunities": "effrayé, empoisonné",
+ "senses": "Vision véritable 36 m, Perception passive 11",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Résistance à la magie.** Le nalfeshnie a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration démoniaque.** Si le nalfeshnie meurt hors des Abysses, son corps se dissout en ichor et il en acquiert aussitôt un nouveau en revenant à la vie avec tous ses pv, quelque part dans les Abysses.",
+ "actionsText": "**Attaques multiples.** Le nalfeshnie effectue trois attaques de Saignée.\n**Saignée.** Corps à corps : +10, allonge 3 m. Touché : 16 (2d10 + 5) dégâts tranchants plus 11 (2d10) dégâts de force.\n**Téléportation.** Le nalfeshnie se téléporte d’un maximum de 36 m en un espace inoccupé qu’il voit.",
+ "bonusActions": "**Halo d’épouvante (recharge 5–6).** JS Sagesse : DD 15, chaque créature dans une Émanation de 4,50 m centrée sur le nalfeshnie. Échec : 28 (8d6) dégâts psychiques, et la cible subit l’état Effrayé pendant 1 minute ou jusqu’à ce qu’elle subisse des dégâts ou termine son tour sans avoir le nalfeshnie dans son champ de vision. Réussite : la cible est immunisée contre le Halo d’épouvante de ce nalfeshnie pendant 24 heures.",
+ "reactions": "**Poursuite.** Déclencheur : une autre créature que le nalfeshnie voit termine son déplacement dans un rayon de 36 m de lui. Conséquences : le nalfeshnie recourt à Téléportation, mais son espace de destination doit se trouver dans un rayon de 3 m de la créature à l’origine du déclencheur.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 10,
+   "damage": "2d10+5+2d10",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/1a145d53c4_monstre-nalfeshnie.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 56"
+}

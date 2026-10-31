@@ -1,0 +1,43 @@
+{
+ "id": "xanathar",
+ "name": "Xanathar",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 180,
+ "hpFormula": "19d10+76",
+ "vitesse": "0 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 22",
+ "languages": "profond, commun des profondeurs",
+ "traits": "**Matériel spécial.** Xanathar porte un Anneau d'invisibilité, un Anneau de barrière mentale et un anneau de résistance (force).\n**Cône antimagique.** L'œil central de Xanathar crée une zone d'antimagique, comme dans le sort Champ antimagie, dans un cône 45 m. Au début de chacun de ses virages, Xanathar décide de la façon dont le cône se présente et si le cône est actif. La zone fonctionne contre les propres rayons oculaires de Xanathar.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 14 (4d6) dégâts perforants.\n**Rayons oculaires.** Xanathar tire trois des rayons oculaires magiques suivants au hasard (reroulement des duplicatas), en choisissant une à trois cibles qu'il peut voir dans 36 m de lui:\n- **1. Rayon de charme** La créature visée doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être charmé par Xanatar pendant 1 heure, ou jusqu'à ce que Xanatar blesse la créature.\n- **2. Ray paralysant** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **3. Peur Ray** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **4. Rayon lent** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, la vitesse de la cible est réduite de moitié pendant 1 minute. En outre, la créature ne peut pas prendre de réactions, et elle peut prendre soit une action, soit une action bonus à son tour, pas les deux. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **5. Rayon d'énervation** La créature ciblée doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 36 (8d8) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **6. Rayon télékinétique** Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Force ou Xanathar le déplace vers 9 m dans n'importe quelle direction. C'est entravé par la poignée télékinétique du rayon jusqu'au début du prochain tour de Xanathar ou jusqu'à ce que Xanathar soit neutralisé. Si la cible est un objet pesant 150 kg ou moins qui n'est pas porté ou transporté, elle est déplacée vers 9 m dans n'importe quelle direction. Xanathar peut également exercer un contrôle fin sur les objets avec ce rayon, comme manipuler un outil simple ou ouvrir une porte ou un conteneur.\n- **7. Rayon de sommeil** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou s'endormir et rester inconscient pendant 1 minute. La cible se réveille si elle prend des dégâts ou si une autre créature prend une action pour la réveiller. Ce rayon n'a aucun effet sur les constructions et les morts-vivants.\n- **8. Rayon de pétrification** La créature ciblée doit faire un DD 16 jet de sauvegarde de Dextérité. Sur un sauvetage raté, la créature commence à se tourner vers la pierre et est entravé. Il doit répéter le jet de sauvegarde à la fin de son prochain tour. Sur un succès, l'effet se termine. En cas d'échec, la créature est pétrifié jusqu'à ce qu'elle soit libérée par le sort Restauration supérieure ou toute autre magie.\n- **9. Rayon de désintégration** Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 45 (10d8) dégâts de force. Si ce dégâts réduit la créature à 0 points de vie, son corps devient un tas de poussières grises fines. Si la cible est un objet non-magique ou plus petit ou une création de force magique, elle est désintégrée sans jet de sauvegarde. Si la cible est un objet énorme ou plus grand ou une création de force magique, ce rayon désintègre un cube de 3 m.\n- **10. Rayon de la mort** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 55 (10d10) dégâts nécrotiques. La cible meurt si le rayon la réduit à 0 points de vie.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "4d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/daef2329d5_monstre-xanathar.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +8, SAG +7, CHA +8",
+ "skills": "Perception +12",
+ "resistances": "Attaché à la résistance de l'anneau de force: force",
+ "conditionImmunities": "à terre",
+ "legendary": "Xanathar peut prendre 3 actions légendaires, en utilisant l'option Eye Ray ci-dessous. Il ne peut prendre qu'une action légendaire à la fois et seulement à la fin du tour d'une autre créature. Xanathar reprend ses actions légendaires au début de son tour.\n**Rayon oculaire.** Xanathar utilise un rayon oculaire aléatoire."
+}

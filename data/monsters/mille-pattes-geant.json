@@ -1,0 +1,37 @@
+{
+ "id": "mille-pattes-geant",
+ "name": "Mille-pattes géant",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 14,
+ "hp": 9,
+ "hpFormula": "2d6+2",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 5,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 8",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +4, allonge 1,50 m. Touché : 4 (1d4 + 2) dégâts perforants, et la cible subit l’état Empoisonné jusqu’au début du tour suivant du mille-pattes.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/14f3e8da76_monstre-mille-pattes-geant.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

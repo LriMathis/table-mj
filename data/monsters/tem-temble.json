@@ -1,0 +1,42 @@
+{
+ "id": "tem-temble",
+ "name": "Tem Temble",
+ "type": "Humanoïde (Kender)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 11,
+ "hpFormula": "2d6+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, Haut-parleur Kinders",
+ "traits": "**Compétences en bonus.** Tem est compétent en armes simples et en armure légère.\n**Détection orthographique.** caractéristique d'incantation de Tem est Sagesse (Spell save DD 12, +4 to attaques de sort). Elle a préparé les sorts druides suivants :\n- À volonté : Druidisme, Bouffée de poison\n- Niveau 1 (2 emplacements) : Mot de guérison",
+ "actionsText": "**Coq.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 12/48 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants, ou 4 (1d4 + 2) dégâts contondants si Tem a utilisé l'écharpe du hoopak pour faire une attaque variée.\n**C'est une blague..** Tem lance un barrage infuriant d'insultes sur une créature qu'elle peut voir au sein de 18 m d'elle. Si la cible peut entendre Tem, elle doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou avoir un désavantage sur jets d'attaque jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Coq",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant + contondant"
+  }
+ ],
+ "portrait": "/data/images/06681cc4fa_monstre-tem-temble.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "SAG +4",
+ "skills": "Perspicacité +4, Médecine +4, Perception +4, Escamotage +4, Discrétion +4",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Elusive.** Tem prend l'action Se désengager ou Se cacher."
+}

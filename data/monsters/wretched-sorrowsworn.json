@@ -1,0 +1,39 @@
+{
+ "id": "wretched-sorrowsworn",
+ "name": "Wretched Sorrowsworn",
+ "type": "Monstruosité",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 10,
+ "hpFormula": "4d6-4",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 12,
+  "CON": 9,
+  "INT": 5,
+  "SAG": 6,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Tactiques de paquets de déchets.** Le chagrinworn a avantage sur un jet d'attaque contre une créature si au moins un des alliés du chagrinworn est dans 1,50 m de la créature et l'allié n'est pas neutralisé. Les chagrins ont par ailleurs un désavantage sur jets d'attaque.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d10 + 1) dégâts perforants, et le chagrin se fixe à la cible. Tout en étant attaché, le chagrinsworn ne peut pas attaquer, et au début de chacun des tours du chagrinsworn, la cible prend 6 (1d10 + 1) dégâts nécrotiques.\nLes douleurs attachées se déplacent avec la cible chaque fois que la cible bouge, ne nécessitant aucun des mouvements des douleursworn. Les chagrins peuvent se détacher en dépensant 1,50 m de son mouvement à son tour. Une créature, y compris la cible, peut utiliser son action pour détacher le chagrin.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d10+1",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/9172699eb9_monstre-wretched-sorrowsworn.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "contondant, perforant, tranchant alors que dans la lumière sombre ou l'obscurité"
+}

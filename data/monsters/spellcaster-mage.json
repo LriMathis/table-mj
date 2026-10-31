@@ -1,0 +1,40 @@
+{
+ "id": "spellcaster-mage",
+ "name": "Spellcaster (Mage)",
+ "type": "Humanoïde (Mage)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 54,
+ "hpFormula": "12d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 18,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, plus un de votre choix",
+ "traits": "**Oreilles motorisées.** Chaque fois que l'épeautre jette un sort de l'école d'évocation en dépensant un emplacement de sort, l'épeautre peut ajouter son modificateur caractéristique d'incantation au jet de dégâts du sort ou, le cas échéant, au rouleau de guérison.\n**Potentiel sort mineur.** Le spellcaster peut ajouter son modificateur caractéristique d'incantation aux dégâts qu'il traite avec n'importe quel sort mineur.\n**Coulisse (Mage).** caractéristique d'incantation est Intelligence (spell save DD 16, +8 au toucher avec attaques de sort). L'orthographe a préparé les sorts suivants :\n- Sorts mineurs (à volonté) : Trait de feu, Lumière, Main de mage, Illusion mineure, Poigne électrique\n- Niveau 1 (4 emplacements) : Mains brûlantes, Bouclier, Sommeil\n- Niveau 2 (3 emplacements) : Sphère de feu, Invisibilité\n- Niveau 3 (3 emplacements) : Boule de feu, Vol\n- Niveau 4 (3 emplacements) : Métamorphose, Mur de feu\n- Niveau 5 (2 emplacements) : Cône de froid, Immobilisation de monstre\n- Niveau 6 (1 emplacements) : Chaîne d'éclairs",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants, ou 4 (1d8) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 4,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5fb92dfd11_monstre-spellcaster-mage.webp",
+ "notes": "",
+ "source": "Essentials Kit: Divine Contention (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "SAG +6",
+ "skills": "Arcanes +8, Investigation +8, Religion +8"
+}

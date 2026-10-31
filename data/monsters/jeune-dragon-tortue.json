@@ -1,0 +1,47 @@
+{
+ "id": "jeune-dragon-tortue",
+ "name": "Young Dragon Turtle",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 19,
+ "hp": 178,
+ "hpFormula": "17d12+68",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 10,
+  "CON": 19,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "aquatique, draconique",
+ "traits": "**Amphibie.** La tortue dragon peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** La tortue dragon fait une attaque de Bite et deux attaques de griffes.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 11 (1d12 + 5) dégâts perforants plus 6 (1d12) dégâts de foudre.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts tranchants.\n**Souffle de vapeur (Recharge 5-6).** La tortue du dragon exhale de la vapeur dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 42 (12d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Être sous l'eau n'accorde pas de résistance à ces dégâts.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "1d12+5",
+   "type": "perforant + foudre"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "1d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8834fde3f3_monstre-jeune-dragon-tortue.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Jeune dragon-tortue",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +8, SAG +5",
+ "resistances": "feu"
+}

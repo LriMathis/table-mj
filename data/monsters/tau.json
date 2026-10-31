@@ -1,0 +1,39 @@
+{
+ "id": "tau",
+ "name": "Tau",
+ "type": "Humanoïde (Cou des humains)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, terreux",
+ "traits": "**Dévotion sombre.** Tau a un avantage sur jet de sauvegarde contre charmé ou effrayé.\n**Détection orthographique.** Tau est un spellcaster de niveau 4. Son caractéristique d'incantation est Sagesse (save spell DD 11, +3 au toucher avec attaques de sort). Tau a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Lumière, Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Injonction, Blessure, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Arme spirituelle",
+ "actionsText": "**Multiattaques.** Tau fait deux attaques à la mêlée.\n**Club.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b204d7b471_monstre-tau.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "skills": "Tromperie +4, Persuasion +4, Religion +2"
+}

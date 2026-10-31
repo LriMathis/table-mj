@@ -1,0 +1,48 @@
+{
+ "id": "dragon-jeune-emerald",
+ "name": "Young Emerald Dragon",
+ "type": "Dragon (gemme)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 142,
+ "hpFormula": "15d10+60",
+ "vitesse": "12 m, creusement 9 m, vol 18 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 12,
+  "CON": 19,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 18",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Tunneler.** Le dragon peut creuser à la moitié de sa vitesse de creusement et laisser un tunnel 3 m dans son sillage.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants plus 3 (1d6) dégâts psychiques.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts tranchants.\n**Respiration désorientante (Recharge 5-6).** Le dragon exhale une vague de dissonance psychique dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde d'Intelligence. Sur une sauvegarde ratée, la créature prend 31 (9d6) dégâts psychiques, et jusqu'à la fin de son prochain tour, quand la créature fait un jet d'attaque ou un test de caractéristique, elle doit rouler un d6 et réduire le total par le nombre roulé. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts sans effets supplémentaires.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Main de mage (la main est invisible), Illusion mineure\n- 1/jour chacun : Détection des pensées, Invisibilité, Image silencieuse",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "perforant + psychique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "1d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/409f812db7_monstre-dragon-jeune-emerald.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon jeune Emerald",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +7, SAG +5, CHA +6",
+ "skills": "Arcanes +6, Tromperie +6, Perception +8, Discrétion +4",
+ "resistances": "feu, psychique"
+}

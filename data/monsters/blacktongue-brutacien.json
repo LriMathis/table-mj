@@ -1,0 +1,46 @@
+{
+ "id": "blacktongue-brutacien",
+ "name": "Blacktongue Bullywug",
+ "type": "Humanoïde (outrance)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "C'est vrai, c'est vrai.",
+ "traits": "**Amphibie.** Le bullywug peut respirer l'air et l'eau.\n**Parlez avec des grenouilles et des crapauds.** Le bullywug peut communiquer des concepts simples aux grenouilles et aux crapauds lorsqu'il parle à Bullywug.\n**Camouflage de swamp.** Le bullywug a l'avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans un terrain marécageux.\n**Leap debout.** Le long saut du bullywug est jusqu'à 6 m et son saut en hauteur est jusqu'à 3 m, avec ou sans démarrage.",
+ "actionsText": "**Multiattaques.** Le bullywug fait deux attaques à la mêlée : une avec sa morsure et une avec sa lance.\n**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts contondants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d6 + 1) dégâts perforants, ou 5 (1d8 + 1) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee. Une créature frappée par l'attaque de la lance d'une brute doit réussir sur une DD 13 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Une créature empoisonné de cette façon est également paralysé. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9f6c261084_monstre-blacktongue-brutacien.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Blacktongue brutacien",
+ "caNote": "Cache l'armure, Bouclier",
+ "skills": "Discrétion +3"
+}

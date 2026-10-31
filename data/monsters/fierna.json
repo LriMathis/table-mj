@@ -1,0 +1,45 @@
+{
+ "id": "fierna",
+ "name": "Fierna",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 20,
+ "hp": 367,
+ "hpFormula": "35d8+210",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 25,
+  "CON": 22,
+  "INT": 22,
+  "SAG": 22,
+  "CHA": 29
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 24",
+ "languages": "céleste, commun, draconique, infernal, télépathie 36 m",
+ "traits": "**Peur Aura.** Quand une créature commence son tour dans 36 m de Fierna, elle doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'à ce qu'elle quitte l'aura. Une créature qui réussit sur le jet de sauvegarde est immunisée contre cet effet pendant 1 heure.\n**Régénération fidendoise.** Fierna retrouve 20 points de vie au début de son tour. Si elle prend dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Fierna ne meurt que si elle commence son tour avec 0 points de vie et est incapable de se régénérer.\n**Résistance légendaire (3/jour).** Si Fierna échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Fierna a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Princesse de l'Enfer.** feu conjuré par Fierna devient Hellfire. Il ignore les résistances et immunités à dégâts de feu, inflige des dégâts doubles aux créatures vulnérables au feu ou dégâts nécrotiques, ne peut être éteint par aucun moyen, et est capable de fondre la pierre ou d'allumer des objets inflammables.",
+ "actionsText": "**Multiattaques.** Fierna fait trois attaques en utilisant Flame Blade, Mote of Flame, ou une combinaison des deux.\n**Lame de flamme.** Attaque de sort au corps à corps : +20 au toucher, allonge 1,50 m, une cible. Touché : 23 (4d6 + 9) dégâts de feu.\n**Mot de flamme.** Fierna cible une créature qu'elle peut voir dans le 27 m d'elle. La cible doit faire un DD 25 jet de sauvegarde de Dextérité, en prenant 22 (3d8 + 9) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Lame de flamme",
+   "bonus": 20,
+   "damage": "4d6+9",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/a37b94829c_monstre-fierna.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +15, CON +14, SAG +14, CHA +17",
+ "skills": "Acrobaties +15, Tromperie +25, Perspicacité +14, Intimidation +17, Perception +14, Persuasion +25",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "froid, feu, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "reactions": "**La couronne de flammes.** Quand elle est frappée par une attaque de mêlée et que Fierna peut voir son agresseur, elle se couvre dans Hellfire, et l'agresseur prend 13 (3d8) dégâts de feu.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, fierna peut entreprendre l'une des actions ci-après.\n**Lame.** Fierna fait une attaque à la Flamme.\n**Conjurez Hellfire (coûts 2 actions).** Fierna choisit un point qu'elle peut voir au sein de 45 m d'elle. Toutes les créatures dans une sphère 6 m -radius centrée sur ce point doivent faire un DD 25 jet de sauvegarde de Dextérité, en prenant 28 (8d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Appel d'offres (coûts 3 actions).** Fierna convoque un Diable épineux allié dans un espace inoccupé qu'elle peut voir."
+}

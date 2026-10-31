@@ -1,0 +1,43 @@
+{
+ "id": "abbe",
+ "name": "The Abbot",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m, vol 27 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 20,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Armes anges.** Les attaques d'armes de l'abbé sont magiques. Lorsque l'abbé frappe avec une arme, l'arme offre un 4d8 dégâts radiants supplémentaire (inclus dans l'attaque).\n**Résistance magique.** L'abbé a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** Le caractéristique d'incantation de l'Abbé est Charisme (Spell save DD 17). L'abbé peut innéement lancer les sorts suivants, ne nécessitant que des éléments verbaux:\n- À volonté : Détection du mal et du bien\n- 1/jour chacun : Communion, Rappel à la vie",
+ "actionsText": "**Multiattaques.** L'abbé fait deux attaques de mêlée.\n**Mace.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants plus 18 (4d8) dégâts radiants.\n**Touche de guérison (3/jour).** L'abbé touche une autre créature. La cible récupère magiquement 20 (4d8 + 2) points de vie et est libérée de toute malédiction, maladie, poison, cécité, ou surdité.\n**Modifier la forme.** L'abbé se polymorphe magiquement en un humanoïde ou une bête qui a une cote de défi égale ou inférieure à sa propre, ou de nouveau dans sa forme réelle. Il revient à sa vraie forme s'il meurt. Tout équipement qu'il porte ou qu'il transporte est absorbé ou porté par le nouveau formulaire (le choix de l'abbé).\nDans une nouvelle forme, l'abbé conserve ses statistiques de jeu et sa capacité à parler, mais ses modes de mouvement, Force, Dextérité, et sens spéciaux sont remplacés par ceux de la nouvelle forme, et il gagne toutes les statistiques et capacités (sauf les fonctionnalités de classe, les actions légendaires et les actions de lair) que la nouvelle forme a mais qu'elle manque.",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/50f4b94f3d_monstre-abbe.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Abbé",
+ "caNote": "armure naturelle",
+ "saves": "SAG +9, CHA +9",
+ "skills": "Perspicacité +9, Perception +9",
+ "resistances": "radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé"
+}

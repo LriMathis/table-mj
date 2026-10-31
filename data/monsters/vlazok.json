@@ -1,0 +1,44 @@
+{
+ "id": "vlazok",
+ "name": "Vlazok",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 9,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Vision globale.** Le vlazok ne peut pas être surpris.\n**Frénésie sanguine.** Le vlazok a avantage sur melee jets d'attaque contre toute créature qui n'a pas tout son points de vie.\n**Résistance magique.** Le vlazok a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Escalade des araignées.** Le vlazok peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Le vlazok fait deux attaques Gore.\n**Gore.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 23 (4d8 + 5) dégâts perforants, et si la cible est une créature grande ou plus petite, elle a l'état à terre.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 9,
+   "damage": "4d8+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/35198f8930_monstre-vlazok.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +9, CON +7",
+ "skills": "Perception +3",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "bonusActions": "**Stompe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature à terre. Touché : 27 (4d10 + 5) dégâts contondants."
+}

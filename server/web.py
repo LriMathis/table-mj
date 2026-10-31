@@ -1,11 +1,13 @@
 """HTTP server: pages, game master API (this computer only) and player API (network)."""
 import hashlib
+import hmac
 import json
 import mimetypes
 import os
 import re
 import sys
 import time
+from http.cookies import CookieError, SimpleCookie
 from http.server import BaseHTTPRequestHandler
 from urllib.parse import parse_qs, unquote, urlparse
 
@@ -30,7 +32,18 @@ class Handler(BaseHTTPRequestHandler):
     def is_local(self):
         if any(self.headers.get(h) for h in PROXY_HEADERS):
             return False
-        return self.client_address[0] in config.LOCAL
+        return self.client_address[0] in config.LOCAL or self.has_gm_key()
+
+    def has_gm_key(self):
+        """Another computer of the local network that opened the GM link once (--gm-lan): key kept in a cookie."""
+        if not config.GM_KEY:
+            return False
+        jar = SimpleCookie()
+        try:
+            jar.load(self.headers.get("Cookie") or "")
+        except CookieError:
+            return False
+        return "gmkey" in jar and hmac.compare_digest(jar["gmkey"].value, config.GM_KEY)
 
     def send(self, code, body=b"", ctype="application/json; charset=utf-8", extra=None):
         if isinstance(body, (dict, list)):
@@ -71,7 +84,8 @@ class Handler(BaseHTTPRequestHandler):
             ctype += "; charset=utf-8"
         with open(path, "rb") as f:
             data = f.read()
-        self.send(200, data, ctype, extra={"Cache-Control": "max-age=3600"} if cache else None)
+        # app files: always revalidated, so an update of the code reaches open browsers
+        self.send(200, data, ctype, extra={"Cache-Control": "max-age=3600" if cache else "no-cache"})
 
     def wrong_campaign(self):
         h = self.headers.get("X-Campaign")
@@ -91,6 +105,12 @@ class Handler(BaseHTTPRequestHandler):
         local = self.is_local()
         web = config.WEB
         if p in ("/", "/index.html"):
+            key = (q.get("gm") or [""])[0]
+            if key and config.GM_KEY and not any(self.headers.get(h) for h in PROXY_HEADERS) \
+                    and hmac.compare_digest(key, config.GM_KEY):
+                # GM link opened on another computer: the key is kept in a cookie, then removed from the address
+                return self.send(302, b"", extra={"Location": "/", "Set-Cookie":
+                                 f"gmkey={config.GM_KEY}; Path=/; HttpOnly; SameSite=Strict; Max-Age=31536000"})
             if not local:
                 return self.redirect("/player")
             return self.serve_file(os.path.join(web, "gm"), "index.html")
@@ -104,6 +124,11 @@ class Handler(BaseHTTPRequestHandler):
             return self.serve_file(os.path.join(web, "shared"), p[len("/shared/"):])
         if p.startswith("/data/images/"):
             return self.serve_file(storage.shared_dir("images"), p[len("/data/images/"):], cache=True)
+        if p.startswith("/data/catalog/"):   # item catalog (equipment, magic items): readable by players too
+            return self.serve_file(storage.shared_dir("catalog"), p[len("/data/catalog/"):])
+        if p == "/api/items":   # the GM's own items (players see them through their inventory)
+            with LOCK:
+                return self.send(200, storage.load_dir(storage.shared_dir("items")))
         me = (q.get("char") or [""])[0]
         if p == "/api/rev":
             with LOCK:
@@ -126,6 +151,7 @@ class Handler(BaseHTTPRequestHandler):
                 cid = storage.active()
                 return self.send(200, {"rev": storage.data_rev(), "characters": storage.load_chars(),
                                        "monsters": storage.load_mons(), "campaign": storage.load_camp(),
+                                       "items": storage.load_dir(storage.shared_dir("items")),
                                        "campaignMeta": storage.meta(cid), "sheetsDir": config.PATHS["sheets"],
                                        "dataDir": config.PATHS["data"]})
         if p == "/api/info":
@@ -166,7 +192,7 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send(200, {"ok": True})
             if self.wrong_campaign():
                 return self.send(409, {"error": t("The active campaign has changed."), "camp": storage.active()})
-            m = re.fullmatch(r"/api/(character|monster)/([^/]+)", p)
+            m = re.fullmatch(r"/api/(character|monster|item)/([^/]+)", p)
             if m and safe_id(m.group(2)):
                 obj["id"] = m.group(2)
                 if m.group(1) == "character":
@@ -174,7 +200,8 @@ class Handler(BaseHTTPRequestHandler):
                         merged = storage.merge_char(obj, base)
                     storage.write_json(storage.char_path(m.group(2)), obj)
                 else:
-                    storage.write_json(os.path.join(storage.shared_dir("monsters"), m.group(2) + ".json"), obj)
+                    folder = "monsters" if m.group(1) == "monster" else "items"
+                    storage.write_json(os.path.join(storage.shared_dir(folder), m.group(2) + ".json"), obj)
             elif p == "/api/campaign":
                 merged = storage.merge_campaign(obj, base if base is not None else 10 ** 30)
                 storage.save_camp(obj)
@@ -194,11 +221,11 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send(200, {"ok": True}) if ok else self.error(409, "Cannot delete the active campaign.")
             if self.wrong_campaign():
                 return self.error(409, "The active campaign has changed.")
-            m = re.fullmatch(r"/api/(character|monster)/([^/]+)", p)
+            m = re.fullmatch(r"/api/(character|monster|item)/([^/]+)", p)
             if not m or not safe_id(m.group(2)):
                 return self.error(404, "Unknown request.")
             path = storage.char_path(m.group(2)) if m.group(1) == "character" else \
-                os.path.join(storage.shared_dir("monsters"), m.group(2) + ".json")
+                os.path.join(storage.shared_dir("monsters" if m.group(1) == "monster" else "items"), m.group(2) + ".json")
             try:
                 os.remove(path)
             except OSError:
@@ -243,6 +270,12 @@ class Handler(BaseHTTPRequestHandler):
                 code, res = players.add_ping(d, who)
                 return self.send(code, {"ok": code == 200} if code == 200 else {"error": res})
             # --- game master only
+            if p == "/api/deck/fx":
+                code, res = players.gm_deck_fx(d)
+                return self.send(code, res)
+            if p == "/api/shop/resolve":
+                code, res = players.gm_shop_resolve(d)
+                return self.send(code, res)
             if p == "/api/import":
                 names = d.get("names")
                 res = campaigns.do_import(names=set(names) if isinstance(names, list) else None, force=bool(d.get("force")))

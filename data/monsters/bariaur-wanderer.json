@@ -1,0 +1,53 @@
+{
+ "id": "bariaur-wanderer",
+ "name": "Bariaur Wanderer",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "céleste, commun",
+ "traits": "**Sens du portail.** Le bariaur peut sentir la présence de portails en 9 m de lui-même, y compris des portails inactifs, et connaît instinctivement la destination de chacun. Le bariaur connaît la distance et la direction du dernier portail qu'il a utilisé tant qu'il est sur le même plan.",
+ "actionsText": "**Multiattaques.** Le bariaur fait deux attaques de Javelin ou Shortbow Barbed.\n**Javelin Barbé.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 9 (1d10 + 4) dégâts perforants. Si la cible est une créature, sa vitesse est réduite de 3 m jusqu'au prochain tour du bariaur.\n**Ram.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants. Si le bariaur a déplacé au moins 6 m droit vers la cible immédiatement avant le coup, la cible prend un 10 (3d6) dégâts contondants supplémentaire, et la cible doit réussir sur un DD 14 jet de sauvegarde de Force ou avoir l'état à terre.\n**Saubèche.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, plus 4 (1d8) dégâts perforants si la cible n'a pas tous ses points de vie.\n**Détection orthographique.** Le bariaur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation :\n- À volonté : Lumières dansantes, Druidisme\n- 1/jour chacun : Baies nourricières, Passage sans trace, Don des langues",
+ "attacks": [
+  {
+   "name": "Javelin Barbé",
+   "bonus": 6,
+   "damage": "1d10+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Ram",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8772cc4f5a_monstre-bariaur-wanderer.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "FOR +6, DEX +4",
+ "skills": "Athlétisme +6, Perception +4, Discrétion +4, Survie +6",
+ "bonusActions": "**Leap puissant.** Le bariaure saute à une distance jusqu'à sa vitesse de marche."
+}

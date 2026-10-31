@@ -1,0 +1,40 @@
+{
+ "id": "horrid-plante",
+ "name": "Horrid Plant",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 6,
+ "hp": 42,
+ "hpFormula": "5d10+15",
+ "vitesse": "1,50 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 3,
+  "CON": 17,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (can't see beyond this radius), Perception passive 10",
+ "languages": "—",
+ "traits": "**Variétés végétales horrides.** Une plante horride se présente dans l'une des trois variétés (choisir ou rouler une d6): 1-2, buveur de rosée; 3-4, pourpre fleur; ou 5-6, scie à éclats. Ce formulaire détermine certains traits dans ce bloc de statistiques.\n**Fausse apparence.** Si l'horrible usine est immobile au début du combat, elle a un avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé la plante horrible se déplacer ou agir, cette créature doit réussir sur une DD 18 test d'Intelligence (Nature) pour discerner que la plante horrible n'est pas une plante ordinaire.",
+ "actionsText": "**Multiattaques.** L'horrible plante fait deux attaques du Tendril.\n**Tendril.** Attaque d'arme au corps à corps : +6 au toucher, allonge 9 m, une cible. Touché : 7 (2d6) dégâts contondants. Si la cible est une créature énorme ou plus petite, elle a l'état agrippé (évasion DD 14), et l'horrible plante peut tirer la cible jusqu'à 7,50 m plus près de lui. Jusqu'à la fin du grappin, la cible a l'état entravé, et l'horrible plante ne peut pas utiliser la même vrille sur une autre cible. L'horrible plante a deux vrilles.",
+ "attacks": [
+  {
+   "name": "Tendril",
+   "bonus": 6,
+   "damage": "2d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/9b48161bf3_monstre-horrid-plante.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Horrid plante",
+ "conditionImmunities": "aveuglé, assourdi",
+ "bonusActions": "**Sapp Squirt (Blossom pur seulement).** L'horrible plante cible une créature qu'elle peut voir dans 4,50 m de lui-même. La cible doit réussir sur un DD 14 jet de sauvegarde de Dextérité ou prendre 28 (8d6) dégâts d'acide et devenir couverte de sève acide. Cette sève dure 1 minute ou jusqu'à ce qu'une créature utilise son action pour racler la sève elle-même ou une autre créature qu'elle peut atteindre. Une créature couverte de sève prend 14 (4d6) dégâts d'acide au début de chacun de ses tours.\n**Feuilles craquées (Sciure de scapper seulement).** Les créatures dans 3 m de l'horrible usine et non derrière 3 doivent faire un DD 14 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts tranchants sur un sauvegarde raté ou la moitié de ces dégâts sur un succès.\n**Tendril Vampirique (Dew Drinker seulement).** une créature agrippé par l'horrible usine doit faire un DD 13 jet de sauvegarde de Constitution, en prenant 10 (3d6) dégâts nécrotiques sur un sauvegarde raté ou la moitié de ces dégâts sur un succès. La maximum de points de vie de la cible est réduite d'une quantité égale aux dégâts subis, et l'horrible plante reprend points de vie égale à cette quantité. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0."
+}

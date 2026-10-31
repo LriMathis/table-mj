@@ -1,0 +1,47 @@
+{
+ "id": "cairnwight",
+ "name": "Cairnwight",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 19,
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le cairnwight fait deux attaques Slam ou deux attaques Rock, et il utilise son toucher pétrifiant si disponible.\n**Clamer.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 22 (3d10 + 6) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +10 au toucher, portée 18/72 m., une cible. Touché : 19 (3d8 + 6) dégâts contondants, et la cible doit réussir sur un DD 17 jet de sauvegarde de Force ou avoir l'état à terre.\n**Touche pétrifiant (Recharge 5-6).** Le cairnwight touche une créature qu'il peut voir en lui-même. La cible doit réussir sur un DD 17 jet de sauvegarde de Constitution ou prendre 26 (4d12) dégâts de force et avoir l'état entravé alors qu'elle commence à tourner en pierre. La cible touchée doit répéter le jet de sauvegarde à la fin de son prochain tour. Sur une sauvegarde réussie, l'effet se termine sur la cible. Lors d'une sauvegarde ratée, la cible a l'état pétrifié au lieu de l'état entravé.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "3d10+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 10,
+   "damage": "3d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/02c659cb07_monstre-cairnwight.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +9, SAG +5",
+ "skills": "Athlétisme +10, Perception +5, Discrétion +8",
+ "conditionImmunities": "charmé, épuisement, effrayé, pétrifié"
+}

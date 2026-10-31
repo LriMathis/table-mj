@@ -1,0 +1,39 @@
+{
+ "id": "bulette-pup",
+ "name": "Bulette Pup",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m, creusement 6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 8,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 9 m, Perception des vibrations 18 m, Perception passive 14",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Morceau.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 14 (2d10 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6f41eacd9d_monstre-bulette-pup.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "skills": "Perception +4",
+ "bonusActions": "**Naissance.** La boulette saute jusqu'à 9 m en dépensant 3 m de mouvement."
+}

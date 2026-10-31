@@ -1,0 +1,42 @@
+{
+ "id": "etreinte-de-la-mort",
+ "name": "Death Embrace",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 13,
+ "hp": 147,
+ "hpFormula": "14d12+56",
+ "vitesse": "0 m, nage 6 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 15,
+  "CON": 19,
+  "INT": 6,
+  "SAG": 9,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 9",
+ "languages": "—",
+ "traits": "**Tendrins pétrifiants.** Toute créature qui commence son tour dans l'espace de l'étreinte de mort doit faire un DD 16 jet de sauvegarde de Constitution. Sur un jet de sauvegarde échoué, la créature est entravé. Une créature entravé de cette façon doit répéter la jet de sauvegarde à la fin de son prochain tour, devenant pétrifié sur une jet de sauvegarde défaillante ou mettant fin à l'effet sur une réussite. l'état pétrifié dure jusqu'à ce que l'effet soit terminé par un sort de restauration plus grand ou une magie similaire.\n**Bobine.** Au début de chacun de ses virages, l'étreinte de la mort peut tirer chaque créature qu'elle est en train de battre vers elle jusqu'à 6 m (aucune action requise).\n**Respiration d'eau.** L'étreinte de la mort ne peut respirer que sous l'eau.",
+ "actionsText": "**Multiattaques.** L'étreinte de la mort fait deux attaques du Tentacle.\n**Tentacle.** Attaque d'arme au corps à corps : +10 au toucher, allonge 18 m, une cible. Touché : 13 (2d6 + 6) dégâts perforants plus 11 (2d10) dégâts psychiques. Si la cible est grande ou plus petite, elle est également agrippé (évasion DD 16). L'étreinte de la mort a six tentacules, qui peuvent chacun battre une cible.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 10,
+   "damage": "2d6+6",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/aee4a63f4e_monstre-etreinte-de-la-mort.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Étreinte de la mort",
+ "caNote": "armure naturelle",
+ "saves": "FOR +10, SAG +3",
+ "conditionImmunities": "épuisement, paralysé, pétrifié, à terre",
+ "reactions": "**Bouclier corporel.** Lorsque l'étreinte de la mort est frappée par une attaque, une créature l'étreinte de la mort est en train de se battre (choisie par l'étreinte de la mort) prend plutôt les dégâts."
+}

@@ -1,0 +1,43 @@
+{
+ "id": "gobelin-psi-brawler",
+ "name": "Goblin Psi Brawler",
+ "type": "Aberration (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 31,
+ "hpFormula": "7d6+7",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 17,
+  "CON": 12,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, gobelin, télépathie 9 m",
+ "traits": "**Perte mentale.** Quand le goblin meurt, son énergie mentale pent-up explose dans une explosion psychique. Chaque créature de 1,50 m doit réussir sur un DD 13 jet de sauvegarde d'Intelligence ou prendre 5 (2d4) dégâts psychiques.\n**Fortitude mentale.** Le goblin a un avantage sur jet de sauvegarde contre les effets qui le rendraient avoir la condition charmé ou effrayé.",
+ "actionsText": "**Multiattaques.** Le goblin fait deux attaques frappe à mains nues.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts contondants plus 3 (1d6) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/de07726ebf_monstre-gobelin-psi-brawler.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Gobelin Psi Brawler",
+ "caNote": "Armure en cuir Studded",
+ "saves": "INT +5, SAG +4",
+ "skills": "Discrétion +7",
+ "resistances": "psychique",
+ "bonusActions": "**Échappement de Nimble.** Le goblin prend l'action Se désengager ou Se cacher.\n**Pelle télekinétique.** Le goblin cible une créature il peut voir en lui-même 9 m avec une poussée de force télékinétique. La cible doit réussir sur un DD 13 jet de sauvegarde de Force ou avoir l'état à terre."
+}

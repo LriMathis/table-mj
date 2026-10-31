@@ -1,0 +1,47 @@
+{
+ "id": "jelayne",
+ "name": "Jelayne",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 8,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Saubèche.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e2e5ccd12b_monstre-jelayne.webp",
+ "notes": "",
+ "source": "The Orrery of the Wanderer (5e.tools, traduction automatique)",
+ "caNote": "déchets d'armures",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

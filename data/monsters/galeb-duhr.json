@@ -1,0 +1,41 @@
+{
+ "id": "galeb-duhr",
+ "name": "Galeb Duhr",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 16,
+ "caNote": "armure naturelle",
+ "hp": 85,
+ "hpFormula": "9d8+45",
+ "vitesse": "4,50 m (9 m quand il roule, 18 m quand il roule sur une pente descendante)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "resistances": "contondants, perforants et tranchants infligés par des attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné, épuisé, paralysé, pétrifié",
+ "senses": "perception des vibrations 18 m, vision dans le noir 18 m, Perception passive 11",
+ "languages": "terreux",
+ "traits": "**Faux-semblant.** Aussi longtemps que le galeb duhr reste immobile, il est impossible de le distinguer d'un rocher ordinaire.\n**Charge en roulant.** Si le galeb duhr se déplace en roulant tout droit sur une distance minimale de 6 mètres vers une cible puis la touche avec une attaque de coup lors du même tour, la cible subit 7 (2d6) dégâts contondants supplémentaires. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Force DD 16 pour ne pas être jetée à terre.",
+ "actionsText": "**Coup.** *Attaque d'arme au corps à corps :* +8 pour toucher, allonge 1,50 m, une cible. *Touché :* 12 (2d6+5) dégâts contondants.\n**Animation de rochers (1/jour).** Le galeb duhr anime par magie jusqu'à deux rochers situés à 18 mètres ou moins de lui dans son champ de vision. Un rocher possède les mêmes statistiques que le galeb duhr, sauf qu'il a une Intelligence et un Charisme de 1, qu'il ne peut pas être charmé ni terrorisé et qu'il ne dispose pas de cette option d'action. Un rocher reste animé tant que le galeb duhr maintient sa concentration, jusqu'à un maximum d'une minute (comme s'il se concentrait sur un sort).",
+ "portrait": "/data/images/7c8caa76af_monstre-galeb-duhr.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 139 · image : Manuel des monstres p. 138",
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "contondant"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "glasswork-golem",
+ "name": "Glasswork Golem",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 36,
+ "hpFormula": "8d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Si le golem est intégré dans une fenêtre et immobile au début du combat, il a avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte golem, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que le golem est animé.\n**Formulaire immuable.** Le golem est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Régénération.** Le golem retrouve 10 points de vie au début de son tour. Si le golem prend du bludgeoning ou dégâts de tonnerre, ce trait ne fonctionne pas au début du tour suivant du golem. Le golem n'est détruit que s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Nature inhabituelle.** Le golem n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le golem fait deux attaques de Glass Sword.\n**Épée de verre.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Épée de verre",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a7dda23bbb_monstre-glasswork-golem.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +2, CON +2, SAG +2",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Éblouissant (Recharge 5-6).** La lumière magique et colorée jaillit du golem dans un cône 4,50 m. Chaque créature dans le cône doit réussir sur un DD 10 jet de sauvegarde de Constitution ou être aveuglé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès."
+}

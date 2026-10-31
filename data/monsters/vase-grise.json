@@ -1,0 +1,40 @@
+{
+ "id": "vase-grise",
+ "name": "Vase grise",
+ "type": "Vase",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 9,
+ "hp": 22,
+ "hpFormula": "3d8+9",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 6,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 2
+ },
+ "skills": "Discrétion +2",
+ "resistances": "acide, feu, froid",
+ "conditionImmunities": "à terre, agrippé, assourdi, aveuglé, charmé, effrayé, entravé, épuisement",
+ "senses": "Vision aveugle 18 m, Perception passive 8",
+ "languages": "aucune",
+ "traits": "**Informe.** La vase peut se déplacer dans un espace étroit d’une largeur minimale de 2,5 cm sans dépense supplémentaire en déplacement.\n**Masse corrosive.** Les projectiles non magiques sont détruits dès qu’ils ont touché la vase et infligé le moindre dégât. Toute arme non magique qui inflige des dégâts à la vase en la touchant physiquement subit aussitôt un malus cumulatif de −1 aux jets d’attaque. L’arme est détruite si ce malus atteint −5. On peut annuler ce malus en lançant le sort *réparation* sur l’arme. En 1 round, la vase peut ronger du métal ou du bois non magique sur 5 cm d’épaisseur.",
+ "actionsText": "**Pseudopode.** Corps à corps : +3, allonge 1,50 m. Touché : 10 (2d8 + 1) dégâts d’acide. Toute armure non magique portée par la cible subit un malus cumulatif de −1 à la CA qu’elle confère. L’armure est détruite si ce malus réduit sa CA à 10. On peut annuler ce malus en lançant le sort *réparation* sur l’armure.",
+ "attacks": [
+  {
+   "name": "Pseudopode",
+   "bonus": 3,
+   "damage": "2d8+1",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/fd07b6d9df_monstre-vase-grise.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 299"
+}

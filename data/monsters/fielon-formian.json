@@ -1,0 +1,50 @@
+{
+ "id": "fielon-formian",
+ "name": "Fiendish Formian",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "Formien",
+ "traits": "**Mensonge de la vie.** Tous les formiens fiendes de 1,5 km d'Ekengarik peuvent communiquer par télépathie entre eux et Ekengarik.",
+ "actionsText": "**Multiattaques.** Le fiendre formien fait deux attaques de la griffe.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants et la cible doit faire un DD 14 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, le score Force de la cible est réduit de 1. La cible meurt si cela réduit sa Force à 0. Sinon, la réduction dure jusqu'à ce que la cible termine un repos court ou long.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/684a5d78f4_monstre-fielon-formian.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Fiélon Formian",
+ "caNote": "armure naturelle",
+ "saves": "FOR +6",
+ "skills": "Acrobaties +4, Discrétion +4",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "froid, feu, poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

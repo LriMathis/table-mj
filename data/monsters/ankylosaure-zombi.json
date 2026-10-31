@@ -1,0 +1,41 @@
+{
+ "id": "ankylosaure-zombi",
+ "name": "Ankylosaurus Zombie",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 68,
+ "hpFormula": "8d12+16",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 9,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 6,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Fortitude non-morte.** Si les dégâts réduisent le zombie à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5+ les dégâts pris, à moins que les dégâts soient rayonnants ou d'un coup critique. Sur un succès, le zombie tombe à 1 points de vie à la place.",
+ "actionsText": "**Queue.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible Touché : 18 (4d6 + 4) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Queue",
+   "bonus": 6,
+   "damage": "4d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f0905f2b5a_monstre-ankylosaure-zombi.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Ankylosaure zombi",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

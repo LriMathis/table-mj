@@ -1,0 +1,42 @@
+{
+ "id": "sunbird",
+ "name": "Sunbird",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 17,
+ "hp": 279,
+ "hpFormula": "18d20+90",
+ "vitesse": "6 m, vol 36 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "Chouette géante, C'est commun, mais il ne peut pas le dire.",
+ "traits": "**Throès de la mort.** Lorsque l'oiseau solaire meurt, il explose, et chaque créature dans 9 m de lui doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 42 (12d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. L'explosion enflamme des objets inflammables dans cette zone qui ne sont ni portés ni transportés. Le corps de l'oiseau solaire se transforme en cendres, mais il reste un œuf là où se trouvait l'oiseau solaire.\n**feu Aura.** Au début de chaque tour de l'oiseau solaire, chaque créature de 1,50 m prend 11 (2d10) dégâts de feu et des objets inflammables dans la zone qui ne sont pas portés ou transportés en feu. Une créature qui touche l'oiseau solaire ou la frappe avec une attaque de mêlée alors qu'à l'intérieur de 1,50 m il prend 11 (2d10) dégâts de feu. L'aura apporte également une lumière lumineuse dans un rayon de 18 m et une lumière dim pour un 18 m supplémentaire.\n**Volée.** L'oiseau solaire ne provoque pas d'attaques d'opportunité quand il vole hors de la portée d'un ennemi.\n**Audition et vue.** L'oiseau solaire a un avantage sur tests de Sagesse (Perception) qui dépendent de l'ouïe ou de la vue.",
+ "actionsText": "**Multiattaques.** L'oiseau solaire fait deux attaques de talon.\n**Talon.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d6 + 9) dégâts tranchants plus 14 (4d6) dégâts de feu, et la cible est agrippé (évasion DD 18). Jusqu'à ce que ce grappin se termine, la cible est entravé, et l'oiseau solaire ne peut attaquer une autre cible avec ce talon. Une créature agrippé prend 11 (2d10) dégâts de feu au début de chacun des virages de l'oiseau solaire.",
+ "attacks": [
+  {
+   "name": "Talon",
+   "bonus": 14,
+   "damage": "2d6+9",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/ea4020e148_monstre-sunbird.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +10, SAG +7, CHA +7",
+ "skills": "Perception +7",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu"
+}

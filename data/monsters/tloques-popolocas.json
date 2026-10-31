@@ -1,0 +1,47 @@
+{
+ "id": "tloques-popolocas",
+ "name": "Tloques-Popolocas",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Régénération.** Le vampire retrouve 10 points de vie au début de son tour s'il a au moins 1 points de vie et n'est pas dans la lumière du soleil ou l'eau courante. Si le vampire prend dégâts radiants ou des dégâts de l'eau bénite, ce trait ne fonctionne pas au début du prochain tour du vampire.\n**Escalade des araignées.** Le vampire peut escalader des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Faiblesses du vampire.** Le vampire a les défauts suivants:\n- **Interdiction** Le vampire ne peut entrer dans une résidence sans une invitation de l'un des occupants.\n- **Harcelé par l'eau courante** Le vampire prend 20 dégâts d'acide quand il finit son tour dans l'eau courante.\n- **Attrapez le cœur** Le vampire est détruit si une arme perçante en bois est jetée dans son cœur alors qu'il est neutralisé dans son lieu de repos.\n- **Hypersensibilité à la lumière du soleil** Le vampire prend 20 dégâts radiants quand il commence son tour dans la lumière du soleil. En plein soleil, il présente un désavantage sur jets d'attaque et tests de caractéristique.\n**Changeur de forme.** Si le vampire n'est pas dans la lumière du soleil ou l'eau courante, il peut utiliser son action pour Polymorpher en une petite chauve-souris, ou revenir dans sa forme réelle.\nBien que sous forme de chauve-souris, le vampire ne peut pas parler, sa vitesse de marche est 1,50 m, et il a une vitesse de vol de 9 m. Ses statistiques, autres que sa taille et sa vitesse, sont inchangées. Tout ce qu'il porte se transforme avec, mais rien de ce qu'il porte ne le fait. Il revient à sa vraie forme s'il meurt.\n**Découpe intérieure.** Tloques peut lancer Immobilisation de personne (DD 14) à volonté, ne nécessitant aucun composant, mais sa cible doit pouvoir le voir.\n- À volonté : Immobilisation de personne",
+ "actionsText": "**Multiattaques.** Le vampire fait deux attaques.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 8 (2d4 + 3) dégâts tranchants. Au lieu d'infliger des dégâts, le vampire peut faire face à la cible, échapper à DD 13.\n**Enfants de la nuit (1/jour).** Le vampire appelle magiquement les essaims 2d4 de chauves-souris, à condition que le soleil ne soit pas levé. Les créatures appelées arrivent en 1d4 rounds, agissant comme alliés du vampire et obéissant à ses commandements parlés. Les bêtes restent pendant 1 heure, jusqu'à ce que le vampire meurt, ou jusqu'à ce que le vampire les rejette comme un action bonus.\n**Axe Berserker de Tloques +2.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "2d4+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Axe Berserker de Tloques +2",
+   "bonus": 5,
+   "damage": "1d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/184019f623_monstre-tloques-popolocas.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, SAG +3",
+ "skills": "Perception +3, Discrétion +6",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques"
+}

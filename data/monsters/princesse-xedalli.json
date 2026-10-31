@@ -1,0 +1,42 @@
+{
+ "id": "princesse-xedalli",
+ "name": "Princess Xedalli",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 103,
+ "hpFormula": "23d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 21,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "céleste, commun, draconique, elfique",
+ "traits": "**Ancêtre fécale.** Xedalli a un avantage sur jet de sauvegarde il fait d'éviter ou d'arrêter l'état charmé sur lui-même, et la magie ne peut pas le mettre au sommeil.\n**Matériel spécial.** Xedalli porte une combinaison de Mailles elfiques.\n**Nature inhabituelle.** Xedalli n'a pas besoin de dormir.",
+ "actionsText": "**Multiattaques.** Xedalli fait deux attaques Scimitar et utilise radiant Beam (si disponible).\n**Scimitar.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants plus 10 (3d6) dégâts radiants.\n**Poutre radiant (3/jour).** Un rayon d'éclat magique ressort de la main de Xedalli dans une ligne longue 1,50 m large. Chaque créature dans la ligne doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 18 (4d8) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Xedalli lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation :\n- 1/jour chacun : Vol, Double illusoire, Communication à distance",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/98e43e567c_monstre-princesse-xedalli.webp",
+ "notes": "",
+ "source": "Light of Xaryxis (5e.tools, traduction automatique)",
+ "aka": "Princesse Xedalli",
+ "caNote": "Mailles elfiques",
+ "saves": "INT +8, SAG +7, CHA +7",
+ "skills": "Arcanes +8, Tromperie +7, Perspicacité +7, Persuasion +7",
+ "bonusActions": "**Étape de lumière (3/jour).** Xedalli téléporte magiquement jusqu'à 9 m, avec tout ce qu'il porte ou porte, dans un espace inoccupé qu'il peut voir.\n**Invoquer le Dragon solaire (1/jour).** Xedalli a une chance de 50 pour cent d'invoquer un Dragon jeune solar par magie. Un dragon convoqué apparaît dans un espace inoccupé que le convocateur peut voir, agit de sa propre initiative, et est un allié de son convocateur. Il reste 10 minutes, jusqu'à ce qu'il ou son convocateur décède, ou jusqu'à ce que son convocateur le rejette comme une action."
+}

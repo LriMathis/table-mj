@@ -1,0 +1,54 @@
+{
+ "id": "thessalhydra",
+ "name": "Thessalhydra",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 69,
+ "hpFormula": "6d12+30",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 20,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La thessalhydre fait une attaque de crampons et une Flirry de Bites.\n**Fluide de Bites.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 10 (4d4) dégâts de poison.\n**Maw.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d10 + 4) dégâts perforants plus 5 (1d10) dégâts d'acide.\n**Pincer de queue.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 10 (1d12 + 4) dégâts tranchants, et la cible est agrippé. En action, la cible peut échapper au grappin en réussissant sur un DD 14 Force (Athlétisme) ou test de Dextérité (Acrobaties) (son choix). Jusqu'à ce que ce grappin se termine, la thessalhydra ne peut pas utiliser son épingle à queue.\n**acide Saliva (Recharge 5-6).** La thessalhydre crache une gobe d'acide à un point qu'elle peut voir à l'intérieur de 9 m. Chaque créature dans 3 m de ce point doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 18 (4d8) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Fluide de Bites",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Maw",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Pincer de queue",
+   "bonus": 7,
+   "damage": "1d12+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/46c550538a_monstre-thessalhydra.webp",
+ "notes": "",
+ "source": "Hunt for the Thessalhydra (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4",
+ "immunities": "acide",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, étourdi",
+ "legendary": "**Actions légendaires (2/round).** Aussitôt après le tour d'une autre créature, thessalhydra peut entreprendre l'une des actions ci-après.\n**Détecter.** La thessalhydre fait un test de Sagesse (Perception) avec avantage.\n**Raquette de queue.** La Thessalhydre fait une attaque de la queue."
+}

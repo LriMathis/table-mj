@@ -1,0 +1,40 @@
+{
+ "id": "brutacien-guerrier",
+ "name": "Bullywug Warrior",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "C'est vrai, c'est vrai., commun",
+ "traits": "**Amphibie.** Le bullywug peut respirer l'air et l'eau.\n**Parlez avec des grenouilles et des crapauds.** Le bullywug peut communiquer des concepts simples aux grenouilles et aux crapauds lorsqu'il parle à Bullywug.",
+ "actionsText": "**Rapier infidèle.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts perforants plus 2 (1d4) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Rapier infidèle",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/e35fbdec7b_monstre-brutacien-guerrier.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Brutacien guerrier",
+ "skills": "Discrétion +4",
+ "bonusActions": "**Naissance.** Le bullywug peut sauter jusqu'à 9 m en dépensant 3 m de mouvement."
+}

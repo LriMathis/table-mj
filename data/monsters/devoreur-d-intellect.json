@@ -1,0 +1,40 @@
+{
+ "id": "devoreur-d-intellect",
+ "name": "Dévoreur d'intellect",
+ "type": "Aberration",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 21,
+ "hpFormula": "6d4+6",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "skills": "Discrétion +4, Perception +2",
+ "resistances": "contondants, perforants et tranchants infligés par des attaques non magiques",
+ "conditionImmunities": "aveuglé",
+ "senses": "vision aveugle 18 m (aveugle au-delà de cette distance), Perception passive 12",
+ "languages": "comprend le profond mais ne peut pas parler, télépathie 18 m",
+ "traits": "**Détection des consciences.** Le dévoreur d'intellect peut sentir la présence et l'emplacement des créatures situées à 90 mètres ou moins autour de lui et dont l'Intelligence est supérieure ou égale à 3, quels que soient les obstacles qui les séparent. Seul le sort *esprit impénétrable* empêche cette détection.",
+ "actionsText": "**Attaques multiples.** Le dévoreur d'intellect effectue une attaque avec ses griffes et utilise dévoration d'intellect.\n**Dévoration d'intellect.** Le dévoreur d'intellect cible une créature dotée d'un cerveau et située à 3 mètres ou moins de lui dans son champ de vision. La cible doit réussir un jet de sauvegarde d'Intelligence DD 12 contre cette magie pour ne pas subir 11 (2d10) dégâts psychiques. De plus, en cas d'échec, lancez 3d6 : si le total est égal ou supérieur à la valeur d'Intelligence de la créature, cette valeur est réduite à 0. La cible est étourdie jusqu'à ce qu'elle récupère un point d'Intelligence au moins.\n**Griffes.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 7 (2d4+2) dégâts tranchants.\n**Voleur de corps.** Le dévoreur d'intellect effectue un test d'Intelligence opposé à celui d'un humanoïde neutralisé, qui n'est pas protégé par le sort *protection contre le mal et le bien*, et situé à 1,50 mètre ou moins autour de lui. S'il remporte cette opposition, le dévoreur d'intellect consume par magie le cerveau de la cible, se téléporte dans sa boîte crânienne et prend le contrôle de son corps. Une fois à l'intérieur d'une créature, le dévoreur d'intellect bénéficie d'un abri total contre les attaques et effets provenant de l'extérieur de son hôte. Le dévoreur d'intellect conserve ses valeurs d'Intelligence, de Sagesse et de Charisme, sa compréhension du profond, son pouvoir de télépathie et ses traits. Il adopte toutes les autres statistiques de la cible et sait tout ce qu'elle savait, y compris les sorts et les langues. Si le corps de l'hôte meurt, le dévoreur d'intellect doit l'abandonner. Un sort de *protection contre le mal et le bien* lancé sur le corps oblige le dévoreur d'intellect à en sortir. Le dévoreur d'intellect est également forcé de sortir si la cible récupère son cerveau dévoré par le biais d'un *souhait*. En dépensant 1,50 mètre de sa vitesse de déplacement, le dévoreur d'intellect peut volontairement quitter le corps et se téléporter à l'emplacement inoccupé le plus proche à 1,50 mètre ou moins du corps. Ce dernier meurt ensuite, à moins que son cerveau ne soit restauré en l'espace d'un round.",
+ "portrait": "/data/images/1a27c1035a_monstre-devoreur-d-intellect.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 62 · image : Manuel des monstres p. 61",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  }
+ ]
+}

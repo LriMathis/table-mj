@@ -1,0 +1,39 @@
+{
+ "id": "amrik-vanthampur",
+ "name": "Amrik Vanthampur",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, infernal",
+ "traits": "**Suivez la défense.** Alors qu'Amrik porte une armure légère ou pas et n'a pas de bouclier, son CA inclut son modificateur Charisme.",
+ "actionsText": "**Multiattaques.** Amrik fait trois attaques de poignard.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d4 + 4) dégâts perforants.\n**Bombe à fumée (1/jour).** Amrik lance une bombe à fumée jusqu'à 6 m. La bombe explose à l'impact, créant un nuage de fumée noire qui remplit une sphère 3 m -radius. La zone dans le nuage est 2. Un vent fort disperse le nuage, qui reste autrement jusqu'à la fin du prochain virage d'Amrik.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e3d2b07ebf_monstre-amrik-vanthampur.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir, modificateur charismatique",
+ "skills": "Acrobaties +6, Athlétisme +3, Tromperie +6, Perspicacité +6"
+}

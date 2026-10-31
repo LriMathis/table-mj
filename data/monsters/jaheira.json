@@ -1,0 +1,40 @@
+{
+ "id": "jaheira",
+ "name": "Jaheira",
+ "type": "Humanoïde (demi-elf)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 11,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 20,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 20",
+ "languages": "commun, druidique, elfique, sylvestre",
+ "traits": "**Ancêtre fécale.** Jaheira a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas endormir Jaheira.",
+ "actionsText": "**Multiattaques.** Jaheira attaque trois quarts de personnel.\n**Quarter staff.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 5) dégâts contondants plus 21 (6d6) dégâts de tonnerre.\n**Plaque nettoyante (Recharge 6).** Jaheira cible une créature qu'elle peut voir dans 18 m et provoque un essaim d'insectes volants pour couvrir la créature. La créature doit faire un DD 18 jet de sauvegarde de Constitution, en prenant 44 (8d10) dégâts perforants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si la cible échoue leur jet de sauvegarde, ils sont également aveuglé jusqu'à la fin de leur prochain tour.\n**Détection orthographique.** Jaheira lance les sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Peau d'écorce, Druidisme, Bouffée de poison, Flammes, Gourdin magique\n- 1/jour chacun : Guérison, Festin des héros, Peau de pierre\n- 2/jour chacun : Messager animal, Communion avec la nature (en tant qu'action), Enchevêtrement, Communication avec les animaux",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 10,
+   "damage": "1d8+5",
+   "type": "contondant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/ef5dbd99de_monstre-jaheira.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "saves": "CON +8, SAG +10",
+ "skills": "Médecine +10, Nature +6, Perception +10",
+ "bonusActions": "**Convocation puissante (1/jour).** Jaheira convoque trois bêtes CR 2 ou six bêtes CR 1. Ces créatures convoquées ont un maximum de points de vie et les dégâts qu'elles infligent sont considérés comme magiques dans le but de surmonter l'immunité et la résistance aux attaques et aux dégâts non magiques."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "vivant-vague-tonnante",
+ "name": "Living Thunderwave",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 30,
+ "hpFormula": "4d8+12",
+ "vitesse": "7,50 m, vol 7,50 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 6,
+  "CHA": 6
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Amorphe.** Le sort vivant peut se déplacer dans un espace aussi étroit que 1 pouce sans dépenser de mouvement supplémentaire pour le faire.\n**Résistance magique.** Le sort vivant a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Grève magique.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts de tonnerre.\n**Mimétisme orthographique (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 13, chaque créature dans un Cube 4,50 m originaire du sort vivant. Échec : 9 (2d8) dégâts de tonnerre, et la cible est poussé 3 m loin du sort vivant. Réussite : Demi-dégâts seulement. Échec ou réussite : Un boom tonnerre est audible au sein de 90 m.",
+ "attacks": [
+  {
+   "name": "Grève magique",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tonnerre"
+  }
+ ],
+ "portrait": "/data/images/672111152f_monstre-vivant-vague-tonnante.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "aka": "Vivant vague tonnante",
+ "immunities": "tonnerre",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, agrippé, empoisonné, à terre, entravé"
+}

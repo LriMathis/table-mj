@@ -1,0 +1,41 @@
+{
+ "id": "bulezau",
+ "name": "Bulezau",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "7d8+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 8,
+  "SAG": 9,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 9",
+ "languages": "abyssal, télépathie 18 m",
+ "traits": "**Présence de rottissement.** Quand une créature qui n'est pas un démon commence son tour dans 9 m du bulezau, cette créature doit réussir sur un DD 13 jet de sauvegarde de Constitution ou prendre 3 (1d6) dégâts nécrotiques.\n**Leap debout.** Le saut long du bulezau est jusqu'à 6 m et son saut haut est jusqu'à 3 m, avec ou sans démarrage.\n**C'est sûr..** Le bulezau a avantage sur Force et jet de sauvegarde de Dextérité fait contre les effets qui le frapperaient à terre.",
+ "actionsText": "**Tail barbelé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d12 + 2) dégâts perforants plus 4 (1d8) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur une DD 13 jet de sauvegarde de Constitution contre maladie ou devenir empoisonné jusqu'à ce que la maladie se termine. Alors qu'empoisonné de cette façon, la cible sport se bouillit, tousse les mouches, et verse la peau pourrie, et la cible doit répéter le jet de sauvegarde après toutes les 24 heures qui s'écoulent. Sur une sauvegarde réussie, le maladie se termine. Lors d'une sauvegarde ratée, le maximum de points de vie de la cible est réduit de 4 (1d8). La cible meurt si son maximum de points de vie est réduit à 0.",
+ "attacks": [
+  {
+   "name": "Tail barbelé",
+   "bonus": 4,
+   "damage": "1d12+2",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/271a5a9631_monstre-bulezau.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

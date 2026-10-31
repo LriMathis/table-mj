@@ -1,0 +1,44 @@
+{
+ "id": "vouivre",
+ "name": "Vouivre",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non aligné",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 127,
+ "hpFormula": "15d10+45",
+ "vitesse": "9 m, vol 24 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "skills": "Perception +4",
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** La vouivre effectue une attaque de Dard et une de Morsure.\n**Dard.** Corps à corps : +7, allonge 3 m. Touché : 11 (2d6 + 4) dégâts perforants plus 24 (7d6) dégâts de poison, et la cible subit l’état Empoisonné jusqu’au début du tour suivant de la vouivre.\n**Morsure.** Corps à corps : +7, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Dard",
+   "bonus": 7,
+   "damage": "2d6+4+7d6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/985917603a_monstre-vouivre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 302"
+}

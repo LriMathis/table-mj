@@ -1,0 +1,39 @@
+{
+ "id": "wynling",
+ "name": "Wynling",
+ "type": "Fée",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "hp": 21,
+ "hpFormula": "6d4+6",
+ "vitesse": "9 m, vol 12 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 20,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "sylvestre",
+ "traits": "",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d4 + 5) dégâts contondants.\n**Cloque de la montagne (Recharge 4-6).** Le wynling tourne magiquement invisible, avec tout équipement qu'il porte ou transporte, pendant 1 minute ou jusqu'à ce qu'il fasse un jet d'attaque.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 7,
+   "damage": "1d4+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/41816a97c1_monstre-wynling.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "skills": "Escamotage +7, Discrétion +7",
+ "reactions": "**Le vol de Trickster.** Immédiatement après qu'une créature que le winling peut voir rate le winning avec un jet d'attaque, le winning peut se déplacer jusqu'à 9 m. Ce mouvement ne provoque pas d'attaques d'opportunités."
+}

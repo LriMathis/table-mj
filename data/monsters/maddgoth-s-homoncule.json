@@ -1,0 +1,41 @@
+{
+ "id": "maddgoth-s-homoncule",
+ "name": "Maddgoth's Homunculus",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 55,
+ "hpFormula": "10d10",
+ "vitesse": "6 m, vol 12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "abyssal, commun, draconique, Gnomish mais ne peut pas parler",
+ "traits": "**Bond télépathique.** Tandis que l'homunculus est sur le même plan d'existence que son maître, il peut par magie transmettre ce qu'il sent à son maître, et les deux peuvent communiquer télépathiquement.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 2d6 + 2 dégâts perforants, et la cible doit réussir sur un DD 10 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Si le jet de sauvegarde échoue par 5 ou plus, la cible est plutôt empoisonné pendant 5 minutes (1d10) et inconscient alors qu'empoisonné de cette façon.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/98a294a2c6_monstre-maddgoth-s-homoncule.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Maddgoth's homoncule",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

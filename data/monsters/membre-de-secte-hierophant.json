@@ -1,0 +1,46 @@
+{
+ "id": "membre-de-secte-hierophant",
+ "name": "Cultist Hierophant",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 144,
+ "hpFormula": "17d8+68",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 20
+ },
+ "senses": "Perception passive 17",
+ "languages": "céleste, commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le culte fait trois attaques, en utilisant Pact Blade ou radiant Ray dans n'importe quelle combinaison.\n**Lame de pacte.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 12 (2d6 + 5) dégâts tranchants plus 18 (4d8) dégâts radiants.\n**Rayon radiant.** Jet d'attaque à distance : +9, portée 36 m. Touché : 31 (4d12 + 5) dégâts radiants.\n**Détection orthographique.** Le cultivateur lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Thaumaturgie\n- 1/jour chacun : Tempête de radiance de Jallarzi (version de niveau 7), Suggestion de groupe",
+ "attacks": [
+  {
+   "name": "Lame de pacte",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Rayon radiant",
+   "bonus": 9,
+   "damage": "4d12+5",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/96e76caff0_monstre-membre-de-secte-hierophant.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Membre de secte Hierophant",
+ "saves": "SAG +7, CHA +9",
+ "skills": "Perception +7, Persuasion +9, Religion +5"
+}

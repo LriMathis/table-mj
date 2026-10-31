@@ -1,0 +1,44 @@
+{
+ "id": "glasya",
+ "name": "Glasya",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 21,
+ "hp": 380,
+ "hpFormula": "40d8+200",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 28,
+  "CON": 20,
+  "INT": 21,
+  "SAG": 25,
+  "CHA": 28
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 25",
+ "languages": "céleste, commun, draconique, infernal, télépathie 36 m",
+ "traits": "**Aura de charme.** Lorsqu'une créature se déplace pour être dans 36 m de Glasya, elle doit réussir sur un DD 23 jet de sauvegarde de Sagesse ou avoir l'état charmé, en traitant Glasya comme un allié, jusqu'à ce qu'elle quitte l'aura. Une créature qui succède au jet de sauvegarde est immunisée contre cet effet pendant 1 heure. Chaque fois qu'une créature charmé prend des dégâts, elle peut répéter la jet de sauvegarde, mettant fin à l'effet sur un succès.\n**Présence dominante.** Glasya propose un 13 (2d12) dégâts psychiques supplémentaire lorsqu'elle attaque une créature charmé, et ses attaques ne brisent pas les charmes.\n**Régénération fidendoise.** Glasya retrouve 20 points de vie au début de son tour. Si elle prend dégâts radiants ce trait ne fonctionne pas au début de son prochain tour. Glasya ne meurt que si elle commence son tour avec 0 points de vie et est incapable de se régénérer. Si Glasya est tuée, son corps se régénère lentement, revenant à la vie 9 (2d8) semaines plus tard.\n**Résistance légendaire (3/jour).** Si Glasya échoue à un jet de sauvegarde, elle peut choisir de réussir.\n**Résistance magique.** Glasya a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Glasya fait quatre attaques en utilisant Scourge of Shadow, nécrotique Grasp, ou une combinaison des deux. Elle peut remplacer l'une des attaques par Mesmerizing Gaze.\n**Scorurge de l'ombre.** Attaque d'arme au corps à corps : +20 au toucher, allonge 3 m, une cible. Touché : 19 (3d4 + 12) dégâts tranchants, plus 5 (2d4) dégâts nécrotiques. Cette attaque marque un point critique sur un rouleau de 18, 19 ou 20.\n**nécrotique Grasp.** Glasya appelle les mains nécrotiques à tâtonner et griffer sur une créature qu'elle peut voir au sein de 27 m d'elle. La cible doit faire un DD 25 jet de sauvegarde de Constitution, en prenant 20 (2d10 + 9) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Gaz mésmérisant.** Glasya focalise son regard dans un cône 18 m devant elle. Chaque créature de son choix dans le cône doit faire un DD 23 jet de sauvegarde de Charisme ou avoir l'état charmé jusqu'à la fin de leur prochain tour. Alors que charmé, les créatures échouent automatiquement jet de sauvegarde des capacités utilisées par Glasya et se déplacent pour être le plus près possible d'elle.\n**Exclamation mortelle (1/jour).** Glasya cible une créature qu'elle peut voir dans 18 m d'elle. La cible doit faire un DD 25 jet de sauvegarde de Constitution, en prenant 61 (7d8 + 30) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Un humanoïde tué par cette capacité monte au début du prochain tour de Glasya comme un zombie en permanence sous son commandement.",
+ "attacks": [
+  {
+   "name": "Scorurge de l'ombre",
+   "bonus": 20,
+   "damage": "3d4+12",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/968b83d9a5_monstre-glasya.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +17, INT +13, SAG +15, CHA +17",
+ "skills": "Tromperie +25, Intimidation +17, Perception +15, Persuasion +17, Discrétion +25, Survie +15",
+ "resistances": "froid, nécrotique, radiant, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, glasya peut entreprendre l'une des actions ci-après.\n**Whip.** Glasya fait une attaque de l'ombre.\n**Désorienté (coûts 2 actions).** Glasya lance Confusion (9 m -radius, sort sauver DD 25), mais ne dure que jusqu'à la fin du prochain tour de Glasya.\n**Appel d'offres (coûts 3 actions).** Glasya convoque un Érinye allié dans un espace inoccupé qu'elle peut voir."
+}

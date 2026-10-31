@@ -1,0 +1,39 @@
+{
+ "id": "hoard-scarab",
+ "name": "Hoard Scarab",
+ "type": "Monstruosité",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 14,
+ "hp": 7,
+ "hpFormula": "3d4",
+ "vitesse": "6 m, creusement 6 m, vol 6 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 8,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Si le scarabée est immobile au début du combat, il a un avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte de scarabée, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que le scarabée est animé.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants. Si la cible est une créature, elle a un désavantage sur jets d'attaque jusqu'au début de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/40ad2cf530_monstre-hoard-scarab.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "bonusActions": "**Poussière à l'échelle (1/jour).** Le scarabée libère de la poussière scintillante magique de ses ailes. Chaque créature de 1,50 m du scarabée doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou être décrite en lumière bleue pendant 10 minutes. Tout en étant décrit de cette façon, une créature jette une lumière sombre dans un rayon de 3 m et ne peut pas bénéficier d'être invisible. En outre, chaque Dragon dans 1,5 km de la créature devient conscient de lui et peut suivre la créature avec ardeur. La fonte de Dissipation de la magie sur la créature met fin à l'effet sur elle."
+}

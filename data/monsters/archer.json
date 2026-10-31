@@ -1,0 +1,46 @@
+{
+ "id": "archer",
+ "name": "Archer",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Perception passive 15",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'archer fait deux attaques Shortsword ou Longbow.\n**Mot-clé.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.\n**Longbow.** Attaque d'arme à distance : +6 au toucher, portée 45/180 m., une cible. Touché : 8 (1d8 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8f06a6ef89_monstre-archer.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Acrobaties +6, Perception +5",
+ "bonusActions": "**Archer's Eye (3/jour).** Immédiatement après avoir fait un jet d'attaque ou un jet de dégâts avec une arme variée, l'archer peut rouler un d10 et ajouter le nombre roulé au total."
+}

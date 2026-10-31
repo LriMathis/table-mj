@@ -1,0 +1,41 @@
+{
+ "id": "esthetic",
+ "name": "Esthetic",
+ "type": "Aberration",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 14,
+ "hp": 217,
+ "hpFormula": "14d20+70",
+ "vitesse": "0 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 24,
+  "DEX": 8,
+  "CON": 20,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 90 m (aveugle au-delà de ce rayon), Perception passive 12",
+ "languages": "—",
+ "traits": "**Bioluminescence.** Bien qu'il ait au moins 1 points de vie, l'esthétique apporte une lumière lumineuse dans un rayon 9 m et une lumière dim pour un 9 m supplémentaire, et ses compartiments intérieurs sont faiblement éclairés.\n**Détachement orthographique.** L'esthétique a les propriétés d'une barre envoûtante (voir le Guide de l'Aventurier Astral), mais seul son créateur reigar peut s'y atteler.\n**Nature inhabituelle.** L'esthétique ne nécessite pas d'air, de nourriture ou de boisson.",
+ "actionsText": "**Multiattaques.** L'esthétique fait deux attaques du Tentacle.\n**Tentacle.** Attaque d'arme au corps à corps : +11 au toucher, allonge 9 m, une cible. Touché : 17 (3d6 + 7) dégâts de force, et si la cible est une créature, c'est agrippé (évasion DD 17). Jusqu'à ce que ce grappin se termine, la créature prend 18 (4d8) dégâts d'acide au début de chacun de ses tours, et l'esthétique ne peut pas utiliser ce tentacule contre d'autres cibles. L'esthétique a des tentacules 1d4 × 2, qui peuvent chacun gripper une cible.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 11,
+   "damage": "3d6+7",
+   "type": "force + acide"
+  }
+ ],
+ "portrait": "/data/images/011aa93f23_monstre-esthetic.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "acide",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, pétrifié, à terre",
+ "bonusActions": "**Crème de jammers (Recharge 6).** L'esthétique cible un navire en train de s'éjammer en 90 m, en supprimant magiquement les propriétés de la barre en train de s'éjammer pendant les jours 2d10. Si le navire a plus d'une barre à bord, déterminer au hasard quelle barre est affectée. Une créature attachée à cette barre peut choisir de faire un DD 17 jet de sauvegarde de Charisme. Lors d'une sauvegarde ratée, la créature prend 42 (12d6) dégâts psychiques, et la barre est supprimée pendant 2d10 heures au lieu de 2d10 jours. Lors d'une sauvegarde réussie, la créature prend la moitié de ces dégâts, et la barre est supprimée pendant 2d10 minutes au lieu de 2d10 jours."
+}

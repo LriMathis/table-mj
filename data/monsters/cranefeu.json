@@ -1,0 +1,41 @@
+{
+ "id": "cranefeu",
+ "name": "Crânefeu",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 40,
+ "hpFormula": "9d4+18",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "skills": "Arcanes +5, Perception +2",
+ "resistances": "foudre, nécrotiques, perforants",
+ "immunities": "feu, froid, poison",
+ "conditionImmunities": "à terre, charmé, empoisonné, paralysé, terrorisé",
+ "senses": "vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun",
+ "traits": "**Illumination.** Le crânefeu diffuse soit une lumière faible sur un rayon de 4,50 mètres, soit une lumière vive sur un rayon de 4,50 mètres et une lumière faible sur 4,50 mètres supplémentaires. Il peut passer de l'une à l'autre de ces deux options par une action.\n**Incantation.** Le crânefeu est un lanceur de sorts de niveau 5. Sa caractéristique d'incantation est l'Intelligence (DD du jet de sauvegarde contre les sorts 13, +5 pour toucher avec les attaques de sort). Aucune composante matérielle ou somatique n'est nécessaire pour lancer ses sorts. Voici les sorts de magicien préparés par le crânefeu :\n- Tours de magie (à volonté) : *main du mage*\n- Niveau 1 (3 emplacements) : *bouclier, projectile magique*\n- Niveau 2 (2 emplacements) : *flou, sphère de feu*\n- Niveau 3 (1 emplacement) : *boule de feu*\n**Reconstitution.** Si le crânefeu est détruit, il récupère la totalité de ses points de vie en une heure à moins que de l'eau bénite soit déversée sur ses restes ou qu'ils soient la cible d'un sort de *dissipation de la magie* ou *lever une malédiction*.\n**Résistance à la magie.** Le crânefeu est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le crânefeu utilise deux fois son rayon de feu.\n**Rayon de feu.** *Attaque de sort à distance :* +5 pour toucher, portée 9 m, une cible. *Touché :* 10 (3d6) dégâts de feu.",
+ "portrait": "/data/images/b1d7b7ea8c_monstre-cranefeu.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 40 · image : Manuel des monstres p. 39",
+ "attacks": [
+  {
+   "name": "Rayon de feu",
+   "bonus": 5,
+   "damage": "3d6",
+   "type": "feu"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "skylla",
+ "name": "Skylla",
+ "type": "Humanoïde (humain, occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 10,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, elfique",
+ "traits": "**Matériel spécial.** Skylla porte un Eldritch bâton (voir l'annexe A) avec 10 charges. Le personnel reprend 1d6 + 4 dépenses charges quotidiennes à l'aube. Si sa dernière charge est dépensée, roulez un d20 ; sur un 1, le personnel est détruit.",
+ "actionsText": "**Multiattaques.** Skylla fait deux attaques de l'état-major Eldritch. Elle peut remplacer l'une des attaques par une utilisation de Spellcasting.\n**Personnel d ' Eldritch.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants, ou 4 (1d8) dégâts contondants lorsqu'il est utilisé avec deux mains, et Skylla peut dépenser jusqu'à 3 des charges du personnel, en traitant un 4 (1d8) dégâts de foudre supplémentaire pour chaque charge dépensée.\n**Détection orthographique.** Skylla lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- 1/jour chacun : Détection de la magie, Déguisement, Lueurs féeriques, Vol, Motif hypnotique, Invisibilité, Armure de mage",
+ "attacks": [
+  {
+   "name": "Personnel d ' Eldritch",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "contondant + foudre"
+  }
+ ],
+ "portrait": "/data/images/e8744f1bd1_monstre-skylla.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "saves": "SAG +4, CHA +5",
+ "skills": "Tromperie +5, Intimidation +5, Nature +3, Persuasion +5",
+ "reactions": "**Évasion d'Eldritch.** Lorsque Skylla prend des dégâts, elle peut dépenser 3 charges de son personnel d'Eldritch pour tourner invisible et téléporter, avec tout l'équipement qu'elle porte ou transporte, jusqu'à 18 m dans un espace inoccupé qu'elle peut voir. Elle reste invisible jusqu'au début de son prochain tour ou jusqu'à ce qu'elle attaque ou jette un sort."
+}

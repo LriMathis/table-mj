@@ -1,0 +1,49 @@
+{
+ "id": "plus-grande-etoile-rejeton-emissary",
+ "name": "Greater Star Spawn Emissary",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 15,
+ "hp": 304,
+ "hpFormula": "21d12+168",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 24,
+  "DEX": 13,
+  "CON": 26,
+  "INT": 27,
+  "SAG": 22,
+  "CHA": 25
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 23",
+ "languages": "tous; télépathie 36 m.",
+ "traits": "**Restauration aberrante.** S'il est détruit, l'émissaire reprend avec tout son points de vie en 1 jour dans l'espace d'un Mouther Gibbering qui se trouvait à l'intérieur de 90 m de l'émissaire lorsque l'émissaire a été détruit; ce boucher est détruit.\n**Résistance légendaire (3/jour, ou 4/jour à Lair).** Si l'émissaire échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** L'émissaire fait deux attaques, en utilisant Lashing Maw ou Coagulated Nodule dans n'importe quelle combinaison. Il peut remplacer une attaque par une Bile Unearthly si disponible.\n**Mâchoire.** Jet d'attaque au corps à corps : +14, allonge 4,50 m. Touché : 33 (4d12 + 7) dégâts perforants plus 18 (4d8) dégâts d'acide.\n**Nodule coagulé.** Jet d'attaque à distance : +15, portée 36 m. Touché : 44 (8d8 + 8) dégâts d'acide.\n**Bile terrestre (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 23, chaque créature dans un 9 m -radius Sphere centré sur un point que l'émissaire peut voir dans 36 m. Échec : 54 (12d8) dégâts d'acide, et un Mouther Gibbering apparaît dans un espace inoccupé au sein de 9 m de la cible. Les bouchers prennent leur tour immédiatement après l'émissaire sur le même compte de l'Initiative. Chaque boucher se bat jusqu'à ce qu'il soit détruit. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Mâchoire",
+   "bonus": 14,
+   "damage": "4d12+7",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Nodule coagulé",
+   "bonus": 15,
+   "damage": "8d8+8",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/b0a4c76959_monstre-plus-grande-etoile-rejeton-emissary.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Plus grande étoile rejeton Emissary",
+ "saves": "CON +15, INT +15, SAG +13, CHA +14",
+ "skills": "Arcanes +22, Perception +13",
+ "resistances": "acide, force, nécrotique, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, plus grande étoile rejeton emissary peut entreprendre l'une des actions ci-après.\n**Mutations forcées.** Jet de sauvegarde de Charisme : DD 23, jusqu'à deux créatures que l'émissaire peut voir dans 9 m. Échec : La cible a l'état paralysé jusqu'à la fin de son prochain tour. Échec ou réussite : L'émissaire ne peut reprendre cette action qu'au début de son prochain tour.\n**Téléportation de laash.** L'émissaire peut téléporter jusqu'à 9 m dans un espace inoccupé qu'il peut voir, et il fait une attaque de Lashing Maw."
+}

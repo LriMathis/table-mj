@@ -1,0 +1,47 @@
+{
+ "id": "anacreda",
+ "name": "Anacreda",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 19,
+ "hp": 253,
+ "hpFormula": "22d10+132",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 16,
+  "CON": 22,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 3 m, Perception passive 19",
+ "languages": "commun, géant, infernal, sylvestre",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Anacreda fait deux attaques de la griffe. Elle peut remplacer l'une des attaques par une attaque à l'étrier.\n**Griffe.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d8 + 7) dégâts tranchants.\n**Cravache.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 51 (8d10 + 7) dégâts contondants, et si la cible est une créature grande ou plus petite, Anacreda l'attrape avec les deux bras. La cible a l'état agrippé (évasion DD 18). Jusqu'à ce que le grappin se termine, la cible prend 73 (12d10 + 7) dégâts nécrotiques au début de chaque tour d'Anacreda. Anacreda ne peut pas faire d'attaques en s'attaquant à une créature de cette façon.\n**Pare-chocs.** Anacreda provoque une rangée d'os 15 m -long, 1,50 m -large pour percer la terre à un point au sein de 36 m d'elle. Elle choisit la direction de la ligne. Les os élèvent 3 m dans l'air et forment une paroi solide. Une section d'os 1,50 m a un CA de 20 et 10 points de vie.\n**Shattering Shriek (1/jour).** Anacreda shrieks assez fort pour briser la pierre et les os. Chaque créature dans une sphère 15 m -radius centrée sur Anacreda doit faire une DD 18 jet de sauvegarde de Constitution. Une créature prend 55 (10d10) dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite. La pierre non travaillée, les os exposés et les matériaux similaires dans le rayon sont brisés et transformés en terrain difficile.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 13,
+   "damage": "2d8+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Cravache",
+   "bonus": 13,
+   "damage": "8d10+7",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/658b910d7b_monstre-anacreda.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, CHA +10",
+ "skills": "Tromperie +10, Perception +9",
+ "immunities": "froid, feu, contondant, perforant, tranchant d'attaques non magiques"
+}

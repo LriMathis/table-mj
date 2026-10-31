@@ -1,0 +1,41 @@
+{
+ "id": "firefist",
+ "name": "Firefist",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 18,
+ "hp": 117,
+ "hpFormula": "18d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 17,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Détection orthographique.** Le firefist est un spelcaster de niveau 9 Boros. Son caractéristique d'incantation est Sagesse (save spell DD 14, +6 au toucher avec attaques de sort). Il a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Trait de feu, Lumière, Flamme sacrée, Stabilisation\n- Niveau 1 (4 emplacements) : Éclair traçant, Mot de guérison, Héroïsme, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Restauration partielle, Rayon ardent\n- Niveau 3 (3 emplacements) : Châtiment aveuglant, Aura du croisé, Retour à la vie\n- Niveau 4 (3 emplacements) : Bannissement, Mur de feu\n- Niveau 5 (1 emplacements) : Colonne de flamme",
+ "actionsText": "**Multiattaques.** Le pompier fait deux grandes attaques.\n**Grande épée.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/e20a249965_monstre-firefist.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "CON +5, SAG +6",
+ "skills": "Intimidation +4, Religion +3",
+ "reactions": "**Attaque guidée (recharge après un repos court ou long).** Lorsque le firefist ou une créature il peut voir à l'intérieur de 9 m il fait un jet d'attaque, le firefist accorde un bonus de +10 à ce rouleau."
+}

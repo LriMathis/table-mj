@@ -1,0 +1,40 @@
+{
+ "id": "membre-de-secte",
+ "name": "Membre de secte",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "saves": "SAG +2",
+ "skills": "Religion +2, Tromperie +2",
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Serpe rituelle.** Corps à corps : +3, allonge 1,50 m. Touché : 3 (1d4 + 1) dégâts tranchants plus 1 dégât nécrotique.",
+ "attacks": [
+  {
+   "name": "Serpe rituelle",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8b4d6afd14_monstre-membre-de-secte.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr",
+ "aka": "Sectateur (2024)"
+}

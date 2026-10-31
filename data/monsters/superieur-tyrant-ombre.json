@@ -1,0 +1,46 @@
+{
+ "id": "superieur-tyrant-ombre",
+ "name": "Greater Tyrant Shadow",
+ "type": "Aberration",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 18,
+ "hp": 372,
+ "hpFormula": "24d20+120",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 24,
+  "SAG": 16,
+  "CHA": 22
+ },
+ "senses": "Perception passive 20",
+ "languages": "comprend tout, télépathie 90 m",
+ "traits": "**Empathe.** L'ombre utilise la télépathie pour sentir les créatures voisines. L'ombre peut voir une créature si cette créature a des pensées et se trouve dans la portée de la télépathie de l'ombre. L'ombre ne peut pas voir des créatures immunisées à la télépathie.\n**Décoloration de la connexion.** L'ombre a été originellement engendrée par un démon spécifique et, si l'ombre est tuée, elle revient à la vie en 10 (1d20) jours au sein de 1,5 km de ce diable. L'ombre n'est définitivement tuée que si son progéniteur est tué en premier.",
+ "actionsText": "**Multiattaques.** L'ombre fait trois attaques de griffes. Il peut remplacer l'une des attaques par des Ombres de la Mort (si disponible).\n**Griffe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 21 (4d6 + 7) dégâts nécrotiques, plus 10 (3d6) dégâts psychiques.\n**Cloque d'ombres.** L'ombre se penche dans l'obscurité autour d'elle-même, et a maintenant l'état invisible pendant 1 minute. L'invisibilité se termine si l'ombre est soumise à un sort Lumière du jour ou similaire.\n**Lien empathique.** L'ombre tente de former un lien entre elle-même et une créature qu'elle peut voir. La cible doit faire un DD 22 jet de sauvegarde d'Intelligence, en prenant 26 (4d12) dégâts psychiques sur un succès. Sur un sauvetage raté, la créature et l'ombre sont liées. Pendant qu'elle est liée, chaque fois que l'ombre est endommagée, la créature prend la moitié de ces dégâts comme dégâts psychiques. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, en prenant 26 (4d12) dégâts psychiques sur un sauvegarde échoué, ou en mettant fin à l'effet sur un succès.\n**Ombres de la mort (Recharge 5-6).** L'ombre décharge des ombres enky-noires dans une sphère 27 m -radius autour de lui. Les créatures dans l'ombre doivent réussir sur un DD 22 jet de sauvegarde de Sagesse ou prendre 36 (8d8) dégâts nécrotiques et avoir l'état effrayé pendant 1 minute. Une créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur une sauvegarde réussie, mais prenant à nouveau les dégâts sur une sauvegarde échouée.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 14,
+   "damage": "4d6+7",
+   "type": "nécrotique + psychique"
+  }
+ ],
+ "portrait": "/data/images/4febe985e5_monstre-superieur-tyrant-ombre.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Supérieur Tyrant ombre",
+ "caNote": "armure naturelle",
+ "saves": "INT +14, SAG +10",
+ "skills": "Arcanes +14, Tromperie +20, Perception +10, Discrétion +16",
+ "resistances": "feu",
+ "immunities": "nécrotique, poison, psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "aveuglé, charmé, effrayé, empoisonné",
+ "bonusActions": "**Modifier la forme.** L'ombre se transforme en Bête, Humanoïde ou Fiend qu'elle a un lien empathique avec, ou de nouveau dans sa forme réelle. Dans une nouvelle forme, l'ombre conserve son alignement, points de vie, dés de vie, télépathie et Intelligence, Sagesse, et Charisme scores, ainsi que cette action. Ses statistiques et ses capacités sont autrement remplacées par celles du nouveau formulaire, à l'exception de toutes les caractéristiques de classe, des actions de tanière ou des actions légendaires de cette forme.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, supérieur tyrant ombre peut entreprendre l'une des actions ci-après.\n**Bouclier d'ombre.** L'ombre s'entoure de brouillard noir, puis téléporte jusqu'à 18 m dans un espace inoccupé qu'elle peut voir.\n**Changement de forme.** L'ombre utilise sa capacité de changement de forme.\n**Esprit Spike (coûts 2 actions).** Attaque de sort à distance : +14 au toucher, portée 90 m, une cible. Touché : 23 (3d10 + 7) dégâts psychiques."
+}

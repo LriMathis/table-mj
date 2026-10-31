@@ -1,0 +1,50 @@
+{
+ "id": "arasta",
+ "name": "Arasta",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 19,
+ "hp": 300,
+ "hpFormula": "24d12+144",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 16,
+  "CON": 23,
+  "INT": 15,
+  "SAG": 22,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 23",
+ "languages": "céleste, commun, sylvestre",
+ "traits": "**Armure d'araignées (Traitement Mythique; Recharges après un repos court ou long).** Si Arasta est réduite à 0 points de vie, elle ne meurt pas ou tombe inconscient. Au lieu de cela, elle retrouve 200 points de vie. De plus, les enfants d'Arasta se sont immédiatement écrasés sur son corps pour la protéger, lui accordant 100 points de vie temporaires.\n**Résistance légendaire (3/jour).** Si Arasta échoue avec un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Arasta a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Escalade des araignées.** Arasta peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Web Walker.** Arasta ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** Arasta fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une créature. Touché : 20 (3d8 + 7) dégâts perforants, et la cible doit faire un DD 21 jet de sauvegarde de Constitution, en prenant 32 (5d12) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si les dégâts réduisent la cible à 0 points de vie, la cible est stable mais empoisonné pendant 1 heure, même après avoir récupéré points de vie, et est paralysé alors qu'empoisonné de cette façon.\n**Griffes.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 17 (3d6 + 7) dégâts tranchants.\n**Réseau de cheveux (Recharge 4-6).** Arasta déchaîne ses cheveux sous la forme d'une toile qui remplit un cube 9 m à côté d'elle. La toile est 3, sa zone est légèrement obscurcie, et elle dure 1 minute. Toute créature qui se déplace dans le web ou qui commence son tour là doit faire un DD 21 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la créature est entravé alors qu'elle est sur le web. Une créature peut utiliser une action pour faire un DD 21 test de Force. Sur un succès, il peut se libérer ou une créature dans 1,50 m de lui qui est entravé par le web. Cette toile est à l'abri de tous les dégâts sauf le feu magique. Un cube 1,50 m du web est détruit s'il prend au moins 20 dégâts de feu d'un sort ou d'une autre source magique sur un seul tour.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "3d8+7",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 14,
+   "damage": "3d6+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/daf1f2a4bf_monstre-arasta.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +10, CON +13, SAG +13",
+ "skills": "Arcanes +9, Tromperie +10, Intimidation +10, Nature +9, Perception +13, Discrétion +10",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, arasta peut entreprendre l'une des actions ci-après.\n**Griffes.** Arasta fait une attaque avec ses griffes.\n**Swarm (coûts 2 actions).** Arasta fait apparaître deux essaims d'araignées dans des espaces inoccupés au sein de 1,50 m d'elle.\n**Web toxique (coûts 3 actions).** Chaque créature entravé par le Web of Hair d'Arasta prend 18 (4d8) dégâts de poison.\n**Actions mythiques.**\n**Tourne-toi.** Arasta fait deux attaques avec ses griffes.\n**Web of Hair (coûts 2 actions).** Arasta recharge Web of Hair et l'utilise.\n**Nyx Weave (coûts 2 actions).** Chaque créature entravé par le Web of Hair d'Arasta doit réussir sur un DD 21 jet de sauvegarde de Constitution, ou la créature prend 26 (4d12) dégâts de force et tout sort de de niveau 6 ou inférieur sur elle se termine."
+}

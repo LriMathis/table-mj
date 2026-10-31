@@ -1,0 +1,49 @@
+{
+ "id": "karrnathi-soldat-undead",
+ "name": "Karrnathi Undead Soldier",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 52,
+ "hpFormula": "7d8+21",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun",
+ "traits": "**Tactiques de conditionnement.** Le soldat a avantage sur un jet d'attaque contre une créature si au moins un des alliés du soldat est dans le 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Fortitude non-morte.** Si les dégâts réduisent le soldat à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + les dégâts pris, à moins que les dégâts soient rayonnants ou d'un coup critique. Sur un succès, le soldat tombe à 1 points de vie à la place.",
+ "actionsText": "**Multiattaques.** Le soldat attaque trois fois avec une de ses armes.\n**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains.\n**Longbow.** Attaque d'arme à distance : +4 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/75bbfe76b0_monstre-karrnathi-soldat-undead.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "aka": "Karrnathi soldat Undead",
+ "caNote": "Armure demi-plate",
+ "skills": "Athlétisme +5, Perception +3",
+ "resistances": "froid, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "reactions": "**Parry.** Le soldat ajoute 3 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, le soldat doit voir l'agresseur et utiliser une arme à la mêlée."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "mi-go",
+ "name": "Mi-Go",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 120,
+ "hpFormula": "16d8+48",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 21,
+  "SAG": 15,
+  "CHA": 12
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 16",
+ "languages": "tous; télépathie 36 m.",
+ "traits": "**Résistance magique.** Le mi-go a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Boîte en argent.** Le mi-go a une boîte en argent. En tenant ou en transportant la boîte, le mi-go peut utiliser son action Extraire Cerveau.\nLa boîte a CA 15, HP 40, et la résistance à tous les dégâts. La boîte se brise si elle est réduite à 0 points de vie. Si la boîte est cassée, n'importe quel cerveau à l'intérieur est détruit. Le mi-go peut créer une nouvelle boîte après 7 jours.",
+ "actionsText": "**Multiattaques.** Le mi-go fait deux attaques de Pincer. Il peut remplacer une attaque par une utilisation de Dazing Ray si disponible.\n**Pincer.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 23 (4d8 + 5) dégâts tranchants plus 16 (3d10) dégâts d'acide. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 15) de l'un des deux pincers.\n**Rayon de dragage (Recharge 4-6).** Jet de sauvegarde de Dextérité : DD 17, une créature le mi-go peut voir dans 18 m. Échec : 22 (4d10) dégâts de foudre plus 10 (3d6) dégâts de force, et la cible a l'état étourdi jusqu'à la fin du prochain tour du mi-go.\n**Extraire le cerveau (nécessite une boîte d'argent).** Jet de sauvegarde de Constitution : DD 17, une créature qui est agrippé par le mi-go ou qui a l'état étourdi. Échec : 77 (14d10) dégâts perforants. Réussite : Demi-dégâts. Échec ou réussite : Si ce dégâts réduit la cible à 0 points de vie, le mi-go le tue, enlève son cerveau, et place le cerveau dans sa boîte d'argent.\n**Détection orthographique.** Le mi-go lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- 1/jour chacun : Modification de mémoire, Changement de plan (autoseulement)",
+ "attacks": [
+  {
+   "name": "Pincer",
+   "bonus": 9,
+   "damage": "4d8+5",
+   "type": "tranchant + acide"
+  }
+ ],
+ "portrait": "/data/images/9a7dc7fb94_monstre-mi-go.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "DEX +6, INT +9, SAG +6",
+ "skills": "Arcanes +9, Perception +6, Discrétion +6",
+ "resistances": "acide, foudre",
+ "conditionImmunities": "charmé, effrayé"
+}

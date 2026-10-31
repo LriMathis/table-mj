@@ -1,0 +1,31 @@
+{
+ "id": "mara-poing-de-fer",
+ "name": "Mara Poing-de-Fer (Valets de Pique)",
+ "type": "Humanoïde (demi-orque) ✎",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 37,
+ "hpFormula": "5d8+15",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "attacks": [
+  {
+   "name": "Hache à deux mains",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "tranchant"
+  }
+ ],
+ "traits": "**Endurance implacable (1/repos long).** Quand elle tombe à 0 PV sans être tuée, elle passe à 1 PV.\n**Attaque sauvage.** Peut attaquer avec avantage ; les attaques contre elle ont alors l'avantage jusqu'à son prochain tour.",
+ "portrait": "/data/images/2c7ef87930_monstre-orc.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

@@ -1,0 +1,38 @@
+{
+ "id": "poney",
+ "name": "Poney",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non aligné",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 10,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "saves": "FOR +4",
+ "senses": "Perception passive 10",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Sabots.** Corps à corps : +4, allonge 1,50 m. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Sabots",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3463063efb_monstre-poney.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet"
+}

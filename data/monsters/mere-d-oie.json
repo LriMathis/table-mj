@@ -1,0 +1,47 @@
+{
+ "id": "mere-d-oie",
+ "name": "Goose Mother",
+ "type": "Fée",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 114,
+ "hpFormula": "12d12+36",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 18,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 20",
+ "languages": "—",
+ "traits": "**Résistance légendaire (3/jour).** Si la Mère d'Oie échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Têtes multiples.** La Mère d'Oie a cinq têtes. Chaque fois que la Mère d'Oie prend 25 ou plus de dégâts en un seul tour, une de ses têtes meurt. Si toutes ses têtes meurent, la Mère d'Oie meurt.\nA la fin de son tour, la Mère d'Oie grandit deux têtes pour chacune de ses têtes mortes depuis son dernier tour, à moins qu'elle n'ait pris dégâts de poison depuis son dernier tour. La Mère d'Oie retrouve 10 points de vie pour chaque tête lorsqu'elle se renverse.\n**Têtes réactives.** Pour chaque tête la Mère d'Oie a au-delà d'une, il obtient une réaction supplémentaire qui peut être utilisé seulement pour les attaques d'opportunité.\n**Réveille-toi.** Pendant que la Mère dort, au moins une de ses têtes est réveillée.",
+ "actionsText": "**Multiattaques.** La Mère d'Oie fait autant d'attaques de bec qu'il y a de têtes et d'attaques d'une aile.\n**Bec.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants.\n**Aile.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 9 (1d12 + 3) dégâts contondants. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou avoir l'état à terre.\n**Lullaby des Honks (Recharge 5-6).** La tête de la Mère d'Oie vole une berceuse discordante. Chaque créature du choix de la Mère d'Oie dans 3 m de lui doit faire un DD 15 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 7 (2d6) dégâts de tonnerre et tombe dans un sommeil magique. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement. Les klaxons peuvent être entendus jusqu'à 90 m.\nUne créature sous un sommeil magique a l'état inconscient pendant 8 heures. Cet effet se termine tôt pour une créature si elle prend des dégâts ou si une autre créature utilise une action pour le secouer éveillé.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Aile",
+   "bonus": 6,
+   "damage": "1d12+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/95d4dddff2_monstre-mere-d-oie.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Mère d'oie",
+ "saves": "FOR +6, INT +4",
+ "skills": "Perspicacité +7, Investigation +4, Perception +10",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, étourdi, inconscient"
+}

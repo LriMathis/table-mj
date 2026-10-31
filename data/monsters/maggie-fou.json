@@ -1,0 +1,42 @@
+{
+ "id": "maggie-fou",
+ "name": "Mad Maggie",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "abyssal, commun, infernal, primordial",
+ "traits": "**Résistance magique.** Maggie a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Articles de câlins de nuit.** Une harpe de nuit porte deux objets magiques très rares qu'elle doit fabriquer pour elle-même. Si l'un ou l'autre des objets est perdu, la harpe de nuit ira à de grandes longueurs pour le récupérer, car la création d'un nouvel outil prend du temps et d'efforts.\n**Pierre de coeur.** Ce joyau noir lustrant permet à une harpe nocturne de devenir éthérée alors qu'elle est en sa possession. La touche d'un Heartstone guérit également n'importe quel maladie. La fabrication d'une pierre d'âme prend 30 jours.\n**Sac d'âme.** Quand un humanoïde maléfique meurt à la suite d'un cauchemar d'une harpe nocturne, Maggie attrape l'âme dans ce sac noir fait de chair cousue. Un Sac d'âme ne peut contenir qu'une seule âme maléfique à la fois, et seule la harpe de nuit qui a fabriqué le sac peut attraper une âme avec elle. La confection d'un sac d'âme prend 7 jours et un sacrifice humanoïde (dont la chair est utilisée pour fabriquer le sac).\n**Découpe intérieure.** Le caractéristique d'incantation inné de Maggie est Charisme (save spell DD 14, +6 au toucher avec attaques de sort). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Projectile magique\n- 2/jour chacun : Changement de plan (autoseulement), Rayon affaiblissant, Sommeil",
+ "actionsText": "**Griffes (formulaire de demande seulement).** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Modifier la forme.** Maggie se polymorphe magiquement en humanoïde femelle petite ou moyenne, ou de nouveau dans sa forme réelle. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'elle porte ou qu'elle transporte n'est pas transformé. Elle revient à sa vraie forme si elle meurt.\n**Éthérité.** Maggie entre magiquement dans l'avion éthéré de l'avion matériel, ou vice versa. Pour ce faire, Maggie doit avoir une pierre angulaire en sa possession.\n**Hommage aux cauchemars (1/jour).** Sur l'avion éthéré, Maggie touche magiquement un humanoïde endormi sur l'avion matériel. Un sort Protection contre le mal et le bien lancé sur la cible empêche ce contact, tout comme un cercle magique. Tant que le contact persiste, la cible a des visions terribles. Si ces visions durent au moins 1 heure, la cible ne profite pas de son repos, et sa maximum de points de vie est réduite de 5 (1d10). Si cet effet réduit le maximum de points de vie de la cible à 0, la cible meurt, et si la cible était mauvaise, son âme est piégée dans le sac de l'âme de Maggie. La réduction à la maximum de points de vie de la cible dure jusqu'à ce que le sort Restauration supérieure ou la magie similaire supprime.",
+ "attacks": [
+  {
+   "name": "Griffes (formulaire de demande seulement)",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/0f36afd3c5_monstre-maggie-fou.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Maggie fou",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +6, Perspicacité +5, Perception +5, Discrétion +5",
+ "resistances": "froid, feu, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "conditionImmunities": "charmé"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "apparition-de-acidic-mist",
+ "name": "Acidic Mist Apparition",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "vol 27 m (vol stationnaire)",
+ "stats": {
+  "FOR": 14,
+  "DEX": 20,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "aérien",
+ "traits": "**Formulaire aérien.** L'apparition peut entrer dans l'espace d'une créature hostile et s'arrêter là. Il peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.",
+ "actionsText": "**Multiattaques.** L'apparition fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts d'acide.\n**Whirlwind (Recharge 4-6).** Chaque créature dans l'espace de l'apparition doit faire un DD 13 jet de sauvegarde de Force. En cas d'échec, une cible prend 15 (3d8 + 2) dégâts contondants et est déplacée 6 m de l'apparition dans une direction aléatoire et à terre. Si une cible lancée frappe un objet, comme un mur ou un plancher, la cible prend 3 (1d6) dégâts contondants pour chaque 3 m qu'elle a lancé. Si la cible est lancée sur une autre créature, cette créature doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou prendre les mêmes dégâts et être à terre.\nSi la jet de sauvegarde est réussie, la cible prend la moitié de la dégâts contondants et n'est pas glissée ou à terre.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/29602f6940_monstre-apparition-de-acidic-mist.webp",
+ "notes": "",
+ "source": "Giants of the Star Forge (5e.tools, traduction automatique)",
+ "aka": "Apparition de Acidic Mist",
+ "resistances": "foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient"
+}

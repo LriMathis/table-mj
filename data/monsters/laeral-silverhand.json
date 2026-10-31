@@ -1,0 +1,49 @@
+{
+ "id": "laeral-silverhand",
+ "name": "Laeral Silverhand",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 18,
+ "hp": 228,
+ "hpFormula": "24d8+120",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 17,
+  "CON": 20,
+  "INT": 20,
+  "SAG": 20,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 21",
+ "languages": "commun, draconique, nain, elfique, géant, infernal",
+ "traits": "**Matériel spécial.** Laeral porte un Robe de l'archimage blanc (représenté dans ses statistiques). Elle manie une langue de flamme, une longue épée.\n**Résistance magique.** Tout en portant sa robe de l'archimagi, Laeral a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Détection orthographique.** Laeral est un spellcaster de niveau 19. Son caractéristique d'incantation est Intelligence (save spell DD 21, +13 au toucher avec attaques de sort). Laeral a préparé les sorts d'assistant suivants :\n- Sorts mineurs (à volonté) : Lumière, Main de mage, Illusion mineure, Prestidigitation, Rayon de givre\n- Niveau 1 : Détection de la magie, Déguisement, Projectile magique, Bouclier\n- Niveau 2 : Détection des pensées, Invisibilité, Foulée brumeuse\n- Niveau 3 (3 emplacements) : Contresort, Vol, Communication à distance, Don des langues\n- Niveau 4 (3 emplacements) : Bannissement, Invisibilité supérieure, Sphère résiliente d'Otiluke\n- Niveau 5 (3 emplacements) : Cône de froid, Quête, Lien télépathique de Rary\n- Niveau 6 (2 emplacements) : Globe d'invulnérabilité, Suggestion de groupe\n- Niveau 7 (1 emplacements) : Rayons prismatiques, Téléportation\n- Niveau 8 (1 emplacements) : Esprit faible, Mot de pouvoir étourdissant\n- Niveau 9 (1 emplacements) : Arrêt du temps",
+ "actionsText": "**Multiattaques.** Laeral fait trois attaques avec ses cheveux argentés et sa langue de flamme, en toute combinaison. Elle peut lancer l'un de ses sorts sorts mineurs ou de niveau 1 avant ou après ces attaques.\n**Cheveux argentés.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d6) dégâts de force, et la cible doit réussir sur un DD 19 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Langue de flamme.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants plus 7 (2d6) dégâts de feu, ou 6 (1d10 + 1) dégâts tranchants plus 7 (2d6) dégâts de feu lorsqu'il est utilisé à deux mains.\n**Feu d'or (recharge après un repos long).** Un feu magique, inchauffé et argenté éclate inoffensifment de Laeral et l'entoure jusqu'à ce qu'elle soit neutralisé ou jusqu'à ce qu'elle utilise une action pour l'éteindre. Elle gagne l'un des avantages suivants de son choix, qui dure jusqu'à la fin du feu d'argent:\n- Elle peut respirer sous l'eau.\n- Elle peut survivre sans nourriture et sans eau.\n- Elle est à l'abri de la magie qui permettrait de vérifier ses pensées, la véracité, l'alignement ou le type de créature.\n- Elle gagne de la résistance à dégâts de froid, et elle est indemne par des températures aussi basses que -50 degrés Fahrenheit.\nAlors que le feu d'argent est présent, elle a les options d'action supplémentaires suivantes:\n- Lancez le sort Soins. La cible retrouve 1d8 + 5 points de vie. Après que Laeral ait pris cette action, roulez un d6. Sur un rouleau de 1, le feu d'argent disparaît.\n- Lancez le sort Retour à la vie sans composants matériels. Après que Laeral ait pris cette action, roulez un d6. Sur un rouleau de 1-2, le feu d'argent disparaît.\n- Relâchez une ligne de feu d'argent 18 m qui est de largeur 1,50 m ou un cône de feu d'argent 9 m. Les objets dans la zone qui ne sont pas portés ou transportés prennent 26 (4d12) dégâts de feu. Chaque créature de la région doit réussir sur un DD 21 jet de sauvegarde de Dextérité, en prenant 26 (4d12) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Après que Laeral ait pris cette action, roulez un d6. Sur un rouleau de 1-3, le feu d'argent disparaît.",
+ "attacks": [
+  {
+   "name": "Cheveux argentés",
+   "bonus": 11,
+   "damage": "2d6",
+   "type": "force"
+  },
+  {
+   "name": "Langue de flamme",
+   "bonus": 7,
+   "damage": "1d8+1",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/fe8eca16d4_monstre-laeral-silverhand.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Robe de l'archimage",
+ "saves": "INT +11, SAG +11",
+ "skills": "Arcanes +17, Histoire +17, Perspicacité +11, Perception +11, Persuasion +10",
+ "resistances": "feu",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

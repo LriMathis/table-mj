@@ -1,0 +1,31 @@
+{
+ "id": "echo-non-advenu",
+ "name": "Écho non-advenu",
+ "type": "Aberration ✎",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m, vol 9 m (stationnaire)",
+ "size": 1,
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "attacks": [
+  {
+   "name": "Toucher d'effacement",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "psychique"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux touchers d'effacement.\n**Effacement.** Une créature touchée réussit un JS de Sagesse DD 13 ou oublie une maîtrise de compétence (au choix du MJ) jusqu'à la fin de son prochain repos long.\n**Déplacement intangible.**\n**Résistances** dégâts non magiques. **Immunités** psychique ; charmé, effrayé, à terre.\n**N'a jamais été là.** À 0 PV, il n'a jamais existé : il disparaît, et chaque créature qu'il a blessée récupère la moitié des dégâts qu'il lui a infligés.\n**Formes.** Chaque Écho est une chose qui n'a pas eu lieu : un soldat d'une bataille jamais livrée, une mariée jamais mariée, un enfant jamais né. Décrivez-le.",
+ "portrait": "/data/images/39af5e3829_monstre-ombre.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

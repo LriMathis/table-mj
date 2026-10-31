@@ -1,0 +1,49 @@
+{
+ "id": "sarrukh-tyrant",
+ "name": "Sarrukh Tyrant",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 19,
+ "hp": 256,
+ "hpFormula": "27d8+135",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 23,
+  "SAG": 19,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 20",
+ "languages": "commun, Draconique; télépathie 36 m.",
+ "traits": "**Résistance légendaire (3/jour).** Si le sarrukh échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le sarrukh a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le sarrukh fait deux attaques, en utilisant Bite ou Fauchard redoutable dans n'importe quelle combinaison.\n**Morceau.** Jet d'attaque au corps à corps : +12, allonge 1,50 m. Touché : 13 (2d6 + 6) dégâts perforants plus 13 (3d8) dégâts de poison.\n**Fauchard redoutable.** Jet d'attaque au corps à corps ou à distance : +12, allonge 1,50 m ou portée 6/18 m. Touché : 17 (2d10 + 6) dégâts perforants. Si la cible est une créature, elle a l'état effrayé. Si la cible a déjà l'état effrayé, il faut un 10 (3d6) dégâts psychiques supplémentaire. Touché ou raté : Le fauchard revient magiquement à la main du sarrukh immédiatement après une attaque étendue.\n**Détection orthographique.** Le sarrukh lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 20):\n- À volonté : Détection de la magie, Invisibilité, Métamorphose\n- 2/jour chacun : Boule de feu (version de niveau 5), Scrutation, Téléportation, Mur de force",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d6+6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Fauchard redoutable",
+   "bonus": 12,
+   "damage": "2d10+6",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/30d04ac440_monstre-sarrukh-tyrant.webp",
+ "notes": "",
+ "source": "Arcana Unleashed: Deadfall (5e.tools, traduction automatique)",
+ "saves": "DEX +8, INT +12, SAG +10, CHA +10",
+ "skills": "Arcanes +12, Perception +10",
+ "immunities": "feu",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Contrôle de la forme.** Déclencheur : Une créature que le sarrukh peut voir des changements de forme. Réponse : Le sarrukh choisit la forme résultante parmi les options disponibles pour la créature qui change de forme ou empêche la créature de changer de forme.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, sarrukh tyrant peut entreprendre l'une des actions ci-après.\n**Un aperçu effrayant.** Jet de sauvegarde de Sagesse : DD 20, une créature le sarrukh peut voir à l'intérieur de 9 m. Échec : 18 (4d8) dégâts psychiques, et la cible a l'état effrayé. Réussite : Demi-dégâts seulement.\n**Pâtisserie.** Le sarrukh se déplace jusqu'à la moitié de sa vitesse sans provoquer Opportunity Attacks, et il fait une attaque Bite.\n**Transformation en deux temps.** Le sarrukh utilise Spellcasting pour lancer Métamorphose, et si la cible échoue son jet de sauvegarde, la cible a également l'état étourdi jusqu'à la fin de son prochain tour. Le sarrukh ne peut pas reprendre cette action avant le début de son prochain tour."
+}

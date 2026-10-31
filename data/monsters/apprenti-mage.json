@@ -1,0 +1,40 @@
+{
+ "id": "apprenti-mage",
+ "name": "Mage Apprentice",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "Commun plus une autre langue",
+ "traits": "",
+ "actionsText": "**La Burst d'Arcane.** Jet d'attaque au corps à corps ou à distance : +5, allonge 1,50 m ou portée 36 m. Touché : 14 (2d10 + 3) dégâts de force.\n**Détection orthographique.** Le mage lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 13, +5 au toucher avec attaques de sort) :\n- À volonté : Main de mage, Prestidigitation\n- 1/jour chacun : Déguisement, Couteau de glace, Armure de mage (inclus dans CA), Vague tonnante",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/89b8dbd310_monstre-apprenti-mage.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Apprenti mage",
+ "saves": "INT +5, SAG +3",
+ "skills": "Arcanes +5, Perception +3"
+}

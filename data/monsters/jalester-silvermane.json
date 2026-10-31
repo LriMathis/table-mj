@@ -1,0 +1,47 @@
+{
+ "id": "jalester-silvermane",
+ "name": "Jalester Silvermane",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 18,
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, elfique",
+ "traits": "**Matériel spécial.** Jalester porte un Insigne de la montre.\n**Deuxième vent (recharge après un repos court ou long).** En tant qu'action bonus, Jalester peut retrouver 16 (1d10 + 11) points de vie.",
+ "actionsText": "**Multiattaques.** Jalester fait deux attaques d'armes.\n**Mot long.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants, ou 7 (1d10 + 2) dégâts tranchants lorsqu'il est utilisé à deux mains.\n**Déclencheur.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants. Ou attaque d'armes rangées : +4 au toucher, portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9032aca19b_monstre-jalester-silvermane.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne, Insigne de la montre",
+ "saves": "FOR +4, CON +3",
+ "skills": "Athlétisme +4, Survie +4",
+ "reactions": "**Riposte.** Lorsqu'une créature que Jalester peut voir lui manque avec une attaque de mêlée, il peut utiliser sa réaction pour faire une attaque d'arme de mêlée contre cette créature. Lors d'un coup, la cible prend 4 dégâts supplémentaires de l'arme."
+}

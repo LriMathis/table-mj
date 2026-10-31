@@ -1,0 +1,48 @@
+{
+ "id": "elkhorn",
+ "name": "Elkhorn",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 18,
+ "hp": 52,
+ "hpFormula": "7d8+21",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, nain",
+ "traits": "**Matériel spécial.** Elkhorn manie une épée longue +1.",
+ "actionsText": "**Multiattaques.** Elkhorn fait deux attaques Dagger ou +1 Longsword.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d4 + 1) dégâts perforants. Si la cible est une créature qui est grande ou plus grande, il faut un 5 (1d10) dégâts perforants supplémentaire.\n**+1 Longs mots.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d8) dégâts tranchants, ou 5 (1d10) dégâts tranchants lorsqu'il est utilisé à deux mains. Si la cible est une créature qui est grande ou plus grande, il faut un 5 (1d10) dégâts tranchants supplémentaire.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  },
+  {
+   "name": "+1 Longs mots",
+   "bonus": 2,
+   "damage": "1d8",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/7f006257e9_monstre-elkhorn.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne, Bouclier",
+ "saves": "FOR +1, CON +5",
+ "skills": "Perception +2, Survie +2",
+ "resistances": "poison",
+ "bonusActions": "**Feint (Recharge 5-6).** Elkhorn cible une créature qu'il peut voir au sein de 1,50 m de lui. Elkhorn a l'avantage sur le prochain jet d'attaque qu'il fait contre cette cible avant la fin de son tour. Si l'attaque frappe, la cible prend 7 (2d6) de plus de dégâts du type d'arme.\n**Deuxième vent (recharge après un repos court ou long).** Elkhorn retrouve 12 points de vie."
+}

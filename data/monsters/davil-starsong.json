@@ -1,0 +1,40 @@
+{
+ "id": "davil-starsong",
+ "name": "Davil Starsong",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 82,
+ "hpFormula": "15d8+15",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 16,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, draconique, nain, elfique",
+ "traits": "**Ancêtre fécale.** Davil a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas le mettre au lit.\n**Détection orthographique.** Davil est un épeautre de niveau 12. Son caractéristique d'incantation est Charisme (save spell DD 14, +6 au toucher avec attaques de sort) Il a les sorts bardés suivants préparés:\n- Sorts mineurs (à volonté) : Main de mage, Réparation, Illusion mineure, Moquerie cruelle\n- Niveau 1 (4 emplacements) : Soins, Déguisement, Sommeil\n- Niveau 2 (3 emplacements) : Couronne du dément, Invisibilité, Suggestion\n- Niveau 3 (3 emplacements) : Antidétection, Communication à distance, Don des langues\n- Niveau 4 (3 emplacements) : Compulsion, Liberté de mouvement, Métamorphose\n- Niveau 5 (2 emplacements) : Domination de personne, Restauration supérieure\n- Niveau 6 (1 emplacements) : Danse irrésistible d'Otto",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants. Ou attaque d'armes rangées : +5 au toucher, portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a1034b8e70_monstre-davil-starsong.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne",
+ "saves": "DEX +5, CHA +6",
+ "skills": "Arcanes +6, Histoire +6, Perspicacité +4, Perception +4, Représentation +6"
+}

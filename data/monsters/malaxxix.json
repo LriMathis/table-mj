@@ -1,0 +1,50 @@
+{
+ "id": "malaxxix",
+ "name": "Malaxxix",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 17,
+ "hp": 312,
+ "hpFormula": "25d12+150",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 22,
+  "INT": 22,
+  "SAG": 20,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "abyssal, infernal, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Malaxxix échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Malaxxix a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Malaxxix fait deux attaques Forge Hammer ou Whip dans n'importe quelle combinaison.\n**Marteau de forge.** Attaque d'arme au corps à corps ou à distance : +12 au toucher, allonge 3 m ou portée 18/54 m., une cible. Touché : 28 (4d10 + 6) dégâts contondants, et la cible ne peut pas prendre des réactions avant la fin du prochain tour de Malaxxix. Touché ou raté : Le marteau revient alors par magie à la main de Malaxxix.\n**Whip.** Attaque d'arme au corps à corps : +12 au toucher, allonge 9 m, une créature. Touché : 15 (2d8 + 6) dégâts tranchants, et la cible a l'état entravé pendant 1 minute. La cible entravé peut faire un DD 20 jet de sauvegarde de Force à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Seul une créature peut être entravé par le fouet à la fois.\n**Vortex de mezzoloth (Recharge 5-6).** Malaxxix invoque un vortex de mezzoloths tourbillonnants à un point qu'il peut voir en 27 m de lui-même. Le vortex est un 9 m -radius, 30 m -haut cylindre centré sur ce point. Chaque créature autre que Malaxxix dans cette zone doit faire un DD 20 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 35 (10d6) dégâts de force et a l'état entravé alors qu'elle est dans le cylindre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et est poussée à l'espace inoccupé le plus proche à l'extérieur du cylindre. Le vortex dure jusqu'au prochain tour de Malaxxix.",
+ "attacks": [
+  {
+   "name": "Marteau de forge",
+   "bonus": 12,
+   "damage": "4d10+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Whip",
+   "bonus": 12,
+   "damage": "2d8+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/29ecca83b6_monstre-malaxxix.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +12, CON +12",
+ "skills": "Arcanes +12, Athlétisme +12, Perception +11",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, malaxxix peut entreprendre l'une des actions ci-après.\n**Fidende Stride.** Malaxxix se déplace à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités. Lorsque Malaxxix se déplace dans 1,50 m d'une créature pendant ce mouvement, cette créature prend 5 (1d10) dégâts de foudre. Une créature ne peut prendre ce dégâts qu'une seule fois par tour.\n**Attaque (coûts 2 actions).** Malaxxix fait une attaque Forge Hammer ou Whip."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "apparition-starlight",
+ "name": "Starlight Apparition",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 10,
+ "hp": 72,
+ "hpFormula": "16d8",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 11,
+  "CON": 10,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Existence astrale.** L'apparition ne peut exister que sur le plan astral. S'il est envoyé à un endroit qui n'est pas sur l'Aviation Astral, l'apparition est détruite.\n**Éclairage.** Bien qu'il ait au moins 1 points de vie, l'apparition apporte une lumière lumineuse dans un rayon de 6 m et une lumière faible pour un 6 m supplémentaire.\n**Mouvement intégré.** L'apparition peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Nature inhabituelle.** L'apparition ne nécessite pas d'air, de boisson, de nourriture ou de sommeil.",
+ "actionsText": "**Éruption de radiant.** Attaque de sort au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 20 (5d6 + 3) dégâts radiants, et si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être aveuglé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Possession (Recharge 6).** Un humanoïde que l'apparition peut voir en 1,50 m de lui-même doit réussir sur un DD 14 jet de sauvegarde de Charisme ou être possédé par l'apparition; l'apparition disparaît alors, et la cible est neutralisé et perd le contrôle de son corps. L'apparition contrôle maintenant le corps mais ne prive pas la cible de la conscience. L'apparition ne peut pas être ciblée par une attaque, un sort, ou un autre effet, et il conserve son alignement, Intelligence, Sagesse, Charisme, et l'immunité à être charmé et effrayé. Il utilise les statistiques de la cible possédée, mais n'a pas accès aux connaissances, aux fonctionnalités de classe ou aux compétences de la cible.\nLa possession dure jusqu'à ce que le corps tombe à 0 points de vie, l'apparition se termine comme un action bonus, le corps quitte l'Aplan Astral, ou l'apparition est forcée par un effet comme le sort Dissipation du mal et du bien. Lorsque la possession prend fin, l'apparition réapparaît dans un espace inoccupé au sein de 1,50 m du corps. S'il réapparaît dans un endroit qui n'est pas sur le plan astral, l'apparition est détruite. La cible est à l'abri de la possession de cette apparition pendant 24 heures après avoir réussi sur le jet de sauvegarde ou après la fin de la possession.",
+ "attacks": [
+  {
+   "name": "Éruption de radiant",
+   "bonus": 6,
+   "damage": "5d6+3",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/58cf6c718a_monstre-apparition-starlight.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Apparition Starlight",
+ "resistances": "acide, froid, feu, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison, radiant",
+ "conditionImmunities": "aveuglé, charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

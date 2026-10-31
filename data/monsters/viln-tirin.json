@@ -1,0 +1,47 @@
+{
+ "id": "viln-tirin",
+ "name": "Viln Tirin",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Perception passive 10",
+ "languages": "deux langues différentes",
+ "traits": "**Matériel spécial.** Viln porte un Cimeterre de rapidité et peut faire une attaque avec elle comme un action bonus à son tour. Viln porte également quatre poignards revêtus de Ver pourpre poison. Le poison sur la lame d'une dague est bon pour un seul coup, que le poison prenne effet ou non.",
+ "actionsText": "**Multiattaques.** Viln fait trois attaques à la mêlée : deux avec son scimitar et une avec son poignard. Ou Viln fait deux attaques avec ses poignards.\n**Scimitar.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts tranchants.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 7,
+   "damage": "1d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/707c8cc1e5_monstre-viln-tirin.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "FOR +4, DEX +5, SAG +2",
+ "skills": "Athlétisme +4, Tromperie +4",
+ "reactions": "**Parry.** Viln ajoute 2 à sa CA contre une attaque à la mêlée qui la frapperait. Pour ce faire, Viln doit voir l'agresseur et utiliser une arme de mêlée."
+}

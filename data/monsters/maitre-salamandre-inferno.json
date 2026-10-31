@@ -1,0 +1,42 @@
+{
+ "id": "maitre-salamandre-inferno",
+ "name": "Salamander Inferno Master",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 256,
+ "hpFormula": "27d10+108",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "Primordial (Ignan)",
+ "traits": "**feu Aura.** À la fin de chaque tour de la salamandre, chaque créature du choix de la salamandre dans une émanation 3 m provenant de la salamandre prend 10 (3d6) dégâts de feu.\n**Résistance magique.** La salamandre a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** La salamandre fait deux attaques du Trident Flamme.\n**Trident de flamme.** Jet d'attaque au corps à corps ou à distance : +12, allonge 1,50 m ou portée 9/27 m. Touché : 16 (2d8 + 7) dégâts perforants plus 14 (4d6) dégâts de feu. Touché ou raté : Le trident revient magiquement à la main de la salamandre immédiatement après une attaque variée.\n**Inferno Blast (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 18, chaque créature dans une sphère 9 m -radius centrée sur un point que la salamandre peut voir dans 36 m. Échec : 35 (10d6) dégâts de feu, et la cible commence à brûler, en prenant 5 (1d10) dégâts de feu au début de chacun de ses tours au lieu des dégâts de combustion normaux. La cible gagne 1 niveau épuisement chaque fois qu'elle prend ces dégâts de combustion. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Trident de flamme",
+   "bonus": 12,
+   "damage": "2d8+7",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/47718991f2_monstre-maitre-salamandre-inferno.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Maître salamandre Inferno",
+ "saves": "DEX +8, SAG +5",
+ "vulnerabilities": "froid",
+ "immunities": "feu",
+ "bonusActions": "**Mouvement de blindage.** La salamandre monte à sa vitesse sans provoquer Opportunity Attacks. Au cours de ce mouvement, le feu remplit une émanation 1,50 m provenant de la salamandre. Lorsque l'Émanation entre dans l'espace d'une créature, cette créature prend 7 (2d6) dégâts de feu. Une créature ne peut prendre ce dégâts qu'une seule fois par tour."
+}

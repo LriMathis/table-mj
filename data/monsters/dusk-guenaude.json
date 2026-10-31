@@ -1,0 +1,49 @@
+{
+ "id": "dusk-guenaude",
+ "name": "Dusk Hag",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 82,
+ "hpFormula": "15d8+15",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 16",
+ "languages": "commun, géant, infernal",
+ "traits": "**Résistance magique.** Le ham a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** caractéristique d'incantation est Charisme (Spell save DD 15). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Déguisement\n- 1/jour chacun : Mythes et légendes, Scrutation\n- 3/jour chacun : Songe, Motif hypnotique, Sommeil (9d8)",
+ "actionsText": "**Multiattaques.** La harpe fait deux attaques Nightmare Touch.\n**Griffes.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.\n**Touche de cauchemar.** Attaque de sort au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 18 (4d6 + 4) dégâts psychiques. Si la cible est inconscient, elle prend un 10 (3d6) dégâts psychiques supplémentaire et est maudite jusqu'à ce que le ham meurt ou que la malédiction soit enlevée. La maximum de points de vie de la créature maudite diminue de 5 (1d10) chaque fois qu'elle termine une repos long.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Touche de cauchemar",
+   "bonus": 7,
+   "damage": "4d6+4",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/fa8291fdda_monstre-dusk-guenaude.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "aka": "Dusk guenaude",
+ "caNote": "armure naturelle",
+ "saves": "INT +6, SAG +6",
+ "skills": "Tromperie +7, Perspicacité +6, Perception +6",
+ "conditionImmunities": "aveuglé, charmé, effrayé",
+ "reactions": "**Mangeur de rêve.** Lorsqu'une créature inconscient peut voir dans la 9 m de sa conscience, elle peut forcer la créature à faire une DD 15 jet de sauvegarde de Sagesse. À moins que le save ne réussisse, la créature prend 11 (2d10) dégâts psychiques, et le hag récupère points de vie égal à la quantité de dégâts pris."
+}

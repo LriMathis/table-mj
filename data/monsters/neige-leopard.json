@@ -1,0 +1,45 @@
+{
+ "id": "neige-leopard",
+ "name": "Snow Leopard",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 37,
+ "hpFormula": "5d10+10",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** Le léopard a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Ponce.** Si le léopard se déplace au moins 6 m droit vers une créature et la frappe avec une attaque de griffe au même tour, cette cible doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, le léopard peut faire une attaque de morsure contre elle sous forme d'action bonus.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ea4675b5e4_monstre-neige-leopard.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Neige Leopard",
+ "skills": "Perception +3, Discrétion +6"
+}

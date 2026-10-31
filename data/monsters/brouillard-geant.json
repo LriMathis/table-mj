@@ -1,0 +1,47 @@
+{
+ "id": "brouillard-geant",
+ "name": "Fog Giant",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 16,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun, géant",
+ "traits": "**Dénuement de la brume.** À son tour, le géant du brouillard ignore les effets des sorts de Nappe de brouillard qu'il jette ou d'autres géants du brouillard alliés.\n**Sensation de Keen.** Le géant a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Découpe intérieure.** Le caractéristique d'incantation inné du géant est Charisme. Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Nappe de brouillard, Lumière\n- 3/jour chacun : Feuille morte, Foulée brumeuse",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques de grands mots et lance Nappe de brouillard.\n**Grande épée.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 29 (6d6 + 8) dégâts tranchants.\n**Roche.** Attaque d'arme à distance : +12 au toucher, portée 18/72 m., une cible. Touché : 30 (4d10 + 8) dégâts contondants.\n**Petit Tyrant (Recharge 6).** Le géant du brouillard crie des menaces sanglantes contre les créatures qui le servent. Chaque allié moyen ou plus petit du géant à l'intérieur de 36 m qui peut voir ou entendre peut utiliser sa réaction pour faire une attaque de mêlée.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 12,
+   "damage": "6d6+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 12,
+   "damage": "4d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8f172a46d6_monstre-brouillard-geant.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "aka": "Brouillard géant",
+ "caNote": "Courrier en chaîne",
+ "saves": "CON +10, SAG +7, CHA +7",
+ "skills": "Perspicacité +7, Perception +7, Persuasion +7"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "serpent-de-feu",
+ "name": "Serpent de feu",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "caNote": "armure naturelle",
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "vulnerabilities": "froid",
+ "resistances": "contondants, perforants et tranchants venant d'attaques non magiques",
+ "immunities": "feu",
+ "senses": "vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend l'igné, mais incapable de parler",
+ "traits": "**Corps surchauffé.** Une créature qui touche le serpent de feu ou qui réussit une attaque au corps à corps contre lui à une distance maximale de 1,50 mètre subit 3 (1d6) dégâts de feu.",
+ "actionsText": "**Attaques multiples.** Le serpent effectue deux attaques : une avec sa morsure et une avec sa queue.\n**Morsure.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 3 (1d4+1) dégâts perforants plus 3 (1d6) dégâts de feu.\n**Queue.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 3 (1d4+1) dégâts contondants plus 3 (1d6) dégâts de feu.",
+ "portrait": "/data/images/acab0cd5dd_monstre-serpent-de-feu.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 262 · image : Manuel des monstres p. 261",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 3,
+   "damage": "1d4+1+1d6",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Queue",
+   "bonus": 3,
+   "damage": "1d4+1+1d6",
+   "type": "contondant + feu"
+  }
+ ]
+}

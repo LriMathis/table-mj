@@ -2,13 +2,15 @@
  "id": "necrophage",
  "name": "Nécrophage",
  "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
  "cr": "3",
  "xp": 700,
  "ca": 14,
- "hp": 45,
- "hpFormula": "6d8+18",
+ "hp": 82,
+ "hpFormula": "11d8+33",
  "vitesse": "9 m",
- "size": 1,
  "stats": {
   "FOR": 15,
   "DEX": 14,
@@ -17,27 +19,30 @@
   "SAG": 13,
   "CHA": 15
  },
+ "skills": "Discrétion +4, Perception +3",
+ "resistances": "nécrotiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné, épuisement",
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun et une autre langue",
+ "traits": "**Sensibilité au soleil.** Tant qu’il est exposé à la lumière du soleil, le nécronte subit le Désavantage aux tests de caractéristique et aux jets d’attaque.",
+ "actionsText": "**Attaques multiples.** Le nécronte effectue deux attaques, réparties à sa guise entre Épée nécrotique et Arc nécrotique. Il peut remplacer l’une de ces attaques par une utilisation d’Absorption de vie.\n**Épée nécrotique.** Corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts tranchants plus 4 (1d8) dégâts nécrotiques.\n**Arc nécrotique.** À distance : +4, portée 45/180 m. Touché : 6 (1d8 + 2) dégâts perforants plus 4 (1d8) dégâts nécrotiques.\n**Absorption de vie.** JS Constitution : DD 13, une créature dans un rayon de 1,50 m. Échec : 6 (1d8 + 2) dégâts nécrotiques, et le maximum de points de vie de la cible est réduit d’un montant égal aux dégâts nécrotiques subis. Un Humanoïde tué par cette attaque se relève 24 heures plus tard comme **zombi** sous le contrôle du nécronte, sauf si l’Humanoïde est préalablement ramené à la vie ou si son corps est détruit. Le nécronte ne peut ainsi contrôler plus de douze zombis à la fois.",
  "attacks": [
   {
-   "name": "Épée longue",
+   "name": "Épée nécrotique",
    "bonus": 4,
-   "damage": "1d8+2",
-   "type": "tranchant"
+   "damage": "1d8+2+1d8",
+   "type": "tranchant + nécrotique"
   },
   {
-   "name": "Drain de vie",
+   "name": "Arc nécrotique",
    "bonus": 4,
-   "damage": "1d6+2",
-   "type": "nécrotique"
-  },
-  {
-   "name": "Arc long",
-   "bonus": 4,
-   "damage": "1d8+2",
-   "type": "perforant"
+   "damage": "1d8+2+1d8",
+   "type": "perforant + nécrotique"
   }
  ],
- "traits": "**Attaques multiples.** Deux épées longues, ou une épée et un drain de vie.\n**Drain de vie.** CON DD 13 ou PV max réduits du montant des dégâts.\n**Sensibilité au soleil.**",
- "portrait": "/data/images/ee0b5a8379_monstre-necrophage.svg",
- "notes": ""
+ "portrait": "/data/images/25c32564bb_monstre-necrophage.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 235",
+ "aka": "Nécronte (2024)"
 }

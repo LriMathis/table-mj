@@ -1,0 +1,48 @@
+{
+ "id": "goliath-guerrier",
+ "name": "Goliath Warrior",
+ "type": "Humanoïde (goliath)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, géant",
+ "traits": "**Né en montagne.** Le goliath est acclimé à haute altitude, y compris des altitudes au-dessus de 6000 m.\n**Construction puissante.** Le goliath compte comme une taille plus grande pour déterminer sa capacité de charge et le poids qu'il peut pousser, traîner ou soulever.",
+ "actionsText": "**Multiattaques.** Le goliath fait deux attaques avec sa grandeaxe ou lance deux javelins.\n**Grandaxe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d12 + 4) dégâts tranchants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 6,
+   "damage": "1d12+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/dee9a309d7_monstre-goliath-guerrier.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Goliath guerrier",
+ "caNote": "Cache l'armure",
+ "skills": "Athlétisme +6, Perception +4, Survie +4",
+ "resistances": "froid",
+ "reactions": "**Endurance de Stone (recharge après un repos court ou long).** Lorsque le goliath prend des dégâts, il réduit les dégâts causés par 9 (1d12 + 3)."
+}

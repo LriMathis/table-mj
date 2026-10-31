@@ -1,0 +1,37 @@
+{
+ "id": "walrus",
+ "name": "Walrus",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 9,
+ "hp": 22,
+ "hpFormula": "3d10+6",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 9,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 4
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Maintenez votre souffle.** Le morse peut retenir son souffle pendant 10 minutes.",
+ "actionsText": "**Tustes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Tustes",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c62ca0dea1_monstre-walrus.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)"
+}

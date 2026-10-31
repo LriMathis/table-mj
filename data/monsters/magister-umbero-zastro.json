@@ -1,0 +1,39 @@
+{
+ "id": "magister-umbero-zastro",
+ "name": "Magister Umbero Zastro",
+ "type": "Humanoïde (demi-elf)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, elfique",
+ "traits": "**Ancêtre fécale.** Umbero a l'avantage sur jet de sauvegarde contre le fait d'être charmé et la magie ne peut pas le faire dormir.",
+ "actionsText": "**Violeur.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2ddbc1ab6b_monstre-magister-umbero-zastro.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Perspicacité +4, Persuasion +5",
+ "reactions": "**Parry.** Le noble ajoute 2 à sa CA contre une attaque à la mêlée qui la frapperait. Pour ce faire, le noble doit voir l'agresseur et utiliser une arme de mêlée."
+}

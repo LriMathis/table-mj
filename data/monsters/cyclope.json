@@ -1,0 +1,44 @@
+{
+ "id": "cyclope",
+ "name": "Cyclope",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "caNote": "armure naturelle",
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 11,
+  "CON": 20,
+  "INT": 8,
+  "SAG": 6,
+  "CHA": 10
+ },
+ "senses": "Perception passive 8",
+ "languages": "géant",
+ "traits": "**Perception des distances faussée.** Le cyclope est désavantagé lors des jets d'attaque effectués contre une cible distante de plus de 9 mètres.",
+ "actionsText": "**Attaques multiples.** Le cyclope effectue deux attaques avec sa massue.\n**Massue.** *Attaque d'arme au corps à corps :* +9 pour toucher, allonge 3 m, une cible. *Touché :* 19 (3d8+6) dégâts contondants.\n**Rocher.** *Attaque d'arme à distance :* +9 pour toucher, portée 9/36 m, une cible. *Touché :* 28 (4d10+6) dégâts contondants.",
+ "portrait": "/data/images/6f1105f819_monstre-cyclope.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 41 · image : Manuel des monstres p. 40",
+ "attacks": [
+  {
+   "name": "Massue",
+   "bonus": 9,
+   "damage": "3d8+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Rocher",
+   "bonus": 9,
+   "damage": "4d10+6",
+   "type": "contondant"
+  }
+ ]
+}

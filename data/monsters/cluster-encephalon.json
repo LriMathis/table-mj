@@ -1,0 +1,42 @@
+{
+ "id": "cluster-encephalon",
+ "name": "Encephalon Cluster",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 13,
+ "hp": 110,
+ "hpFormula": "17d10+17",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 5,
+  "SAG": 17,
+  "CHA": 7
+ },
+ "senses": "Vision aveugle 18 m (can't see beyond this radius), Perception passive 13",
+ "languages": "—",
+ "traits": "**Résistance légendaire (3/jour).** Si le cluster échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le cluster a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'amas fait deux attaques de Slam. Il peut remplacer une de ces attaques par Spawn Progeny si disponible.\n**Clamer.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d10 + 6) dégâts contondants plus 10 (3d6) dégâts psychiques, et si la cible est une créature, la cible doit réussir sur un DD 18 jet de sauvegarde de Force ou avoir l'état à terre. Si cette attaque réduit la cible à 0 points de vie, la cible meurt immédiatement et est consommée par le cluster.\n**Progéniture en frêne (recharge après un repos court ou long).** Le groupe bourre et égrene les oeufs matures 1d4. Chaque œuf se trouve dans un espace inoccupé du choix du cluster en 9 m et se transforme immédiatement en Encephalon Gemmule. Les gemmules obéissent aux commandes du cluster et se tournent immédiatement après.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/bce76935ad_monstre-cluster-encephalon.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Cluster Encephalon",
+ "caNote": "armure naturelle",
+ "resistances": "psychique",
+ "conditionImmunities": "aveuglé",
+ "reactions": "**Faim agressive.** Immédiatement après avoir été touché par une attaque, le groupe se dirige à sa vitesse vers l'agresseur. Ce mouvement ne provoque pas d'attaques d'opportunités. Si le cluster met fin à ce mouvement au sein de 1,50 m de l'attaquant, il fait alors une attaque de Slam contre cet attaquant."
+}

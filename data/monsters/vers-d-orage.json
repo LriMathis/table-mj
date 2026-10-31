@@ -1,0 +1,48 @@
+{
+ "id": "vers-d-orage",
+ "name": "Bore Worm",
+ "type": "Créature artificielle",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 18,
+ "hp": 247,
+ "hpFormula": "15d20+90",
+ "vitesse": "15 m, creusement 9 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 7,
+  "CON": 22,
+  "INT": 1,
+  "SAG": 8,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 9 m, Perception des vibrations 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Tunneler.** Le ver peut s'enfoncer dans la roche à la moitié de sa vitesse de creusement et laisse un tunnel 3 m-diamètre dans son sillage.\n**Régénération.** Le ver retrouve 10 points de vie au début de chacun de ses tours s'il a au moins 1 points de vie.",
+ "actionsText": "**Multiattaques.** Le ver fait deux attaques : l'une avec ses mâchoires de broyage et l'autre avec son bardeau.\n**Les mâchoires de broyage.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 22 (3d8 + 9) dégâts tranchants.\n**Tail Stinger.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une créature. Touché : 19 (3d6 + 9) dégâts perforants, et la cible doit faire un DD 19 jet de sauvegarde de Constitution, en prenant 42 (12d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Les mâchoires de broyage",
+   "bonus": 9,
+   "damage": "3d8+9",
+   "type": "tranchant"
+  },
+  {
+   "name": "Tail Stinger",
+   "bonus": 14,
+   "damage": "3d6+9",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/62f742ffe3_monstre-vers-d-orage.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Vers d'orage",
+ "caNote": "armure naturelle",
+ "saves": "CON +11, SAG +4",
+ "immunities": "poison, psychique, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné, à terre"
+}

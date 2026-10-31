@@ -1,0 +1,45 @@
+{
+ "id": "categorie-2-krasis",
+ "name": "Category 2 Krasis",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "**Amphibie.** La krasis peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** La krasis fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 17 (2d12 + 4) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d12 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d12+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d12+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a62ba2eb67_monstre-categorie-2-krasis.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Catégorie 2 Krasis",
+ "caNote": "armure naturelle"
+}

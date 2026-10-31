@@ -1,0 +1,44 @@
+{
+ "id": "kelubar-demodand",
+ "name": "Kelubar Demodand",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 187,
+ "hpFormula": "22d8+88",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 13,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "abyssal, Démodand, télépathie 36 m",
+ "traits": "**Sécrétions acides.** Une créature qui touche le kélubar ou le frappe avec une attaque de mêlée alors que dans 1,50 m il prend 5 (2d4) dégâts d'acide.\n**Mouvement sans frontières.** Le kélubar ignore le terrain difficile, et les effets magiques ne peuvent pas réduire sa vitesse. Il peut dépenser 1,50 m de mouvement pour supprimer automatiquement l'état agrippé de lui-même.\n**Résistance magique.** Le kelubar a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le kelubar fait deux attaques Bite.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 11 (1d10 + 6) dégâts perforants plus 18 (4d8) dégâts d'acide.\n**Craquage acide.** Le kélubar crache de l'acide dans une ligne 18 m longue et 1,50 m large. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Dextérité, en prenant 27 (6d8) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Invoquer la démodand (1/jour).** Le kélubar a 40 pour cent de chances de convoquer son choix de 1d2 farastu démodands ou 1 kélubar démodand. Un Demodand convoqué apparaît dans un espace inoccupé au sein de 18 m du kelubar, agit comme un allié du kelubar, et ne peut pas convoquer d'autres demodands. Il reste 1 minute, jusqu'à ce qu'il ou le kélubar meurt, ou jusqu'à ce que le kélubar le rejette comme une action.\n**Détection orthographique.** Le kélubar lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Invisibilité (autoseulement)\n- 1/jour chacun : Dissipation de la magie, Scrutation (en tant qu'action)",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "1d10+6",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/d966c0497b_monstre-kelubar-demodand.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, SAG +7",
+ "skills": "Perspicacité +7",
+ "resistances": "froid, feu",
+ "immunities": "acide, poison",
+ "conditionImmunities": "paralysé, empoisonné, entravé",
+ "bonusActions": "**Fog de nausée (Recharge 6).** Le kélubar crée magiquement un nuage de brouillard verdâtre qui remplit une sphère 6 m -radius centrée sur un point au sein de 36 m. Le nuage reste pendant 1 minute ou jusqu'à ce que le kélubar utilise à nouveau ce action bonus. Le nuage est 2 et terrain difficile. Toute créature qui commence son tour dans le nuage ou entre dans le nuage pour la première fois sur un tour doit réussir sur un DD 17 jet de sauvegarde de Constitution ou avoir l'état empoisonné jusqu'à la fin de son prochain tour."
+}

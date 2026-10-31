@@ -1,0 +1,44 @@
+{
+ "id": "grunka",
+ "name": "Grunka",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 18,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, gobelin",
+ "traits": "**Avantage martial.** Une fois par tour, Grunka peut infliger 7 (2d6) de plus à une créature qu'elle frappe avec une attaque d'arme si cette créature est dans 1,50 m d'un allié de Grunka qui n'est pas neutralisé.",
+ "actionsText": "**Mot long.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants, ou 6 (1d10 + 1) dégâts tranchants si utilisé avec deux mains.\n**Longbow.** Attaque d'arme à distance : +3 au toucher, portée 45/180 m., une cible. Touché : 5 (1d8 + 1) dégâts perforants.\n**acide pistolet à vaporisateur (Recharge 5-6).** Le hobgoblin pulvérise l'acide dans un cône 3 m. Chaque créature de la zone doit faire un DD 10 jet de sauvegarde de Dextérité, en prenant 7 (2d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\nLe pistolet à vaporisateur a un réservoir qui peut être rempli de dix flacons standard d'acide mélangé à de l'eau, ce qui permet d'utiliser cinq fois ce dernier.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/723660d5dd_monstre-grunka.webp",
+ "notes": "",
+ "source": "The Orrery of the Wanderer (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne, Bouclier"
+}

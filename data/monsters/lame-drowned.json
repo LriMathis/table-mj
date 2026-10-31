@@ -1,0 +1,41 @@
+{
+ "id": "lame-drowned",
+ "name": "Drowned Blade",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 10,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 9,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "**Treader inférieur.** La lame noyée ne peut pas nager, et elle coule au fond de n'importe quel plan d'eau. Il ne prend aucune sanction à ses mouvements ou attaques sous l'eau. Il est à l'abri des effets d'être sous l'eau à une profondeur supérieure à 30 m.\n**Ensemble.** La lame noyée partage son esprit avec tous les autres noyés l'un dans 1,5 km de lui, et peut leur communiquer ses pensées et observations instantanément et sans limitation.\n**Fortitude non-morte.** Si les dégâts réduisent la lame noyée à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + les dégâts pris, à moins que les dégâts soient radiants ou d'un coup critique. Sur un succès, la lame noyée tombe à 1 points de vie.",
+ "actionsText": "**Multiattaques.** La lame noyée fait deux attaques rouillées.\n**Mot long rouillé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou un bluerot contractuel (voir le \"Bluerot\" dans les notes).",
+ "attacks": [
+  {
+   "name": "Mot long rouillé",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/4d9c9c7af2_monstre-lame-drowned.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Lame Drowned",
+ "caNote": "Armure en cuir",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

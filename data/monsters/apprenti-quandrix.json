@@ -1,0 +1,40 @@
+{
+ "id": "apprenti-quandrix",
+ "name": "Quandrix Apprentice",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 15,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 12",
+ "languages": "Commun plus deux langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'apprenti fait deux attaques de Lash.\n**Laisse exponentielle.** Attaque de sort au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 5 (1d6 + 2) dégâts de force, et l'apprenti peut faire en sorte qu'une créature peut voir à l'intérieur de 9 m de la cible prendre 9 (2d6 + 2) dégâts de force.\n**Détection orthographique.** L'apprenti lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Intelligence comme caractéristique d'incantation (spell save DD 12):\n- À volonté : Assistance, Main de mage\n- 1/jour chacun : Agrandissement/Rapetissement, Armure de mage",
+ "attacks": [
+  {
+   "name": "Laisse exponentielle",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/6de69a4aa2_monstre-apprenti-quandrix.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Apprenti Quandrix",
+ "saves": "INT +4, SAG +4",
+ "skills": "Arcanes +6, Investigation +6, Nature +4"
+}

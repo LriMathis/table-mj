@@ -1,0 +1,52 @@
+{
+ "id": "yuan-ti-malison-type-4",
+ "name": "Yuan-ti Malison (Type 4)",
+ "type": "Monstruosité (métamorphe, yuan-ti)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Changeur de forme.** L'yuan-ti peut utiliser son action pour se polymorpher en serpent moyen, ou revenir dans sa forme réelle. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il ne change pas de forme s'il meurt.\n**Résistance magique.** L'yuan-ti a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Type de Malison.** L'yuan-ti a l'un des types suivants:\n- **Type 4:** Forme humaine avec une ou plusieurs queues serpentines\n- **Type 5:** Forme humaine couverte par des échelles\n**Cartouches d'orthographe innées (Forme Yuan-ti seulement).** Le caractéristique d'incantation inné du yuan-ti est Charisme (spell save DD 13). L'yuan-ti peut innerately lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Amitié avec les animaux (snakes seulement)\n- 3/jour : Suggestion",
+ "actionsText": "**Multiattaques (formulaire Yuan-ti seulement).** L'yuan-ti fait deux attaques ou deux attaques à la mêlée.\n**Bite (Forme de serpent seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d4 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Scimitar (Forme Yuan-ti seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Longbow (formulaire Yuan-ti seulement).** Attaque d'arme à distance : +4 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bite (Forme de serpent seulement)",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Scimitar (Forme Yuan-ti seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow (formulaire Yuan-ti seulement)",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/efbc02cf01_monstre-yuan-ti-malison-type-4.webp",
+ "notes": "",
+ "source": "Volo's Guide to Monsters (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "jeune-dragon-bleu",
+ "name": "Jeune dragon bleu",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 152,
+ "hpFormula": "16d10+64",
+ "vitesse": "12 m, creusement 6 m, vol 24 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 10,
+  "CON": 19,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "saves": "DEX +4, SAG +5",
+ "skills": "Discrétion +4, Perception +9",
+ "immunities": "foudre",
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 19",
+ "languages": "commun, draconique",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée.\n**Saignée.** Corps à corps : +9, allonge 3 m. Touché : 12 (2d6 + 5) dégâts tranchants plus 5 (1d10) dégâts de foudre.\n**Souffle de foudre (recharge 5–6).** JS Dextérité : DD 16, chaque créature dans une Ligne de 18 m de long sur 1,50 m de large. Échec : 55 (10d10) dégâts de foudre. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 9,
+   "damage": "2d6+5+1d10",
+   "type": "tranchant + foudre"
+  }
+ ],
+ "portrait": "/data/images/03bfaf8ddc_monstre-jeune-dragon-bleu.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 86"
+}

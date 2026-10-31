@@ -1,0 +1,50 @@
+{
+ "id": "dragon-venerable-solar",
+ "name": "Ancient Solar Dragon",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 18,
+ "hp": 425,
+ "hpFormula": "23d20+184",
+ "vitesse": "9 m, vol 36 m (vol stationnaire)",
+ "stats": {
+  "FOR": 28,
+  "DEX": 15,
+  "CON": 26,
+  "INT": 17,
+  "SAG": 18,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 72 m, Perception passive 28",
+ "languages": "draconique",
+ "traits": "**Volée.** Le dragon ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.\n**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Pensées nébuleuses.** Les tentatives magiques de lire l'esprit du dragon ou de glaner ses pensées échouent automatiquement.\n**Monstre de siège.** Le dragon inflige deux dégâts aux objets et aux structures.\n**Nature inhabituelle.** Le dragon n'a pas besoin d'air.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque Bite et une attaque Tail.\n**Morceau.** Attaque d'arme au corps à corps : +16 au toucher, allonge 6 m, une cible. Touché : 19 (3d6 + 9) dégâts perforants plus 10 (3d6) dégâts radiants.\n**Queue.** Attaque d'arme au corps à corps : +16 au toucher, allonge 6 m, une cible. Touché : 13 (1d8 + 9) dégâts contondants.\n**Respiration photonique (Recharge 5-6).** Le dragon exhale un mot clignotant d'énergie radieuse qui voyage jusqu'à un point que le dragon peut voir en lui-même en 72 m, puis s'épanouit dans une sphère 12 m -radius centrée sur ce point. Chaque créature dans la sphère doit faire un DD 23 jet de sauvegarde de Constitution, en prenant 66 (12d10) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 16,
+   "damage": "3d6+9",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 16,
+   "damage": "1d8+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/9c33d2b617_monstre-dragon-venerable-solar.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Dragon vénérable solar",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +15, SAG +11, CHA +10",
+ "skills": "Perception +18, Discrétion +9",
+ "immunities": "radiant",
+ "conditionImmunities": "aveuglé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon vénérable solar peut entreprendre l'une des actions ci-après.\n**Attaque de queue.** Le dragon fait une attaque de Tail.\n**Brilliance aveuglante (coût 2 actions).** Le dragon émet une lumière magique dans une sphère 9 m -radius centrée sur lui-même. Chaque créature dans cette zone doit réussir sur un DD 23 jet de sauvegarde de Sagesse ou être aveuglé jusqu'à la fin de son prochain tour."
+}

@@ -1,0 +1,38 @@
+{
+ "id": "cinderhild",
+ "name": "Cinderhild",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 9,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Épingle dorée.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d4 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Épingle dorée",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3e77fcef9b_monstre-cinderhild.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "immunities": "feu"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "forlarren",
+ "name": "Forlarren",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "commun, sylvestre",
+ "traits": "**Résistance magique.** Le forlarren a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** L'innée de forlarren caractéristique d'incantation est Charisme (spell save DD 14). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Repli expéditif, Simulacre de vie, Illusion mineure, Prestidigitation\n- 1/jour chacun : Guérison, Métal brûlant, Image miroir\n- 3/jour chacun : Aide, Foulée brumeuse, Fou rire de Tasha",
+ "actionsText": "**Multiattaques.** Le forlarren fait deux attaques de griffes et une attaque de gore, ou il fait trois attaques de rayons chromatiques.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Gore.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants.\n**Rayon chromatique.** Attaque de sort à distance : +6 au toucher, portée 18 m, une cible. Touché : 3 (1d6) dégâts de foudre plus 3 (1d6) dégâts de feu plus 3 (1d6) dégâts de froid.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Gore",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Rayon chromatique",
+   "bonus": 6,
+   "damage": "1d6",
+   "type": "foudre + feu + froid"
+  }
+ ],
+ "portrait": "/data/images/48dc4a7a7d_monstre-forlarren.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Acrobaties +5, Tromperie +8, Discrétion +5"
+}

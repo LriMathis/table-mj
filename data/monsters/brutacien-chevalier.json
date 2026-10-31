@@ -1,0 +1,41 @@
+{
+ "id": "brutacien-chevalier",
+ "name": "Bullywug Knight",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 18,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Perception passive 10",
+ "languages": "C'est vrai, c'est vrai., commun",
+ "traits": "**Amphibie.** Le chevalier peut respirer l'air et l'eau.\n**Parlez avec des grenouilles et des crapauds.** Le chevalier peut communiquer des concepts simples aux grenouilles et aux crapauds quand il parle à Bullywug.\n**Leap debout.** Le long saut du chevalier est jusqu'à 6 m et son saut en hauteur est jusqu'à 3 m, avec ou sans départ en course.",
+ "actionsText": "**Multiattaques.** Le chevalier fait deux attaques de Glaive.\n**Glaive.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 8 (1d10 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Glaive",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/768060d3e5_monstre-brutacien-chevalier.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Brutacien chevalier",
+ "caNote": "plaque",
+ "saves": "CON +3, SAG +2",
+ "bonusActions": "**Croque de charme (Recharge après un repos court ou long).** Le chevalier fait un croque fort tout en ciblant une créature il peut voir dans 9 m de lui. La cible doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou être charmé jusqu'à la fin de son prochain tour."
+}

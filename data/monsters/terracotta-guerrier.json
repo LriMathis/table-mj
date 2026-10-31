@@ -1,0 +1,41 @@
+{
+ "id": "terracotta-guerrier",
+ "name": "Terracotta Warrior",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 18,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 13,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 6",
+ "languages": "—",
+ "traits": "**Fragile.** Si un coup critique est marqué contre le guerrier de terre cuite, il se brise et est détruit.\n**Susceptibilité antimagique.** Le guerrier en terre cuite est neutralisé alors que dans la zone d'un Champ antimagie. Si la cible est Dissipation de la magie, le guerrier en terre cuite doit réussir sur une jet de sauvegarde de Constitution contre la DD de sauvegarde des sorts du lanceur ou l'inconscient en chute pendant 1 minute.\n**Fausse apparence.** Alors que le guerrier de terre cuite reste immobile, il est indistinct à partir d'une statue de terre cuite.",
+ "actionsText": "**Multiattaques.** Le guerrier en terre cuite fait deux attaques à la mêlée.\n**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/dbf49286fd_monstre-terracotta-guerrier.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Terracotta guerrier",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

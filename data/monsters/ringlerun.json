@@ -1,0 +1,46 @@
+{
+ "id": "ringlerun",
+ "name": "Ringlerun",
+ "type": "Humanoïde (humain, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 42,
+ "hpFormula": "12d8-12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 10,
+  "CON": 9,
+  "INT": 17,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, draconique, nain, elfique",
+ "traits": "**Matériel spécial.** Ringlerun manie un Bâton de surpuissance. Il a 20 charges lorsqu'il est entièrement chargé et récupère 2d8 + 4 charges dépensées chaque jour à l'aube. Si sa dernière charge est dépensée, roulez un d20. Sur un 1, le personnel conserve son bonus +2 pour attaquer et jets de dégâts mais perd ses autres propriétés ; sur un 20, il récupère les charges 1d8 + 2.",
+ "actionsText": "**Multiattaques.** Ringlerun fait trois attaques Bâton de surpuissance ou de Ray de congélation. Il peut remplacer l'une de ces attaques par un recours à Spellcasting.\n**Le personnel du pouvoir.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants, ou 5 (1d8 + 1) dégâts contondants si utilisé avec deux mains, et Ringlerun peut dépenser 1 des charges du personnel pour traiter un 3 (1d6) dégâts de force supplémentaire.\n**Rayon de congélation.** Attaque de sort à distance : +8 au toucher, portée 36 m, une créature. Touché : 27 (6d8) dégâts de froid.\n**Détachement du personnel.** Tout en tenant son Bâton de surpuissance, Ringlerun peut dépenser 1 ou plusieurs de ses charges pour jeter l'un des sorts suivants à partir de lui (spell save DD 14, +8 au toucher with attaques de sort) : cône de froid (8d8 dégâts de froid ; 5 charges), boule de feu (10d6 dégâts de feu ; 5 charges), globe d'invulnérabilité (6 charges), monstre de cale (5 charges), lévitate (2 charges), éclair (10d6 dégâts de foudre ; 5 charges), missile magique (1 charge), rayon d'enchevêtrement (1 charge), ou mur de force (5 charges).\n**Détection orthographique.** Ringlerun lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Lumière, Main de mage, Prestidigitation\n- 1/jour chacun : Bannissement, Dissipation de la magie, Vol, Déblocage\n- 3/jour chacun : Charme-personne, Détection de la magie, Sommeil",
+ "attacks": [
+  {
+   "name": "Le personnel du pouvoir",
+   "bonus": 4,
+   "damage": "1d6+1",
+   "type": "contondant + force"
+  },
+  {
+   "name": "Rayon de congélation",
+   "bonus": 8,
+   "damage": "6d8",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/063f9b069c_monstre-ringlerun.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "Bâton de surpuissance",
+ "saves": "FOR +2, DEX +3, CON +2, INT +6, SAG +4, CHA +3",
+ "skills": "Arcanes +6, Histoire +6"
+}

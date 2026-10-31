@@ -1,0 +1,42 @@
+{
+ "id": "dragon-amonkhet-dragonnet",
+ "name": "Amonkhet Dragon Wyrmling",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 17,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m, escalade 9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 5,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "draconique",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d10 + 4) dégâts perforants plus 3 (1d6) dégâts de feu.\n**feu Respiration (Recharge 5-6).** Le dragon exhale le feu dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 24 (7d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d10+4",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/8a40d63308_monstre-dragon-amonkhet-dragonnet.webp",
+ "notes": "",
+ "source": "PSA (5e.tools, traduction automatique)",
+ "aka": "Dragon Amonkhet dragonnet",
+ "caNote": "armure naturelle",
+ "saves": "DEX +2, CON +5, SAG +2, CHA +4",
+ "skills": "Perception +4, Discrétion +2",
+ "immunities": "feu"
+}

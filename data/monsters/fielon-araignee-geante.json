@@ -1,0 +1,42 @@
+{
+ "id": "fielon-araignee-geante",
+ "name": "Fiendish Giant Spider",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Escalade des araignées.** L'araignée peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sens du Web.** En contact avec une toile, l'araignée connaît l'emplacement exact de toute autre créature en contact avec la même toile.\n**Web Walker.** L'araignée ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d6 + 1) dégâts perforants, et la cible doit faire un DD 11 jet de sauvegarde de Constitution, en prenant 7 (2d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si la dégâts de poison réduit la cible à 0 points de vie, la cible est stable mais empoisonné pendant 1 heure, même après avoir récupéré points de vie, et est paralysé alors qu'empoisonné de cette façon.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/551671205b_monstre-fielon-araignee-geante.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Fiélon araignée géante",
+ "skills": "Perception +3, Discrétion +7",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

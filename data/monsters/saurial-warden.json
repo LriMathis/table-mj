@@ -1,0 +1,51 @@
+{
+ "id": "saurial-warden",
+ "name": "Lizardfolk Warden",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, draconique",
+ "traits": "**Maintenez votre souffle.** Le lézardfolk peut retenir son souffle pendant 15 minutes.",
+ "actionsText": "**Multiattaques.** Le lézardfolk fait une attaque de Bite et une attaque de Pike Bone.\n**Morceau.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts perforants plus 3 (1d6) dégâts de poison.\n**Poire aux os.** Jet d'attaque au corps à corps : +4, allonge 3 m. Touché : 7 (1d10 + 2) dégâts perforants.\n**poison craquage.** Jet d'attaque à distance : +4, portée 18 m. Touché : 12 (3d6 + 2) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Poire aux os",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant"
+  },
+  {
+   "name": "poison craquage",
+   "bonus": 4,
+   "damage": "3d6+2",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/88e7934f39_monstre-saurial-warden.webp",
+ "notes": "",
+ "source": "Heroes of the Borderlands (5e.tools, traduction automatique)",
+ "aka": "Saurial Warden",
+ "skills": "Discrétion +5, Survie +5"
+}

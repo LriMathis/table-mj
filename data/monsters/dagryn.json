@@ -1,0 +1,48 @@
+{
+ "id": "dagryn",
+ "name": "Dagryn",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 19,
+ "hp": 84,
+ "hpFormula": "13d8+26",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 8,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "commun, draconique, nain, commun des profondeurs",
+ "traits": "**Transformation draconienne.** Quand Dagryn tombe à 0 points de vie, au lieu de tomber inconscient, il se transforme en sa forme de dragon. Il gagne immédiatement toutes les statistiques d'un Dragon noir, adulte à l'exception que sa taille est Medium, et a l'état étourdi. Au début de son prochain tour, il grandit à grande taille, mais reste étourdi. Au début de son tour ultérieur, Dagryn grandit jusqu'à une taille énorme et n'est plus étourdi. Dagryn reste dans sa forme de dragon pendant 24 heures, après quoi il revient à ce bloc de statistiques.\n**Résilience des nains.** Dagryn a un avantage sur jet de sauvegarde contre le poison, les sorts et les illusions, ainsi que pour résister à être charmé ou paralysé.",
+ "actionsText": "**Club.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts contondants.\n**Éruption.** Attaque de sort à distance : +5 au toucher, portée 36 m, une cible. Touché : 14 (2d10 + 3) dégâts d'acide.\n**Détection orthographique.** Dagryn lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Modification d'apparence, Déguisement, Lévitation, Image majeure, Moquerie cruelle\n- 1/jour chacun : Porte dimensionnelle, Apparence trompeuse\n- 2/jour chacun : Fléau, Peur, Immobilisation de monstre, Foulée brumeuse",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  },
+  {
+   "name": "Éruption",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/9642fb305d_monstre-dagryn.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "Attelle, Bouclier",
+ "skills": "Tromperie +5, Représentation +5, Persuasion +5",
+ "resistances": "poison",
+ "immunities": "acide",
+ "bonusActions": "**Invisibilité (Recharges après un repos court ou long).** Dagryn tourne magiquement invisible pendant 1 heure ou jusqu'à ce qu'il attaque ou jette un sort. Tout équipement que Dagryn porte ou porte tourne invisible avec lui."
+}

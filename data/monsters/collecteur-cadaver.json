@@ -1,0 +1,42 @@
+{
+ "id": "collecteur-cadaver",
+ "name": "Cadaver Collector",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 17,
+ "hp": 189,
+ "hpFormula": "18d10+90",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 5,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend toutes les langues mais ne peut pas parler",
+ "traits": "**Résistance magique.** Le collecteur a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** Le collecteur n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le collectionneur fait deux attaques de Slam.\n**Clamer.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 18 (3d8 + 5) dégâts contondants plus 16 (3d10) dégâts nécrotiques.\n**Paralysant souffle (Recharge 5-6).** Le collecteur libère du gaz paralysant dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Constitution réussi ou être paralysé pendant 1 minute. Une créature paralysé répète le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même avec un succès.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "3d8+5",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/f65a4bdfbe_monstre-collecteur-cadaver.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Collecteur Cadaver",
+ "caNote": "armure naturelle",
+ "immunities": "nécrotique, poison, psychique, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Invoquer les spectres (Recharges après un repos court ou long).** Le collectionneur appelle les esprits esclaves de ceux qu'il a tués; Les spectres 1d4 (sans sensibilité à la lumière du soleil) apparaissent dans des espaces inoccupés à l'intérieur de 4,50 m. Les spectateurs agissent juste après le collectionneur sur la même initiative compter et se battre jusqu'à ce qu'ils soient détruits. Ils disparaissent quand le collecteur est détruit."
+}

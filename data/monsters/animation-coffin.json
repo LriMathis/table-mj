@@ -1,0 +1,47 @@
+{
+ "id": "animation-coffin",
+ "name": "Animated Coffin",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 60,
+ "hpFormula": "8d10+16",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m (can't see beyond this radius), Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Fausse apparence.** Si le cercueil animé est immobile au début du combat, il a l'avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte du cercueil, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que le cercueil est animé.\n**Escalade des araignées.** Le cercueil animé peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Le cercueil animé fait deux attaques de Slam.\n**Clamer.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts contondants.\n**Enveloppe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature grande ou plus petite. Touché : La cible a l'état agrippé (évasion DD 13). Jusqu'à ce que ce grappin se termine, si la cible n'est pas un Undead, la cible a l'état entravé et prend 14 (4d6) dégâts perforants au début de chacun de ses tours. Le cercueil animé ne peut gripper qu'une créature à la fois.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Enveloppe",
+   "bonus": 5,
+   "damage": "4d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8654c5ecbb_monstre-animation-coffin.webp",
+ "notes": "",
+ "source": "Adventure Atlas: The Mortuary (5e.tools, traduction automatique)",
+ "aka": "Animation Coffin",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

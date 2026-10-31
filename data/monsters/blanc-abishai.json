@@ -1,0 +1,56 @@
+{
+ "id": "blanc-abishai",
+ "name": "White Abishai",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 68,
+ "hpFormula": "8d8+32",
+ "vitesse": "9 m, vol 12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "draconique, infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir de l'abishai.\n**Résistance magique.** L'abishai a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sans déconner.** Au début de son tour, l'abishai peut gagner de l'avantage sur toute l'arme à melee jets d'attaque pendant ce tour, mais jets d'attaque contre elle a de l'avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** L'abishai fait une attaque Bite, une attaque Claw, et une attaque Longsword.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 3 (1d6) dégâts de froid.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts tranchants.\n**Mot long.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts de force, ou 8 (1d10 + 3) dégâts de force si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d4+3",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d10+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Mot long",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/88dafac936_monstre-blanc-abishai.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Blanc Abishai",
+ "caNote": "armure naturelle",
+ "saves": "FOR +6, CON +7",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "froid, feu, poison",
+ "conditionImmunities": "empoisonné",
+ "reactions": "**Répulsion vicieuse.** En réponse à la prise de dégâts, l'abishai fait une attaque Bite contre une créature aléatoire dans 1,50 m de lui. Si aucune créature n'est à portée de main, l'abishai se déplace jusqu'à la moitié de sa vitesse vers un ennemi qu'il peut voir, sans provoquer opportunity attacks."
+}

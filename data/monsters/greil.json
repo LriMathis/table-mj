@@ -1,0 +1,46 @@
+{
+ "id": "greil",
+ "name": "Greil",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 55,
+ "hpFormula": "10d8+10",
+ "vitesse": "3 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "skills": "Discrétion +6, Perception +4",
+ "immunities": "foudre",
+ "conditionImmunities": "à terre, aveuglé",
+ "senses": "vision aveugle 18 m (aveugle au-delà de cette distance), Perception passive 14",
+ "languages": "grell",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le grell effectue deux attaques : une avec ses tentacules et une avec son bec.\n**Tentacules.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 3 m, une créature. *Touché :* 7 (1d10+2) dégâts perforants, et la cible doit réussir un jet de sauvegarde de Constitution DD 11 pour ne pas être empoisonnée pendant 1 minute. La cible empoisonnée est paralysée et peut retenter le jet de sauvegarde à la fin de chacun de ses tours. Elle met fin à l'effet en cas de réussite. La cible est également agrippée (évasion DD 15). Si elle est de taille Moyenne ou plus petite, elle est également entravée jusqu'au terme de l'empoignade. Tant que le grell empoigne la cible, il est avantagé lors des jets d'attaque effectués contre elle et il ne peut plus utiliser cette attaque contre d'autres cibles. Quand le grell se déplace, l'éventuelle cible de taille Moyenne ou plus petite qu'il empoigne se déplace avec lui.\n**Bec.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une créature. *Touché :* 7 (2d4+2) dégâts perforants.",
+ "portrait": "/data/images/656860e484_monstre-greil.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 173 · image : Manuel des monstres p. 172",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Bec",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "drakeide-de-bahamut",
+ "name": "Dragonborn of Bahamut",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 13,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (1/jour).** Si le dragonborn échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon-né fait trois attaques de Longsword.\n**Mot long.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains, plus 13 (3d8) dégâts radiants. Le dragonborn peut faire éclater l'épée avec une lumière vive, et la cible doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être aveuglé jusqu'au prochain tour du dragonborn. L'épée ne peut éclater de cette façon qu'une seule fois par tour.\n**Touche de guérison (1/jour).** Le dragon-né touche une autre créature dans 1,50 m de lui. La cible récupère magiquement 40 points de vie. De plus, toutes les maladies et tous les poisons qui affectent la cible sont éliminés.\n**radiant Respiration (Recharge 6).** Le dragon-né exhale un éclat de feu dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 44 (8d10) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Lorsque le dragonnier utilise cette action, il peut choisir jusqu'à trois créatures dans le cône. Ces créatures ne prennent aucun dégâts de l'éclat et retrouvent au contraire 22 (4d10) points de vie chacun.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/c2120787b6_monstre-drakeide-de-bahamut.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Drakéide de Bahamut",
+ "caNote": "demi-plaque, Bouclier",
+ "saves": "CON +7, INT +4, SAG +5, CHA +6",
+ "skills": "Athlétisme +7, Perception +5, Persuasion +6",
+ "conditionImmunities": "effrayé"
+}

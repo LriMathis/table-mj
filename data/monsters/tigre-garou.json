@@ -1,0 +1,51 @@
+{
+ "id": "tigre-garou",
+ "name": "Tigre-garou",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 120,
+ "hpFormula": "16d8+48",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "skills": "Discrétion +4, Perception +5",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun (ne peut pas parler sous forme de tigre)",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le tigre-garou effectue deux attaques, réparties à sa guise entre Éraflure et Arc long. Il peut en remplacer une par une attaque de Morsure.\n**Éraflure.** Corps à corps : +5, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts tranchants.\n**Morsure (forme de tigre ou hybride uniquement).** Corps à corps : +5, allonge 1,50 m. Touché : 12 (2d8 + 3) dégâts perforants. Si la cible est un Humanoïde, elle est soumise à l’effet suivant. JS Constitution : DD 13. Échec : la cible est maudite. Si la cible maudite tombe à 0 point de vie, elle se retrouve en fait à 10 pv et devient un tigre-garou sous le contrôle du MJ. Réussite : la cible est immunisée contre la malédiction de ce tigre-garou pendant 24 heures.\n**Arc long (forme humanoïde ou hybride uniquement).** À distance : +4, portée 45/180 m. Touché : 11 (2d8 + 2) dégâts perforants.",
+ "bonusActions": "**Affût (forme de tigre ou hybride uniquement).** Le tigre-garou se déplace dans les limites de sa Vitesse sans provoquer d’attaques d’Opportunité. À la fin de ce déplacement, il peut entreprendre l’action Furtivité.\n**Changement d’aspect.** Le tigre-garou se transforme en hybride tigre-humanoïde de taille G ou en tigre de taille G, ou bien retrouve sa forme véritable d’humanoïde. En dehors de sa catégorie de taille, son profil reste le même, quelle que soit la forme. Rien de ce qu’il porte n’est transformé.",
+ "attacks": [
+  {
+   "name": "Éraflure",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure (forme de tigre ou hybride uniquement)",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Arc long (forme humanoïde ou hybride uniquement)",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/924c81c8ab_monstre-tigre-garou.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 209"
+}

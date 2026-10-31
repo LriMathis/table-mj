@@ -1,0 +1,40 @@
+{
+ "id": "jeune-dragon-d-airain",
+ "name": "Jeune dragon d'airain",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique bon",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 110,
+ "hpFormula": "13d10+39",
+ "vitesse": "12 m, creusement 6 m, vol 24 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "saves": "DEX +3, SAG +3",
+ "skills": "Discrétion +3, Perception +6, Persuasion +5",
+ "immunities": "feu",
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 16",
+ "languages": "commun, draconique",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée. Il peut remplacer deux de ces attaques par une utilisation de Souffle soporifique.\n**Saignée.** Corps à corps : +7, allonge 3 m. Touché : 15 (2d10 + 4) dégâts tranchants.\n**Souffle de feu (recharge 5–6).** JS Dextérité : DD 14, chaque créature dans une Ligne de 12 m de long sur 1,50 m de large. Échec : 38 (11d6) dégâts de feu. Réussite : demi-dégâts.\n**Souffle soporifique.** JS Constitution : DD 14, chaque créature dans un Cône de 9 m. Échec : la cible subit l’état Neutralisé jusqu’à la fin de son tour suivant, et réitère alors son JS. Deuxième échec : la cible subit l’état Inconscient pendant 1 minute. Cet effet prend fin pour la cible si celle-ci subit des dégâts ou si une créature dans un rayon de 1,50 m consacre une action à la réveiller.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/10e82ce565_monstre-jeune-dragon-d-airain.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 99"
+}

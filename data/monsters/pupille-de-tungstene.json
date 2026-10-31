@@ -1,0 +1,39 @@
+{
+ "id": "pupille-de-tungstene",
+ "name": "Tungsten Ward",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 10,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 12",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Détection orthographique.** Le tungstène est un spellcaster de niveau 1. Son caractéristique d'incantation est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). Tungstène a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Lumière, Flamme sacrée, Thaumaturgie\n- Niveau 1 (3 emplacements) : Bénédiction, Soins, Sanctuaire",
+ "actionsText": "**Club.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b79fdc73fd_monstre-pupille-de-tungstene.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "aka": "Pupille de tungstène",
+ "skills": "Médecine +4, Religion +2"
+}

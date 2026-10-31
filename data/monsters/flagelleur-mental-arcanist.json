@@ -1,0 +1,43 @@
+{
+ "id": "flagelleur-mental-arcanist",
+ "name": "Mind Flayer Arcanist",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 16,
+ "hp": 143,
+ "hpFormula": "26d8+26",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 20,
+  "SAG": 17,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "profond, Sous-commun; télépathie 36 m.",
+ "traits": "**Résistance magique.** La tueuse mentale a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** La tueuse mentale fait trois attaques des Tentacles Arcane.\n**Tentacles d'arcane.** Jet d'attaque au corps à corps ou à distance : +9, allonge 1,50 m ou portée 36 m. Touché : 27 (4d10 + 5) dégâts psychiques, et la flayer mentale peut téléporter la cible jusqu'à 9 m dans un espace inoccupé que la flayer mentale peut voir sur une surface ou un liquide assez grand pour soutenir la cible. Si ce dégâts réduit la cible à 0 points de vie, la tueuse mentale la tue et dévore magiquement son cerveau.\n**L'esprit s'éteint (Recharge 5-6).** Jet de sauvegarde d'Intelligence : DD 17, chaque créature dans une Emanation 12 m provenant de la couche mentale. Échec : 41 (8d8 + 5) dégâts psychiques, et la cible a l'état étourdi jusqu'à la fin du prochain tour de la flayer mentale. Réussite : Demi-dégâts seulement.\n**Détection orthographique.** Le mental flayer lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection de la magie, Détection des pensées, Déguisement, Main de mage (la main est invisible)\n- 1/jour chacun : Clairvoyance, Porte dimensionnelle, Boule de feu (version de niveau 5), Éclair (version de niveau 5), Changement de plan (autoseulement), Communication à distance",
+ "attacks": [
+  {
+   "name": "Tentacles d'arcane",
+   "bonus": 9,
+   "damage": "4d10+5",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/6a5891c1d9_monstre-flagelleur-mental-arcanist.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Flagelleur mental Arcanist",
+ "saves": "DEX +6, INT +9, SAG +7, CHA +7",
+ "skills": "Arcanes +13, Perspicacité +7, Perception +7, Discrétion +6",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Bouclier (2/jour).** Le mental flayer lance Bouclier en réponse au déclencheur de ce sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 2/jour : Bouclier"
+}

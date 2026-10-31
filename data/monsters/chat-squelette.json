@@ -1,0 +1,39 @@
+{
+ "id": "chat-squelette",
+ "name": "Cat Skeleton",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** Le chat a l'avantage sur tests de Sagesse (Perception) qui dépendent de l'odeur.",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/e400054a41_monstre-chat-squelette.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Chat squelette",
+ "skills": "Perception +3, Discrétion +4"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "seodra",
+ "name": "Seodra",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 19,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, primordial",
+ "traits": "**Marche de la Terre.** Seodra peut se déplacer à travers 3 en terre ou en pierre sans dépenser de mouvement supplémentaire.\n**Sens du trésor.** Seodra peut identifier, par parfum, l'emplacement des métaux précieux et des pierres, comme les pièces et les pierres précieuses, au sein de 18 m d'elle.",
+ "actionsText": "**Violeur.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b0b93a171a_monstre-seodra.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +5, Perspicacité +4, Persuasion +5",
+ "reactions": "**Parry.** Seodra ajoute 2 à sa CA contre une attaque à la mêlée qui la frapperait. Pour ce faire, Seodra doit voir l'agresseur et manier une arme de mêlée."
+}

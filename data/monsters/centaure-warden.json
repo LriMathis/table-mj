@@ -1,0 +1,47 @@
+{
+ "id": "centaure-warden",
+ "name": "Centaur Warden",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre bon",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 105,
+ "hpFormula": "14d10+28",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 9,
+  "SAG": 18,
+  "CHA": 11
+ },
+ "senses": "Perception passive 17",
+ "languages": "druidique, elfique, sylvestre",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le centaure fait deux attaques, en utilisant Forest Staff ou Sun Ray dans n'importe quelle combinaison.\n**Personnel forestier.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts contondants plus 14 (4d6) dégâts de poison.\n**Rayon du soleil.** Jet d'attaque à distance : +7, portée 27 m. Touché : 14 (3d6 + 4) dégâts radiants, et la cible a l'état aveuglé jusqu'au prochain tour du centaure.\n**Détection orthographique.** Le centaur lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Druidisme, Communication avec les animaux",
+ "attacks": [
+  {
+   "name": "Personnel forestier",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant + poison"
+  },
+  {
+   "name": "Rayon du soleil",
+   "bonus": 7,
+   "damage": "3d6+4",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/a10a7acf0f_monstre-centaure-warden.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Centaure Warden",
+ "saves": "CON +5, SAG +7",
+ "skills": "Athlétisme +7, Nature +5, Perception +7",
+ "bonusActions": "**Trail d'embranchement (Recharge 5-6).** Le centaure monte à sa vitesse sans provoquer Opportunity Attacks. Chaque créature au sein de 1,50 m du centaure qui se déplace est ciblée une fois par l'effet suivant. Jet de sauvegarde de Force : DD 15. Échec : 11 (2d6 + 4) dégâts contondants, et la cible a l'état entravé jusqu'à la fin de son prochain tour."
+}

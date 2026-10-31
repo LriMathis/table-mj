@@ -1,0 +1,38 @@
+{
+ "id": "chimeric-babouin",
+ "name": "Chimeric Baboon",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 3,
+ "hpFormula": "1d6",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "**Tactiques de conditionnement.** Le babouin a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du babouin est dans le 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une cible. Touché : 1 (1d4 - 1) dégâts perforants, plus un 3 (1d6) dégâts de poison supplémentaire.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 1,
+   "damage": "1d4-1",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/ab3860106e_monstre-chimeric-babouin.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Chimeric babouin"
+}

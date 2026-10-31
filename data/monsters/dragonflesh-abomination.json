@@ -1,0 +1,52 @@
+{
+ "id": "dragonflesh-abomination",
+ "name": "Dragonflesh Abomination",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 66,
+ "hpFormula": "7d12+21",
+ "vitesse": "9 m, vol 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 11",
+ "languages": "comprend le commun et le draconien mais ne peut pas parler",
+ "traits": "**Miasma en peluche.** L'abomination est entourée d'une puanteur nuisible. Au début du tour de l'abomination, toute créature de 1,50 m doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être empoisonné jusqu'au prochain tour de l'abomination.\n**Régénération.** L'abomination reprend 10 points de vie au début de ses tours si elle a au moins 1 points de vie.",
+ "actionsText": "**Multiattaques.** L'abomination fait trois attaques en utilisant Claw, Acidic Spit, ou une combinaison d'entre eux. Il peut remplacer une des attaques par une attaque Tail.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants plus 5 (1d10) dégâts de poison.\n**Queue.** Attaque d'arme au corps à corps : +7 au toucher, allonge 4,50 m, une cible. Touché : 10 (1d12 + 4) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou être à terre.\n**Craquage acide.** Attaque d'arme à distance : +5 au toucher, portée 18 m, une cible. Touché : 10 (3d6) dégâts d'acide.\n**acide Belch (Recharge 5-6).** L'abomination emporte un nuage de gaz acide dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Constitution, en prenant 28 (8d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Queue",
+   "bonus": 7,
+   "damage": "1d12+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Craquage acide",
+   "bonus": 5,
+   "damage": "3d6",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/c1ad769770_monstre-dragonflesh-abomination.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +7, CON +6",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

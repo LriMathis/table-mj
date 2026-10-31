@@ -1,0 +1,56 @@
+{
+ "id": "illithilich",
+ "name": "Illithilich",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 17,
+ "hp": 135,
+ "hpFormula": "18d8+54",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 20,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 19",
+ "languages": "profond, commun des profondeurs, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si l'illithilich échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Réjuvenance.** S'il a une phylatine, un illithilich détruit gagne un nouveau corps en 1d10 jours, récupérant tout son points de vie et redevenant actif. Le nouveau corps apparaît à l'intérieur de 1,50 m de la phylacery.\n**Résistance au virage.** L'illithilich a un avantage sur jet de sauvegarde contre tout effet qui devient mort.\n**Résistance magique.** L'illithilich a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**La diffusion de l'orthographe innée (Psioniques).** Le caractéristique d'incantation inné de l'ilithilich est Intelligence (spell save DD 20). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant.\n- À volonté : Détection des pensées, Lévitation\n- 1/jour chacun : Domination de monstre, Changement de plan (autoseulement)\n**Détection orthographique.** L'illithilich est un spellcaster de niveau 18. Son caractéristique d'incantation est Intelligence (save spell DD 20, +12 au toucher avec attaques de sort). Le lich a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Main de mage, Prestidigitation, Rayon de givre\n- Niveau 1 (4 emplacements) : Détection de la magie, Projectile magique, Bouclier, Vague tonnante\n- Niveau 2 (3 emplacements) : Détection des pensées, Invisibilité, Flèche acide de Melf, Image miroir\n- Niveau 3 (3 emplacements) : Animation des morts, Contresort, Dissipation de la magie, Boule de feu\n- Niveau 4 (3 emplacements) : Flétrissement, Porte dimensionnelle\n- Niveau 5 (3 emplacements) : Brume mortelle, Scrutation\n- Niveau 6 (1 emplacements) : Désintégration, Globe d'invulnérabilité\n- Niveau 7 (1 emplacements) : Doigt de mort, Changement de plan\n- Niveau 8 (1 emplacements) : Domination de monstre, Mot de pouvoir étourdissant\n- Niveau 9 (1 emplacements) : Mot de pouvoir mortel",
+ "actionsText": "**Touche paralysante.** Attaque de sort au corps à corps : +12 au toucher, allonge 1,50 m, une créature. Touché : 10 (3d6) dégâts de froid. La cible doit réussir sur un DD 18 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Tentacules.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une créature. Touché : 21 (3d10 + 5) dégâts psychiques. Si la cible est grande ou plus petite, c'est agrippé (évasion DD 15) et doit réussir sur un DD 20 jet de sauvegarde d'Intelligence ou être étourdi jusqu'à ce que ce grappin se termine.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, un humanoïde neutralisé agrippé par le lich. Touché : 55 (10d10) dégâts perforants. Si ces dégâts réduisent la cible à 0 points de vie, le lich tue la cible en extrayant et en dévorant son cerveau.\n**Boussole mentale (Recharge 5-6).** L'ilithilitch émet magiquement de l'énergie psychique dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 18 jet de sauvegarde d'Intelligence ou prendre 27 (5d8 + 5) dégâts psychiques et être étourdi pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Touche paralysante",
+   "bonus": 12,
+   "damage": "3d6",
+   "type": "froid"
+  },
+  {
+   "name": "Tentacules",
+   "bonus": 12,
+   "damage": "3d10+5",
+   "type": "psychique"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 12,
+   "damage": "10d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d2569e0bae_monstre-illithilich.webp",
+ "notes": "",
+ "source": "Volo's Guide to Monsters (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, INT +12, SAG +9",
+ "skills": "Arcanes +19, Histoire +12, Perspicacité +9, Perception +9",
+ "resistances": "froid, foudre, nécrotique",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, illithilich peut entreprendre l'une des actions ci-après.\n**Tentacules.** L'illithilich fait une attaque avec ses tentacules.\n**Extraire le cerveau (coûts 2 actions).** L'ilithilitch utilise Extract Cerveau.\n**Blast mental (coûts 3 actions).** L'illithilich recharge son Mind Blast et l'utilise.\n**Oreille de coulée (coûts 1 à 3 actions).** L'illithilich utilise un emplacement de sort pour lancer un sort 1er, 2ème ou de niveau 3 qu'il a préparé. Cela coûte 1 action légendaire par niveau du sort."
+}

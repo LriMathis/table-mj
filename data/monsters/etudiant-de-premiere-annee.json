@@ -1,0 +1,39 @@
+{
+ "id": "etudiant-de-premiere-annee",
+ "name": "First-Year Student",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Perception passive 10",
+ "languages": "Commun plus deux langues",
+ "traits": "**Excité d'être ici.** L'étudiant a un avantage sur les rouleaux d'initiative.",
+ "actionsText": "**Flamme magique.** Attaque de sort au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 7 (1d12 + 1) dégâts de force.\n**Détection orthographique.** L'étudiant lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 11) :\n- À volonté : Main de mage, Prestidigitation\n- 1/jour : Détection de la magie",
+ "attacks": [
+  {
+   "name": "Flamme magique",
+   "bonus": 3,
+   "damage": "1d12+1",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/f5cc099a64_monstre-etudiant-de-premiere-annee.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Étudiant de première année",
+ "reactions": "**Chance du débutant (2/jour).** Lorsque l'étudiant échoue un jet de sauvegarde, il peut reroller le d20. Il doit utiliser le nouveau rouleau."
+}

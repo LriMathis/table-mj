@@ -1,0 +1,41 @@
+{
+ "id": "demodragon",
+ "name": "Demodragon",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 102,
+ "hpFormula": "12d12+24",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Présence chauve.** Sources de lumière dans une émanation 36 m provenant du flicker demodragon sauvagement. Des sources non magiques de Lumière Brillante dans cette zone ont plutôt jeté la Lumière Dim.\n**Régénération.** Le démodragon retrouve 10 points de vie au début de chacun de ses tours s'il a au moins 1 points de vie",
+ "actionsText": "**Multiattaques.** Le démodragon fait deux attaques Bite.\n**Morceau.** Jet d'attaque au corps à corps : +7, allonge 3 m. Touché : 11 (2d6 + 4) dégâts perforants plus 4 (1d8) dégâts d'acide.\n**acide Respiration (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 13, chaque créature dans une 9 m -long, 1,50 m -wide Line. Échec : 22 (4d10) dégâts d'acide. Réussite : Demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/93566c0e29_monstre-demodragon.webp",
+ "notes": "",
+ "source": "Stranger Things: Welcome to the Hellfire Club (5e.tools, traduction automatique)",
+ "saves": "CON +5, SAG +4",
+ "resistances": "acide, froid, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

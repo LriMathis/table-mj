@@ -1,0 +1,42 @@
+{
+ "id": "nuee-de-hoard-scarabs",
+ "name": "Swarm of Hoard Scarabs",
+ "type": "Nuée de taille très petite (Monstruosité)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 31,
+ "hpFormula": "7d8",
+ "vitesse": "6 m, creusement 6 m, vol 6 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 8,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Si l'essaim est immobile au début du combat, il a avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'action de l'essaim, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que l'essaim est animé.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un scarabée minuscule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Swarm de morses.** Attaque d'arme au corps à corps : +5 au toucher, allonge 0 m, une créature dans l'espace de l'essaim. Touché : 13 (3d6 + 3) dégâts perforants, ou 6 (1d6 + 3) dégâts perforants si l'essaim est à la moitié de son points de vie ou moins, et la cible a un désavantage sur jets d'attaque jusqu'au début de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Swarm de morses",
+   "bonus": 5,
+   "damage": "3d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/40ad2cf530_monstre-nuee-de-hoard-scarabs.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Nuée de Hoard Scarabs",
+ "caNote": "armure naturelle",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi",
+ "bonusActions": "**Poussière à l'échelle (1/jour).** L'essaim libère de la poussière scintillante magique de ses ailes. Chaque créature de 3 m de l'essaim doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou être décrite en lumière bleue pendant 10 minutes. Tout en étant décrit de cette façon, une créature jette une lumière sombre dans un rayon de 3 m et ne peut pas bénéficier d'être invisible. En outre, chaque Dragon dans 1,5 km de la créature devient conscient de lui et peut suivre la créature avec ardeur. La fonte de Dissipation de la magie sur la créature met fin à l'effet sur elle."
+}

@@ -1,0 +1,548 @@
+{
+ "player": "",
+ "taille": "Moyenne",
+ "hpTemp": 0,
+ "xp": 355,
+ "niveau": 2,
+ "prof": 2,
+ "hitDice": 2,
+ "conditions": [],
+ "deathSaves": {
+  "s": 0,
+  "f": 0
+ },
+ "exhaustion": 0,
+ "color": "",
+ "source": "import (fichier texte)",
+ "inspiration": "",
+ "id": "vexil",
+ "name": "Vexil",
+ "title": "Le Dernier Pari",
+ "race": "Aarakocra",
+ "classe": "Occultiste",
+ "historique": "Charlatan",
+ "alignement": "Chaotique Neutre",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 15,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "saves": [
+  "SAG",
+  "CHA"
+ ],
+ "hpMax": 15,
+ "hp": 15,
+ "ca": 15,
+ "initBonus": 2,
+ "hitDie": 8,
+ "skills": {
+  "Tromperie": 5,
+  "Persuasion": 5,
+  "Escamotage": 4,
+  "Perspicacité": 3,
+  "Investigation": 2,
+  "Arcanes": 2
+ },
+ "attacks": [
+  {
+   "name": "Décharge occulte (36 m)",
+   "bonus": 5,
+   "damage": "1d10",
+   "type": "force"
+  },
+  {
+   "name": "Dague (lancer 6/18 m)",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant",
+   "item": "itea533fffd5"
+  },
+  {
+   "name": "Serres (mains nues)",
+   "bonus": 1,
+   "damage": "1d6-1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Faucille",
+   "bonus": 1,
+   "damage": "1d4-1",
+   "type": "tranchant",
+   "item": "itf1257e6129"
+  }
+ ],
+ "resources": [
+  {
+   "name": "Dagues",
+   "max": 2,
+   "cur": 2,
+   "reset": "aucun"
+  }
+ ],
+ "spellcasting": {
+  "ability": "CHA",
+  "dc": 13,
+  "attack": 5,
+  "slots": {
+   "1": {
+    "max": 2,
+    "cur": 2
+   }
+  }
+ },
+ "spells": {
+  "0": [
+   "Décharge occulte",
+   "Main de mage"
+  ],
+  "1": [
+   "Maléfice",
+   "Charme-personne",
+   "Serviteur invisible"
+  ]
+ },
+ "features": [
+  {
+   "name": "Magie de pacte",
+   "text": "Un emplacement de niveau 1, récupéré après un repos court ou long. Pacte conclu avec une entité dont il ignore le vrai nom ; chaque fois que le pacte le tire d'affaire, il se croit obligé de tenter un pari encore plus risqué."
+  },
+  {
+   "name": "Invocation occulte : Armure des ombres",
+   "text": "Lance Armure de mage sur lui-même à volonté, sans emplacement : CA 15 tant qu'il ne porte pas d'armure (13 avec l'armure de cuir)."
+  },
+  {
+   "name": "Doué (don d'origine, Charlatan)",
+   "text": "Trois maîtrises supplémentaires : Persuasion, Perspicacité, jeu de cartes."
+  },
+  {
+   "name": "Vol (Aarakocra)",
+   "text": "Vitesse de vol de 9 m, impossible avec une armure intermédiaire ou lourde. Très pratique pour fuir un créancier par les toits."
+  },
+  {
+   "name": "Serres (Aarakocra)",
+   "text": "Ses coups à mains nues infligent 1d6 + FOR dégâts tranchants."
+  },
+  {
+   "name": "Appel du vent (Aarakocra, niveau 3)",
+   "text": "À partir du niveau 3 : Bourrasque une fois par repos long sans emplacement, ou avec ses emplacements. Utilise le CHA."
+  },
+  {
+   "name": "Maîtrises et langues",
+   "text": "Armes courantes, armures légères. Outils : matériel de contrefaçon, jeu de cartes. Langues : commun, elfique, halfelin."
+  },
+  {
+   "name": "Manifestations occultes",
+   "text": "Choisissez des manifestations (invocations) qui modifient vos capacités."
+  }
+ ],
+ "equipment": "Deux dagues (dont une au manche d'ivoire fissuré), faucille, armure de cuir sombre, focaliseur arcanique (pièce percée portée au cou), livre de savoir occulte, sac d'érudit, matériel de contrefaçon, costume et vêtements élégants rapiécés à l'intérieur, jeu de cartes usé hérité de sa mère, lettre de dette portant un sceau rouge, carnet des noms de ses créanciers.",
+ "gold": 0,
+ "notes": "Histoire : né dans un port où les fortunes se font et se défont en une nuit ; joueur dès l'enfance, dettes et mensonges ; acculé, il a accepté l'offre d'une voix (une chance extraordinaire contre une faveur réclamée un jour) et signé sans lire les dernières lignes. Il cherche en secret à rompre son pacte.\nTrait : plaisante même terrifié, transforme chaque conversation en tentative de convaincre. Idéal : la liberté. Lien : le jeu de cartes de sa mère.\nDéfauts : addiction au jeu, mensonge réflexe, superstition, fierté ; peur secrète de devenir comme ceux qui l'ont exploité.\nProgression prévue : niv. 2 deux invocations (Décharge déchirante) et Ruse magique ; niv. 3 Appel du vent et patron (Fiélon, Fée ou Grand Ancien) ; niv. 4 CHA 17 → 18.\nIdées pour la campagne : son patron peut être lié au Jeu (le diable qui manipule Grésil et veut ouvrir la serrure, ou l'Arbitre lui-même, qui « déplace » la chance). La lettre au sceau rouge peut venir de la Main Pleine. Ysandre, l'ancienne joueuse devenue diseuse, le comprendra mieux que personne.",
+ "sheet": "=====================================================\nVEXIL — LE DERNIER PARI (Niveau 1)\nD&D 5e — Règles 2024\n=====================================================\n\n« La chance ne m'a jamais abandonné. C'est moi qui lui dois trop. »\n\nConcept    : aarakocra occultiste, joueur compulsif poursuivi par ses\n             dettes et par une entité qui semble influencer sa chance\nEspèce     : Aarakocra (Monstres du Multivers, adapté aux règles 2024)\nClasse     : Occultiste (Warlock) 1 (patron choisi au niveau 3)\nHistorique : Charlatan\nAlignement : Chaotique Neutre\nStyle      : magie à distance, manipulation sociale, tromperie et\n             survie par la ruse\n\n-----------------------------------------------------\nCARACTÉRISTIQUES\n(tableau standard + historique Charlatan : +2 CHA, +1 DEX)\n-----------------------------------------------------\nFOR  8 (-1)\nDEX 15 (+2)\nCON 13 (+1)\nINT 10 (+0)\nSAG 12 (+1)\nCHA 17 (+3)\n\n-----------------------------------------------------\nSTATISTIQUES\n-----------------------------------------------------\nBonus de maîtrise    : +2\nPV                   : 9 (dé de vie : 1d8)\nCA                   : 15 avec Armure des ombres (13 + DEX 2)\n                       13 avec l'armure de cuir\nInitiative           : +2\nVitesse              : 9 m, vol 9 m\nPerception passive   : 11\nJets de sauvegarde   : SAG +3, CHA +5\n\n-----------------------------------------------------\nCOMPÉTENCES\n-----------------------------------------------------\nTromperie     +5\nPersuasion    +5\nEscamotage    +4\nPerspicacité  +3\nInvestigation +2\nArcanes       +2\n\nOrigine des maîtrises :\n  Charlatan  : Tromperie, Escamotage\n  Occultiste : Arcanes, Investigation\n  Don Doué   : Persuasion, Perspicacité, jeu de cartes\n\n-----------------------------------------------------\nMAÎTRISES ET LANGUES\n-----------------------------------------------------\nArmes et armures : armes courantes, armures légères\nOutils           : matériel de contrefaçon, jeu de cartes\nLangues          : commun, elfique, halfelin\n\n-----------------------------------------------------\nATTAQUES\n-----------------------------------------------------\nDécharge occulte : +5 au toucher, 1d10 force, portée 36 m\n                   Son attaque principale. Une lueur violette passe\n                   parfois entre ses doigts, comme une pièce\n                   invisible qui tourne.\nDague (x2)       : +4 au toucher, 1d4 + 2 perforant\n                   Lancer : portée 6/18 m\nSerres           : +1 au toucher, 1d6 - 1 tranchant\n                   (coup à mains nues)\nFaucille         : +1 au toucher, 1d4 - 1 tranchant\n                   (pas de finesse, donc elle utilise la FOR)\n\n-----------------------------------------------------\nSORTS — MAGIE DE PACTE\n-----------------------------------------------------\nDD des sorts : 13\nAttaque de sort : +5\nEmplacement de pacte : 1 (niveau 1), récupéré au repos court ou long\n\nTours de magie (2) :\n  - Décharge occulte\n  - Main du mage\n\nSorts préparés de niveau 1 (2) :\n  - Maléfice (concentration) : par une action bonus, maudit une\n    créature. +1d6 nécrotique quand il la touche, et désavantage\n    à un type de test de caractéristique de son choix.\n  - Charme-personne : la cible devient amicale pendant 1 heure si\n    elle rate un JS de SAG. Elle sait ensuite qu'elle a été charmée.\n    Ça n'efface pas les dettes.\n\nAvec un seul emplacement, il ne peut lancer qu'un de ces deux sorts\nentre deux repos.\n\n-----------------------------------------------------\nCAPACITÉS\n-----------------------------------------------------\nMagie de pacte\n  Ses pouvoirs viennent d'un pacte conclu avec une entité dont il\n  ignore le vrai nom. Son emplacement revient après un repos court.\n  Chaque fois que le pacte le tire d'affaire, il est convaincu de\n  devoir tenter un pari encore plus risqué la fois suivante.\n\nInvocation occulte : Armure des ombres\n  Il peut lancer Armure de mage sur lui-même à volonté, sans\n  emplacement. CA 15 tant qu'il ne porte pas d'armure.\n\nDoué (don d'origine, Charlatan)\n  Trois maîtrises supplémentaires (voir Compétences).\n\nVol (Aarakocra)\n  Vitesse de vol de 9 m. Impossible avec une armure intermédiaire\n  ou lourde. Très pratique pour fuir un créancier par les toits.\n\nSerres (Aarakocra)\n  Ses coups à mains nues infligent 1d6 + FOR dégâts tranchants.\n\nAppel du vent (Aarakocra, à partir du niveau 3)\n  Peut lancer Bourrasque une fois par repos long sans emplacement,\n  ou avec ses emplacements. Utilise le CHA.\n\n-----------------------------------------------------\nÉQUIPEMENT\n-----------------------------------------------------\n- Deux dagues, dont une au manche d'ivoire fissuré\n- Faucille\n- Armure de cuir sombre (inutile avec Armure des ombres)\n- Focaliseur arcanique : une pièce percée portée autour du cou\n- Livre de savoir occulte\n- Sac d'érudit\n- Matériel de contrefaçon\n- Costume et vêtements élégants, rapiécés à l'intérieur\n- Jeu de cartes usé, hérité de sa mère\n- Lettre de dette portant un sceau rouge\n- Carnet où il note les noms de ses créanciers\n- 30 po (qui ne couvrent même pas les intérêts)\n\n-----------------------------------------------------\nHISTOIRE\n-----------------------------------------------------\nVexil est né dans une ville portuaire où les fortunes se faisaient\net se défaisaient en une nuit. Sa mère tenait une petite échoppe,\nson père travaillait sur les navires marchands. Enfant, il observait\nles marins et les aventuriers dépenser sans compter l'argent gagné\nau péril de leur vie.\n\nIl a découvert le jeu très jeune. D'abord quelques pièces et des\nrires, puis une nuit, une somme qu'il n'aurait jamais imaginé\nposséder. Ce soir-là, il a cru avoir compris quelque chose que les\nautres ignoraient.\n\nQuand il perdait, il rejouait pour se refaire. Quand il gagnait, il\ny voyait la preuve qu'il devait continuer. Les dettes se sont\naccumulées, les mensonges sont devenus une habitude, et ses proches\nont cessé de croire ses promesses.\n\nUne nuit, acculé, il a accepté l'offre d'une voix : une chance\nextraordinaire, en échange d'une faveur qui serait réclamée un jour.\nIl a signé sans lire les dernières lignes.\n\nLe lendemain, une décharge violette a jailli de sa main quand un\ncréancier l'a coincé dans une ruelle. Il a survécu, mais il a\ncompris que ses dettes ne concernaient plus seulement des hommes.\n\nIl voyage depuis avec des aventuriers. Il prétend chercher un trésor\npour rembourser ce qu'il doit. En vérité, il cherche un moyen de\nrompre son pacte avant que son bienfaiteur ne réclame son dû.\n\nPour la première fois, il se demande si la seule victoire qui compte\nne serait pas d'apprendre à s'arrêter.\n\n-----------------------------------------------------\nPERSONNALITÉ\n-----------------------------------------------------\nTrait : il plaisante même quand il est terrifié. Il transforme chaque\n        silence en conversation, et chaque conversation en tentative\n        de convaincre.\nIdéal : la liberté. Personne ne devrait appartenir à ses dettes, à\n        ses erreurs ou aux promesses faites dans un moment de\n        faiblesse.\nLien  : le jeu de cartes de sa mère, souvenir d'une époque où il\n        n'avait pas encore tout compliqué.\n\n« Le problème, ce n'est pas de perdre. C'est de croire qu'on peut\nréparer chaque perte en prenant un risque de plus. »\n\n-----------------------------------------------------\nDÉFAUTS\n-----------------------------------------------------\n- Addiction au jeu : quand il perd ou se sent impuissant, la\n  tentation de rejouer devient très forte.\n- Mensonge réflexe : il ment même quand la vérité serait plus simple.\n- Superstition : il voit des présages de chance ou de malchance\n  partout.\n- Fierté : il déteste demander de l'aide et fait semblant de\n  maîtriser la situation.\n- Peur secrète : devenir exactement comme ceux qui l'ont exploité.\n\nConseil de jeu : son addiction est une faiblesse qu'il affronte, pas\nun prétexte pour saboter les décisions du groupe. Mise sur les\ndilemmes, les promesses difficiles à tenir et la confiance à\nregagner.\n\n-----------------------------------------------------\nPROGRESSION PRÉVUE\n-----------------------------------------------------\nNiveau 2 : deux invocations de plus (Décharge déchirante conseillée),\n           Ruse magique (récupère des emplacements une fois par\n           repos long).\nNiveau 3 : Appel du vent (Bourrasque). Choix du patron. Le Fiélon colle à un pacte signé dans un\n           moment de faiblesse. La Fée ou le Grand Ancien marchent\n           pour une entité plus mystérieuse.\nNiveau 4 : Amélioration de caractéristique (CHA 17 -> 18).\n",
+ "portrait": "/data/images/95df026e3b_vexil-portrait2.png",
+ "inventory": [
+  {
+   "uid": "itea533fffd5",
+   "ref": "eq-dagger",
+   "qty": 2,
+   "equipped": true,
+   "attuned": false,
+   "name": "Dagues (dont une au manche d'ivoire fissuré)"
+  },
+  {
+   "uid": "itf1257e6129",
+   "ref": "eq-sickle",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Faucille"
+  },
+  {
+   "uid": "it7e5cf4a28e",
+   "ref": "eq-leather",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Armure de cuir sombre"
+  },
+  {
+   "uid": "ite850079c59",
+   "ref": "eq-arcane-focus",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Focaliseur arcanique (pièce percée portée au cou)"
+  },
+  {
+   "uid": "it7b9de0a10b",
+   "ref": "eq-book",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Livre de savoir occulte"
+  },
+  {
+   "uid": "itc6a6abc33b",
+   "ref": "eq-pack-scholar",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false
+  },
+  {
+   "uid": "itb4fccc8013",
+   "ref": null,
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Matériel de contrefaçon",
+   "desc": "",
+   "kind": "gear",
+   "cat": "Divers"
+  },
+  {
+   "uid": "it9700ccc83e",
+   "ref": "eq-costume",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Costume et vêtements élégants rapiécés à l'intérieur"
+  },
+  {
+   "uid": "ite8c97f1a02",
+   "ref": "eq-gaming-set-cards",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Jeu de cartes usé hérité de sa mère",
+   "notes": "5000"
+  },
+  {
+   "uid": "it6d789ee008",
+   "ref": null,
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Lettre de dette portant un sceau rouge",
+   "desc": "",
+   "kind": "gear",
+   "cat": "Divers"
+  },
+  {
+   "uid": "it7da1b59ab0",
+   "ref": null,
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Carnet des noms de ses créanciers",
+   "desc": "",
+   "kind": "gear",
+   "cat": "Divers"
+  },
+  {
+   "uid": "itmvmx2bngmugtt",
+   "ref": null,
+   "name": "Le Pendule de Donne",
+   "desc": "Une aiguille d'argent au bout d'une chaîne. Tenu au-dessus d'une carte de la région, il désigne les porteurs à 1,5 km près.",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "kind": "gear",
+   "cat": "Divers"
+  },
+  {
+   "uid": "it1a16fe7f3431978",
+   "ref": "mi-fragment-de-gisombre",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "value": 3730
+  }
+ ],
+ "saveItemBonus": 0,
+ "caManual": 15,
+ "purse": {
+  "pp": 0,
+  "po": 0,
+  "pa": 0,
+  "pc": 0
+ },
+ "playerNotes": "droite boss plus sortie droite celule plus possible petite fille  a gauche pacte sur moi on ne doit pas faire de mal au garde \n\nPorteurs à trouver : 22.\n\nSignalés à Sablerive : l'acrobate (prise), le poète (pris), la chèvre (?!), le meunier (à vérifier), \nla diseuse (à vérifier ; V. dit de ne pas y toucher).\n\n\naiguille qui montre les personne porteusse proche ",
+ "lvlRoll": null,
+ "levelHistory": [
+  {
+   "niveau": 1,
+   "t": 1792878139912,
+   "snap": {
+    "player": "",
+    "taille": "Moyenne",
+    "hpTemp": 0,
+    "xp": 355,
+    "niveau": 1,
+    "prof": 2,
+    "hitDice": 1,
+    "conditions": [],
+    "deathSaves": {
+     "s": 0,
+     "f": 0
+    },
+    "exhaustion": 0,
+    "color": "",
+    "source": "import (fichier texte)",
+    "inspiration": "",
+    "id": "vexil",
+    "name": "Vexil",
+    "title": "Le Dernier Pari",
+    "race": "Aarakocra",
+    "classe": "Occultiste",
+    "historique": "Charlatan",
+    "alignement": "Chaotique Neutre",
+    "vitesse": "9 m, vol 9 m",
+    "stats": {
+     "FOR": 8,
+     "DEX": 15,
+     "CON": 13,
+     "INT": 10,
+     "SAG": 12,
+     "CHA": 17
+    },
+    "saves": [
+     "SAG",
+     "CHA"
+    ],
+    "hpMax": 9,
+    "hp": 9,
+    "ca": 15,
+    "initBonus": 2,
+    "hitDie": 8,
+    "skills": {
+     "Tromperie": 5,
+     "Persuasion": 5,
+     "Escamotage": 4,
+     "Perspicacité": 3,
+     "Investigation": 2,
+     "Arcanes": 2
+    },
+    "attacks": [
+     {
+      "name": "Décharge occulte (36 m)",
+      "bonus": 5,
+      "damage": "1d10",
+      "type": "force"
+     },
+     {
+      "name": "Dague (lancer 6/18 m)",
+      "bonus": 4,
+      "damage": "1d4+2",
+      "type": "perforant",
+      "item": "itea533fffd5"
+     },
+     {
+      "name": "Serres (mains nues)",
+      "bonus": 1,
+      "damage": "1d6-1",
+      "type": "tranchant"
+     },
+     {
+      "name": "Faucille",
+      "bonus": 1,
+      "damage": "1d4-1",
+      "type": "tranchant",
+      "item": "itf1257e6129"
+     }
+    ],
+    "resources": [
+     {
+      "name": "Dagues",
+      "max": 2,
+      "cur": 2,
+      "reset": "aucun"
+     }
+    ],
+    "spellcasting": {
+     "ability": "CHA",
+     "dc": 13,
+     "attack": 5,
+     "slots": {
+      "1": {
+       "max": 1,
+       "cur": 0
+      }
+     }
+    },
+    "spells": {
+     "0": [
+      "Décharge occulte",
+      "Main de mage"
+     ],
+     "1": [
+      "Maléfice",
+      "Charme-personne"
+     ]
+    },
+    "features": [
+     {
+      "name": "Magie de pacte",
+      "text": "Un emplacement de niveau 1, récupéré après un repos court ou long. Pacte conclu avec une entité dont il ignore le vrai nom ; chaque fois que le pacte le tire d'affaire, il se croit obligé de tenter un pari encore plus risqué."
+     },
+     {
+      "name": "Invocation occulte : Armure des ombres",
+      "text": "Lance Armure de mage sur lui-même à volonté, sans emplacement : CA 15 tant qu'il ne porte pas d'armure (13 avec l'armure de cuir)."
+     },
+     {
+      "name": "Doué (don d'origine, Charlatan)",
+      "text": "Trois maîtrises supplémentaires : Persuasion, Perspicacité, jeu de cartes."
+     },
+     {
+      "name": "Vol (Aarakocra)",
+      "text": "Vitesse de vol de 9 m, impossible avec une armure intermédiaire ou lourde. Très pratique pour fuir un créancier par les toits."
+     },
+     {
+      "name": "Serres (Aarakocra)",
+      "text": "Ses coups à mains nues infligent 1d6 + FOR dégâts tranchants."
+     },
+     {
+      "name": "Appel du vent (Aarakocra, niveau 3)",
+      "text": "À partir du niveau 3 : Bourrasque une fois par repos long sans emplacement, ou avec ses emplacements. Utilise le CHA."
+     },
+     {
+      "name": "Maîtrises et langues",
+      "text": "Armes courantes, armures légères. Outils : matériel de contrefaçon, jeu de cartes. Langues : commun, elfique, halfelin."
+     }
+    ],
+    "equipment": "Deux dagues (dont une au manche d'ivoire fissuré), faucille, armure de cuir sombre, focaliseur arcanique (pièce percée portée au cou), livre de savoir occulte, sac d'érudit, matériel de contrefaçon, costume et vêtements élégants rapiécés à l'intérieur, jeu de cartes usé hérité de sa mère, lettre de dette portant un sceau rouge, carnet des noms de ses créanciers.",
+    "gold": 37,
+    "notes": "Histoire : né dans un port où les fortunes se font et se défont en une nuit ; joueur dès l'enfance, dettes et mensonges ; acculé, il a accepté l'offre d'une voix (une chance extraordinaire contre une faveur réclamée un jour) et signé sans lire les dernières lignes. Il cherche en secret à rompre son pacte.\nTrait : plaisante même terrifié, transforme chaque conversation en tentative de convaincre. Idéal : la liberté. Lien : le jeu de cartes de sa mère.\nDéfauts : addiction au jeu, mensonge réflexe, superstition, fierté ; peur secrète de devenir comme ceux qui l'ont exploité.\nProgression prévue : niv. 2 deux invocations (Décharge déchirante) et Ruse magique ; niv. 3 Appel du vent et patron (Fiélon, Fée ou Grand Ancien) ; niv. 4 CHA 17 → 18.\nIdées pour la campagne : son patron peut être lié au Jeu (le diable qui manipule Grésil et veut ouvrir la serrure, ou l'Arbitre lui-même, qui « déplace » la chance). La lettre au sceau rouge peut venir de la Main Pleine. Ysandre, l'ancienne joueuse devenue diseuse, le comprendra mieux que personne.\ndette de 10 po a la table",
+    "sheet": "=====================================================\nVEXIL — LE DERNIER PARI (Niveau 1)\nD&D 5e — Règles 2024\n=====================================================\n\n« La chance ne m'a jamais abandonné. C'est moi qui lui dois trop. »\n\nConcept    : aarakocra occultiste, joueur compulsif poursuivi par ses\n             dettes et par une entité qui semble influencer sa chance\nEspèce     : Aarakocra (Monstres du Multivers, adapté aux règles 2024)\nClasse     : Occultiste (Warlock) 1 (patron choisi au niveau 3)\nHistorique : Charlatan\nAlignement : Chaotique Neutre\nStyle      : magie à distance, manipulation sociale, tromperie et\n             survie par la ruse\n\n-----------------------------------------------------\nCARACTÉRISTIQUES\n(tableau standard + historique Charlatan : +2 CHA, +1 DEX)\n-----------------------------------------------------\nFOR  8 (-1)\nDEX 15 (+2)\nCON 13 (+1)\nINT 10 (+0)\nSAG 12 (+1)\nCHA 17 (+3)\n\n-----------------------------------------------------\nSTATISTIQUES\n-----------------------------------------------------\nBonus de maîtrise    : +2\nPV                   : 9 (dé de vie : 1d8)\nCA                   : 15 avec Armure des ombres (13 + DEX 2)\n                       13 avec l'armure de cuir\nInitiative           : +2\nVitesse              : 9 m, vol 9 m\nPerception passive   : 11\nJets de sauvegarde   : SAG +3, CHA +5\n\n-----------------------------------------------------\nCOMPÉTENCES\n-----------------------------------------------------\nTromperie     +5\nPersuasion    +5\nEscamotage    +4\nPerspicacité  +3\nInvestigation +2\nArcanes       +2\n\nOrigine des maîtrises :\n  Charlatan  : Tromperie, Escamotage\n  Occultiste : Arcanes, Investigation\n  Don Doué   : Persuasion, Perspicacité, jeu de cartes\n\n-----------------------------------------------------\nMAÎTRISES ET LANGUES\n-----------------------------------------------------\nArmes et armures : armes courantes, armures légères\nOutils           : matériel de contrefaçon, jeu de cartes\nLangues          : commun, elfique, halfelin\n\n-----------------------------------------------------\nATTAQUES\n-----------------------------------------------------\nDécharge occulte : +5 au toucher, 1d10 force, portée 36 m\n                   Son attaque principale. Une lueur violette passe\n                   parfois entre ses doigts, comme une pièce\n                   invisible qui tourne.\nDague (x2)       : +4 au toucher, 1d4 + 2 perforant\n                   Lancer : portée 6/18 m\nSerres           : +1 au toucher, 1d6 - 1 tranchant\n                   (coup à mains nues)\nFaucille         : +1 au toucher, 1d4 - 1 tranchant\n                   (pas de finesse, donc elle utilise la FOR)\n\n-----------------------------------------------------\nSORTS — MAGIE DE PACTE\n-----------------------------------------------------\nDD des sorts : 13\nAttaque de sort : +5\nEmplacement de pacte : 1 (niveau 1), récupéré au repos court ou long\n\nTours de magie (2) :\n  - Décharge occulte\n  - Main du mage\n\nSorts préparés de niveau 1 (2) :\n  - Maléfice (concentration) : par une action bonus, maudit une\n    créature. +1d6 nécrotique quand il la touche, et désavantage\n    à un type de test de caractéristique de son choix.\n  - Charme-personne : la cible devient amicale pendant 1 heure si\n    elle rate un JS de SAG. Elle sait ensuite qu'elle a été charmée.\n    Ça n'efface pas les dettes.\n\nAvec un seul emplacement, il ne peut lancer qu'un de ces deux sorts\nentre deux repos.\n\n-----------------------------------------------------\nCAPACITÉS\n-----------------------------------------------------\nMagie de pacte\n  Ses pouvoirs viennent d'un pacte conclu avec une entité dont il\n  ignore le vrai nom. Son emplacement revient après un repos court.\n  Chaque fois que le pacte le tire d'affaire, il est convaincu de\n  devoir tenter un pari encore plus risqué la fois suivante.\n\nInvocation occulte : Armure des ombres\n  Il peut lancer Armure de mage sur lui-même à volonté, sans\n  emplacement. CA 15 tant qu'il ne porte pas d'armure.\n\nDoué (don d'origine, Charlatan)\n  Trois maîtrises supplémentaires (voir Compétences).\n\nVol (Aarakocra)\n  Vitesse de vol de 9 m. Impossible avec une armure intermédiaire\n  ou lourde. Très pratique pour fuir un créancier par les toits.\n\nSerres (Aarakocra)\n  Ses coups à mains nues infligent 1d6 + FOR dégâts tranchants.\n\nAppel du vent (Aarakocra, à partir du niveau 3)\n  Peut lancer Bourrasque une fois par repos long sans emplacement,\n  ou avec ses emplacements. Utilise le CHA.\n\n-----------------------------------------------------\nÉQUIPEMENT\n-----------------------------------------------------\n- Deux dagues, dont une au manche d'ivoire fissuré\n- Faucille\n- Armure de cuir sombre (inutile avec Armure des ombres)\n- Focaliseur arcanique : une pièce percée portée autour du cou\n- Livre de savoir occulte\n- Sac d'érudit\n- Matériel de contrefaçon\n- Costume et vêtements élégants, rapiécés à l'intérieur\n- Jeu de cartes usé, hérité de sa mère\n- Lettre de dette portant un sceau rouge\n- Carnet où il note les noms de ses créanciers\n- 30 po (qui ne couvrent même pas les intérêts)\n\n-----------------------------------------------------\nHISTOIRE\n-----------------------------------------------------\nVexil est né dans une ville portuaire où les fortunes se faisaient\net se défaisaient en une nuit. Sa mère tenait une petite échoppe,\nson père travaillait sur les navires marchands. Enfant, il observait\nles marins et les aventuriers dépenser sans compter l'argent gagné\nau péril de leur vie.\n\nIl a découvert le jeu très jeune. D'abord quelques pièces et des\nrires, puis une nuit, une somme qu'il n'aurait jamais imaginé\nposséder. Ce soir-là, il a cru avoir compris quelque chose que les\nautres ignoraient.\n\nQuand il perdait, il rejouait pour se refaire. Quand il gagnait, il\ny voyait la preuve qu'il devait continuer. Les dettes se sont\naccumulées, les mensonges sont devenus une habitude, et ses proches\nont cessé de croire ses promesses.\n\nUne nuit, acculé, il a accepté l'offre d'une voix : une chance\nextraordinaire, en échange d'une faveur qui serait réclamée un jour.\nIl a signé sans lire les dernières lignes.\n\nLe lendemain, une décharge violette a jailli de sa main quand un\ncréancier l'a coincé dans une ruelle. Il a survécu, mais il a\ncompris que ses dettes ne concernaient plus seulement des hommes.\n\nIl voyage depuis avec des aventuriers. Il prétend chercher un trésor\npour rembourser ce qu'il doit. En vérité, il cherche un moyen de\nrompre son pacte avant que son bienfaiteur ne réclame son dû.\n\nPour la première fois, il se demande si la seule victoire qui compte\nne serait pas d'apprendre à s'arrêter.\n\n-----------------------------------------------------\nPERSONNALITÉ\n-----------------------------------------------------\nTrait : il plaisante même quand il est terrifié. Il transforme chaque\n        silence en conversation, et chaque conversation en tentative\n        de convaincre.\nIdéal : la liberté. Personne ne devrait appartenir à ses dettes, à\n        ses erreurs ou aux promesses faites dans un moment de\n        faiblesse.\nLien  : le jeu de cartes de sa mère, souvenir d'une époque où il\n        n'avait pas encore tout compliqué.\n\n« Le problème, ce n'est pas de perdre. C'est de croire qu'on peut\nréparer chaque perte en prenant un risque de plus. »\n\n-----------------------------------------------------\nDÉFAUTS\n-----------------------------------------------------\n- Addiction au jeu : quand il perd ou se sent impuissant, la\n  tentation de rejouer devient très forte.\n- Mensonge réflexe : il ment même quand la vérité serait plus simple.\n- Superstition : il voit des présages de chance ou de malchance\n  partout.\n- Fierté : il déteste demander de l'aide et fait semblant de\n  maîtriser la situation.\n- Peur secrète : devenir exactement comme ceux qui l'ont exploité.\n\nConseil de jeu : son addiction est une faiblesse qu'il affronte, pas\nun prétexte pour saboter les décisions du groupe. Mise sur les\ndilemmes, les promesses difficiles à tenir et la confiance à\nregagner.\n\n-----------------------------------------------------\nPROGRESSION PRÉVUE\n-----------------------------------------------------\nNiveau 2 : deux invocations de plus (Décharge déchirante conseillée),\n           Ruse magique (récupère des emplacements une fois par\n           repos long).\nNiveau 3 : Appel du vent (Bourrasque). Choix du patron. Le Fiélon colle à un pacte signé dans un\n           moment de faiblesse. La Fée ou le Grand Ancien marchent\n           pour une entité plus mystérieuse.\nNiveau 4 : Amélioration de caractéristique (CHA 17 -> 18).\n",
+    "portrait": "/data/images/95df026e3b_vexil-portrait2.png",
+    "inventory": [
+     {
+      "uid": "itea533fffd5",
+      "ref": "eq-dagger",
+      "qty": 2,
+      "equipped": true,
+      "attuned": false,
+      "name": "Dagues (dont une au manche d'ivoire fissuré)"
+     },
+     {
+      "uid": "itf1257e6129",
+      "ref": "eq-sickle",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Faucille"
+     },
+     {
+      "uid": "it7e5cf4a28e",
+      "ref": "eq-leather",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Armure de cuir sombre"
+     },
+     {
+      "uid": "ite850079c59",
+      "ref": "eq-arcane-focus",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Focaliseur arcanique (pièce percée portée au cou)"
+     },
+     {
+      "uid": "it7b9de0a10b",
+      "ref": "eq-book",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Livre de savoir occulte"
+     },
+     {
+      "uid": "itc6a6abc33b",
+      "ref": "eq-pack-scholar",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "itb4fccc8013",
+      "ref": null,
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Matériel de contrefaçon",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     },
+     {
+      "uid": "it9700ccc83e",
+      "ref": "eq-costume",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Costume et vêtements élégants rapiécés à l'intérieur"
+     },
+     {
+      "uid": "ite8c97f1a02",
+      "ref": "eq-gaming-set-cards",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Jeu de cartes usé hérité de sa mère"
+     },
+     {
+      "uid": "it6d789ee008",
+      "ref": null,
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Lettre de dette portant un sceau rouge",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     },
+     {
+      "uid": "it7da1b59ab0",
+      "ref": null,
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Carnet des noms de ses créanciers",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     },
+     {
+      "uid": "itmvmx2bngmugtt",
+      "ref": null,
+      "name": "Le Pendule de Donne",
+      "desc": "Une aiguille d'argent au bout d'une chaîne. Tenu au-dessus d'une carte de la région, il désigne les porteurs à 1,5 km près.",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "kind": "gear",
+      "cat": "Divers"
+     }
+    ],
+    "saveItemBonus": 0,
+    "caManual": 15,
+    "purse": {
+     "pp": 0,
+     "po": 27,
+     "pa": 83,
+     "pc": 170
+    },
+    "playerNotes": "droite boss plus sortie droite celule plus possible petite fille  a gauche pacte sur moi on ne doit pas faire de mal au garde \n\nPorteurs à trouver : 22.\n\nSignalés à Sablerive : l'acrobate (prise), le poète (pris), la chèvre (?!), le meunier (à vérifier), \nla diseuse (à vérifier ; V. dit de ne pas y toucher).\n\n\naiguille qui montre les personne porteusse proche ",
+    "lvlRoll": {
+     "niveau": 2,
+     "roll": 5,
+     "die": 8
+    }
+   }
+  }
+ ]
+}

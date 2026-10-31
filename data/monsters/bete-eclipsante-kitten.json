@@ -1,0 +1,39 @@
+{
+ "id": "bete-eclipsante-kitten",
+ "name": "Displacer Beast Kitten",
+ "type": "Monstruosité",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d6+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Déplacement.** La bête déplacée projette une illusion magique qui lui fait paraître être debout près de son emplacement réel, ce qui fait que jets d'attaque contre elle a un désavantage. S'il est touché par une attaque, ce trait est perturbé jusqu'à la fin de son prochain tour. Ce trait est également perturbé alors que la bête déplacée est neutralisé ou a une vitesse de 0.",
+ "actionsText": "**Tentacules.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 2 dégâts contondants plus 2 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 3,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/fe04ec2d06_monstre-bete-eclipsante-kitten.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Bête éclipsante Kitten",
+ "caNote": "armure naturelle"
+}

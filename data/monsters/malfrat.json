@@ -1,0 +1,44 @@
+{
+ "id": "malfrat",
+ "name": "Malfrat",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Tactique de meute.** Quand au moins un de ses alliés non Neutralisés se situe dans un rayon de 1,50 m de la créature qu’il cible, le gros-bras a l’Avantage au jet d’attaque correspondant.",
+ "actionsText": "**Masse d’armes.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts contondants.\n**Arbalète lourde.** À distance : +3, portée 30/120 m. Touché : 6 (1d10 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Masse d’armes",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  },
+  {
+   "name": "Arbalète lourde",
+   "bonus": 3,
+   "damage": "1d10+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8f7a83f0fc_monstre-malfrat.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr",
+ "aka": "Gros-bras (2024)"
+}

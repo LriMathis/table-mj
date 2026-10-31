@@ -1,0 +1,39 @@
+{
+ "id": "menace-reduite-bete-eclipsante",
+ "name": "Reduced-Threat Displacer Beast",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Évitement.** Si la bête déplacée est soumise à un effet qui lui permet de faire un jet de sauvegarde pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts si elle réussit sur le jet de sauvegarde, et seulement la moitié des dégâts si elle échoue.\n**Déplacement.** La bête déplacée projette une illusion magique qui lui fait paraître être debout près de son emplacement réel, ce qui fait que jets d'attaque contre elle a un désavantage. S'il est touché par une attaque, ce trait est perturbé jusqu'à la fin de son prochain tour. Ce trait est également perturbé alors que la bête déplacée est neutralisé ou a une vitesse de 0.",
+ "actionsText": "**Multiattaques.** La bête déplacée fait deux attaques avec ses tentacules.\n**Tentacle.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants plus 3 (1d6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "contondant + perforant"
+  }
+ ],
+ "portrait": "/data/images/9fd6bbc78b_monstre-menace-reduite-bete-eclipsante.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Menace réduite bête éclipsante",
+ "caNote": "armure naturelle"
+}

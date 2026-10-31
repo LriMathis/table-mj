@@ -1,0 +1,47 @@
+{
+ "id": "gardien-de-flammes-eternelles",
+ "name": "Eternal Flame Guardian",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 17,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "**Arme à flamber (recharge après un repos court ou long).** En tant qu'action bonus, le garde peut se servir d'une arme à melee qu'il manie en flamme. Le garde n'est pas blessé par ce feu, qui dure jusqu'à la fin du prochain tour du garde. Pendant que l'arme est en flamme, elle offre un 3 (1d6) dégâts de feu supplémentaire sur un coup.",
+ "actionsText": "**Multiattaques.** Le garde fait deux attaques à la mêlée.\n**Mot long.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants.\n**Grosse arbalète.** Attaque d'arme à distance : +3 au toucher, portée 30/120 m., une cible. Touché : 6 (1d10 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 3,
+   "damage": "1d10+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ee9363e778_monstre-gardien-de-flammes-eternelles.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Gardien de flammes éternelles",
+ "caNote": "Breastplate, Bouclier",
+ "skills": "Intimidation +3, Perception +2",
+ "resistances": "feu"
+}

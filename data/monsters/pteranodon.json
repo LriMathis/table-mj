@@ -1,0 +1,38 @@
+{
+ "id": "pteranodon",
+ "name": "Ptéranodon",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non aligné",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 2,
+  "SAG": 9,
+  "CHA": 5
+ },
+ "skills": "Perception +1",
+ "senses": "Perception passive 11",
+ "languages": "aucune",
+ "traits": "**Repli aérien.** Le ptéranodon ne provoque pas d’attaque d’Opportunité lorsqu’il quitte la zone d’allonge d’un ennemi en volant.",
+ "actionsText": "**Morsure.** Corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/082387b615_monstre-pteranodon.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet"
+}

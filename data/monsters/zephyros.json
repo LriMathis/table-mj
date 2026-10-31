@@ -1,0 +1,46 @@
+{
+ "id": "zephyros",
+ "name": "Zephyros",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre bon",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 14,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun, géant",
+ "traits": "**Sensation de Keen.** Zephyros a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Découpe intérieure.** caractéristique d'incantation inné de Zephyros est Charisme. Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Nappe de brouillard, Lumière\n- 1/jour chacun : Contrôle du climat, Forme gazeuse\n- 3/jour chacun : Feuille morte, Vol, Foulée brumeuse, Télékinésie",
+ "actionsText": "**Vols.** Zephyros essaie de jeter une petite ou moyenne créature dans 3 m de lui. La cible doit réussir sur un DD 20 jet de sauvegarde de Dextérité ou être lancée jusqu'à 18 m horizontalement dans la direction du choix de Zephyros et atterrir à terre, en prenant 1d8 dégâts contondants pour chaque 3 m qu'elle a été lancée.\n**Aura du vent.** Une aura magique du vent entoure Zephyros. L'aura est une sphère 3 m -radius qui dure aussi longtemps qu'il maintient concentration dessus (comme si concentrating sur un sort). Alors que l'aura est en vigueur, Zephyros gagne un bonus de +2 à son CA contre les attaques d'armes à portée, et toutes les flammes ouvertes dans l'aura sont éteintes à moins qu'elles ne soient magiques.\n**Multiattaques.** Zephyros fait deux attaques du personnel.\n**Le personnel des Mages.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 20 (3d6 + 10) dégâts contondants, ou 23 (3d8 + 10) dégâts contondants si utilisé avec deux mains. Ce dégâts est considéré comme magique..\n**Roche.** Attaque d'arme à distance : +12 au toucher, portée 18/72 m., une cible. Touché : 30 (4d10 + 8) dégâts contondants.\n**Détection orthographique.** Zephyros lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17, +11 au toucher with attaques de sort) :\n- À volonté : Message, Prestidigitation, Rayon de givre\n- 1/jour chacun : Cône de froid, Contact avec un autre plan (sous forme d'une action), Invisibilité supérieure, Suggestion de groupe, Antidétection, Sphère résiliente d'Otiluke, Protection contre une énergie, Don des langues\n- 2/jour chacun : Bourrasque, Lévitation, Projectile magique",
+ "attacks": [
+  {
+   "name": "Le personnel des Mages",
+   "bonus": 15,
+   "damage": "3d6+10",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 12,
+   "damage": "4d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ffa5c3e955_monstre-zephyros.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +11, SAG +8, CHA +8",
+ "skills": "Perspicacité +8, Perception +8"
+}

@@ -2,36 +2,45 @@
  "id": "squelette",
  "name": "Squelette",
  "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
  "cr": "1/4",
  "xp": 50,
- "ca": 13,
+ "ca": 14,
  "hp": 13,
  "hpFormula": "2d8+4",
  "vitesse": "9 m",
- "size": 1,
  "stats": {
   "FOR": 10,
-  "DEX": 14,
+  "DEX": 16,
   "CON": 15,
   "INT": 6,
   "SAG": 8,
   "CHA": 5
  },
+ "vulnerabilities": "contondants",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné, épuisement",
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend le commun et une autre langue mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Épée courte.** Corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts perforants.\n**Arc court.** À distance : +5, portée 24/96 m. Touché : 6 (1d6 + 3) dégâts perforants.",
  "attacks": [
   {
    "name": "Épée courte",
-   "bonus": 4,
-   "damage": "1d6+2",
+   "bonus": 5,
+   "damage": "1d6+3",
    "type": "perforant"
   },
   {
    "name": "Arc court",
-   "bonus": 4,
-   "damage": "1d6+2",
+   "bonus": 5,
+   "damage": "1d6+3",
    "type": "perforant"
   }
  ],
- "traits": "**Vulnérabilité** contondant. **Immunités** poison, épuisement, empoisonné.",
- "portrait": "/data/images/fd83d183f4_monstre-squelette.svg",
- "notes": ""
+ "portrait": "/data/images/838610588c_monstre-squelette.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 274"
 }

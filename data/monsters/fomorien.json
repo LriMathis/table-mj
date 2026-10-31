@@ -1,0 +1,39 @@
+{
+ "id": "fomorien",
+ "name": "Fomorien",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "caNote": "armure naturelle",
+ "hp": 149,
+ "hpFormula": "13d12+65",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 9,
+  "SAG": 14,
+  "CHA": 6
+ },
+ "skills": "Discrétion +3, Perception +8",
+ "senses": "vision dans le noir 36 m, Perception passive 18",
+ "languages": "commun des profondeurs, géant",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le fomorien effectue deux attaques avec sa massue, ou il attaque une fois avec sa massue et utilise une fois son aptitude de mauvais œil.\n**Massue.** *Attaque d'arme au corps à corps :* +9 pour toucher, allonge 4,50 m, une cible. *Touché :* 19 (3d8+6) dégâts contondants.\n**Mauvais œil.** Le fomorien force par magie une créature située dans un rayon de 18 mètres dans son champ de vision à effectuer un jet de sauvegarde de Charisme DD 14. La créature subit 27 (6d8) dégâts psychiques si elle échoue ou la moitié seulement si elle réussit.\n**Malédiction du mauvais œil (recharge après un court ou un long repos).** Le fomorien utilise le mauvais œil d'un seul regard, mais, si la cible a raté son jet de sauvegarde, elle est également victime de difformités magiques. Déformée de la sorte, la créature voit sa vitesse diminuée de moitié et elle est désavantagée lors des tests de caractéristique, des jets de sauvegarde et des jets d'attaque basés sur la Force ou la Dextérité. La créature transformée peut retenter le jet de sauvegarde chaque fois qu'elle termine un long repos et met fin à l'effet dont elle est victime en cas de réussite.",
+ "portrait": "/data/images/5a8483beac_monstre-fomorien.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 138 · image : Manuel des monstres p. 137",
+ "attacks": [
+  {
+   "name": "Massue",
+   "bonus": 9,
+   "damage": "3d8+6",
+   "type": "contondant"
+  }
+ ]
+}

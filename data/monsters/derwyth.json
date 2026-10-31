@@ -1,0 +1,38 @@
+{
+ "id": "derwyth",
+ "name": "Derwyth",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 60, Perception passive 14",
+ "languages": "commun, elfique",
+ "traits": "**Forme de l'arbre (2/jour).** Au cours de 1 minute, Derwyth peut par magie se transformer en un arbre énorme ou plus petit et rester dans cette forme pendant 24 heures ou jusqu'à ce qu'elle termine cette transformation tôt (aucune action requise). Son équipement se fond dans sa nouvelle forme. Alors que dans cette forme, son classe d'armure a 16 ans, elle a l'état neutralisé, et elle ne peut ni bouger ni parler.\n**Détection orthographique.** Derwyth est un spellcaster de niveau 4. Son caractéristique d'incantation est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). Elle a préparé les sorts druides suivants :\n- Sorts mineurs (à volonté) : Druidisme, Flammes, Gourdin magique\n- Niveau 1 (4 emplacements) : Enchevêtrement, Grande foulée, Communication avec les animaux, Vague tonnante\n- Niveau 2 (3 emplacements) : Messager animal, Peau d'écorce",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +2 au toucher (+4 au toucher avec shillelagh), allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants, 4 (1d8) dégâts contondants si elle est portée à deux mains, ou 6 (1d8 + 2) dégâts contondants avec shillelagh.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/a3438d685a_monstre-derwyth.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "skills": "Médecine +4, Nature +3, Perception +4"
+}

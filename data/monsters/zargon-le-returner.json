@@ -1,0 +1,57 @@
+{
+ "id": "zargon-le-returner",
+ "name": "Zargon the Returner",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 18,
+ "hp": 253,
+ "hpFormula": "22d12+110",
+ "vitesse": "12 m, nage 24 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 14,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 20",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance légendaire (4/jour).** Si Zargon échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Régénération.** Zargon retrouve 20 points de vie au début de chacun de ses tours. Si Zargon prend froid ou dégâts de feu, ce trait ne fonctionne pas au début du prochain tour de Zargon. Zargon meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Être rasé.** Zargon ne peut pas être ciblé par la magie de divination ou perçu par des capteurs magiques.\n**Slimy Demise.** Quand Zargon meurt, son corps se dissout en slime, laissant seulement sa corne derrière. Le zargon se reforme en 1d10 jours, se reproduisant de la corne. La corne est à l'abri de tous les dégâts et ne peut être détruite qu'en la plongeant dans une cascade nettoyante sur l'un des Plans supérieurs pendant 101 jours. Alors que la corne est submergée de cette façon, Zargon ne se reforme pas, et la corne se dissout lentement, en envoyant la boue corrompante qui souille définitivement l'eau pour 15 km de l'endroit où la corne s'est dissoute. L'eau souillée est impropre à la consommation, étouffe la faune aquatique et se flétrit les plantes.",
+ "actionsText": "**Multiattaques.** Zargon fait deux attaques du Tentacle Barbed, une attaque Bite, et une attaque Gore.\n**Tentacle à barbe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 6 m, une cible. Touché : 15 (2d8 + 6) dégâts perforants. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 20), et Zargon peut tirer la créature jusqu'à 6 m directement vers elle-même. Zargon a six tentacules, qui peuvent chacun battre une créature. Zargon peut se déplacer à sa vitesse maximale tout en traînant des créatures qu'il lutte.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 19 (2d12 + 6) dégâts perforants plus 7 (2d6) dégâts d'acide.\n**Gore.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 15 (2d8 + 6) dégâts de force, et une sphère 3 m -radius invisible d'antimagique, comme celle créée par un sort Champ antimagie, entoure la cible. La sphère est centrée sur la cible, se déplace avec la cible, et dure jusqu'à la fin du prochain tour de Zargon.\n**Onde de slime (Recharge 5-6).** Les jets de zargone s'évanouissent dans un cône 18 m. Chaque créature dans cette zone qui n'est pas une Aberration ou Ooze doit faire un DD 19 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 38 (7d10) dégâts d'acide et a l'état empoisonné pendant 1 minute. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement. Une créature empoisonné peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\nUne créature réduite à 0 points de vie par le dégâts d'acide meurt et se dissout dans une flaque de slime qui se lève comme un boucher en gant au début du prochain tour de Zargon. La créature obéit aux ordres de Zargon et prend son tour immédiatement après celui de Zargon. Seul un sort Souhait peut inverser cette transformation et redonner vie à la créature.",
+ "attacks": [
+  {
+   "name": "Tentacle à barbe",
+   "bonus": 12,
+   "damage": "2d8+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d12+6",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Gore",
+   "bonus": 12,
+   "damage": "2d8+6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/49bb935720_monstre-zargon-le-returner.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Zargon le Returner",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CHA +10",
+ "skills": "Histoire +8, Perception +10",
+ "resistances": "froid, feu, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "reactions": "**Défiant Essence.** Lorsqu'une créature jette un sort qui vise Zargon ou lui causerait des dégâts, Zargon tente d'absorber la magie dans sa corne. La créature doit faire un DD 19 jet de sauvegarde de Charisme. Sur une sauvegarde ratée, la créature prend 6 (1d12) dégâts de force, et le sort qu'elle lance échoue et est gaspillé.\n**Vaporisateur à slime.** Lorsqu'une créature termine son tour dans 9 m de Zargon, Zargon vaporise une slime toxique sur la créature. La cible doit faire un DD 19 jet de sauvegarde de Dextérité (avec inconvénient si elle a l'état empoisonné). Sur une sauvegarde ratée, la créature prend 7 (2d6) dégâts de poison. Sur une sauvegarde réussie, il faut la moitié de ces dégâts."
+}

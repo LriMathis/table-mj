@@ -1,0 +1,41 @@
+{
+ "id": "haut-parleur-gallows",
+ "name": "Gallows Speaker",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 13,
+ "hp": 75,
+ "hpFormula": "10d12+10",
+ "vitesse": "1,50 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 9,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 11",
+ "languages": "Commun plus deux autres langues",
+ "traits": "**Aura de la violence.** À la fin de chaque tour du haut-parleur de potence, chaque créature du choix du haut-parleur de potence dans une émanation 4,50 m provenant du haut-parleur de potence subit l'effet suivant. Jet de sauvegarde de Sagesse : DD 15. Échec : La cible prend une réaction pour faire une melee jet d'attaque contre une créature à portée de main. Si aucune créature n'est à portée de main, la cible prend 7 (2d6) dégâts psychiques.\n**Formulaire de sifflement.** Le haut-parleur de potence peut entrer dans l'espace d'une créature et s'arrêter là.",
+ "actionsText": "**Multiattaques.** Le haut-parleur de potence fait deux attaques de Blades de Whirling.\n**Lames à fouetter.** Jet d'attaque au corps à corps ou à distance : +6, allonge 1,50 m ou portée 18 m. Touché : 13 (3d6 + 3) dégâts tranchants plus 7 (3d4) dégâts nécrotiques.\n**Vent de hurlement (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 15, chaque créature dans un cône 9 m. Échec : 18 (4d8) dégâts de tonnerre, et la cible a l'état effrayé pendant 1 minute. Alors qu'effrayé de cette façon, la créature a l'état assourdi, est obligé de s'approcher avec le haut-parleur de potence, et ne peut pas lancer des sorts avec une composante verbale. La cible répète l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Lames à fouetter",
+   "bonus": 6,
+   "damage": "3d6+3",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/227aa737c5_monstre-haut-parleur-gallows.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Haut-parleur Gallows",
+ "resistances": "contondant, perforant, tranchant, tonnerre",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

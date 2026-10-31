@@ -1,0 +1,42 @@
+{
+ "id": "solar-bastion-chevalier",
+ "name": "Solar Bastion Knight",
+ "type": "Humanoïde (paladin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 20,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 17
+ },
+ "senses": "Perception passive 13",
+ "languages": "Commun plus une langue",
+ "traits": "**Aura de protection.** Le chevalier et chaque allié au sein de 3 m en ont l'avantage sur jet de sauvegarde. Ce trait est supprimé alors que le chevalier a l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Le chevalier fait trois attaques de Sunspear.\n**Pare-soleil.** Attaque de sort au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 14 (3d6 + 4) dégâts radiants, ou 21 (5d6 + 4) dégâts radiants si la cible est un Fiend ou un Undead.\n**Solaire (Recharge 5-6).** Le chevalier déclenche un flambeau d'énergie brillante qui remplit une sphère 9 m -radius centrée sur le chevalier. Chaque créature du choix du chevalier dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 22 (4d10) dégâts radiants et a l'état aveuglé jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement. Pour la minute suivante, la zone affectée est remplie de lumière lumineuse qui est la lumière du soleil.\n**Détection orthographique.** Le chevalier lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- 1/jour chacun : Restauration supérieure, Communication à distance, Mot de retour (le sanctuaire préparé est le bastion solaire)",
+ "attacks": [
+  {
+   "name": "Pare-soleil",
+   "bonus": 8,
+   "damage": "3d6+4",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/139796c806_monstre-solar-bastion-chevalier.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Solar Bastion chevalier",
+ "caNote": "Armure de plaque, Bouclier",
+ "saves": "SAG +7, CHA +7",
+ "skills": "Arcanes +6, Histoire +6",
+ "conditionImmunities": "aveuglé, charmé, effrayé"
+}

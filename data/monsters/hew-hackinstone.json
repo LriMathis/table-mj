@@ -1,0 +1,40 @@
+{
+ "id": "hew-hackinstone",
+ "name": "Hew Hackinstone",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Résilience des nains.** Hew a une résistance à dégâts de poison et un avantage sur jet de sauvegarde contre empoisonné.\n**Sans déconner.** Au début de son tour, Hew peut gagner de l'avantage sur toute l'arme de mêlée jets d'attaque pendant ce tour, mais jets d'attaque contre lui a l'avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Bataille.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/6a7ab415dc_monstre-hew-hackinstone.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "skills": "Survie +4",
+ "resistances": "poison"
+}

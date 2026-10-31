@@ -1,0 +1,50 @@
+{
+ "id": "deadbark-dryade",
+ "name": "Deadbark Dryad",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 16,
+ "hp": 187,
+ "hpFormula": "22d8+88",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 18",
+ "languages": "elfique, sylvestre",
+ "traits": "**Marche brumeuse.** Un terrain difficile composé de végétation, comme le feuillage ou les épines, ne coûte pas le déplacement supplémentaire sec.\n**Résistance magique.** Le dryad a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Parlez avec les bêtes et les plantes.** Le dryad peut communiquer avec les Bêtes et les Plantes comme s'ils partageaient une langue.",
+ "actionsText": "**Multiattaques.** Le dryad fait deux attaques d'épines toxiques et une attaque d'une vigne.\n**Épingle empoisonnée.** Attaque d'arme au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 13 (4d4 + 3) dégâts perforants plus 10 (3d6) dégâts de poison. Si la cible est une créature, elle doit réussir sur un DD 17 jet de sauvegarde de Constitution ou avoir l'état empoisonné jusqu'au prochain tour du sryad.\n**Copeaux de vigne.** Attaque d'arme au corps à corps : +8 au toucher, allonge 9 m, une cible. Touché : La cible a l'état agrippé (évasion DD 16). Jusqu'à ce que le grappin se termine, la cible a l'état entravé, et le dryad ne peut pas utiliser la même vigne sur une autre cible. Une créature entravé prend ainsi 13 (3d8) dégâts nécrotiques au début de son tour.\nLe radeau a six vignes. Chaque vigne peut être attaquée (CA 20; 10 points de vie ; immunité contre le poison et dégâts psychiques). Détruire une vigne n'endommage pas le radeau, mais toute créature agrippé par cette vigne n'a plus l'état agrippé. Toutes les vignes se flétrissent immédiatement et disparaissent lorsque le carbonate est réduit à 0 points de vie.\n**Détection orthographique.** Le dryad lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Druidisme\n- 1/jour : Dissipation de la magie\n- 2/jour chacun : Passage sans trace, Croissance d'épines",
+ "attacks": [
+  {
+   "name": "Épingle empoisonnée",
+   "bonus": 8,
+   "damage": "4d4+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Copeaux de vigne",
+   "bonus": 8,
+   "damage": "3d8",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/b52a7a6054_monstre-deadbark-dryade.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Deadbark dryade",
+ "caNote": "armure naturelle",
+ "saves": "CON +9, CHA +9",
+ "skills": "Perception +8, Discrétion +8",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

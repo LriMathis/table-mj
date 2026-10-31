@@ -1,0 +1,47 @@
+{
+ "id": "chef-nosnra",
+ "name": "Chief Nosnra",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 9,
+  "CON": 21,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Perception passive 13",
+ "languages": "géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le chef Nosnra fait deux attaques.\n**Grandaxe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 25 (3d12 + 6) dégâts tranchants.\n**Roche.** Attaque d'arme à distance : +9 au toucher, portée 18/72 m., une cible. Touché : 28 (4d10 + 6) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 9,
+   "damage": "3d12+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 9,
+   "damage": "4d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3436853e77_monstre-chef-nosnra.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Chef Nosnra",
+ "caNote": "Armure Splint",
+ "saves": "CON +8, SAG +3, CHA +4",
+ "skills": "Athlétisme +9, Perception +3"
+}

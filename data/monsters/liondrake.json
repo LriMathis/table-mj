@@ -1,0 +1,45 @@
+{
+ "id": "liondrake",
+ "name": "Liondrake",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 119,
+ "hpFormula": "14d10+42",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 15,
+  "CON": 17,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "draconique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le liondrake fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants. Si la cible est une créature moyenne ou plus petite, elle doit réussir sur une DD 15 jet de sauvegarde de Force ou être à terre.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.\n**Roar sang-chilling (Recharge 4-6).** Le liondrake laisse sortir un rugissement terrifiant audible à 90 m. Toute créature de 9 m du liondrake qui peut entendre son rugissement doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être effrayé du liondrake pendant 1 minute. Une créature qui échoue le save de 5 ou plus est également paralysé pour la même durée. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une cible est réussi ou si l'effet se termine pour elle, la cible est immunisée contre le sang-chilling de ce liondrake pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8b81fbaf0f_monstre-liondrake.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +7"
+}

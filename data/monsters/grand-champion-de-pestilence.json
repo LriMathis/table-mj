@@ -1,0 +1,50 @@
+{
+ "id": "grand-champion-de-pestilence",
+ "name": "Grim Champion of Pestilence",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 14,
+ "hp": 120,
+ "hpFormula": "16d8+48",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 21
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "commun, infernal",
+ "traits": "**Halo de Pestilence.** Le champion est entouré d'une aura de magie mortelle qui prend la forme d'une foule d'insectes blancs brillants. Chaque créature qui commence son tour au sein de 3 m du champion doit réussir sur un DD 18 jet de sauvegarde de Constitution ou avoir l'état neutralisé jusqu'au début de son prochain tour, alors que les insectes ravagent son corps.\n**Résistance légendaire (3/jour).** Si le champion échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le champion fait deux attaques de l'état-major Blight, deux attaques de la Plague Bolt, ou l'une de chacune.\n**Personnel léger.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants plus 21 (6d6) dégâts nécrotiques.\n**Bolt de la plague.** Attaque de sort à distance : +10 au toucher, portée 36 m, une cible. Touché : 23 (4d8 + 5) dégâts de poison, et la cible a l'état empoisonné jusqu'au début du prochain tour du champion.\n**Détection orthographique.** Le champion lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection de la magie, Armure de mage (autoseulement)\n- 1/jour chacun : Brume mortelle, Contagion\n- 2/jour chacun : Flétrissement, Cécité/Surdité",
+ "attacks": [
+  {
+   "name": "Personnel léger",
+   "bonus": 9,
+   "damage": "1d8+4",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Bolt de la plague",
+   "bonus": 10,
+   "damage": "4d8+5",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/9fa841cf08_monstre-grand-champion-de-pestilence.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Grand champion de Pestilence",
+ "saves": "DEX +9, CHA +10",
+ "skills": "Arcanes +8, Perception +7, Discrétion +9",
+ "resistances": "froid, nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, empoisonné, étourdi, inconscient",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, grand champion de pestilence peut entreprendre l'une des actions ci-après.\n**Attaque.** Le champion fait une attaque Blight Staff ou Plague Bolt.\n**Furieux poursuite.** Le champion se déplace à sa vitesse ou commande sa monture à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités.\n**Lancer un sort (coûts 2 actions).** Le champion utilise Spellcasting."
+}

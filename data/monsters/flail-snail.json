@@ -1,0 +1,40 @@
+{
+ "id": "flail-snail",
+ "name": "Flail Snail",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 52,
+ "hpFormula": "5d10+25",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 5,
+  "CON": 20,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Coque antimagique.** L'escargot a un avantage sur jet de sauvegarde contre les sorts, et toute créature faisant un attaque de sort contre l'escargot a un désavantage sur le jet d'attaque.\nSi l'escargot réussit sur son jet de sauvegarde contre un sort ou un sort jet d'attaque le manque, la coquille de l'escargot convertit une partie de l'énergie du sort en un éclat de force destructrice si le sort est de de niveau 1 ou plus; chaque créature dans 9 m de l'escargot doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 3 (1d6) dégâts de force par niveau du sort en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "actionsText": "**Multiattaques.** L'escargot fait cinq attaques du Tentacle de Flail.\n**Tentacle à flasques.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 5 (1d4 + 3) dégâts contondants.\n**Shell scintillant (recharge après un repos court ou long).** La coquille de l'escargot émet une lumière éblouissante et colorée jusqu'à la fin du prochain tour de l'escargot. Pendant ce temps, la coquille apporte une lumière vive dans un rayon de 9 m et une lumière faible pour un 9 m supplémentaire, et les créatures qui peuvent voir l'escargot ont un désavantage sur jets d'attaque contre elle. En outre, toute créature à l'intérieur de la lumière vive et capable de voir l'escargot lorsque cette puissance est activée doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou être étourdi jusqu'à ce que la lumière se termine.\n**Défense de la coquille.** L'escargot se retire dans sa coquille. Jusqu'à ce qu'il émerge, il gagne un bonus de +4 à sa CA et est entravé. Il peut émerger de sa coquille comme un action bonus à son tour.",
+ "attacks": [
+  {
+   "name": "Tentacle à flasques",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/46a78409e9_monstre-flail-snail.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

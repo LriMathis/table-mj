@@ -1,0 +1,53 @@
+{
+ "id": "viari",
+ "name": "Viari",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 20,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 14
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, draconique, argot des voleurs",
+ "traits": "**Évasion.** Si Viari est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue. Il ne peut pas utiliser ce trait s'il est neutralisé.\n**Travaux de deuxième cycle.** L'escalade ne coûte pas le déplacement supplémentaire de Viari. En outre, lorsqu'il fait un saut en course, la distance qu'il couvre augmente de 1,50 m.\n**Attaque d'éternuement (1/Turn).** Viari inflige un dégâts supplémentaire de 14 (4d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur la jet d'attaque, ou lorsque la cible est dans 1,50 m d'un allié de Viari qui n'est pas neutralisé et Viari n'a pas de désavantage sur la jet d'attaque.",
+ "actionsText": "**Multiattaques.** Viari fait deux attaques avec son mot et deux attaques avec son violeur.\n**+1 Court-mot.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d6 + 6) dégâts perforants.\n**Violeur.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts perforants.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d4 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "+1 Court-mot",
+   "bonus": 9,
+   "damage": "1d6+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Violeur",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 8,
+   "damage": "1d4+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8f2f1478b9_monstre-viari.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "caNote": "+1 cuir clouté",
+ "saves": "DEX +8, INT +3",
+ "skills": "Acrobaties +11, Athlétisme +7, Perception +5, Représentation +5, Persuasion +5, Escamotage +11, Discrétion +8",
+ "reactions": "**Uncanny Dodge.** Viari réduit de moitié les dégâts qu'il prend d'une attaque qui le frappe. Il doit pouvoir voir l'agresseur."
+}

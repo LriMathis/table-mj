@@ -1,0 +1,39 @@
+{
+ "id": "horreur-crochue",
+ "name": "Horreur crochue",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 75,
+ "hpFormula": "10d10+20",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "skills": "Perception +3",
+ "senses": "vision aveugle 18 m, vision dans le noir 3 m, Perception passive 13",
+ "languages": "horreur crochue",
+ "traits": "**Écholocalisation.** L'horreur crochue ne peut pas utiliser sa vision aveugle si elle est assourdie.\n**Ouïe aiguisée.** L'horreur crochue est avantagée lors des tests de Sagesse (Perception) basés sur l'ouïe.",
+ "actionsText": "**Attaques multiples.** L'horreur crochue effectue deux attaques avec ses crochets.\n**Crochet.** *Attaque d'arme au corps à corps :* +6 pour toucher, allonge 3 m, une cible. *Touché :* 11 (2d6+4) dégâts perforants.",
+ "portrait": "/data/images/d5b2f00695_monstre-horreur-crochue.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 191 · image : Manuel des monstres p. 190",
+ "attacks": [
+  {
+   "name": "Crochet",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ]
+}

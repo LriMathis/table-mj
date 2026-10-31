@@ -1,0 +1,41 @@
+{
+ "id": "yithian",
+ "name": "Yithian",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 14,
+ "hp": 180,
+ "hpFormula": "19d10+76",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 21,
+  "SAG": 18,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 14",
+ "languages": "Discours profond; télépathie 36 m.",
+ "traits": "**Résistance magique.** L'yithian a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Esprit blindé.** Les pensées du yithien ne peuvent être lues par aucun moyen, et d'autres créatures ne peuvent communiquer avec elle télépathiquement que si elles le permettent.",
+ "actionsText": "**Multiattaques.** L'yithien fait trois attaques de Pincer. Il peut remplacer une attaque par une utilisation de Sup.\n**Pincer.** Jet d'attaque au corps à corps : +9, allonge 3 m. Touché : 18 (4d6 + 4) dégâts perforants et la créature a l'état agrippé (évasion DD 14).\n**Supprimé.** Jet de sauvegarde d'Intelligence : DD 18, une créature dans 3 m qui a l'état agrippé, neutralisé ou entravé. Échec : 15 (3d6 + 5) dégâts psychiques. Le maximum de points de vie de la cible diminue d'une quantité égale aux dégâts subis, et l'yithien retrouve points de vie égale à cette quantité.",
+ "attacks": [
+  {
+   "name": "Pincer",
+   "bonus": 9,
+   "damage": "4d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8a885128ac_monstre-yithian.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "CON +9, INT +10",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "bonusActions": "**Swap mental (Recharge 6).** Jet de sauvegarde d'Intelligence : DD 18, un humanoïde que l'yithien peut voir dans 1,50 m. Échec : La cible est possédée par l'yithien; l'yithien disparaît, et la cible a l'état neutralisé et perd le contrôle de son corps. L'yithien contrôle maintenant le corps ; la cible n'a aucune conscience des actions du yithien. L'yithien ne peut pas être visé par une attaque, un sort ou un autre effet. Les statistiques de jeu du yithian sont les mêmes, sauf qu'il utilise les modificateurs Speed et Force de la cible possédée, Dextérité et Constitution. Il sait tout ce que la cible savait.\nLa possession dure jusqu'à ce que le corps tombe à 0 points de vie ou que l'yithien parte comme un action bonus. Lorsque la possession prend fin, l'yithien retourne à son corps, qui apparaît à l'intérieur de 1,50 m de la cible. La cible est étourdi pendant 1 minute par des souvenirs extraterrestres, et elle est immunisée contre l'échange mental de ce yithien pendant 24 heures. Réussite : La cible est immunisée contre l'échange mental pendant 24 heures.\n**Magie d'Eldritch (2/Jour).** L'yithian castes Clairvoyance, Modification de mémoire, Assassin imaginaire, ou Transport via Plantes, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (Spell save DD 18).\n- 2/jour : Clairvoyance, Modification de mémoire, Assassin imaginaire"
+}

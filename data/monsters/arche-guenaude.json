@@ -1,0 +1,45 @@
+{
+ "id": "arche-guenaude",
+ "name": "Arch-hag",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 20,
+ "hp": 333,
+ "hpFormula": "29d10+174",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 15,
+  "CON": 23,
+  "INT": 19,
+  "SAG": 19,
+  "CHA": 25
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 21",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (4/jour, ou 5/jour à Lair).** Si le ham échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** La ham a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Évasion épineuse.** Lorsque la pag tombe à 0 points de vie, elle meurt seulement si elle est dans 9 m de son anathème (une chose que le MD choisit comme la chose la plus détestée de la pag). Sinon, le ham tombe à 1 points de vie et téléporte vers un demi-plan inoffensif, et il ne peut pas retourner à l'avion qu'il a quitté pendant 2d6 jours. Quand la hamporte loin, chaque créature dans 18 m de l'espace qu'elle a laissé est maudite. Jusqu'à la fin de la malédiction, une créature a désavantage sur tests de caractéristique et jet de sauvegarde, et le ham connaît son emplacement n'importe où dans le multiverse.\n**Magie de la Coven.** Alors qu'au sein de 9 m d'au moins deux alliés de ham, le ham peut lancer l'un des sorts suivants, ne nécessitant aucun composant matériel, en utilisant le temps de coulée normal du sort, et en utilisant Intelligence comme caractéristique d'incantation (spell save DD 19) : Augure, Appel de familier, Identification, Localisation d'objet, Scrutation ou Serviteur invisible. La ham doit terminer un repos long avant d'utiliser ce trait pour lancer à nouveau ce sort.\n- 1/repos long : Augure, Appel de familier, Identification, Localisation d'objet, Scrutation, Serviteur invisible",
+ "actionsText": "**Multiattaques.** La harpe fait deux attaques de la griffe spectrale et utilise Crackling Wave.\n**Griffe spectrale.** Jet d'attaque au corps à corps ou à distance : +14, allonge 3 m ou portée 18 m. Touché : 17 (3d6 + 7) dégâts de force. Si la cible est une créature grande ou plus petite, elle a l'état à terre.\n**Vague de craquage.** Jet de sauvegarde de Dextérité : DD 22, chaque créature dans un cône 18 m. Échec : 32 (5d12) dégâts de foudre. Réussite : Demi-dégâts. Échec ou réussite : La cible est maudite jusqu'à la fin du prochain tour de la ham. La cible ne peut pas prendre Réactions avant la fin de la malédiction.\n**Détection orthographique.** L'hag lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 22) :\n- À volonté : Détection des pensées, Porte dimensionnelle, Dissipation de la magie, Motif hypnotique\n- 2/jour chacun : Suggestion de groupe, Modification de mémoire, Changement de plan",
+ "attacks": [
+  {
+   "name": "Griffe spectrale",
+   "bonus": 14,
+   "damage": "3d6+7",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/b5a5013dea_monstre-arche-guenaude.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Arche- guenaude",
+ "saves": "DEX +9, SAG +11",
+ "skills": "Tromperie +14, Perception +11, Persuasion +21",
+ "resistances": "froid, feu, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "bonusActions": "**Grève de la sorcière.** Chaque créature maudite par le ham et dans 18 m d'elle prend 14 (4d6) dégâts de foudre.",
+ "reactions": "**Twister de langue.** L'hag lance Contresort en réponse au déclencheur de ce sort, en utilisant le même caractéristique d'incantation que Spellcasting. Si la cible échoue à son jet de sauvegarde, elle est maudite jusqu'à la fin de son prochain tour. Jusqu'à la fin de la malédiction, la cible ne peut pas lancer de sorts avec un composant verbal, et quand elle parle, elle dit le contraire de ce qu'elle signifie.\n- À volonté : Contresort",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, arche- guenaude peut entreprendre l'une des actions ci-après.\n**C'est Hag Swipe.** La harpe fait une attaque de la Griffe Spectral.\n**Magie malicieuse.** Le ham utilise Spellcasting pour lancer Porte dimensionnelle ou Motif hypnotique. La harpe ne peut pas reprendre cette action avant le début de son prochain tour."
+}

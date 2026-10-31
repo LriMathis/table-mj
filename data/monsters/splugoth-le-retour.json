@@ -1,0 +1,42 @@
+{
+ "id": "splugoth-le-retour",
+ "name": "Splugoth the Returned",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 27,
+ "hpFormula": "6d6+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, draconique, elfique, gobelin",
+ "traits": "**Avantage défensif.** Tant que deux ou plus des alliés de Splugoth sont au sein de 1,50 m de lui et ne sont pas neutralisé, jets d'attaque contre lui sont fait avec désavantage.\n**Échappement de Nimble.** Splugoth peut prendre l'action Se désengager ou Se cacher en action bonus à chacun de ses tours.\n**Touche de folie.** Splugoth a un avantage sur jet de sauvegarde contre charmé ou effrayé.",
+ "actionsText": "**Multiattaques.** Splugoth fait deux attaques avec son poignard.\n**Déclencheur.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.\n**Mot de l'au-delà (1/jour).** Splugoth se souvient et répète à haute voix quelques mots d'un endroit où il est entré en rentrant du monde suivant à celui-ci. Chaque créature de son choix au sein de 9 m de lui qui peut l'entendre doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou être étourdi jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/553592933a_monstre-splugoth-le-retour.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "aka": "Splugoth le retour",
+ "caNote": "armure naturelle",
+ "saves": "INT +4, SAG +2",
+ "skills": "Discrétion +6",
+ "reactions": "**Attaque d ' absorption.** Quand une créature Splugoth peut le voir frapper avec une attaque d'arme à la mêlée, l'arme s'accroche sur une poche d'énergie de résurrection résiduelle et est pris rapidement. L'attaque est annulée et l'arme ne peut être utilisée tant que la créature n'a pas réussi sur un DD 12 test de Force (Athlétisme) comme une action pour le sortir de Splugoth. Les armes naturelles peuvent avoir leurs attaques annulées par cette caractéristique, mais peuvent ensuite être rétractées automatiquement à la fin du tour de la créature attaquante."
+}

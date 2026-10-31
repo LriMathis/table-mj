@@ -1,0 +1,44 @@
+{
+ "id": "durnn",
+ "name": "Durnn",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 19,
+ "hp": 18,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, gobelin",
+ "traits": "**Avantage martial.** Une fois par tour, le hobgoblin peut infliger 7 (2d6) de plus à une créature qu'il frappe avec une attaque d'arme si cette créature est dans 1,50 m d'un allié du hobgoblin qui n'est pas neutralisé.",
+ "actionsText": "**Mot long.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants, ou 6 (1d10 + 2) dégâts tranchants si utilisé avec deux mains.\n**Longbow.** Attaque d'arme à distance : +4 au toucher, portée 45/180 m., une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 4,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 4,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/128f8e4f57_monstre-durnn.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "Armure Splint, Bouclier"
+}

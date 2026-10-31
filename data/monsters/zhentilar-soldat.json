@@ -1,0 +1,46 @@
+{
+ "id": "zhentilar-soldat",
+ "name": "Zhentilar Soldier",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 11
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le Zhentilar fait deux attaques, en utilisant Shortsword ou Pistol dans n'importe quelle combinaison. Il peut remplacer une attaque par une utilisation de Knock Down.\n**Mot-clé.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts perforants plus 2 (1d4) dégâts de poison.\n**Pistol.** Jet d'attaque à distance : +4, portée 24/96 m. Touché : 7 (1d10 + 2) dégâts perforants.\n**Baissez-vous..** Jet de sauvegarde de Force : DD 12, une créature dans 1,50 m que le Zhentilar peut voir. Échec : 4 (1d4 + 2) dégâts contondants. Si la cible est une créature moyenne ou plus petite, elle a l'état à terre.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Pistol",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8d26831f7e_monstre-zhentilar-soldat.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Zhentilar soldat",
+ "saves": "DEX +4, CON +3",
+ "skills": "Acrobaties +4, Athlétisme +4"
+}

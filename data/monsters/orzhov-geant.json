@@ -1,0 +1,46 @@
+{
+ "id": "orzhov-geant",
+ "name": "Orzhov Giant",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 18,
+ "hp": 84,
+ "hpFormula": "8d10+40",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 13,
+  "CON": 21,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, géant",
+ "traits": "**Objectif.** En tant qu'action bonus, le géant peut cibler une créature qu'il peut voir à l'intérieur de 9 m et faire de cette créature son centre d'intérêt. La cible reste la cible du géant pendant 1 minute, ou jusqu'à ce que la cible ou le géant tombe à 0 points de vie. Lorsque le géant fait un jet d'attaque contre son focus, il ajoute un d4 à son jet d'attaque. Si le géant attaque une cible différente alors qu'il a un focus, il soustrait un d4 de son jet d'attaque.",
+ "actionsText": "**Multiattaques.** Le géant fait deux grandes attaques.\n**Grandaxe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 25 (3d12 + 6) dégâts tranchants. Si le géant Orzhov marque un coup critique, il roule les dés de dégâts trois fois, au lieu de deux fois.\n**Roche.** Attaque d'arme à distance : +9 au toucher, portée 18/72 m., une cible. Touché : 28 (4d10 + 6) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 9,
+   "damage": "3d12+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 9,
+   "damage": "4d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3c598194da_monstre-orzhov-geant.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Orzhov géant",
+ "caNote": "Armure de plaque",
+ "saves": "DEX +4, CON +8, SAG +4"
+}

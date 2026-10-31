@@ -1,0 +1,45 @@
+{
+ "id": "drow-espion",
+ "name": "Drow Spy",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "deux langues différentes",
+ "traits": "**Action énergique.** À chacun de ses tours, l'espion peut utiliser un action bonus pour prendre l'action Foncer, Se désengager ou Se cacher.\n**Attaque d'éternuement (1/Turn).** L'espion inflige un dégâts supplémentaire de 7 (2d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur le jet d'attaque, ou lorsque la cible est dans 1,50 m d'un allié de l'espion qui n'est pas neutralisé et l'espion n'a pas de désavantage sur le jet d'attaque.",
+ "actionsText": "**Multiattaques.** L'espion fait deux attaques à la mêlée.\n**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Acrobatie des mains.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a14c4286f6_monstre-drow-espion.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Drow espion",
+ "skills": "Tromperie +5, Perspicacité +4, Investigation +5, Perception +6, Persuasion +5, Escamotage +4, Discrétion +4"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "empyreen-iota",
+ "name": "Empyrean Iota",
+ "type": "Céleste ou Fiélon (titan)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "1,50 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 15",
+ "languages": "tous",
+ "traits": "**Mouvement intégré.** L'empyréen peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance magique.** L'empyréen a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Grève d'autres mondes.** Jet d'attaque au corps à corps ou à distance : +5, allonge 1,50 m ou portée 9 m. Touché : 7 (1d8 + 3) nécrotique ou dégâts radiants (le choix de l'empyréen).\n**Détection orthographique.** L'empyréenne lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation :\n- 1/jour chacun : Bénédiction, Restauration partielle (en tant qu'action)",
+ "attacks": [
+  {
+   "name": "Grève d'autres mondes",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/50d093473a_monstre-empyreen-iota.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Empyréen Iota",
+ "skills": "Histoire +4, Perspicacité +5, Perception +5",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "à terre",
+ "bonusActions": "**Parole de guérison (1/jour).** L'empyréen lance Mot de guérison, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 1/jour : Mot de guérison"
+}

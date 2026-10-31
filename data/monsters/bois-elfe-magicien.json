@@ -1,0 +1,39 @@
+{
+ "id": "bois-elfe-magicien",
+ "name": "Wood Elf Wizard",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 45,
+ "hpFormula": "10d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 17,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** L'elfe de bois a avantage sur jet de sauvegarde contre être charmé, et la magie ne peut pas mettre l'elfe de bois à dormir.\n**Découpe intérieure.** caractéristique d'incantation de l'elfe de bois est Charisme (spell save DD 12). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques, Lévitation (autoseulement)\n**Détection orthographique.** L'elfe de bois est un épeautre de niveau 10. Son caractéristique d'incantation est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort). L'elfe de bois a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Main de mage, Illusion mineure, Bouffée de poison, Rayon de givre\n- Niveau 1 (4 emplacements) : Armure de mage, Projectile magique, Bouclier, Trait ensorcelé\n- Niveau 2 (3 emplacements) : Modification d'apparence, Foulée brumeuse, Toile d'araignée\n- Niveau 3 (3 emplacements) : Vol, Éclair\n- Niveau 4 (3 emplacements) : Tentacules noirs d'Evard, Invisibilité supérieure\n- Niveau 5 (2 emplacements) : Brume mortelle",
+ "actionsText": "**Personnel.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d6 - 1) dégâts contondants, ou 3 (1d8 - 1) dégâts contondants si utilisé avec deux mains, plus 3 (1d6) dégâts de poison.\n**Invoquer le démon (1/jour).** L'elfe de bois invoque magiquement un Quasit, ou tente d'appeler un Démon des ombres avec une chance 50 % de succès. Le démon convoqué apparaît dans un espace inoccupé au sein de 18 m de son convocateur, agit comme un allié de son convocateur, et ne peut pas convoquer d'autres démons. Il reste 10 minutes, jusqu'à ce qu'il ou son convocateur décède, ou jusqu'à ce que son convocateur le rejette comme une action.",
+ "attacks": [
+  {
+   "name": "Personnel",
+   "bonus": 2,
+   "damage": "1d6-1",
+   "type": "contondant + poison"
+  }
+ ],
+ "portrait": "/data/images/3646b0521e_monstre-bois-elfe-magicien.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Bois elfe magicien",
+ "skills": "Arcanes +6, Tromperie +4, Perception +4, Discrétion +5"
+}

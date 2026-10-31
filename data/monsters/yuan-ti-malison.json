@@ -1,0 +1,58 @@
+{
+ "id": "yuan-ti-malison",
+ "name": "Yuan-ti malison",
+ "type": "Monstruosité (métamorphe, yuan-ti)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "skills": "Discrétion +4, Supercherie +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision dans le noir 18 m, Perception passive 11",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Métamorphe.** Le yuan-ti peut utiliser son action pour se métamorphoser en serpent de taille Moyenne ou pour reprendre son apparence normale. Son profil ne change pas quelle que soit la forme qu'il revêt. L'équipement qu'il porte ou transporte ne se transforme pas avec lui et il ne change pas de forme à sa mort.\n**Incantation innée (sous forme de yuan-ti uniquement).** Le yuan-ti utilise le Charisme comme caractéristique d'incantation innée (DD du jet de sauvegarde contre ses sorts : 13). Il peut lancer les sorts suivants de façon innée, sans dépenser de composantes matérielles.\n- À volonté : *amitié avec les animaux* (serpents uniquement)\n- 3/jour : *suggestion*\n**Résistance à la magie.** Le yuan-ti est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.\n**Type de malison.** Le yuan-ti appartient à l'un des trois types suivants. Type 1 : corps humain et tête de serpent. Type 2 : tête et corps humains avec des serpents en guise de bras. Type 3 : tête et torse humain avec un corps de serpent sous la ceinture.",
+ "actionsText": "**Type 1 – Attaques multiples (sous forme de yuan-ti uniquement).** Le yuan-ti peut effectuer deux attaques à distance ou deux attaques au corps à corps, mais ne peut utiliser sa morsure qu'une seule fois.\n**Arc long (type 1 ou 3, sous forme de yuan-ti uniquement).** *Attaque d'arme à distance :* +4 pour toucher, portée 45/180 m, une cible. *Touché :* 6 (1d8+2) dégâts perforants plus 7 (2d6) dégâts de poison (type 1 uniquement).\n**Cimeterre (type 1 ou 3, sous forme de yuan-ti uniquement).** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d6+3) dégâts tranchants.\n**Morsure.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une créature. *Touché :* 5 (1d4+3) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Type 2 – Attaque multiple (sous forme de yuan-ti uniquement).** Le yuan-ti peut effectuer deux attaques de morsure en utilisant les serpents qui lui servent de bras.\n**Type 3 – Attaque multiple (sous forme de yuan-ti uniquement).** Le yuan-ti peut effectuer deux attaques à distance ou deux attaques au corps à corps, mais ne peut utiliser comprimer qu'une seule fois.\n**Comprimer (type 3).** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 10 (2d6+3) dégâts contondants et la cible est empoignée (évasion DD 13). Tant que l'empoignade persiste, la cible est entravée et le yuan-ti ne peut pas en comprimer une nouvelle.",
+ "portrait": "/data/images/2ae6dfcb41_monstre-yuan-ti-malison.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 310 · image : Manuel des monstres p. 309",
+ "attacks": [
+  {
+   "name": "Arc long (type 1 ou 3, sous forme de yuan-ti uniquement)",
+   "bonus": 4,
+   "damage": "1d8+2+2d6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Cimeterre (type 1 ou 3, sous forme de yuan-ti uniquement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1d4+3+2d6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Comprimer (type 3)",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ]
+}

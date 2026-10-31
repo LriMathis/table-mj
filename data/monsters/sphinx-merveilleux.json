@@ -1,0 +1,40 @@
+{
+ "id": "sphinx-merveilleux",
+ "name": "Sphinx merveilleux",
+ "type": "Céleste",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "loyal bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 24,
+ "hpFormula": "7d4+7",
+ "vitesse": "6 m, vol 12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "skills": "Arcanes +4, Discrétion +5, Religion +4",
+ "resistances": "nécrotiques, psychiques, radiants",
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "céleste, commun",
+ "traits": "**Résistance à la magie.** Le sphinx a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Saignée.** Corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts tranchants plus 7 (2d6) dégâts radiants.",
+ "reactions": "**Accès d’ingéniosité (2/jour).** Déclencheur : le sphinx ou une autre créature dans un rayon de 9 m effectue un test de caractéristique ou un jet de sauvegarde. Conséquences : le sphinx ajoute 2 au jet.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 5,
+   "damage": "1d4+3+2d6",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/d4fd735ea8_monstre-sphinx-merveilleux.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

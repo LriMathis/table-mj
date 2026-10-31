@@ -1,0 +1,48 @@
+{
+ "id": "zarak",
+ "name": "Zarak",
+ "type": "Humanoïde (orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 37,
+ "hpFormula": "5d8+15",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 15,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 60, Perception passive 16",
+ "languages": "commun, orc",
+ "traits": "**Matériel spécial.** Zarak porte un Potion d'invisibilité.",
+ "actionsText": "**Multiattaques.** Zarak fait deux attaques de poignard.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants, plus un 5 (2d4) dégâts perforants supplémentaire si la cible est une créature et Zarak a au moins 18 points de vie.\n**Garrot.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, un humanoïde. Touché : 8 (2d4 + 3) dégâts tranchants, et la cible est agrippé (évasion DD 11). Jusqu'à ce que ce grappin se termine, la cible prend 8 (2d4 + 3) dégâts tranchants au début de chacun de ses tours, et Zarak ne peut pas battre une autre créature ou utiliser Assassin's Whim.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Garrot",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1824a9e1fa_monstre-zarak.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +5, INT +2",
+ "skills": "Acrobaties +7, Perspicacité +6, Perception +6, Discrétion +7",
+ "bonusActions": "**C'est un coup de fouet.** Zarak prend l'action Foncer, Se désengager ou Se cacher.",
+ "reactions": "**Uncanny Dodge.** Zarak réduit de moitié les dégâts qu'il prend lors d'une attaque contre lui, à condition qu'il puisse voir l'agresseur."
+}

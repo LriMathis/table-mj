@@ -1,0 +1,39 @@
+{
+ "id": "bodytaker-podling",
+ "name": "Bodytaker Podling",
+ "type": "Plante",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 10",
+ "languages": "Discours profond plus une autre langue",
+ "traits": "**Semblance de vie.** Le podling est une copie physique d'une créature digérée par une plante Bodytaker. Le podling a Avantage sur tests de Charisme (Tromperie) fait pour passer comme la créature digérée. Le podling fond dans un lisier quand il meurt.",
+ "actionsText": "**Clamer.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/34f6307f17_monstre-bodytaker-podling.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "skills": "Tromperie +4",
+ "conditionImmunities": "charmé, effrayé"
+}

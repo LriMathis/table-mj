@@ -1,0 +1,40 @@
+{
+ "id": "chamberlain-de-zuggtmoy",
+ "name": "Chamberlain of Zuggtmoy",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 7,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 8,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "abyssal, commun des profondeurs",
+ "traits": "**Portail des champignons.** Le chambellan compte comme champignon pour la fonction Fungus Stride de la demoiselle d'honneur de Zuggtmoy.\n**poison Spores.** Chaque fois que le chambellan endommage, il libère un nuage de spores. Les créatures dans 1,50 m du chambellan lorsque cela se produit doivent réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur un succès.",
+ "actionsText": "**Multiattaques.** Le chambellan fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants.\n**Spores d'infestation (1/jour).** Le chambellan libère des spores qui éclatent dans un nuage qui remplit une sphère 3 m -radius centrée sur elle, et le nuage s'attarde pendant 1 minute. Toute créature de chair et de sang dans le nuage quand il apparaît, ou qui l'entre plus tard, doit faire un DD 12 jet de sauvegarde de Constitution. Sur une sauvegarde réussie, la créature ne peut pas être infectée par ces spores pendant 24 heures. Sur une sauvegarde ratée, la créature est infectée par une maladie appelée spores de Zuggtmoy et gagne également une forme aléatoire de folie indéfinie (déterminée par rouler sur la folie de Zuggtmoy table à l'appendice D) qui dure jusqu'à ce que la créature soit guérie de maladie ou meurt. Alors qu'elle est infectée de cette façon, la créature ne peut pas être réinfectée, et elle doit répéter le jet de sauvegarde à la fin de toutes les 24 heures, mettant fin à l'infection sur un succès. En cas d'échec, le corps de la créature infectée est lentement repris par la croissance fongique, et après trois de ces arrêts ratés, la créature meurt et est réanimée comme servante de spores si c'est un type de créature qui peut être (voir l'entrée \"Myconides\" dans le Monster Manual).",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0c4a54b365_monstre-chamberlain-de-zuggtmoy.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Chamberlain de Zuggtmoy",
+ "caNote": "armure naturelle",
+ "resistances": "contondant, perforant"
+}

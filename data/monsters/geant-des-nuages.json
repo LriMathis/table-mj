@@ -1,0 +1,46 @@
+{
+ "id": "geant-des-nuages",
+ "name": "Géant des nuages",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 14,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "12 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "saves": "CON +10, SAG +7",
+ "skills": "Intuition +7, Perception +11",
+ "senses": "Perception passive 21",
+ "languages": "commun, gigant",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le géant effectue deux attaques, réparties à sa guise entre Masse d’armes tonitruante et Nuage de tonnerre. Il peut remplacer l’une de ces attaques par une utilisation d’Incantation pour lancer *nappe de brouillard*.\n**Masse d’armes tonitruante.** Corps à corps : +12, allonge 3 m. Touché : 21 (3d8 + 8) dégâts contondants plus 7 (2d6) dégâts de tonnerre.\n**Nuage de tonnerre.** À distance : +12, portée 72 m. Touché : 18 (3d6 + 8) dégâts de tonnerre, et la cible subit l’état Neutralisé jusqu’à la fin de son tour suivant.\n**Incantation.** Le géant lance l’un des sorts suivants, sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 15) :\n- À volonté : *détection de la magie*, *lumière*, *nappe de brouillard*\n- 1/jour chacun : *contrôle du climat*, *forme gazeuse*, *télékinésie*",
+ "bonusActions": "**Foulée brumeuse.** Le géant lance le sort *foulée brumeuse* avec la même caractéristique d’incantation que pour Incantation.",
+ "attacks": [
+  {
+   "name": "Masse d’armes tonitruante",
+   "bonus": 12,
+   "damage": "3d8+8+2d6",
+   "type": "contondant + tonnerre"
+  },
+  {
+   "name": "Nuage de tonnerre",
+   "bonus": 12,
+   "damage": "3d6+8",
+   "type": "tonnerre"
+  }
+ ],
+ "portrait": "/data/images/f9d5f378db_monstre-geant-des-nuages.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 154"
+}

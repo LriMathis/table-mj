@@ -1,0 +1,46 @@
+{
+ "id": "lothar",
+ "name": "Lothar",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 13,
+ "hp": 210,
+ "hpFormula": "28d8+84",
+ "vitesse": "9 m, vol 15 m (sous forme de corbeilles et d'hybrides)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, orc",
+ "traits": "**Mimétisme.** Lothar peut imiter des sons simples qu'il a entendus, comme une personne qui murmure, un bébé qui pleure, ou un animal qui chie. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 15 test de Sagesse (Perspicacité).",
+ "actionsText": "**Multiattaque (forme humaine ou hybride seulement).** Lothar fait trois attaques de Greataxe.\n**Greataxe (forme humaine ou hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d12 + 4) dégâts tranchants, 14 (1d12 + 8) alors que dans une rage.\n**Bec (forme Raven ou hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants sous forme de corbeilles ou 6 (1d4 + 4) dégâts perforants sous forme hybride. Si la cible est Humanoid, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie de wereraven.\n**Modifier la forme.** Lothar peut utiliser son action pour se polymorphiser en un hybride raven-humanoïde, ou en un petit raven, ou de nouveau dans sa forme réelle, qui est Humanoïde. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Lothar revient à sa vraie forme s'il meurt.\n**Détection orthographique.** Lothar lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 12, +4 au toucher with attaques de sort) :\n- À volonté : Protection contre les armes, Décharge occulte, Message\n- 1/jour chacun : Fléau, Charme-personne, Lumière du jour, Lueurs féeriques, Peur, Foulée brumeuse, Changement de plan",
+ "attacks": [
+  {
+   "name": "Greataxe (forme humaine ou hybride seulement)",
+   "bonus": 8,
+   "damage": "1d12+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Bec (forme Raven ou hybride seulement)",
+   "bonus": 8,
+   "damage": "1d4+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/27978a5980_monstre-lothar.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "skills": "Perspicacité +4, Perception +4, Discrétion +7, Survie +8",
+ "immunities": "contondant, perforant, tranchant dégâts causés par des armes non magiques qui ne sont pas argentées",
+ "bonusActions": "**Rage.** Lothar fait rage pendant 1 minute. Pendant sa rage, il a un avantage sur tests de Force et jet de sauvegarde de Force. Il gagne un bonus de +4 aux dégâts alors qu'il est en colère. Il a de la résistance à rougir, percer, et dégâts tranchants alors qu'il était en colère. Lothar ne peut pas jeter des sorts en colère."
+}

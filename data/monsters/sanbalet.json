@@ -1,0 +1,38 @@
+{
+ "id": "sanbalet",
+ "name": "Sanbalet",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun",
+ "traits": "**Détection orthographique.** Sanbalet est un épeautre de niveau 3. Son caractéristique d'incantation est Intelligence (save spell DD 13, +5 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Lumières dansantes, Illusion mineure, Rayon de givre\n- Niveau 1 (4 emplacements) : Charme-personne, Couleurs dansantes, Projectile magique, Image silencieuse\n- Niveau 2 (2 emplacements) : Bouche magique, Rayon ardent",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f25a33197c_monstre-sanbalet.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "skills": "Arcanes +5"
+}

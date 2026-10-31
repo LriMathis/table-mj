@@ -1,0 +1,39 @@
+{
+ "id": "noble",
+ "name": "Noble",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 15,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "skills": "Intuition +4, Persuasion +5, Tromperie +5",
+ "senses": "Perception passive 12",
+ "languages": "commun et deux autres langues",
+ "traits": "",
+ "actionsText": "**Rapière.** Corps à corps : +3, allonge 1,50 m. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "reactions": "**Parade.** Déclencheur : le noble est touché par un jet d’attaque de corps à corps alors qu’il tient une arme. Conséquences : le noble ajoute 2 à sa CA contre cette attaque, ce qui peut la faire rater.",
+ "attacks": [
+  {
+   "name": "Rapière",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/12ae29ce0a_monstre-noble.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 350"
+}

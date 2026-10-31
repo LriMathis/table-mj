@@ -1,0 +1,39 @@
+{
+ "id": "umberto-noblin",
+ "name": "Umberto Noblin",
+ "type": "Humanoïde (gnome)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "quatre langues",
+ "traits": "",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/46c3a0feed_monstre-umberto-noblin.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "saves": "INT +6, SAG +4",
+ "skills": "Arcanes +6, Histoire +6"
+}

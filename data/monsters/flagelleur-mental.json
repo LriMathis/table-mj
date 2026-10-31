@@ -1,0 +1,46 @@
+{
+ "id": "flagelleur-mental",
+ "name": "Flagelleur mental",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyale mauvaise",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "caNote": "cuirasse",
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 17
+ },
+ "saves": "INT +7, SAG +6, CHA +6",
+ "skills": "Arcanes +7, Discrétion +4, Perception +6, Perspicacité +6, Persuasion +6, Supercherie +6",
+ "senses": "vision dans le noir 36 m, Perception passive 16",
+ "languages": "commun des profondeurs, profond, télépathie à 36 m",
+ "traits": "**Incantation innée (psionique).** Le flagelleur mental utilise son Intelligence comme caractéristique d'incantation innée (DD des jets de sauvegarde : 15). Il peut lancer les sorts suivants de manière innée, sans utiliser de composantes :\n- À volonté : *détection des pensées, lévitation*\n- 1/jour : *dominer un monstre, changement de plan (sur soi uniquement)*\n**Résistance à la magie.** Le flagelleur mental est avantagé lors de ses jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Décharge mentale (recharge 5-6).** Le flagelleur mental émet une vague d'énergie psychique dans un cône de 18 mètres. Chaque créature présente dans cette zone doit réussir un jet de sauvegarde d'Intelligence DD 15, sans quoi elle subit 22 (4d8+4) dégâts psychiques et se retrouve étourdie pendant 1 minute. La victime peut refaire le jet de sauvegarde à la fin de chacun de ses tours, sachant qu'elle met un terme à l'effet dès qu'elle en réussit un.\n**Extraction de cerveau.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, un humanoïde neutralisé que le flagelleur mental empoigne. *Touché :* 55 (10d10) dégâts perforants. Si cela fait tomber la cible à 0 point de vie, le flagelleur extrait son cerveau et le dévore, ce qui la tue.\n**Tentacules.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une créature. *Touché :* 15 (2d10+4) dégâts psychiques. Si la cible est de taille Moyenne ou inférieure, elle est empoignée (DD 15 pour se libérer) et doit réussir un jet de sauvegarde d'Intelligence DD 15, sans quoi elle est étourdie jusqu'à la fin de l'empoignade.",
+ "portrait": "/data/images/de853ab167_monstre-flagelleur-mental.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 136 · image : Manuel des monstres p. 135",
+ "attacks": [
+  {
+   "name": "Extraction de cerveau",
+   "bonus": 7,
+   "damage": "10d10",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacules",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "psychique"
+  }
+ ]
+}

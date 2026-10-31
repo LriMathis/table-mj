@@ -1,0 +1,40 @@
+{
+ "id": "alliance-des-seigneurs-garde",
+ "name": "Lords' Alliance Guard",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 16,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Résilience des nains.** Le gardien a l'avantage sur jet de sauvegarde contre le poison.",
+ "actionsText": "**Halbère.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 7 (1d10 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Halbère",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/7040cb4b01_monstre-alliance-des-seigneurs-garde.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Alliance des seigneurs garde",
+ "caNote": "Chemise chaîne, Bouclier",
+ "skills": "Perception +2"
+}

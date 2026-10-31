@@ -1,0 +1,43 @@
+{
+ "id": "champion-de-madarua",
+ "name": "Champion of Madarua",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le champion fait trois attaques de Longsword.\n**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants, ou 8 (1d10 + 3) dégâts perforants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b6f7cbb3ee_monstre-champion-de-madarua.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Champion de Madarua",
+ "caNote": "Cache l'armure",
+ "saves": "FOR +5, DEX +3",
+ "skills": "Acrobaties +3, Religion +3",
+ "bonusActions": "**Aura of Fury (1/jour).** Le champion convoque une aura d'animaux fantômes qui remplit une sphère 3 m -radius centrée sur lui-même. Alors que cette aura est active, le champion et tous ses alliés dans l'aura ont avantage sur jets d'attaque. L'aura se déplace avec le champion et dure 1 minute, jusqu'à ce que le champion ait l'état neutralisé, ou jusqu'à ce que le champion utilise un autre action bonus pour terminer l'aura.",
+ "reactions": "**Parry.** Le champion ajoute 2 à sa CA contre une attaque à la mêlée qui la frapperait. Pour ce faire, le champion doit voir l'attaquant et utiliser une arme de mêlée."
+}

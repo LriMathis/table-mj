@@ -1,0 +1,40 @@
+{
+ "id": "ghelryn-foehammer",
+ "name": "Ghelryn Foehammer",
+ "type": "Humanoïde (Nain du bouclier)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 14,
+ "hp": 30,
+ "hpFormula": "4d8+12",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 7,
+  "CON": 17,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, nain",
+ "traits": "**Résilience des nains.** Ghelryn a un avantage sur jet de sauvegarde contre le poison.\n**Tueuse géante.** Toute attaque d'arme que Ghelryn fait contre un géant inflige 7 (2d6) de plus de dégâts sur un coup.\n**Information sur le jeu de rôles.** Le forgeron Ghelryn a un bon cœur, mais il déteste les orques et les géants, il les hait avec une passion ardente. Il considère que c'est le devoir solennel de tous les nains de se jeter dans leurs crânes !\nIdéal: \"Il incombe à chaque nain de forger un héritage.\"\nObligation : \"Je suis pour le clan Foehammer et toute l'humanité d'animeux.\"\nFaux : \"Je ne fuis jamais un combat, surtout si ça implique de tuer des orques ou des géants.\"",
+ "actionsText": "**Multiattaques.** Ghelryn fait deux attaques.\n**Bataille.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8f15b766f4_monstre-ghelryn-foehammer.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Breastplate, Bouclier",
+ "skills": "Athlétisme +6, Intimidation +2, Perception +2",
+ "resistances": "poison"
+}

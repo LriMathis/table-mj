@@ -1,0 +1,44 @@
+{
+ "id": "esprit-follet",
+ "name": "Esprit follet",
+ "type": "Fée",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre bonne",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 10,
+ "hpFormula": "4d4",
+ "vitesse": "3 m, vol 12 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 18,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "skills": "Discrétion +8, Perception +3",
+ "senses": "Perception passive 13",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "",
+ "actionsText": "**Épée-ingle.** Corps à corps : +6, allonge 1,50 m. Touché : 6 (1d4 + 4) dégâts perforants.\n**Arc enchanté.** À distance : +6, portée 12/48 m. Touché : 1 dégât perforant, et la cible subit l’état Charmé jusqu’au début du tour suivant de l’esprit follet.\n**Invisibilité.** L’esprit follet lance *invisibilité* sur lui-même, sans aucune composante, le Charisme étant sa caractéristique d’incantation.\n**Perception du for intérieur.** JS Charisme : DD 10, une créature que l’esprit follet voit dans un rayon de 1,50 m (Célestes, Fiélons et Morts-vivants ratent automatiquement ce JS). Échec : l’esprit follet perçoit l’alignement et l’affect actuel de la cible.",
+ "attacks": [
+  {
+   "name": "Épée-ingle",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Arc enchanté",
+   "bonus": 6,
+   "damage": "1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9fd22cfa4d_monstre-esprit-follet.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 129"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "chef-de-meute-gnoll",
+ "name": "Chef de meute gnoll",
+ "type": "Humanoïde (gnoll)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "caNote": "chemise de mailles",
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "vision dans le noir 18 m, Perception passive 10",
+ "languages": "gnoll",
+ "traits": "**Déchaîné.** Quand le gnoll réduit les points de vie d'une créature à 0 suite à une attaque au corps à corps lors de son tour, il peut effectuer une action bonus pour se déplacer sur une distance maximale égale à la moitié de sa vitesse et effectuer une attaque de morsure.",
+ "actionsText": "**Attaques multiples.** Le gnoll effectue deux attaques, avec sa coutille ou son arc long, et utilise, si possible, son action incitation au saccage.\n**Morsure.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une créature. *Touché :* 5 (1d4+3) dégâts perforants.\n**Coutille.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 3 m, une cible. *Touché :* 8 (1d10+3) dégâts tranchants.\n**Arc long.** *Attaque d'arme à distance :* +4 pour toucher, portée 45/180 m, une cible. *Touché :* 6 (1d8+2) dégâts perforants.\n**Incitation au saccage (recharge 5-6).** Une créature située à 9 mètres ou moins du gnoll dans son champ de vision peut utiliser sa réaction pour effectuer une attaque au corps à corps si elle entend le gnoll et possède le trait déchaîné.",
+ "portrait": "/data/images/75c1a1bb04_monstre-chef-de-meute-gnoll.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 162 · image : Manuel des monstres p. 161",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Coutille",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Arc long",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ]
+}

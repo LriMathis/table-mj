@@ -1,0 +1,48 @@
+{
+ "id": "karas-chembryl",
+ "name": "Karas Chembryl",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 104,
+ "hpFormula": "19d8+19",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 20,
+  "CON": 12,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 18",
+ "languages": "commun, elfique, infernal, argot des voleurs",
+ "traits": "**Évasion.** Si Karas est soumise à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, Karas ne prend plutôt aucun dégâts si elle réussit sur l'épargne et seulement la moitié des dégâts si elle échoue. Elle ne peut pas utiliser ce trait si elle a l'état neutralisé.\n**Résistance légendaire (3/jour ou 4/jour à Lair).** Si Karas échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Karas fait deux attaques en utilisant Dread Dagger ou Tyrant's Blade dans n'importe quelle combinaison.\n**Dire Dagger.** Jet d'attaque au corps à corps ou à distance : +8, allonge 1,50 m ou portée 6/18 m. Touché : 10 (2d4 + 5) dégâts perforants plus 4 (1d8) dégâts nécrotiques. Touché ou raté : Le poignard revient magiquement à la main de Karas immédiatement après une attaque étendue.\n**Lame de Tyrant.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 8 (1d6 + 5) dégâts tranchants, et la cible a l'état effrayé jusqu'au début du prochain tour de Karas. Si la cible est déjà effrayé, elle prend plutôt 10 (3d6) dégâts psychiques.\n**Détection orthographique.** Karas lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15, +7 au toucher with attaques de sort) :\n- À volonté : Amis, Silence, Thaumaturgie\n- 1/jour : Flétrissement, Double illusoire\n- 2/jour : Rayon empoisonné (version de niveau 5)",
+ "attacks": [
+  {
+   "name": "Dire Dagger",
+   "bonus": 8,
+   "damage": "2d4+5",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Lame de Tyrant",
+   "bonus": 8,
+   "damage": "1d6+5",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/27b3d2a3d6_monstre-karas-chembryl.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "saves": "DEX +8, CON +4, INT +7, SAG +5",
+ "skills": "Acrobaties +8, Perception +8, Discrétion +11",
+ "resistances": "poison, psychique",
+ "bonusActions": "**Retrait.** Karas se déplace jusqu'à la moitié de sa vitesse sans provoquer d'action Opportunity Attack et prend l'action Se cacher.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, karas chembryl peut entreprendre l'une des actions ci-après.\n**Étroite.** Jet de sauvegarde de Sagesse : DD 15, une créature Karas peut voir dans 27 m d'elle-même. Échec : 10 (3d6) dégâts psychiques, et la cible a l'état effrayé pendant 1 minute. Alors qu'effrayé, la vitesse de la cible est 0 m, et il répète l'enregistrement à la fin de chacun de ses tours, mettant fin à l'effet sur un succès. Échec ou réussite : Karas ne peut pas reprendre cette action avant le début de son prochain tour.\n**Attaque de vol.** Karas fait une attaque Dread Dagger et utilise Retirer."
+}

@@ -1,0 +1,46 @@
+{
+ "id": "banrion",
+ "name": "Banrion",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 67,
+ "hpFormula": "9d10+18",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 17,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "céleste, elfique, sylvestre, télépathie 18 m",
+ "traits": "**Frais.** Si Banrion se déplace au moins 6 m droit vers une cible et la frappe avec une attaque de corne au même tour, la cible prend un 9 (2d8) dégâts perforants supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou être à terre.\n**Résistance magique.** Banrion a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les armes de Banrion sont magiques.\n**Découpe intérieure.** L'innate de Banrion caractéristique d'incantation est Charisme (spell save DD 14). Banrion peut lancer innéement les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Détection du mal et du bien, Druidisme, Passage sans trace\n- 1/jour chacun : Apaisement des émotions, Dissipation du mal et du bien, Enchevêtrement",
+ "actionsText": "**Multiattaques.** Banrion fait deux attaques : une avec ses sabots et une avec sa corne.\n**Des voyous.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.\n**Corne.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants.\n**Touche de guérison (3/jour).** Banrion touche une autre créature avec sa corne. La cible récupère magiquement 11 (2d8 + 2) points de vie. En outre, le toucher élimine toutes les maladies et neutralise tous les poisons qui affligent la cible.\n**Téléport (1/jour).** Banrion se téléporte magiquement et jusqu'à trois créatures volontaires qu'il peut voir à l'intérieur de 1,50 m de lui, avec tout équipement qu'ils portent ou transportent, à un emplacement Banrion est familier, jusqu'à 1,5 km loin.",
+ "attacks": [
+  {
+   "name": "Des voyous",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Corne",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/09eceff305_monstre-banrion.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, banrion peut entreprendre l'une des actions ci-après.\n**Des voyous.** Banrion fait une attaque avec ses sabots.\n**Bouclier de frémissement (coûts 2 actions).** Banrion crée un champ magique et scintillant autour d'elle-même ou d'une autre créature qu'il peut voir dans 18 m de lui. La cible gagne un bonus de +2 à CA jusqu'à la fin du prochain tour de Banrion.\n**Se soigner (coûts 3 actions).** Banrion récupère magiquement 11 (2d8 + 2) points de vie."
+}

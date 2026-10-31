@@ -1,0 +1,46 @@
+{
+ "id": "hamish-hewland",
+ "name": "Hamish Hewland",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 85,
+ "hpFormula": "10d12+20",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, nain, géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Hamish fait deux attaques avec sa hache ou jette deux rochers.\n**Axe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d10 + 6) dégâts tranchants.\n**Roche.** Attaque d'arme à distance : +9 au toucher, portée 18/72 m., une cible. Touché : 17 (2d10 + 6) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Axe",
+   "bonus": 9,
+   "damage": "2d10+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 9,
+   "damage": "2d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5a28e45175_monstre-hamish-hewland.webp",
+ "notes": "",
+ "source": "Adventures in the Forgotten Realms: Deepest Night (5e.tools, traduction automatique)",
+ "saves": "FOR +9, SAG +5",
+ "skills": "Athlétisme +9, Histoire +3, Perspicacité +5, Perception +5",
+ "reactions": "**Parry.** Hamish ajoute 2 à son CA contre une attaque de mêlée qui le frapperait. Pour ce faire, il doit voir l'agresseur et manier une arme de mêlée ou un bouclier."
+}

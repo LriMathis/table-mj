@@ -1,0 +1,51 @@
+{
+ "id": "nimira",
+ "name": "Nimira",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Résilience des duers.** Nimira a un avantage sur jet de sauvegarde contre le poison, les sorts et les illusions, ainsi que pour résister à être charmé ou paralysé.\n**Sensibilité à la lumière du soleil.** En plein soleil, Nimira a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Multiattaques. Nimira fait deux attaques de grands mots.\n**Grande épée.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts tranchants, ou 16 (4d6 + 2) dégâts tranchants pendant l'agrandissement.\n**agrandir (recharges après un repos court ou long).** Pendant 1 minute, Nimira augmente magiquement sa taille, avec tout ce qu'il porte ou porte. Bien qu'agrandi, Nimira est grand, double ses dés de dégâts sur les attaques d'armes à base de Force (inclus dans les attaques), et rend tests de Force et jet de sauvegarde de Force avec avantage. Si Nimira manque de la place pour devenir Grand, elle atteint la taille maximale possible dans l'espace disponible.\n**Choix de guerre.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants, ou 11 (2d8 + 2) dégâts perforants pendant l'agrandissement.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 9 (2d6 + 2) dégâts perforants pendant l'agrandissement.\n**Invisibilité (Recharges après un repos court ou long).** Nimira tourne magiquement invisible jusqu'à ce qu'il attaque, jette un sort, ou utilise son Agrandir, ou jusqu'à ce que son concentration soit cassé, jusqu'à 1 heure (comme si concentrating sur un sort). Tout équipement Nimira porte ou porte invisible avec lui.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Choix de guerre",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c648669bd1_monstre-nimira.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "Armure Splint",
+ "resistances": "poison"
+}

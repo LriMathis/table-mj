@@ -1,0 +1,46 @@
+{
+ "id": "traqueur-gobelours",
+ "name": "Traqueur gobelours",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvaise",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "saves": "CON +4, SAG +3",
+ "skills": "Discrétion +6, Survie +3",
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, gobelin",
+ "traits": "**Rapt.** Le gobelours n’a pas besoin de dépenser de déplacement supplémentaire pour déplacer une créature qu’il agrippe.",
+ "actionsText": "**Attaques multiples.** Le gobelours effectue deux attaques de Javeline ou de Morgenstern.\n**Javeline.** Corps à corps ou à distance : +5, allonge 3 m ou portée 9/36 m. Touché : 13 (3d6 + 3) dégâts perforants.\n**Morgenstern.** Corps à corps : +5 (avec Avantage si la cible est Agrippée par le gobelours), allonge 3 m. Touché : 12 (2d8 + 3) dégâts perforants.",
+ "bonusActions": "**Lutte rapide.** JS Dextérité : DD 13, une créature de taille M ou inférieure que le gobelours voit dans un rayon de 3 m. Échec : la cible subit l’état Agrippé (évasion DD 13).",
+ "attacks": [
+  {
+   "name": "Javeline",
+   "bonus": 5,
+   "damage": "3d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Morgenstern",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/77c9e6d74d_monstre-traqueur-gobelours.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

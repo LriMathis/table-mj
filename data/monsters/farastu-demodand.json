@@ -1,0 +1,49 @@
+{
+ "id": "farastu-demodand",
+ "name": "Farastu Demodand",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 195,
+ "hpFormula": "26d8+78",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "abyssal, Démodand, télépathie 36 m",
+ "traits": "**Mouvement sans frontières.** Le farastu ignore les terrains difficiles, et les effets magiques ne peuvent pas réduire sa vitesse. Il peut dépenser 1,50 m de mouvement pour supprimer automatiquement l'état agrippé de lui-même.\n**Résistance magique.** Le farastu a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Escalade des araignées.** Le farastu peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans test de caractéristique.",
+ "actionsText": "**Multiattaques.** Le farastu fait deux attaques Claw et une attaque Bite.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d10 + 5) dégâts tranchants. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 15, avec inconvénient). Le farastu a deux griffes, chacune d'entre elles pouvant battre une créature.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher (avec l'avantage contre une créature le farastu est en train de se battre), allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants plus 24 (7d6) dégâts d'acide.\n**Invoquer la démodand (1/jour).** Le farastu a 40 pour cent de chances d'appeler un démodand farastu. Un Demodand convoqué apparaît dans un espace inoccupé au sein de 18 m du farastu, agit comme un allié du farastu, et ne peut pas convoquer d'autres demodands. Il reste 1 minute, jusqu'à ce qu'il ou le farastu meurt, ou jusqu'à ce que le farastu le rejette comme une action.\n**Détection orthographique.** Le farastu lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation :\n- À volonté : Invisibilité (autoseulement)\n- 1/jour chacun : Dissipation de la magie, Nappe de brouillard",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/2fbbf48d06_monstre-farastu-demodand.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, SAG +5",
+ "skills": "Perception +9, Discrétion +5, Survie +5",
+ "resistances": "froid, feu",
+ "immunities": "acide, poison",
+ "conditionImmunities": "paralysé, empoisonné, entravé"
+}

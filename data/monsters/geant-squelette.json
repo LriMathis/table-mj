@@ -1,0 +1,42 @@
+{
+ "id": "geant-squelette",
+ "name": "Giant Skeleton",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 115,
+ "hpFormula": "10d12+50",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 4,
+  "SAG": 6,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "C'est géant, mais il ne peut pas parler.",
+ "traits": "**Évasion.** Si le squelette est soumis à un effet qui lui permet de faire un jet de sauvegarde pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue.\n**Résistance magique.** Le squelette a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Tourner l'immunité.** Le squelette est à l'abri des effets qui deviennent morts.",
+ "actionsText": "**Multiattaques.** Le squelette fait trois attaques de scimitar.\n**Scimitar.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 15 (3d6 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 8,
+   "damage": "3d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d71763daf7_monstre-geant-squelette.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Géant squelette",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

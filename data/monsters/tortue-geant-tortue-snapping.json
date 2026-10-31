@@ -1,0 +1,39 @@
+{
+ "id": "tortue-geant-tortue-snapping",
+ "name": "Giant Snapping Turtle",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 75,
+ "hpFormula": "10d10+20",
+ "vitesse": "9 m, nage 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Amphibie.** La tortue peut respirer l'air et l'eau.\n**Stable.** Chaque fois qu'un effet frappe la tortue à terre, il peut faire un DD 10 jet de sauvegarde de Constitution pour éviter d'être à terre. Une tortue à terre est à l'envers. Pour se lever, il doit réussir sur un DD 10 test de Dextérité à son tour et ensuite utiliser tout son mouvement pour ce tour.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 18 (4d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "4d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b58adf236f_monstre-tortue-geant-tortue-snapping.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Tortue géant tortue Snapping",
+ "caNote": "armure naturelle"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "sylvanien-totem-elemental",
+ "name": "Treant Totem Elemental",
+ "type": "Plante",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique bon",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 8,
+  "CON": 21,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, druidique, elfique, sylvestre",
+ "traits": "**Fausse apparence.** Alors que le totem tréant reste immobile, il est indistinguable d'un arbre normal.\n**Monstre de siège.** Le totem treant inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le totem de treant fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 16 (3d6 + 6) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +10 au toucher, portée 18/54 m., une cible. Touché : 28 (4d10 + 6) dégâts contondants.\n**Arbres animés (1/jour).** Le totem treant anime magiquement un ou deux arbres qu'il peut voir à l'intérieur de 18 m de lui. Ces arbres ont les mêmes statistiques qu'un totem treant, sauf qu'ils ont des scores Intelligence et Charisme de 1, ils ne peuvent pas parler, et ils ont seulement l'option d'action Slam. Un arbre animé agit comme un allié du totem treant. L'arbre reste animé pendant 1 jour ou jusqu'à ce qu'il meure; jusqu'à ce que le totem de treant meurt ou soit plus que 36 m de l'arbre; ou jusqu'à ce que le totem de treant prenne un action bonus pour le transformer en arbre inanimé. L'arbre prend alors racine si possible.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "3d6+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 10,
+   "damage": "4d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/755b71f408_monstre-sylvanien-totem-elemental.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "aka": "Sylvanien Totem Elemental",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant"
+}

@@ -1,0 +1,38 @@
+{
+ "id": "bete-eclipsante",
+ "name": "Bête éclipsante",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "caNote": "armure naturelle",
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Décalage.** La bête éclipsante projette une illusion magique d'elle-même située à côté de sa position actuelle. Les jets d'attaque effectués contre elle sont désavantagés. Si la bête éclipsante est la cible d'une attaque réussie, ce trait est supprimé jusqu'à la fin de son prochain tour. Ce trait est également supprimé si la bête éclipsante est neutralisée ou si sa vitesse est réduite à 0.\n**Évitement.** Si la bête éclipsante est la cible d'un effet qui l'autorise à effectuer un jet de sauvegarde pour subir la moitié des dégâts seulement, au lieu de cela, elle ne subit aucun dégât si elle réussit le jet de sauvegarde et la moitié des dégâts seulement si elle le rate.",
+ "actionsText": "**Attaques multiples.** La bête éclipsante effectue deux attaques avec ses tentacules.\n**Tentacule.** *Attaque d'arme au corps à corps :* +6 pour toucher, allonge 3 m, une cible. *Touché :* 7 (1d6+4) dégâts contondants plus 3 (1d6) dégâts perforants.",
+ "portrait": "/data/images/5120ec7816_monstre-bete-eclipsante.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 27 · image : Manuel des monstres p. 26",
+ "attacks": [
+  {
+   "name": "Tentacule",
+   "bonus": 6,
+   "damage": "1d6+4+1d6",
+   "type": "contondant + perforant"
+  }
+ ]
+}

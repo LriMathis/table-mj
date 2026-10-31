@@ -1,0 +1,41 @@
+{
+ "id": "traag-draconian",
+ "name": "Traag Draconian",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, draconique",
+ "traits": "**Frénésie sanguine.** Le draconien a avantage sur melee jets d'attaque contre toute créature qui n'a pas toute sa points de vie.\n**Chute contrôlée.** Si le draconien tombe et n'est pas neutralisé, il soustrait jusqu'à 15 m de la chute lors du calcul des dégâts de la chute.\n**Throès de la mort.** Si le draconien est réduit à 0 points de vie, son corps s'introduit dans des boues qui remplissent une sphère 3 m -radius. Chaque créature dans cette zone doit réussir sur un DD 14 jet de sauvegarde de Dextérité ou être couverte dans la boue pendant 1 minute. Alors qu'elle est couverte de boues, la vitesse d'une créature est réduite de moitié. Une créature peut utiliser son action pour racler la boue elle-même ou une autre créature en 1,50 m d'elle-même.",
+ "actionsText": "**Multiattaques.** Le draconien fait deux attaques de Claw.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 14 (2d8 + 5) dégâts tranchants.\n**Carnage flamboyant (Recharge 5-6).** Le draconien se livre à sa fureur, se déchire dans le feu et monte à sa vitesse. Le draconien peut entrer dans les espaces des créatures pendant ce mouvement. Au cours de ce mouvement, lorsque le draconien entre dans l'espace d'une créature, la créature doit faire un DD 14 jet de sauvegarde de Dextérité. Sur une sauvegarde échouée, la créature prend 22 (4d10) dégâts de feu et est à terre. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et est poussée dans l'espace le plus proche hors du chemin de la draconienne. Une créature ne peut être affectée par le carnage flamboyant de ce draconien qu'une seule fois au cours d'un virage.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/7c8c110ae4_monstre-traag-draconian.webp",
+ "notes": "",
+ "source": "MCV2DC (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +8, CON +6",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Rétorsion violente.** Si une créature au sein de 3 m de la draconienne la frappe avec une attaque, la draconienne peut faire une attaque de griffe contre cette créature. Si l'attaque Claw frappe, il offre un 4 (1d8) dégâts tranchants supplémentaire."
+}

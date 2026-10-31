@@ -1,0 +1,40 @@
+{
+ "id": "xelnene-thrul",
+ "name": "Xelnene Thrul",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 17,
+ "hp": 208,
+ "hpFormula": "32d8+64",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 21,
+  "SAG": 16,
+  "CHA": 19
+ },
+ "senses": "Perception passive 19",
+ "languages": "céleste, commun, draconique, infernal",
+ "traits": "**Sculpteur de l'évocation.** Quand Thrul jette un sort qui crée une zone d'effet, elle peut choisir elle-même et jusqu'à cinq autres créatures qu'elle peut voir, sculptant l'énergie du sort autour d'eux. Une créature choisie réussit automatiquement sur son jet de sauvegarde contre le sort, et il ne prend aucun dégâts s'il prend normalement la moitié des dégâts sur un succès de sauvegarde.\n**Résistance magique.** Thrul a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Thrul fait quatre attaques d'Arcane. Elle peut remplacer deux attaques par une utilisation de Spellcasting pour lancer Boule de feu (version de niveau 5) ou Éclair (version de niveau 5).\n**La Burst d'Arcane.** Jet d'attaque au corps à corps ou à distance : +11, allonge 1,50 m ou portée 36 m. Touché : 32 (5d10 + 5) dégâts de force.\n**Détection orthographique.** Thrul lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Modification d'apparence, Détection de la magie, Boule de feu (version de niveau 5), Texte illusoire, Éclair (version de niveau 5), Armure de mage (inclus dans CA), Main de mage, Prestidigitation\n- 1/jour chacun : Chaîne d'éclairs, Éclat du soleil\n- 2/jour chacun : Demi-plan, Modification de mémoire, Scrutation, Communication à distance, Téléportation",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 11,
+   "damage": "5d10+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/87b97269ca_monstre-xelnene-thrul.webp",
+ "notes": "",
+ "source": "Arcana Unleashed: Deadfall (5e.tools, traduction automatique)",
+ "saves": "CON +8, INT +11, SAG +9",
+ "skills": "Arcanes +17, Histoire +11, Perception +9, Persuasion +10",
+ "reactions": "**Magie protectrice (3/jour).** Thrul lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Contresort, Bouclier"
+}

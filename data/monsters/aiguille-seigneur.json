@@ -1,0 +1,47 @@
+{
+ "id": "aiguille-seigneur",
+ "name": "Needle Lord",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 15,
+  "CHA": 12
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 14",
+ "languages": "sylvestre",
+ "traits": "**Défense des aiguilles.** Chaque fois qu'une créature fait une attaque de mêlée contre un seigneur de l'aiguille, il faut 2 dégâts perforants. Une créature peut choisir de faire une attaque avec un désavantage pour éviter ces dégâts.",
+ "actionsText": "**Multiattaques.** Le seigneur de l'ortie fait 2 attaques de vigne de râpage.\n**Volley des aiguilles.** Le maître de l'aiguille fait des attaques à l'aiguille 1d6, mais il ne peut attaquer la même cible plus de deux fois pendant son virage.\n**Raking de la vigne.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants, et la cible est agrippé (évasion DD 14). Jusqu'à ce que ce grappin se termine, la cible prend 11 dégâts perforants au début de chacun de ses tours. Le maître de l'aiguille a deux vignes en râpe, chacune ne pouvant gripper qu'une cible.\n**Aiguille.** Attaque d'arme à distance : +2 au toucher, portée 18 m, une cible. Touché : 2 (1d4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Raking de la vigne",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Aiguille",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f48202496f_monstre-aiguille-seigneur.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "aka": "Aiguille seigneur",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +6, Perception +4, Discrétion +2",
+ "conditionImmunities": "aveuglé, assourdi, épuisement"
+}

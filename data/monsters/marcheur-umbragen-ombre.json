@@ -1,0 +1,41 @@
+{
+ "id": "marcheur-umbragen-ombre",
+ "name": "Umbragen Shadow Walker",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 14,
+ "hp": 162,
+ "hpFormula": "25d8+50",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 19,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 15,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "commun, elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** La magie ne peut pas endormir le marcheur de l'ombre.\n**Sensibilité à la lumière du soleil.** En plein soleil, le marcheur d'ombre a un désavantage sur tests de caractéristique et jets d'attaque.",
+ "actionsText": "**Multiattaques.** Le marcheur d'ombres fait trois attaques Gloom Burst et utilise Shadow Cowl.\n**Brûlures.** Jet d'attaque au corps à corps ou à distance : +9, allonge 1,50 m ou portée 36 m. Touché : 14 (2d8 + 5) dégâts psychiques.\n**Coucou d'ombre.** Jet de sauvegarde de Sagesse : DD 17, une créature le marcheur d'ombre peut voir à l'intérieur de 36 m. Échec : 14 (4d6) dégâts nécrotiques, et la cible a l'état aveuglé jusqu'au début du prochain tour du marcheur d'ombre.\n**Détection orthographique.** Le marcheur d'ombre lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Lumières dansantes, Ténèbres, Illusion mineure",
+ "attacks": [
+  {
+   "name": "Brûlures",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/8984dc032f_monstre-marcheur-umbragen-ombre.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "aka": "Marcheur Umbragen ombre",
+ "saves": "DEX +8, SAG +6",
+ "skills": "Arcanes +5, Perception +6, Discrétion +8",
+ "vulnerabilities": "radiant"
+}

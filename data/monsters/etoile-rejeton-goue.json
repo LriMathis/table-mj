@@ -1,0 +1,39 @@
+{
+ "id": "etoile-rejeton-goue",
+ "name": "Star Spawn Grue",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 17,
+ "hpFormula": "5d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 13,
+  "CON": 10,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "profond",
+ "traits": "**Aura de Shrieks.** Les créatures au sein de 6 m de la rouille qui ne sont pas des Aberrations ont un désavantage sur jet de sauvegarde, ainsi que sur jets d'attaque contre des créatures autres qu'une rouille de frai étoile.",
+ "actionsText": "**Morceau de confusion.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 6 (2d4 + 1) dégâts perforants, et la cible doit réussir sur une DD 10 jet de sauvegarde de Sagesse ou jets d'attaque contre elle ont avantage jusqu'au début du prochain tour de la goupe.",
+ "attacks": [
+  {
+   "name": "Morceau de confusion",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/53dc33f686_monstre-etoile-rejeton-goue.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Étoile rejeton goue",
+ "immunities": "psychique"
+}

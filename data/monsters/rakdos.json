@@ -1,0 +1,50 @@
+{
+ "id": "rakdos",
+ "name": "Rakdos",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "24",
+ "xp": 62000,
+ "ca": 20,
+ "hp": 300,
+ "hpFormula": "24d12+144",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 15,
+  "CON": 22,
+  "INT": 14,
+  "SAG": 18,
+  "CHA": 30
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 14",
+ "languages": "abyssal, commun",
+ "traits": "**Présence captive.** Toute créature qui commence son tour à l'intérieur de 9 m de Rakdos doit faire un DD 25 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature devient charmé par Rakdos pendant 1 minute ou jusqu'à ce que la créature soit plus loin que 9 m de lui. Sur une sauvegarde réussie, la créature devient immunisée contre la Présence Captivante de Rakdos pendant 24 heures.\n**Divertissement cruel.** Quand une créature Rakdos peut voir dans 18 m de lui est réduit à 0 points de vie, Rakdos gagne 25 points de vie temporaires.\n**Résistance légendaire (3/jour).** Si Rakdos échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Rakdos a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes de Rakdos sont magiques.\n**Découpe intérieure.** caractéristique d'incantation de Rakdos est Charisme (spell save DD 25). Il peut lancer innément Représailles infernales (à de niveau 5) à volonté, ne nécessitant aucun composant matériel.\n- À volonté : Représailles infernales",
+ "actionsText": "**Multiattaques.** Rakdos fait deux attaques avec son Rideau-Call Scythe ou ses griffes.\n**Rideau-Appel Scythe.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 24 (3d10 + 8) dégâts tranchants plus 13 (3d8) dégâts de feu.\n**Griffe.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 17 (2d8 + 8) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Rideau-Appel Scythe",
+   "bonus": 15,
+   "damage": "3d10+8",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 15,
+   "damage": "2d8+8",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/4a0370023a_monstre-rakdos.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +15, CON +13, SAG +11, CHA +17",
+ "skills": "Intimidation +17, Représentation +17, Persuasion +17",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, rakdos peut entreprendre l'une des actions ci-après.\n**Révélation sadique.** Chaque créature au sein de 18 m de Rakdos qui est son allié ou est charmé par lui doit utiliser sa réaction pour avancer jusqu'à la moitié de sa vitesse vers la créature la plus proche qu'elle puisse voir, à condition qu'elle ne soit pas déjà au sein de 1,50 m de cette créature. Il doit alors faire une attaque de mêlée contre cette créature si elle est capable de le faire.\n**Scythe (coûts 2 actions).** Rakdos utilise Rideau-Call Scythe.\n**Touche de douleur (coûts 3 actions).** Rakdos fait une attaque de griffe contre une créature dans 3 m de lui. La cible doit réussir sur un DD 25 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, la créature ne peut pas maintenir concentration sur un sort ou tout autre effet qui nécessite concentration. La créature empoisonné peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès."
+}

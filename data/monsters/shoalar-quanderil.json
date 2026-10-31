@@ -1,0 +1,39 @@
+{
+ "id": "shoalar-quanderil",
+ "name": "Shoalar Quanderil",
+ "type": "Humanoïde (Génase d'eau)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 11,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 18
+ },
+ "senses": "Perception passive 10",
+ "languages": "aquatique, commun",
+ "traits": "**Amphibie.** Shoalar peut respirer l'air et l'eau.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Shoalar est Constitution (save spell DD 14, +6 au toucher avec attaques de sort). Il peut innément lancer les sorts suivants:\n- À volonté : Façonnage de l'eau\n- 1/jour : Création ou destruction d'eau\n**Détection orthographique.** Shoalar est un spellcaster de niveau 7. Son caractéristique d'incantation est Charisme (save spell DD 15, +7 au toucher avec attaques de sort). Il connaît les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Aspersion d'acide, Contact glacial, Lumière, Prestidigitation, Rayon de givre\n- Niveau 1 (4 emplacements) : Déguisement, Armure de mage, Bouclier\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Foulée brumeuse\n- Niveau 3 (2 emplacements) : Éclair, Raz-de-marée\n- Niveau 4 (1 emplacements) : Sphère aqueuse",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou 6/18 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8513093045_monstre-shoalar-quanderil.webp",
+ "notes": "",
+ "source": "Locathah Rising (5e.tools, traduction automatique)",
+ "skills": "Arcanes +6, Tromperie +8, Perspicacité +4, Persuasion +8",
+ "resistances": "acide, foudre, tonnerre"
+}

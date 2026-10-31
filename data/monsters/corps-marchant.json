@@ -1,0 +1,39 @@
+{
+ "id": "corps-marchant",
+ "name": "Walking Corpse",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 4,
+ "hpFormula": "1d8",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Mort violente.** Lorsqu'un cadavre est réduit à 0 points de vie, il s'ouvre, en désorganisant un Nuée de serpents venimeux. Les serpents ont faim et se battent jusqu'à ce qu'ils soient tués.",
+ "actionsText": "**Club.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d89a71e8ac_monstre-corps-marchant.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Corps marchant",
+ "conditionImmunities": "charmé, effrayé"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "silverquill-pledgemage",
+ "name": "Silverquill Pledgemage",
+ "type": "Humanoïde (barde)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 17
+ },
+ "senses": "Perception passive 10",
+ "languages": "Commun plus deux langues",
+ "traits": "",
+ "actionsText": "**Lame d'encre.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 5 (1d8 + 3) dégâts perforants plus 10 (3d6) dégâts psychiques.\n**Détection orthographique.** Le gantage lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumières dansantes, Amis\n- 1/jour chacun : Injonction, Confusion, Armure de mage, Don des langues",
+ "attacks": [
+  {
+   "name": "Lame d'encre",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/882d8fc031_monstre-silverquill-pledgemage.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "saves": "DEX +5, SAG +2, CHA +5",
+ "skills": "Tromperie +5, Représentation +7, Persuasion +7",
+ "bonusActions": "**Démotivée (2/jour).** La promesse lance des insultes magiques à une créature qu'elle peut voir en elle-même en 9 m. La cible doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou devenir effrayé de l'engagement pendant 1 minute. Alors qu'effrayé de cette façon, la cible ne peut pas prendre de réactions, sa vitesse est diminuée de moitié, et tout coup de gage contre la créature est un coup critique. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "reactions": "**Verset tournant.** Lorsqu'une créature peut voir au sein de 9 m de lui échoue un jet de sauvegarde, le gage tisse magiquement ensemble en remuant la prose, permettant à la créature de rerouler le jet de sauvegarde et d'utiliser le résultat plus élevé."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "gelee-de-sac",
+ "name": "Bag Jelly",
+ "type": "Vase",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 8,
+ "hp": 42,
+ "hpFormula": "5d8+20",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 6,
+  "CON": 19,
+  "INT": 2,
+  "SAG": 7,
+  "CHA": 2
+ },
+ "senses": "Vision aveugle 18 m (can't see beyond this radius), Perception passive 8",
+ "languages": "—",
+ "traits": "**Amorphe.** La gelée de sac peut se déplacer dans un espace aussi étroit que 1 pouce sans serrer.",
+ "actionsText": "**Multiattaques.** La gelée de sac fait deux attaques de Pseudopod.\n**Pseudopod.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 8 (2d6 + 1) dégâts d'acide. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 11). tests de caractéristique fait pour échapper à ce grappin ont un désavantage.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 3,
+   "damage": "2d6+1",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/74c2903f4a_monstre-gelee-de-sac.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Gelée de sac",
+ "resistances": "acide, contondant",
+ "conditionImmunities": "épuisement"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "clown-spatial",
+ "name": "Space Clown",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "abyssal, commun",
+ "traits": "**Mourir Burst.** Quand le clown tombe à 0 points de vie, il surgit comme un ballon, libérant une éclaboussure d'ichor putride et corrosif. Chaque créature au sein de 1,50 m du clown quand il éclate doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 10 (3d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Crèches.** Le clown porte des chaussures qui grincent quand il marche. La pression peut être entendue sur une gamme de 9 m. La pression est réduite au silence alors que la forme phantasmal du clown est en vigueur.",
+ "actionsText": "**Choc.** Attaque de sort au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 17 (4d6 + 3) dégâts de foudre.\n**Gun Ray.** Attaque de sort à distance : +5 au toucher, portée 36 m, une créature. Touché : 7 (2d6) dégâts psychiques, et si la cible est un humanoïde avec un score Intelligence de 3 ou plus, il doit faire un DD 12 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la cible perçoit tout ce qu'elle voit ou entend comme drôle et est neutralisé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Le clown lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation :\n- À volonté : Amis, Main de mage, Prestidigitation\n- 1/jour chacun : Image miroir, Pattes d'araignée",
+ "attacks": [
+  {
+   "name": "Choc",
+   "bonus": 5,
+   "damage": "4d6+3",
+   "type": "foudre"
+  },
+  {
+   "name": "Gun Ray",
+   "bonus": 5,
+   "damage": "2d6",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/df81e8d8f5_monstre-clown-spatial.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Clown spatial",
+ "skills": "Acrobaties +5, Représentation +5, Escamotage +5",
+ "bonusActions": "**Forme fantôme (3/jour).** Le clown se voile et tout ce qu'il porte et porte dans une illusion qui le fait ressembler à une autre créature de sa taille ou plus petite (comme un enfant) ou un objet assez petit pour s'intégrer dans l'espace du clown (comme un ballon flottant). Le maintien de cet effet nécessite le concentration du clown (comme si concentrating sur un sort), et l'illusion ne tient pas à l'inspection physique. En action, une créature qui peut voir la forme illusoire du clown peut faire un DD 15 test de Sagesse (Perspicacité), perçant l'illusion et discernant la vraie forme du clown sur un succès."
+}

@@ -1,0 +1,47 @@
+{
+ "id": "citadel-araignee",
+ "name": "Citadel Spider",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 18,
+ "hp": 310,
+ "hpFormula": "20d20+150",
+ "vitesse": "15 m, escalade 15 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Résistance légendaire (3/jour).** Si l'araignée échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Escalade des araignées.** L'araignée peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Web Walker.** L'araignée ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** L'araignée fait deux attaques Bite. Il peut remplacer une de ces attaques par une utilisation de la bombe Web.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 6 m, une cible. Touché : 19 (2d10 + 8) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Bombe Web.** Attaque d'arme à distance : +14 au toucher, portée 90 m / 180 m, une cible. Touché : 24 (3d10 + 8) dégâts contondants, et la cible et toutes les créatures de 3 m doivent réussir sur un DD 19 jet de sauvegarde de Dextérité ou prendre 10 (3d6) dégâts d'acide et avoir l'état entravé jusqu'au prochain tour de l'araignée.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "2d10+8",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Bombe Web",
+   "bonus": 14,
+   "damage": "3d10+8",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/ab5b6c9ce9_monstre-citadel-araignee.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Citadel araignée",
+ "caNote": "armure naturelle",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "reactions": "**Absorber le souffle.** En réponse à un choc avec un jet d'attaque, la carapace de l'araignée absorbe une partie du coup, réduisant ainsi les dégâts qu'elle subit de 11 (2d10)."
+}

@@ -1,0 +1,47 @@
+{
+ "id": "roc",
+ "name": "Roc",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "non alignée",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 248,
+ "hpFormula": "16d20+80",
+ "vitesse": "6 m, vol 36 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "saves": "DEX +4, SAG +4",
+ "skills": "Perception +8",
+ "senses": "Perception passive 18",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le rukh effectue deux attaques de Bec. Il peut en remplacer une par une attaque de Serres.\n**Bec.** Corps à corps : +13, allonge 3 m. Touché : 28 (3d12 + 9) dégâts perforants.\n**Serres.** Corps à corps : +13, allonge 1,50 m. Touché : 23 (4d6 + 9) dégâts tranchants. Si la cible est une créature de taille TG ou inférieure, elle subit l’état Agrippé (évasion DD 19), ainsi que l’état Entravé tant qu’elle est Agrippée.",
+ "bonusActions": "**Piqué (recharge 5–6).** Si le rukh tient une créature Agrippée, il vole à concurrence de la moitié de sa Vitesse de vol sans provoquer d’attaques d’Opportunité et lâche cette créature.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 13,
+   "damage": "3d12+9",
+   "type": "perforant"
+  },
+  {
+   "name": "Serres",
+   "bonus": 13,
+   "damage": "4d6+9",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/373d3f0341_monstre-roc.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 258",
+ "aka": "Rukh (2024)"
+}

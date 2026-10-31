@@ -1,0 +1,44 @@
+{
+ "id": "ebonbane",
+ "name": "Ebonbane",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 17,
+ "hp": 130,
+ "hpFormula": "29d6+29",
+ "vitesse": "1,50 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 13,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 17",
+ "languages": "Fréquent; télépathie 3 m.",
+ "traits": "**Restauration de lord noir.** Si Ebonbane meurt, il ressuscite avec toute sa points de vie en 1d10 semaines, téléportant quelque part dans le Manoir Ombre. Jusqu'à ce qu'il ressuscite, Ebonbane agit comme un +3 Longsword quand il est manié par une créature.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Ebonbane échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Ebonbane a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Ebonbane fait trois attaques de Darkflame Slash. Il peut remplacer une de ces attaques par une utilisation de Posss Dead si disponible.\n**Flacon foncé.** Jet d'attaque au corps à corps ou à distance : +9, allonge 1,50 m ou portée 27 m. Touché : 9 (1d10 + 4) dégâts tranchants plus 10 (3d6) dégâts nécrotiques.\n**Possède (Recharge 5-6) mort.** Ebonbane soulève un corps humanoïde moyen ou petit en 1,50 m de lui-même et le possède. Le corps manie Ebonbane et est sous son contrôle. Ebonbane gagne 50 points de vie temporaires, et ses statistiques sont les mêmes, sauf que sa vitesse augmente à 9 m, et il peut parler à travers le corps en utilisant n'importe quelle langue que le cadavre connaissait dans la vie.\nLa possession dure jusqu'à ce qu'Ebonbane tombe à 0 points de vie ou qu'Ebonbane mette fin à la possession sous forme d'action bonus. Une fois la possession terminée, Ebonbane ne peut plus posséder le cadavre. Le cadavre s'écroule 24 heures après la fin de la possession.\n**Worthy Wielder.** Jet de sauvegarde de Charisme : DD 17, un humanoïde volontaire dans 1,50 m. Échec : 36 (8d8) dégâts de force. Si ce dégâts réduit la cible à 0 points de vie, Ebonbane dévore son âme. Une créature dont l'âme a été dévorée par Ebonbane ne peut être restaurée à la vie que par un sort Souhait. Réussite : La cible s'attelle à Ebonbane et peut manier l'épée.",
+ "attacks": [
+  {
+   "name": "Flacon foncé",
+   "bonus": 9,
+   "damage": "1d10+4",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/20a7c747bd_monstre-ebonbane.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "CON +6, SAG +7",
+ "skills": "Arcanes +8, Histoire +8, Perception +7",
+ "resistances": "contondant, feu, perforant, psychique, tranchant",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "reactions": "**Parry.** Déclencheur : Ebonbane est frappé par une melee jet d'attaque. Réponse : Ebonbane ajoute 5 à sa CA contre cette attaque, ce qui peut la faire manquer.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, ebonbane peut entreprendre l'une des actions ci-après.\n**Réplique.** Ebonbane se déplace jusqu'à la moitié de sa vitesse et fait une attaque Darkflame Slash.\n**Flare runique.** Jet de sauvegarde de Constitution : DD 17, chaque créature du choix d'Ebonbane dans une émanation 9 m provenant d'Ebonbane. Échec : La cible a l'état aveuglé et répète l'enregistrement à la fin de chacun de ses tours. La cible réussit automatiquement après 1 minute. Échec ou réussite : Ebonbane ne peut pas reprendre cette action avant le début de son prochain tour."
+}

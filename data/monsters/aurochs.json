@@ -1,0 +1,38 @@
+{
+ "id": "aurochs",
+ "name": "Aurochs",
+ "type": "Bête (bovins)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 38,
+ "hpFormula": "4d10+16",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 19,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Gore.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts perforants. Si les aurochs ont déplacé au moins 6 m droit vers la cible immédiatement avant le coup, la cible prend un 9 (2d8) dégâts perforants supplémentaire, et la cible doit réussir sur un DD 15 jet de sauvegarde de Force ou être à terre si c'est une créature.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 7,
+   "damage": "2d8+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6d57d104ce_monstre-aurochs.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

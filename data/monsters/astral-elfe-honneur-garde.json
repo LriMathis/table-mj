@@ -1,0 +1,47 @@
+{
+ "id": "astral-elfe-honneur-garde",
+ "name": "Astral Elf Honor Guard",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 93,
+ "hpFormula": "17d8+17",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "céleste, commun, elfique",
+ "traits": "**Ancêtre fécale.** L'elfe a l'avantage sur jet de sauvegarde il fait d'éviter ou de terminer l'état charmé sur lui-même, et la magie ne peut pas le mettre au sommeil.\n**Nature inhabituelle.** L'elfe n'a pas besoin de dormir.",
+ "actionsText": "**Multiattaques.** L'elfe fait deux attaques Longsword ou radiant Ray.\n**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d8 + 2) dégâts tranchants, ou 13 (2d10 + 2) dégâts tranchants lorsqu'il est utilisé avec deux mains, plus 10 (3d6) dégâts radiants.\n**Rayon radiant.** Attaque de sort à distance : +6 au toucher, portée 36 m, une cible. Touché : 22 (4d10) dégâts radiants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "2d8+2",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Rayon radiant",
+   "bonus": 6,
+   "damage": "4d10",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/604a0ff5da_monstre-astral-elfe-honneur-garde.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Astral elfe honneur garde",
+ "caNote": "demi-plaque",
+ "saves": "SAG +6, CHA +6",
+ "skills": "Intimidation +6, Perception +6, Survie +6"
+}

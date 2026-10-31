@@ -1,0 +1,42 @@
+{
+ "id": "shemshime",
+ "name": "Shemshime",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 31,
+ "hpFormula": "7d8",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 6,
+  "DEX": 17,
+  "CON": 10,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "télépathie 18 m",
+ "traits": "**Fin d'écrasement.** Si les dégâts réduisent Shemshime à 0 points de vie, Shemshime tombe à la place à 1 points de vie à moins que les dégâts soient le résultat de Shemshime écrasé par un objet pesant au moins 500 kg.\n**Mouvement intégré.** Shemshime peut se déplacer à travers d'autres créatures et objets comme s'ils avaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.",
+ "actionsText": "**Touche fougueuse.** Attaque de sort au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 17 (4d6 + 3) dégâts psychiques.\n**Les fouets de la violence.** Shemshime choisit jusqu'à deux créatures qu'il peut voir dans 18 m de lui. Chaque cible doit réussir sur une DD 13 jet de sauvegarde de Sagesse, ou que la cible prend 7 (1d8 + 3) dégâts psychiques et doit utiliser sa réaction pour faire une attaque d'arme de mêlée contre une créature il peut atteindre (le choix de Shemshime) que Shemshime peut voir.\n**Bamble (Recharge 6) hurlement.** Shemshime cible une créature il peut voir dans 9 m de lui. La créature doit faire un DD 13 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, il prend 21 (4d8 + 3) dégâts psychiques et est étourdi jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, il prend la moitié de ces dégâts et n'est pas étourdi.",
+ "attacks": [
+  {
+   "name": "Touche fougueuse",
+   "bonus": 5,
+   "damage": "4d6+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/f169a66033_monstre-shemshime.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "saves": "INT +5, SAG +4",
+ "skills": "Perception +4, Discrétion +7",
+ "resistances": "acide, contondant, feu, foudre, perforant, tranchant, tonnerre",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

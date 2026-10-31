@@ -1,0 +1,52 @@
+{
+ "id": "kuo-toa",
+ "name": "Kuo-toa",
+ "type": "Humanoïde (kuo-toa)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "caNote": "armure naturelle, bouclier",
+ "hp": 18,
+ "hpFormula": "4d8",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 10,
+  "CON": 11,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "skills": "Perception +4",
+ "senses": "vision dans le noir 36 m, Perception passive 14",
+ "languages": "commun des profondeurs",
+ "traits": "**Amphibie.** Le kuo-toa peut respirer à l'air libre et sous l'eau.\n**Perception surnaturelle.** Le kuo-toa sent la présence des créatures invisibles ou dans le plan éthéré dans un rayon de 9 mètres autour de lui. Il peut localiser avec précision leur position lorsqu'elles se déplacent.\n**Sensibilité à la lumière du soleil.** Le kuo-toa est désavantagé lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à la lumière du soleil.\n**Glissant.** Le kuo-toa est avantagé lors des tests de caractéristique et des jets de sauvegarde effectués pour échapper à une empoignade.",
+ "actionsText": "**Morsure.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 3 (1d4+1) dégâts perforants.\n**Lance.** *Attaque d'arme au corps à corps ou à distance :* +3 pour toucher, allonge 1,50 m ou portée 6/18 m, une cible. *Touché :* 4 (1d6+1) dégâts perforants, ou 5 (1d8+1) dégâts perforants si elle est maniée à deux mains au corps à corps.\n**Filet.** *Attaque d'arme à distance :* +3 pour toucher, portée 1,50/4,50 m, une créature de Grande taille ou plus petite. *Touché :* la cible est entravée. Une créature peut utiliser son action pour effectuer un test de Force DD 10 pour se libérer ou libérer une autre créature prise dans le filet et met fin à l'entrave en cas de réussite. Infliger 5 dégâts tranchants au filet (CA 10) libère la cible sans la blesser et détruit le filet.",
+ "reactions": "**Bouclier collant.** Quand une créature rate une attaque d'arme au corps à corps contre le kuo-toa, celui-ci utilise son bouclier collant pour engluer l'arme. L'attaquant doit réussir un jet de sauvegarde de Force DD 11, sans quoi son arme se retrouve collée sur le bouclier du kuo-toa. Si la créature qui manie l'arme ne peut pas ou ne veut pas abandonner son arme, elle est empoignée tant que son arme est engluée. Une arme engluée est inutilisable. Une créature peut effectuer une action pour faire un test de Force DD 11 et décolle l'arme en cas de réussite.",
+ "portrait": "/data/images/5e4f37c1f6_monstre-kuo-toa.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 198 · image : Manuel des monstres p. 197",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Lance",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Filet",
+   "bonus": 3,
+   "damage": "",
+   "type": ""
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "id": "etonnement-domestique",
+ "name": "Domestic Wonder",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 9,
+ "hp": 5,
+ "hpFormula": "1d8+1",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 8,
+  "CON": 13,
+  "INT": 3,
+  "SAG": 8,
+  "CHA": 1
+ },
+ "senses": "Perception passive 9",
+ "languages": "—",
+ "traits": "**Détermination mécanique.** Si les dégâts réduisent l'émerveillement à 0 points de vie, il fait un jet de sauvegarde de Constitution avec un DD de 5 plus les dégâts pris à moins que les dégâts soient foudre ou d'un Hit critique. Sur une sauvegarde réussie, la merveille tombe à 1 points de vie.\n**Opération de liquidation.** La merveille a l'état inconscient jusqu'à ce qu'une autre créature l'enroule avec la clé unique de la merveille pendant 1 minute. Une fois blessé, la merveille fonctionne pendant 10 jours ou jusqu'à ce qu'une créature touche la merveille avec sa clé comme une action Utiliser pour la désactiver, après quoi la merveille a l'état inconscient jusqu'à ce qu'elle soit à nouveau blessée.",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/9ba36e5510_monstre-etonnement-domestique.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Étonnement domestique"
+}

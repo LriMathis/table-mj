@@ -1,0 +1,45 @@
+{
+ "id": "ront",
+ "name": "Ront",
+ "type": "Humanoïde (orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 15,
+ "hpFormula": "2d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 7,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, orc",
+ "traits": "**Agressifs.** En tant qu'action bonus, Ront peut avancer à sa vitesse vers une créature hostile qu'il peut voir.",
+ "actionsText": "**Grandaxe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d12 + 3) dégâts tranchants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/416f890203_monstre-ront.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "skills": "Intimidation +2"
+}

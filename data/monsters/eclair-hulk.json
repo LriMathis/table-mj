@@ -1,0 +1,43 @@
+{
+ "id": "eclair-hulk",
+ "name": "Lightning Hulk",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 15,
+ "hp": 102,
+ "hpFormula": "12d10+36",
+ "vitesse": "0 m, vol 27 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 21,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Perception passive 16",
+ "languages": "aérien, géant",
+ "traits": "**Éclairage.** L'étagère apporte une lumière lumineuse dans un rayon de 6 m et une lumière faible pour un 6 m supplémentaire.\n**Formulaire foudre.** La foudre peut entrer dans l'espace d'une créature hostile et s'arrêter là. La première fois que l'étagère entre dans l'espace d'une créature sur un tour, ou si elle commence son tour dans l'espace d'une créature, cette créature prend 7 (2d6) dégâts de foudre. Le hulk peut également se déplacer dans un espace aussi étroit que 1 pouce sans serrer. Une créature qui touche le houlk de foudre ou le frappe avec une attaque de mêlée alors que dans 1,50 m il prend 7 (2d6) dégâts de foudre.",
+ "actionsText": "**Arc foudre.** Attaque d'arme au corps à corps ou à distance : +9 au toucher, allonge 3 m ou portée 18 m, une cible. Touché : 18 (4d8) dégâts de foudre. Si la cible est une créature, elle ne peut pas prendre de réactions avant le début de son prochain tour, et la foudre saute de la cible à une autre créature du choix de la foudre hulk qu'elle peut voir dans 9 m de la cible. La deuxième créature doit réussir sur un DD 18 jet de sauvegarde de Dextérité ou prendre 18 (4d8) dégâts de foudre.",
+ "attacks": [
+  {
+   "name": "Arc foudre",
+   "bonus": 9,
+   "damage": "4d8",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/10f951989b_monstre-eclair-hulk.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Éclair Hulk",
+ "saves": "DEX +9, CON +7, SAG +6, CHA +6",
+ "skills": "Perception +6",
+ "resistances": "froid, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

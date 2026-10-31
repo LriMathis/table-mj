@@ -1,0 +1,44 @@
+{
+ "id": "geant-walrus",
+ "name": "Giant Walrus",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 9,
+ "hp": 85,
+ "hpFormula": "9d12+27",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 9,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Maintenez votre souffle.** Le morse peut retenir son souffle pendant 30 minutes.",
+ "actionsText": "**Multiattaques.** Le morse fait deux attaques : l'une avec son corps et l'autre avec ses défenses.\n**Flop du corps.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d8 + 6) dégâts contondants.\n**Tustes.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 16 (3d6 + 6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Flop du corps",
+   "bonus": 8,
+   "damage": "2d8+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Tustes",
+   "bonus": 8,
+   "damage": "3d6+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e6ef4a0f7f_monstre-geant-walrus.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Géant Walrus"
+}

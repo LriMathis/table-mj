@@ -1,0 +1,51 @@
+{
+ "id": "dragon-venerable-sapphire",
+ "name": "Ancient Sapphire Dragon",
+ "type": "Dragon (gemme)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal neutre",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 20,
+ "hp": 370,
+ "hpFormula": "20d20+160",
+ "vitesse": "12 m, creusement 12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 27,
+  "INT": 21,
+  "SAG": 19,
+  "CHA": 20
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 28",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Escalade des araignées.** Le dragon peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Tunneler.** Le dragon peut creuser à la moitié de sa vitesse de creusement et laisser un tunnel 6 m dans son sillage.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +15 au toucher, allonge 4,50 m, une cible. Touché : 19 (2d10 + 8) dégâts perforants plus 11 (2d10) dégâts de tonnerre.\n**Griffe.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 15 (2d6 + 8) dégâts tranchants.\n**Respiration débilitante (Recharge 5-6).** Le dragon exhale un pouls de sons à forte hauteur, presque inaudibles, dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 23 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 55 (10d10) dégâts de tonnerre et est neutralisé jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas neutralisé.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 20) :\n- 1/jour chacun : Murmures dissonants, Immobilisation de monstre, Fusion dans la pierre, Télékinésie, Téléportation",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 15,
+   "damage": "2d10+8",
+   "type": "perforant + tonnerre"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 15,
+   "damage": "2d6+8",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/624d197025_monstre-dragon-venerable-sapphire.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon vénérable Sapphire",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +15, SAG +11, CHA +12",
+ "skills": "Histoire +12, Perception +18, Persuasion +19, Discrétion +9",
+ "resistances": "foudre, tonnerre",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Modifier la forme.** Le dragon se transforme magiquement en toute créature moyenne ou petite, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si le dragon est réduit à 0 points de vie ou utilise un action bonus pour y mettre fin.\n**Étape psychique.** Le dragon se téléporte magiquement dans un espace inoccupé qu'il peut voir à l'intérieur de 18 m.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon vénérable sapphire peut entreprendre l'une des actions ci-après.\n**Griffe.** Le dragon fait une attaque de griffe.\n**Psionics (coûts 2 actions).** Le dragon utilise psychique Step ou Spellcasting.\n**Télékinétique Fling (coûts 3 actions).** Le dragon choisit un objet moyen ou plus petit qui n'est pas porté ou porté qu'il peut voir dans 18 m de lui, et il lance magiquement l'objet à une créature qu'il peut voir dans 18 m de l'objet. La cible doit réussir sur un DD 20 jet de sauvegarde de Dextérité ou prendre 42 (12d6) dégâts contondants."
+}

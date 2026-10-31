@@ -1,0 +1,46 @@
+{
+ "id": "rahadin",
+ "name": "Rahadin",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 135,
+ "hpFormula": "18d8+54",
+ "vitesse": "10,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 22,
+  "CON": 17,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 21",
+ "languages": "commun, elfique",
+ "traits": "**Chœur mortel.** Toute créature au sein de 3 m de Rahadin qui n'est pas protégée par un sort Esprit impénétrable entend dans son esprit les cris des milliers de personnes que Rahadin a tués. En tant qu'action bonus, Rahadin peut forcer toutes les créatures qui peuvent entendre les cris pour faire un DD 16 jet de sauvegarde de Sagesse. Chaque créature prend 16 (3d10) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Ancêtre fécale.** Rahadin a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas le mettre au lit.\n**Masque du Sauvage.** Rahadin peut tenter de se cacher même quand il n'est que légèrement obscurci par le feuillage, les fortes pluies, la chute de neige, la brume et d'autres phénomènes naturels.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Rahadin est Intelligence. Il peut innément lancer les sorts suivants, ne nécessitant aucun composant:\n- 1/jour : Arme magique, Antidétection\n- 3/jour : Foulée brumeuse, Monture fantôme",
+ "actionsText": "**Multiattaques.** Rahadin attaque trois fois avec son scimitar, ou deux fois avec ses fléchettes empoisonné.\n**Scimitar.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d6 + 6) dégâts tranchants.\n**empoisonné Dart.** Attaque d'arme à distance : +10 au toucher, portée 6/18 m., une cible. Touché : 8 (1d4 + 6) dégâts perforants plus 5 (2d4) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 10,
+   "damage": "1d6+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "empoisonné Dart",
+   "bonus": 10,
+   "damage": "1d4+6",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/c3e331427b_monstre-rahadin.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "CON +7, SAG +7",
+ "skills": "Tromperie +8, Perspicacité +7, Intimidation +12, Perception +11, Discrétion +14"
+}

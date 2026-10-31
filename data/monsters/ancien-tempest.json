@@ -1,0 +1,43 @@
+{
+ "id": "ancien-tempest",
+ "name": "Elder Tempest",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 19,
+ "hp": 264,
+ "hpFormula": "16d20+96",
+ "vitesse": "0 m, vol 36 m (vol stationnaire)",
+ "stats": {
+  "FOR": 23,
+  "DEX": 28,
+  "CON": 23,
+  "INT": 2,
+  "SAG": 21,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**Formulaire aérien.** La tempête peut pénétrer dans l'espace d'une créature hostile et s'arrêter là. Il peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Volée.** La tempête ne provoque pas opportunity attacks quand elle s'envole hors de la portée d'un ennemi.\n**Résistance légendaire (3/jour).** Si la tempête échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Tempête vivante.** La tempête est toujours au centre d'une tempête 1d6 + 4 miles de diamètre. De fortes précipitations sous forme de pluie ou de neige y tombent, ce qui fait que la zone est légèrement obscurcie. De fortes pluies éteignent également les flammes ouvertes et désavantagent tests de Sagesse (Perception) qui se fient à l'audition. De plus, de forts vents tourbillonnent dans la zone couverte par la tempête. Les vents imposent un désavantage sur jets d'attaque varié. Ils éteindreont également les flammes ouvertes et disperseront le brouillard.\n**Monstre de siège.** La tempête cause deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** La tempête fait deux attaques de Slam Thunderous.\n**Clame tonnerre.** Attaque d'arme au corps à corps : +16 au toucher, allonge 6 m, une cible. Touché : 23 (4d6 + 9) dégâts de tonnerre.\n**foudre Tempête (Recharge 6).** Chaque créature dans 36 m de la tempête doit faire un DD 21 jet de sauvegarde de Dextérité, en prenant 27 (6d8) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si le jet de sauvegarde d'une cible échoue de 5 ou plus, la créature est également étourdi jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Clame tonnerre",
+   "bonus": 16,
+   "damage": "4d6+9",
+   "type": "tonnerre"
+  }
+ ],
+ "portrait": "/data/images/cd3488c5e6_monstre-ancien-tempest.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Ancien Tempest",
+ "saves": "SAG +12, CHA +11",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, poison, tonnerre",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, ancien tempest peut entreprendre l'une des actions ci-après.\n**Bouge.** La tempête monte à sa vitesse.\n**foudre grève (coûts 2 actions).** La tempête peut provoquer un éclair pour frapper un point sur le sol n'importe où sous sa tempête. Chaque créature à l'intérieur de 1,50 m de ce point doit faire un DD 21 jet de sauvegarde de Dextérité, en prenant 16 (3d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Gale criant (coûts 3 actions).** La tempête libère une explosion de tonnerre et de vent dans une ligne longue de 90 m et large de 6 m. Les objets dans cette zone prennent 22 (4d10) dégâts de tonnerre. Chaque créature doit réussir sur une DD 21 jet de sauvegarde de Dextérité ou prendre 22 (4d10) dégâts de tonnerre et être enfoncée jusqu'à 18 m dans une direction éloignée de la ligne. Si une cible lancée entre en collision avec un objet immeuble (comme un mur ou un plancher) ou une autre créature, la cible prend 3 (1d6) dégâts contondants pour chaque 3 m qu'elle a été lancée avant l'impact. Si la cible entre en collision avec une autre créature, cette autre créature doit réussir sur un DD 19 jet de sauvegarde de Dextérité ou prendre les mêmes dégâts d'impact et être à terre."
+}

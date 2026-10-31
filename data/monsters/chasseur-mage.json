@@ -1,0 +1,50 @@
+{
+ "id": "chasseur-mage",
+ "name": "Mage Hunter",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "12 m, escalade 12 m (type de chasseur seulement), vol 3 m (vol stationnaire) (Formulaire de notification seulement)",
+ "stats": {
+  "FOR": 19,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 17,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 36 m (aveugle au-delà de ce rayon), Perception passive 19",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Sens magique.** Le chasseur connaît l'emplacement de chaque sortilège, sort actif et objet magique en 36 m de lui-même.\n**Escalade d'araignées (formulaire de chasse seulement).** Le chasseur peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaque (Formulaire de remplacement seulement).** Le chasseur attaque deux griffes.\n**Griffe (Formulaire de remplacement seulement).** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 22 (4d8 + 4) dégâts perforants, et la cible est agrippé (évasion DD 15). Jusqu'à ce que ce grappin se termine, la cible est entravé, et le chasseur ne peut pas faire une attaque Tail contre une autre cible.\n**Mage Tracker (Formulaire d'entrée seulement).** Le chasseur émet une impulsion d'énergie qui l'aide à mieux localiser sa carrière magique. Chaque créature au sein de 36 m du chasseur qui a la capacité de lancer des sorts doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être mystiquement marquée par le chasseur pendant 1 heure.\nBien que marqué, une créature ne peut pas se cacher du chasseur et ne gagne aucun bénéfice de l'état invisible contre le chasseur. De plus, alors qu'une créature marquée est sur le même plan d'existence que le chasseur, le chasseur connaît toujours la distance et la direction vers la créature.",
+ "attacks": [
+  {
+   "name": "Griffe (Formulaire de remplacement seulement)",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 7,
+   "damage": "4d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/95687d321c_monstre-chasseur-mage.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Chasseur mage",
+ "caNote": "armure naturelle",
+ "saves": "INT +3, SAG +6, CHA +3",
+ "skills": "Perception +9, Discrétion +5",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, à terre",
+ "bonusActions": "**Formulaire de changement de classe.** Le chasseur se replie dans sa forme de sentinelle en forme de drone ou se déploie dans sa forme de chasseur. Ses statistiques de jeu sont les mêmes dans chaque forme.",
+ "reactions": "**Consommation et destruction.** Lorsque le chasseur prend des dégâts d'un sort, il ne prend que la moitié des dégâts déclencheurs (arrondis). Si la créature qui lance le sort est dans 18 m du chasseur, cette créature doit réussir sur un DD 14 jet de sauvegarde de Dextérité ou prendre l'autre moitié des dégâts."
+}

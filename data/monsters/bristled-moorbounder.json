@@ -1,0 +1,44 @@
+{
+ "id": "bristled-moorbounder",
+ "name": "Bristled Moorbounder",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "21 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Cacher la lame.** Au début de chacun de ses tours, le landeger propose 5 (2d4) dégâts perforants à toute créature qui l'affronte.\n**Leap debout.** Le long saut du mouflander est jusqu'à 12 m et son saut en hauteur est jusqu'à 6 m, avec ou sans démarrage.",
+ "actionsText": "**Multiattaques.** Le mouflonder fait deux attaques : une avec ses lames et une avec ses griffes.\n**Lames.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 14 (4d4 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Lames",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "4d4+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/477461c11c_monstre-bristled-moorbounder.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

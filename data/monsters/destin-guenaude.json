@@ -1,0 +1,43 @@
+{
+ "id": "destin-guenaude",
+ "name": "Fate Hag",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 18,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 16",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (2/jour).** Si le ham échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Tracer les fils (1/jour).** L'hag peut lancer le sort Mythes et légendes, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation.",
+ "actionsText": "**Multiattaques.** La harpe fait deux attaques de sheres. Il peut remplacer une attaque par une utilisation de Spellcasting.\n**Poignées.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts de force. Si la cible est une créature, elle a un inconvénient sur jets d'attaque jusqu'à la fin du prochain tour de la hargne.\n**Détection orthographique.** En tenant ses cisailles, le ham lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 14):\n- À volonté : Bénédiction, Assistance, Image silencieuse\n- 1/jour chacun : Fléau, Malédiction, Divination, Scrutation (en tant qu'action)",
+ "attacks": [
+  {
+   "name": "Poignées",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/df6581c2d1_monstre-destin-guenaude.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Destin guenaude",
+ "caNote": "armure naturelle",
+ "saves": "CON +3, SAG +6",
+ "skills": "Arcanes +5, Tromperie +6, Histoire +5, Perception +6",
+ "conditionImmunities": "charmé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, destin guenaude peut entreprendre l'une des actions ci-après.\n**Destiné Jaunth.** La harpe téléporte magiquement, ainsi que tout équipement qu'elle porte ou transporte, dans un espace inoccupé qu'elle peut voir en elle-même.\n**Les fils d'angle.** La harpe enchevêtre magiquement une créature qu'elle peut voir en 18 m en elle-même dans des fils d'argent spectraux. La créature doit réussir sur un DD 14 jet de sauvegarde de Force, ou sa vitesse est réduite à 0 jusqu'à la fin de son prochain tour.\n**Malédiction du destin (coûts 2 actions).** La maudite maudite magiquement une créature qu'elle peut voir en 18 m de lui-même. La créature doit faire une DD 14 jet de sauvegarde de Sagesse, et la créature a un désavantage sur cette sauvegarde si elle a endommagé la pag dans la dernière minute. Sur une sauvegarde ratée, la créature a un désavantage sur tests de caractéristique, jets d'attaque, et jet de sauvegarde jusqu'à la fin de la malédiction. Une fois par tour, lorsque la créature maudite échoue un de ces rouleaux d20, il prend 7 (2d6) dégâts de force. La malédiction se termine après 1 minute; lorsque la créature réussit sur un total de trois tests de caractéristique, jets d'attaque ou jet de sauvegarde dans toute combinaison; ou lorsque le ham utilise à nouveau cette action."
+}

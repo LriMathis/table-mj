@@ -1,0 +1,45 @@
+{
+ "id": "acolyte",
+ "name": "Acolyte",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "skills": "Médecine +4, Religion +2",
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Masse d’armes.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts contondants plus 2 (1d4) dégâts radiants.\n**Flamme radiante.** À distance : +4, portée 18 m. Touché : 7 (2d6) dégâts radiants.\n**Incantation.** Le prêtre lance l’un des sorts suivants, la Sagesse étant sa caractéristique d’incantation :\n- À volonté : *lumière*, *thaumaturgie*",
+ "bonusActions": "**Soutien divin (1/jour).** L’acolyte lance *bénédiction*, *mot de guérison* ou *sanctuaire*, avec la même caractéristique d’incantation que pour Incantation.",
+ "attacks": [
+  {
+   "name": "Masse d’armes",
+   "bonus": 4,
+   "damage": "1d6+2+1d4",
+   "type": "contondant + radiant"
+  },
+  {
+   "name": "Flamme radiante",
+   "bonus": 4,
+   "damage": "2d6",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/97f1baf49b_monstre-acolyte.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

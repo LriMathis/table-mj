@@ -1,0 +1,47 @@
+{
+ "id": "xocopol",
+ "name": "Xocopol",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 162,
+ "hpFormula": "13d12+78",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 9,
+  "CON": 23,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 16",
+ "languages": "géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques de grandhammer.\n**Grandhammer.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 28 (6d6 + 7) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +11 au toucher, portée 18/72 m., une cible. Touché : 29 (4d10 + 7) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Grandhammer",
+   "bonus": 11,
+   "damage": "6d6+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 11,
+   "damage": "4d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/50132b1add_monstre-xocopol.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "DEX +3, CON +10, CHA +5",
+ "skills": "Athlétisme +11, Perception +6",
+ "immunities": "feu"
+}

@@ -1,0 +1,44 @@
+{
+ "id": "mastodonte-des-ombres",
+ "name": "Mastodonte des ombres",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "caNote": "armure naturelle",
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "9 m, fouissement 6 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "vision dans le noir 36 m, perception des vibrations 18 m, Perception passive 10",
+ "languages": "mastodonte des ombres",
+ "traits": "**Fouisseur.** Le mastodonte des ombres peut creuser la roche solide à la moitié de sa vitesse de fouissement et laisse derrière lui un tunnel de 1,50 mètre de large pour 2,50 mètres de haut.\n**Regard déroutant.** Quand une créature commence son tour dans un rayon de 9 mètres autour du mastodonte des ombres et qu'elle est en mesure de voir les yeux du monstre, ce dernier peut l'obliger à faire un test de Charisme DD 15, à moins qu'il ne soit neutralisé. Si la victime rate ce test, elle ne peut plus faire de réaction avant la fin de son prochain tour et doit lancer un d8 pour savoir ce qu'elle fait pour ce tour. De 1 à 4, elle ne fait rien, de 5 à 6, elle n'accomplit aucune action, mais elle dépense tout son déplacement pour se diriger dans une direction aléatoire. De 7 à 8, elle effectue une attaque de corps à corps contre une créature aléatoire, mais si elle n'en a pas à portée, elle ne fait rien. À moins d'être prise par surprise, une créature peut détourner le regard pour éviter de faire le jet de sauvegarde au début de son tour. Dans ce cas, elle ne voit plus le mastodonte des ombres jusqu'au début de son prochain tour, moment auquel elle peut de nouveau détourner le regard. Si la créature regarde le mastodonte entre-temps, elle doit immédiatement faire le jet de sauvegarde.",
+ "actionsText": "**Attaques multiples.** Le mastodonte des ombres effectue trois attaques : deux avec ses griffes et une avec ses mandibules.\n**Griffe.** *Attaque d'arme au corps à corps :* +8 pour toucher, allonge 1,50 m, une cible. *Touché :* 9 (1d8+5) dégâts tranchants.\n**Mandibules.** *Attaque d'arme au corps à corps :* +8 pour toucher, allonge 1,50 m, une cible. *Touché :* 14 (2d8+5) dégâts tranchants.",
+ "portrait": "/data/images/f6ac5525d4_monstre-mastodonte-des-ombres.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 216 · image : Manuel des monstres p. 215",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Mandibules",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "tranchant"
+  }
+ ]
+}

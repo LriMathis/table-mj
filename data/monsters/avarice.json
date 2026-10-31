@@ -1,0 +1,41 @@
+{
+ "id": "avarice",
+ "name": "Avarice",
+ "type": "Humanoïde (tieffelin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 13,
+ "hp": 84,
+ "hpFormula": "13d8+26",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 17,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, draconique, infernal, orc, Yeti",
+ "traits": "**C'est la fin de l'histoire.** Quand Avarice meurt, son corps gèle pendant 9 jours, pendant lesquels il ne peut être dégelé, blessé par le feu, animé ou ressuscité.\n**Matériel spécial.** Avarice dispose d'un Bâton de givre avec 10 charges (voir \"Actions\" ci-dessous).\n**Détection orthographique.** Avarice est un spellcaster de niveau 10. Son caractéristique d'incantation est Intelligence (sorption sauvegardez DD 14 ; +6 au toucher avec attaques de sort). Elle a préparé les sorts d'assistants suivants :\n- Sorts mineurs (à volonté) : Trait de feu (voir \"Actions\" ci-dessous), Main de mage, Message, Illusion mineure, Prestidigitation\n- Niveau 1 (4 emplacements) : Détection de la magie, Armure de mage, Projectile magique\n- Niveau 2 (3 emplacements) : Sphère de feu, Déblocage, Rayon ardent\n- Niveau 3 (3 emplacements) : Contresort, Boule de feu, Vol\n- Niveau 4 (3 emplacements) : Bannissement, Bouclier de feu\n- Niveau 5 (2 emplacements) : Main de Bigby, Lien télépathique de Rary",
+ "actionsText": "**feu Bolt (sort mineur).** Attaque de sort à distance : +6 au toucher, portée 36 m, une cible. Touché : 11 (2d10) dégâts de feu.\n**Personnel de Frost.** En tenant ce personnel, Avarice peut dépenser 1 ou plusieurs de ses charges pour jeter l'un des sorts suivants de lui (spell save DD 14) : Cône de froid (5 charges), Nappe de brouillard (1 charge), Tempête de grêle (4 charges) ou Mur de glace (4 charges). Le personnel reprend les charges 1d6 + 4 chaque jour à l'aube. Si sa dernière charge est dépensée, rouler un d20 ; sur un 1, le personnel se tourne vers l'eau et est détruit.",
+ "attacks": [
+  {
+   "name": "feu Bolt (sort mineur)",
+   "bonus": 6,
+   "damage": "2d10",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/0d28732cfa_monstre-avarice.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "saves": "INT +6, SAG +3",
+ "skills": "Arcanes +6, Histoire +6",
+ "resistances": "froid, feu",
+ "reactions": "**Renonciation à l'interdiction (Recharges après un repos long).** Quand Avarice est endommagée par une créature qu'elle peut voir au sein de 18 m d'elle, elle peut bannir cette créature à une prison extradimensionnelle frigide pendant 1 minute. Pendant ce temps, la créature est neutralisé et prend 5 (1d10) dégâts de froid au début de chacun de ses tours. À la fin de chacun de ses tours, la créature peut faire un DD 14 jet de sauvegarde de Charisme, s'échapper de la prison sur un succès et réapparaître dans l'espace qu'elle a laissé ou dans l'espace inoccupé le plus proche si cet espace est occupé. Une créature qui meurt dans la prison y est enfermée indéfiniment."
+}

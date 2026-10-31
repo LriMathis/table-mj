@@ -1,0 +1,49 @@
+{
+ "id": "fernitha",
+ "name": "Fernitha",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 153,
+ "hpFormula": "18d8+72",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 12",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**Les armes enfer.** Les attaques d'armes de Fernitha sont magiques et offrent un 13 (3d8) dégâts de poison supplémentaire sur un coup (inclus dans les attaques).\n**Résistance magique.** Fernitha a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Fernitha fait trois attaques.\n**Mot long.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains, plus 13 (3d8) dégâts de poison.\n**Longbow.** Attaque d'arme à distance : +7 au toucher, portée 45/180 m., une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 13 (3d8) dégâts de poison, et la cible doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être empoisonné. Le poison dure jusqu'à ce qu'il soit enlevé par le sort Restauration partielle ou une magie similaire.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 8,
+   "damage": "1d8+4",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 7,
+   "damage": "1d8+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/370038044e_monstre-fernitha.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "DEX +7, CON +8, SAG +6, CHA +8",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "reactions": "**Parry.** Fernitha ajoute 4 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, Fernitha doit voir l'agresseur et manier une arme de mêlée."
+}

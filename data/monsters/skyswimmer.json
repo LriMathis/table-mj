@@ -1,0 +1,46 @@
+{
+ "id": "skyswimmer",
+ "name": "Skyswimmer",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 216,
+ "hpFormula": "16d20+48",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 7,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 16",
+ "languages": "—",
+ "traits": "**Amphibie.** Le skyswimmer peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Le skyswimmer fait trois attaques: une avec sa morsure et deux avec son clam.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 22 (3d10 + 6) dégâts perforants. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 19 jet de sauvegarde de Dextérité ou être avalée par le skyswimmer. Une créature avalée est aveuglé et entravé, il a 3 contre les attaques et d'autres effets en dehors du skyswimmer, et il prend 21 (6d6) dégâts d'acide au début de chaque tour du skyswimmer. Si le skyswimmer prend 30 dégâts ou plus sur un seul tour de la créature avalée, le skyswimmer doit réussir sur un DD 18 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter la créature, qui tombe à terre dans un espace à l'intérieur de 3 m du skyswimmer. Si le skyswimmer meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 4,50 m de mouvement, sortant d'à terre.\n**Clamer.** Attaque d'arme au corps à corps : +11 au toucher, allonge 9 m, une cible. Touché : 19 (2d12 + 6) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "3d10+6",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Clamer",
+   "bonus": 11,
+   "damage": "2d12+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/104aa7628d_monstre-skyswimmer.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +8",
+ "skills": "Perception +6"
+}

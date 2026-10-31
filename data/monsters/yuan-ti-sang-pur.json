@@ -1,0 +1,46 @@
+{
+ "id": "yuan-ti-sang-pur",
+ "name": "Yuan-ti sang-pur",
+ "type": "Monstruosité (métamorphe, yuan-ti)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "skills": "Discrétion +3, Perception +3, Supercherie +6",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision dans le noir 18 m, Perception passive 13",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Incantation innée.** Le yuan-ti utilise le Charisme comme caractéristique d'incantation innée (DD du jet de sauvegarde contre ses sorts : 12). Il peut lancer les sorts suivants de façon innée, sans dépenser de composantes matérielles.\n- À volonté : *amitié avec les animaux* (serpents uniquement)\n- 3/jour chacun : *bouffée de poison, suggestion*\n**Résistance à la magie.** Le yuan-ti est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le yuan-ti peut effectuer deux attaques au corps à corps.\n**Cimeterre.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 4 (1d6+1) dégâts tranchants.\n**Arc court.** *Attaque d'arme à distance :* +3 pour toucher, portée 24/96 m, une cible. *Touché :* 4 (1d6+1) dégâts perforants plus 7 (2d6) dégâts de poison.",
+ "portrait": "/data/images/0e52f8db80_monstre-yuan-ti-sang-pur.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 311 · image : Manuel des monstres p. 310",
+ "attacks": [
+  {
+   "name": "Cimeterre",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Arc court",
+   "bonus": 3,
+   "damage": "1d6+1+2d6",
+   "type": "perforant + poison"
+  }
+ ]
+}

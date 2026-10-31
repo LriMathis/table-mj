@@ -1,0 +1,40 @@
+{
+ "id": "jalynvyr-nir-thinn",
+ "name": "Jalynvyr Nir'Thinn",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d6+5",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, elfique",
+ "traits": "**Burst de mort.** Lorsque Jalynvyr Nir'Thinn meurt, il laisse derrière lui un nuage de fumée qui remplit une sphère 1,50 m -radius centrée sur son espace. La sphère est 2. Le vent disperse le nuage, qui dure par ailleurs 1 minute.\n**Diffusion d'orthographes innées (1/jour).** Jalynvyr Nir'Thinn peut innerately fondre Lumières dansantes, ne nécessitant aucun composant matériel. Son caractéristique d'incantation inné est Charisme.\n- À volonté : Lumières dansantes",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d4 + 2) dégâts tranchants.\n**Respiration de cidre (Recharge 6).** Jalynvyr Nir'Thinn exhale un cône 4,50 m de cendres fumeuses. Chaque créature dans cette zone doit réussir sur un DD 10 jet de sauvegarde de Dextérité ou être aveuglé jusqu'à la fin du prochain tour de Jalynvyr Nir'Thinn.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f0c779eafe_monstre-jalynvyr-nir-thinn.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "skills": "Perception +2, Discrétion +4",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

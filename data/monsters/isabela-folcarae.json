@@ -1,0 +1,47 @@
+{
+ "id": "isabela-folcarae",
+ "name": "Isabela Folcarae",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Perception passive 10",
+ "languages": "deux langues différentes",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Isabela fait trois attaques de mêlée : deux avec son scimitar et une avec son poignard. Ou Isabela fait deux attaques variées avec ses poignards.\n**Scimitar.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8cadedd0d9_monstre-isabela-folcarae.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "FOR +4, DEX +5, SAG +2",
+ "skills": "Athlétisme +4, Tromperie +4",
+ "reactions": "**Parry.** Isabela ajoute 2 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, Isabela doit voir l'agresseur et utiliser une arme à la mêlée."
+}

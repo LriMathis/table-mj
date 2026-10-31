@@ -1,0 +1,41 @@
+{
+ "id": "oracle",
+ "name": "Oracle",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Perception passive 13",
+ "languages": "céleste, commun",
+ "traits": "**Bénédictions des Dieux.** Alors que l'oracle ne porte pas d'armure et ne porte pas de bouclier, son CA inclut son modificateur Sagesse. En outre, une créature qui frappe l'oracle avec une attaque de melee alors que dans 1,50 m il prend 9 (2d8) dégâts de force.\n**Découpe intérieure.** Le caractéristique d'incantation de l'oracle est Sagesse (sorption sauvegardez DD 13, +5 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Assistance, Lumière, Thaumaturgie\n- 1/jour chacun : Augure, Scrutation\n- 3/jour chacun : Bénédiction, Éclair traçant, Mot de guérison, Immobilisation de personne",
+ "actionsText": "**Touche d'Eldritch.** Attaque de sort au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Touche d'Eldritch",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/b0b1804578_monstre-oracle.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "Bénédictions des Dieux",
+ "saves": "SAG +5, CHA +4",
+ "skills": "Perspicacité +5, Persuasion +4, Religion +5",
+ "reactions": "**La perspicacité divine (3/jour).** Lorsque l'oracle ou une créature qu'il peut voir fait un jet d'attaque, un jet de sauvegarde, ou un test de caractéristique, l'oracle peut faire le rouleau avec un avantage ou un désavantage."
+}

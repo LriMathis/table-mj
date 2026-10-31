@@ -1,0 +1,41 @@
+{
+ "id": "tertre-errant",
+ "name": "Tertre errant",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 110,
+ "hpFormula": "13d10+39",
+ "vitesse": "9 m, nage 6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "skills": "Discrétion +3",
+ "resistances": "feu, froid",
+ "immunities": "foudre",
+ "conditionImmunities": "assourdi, épuisement",
+ "senses": "Vision aveugle 18 m, Perception passive 10",
+ "languages": "aucune",
+ "traits": "**Absorption de la foudre.** Chaque fois que le tertre errant est soumis à des dégâts de foudre, il récupère en fait autant de points de vie que les dégâts de foudre infligés.",
+ "actionsText": "**Attaques multiples.** Le tertre errant effectue trois attaques de Vrille électrisée. Il peut remplacer l’une de ces attaques par une utilisation d’Enveloppement.\n**Vrille électrisée.** Corps à corps : +7, allonge 3 m. Touché : 7 (1d6 + 4) dégâts contondants plus 5 (2d4) dégâts de foudre. Si la cible est une créature de Taille M ou inférieure, le tertre errant la tire en ligne droite vers lui de 1,50 m.\n**Enveloppement.** JS Force : DD 15, une créature de taille M ou inférieure dans un rayon de 1,50 m. Échec : la cible est tirée dans l’espace du tertre errant et subit l’état Agrippé (évasion DD 14) tant qu’elle est Agrippée, la cible subit les états Aveuglé et Entravé, ainsi que 10 (3d6) dégâts de foudre au début de chacun de ses tours. Quand le tertre errant se déplace, la cible Agrippée l’accompagne, sans dépense supplémentaire en déplacement. Si le tertre errant a déjà une créature Agrippée par cette action, il ne peut pas en avoir une autre.",
+ "attacks": [
+  {
+   "name": "Vrille électrisée",
+   "bonus": 7,
+   "damage": "1d6+4+2d4",
+   "type": "contondant + foudre"
+  }
+ ],
+ "portrait": "/data/images/cf84598651_monstre-tertre-errant.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 281"
+}

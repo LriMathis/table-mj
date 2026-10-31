@@ -1,0 +1,48 @@
+{
+ "id": "eldritch-eddy",
+ "name": "Eldritch Eddy",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 11,
+ "hp": 144,
+ "hpFormula": "17d10+51",
+ "vitesse": "3 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 9,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 9",
+ "languages": "comprend Common plus une autre langue mais ne peut pas parler",
+ "traits": "**Résistance magique.** L'eddy a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'eddy fait deux attaques, en utilisant Searing Swipe ou Arcane Bolt dans n'importe quelle combinaison.\n**Câblage de l'eau.** Jet d'attaque au corps à corps : +6, allonge 3 m. Touché : 13 (3d6 + 3) feu ou dégâts de foudre (le choix d'Eddy).\n**Arcane Bolt.** Jet d'attaque à distance : +6, portée 36 m. Touché : 14 (2d10 + 3) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Câblage de l'eau",
+   "bonus": 6,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "Arcane Bolt",
+   "bonus": 6,
+   "damage": "2d10+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/64f7728742_monstre-eldritch-eddy.webp",
+ "notes": "",
+ "source": "Netheril's Fall (5e.tools, traduction automatique)",
+ "saves": "DEX +4, INT +4, CHA +6",
+ "resistances": "force",
+ "immunities": "feu, foudre",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "reactions": "**Surcharge d'Eldritch.** Déclencheur : L'eddy prend des dégâts. Réponse : Jet de sauvegarde de Force : DD 14, chaque créature du choix de l'eddy dans une émanation 1,50 m originaire de l'eddy. Échec : 7 (2d6) dégâts de force, et la cible a l'état à terre."
+}

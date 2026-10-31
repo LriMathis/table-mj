@@ -1,0 +1,50 @@
+{
+ "id": "flagelleur-mental-clairvoyant",
+ "name": "Mind Flayer Clairvoyant",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 156,
+ "hpFormula": "24d8+48",
+ "vitesse": "9 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 21,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 4,50 m, Perception passive 17",
+ "languages": "profond, télépathie 36 m, commun des profondeurs",
+ "traits": "**Résistance légendaire (3/jour).** Si le mental flayer échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** La tueuse mentale a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** La tueuse mentale fait deux attaques du Tentacle.\n**Tentacle.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature. Touché : 21 (3d10 + 5) dégâts psychiques. Si la cible est moyenne ou plus petite, elle a l'état agrippé (évasion DD 17) et doit réussir sur un DD 17 jet de sauvegarde d'Intelligence ou avoir l'état neutralisé jusqu'à ce que le grappin se termine.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, un neutralisé Humanoid agrippé par la couche mentale. Touché : 55 (10d10) dégâts perforants. Si ce dégâts réduit la cible à 0 points de vie, la tueuse mentale la tue en enlevant et en dévorant son cerveau.\n**Libérer le vide (Recharge 5-6).** La tueuse mentale ouvre une faille dans le Far Realm, centrée sur un point que la tueuse mentale peut voir dans 18 m de lui-même, et un tentacule cils à travers les créatures près de la faille. Chaque créature autre que les couches mentales dans 9 m du fossé doit faire un DD 17 jet de sauvegarde d'Intelligence, après quoi le tentacule disparaît et le fossé se ferme. Sur une sauvegarde ratée, une créature prend 18 (4d8) dégâts de froid de la faille plus 18 (4d8) dégâts psychiques de la tente et a l'état étourdi pendant 1 minute. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement. Une créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Coulisse (Psioniques).** Le mental flayer lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection de la magie, Détection des pensées, Main de mage (la main est invisible)\n- 1/jour : Changement de plan (autoseulement)\n- 3/jour chacun : Clairvoyance (en tant qu'action), Dissipation de la magie",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 9,
+   "damage": "3d10+5",
+   "type": "psychique"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 9,
+   "damage": "10d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/953821062b_monstre-flagelleur-mental-clairvoyant.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Flagelleur mental Clairvoyant",
+ "caNote": "Breastplate",
+ "saves": "INT +9, SAG +7, CHA +8",
+ "skills": "Arcanes +9, Perspicacité +7, Perception +7, Discrétion +5",
+ "resistances": "psychique",
+ "conditionImmunities": "aveuglé, charmé, effrayé",
+ "reactions": "**Réalité de distorsion.** Lorsque frappé par un jet d'attaque, le mental flayer gagne un bonus de +4 à son CA contre ce jet d'attaque, ce qui pourrait le faire manquer. Puis la tueuse mentale, avec tout équipement qu'elle porte ou transporte, téléporte magiquement jusqu'à 18 m dans un espace inoccupé qu'elle peut voir."
+}

@@ -1,0 +1,37 @@
+{
+ "id": "chevalier-balance",
+ "name": "Chevalier de la Balance",
+ "type": "Humanoïde",
+ "cr": "3",
+ "xp": 700,
+ "ca": 18,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "attacks": [
+  {
+   "name": "Épée à deux mains",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Arbalète lourde (30/120 m)",
+   "bonus": 2,
+   "damage": "1d10",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Brave.** Avantage aux JS contre la peur.\n**Attaques multiples.** Deux attaques au corps à corps.\n**Commandement (recharge après un repos court ou long).** Pendant 1 minute, les alliés à 9 m ajoutent 1d4 à leurs jets d'attaque et de sauvegarde.\n**Parade (réaction).** +2 à la CA contre une attaque au corps à corps.\n**Trompés, pas mauvais.** Ils croient servir la justice. Montrez-leur Grésil, et ils baissent les armes.\nStatistiques du chevalier (MM).",
+ "portrait": "/data/images/df0e27f582_monstre-gardien-pierre.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

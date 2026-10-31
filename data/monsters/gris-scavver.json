@@ -1,0 +1,39 @@
+{
+ "id": "gris-scavver",
+ "name": "Gray Scavver",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 19,
+ "hpFormula": "3d8+6",
+ "vitesse": "0 m, vol 12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Nature inhabituelle.** Le scavver ne demande pas d'air.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher (avec avantage si la cible est une créature qui manque n'importe quel points de vie), allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/cf0ff77f3c_monstre-gris-scavver.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Gris Scavver",
+ "caNote": "armure naturelle"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "sundeth",
+ "name": "Sundeth",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 143,
+ "hpFormula": "22d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun, géant",
+ "traits": "**Indominable (2/jour).** Sundeth rerolle un jet de sauvegarde échoué.\n**Deuxième vent (recharge après un repos court ou long).** En tant qu'action bonus, Sundeth peut retrouver 20 points de vie.",
+ "actionsText": "**Multiattaques.** Sundeth fait trois attaques avec sa grande épée ou son sabre court.\n**Grande épée.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants, plus 7 (2d6) dégâts tranchants si Sundeth a plus de la moitié de son points de vie total restant.\n**Saubèche.** Attaque d'arme à distance : +6 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, plus 7 (2d6) dégâts perforants si Sundeth a plus de la moitié de son points de vie total restant.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 6,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e092ee9aac_monstre-sundeth.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "FOR +9, CON +6",
+ "skills": "Athlétisme +9, Intimidation +5, Perception +6"
+}

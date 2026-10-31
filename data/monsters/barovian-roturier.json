@@ -1,0 +1,38 @@
+{
+ "id": "barovian-roturier",
+ "name": "Barovian Commoner",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 4,
+ "hpFormula": "1d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Fourche.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Fourche",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f1a8d875b1_monstre-barovian-roturier.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Barovian roturier"
+}

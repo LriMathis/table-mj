@@ -1,0 +1,48 @@
+{
+ "id": "planar-incarnate",
+ "name": "Planar Incarnate",
+ "type": "Céleste ou Fiélon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "tout alignement",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 20,
+ "hp": 333,
+ "hpFormula": "18d20+144",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 26,
+  "INT": 15,
+  "SAG": 20,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 22",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (3/jour).** Si l'incarnation échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** L'incarnation a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Formulaire plan.** Un incarné sur les plans supérieurs est un Céleste. Une incarnate sur les plans inférieurs est un Fiend.\n**Monstre de siège.** L'incarné inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** L'incarné fait deux attaques Slam ou Energy Bolt.\n**Clamer.** Attaque d'arme au corps à corps : +15 au toucher, allonge 4,50 m, une cible. Touché : 27 (3d12 + 8) dégâts de force.\n**Boule d'énergie.** Attaque de sort à distance : +12 au toucher, portée 36 m, une cible. Touché : 32 (5d12) dégâts nécrotiques si l'incarnation est un Fiend ou dégâts radiants si l'incarnation est un Céleste.\n**Exhalation plane (Recharge 5-6).** L'incarnation exhale l'énergie concentrée native de son plan dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 23 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 52 (8d12) dégâts nécrotiques si l'incarnation est un Fiend ou dégâts radiants si l'incarnation est un Céleste, et la créature a l'état aveuglé jusqu'à la fin du prochain tour de l'incarnation. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 15,
+   "damage": "3d12+8",
+   "type": "force"
+  },
+  {
+   "name": "Boule d'énergie",
+   "bonus": 12,
+   "damage": "5d12",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/40329eeb17_monstre-planar-incarnate.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +12",
+ "immunities": "nécrotique, poison, radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, entravé, étourdi, inconscient",
+ "reactions": "**Gaz de mer.** En réponse à un coup de jet d'attaque, l'incarnation tourne son regard magique vers une créature qu'elle peut voir en 36 m de lui-même et lui commande de brûler. La cible doit réussir sur un DD 20 jet de sauvegarde de Sagesse ou prendre 16 (3d10) dégâts de feu.\n**Téléportation.** Immédiatement après qu'une créature l'incarnée voit son tour se terminer, l'incarnée téléporte jusqu'à 18 m vers un espace inoccupé qu'elle peut voir."
+}

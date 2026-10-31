@@ -1,0 +1,39 @@
+{
+ "id": "kindori",
+ "name": "Kindori",
+ "type": "Céleste",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 11,
+ "hp": 202,
+ "hpFormula": "15d20+45",
+ "vitesse": "0 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 25,
+  "DEX": 7,
+  "CON": 17,
+  "INT": 6,
+  "SAG": 14,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Nature inhabituelle.** Le kindori n'a pas besoin de nourriture, de boisson ou d'air.",
+ "actionsText": "**Queue.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 23 (3d10 + 7) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Queue",
+   "bonus": 10,
+   "damage": "3d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/56b8d84b9c_monstre-kindori.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "bonusActions": "**Yeux clignotants (Recharge 6).** Le kindori émet de la lumière vive dans un cône 36 m. Chaque créature dans le cône doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être aveuglé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès."
+}

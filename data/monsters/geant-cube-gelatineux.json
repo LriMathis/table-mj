@@ -1,0 +1,39 @@
+{
+ "id": "geant-cube-gelatineux",
+ "name": "Giant Gelatinous Cube",
+ "type": "Vase",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 6,
+ "hp": 84,
+ "hpFormula": "8d10+40",
+ "vitesse": "4,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 3,
+  "CON": 20,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "**Cube Ooze.** Le cube prend tout son espace. D'autres créatures peuvent entrer dans l'espace, mais une créature qui le fait est soumise à l'Engloutissement du cube et a un désavantage sur le jet de sauvegarde.\nLes créatures à l'intérieur du cube peuvent être vues mais ont 3.\nUne créature dans 1,50 m du cube peut prendre une action pour tirer une créature ou un objet hors du cube. Pour ce faire, il faut un DD 12 test de Force réussi, et la créature faisant la tentative prend 10 (3d6) dégâts d'acide.\nLe cube peut contenir jusqu'à neuf Grandes créatures ou jusqu'à trente-six Moyennes ou plus petites créatures à l'intérieur à la fois.\n**Transparent.** Même lorsque le cube est en vue, il faut un DD 15 test de Sagesse (Perception) réussi pour repérer un cube qui n'a ni déplacé ni attaqué. Une créature qui tente d'entrer dans l'espace du cube tout en ignorant le cube est surpris par le cube.\n**Élargi.** Le cube fait tests de Force et jet de sauvegarde de Force avec avantage. Lorsque le cube se rétrécit à la taille normale, toutes les créatures qu'il ne peut plus contenir sont expulsées dans des espaces inoccupés autour.",
+ "actionsText": "**Multiattaques.** Le cube fait quatre attaques pseudopodes.\n**Pseudopod.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 10 (3d6) dégâts d'acide.\n**Engloutissement.** Le cube se déplace à sa vitesse. Ce faisant, il peut pénétrer dans les espaces des grandes ou des petites créatures. Chaque fois que le cube entre dans l'espace d'une créature, la créature doit faire un DD 12 jet de sauvegarde de Dextérité.\nLors d'une sauvegarde réussie, la créature peut choisir d'être poussée 1,50 m en arrière ou sur le côté du cube. Une créature qui choisit de ne pas être poussée souffre des conséquences d'un jet de sauvegarde raté.\nSur une sauvegarde ratée, le cube entre dans l'espace de la créature, et la créature prend 10 (3d6) dégâts d'acide et est engloutie. La créature engloutie ne peut pas respirer, est entravé, et prend 21 (6d6) dégâts d'acide au début de chaque tour du cube. Quand le cube se déplace, la créature engloutie se déplace avec.\nUne créature engloutie peut essayer de s'échapper en prenant une action pour faire un DD 12 test de Force. Sur un succès, la créature s'échappe et entre dans un espace de son choix au sein de 1,50 m du cube.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 4,
+   "damage": "3d6",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/f70f9a397a_monstre-geant-cube-gelatineux.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Géant cube gélatineux",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, à terre"
+}

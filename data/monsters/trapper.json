@@ -1,0 +1,32 @@
+{
+ "id": "trapper",
+ "name": "Trapper",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Si le trappeur est immobile sur un plancher, un mur ou un plafond au début du combat, il a l'avantage sur son rouleau d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'action du trappeur, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que le trappeur ne fait pas partie du plancher, du mur ou du plafond.\n**Escalade des araignées.** Le trappeur peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Mère.** Une créature grande ou plus petite dans 3 m du trappeur doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou être agrippé (évasion DD 14). Jusqu'à ce que le grappin se termine, la cible prend 13 (3d6 + 3) dégâts contondants plus 3 (1d6) dégâts d'acide au début de chacun de ses tours. Alors qu'agrippé de cette façon, la cible est entravé, aveuglé, et privé d'air. Le trappeur ne peut étouffer qu'une créature à la fois.",
+ "attacks": [],
+ "portrait": "/data/images/ff80cc5f51_monstre-trapper.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +2"
+}

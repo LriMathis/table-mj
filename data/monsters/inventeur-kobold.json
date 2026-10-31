@@ -1,0 +1,44 @@
+{
+ "id": "inventeur-kobold",
+ "name": "Kobold Inventor",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 13,
+ "hpFormula": "3d6+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, draconique",
+ "traits": "**Tactiques de conditionnement.** Le kobold a avantage sur un jet d'attaque contre une créature si au moins un des alliés du kobold est dans le 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Sensibilité à la lumière du soleil.** En plein soleil, le kobold a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Écharpe.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 4 (1d4 + 2) dégâts contondants.\n**Invention d ' armes.** Le kobold utilise l'une des options suivantes (choisir une ou rouler un d8); le kobold peut utiliser chacune d'elles pas plus d'une fois par jour:\n- **1: acide** Le kobold lance une fiole d'acide. Attaque d'arme à distance : +4 au toucher, portée 1,50/6 m., une cible. Touché : 7 (2d6) dégâts d'acide.\n- **2: feu d'alchimiste** Le kobold jette un flacon de feu d'alchimiste. Attaque d'arme à distance : +4 au toucher, portée 1,50/6 m., une cible. Touché : 2 (1d4) dégâts de feu au début de chaque tour de la cible. La cible peut mettre fin à ces dégâts en utilisant son action pour faire un DD 10 test de Dextérité pour éteindre les flammes.\n- **3: Panier de centipèdes** Le kobold jette un petit panier dans un espace carré de 1,50 m à l'intérieur de 6 m. Un essaim d'insectes (centipedes) avec 11 points de vie émerge de l'initiative panier et rouleaux. À la fin de chaque tour de l'essaim, il y a une chance que l'essaim se disperse.\n- **4: Pot vert à slime** Le kobold jette un pot d'argile plein de slime vert à la cible, et il s'ouvre sur l'impact. Attaque d'arme à distance : +4 au toucher, portée 1,50/6 m., une cible. Touché : 5 (1d10) dégâts d'acide, et la cible est couverte de slime jusqu'à ce qu'une créature utilise son action pour racler ou laver la slime. Une cible couverte dans la slime prend 5 (1d10) dégâts d'acide au début de chacun de ses tours.\n- **5: Pot de rotule** Le kobold jette un pot d'argile dans un espace carré 1,50 m à l'intérieur de 6 m, et il s'ouvre à l'impact. Un Pourriture nuée de Grubs (dans ce livre) émerge du pot brisé et reste un danger dans ce carré.\n- **6: Scorpion sur un bâton** Le kobold fait une attaque de mêlée avec un Scorpion attaché à la fin d'un poteau de longueur 1,50 m. Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants, et la cible doit faire un DD 9 jet de sauvegarde de Constitution, en prenant 4 (1d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **7: Crane dans une cage** Le kobold libère un skunk dans un espace inoccupé au sein de 1,50 m de lui. Le skunk a une vitesse de marche de 6 m, CA 10, 1 points de vie, et aucune attaque efficace. Il roule l'initiative et, à son tour, utilise son action pour pulvériser le musc à une créature aléatoire dans 1,50 m de lui. La cible doit réussir sur un DD 9 jet de sauvegarde de Constitution, ou elle retache et est neutralisé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Une créature qui n'a pas besoin de respirer ou qui est immunisée contre le poison réussit automatiquement sur le jet de sauvegarde. Une fois que le mousqueton a pulvérisé son musqué, il ne peut pas le faire à nouveau jusqu'à ce qu'il termine un repos court ou long.\n- **8: Nid de la guêpe dans un sac** Le kobold jette un petit sac dans un espace carré 1,50 m à l'intérieur de 6 m. Un essaim d'insectes (wasps) avec 11 points de vie émerge de l'initiative des sacs et des rouleaux. À la fin de chaque tour de l'essaim, il y a une chance que l'essaim se disperse.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/cd3982f328_monstre-inventeur-kobold.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Inventeur kobold"
+}

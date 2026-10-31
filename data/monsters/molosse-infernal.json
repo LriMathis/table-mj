@@ -1,0 +1,39 @@
+{
+ "id": "molosse-infernal",
+ "name": "Molosse infernal",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "skills": "Perception +5",
+ "immunities": "feu",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "comprend l’infernal mais ne peut pas parler",
+ "traits": "**Tactique de meute.** Quand au moins un de ses alliés non Neutralisés se situe dans un rayon de 1,50 m de la créature qu’il cible, le molosse a l’Avantage au jet d’attaque correspondant contre cette créature.",
+ "actionsText": "**Attaques multiples.** Le molosse effectue deux attaques de Morsure.\n**Morsure.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts perforants plus 3 (1d6) dégâts de feu.\n**Souffle de feu (recharge 5–6).** JS Dextérité : DD 12, chaque créature dans un Cône de 4,50 m. Échec : 17 (5d6) dégâts de feu. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1d8+3+1d6",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/8a68bd9c9c_monstre-molosse-infernal.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 232"
+}

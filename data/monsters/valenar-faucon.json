@@ -1,0 +1,39 @@
+{
+ "id": "valenar-faucon",
+ "name": "Valenar Hawk",
+ "type": "Fée",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 14,
+ "hp": 10,
+ "hpFormula": "4d4",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 18,
+  "CON": 10,
+  "INT": 9,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "senses": "Perception passive 15",
+ "languages": "comprend Fréquent, elfique, et Sylvan mais ne peut pas parler",
+ "traits": "**Obligations.** Le faucon peut se lier magiquement avec une créature qu'il peut voir, immédiatement après avoir passé au moins 1 heure à observer cette créature alors qu'il se trouvait à l'intérieur de 9 m. Le lien dure jusqu'à ce que le faucon se lie à une autre créature ou jusqu'à ce que la créature liée meurt. Pendant qu'il est lié, le faucon et la créature liée peuvent communiquer télépathiquement entre eux à une distance allant jusqu'à 30 m.\n**C'est la vue..** Le faucon a l'avantage sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Talons.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Talons",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f58129dba2_monstre-valenar-faucon.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "aka": "Valenar faucon",
+ "skills": "Perception +5"
+}

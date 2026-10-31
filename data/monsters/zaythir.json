@@ -1,0 +1,46 @@
+{
+ "id": "zaythir",
+ "name": "Zaythir",
+ "type": "Aberration (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 123,
+ "hpFormula": "19d8+38",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 17,
+  "CON": 15,
+  "INT": 15,
+  "SAG": 17,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, gith",
+ "traits": "**psychique Défense.** Alors que Zaythir ne porte pas d'armure et n'a pas de bouclier, son CA comprend son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Zaythir fait trois attaques frappe à mains nues ou psychique Bolt. Il peut remplacer n'importe quelle de ces attaques par une utilisation de sa touche pacificante.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants plus 10 (3d6) dégâts psychiques.\n**psychique Bolt.** Attaque de sort à distance : +6 au toucher, portée 18 m, une créature. Touché : 17 (5d6) dégâts psychiques.\n**Touche pacifiante.** Zaythir touche une créature il peut voir en lui-même 1,50 m. La cible doit réussir sur un DD 14 jet de sauvegarde d'Intelligence, ou Zaythir choisit une action pour cette cible: Attaque, lance un sort, ou Foncer. La cible touchée ne peut pas prendre cette action pendant 1 minute. À la fin de chaque tour de la cible, il peut répéter le jet de sauvegarde, mettant fin à l'effet sur lui-même sur un succès de sauvegarde. Une cible qui réussit sur le jet de sauvegarde devient immunisée contre le toucher pacifiant de ce githzerai pendant 24 heures.\n**Coulisse (Psioniques).** Zaythir lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Main de mage (la main est invisible), Voir l'invisible\n- 1/jour chacun : Changement de plan (autoseulement), Télékinésie",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "psychique Bolt",
+   "bonus": 6,
+   "damage": "5d6",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/40db6b6b82_monstre-zaythir.webp",
+ "notes": "",
+ "source": "Turn of Fortune's Wheel (5e.tools, traduction automatique)",
+ "caNote": "défense psychique",
+ "saves": "FOR +4, DEX +6, INT +5, SAG +6",
+ "skills": "Perspicacité +6, Perception +6"
+}

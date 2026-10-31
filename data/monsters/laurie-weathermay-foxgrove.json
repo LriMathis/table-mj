@@ -1,0 +1,45 @@
+{
+ "id": "laurie-weathermay-foxgrove",
+ "name": "Laurie Weathermay-Foxgrove",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, elfique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Laurie fait deux attaques, en utilisant Gossamer ou Light Crossbow dans n'importe quelle combinaison.\n**Gossamer.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts tranchants plus 3 (1d6) dégâts radiants.\n**Acrobatie légère.** Jet d'attaque à distance : +3, portée 24/96 m. Touché : 10 (2d8 + 1) dégâts perforants plus 3 (1d6) dégâts radiants.",
+ "attacks": [
+  {
+   "name": "Gossamer",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 3,
+   "damage": "2d8+1",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/4508febed6_monstre-laurie-weathermay-foxgrove.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "skills": "Athlétisme +5, Investigation +2, Perception +4",
+ "reactions": "**Défaut de sélectionner Blow.** Déclencheur : Un jet d'attaque frappe Laurie ou une créature qu'elle peut voir dans 1,50 m. Réponse : Les dégâts causés par l'attaque de déclenchement sont réduits de 5 (1d10)."
+}

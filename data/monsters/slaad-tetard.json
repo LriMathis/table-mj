@@ -1,0 +1,39 @@
+{
+ "id": "slaad-tetard",
+ "name": "Slaad têtard",
+ "type": "Aberration",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 10,
+ "hpFormula": "4d4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 5,
+  "CHA": 3
+ },
+ "skills": "Discrétion +4",
+ "resistances": "acide, feu, foudre, froid, tonnerre",
+ "senses": "vision dans le noir 18 m, Perception passive 7",
+ "languages": "comprend le slaad mais ne peut pas le parler",
+ "traits": "**Résistance à la magie.** Le slaad est avantagé lors de ses jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Morsure.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 4 (1d4+2) dégâts perforants.",
+ "portrait": "/data/images/d211713b9e_monstre-slaad-tetard.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 268 · image : internet",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ]
+}

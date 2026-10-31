@@ -1,0 +1,54 @@
+{
+ "id": "canoloth",
+ "name": "Canoloth",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 120,
+ "hpFormula": "16d8+48",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 5,
+  "SAG": 17,
+  "CHA": 12
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 19",
+ "languages": "abyssal, infernal, télépathie 18 m",
+ "traits": "**Verrouillage dimensionnel.** D'autres créatures ne peuvent pas se téléporter vers ou depuis un espace situé dans 18 m du canoloth. Toute tentative de le faire est gaspillée.\n**Résistance magique.** Le canoloth a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sensations étranges.** Le canon ne peut pas être surpris sauf si c'est neutralisé.",
+ "actionsText": "**Multiattaques.** Le canoloth fait une attaque de Bite ou de Langue et une attaque de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 18 (4d8) dégâts de force.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants plus 9 (2d8) dégâts de force.\n**Langue.** Attaque d'arme au corps à corps : +7 au toucher, allonge 9 m, une cible. Touché : 10 (1d12 + 4) dégâts perforants plus 7 (2d6) dégâts d'acide. Si la cible est moyenne ou plus petite, c'est agrippé (évasion DD 15), tiré jusqu'à 9 m vers le canoloth, et entravé jusqu'à la fin du grappin. Le canoloth peut battre une cible à la fois avec sa langue.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant + force"
+  },
+  {
+   "name": "Langue",
+   "bonus": 7,
+   "damage": "1d12+4",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/4013da541c_monstre-canoloth.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Investigation +3, Perception +9",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "baba-lysaga",
+ "name": "Baba Lysaga",
+ "type": "Humanoïde (humain, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 120,
+ "hpFormula": "16d8+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 20,
+  "SAG": 17,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "abyssal, commun, draconique, nain, géant",
+ "traits": "**Changeur de forme.** Baba Lysaga peut utiliser une action pour se polymorpher en Nuée d'insectes (flies), ou revenir dans sa forme réelle. En forme d'essaim, elle a une vitesse de marche de 1,50 m et une vitesse de vol de 9 m. Tout ce qu'elle porte se transforme avec elle, mais rien de ce qu'elle porte ne le fait.\n**Bénédiction de la Nuit Mère.** Baba Lysaga est protégée contre la magie de divination, comme si elle était protégée par un sort Antidétection.\n**Détection orthographique.** Baba Lysaga est un épeautre de niveau 16. Son caractéristique d'incantation est Intelligence (save spell DD 17, +9 au toucher avec attaques de sort). Baba Lysaga a les sorts d'assistants suivants préparés:\n- Sorts mineurs (à volonté) : Aspersion d'acide, Trait de feu, Lumière, Main de mage, Prestidigitation\n- Niveau 1 (4 emplacements) : Détection de la magie, Projectile magique, Sommeil, Trait ensorcelé\n- Niveau 2 (3 emplacements) : Couronne du dément, Agrandissement/Rapetissement, Foulée brumeuse\n- Niveau 3 (3 emplacements) : Dissipation de la magie, Boule de feu, Éclair\n- Niveau 4 (3 emplacements) : Flétrissement, Tentacules noirs d'Evard, Métamorphose\n- Niveau 5 (2 emplacements) : Brume mortelle, Quête, Scrutation\n- Niveau 6 (1 emplacements) : Illusion programmée, Vision suprême\n- Niveau 7 (1 emplacements) : Doigt de mort, Mirage\n- Niveau 8 (1 emplacements) : Mot de pouvoir étourdissant",
+ "actionsText": "**Multiattaques.** Baba Lysaga fait trois attaques avec son quarterstaff.\n**Quarter staff.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants, ou 8 (1d8 + 4) dégâts contondants si elle est maniée avec deux mains.\n**Invoquer les swarms d'insectes (Recharges après un repos court ou long).** Baba Lysaga appelle des essaims d'insectes 1d4. Un essaim convoqué apparaît dans un espace inoccupé au sein de 18 m de Baba Lysaga et agit comme son allié. Il reste jusqu'à sa mort ou jusqu'à ce que Baba Lysaga la rejette comme une action.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4dff95d9bd_monstre-baba-lysaga.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "SAG +7",
+ "skills": "Arcanes +13, Religion +13"
+}

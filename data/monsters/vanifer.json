@@ -1,0 +1,40 @@
+{
+ "id": "vanifer",
+ "name": "Vanifer",
+ "type": "Humanoïde (tieffelin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 15,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, igné, infernal",
+ "traits": "**Pyre funéraire.** Lorsque Vanifer tombe à 0 points de vie, son corps est consommé dans un éclair de feu et de fumée. Tout ce qu'elle portait est laissé entre les cendres.\n**Résistance légendaire (2/jour).** Si Vanifer échoue un jet de sauvegarde, elle peut choisir de réussir.\n**Détection orthographique.** Vanifer est un spellcaster de niveau 10. Son caractéristique d'incantation est Charisme (save spell DD 16, +8 au toucher avec attaques de sort). Vanifer connaît les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Contact glacial, Trait de feu, Amis, Main de mage, Message, Flammes, Thaumaturgie\n- Niveau 1 (4 emplacements) : Mains brûlantes, Orbe chromatique, Représailles infernales, Bouclier\n- Niveau 2 (3 emplacements) : Ténèbres, Détection des pensées, Foulée brumeuse, Rayon ardent\n- Niveau 3 (3 emplacements) : Contresort, Boule de feu, Motif hypnotique\n- Niveau 4 (3 emplacements) : Mur de feu\n- Niveau 5 (2 emplacements) : Domination de personne",
+ "actionsText": "**Multiattaques.** Vanifer fait deux attaques.\n**Tinderstrike.** Attaque d'arme au corps à corps ou à distance : +9 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d4 + 5) dégâts perforants plus 7 (2d6) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Tinderstrike",
+   "bonus": 9,
+   "damage": "1d4+5",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/049b9d8711_monstre-vanifer.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Arcanes +5, Tromperie +8, Représentation +8",
+ "immunities": "feu"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "replique-tridrone",
+ "name": "Replica Tridrone",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "Modron, peut comprendre Commun mais ne parle que des réponses préprogrammées",
+ "traits": "**Esprit axiomatique.** Le tridrone ne peut être contraint d'agir d'une manière contraire à sa nature ou à ses instructions.\n**Démantèlement.** Si la réplique de tridrone meurt, son corps tombe dans un tas de parties (géres, plaques, vis et fils), laissant derrière ses armes et tout ce qu'il transportait.",
+ "actionsText": "**Multiattaques.** La tridrone fait trois coups de poing ou trois coups de javelot.\n**Fist.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts contondants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 4 (1d6 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/79048e31b5_monstre-replique-tridrone.webp",
+ "notes": "",
+ "source": "The Orrery of the Wanderer (5e.tools, traduction automatique)",
+ "aka": "Réplique tridrone",
+ "caNote": "armure naturelle"
+}

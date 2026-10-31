@@ -1,0 +1,41 @@
+{
+ "id": "epouvantail",
+ "name": "Épouvantail",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 36,
+ "hpFormula": "8d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 13,
+  "CON": 11,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "vulnerabilities": "feu",
+ "resistances": "contondants, perforants et tranchants issus d'armes non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné, épuisé, inconscient, paralysé, terrifié",
+ "senses": "vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les mêmes langues que son créateur, mais incapable de parler",
+ "traits": "**Faux-semblant.** Tant que l'épouvantail reste immobile, il est impossible de le différencier d'un épouvantail ordinaire inanimé.",
+ "actionsText": "**Attaques multiples.** L'épouvantail effectue deux attaques de griffe.\n**Griffe.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (2d4+1) dégâts tranchants. Si la cible est une créature, elle doit faire un jet de sauvegarde de Sagesse DD 11. Si elle échoue, elle est terrorisée jusqu'à la fin du prochain tour de l'épouvantail.\n**Regard terrifiant.** L'épouvantail vise une créature située dans son champ de vision et dans un rayon de 9 mètres. Si sa cible le voit, elle doit réussir un jet de sauvegarde de Sagesse DD 11, sans quoi elle est en proie à une terreur magique jusqu'à la fin du prochain tour de l'épouvantail. La cible terrorisée est paralysée.",
+ "portrait": "/data/images/2819ab5b8c_monstre-epouvantail.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 129 · image : Manuel des monstres p. 128",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "tranchant"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "poolo-maykapal",
+ "name": "Paolo Maykapal",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Paolo fait deux attaques de longues paroles. S'il a un mot court dessiné, il peut également faire une attaque de mot court.\n**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Longbow.** Attaque d'arme à distance : +3 au toucher, intervalle 45/180 m., une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ea6cc95452_monstre-poolo-maykapal.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "aka": "Poolo Maykapal",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Athlétisme +5, Perception +2"
+}

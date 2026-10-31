@@ -1,0 +1,45 @@
+{
+ "id": "sailback",
+ "name": "Sailback",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 85,
+ "hpFormula": "9d12+27",
+ "vitesse": "9 m, nage 15 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 9,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Maintenez votre souffle.** Le voilier peut retenir son souffle pendant 30 minutes.",
+ "actionsText": "**Multiattaques.** Le retour fait deux attaques : une avec sa morsure et une avec sa queue.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 21 (3d10 + 5) dégâts perforants, et la cible est agrippé (évasion DD 16). Jusqu'à ce que ce grappin se termine, la cible est entravé, et le retour ne peut pas mordre une autre cible.\n**Queue.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible pas agrippé par le retour. Touché : 14 (2d8 + 5) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "3d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/dd78e33cf3_monstre-sailback.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +5"
+}

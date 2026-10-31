@@ -1,0 +1,38 @@
+{
+ "id": "aspirant-du-comet",
+ "name": "Aspirant of the Comet",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Perception passive 10",
+ "languages": "Commun plus une langue",
+ "traits": "**La faim du Vide.** Lorsque l'aspirant est réduit à 0 points de vie, son corps et tout ce qu'il porte, sauf pour les objets magiques, sont aspirés dans un vide et détruits. Les créatures dans une sphère 4,50 m -radius centrée sur l'aspirant doivent faire un DD 11 jet de sauvegarde de Force. Sur une sauvegarde ratée, une créature prend 10 (3d6) dégâts nécrotiques et est tirée directement 3 m vers l'espace de l'aspirant. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.\n**Dévotion de Sinister.** L'aspirant a un avantage sur jet de sauvegarde contre les conditions charmé et effrayé.",
+ "actionsText": "**Lancer.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d6 + 1) dégâts perforants, ou 5 (1d8 + 1) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/825229285f_monstre-aspirant-du-comet.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Aspirant du Comet"
+}

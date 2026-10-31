@@ -1,0 +1,42 @@
+{
+ "id": "dhergoloth",
+ "name": "Dhergoloth",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 119,
+ "hpFormula": "14d8+56",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 19,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 18 m, Perception passive 10",
+ "languages": "abyssal, infernal, télépathie 18 m",
+ "traits": "**Résistance magique.** Le dhergoloth a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le dhergoloth fait deux attaques de la griffe.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts de force.\n**Poignées d'éclusage (Recharge 5-6).** Le dhergoloth se déplace jusqu'à sa vitesse en ligne droite et cible chaque créature au sein de 1,50 m pendant son mouvement. Chaque cible doit réussir sur un DD 14 jet de sauvegarde de Dextérité ou prendre 22 (3d12 + 3) dégâts de force.\n**Téléportation.** Les téléportations de dhergoloth, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 18 m dans un espace inoccupé qu'il peut voir.\n**Détection orthographique.** Le dhergoloth lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 10) :\n- À volonté : Ténèbres, Peur",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/76c99b8d09_monstre-dhergoloth.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +6",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné"
+}

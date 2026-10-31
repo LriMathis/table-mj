@@ -1,0 +1,39 @@
+{
+ "id": "infecte-par-townsperson",
+ "name": "Infected Townsperson",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Sans déconner.** Au début de son tour, le citadin peut tirer avantage de toutes les armes de mêlée jets d'attaque pendant ce tour, mais jets d'attaque contre elle a avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**psychique Slam.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants plus 3 (1d6) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "psychique Slam",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/1949589f68_monstre-infecte-par-townsperson.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Infecté par Townsperson",
+ "caNote": "Cache l'armure"
+}

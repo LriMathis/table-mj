@@ -1,0 +1,52 @@
+{
+ "id": "wolfwere-alpha",
+ "name": "Wolfwere Alpha",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "9 m (12 m en forme de loup)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "Fréquent (ne peut pas parler sous forme de loup)",
+ "traits": "**L'ouïe et l'odeur de Keen.** Le loup a l'avantage sur tests de Sagesse (Perception) qui dépendent de l'ouïe ou de l'odeur.\n**Tactiques de conditionnement.** Le loup a l'avantage sur un jet d'attaque contre une créature si au moins un des alliés du loup est au sein de 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaque (forme hybride seulement).** Le loup a commis trois attaques : une avec sa Bite et deux avec ses griffes.\n**Longs mots (forme humaine seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 5) dégâts tranchants ou 11 (1d10 + 6) dégâts tranchants si utilisé avec deux mains.\n**Bite (forme wolf ou hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou être à terre.\n**Griffes (forme hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d4 + 5) dégâts tranchants.\n**Chanson léthargique (forme humaine seulement).** Le loup joue une mélodie magique sur un instrument. Chaque humanoïde de 60 m du loup qui entend la mélodie doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être ralenti pendant 10 minutes, comme si le sort Lenteur avait été lancé sur eux. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours. Si le jet de sauvegarde d'une créature est réussi, l'effet se termine sur elle. Une cible qui sauve avec succès est immunisée contre la mélodie de ce loup pendant les 24 prochaines heures.\n**Modifier la forme.** Le loup se polymorphe en un hybride loup-humanoïde ou en un humanoïde (elf ou humain), ou de nouveau dans sa forme réelle, qui est un loup terrible. Ses statistiques, autres que sa CA, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.",
+ "attacks": [
+  {
+   "name": "Longs mots (forme humaine seulement)",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Bite (forme wolf ou hybride seulement)",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes (forme hybride seulement)",
+   "bonus": 8,
+   "damage": "2d4+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/2842ad5bdd_monstre-wolfwere-alpha.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "sous forme humanoïde",
+ "skills": "Perception +6",
+ "immunities": "contondant, perforant, tranchant dégâts causés par des armes non magiques qui ne sont pas en fer"
+}

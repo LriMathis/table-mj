@@ -1,0 +1,37 @@
+{
+ "id": "ankheg",
+ "name": "Ankheg",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "9 m, creusement 3 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 1,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 11",
+ "languages": "aucune",
+ "traits": "**Fouisseur.** L’ankheg peut creuser à travers la roche à concurrence de la moitié de sa Vitesse de fouissement en laissant un tunnel de 3 m de diamètre dans son sillage.",
+ "actionsText": "**Morsure.** Corps à corps : +5 (avec Avantage si la cible est Agrippée par l’ankheg), allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts tranchants plus 3 (1d6) dégâts d’acide. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 13).\n**Aspersion acide (recharge 6).** JS Dextérité : DD 12, chaque créature dans une Ligne de 9 m de long sur 1,50 m de large. Échec : 14 (4d6) dégâts d’acide. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "2d6+3+1d6",
+   "type": "tranchant + acide"
+  }
+ ],
+ "portrait": "/data/images/2d6160b881_monstre-ankheg.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 20"
+}

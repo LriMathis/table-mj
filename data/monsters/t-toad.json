@@ -1,0 +1,41 @@
+{
+ "id": "t-toad",
+ "name": "Thomas T. Toad",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Les mains de Webby.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Les mains de Webby",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/9536fb226b_monstre-t-toad.webp",
+ "notes": "",
+ "source": "The Lost Dungeon of Rickedness: Big Rick Energy (5e.tools, traduction automatique)",
+ "aka": "T. Toad",
+ "caNote": "Cache l'armure",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

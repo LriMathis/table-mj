@@ -1,0 +1,56 @@
+{
+ "id": "venerable-dragon-tortue",
+ "name": "Ancient Dragon Turtle",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "24",
+ "xp": 62000,
+ "ca": 22,
+ "hp": 409,
+ "hpFormula": "21d20+189",
+ "vitesse": "9 m, nage 18 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 12,
+  "CON": 29,
+  "INT": 14,
+  "SAG": 19,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "aquatique, draconique",
+ "traits": "**Amphibie.** La tortue dragon peut respirer l'air et l'eau.\n**Bénédiction de la mer (Recharges après une repos court ou long).** Si la tortue dragon est réduite à 0 points de vie, son total actuel points de vie se réinitialise à 350 points de vie, et il recharge sa respiration vapeur. De plus, la tortue dragon peut maintenant utiliser les options dans la section « Actions Mythiques » pendant 1 heure. Récompensez un parti de 62 000 XP supplémentaires (124 000 XP au total) pour avoir vaincu la tortue dragon après que sa Bénédiction de la mer s'active.\n**Résistance légendaire (3/jour).** Si la tortue du dragon échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Nature inhabituelle.** La tortue n'a pas besoin de nourriture ou de boisson.",
+ "actionsText": "**Multiattaques.** La tortue dragon fait une attaque Bite ou Tail et deux attaques de griffes.\n**Morceau.** Attaque d'arme au corps à corps : +16 au toucher, allonge 4,50 m, une cible. Touché : 15 (1d12 + 9) dégâts perforants plus 13 (2d12) dégâts de foudre.\n**Griffe.** Attaque d'arme au corps à corps : +16 au toucher, allonge 4,50 m, une cible. Touché : 18 (2d8 + 9) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +16 au toucher, allonge 4,50 m, une cible. Touché : 20 (2d10 + 9) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 24 jet de sauvegarde de Force ou être à terre.\n**Souffle de vapeur (Recharge 5-6).** La tortue du dragon exhale de la vapeur dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 24 jet de sauvegarde de Constitution, en prenant 67 (15d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Être sous l'eau n'accorde pas de résistance à ces dégâts.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 16,
+   "damage": "1d12+9",
+   "type": "perforant + foudre"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 16,
+   "damage": "2d8+9",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 16,
+   "damage": "2d10+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/dacae4e339_monstre-venerable-dragon-tortue.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Vénérable dragon-tortue",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +16, SAG +11",
+ "skills": "Perception +11",
+ "immunities": "froid, feu",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, vénérable dragon-tortue peut entreprendre l'une des actions ci-après.\n**Attaque.** La tortue dragon fait une attaque de Griffe ou de Tail.\n**Bouge.** La tortue dragon se déplace à sa vitesse. Si la tortue dragon nage, ce mouvement ne provoque pas d'attaques d'opportunités.\n**Aura en ébullition (coûts 3 actions).** La tortue du dragon rayonne de chaleur intense. Jusqu'au prochain tour de la tortue dragon, chaque fois qu'une créature commence son tour dans le 6 m de la tortue dragon, cette créature doit réussir sur un DD 24 jet de sauvegarde de Constitution ou prendre 40 (9d8) dégâts de feu. Être sous l'eau n'accorde pas de résistance à ces dégâts.\n**Actions mythiques.**\n**Morceau.** La tortue dragon fait une attaque de Bite.\n**Armure des tempêtes (coûts 2 actions).** foudre entoure temporairement la tortue dragon, et il gagne 40 points de vie temporaires jusqu'au début de son prochain tour. Jusqu'à ce que tous ces points de vie temporaires soient partis, toute créature qui touche la tortue du dragon ou la frappe avec une attaque de melee prend 26 (4d12) dégâts de foudre."
+}

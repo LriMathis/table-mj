@@ -1,0 +1,40 @@
+{
+ "id": "phaia",
+ "name": "Phaia",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 12,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "quatre langues",
+ "traits": "**Récolte de Grim (1/Turn).** Lorsque le nécromant tue une créature qui n'est ni une construction ni un mort-vivant avec un sort de de niveau 1 ou plus, Phaia retrouve points de vie égal au double du niveau du sort, ou trois fois si c'est un sort de nécromance.\n**Détection orthographique.** Phaia est un épeautre de niveau 12. Son caractéristique d'incantation est Intelligence (save spell DD 15, +7 au toucher avec attaques de sort). Phaia a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Contact glacial, Lumières dansantes, Main de mage, Réparation\n- Niveau 1 (4 emplacements) : Simulacre de vie *, Armure de mage, Rayon empoisonné *\n- Niveau 2 (3 emplacements) : Cécité/Surdité *, Rayon affaiblissant *, Toile d'araignée\n- Niveau 3 (3 emplacements) : Animation des morts *, Malédiction *, Toucher du vampire *\n- Niveau 4 (3 emplacements) : Flétrissement *, Porte dimensionnelle, Peau de pierre\n- Niveau 5 (2 emplacements) : Main de Bigby, Brume mortelle\n- Niveau 6 (1 emplacements) : Cercle de mort *\n*Temps de necromance de de niveau 1 ou plus",
+ "actionsText": "**Touche de flétrissement.** Attaque de sort au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 5 (2d4) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Touche de flétrissement",
+   "bonus": 7,
+   "damage": "2d4",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/bc15f0918e_monstre-phaia.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "saves": "INT +7, SAG +5",
+ "skills": "Arcanes +7, Histoire +7",
+ "resistances": "nécrotique"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "jim-darkmagic",
+ "name": "Jim Darkmagic",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 18,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun",
+ "traits": "**Matériel spécial.** Jim porte un Baguette des merveilles.\n**Transport bénin (recharge après que Jim a lancé un sort de conjuration de de niveau 1 ou supérieur).** En tant qu'action bonus, Jim téléporte jusqu'à 9 m dans un espace qu'il peut voir. L'espace doit être inoccupé ou occupé par une créature petite ou moyenne consentante. Si ce dernier, Jim et la créature volontaire se téléportent, échangeant des lieux.\n**Détection orthographique.** Jim est un épeautre de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 15, +7 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Trait de feu, Amis, Main de mage, Illusion mineure, Prestidigitation\n- Niveau 1 (4 emplacements) : Déguisement, Jim's projectile magique *, Armure de mage\n- Niveau 2 (3 emplacements) : Invisibilité, Jim's pièce de monnaie Glowing *\n- Niveau 3 (3 emplacements) : Inciter à la cupidité *, Boule de feu\n- Niveau 4 (3 emplacements) : Invocation d'élémentaires mineurs, Métamorphose\n- Niveau 5 (1 emplacements) : Double illusoire\n* Nouveau sort introduit au chapitre 3",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Conjuration mineure.** Jim conjure un objet inanimé, pas plus grand que 0,90 m d'un côté et pas plus que 5 kg, dans sa main ou sur le sol dans un espace inoccupé qu'il peut voir au sein de 3 m de lui. L'objet est visiblement magique, rayonnant lumière dim vers 1,50 m. Il disparaît s'il prend des dégâts, après 1 heure, ou quand Jim utilise à nouveau cette fonctionnalité.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2ba287df4a_monstre-jim-darkmagic.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "saves": "INT +7, SAG +4",
+ "skills": "Acrobaties +5, Dressage +4, Arcanes +7, Histoire +7, Représentation +5"
+}

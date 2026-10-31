@@ -1,0 +1,50 @@
+{
+ "id": "crane-seigneur",
+ "name": "Skull Lord",
+ "type": "Mort-vivant (ensorceleur)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 21
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 22",
+ "languages": "toutes les langues qu'il connaissait dans la vie",
+ "traits": "**Évasion.** Si le seigneur du crâne est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, le seigneur du crâne ne prend pas de dégâts s'il réussit sur le jet de sauvegarde et seulement la moitié des dégâts s'il échoue, à condition qu'il ne soit pas neutralisé.\n**Résistance légendaire (3/jour).** Si le seigneur du crâne échoue à un jet de sauvegarde, il peut choisir de réussir à la place.\n**Maître de la Grave.** Alors que dans 9 m du seigneur du crâne, tout allié Undead du seigneur du crâne fait jet de sauvegarde avec avantage, et que l'alli retrouve 1d6 points de vie chaque fois qu'il commence son tour là.\n**Nature inhabituelle.** Le seigneur du crâne n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le seigneur du crâne fait trois attaques de l'état-major des os ou de la mort Ray.\n**Personnel désossés.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants plus 21 (6d6) dégâts nécrotiques.\n**Rayon de mort.** Attaque de sort à distance : +10 au toucher, portée 18 m, une cible. Touché : 27 (5d8 + 5) dégâts nécrotiques.\n**Détection orthographique.** Le crâne, Lord lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (Spell save DD 18):\n- À volonté : Main de mage, Message\n- 1/jour chacun : Brume mortelle, Cône de froid\n- 2/jour chacun : Porte dimensionnelle, Peur",
+ "attacks": [
+  {
+   "name": "Personnel désossés",
+   "bonus": 8,
+   "damage": "1d8+3",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Rayon de mort",
+   "bonus": 10,
+   "damage": "5d8+5",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/19e23f5fed_monstre-crane-seigneur.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Crâne seigneur",
+ "caNote": "plaque",
+ "skills": "Athlétisme +7, Histoire +8, Perception +12, Discrétion +8",
+ "resistances": "froid, nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, empoisonné, étourdi, inconscient",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, crâne seigneur peut entreprendre l'une des actions ci-après.\n**Attaque.** Le seigneur du crâne fait une attaque de l'état-major des os ou de la mort Ray.\n**Bouge.** Le seigneur du crâne se déplace à sa vitesse sans provoquer opportunity attacks.\n**Invoquer un décès (coûts 2 actions).** Le seigneur du crâne convoque jusqu'à cinq squelettes ou zombies dans des espaces inoccupés au sein de 9 m de lui. Ils restent jusqu'à ce qu'ils soient détruits. Un mort-vivant convoqué de cette façon, rouler l'initiative, agir dans le prochain tour disponible, et obéir au seigneur du crâne. Le seigneur du crâne ne peut pas avoir plus de cinq morts-vivants convoqués par cette capacité à la fois."
+}

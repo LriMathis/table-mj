@@ -1,0 +1,51 @@
+{
+ "id": "bien-sur",
+ "name": "Bel",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 19,
+ "hp": 364,
+ "hpFormula": "27d10+216",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 14,
+  "CON": 26,
+  "INT": 25,
+  "SAG": 19,
+  "CHA": 26
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 14",
+ "languages": "commun, infernal, télépathie 36 m",
+ "traits": "**Peur Aura.** Toute créature hostile à Bel qui commence son tour au sein de 6 m de lui doit faire un DD 23 jet de sauvegarde de Sagesse, à moins que Bel soit neutralisé. À moins que le save ne réussisse, la créature est effrayé jusqu'au début de son prochain tour. Si le jet de sauvegarde d'une créature est réussi, la créature est à l'abri de la peur de Bel Aura pendant les 24 prochaines heures.\n**Résistance légendaire (3/jour).** Si Bel échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Bel a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes de Bel sont magiques.\n**Découpe intérieure.** Le caractéristique d'incantation de Bel est Charisme (save DD 23). Bel peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Boule de feu\n- 1/jour chacun : Emprisonnement, Nuée de météores\n- 3/jour chacun : Dissipation de la magie, Immobilisation de monstre, Image miroir, Double illusoire, Rappel à la vie, Téléportation, Mur de feu",
+ "actionsText": "**Multiattaques.** Bel fait trois attaques : deux avec son grand-mot et une avec sa queue.\n**Grande épée.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 23 (4d6 + 9) dégâts tranchants plus 21 (6d6) dégâts de feu. Si la cible est un objet inflammable qui n'est ni retenu ni porté, elle prend feu.\n**Queue.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 25 (3d10 + 9) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 23 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 16,
+   "damage": "4d6+9",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Queue",
+   "bonus": 16,
+   "damage": "3d10+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/9e292e96a3_monstre-bien-sur.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Bien sûr",
+ "caNote": "armure naturelle",
+ "saves": "DEX +10, CON +16, SAG +12",
+ "skills": "Arcanes +15, Tromperie +16, Perspicacité +12, Persuasion +16",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, bien sûr peut entreprendre l'une des actions ci-après.\n**Boule de feu.** Bel casts Boule de feu.\n**Bord tactique (coûts 2 actions).** Rouler un d6 pour Bel. Le nombre roulé sur la matrice est soustrait du prochain jet d'attaque fait contre Bel ou un allié de son choix dans la minute suivante.\n**Invoquer le diable glacé (coûts 3 actions).** Bel appelle magiquement un diable de glace avec une lance de glace (comme décrit dans l'entrée du diable de glace dans le Monster Manual). Le diable de glace apparaît dans un espace inoccupé au sein de 18 m de Bel, agit comme allié de Bel, et peut appeler d'autres démons s'il a ce pouvoir. Le diable de glace reste jusqu'à ce que Bel meurt ou jusqu'à ce qu'il le rejette comme une action."
+}

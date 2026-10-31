@@ -1,0 +1,41 @@
+{
+ "id": "poussiere-hulk",
+ "name": "Dust Hulk",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 15,
+  "DEX": 19,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "géant, terreux",
+ "traits": "**Formulaire aérien.** La poussière peut pénétrer dans l'espace d'une créature hostile et s'arrêter là. Il peut se déplacer dans un espace aussi étroit que 1 pouce sans serrer.\n**Burst de mort.** Lorsque la poussière meurt, elle explose dans un éclat de poussière qui remplit une sphère 3 m -radius centrée sur elle-même. Chaque créature dans cette zone doit réussir sur un DD 14 jet de sauvegarde de Constitution ou avoir l'état aveuglé pendant 1 minute. Une créature affectée peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "actionsText": "**Multiattaques.** La coque de poussière fait trois attaques de clam. Il peut remplacer une de ces attaques par de la poussière de sting.\n**Clamer.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants.\n**Poussières à sangle.** une créature du choix de la poussière hulk à l'intérieur de son espace doit faire un DD 14 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 10 (3d6) dégâts contondants et a l'état aveuglé jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ba5fa6ab6f_monstre-poussiere-hulk.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Poussière Hulk",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, entravé"
+}

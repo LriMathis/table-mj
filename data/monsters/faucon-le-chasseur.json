@@ -1,0 +1,47 @@
+{
+ "id": "faucon-le-chasseur",
+ "name": "Falcon the Hunter",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun",
+ "traits": "**Archer.** Une sauvagine ou une sauvagine inflige une mort supplémentaire de ses dégâts lorsque Falcon frappe avec elle (inclus dans son attaque de sa sauvagine).\n**Dépanneur.** Les attaques d'armes de Falcon ignorent 3 et 3.",
+ "actionsText": "**Multiattaques.** Falcon fait trois attaques à la mêlée ou deux attaques à portée.\n**Mot long.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants, ou 7 (1d10 + 2) dégâts tranchants si utilisé avec deux mains.\n**Longbow.** Attaque d'arme à distance : +4 au toucher, portée 45/180 m., une cible. Touché : 11 (2d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/fc1295f2e3_monstre-faucon-le-chasseur.webp",
+ "notes": "",
+ "source": "Essentials Kit: Dragon of Icespire Peak (5e.tools, traduction automatique)",
+ "aka": "Faucon le chasseur",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +4, SAG +5",
+ "skills": "Athlétisme +4, Perception +7, Survie +5"
+}

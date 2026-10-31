@@ -1,0 +1,41 @@
+{
+ "id": "tableau-1",
+ "name": "Shadow Mastiff Alpha",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**Sensibilisation éthérée.** Le mastic d'ombre peut voir des créatures et des objets éthérés.\n**Faiblesse de la lumière du soleil.** Alors que dans la lumière lumineuse créée par le soleil, le mastic d'ombre a désavantage sur jets d'attaque, tests de caractéristique, et jet de sauvegarde.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre.\n**Terrifiant hurlement (Recharge 6).** L'ombre se mastique. Toute Bête ou Humanoïde de 90 m doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou en être effrayé pendant 1 minute. Une cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si l'enregistrement d'une cible est réussi ou si l'effet se termine pour elle, la cible est à l'abri de toute ombre de Mastiff Terrifiant Howl pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f1e4fdd448_monstre-tableau-1.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Tableau 1",
+ "skills": "Perception +5, Discrétion +6",
+ "resistances": "contondant, perforant, tranchant des attaques non magiques alors que dans la lumière sombre ou l'obscurité",
+ "bonusActions": "**Mélange d'ombres.** Alors que dans la lumière sombre ou sombre, le mastic d'ombre devient invisible, avec tout ce qu'il porte ou porte. L'invisibilité dure jusqu'à ce que le mastic d'ombre utilise un action bonus pour y mettre fin ou jusqu'à ce que le mastic d'ombre attaque, soit en lumière vive, soit en neutralisé."
+}

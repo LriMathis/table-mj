@@ -1,0 +1,47 @@
+{
+ "id": "ruine-araignee",
+ "name": "Ruin Spider",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 105,
+ "hpFormula": "14d10+28",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**acide ruineux.** Toute arme non magique qui frappe l'araignée corrode. Après avoir causé des dégâts, l'arme prend une pénalité permanente et cumulative -1 à jets de dégâts. Si sa peine tombe à -5, l'arme est détruite. Les munitions non magiques en métal qui frappent l'araignée sont détruites après avoir causé des dégâts.\n**Escalade des araignées.** L'araignée peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sens du Web.** En contact avec une toile, l'araignée connaît l'emplacement exact de toute autre créature en contact avec la même toile.\n**Web Walker.** L'araignée ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** L'araignée fait deux attaques ruinesques. Il peut remplacer une attaque par une utilisation de Web.\n**Bite ruine.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants et 9 (2d8) dégâts d'acide. En outre, si la cible est une créature portant une armure non magique, l'armure prend une pénalité permanente et cumulative -1 à la CA qu'elle offre. L'armure réduite à un classe d'armure de 10 est détruite.\n**Web (Recharge 5-6).** Attaque d'arme à distance : +7 au toucher, portée 9/18 m., une créature. Touché : La cible a l'état entravé. En action, une cible entravé peut faire un DD 13 test de Force, en éclatant la webbing lors d'un contrôle réussi. La toile peut également être détruite (CA 10; 5 points de vie ; vulnérabilité à dégâts de feu ; immunité à l'acide, au bludgeon, au poison et à dégâts psychiques).",
+ "attacks": [
+  {
+   "name": "Bite ruine",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Site Web 5",
+   "bonus": 7,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/e9b9b420e3_monstre-ruine-araignee.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Ruine araignée",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +10",
+ "immunities": "acide"
+}

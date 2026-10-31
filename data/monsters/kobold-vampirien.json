@@ -1,0 +1,41 @@
+{
+ "id": "kobold-vampirien",
+ "name": "Kobold Vampire Spawn",
+ "type": "Mort-vivant",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 39,
+ "hpFormula": "6d6+18",
+ "vitesse": "9 m, escalade 6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 8,
+  "SAG": 8,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, draconique",
+ "traits": "**Tactiques de conditionnement.** Le vampire a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du vampire est dans 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Régénération.** Le vampire retrouve 10 points de vie au début de son tour s'il a au moins 1 points de vie et n'est pas dans la lumière du soleil ou l'eau courante. Si le vampire prend dégâts radiants ou endommage l'eau bénite, ce trait ne fonctionne pas au début de son prochain tour.\n**Nature inhabituelle.** Le vampire n'a pas besoin d'air.\n**Faiblesses du vampire.** Le vampire a les défauts suivants:\n- **Interdiction** Le vampire ne peut entrer dans une résidence sans une invitation de l'un des occupants.\n- **Harcelé par l'eau courante** Le vampire prend 20 dégâts d'acide quand il commence son tour en eau courante.\n- **Attrapez le cœur** Le vampire est détruit si une arme perçante en bois est jetée dans son cœur alors qu'il est neutralisé dans son lieu de repos.\n- **Hypersensibilité à la lumière du soleil** Le vampire prend 20 dégâts radiants quand il commence son tour dans la lumière du soleil. En plein soleil, il présente un désavantage sur jets d'attaque et tests de caractéristique.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 6 (1d4 + 4) dégâts perforants plus 5 (2d4) dégâts nécrotiques. Le maximum de points de vie de la cible est réduit d'un montant égal au dégâts nécrotiques pris, et le vampire retrouve points de vie égal à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/192e66d373_monstre-kobold-vampirien.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Kobold vampirien",
+ "saves": "DEX +6, SAG +1",
+ "skills": "Perception +1, Discrétion +6",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques"
+}

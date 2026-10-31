@@ -1,0 +1,47 @@
+{
+ "id": "flagelleur-mental-prophete",
+ "name": "Mind Flayer Prophet",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 20,
+  "SAG": 17,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "profond, télépathie 36 m, commun des profondeurs",
+ "traits": "**Sensibilisation.** Le mental flayer a un avantage sur les rouleaux d'initiative et ne peut pas être surpris tant qu'il n'a pas l'état neutralisé.\n**Résistance magique.** La tueuse mentale a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Tentacules.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 16 (2d10 + 5) dégâts psychiques. Si la cible est moyenne ou plus petite, elle a l'état agrippé (évasion DD 16) et doit réussir sur un DD 16 jet de sauvegarde d'Intelligence ou avoir l'état étourdi jusqu'à ce que le grappin se termine.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, un humanoïde agrippé par la couche mentale. Touché : 55 (10d10) dégâts perforants. Si ce dégâts réduit la cible à 0 points de vie, la tueuse mentale la tue en extrayant et en dévorant son cerveau.\n**Whip mental (Recharge 5-6).** La tueuse mentale claque avec de l'énergie psychique, ciblant jusqu'à deux créatures qu'elle peut voir en 18 m de lui-même. Chaque cible doit réussir sur un DD 16 jet de sauvegarde d'Intelligence ou prendre 23 (4d8 + 5) dégâts psychiques et avoir l'état étourdi pendant 1 minute. Une cible étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Coulisse (Psioniques).** Le mental flayer lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Détection de la magie, Détection des pensées, Lévitation\n- 1/jour chacun : Domination de monstre, Changement de plan (autoseulement), Vision suprême",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "psychique"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 8,
+   "damage": "10d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ccd653e3e6_monstre-flagelleur-mental-prophete.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Flagelleur mental prophète",
+ "caNote": "armure naturelle",
+ "saves": "INT +8, SAG +6, CHA +6",
+ "skills": "Arcanes +8, Perspicacité +6, Perception +6, Discrétion +5"
+}

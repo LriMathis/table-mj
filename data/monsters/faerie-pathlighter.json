@@ -1,0 +1,39 @@
+{
+ "id": "faerie-pathlighter",
+ "name": "Faerie Pathlighter",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, sylvestre",
+ "traits": "**Éclairage des faïences.** La faérie met la lumière dans un rayon de 4,50 m.",
+ "actionsText": "**Multiattaques.** La féerie fait deux attaques de la grève éclatante.\n**Grève éclatante.** Attaque de sort au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 9 m, une cible. Touché : 7 (2d6) dégâts radiants, et si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Dextérité ou être battue en lumière jusqu'à la fin du prochain tour de la féerie. Tandis qu'une créature est mise en lumière, jets d'attaque contre la créature ont avantage, et la créature ne peut pas bénéficier de l'état invisible.\n**Détection orthographique.** La faérie lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation :\n- À volonté : Lumières dansantes, Détection de la magie, Prestidigitation\n- 1/jour : Localisation de créature",
+ "attacks": [
+  {
+   "name": "Grève éclatante",
+   "bonus": 6,
+   "damage": "2d6",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/c6e82836bd_monstre-faerie-pathlighter.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "skills": "Perspicacité +5, Perception +5, Survie +5",
+ "bonusActions": "**Feu de guidage (2/jour).** La faerie appelle une sphère 9 m -radius de lumière magique centrée sur elle-même, qui dure 1 minute ou jusqu'à ce que la faerie ait l'état neutralisé. Chaque créature du choix de la féerie (autre que la féerie) qui commence son tour dans cette zone gagne 5 points de vie temporaires et a un avantage sur jet de sauvegarde de Sagesse et tests de Sagesse jusqu'au début de son prochain tour.\nLa sphère est de lumière vive, apporte de la lumière faible pour un 9 m supplémentaire, et se déplace avec la féerie. Si l'une des zones de la sphère se chevauche avec une zone d'obscurité créée par un sort de de niveau 3 ou inférieur, le sort qui a créé l'obscurité est dissipé."
+}

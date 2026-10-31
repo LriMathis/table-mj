@@ -1,0 +1,49 @@
+{
+ "id": "vampire-nosferatu",
+ "name": "Vampire Nosferatu",
+ "type": "Mort-vivant",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 85,
+ "hpFormula": "9d8+45",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 18,
+  "CON": 21,
+  "INT": 6,
+  "SAG": 17,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "Commun plus une autre langue",
+ "traits": "**Frénésie sanguine.** Le nosferatu a avantage sur jets d'attaque contre toute créature qui n'a pas toute sa points de vie.\n**Régénération.** Le nosferatu retrouve 10 points de vie au début de chacun de ses tours s'il a au moins 1 points de vie. Si le nosferatu prend dégâts radiants, ce trait ne fonctionne pas au prochain tour du nosferatu.\n**Escalade des araignées.** Le nosferatu peut monter des surfaces difficiles, y compris le long des plafonds, sans avoir besoin de faire un test de caractéristique.\n**Hypersensibilité à la lumière du soleil.** Le nosferatu prend 20 dégâts radiants s'il commence son tour dans la lumière du soleil. En plein soleil, il présente un désavantage sur jets d'attaque et tests de caractéristique.",
+ "actionsText": "**Multiattaques.** Le nosferatu fait une attaque Bite et deux attaques Claw.\n**Morceau.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 9 (1d8 + 5) dégâts perforants plus 11 (2d10) dégâts nécrotiques. Le maximum de points de vie de la cible diminue d'un montant égal au dégâts nécrotiques pris, et le nosferatu retrouve le points de vie égal à ce montant.\n**Griffe.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 9 (1d8 + 5) dégâts tranchants.\n**Sang éponge (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 16, chaque créature dans un cône 4,50 m. Échec : 27 (6d8) dégâts nécrotiques, et la créature ne peut pas récupérer points de vie pendant 1 minute. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/306c42a290_monstre-vampire-nosferatu.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "DEX +7, CON +8, SAG +6",
+ "skills": "Perception +6, Discrétion +10",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "reactions": "**C'est un choc sanguinaire..** Déclencheur : Une créature en sang que nosferatu peut voir dans 12 m est endommagée. Réponse : Le nosferatu se déplace à sa vitesse sans provoquer Opportunity Attacks et fait une attaque de griffe contre la créature qui déclenche."
+}

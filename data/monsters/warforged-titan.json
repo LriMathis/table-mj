@@ -1,0 +1,46 @@
+{
+ "id": "warforged-titan",
+ "name": "Warforged Titan",
+ "type": "Créature artificielle",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 20,
+ "hp": 125,
+ "hpFormula": "10d12+60",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 8,
+  "CON": 22,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Plateformes.** Le titan de guerre a deux plates-formes intégrées dans son châssis. Une créature moyenne ou plus petite peut monter sur chaque plate-forme sans serrer. Pour lancer une attaque en mêlée contre une cible de 1,50 m de la guerre, ils doivent utiliser des lances ou des armes à portée de main et la cible doit être grande ou plus grande.\n**Monstre de siège.** Le titan de guerre inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le titan forgé fait une attaque à la hache et une attaque à la marteaux.\n**Axée.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 19 (3d8 + 6) dégâts tranchants, plus 11 (2d10) dégâts tranchants si la cible est à terre.\n**Hammerfist.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 19 (3d8 + 6) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 17 jet de sauvegarde de Force ou être à terre.\n**Axe de balayage (Recharge 6).** Le titan warforged fait un balayage avec sa hache, et chaque créature dans 3 m de lui doit faire un DD 17 jet de sauvegarde de Dextérité. Une créature prend 19 (3d8 + 6) dégâts tranchants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Axée",
+   "bonus": 9,
+   "damage": "3d8+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Hammerfist",
+   "bonus": 9,
+   "damage": "3d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/fa31ff0e3c_monstre-warforged-titan.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

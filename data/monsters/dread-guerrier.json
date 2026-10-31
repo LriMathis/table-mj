@@ -1,0 +1,49 @@
+{
+ "id": "dread-guerrier",
+ "name": "Dread Warrior",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 18,
+ "hp": 37,
+ "hpFormula": "5d8+15",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun",
+ "traits": "**Fortitude non-morte.** Si les dégâts réduisent le guerrier à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5+ les dégâts pris, à moins que les dégâts soient rayonnants ou d'un coup critique. Sur un succès, le guerrier redouté tombe à 1 points de vie.",
+ "actionsText": "**Multiattaques.** Le guerrier redouté fait deux attaques à la mêlée.\n**Bataille.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants, ou 7 (1d10 + 2) dégâts tranchants si elle est maniée avec deux mains.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d18cd0d558_monstre-dread-guerrier.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Dread guerrier",
+ "caNote": "Courrier en chaîne, Bouclier",
+ "saves": "SAG +3",
+ "skills": "Athlétisme +4, Perception +3",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

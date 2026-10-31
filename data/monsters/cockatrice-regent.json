@@ -1,0 +1,46 @@
+{
+ "id": "cockatrice-regent",
+ "name": "Cockatrice Regent",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 16,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Volée.** La cockatrice ne provoque pas un Opportunity Attack quand il vole hors de la portée d'un ennemi.",
+ "actionsText": "**Multiattaques.** La cockatrice fait une attaque de Bite pétrifiante et deux attaques de Talons.\n**Bite pétrifiante.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts perforants. Si la cible est une créature, elle est soumise à l'effet suivant. Jet de sauvegarde de Constitution : DD 14. Échec de 1 ou plus : La cible a l'état entravé et répète l'enregistrement à la fin de son prochain tour si elle est toujours entravé, mettant fin à l'effet sur elle-même sur un succès. Échec de 2 ou plus : La cible a l'état pétrifié au lieu de l'état entravé.\n**Talons.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 18 (4d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bite pétrifiante",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Talons",
+   "bonus": 7,
+   "damage": "4d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f5aa7ec1c1_monstre-cockatrice-regent.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "saves": "SAG +6",
+ "conditionImmunities": "pétrifié",
+ "reactions": "**Clash magique.** Déclencheur : Une créature au sein de 36 m de la cockatrice lui inflige des dégâts. Réponse : Jet de sauvegarde de Dextérité : DD 14, la créature qui déclenche. Échec : 13 (3d6 + 3) dégâts de force."
+}

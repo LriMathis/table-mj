@@ -1,0 +1,39 @@
+{
+ "id": "main-rampante",
+ "name": "Main rampante",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre mauvais",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné, épuisé",
+ "senses": "vision aveugle 9 m (aveugle au-delà de cette distance), Perception passive 10",
+ "languages": "comprend le commun mais ne peut pas parler",
+ "traits": "**Immunité contre le renvoi.** La main rampante est immunisée contre les effets qui renvoient les morts-vivants.",
+ "actionsText": "**Griffe.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 3 (1d4+1) dégâts contondants ou tranchants (au choix de la main).",
+ "portrait": "/data/images/8a4e8657e9_monstre-main-rampante.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 211 · image : Manuel des monstres p. 210",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  }
+ ]
+}

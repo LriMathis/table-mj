@@ -1,0 +1,40 @@
+{
+ "id": "spellcaster-healer",
+ "name": "Spellcaster (Healer)",
+ "type": "Humanoïde (guérisseur)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 54,
+ "hpFormula": "12d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 15,
+  "SAG": 18,
+  "CHA": 13
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, plus un de votre choix",
+ "traits": "**Oreilles motorisées.** Chaque fois que l'épeautre jette un sort de l'école d'évocation en dépensant un emplacement de sort, l'épeautre peut ajouter son modificateur caractéristique d'incantation au jet de dégâts du sort ou, le cas échéant, au rouleau de guérison.\n**Potentiel sort mineur.** Le spellcaster peut ajouter son modificateur caractéristique d'incantation aux dégâts qu'il traite avec n'importe quel sort mineur.\n**(Healer).** caractéristique d'incantation est Sagesse (spell save DD 16, +8 au toucher avec attaques de sort). L'orthographe a les sorts clerc suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Lumière, Résistance, Flamme sacrée, Stabilisation\n- Niveau 1 (4 emplacements) : Bénédiction, Soins, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Aide, Restauration partielle\n- Niveau 3 (3 emplacements) : Protection contre une énergie, Retour à la vie\n- Niveau 4 (3 emplacements) : Bannissement, Protection contre la mort\n- Niveau 5 (2 emplacements) : Restauration supérieure, Soins de groupe\n- Niveau 6 (1 emplacements) : Guérison",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants, ou 4 (1d8) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 4,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8eae44df8a_monstre-spellcaster-healer.webp",
+ "notes": "",
+ "source": "Essentials Kit: Divine Contention (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "SAG +8",
+ "skills": "Arcanes +6, Investigation +6, Religion +6"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "epee-araignee",
+ "name": "Sword Spider",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 4
+ },
+ "senses": "Perception des vibrations 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Escalade des araignées.** L'araignée de l'épée peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sens du Web.** En contact avec une toile, l'araignée de l'épée connaît l'emplacement exact de toute autre créature en contact avec la même toile.\n**Web Walker.** L'araignée de l'épée ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** L'araignée de l'épée fait une attaque Bite et deux attaques Foreleg.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants, et la cible doit faire un DD 12 jet de sauvegarde de Constitution, en prenant 9 (2d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si le dégâts de poison réduit la cible à 0 points de vie, la cible est stable mais empoisonné pendant 1 heure, même après avoir récupéré points de vie, et a l'état paralysé alors qu'empoisonné de cette façon.\n**Précédant.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Précédant",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8be316e9a3_monstre-epee-araignee.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "aka": "Épée araignée",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +7"
+}

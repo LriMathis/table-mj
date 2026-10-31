@@ -1,0 +1,40 @@
+{
+ "id": "monastere-du-corps-distressed-moine",
+ "name": "Monastery of the Distressed Body Monk",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement non bon",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Dévotion sombre.** Le moine a un avantage sur jet de sauvegarde contre charmé ou effrayé.",
+ "actionsText": "**Armure à crochet.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants. Si la cible est une créature moyenne ou plus petite, c'est agrippé (évasion DD 10). Jusqu'à ce que ce grappin se termine, le moine ne peut pas utiliser son bras de mât sur une autre cible.",
+ "attacks": [
+  {
+   "name": "Armure à crochet",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/279ed5d258_monstre-monastere-du-corps-distressed-moine.webp",
+ "notes": "",
+ "source": "Lost Laboratory of Kwalish (5e.tools, traduction automatique)",
+ "aka": "Monastère du corps Distressed moine",
+ "caNote": "Armure en cuir",
+ "skills": "Tromperie +2, Religion +2"
+}

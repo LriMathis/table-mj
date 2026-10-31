@@ -1,0 +1,43 @@
+{
+ "id": "abjurer-archimage",
+ "name": "Abjurer Archmage",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 16,
+ "hp": 198,
+ "hpFormula": "36d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "Commun plus cinq autres langues",
+ "traits": "**Résistance magique.** L'arcade a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'arcade fait trois attaques d'Arcane Burst.\n**La Burst d'Arcane.** Jet d'attaque au corps à corps ou à distance : +10, allonge 1,50 m ou portée 45 m. Touché : 27 (4d10 + 5) dégâts de force.\n**Banishing Blast (Recharge 6).** Jet de sauvegarde de Charisme : DD 18, chaque créature dans un cône 18 m. Échec : 45 (10d8) dégâts de force, et la cible a l'état neutralisé et est transporté vers un demiplan inoffensif jusqu'au début du prochain virage de l'arcade, auquel point il réapparaît dans l'espace qu'il a laissé ou dans l'espace le plus proche inoccupé si cet espace est occupé. Réussite : Demi-dégâts seulement.\n**Détection orthographique.** L'archétype lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Verrou magique, Détection de la magie, Armure de mage (inclus dans CA), Main de mage, Prestidigitation\n- 1/jour chacun : Esprit impénétrable (châssé avant le combat), Téléportation\n- 2/jour chacun : Boule de feu (version de niveau 7), Antidétection, Sphère résiliente d'Otiluke",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 10,
+   "damage": "4d10+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/a2fd77fb73_monstre-abjurer-archimage.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "aka": "Abjurer archimage",
+ "skills": "Arcanes +15, Histoire +10, Perception +7",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé",
+ "bonusActions": "**Fortifier (Recharge 4-6).** L'archemage se renforce par magie. L'arcade gagne 40 points de vie temporaires.\n**Perturbation magique (2/jour).** L'arcade lance Dissipation de la magie ou Globe d'invulnérabilité en utilisant le même caractéristique d'incantation que Spellcasting.\n- 2/jour : Dissipation de la magie, Globe d'invulnérabilité",
+ "reactions": "**Contrepel (3/jour).** L'archmage lance Contresort en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Contresort"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "servante-de-spores-duergar",
+ "name": "Duergar Spore Servant",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 16,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "4,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Choix de guerre.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Choix de guerre",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d3580ee860_monstre-servante-de-spores-duergar.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Servante de spores duergar",
+ "caNote": "Courrier d'échelle, Bouclier",
+ "resistances": "poison",
+ "conditionImmunities": "aveuglé, charmé, effrayé, paralysé"
+}

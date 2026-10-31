@@ -1,0 +1,49 @@
+{
+ "id": "deces-geant-shrouded-un",
+ "name": "Death Giant Shrouded One",
+ "type": "Géant (magicien)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "tout alignement",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 12,
+ "hp": 195,
+ "hpFormula": "17d12+85",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 23,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "commun, géant",
+ "traits": "**Rune de la mort.** Le géant a une rune de mort inscrite sur le crâne d'un géant. Tout en tenant ou en portant le crâne portant la rune, le géant peut utiliser son action Reaping Scythe et le Linceul des âmes action bonus.\nLe crâne portant la rune de mort a CA 18; 35 points de vie ; et l'immunité à la nécrose, poison, et dégâts psychiques. Le crâne reprend tout son points de vie à la fin de chaque tour, mais il se transforme en poussière s'il est réduit à 0 points de vie ou quand le géant meurt. Si la rune est détruite, le géant peut inscrire une rune de mort sur un autre crâne en sa possession lorsqu'il termine une repos court ou long.",
+ "actionsText": "**Multiattaques.** Le géant fait trois attaques de Soul Burst. Sinon, si le géant a sa rune de mort, il peut faire trois attaques de Reaping Scythe.\n**Soul Burst.** Attaque de sort au corps à corps ou à distance : +11 au toucher, allonge 3 m ou portée 36 m, une cible. Touché : 28 (4d10 + 6) dégâts nécrotiques. Si la cible a l'état effrayé, le géant gagne points de vie temporaires égal aux dégâts infligés.\n**Récupérer Scythe (nécessite une rune de mort).** Attaque de sort au corps à corps : +11 au toucher, allonge 4,50 m, une créature. Touché : 38 (7d10) dégâts nécrotiques, et la cible ne peut retrouver points de vie qu'à la fin de son prochain tour. La cible meurt si elle est réduite à 0 points de vie par cette attaque.\n**Détection orthographique.** Le géant lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation :\n- À volonté : Détection de la magie, Armure de mage\n- 3/jour chacun : Communication avec les morts, Disque flottant de Tenser",
+ "attacks": [
+  {
+   "name": "Soul Burst",
+   "bonus": 11,
+   "damage": "4d10+6",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Récupérer Scythe (nécessite une rune de mort)",
+   "bonus": 11,
+   "damage": "7d10",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/64292be598_monstre-deces-geant-shrouded-un.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Décès géant Shrouded un",
+ "saves": "CON +10, INT +11, SAG +8, CHA +8",
+ "skills": "Arcanes +11, Perception +8, Discrétion +7",
+ "immunities": "nécrotique",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Épouvantable Téléport (Recharge 4-6).** Le géant téléporte magiquement, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 12 m dans un espace inoccupé qu'il peut voir. Chaque créature dans 3 m de l'emplacement le géant gauche doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'à la fin du prochain tour de la créature.\n**Linceul des âmes (nécessite la rune de la mort).** Le géant se cache dans un torrent d'âmes. Pendant que le géant est léché, chaque créature qui commence son tour au sein de 1,50 m du géant doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou avoir un désavantage sur jet de sauvegarde jusqu'à la fin du prochain tour de la créature. Le linceul disparaît après 1 minute, quand le géant meurt, quand le géant utilise à nouveau ce action bonus ou quand la rune de mort du géant est détruite."
+}

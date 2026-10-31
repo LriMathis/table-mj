@@ -1,0 +1,42 @@
+{
+ "id": "vampire-warden",
+ "name": "Vampire Warden",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 190,
+ "hpFormula": "21d8+96",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 20",
+ "languages": "commun",
+ "traits": "**Résistance magique.** Le vampire a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Faiblesse du vampire.** Le vampire a ces faiblesses :\n- **Interdiction** Le vampire ne peut entrer dans une résidence sans une invitation d'un occupant.\n- **Eau courante** Le vampire prend 20 dégâts d'acide s'il finit son tour dans l'eau courante.\n- **Attrapez le cœur** Si une arme qui traite dégâts perforants est jetée dans le cœur du vampire alors que le vampire a l'état neutralisé, le vampire a l'état paralysé jusqu'à ce que l'arme soit enlevée.\n- **Lumière solaire** Le vampire prend 20 dégâts radiants s'il commence son tour dans la lumière du soleil. En plein soleil, il présente un désavantage sur jets d'attaque et tests de caractéristique.\n- **Restauration immobile** Si le vampire tombe à 0 points de vie alors qu'il n'a pas l'état pétrifié, il se tourne vers la pierre, récupère 50 points de vie, et a l'état pétrifié pendant 1 heure.",
+ "actionsText": "**Multiattaques.** Le vampire fait deux attaques de griffe et utilise le commandement de Bite ou Guardian.\n**Griffe.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts tranchants plus 7 (2d6) dégâts nécrotiques. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 16) d'une des deux griffes.\n**Morceau.** Jet de sauvegarde de Constitution : DD 16, une créature dans 1,50 m qui est prêt ou qui a l'état agrippé, neutralisé, ou entravé. Échec : 7 (1d4 + 5) dégâts perforants plus 7 (2d6) dégâts nécrotiques. Le maximum de points de vie de la cible diminue d'un montant égal au dégâts nécrotiques pris, et le vampire récupère points de vie égal à ce montant.\n**Commandement du gardien.** Le vampire lance Compulsion, ne nécessitant pas de composants de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 15).\n- À volonté : Compulsion",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/0c5e4054af_monstre-vampire-warden.webp",
+ "notes": "",
+ "source": "Astarion's Book of Hungers (5e.tools, traduction automatique)",
+ "saves": "CON +8, SAG +6",
+ "skills": "Athlétisme +9, Perception +10",
+ "resistances": "nécrotique",
+ "conditionImmunities": "épuisement, effrayé",
+ "reactions": "**La chair résiliente.** Déclencheur : Le vampire est frappé par une melee jet d'attaque d'un attaquant que le vampire peut voir. Réponse : Le vampire réduit les dégâts qu'il prend de l'attaque de 11 (2d6 + 4)."
+}

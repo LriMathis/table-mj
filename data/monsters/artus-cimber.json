@@ -1,0 +1,47 @@
+{
+ "id": "artus-cimber",
+ "name": "Artus Cimber",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 14,
+ "hp": 82,
+ "hpFormula": "15d8+15",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 13,
+  "INT": 17,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, draconique, nain, gobelin",
+ "traits": "**Matériel spécial.** Artus porte l'Anneau d'hiver. Lui et la bague ne peuvent pas être ciblés par la magie de divination ou perçus par des capteurs magiques. Alors qu'il s'ajuste à l'anneau et le porte, Artus cesse de vieillir et est immunisé contre dégâts de froid et les effets du froid extrême.\nArtus possède Signet une dague +3 avec des propriétés magiques supplémentaires. En tant qu'action bonus, Artus peut activer l'une des propriétés suivantes tout en étant attelé au poignard, à condition qu'il ait l'arme tirée :\n- Faire en sorte qu'un bijou bleu placé dans le pommier de la dague apporte une lumière lumineuse dans un rayon de 6 m et une lumière faible pour un 6 m supplémentaire, ou faire en sorte que le bijou s'assombrisse.\n- Tournez la dague dans une boussole qui, tout en reposant sur votre paume, pointe vers le nord.\n- Lancez Porte dimensionnelle à partir du poignard. Une fois cette propriété utilisée, elle ne peut pas être utilisée à nouveau avant l'aube prochaine.\n- Lancez Compulsion (enregistrer DD 15) à partir du poignard. La portée du sort augmente à 27 m mais il cible uniquement les araignées qui sont des bêtes. Une fois cette propriété utilisée, elle ne peut pas être utilisée à nouveau avant l'aube prochaine.",
+ "actionsText": "**Multiattaques.** Artus fait trois attaques avec Signet ou sa longbow.\n**Signet (+3 poignard).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d4 + 5) dégâts perforants.\n**Longbow.** Attaque d'arme à distance : +5 au toucher, portée 45/180 m., une cible Touché : 6 (1d8 + 2) dégâts perforants.\n**Anneau d'hiver.** L'Anneau d'hiver a 12 charges et reprend toutes ses charges quotidiennes à l'aube. Tout en étant à l'écoute et en portant la bague, Artus peut dépenser le nombre de charges nécessaires pour activer l'une des propriétés suivantes:\n- Artus peut dépenser 1 charge et utiliser l'anneau pour abaisser la température dans une sphère 36 m -radius centrée sur un point qu'il peut voir au sein de 90 m de lui. La température dans cette zone chute de 20 degrés par minute, à un minimum de −30 degrés Fahrenheit. Le gel et la glace commencent à se former sur les surfaces une fois la température inférieure à 32 degrés. Cet effet est permanent à moins qu'Artus n'utilise l'anneau pour mettre fin à l'effet en tant qu'action, à ce moment-là la température dans la zone retourne à la normale à une vitesse de 10 degrés par minute.\n- Artus peut lancer l'un des sorts suivants depuis l'anneau (spell save DD 17) en dépensant le nombre nécessaire de charges: Main de Bigby (2 charges) la main est faite de glace, est immunisée contre dégâts de froid et traite dégâts contondants au lieu de dégâts de force comme un poing serré, Cône de froid (2 charges), chair à glace (3 charges); comme chair à pierre sauf que la cible se tourne vers la glace solide avec la densité et la durabilité de la pierre, Tempête de grêle (2 charges), Sphère glaciale d'Otiluke (3 charges), Tempête de neige (1 charge), Croissance d'épines (1 charge) les pics sont faits de glace, ou Mur de glace (2 charges).\n- Artus peut dépenser le nombre nécessaire de charges et utiliser l'anneau pour créer soit un objet de glace inanimé (2 charges) soit une créature de glace animée (4 charges). L'objet de glace ne peut pas avoir de parties mobiles, doit pouvoir s'insérer dans un cube 3 m et a la densité et la durabilité du métal ou de la pierre (le choix d'Artus). La créature de glace doit être modelée après une bête avec une cote de défi de 2 ou moins. La créature de glace a les mêmes statistiques que la bête qu'elle modélise, avec les changements suivants : la créature est une construction avec une vulnérabilité à dégâts de feu, l'immunité au froid et dégâts de poison, et l'immunité aux conditions suivantes : charmé, épuisement, effrayé, paralysé, pétrifié et empoisonné. La créature glacée n'obéit qu'aux commandements de son créateur. L'objet ou la créature apparaît dans un espace inoccupé au sein de 18 m d'Artus. Il fond dans un bassin d'eau normale après 24 heures ou quand il tombe à 0 points de vie. En chaleur extrême, il perd 5 (1d10) points de vie par minute à mesure qu'il fond. Utilisez les lignes directrices du chapitre 8 du Guide du MD pour déterminer le points de vie d'un objet inanimé s'il devient nécessaire.",
+ "attacks": [
+  {
+   "name": "Signet (+3 poignard)",
+   "bonus": 8,
+   "damage": "1d4+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 5,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/fbd4e817b5_monstre-artus-cimber.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +5, CHA +7",
+ "skills": "Tromperie +7, Histoire +9, Perspicacité +6, Survie +9",
+ "immunities": "En portant l'Anneau d'hiver : froid"
+}

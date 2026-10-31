@@ -1,0 +1,45 @@
+{
+ "id": "sylvanien",
+ "name": "Sylvanien",
+ "type": "Plante",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique bonne",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 8,
+  "CON": 21,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "vulnerabilities": "feu",
+ "resistances": "contondants, perforants",
+ "senses": "Perception passive 13",
+ "languages": "commun, druidique, elfique, sylvestre",
+ "traits": "**Monstre de siège.** Le sylvanien inflige des dégâts doublés aux objets et aux structures.",
+ "actionsText": "**Attaques multiples.** Le sylvanien effectue deux attaques de Coup.\n**Coup.** Corps à corps : +10, allonge 1,50 m. Touché : 16 (3d6 + 6) dégâts contondants.\n**Pluie d’écorce.** À distance : +10, portée 54 m. Touché : 28 (4d10 + 6) dégâts perforants.\n**Animation des arbres (1/jour).** Le sylvanien anime magiquement un ou deux arbres qu’il voit dans un rayon de 18 m. Chaque arbre reprend le profil du **sylvanien**, si ce n’est que ses valeurs d’Intelligence et de Charisme sont de 1, qu’il ne parle pas et ne dispose pas de la présente action. L’arbre joue son tour juste après le sylvanien, au même rang d’initiative, et obéit à celui-ci. Cette animation dure 1 jour, mais prend fin prématurément si l’arbre ou le sylvanien meurt, ou si les deux se retrouvent éloignés de plus de 36 m. L’arbre prend alors racine, si possible.",
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 10,
+   "damage": "3d6+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Pluie d’écorce",
+   "bonus": 10,
+   "damage": "4d10+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d448f7ad8f_monstre-sylvanien.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 278"
+}

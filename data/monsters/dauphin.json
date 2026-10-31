@@ -1,0 +1,40 @@
+{
+ "id": "dauphin",
+ "name": "Dolphin",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "0 m, nage 18 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 13,
+  "CON": 13,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Maintenez votre souffle.** Le dauphin peut retenir son souffle pendant 20 minutes.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants. Si le dauphin a déplacé au moins 9 m droit vers la cible immédiatement avant le coup, la cible prend un 3 (1d6) dégâts contondants supplémentaire.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/24c88678d2_monstre-dauphin.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Dauphin",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3"
+}

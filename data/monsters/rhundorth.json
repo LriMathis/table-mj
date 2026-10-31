@@ -1,0 +1,38 @@
+{
+ "id": "rhundorth",
+ "name": "Rhundorth",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 11,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Marteau de guerre.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 4) dégâts contondants, ou 10 (1d10 + 4) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Marteau de guerre",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f3e76ee910_monstre-rhundorth.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "skills": "Perception +2"
+}

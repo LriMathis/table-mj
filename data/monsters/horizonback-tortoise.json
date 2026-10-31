@@ -1,0 +1,41 @@
+{
+ "id": "horizonback-tortoise",
+ "name": "Horizonback Tortoise",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 227,
+ "hpFormula": "13d20+91",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 3,
+  "CON": 25,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "C'est Goblin qui comprend, mais il ne peut pas parler.",
+ "traits": "**Amphibie.** La tortue peut respirer l'air et l'eau.\n**Cadre massif.** La tortue peut porter jusqu'à 10000 kg de poids au sommet de sa coquille, mais se déplace à la moitié de la vitesse si le poids dépasse 5000 kg. Des créatures moyennes ou plus petites peuvent se déplacer sous la tortue alors que ce n'est pas à terre.\nToute créature sous la tortue lorsqu'elle tombe à terre est agrippé (évasion DD 18). Jusqu'à la fin du grappin, la créature est à terre et entravé.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 28 (3d12 + 9) dégâts contondants.\n**Shell Defense (Recharge 4-6).** La tortue se retire dans sa coquille, tombe à terre, et gagne un bonus de +5 à CA. Alors que la tortue est dans sa coquille, sa vitesse est 0 et ne peut pas augmenter. La tortue peut émerger de sa coquille comme une action, alors elle n'est plus à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "3d12+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/a925ac90e6_monstre-horizonback-tortoise.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +12, CON +10",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

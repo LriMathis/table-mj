@@ -1,0 +1,48 @@
+{
+ "id": "givre-druide",
+ "name": "Frost Druid",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "12 m (forme de loup seulement), creusement 1,50 m (Le renard seul), escalade 9 m (forme de chèvre seulement), vol 18 m (Formulaire uniquement)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m (beast form only), Perception passive 16",
+ "languages": "commun, druidique",
+ "traits": "**Diffusion orthographique (Forme humaine seulement).** Le druid est un spellcaster de niveau 9. Son caractéristique d'incantation est Sagesse (save spell DD 14 ; +6 au toucher avec attaques de sort). Il a les sorts druides suivants préparés:\n- Sorts mineurs (à volonté) : Druidisme, Assistance, Résistance\n- Niveau 1 (4 emplacements) : Amitié avec les animaux, Nappe de brouillard, Communication avec les animaux\n- Niveau 2 (3 emplacements) : Messager animal, Rayon de lune, Passage sans trace\n- Niveau 3 (3 emplacements) : Invocation d'animaux, Tempête de neige, Mur de vent\n- Niveau 4 (3 emplacements) : Terrain hallucinatoire, Tempête de grêle\n- Niveau 5 (1 emplacements) : Éveil",
+ "actionsText": "**Multiattaques.** La druide fait deux attaques à la mêlée.\n**Drépanocytose (forme humaine seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts tranchants plus 5 (2d4) dégâts de froid.\n**Maul (Forme de bête seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.\n**Modifier la forme.** Le druide se polymorphe magiquement en une forme de bête — Renard, Montagne chèvre, Chouette, ou Loup — ou de retour dans sa forme humanoïde. Tout équipement qu'il porte ou qu'il porte est absorbé ou porté par la forme de la bête (le choix de la druide). Il revient à sa forme humanoïde quand il meurt. Les statistiques de la druide sont les mêmes dans chaque forme, sauf si elles sont notées dans ce bloc de statistiques.",
+ "attacks": [
+  {
+   "name": "Drépanocytose (forme humaine seulement)",
+   "bonus": 4,
+   "damage": "1d4+1",
+   "type": "tranchant + froid"
+  },
+  {
+   "name": "Maul (Forme de bête seulement)",
+   "bonus": 4,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/88199ad134_monstre-givre-druide.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Givre druide",
+ "caNote": "Cache l'armure",
+ "saves": "INT +3, SAG +6",
+ "skills": "Nature +3, Perception +6, Survie +6",
+ "resistances": "froid"
+}

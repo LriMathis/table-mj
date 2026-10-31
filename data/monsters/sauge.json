@@ -1,0 +1,40 @@
+{
+ "id": "sauge",
+ "name": "Sage",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 10,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Perception passive 12",
+ "languages": "Commun plus quatre langues",
+ "traits": "",
+ "actionsText": "**Gras de scoop (sort mineur).** Attaque de sort au corps à corps : +6 au toucher (avec avantage si la cible porte une armure en métal), allonge 1,50 m, une créature. Touché : 9 (2d8) dégâts de foudre, et la cible ne peut pas prendre de réactions avant le début de son prochain tour.\n**Détection orthographique.** La sauge lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (save DD 14, +6 au toucher avec attaques de sort) :\n- À volonté : Lumière, Main de mage, Réparation, Poigne électrique\n- 1/jour chacun : Dissipation de la magie, Lévitation, Localisation d'objet, Voir l'invisible, Communication à distance, Don des langues, Serviteur invisible\n- 3/jour chacun : Compréhension des langues, Détection de la magie, Identification, Bouclier",
+ "attacks": [
+  {
+   "name": "Gras de scoop (sort mineur)",
+   "bonus": 6,
+   "damage": "2d8",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/2bc2c311b1_monstre-sauge.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Sauge",
+ "skills": "Arcanes +8, Histoire +8, Perspicacité +4, Investigation +8, Médecine +6, Nature +8, Religion +8",
+ "reactions": "**Bouclier (de niveau 1 Spell; 3 jours).** Lorsque la sauge est touchée par une attaque ou ciblée par un sort Projectile magique, elle appelle une barrière invisible de force magique qui la protège. Jusqu'au début de son prochain tour, la sauge a un bonus de +5 à CA, y compris contre l'attaque de déclenchement, et il ne prend aucun dégâts du missile magique."
+}

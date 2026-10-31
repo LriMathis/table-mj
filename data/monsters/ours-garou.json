@@ -1,0 +1,51 @@
+{
+ "id": "ours-garou",
+ "name": "Ours-garou",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre bonne",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 135,
+ "hpFormula": "18d8+54",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "skills": "Perception +7",
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "commun (ne peut pas parler sous forme d’ours)",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** L’ours-garou effectue deux attaques, réparties à sa guise entre Hachette et Saignée. Il peut en remplacer une par une attaque de Morsure.\n**Hachette (forme humanoïde ou hybride uniquement).** Corps à corps ou à distance : +7, allonge 1,50 m ou portée 6/18 m. Touché : 14 (3d6 + 4) dégâts tranchants.\n**Morsure (forme d’ours ou hybride uniquement).** Corps à corps : +7, allonge 1,50 m. Touché : 17 (2d12 + 4) dégâts perforants. Si la cible est un Humanoïde, elle est soumise à l’effet suivant. JS Constitution : DD 14. Échec : la cible est maudite. Si la cible maudite tombe à 0 point de vie, elle se retrouve en fait à 10 pv et devient un ours-garou sous le contrôle du MJ. Réussite : la cible est immunisée contre la malédiction de cet ours-garou pendant 24 heures.\n**Saignée (forme d’ours ou hybride uniquement).** Corps à corps : +7, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts tranchants.",
+ "bonusActions": "**Changement d’aspect.** L’ours-garou se transforme en hybride ours-humanoïde de taille G ou en ours de taille G, ou bien retrouve sa forme véritable d’humanoïde. En dehors de sa catégorie de taille, son profil reste le même, quelle que soit la forme. Rien de ce qu’il porte n’est transformé.",
+ "attacks": [
+  {
+   "name": "Hachette (forme humanoïde ou hybride uniquement)",
+   "bonus": 7,
+   "damage": "3d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure (forme d’ours ou hybride uniquement)",
+   "bonus": 7,
+   "damage": "2d12+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Saignée (forme d’ours ou hybride uniquement)",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1ab5dc277a_monstre-ours-garou.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 207"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "awakened-ours-brun",
+ "name": "Awakened Brown Bear",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 34,
+ "hpFormula": "4d10+12",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 7
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** L'ours a l'avantage sur tests de Sagesse (Perception) qui dépendent de l'odeur.",
+ "actionsText": "**Multiattaques.** L'ours fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/4ba7d74d77_monstre-awakened-ours-brun.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Awakened ours brun",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3"
+}

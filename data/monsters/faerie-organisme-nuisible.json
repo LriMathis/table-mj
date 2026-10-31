@@ -1,0 +1,41 @@
+{
+ "id": "faerie-organisme-nuisible",
+ "name": "Faerie Pest",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 22,
+ "hpFormula": "5d6+5",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, sylvestre",
+ "traits": "",
+ "actionsText": "**Lame à clin d'œil.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants plus 5 (2d4) dégâts de poison. Si la faérie avait un avantage sur le jet d'attaque, la cible prend un 3 (1d6) dégâts tranchants supplémentaire.\n**Vol de Nerves (1/jour).** La féerie déclenche une explosion de magie dans un cône 4,50 m. Chaque créature dans cette zone doit réussir sur un DD 12 jet de sauvegarde d'Intelligence ou avoir l'état effrayé pendant 1 minute. Une créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** La faerie lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 12) :\n- 1/jour : Cécité/Surdité\n- 2/jour chacun : Fléau, Graisse",
+ "attacks": [
+  {
+   "name": "Lame à clin d'œil",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/a25ac5fad0_monstre-faerie-organisme-nuisible.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Faerie organisme nuisible",
+ "caNote": "Armure en cuir",
+ "skills": "Perception +3, Discrétion +7",
+ "bonusActions": "**Volée malchanceuse.** La faérie prend l'action Se cacher."
+}

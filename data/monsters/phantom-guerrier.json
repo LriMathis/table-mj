@@ -1,0 +1,42 @@
+{
+ "id": "phantom-guerrier",
+ "name": "Phantom Warrior",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Vue éthérée.** Le guerrier fantôme peut voir 18 m dans l'avion éthéré quand il est sur l'avion matériel, et vice versa.\n**Mouvement intégré.** Le guerrier fantôme peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Armure spectrale et bouclier.** Le CA du guerrier fantôme explique son armure spectrale et son bouclier.",
+ "actionsText": "**Multiattaques.** Le guerrier fantôme fait deux attaques avec sa longue épée spectrale.\n**Épée spectrale.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts de force.\n**Éthérité.** Le guerrier fantôme entre dans le Plan éthéré du Plan matériel, ou vice versa. Il est visible sur l'avion matériel alors qu'il est dans l'éthéré frontalier, et vice versa, mais il ne peut pas affecter ou être affecté par rien sur l'autre plan.",
+ "attacks": [
+  {
+   "name": "Épée spectrale",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/21e4264327_monstre-phantom-guerrier.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Phantom guerrier",
+ "skills": "Perception +2, Discrétion +4",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

@@ -1,0 +1,49 @@
+{
+ "id": "robot-keg",
+ "name": "Keg Robot",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Stockage personnalisable.** Un robot de fût peut contenir jusqu'à trois types de charge utile liquide totalisant 12 gallons dans son corps creux en forme de barillet. Un robot plein de fût peut faire une attaque liquide par gallon avant que le liquide doit être rempli. Le remplissage d'un robot de fût prend 2 tours par gallon. Des charges utiles différentes peuvent modifier les attaques du robot de fût de celles présentées ici.",
+ "actionsText": "**Fist.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants.\n**acide Squirt.** Attaque d'arme à distance : +5 au toucher, portée 6/12 m., une cible. Touché : 7 (1d8 + 3) dégâts d'acide.\n**Douche de bière.** Le robot de fût lance une bière naturellement puissante dans un cône 4,50 m ou dans une ligne 9 m large. Chaque créature de la zone doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné. Alors qu'empoisonné de cette façon, une créature a sa vitesse diminuée par l'exposition à la brasseur puissante. Une créature affectée peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\nDe plus, la douche à bière éteint tout feu ou flammes dans sa région.\n**Vaporisateur à huile chaude (Recharge 5-6).** Le robot de fût pulvérise de l'huile chaude dans un cône 4,50 m ou dans une ligne 9 m large. Chaque créature de la zone doit faire un DD 13 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 7 (1d8 + 3) dégâts de feu et tombe à terre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et ne tombe pas à terre.\nToute créature affectée par le spray à l'huile chaude qui prend dégâts de feu avant que l'huile sèche (après 1 minute) prend un 3 (1d6) dégâts de feu supplémentaire, et l'huile brûle.\nSi l'huile qui reste dans la zone du spray est allumée, il brûle pour les tours 1d4 et distribue 3 (1d6) dégâts de feu à toute créature qui entre dans la zone pour la première fois sur un tour ou y termine son tour.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "acide Squirt",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/47d85bd2fa_monstre-robot-keg.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "aka": "Robot Keg",
+ "caNote": "armure naturelle",
+ "skills": "Perception +1",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

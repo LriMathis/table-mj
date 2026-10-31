@@ -1,0 +1,37 @@
+{
+ "id": "gammon-xungoon",
+ "name": "Gammon Xungoon",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 4,
+ "hpFormula": "1d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Club.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5b42175ce5_monstre-gammon-xungoon.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)"
+}

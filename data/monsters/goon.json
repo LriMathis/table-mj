@@ -1,0 +1,38 @@
+{
+ "id": "goon",
+ "name": "Goon",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Goon Grit.** Le goon a l'avantage sur jet de sauvegarde contre le fait d'être charmé, intimidé ou persuadé.",
+ "actionsText": "**Scimitar.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/403593454e_monstre-goon.webp",
+ "notes": "",
+ "source": "NERDS Restoring Harmony: A Sticky Situation (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir"
+}

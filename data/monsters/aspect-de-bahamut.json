@@ -1,0 +1,57 @@
+{
+ "id": "aspect-de-bahamut",
+ "name": "Aspect of Bahamut",
+ "type": "Dragon (métallique)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal bon",
+ "cr": "30",
+ "xp": 155000,
+ "ca": 23,
+ "hp": 585,
+ "hpFormula": "30d20+270",
+ "vitesse": "18 m, creusement 18 m, vol 36 m, nage 18 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 18,
+  "CON": 29,
+  "INT": 25,
+  "SAG": 28,
+  "CHA": 30
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 28",
+ "languages": "commun, draconique",
+ "traits": "**Brilliance platine (recharge après un repos court ou long).** Si l'aspect est réduit à 0 points de vie, son total actuel de points de vie se réinitialise à la place à 500 points de vie, il recharge son arme respiratoire, et il retrouve toute utilisation dépensée de la résistance légendaire. En outre, l'aspect peut maintenant utiliser les options dans la section « Actions Mythiques » pendant 1 heure. Attribuer à un parti un montant supplémentaire de 155,000 XP (310 000 XP au total) pour avoir vaincu l'aspect de Bahamut après l'activation de son Platinum Brilliance.\n**Résistance légendaire (5/jour).** Si l'aspect échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** L'aspect fait une attaque Bite, une attaque Claw, et une attaque Tail.\n**Morceau.** Attaque d'arme au corps à corps : +19 au toucher, allonge 6 m, une cible. Touché : 23 (2d12 + 10) dégâts perforants plus 22 (4d10) dégâts de force.\n**Griffe.** Attaque d'arme au corps à corps : +19 au toucher, allonge 4,50 m, une cible. Touché : 21 (2d10 + 10) dégâts tranchants. Si la cible est une créature Énorme ou plus petite, elle est agrippé (évasion DD 20) et entravé jusqu'à ce que ce grappin se termine. L'aspect peut avoir seulement une créature agrippé de cette façon à la fois.\n**Queue.** Attaque d'arme au corps à corps : +19 au toucher, allonge 4,50 m, une cible. Touché : 23 (2d12 + 10) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 27 jet de sauvegarde de Force ou être à terre.\n**Arme respiratoire (Recharge 5-6).** L'aspect utilise l'une des armes respiratoires suivantes:\n- **Respiration exaltante** L'aspect exhale les vents de restauration du mont Celestia dans un cône 90 m. Chaque créature dans cette zone du choix de l'aspect retrouve 71 (13d10) points de vie, et chaque créature dans cette zone du choix de l'aspect qui a été mort pendant pas plus d'une heure est restaurée à la vie avec tout son points de vie.\n- **Respiration de platine** L'aspect exhale des flammes de platine rayonnantes dans un cône 90 m. Chaque créature dans cette zone doit faire un DD 26 jet de sauvegarde de Dextérité, en prenant 66 (12d10) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 19,
+   "damage": "2d12+10",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 19,
+   "damage": "2d10+10",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 19,
+   "damage": "2d12+10",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4d3bd71809_monstre-aspect-de-bahamut.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Aspect de Bahamut",
+ "caNote": "armure naturelle",
+ "saves": "CON +18, INT +16, SAG +18, CHA +19",
+ "skills": "Perspicacité +18, Perception +18, Persuasion +19",
+ "immunities": "acide, froid, feu, foudre, radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, assourdi, effrayé, paralysé, étourdi",
+ "bonusActions": "**Modifier la forme.** L'aspect se transforme magiquement en un Humanoïde ou Bête, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si l'aspect est réduit à 0 points de vie ou s'il utilise un action bonus pour y mettre fin.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, aspect de bahamut peut entreprendre l'une des actions ci-après.\n**Attaque.** L'aspect fait une attaque de Griffe ou de Tail.\n**Bite furieuse (coûts 2 actions).** L'aspect fait une attaque Bite. Si l'attaque frappe une créature, la cible doit réussir sur un DD 27 jet de sauvegarde de Sagesse ou devenir effrayé de l'aspect jusqu'à la fin du prochain tour de la cible.\n**Actions mythiques.**\n**Bouclier céleste (coûts 2 actions).** L'aspect manifeste sept anciens dragons d'or spectraux autour de lui qui le protègent ; il gagne 77 points de vie temporaires jusqu'au début de son prochain tour.\n**Lances célestes (coûts 3 actions).** L'aspect évoque quatre énormes lances de force magique qui s'effondrent au sol à quatre points différents qu'il peut voir au sein de 45 m de lui et puis disparaître. Chaque créature dans un 6 m -radius, 30 m -haut cylindre centré sur chaque point doit réussir sur un DD 27 jet de sauvegarde de Dextérité ou prendre 24 (7d6) dégâts de force. Une créature dans la zone de plus d'une lance n'est affectée qu'une seule fois."
+}

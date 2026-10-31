@@ -1,0 +1,48 @@
+{
+ "id": "kalaraq-quori",
+ "name": "Kalaraq Quori",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 18,
+ "hp": 161,
+ "hpFormula": "19d8+76",
+ "vitesse": "9 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 21,
+  "CON": 18,
+  "INT": 23,
+  "SAG": 24,
+  "CHA": 25
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 23",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Vision globale.** Le quori ne peut pas être surpris alors que ce n'est pas neutralisé.\n**Mouvement intégré.** Le quori peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance magique.** Le quori a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**La diffusion de l'orthographe innée (Psioniques).** caractéristique d'incantation du quori est Charisme (spell save DD 21, +13 au toucher with attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Oeil magique\n- 3/jour chacun : Clairvoyance, Confusion, Songe, Mauvais oeil",
+ "actionsText": "**Multiattaques.** Le quori fait deux attaques de l'âme. Alternativement, il peut faire quatre attaques avec Arcane Blast.\n**Blast d'arcane.** Attaque de sort à distance : +13 au toucher, portée 36 m, une cible. Touché : 12 (1d10 + 7) dégâts de force.\n**La liaison de l'âme.** Attaque de sort au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 29 (4d10 + 7) dégâts nécrotiques. Une créature réduite à 0 points de vie de cette attaque meurt et a son âme emprisonnée dans l'un des yeux du quori. La cible ne peut être ravivée par aucun moyen à l'écart d'un sort Souhait jusqu'à ce que le quori soit détruit.\n**Semence mentale (1/jour).** Le quori touche un humanoïde, qui doit réussir sur un DD 21 jet de sauvegarde d'Intelligence ou être maudit. La malédiction dure jusqu'à ce qu'elle soit enlevée par une malédiction ou un sort Restauration supérieure.\nLa cible maudite souffre d'un niveau d'épuisement toutes les 24 heures, et terminer un repos long ne réduit pas son épuisement. Si la cible maudite atteint le niveau 6 d'épuisement, elle ne meurt pas; elle devient plutôt un battement sous le contrôle du quori, et toute sa épuisement est retirée. Seul le sort Souhait peut libérer la thrall de ce contrôle.\n**Sourire des yeux (Recharge 6).** Le quori crée un essaim d'yeux spectraux qui remplit une sphère 9 m -radius centrée sur un point qu'il peut voir à l'intérieur de 18 m. Chaque créature dans cette zone doit faire un DD 21 jet de sauvegarde de Sagesse. En cas d'échec, une créature prend 45 (10d8) dégâts psychiques, et c'est aveuglé pendant 1 minute. Sur un succès, une créature prend la moitié de ces dégâts et n'est pas aveuglé. Une créature aveuglé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Possession (Recharge 6).** Un humanoïde que le quori peut voir à l'intérieur de 1,50 m de lui doit réussir sur un DD 21 jet de sauvegarde de Charisme ou être possédé par le quori; le quori disparaît alors, et la cible est neutralisé et perd le contrôle de son corps. Le quori contrôle maintenant le corps mais ne prive pas la cible de la conscience. Le quori ne peut être ciblé par aucun effet d'attaque, sort, ou autre, et il conserve son alignement, Intelligence, Sagesse, Charisme, et l'immunité à être charmé et effrayé. Il utilise les statistiques de la cible possédée, mais n'a pas accès aux connaissances, aux fonctionnalités de classe ou aux compétences de la cible.\nLa possession dure jusqu'à ce que le corps tombe à 0 points de vie, le quori la termine comme un action bonus, ou le quori est forcé par un effet comme le sort Dissipation du mal et du bien. Lorsque la possession prend fin, le quori réapparaît dans un espace inoccupé à l'intérieur de 1,50 m du corps. La cible est à l'abri de la possession de ce quori pendant 24 heures après avoir réussi sur le jet de sauvegarde ou après la fin de la possession.",
+ "attacks": [
+  {
+   "name": "Blast d'arcane",
+   "bonus": 13,
+   "damage": "1d10+7",
+   "type": "force"
+  },
+  {
+   "name": "La liaison de l'âme",
+   "bonus": 13,
+   "damage": "4d10+7",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/b2e4608a48_monstre-kalaraq-quori.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +12, SAG +13, CHA +13",
+ "skills": "Tromperie +13, Perception +13, Persuasion +13",
+ "resistances": "froid, nécrotique, poison, psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "aveuglé, charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, à terre, entravé"
+}

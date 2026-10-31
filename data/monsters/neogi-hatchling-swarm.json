@@ -1,0 +1,39 @@
+{
+ "id": "neogi-hatchling-swarm",
+ "name": "Neogi Hatchling Swarm",
+ "type": "Nuée de taille très petite (Aberration)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 11,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Escalade des araignées.** L'essaim peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un nouveau-né minuscule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Swarm de morses.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une créature. Touché : 22 (6d6 + 1) dégâts de poison, ou 11 (3d6 + 1) dégâts de poison si l'essaim a la moitié de son points de vie ou moins, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 minute. Une cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Swarm de morses",
+   "bonus": 3,
+   "damage": "6d6+1",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/3348e1b385_monstre-neogi-hatchling-swarm.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

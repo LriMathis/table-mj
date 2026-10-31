@@ -1,0 +1,44 @@
+{
+ "id": "githyanki-commandant-supreme",
+ "name": "Githyanki Supreme Commander",
+ "type": "Humanoïde (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 18,
+ "hp": 187,
+ "hpFormula": "22d8+88",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 17,
+  "CON": 18,
+  "INT": 16,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Perception passive 18",
+ "languages": "gith",
+ "traits": "**Résistance légendaire (3/jour).** Si le githyanki échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le githyanki fait deux attaques Silver Greatsword.\n**Grandes paroles d'argent.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d6 + 7) dégâts tranchants plus 17 (5d6) dégâts psychiques. Sur un coup critique contre une cible dans un corps astral (comme avec le sort Projection astrale), le githyanki peut couper le cordon argenté qui attache la cible à son corps matériel, au lieu d'infliger des dégâts.\n**Coulisse (Psioniques).** Le githyanki lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Main de mage (la main est invisible)\n- 1/jour chacun : Main de Bigby, Suggestion de groupe, Changement de plan, Télékinésie\n- 3/jour chacun : Lévitation (autoseulement), Antidétection (autoseulement)",
+ "attacks": [
+  {
+   "name": "Grandes paroles d'argent",
+   "bonus": 12,
+   "damage": "2d6+7",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/e7d5e98ecd_monstre-githyanki-commandant-supreme.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Githyanki commandant suprême",
+ "caNote": "plaque",
+ "saves": "CON +9, INT +8, SAG +8",
+ "skills": "Intimidation +9, Perception +8",
+ "bonusActions": "**Étape astrale.** Les téléports githyanki, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir.",
+ "reactions": "**Parry.** Le githyanki ajoute 5 à sa CA contre une attaque à la mêlée qui la frapperait. Pour ce faire, les githyankis doivent voir l'agresseur et manier une arme à la mêlée.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, githyanki commandant suprême peut entreprendre l'une des actions ci-après.\n**Commandez Allié.** Le githyanki cible un allié qu'il peut voir dans 9 m de lui. Si la cible peut voir ou entendre le githyanki, la cible peut faire une attaque d'arme à l'aide de sa réaction, si disponible, et a un avantage sur le jet d'attaque.\n**Attaque (2 actions).** Le githyanki fait une attaque Silver Greatsword."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "shattered-echo",
+ "name": "Shattered Echo",
+ "type": "Créature artificielle",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "Commun plus une autre langue",
+ "traits": "**Formulaire immuable.** L'écho ne peut pas changer de forme.\n**Mimétisme.** L'écho peut imiter des voix. Une créature qui entend le son peut dire qu'il est une imitation seulement avec un succès DD 10 test de Sagesse (Perspicacité).",
+ "actionsText": "**Multiattaques.** L'écho fait deux attaques de Slam.\n**Clamer.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 15 (2d10 + 4) dégâts contondants.\n**Cri sur terre (Recharge 6).** Jet de sauvegarde de Constitution : DD 13, chaque créature du choix de l'écho dans 9 m. Échec : 9 (2d8) dégâts de tonnerre, et la créature a l'état assourdi jusqu'au début du prochain tour de l'écho. Alors qu'assourdi, la créature a également l'état effrayé.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 6,
+   "damage": "2d10+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/aef412b612_monstre-shattered-echo.webp",
+ "notes": "",
+ "source": "Project_Lamordia (5e.tools, traduction automatique)",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Auto-préservation automatisée.** L'écho prend l'action Dash ou Désengagement."
+}

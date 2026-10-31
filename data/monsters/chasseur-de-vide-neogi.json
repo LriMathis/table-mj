@@ -1,0 +1,54 @@
+{
+ "id": "chasseur-de-vide-neogi",
+ "name": "Neogi Void Hunter",
+ "type": "Aberration (occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "commun, profond, télépathie 9 m, commun des profondeurs",
+ "traits": "**La vue du diable.** Les ténèbres magiques n'entravent pas la vision sombre du néogi.\n**Fortitude mentale.** Le néogi a un avantage sur jet de sauvegarde contre charmé ou effrayé, et la magie ne peut pas endormir le néogi.\n**Escalade des araignées.** Le néogi peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Le néogi fait une attaque Bite et deux attaques Claw, ou il fait deux attaques Eldritch Bolt.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 14 (4d6) dégâts de poison, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 minute. Une cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants.\n**Bouchon d'Eldritch.** Attaque de sort à distance : +6 au toucher, portée 36 m, une créature. Touché : 20 (3d10 + 4) dégâts de force.\n**Détection orthographique.** Le néogi lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation :\n- 1/jour chacun : Porte dimensionnelle, Invisibilité",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Bouchon d'Eldritch",
+   "bonus": 6,
+   "damage": "3d10+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/7978058141_monstre-chasseur-de-vide-neogi.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Chasseur de vide Neogi",
+ "caNote": "armure naturelle",
+ "saves": "SAG +3, CHA +6",
+ "skills": "Arcanes +5, Tromperie +6, Intimidation +6, Perception +3, Persuasion +6",
+ "bonusActions": "**Enslave (Recharge après un repos court ou long).** Le néogi cible une créature il peut voir en lui-même 9 m. La cible doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être magiquement charmé par le néogi pendant 1 jour, ou jusqu'à ce que le néogi meurt ou soit plus que 1,5 km de la cible. La cible charmé obéit aux commandes du néogi et ne peut pas prendre de réactions, et le néogi et la cible peuvent communiquer télépathiquement entre eux à une distance allant jusqu'à 1,5 km. Chaque fois que la cible charmé prend des dégâts, elle peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès."
+}

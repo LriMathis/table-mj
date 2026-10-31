@@ -1,0 +1,46 @@
+{
+ "id": "caldron-magen",
+ "name": "Caldron Magen",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 20,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "comprend Common plus deux autres langues mais ne peut pas parler",
+ "traits": "**Désintégration.** Si le mage meurt, il se désintègre en poussière, laissant derrière lui tout ce qu'il portait ou transportait.\n**Résistance magique.** Le magen a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le magen fait deux attaques, en utilisant Extended Fist ou acide Spittle dans n'importe quelle combinaison.\n**Fist prolongée.** Jet d'attaque au corps à corps : +6, allonge 4,50 m. Touché : 8 (1d8 + 4) dégâts contondants plus 5 (1d10) dégâts d'acide. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 14) à partir d'un des deux poings.\n**acide Éprouvette.** Jet d'attaque à distance : +6, portée 18 m. Touché : 13 (2d8 + 4) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Fist prolongée",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "contondant + acide"
+  },
+  {
+   "name": "acide Éprouvette",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/75282be3c4_monstre-caldron-magen.webp",
+ "notes": "",
+ "source": "Netheril's Fall (5e.tools, traduction automatique)",
+ "skills": "Perception +4",
+ "immunities": "acide, poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

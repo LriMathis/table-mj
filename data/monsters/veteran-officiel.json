@@ -1,0 +1,45 @@
+{
+ "id": "veteran-officiel",
+ "name": "Vétéran",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "skills": "Athlétisme +5, Perception +2",
+ "senses": "Perception passive 12",
+ "languages": "commun et une autre langue",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le soldat effectue deux attaques d’Épée à deux mains ou d’Arbalète lourde.\n**Épée à deux mains.** Corps à corps : +5, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts tranchants.\n**Arbalète lourde.** À distance : +3, portée 30/120 m. Touché : 12 (2d10 + 1) dégâts perforants.",
+ "reactions": "**Parade.** Déclencheur : le soldat est touché par un jet d’attaque de corps à corps alors qu’il tient une arme. Conséquences : le soldat ajoute 2 à sa CA contre cette attaque, ce qui peut la faire rater.",
+ "attacks": [
+  {
+   "name": "Épée à deux mains",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Arbalète lourde",
+   "bonus": 3,
+   "damage": "2d10+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/00e7c5a387_monstre-veteran-officiel.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

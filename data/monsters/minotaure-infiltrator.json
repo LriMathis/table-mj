@@ -1,0 +1,47 @@
+{
+ "id": "minotaure-infiltrator",
+ "name": "Minotaur Infiltrator",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "abyssal, commun",
+ "traits": "**Rappel de Labyrinthine.** Le minotaure peut parfaitement se rappeler n'importe quel chemin qu'il a parcouru.",
+ "actionsText": "**Gore.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants, ou 13 (2d8 + 4) dégâts perforants pendant l'agrandissement. Si le minotaur a déplacé au moins 3 m droit vers la cible immédiatement avant qu'il ne frappe, la cible prend un 4 (1d8) dégâts perforants supplémentaire, ou 9 (2d8) dégâts perforants si le minotaur est agrandi. Si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Force ou être poussée jusqu'à 3 m du minotaur et avoir l'état à terre.\n**Attaque.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 10 (1d12 + 4) dégâts contondants, ou 17 (2d12 + 4) dégâts contondants pendant l'agrandissement. Si la cible est une créature et que le minotaur est agrandi, la cible doit réussir sur un DD 14 jet de sauvegarde de Force ou avoir l'état à terre.\n**agrandir (recharges après un repos court ou long).** Pendant 1 minute, le minotaure augmente de façon magique en taille, avec tout ce qu'il porte ou porte. Bien qu'agrandi, le minotaur est grand, double ses dés de dégâts sur les attaques d'armes à base de Force (inclus dans les attaques), et rend tests de Force et jet de sauvegarde de Force avec avantage. Si le minotaur manque de la salle pour devenir grand, le minotaur ne change pas de taille.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Attaque",
+   "bonus": 6,
+   "damage": "1d12+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3f9265dd4d_monstre-minotaure-infiltrator.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Minotaure Infiltrator",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +2, Perception +7, Religion +1",
+ "bonusActions": "**Déclenchement du tracker.** Le minotaure crée magiquement un lien psychique avec une créature qu'il peut voir. Pour l'heure suivante, le minotaur connaît la distance et la direction actuelles vers la cible s'il est sur le même plan d'existence. Le lien se termine si le minotaur a l'état neutralisé ou utilise cette capacité sur une cible différente."
+}

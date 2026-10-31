@@ -1,0 +1,47 @@
+{
+ "id": "corbeau-profond",
+ "name": "Deep Crow",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 17,
+ "hp": 133,
+ "hpFormula": "14d10+56",
+ "vitesse": "6 m, vol 24 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 8,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 16",
+ "languages": "Crow profond",
+ "traits": "**Résistance magique.** Le corbeau profond a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Vols d'ombre.** Pendant que dans la lumière ou l'obscurité, le corbeau profond peut prendre l'action Se cacher comme un action bonus.\n**Sensibilité à la lumière du soleil.** En plein soleil, le corbeau profond a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le corbeau profond fait trois attaques: une avec ses mandibules et deux avec ses griffes.\n**Obtention à partir de matières textiles.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants, et la cible est agrippé (évasion DD 17). Jusqu'à ce que ce grappin se termine, la cible est entravé, et le corbeau profond ne peut pas utiliser ses mandibules sur une autre cible.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Obtention à partir de matières textiles",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a491b85890_monstre-corbeau-profond.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "aka": "Corbeau profond",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, SAG +6",
+ "skills": "Perception +6, Discrétion +11"
+}

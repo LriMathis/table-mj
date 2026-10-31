@@ -1,0 +1,41 @@
+{
+ "id": "drone-istarian",
+ "name": "Istarian Drone",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 127,
+ "hpFormula": "15d8+60",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "comprend les langues parlées par son créateur mais ne peut pas parler",
+ "traits": "**Escalade des araignées.** Le drone peut escalader des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Nature inhabituelle.** Le drone n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le drone fait deux attaques de Claw.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts perforants plus 4 (1d8) dégâts de foudre. Si la cible est une créature moyenne ou plus petite, c'est agrippé (évasion DD 15). Le drone a deux griffes, dont chacune ne peut gripper qu'une cible.\n**Craquage cristallin (Recharge 5-6).** Le drone crache du gel crépitant dans une ligne 1,50 m large et 6 m longue. Chaque créature dans la ligne doit faire un DD 15 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la créature prend 14 (4d6) dégâts de foudre et est entravé par le gel, qui durcit dans le cristal. La créature est entravé jusqu'à ce que le cristal soit détruit. Le cristal a CA 15, 15 points de vie, l'immunité au poison et dégâts psychiques, et la vulnérabilité à dégâts de tonnerre. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas entravé.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "perforant + foudre"
+  }
+ ],
+ "portrait": "/data/images/f7086e812c_monstre-drone-istarian.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Drone Istarian",
+ "caNote": "armure naturelle",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné"
+}

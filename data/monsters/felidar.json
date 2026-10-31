@@ -1,0 +1,46 @@
+{
+ "id": "felidar",
+ "name": "Felidar",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 10,
+  "SAG": 17,
+  "CHA": 14
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 16",
+ "languages": "Céleste et commun mais ne peut pas parler",
+ "traits": "**Obligations.** Le folidar peut magiquement se lier avec une créature il peut voir, juste après avoir passé au moins 1 heure à observer cette créature pendant que 9 m de lui. Le lien dure jusqu'à ce que le félidar soit lié à une autre créature ou jusqu'à ce que la créature liée meurt. Cette liaison a les effets suivants: Le félidar et la créature liée peuvent communiquer télépathiquement entre eux à une distance allant jusqu'à 30 m. Le félidar peut sentir la direction et la distance à la créature liée s'ils sont sur le même plan d'existence. Comme action, le félidar ou la créature liée peut sentir ce que l'autre voit et entend, pendant lequel il perd sa propre vue et son propre ouïe. Cet effet dure jusqu'au début de son prochain tour.\n**Audition et vue.** Le folidar a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou la vue.\n**Ponce.** Si le folidar se déplace au moins 6 m droit vers une créature et la frappe avec une attaque de griffe au même tour, cette cible doit réussir sur un DD 15 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, le félidar peut faire une attaque de griffe contre elle en tant qu'action bonus.",
+ "actionsText": "**Multiattaques.** Le félidar fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 17 (3d8 + 4) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 14 (3d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "3d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "3d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/52056a6fde_monstre-felidar.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, SAG +6, CHA +5",
+ "skills": "Perspicacité +6, Perception +6"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "guerrier",
+ "name": "Warrior",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "0",
+ "xp": 10,
+ "ca": 21,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, plus un de votre choix",
+ "traits": "**État de préparation à la bataille.** Le guerrier a l'avantage sur les rouleaux d'initiative.\n**Amélioration de l ' élément critique.** Le jets d'attaque du guerrier marque un coup critique sur un rouleau de 19 ou 20 sur le d20.\n**Amélioration de la défense.** Le CA du guerrier augmente de 1.\n**Irréductible (1/jour).** Le guerrier peut reroller un jet de sauvegarde qu'il échoue, mais il doit utiliser le nouveau résultat.\n**Rôle martinal.** Le guerrier a l'un des traits suivants de votre choix :\n- **Attaque** Le guerrier gagne un bonus de +2 à jets d'attaque.\n- **Défendeur** Le guerrier gagne la réaction Protection ci-dessous.\n**Deuxième vent (recharge après un repos court ou long).** Le guerrier peut utiliser un action bonus à son tour pour retrouver points de vie égal à 1d10 + son niveau.",
+ "actionsText": "**Attaque supplémentaire.** Le guerrier peut attaquer trois fois, au lieu d'une fois, chaque fois qu'il prend l'attaque à son tour.\n**Mot long.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains.\n**Longbow.** Attaque d'arme à distance : +6 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 8,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 6,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8a224bafe2_monstre-guerrier.webp",
+ "notes": "",
+ "source": "Essentials Kit: Divine Contention (5e.tools, traduction automatique)",
+ "aka": "Guerrier",
+ "caNote": "plaque, Bouclier",
+ "saves": "CON +6",
+ "skills": "Athlétisme +8, Perception +5, Survie +5",
+ "reactions": "**Protection (Défendeur seulement).** Lorsqu'une créature que le guerrier peut voir attaque une cible autre que le guerrier qui est dans 1,50 m du guerrier, le guerrier peut utiliser leur réaction pour imposer un désavantage sur le jet d'attaque. Le guerrier doit avoir un bouclier."
+}

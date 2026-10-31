@@ -1,0 +1,41 @@
+{
+ "id": "vegepygmy-moldmaker",
+ "name": "Vegepygmy Moldmaker",
+ "type": "Plante",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 44,
+ "hpFormula": "8d6+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "Vegepygmy",
+ "traits": "**Camouflage des plantes.** Le vegepygmy a un avantage sur tests de Dextérité (Discrétion) il fait dans n'importe quel terrain avec une végétation abondante obscurcie.\n**Régénération.** Le vegepygmy retrouve 7 points de vie au début de son tour. S'il prend froid, feu, ou dégâts nécrotiques, ce trait ne fonctionne pas au début du tour suivant du vegepygmy. Le vegepygmy meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Le vegepygmy fait deux attaques de Claw.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 12 (3d6 + 2) dégâts tranchants.\n**Moule toxique (2/jour).** Le vegepygmy cible une créature qu'il peut voir en lui-même. Si la cible n'est pas vegepygmy, elle doit faire un DD 13 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la cible prend 13 (3d8) dégâts de poison et a les conditions aveuglé et assourdi pendant 1 minute car elle devient recouverte d'une couche épaisse de moule. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement.\nLa cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "3d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c3d66c5b78_monstre-vegepygmy-moldmaker.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +2, SAG +5",
+ "skills": "Perception +5, Discrétion +4",
+ "resistances": "foudre, perforant"
+}

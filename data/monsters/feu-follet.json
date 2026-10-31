@@ -1,0 +1,41 @@
+{
+ "id": "feu-follet",
+ "name": "Feu follet",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 19,
+ "hp": 27,
+ "hpFormula": "11d4",
+ "vitesse": "1,5 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 28,
+  "CON": 10,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "resistances": "acide, contondants, feu, froid, nécrotiques, perforants, tranchants",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "à terre, agrippé, empoisonné, entravé, épuisement, inconscient, paralysé, pétrifié",
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "commun et une autre langue",
+ "traits": "**Déplacement intangible.** Le feu follet peut traverser d’autres créatures et objets comme s’il s’agissait d’un Terrain difficile. Il subit 5 (1d10) dégâts de force s’il termine son tour à l’intérieur d’un objet.\n**Fugace.** Le feu follet ne peut rien porter.\n**Illumination.** Le feu follet émet une Lumière vive sur un rayon de 6 m et une Lumière faible sur 6 m de plus.",
+ "actionsText": "**Décharge.** Corps à corps : +4, allonge 1,50 m. Touché : 11 (2d8 + 2) dégâts de foudre.",
+ "bonusActions": "**Disparition.** Le feu follet et sa lumière ont l’état Invisible jusqu’à ce qu’il rompe sa Concentration sur cet effet, mais l’état prend fin prématurément juste après que le feu follet effectue un jet d’attaque ou recourt à Festin d’essence vitale.\n**Festin d’essence vitale.** JS Constitution : DD 10, une créature vivante à 0 point de vie que le feu follet voit dans un rayon de 1,50 m. Échec : La cible meurt et le feu follet récupère 10 (3d6) points de vie.",
+ "attacks": [
+  {
+   "name": "Décharge",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/56dd03d701_monstre-feu-follet.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 133"
+}

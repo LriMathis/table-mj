@@ -1,0 +1,42 @@
+{
+ "id": "victoro-cassalanter",
+ "name": "Victoro Cassalanter",
+ "type": "Humanoïde (demi-elf)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, draconique, elfique, infernal",
+ "traits": "**Matériel spécial.** Victoro porte un Anneau de protection et Armure de cuir clouté enchantée déguisés pour ressembler à de beaux vêtements. Il porte un Sceptre de suzeraineté en forme de canne à rubis.\n**Ancêtre fécale.** Victoro a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas le mettre au lit.\n**Rod of Rovership.** Victoro peut utiliser une action pour présenter la tige et commander l'obéissance de chaque créature de son choix qu'il peut voir au sein de 36 m de lui. Chaque cible doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou être charmé pendant 8 heures par Victoro. Alors que charmé de cette façon, la créature considère Victoro comme son chef de confiance. Si Victoro ou ses compagnons lui font du mal, ou si ils commandent de faire quelque chose de contraire à sa nature, une cible cesse d'être charmé de cette façon. La tige ne peut plus être utilisée avant l'aube prochaine.\n**Détection orthographique.** Victoro est un spellcaster de niveau 15. Son caractéristique d'incantation est Sagesse (save spell DD 15, +7 au toucher avec attaques de sort). Victoro a préparé les sorts clercs suivants:\n- Sorts mineurs (à volonté) : Assistance, Lumière, Réparation, Stabilisation, Thaumaturgie\n- Niveau 1 (4 emplacements) : Charme-personne, Injonction, Détection de la magie, Déguisement, Protection contre le mal et le bien, Sanctuaire\n- Niveau 2 (3 emplacements) : Augure, Restauration partielle, Image miroir, Passage sans trace, Arme spirituelle\n- Niveau 3 (3 emplacements) : Clignotement, Clairvoyance, Dissipation de la magie, Cercle magique, Protection contre une énergie\n- Niveau 4 (3 emplacements) : Bannissement, Porte dimensionnelle, Divination, Liberté de mouvement, Métamorphose\n- Niveau 5 (2 emplacements) : Domination de personne, Colonne de flamme, Modification de mémoire, Fléau d'insectes\n- Niveau 6 (1 emplacements) : Guérison\n- Niveau 7 (1 emplacements) : Parole divine\n- Niveau 8 (1 emplacements) : Tremblement de terre",
+ "actionsText": "**Multiattaques.** Victoro fait deux attaques avec son violeur.\n**Violeur.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts perforants.\n**Cloque d'ombres (2/jour).** Victoro devient invisible jusqu'à la fin de son prochain tour. Il devient visible dès qu'il attaque ou jette un sort.\n**Invoquer le Diable (Recharges après 9 jours).** Victoro appelle un Diable barbelé. Le diable apparaît dans un espace inoccupé au sein de 9 m de Victoro, agit comme allié de Victoro, et ne peut pas appeler d'autres démons. Il reste 1 minute, jusqu'à ce que Victoro ou Victoro meurt, ou jusqu'à ce que Victoro le rejette comme une action.",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 5,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d1a94fa602_monstre-victoro-cassalanter.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Armure de cuir clouté enchantée, Anneau de protection",
+ "saves": "CON +6, SAG +7",
+ "skills": "Histoire +7, Perspicacité +7, Persuasion +8, Religion +7",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

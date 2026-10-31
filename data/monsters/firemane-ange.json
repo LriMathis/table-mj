@@ -1,0 +1,43 @@
+{
+ "id": "firemane-ange",
+ "name": "Firemane Angel",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 135,
+ "hpFormula": "18d8+54",
+ "vitesse": "12 m, vol 36 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 15,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 23
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 16",
+ "languages": "tous",
+ "traits": "**Volée.** L'ange ne provoque pas une attaque d'opportunité quand il vole hors de la portée d'un ennemi.\n**Résistance magique.** L'ange a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sans relâche (recharge après un repos court ou long).** Si l'ange prend 21 dégâts ou moins qui le réduiraient à 0 points de vie, il est réduit à 1 points de vie.\n**Découpe intérieure.** Le caractéristique d'incantation inné de l'ange est Charisme (spell save DD 18, +10 au toucher with attaques de sort). L'ange peut innément jeter les sorts suivants, ne nécessitant pas de composants matériels:\n- 1/jour chacun : Lumière du jour, Boule de feu (sous forme de sort de niveau 6)\n- 3/jour chacun : Duel forcé, Éclair traçant (sous forme de sort de niveau 5)",
+ "actionsText": "**Multiattaques.** L'ange fait deux attaques à la mêlée.\n**Mot long.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts tranchants, ou 11 (1d10 + 6) dégâts tranchants si utilisé avec deux mains, plus 22 (5d8) feu ou dégâts radiants (le choix de l'ange).",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 10,
+   "damage": "1d8+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/255f8a9923_monstre-firemane-ange.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Firemane ange",
+ "caNote": "Armure de plaque",
+ "saves": "FOR +10, SAG +6, CHA +10",
+ "skills": "Perspicacité +6, Perception +6",
+ "resistances": "feu, radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé"
+}

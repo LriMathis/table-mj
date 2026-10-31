@@ -1,0 +1,42 @@
+{
+ "id": "nuee-de-campestris",
+ "name": "Swarm of Campestris",
+ "type": "Nuée de taille très petite (Plante)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "1,50 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 7,
+  "CON": 10,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Perception des vibrations 9 m, Perception passive 14",
+ "languages": "comprend commun mais ne parle que par l'utilisation de son caractère mimétiques",
+ "traits": "**Mimétisme.** Chaque campestri dans l'essaim peut imiter n'importe quelle voix ou chanson qu'il a entendu, bien que dans un faux nasal.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour accueillir un campestri individuel. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Têtes de cul.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 10 (4d4) dégâts contondants, ou 5 (2d4) dégâts contondants si l'essaim a la moitié de son points de vie ou moins.\n**Spores (1/jour).** Un rayon de spores 6 m s'étend de l'essaim. Ces spores peuvent tourner autour des coins, et elles n'ont aucun effet sur les constructions, les éléments, les plantes ou les morts-vivants. Chaque autre créature de la région doit faire un DD 10 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature est neutralisé et sa vitesse est réduite de moitié, les deux pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Têtes de cul",
+   "bonus": 0,
+   "damage": "4d4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ad5bef3fdc_monstre-nuee-de-campestris.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Nuée de Campestris",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

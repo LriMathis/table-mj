@@ -1,0 +1,51 @@
+{
+ "id": "lichen-liche",
+ "name": "Lichen Lich",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 20,
+ "hp": 225,
+ "hpFormula": "30d8+90",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 20,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "commun, druidique, sylvestre",
+ "traits": "**Résistance légendaire (3/jour).** Si le lich échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Réjuvenance.** S'il a une phylatine, un lich détruit gagne un nouveau corps en 1d10 jours, récupérant tout son points de vie et redevenant actif. Le nouveau corps apparaît à l'intérieur de 1,50 m de la phylacery.",
+ "actionsText": "**Multiattaques.** Les lichs font quatre attaques.\n**Touche toxique.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une créature. Touché : 17 (5d6) dégâts de poison, et la cible doit réussir sur un DD 19 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Dépérissement.** Attaque de sort à distance : +9 au toucher, portée 18 m, une cible. Touché : 14 (4d6) dégâts nécrotiques.\n**feu Storm (de niveau 7 Spell; 1/Jour).** Le lich remplit jusqu'à dix cubes 3 m de feu. Chaque cube doit être à l'intérieur de 45 m de la lich et occuper un espace que la lich peut voir, et chaque cube doit avoir au moins une face adjacente à la face d'un autre cube. Chaque créature de la zone doit faire un DD 19 jet de sauvegarde de Dextérité, en prenant 38 (7d10) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. L'incendie enflamme des objets inflammables dans la zone qui ne sont ni portés ni transportés. Si le lich choisit, la vie végétale dans la région n'est pas affectée par le sort.\n**Détection orthographique.** Le lich lance l'un des sorts suivants en utilisant Sagesse comme caractéristique d'incantation (enregistrer DD 19) :\n- À volonté : Druidisme\n- 1/jour chacun : Coquille antivie, Dissipation de la magie, Communication avec les plantes, Voie végétale, Tempête de feu\n- 3/jour chacun : Détection de la magie, Nappe de brouillard, Passage sans trace",
+ "attacks": [
+  {
+   "name": "Touche toxique",
+   "bonus": 9,
+   "damage": "5d6",
+   "type": "poison"
+  },
+  {
+   "name": "Dépérissement",
+   "bonus": 9,
+   "damage": "4d6",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/278be2c505_monstre-lichen-liche.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Lichen liche",
+ "caNote": "armure naturelle",
+ "saves": "CON +9, INT +8, SAG +11, CHA +9",
+ "skills": "Médecine +11, Nature +14, Perception +11, Survie +11",
+ "resistances": "froid, nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, lichen liche peut entreprendre l'une des actions ci-après.\n**Attaque.** Les lichs font une attaque.\n**poison Prick (deux actions de coût).** Le lich cible une créature empoisonné qu'il peut voir à l'intérieur de 9 m. La cible doit réussir sur un DD 19 jet de sauvegarde de Constitution ou tomber sur inconscient jusqu'à ce que l'état empoisonné se termine dessus.\n**Durée de vie normale (coûts 2 actions).** Le lich cible une créature il peut voir dans 9 m de lui. La cible doit réussir sur un DD 19 jet de sauvegarde de Constitution ou prendre 11 (2d10) dégâts nécrotiques. Le lich retrouve un nombre de points de vie égal à la quantité de dégâts que la créature prend."
+}

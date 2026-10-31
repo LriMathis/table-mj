@@ -1,0 +1,47 @@
+{
+ "id": "sarusanda-allester",
+ "name": "Sarusanda Allester",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 11,
+ "hp": 77,
+ "hpFormula": "14d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 13",
+ "languages": "céleste, commun, draconique, elfique, quatre langues, télépathie 36 m",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Sarusanda attaque deux fois.\n**force Bolt.** Attaque de sort à distance : +7 au toucher, portée 36 m, une cible. Touché : 22 (4d8 + 4) dégâts de force, et si la cible est une créature grande ou plus petite, Sarusanda peut la pousser jusqu'à 3 m.\n**Argent Longs mots.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) s' il est utilisé à deux mains, plus 18 (4d8) dégâts de force.\n**Imploser (Recharge 4-6).** Chaque créature dans une sphère 6 m -radius centrée sur un point Sarusanda peut voir dans 36 m de lui doit réussir sur un DD 15 jet de sauvegarde de Constitution ou prendre 31 (6d8 + 4) dégâts de force et être à terre et se déplacer dans l'espace inoccupé le plus proche du centre de la sphère. Les objets de grande taille et plus petits qui ne sont pas portés ou transportés dans la sphère prennent automatiquement les dégâts et sont déplacés de la même façon.\n**La diffusion de l'orthographe innée (Psioniques).** Sarusanda lance l'un des sorts suivants, ne nécessitant aucun composant et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection de la magie, Dissipation de la magie, Lévitation, Armure de mage, Main de mage, Communication à distance, Communication avec les morts\n- 1/jour chacun : Sphère résiliente d'Otiluke, Télékinésie",
+ "attacks": [
+  {
+   "name": "force Bolt",
+   "bonus": 7,
+   "damage": "4d8+4",
+   "type": "force"
+  },
+  {
+   "name": "Argent Longs mots",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/f7d607c932_monstre-sarusanda-allester.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "saves": "INT +7, SAG +6, CHA +5",
+ "skills": "Arcanes +10, Histoire +7, Nature +7, Religion +10",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Déflection télékinétique.** En réponse à une attaque de jet d'attaque, Sarusanda augmente de 4 son CA contre l'attaque. Si cela cause l'attaque à manquer, l'agresseur est touché par l'attaque à la place."
+}

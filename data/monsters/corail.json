@@ -1,0 +1,44 @@
+{
+ "id": "corail",
+ "name": "Coral",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique bon",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 17,
+ "hp": 135,
+ "hpFormula": "18d10+36",
+ "vitesse": "3 m, vol 18 m, nage 18 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 18,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 18",
+ "languages": "commun, primordial, sylvestre",
+ "traits": "**Résistance magique.** Coral a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Coral fait deux attaques Hoof et utilise Tail Thump.\n**C'est vrai..** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants.\n**Jeu de queue.** Coral frappe sa queue, déchaîne une explosion de force magique vers une créature qu'elle peut voir dans 18 m d'elle. La cible doit faire un DD 16 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, la cible prend 22 (4d10) dégâts de force et a l'état à terre. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement. Si ce dégâts réduit la cible à 0 points de vie, la cible meurt et son corps est réduit à la poussière fine.",
+ "attacks": [
+  {
+   "name": "C'est vrai.",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/779d3a142a_monstre-corail.webp",
+ "notes": "",
+ "source": "MisMV1 (5e.tools, traduction automatique)",
+ "aka": "Corail",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +6, SAG +8, CHA +8",
+ "skills": "Arcanes +6, Perspicacité +8, Perception +8",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Bubbles de whimsy (2/jour).** Le corail produit un flot de bulles magiques de sa corne. Ces bulles flottent vers une créature Coral peut voir dans 18 m d'elle-même. Roulez un d6 pour déterminer l'effet des bulles:\n- **1-2: Traitement de boulanger** Les bulles se transforment en cookies 1d4 qui apparaissent dans l'espace cible. La cible gagne 11 (2d8 + 2) points de vie temporaires si elle utilise immédiatement sa réaction pour manger l'un des cookies. Tous les cookies restants sont délicieux mais ne confèrent aucun avantage.\n- **3-4: Brûlures** Les bulles se transforment en paillettes qui tourbillonnent autour de la cible avant d'éclater vers l'extérieur. Chaque créature de 1,50 m de la cible doit réussir sur un DD 16 jet de sauvegarde de Constitution ou avoir l'état aveuglé jusqu'au prochain tour de Coral.\n- **5-6: Bouclier à bombe enroulé** Les bulles se transforment en un nuage de gaz qui enveloppe et protège la cible. La cible a 3 jusqu'à ce que le gaz disparaisse au début du prochain virage de Coral.\n**Cadeau de la parole (1/jour).** Coral cible une Bête qu'elle peut voir dans 3 m d'elle-même. La cible gagne la capacité de comprendre et de parler Common ou Sylvan (le choix de Coral) pendant 10 minutes."
+}

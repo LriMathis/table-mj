@@ -1,0 +1,52 @@
+{
+ "id": "riviere-mist",
+ "name": "River Mist",
+ "type": "Humanoïde (Tabaxi)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m, escalade 6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 11,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "Commun plus une langue",
+ "traits": "**Agilité féline.** Lorsque River Mist se déplace à son tour au combat, il peut doubler sa vitesse jusqu'à la fin du virage. Une fois qu'il utilise cette capacité, River Mist ne peut pas l'utiliser à nouveau jusqu'à ce qu'il déplace 0 m sur un de ses virages.",
+ "actionsText": "**Multiattaques.** River Mist fait deux attaques avec ses griffes, son mot court, ou son bow court.\n**Griffes.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts tranchants.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Saubèche.** Attaque d'arme à distance : +5 au toucher, portée 24/96 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/71ba912ad4_monstre-riviere-mist.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Rivière Mist",
+ "caNote": "Armure en cuir",
+ "skills": "Athlétisme +2, Perception +4, Discrétion +5, Survie +6"
+}

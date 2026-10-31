@@ -1,0 +1,43 @@
+{
+ "id": "undead-bulette",
+ "name": "Undead Bulette",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 125,
+ "hpFormula": "9d10+45",
+ "vitesse": "12 m, creusement 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 21,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 16",
+ "languages": "—",
+ "traits": "**Leap debout.** Le long saut de la boulette est jusqu'à 9 m et son saut en hauteur est jusqu'à 4,50 m, avec ou sans démarrage.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 30 (4d12 + 4) dégâts perforants.\n**Une fuite mortelle.** Si la bouette saute au moins 4,50 m dans le cadre de son mouvement, elle peut alors utiliser cette action pour atterrir sur ses pieds dans un espace qui contient une ou plusieurs autres créatures. Chacune de ces créatures doit réussir sur un DD 16 Force ou jet de sauvegarde de Dextérité (le choix de la cible) ou être à terre et prendre 14 (3d6 + 4) dégâts contondants plus 14 (3d6 + 4) dégâts tranchants. Sur une sauvegarde réussie, la créature ne prend que la moitié des dégâts, n'est pas à terre, et est poussé 1,50 m hors de l'espace de la boulette dans un espace inoccupé du choix de la créature. Si aucun espace inoccupé n'est à portée, la créature tombe à la place à terre dans l'espace de la bouette.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "4d12+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c5ec156070_monstre-undead-bulette.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6",
+ "vulnerabilities": "radiant",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "feu-kraken",
+ "name": "Fire Kraken",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique neutre",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 16,
+ "hp": 402,
+ "hpFormula": "23d20+161",
+ "vitesse": "9 m, nage 18 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 11,
+  "CON": 24,
+  "INT": 10,
+  "SAG": 20,
+  "CHA": 15
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 15",
+ "languages": "comprend Abyssal, céleste, infernal, et Primordial mais ne peut pas parler, télépathie 36 m",
+ "traits": "**Liberté de circulation.** Le kraken ignore le terrain difficile, et les effets magiques ne peuvent pas réduire sa vitesse ou la faire être entravé. Il peut dépenser 1,50 m de mouvement pour échapper aux contraintes non magiques ou aux grappins.\n**Résistance légendaire (3/jour).** Si le kraken échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Monstre de siège.** Le kraken inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le kraken fait deux attaques en utilisant son Tentacle, Fling, ou une combinaison des deux.\n**Morceau.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 18 (3d6 + 8) dégâts perforants et 7 (2d6) dégâts de feu. Si la cible est une grande ou plus petite créature agrippé par le kraken, la créature est avalée et le grappin se termine. En avalant, une créature a les conditions aveuglé et entravé, a 3 contre les attaques et autres effets en dehors du kraken, et prend 42 (12d6) dégâts de feu au début des tours du kraken. Si le kraken prend 50 dégâts ou plus sur un seul tour d'une créature à l'intérieur, il doit réussir sur un DD 23 jet de sauvegarde de Constitution ou régurgiter toutes les créatures avalées, qui tombent dans un espace à l'intérieur de 3 m du kraken et ont maintenant l'état à terre. Si le kraken meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 4,50 m de mouvement, en sortant avec l'état à terre.\n**Tentacle.** Attaque d'arme au corps à corps : +15 au toucher, allonge 6 m, une cible. Touché : 13 (2d4 + 8) dégâts de feu. Si la cible est une créature Énorme ou plus petite, elle a l'état agrippé (évasion DD 16). Alors qu'agrippé, la cible a également l'état entravé. Toute cible qui démarre son tour agrippé par le kraken prend 5 (2d4) dégâts de feu. Le kraken a cinq tentacules, chacun pouvant battre une cible.\n**Vols.** Un objet ou une créature plus petit ou plus grand agrippé par le kraken est projeté à 18 m dans une direction aléatoire, et a maintenant l'état à terre. Si une cible lancée frappe une surface solide, la cible prend 3 (1d6) dégâts contondants pour chaque 3 m qu'elle a lancé. Si la cible est lancée sur une créature, cette créature doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre les mêmes dégâts et être abattue avec l'état à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 15,
+   "damage": "3d6+8",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 15,
+   "damage": "2d4+8",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/bdab2ac194_monstre-feu-kraken.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Feu kraken",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +14",
+ "skills": "Athlétisme +15, Nature +7, Survie +12",
+ "immunities": "feu, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "effrayé, paralysé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, feu kraken peut entreprendre l'une des actions ci-après.\n**Annexe.** Le kraken fait une attaque de Fling.\n**feu Respiration (coûts 3 actions).** Le kraken exhale le feu dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 20 jet de sauvegarde de Dextérité, en prenant 36 (8d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

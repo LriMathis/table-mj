@@ -1,0 +1,39 @@
+{
+ "id": "souverain-basidia",
+ "name": "Sovereign Basidia",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 60,
+ "hpFormula": "8d10+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Détresse Spores.** Lorsque Basidia prend des dégâts, tous les autres myconides de 72 m peuvent sentir sa douleur.\n**Maladie du soleil.** En plein soleil, Basidia présente un désavantage sur tests de caractéristique, jets d'attaque et jet de sauvegarde. Basidia meurt s'il passe plus d'une heure en plein soleil.",
+ "actionsText": "**Multiattaques.** Basidia utilise soit ses Spores d'hallucination, soit ses Spores pacifisants, puis fait une attaque de poing.\n**Fist.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 8 (3d4 + 1) dégâts contondants plus 7 (3d4) dégâts de poison.\n**Spores d'animation (3/jour).** Basidia cible un cadavre d'un humanoïde ou d'une grande bête ou plus petite dans 1,50 m de lui et libère des spores sur le corps. Dans 24 heures, le cadavre se lève comme un serviteur de spores. Le cadavre reste animé pendant 1 semaine ou jusqu'à ce qu'il soit détruit, et il ne peut plus être animé de cette façon.\n**Spores d'hallucination.** Basidia éjecte des spores à une créature qu'elle peut voir à l'intérieur de 1,50 m. La cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. La cible empoisonné est neutralisé alors qu'elle hallucine. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Spores pacifisantes.** Basidia éjecte des spores à une créature qu'il peut voir à l'intérieur de 1,50 m. La cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être étourdi pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Rapport Spores.** Un rayon de spores 9 m s'étend de Basidia. Ces spores peuvent se déplacer autour des coins et affecter seulement des créatures avec un Intelligence de 2 ou plus qui ne sont pas morts-vivants, des constructions ou des éléments. Les créatures touchées peuvent communiquer télépathiquement entre elles alors qu'elles sont au sein de 9 m l'une de l'autre. L'effet dure 1 heure.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 3,
+   "damage": "3d4+1",
+   "type": "contondant + poison"
+  }
+ ],
+ "portrait": "/data/images/78c6df4764_monstre-souverain-basidia.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Souverain Basidia",
+ "caNote": "armure naturelle"
+}

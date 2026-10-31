@@ -1,0 +1,40 @@
+{
+ "id": "carrionette",
+ "name": "Carrionette",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 17,
+ "hpFormula": "5d4+5",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "Commun plus une autre langue",
+ "traits": "",
+ "actionsText": "**Aiguille d'argent.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 1 dégâts perforants plus 3 (1d6) dégâts nécrotiques. Si la cible est un humanoïde non maudit par une carrionette, elle est soumise à l'effet suivant. Jet de sauvegarde de Charisme : DD 11. Échec : La cible est maudite pendant 1 minute. Jusqu'à la fin de la malédiction, la cible a l'état empoisonné, et sa vitesse est réduite de 3 m.\n**Soul swap (Recharge 5-6).** Jet de sauvegarde de Charisme : DD 11, un Humanoïde que la carrionette peut voir à l'intérieur de 4,50 m maudit par son aiguille d'argent. Échec : La carrionette possède le corps de la cible, et la cible possède le corps de la carrionette et a l'état inconscient pendant 1 heure. Tout en possédant un autre corps, la carrionette et la cible conservent leurs alignements; personnalités; Intelligence, Sagesse, et Charisme scores; et langues connues. Ils adoptent les statistiques de jeu de l'autre créature, bien que la cible ne puisse pas utiliser cette action Soul Swap.\nLa possession est annulée si la cible (alors que dans le corps de la carrionette) cause des dégâts à la carrionette (dans le corps d'origine de la cible) avec son aiguille d'argent. Si l'un ou l'autre corps est détruit, la carrionette et la cible meurent.",
+ "attacks": [
+  {
+   "name": "Aiguille d'argent",
+   "bonus": 4,
+   "damage": "1d6",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/5dc76a883f_monstre-carrionette.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "skills": "Discrétion +6",
+ "resistances": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné"
+}

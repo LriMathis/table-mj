@@ -1,0 +1,37 @@
+{
+ "id": "chimeric-rat",
+ "name": "Chimeric Rat",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 11,
+  "CON": 9,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** Le rat a un avantage sur tests de Sagesse (Perception) qui se fie à l'odeur.\n**Création chimérique.** Le rat a des branchies, des écailles irisées et la capacité de respirer de l'air et de l'eau.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/5c39097078_monstre-chimeric-rat.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)"
+}

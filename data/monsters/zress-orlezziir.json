@@ -1,0 +1,53 @@
+{
+ "id": "zress-orlezziir",
+ "name": "Zress Orlezziir",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 162,
+ "hpFormula": "25d8+50",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 19,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Commandement de la bataille.** En tant qu'action bonus, Zress cible un allié qu'il peut voir au sein de 9 m de lui. Si la cible peut voir ou entendre Zress, la cible peut utiliser sa réaction pour faire une attaque de mêlée ou pour prendre l'action Esquiver ou Se cacher.\n**Ancêtre fécale.** Zress a un avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas mettre Zress à dormir.\n**Sensibilité à la lumière du soleil.** En plein soleil, Zress a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Découpe intérieure.** Zress innate caractéristique d'incantation est Charisme (spell save DD 13). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques, Lévitation (autoseulement)",
+ "actionsText": "**Multiattaques.** Zress fait trois attaques : deux avec son scimitar et une avec son fouet ou son arbalète de la main.\n**Scimitar.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants plus 14 (4d6) dégâts de poison.\n**Whip.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 6 (1d4 + 4) dégâts tranchants. Si la cible est un allié, elle a un avantage sur jets d'attaque jusqu'à la fin de son prochain tour.\n**Acrobatie des mains.** Attaque d'arme à distance : +8 au toucher, portée 9/36 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné pendant 1 heure. Si le jet de sauvegarde échoue par 5 ou plus, la cible est également inconscient alors qu'empoisonné de cette façon. La cible reprend conscience si elle prend des dégâts ou si une autre créature prend une action pour la secouer.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Whip",
+   "bonus": 8,
+   "damage": "1d4+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b97e26ba35_monstre-zress-orlezziir.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "armure de plaque mithrale",
+ "saves": "DEX +8, CON +6, SAG +6",
+ "skills": "Perception +6, Discrétion +8",
+ "reactions": "**Parry.** Zress ajoute 3 à sa CA contre une attaque de mêlée qui le frapperait. Pour ce faire, Zress doit voir l'agresseur et manier une arme de mêlée."
+}

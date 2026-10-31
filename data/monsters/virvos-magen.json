@@ -1,0 +1,40 @@
+{
+ "id": "virvos-magen",
+ "name": "Virvos Magen",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 21,
+ "hp": 110,
+ "hpFormula": "17d8+34",
+ "vitesse": "9 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "comprend Common plus deux autres langues mais ne peut pas parler",
+ "traits": "**Désintégration.** Si le mage meurt, il se désintègre en poussière, laissant derrière lui tout ce qu'il portait ou transportait.\n**Résistance magique.** Le magen a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le magen fait deux attaques psychique Blast.\n**Blast psychique.** Jet d'attaque au corps à corps ou à distance : +6, allonge 1,50 m ou portée 18 m. Touché : 21 (6d6) dégâts psychiques.\n**Détection orthographique.** Le magen lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Lumières dansantes, Illusion mineure\n- 1/jour chacun : Motif hypnotique, Image majeure",
+ "attacks": [
+  {
+   "name": "Blast psychique",
+   "bonus": 6,
+   "damage": "6d6",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/661016ea51_monstre-virvos-magen.webp",
+ "notes": "",
+ "source": "Netheril's Fall (5e.tools, traduction automatique)",
+ "skills": "Perception +6",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

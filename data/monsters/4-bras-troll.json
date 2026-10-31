@@ -1,0 +1,46 @@
+{
+ "id": "4-bras-troll",
+ "name": "Four-Armed Troll",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 84,
+ "hpFormula": "8d10+40",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 20,
+  "INT": 7,
+  "SAG": 9,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "géant",
+ "traits": "**Sensation de Keen.** Le troll a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Régénération.** Le troll retrouve 10 points de vie au début de son tour. Si le troll prend de l'acide ou du dégâts de feu, ce trait ne fonctionne pas au début du prochain tour du troll. Le troll ne meurt que s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Le troll attaque cinq fois, une fois avec sa morsure et quatre fois avec ses griffes. Si deux griffes ou plus frappent la même cible, le troll renverse la cible, avec un 2d6 dégâts tranchants supplémentaire.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/47739b1a04_monstre-4-bras-troll.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "4 bras troll",
+ "caNote": "armure naturelle",
+ "skills": "Perception +2"
+}

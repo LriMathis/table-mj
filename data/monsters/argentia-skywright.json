@@ -1,0 +1,52 @@
+{
+ "id": "argentia-skywright",
+ "name": "Argentia Skywright",
+ "type": "Humanoïde (humain, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 11,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m (12 m en forme de loup)",
+ "stats": {
+  "FOR": 15,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "Fréquent (ne peut pas parler sous forme de loup)",
+ "traits": "**Changeur de forme.** Argentia peut utiliser son action pour se polymorphiser en un hybride loup-humanoïde ou en un loup, ou revenir dans sa forme réelle, qui est humanoïde. Ses statistiques, autres que sa CA, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**L'ouïe et l'odeur de Keen.** Argentia a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou l'odeur.",
+ "actionsText": "**Multiattaque (forme humaine ou hybride seulement).** Argentia fait deux attaques : deux avec sa lance (forme humanoïde) ou une avec sa morsure et une avec ses griffes (forme hybride).\n**Bite (Wolf ou forme hybride seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants. Si la cible est un humanoïde, elle doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie de loup-garou.\n**Griffes (formulaire hybride seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 7 (2d4 + 2) dégâts tranchants.\n**Spear (forme humanoïde seulement).** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une créature. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Bite (Wolf ou forme hybride seulement)",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes (formulaire hybride seulement)",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Spear (forme humanoïde seulement)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8b4cefba82_monstre-argentia-skywright.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "sous forme humanoïde",
+ "skills": "Perception +4, Discrétion +3",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées"
+}

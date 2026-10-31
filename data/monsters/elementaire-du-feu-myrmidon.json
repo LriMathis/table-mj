@@ -1,0 +1,42 @@
+{
+ "id": "elementaire-du-feu-myrmidon",
+ "name": "Fire Elemental Myrmidon",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 18,
+ "hp": 123,
+ "hpFormula": "19d8+38",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "igné, une langue du choix de son créateur",
+ "traits": "**Éclairage.** Le myrmidon apporte une lumière lumineuse dans un rayon de 6 m et une lumière faible dans un rayon de 12 m.\n**Susceptibilité à l'eau.** Pour chaque 1,50 m le myrmidon se déplace dans 0,30 m ou plus d'eau, il prend 2 (1d4) dégâts de froid.",
+ "actionsText": "**Multiattaques.** Le myrmidon fait trois attaques de Scimitar.\n**Scimitar.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts de force.\n**Fiery Strikes (Recharge 6).** Le myrmidon utilise Multiattack. Chaque attaque qui frappe traite un 7 (2d6) dégâts de feu supplémentaire.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/f04908eea4_monstre-elementaire-du-feu-myrmidon.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Élémentaire du feu Myrmidon",
+ "caNote": "plaque",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu, poison",
+ "conditionImmunities": "paralysé, pétrifié, empoisonné, à terre"
+}

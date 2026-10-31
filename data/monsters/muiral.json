@@ -1,0 +1,47 @@
+{
+ "id": "muiral",
+ "name": "Muiral",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 16,
+ "hp": 195,
+ "hpFormula": "23d10+69",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 18,
+  "SAG": 13,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "commun, nain, elfique, gobelin, commun des profondeurs",
+ "traits": "**Résistance légendaire (3/jour).** Si Muiral échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Détection orthographique.** Muiral est un épeautre de niveau 13. Son caractéristique d'incantation est Intelligence (save spell DD 17, +9 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Lumières dansantes, Main de mage, Prestidigitation, Rayon de givre, Poigne électrique\n- Niveau 1 (4 emplacements) : Repli expéditif, Nappe de brouillard, Projectile magique, Bouclier\n- Niveau 2 (3 emplacements) : Ténèbres, Déblocage, Voir l'invisible, Pattes d'araignée\n- Niveau 3 (3 emplacements) : Animation des morts, Contresort, Éclair\n- Niveau 4 (3 emplacements) : Invisibilité supérieure, Métamorphose\n- Niveau 5 (2 emplacements) : Animation d'objets, Mur de force\n- Niveau 6 (1 emplacements) : Création de mort-vivant, Pétrification\n- Niveau 7 (1 emplacements) : Doigt de mort",
+ "actionsText": "**Multiattaques.** Muiral fait trois attaques : deux avec sa longue épée et une avec sa piqûre.\n**Mot long.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants, ou 15 (2d10 + 4) dégâts tranchants si utilisé avec deux mains.\n**Sting.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une créature. Touché : 9 (1d10 + 4) dégâts perforants. La cible doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 27 (6d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 9,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Sting",
+   "bonus": 9,
+   "damage": "1d10+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/de3d086875_monstre-muiral.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, INT +9",
+ "skills": "Arcanes +9, Athlétisme +9, Perception +6, Discrétion +5",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, muiral peut entreprendre l'une des actions ci-après.\n**Lancer sort mineur.** Muiral lance un sort mineur.\n**Attaque pulmonaire (coûts 2 actions).** Muiral fait une attaque de long-sword qui a une portée de 3 m.\n**Lutte contre la grève (coûts 3 actions).** Muiral se met à la vitesse sans provoquer d'attaques d'opportunités. Avant le déménagement, il peut faire une attaque de l'épée longue."
+}

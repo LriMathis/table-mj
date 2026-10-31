@@ -1,0 +1,49 @@
+{
+ "id": "givre-salamandre",
+ "name": "Frost Salamander",
+ "type": "Élémentaire",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 17,
+ "hp": 168,
+ "hpFormula": "16d12+64",
+ "vitesse": "18 m, creusement 12 m, escalade 12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 14",
+ "languages": "primordial",
+ "traits": "**Brûlures.** Lorsque la salamandre prend dégâts de feu, son souffle de congélation se recharge automatiquement.",
+ "actionsText": "**Multiattaques.** La salamandre fait une attaque Bite et quatre attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 4,50 m, une cible. Touché : 9 (1d8 + 5) dégâts perforants plus 5 (1d10) dégâts de froid.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 8 (1d6 + 5) dégâts perforants.\n**Respiration verglaçante (Recharge 6).** La salamandre exhale le vent froid dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Constitution, en prenant 44 (8d10) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "1d8+5",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/896658113e_monstre-givre-salamandre.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Givre salamandre",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, SAG +4",
+ "skills": "Perception +4",
+ "vulnerabilities": "feu",
+ "immunities": "froid"
+}

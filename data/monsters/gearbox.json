@@ -1,0 +1,44 @@
+{
+ "id": "gearbox",
+ "name": "Gearbox",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 15,
+ "hp": 5,
+ "hpFormula": "1d8+1",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 10",
+ "languages": "Modron",
+ "traits": "**Programmation unique.** La programmation unique de Gearbox permet au modron de fonctionner comme un Orbe boussole et un Orbe horloge, de lancer le Lumière sort mineur à volonté, et d'accorder un avantage aux autres caractères sur tests de Dextérité fabriqués avec des outils de voleurs et sur tests de caractéristique fabriqués pour identifier ou utiliser des équipements mécaniques ou de laboratoire.\n**Esprit axiomatique.** La boîte de vitesses ne peut être contrainte d'agir d'une manière contraire à sa nature ou à ses instructions.\n**Désintégration.** Si Gearbox meurt, son corps se désintègre dans la poussière, laissant derrière lui ses armes et tout ce qu'il transportait.\n**Détection orthographique.** La boîte de vitesses peut lancer le Lumière sort mineur à volonté.\n- Sorts mineurs (à volonté) : Lumière",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +2 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 3 (1d6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/797770f24b_monstre-gearbox.webp",
+ "notes": "",
+ "source": "Lost Laboratory of Kwalish (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "terre-noire-ecclesiastique",
+ "name": "Black Earth Priest",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, terreux",
+ "traits": "**Détection orthographique.** Le prêtre est un épeautre de niveau 5. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Il connaît les sorts de sorciers suivants:\n- Sorts mineurs (à volonté) : Aspersion d'acide, Protection contre les armes, Lumière, Réparation, Façonnage de la terre\n- Niveau 1 (4 emplacements) : Secousse sismique, Repli expéditif, Bouclier\n- Niveau 2 (3 emplacements) : Fracassement, Pattes d'araignée\n- Niveau 3 (2 emplacements) : Lenteur",
+ "actionsText": "**Multiattaques.** Le prêtre fait deux attaques à la mêlée.\n**Glaive.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 7 (1d10 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Glaive",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c89e874cbe_monstre-terre-noire-ecclesiastique.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Terre noire ecclésiastique",
+ "caNote": "Armure Splint",
+ "skills": "Intimidation +5, Religion +3, Persuasion +5",
+ "reactions": "**Un rendement insuffisant.** Lorsque le prêtre est soumis à un effet qui le déplacerait, frappez-l'à terre, ou les deux, il peut utiliser sa réaction pour ne pas être déplacé ni à terre."
+}

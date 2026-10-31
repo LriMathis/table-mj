@@ -1,0 +1,41 @@
+{
+ "id": "clockwork-kraken",
+ "name": "Clockwork Kraken",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 142,
+ "hpFormula": "15d10+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Résistance magique.** Le kraken d'horlogerie a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Tentacles indépendants.** Le kraken d'horlogerie a huit tentacules, chacun étant traité comme une créature moyenne, se déplace indépendamment sur le tour de la construction, et a une vitesse de vol de 12 m. Les sens de l'horlogerie kraken fonctionnent à travers ses tentacules ainsi que son corps principal. Chaque tentacule peut être attaqué indépendamment, avec des dégâts infligés aux tentacules appliqués au total de points de vie de l'horlogerie kraken. Un tentacule est détruit s'il prend plus de 20 dégâts.\nRéduire la construction à trois tentacules ou moins réduit ses attaques en conséquence. Un kraken d'horlogerie peut regrow tous les tentacules détruits à la fin d'un repos long.",
+ "actionsText": "**Multiattaques.** L'horlogerie kraken fait quatre attaques de clams tentaculaires.\n**Clam du Tentacle.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clam du Tentacle",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/feabe1f0a4_monstre-clockwork-kraken.webp",
+ "notes": "",
+ "source": "Lost Laboratory of Kwalish (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "feu, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

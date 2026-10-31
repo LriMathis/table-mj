@@ -1,0 +1,47 @@
+{
+ "id": "main-de-la-tour",
+ "name": "Tower Hand",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 9
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "**Défense non armée.** Bien que la main de la tour ne porte pas d'armure et ne porte pas de bouclier, son CA comprend son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** La main de la tour fait deux attaques frappe à mains nues, deux attaques Dart, ou l'une de chacune.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants.\n**Débrouille-toi.** Attaque d'arme à distance : +4 au toucher, portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/38ca7560c7_monstre-main-de-la-tour.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Main de la tour",
+ "caNote": "Défense non armée",
+ "skills": "Perspicacité +4",
+ "reactions": "**Missile défectueux.** En réponse à une attaque d'armes, la tour dévie le missile. Les dégâts qu'il prend de l'attaque sont réduits de 7 (1d10 + 2)."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "precognitive-mage",
+ "name": "Precognitive Mage",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 11,
+ "hp": 63,
+ "hpFormula": "14d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 13,
+  "CON": 10,
+  "INT": 18,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 13",
+ "languages": "Commun plus une langue",
+ "traits": "**Découpe intérieure.** Le caractéristique d'incantation inné du mage est Intelligence (sorption sauvegardez DD 14). Il peut lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Clairvoyance, Localisation d'objet\n- 3/jour : Détection des pensées, Armure de mage",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d6 - 1) dégâts contondants, ou 3 (1d8 - 1) dégâts contondants si utilisé avec deux mains.\n**Glimpse la crue temporelle (Recharge 5-6).** Le mage cible une créature à l'intérieur de 36 m qu'il peut voir. La cible prend 18 (4d8) dégâts psychiques, et elle doit réussir sur un DD 14 jet de sauvegarde d'Intelligence ou être étourdi jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 1,
+   "damage": "1d6-1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8c56a373ab_monstre-precognitive-mage.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "saves": "INT +6, SAG +3",
+ "skills": "Perception +3",
+ "reactions": "**Aperçu précognitif (3/jour).** Lorsque le mage ou une créature qu'il peut voir fait un jet d'attaque, un jet de sauvegarde, ou un test de caractéristique, le mage peut faire le rouleau avec avantage ou désavantage."
+}

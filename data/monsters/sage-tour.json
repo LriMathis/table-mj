@@ -1,0 +1,39 @@
+{
+ "id": "sage-tour",
+ "name": "Tower Sage",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 10,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "Commun plus trois langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La cage de la tour fait deux attaques Arcane Burst et peut utiliser Starry Radiance si disponible.\n**La Burst d'Arcane.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 8 (1d10 + 3) dégâts radiants.\n**Rayonnement étoilé (Recharge 5-6).** La lumière éclate du bout des doigts de la tour-sage dans un cône 4,50 m. Chaque créature dans cette zone doit réussir sur un DD 13 jet de sauvegarde de Constitution ou avoir l'état aveuglé jusqu'à la fin du tour suivant de la tour.\n**Détection orthographique.** La sauge de la tour lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumières dansantes, Main de mage, Prestidigitation\n- 1/jour chacun : Verrou magique, Mains brûlantes, Compréhension des langues, Détection de la magie, Lévitation, Armure de mage",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/38ca7560c7_monstre-sage-tour.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Sage tour",
+ "skills": "Arcanes +5, Histoire +5, Perspicacité +4"
+}

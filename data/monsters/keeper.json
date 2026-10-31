@@ -1,0 +1,48 @@
+{
+ "id": "keeper",
+ "name": "The Keeper",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 126,
+ "hpFormula": "11d12+55",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le Gardien fait deux attaques.\n**Bataille +1.** Attaque d'arme au corps à corps : +10 au toucher, allonge 4,50 m, une cible. Touché : 20 (3d8 + 7) dégâts tranchants, ou 23 (3d10 + 7) dégâts tranchants si utilisé avec les deux mains.\n**Roche.** Attaque d'arme à distance : +9 au toucher, portée 18/72 m., une cible. Touché : 28 (4d10 + 6) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 17 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Bataille +1",
+   "bonus": 10,
+   "damage": "3d8+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 9,
+   "damage": "4d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/a6b461bd4d_monstre-keeper.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Keeper",
+ "caNote": "Courrier en chaîne",
+ "saves": "DEX +5, CON +8, SAG +4",
+ "skills": "Athlétisme +12, Perception +4",
+ "reactions": "**Capture de roche.** Si un rocher ou un objet similaire est lancé au Keeper, le Keeper peut, avec un DD 10 jet de sauvegarde de Dextérité réussi, attraper le missile et ne pas en prendre dégâts contondants."
+}

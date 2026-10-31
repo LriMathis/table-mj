@@ -1,0 +1,49 @@
+{
+ "id": "recolte-diable",
+ "name": "Harvester Devil",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 36 m (unimpeded by magical Darkness), Perception passive 13",
+ "languages": "commun, Infernal; télépathie 36 m.",
+ "traits": "**Paroi diabolique.** jets d'attaque contre le diable ont Inconvénient. Si le diable fait un jet d'attaque, ce trait est supprimé jusqu'au début de son prochain tour.\n**Restauration diabolique.** Si le diable meurt en dehors des Neuf Enfers, son corps disparaît dans la fumée sulfureuse, et il gagne un nouveau corps instantanément, en revigorant avec tous ses points de vie quelque part dans les Neuf Enfers.\n**Résistance magique.** Le diable a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le diable fait deux attaques, en utilisant la lame infernale ou le rayon de confusion dans n'importe quelle combinaison.\n**Lame infernale.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts tranchants et 7 (2d6) dégâts de feu.\n**Rayon qui confond.** Jet d'attaque à distance : +5, portée 36 m. Touché : 13 (2d12) dégâts psychiques. Si la cible est une créature, elle ne peut pas faire Opportunity Attacks avant le début du prochain tour du diable.\n**Contrat d ' appel d ' offres (1/jour).** Jet de sauvegarde de Charisme : DD 14, une créature dans 9 m du diable. Échec : La cible a l'état charmé. Bien qu'il soit charmé, il a l'état étourdi, sauf que la cible peut parler. Si la cible accepte le contrat du diable, l'effet se termine. Sinon, la cible répète l'enregistrement chaque fois qu'elle prend des dégâts et à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Après 1 minute, il réussit automatiquement.",
+ "attacks": [
+  {
+   "name": "Lame infernale",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Rayon qui confond",
+   "bonus": 5,
+   "damage": "2d12",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/8b33045402_monstre-recolte-diable.webp",
+ "notes": "",
+ "source": "Astarion's Book of Hungers (5e.tools, traduction automatique)",
+ "aka": "Récolte diable",
+ "saves": "CON +4, SAG +3",
+ "skills": "Perception +3, Persuasion +8, Discrétion +5",
+ "resistances": "froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

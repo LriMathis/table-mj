@@ -1,0 +1,42 @@
+{
+ "id": "horreur-casquee",
+ "name": "Horreur casquée",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 20,
+ "caNote": "bouclier, harnois",
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "skills": "Perception +4",
+ "resistances": "contondants, perforants et tranchants infligés par des attaques non magiques qui ne sont pas issues d'armes en adamantium",
+ "immunities": "force, poison, nécrotiques",
+ "conditionImmunities": "assourdi, aveuglé, charmé, terrorisé, empoisonné, étourdi, paralysé, pétrifié",
+ "senses": "vision aveugle 18 m (aveugle au-delà de cette distance), Perception passive 14",
+ "languages": "comprend les langues de son créateur, mais ne peut pas parler",
+ "traits": "**Immunité magique.** L'horreur casquée est immunisée contre les effets de trois sorts choisis par son créateur. Les sorts de *boule de feu*, *chauffer le métal* et *éclair* sont le plus souvent choisis.\n**Résistance à la magie.** L'horreur casquée est avantagée lors des jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** L'horreur casquée effectue deux attaques avec son épée longue.\n**Épée longue.** *Attaque d'arme au corps à corps :* +6 pour toucher, allonge 1,50 m, une cible. *Touché :* 8 (1d8+4) dégâts tranchants, ou 9 (1d10+4) dégâts tranchants si elle est maniée à deux mains.",
+ "portrait": "/data/images/ad61126c1d_monstre-horreur-casquee.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 190 · image : Manuel des monstres p. 189",
+ "attacks": [
+  {
+   "name": "Épée longue",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  }
+ ]
+}

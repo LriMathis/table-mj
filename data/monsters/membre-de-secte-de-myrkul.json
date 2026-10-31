@@ -1,0 +1,41 @@
+{
+ "id": "membre-de-secte-de-myrkul",
+ "name": "Cultist of Myrkul",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 16,
+ "hp": 204,
+ "hpFormula": "24d8+96",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 20,
+  "SAG": 18,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun",
+ "traits": "**Plus près des morts.** Alors qu'en sang, le culte a Immunité aux conditions effrayé et empoisonné.",
+ "actionsText": "**Multiattaques.** Le culte fait trois attaques de la nécrotique Burst.\n**nécrotique Burst.** Jet d'attaque au corps à corps ou à distance : +9, allonge 1,50 m ou portée 36 m. Touché : 27 (5d10) dégâts nécrotiques et la cible ne peut retrouver points de vie qu'à la fin du prochain tour du culte.\n**Détection orthographique.** Le cultivateur lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Communication avec les morts, Thaumaturgie\n- 1/jour chacun : Animation des morts, Cercle de mort",
+ "attacks": [
+  {
+   "name": "nécrotique Burst",
+   "bonus": 9,
+   "damage": "5d10",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/b7dddfee21_monstre-membre-de-secte-de-myrkul.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Membre de secte de Myrkul",
+ "saves": "CON +8, INT +9, SAG +8, CHA +6",
+ "skills": "Arcanes +9, Perspicacité +8, Religion +9",
+ "resistances": "nécrotique"
+}

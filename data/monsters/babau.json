@@ -1,0 +1,42 @@
+{
+ "id": "babau",
+ "name": "Babau",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "abyssal",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le babau fait deux attaques de Claw. Il peut remplacer une attaque par une utilisation de Spellcasting ou Weakening Gaze.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts tranchants plus 2 (1d4) dégâts d'acide.\n**Faiblesse de la gaze.** Le babau cible une créature qu'il peut voir à l'intérieur de 6 m. La cible doit faire un DD 13 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la cible n'inflige que la moitié des dégâts avec des attaques d'armes qui utilisent Force pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Le babau lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 11) :\n- À volonté : Ténèbres, Dissipation de la magie, Peur, Métal brûlant, Lévitation",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "tranchant + acide"
+  }
+ ],
+ "portrait": "/data/images/ea69b1f220_monstre-babau.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5, Discrétion +5",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

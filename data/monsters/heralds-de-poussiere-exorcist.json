@@ -1,0 +1,42 @@
+{
+ "id": "heralds-de-poussiere-exorcist",
+ "name": "Heralds of Dust Exorcist",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 13,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 15",
+ "languages": "Commun plus trois autres langues",
+ "traits": "**Navire incorruptible.** L'exorciste ne peut pas être possédé par les Célestes, les Fiends ou les morts-vivants.",
+ "actionsText": "**Multiattaques.** L'exorciste fait deux attaques de Grave Burst.\n**Sépulcre.** Attaque de sort au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 19 (3d10 + 3) nécrotique ou dégâts radiants (le choix de l'exorciste).\n**Admettre l'entité (Recharge 5-6).** L'exorciste atténue le voile de la mort pour une créature qu'il peut voir en 18 m de lui-même, exposant la cible à des entités malveillantes. La cible doit faire un DD 14 jet de sauvegarde de Charisme. Sur une sauvegarde ratée, la cible prend 36 (8d8) dégâts psychiques et a l'état neutralisé pendant 1 minute, au cours de laquelle elle recolle et babille inconstanciellement dans une voix qui n'est pas sa propre. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement. Une cible neutralisé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** L'exorciste lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 14, +6 au toucher with attaques de sort) :\n- À volonté : Détection du mal et du bien, Armure de mage (autoseulement), Main de mage\n- 1/jour chacun : Bannissement, Dissipation du mal et du bien\n- 2/jour chacun : Protection contre le mal et le bien, Délivrance des malédictions, Communication avec les morts",
+ "attacks": [
+  {
+   "name": "Sépulcre",
+   "bonus": 6,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/c77e7aa0b5_monstre-heralds-de-poussiere-exorcist.webp",
+ "notes": "",
+ "source": "Adventure Atlas: The Mortuary (5e.tools, traduction automatique)",
+ "aka": "Heralds de poussière Exorcist",
+ "saves": "INT +6, SAG +5, CHA +3",
+ "skills": "Arcanes +6, Perception +5, Religion +6",
+ "resistances": "nécrotique",
+ "conditionImmunities": "charmé, effrayé"
+}

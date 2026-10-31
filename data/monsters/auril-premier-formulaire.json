@@ -1,0 +1,56 @@
+{
+ "id": "auril-premier-formulaire",
+ "name": "Auril (First Form)",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 13,
+ "hp": 95,
+ "hpFormula": "10d8+50",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 21,
+  "INT": 24,
+  "SAG": 26,
+  "CHA": 28
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 36 m, Perception passive 26",
+ "languages": "tous, télépathie 300 m",
+ "traits": "**Être divin.** Auril ne peut pas être surpris et ne peut pas être changé en une autre forme contre sa volonté.\n**Régénération divine.** Quand Auril tombe à 0 points de vie, son corps se retourne pour se faufiler et fond. Auril réapparaît instantanément dans sa seconde forme, dans un espace inoccupé au sein de 18 m où sa première forme a disparu. Son initiative compte ne change pas.\n**Résistance légendaire (2/jour sous cette forme).** Si Auril échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Auril a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** Auril n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.\n**Découpe intérieure.** Auril est l'innat caractéristique d'incantation est Charisme (sorption sauvegardez DD 21, +13 au toucher avec attaques de sort). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Orbe chromatique (orbe froide seulement; voir \"Actions\" ci-dessous), Détection de la magie, Foulée brumeuse\n- 2/jour chacun : Contrôle du climat, Détection des pensées, Tempête de grêle",
+ "actionsText": "**Multiattaques.** Auril attaque deux fois avec ses talons.\n**Talons.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 3 (1d6) dégâts de froid.\n**Touche de gel.** Attaque de sort au corps à corps : +13 au toucher, allonge 1,50 m, une créature. Touché : 13 (3d8) dégâts de froid, et la cible ne peut pas prendre de réactions avant le début de son prochain tour.\n**Orbe chromatique.** Attaque de sort à distance : +13 au toucher, portée 27 m, une créature. Touché : 13 (3d8) dégâts de froid.",
+ "attacks": [
+  {
+   "name": "Talons",
+   "bonus": 7,
+   "damage": "1d8+3",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Touche de gel",
+   "bonus": 13,
+   "damage": "3d8",
+   "type": "froid"
+  },
+  {
+   "name": "Orbe chromatique",
+   "bonus": 13,
+   "damage": "3d8",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/45ac27916b_monstre-auril-premier-formulaire.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Auril (premier formulaire)",
+ "saves": "CON +9, SAG +12",
+ "skills": "Tromperie +13, Perspicacité +12, Intimidation +13, Perception +16",
+ "vulnerabilities": "radiant",
+ "immunities": "froid, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, auril (premier formulaire) peut entreprendre l'une des actions ci-après.\n**Talons.** Auril attaque une fois avec ses talons.\n**Téléportation.** Auril téléporte dans un espace inoccupé qu'elle peut voir dans 9 m d'elle.\n**Touche de gel (coûts 2 actions).** Auril utilise Touch of Frost."
+}

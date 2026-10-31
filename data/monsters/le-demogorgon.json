@@ -1,0 +1,46 @@
+{
+ "id": "le-demogorgon",
+ "name": "\"The Demogorgon\"",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 123,
+ "hpFormula": "13d12+39",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 8,
+  "CON": 17,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "géant, orc",
+ "traits": "**Deux chefs.** L'ettin a un avantage sur tests de Sagesse (Perception) et sur jet de sauvegarde contre aveuglé, charmé, assourdi, effrayé, étourdi et inconscient.\n**Réveille-toi.** Quand l'une des têtes de l'Ettin est endormie, son autre tête est réveillée.",
+ "actionsText": "**Multiattaques.** L'ettin fait deux attaques : une avec sa battaxe et une avec sa étoile du matin.\n**Bataille.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts tranchants.\n**Matinée.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts perforants.\n**feu Respiration (Recharge 5-6).** La tête droite de l'Ettin exhale le feu dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 45 (10d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**froid Respiration (Recharge 5-6).** La tête gauche de l'Ettin expire une explosion glacée dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Constitution, en prenant 45 (10d8) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Gaz.** L'Ettin tourne son regard magique vers une créature qu'il peut voir à l'intérieur de 36 m. Cette cible doit faire un DD 14 jet de sauvegarde de Sagesse. À moins que la cible soit neutralisé, elle peut ouvrir les yeux pour éviter le regard et réussir automatiquement sur le save. Si la cible le fait, elle ne peut pas voir l'Etin avant le début du prochain tour de l'Ettin. Si la cible regarde l'ettin dans l'intervalle, elle doit immédiatement faire l'enregistrement.\nSi la cible échoue au save, elle subit l'un des effets suivants du choix de l'ettin ou au hasard:\n**C'est un peu bizarre..** La cible est étourdi jusqu'au prochain virage de l'ettin ou jusqu'à ce que l'ettin ne soit plus en ligne de vue.\n**Gaz hypnotique.** La cible est charmé par l'Ettin jusqu'au début du prochain tour de l'Ettin. L'Ettin choisit comment la cible charmé utilise ses actions, ses réactions et ses mouvements.\n**Gaz de folie.** La cible souffre de l'effet du sort Confusion sans faire de jet de sauvegarde. L'effet dure jusqu'au début du prochain tour de l'Ettin. L'Etin n'a pas besoin de se concentrer sur le sort.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Matinée",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/244272d194_monstre-le-demogorgon.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "aka": "\"le Demogorgon\"",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3"
+}

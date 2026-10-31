@@ -1,0 +1,44 @@
+{
+ "id": "dore-stag",
+ "name": "Golden Stag",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 10,
+ "hp": 13,
+ "hpFormula": "2d10+2",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Frais.** Si l'élan se déplace au moins 6 m droit vers une cible et la frappe avec une attaque de bélier au même tour, la cible prend un 7 (2d6) de plus endommage. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre.",
+ "actionsText": "**Ram.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants.\n**Des voyous.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature à terre. Touché : 8 (2d4 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Ram",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Des voyous",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0aa8d53348_monstre-dore-stag.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Doré Stag"
+}

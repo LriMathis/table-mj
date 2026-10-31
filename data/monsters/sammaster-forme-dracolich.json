@@ -1,0 +1,43 @@
+{
+ "id": "sammaster-forme-dracolich",
+ "name": "Sammaster (Dracolich Form)",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 20,
+ "hp": 276,
+ "hpFormula": "24d12+120",
+ "vitesse": "12 m, creusement 9 m, vol 24 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 23,
+  "SAG": 15,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 26",
+ "languages": "commun, draconique, infernal",
+ "traits": "**Résistance légendaire (3/jour).** Si Sammaster échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**La répression de la vie.** Les créatures au sein de 18 m de Sammaster ne peuvent pas récupérer points de vie.\n**Résistance magique.** Sammaster a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Gemme de l'âme.** Sammaster a un joyau d'âme magique comme son cœur dracolich. La gemme ne peut être endommagée ou enlevée qu'après avoir été réduite à 0 points de vie. Si Sammaster est réduit à 0 points de vie, sa forme dracolich se dissout en poussière. Après 1d10 jours, il apparaît dans un espace inoccupé au sein de 1,50 m de son âme gemme (aussi longtemps que le gemme existe toujours), en utilisant le bloc de statistiques Sammaster (Lich Form). La gemme est un objet minuscule qui a CA 20; HP 50; et immunité à acide, nécrotique, poison, et dégâts psychiques. Le bijou reprend tout son points de vie à la fin de chaque tour, mais il se tourne vers la poussière si réduit à 0 points de vie.",
+ "actionsText": "**Multiattaques.** Sammaster fait trois attaques Rend. Il peut remplacer une attaque par une utilisation de Spellcasting pour lancer Flétrissement ou Rayon empoisonné (version de niveau 6).\n**Rend.** Jet d'attaque au corps à corps : +14, allonge 3 m. Touché : 18 (2d10 + 7) dégâts tranchants plus 18 (4d8) dégâts nécrotiques.\n**Respiration corrodante (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 20, chaque créature dans un cône 27 m. Échec : 52 (8d12) acide ou dégâts nécrotiques (le choix de Sammaster). Réussite : Demi-dégâts.\n**Détection orthographique.** Sammaster lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 21, +13 au toucher with attaques de sort) :\n- À volonté : Flétrissement, Détection de la magie, Dissipation de la magie, Main de mage, Prestidigitation, Rayon empoisonné (version de niveau 6)\n- 1/jour chacun : Création de mort-vivant (version de niveau 8), Mot de pouvoir mortel\n- 2/jour chacun : Porte dimensionnelle, Communication avec les morts",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 14,
+   "damage": "2d10+7",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/6a6f5ba3d7_monstre-sammaster-forme-dracolich.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Sammaster (forme Dracolich)",
+ "saves": "DEX +7, CON +12, INT +13, SAG +9",
+ "skills": "Arcanes +20, Histoire +13, Perception +16",
+ "immunities": "acide, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, sammaster (forme dracolich) peut entreprendre l'une des actions ci-après.\n**Ponce.** Sammaster monte à la moitié de sa vitesse, et il fait une attaque Rend.\n**Rayon qui s'affaiblit.** Sammaster utilise Spellcasting pour lancer Rayon empoisonné (version de niveau 6).\n**Présence terrifiante.** Jet de sauvegarde de Sagesse : DD 21, chaque créature dans une Emanation 6 m originaire de Sammaster. Échec : 13 (2d12) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour. Échec ou réussite : Sammaster ne peut pas reprendre cette action avant le début de son prochain tour."
+}

@@ -1,0 +1,45 @@
+{
+ "id": "shadowmoor-geant",
+ "name": "Shadowmoor Giant",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 172,
+ "hpFormula": "15d12+75",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 7,
+  "SAG": 19,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le géant fait trois attaques, en utilisant Tree Club ou Boulder dans n'importe quelle combinaison.\n**Club d'arbres.** Jet d'attaque au corps à corps : +9, allonge 4,50 m. Touché : 17 (2d10 + 6) dégâts contondants.\n**Découpe.** Jet d'attaque à distance : +9, portée 18/72 m. Touché : 13 (2d6 + 6) dégâts contondants. Si la cible est une créature grande ou plus petite, elle a l'état à terre.\n**Cataclysme magique sauvage (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 15, chaque créature dans un 6 m -radius Sphere centré sur un point au sein de 36 m. Échec : 28 (8d6) dégâts (roulement 1d4 pour déterminer le type de dégâts: 1— acide ; 2— feu ; 3— foudre ; 4— tonnerre). Réussite : Demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Club d'arbres",
+   "bonus": 9,
+   "damage": "2d10+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Découpe",
+   "bonus": 9,
+   "damage": "2d6+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/1bcb5184a3_monstre-shadowmoor-geant.webp",
+ "notes": "",
+ "source": "Lorwyn: First Light (5e.tools, traduction automatique)",
+ "aka": "Shadowmoor géant",
+ "saves": "CON +8, SAG +7"
+}

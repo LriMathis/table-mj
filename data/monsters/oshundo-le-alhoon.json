@@ -1,0 +1,51 @@
+{
+ "id": "oshundo-le-alhoon",
+ "name": "Oshundo the Alhoon",
+ "type": "Mort-vivant (flagelleur mental, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m, vol 4,50 m (vol stationnaire)",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 17
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 17",
+ "languages": "commun, profond, télépathie 36 m, commun des profondeurs",
+ "traits": "**Résistance magique.** Oshundo a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Oshundo fait deux attaques de Grasp ou d'Arcane Bolt.\n**Gras de refroidissement.** Attaque de sort au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 14 (4d6) dégâts de froid, et Oshundo retrouve 14 points de vie si la cible est une créature.\n**Arcane Bolt.** Attaque de sort à distance : +8 au toucher, portée 36 m, une cible. Touché : 28 (8d6) dégâts de force.\n**Détonation de la flamme (Recharge 5-6).** Oshundo émet une vague d'énergie dominatrice dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 16 jet de sauvegarde d'Intelligence ou prendre 22 (4d8 + 4) dégâts de tonnerre et avoir l'état étourdi pendant 1 minute. Une créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Oshundo lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Lumières dansantes, Détection de la magie, Détection des pensées, Déguisement, Main de mage, Prestidigitation\n- 1/jour chacun : Domination de monstre, Globe d'invulnérabilité, Invisibilité, Modification de mémoire, Changement de plan (autoseulement), Mur de force",
+ "attacks": [
+  {
+   "name": "Gras de refroidissement",
+   "bonus": 8,
+   "damage": "4d6",
+   "type": "froid"
+  },
+  {
+   "name": "Arcane Bolt",
+   "bonus": 8,
+   "damage": "8d6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/27b231e174_monstre-oshundo-le-alhoon.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Oshundo le Alhoon",
+ "caNote": "armure naturelle",
+ "saves": "CON +7, INT +8, SAG +7, CHA +7",
+ "skills": "Arcanes +8, Histoire +8, Perspicacité +7, Perception +7, Discrétion +5",
+ "resistances": "froid, foudre, nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "reactions": "**Oreille de négate (3/jour).** Oshundo cible une créature il peut percevoir en lui-même 18 m qui lance un sort. Si le sort est de niveau 3 ou inférieur, le sort échoue, mais n'importe quel emplacements de sort ou charges ne sont pas gaspillés."
+}

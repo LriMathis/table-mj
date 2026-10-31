@@ -1,0 +1,41 @@
+{
+ "id": "galsariad-ardyth-niveau-2",
+ "name": "Galsariad Ardyth (Tier 2)",
+ "type": "Humanoïde (drow, elfe, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 67,
+ "hpFormula": "15d8",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "commun, draconique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Galsariad a un avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas le mettre au lit.",
+ "actionsText": "**Potentiel de fuite.** Attaque de sort au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 18 m, une créature. Touché : 22 (4d10) dégâts nécrotiques et Galsariad gagne 5 points de vie temporaires.\n**Gravité Vague (Recharge 5-6).** Galsariad provoque une vague de gravité magique pour remplir une sphère 6 m -radius centrée sur un point qu'il peut voir au sein de 30 m de lui-même. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Force. Sur un jet de sauvegarde raté, la créature prend 35 (10d6) dégâts de force et est tirée vers 6 m vers le centre de la sphère, et est à terre. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas tiré ou à terre.\n**Détection orthographique.** Galsariad lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (Spell save DD 15) :\n- À volonté : Armure de mage, Main de mage\n- 1/jour chacun : Grande foulée, Scrutation (en tant qu'action), Lenteur",
+ "attacks": [
+  {
+   "name": "Potentiel de fuite",
+   "bonus": 7,
+   "damage": "4d10",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/94ae27da91_monstre-galsariad-ardyth-niveau-2.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Galsariad Ardyth (niveau 2)",
+ "saves": "INT +7, SAG +5",
+ "skills": "Arcanes +7, Investigation +7, Nature +7",
+ "bonusActions": "**Gravité de distorsion (1/jour).** Galsariad se vise lui-même ou une créature volontaire qu'il peut voir en 18 m de lui-même, déformant magiquement la gravité autour de la cible. Toute créature dans 1,50 m de la cible prend 7 (2d6) dégâts de force. En outre, la cible peut utiliser une réaction pour flotter vers le haut, jusqu'à 6 m, sans provoquer d'attaques d'opportunité. Lorsque cet effet se termine au début du prochain tour de Galsariad, la cible flotte doucement jusqu'à 6 m."
+}

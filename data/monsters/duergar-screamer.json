@@ -1,0 +1,41 @@
+{
+ "id": "duergar-screamer",
+ "name": "Duergar Screamer",
+ "type": "Créature artificielle (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 7,
+  "CON": 12,
+  "INT": 5,
+  "SAG": 5,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 7",
+ "languages": "comprend Dwarvish mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le crieur fait une attaque de Drill, et il utilise Scream Sonic.\n**Forage.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d12 + 4) dégâts perforants.\n**Cri sonique.** Le crieur émet de l'énergie destructrice dans un cube 4,50 m. Chaque créature dans cette zone doit réussir sur un DD 11 jet de sauvegarde de Force ou prendre 7 (2d6) dégâts de tonnerre et être à terre.",
+ "attacks": [
+  {
+   "name": "Forage",
+   "bonus": 6,
+   "damage": "1d12+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ae3af5d072_monstre-duergar-screamer.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "reactions": "**Moteur de la douleur.** Immédiatement après qu'une créature dans 1,50 m du crieur l'a frappé avec un jet d'attaque, le crieur fait une attaque de Drill contre cette créature."
+}

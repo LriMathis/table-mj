@@ -1,0 +1,39 @@
+{
+ "id": "enorme-tentacle",
+ "name": "Enormous Tentacle",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 60,
+ "hpFormula": "8d12+8",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Portée.** Le tentacule peut atteindre n'importe où dans la pièce.",
+ "actionsText": "**Constriction.** Attaque d'arme au corps à corps : +6 au toucher, allonge 10,50 m, une créature. Touché : 13 (2d8 + 4) dégâts contondants, et la cible est agrippé (évasion DD 16). Jusqu'à ce que ce grappin se termine, la créature est entravé, et le tentacule ne peut pas constricter une autre cible.",
+ "attacks": [
+  {
+   "name": "Constriction",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/72f58aee96_monstre-enorme-tentacle.webp",
+ "notes": "",
+ "source": "The Orrery of the Wanderer (5e.tools, traduction automatique)",
+ "aka": "Énorme Tentacle",
+ "skills": "Perception +2"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "perdu-sorrowsworn",
+ "name": "Lost Sorrowsworn",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 7,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le chagrin a fait deux attaques d'Arm Spike.\n**Spike de bras.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 14 (2d10 + 3) dégâts perforants.\n**Embrassez (Recharge 4-6).** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 25 (4d10 + 3) dégâts perforants, et la cible est agrippé (évasion DD 14) si c'est une créature moyenne ou plus petite. Jusqu'à ce que le grappin se termine, la cible est effrayé, et elle prend 27 (6d8) dégâts psychiques à la fin de chacun de ses tours. Les chagrins ne peuvent faire que du une créature.",
+ "attacks": [
+  {
+   "name": "Spike de bras",
+   "bonus": 6,
+   "damage": "2d10+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Embrassez-vous 4",
+   "bonus": 6,
+   "damage": "4d10+3",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/77f06f2a62_monstre-perdu-sorrowsworn.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Perdu Sorrowsworn",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +6",
+ "resistances": "contondant, perforant, tranchant alors que dans la lumière sombre ou l'obscurité",
+ "reactions": "**Embrace serrée.** Si le chagrinsworn prend des dégâts, la créature agrippé par Embrace prend 18 (4d8) dégâts psychiques."
+}

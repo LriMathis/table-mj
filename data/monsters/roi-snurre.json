@@ -1,0 +1,49 @@
+{
+ "id": "roi-snurre",
+ "name": "King Snurre",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 187,
+ "hpFormula": "15d12+90",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 9,
+  "CON": 23,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Snurre fait deux attaques de grands mots.\n**Grande épée.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 28 (6d6 + 7) dégâts tranchants plus 7 (2d6) dégâts de feu.\n**Roche.** Attaque d'arme à distance : +11 au toucher, portée 18/72 m., une cible. Touché : 29 (4d10 + 7) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 11,
+   "damage": "6d6+7",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Roche",
+   "bonus": 11,
+   "damage": "4d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2efd72e68a_monstre-roi-snurre.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Roi Snurre",
+ "caNote": "Armure de plaque",
+ "saves": "DEX +3, CON +10, CHA +5",
+ "skills": "Athlétisme +11, Perception +6",
+ "resistances": "froid",
+ "immunities": "feu"
+}

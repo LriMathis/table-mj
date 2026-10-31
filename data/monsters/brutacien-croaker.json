@@ -1,0 +1,47 @@
+{
+ "id": "brutacien-croaker",
+ "name": "Bullywug Croaker",
+ "type": "Humanoïde (outrance)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 7,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "C'est vrai, c'est vrai.",
+ "traits": "**Amphibie.** Le croqueur peut respirer de l'air et de l'eau.\n**Parlez avec des grenouilles et des crapauds.** Le croqueur peut communiquer des concepts simples aux grenouilles et aux crapauds lorsqu'il parle à Bullywug.\n**Leap debout.** Le long saut du croker est jusqu'à 6 m et son saut en hauteur est jusqu'à 3 m, avec ou sans démarrage.\n**Camouflage de swamp.** Le croker a l'avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans un terrain marécageux.",
+ "actionsText": "**Lancer.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Glaaar-pat (3/jour).** Le croqueur chante une chanson de doom marécageux. Chaque créature choisie dans 9 m du croker qui peut entendre la chanson doit faire un DD 12 jet de sauvegarde de Sagesse, en prenant 9 (2d8) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature qui échoue ce jet de sauvegarde a également un désavantage sur jet de sauvegarde de Constitution jusqu'à la fin de son prochain tour.\n**Glog de rooooo (1/jour).** Le croqueur chante une ode à une grenouille-hémoth aînée. Chaque bullywug dans 9 m du croker qui peut entendre la chanson gagne 10 points de vie temporaires.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/70e603529e_monstre-brutacien-croaker.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Brutacien Croaker",
+ "caNote": "Cache l'armure, Bouclier",
+ "saves": "CON +3",
+ "skills": "Perception +4, Discrétion +3"
+}

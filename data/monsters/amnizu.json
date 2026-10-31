@@ -1,0 +1,44 @@
+{
+ "id": "amnizu",
+ "name": "Amnizu",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 21,
+ "hp": 202,
+ "hpFormula": "27d8+81",
+ "vitesse": "9 m, vol 12 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 20,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "commun, infernal, télépathie 300 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir de l'amnizu.\n**Résistance magique.** L'amnizu a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'amnizu utilise Blinding Rot ou Forgetfulness, si disponible. Il fait également deux attaques de Taskmaster Whip.\n**Whip maître de tâches.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 9 (1d8 + 5) dégâts tranchants plus 16 (3d10) dégâts de force.\n**Rouleaux aveuglants.** L'amnizu cible une ou deux créatures qu'il peut voir à l'intérieur de 18 m. Chaque cible doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou prendre 26 (4d12) dégâts nécrotiques et être aveuglé jusqu'au prochain tour de l'amnizu.\n**Oubliement (Recharge 6).** L'amnizu cible une créature qu'il peut voir à l'intérieur de 18 m. Cette créature doit réussir sur un DD 18 jet de sauvegarde d'Intelligence ou prendre 26 (4d12) dégâts psychiques et devenir étourdi pendant 1 minute. Une créature étourdi répète la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si la cible est étourdi pendant toute la minute, elle oublie tout ce qu'elle a senti, expérimenté et appris au cours des 5 dernières heures.\n**Détection orthographique.** L'amnizu lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Injonction\n- 1/jour : Esprit faible\n- 3/jour : Domination de monstre",
+ "attacks": [
+  {
+   "name": "Whip maître de tâches",
+   "bonus": 11,
+   "damage": "1d8+5",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/4d316ea3e4_monstre-amnizu.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +9, SAG +7, CHA +10",
+ "skills": "Perception +7",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "reactions": "**Charm Instictif.** Lorsqu'une créature dans 18 m de l'amnizu fait un jet d'attaque contre elle, et qu'une autre créature est à l'intérieur de la portée de l'attaque, l'attaquant doit faire un DD 19 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, l'attaquant doit cibler la créature qui est la plus proche, sans inclure l'amnizu ou lui-même. Si plusieurs créatures sont les plus proches, l'attaquant choisit celle à cibler. Si le jet de sauvegarde est réussi, l'attaquant est immunisé contre le charme instinctif de l'amnizu pendant 24 heures."
+}

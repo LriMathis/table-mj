@@ -1,0 +1,46 @@
+{
+ "id": "cressaro",
+ "name": "Cressaro",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun, géant",
+ "traits": "**Sensation de Keen.** Le géant a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Découpe intérieure.** Le caractéristique d'incantation inné du géant est Charisme. Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Nappe de brouillard, Lumière\n- 1/jour chacun : Contrôle du climat, Forme gazeuse\n- 3/jour chacun : Feuille morte, Vol, Foulée brumeuse, Télékinésie",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques d'étoiles du matin.\n**Matinée.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts perforants.\n**Roche.** Attaque d'arme à distance : +12 au toucher, portée 18/72 m., une cible. Touché : 30 (4d10 + 8) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 12,
+   "damage": "3d8+8",
+   "type": "perforant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 12,
+   "damage": "4d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/197f5463d7_monstre-cressaro.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Bracelets de défense",
+ "saves": "CON +10, SAG +7, CHA +7",
+ "skills": "Perspicacité +7, Perception +7"
+}

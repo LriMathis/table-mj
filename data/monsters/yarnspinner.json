@@ -1,0 +1,41 @@
+{
+ "id": "yarnspinner",
+ "name": "Yarnspinner",
+ "type": "Fée (archifey)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 16,
+  "CON": 21,
+  "INT": 18,
+  "SAG": 21,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 23",
+ "languages": "commun, druidique, sylvestre",
+ "traits": "**Renaissance de la fièvre.** Si Yarnspinner meurt dans son Domaine de Delight, il reprend avec tous ses points de vie 1d4 jours plus tard dans un endroit sûr dans ce domaine.\n**Résistance légendaire (3/jour).** Si Yarnspinner échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Escalade des araignées.** Yarnspinner peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Web Walker.** Yarnspinner ignore les restrictions de mouvement causées par la sangle.\n**Weaver Web (3/jour).** Yarnspinner peut prendre 1 minute pour fabriquer l'une des structures suivantes hors de la toile:\n- Une paroi opaque de 3 pouces de sangle comprenant jusqu'à trois sections carrées de 3 m, chacune devant être ancrée sur au moins deux côtés par d'autres murs ou surfaces. Chaque section a CA 12; 20 points de vie ; vulnérabilité à dégâts de feu ; et immunité à la bludgeoning, poison, et dégâts psychiques.\n- Une cabane assez petite pour s'intégrer dans un cube 3 m. La cabane est munie d'une porte fermée et d'un lit confortable en toile, de taille pour une créature minuscule, petite ou moyenne.\n- Un message composé d'au plus vingt-cinq caractères, ancré à différents points, de sorte qu'il s'accroche dans l'air.",
+ "actionsText": "**Multiattaques.** Yarnspinner fait deux attaques Bite et utilise Spellcasting ou Web une fois.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 17 (3d6 + 7) dégâts perforants plus 11 (2d10) dégâts de poison.\n**Site Web.** Yarnspinner tire en sangle sur une créature qu'il peut voir au sein de 36 m de lui-même. La cible doit réussir sur un DD 17 jet de sauvegarde de Force ou être entravé pendant 1 heure. La cible peut répéter l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Yarnspinner lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Lueurs féeriques, Communication avec les animaux\n- 1/jour chacun : Éveil (en tant qu'action), Passage sans trace\n- 2/jour chacun : Amitié avec les animaux, Création de nourriture et d'eau, Retour à la vie",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "3d6+7",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/1a48ee1b18_monstre-yarnspinner.webp",
+ "notes": "",
+ "source": "Domains of Delight (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +9, SAG +9, CHA +8",
+ "skills": "Perception +13, Discrétion +7",
+ "conditionImmunities": "charmé, effrayé"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "inspire",
+ "name": "Inspired",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 16,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, Quori",
+ "traits": "**Dual Mind.** L'Inspiré a un avantage sur jet de sauvegarde de Sagesse.\n**La diffusion de l'orthographe innée (Psioniques).** Le caractéristique d'incantation de l'Inspiré est Intelligence (save spell DD 13). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Main de mage, Moquerie cruelle (voir \"Actions\" ci-dessous)\n- 1/jour chacun : Charme-personne, Murmures dissonants, Maléfice, Immobilisation de personne, Armure de mage",
+ "actionsText": "**Multiattaques.** L'Inspiré fait deux attaques de dague de crysteel. Il peut remplacer une attaque par une moquerie vicieuse.\n**Crysteel Dagger.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants plus 10 (3d6) dégâts de force.\n**Fonceuse vicieuse (sort mineur).** L'Inspiré déclenche une série d'insultes laquées de subtils enchantements à une créature qu'il peut voir dans 18 m de lui. Si la cible peut entendre l'Inspiré, la cible doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou prendre 2 (1d4) dégâts psychiques et avoir un désavantage sur le jet d'attaque suivant qu'elle effectue avant la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Crysteel Dagger",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant + force"
+  }
+ ],
+ "portrait": "/data/images/a2ddc2efc4_monstre-inspire.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "aka": "Inspiré",
+ "saves": "INT +5, SAG +2",
+ "skills": "Tromperie +7, Perspicacité +2, Persuasion +7",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé, effrayé"
+}

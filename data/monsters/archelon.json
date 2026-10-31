@@ -1,0 +1,38 @@
+{
+ "id": "archelon",
+ "name": "Archélon",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "non alignée",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 17,
+ "hp": 90,
+ "hpFormula": "12d12+12",
+ "vitesse": "6 m, nage 24 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 4,
+  "SAG": 14,
+  "CHA": 6
+ },
+ "skills": "Discrétion +5",
+ "senses": "Perception passive 12",
+ "languages": "aucune",
+ "traits": "**Amphibie.** L’archélon peut respirer sous l’eau comme à l’air libre.",
+ "actionsText": "**Attaques multiples.** L’archélon effectue deux attaques de Morsure.\n**Morsure.** Corps à corps : +6, allonge 1,50 m. Touché : 14 (3d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 6,
+   "damage": "3d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3df64981b2_monstre-archelon.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

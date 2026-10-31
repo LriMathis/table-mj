@@ -1,0 +1,43 @@
+{
+ "id": "vivant-doll",
+ "name": "Living Doll",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 28,
+ "hpFormula": "8d4+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 11,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "commun",
+ "traits": "**Fausse apparence.** Si la poupée est immobile au début du combat, elle a un avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte de la poupée, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que la poupée est animée.\n**Régénération.** La poupée retrouve 5 points de vie au début de son tour. Si la poupée prend feu ou dégâts psychiques, ce trait ne fonctionne pas au début du tour suivant de la poupée. La poupée n'est détruite que si elle commence son tour avec 0 points de vie et ne se régénère pas.\n**Nature inhabituelle.** La poupée n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Mains d'accroche.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une créature. Touché : La cible est agrippé (évasion DD 6) et prend 11 (2d10) dégâts psychiques au début de chacun de ses tours jusqu'à ce que ce grappin se termine. La poupée ne peut battre qu'une créature à la fois.",
+ "attacks": [
+  {
+   "name": "Mains d'accroche",
+   "bonus": 2,
+   "damage": "2d10",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/1505a55aaa_monstre-vivant-doll.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Vivant Doll",
+ "caNote": "armure naturelle",
+ "saves": "INT +2, SAG +2, CHA +0",
+ "immunities": "poison",
+ "conditionImmunities": "paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Poignée (Recharge 4-6).** La poupée s'écrase comme elle cible une ou deux créatures qu'elle peut voir à l'intérieur de 9 m. Chaque cible qui peut entendre l'écrasement de la poupée doit faire un DD 11 jet de sauvegarde de Sagesse, en suivant automatiquement s'il a un Intelligence de 4 ou moins. Sur un jet de sauvegarde raté, la créature prend 5 (2d4) dégâts psychiques et est neutralisé pendant 1 minute car elle est surmontée par un bon rire. À la fin de chacun de ses tours, la créature peut répéter le jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès. Une créature qui réussit sur ce jet de sauvegarde est à l'abri de cette poupée pendant 24 heures."
+}

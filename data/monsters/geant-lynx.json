@@ -1,0 +1,40 @@
+{
+ "id": "geant-lynx",
+ "name": "Giant Lynx",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 18,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 16",
+ "languages": "géant, sylvestre",
+ "traits": "**Vue de Lynx (1/jour).** Le lynx peut lancer Clairvoyance, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation.\n**Camouflage des bois.** Le lynx présente un avantage sur tests de Dextérité (Discrétion) pour se cacher dans un sous-bois ou un terrain enneigé.",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants. Si le lynx a déplacé au moins 6 m droit vers la cible immédiatement avant le coup, la cible doit réussir sur un DD 12 jet de sauvegarde de Force ou avoir l'état à terre. Si la cible a l'état à terre, le lynx peut faire une autre attaque des griffes contre elle en tant qu'action bonus.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/15d7d82130_monstre-geant-lynx.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant Lynx",
+ "skills": "Perception +6, Discrétion +6",
+ "resistances": "froid"
+}

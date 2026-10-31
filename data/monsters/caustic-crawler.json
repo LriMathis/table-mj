@@ -1,0 +1,38 @@
+{
+ "id": "caustic-crawler",
+ "name": "Caustic Crawler",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 39,
+ "hpFormula": "6d10+6",
+ "vitesse": "9 m, creusement 3 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 11,
+  "CON": 13,
+  "INT": 1,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants plus 3 (1d6) dégâts d'acide. Si la cible est une créature grande ou plus petite, c'est agrippé (évasion DD 13). Jusqu'à ce que ce grappin se termine, le rampeur ne peut mordre que la créature agrippé et a l'avantage sur jets d'attaque pour le faire.\n**acide Spray (Recharge 6).** Le rampeur crache de l'acide dans une ligne qui est longue 9 m et large 1,50 m, à condition qu'il n'a pas de créature agrippé. Chaque créature dans cette ligne doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 10 (3d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant + acide"
+  }
+ ],
+ "portrait": "/data/images/c255eba2dd_monstre-caustic-crawler.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

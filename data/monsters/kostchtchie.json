@@ -1,0 +1,50 @@
+{
+ "id": "kostchtchie",
+ "name": "Kostchtchie",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 16,
+ "hp": 243,
+ "hpFormula": "18d10+144",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 12,
+  "CON": 27,
+  "INT": 18,
+  "SAG": 22,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 24",
+ "languages": "abyssal, géant, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Kostchtchie échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Kostchtchie a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** caractéristique d'incantation innée de Kostchtchie est Charisme (spell save DD 20). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Injonction, Ténèbres\n- 1/jour chacun : Dissipation du mal et du bien, Portail, Contamination, Télékinésie, Téléportation, Marche sur le vent",
+ "actionsText": "**Multiattaques.** Kostchtchie fait deux attaques de mêlée, dont une seule peut être une attaque de morsure.\n**Morceau.** Attaque d'arme au corps à corps : +18 au toucher, allonge 1,50 m, une créature. Touché : 13 (1d6 + 10) dégâts perforants.\n**Matalotok (Warhammer).** Attaque d'arme au corps à corps : +18 au toucher, allonge 3 m, une cible. Touché : 19 (2d8 + 10) dégâts contondants, ou 21 (2d10 + 10) dégâts contondants lorsqu'il est utilisé à deux mains, et l'arme émet une explosion de froid qui traite 10 (3d6) dégâts de froid à chaque créature dans 9 m de lui.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 18,
+   "damage": "1d6+10",
+   "type": "perforant"
+  },
+  {
+   "name": "Matalotok (Warhammer)",
+   "bonus": 18,
+   "damage": "2d8+10",
+   "type": "contondant + froid"
+  }
+ ],
+ "portrait": "/data/images/6117fe388e_monstre-kostchtchie.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +16, SAG +14",
+ "skills": "Intimidation +12, Perception +14, Survie +14",
+ "resistances": "feu, foudre",
+ "immunities": "froid, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, kostchtchie peut entreprendre l'une des actions ci-après.\n**Attaque.** Kostchtchie fait une attaque d'arme à la mêlée.\n**Frais.** Kostchtchie va à sa vitesse.\n**Malédiction (coûts 2 actions).** Kostchtchie maudit une créature il peut voir dans 18 m de lui. La créature maudite devient vulnérable à tous les dégâts infligés par Kostchtchie jusqu'à la fin du prochain tour de Kostchtchie."
+}

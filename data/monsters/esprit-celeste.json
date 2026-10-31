@@ -1,0 +1,33 @@
+{
+ "id": "esprit-celeste",
+ "name": "Celestial Spirit",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m, vol 12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "céleste, comprend les langues que vous connaissez",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'esprit fait un nombre d'attaques égal à la moitié du niveau de ce sort (ronde vers le bas).\n**radiant Bow (Vengeur seulement).** Jet d'attaque à distance : votre bonus d'attaque de sort, portée 180 m. Touché : 2d6 + 2 + summonSpellLevel dégâts radiants.\n**radiant Mace (Défendeur seulement).** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d10 + 3 + summonSpellLevel dégâts radiants, et l'esprit peut choisir lui-même ou une autre créature qu'il peut voir dans 3 m de la cible. La créature choisie gagne 1d10 points de vie temporaires.\n**Touche de guérison (1/jour).** L'esprit touche une autre créature. La cible récupère points de vie égal à 2d8 + summonSpellLevel.",
+ "attacks": [],
+ "portrait": "/data/images/244ff99d85_monstre-esprit-celeste.webp",
+ "notes": "points de vie : 40 + 10 pour chaque niveau de sort supérieur à 5",
+ "source": "Player's Handbook (2024) (5e.tools, traduction automatique)",
+ "aka": "Esprit céleste",
+ "resistances": "radiant",
+ "conditionImmunities": "charmé, effrayé"
+}

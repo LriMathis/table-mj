@@ -1,0 +1,40 @@
+{
+ "id": "lawmage",
+ "name": "Lawmage",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 84,
+ "hpFormula": "13d8+26",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 15",
+ "languages": "Commun plus une langue",
+ "traits": "**Détection orthographique.** La loi est un épeautre de niveau 8 Azorius. Son caractéristique d'incantation est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort). La législature a les sorts d'assistants suivants préparés:\n- Sorts mineurs (à volonté) : Trait de feu, Amis, Lumière, Message\n- Niveau 1 (4 emplacements) : Alarme, Repli expéditif, Bouclier\n- Niveau 2 (3 emplacements) : Verrou magique, Détection des pensées, Immobilisation de personne\n- Niveau 3 (3 emplacements) : Clairvoyance, Dissipation de la magie, Lenteur\n- Niveau 4 (2 emplacements) : Localisation de créature, Peau de pierre",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants, ou 5 (1d8 + 1) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 4,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/fa43ed941e_monstre-lawmage.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "saves": "INT +6, SAG +5",
+ "skills": "Arcanes +6, Perception +5, Persuasion +4"
+}

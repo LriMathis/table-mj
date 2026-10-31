@@ -1,0 +1,45 @@
+{
+ "id": "decapus",
+ "name": "Decapus",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 75,
+ "hpFormula": "10d10+20",
+ "vitesse": "4,50 m, escalade 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le décape fait deux attaques : une avec sa morsure et une avec ses tentacules.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature agrippé par le décape. Touché : 7 (2d4 + 2) dégâts perforants.\n**Tentacules.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 24 (9d4 + 2) dégâts contondants ou 14 (5d4 + 2) dégâts contondants si le décapus est en train de frapper une créature autre que la cible ou si le décapus est au rez-de-chaussée ou au sol. La cible est également agrippé (évasion DD 14) à moins que le décapus ne soit déjà en train de battre une créature. Jusqu'à ce que ce grappin se termine, la cible est entravé.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacules",
+   "bonus": 4,
+   "damage": "9d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/714e15b5a0_monstre-decapus.webp",
+ "notes": "",
+ "source": "The Tortle Package (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +4, Perception +2, Discrétion +4"
+}

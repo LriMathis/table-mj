@@ -1,0 +1,48 @@
+{
+ "id": "diable-osseux",
+ "name": "Diable osseux",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 161,
+ "hpFormula": "17d10+68",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "saves": "FOR +8, INT +5, SAG +6, CHA +7",
+ "skills": "Intuition +6, Tromperie +7",
+ "resistances": "froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**Résistance à la magie.** Le diable a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration diabolique.** Si le diable meurt hors des Neuf Enfers, son corps disparaît dans un nuage de fumée sulfureuse, tandis qu’il en acquiert aussitôt un nouveau et revient à la vie avec tous ses pv quelque part dans les Neuf Enfers.",
+ "actionsText": "**Attaques multiples.** Le diable effectue deux attaques de Griffe et une de Dard infernal.\n**Dard infernal.** Corps à corps : +8, allonge 3 m. Touché : 15 (2d10 + 4) dégâts perforants plus 18 (4d8) dégâts de poison, et la cible subit l’état Empoisonné jusqu’au début du tour suivant du diable. Ainsi Empoisonnée, la cible ne peut pas récupérer de points de vie.\n**Griffe.** Corps à corps : +8, allonge 3 m. Touché : 13 (2d8 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Dard infernal",
+   "bonus": 8,
+   "damage": "2d10+4+4d8",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1c98add021_monstre-diable-osseux.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 71"
+}

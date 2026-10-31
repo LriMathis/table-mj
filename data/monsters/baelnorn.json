@@ -1,0 +1,49 @@
+{
+ "id": "baelnorn",
+ "name": "Baelnorn",
+ "type": "Mort-vivant (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 18,
+ "hp": 255,
+ "hpFormula": "34d8+102",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 21,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 18",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (3/jour, ou 4/jour à Lair).** Si le baelnorn échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le baelnorn a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Coup d'œil effrayant.** Le baelnorn lance Peur, en utilisant le même caractéristique d'incantation que Spellcasting. Le baelnorn ne peut pas reprendre cette action avant le début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Le baelnorn fait trois attaques, en utilisant Arcane Burst ou Paralysing Touch dans n'importe quelle combinaison. Il peut remplacer deux attaques par une utilisation de Spellcasting pour lancer Éclair (version de niveau 4).\n**La Burst d'Arcane.** Jet d'attaque au corps à corps ou à distance : +11, allonge 1,50 m ou portée 36 m. Touché : 31 (4d12 + 5) dégâts de force.\n**Touche paralysante.** Jet d'attaque au corps à corps : +11, allonge 1,50 m. Touché : 10 (2d4 + 5) dégâts de froid, et la cible a l'état paralysé jusqu'au prochain tour du baelnorn.\n**Détection orthographique.** Le baelnorn lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Détection de la magie, Détection des pensées, Dissipation de la magie, Invisibilité, Éclair (version de niveau 4), Main de mage, Prestidigitation\n- 1/jour chacun : Clone, Protections et sceaux\n- 2/jour chacun : Porte dimensionnelle, Scrutation",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 11,
+   "damage": "4d12+5",
+   "type": "force"
+  },
+  {
+   "name": "Touche paralysante",
+   "bonus": 11,
+   "damage": "2d4+5",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/00a1283353_monstre-baelnorn.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "skills": "Arcanes +17, Histoire +11, Perspicacité +8, Perception +8",
+ "resistances": "foudre, radiant",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, effrayé, paralysé, empoisonné",
+ "reactions": "**Contre-orpilleurs.** Le baelnorn lance Contresort en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Contresort",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, baelnorn peut entreprendre l'une des actions ci-après.\n**Rayonnement envahissant.** Jet de sauvegarde de Constitution : DD 19, chaque créature dans une émanation 6 m provenant du baelnorn; Undead ont Inconvénient sur cette sauvegarde. Échec : 11 (2d10) dégâts radiants. Réussite : Demi-dégâts.\n**Téléport récupérateur.** Le baelnorn téléporte jusqu'à 18 m dans un espace inoccupé qu'il peut voir et retrouver 11 (2d10) points de vie. Le baelnorn ne peut pas reprendre cette action avant le début de son prochain tour."
+}

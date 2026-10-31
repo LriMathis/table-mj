@@ -1,0 +1,54 @@
+{
+ "id": "ras-nsi",
+ "name": "Ras Nsi",
+ "type": "Monstruosité (métamorphe, yuan-ti)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 18,
+  "SAG": 18,
+  "CHA": 21
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Matériel spécial.** Ras Nsi porte Bracelets de défense, manie une longue épée de langue de flamme, et porte une pierre d'envoi correspondant à celle portée par le guide Salida (voir chapitre 1).\n**Changeur de forme.** Ras Nsi peut utiliser son action pour se polymorpher en serpent moyen ou revenir dans sa forme yuan-ti. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il ne change pas de forme s'il meurt.\n**Résistance magique.** Ras Nsi a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** L'innée caractéristique d'incantation de Ras Nsi est Charisme (spell save DD 16). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Amitié avec les animaux (snakes seulement)\n- 3/jour : Suggestion\n**Détection orthographique.** Ras Nsi est un spellcaster de niveau 11. Son caractéristique d'incantation est Intelligence (save spell DD 15, +7 au toucher avec attaques de sort).\nRas Nsi a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Contact glacial, Trait de feu, Main de mage, Réparation, Bouffée de poison\n- Niveau 1 (4 emplacements) : Repli expéditif, Simulacre de vie, Projectile magique, Bouclier\n- Niveau 2 (3 emplacements) : Cécité/Surdité, Immobilisation de personne, Foulée brumeuse\n- Niveau 3 (3 emplacements) : Animation des morts, Contresort, Boule de feu\n- Niveau 4 (3 emplacements) : Flétrissement, Métamorphose\n- Niveau 5 (2 emplacements) : Contact avec un autre plan, Quête\n- Niveau 6 (1 emplacements) : Création de mort-vivant",
+ "actionsText": "**Multiattaques.** Ras Nsi fait trois attaques de mêlée, mais ne peut utiliser Constrict qu'une seule fois.\n**Bite (Forme de serpent seulement).** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Constriction.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 10 (2d6 + 3) dégâts contondants, et la cible est agrippé (évasion DD 14). Jusqu'à ce que ce grappin se termine, la cible est entravé, et Ras Nsi ne peut pas constricter une autre cible.\n**Épée longue de la langue de la flamme (Forme Yuan-ti seulement).** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants lorsqu'il est utilisé avec deux mains, plus 7 (2d6) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Bite (Forme de serpent seulement)",
+   "bonus": 6,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Épée longue de la langue de la flamme (Forme Yuan-ti seulement)",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/685670313b_monstre-ras-nsi.webp",
+ "notes": "points de vie : 127 (17d8 + 51) réduit à 107; soustrayez 1 pour chaque jour qui passe pendant l'aventure",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "Bracelets de défense",
+ "saves": "CON +6, SAG +7",
+ "skills": "Tromperie +8, Persuasion +8, Religion +7, Discrétion +6",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

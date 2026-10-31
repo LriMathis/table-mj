@@ -1,0 +1,40 @@
+{
+ "id": "bouclier-nain-garde",
+ "name": "Shield Dwarf Guard",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 16,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Marteau de guerre.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts contondants, ou 6 (1d10 + 1) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Marteau de guerre",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/118e253428_monstre-bouclier-nain-garde.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Bouclier nain garde",
+ "caNote": "Chemise chaîne, Bouclier",
+ "skills": "Perception +2"
+}

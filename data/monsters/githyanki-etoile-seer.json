@@ -1,0 +1,43 @@
+{
+ "id": "githyanki-etoile-seer",
+ "name": "Githyanki Star Seer",
+ "type": "Humanoïde (Ceinture, occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 13,
+ "hp": 110,
+ "hpFormula": "17d8+34",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, gith",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le githyanki fait trois attaques Astral Bolt.\n**Astral Bolt.** Attaque de sort au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 20 (3d10 + 4) dégâts radiants.\n**Coulisse (Psioniques).** Le githyanki lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Lumière, Main de mage (la main est invisible)\n- 1/jour chacun : Contact avec un autre plan (en tant qu'action), Changement de plan, Télékinésie\n- 2/jour chacun : Détection de la magie, Invisibilité (autoseulement), Armure de mage (autoseulement), Don des langues",
+ "attacks": [
+  {
+   "name": "Astral Bolt",
+   "bonus": 7,
+   "damage": "3d10+4",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/3b9fcabd1f_monstre-githyanki-etoile-seer.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Githyanki étoile Seer",
+ "caNote": "Armure de mage",
+ "saves": "CON +5, INT +7, SAG +6",
+ "skills": "Arcanes +10, Histoire +10",
+ "resistances": "radiant",
+ "bonusActions": "**Étape astrale (Recharge 4-6).** Les téléports githyanki, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

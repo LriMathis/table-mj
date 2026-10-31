@@ -1,0 +1,45 @@
+{
+ "id": "grand-chat",
+ "name": "Great Cat",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** Le chat a l'avantage sur tests de Sagesse (Perception) qui dépendent de l'odeur.\n**Ponce.** Si le chat se déplace au moins 6 m droit vers une créature et le frappe avec une attaque de griffe au même tour, cette cible doit réussir sur un DD 14 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, le chat peut faire une attaque de morsure contre elle en tant qu'action bonus.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d10 + 5) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/5b78f4b3ce_monstre-grand-chat.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "aka": "Grand chat",
+ "skills": "Perception +3, Discrétion +6"
+}

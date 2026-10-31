@@ -1,0 +1,41 @@
+{
+ "id": "sanguinaire-worg",
+ "name": "Dire Worg",
+ "type": "Fée",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 147,
+ "hpFormula": "14d12+56",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 16,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 21",
+ "languages": "gobelin, sylvestre, Worg",
+ "traits": "**Résistance magique.** Le worg a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le worg fait trois attaques Bite.\n**Morceau.** Jet d'attaque au corps à corps : +10, allonge 1,50 m. Touché : 15 (2d8 + 6) dégâts perforants plus 7 (2d6) dégâts de poison, et la cible a l'état empoisonné jusqu'au prochain tour du worg. Alors qu'empoisonné, la cible ne peut pas récupérer points de vie.\n**Drôle de hurlement (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 16, chaque créature au sein de 9 m qui n'est pas un worg. Échec : 36 (8d8) dégâts psychiques, et la cible a l'état effrayé jusqu'au début du prochain tour du worg. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "2d8+6",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/3a020e8b29_monstre-sanguinaire-worg.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Sanguinaire worg",
+ "saves": "DEX +6, SAG +7",
+ "skills": "Perception +11",
+ "bonusActions": "**Étape de distorsion.** Le worg téléporte, avec une créature volontaire de son choix dans 1,50 m de lui, jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

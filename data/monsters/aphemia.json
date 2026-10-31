@@ -1,0 +1,48 @@
+{
+ "id": "aphemia",
+ "name": "Aphemia",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "6 m, vol 15 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "commun",
+ "traits": "**Résistance légendaire (2/jour).** Si Aphemia échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Aphémie a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Aphémie fait deux attaques: une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (2d4 + 3) dégâts perforants plus 13 (3d8) dégâts nécrotiques.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.\n**Chanson discordante.** L'aphémie shrie une cacophonie de sons magiques. Chaque humanoïde au sein de 36 m d'elle doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être effrayé d'elle jusqu'à la fin de la chanson. Une créature effrayé prend 7 (2d6) dégâts psychiques au début de son tour tandis qu'Aphemia chante. Une créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre le chant discordant d'Aphemia pour les prochaines 24 heures. Aphémie doit prendre un action bonus à ses tours ultérieurs pour continuer à chanter. Elle peut arrêter de chanter à tout moment. La chanson se termine si l'Aphémie est neutralisé ou meurt.\n**C'est grave..** L'aphémie atténue une mélodie magique qui gronde. Chaque mort-vivant au sein de 90 m doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou tomber sous son contrôle jusqu'à la fin de la chanson. Aphémie doit prendre un action bonus à ses tours ultérieurs pour continuer à chanter, et elle peut mentalement commander l'indécès sous son contrôle dans le cadre du même action bonus. Elle peut arrêter de chanter à tout moment. La chanson se termine si l'Aphémie est neutralisé ou meurt.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d4+3",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/37aa31f2e5_monstre-aphemia.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CHA +6",
+ "skills": "Arcanes +4, Intimidation +6, Perception +5",
+ "resistances": "nécrotique",
+ "conditionImmunities": "charmé, effrayé"
+}

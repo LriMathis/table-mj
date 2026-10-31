@@ -1,0 +1,44 @@
+{
+ "id": "maitre-de-cruelties",
+ "name": "Master of Cruelties",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 127,
+ "hpFormula": "15d10+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 21
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 13",
+ "languages": "abyssal, commun, télépathie 36 m",
+ "traits": "**Aura de sang lust.** Lorsque toute autre créature commence son tour au sein de 9 m du maître, cette créature doit réussir sur une DD 17 jet de sauvegarde de Sagesse, ou elle doit immédiatement prendre l'action Attack, faisant une attaque de mêlée contre une créature aléatoire à portée de main. Si aucune créature n'est à portée de main, elle attaque une créature aléatoire à portée de main, jetant son arme si nécessaire.\n**Nourrir sur la foule.** Chaque fois qu'une créature au sein de 18 m du maître meurt, le maître gagne 15 points de vie temporaires et a un avantage sur tous les jets d'attaque, tests de caractéristique et jet de sauvegarde jusqu'à la fin de son prochain tour.\n**Résistance magique.** Le maître a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** caractéristique d'incantation innée du maître est Charisme (spell save DD 17). Le maître peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Charme-personne (sous forme de sort de niveau 3), Couronne du dément\n- 1/jour : Domination de personne",
+ "actionsText": "**Multiattaques.** Le maître fait deux attaques de mêlée avec sa lance.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 11 (2d6 + 4) dégâts perforants, ou 13 (2d8 + 4) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee, plus 13 (3d8) dégâts psychiques.\n**Présence captivante (Recharge 6).** Chaque créature au sein de 36 m du maître doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou être charmé par le maître pendant 1 heure. Alors que charmé de cette façon, la vitesse d'une créature est 0. Si la créature charmé prend des dégâts, elle peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès. Une cible qui réussit sur le jet de sauvegarde est à l'abri de la Présence Captivante de tous les maîtres des cruelles pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/71b2ad242c_monstre-maitre-de-cruelties.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Maître de Cruelties",
+ "caNote": "Armure de plaque",
+ "saves": "CON +7, INT +8, SAG +7, CHA +9",
+ "skills": "Tromperie +9, Intimidation +9, Représentation +9, Persuasion +9",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

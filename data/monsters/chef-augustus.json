@@ -1,0 +1,53 @@
+{
+ "id": "chef-augustus",
+ "name": "Boss Augustus",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 13,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "12 m (sous forme de loup ou d'hybride)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 12
+ },
+ "senses": "Perception passive 20",
+ "languages": "commun, Les voleurs ne peuvent pas parler en loup.",
+ "traits": "**Régénération.** Augustus retrouve 10 points de vie au début de son tour. S'il prend des dégâts sur une arme d'argent, ce trait ne fonctionne pas au début de son prochain tour. Augustus meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Matériel spécial.** Augustus manie un mot long +2.",
+ "actionsText": "**Multiattaques.** Augustus fait n'importe quelle combinaison de deux attaques Bite, Claw, ou Magic Longsword.\n**Bite (Wolf ou forme hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 26 (5d8 + 4) dégâts perforants. Si la cible est un humanoïde, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie. Bien que maudite de cette façon, la cible conserve son alignement, ses langues et son équipement, mais utilise le bloc de stat de loup-garou, à l'exclusion des actions qui nécessitent de l'équipement que la cible n'a pas. Pendant n'importe quelle nuit où il y a une pleine lune dans le ciel, la cible devient un NPC sous le contrôle de le MD et le reste jusqu'à la fin de la nuit. Un sort Délivrance des malédictions ou une magie similaire met fin à cette malédiction.\n**Griffe (Forme Wolf ou hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 21 (5d6 + 4) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Force ou avoir l'état à terre.\n**Magie Longsword (Humanoïde ou Forme Hybride seulement).** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 28 (4d10 + 6) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bite (Wolf ou forme hybride seulement)",
+   "bonus": 8,
+   "damage": "5d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe (Forme Wolf ou hybride seulement)",
+   "bonus": 8,
+   "damage": "5d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Magie Longsword (Humanoïde ou Forme Hybride seulement)",
+   "bonus": 10,
+   "damage": "4d10+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d748e2b1a6_monstre-chef-augustus.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Chef Augustus",
+ "saves": "FOR +8, DEX +7",
+ "skills": "Perception +10, Escamotage +7, Discrétion +7",
+ "bonusActions": "**Modifier la forme.** Augustus polymorphe en un hybride loup-humanoïde, un loup, ou sa forme humanoïde. Ses statistiques, autres que sa vitesse, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa forme humanoïde s'il meurt.\n**Action énergique.** Augustus prend l'action Foncer, Se désengager ou Se cacher."
+}

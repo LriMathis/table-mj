@@ -1,0 +1,47 @@
+{
+ "id": "conclave-dryade",
+ "name": "Conclave Dryad",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 143,
+ "hpFormula": "22d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 19,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 20,
+  "CHA": 21
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 19",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Résistance magique.** Le dryad a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Parlez avec les bêtes et les plantes.** Le dryad peut communiquer avec des bêtes et des plantes comme si elles et le dryad partageaient un langage.\n**Découpe intérieure.** Le caractéristique d'incantation inné du dryad est Charisme (save DD 17). Le dryad peut innerately lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Druidisme\n- 1/jour chacun : Rayon de lune, Liane avide, Mur d'épines\n- 3/jour chacun : Dissipation de la magie, Enchevêtrement, Croissance végétale, Croissance d'épines",
+ "actionsText": "**Multiattaques.** Le dryad fait trois attaques, en utilisant son bâton de vigne, sa longbow, ou les deux.\n**Personnel de la vigne.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 17 jet de sauvegarde de Dextérité ou devenir entravé en tordant les vignes pendant 1 minute. Une cible entravé de cette façon peut utiliser une action pour faire un DD 17 Force (Athlétisme) ou test de Dextérité (Acrobaties), mettant fin à l'effet sur elle-même sur un succès.\n**Longbow.** Attaque d'arme à distance : +8 au toucher, portée 45/180 m., une cible. Touché : 8 (1d8 + 4) dégâts perforants.\n**Invoquer le mont (1/jour).** Le dryad convoque magiquement une monture, qui apparaît dans un espace inoccupé au sein de 18 m du dryad. Le support reste pendant 8 heures, jusqu'à ce qu'il ou que l'asséché meurt, ou jusqu'à ce que l'asséché le rejette comme une action. Le montage utilise le bloc de stat d'un Élan (voir le Manuel Monster) avec ces changements : c'est une plante au lieu d'une bête, il a un Intelligence de 6, et il comprend Sylvan mais ne peut pas parler. Alors qu'au sein de 1,5 km de la monture, le dryad peut communiquer avec lui par télépathie.\n**Suppression de la magie (Recharge 5-6).** Le dryad cible un objet magique qu'il peut voir à l'intérieur de 36 m. Si l'objet magique n'est pas un artefact, ses propriétés magiques sont supprimées pendant 10 minutes, jusqu'à ce que le dryad soit neutralisé ou meurt, ou jusqu'à ce que le dryad utilise un action bonus pour mettre fin à l'effet.",
+ "attacks": [
+  {
+   "name": "Personnel de la vigne",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 8,
+   "damage": "1d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/88e8753e8d_monstre-conclave-dryade.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Conclave dryade",
+ "caNote": "armure naturelle",
+ "saves": "INT +8, SAG +9, CHA +9",
+ "skills": "Arcanes +8, Nature +8, Perception +9"
+}

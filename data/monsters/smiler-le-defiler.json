@@ -1,0 +1,41 @@
+{
+ "id": "smiler-le-defiler",
+ "name": "Smiler the Defiler",
+ "type": "Fée (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 18,
+ "hp": 165,
+ "hpFormula": "22d8+66",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 20,
+  "CON": 16,
+  "INT": 18,
+  "SAG": 11,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Étape de Fey (Recharge 4-6).** En tant qu'action bonus, Smiler peut téléporter jusqu'à 9 m dans un espace inoccupé qu'il peut voir ou sur le siège vide de sa machine de guerre infernale.\n**Résistance magique.** Smiler a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Matériel.** Smiler porte +2 armure en cuir. Il porte sept pièces d'âme dans un sac et un mot +1\n**Découpe intérieure.** caractéristique d'incantation innate de Smiler est Charisme (spell save DD 15). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Charme-personne, Fou rire de Tasha\n- 1/jour chacun : Terrain hallucinatoire, Danse irrésistible d'Otto\n- 3/jour chacun : Confusion, Discours captivant, Suggestion",
+ "actionsText": "**Multiattaques.** Smiler fait deux attaques d'armes. Il peut jeter un sort à la place d'une de ces attaques.\n**+1 Court-mot.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d6 + 6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "+1 Court-mot",
+   "bonus": 9,
+   "damage": "1d6+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1f12a32c2e_monstre-smiler-le-defiler.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Smiler le Defiler",
+ "caNote": "+2 armure en cuir",
+ "skills": "Tromperie +7, Persuasion +7",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques"
+}

@@ -1,0 +1,44 @@
+{
+ "id": "chasse-harkina",
+ "name": "Harkina Hunt",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 4,
+ "hpFormula": "1d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Club.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts contondants.\n**Longbow.** Attaque d'arme à distance : +2 au toucher, portée 45/180 m., une cible. Touché : 4 (1d8) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "contondant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 2,
+   "damage": "1d8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d5a4904101_monstre-chasse-harkina.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Chasse Harkina"
+}

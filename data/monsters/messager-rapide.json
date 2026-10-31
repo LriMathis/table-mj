@@ -1,0 +1,41 @@
+{
+ "id": "messager-rapide",
+ "name": "Expeditious Messenger",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 13,
+ "hp": 7,
+ "hpFormula": "2d4+2",
+ "vitesse": "7,50 m, vol 18 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "une langue parlée par son créateur",
+ "traits": "**Volée.** Le messager ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.\n**Bond télépathique.** Tandis que le messager est sur le même plan d'existence que son maître, il peut par magie transmettre ce qu'il sent à son maître, et les deux peuvent communiquer télépathiquement.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/876950550b_monstre-messager-rapide.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "aka": "Messager rapide",
+ "skills": "Acrobaties +5, Discrétion +5",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "salamandre",
+ "name": "Salamandre",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "vulnerabilities": "froid",
+ "immunities": "feu",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "primordial (igné)",
+ "traits": "**Aura de feu.** À la fin de chacun des tours de la salamandre, chaque créature choisie par la salamandre dans une Émanation de 1,50 m centrée sur elle subit 7 (2d6) dégâts de feu.",
+ "actionsText": "**Attaques multiples.** La salamandre effectue deux attaques de Lance de flammes. Elle peut remplacer l’une de ces attaques par une utilisation de Constriction.\n**Lance de flammes.** Corps à corps ou à distance : +7, allonge 1,50 m ou portée 6/18 m. Touché : 13 (2d8 + 4) dégâts perforants, plus 7 (2d6) dégâts de feu. Touché ou raté : aussitôt après une attaque à distance, la lance retourne magiquement dans la main de la salamandre.\n**Constriction.** JS Force : DD 15, une créature de taille G ou inférieure que la salamandre voit dans un rayon de 3 m. Échec : 11 (2d6 + 4) dégâts contondants plus 7 (2d6) dégâts de feu. La cible subit l’état Agrippé (évasion DD 14), ainsi que l’état Entravé tant qu’elle est Agrippée.",
+ "attacks": [
+  {
+   "name": "Lance de flammes",
+   "bonus": 7,
+   "damage": "2d8+4+2d6",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/8cad5a9531_monstre-salamandre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 262"
+}

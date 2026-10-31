@@ -1,0 +1,40 @@
+{
+ "id": "boues-guenaude",
+ "name": "Sludge Hag",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "oozy neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, draconique, sylvestre",
+ "traits": "**Amorphe.** La boue peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Amphibie.** La boue peut respirer l'air et l'eau.\n**Découpe intérieure.**\n- À volonté : Aspersion d'acide, Lumières dansantes, Illusion mineure\nLe caractéristique d'incantation inné du ham est Charisme (sorption sauvegardez DD 12). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel.",
+ "actionsText": "**Fausse apparence.** La boue s'effondre dans un réservoir de boues huileuses. Bien qu'immobile, la boue haricot est indistinguable de tout autre réservoir huileux de goutte-à-goutte oozy.\n**Slaps de boue.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 12 (1d8 + 8) dégâts contondants, plus 4 (1d8) dégâts d'acide. Sludge Slap fait à la fois le bludgeoning et dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Slaps de boue",
+   "bonus": 6,
+   "damage": "1d8+8",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/6ceebb2f86_monstre-boues-guenaude.webp",
+ "notes": "",
+ "source": "Muk's Guide to Everything He Learned From Tasha (5e.tools, traduction automatique)",
+ "aka": "Boues guenaude",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +3, Tromperie +4, Perception +4, Discrétion +3"
+}

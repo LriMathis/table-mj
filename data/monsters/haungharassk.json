@@ -1,0 +1,30 @@
+{
+ "id": "haungharassk",
+ "name": "Haungharassk",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 6,
+ "hp": 52,
+ "hpFormula": "7d12+7",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 3,
+  "CON": 13,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Sensibilité au sel.** Une livre de sel jetée sur la peau de l'escargot offre 1d6 dégâts d'acide à la créature.\n**Propriétés magiques.** Une créature qui utilise une action pour toucher l'escargot vivant gagne 6 points de vie temporaires qui durent 24 heures. Toute créature ou objet qui touche l'escargot vivant gagne également le bénéfice d'un sort Délivrance des malédictions. L'escargot perd ces propriétés magiques s'il meurt.\n**Escalade des araignées.** L'escargot peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/918d8537ac_monstre-haungharassk.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)"
+}

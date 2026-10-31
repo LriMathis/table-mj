@@ -1,0 +1,46 @@
+{
+ "id": "pral",
+ "name": "Pral",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Violeur.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts perforants.\n**Acrobatie légère.** Jet d'attaque à distance : +5, portée 24/96 m. Touché : 7 (1d8 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/7753754e7c_monstre-pral.webp",
+ "notes": "",
+ "source": "Heroes of the Borderlands (5e.tools, traduction automatique)",
+ "saves": "DEX +5",
+ "skills": "Athlétisme +4, Tromperie +4",
+ "reactions": "**Parry.** Déclencheur : Pral est touché avec une melee jet d'attaque tout en tenant une arme. Réponse : Pral ajoute 2 à son CA contre cette attaque, ce qui pourrait faire passer l'attaque."
+}

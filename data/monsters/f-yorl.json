@@ -1,0 +1,32 @@
+{
+ "id": "f-yorl",
+ "name": "F'yorl",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 9,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "profond, commun des profondeurs, télépathie 36 m",
+ "traits": "**Résistance magique.** F'yorl a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/7b87fbe9f5_monstre-f-yorl.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "saves": "INT +7, SAG +6, CHA +6",
+ "skills": "Arcanes +7, Tromperie +6, Perspicacité +6, Perception +6, Persuasion +6, Discrétion +4"
+}

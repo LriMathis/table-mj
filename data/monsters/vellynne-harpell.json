@@ -1,0 +1,46 @@
+{
+ "id": "vellynne-harpell",
+ "name": "Vellynne Harpell",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, draconique, nain, elfique, orc",
+ "traits": "**Matériel spécial.** Vellynne porte une Bracelets de défense et porte une Baguette de projectiles magiques (voir \"Actions\" ci-dessous).\n**Détection orthographique.** Vellynne est un spellcaster de niveau 8. Son caractéristique d'incantation est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort). Elle a préparé les sorts d'assistants suivants :\n- Sorts mineurs (à volonté) : Contact glacial (voir \"Actions\" ci-dessous), Lumière, Main de mage, Message, Prestidigitation\n- Niveau 1 (4 emplacements) : Compréhension des langues, Détection de la magie, Rayon empoisonné, Fou rire de Tasha\n- Niveau 2 (3 emplacements) : Vision dans le noir, Immobilisation de personne, Rayon affaiblissant\n- Niveau 3 (3 emplacements) : Animation des morts, Petite hutte de Léomund, Toucher du vampire (voir \"Actions\" ci-dessous)\n- Niveau 4 (2 emplacements) : Oeil magique, Flétrissement",
+ "actionsText": "**Touche vampirique (de niveau 3 Spell; Nécessite un emplacement de sort).** Attaque de sort au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 10 (3d6) dégâts nécrotiques, et Vellynne récupère points de vie égal à la moitié du dégâts nécrotiques. Si Vellynne lance ce sort en utilisant un emplacement de sort de niveau 4 ou plus, le dégâts nécrotiques augmente de 1d6 pour chaque niveau d'emplacement au-delà du niveau 3.\n**Touche froide (sort mineur).** Attaque de sort à distance : +6 au toucher, portée 36 m, une créature. Touché : 9 (2d8) dégâts nécrotiques, et la cible ne peut pas récupérer points de vie avant le début du prochain tour de Vellynne.\n**Lame de missiles magiques.** En tenant cette baguette, Vellynne peut dépenser 1 ou plus de ses 7 charges pour en jeter le sort Projectile magique. Elle peut dépenser 1 charge pour lancer la version de niveau 1 du sort. Elle peut augmenter le niveau emplacement de sort d'un pour chaque charge supplémentaire qu'elle dépense. La baguette reprend 1d6 + 1 charges dépensées chaque jour à l'aube. Si la dernière charge de la baguette est dépensée, rouler un d20 ; sur un 1, la baguette s'écroule en cendres et est détruite.",
+ "attacks": [
+  {
+   "name": "Touche vampirique (de niveau 3 Spell; Nécessite un emplacement de sort)",
+   "bonus": 6,
+   "damage": "3d6",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Touche froide (sort mineur)",
+   "bonus": 6,
+   "damage": "2d8",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/8ad4217273_monstre-vellynne-harpell.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "Bracelets de défense",
+ "saves": "INT +6, SAG +4",
+ "skills": "Arcanes +6, Histoire +6"
+}

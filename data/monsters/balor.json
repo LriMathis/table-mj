@@ -1,0 +1,49 @@
+{
+ "id": "balor",
+ "name": "Balor",
+ "type": "Fiélon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 19,
+ "hp": 287,
+ "hpFormula": "23d12+138",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 15,
+  "CON": 22,
+  "INT": 20,
+  "SAG": 16,
+  "CHA": 22
+ },
+ "saves": "CON +12, SAG +9",
+ "skills": "Perception +9",
+ "resistances": "foudre, froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "senses": "Vision véritable 36 m, Perception passive 19",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Aura de feu.** À la fin de chacun des tours du balor, chaque créature dans une Émanation de 1,50 m centrée sur le balor subit 13 (3d8) dégâts de feu.\n**Résistance à la magie.** Le balor a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Résistance légendaire (3/jour).** Si le Balor rate un jet de sauvegarde, il peut décider de le réussir tout de même.\n**Spasmes d’agonie.** Le balor explose quand il meurt. JS Dextérité : DD 20, chaque créature dans une Émanation de 9 m centrée sur le balor. Échec : 31 (9d6) dégâts de feu plus 31 (9d6) dégâts de force. Réussite : demi-dégâts. Échec ou réussite : si le balor meurt hors des Abysses, il acquiert aussitôt un nouveau corps et revient à la vie avec tous ses pv quelque part dans les Abysses.",
+ "actionsText": "**Attaques multiples.** Le balor effectue une attaque de Fouet embrasé et une de Lame de foudre.\n**Fouet embrasé.** Corps à corps : +14, allonge 9 m. Touché : 18 (3d6 + 8) dégâts de force plus 17 (5d6) dégâts de feu. Si la cible est une créature de taille TG ou inférieure, le balor la tire directement vers lui d’un maximum de 7,50 m, et la cible subit l’état À terre.\n**Lame de foudre.** Corps à corps : +14, allonge 3 m. Touché : 21 (3d8 + 8) dégâts de force plus 22 (4d10) dégâts de foudre, et la cible ne peut pas jouer de Réaction jusqu’au début du tour suivant du balor.",
+ "bonusActions": "**Téléportation.** Le balor téléporte un démon consentant situé dans un rayon de 3 m (ou lui-même) d’un maximum de 18 m vers un espace inoccupé qu’il voit.",
+ "attacks": [
+  {
+   "name": "Fouet embrasé",
+   "bonus": 14,
+   "damage": "3d6+8+5d6",
+   "type": "force + feu"
+  },
+  {
+   "name": "Lame de foudre",
+   "bonus": 14,
+   "damage": "3d8+8+4d10",
+   "type": "force + foudre"
+  }
+ ],
+ "portrait": "/data/images/a88eef6d94_monstre-balor.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 49"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "graveyard-revenant",
+ "name": "Graveyard Revenant",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 14,
+ "hp": 161,
+ "hpFormula": "14d12+70",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "Commun plus deux autres langues",
+ "traits": "**Rétablissement des morts-vivants.** Si le renifleur meurt, il ressuscite 24 heures plus tard, à moins que Dissipation du mal et du bien ne soit jeté sur ses restes. S'il fait revivre, il anime un autre groupe de cadavres ailleurs sur le même plan d'existence ; il semble maintenant différent mais utilise le même bloc de statistiques et revient avec tous ses points de vie.",
+ "actionsText": "**Multiattaques.** Le ravisseur fait deux attaques Suffocate.\n**Suffocate.** Jet d'attaque au corps à corps : +8, allonge 3 m. Touché : 10 (1d10 + 5) dégâts contondants plus 10 (3d6) dégâts nécrotiques. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 15). Jusqu'à ce que le grappin se termine, la cible suffoque. Le ravisseur peut avoir jusqu'à deux cibles agrippé de cette façon à la fois.\n**Glare hantée (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 15, chaque créature dans une Emanation 9 m originaire du révenant. Échec : La cible a l'état paralysé et répète l'enregistrement à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Après 1 minute, il réussit automatiquement.",
+ "attacks": [
+  {
+   "name": "Suffocate",
+   "bonus": 8,
+   "damage": "1d10+5",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/a3aaeab16c_monstre-graveyard-revenant.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "saves": "FOR +8, CON +8, SAG +6, CHA +7",
+ "resistances": "nécrotique, psychique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, étourdi, inconscient"
+}

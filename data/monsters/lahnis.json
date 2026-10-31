@@ -1,0 +1,40 @@
+{
+ "id": "lahnis",
+ "name": "Lahnis",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 13,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "quatre langues",
+ "traits": "**Pelleteries de chaume.** Quand Lahnis lance un sort d'évocation qui force d'autres créatures qu'il peut voir pour faire un jet de sauvegarde, il peut choisir un nombre d'entre eux égal à 1 + le niveau du sort. Ces créatures réussissent automatiquement sur leur jet de sauvegarde contre le sort. Si une sauvegarde réussie signifie qu'une créature choisie prendrait la moitié des dégâts du sort, elle ne prendra pas de dégâts de lui.\n**Matériel spécial.** Lahnis porte un Anneau de protection.\n**Détection orthographique.** Lahnis est un épeautre de niveau 12. Son caractéristique d'incantation est Intelligence (save spell DD 15, +7 au toucher avec attaques de sort). Lahnis a préparé les sorts d'assistant suivants :\n- Sorts mineurs (à volonté) : Trait de feu *, Lumière *, Prestidigitation, Rayon de givre *\n- Niveau 1 (4 emplacements) : Mains brûlantes *, Armure de mage, Projectile magique *\n- Niveau 2 (3 emplacements) : Image miroir, Foulée brumeuse, Fracassement *\n- Niveau 3 (3 emplacements) : Contresort, Boule de feu *, Éclair *\n- Niveau 4 (3 emplacements) : Tempête de grêle *, Peau de pierre\n- Niveau 5 (2 emplacements) : Main de Bigby *, Cône de froid *\n- Niveau 6 (1 emplacements) : Chaîne d'éclairs *, Mur de glace *\n*Sortie d'évocation",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d6 - 1) dégâts contondants, ou 3 (1d8 - 1) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 3,
+   "damage": "1d6-1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/23d5a43ee8_monstre-lahnis.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "Anneau de protection",
+ "saves": "FOR +0, DEX +3, CON +2, INT +8, SAG +6, CHA +1",
+ "skills": "Arcanes +7, Histoire +7"
+}

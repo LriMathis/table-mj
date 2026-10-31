@@ -1,0 +1,41 @@
+{
+ "id": "nilbog",
+ "name": "Nilbog",
+ "type": "Fée (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, gobelin",
+ "traits": "**Nilbogisme.** Toute créature qui tente d'endommager le nilbog doit d'abord réussir sur un DD 12 jet de sauvegarde de Charisme ou être charmé jusqu'à la fin du prochain tour de la créature. Une créature charmé de cette façon doit utiliser son action louant le nilbog.\nLe nilbog ne peut pas retrouver points de vie, y compris par la guérison magique, sauf par sa réaction de révérend de Fortune.",
+ "actionsText": "**Le sceptre de l'enfer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants.\n**Mot de brouillage.** Le zilbog cible une créature qu'il peut voir à l'intérieur de 18 m. La cible doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou prendre 5 (2d4) dégâts psychiques et avoir un désavantage sur son prochain jet d'attaque avant la fin de son prochain tour.\n**Détection orthographique.** Le nilbog lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Main de mage, Fou rire de Tasha",
+ "attacks": [
+  {
+   "name": "Le sceptre de l'enfer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/21c1b545e6_monstre-nilbog.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Discrétion +6",
+ "bonusActions": "**Échappement de Nimble.** Le nilbog prend l'action Se désengager ou Se cacher.",
+ "reactions": "**Révérend de la Fortune.** En réponse à une autre créature infligeant des dégâts au nilbog, le nilbog réduit les dégâts à 0 et récupère 3 (1d6) points de vie."
+}

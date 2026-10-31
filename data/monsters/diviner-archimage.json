@@ -1,0 +1,40 @@
+{
+ "id": "diviner-archimage",
+ "name": "Diviner Archmage",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 16,
+ "hp": 176,
+ "hpFormula": "32d8+32",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "tous",
+ "traits": "**Résistance magique.** L'arcade a Avantage sur jet de sauvegarde contre les sorts et effets similaires.",
+ "actionsText": "**Multiattaques.** L'arcade fait quatre attaques d'Arcane Burst. Il peut remplacer une attaque par une utilisation de Spellcasting pour lancer Épine mentale (version de niveau 4).\n**La Burst d'Arcane.** Jet d'attaque au corps à corps ou à distance : +10, allonge 1,50 m ou portée 45 m. Touché : 24 (3d12 + 5) dégâts de force.\n**Détection orthographique.** L'archétype lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection de la magie, Détection des pensées, Armure de mage (inclus dans CA), Main de mage, Épine mentale (version de niveau 4), Prestidigitation\n- 1/jour chacun : Prémonition (châssé avant le combat), Télépathie\n- 2/jour chacun : Scrutation, Communication à distance",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 10,
+   "damage": "3d12+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/a2fd77fb73_monstre-diviner-archimage.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "aka": "Diviner archimage",
+ "skills": "Arcanes +15, Histoire +10, Perspicacité +7, Investigation +10, Perception +7",
+ "reactions": "**Magie protectrice (3/jour).** L'arcade lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Contresort, Bouclier"
+}

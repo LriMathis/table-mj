@@ -1,0 +1,57 @@
+{
+ "id": "scion-de-surtur",
+ "name": "Scion of Surtur",
+ "type": "Géant (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal mauvais",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 20,
+ "hp": 546,
+ "hpFormula": "28d20+252",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 17,
+  "CON": 28,
+  "INT": 21,
+  "SAG": 24,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 25",
+ "languages": "géant, primordial",
+ "traits": "**Résistance légendaire (6/jour).** Si le scion échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le scion a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le scion inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le scion fait une attaque en utilisant Lava Blade ou Lava Ball, ainsi que deux attaques Slam.\n**Lame de lava.** Attaque d'arme au corps à corps : +18 au toucher, allonge 9 m, une cible. Touché : 32 (4d10 + 10) dégâts tranchants plus 18 (4d8) dégâts de feu.\n**Balle de lava.** Attaque d'arme à distance : +18 au toucher, portée 36/144 m., une cible. Touché : 29 (3d12 + 10) dégâts contondants plus 10 (3d6) dégâts de feu, et la cible doit réussir sur un DD 26 jet de sauvegarde de Force ou avoir l'état à terre.\n**Clamer.** Attaque d'arme au corps à corps : +18 au toucher, allonge 6 m, une cible. Touché : 28 (4d8 + 10) dégâts de force.\n**Lava Wave (Recharge 5-6).** Le scion émet une vague de lave de sa lame, de ses mains ou de sa bouche dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 25 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 60 (11d10) dégâts de feu et a l'état entravé d'être intégré dans la roche durcissante. Une créature peut faire un DD 25 test de Force (Athlétisme) comme action, se libérer ou une créature à portée de la roche sur un succès. La roche a CA 17 et 40 points de vie, et il est immunisé au feu, poison, et dégâts psychiques. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Lame de lava",
+   "bonus": 18,
+   "damage": "4d10+10",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Balle de lava",
+   "bonus": 18,
+   "damage": "3d12+10",
+   "type": "contondant + feu"
+  },
+  {
+   "name": "Clamer",
+   "bonus": 18,
+   "damage": "4d8+10",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/3097a2aa7f_monstre-scion-de-surtur.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Scion de Surtur",
+ "caNote": "armure naturelle",
+ "saves": "DEX +11, CHA +13",
+ "skills": "Athlétisme +18, Perception +15",
+ "resistances": "froid, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié",
+ "bonusActions": "**Mouvement de tremblement de terre.** Le scion monte à sa vitesse et envoie ensuite une onde de choc à travers le sol dans un cercle 18 m -radius centré sur lui-même. Chaque créature au sol dans cette zone qui est concentrating doit réussir sur un DD 26 jet de sauvegarde de Constitution ou perdre concentration.\n**Fumée incendiaire.** Le scion provoque de la fumée et des braises chaudes blanches à gonfler de sa peau, remplissant une sphère 9 m -radius centrée sur elle-même qui se déplace avec elle. Alors que la peau de la scion gonfle la fumée, les attaques variées contre la scion sont faites avec désavantage. Une créature qui se déplace dans la fumée pour la première fois sur un tour ou commence son tour il doit réussir sur un DD 25 jet de sauvegarde de Constitution ou prendre 14 (4d6) dégâts de feu. La peau du scion arrête de gonfler la fumée après 1 minute, quand le scion meurt, ou quand le scion utilise ce action bonus pour arrêter la fumée."
+}

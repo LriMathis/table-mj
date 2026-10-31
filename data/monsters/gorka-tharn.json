@@ -1,0 +1,44 @@
+{
+ "id": "gorka-tharn",
+ "name": "Gorka Tharn",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 17,
+ "hp": 97,
+ "hpFormula": "13d8+39",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 11,
+  "SAG": 18,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Résistance magique.** La momie lord a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Réjuvenance.** Un seigneur momie détruit gagne un nouveau corps en 24 heures si son cœur est intact, récupérant tout son points de vie et redevenant actif. Le nouveau corps apparaît dans le 1,50 m du cœur de la momie.\n**Détection orthographique.** La momie est un sorcier de niveau 10. Son caractéristique d'incantation est Sagesse (save spell DD 17, +9 au toucher avec attaques de sort). Le seigneur momie a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Injonction, Éclair traçant, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Silence, Arme spirituelle\n- Niveau 3 (3 emplacements) : Animation des morts, Dissipation de la magie\n- Niveau 4 (3 emplacements) : Façonnage de la pierre, Gardien de la foi\n- Niveau 5 (2 emplacements) : Contagion, Fléau d'insectes\n- Niveau 6 (1 emplacements) : Contamination",
+ "actionsText": "**Multiattaques.** La momie peut utiliser son Dreadful Glare et fait une attaque avec son poing pourri.\n**Fistillation de rotation.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 14 (3d6 + 4) dégâts contondants plus 21 (6d6) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Constitution ou être maudite avec la pourriture momie. La cible maudite ne peut pas récupérer points de vie, et son maximum de points de vie diminue de 10 (3d6) toutes les 24 heures qui s'écoulent. Si la malédiction réduit le maximum de points de vie à 0, la cible meurt, et son corps se transforme en poussière. La malédiction dure jusqu'à ce qu'elle soit enlevée par le sort Délivrance des malédictions ou toute autre magie.\n**C'est terrible..** La momie lord cible une créature il peut voir dans 18 m de lui. Si la cible peut voir la momie seigneur, elle doit réussir sur un DD 16 jet de sauvegarde de Sagesse contre cette magie ou devenir effrayé jusqu'à la fin du prochain tour de la momie. Si la cible échoue le jet de sauvegarde par 5 ou plus, elle est également paralysé pour la même durée. Une cible qui réussit sur le jet de sauvegarde est à l'abri de l'épouvantable glare de toutes les momies et de tous les seigneurs de la momie pour les 24 prochaines heures.\n**agrandir (recharges après un repos court ou long).** Pendant 1 minute, la momie du seigneur augmente magiquement sa taille, avec tout ce qu'elle porte ou porte. Alors qu'elle est agrandie, la momie lord est grande, double ses dés de dégâts avec son attaque Rotting Fist, et rend tests de Force et jet de sauvegarde de Force avec avantage. Si la momie seigneur manque de la salle pour devenir grand, il atteint la taille maximale possible dans l'espace disponible.\n**Invisibilité (Recharges après un repos court ou long).** Le seigneur momie tourne magiquement invisible jusqu'à 1 heure ou jusqu'à ce qu'il attaque, il jette un sort, il utilise son agrandir, ou son concentration est cassé (comme si concentrating sur un sort). Tout équipement que le seigneur porte ou porte est invisible.\nLa stalagmite de l'alcôve du nord-ouest est creuse et sert de sarcophage de Gorka Tharn. La momie est logée dans l'intérieur en forme d'entonnoir de la stalagmite. Quand il se réveille, la momie lord utilise un sort Façonnage de la pierre pour créer une ouverture assez grande pour qu'elle émerge. Il détruit tous les intrus dans son repaire, puis retourne à son sarcophage et à son sommeil.\nAu fond de la cavité creuse de la stalagmite, quatre urnes d'argile de type 0,30 m contiennent les organes internes préservés de Gorka Tharn, y compris le cœur éparpillé de la momie. Ce n'est qu'en détruisant le cœur que les personnages empêcheront le seigneur de la momie de se rajeunir. Le cœur est un objet minuscule avec CA 5, 25 points de vie, et l'immunité à tous les dégâts sauf le feu.",
+ "attacks": [
+  {
+   "name": "Fistillation de rotation",
+   "bonus": 9,
+   "damage": "3d6+4",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/2a70c5de0e_monstre-gorka-tharn.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, INT +5, SAG +9, CHA +8",
+ "skills": "Histoire +5, Religion +5",
+ "vulnerabilities": "feu",
+ "immunities": "nécrotique, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, gorka tharn peut entreprendre l'une des actions ci-après.\n**Attaque.** Le seigneur momie fait une attaque avec son poing pourri ou utilise son Épouvantable Glare.\n**Poussière aveuglante.** La poussière aveuglante et le sable tourbillonnent magiquement autour de la momie seigneur. Chaque créature au sein de 1,50 m de la momie seigneur doit réussir sur un DD 16 jet de sauvegarde de Constitution ou être aveuglé jusqu'à la fin du prochain tour de la créature.\n**Parole blasphématoire (coûts 2 actions).** La momie dit un mot blasphématoire. Chaque créature non morte au sein de 3 m de la momie seigneur qui peut entendre la déclaration magique doit réussir sur une DD 16 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin du prochain tour de la momie seigneur.\n**Énergie négative des canaux (coûts 2 actions).** La momie lord libère magiquement l'énergie négative. Les créatures au sein de 18 m de la momie seigneur, y compris celles derrière les barrières et autour des coins, ne peuvent retrouver points de vie qu'à la fin du prochain tour de la momie seigneur.\n**Whirlwind of Sand (coûts 2 actions).** La momie seigneur se transforme magiquement en un tourbillon de sable, se déplace jusqu'à 18 m, et revient à sa forme normale. Tandis que sous forme de tourbillon, la momie lord est immunisée contre tous les dégâts, et il ne peut pas être agrippé, pétrifié, à terre, entravé, ou étourdi. L'équipement porté ou porté par le seigneur de la momie reste en sa possession."
+}

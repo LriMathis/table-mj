@@ -1,0 +1,43 @@
+{
+ "id": "gnome-squidling",
+ "name": "Gnome Squidling",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 8,
+ "hp": 10,
+ "hpFormula": "3d6",
+ "vitesse": "4,50 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 7,
+  "CON": 10,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend le discours profond et le gnomish mais ne peut pas parler, télépathie 18 m",
+ "traits": "**Résistance magique.** Le calmar a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**La diffusion de l'orthographe innée (Psioniques).** Le caractéristique d'incantation inné du calmar est Intelligence (spell save DD 7). Il peut lancer innéement Lévitation à volonté, ne nécessitant aucun composant.\n- À volonté : Lévitation",
+ "actionsText": "**Tentacules.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une créature. Touché : 5 (2d4) dégâts psychiques. Si la cible est moyenne ou plus petite, elle est agrippé (évasion DD 7) et doit réussir sur un DD 7 jet de sauvegarde d'Intelligence ou être étourdi jusqu'à ce que ce grappin se termine.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une créature neutralisé agrippé par le calmar. Touché : 27 (5d10) dégâts perforants. Si ces dégâts réduisent la cible à 0 points de vie, le calmar tue la cible en enlevant et en dévorant son cerveau.\n**Ticelle mentale (Recharge 5-6).** Le calmar émet magiquement de l'énergie psychique dans un cône 9 m. Chaque créature dans cette zone doit réussir sur un DD 7 jet de sauvegarde d'Intelligence ou prendre 2 (1d4) dégâts psychiques et être étourdi jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 0,
+   "damage": "2d4",
+   "type": "psychique"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 0,
+   "damage": "5d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/845324435b_monstre-gnome-squidling.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)"
+}

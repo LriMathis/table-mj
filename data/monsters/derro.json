@@ -1,0 +1,45 @@
+{
+ "id": "derro",
+ "name": "Derro",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "3d6+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 5,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 7",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Résistance magique.** Le derro a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sensibilité à la lumière du soleil.** En plein soleil, le derro présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Lance à crochet.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts perforants. Si la cible est moyenne ou plus petite, le derro peut choisir de ne pas causer de dégâts et de frapper à terre.\n**Acrobatie légère.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Lance à crochet",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1f98eeb856_monstre-derro.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Discrétion +4"
+}

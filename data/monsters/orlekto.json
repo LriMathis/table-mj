@@ -1,0 +1,48 @@
+{
+ "id": "orlekto",
+ "name": "Orlekto",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 16,
+ "hp": 230,
+ "hpFormula": "20d12+100",
+ "vitesse": "15 m, nage 15 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Perception passive 19",
+ "languages": "commun, géant",
+ "traits": "**Information sur le jeu de rôles.** Orlekto est amoureuse de la princesse Mirran et veut la voir devenir Reine du Trône de Wyrmskull. (Si Mirran est mort, Orlekto vise à la venger.) Si l'occasion d'éliminer Hekaton ou Serissa se présente, Orlekto la saisit. D'ici là, il cache sa nature perfide.\nIdéal: \"Les géants de la tempête devraient gouverner le monde. Des chefs faibles ont laissé des dragons et d'autres voler ce que les dieux nous ont donné ! »\nObligation : \"Je sers la princesse Mirran et elle seule.\"\nFaux : \"Pour l'amour de Mirran ou ma vengeance, je trahirais mon roi et mon honneur.\"\n**Amphibie.** Orlekto peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Orlekto fait deux attaques de grands mots.\n**Grande épée.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 30 (6d6 + 9) dégâts tranchants.\n**Roche.** Attaque d'arme à distance : +14 au toucher, portée 18/72 m., une cible. Touché : 35 (4d12 + 9) dégâts contondants.\n**foudre Strike (Recharge 5-6).** Orlekto lance un éclair magique à un point qu'il peut voir à l'intérieur de 150 m. Chaque créature dans 3 m de ce point doit faire un DD 17 jet de sauvegarde de Dextérité, en prenant 54 (12d8) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Orlekto lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection de la magie, Lévitation, Lumière\n- 1/jour chacun : Contrôle du climat (sous forme d'une action), Respiration aquatique",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 14,
+   "damage": "6d6+9",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 14,
+   "damage": "4d12+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/7fcf90be88_monstre-orlekto.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Courrier d'échelle",
+ "saves": "FOR +14, CON +10, SAG +9, CHA +9",
+ "skills": "Athlétisme +14, Tromperie +14, Perception +9",
+ "resistances": "froid",
+ "immunities": "foudre, tonnerre"
+}

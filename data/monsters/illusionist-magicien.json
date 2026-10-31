@@ -1,0 +1,41 @@
+{
+ "id": "illusionist-magicien",
+ "name": "Illusionist Wizard",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 16,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Perception passive 10",
+ "languages": "quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'illusionniste fait deux attaques d'Arcane Burst.\n**La Burst d'Arcane.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 14 (2d10 + 3) dégâts psychiques.\n**Détection orthographique.** L'illusionniste lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumières dansantes, Main de mage, Illusion mineure\n- 2/jour chacun : Déguisement, Invisibilité, Armure de mage, Image majeure, Force fantasmagorique, Monture fantôme",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/5cf6467925_monstre-illusionist-magicien.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Illusionist magicien",
+ "saves": "INT +5, SAG +2",
+ "skills": "Arcanes +5, Histoire +5",
+ "bonusActions": "**Déplacement (Recharge 5-6).** L'illusionniste projette une illusion qui fait que l'illusionniste semble être debout dans un endroit à quelques pouces de son emplacement réel, ce qui fait que toute créature a un désavantage sur jets d'attaque contre l'illusionniste. L'effet dure 1 minute, et il se termine tôt si l'illusionniste prend des dégâts, s'il est neutralisé, ou si sa vitesse devient 0."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "skulk",
+ "name": "Skulk",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 18,
+ "hpFormula": "4d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 19,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 7,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 8",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Invisibilité faillible.** Le skulk est invisible. Cette invisibilité peut être contournée par trois choses :\n- **Bougies à charbon** Le skulk apparaît comme une forme faible, translucide à la lumière d'une bougie faite de graisse rendue à partir d'un cadavre dont l'identité est inconnue.\n- **Enfants** Les enfants humanoïdes, âgés de 10 ans et moins, peuvent voir à travers cette invisibilité.\n- **Surfaces réfléchissantes** Le skulk apparaît comme un bip à la peau lisse et drabe si son reflet peut être vu dans un miroir ou sur une autre surface.\n**Sans piste.** Le skulk ne laisse aucune trace pour indiquer où il a été ou où il se dirige.",
+ "actionsText": "**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts tranchants plus 3 (1d6) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/006e08c450_monstre-skulk.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "saves": "CON +2",
+ "skills": "Discrétion +8",
+ "conditionImmunities": "aveuglé"
+}

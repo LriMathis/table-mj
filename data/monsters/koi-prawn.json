@@ -1,0 +1,38 @@
+{
+ "id": "koi-prawn",
+ "name": "Koi Prawn",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 16,
+ "hpFormula": "3d10",
+ "vitesse": "0 m, nage 12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "**Frais.** Si la crevette se déplace au moins 6 m droit vers une cible et la frappe avec une attaque de bélier au même tour, la cible prend un 7 (2d6) dégâts contondants supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 11 jet de sauvegarde de Force ou être à terre.\n**Respiration d'eau.** La crevette ne peut respirer que sous l'eau.",
+ "actionsText": "**Ram.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Ram",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c49f4b75f8_monstre-koi-prawn.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

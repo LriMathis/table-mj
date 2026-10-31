@@ -1,0 +1,55 @@
+{
+ "id": "capitaine-de-maison-drow",
+ "name": "Drow House Captain",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 162,
+ "hpFormula": "25d8+50",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 19,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Le drow a l'avantage sur jet de sauvegarde contre le charmé, et la magie ne peut pas mettre le drow à dormir.\n**Sensibilité à la lumière du soleil.** En plein soleil, le drow présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le sillon fait deux attaques Scimitar et une attaque Whip ou Hand Crossbow.\n**Scimitar.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants plus 14 (4d6) dégâts de poison.\n**Whip.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 6 (1d4 + 4) dégâts tranchants.\n**Acrobatie des mains.** Attaque d'arme à distance : +8 au toucher, portée 9/36 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné pendant 1 heure. Si le jet de sauvegarde échoue par 5 ou plus, la cible est également inconscient alors qu'empoisonné de cette façon. La cible reprend conscience si elle prend des dégâts ou si une autre créature prend une action pour la secouer.\n**Détection orthographique.** Le sillon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques, Lévitation (autoseulement)",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Whip",
+   "bonus": 8,
+   "damage": "1d4+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/530190f9fe_monstre-capitaine-de-maison-drow.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Capitaine de maison drow",
+ "caNote": "Courrier en chaîne",
+ "saves": "DEX +8, CON +6, SAG +6",
+ "skills": "Perception +6, Discrétion +8",
+ "bonusActions": "**Commandement de la bataille.** Choisissez une créature dans 9 m du srow que le srow peut voir. Si la créature choisie peut voir ou entendre le drow, cette créature peut utiliser sa réaction pour faire une attaque de mêlée ou pour prendre l'action Esquiver ou Se cacher.",
+ "reactions": "**Parry.** Le srow ajoute 3 à sa CA contre une melee jet d'attaque qui la frapperait. Pour ce faire, le drow doit voir l'attaquant et utiliser une arme de mêlée."
+}

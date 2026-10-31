@@ -1,14 +1,16 @@
 {
  "id": "ours-hibou",
- "name": "Ours-hibou",
+ "name": "Hibours",
  "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
  "cr": "3",
  "xp": 700,
  "ca": 13,
  "hp": 59,
  "hpFormula": "7d10+21",
- "vitesse": "12 m",
- "size": 2,
+ "vitesse": "12 m, escalade 12 m",
  "stats": {
   "FOR": 20,
   "DEX": 12,
@@ -17,21 +19,20 @@
   "SAG": 12,
   "CHA": 7
  },
+ "skills": "Perception +5",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le hibours effectue deux attaques de Saignée.\n**Saignée.** Corps à corps : +7, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts tranchants.",
  "attacks": [
   {
-   "name": "Bec",
-   "bonus": 7,
-   "damage": "1d10+5",
-   "type": "perforant"
-  },
-  {
-   "name": "Griffes",
+   "name": "Saignée",
    "bonus": 7,
    "damage": "2d8+5",
    "type": "tranchant"
   }
  ],
- "traits": "**Attaques multiples.** Un bec et des griffes.",
- "portrait": "/data/images/37702d7981_monstre-ours-hibou.svg",
- "notes": ""
+ "portrait": "/data/images/11739e4657_monstre-ours-hibou.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 180"
 }

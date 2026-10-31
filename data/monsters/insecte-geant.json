@@ -1,0 +1,32 @@
+{
+ "id": "insecte-geant",
+ "name": "Giant Insect",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "12 m, escalade 12 m, vol 12 m (Wasp seulement)",
+ "stats": {
+  "FOR": 17,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 4,
+  "SAG": 14,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "comprend les langues que vous connaissez",
+ "traits": "**Escalade des araignées.** L'insecte peut grimper des surfaces difficiles, y compris le long des plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** L'insecte fait un nombre d'attaques égal à la moitié du niveau de ce sort (arrondi).\n**poison Jab.** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 3 m. Touché : 1d6 + 3 + summonSpellLevel dégâts perforants plus 1d4 dégâts de poison.\n**Bolt Web (Spider seulement).** Jet d'attaque à distance : votre bonus d'attaque de sort, portée 18 m. Touché : 1d10 + 3 + summonSpellLevel dégâts contondants, et la vitesse de la cible est réduite à 0 jusqu'au début du prochain tour de l'insecte.",
+ "attacks": [],
+ "portrait": "/data/images/c106e3cfcf_monstre-insecte-geant.webp",
+ "notes": "points de vie : 30 + 10 pour chaque niveau de sort supérieur à 4",
+ "source": "Player's Handbook (2024) (5e.tools, traduction automatique)",
+ "aka": "Insecte géant",
+ "bonusActions": "**Porc venimeux (Centipède seulement).** Jet de sauvegarde de Constitution : Votre DD de sauvegarde des sorts, une créature l'insecte peut voir dans 3 m. Échec : La cible a l'état empoisonné jusqu'au prochain tour de l'insecte."
+}

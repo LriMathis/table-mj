@@ -1,0 +1,44 @@
+{
+ "id": "espace-eel",
+ "name": "Space Eel",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "3 m, vol 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Nature inhabituelle.** L'anguille ne nécessite pas d'air.",
+ "actionsText": "**Multiattaques.** S'il n'est pas attaché à une créature, l'anguille fait une attaque Bite et une attaque Tail Spine.\n**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d6 + 1) dégâts perforants, et l'anguille se fixe à la cible. Pendant qu'elle est attachée, l'anguille ne peut pas faire d'attaques Bite. Au lieu de cela, la cible prend 4 (1d6 + 1) dégâts perforants au début de chaque tour de l'anguille. L'anguille peut se détacher comme un action bonus. Une créature, y compris la cible, peut utiliser son action pour détacher l'anguille.\n**Tige de queue.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une créature. Touché : 3 (1d4 + 1) dégâts perforants, et la cible doit réussir sur un DD 10 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Jusqu'à ce que ce poison se termine, la cible est paralysé. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Tige de queue",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c69702c3bd_monstre-espace-eel.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Espace Eel"
+}

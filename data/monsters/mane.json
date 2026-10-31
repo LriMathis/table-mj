@@ -1,0 +1,40 @@
+{
+ "id": "mane",
+ "name": "Mâne",
+ "type": "Fiélon (démon)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 9,
+ "hp": 9,
+ "hpFormula": "2d6+2",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 9,
+  "CON": 13,
+  "INT": 3,
+  "SAG": 8,
+  "CHA": 4
+ },
+ "resistances": "feu, foudre, froid",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné, terrorisé",
+ "senses": "vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend l'abyssal mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Griffes.** *Attaque d'arme au corps à corps :* +2 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (2d4) dégâts tranchants.",
+ "portrait": "/data/images/eb92d73fef_monstre-mane.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 55 · image : Manuel des monstres p. 54",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 2,
+   "damage": "2d4",
+   "type": "tranchant"
+  }
+ ]
+}

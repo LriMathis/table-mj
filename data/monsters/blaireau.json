@@ -1,0 +1,39 @@
+{
+ "id": "blaireau",
+ "name": "Blaireau",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 5,
+ "hpFormula": "1d4+3",
+ "vitesse": "6 m, creusement 1,5 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "skills": "Perception +3",
+ "resistances": "poison",
+ "senses": "Vision dans le noir 9 m, Perception passive 13",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +2, allonge 1,50 m. Touché : 1 dégât perforant.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 2,
+   "damage": "1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/fb65d37124_monstre-blaireau.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

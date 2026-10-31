@@ -1,0 +1,41 @@
+{
+ "id": "braxat",
+ "name": "Braxat",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 162,
+ "hpFormula": "13d12+78",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 8,
+  "CON": 22,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, géant",
+ "traits": "**Forteresse Intellect.** Le CA du braxat comprend son modificateur Intelligence.",
+ "actionsText": "**Multiattaques.** Le braxat fait deux attaques de Greatclub.\n**Grand club.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts contondants.\n**acide Respiration (Recharge 6).** Le braxat exhale un cône d'acide 4,50 m. Chaque créature dans le cône doit faire un DD 18 jet de sauvegarde de Constitution, en prenant 26 (4d12) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Coulisse (Psioniques).** Le braxat lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- 1/jour chacun : Compulsion, Peur",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 12,
+   "damage": "3d8+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3a23e69238_monstre-braxat.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle, forteresse intellect",
+ "immunities": "acide, psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Bouclier psionique (3/jour).** Lorsque le braxat serait frappé par un sort jet d'attaque ou Projectile magique qui provient d'une source que le braxat peut voir, le braxat peut créer une barrière invisible de force magique autour de lui qui dure jusqu'au début de son prochain tour. Cette barrière donne au braxat un bonus de +5 à CA, y compris contre l'attaque de déclenchement, et empêche les sorts Projectile magique de l'endommager."
+}

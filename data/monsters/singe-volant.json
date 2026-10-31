@@ -1,0 +1,38 @@
+{
+ "id": "singe-volant",
+ "name": "Flying Monkey",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 3,
+ "hpFormula": "1d6",
+ "vitesse": "9 m, escalade 6 m, vol 9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "**Tactiques de conditionnement.** Le singe volant a l'avantage sur un jet d'attaque contre une créature si au moins un des alliés du singe est dans le 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Familiarisation.** Avec la permission de le MD, le sort Appel de familier peut appeler un singe volant.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une cible Touché : 1 (1d4 - 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 1,
+   "damage": "1d4-1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/7a6c90681a_monstre-singe-volant.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Singe volant"
+}

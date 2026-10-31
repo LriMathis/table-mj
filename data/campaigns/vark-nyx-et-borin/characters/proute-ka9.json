@@ -1,0 +1,222 @@
+{
+ "id": "proute-ka9",
+ "name": "proute",
+ "title": "",
+ "player": "",
+ "race": "",
+ "classe": "druide",
+ "niveau": 3,
+ "historique": "",
+ "alignement": "",
+ "taille": "Moyenne",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "saves": [],
+ "prof": 2,
+ "hpMax": 20,
+ "hp": 20,
+ "hpTemp": 0,
+ "ca": 10,
+ "initBonus": 0,
+ "xp": 1200,
+ "hitDie": 8,
+ "hitDice": 3,
+ "skills": {},
+ "attacks": [],
+ "resources": [
+  {
+   "name": "Forme sauvage",
+   "max": 2,
+   "cur": 2,
+   "reset": "court"
+  }
+ ],
+ "spellcasting": {
+  "ability": "SAG",
+  "dc": 10,
+  "attack": 2,
+  "slots": {
+   "1": {
+    "max": 4,
+    "cur": 4
+   },
+   "2": {
+    "max": 2,
+    "cur": 2
+   }
+  }
+ },
+ "spells": {},
+ "features": [
+  {
+   "name": "Forme sauvage",
+   "text": "Prenez la forme d'une bête déjà vue (FP 1/4, sans vol ni nage), 2 fois par repos court."
+  },
+  {
+   "name": "Cercle druidique",
+   "text": "Aptitude de Druide gagnée au niveau 2."
+  }
+ ],
+ "equipment": "",
+ "gold": 0,
+ "conditions": [],
+ "deathSaves": {
+  "s": 0,
+  "f": 0
+ },
+ "exhaustion": 0,
+ "notes": "",
+ "sheet": "",
+ "portrait": "",
+ "color": "",
+ "source": "",
+ "inventory": [],
+ "saveItemBonus": 0,
+ "levelHistory": [
+  {
+   "niveau": 1,
+   "t": 1792882102599,
+   "snap": {
+    "id": "proute-ka9",
+    "name": "proute",
+    "title": "",
+    "player": "",
+    "race": "",
+    "classe": "druide",
+    "niveau": 1,
+    "historique": "",
+    "alignement": "",
+    "taille": "Moyenne",
+    "vitesse": "9 m",
+    "stats": {
+     "FOR": 10,
+     "DEX": 10,
+     "CON": 10,
+     "INT": 10,
+     "SAG": 10,
+     "CHA": 10
+    },
+    "saves": [],
+    "prof": 2,
+    "hpMax": 10,
+    "hp": 10,
+    "hpTemp": 0,
+    "ca": 10,
+    "initBonus": 0,
+    "xp": 300,
+    "hitDie": 8,
+    "hitDice": 1,
+    "skills": {},
+    "attacks": [],
+    "resources": [],
+    "spellcasting": null,
+    "spells": {},
+    "features": [],
+    "equipment": "",
+    "gold": 0,
+    "conditions": [],
+    "deathSaves": {
+     "s": 0,
+     "f": 0
+    },
+    "exhaustion": 0,
+    "notes": "",
+    "sheet": "",
+    "portrait": "",
+    "color": "",
+    "source": "",
+    "inventory": [],
+    "saveItemBonus": 0
+   }
+  },
+  {
+   "niveau": 2,
+   "t": 1792882113696,
+   "snap": {
+    "id": "proute-ka9",
+    "name": "proute",
+    "title": "",
+    "player": "",
+    "race": "",
+    "classe": "druide",
+    "niveau": 2,
+    "historique": "",
+    "alignement": "",
+    "taille": "Moyenne",
+    "vitesse": "9 m",
+    "stats": {
+     "FOR": 10,
+     "DEX": 10,
+     "CON": 10,
+     "INT": 10,
+     "SAG": 10,
+     "CHA": 10
+    },
+    "saves": [],
+    "prof": 2,
+    "hpMax": 15,
+    "hp": 15,
+    "hpTemp": 0,
+    "ca": 10,
+    "initBonus": 0,
+    "xp": 1200,
+    "hitDie": 8,
+    "hitDice": 2,
+    "skills": {},
+    "attacks": [],
+    "resources": [
+     {
+      "name": "Forme sauvage",
+      "max": 2,
+      "cur": 2,
+      "reset": "court"
+     }
+    ],
+    "spellcasting": {
+     "ability": "SAG",
+     "dc": 10,
+     "attack": 2,
+     "slots": {
+      "1": {
+       "max": 3,
+       "cur": 3
+      }
+     }
+    },
+    "spells": {},
+    "features": [
+     {
+      "name": "Forme sauvage",
+      "text": "Prenez la forme d'une bête déjà vue (FP 1/4, sans vol ni nage), 2 fois par repos court."
+     },
+     {
+      "name": "Cercle druidique",
+      "text": "Aptitude de Druide gagnée au niveau 2."
+     }
+    ],
+    "equipment": "",
+    "gold": 0,
+    "conditions": [],
+    "deathSaves": {
+     "s": 0,
+     "f": 0
+    },
+    "exhaustion": 0,
+    "notes": "",
+    "sheet": "",
+    "portrait": "",
+    "color": "",
+    "source": "",
+    "inventory": [],
+    "saveItemBonus": 0
+   }
+  }
+ ]
+}

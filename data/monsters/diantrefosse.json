@@ -1,0 +1,54 @@
+{
+ "id": "diantrefosse",
+ "name": "Diantrefosse",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 21,
+ "hp": 337,
+ "hpFormula": "27d10+189",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 14,
+  "CON": 24,
+  "INT": 22,
+  "SAG": 18,
+  "CHA": 24
+ },
+ "saves": "DEX +8, SAG +10",
+ "skills": "Perception +10, Persuasion +19",
+ "resistances": "froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision véritable 36 m, Perception passive 20",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**Aura de terreur.** Le diantrefosse diffuse une aura dans une Émanation de 6 m tant qu’il ne subit pas l’état Neutralisé. JS Sagesse : DD 21, tout ennemi qui commence son tour dans l’aura. Échec : la cible subit l’état Effrayé jusqu’au début de son tour suivant. Réussite : la cible est immunisée contre l’aura de ce diantrefosse pendant 24 heures.\n**Résistance à la magie.** Le diantrefosse a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Résistance légendaire (4/jour).** Si le diantrefosse rate un jet de sauvegarde, il peut décider de le réussir tout de même.\n**Restauration diabolique.** Si le diantrefosse meurt hors des Neuf Enfers, son corps disparaît dans un nuage de fumée sulfureuse, tandis qu’il en acquiert aussitôt un nouveau et revient à la vie avec tous ses pv quelque part dans les Neuf Enfers.",
+ "actionsText": "**Attaques multiples.** Le diantrefosse effectue quatre attaques : deux de Griffe diabolique, une de Masse d’armes ardente et une de Morsure.\n**Griffe diabolique.** Corps à corps : +14, allonge 3 m. Touché : 26 (4d8 + 8) dégâts nécrotiques.\n**Masse d’armes ardente.** Corps à corps : +14, allonge 3 m. Touché : 22 (4d6 + 8) dégâts de force plus 21 (6d6) dégâts de feu.\n**Morsure.** Corps à corps : +14, allonge 3 m. Touché : 18 (3d6 + 8) dégâts perforants. Si la cible est une créature, elle effectue le jet de sauvegarde suivant. JS Constitution : DD 21. Échec : la cible subit l’état Empoisonné. Ainsi Empoisonnée, la cible ne peut pas récupérer de points de vie, subit 21 (6d6) dégâts de poison au début de chacun de ses tours et réitère le JS à la fin de chacun de ses tours, mettant un terme à l’effet sur elle-même en cas de réussite. Au bout de 1 minute, elle réussit automatiquement ce JS.\n**Incantation du feu des enfers (recharge 4–6).** Le diantrefosse lance *boule de feu* (au 5e niveau) deux fois sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 21). Il peut remplacer une *boule de feu* par *immobilisation de monstre* (au 7e niveau) ou *mur de feu*.",
+ "attacks": [
+  {
+   "name": "Griffe diabolique",
+   "bonus": 14,
+   "damage": "4d8+8",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Masse d’armes ardente",
+   "bonus": 14,
+   "damage": "4d6+8+6d6",
+   "type": "force + feu"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 14,
+   "damage": "3d6+8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/7c4fc306cb_monstre-diantrefosse.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 73"
+}

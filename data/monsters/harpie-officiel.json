@@ -1,0 +1,37 @@
+{
+ "id": "harpie-officiel",
+ "name": "Harpie",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvaise",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "6 m, vol 12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Griffe.** Corps à corps : +3, allonge 1,50 m. Touché : 6 (2d4 + 1) dégâts tranchants.\n**Chant captivant.** La harpie chante une mélodie magique qui persiste jusqu’à ce que cesse la Concentration de la harpie. JS Sagesse : DD 11, chaque Humanoïde et Géant dans une Émanation de 90 m centrée sur la harpie quand le chant débute. Échec : la cible subit l’état Charmé jusqu’à ce que le chant cesse et réitère le JS à la fin de chacun de ses tours. Tant qu’elle est ainsi Charmée, la cible subit l’état Neutralisé et ignore le Chant captivant des autres harpies. Si la cible se trouve à plus de 1,50 m de la harpie, elle doit à son tour consacrer son déplacement pour se rapprocher du monstre par le chemin le plus direct, jusqu’à terminer dans un rayon de 1,50 m de lui. La cible ne cherche pas à éviter les attaques d’Opportunité, mais si elle doit traverser un terrain dangereux (comme une fosse de lave), elle peut réitérer le JS, même chose chaque fois qu’elle subit des dégâts d’une source autre que la harpie. Réussite : la cible est immunisée contre le Chant captivant de cette harpie pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ec7100e7d9_monstre-harpie-officiel.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 179"
+}

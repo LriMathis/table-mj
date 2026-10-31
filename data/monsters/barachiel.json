@@ -1,0 +1,42 @@
+{
+ "id": "barachiel",
+ "name": "Barachiel",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m, vol 15 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 20
+ },
+ "senses": "Perception passive 12",
+ "languages": "céleste, commun, infernal",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Barachiel fait trois grandes attaques.\n**Grande épée.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants plus 22 (5d8) dégâts radiants.\n**Flammes purifiantes (Recharge 4-6).** Barachiel déchire son épée en flamme blanche, puis fait une attaque d'épée. Sur un coup, la cible prend un 45 (7d12) dégâts de feu plus 45 (7d12) dégâts radiants. La cible doit réussir sur un DD 18 jet de sauvegarde de Charisme ou avoir l'état étourdi jusqu'à la fin de leur prochain tour.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 9,
+   "damage": "2d6+4",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/5b7416126b_monstre-barachiel.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "plaque",
+ "saves": "CON +9, SAG +7",
+ "resistances": "nécrotique, poison",
+ "conditionImmunities": "épuisement, effrayé, empoisonné",
+ "reactions": "**Parry.** Barachiel ajoute 5 à sa CA contre une attaque. Pour ce faire, Barachiel doit voir l'agresseur et manier une arme de mêlée."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "zala-morphus",
+ "name": "Zala Morphus",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 12",
+ "languages": "commun, profond, elfique",
+ "traits": "**C'est la vue..** Zala Morphus a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Zala Morphus fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Gaz de routage.** Zala Morphus cible une créature il peut voir dans 9 m de lui. La cible doit réussir sur un DD 12 jet de sauvegarde de Constitution contre cette magie ou prendre 10 (3d6) dégâts nécrotiques.\n**C'est bizarre..** Zala Morphus cible une créature il peut voir dans 9 m de lui. La cible doit contester sa test de Charisme (Tromperie) contre test de Sagesse (Perspicacité) de Zala Morphus. Si Zala Morphus gagne, il apprend par magie un fait ou un secret sur la cible. La cible gagne automatiquement si elle est immunisée contre l'être charmé.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/44c6ff5c34_monstre-zala-morphus.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +3, Perspicacité +4, Perception +2, Discrétion +5"
+}

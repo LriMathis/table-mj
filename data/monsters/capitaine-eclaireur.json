@@ -1,0 +1,48 @@
+{
+ "id": "capitaine-eclaireur",
+ "name": "Scout Captain",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Perception passive 16",
+ "languages": "Commun plus une autre langue",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le scout fait deux attaques, en utilisant Shortsword ou Longbow dans n'importe quelle combinaison.\n**Mot-clé.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts perforants, plus 10 (3d6) dégâts perforants si l'attaque a été faite avec Avantage.\n**Longbow.** Jet d'attaque à distance : +5, portée 45/180 m. Touché : 7 (1d8 + 3) dégâts perforants, plus 10 (3d6) dégâts perforants si l'attaque a été faite avec Avantage.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2061d53f47_monstre-capitaine-eclaireur.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Capitaine éclaireur",
+ "saves": "DEX +5, INT +4",
+ "skills": "Perception +6, Discrétion +7, Survie +6",
+ "bonusActions": "**Objectif.** Le scout a Avantage sur le prochain jet d'attaque qu'il fait pendant le virage actuel.",
+ "reactions": "**Uncanny Dodge.** Déclencheur : Le scout est frappé par un jet d'attaque. Réponse : Le scout réduit de moitié les dégâts (rondes) qu'il prend de cette attaque."
+}

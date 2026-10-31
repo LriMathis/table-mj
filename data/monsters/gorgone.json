@@ -1,0 +1,40 @@
+{
+ "id": "gorgone",
+ "name": "Gorgone",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non aligné",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 19,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "skills": "Perception +7",
+ "conditionImmunities": "épuisement, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Coup de corne.** Corps à corps : +8, allonge 1,50 m. Touché : 18 (2d12 + 5) dégâts perforants. Si la cible est une créature de taille G ou inférieure et si la gorgone s’est déplacée en ligne droite d’un minimum de 6 m juste avant de la toucher, la cible subit l’état À terre.\n**Souffle pétrifiant (recharge 5–6).** JS Constitution : DD 15, chaque créature dans un Cône de 9 m. Premier échec : la cible subit l’état Entravé et réitère le JS à la fin de son tour suivant si elle est toujours Entravée ; elle met un terme à l’effet sur elle-même en cas de réussite. Deuxième échec : la cible subit l’état Pétrifié qui remplace l’état Entravé.",
+ "bonusActions": "**Piétinement.** JS Dextérité : DD 16, une créature subissant l’état À terre dans un rayon de 1,50 m. Échec : 16 (2d10 + 5) dégâts contondants. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Coup de corne",
+   "bonus": 8,
+   "damage": "2d12+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2f2343eb88_monstre-gorgone.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 170"
+}

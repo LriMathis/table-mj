@@ -1,0 +1,42 @@
+{
+ "id": "dreaming-noir-infiltrator",
+ "name": "Dreaming Dark Infiltrator",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 17,
+  "CON": 15,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 17
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 13",
+ "languages": "commun, Quori; télépathie 36 m.",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'infiltrateur fait trois attaques de Mind Blade.\n**Blade de l'esprit.** Jet d'attaque au corps à corps ou à distance : +7, allonge 1,50 m ou portée 9 m. Touché : 14 (3d6 + 4) dégâts psychiques.\n**Détection orthographique.** L'infiltrateur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- 1/jour : Perturbations synaptiques\n- 3/jour : Détection des pensées",
+ "attacks": [
+  {
+   "name": "Blade de l'esprit",
+   "bonus": 7,
+   "damage": "3d6+4",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/02fd4d9b05_monstre-dreaming-noir-infiltrator.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "aka": "Dreaming noir Infiltrator",
+ "saves": "INT +7, SAG +6, CHA +6",
+ "skills": "Tromperie +6, Perspicacité +6, Discrétion +6",
+ "resistances": "psychique",
+ "bonusActions": "**Malédiction de l'esprit.** Jet de sauvegarde de Sagesse : DD 15, une créature frappé par la Mind Blade de l'infiltrateur attaquent ce tour. Échec : La cible prend 14 (4d6) dégâts psychiques et est maudite. Bien que maudit de cette façon, il a Désavantage sur jets d'attaque contre l'infiltrateur, et l'infiltrateur connaît toujours son emplacement alors qu'il et l'infiltrateur sont sur le même plan d'existence. Une créature maudite répète le save chaque fois qu'elle termine un repos court ou long, mettant fin à l'effet sur elle-même sur un succès. Réussite : Demi-dégâts seulement."
+}

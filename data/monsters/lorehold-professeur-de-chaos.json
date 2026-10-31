@@ -1,0 +1,40 @@
+{
+ "id": "lorehold-professeur-de-chaos",
+ "name": "Lorehold Professor of Chaos",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 110,
+ "hpFormula": "17d8+34",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 15,
+  "CHA": 13
+ },
+ "senses": "Perception passive 15",
+ "languages": "Commun plus quatre langues",
+ "traits": "**Voix du passé (1/jour).** Le professeur peut lancer le sort Contact avec un autre plan pour contacter un esprit mort-vivant, en utilisant Intelligence comme le caractéristique d'incantation.",
+ "actionsText": "**Multiattaques.** Le professeur fait deux attaques Spectral Scroll. Il peut également utiliser Poids de Histoire, si disponible.\n**Scroll spectral.** Attaque de sort au corps à corps : +7 au toucher, allonge 9 m, une cible. Touché : 15 (2d10 + 4) dégâts de force. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou être à terre.\n**Poids de l'histoire (Recharge 5-6).** Le professeur compresse magiquement le temps autour de six créatures de son choix qu'il peut voir en 9 m de lui-même. Chaque cible doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou être entravé pendant 1 minute, mais la vitesse de la cible entravé est réduite de moitié au lieu d'être réduite à 0. Au début de chacun de ses tours, la cible entravé prend 4 (1d8) dégâts de force. Une cible entravé peut répéter l'enregistrement à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Le professeur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation :\n- À volonté : Compréhension des langues, Lumières dansantes, Assistance\n- 2/jour chacun : Localisation d'objet, Armure de mage, Passe-muraille",
+ "attacks": [
+  {
+   "name": "Scroll spectral",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/a9e3f73013_monstre-lorehold-professeur-de-chaos.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Lorehold professeur de chaos",
+ "saves": "CON +5, INT +7, SAG +5, CHA +4",
+ "skills": "Arcanes +7, Histoire +7, Perception +5"
+}

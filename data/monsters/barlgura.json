@@ -1,0 +1,49 @@
+{
+ "id": "barlgura",
+ "name": "Barlgura",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 7,
+  "SAG": 14,
+  "CHA": 9
+ },
+ "saves": "DEX +5, CON +6",
+ "skills": "Discrétion +5, Perception +5",
+ "resistances": "feu, foudre, froid",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision aveugle 9 m, vision dans le noir 36 m, Perception passive 15",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Incantation innée.** La caractéristique d'incantation du barlgura est la Sagesse (DD du jet de sauvegarde contre les sorts 13). Le barlgura peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- 1/jour chacun : *enchevêtrement, force fantasmagorique*\n- 2/jour chacun : *déguisement, invisibilité (soi-même uniquement)*\n**Saut avec élan.** Le barlgura peut sauter sur une longueur maximale de 12 mètres et une hauteur maximale de 6 mètres s'il prend son élan.\n**Téméraire.** Au début de son tour, le barlgura peut être avantagé lors de tous ses jets d'attaque d'arme au corps à corps effectués pendant ce tour, mais les jets d'attaque effectués contre lui sont avantagés jusqu'au début de son prochain tour.",
+ "actionsText": "**Attaques multiples.** Le barlgura effectue trois attaques : une avec sa morsure et deux avec ses poings.\n**Morsure.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 11 (2d6+4) dégâts perforants.\n**Poing.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 9 (1d10+4) dégâts contondants.",
+ "portrait": "/data/images/722c019567_monstre-barlgura.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 51 · image : Manuel des monstres p. 50",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Poing",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "contondant"
+  }
+ ]
+}

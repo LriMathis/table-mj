@@ -1,0 +1,38 @@
+{
+ "id": "grotte-de-cristal-thalasseen",
+ "name": "Crystal Cave Merfolk",
+ "type": "Humanoïde (Merfolk)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 11,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "3 m, nage 12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "",
+ "languages": "—",
+ "traits": "**Amphibie.** Le merfolk peut respirer l'air et l'eau.\n**Siren Song.** De belles voix chantantes charment chaque humanoïde ou géant dans 90 m. Les cibles doivent réussir sur un DD 11 jet de sauvegarde de Sagesse ou être charmé jusqu'à la fin de la chanson.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +2 au toucher, une cible. Touché : 3 (1d6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2d61e6bd3a_monstre-grotte-de-cristal-thalasseen.webp",
+ "notes": "points de vie : 11",
+ "source": "Adventure with Muk (5e.tools, traduction automatique)",
+ "aka": "Grotte de cristal thalasséen"
+}

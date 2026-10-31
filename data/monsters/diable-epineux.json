@@ -1,0 +1,53 @@
+{
+ "id": "diable-epineux",
+ "name": "Diable épineux",
+ "type": "Fiélon (diable)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "caNote": "armure naturelle",
+ "hp": 22,
+ "hpFormula": "5d6+5",
+ "vitesse": "6 m, vol 12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "resistances": "froid ; contondants, perforants et tranchants infligés par des attaques non magiques qui ne sont pas en argent",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision dans le noir 36 m, Perception passive 12",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**Pointes en nombre limité.** Douze pointes ornent la queue du diable. Les pointes utilisées repoussent après un long repos.\n**Résistance à la magie.** Le diable est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.\n**Repli aérien.** Le diable ne provoque pas d'attaque d'opportunité quand il s'envole au-delà de l'allonge d'un ennemi.\n**Vue du diable.** Les ténèbres magiques ne bloquent pas la vision dans le noir du diable.",
+ "actionsText": "**Attaques multiples.** Le diable effectue deux attaques : une avec sa morsure et une avec sa fourche, ou deux avec ses pointes caudales.\n**Morsure.** *Attaque d'arme au corps à corps :* +2 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (2d4) dégâts tranchants.\n**Fourche.** *Attaque d'arme au corps à corps :* +2 pour toucher, allonge 1,50 m, une cible. *Touché :* 3 (1d6) dégâts perforants.\n**Pointes caudales.** *Attaque d'arme à distance :* +4 pour toucher, portée 6/24 m, une cible. *Touché :* 4 (1d4+2) dégâts perforants plus 3 (1d6) dégâts de feu.",
+ "portrait": "/data/images/2d38902f73_monstre-diable-epineux.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 70 · image : Manuel des monstres p. 69",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 2,
+   "damage": "2d4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Fourche",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "perforant"
+  },
+  {
+   "name": "Pointes caudales",
+   "bonus": 4,
+   "damage": "1d4+2+1d6",
+   "type": "perforant + feu"
+  }
+ ]
+}

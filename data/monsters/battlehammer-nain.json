@@ -1,0 +1,46 @@
+{
+ "id": "battlehammer-nain",
+ "name": "Battlehammer Dwarf",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Perception passive 15",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Audition et vue.** Le nain a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou la vue.",
+ "actionsText": "**Multiattaques.** Le nain fait deux attaques de mêlée ou deux attaques de portée.\n**Handaxe.** Attaque d'arme au corps à corps ou à distance : +2 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d6 + 0) dégâts tranchants.\n**Acrobatie légère.** Attaque d'arme à distance : +4 au toucher, intervalle 24/96 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Handaxe",
+   "bonus": 2,
+   "damage": "1d6+0",
+   "type": "tranchant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2d6f630e28_monstre-battlehammer-nain.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Battlehammer nain",
+ "caNote": "Armure en cuir",
+ "skills": "Nature +4, Perception +5, Discrétion +6, Survie +5"
+}

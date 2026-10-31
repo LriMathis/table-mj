@@ -1,0 +1,43 @@
+{
+ "id": "yan-c-bin",
+ "name": "Yan-C-Bin",
+ "type": "Élémentaire",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 22,
+ "hp": 283,
+ "hpFormula": "21d12+147",
+ "vitesse": "15 m, vol 45 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 24,
+  "CON": 24,
+  "INT": 16,
+  "SAG": 21,
+  "CHA": 23
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 15",
+ "languages": "aérien",
+ "traits": "**Formulaire aérien.** Yan-C-Bin peut entrer dans l'espace d'une créature hostile et s'arrêter là. Il peut se déplacer à travers un espace aussi étroit que 1 pouce de large sans serrer si l'air pouvait passer à travers cet espace.\n**Attaques motorisées.** Les attaques de slam d'Yan-C-Bin sont traitées comme magiques pour contourner la résistance et l'immunité aux attaques non magiques.\n**Résistance légendaire (3/jour).** Si Yan-C-Bin échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Yan-C-Bin a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** caractéristique d'incantation inné d'Yan-C-Bin est Charisme (save spell DD 20, +12 au toucher avec attaques de sort). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Bourrasque, Invisibilité, Éclair\n- 2/jour chacun : Chaîne d'éclairs, Brume mortelle, Hâte",
+ "actionsText": "**Multiattaques.** Yan-C-Bin fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 20 (3d8 + 7) dégâts de force plus 10 (3d6) dégâts de foudre.\n**Thundercrack (recharge après un repos court ou long).** Yan-C-Bin déchaîne un terrible orage dans une sphère 30 m -radius centrée sur lui-même. Toutes les autres créatures de la région doivent réussir sur un DD 24 jet de sauvegarde de Constitution ou prendre 31 (9d6) dégâts de tonnerre et être assourdi pendant 1 minute. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et est assourdi jusqu'au début du prochain tour d'Yan-C-Bin.\n**Modifier la forme.** Yan-C-Bin polymorphe en humanoïde moyen. Tandis qu'il est polymorphe, une brise tourbillonnante l'entoure, ses yeux sont pâles et nuageux, et il perd le caractère de forme aérienne. Il peut rester en forme polymorphe jusqu'à 1 heure. Se détourner de sa vraie forme exige une action.\n**Invoquer les éléments (1/jour).** Yan-C-Bin convoque jusqu'à trois éléments aériens et perd 30 points de vie pour chaque élément qu'il convoque. Les éléments cités ont un maximum de points de vie, apparaissent dans 30 m d'Yan-C-Bin et disparaissent si Yan-C-Bin est réduit à 0 points de vie.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 14,
+   "damage": "3d8+7",
+   "type": "force + foudre"
+  }
+ ],
+ "portrait": "/data/images/26466afe1d_monstre-yan-c-bin.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +13, SAG +11, CHA +12",
+ "resistances": "froid, feu, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, poison, tonnerre",
+ "conditionImmunities": "charmé, effrayé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, yan-c-bin peut entreprendre l'une des actions ci-après.\n**Poire de tonnerre.** Yan-C-Bin libère un pion de tonnerre qui peut être entendu à une gamme de 90 m. Chaque créature dans 9 m d'Yan-C-Bin prend 5 (1d10) dégâts de tonnerre.\n**Téléportation (coûts 2 actions).** Yan-C-Bin téléporte magiquement jusqu'à 36 m dans un espace inoccupé qu'il peut voir. Tout ce qu'Yan-C-Bin porte ou transporte est téléporté avec lui.\n**Suffocate (coûts 3 actions).** Yan-C-Bin vole l'air d'une créature respiratrice qu'il peut voir dans 18 m de lui. La cible doit faire un DD 21 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la cible tombe à 0 points de vie et meurt. Lors d'une sauvegarde réussie, la cible ne peut respirer ni parler avant le début de son prochain tour."
+}

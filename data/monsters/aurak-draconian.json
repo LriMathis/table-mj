@@ -1,0 +1,47 @@
+{
+ "id": "aurak-draconian",
+ "name": "Aurak Draconian",
+ "type": "Monstruosité (ensorceleur)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "10,50 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 11,
+  "CHA": 17
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 13",
+ "languages": "commun, draconique",
+ "traits": "**Aura de commandement.** La draconienne rayonne d'une présence de commandement dans une sphère 6 m -radius centrée sur elle-même. Un draconien dans l'aura qui peut voir ou entendre l'aura ne peut pas être charmé et a l'avantage sur jet de sauvegarde fait pour éviter ou terminer l'état effrayé sur lui-même.\n**Throès de la mort.** Lorsque le draconien est réduit à 0 points de vie, son essence magique crie comme une boule d'éclair à la créature la plus proche dans 9 m de lui avant d'arc dehors jusqu'à deux autres créatures dans 4,50 m de la première. Chaque créature doit faire un DD 14 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, la créature prend 9 (2d8) dégâts de foudre et est étourdi jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas étourdi.",
+ "actionsText": "**Multiattaques.** Le draconien fait trois attaques Rend ou Energy Ray.\n**Rend.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d12 + 2) dégâts tranchants.\n**Rayon d'énergie.** Attaque de sort à distance : +6 au toucher, portée 18 m, une cible. Touché : 8 (1d10 + 3) dégâts de force.\n**Respiration nocive (Recharge 5-6).** Le draconien exhale un cône 4,50 m de gaz nocif. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 21 (6d6) dégâts de poison et gagne 1 niveau d'épuisement. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts, ne gagne pas épuisement, et est à l'abri de tous les draconiens' Breath Noxious pendant 24 heures.\n**Détection orthographique.** La draconienne lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 14):\n- À volonté : Invisibilité, Main de mage\n- 1/jour : Domination de personne\n- 2/jour chacun : Porte dimensionnelle, Déguisement, Communication à distance",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 5,
+   "damage": "1d12+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Rayon d'énergie",
+   "bonus": 6,
+   "damage": "1d10+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/7e932c4ee2_monstre-aurak-draconian.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +6, SAG +3, CHA +6",
+ "skills": "Perception +3",
+ "conditionImmunities": "charmé"
+}

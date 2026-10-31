@@ -1,0 +1,41 @@
+{
+ "id": "autognome",
+ "name": "Autognome",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 39,
+ "hpFormula": "6d6+18",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 6,
+  "CON": 16,
+  "INT": 4,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, gnome",
+ "traits": "**Défaut de fonctionnement.** Chaque fois que l'autognome prend 15 dégâts ou plus à partir d'une seule source et n'est pas réduit à 0 points de vie par ce dégâts, roulez un d20 pour déterminer s'il souffre d'un dysfonctionnement:\n- **1-10: \"Tout va bien ici !\"** Aucun dysfonctionnement n'est survenu.\n- **11-12: \"Mon esprit s'en va. Je peux le sentir.\"** L'autognome est neutralisé pendant 1 minute.\n- **13-14: \"Tu m'as désarmé!\"** L'un des bras de l'autognome tombe, réduisant le nombre d'attaques de choc qu'il peut faire de 1 jusqu'à ce qu'une créature utilise une action pour réattacher le bras.\n- **15-16: \"Qui a éteint les lumières ?\"** La tête de l'autognome tombe et se désactive, ce qui fait que l'autognome est aveuglé et assourdi jusqu'à ce qu'une créature utilise une action pour réattacher la tête, qui la réactive.\n- **17-20: \"Jouez un jour magique !\"** L'autognome explose et est détruit. Chaque créature de 6 m de l'autognome explorant doit faire un DD 11 jet de sauvegarde de Dextérité, en prenant 22 (4d10) dégâts tranchants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **Nature inhabituelle** L'autognome ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** L'autognome fait deux attaques de choc.\n**Choc.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 7 (2d6) dégâts de foudre.",
+ "attacks": [
+  {
+   "name": "Choc",
+   "bonus": 3,
+   "damage": "2d6",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/efd4de9837_monstre-autognome.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +5, SAG +2, CHA +0",
+ "immunities": "poison",
+ "conditionImmunities": "paralysé, pétrifié, empoisonné"
+}

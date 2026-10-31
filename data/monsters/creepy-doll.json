@@ -1,0 +1,41 @@
+{
+ "id": "creepy-doll",
+ "name": "Creepy Doll",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 21,
+ "hpFormula": "6d4+6",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "parle et comprend les langues connues de son créateur",
+ "traits": "**Fausse apparence.** Alors que la poupée rampante reste immobile, elle est indistinguable d'une poupée ordinaire et inanimée.",
+ "actionsText": "**Multiattaques.** La poupée effrayante fait une attaque avec ses ciseaux et utilise psychique Assault.\n**Ciseaux.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts tranchants.\n**Attaque de psychique.** La poupée rampante cible une créature il peut voir dans 3 m de lui qui a un cerveau. La cible doit réussir sur un DD 12 jet de sauvegarde d'Intelligence ou prendre 11 (2d10) dégâts psychiques. Aussi en cas de défaillance, rouler 3d6. Si le total est égal ou supérieur au score Intelligence de la cible, ce score est réduit à 0. La cible est étourdi jusqu'à ce qu'elle retrouve au moins un point d'Intelligence, à partir du sort Restauration supérieure ou d'une magie similaire.\n**Échange de corps.** La poupée rampante lance un concours Intelligence avec un humanoïde neutralisé au sein de 1,50 m. S'il gagne le concours, l'esprit de la poupée rampante habite le corps de la cible tandis que l'esprit de la cible est placé dans le corps de la poupée rampante. La poupée flippante contrôle complètement le corps de la cible. Il conserve son alignement, Intelligence, Sagesse, Charisme, et l' immunité à être charmé et effrayé. Il utilise les statistiques de la cible possédée, mais n'a pas accès aux connaissances, aux fonctionnalités de classe ou aux compétences de la cible. La cible conserve son alignement, Intelligence, Sagesse, et Charisme tout en habitant le corps de la poupée rampante.\nL'échange de corps dure jusqu'à ce que l'esprit de la poupée soit forcé par la magie. (Le sort Dissipation du mal et du bien accomplira cela, bien que la poupée n'est pas un des types de créatures dont la possession qui sort se termine normalement.) Le corps et la poupée doivent être dans 1,50 m de l'autre pour un tel effet de travailler. La cible est à l'abri de l'échange de corps de cette poupée pendant 24 heures après avoir remporté le concours Intelligence ou après la fin de l'échange.",
+ "attacks": [
+  {
+   "name": "Ciseaux",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/3084ec7a33_monstre-creepy-doll.webp",
+ "notes": "",
+ "source": "PSI (5e.tools, traduction automatique)",
+ "skills": "Discrétion +4",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé"
+}

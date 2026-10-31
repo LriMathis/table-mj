@@ -1,0 +1,40 @@
+{
+ "id": "nuee-de-maggots",
+ "name": "Swarm of Maggots",
+ "type": "Nuée de taille très petite (Bête)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "6 m, nage 6 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un asticot minuscule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Infestation.** Attaque d'arme au corps à corps : +3 au toucher, allonge 0 m, une cible dans l'espace de l'essaim. Touché : 10 (4d4) dégâts perforants, ou 5 (2d4) dégâts perforants si l'essaim a la moitié de son points de vie ou moins. Une créature endommagée par l'essaim doit réussir sur un DD 12 jet de sauvegarde de Constitution ou contracter un maladie.\nChaque fois que la créature malade termine un repos long, roulez un d6 pour déterminer l'effet de maladie :\n- **1-2** La créature est aveuglé jusqu'à ce qu'elle termine un repos long.\n- **3-4** Le maximum de points de vie de la créature diminue de 5 (2d4) et la réduction ne peut être supprimée que lorsque le maladie se termine. La créature meurt si son maximum de points de vie tombe à 0.\n- **5-6** La créature a un désavantage sur tests de caractéristique et jets d'attaque jusqu'à ce qu'elle termine sa prochaine repos long. Le maladie dure jusqu'à ce qu'il soit enlevé par magie ou jusqu'à ce que la créature roule le même effet aléatoire pour le maladie deux longs repose dans une rangée.",
+ "attacks": [
+  {
+   "name": "Infestation",
+   "bonus": 3,
+   "damage": "4d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2bfec8c87c_monstre-nuee-de-maggots.webp",
+ "notes": "",
+ "source": "Van Richten's Guide to Ravenloft (5e.tools, traduction automatique)",
+ "aka": "Nuée de Maggots",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

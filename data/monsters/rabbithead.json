@@ -1,0 +1,30 @@
+{
+ "id": "rabbithead",
+ "name": "Rabbithead",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 4,
+ "hpFormula": "1d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/af81344aaa_monstre-rabbithead.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)"
+}

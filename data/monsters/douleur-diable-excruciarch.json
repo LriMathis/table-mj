@@ -1,0 +1,45 @@
+{
+ "id": "douleur-diable-excruciarch",
+ "name": "Pain Devil (Excruciarch)",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 16,
+ "hp": 171,
+ "hpFormula": "18d8+90",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "céleste, commun, infernal, télépathie 36 m",
+ "traits": "**Aurore du Torment.** Toute créature hostile à l'excruciarque qui commence son tour à l'intérieur de 6 m de l'excruciarque prend 10 (4d4) dégâts tranchants, à moins que l'excruciarque soit neutralisé.\n**La vue du diable.** L'obscurité magique n'entrave pas la vision sombre de l'excruciarque.\n**Résistance magique.** L'excruciarche a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sadisme.** L'excruciarch gagne un bonus de +1 à l'attaque et jets de dégâts pour chaque créature qu'il a endommagée à son tour précédent.",
+ "actionsText": "**Multiattaques.** L'excruciarque fait deux attaques de Scruurge. Il peut remplacer une des attaques par Storm of Steel (si disponible).\n**Scorurge.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants plus 13 (2d8 + 4) dégâts tranchants.\n**Tempête d'acier (Recharge 4-6).** L'excruciaire balance son fléau sauvagement autour de lui. Toutes les créatures de 4,50 m de l'excruciarch doivent faire un DD 16 jet de sauvegarde de Dextérité. Les cibles prennent 31 (6d8 + 4) dégâts tranchants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Scorurge",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "contondant + tranchant"
+  }
+ ],
+ "portrait": "/data/images/c8d6acae74_monstre-douleur-diable-excruciarch.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Douleur diable ( Excruciarch )",
+ "caNote": "armure naturelle",
+ "saves": "FOR +8, CON +9",
+ "skills": "Tromperie +5, Perspicacité +4, Intimidation +5, Perception +4",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "reactions": "**Gaz vulnérable.** En réaction à une créature qui résiste aux dégâts infligés par l'excruciarque, elle tourne le regard sur cette créature, niant toute résistance et immunité qu'elle a jusqu'au prochain tour de l'excruciar."
+}

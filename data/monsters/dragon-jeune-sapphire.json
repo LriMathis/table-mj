@@ -1,0 +1,49 @@
+{
+ "id": "dragon-jeune-sapphire",
+ "name": "Young Sapphire Dragon",
+ "type": "Dragon (gemme)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 17,
+ "hp": 157,
+ "hpFormula": "15d10+75",
+ "vitesse": "12 m, creusement 6 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 20",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Escalade des araignées.** Le dragon peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Tunneler.** Le dragon peut creuser à la moitié de sa vitesse de creusement et laisser un tunnel 3 m dans son sillage.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants plus 4 (1d8) dégâts de tonnerre.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts tranchants.\n**Respiration débilitante (Recharge 5-6).** Le dragon exhale un pouls de sons à forte hauteur, presque inaudibles, dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 33 (6d10) dégâts de tonnerre et est neutralisé jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas neutralisé.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- 1/jour chacun : Murmures dissonants, Immobilisation de personne, Fusion dans la pierre",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "perforant + tonnerre"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/624d197025_monstre-dragon-jeune-sapphire.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon jeune Sapphire",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CON +9, SAG +6, CHA +7",
+ "skills": "Histoire +7, Perception +10, Persuasion +11, Discrétion +6",
+ "resistances": "foudre, tonnerre",
+ "conditionImmunities": "effrayé"
+}

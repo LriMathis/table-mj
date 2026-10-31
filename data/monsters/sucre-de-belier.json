@@ -1,0 +1,41 @@
+{
+ "id": "sucre-de-belier",
+ "name": "Ram Sugar",
+ "type": "Humanoïde (drakéide)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, draconique",
+ "traits": "**Dévotion sombre.** Ram Sugar a avantage sur jet de sauvegarde contre être charmé ou effrayé.\n**Détection orthographique.** Ram Sugar est un spellcaster de niveau 4. Son caractéristique d'incantation est Sagesse (save spell DD 11, +3 au toucher avec attaques de sort). Ram Sugar a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Lumière, Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Injonction, Blessure, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Arme spirituelle",
+ "actionsText": "**Multiattaques.** Ram Sugar fait deux attaques à la mêlée.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une créature. Touché : 4 (1d4 + 2) dégâts perforants.\n**Arme respiratoire (recharge après un repos court ou long).** Ram Sugar exhale le feu dans une ligne longue 9 m qui est large. Toute créature dans la ligne doit faire un DD 11 jet de sauvegarde de Dextérité, en prenant 7 (2d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/bc4f056ae7_monstre-sucre-de-belier.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Sucre de bélier",
+ "caNote": "Armure en cuir",
+ "skills": "Tromperie +4, Persuasion +4, Religion +2",
+ "resistances": "feu"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "zythan",
+ "name": "Zythan",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 12,
+ "hp": 117,
+ "hpFormula": "18d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "céleste, commun, draconique, elfique, infernal, primordial",
+ "traits": "**Bataille.** Être dans 1,50 m d'une créature hostile n'impose pas de désavantage à Zythan jets d'attaque.\n**Résistance magique.** Zythan a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Zythan fait trois attaques Dagger ou Arcane Burst.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**La Burst d'Arcane.** Attaque de sort à distance : +10 au toucher, portée 36 m, une cible. Touché : 27 (4d10 + 5) dégâts radiants.\n**Fissure d'Esprit (Recharge 4-6).** Zythan provoque une perturbation des énergies d'arcane dans une ligne 90 m large. Chaque créature dans la ligne doit faire un DD 18 jet de sauvegarde de Constitution, en prenant 65 (10d12) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Zythan lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18).\n- À volonté : Oeil magique, Détection de la magie, Détection des pensées, Vol, Lumière, Localisation d'objet, Armure de mage, Main de mage, Message, Prestidigitation\n- 1/jour : Cône de froid, Prémonition, Peau de pierre, Lien télépathique de Rary, Vision suprême",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 7,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 10,
+   "damage": "4d10+5",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/ec56ef7160_monstre-zythan.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "saves": "INT +10, SAG +7",
+ "skills": "Arcanes +15, Histoire +15, Investigation +10, Religion +10",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques (de Stoneskin), dégâts causés par des sorts",
+ "reactions": "**Porté (3/jour).** Comme une réaction à une créature Zythan peut voir faire un jet d'attaque, un jet de sauvegarde ou un test de caractéristique, Zythan roule un d20 et choisit d'utiliser ce rouleau à la place du rouleau d'origine."
+}

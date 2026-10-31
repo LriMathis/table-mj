@@ -1,0 +1,42 @@
+{
+ "id": "mist-horreur",
+ "name": "Mist Horror",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 45,
+ "hpFormula": "7d10+7",
+ "vitesse": "7,50 m, vol 7,50 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 6,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Formulaire aérien.** L'horreur de la brume peut pénétrer dans l'espace d'un ennemi et s'arrêter là. Il peut se déplacer dans un espace aussi étroit que 1 pouce sans dépenser de mouvement supplémentaire pour le faire.\n**Une avec les Mists.** Alors que le brouillard est dans le brouillard ou le brouillard, il a l'état invisible. L'horreur de la brume a l'état neutralisé alors qu'il est à l'extérieur d'une zone de brouillard ou de brouillard.",
+ "actionsText": "**Multiattaques.** L'horreur de la brume fait deux attaques de Mind Rend. Il peut remplacer une attaque par une utilisation de Spellcasting pour lancer Injonction si disponible.\n**Rend de l'esprit.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 8 (1d10 + 3) dégâts psychiques.\n**Détection orthographique.** L'horreur de la brume lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Nappe de brouillard\n- 1/jour : Injonction",
+ "attacks": [
+  {
+   "name": "Rend de l'esprit",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/f45c5cc0b7_monstre-mist-horreur.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Mist horreur",
+ "resistances": "contondant, perforant, tranchant",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient",
+ "bonusActions": "**Instiller le fil (Recharge 4-6).** Jet de sauvegarde de Sagesse : DD 13, chaque créature dans l'espace de l'horreur de la brume. Échec : La cible a l'état effrayé jusqu'au prochain tour de la brume d'horreur."
+}

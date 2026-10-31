@@ -1,0 +1,49 @@
+{
+ "id": "wilfred-godefroy",
+ "name": "Wilfred Godefroy",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 72,
+ "hpFormula": "16d8",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "commun",
+ "traits": "**Restauration de lord noir.** Si Wilfred meurt, il ressuscite avec toute sa points de vie en 1d10 semaines quelque part à Mordent.\n**Mouvement intégré.** Wilfred peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Wilfred échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Aura possessive.** Des serviteurs fantômes entourent Wilfred dans une Emanation 1,50 m qui vient de lui. Une créature qui finit son tour dans cette zone est soumise à l'effet suivant. Jet de sauvegarde de Charisme : DD 14. Échec : La cible a l'état charmé. Alors que la créature est charmé de cette façon, sa vitesse est réduite à 0. La cible répète l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Après 1 minute, il réussit automatiquement.",
+ "actionsText": "**Multiattaques.** Wilfred fait deux attaques, en utilisant Object Slam ou Hunting Rifle dans n'importe quelle combinaison.\n**Objet Slam.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts de force.\n**Fuite de chasse.** Jet d'attaque à distance : +6, portée 12/36 m. Touché : 9 (1d12 + 3) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Objet Slam",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "force"
+  },
+  {
+   "name": "Fuite de chasse",
+   "bonus": 6,
+   "damage": "1d12+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/1bd89d37be_monstre-wilfred-godefroy.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "skills": "Intimidation +6, Perception +5",
+ "resistances": "acide, contondant, froid, feu, foudre, perforant, tranchant, tonnerre",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient",
+ "reactions": "**Réorienter l'attaque.** Déclencheur : Une créature Wilfred peut voir fait un jet d'attaque contre lui. Réponse : Wilfred choisit une créature petite ou moyenne dans 1,50 m de lui-même qui a l'état charmé. Wilfred et cette créature échangent des places, et la créature devient la cible de l'attaque à la place.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, wilfred godefroy peut entreprendre l'une des actions ci-après.\n**Étape de calinage des os.** Wilfred téléporte jusqu'à 18 m dans un espace inoccupé qu'il peut voir, et chaque créature dans 3 m de l'espace qu'il a laissé prend 4 (1d8) dégâts nécrotiques. Wilfred ne peut pas reprendre cette action avant le début de son prochain tour.\n**Bullet flatté.** Jet de sauvegarde de Dextérité : DD 14, une créature Wilfred peut voir dans 36 m. Échec : 16 (2d12 + 3) dégâts nécrotiques, et la cible ne peut pas récupérer points de vie avant le début de son prochain tour. Échec ou réussite : Wilfred ne peut pas reprendre cette action avant le début de son prochain tour.\n**Clamer.** Wilfred fait une attaque de Slam."
+}

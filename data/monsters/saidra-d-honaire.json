@@ -1,0 +1,44 @@
+{
+ "id": "saidra-d-honaire",
+ "name": "Saidra d'Honaire",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 13,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "1,50 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 6,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun",
+ "traits": "**Restauration de lord noir.** Si Saidra meurt, elle ressuscite avec tout son points de vie en 1d10 semaines quelque part à Dementlieu.\n**Mouvement intégré.** Saidra peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Elle prend 5 (1d10) dégâts de force si elle termine son tour à l'intérieur d'un objet.\n**Détecteur de mensonges.** Saidra sait si elle entend un mensonge.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Saidra échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Sensibilité à la lumière du soleil.** En plein soleil, Saidra a un désavantage sur tests de caractéristique et jets d'attaque",
+ "actionsText": "**Multiattaques.** Saidra fait trois attaques nécrotique Burst. Elle peut remplacer l'une de ces attaques par un recours à Spellcasting.\n**nécrotique Burst.** Jet d'attaque au corps à corps : +7, allonge 1,50 m ou portée 9 m. Touché : 14 (2d10 + 3) dégâts nécrotiques.\n**Drain de vie.** Jet de sauvegarde de Constitution : DD 15, une créature Saidra peut voir dans 9 m. Échec : 28 (8d6) dégâts nécrotiques, et son maximum de points de vie diminue d'un montant égal aux dégâts pris. Réussite : Demi-dégâts seulement.\n**à volonté :.** Charme-personne (formulaire de duchesse seulement), Peur (formulaire de décès rouge seulement).\n**Détection orthographique.** Saidra lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n**Vérité ou mort (1/jour).** Saidra demande à une créature qu'elle peut voir à l'intérieur de 18 m de s'identifier et de lancer Désintégration ciblant la créature, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (DD 15, avec Inconvénient si la cible se trouve).\n- 1/jour : Désintégration",
+ "attacks": [
+  {
+   "name": "nécrotique Burst",
+   "bonus": 7,
+   "damage": "2d10+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/8252895956_monstre-saidra-d-honaire.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "DEX +7, SAG +6",
+ "skills": "Perspicacité +10, Perception +6, Représentation +7, Discrétion +7",
+ "resistances": "acide, contondant, froid, feu, perforant, tranchant",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient",
+ "bonusActions": "**Forme-filtre.** Saidra change de forme dans la Mort Rouge, ou elle revient à sa vraie forme comme la duchesse. Ses statistiques de jeu sont les mêmes dans chaque forme. Tout équipement qu'elle porte ou qu'elle transporte n'est pas transformé.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, saidra d'honaire peut entreprendre l'une des actions ci-après.\n**Encaisse.** Saidra fait une attaque nécrotique Burst.\n**Voile d'ombre.** Saidra se donne l'état invisible jusqu'au début de son prochain tour et peut voler jusqu'à la moitié de sa vitesse de vol. L'état se termine tôt immédiatement après que Saidra ait causé des dégâts. Saidra ne peut pas recommencer jusqu'au début de son prochain tour."
+}

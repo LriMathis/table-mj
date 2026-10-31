@@ -1,0 +1,39 @@
+{
+ "id": "nyx-fleece-belier",
+ "name": "Nyx-Fleece Ram",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 3,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "**Frais.** Si le bélier se déplace au moins directement vers une cible et la frappe avec une attaque de bélier au même tour, la cible prend un 5 (2d4) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre.\n**Résistance magique.** Le bélier a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**C'est sûr..** Le bélier a un avantage sur Force et jet de sauvegarde de Dextérité contre les effets qui pourraient frapper à terre.",
+ "actionsText": "**Ram.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (2d4 + 3) dégâts contondants plus 3 (1d6) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Ram",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "contondant + force"
+  }
+ ],
+ "portrait": "/data/images/062a23d73d_monstre-nyx-fleece-belier.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Nyx − Fleece bélier",
+ "caNote": "armure naturelle"
+}

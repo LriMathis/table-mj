@@ -1,0 +1,41 @@
+{
+ "id": "princesse-ebonmire",
+ "name": "Princess Ebonmire",
+ "type": "Vase",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 7,
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 5,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "**Amorphe.** La princesse Ebonmire peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Forme corrosive.** Une créature qui touche Princess Ebonmire ou la frappe avec une attaque à la mêlée alors que dans 1,50 m il prend 4 (1d8) dégâts d'acide. Toute arme non magique en métal ou en bois qui frappe la princesse Ebonmire corrodes. Après avoir causé des dégâts, l'arme prend une pénalité permanente et cumulative de −1 à jets de dégâts. Si sa peine tombe à −5, l'arme est détruite. Les munitions non magiques en métal ou en bois qui frappent la princesse Ebonmire sont détruites après avoir causé des dégâts. La princesse Ebonmire peut manger à travers du bois non magique ou du métal de 2 pouces d'épaisseur en 1 tour.\n**Escalade des araignées.** Princesse Ebonmire peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Pseudopod.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou 9 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants plus 18 (4d8) dégâts d'acide. En outre, l'armure non magique portée par la cible est partiellement dissoute et prend une pénalité permanente et cumulative de −1 pour le CA qu'elle offre. L'armure est détruite si la pénalité réduit son CA à 10.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/0cb072042b_monstre-princesse-ebonmire.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Princesse Ebonmire",
+ "immunities": "acide, froid, foudre, tranchant",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, à terre",
+ "reactions": "**Séparer.** Lorsqu'un pudding qui est moyen ou plus est soumis à la foudre ou dégâts tranchants, il se divise en deux nouveaux puddings s'il a au moins 10 points de vie. Chaque nouveau pudding a points de vie égal à la moitié du pudding original, arrondi vers le bas. Les nouveaux puddings sont d'une taille plus petite que le pudding original."
+}

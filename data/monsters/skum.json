@@ -1,0 +1,46 @@
+{
+ "id": "skum",
+ "name": "Skum",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "commun, profond, télépathie 18 m",
+ "traits": "**Vassal aboléthique.** Le skum est en permanence charmé par son maître aboteth.\n**Amphibie.** Le skum peut respirer l'air et l'eau.\n**psychique Conditionnement.** Le skum est immunisé contre les conditions effrayé et charmé, à moins qu'elles ne soient dues à des effets créés par un aboleth.\n**Dépendance de l'eau.** Le skum prend 6 (1d12) dégâts d'acide toutes les 10 minutes sans exposition à l'eau.",
+ "actionsText": "**Multiattaques.** Le skum fait trois attaques : deux avec son trident et une avec son toucher de rupture mentale.\n**Trident.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.\n**Touche éblouissante.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 18 (4d8) dégâts psychiques, et la cible a un désavantage sur jet de sauvegarde de Sagesse jusqu'à la fin du prochain tour du skum.",
+ "attacks": [
+  {
+   "name": "Trident",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Touche éblouissante",
+   "bonus": 7,
+   "damage": "4d8",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/da3d4df07d_monstre-skum.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4",
+ "resistances": "psychique"
+}

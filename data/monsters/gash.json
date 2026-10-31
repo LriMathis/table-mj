@@ -1,0 +1,50 @@
+{
+ "id": "gash",
+ "name": "Gash",
+ "type": "Humanoïde (gnoll)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "hp": 11,
+ "hpFormula": "5d8",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "gnoll, abyssal",
+ "traits": "**Rampage.** Lorsque Gash réduit une créature à 0 points de vie avec une attaque à la mêlée à son tour, Gash peut prendre un action bonus pour passer à la moitié de sa vitesse et faire une attaque à la morsure.\n**Wretched.** Gash a un désavantage sur tests de Sagesse et jet de sauvegarde de Sagesse en raison de la violence physique et mentale qu'il a subie. Un sort Restauration partielle le débarrasse de ces effets.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d4 + 2) dégâts perforants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.\n**Longbow.** Attaque d'arme à distance : +3 au toucher, portée 45/180 m., une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/af61d893f0_monstre-gash.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure, Bouclier"
+}

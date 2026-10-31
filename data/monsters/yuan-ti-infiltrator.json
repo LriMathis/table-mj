@@ -1,0 +1,46 @@
+{
+ "id": "yuan-ti-infiltrator",
+ "name": "Yuan-ti Infiltrator",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Résistance magique.** L'yuan-ti a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'yuan-ti fait deux attaques de Scimitar.\n**Scimitar.** Jet d'attaque au corps à corps : +3, allonge 1,50 m. Touché : 4 (1d6 + 1) dégâts tranchants.\n**Rayon poison.** Jet d'attaque à distance : +4, portée 36 m. Touché : 9 (2d6 + 2) dégâts de poison.\n**Détection orthographique.** L'yuan-ti lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Amitié avec les animaux (snakes seulement)\n- 2/jour : Suggestion",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Rayon poison",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/cc320335fe_monstre-yuan-ti-infiltrator.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Perception +4, Discrétion +3",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

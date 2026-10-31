@@ -1,0 +1,49 @@
+{
+ "id": "maelephant",
+ "name": "Maelephant",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 161,
+ "hpFormula": "17d10+68",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "infernal",
+ "traits": "**Résistance magique.** Le maelephant a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le maelephant fait une attaque de Barbed Trunk et deux attaques de Glaive.\n**Trunk à barbe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts perforants plus 13 (2d12) dégâts de poison. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 14). Jusqu'à ce que ce grappin se termine, la cible a l'état entravé. Alors qu'il lutte contre une créature, le maelephant ne peut pas utiliser son tronc barbelé pour attaquer d'autres créatures.\n**Glaive.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 15 (2d10 + 4) dégâts tranchants.\n**Mind poison (Recharge 5-6).** Le maelephant expulse les gaz toxiques de son tronc dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 39 (6d12) dégâts de poison et a l'état empoisonné. Alors qu'empoisonné de cette façon, la créature perd toutes les compétences d'armes et de compétences, il ne peut pas lancer des sorts, il ne peut pas comprendre le langage, et il a un désavantage sur jet de sauvegarde d'Intelligence. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement et est à l'abri de l'esprit de ce maelephant poison pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "Trunk à barbe",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Glaive",
+   "bonus": 8,
+   "damage": "2d10+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/380f6987f5_monstre-maelephant.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "Armure demi-plate",
+ "saves": "FOR +8, CON +8",
+ "skills": "Perception +7",
+ "resistances": "acide, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "effrayé, empoisonné"
+}

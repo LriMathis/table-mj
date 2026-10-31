@@ -1,0 +1,51 @@
+{
+ "id": "loup-garou",
+ "name": "Loup-garou",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "chaotique mauvaise",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "skills": "Discrétion +4, Perception +4",
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun (ne peut pas parler sous forme de loup)",
+ "traits": "**Tactique de meute.** Quand au moins un de ses alliés non Neutralisés se situe dans un rayon de 1,50 m de la créature qu’il cible, le loup-garou a l’Avantage au jet d’attaque correspondant.",
+ "actionsText": "**Attaques multiples.** Le loup-garou effectue deux attaques, réparties à sa guise entre Éraflure et Arc long. Il peut en remplacer une par une attaque de Morsure.\n**Éraflure.** Corps à corps : +5, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts tranchants.\n**Morsure (forme de loup ou hybride uniquement).** Corps à corps : +5, allonge 1,50 m. Touché : 12 (2d8 + 3) dégâts perforants. Si la cible est un Humanoïde, elle est soumise à l’effet suivant. JS Constitution : DD 12. Échec : la cible est maudite. Si la cible maudite tombe à 0 point de vie, elle se retrouve en fait à 10 pv et devient un loup-garou sous le contrôle du MJ. Réussite : La cible est immunisée contre la malédiction de ce loup-garou pendant 24 heures.\n**Arc long (forme humanoïde ou hybride uniquement).** À distance : +4, portée 45/180 m. Touché : 11 (2d8 + 2) dégâts perforants.",
+ "bonusActions": "**Changement d’aspect.** Le loup-garou se transforme en hybride loup-humanoïde de taille G ou en loup de taille M, ou bien retrouve sa forme véritable d’humanoïde. En dehors de sa catégorie de taille, son profil reste le même, quelle que soit la forme. Rien de ce qu’il porte n’est transformé.",
+ "attacks": [
+  {
+   "name": "Éraflure",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure (forme de loup ou hybride uniquement)",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Arc long (forme humanoïde ou hybride uniquement)",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6ad60cd8cd_monstre-loup-garou.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 206"
+}

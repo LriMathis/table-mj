@@ -1,0 +1,39 @@
+{
+ "id": "scufflecup-teacup",
+ "name": "Scufflecup Teacup",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 5,
+ "hpFormula": "2d4",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 6",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d3 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "1d3+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d46fc9e2b1_monstre-scufflecup-teacup.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, épuisement, empoisonné"
+}

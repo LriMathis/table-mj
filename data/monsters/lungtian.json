@@ -1,0 +1,38 @@
+{
+ "id": "lungtian",
+ "name": "Lungtian",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "elfique, sylvestre",
+ "traits": "**Résistance magique.** Lungian a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Parlez avec les bêtes et les plantes.** Le lungien peut communiquer avec des bêtes et des plantes comme s'ils partageaient une langue.\n**Essence d'arbres.** Une fois à son tour, Lungtian peut utiliser 3 m de son mouvement pour passer magiquement dans un arbre vivant à sa portée et émerger d'un deuxième arbre vivant à l'intérieur de 18 m du premier arbre, apparaissant dans un espace inoccupé à l'intérieur de 1,50 m du deuxième arbre. Les deux arbres doivent être grands ou plus grands.\n**Découpe intérieure.** caractéristique d'incantation inné de Lungtian est Charisme (spell save DD 14). Le lungien peut innément lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Druidisme\n- 1/jour chacun : Peau d'écorce, Passage sans trace, Gourdin magique\n- 3/jour chacun : Enchevêtrement, Baies nourricières",
+ "actionsText": "**Club.** Attaque d'arme au corps à corps : +2 au toucher (+6 au toucher avec shillelagh), allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts contondants ou 8 (1d8 + 4) dégâts contondants avec shillelagh.\n**Charm de fée.** Lungien cible un humanoïde ou une bête qu'elle peut voir au sein de 9 m d'elle. Si la cible peut voir Lungtian, elle doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être magiquement charmé. La créature charmé considère Lungtian comme un ami de confiance pour être écouté et protégé. Bien que la cible ne soit pas sous le contrôle de Lungtian, elle prend les demandes ou les actions de Lungtian de la manière la plus favorable qu'elle puisse.\nChaque fois que Lungian ou ses alliés font quelque chose de dangereux pour la cible, il peut répéter la jet de sauvegarde, mettant fin à l'effet sur lui-même sur un succès. Sinon, l'effet dure 24 heures ou jusqu'à ce que Lungian meurt, est sur un plan d'existence différent de la cible, ou termine l'effet comme un action bonus. Si le jet de sauvegarde d'une cible est réussi, la cible est à l'abri du charme féen de Lungtian pour les 24 prochaines heures.\nLe lungien ne peut avoir plus d'un humanoïde et jusqu'à trois bêtes charmé à la fois.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d8b8b8853b_monstre-lungtian.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "skills": "Perception +4, Discrétion +5"
+}

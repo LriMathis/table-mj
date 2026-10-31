@@ -1,0 +1,48 @@
+{
+ "id": "elite-grung-guerrier",
+ "name": "Grung Elite Warrior",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 49,
+ "hpFormula": "9d6+18",
+ "vitesse": "7,50 m, escalade 7,50 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Perception passive 12",
+ "languages": "Grung",
+ "traits": "**Amphibie.** Le grung peut respirer l'air et l'eau.\n**Peau toxique.** Toute créature qui grippe le grong ou qui entre en contact direct avec la peau du grong doit réussir sur un DD 12 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 minute. Une créature empoisonné qui n'est plus en contact direct avec le grung peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Leap debout.** Le long saut du grung est jusqu'à 7,50 m et son saut en hauteur est jusqu'à 4,50 m, avec ou sans démarrage.\n**Dépendance de l'eau.** Si le grung n'est pas immergé dans l'eau pendant au moins 1 heure par jour, il souffre d'un niveau d'épuisement à la fin de cette journée. Le grung peut récupérer de ce épuisement seulement par magie ou en s'immergeant dans l'eau pendant au moins 1 heure.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 5 (2d4) dégâts de poison.\n**Saubèche.** Attaque d'arme à distance : +5 au toucher, portée 24/96 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 5 (2d4) dégâts de poison.\n**Mesmérisant Chirr (Recharge 6).** Le grung fait un bruit chiant auquel les grungs sont immunisés. Chaque Humanoïde ou Bête qui se trouve dans 4,50 m du grung et capable de l'entendre doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou être étourdi jusqu'à la fin du prochain tour du grung.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/a8d8c8f305_monstre-elite-grung-guerrier.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Élite Grung guerrier",
+ "saves": "DEX +5",
+ "skills": "Athlétisme +2, Perception +2, Discrétion +5, Survie +2",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

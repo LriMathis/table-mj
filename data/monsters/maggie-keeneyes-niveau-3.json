@@ -1,0 +1,50 @@
+{
+ "id": "maggie-keeneyes-niveau-3",
+ "name": "Maggie Keeneyes (Tier 3)",
+ "type": "Géant (ogre)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 142,
+ "hpFormula": "15d10+60",
+ "vitesse": "9 m, nage 9 m (Armure de raidium)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun, géant",
+ "traits": "**Poussez.** Une fois lors de chacun de ses tours, après avoir frappé une créature avec une attaque, Maggie peut forcer la cible à faire un DD 16 jet de sauvegarde de Force ; sur une sauvegarde ratée, la cible est poussée jusqu'à 4,50 m horizontalement loin de Maggie et à terre.\n**Matériel spécial.** Maggie porte une armure de raidium (plaque; voir appendice B). Si Maggie roule un 1 sur un jet de sauvegarde tout en portant l'armure, elle doit réussir sur un DD 20 jet de sauvegarde de Charisme ou gagner 1 niveau d'épuisement.\n**Préparation tactique.** Maggie et ses alliés au sein de 9 m ont l'avantage sur les rouleaux d'initiative, tant que Maggie n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Maggie fait deux attaques Heavy Greataxe ou Hammer Toss.\n**Grandaxe lourd.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 16 (2d12 + 5) dégâts tranchants.\n**Marteau.** Attaque d'arme à distance : +8 au toucher, portée 6/18 m., une cible. Touché : 15 (4d4 + 5) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Grandaxe lourd",
+   "bonus": 8,
+   "damage": "2d12+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Marteau",
+   "bonus": 8,
+   "damage": "4d4+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c7a4e1feb7_monstre-maggie-keeneyes-niveau-3.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Maggie Keeneyes (niveau 3)",
+ "caNote": "plaque",
+ "saves": "FOR +8, CON +7",
+ "skills": "Athlétisme +8, Perspicacité +5, Perception +5, Persuasion +5",
+ "resistances": "psychique (accordé par l'armure du raidium)",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Rallye (1/jour).** Maggie cible une créature elle peut voir en elle-même 18 m et la renforce avec des mots d'encouragement. La cible gagne 30 points de vie temporaires si elle peut voir ou entendre Maggie."
+}

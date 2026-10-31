@@ -1,0 +1,43 @@
+{
+ "id": "vivant-main-de-bigby",
+ "name": "Living Bigby's Hand",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 20,
+ "hp": 52,
+ "hpFormula": "5d10+25",
+ "vitesse": "0 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 26,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Résistance magique.** Le sort vivant a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** Le sort vivant ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Fist force.** Attaque de sort au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 26 (4d8 + 8) dégâts de force. Si la cible est une créature grande ou plus petite, le sort vivant peut la déplacer jusqu'à 1,50 m et se déplacer avec elle, sans provoquer d'attaques d'opportunité.\n**Poignée de graissage.** Le sort vivant tente d'attraper une créature énorme ou plus petite au sein de 1,50 m. La cible doit réussir sur un DD 15 jet de sauvegarde de Dextérité ou être agrippé (évasion DD 15). Jusqu'à la fin du grappin, la cible prend 15 (2d6 + 8) dégâts contondants au début de chacun de ses tours. Le sort vivant ne peut battre qu'une créature à la fois et ne peut pas utiliser force Fist jusqu'à ce que le grappin se termine.",
+ "attacks": [
+  {
+   "name": "Fist force",
+   "bonus": 10,
+   "damage": "4d8+8",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/55bffb14cb_monstre-vivant-main-de-bigby.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Vivant main de bigby",
+ "caNote": "armure naturelle",
+ "saves": "DEX +2, SAG +2",
+ "skills": "Perception +2, Discrétion +2",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné, inconscient"
+}

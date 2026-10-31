@@ -2,30 +2,38 @@
  "id": "rat-geant",
  "name": "Rat géant",
  "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "non alignée",
  "cr": "1/8",
  "xp": 25,
- "ca": 12,
+ "ca": 13,
  "hp": 7,
  "hpFormula": "2d6",
- "vitesse": "9 m",
- "size": 0.5,
+ "vitesse": "9 m, escalade 9 m",
  "stats": {
   "FOR": 7,
-  "DEX": 15,
+  "DEX": 16,
   "CON": 11,
   "INT": 2,
   "SAG": 10,
   "CHA": 4
  },
+ "saves": "DEX +5",
+ "skills": "Perception +2",
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "aucune",
+ "traits": "**Tactique de meute.** Quand au moins un de ses alliés non Neutralisés se situe dans un rayon de 1,50 m de la créature qu’il cible, le rat a l’Avantage au jet d’attaque correspondant.",
+ "actionsText": "**Morsure.** Corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts perforants.",
  "attacks": [
   {
    "name": "Morsure",
-   "bonus": 4,
-   "damage": "1d4+2",
+   "bonus": 5,
+   "damage": "1d4+3",
    "type": "perforant"
   }
  ],
- "traits": "**Odorat aiguisé.** Avantage aux tests de Perception basés sur l'odorat.\n**Tactique de groupe.** Avantage si un allié est à 1,50 m de la cible.",
- "portrait": "/data/images/364846e1a5_monstre-rat-geant.svg",
- "notes": ""
+ "portrait": "/data/images/28b7a207ec_monstre-rat-geant.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
 }

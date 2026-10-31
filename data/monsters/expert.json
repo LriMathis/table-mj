@@ -1,0 +1,52 @@
+{
+ "id": "expert",
+ "name": "Expert",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "0",
+ "xp": 10,
+ "ca": 17,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 20,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 14
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, plus un de votre choix",
+ "traits": "**Utile.** L'expert peut prendre l'action Help en action bonus, et la créature qui reçoit l'aide gagne un bonus 1d6 au rouleau d20. Si ce rouleau est un jet d'attaque, la créature peut renoncer à lui ajouter le bonus, et puis si l'attaque frappe, la créature peut ajouter le bonus à l'attaque jet de dégâts contre une cible.\n**Évasion.** Lorsque l'expert n'est pas neutralisé et soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il a échoué.\n**Un talent fiable.** Chaque fois que l'expert fait un test de caractéristique qui inclut son bonus de maîtrise entier, il peut traiter un rouleau d20 de 9 ou moins comme un 10.\n**Outils.** L'expert a Outils de voleurs et un instrument de musique.",
+ "actionsText": "**Attaque supplémentaire.** L'expert peut attaquer deux fois, au lieu d'une fois, chaque fois qu'il prend l'attaque à son tour.\n**Mot-clé.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts perforants.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +9 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d4 + 5) dégâts perforants.\n**Saubèche.** Attaque d'arme à distance : +9 au toucher, portée 24/96 m., une cible. Touché : 8 (1d6 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 9,
+   "damage": "1d4+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/fbdb37f67e_monstre-expert.webp",
+ "notes": "",
+ "source": "Essentials Kit: Divine Contention (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +9",
+ "skills": "Acrobaties +13, Représentation +6, Persuasion +6, Escamotage +9, Discrétion +13"
+}

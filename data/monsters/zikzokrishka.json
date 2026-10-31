@@ -1,0 +1,56 @@
+{
+ "id": "zikzokrishka",
+ "name": "Zikzokrishka",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 19,
+ "hp": 225,
+ "hpFormula": "18d12+108",
+ "vitesse": "12 m, creusement 9 m, vol 24 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 23,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 24",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (3/jour).** Si Zikzokrishka échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Zikzokrishka a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Zikzokrishka peut utiliser sa Présence effrayante. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 18 (2d10 + 7) dégâts perforants plus 5 (1d10) dégâts de foudre.\n**Griffe.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d6 + 7) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 16 (2d8 + 7) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix de Zikzokrishka qui se trouve à l'intérieur de 36 m de Zikzokrishka et consciente de lui doit réussir sur un DD 18 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la présence effrayante de la Zikzokrishka pendant les 24 prochaines heures.\n**foudre Respiration (Recharge 5-6).** Zikzokrishka exhale la foudre dans une ligne 27 m large. Chaque créature dans cette ligne doit faire un DD 20 jet de sauvegarde de Dextérité, en prenant 66 (12d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 13,
+   "damage": "2d10+7",
+   "type": "perforant + foudre"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 13,
+   "damage": "2d6+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 13,
+   "damage": "2d8+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0affa5e13c_monstre-zikzokrishka.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CON +12, SAG +8, CHA +10",
+ "skills": "Perception +14, Discrétion +6",
+ "resistances": "nécrotique",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, zikzokrishka peut entreprendre l'une des actions ci-après.\n**Détecter.** Zikzokrishka fait un test de Sagesse (Perception).\n**Attaque de queue.** Zikzokrishka fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** Zikzokrishka bat ses ailes battues. Chaque créature de 3 m de Zikzokrishka doit réussir sur un DD 21 jet de sauvegarde de Dextérité ou prendre 14 (2d6 + 7) dégâts contondants et être à terre. Après avoir battu ses ailes de cette façon, Zikzokrishka peut voler jusqu'à la moitié de sa vitesse de vol."
+}

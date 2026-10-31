@@ -1,0 +1,41 @@
+{
+ "id": "dragon-rouge-venerable",
+ "name": "Dragon rouge vénérable",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "24",
+ "xp": 62000,
+ "ca": 22,
+ "hp": 507,
+ "hpFormula": "26d20+234",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 10,
+  "CON": 29,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 27
+ },
+ "saves": "DEX +7, SAG +9",
+ "skills": "Discrétion +7, Perception +16",
+ "immunities": "feu",
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 26",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (4/jour, ou 5/jour dans son antre).** Si le dragon rate un jet de sauvegarde, il peut décider de le réussir tout de même.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée. Il peut remplacer l’une de ces attaques par une utilisation d’Incantation pour lancer *rayon ardent* (au 3e niveau).\n**Saignée.** Corps à corps : +17, allonge 4,50 m. Touché : 19 (2d8 + 10) dégâts tranchants plus 10 (3d6) dégâts de feu.\n**Incantation.** Le dragon lance l’un des sorts suivants sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 23, +15 pour toucher) :\n- À volonté : *détection de la magie*, *injonction* (au 2e niveau), *rayon ardent* (au 3e niveau)\n- 1/jour chacun : *boule de feu* (au 6e niveau), *scrutation*\n**Souffle de feu (recharge 5–6).** JS Dextérité : DD 24, chaque créature dans un Cône de 27 m. Échec : 91 (26d6) dégâts de feu. Réussite : demi-dégâts.",
+ "legendary": "**Utilisations d'action Légendaire : 3 (4 dans son antre).** Aussitôt après le tour d'une autre créature, le dragon peut dépenser une utilisation pour entreprendre l'une des actions ci-après. Le dragon récupère toutes ses utilisations dépensées au début de chacun de ses tours.\n**Assaut incisif.** Le dragon se déplace à concurrence de la moitié de sa Vitesse et effectue une attaque de Saignée.\n**Autorité naturelle.** Le dragon recourt à Incantation pour lancer *injonction* (au 2e niveau). Le dragon ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.\n**Rayons ignés.** Le dragon recourt à Incantation pour lancer *rayon ardent* (au 3e niveau). Le dragon ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 17,
+   "damage": "2d8+10+3d6",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/c243fabe5f_monstre-dragon-rouge-venerable.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 92"
+}

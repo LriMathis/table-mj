@@ -1,0 +1,40 @@
+{
+ "id": "yalaga-maladwyn",
+ "name": "Yalaga Maladwyn",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Sensibilité à la lumière du soleil.** Alors que dans le soleil, Yalaga a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Découpe intérieure.** Le caractéristique d'incantation d'Yalaga est Charisme (spell save DD 15). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques, Lévitation (autoseulement)\n**Détection orthographique.** Yalaga est un épeautre de niveau 10. Son caractéristique d'incantation est Sagesse (enregistrer DD 14, +6 au toucher avec attaques de sort). Yalaga a les sorts clerciques suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Bouffée de poison, Résistance, Stabilisation, Thaumaturgie\n- Niveau 1 (4 emplacements) : Amitié avec les animaux, Soins, Détection du poison et des maladies, Rayon empoisonné\n- Niveau 2 (3 emplacements) : Restauration partielle, Protection contre le poison, Toile d'araignée\n- Niveau 3 (3 emplacements) : Invocation d'animaux (2 araignées géantes), Dissipation de la magie\n- Niveau 4 (3 emplacements) : Divination, Liberté de mouvement\n- Niveau 5 (2 emplacements) : Fléau d'insectes, Soins de groupe",
+ "actionsText": "**Multiattaques.** Yalaga fait deux attaques de fléau.\n**Scorurge.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants plus 17 (5d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Scorurge",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/fa5120d5e7_monstre-yalaga-maladwyn.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "caNote": "Courrier d'échelle",
+ "saves": "CON +4, SAG +6, CHA +7",
+ "skills": "Perspicacité +6, Perception +6, Religion +4, Discrétion +5"
+}

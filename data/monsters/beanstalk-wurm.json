@@ -1,0 +1,39 @@
+{
+ "id": "beanstalk-wurm",
+ "name": "Beanstalk Wurm",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 16,
+ "hp": 231,
+ "hpFormula": "14d20+84",
+ "vitesse": "15 m, escalade 15 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 18,
+  "CON": 22,
+  "INT": 4,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Si la wurm est immobile au début du combat, elle a l'avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'action de la wurm, cette créature doit réussir sur une DD 18 test d'Intelligence (Investigation) pour discerner que la wurm est animée.\n**Prises de main à feuilles.** Les créatures ont l'avantage sur tests de caractéristique fait pour grimper la wurm.\n**Résistance légendaire (3/jour).** Si le wurm échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Régénération.** Le wurm retrouve 20 points de vie au début de son tour s'il a au moins 1 points de vie. Si le wurm prend feu ou dégâts de foudre, ce trait ne fonctionne pas au début du tour suivant du wurm.",
+ "actionsText": "**Multiattaques.** La wurm fait deux attaques Bite.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 4,50 m, une cible. Touché : 30 (5d8 + 8) dégâts perforants. Si la cible est une créature grande ou plus petite, elle doit réussir sur une DD 22 jet de sauvegarde de Dextérité ou être avalée par la wurm. Une créature avalée a l'état entravé, a 3 contre les attaques et autres effets en dehors de la wurm, et prend 28 (8d6) dégâts perforants au début de chacun des tours de la wurm des épines dans le goéland de la wurm.\nL'estomac du wurm peut contenir deux créatures à la fois. Si le wurm prend 30 dégâts ou plus sur un seul tour d'une créature à l'intérieur, le wurm doit réussir sur un DD 22 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent chacun dans un espace à l'intérieur de 3 m du wurm et a l'état à terre. Si le wurm meurt, une créature avalée n'a plus l'état entravé et peut s'échapper du corps en utilisant 3 m de mouvement, en sortant avec l'état à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "5d8+8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/287b88014b_monstre-beanstalk-wurm.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +14, CON +12"
+}

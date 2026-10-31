@@ -1,0 +1,46 @@
+{
+ "id": "groundling-grunt",
+ "name": "Groundling Grunt",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m, creusement 3 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Griffe.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts tranchants. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 13) d'une des deux pattes.\n**Écharpe.** Jet d'attaque à distance : +4, portée 9/36 m. Touché : 7 (2d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d228bd3892_monstre-groundling-grunt.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "skills": "Perception +2, Discrétion +4, Survie +2",
+ "resistances": "poison",
+ "reactions": "**Aller au sol.** Déclencheur : L'échouement est frappé par un jet d'attaque alors qu'il est au sol. Réponse : La mise à la terre réduit de moitié les dégâts (rondes vers le bas) qu'elle prend de cette attaque."
+}

@@ -1,0 +1,31 @@
+{
+ "id": "ovins",
+ "name": "Sheep",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 3,
+ "hpFormula": "1d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**C'est sûr..** Le mouton a un avantage sur Force et jet de sauvegarde de Dextérité fait contre les effets qui le frapperaient à terre.",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/0bc8df5cc5_monstre-ovins.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Ovins"
+}

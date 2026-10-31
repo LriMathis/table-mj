@@ -1,0 +1,42 @@
+{
+ "id": "elementaire-de-l-air-myrmidon",
+ "name": "Air Elemental Myrmidon",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 18,
+ "hp": 117,
+ "hpFormula": "18d8+36",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "aérien, une langue du choix de son créateur",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le myrmidon fait trois attaques de Flail.\n**Feu.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts de force.\n**foudre Strike (Recharge 6).** Le myrmidon fait une attaque de Flail. Sur un coup, la cible prend un 18 (4d8) dégâts de foudre supplémentaire, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin du prochain tour du myrmidon.",
+ "attacks": [
+  {
+   "name": "Feu",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/05329a1655_monstre-elementaire-de-l-air-myrmidon.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Élémentaire de l'air Myrmidon",
+ "caNote": "plaque",
+ "resistances": "foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "paralysé, pétrifié, empoisonné, à terre"
+}

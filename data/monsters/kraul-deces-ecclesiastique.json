@@ -1,0 +1,41 @@
+{
+ "id": "kraul-deces-ecclesiastique",
+ "name": "Kraul Death Priest",
+ "type": "Humanoïde (kraul)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 18,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m, escalade 9 m, vol 12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, Kraul",
+ "traits": "**Nourriture à la mort.** Quand une créature dans 9 m du kraul tombe à 0 points de vie, le kraul ou une autre créature de son choix dans 9 m de lui gagne 5 (1d10) points de vie temporaires, à condition que le kraul n'est pas neutralisé.\n**Mensonge de la vie.** Le kraul est immunisé contre les conditions charmé et effrayé alors qu'il se trouve à l'intérieur de 9 m d'au moins un autre kraul.\n**Tactiques de conditionnement.** Le kraul a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du kraul est à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Escalade des araignées.** Le kraul peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Découpe intérieure.** Le caractéristique d'incantation inné du kraul est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). Le kraul peut innerately lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Contact glacial, Bouffée de poison\n- 1/jour chacun : Animation des morts, Flétrissement, Toucher du vampire\n- 3/jour chacun : Rayon affaiblissant, Rayon empoisonné",
+ "actionsText": "**Multiattaques.** Le kraul fait une attaque avec son quart de personnel et jette un de ses sorts avec un temps de coulée de 1 action.\n**Quarter staff.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants, ou 7 (1d8 + 3) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/112d6f110c_monstre-kraul-deces-ecclesiastique.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Kraul décès ecclésiastique",
+ "caNote": "armure naturelle",
+ "saves": "CON +4, SAG +4",
+ "skills": "Perspicacité +4, Nature +3, Religion +3"
+}

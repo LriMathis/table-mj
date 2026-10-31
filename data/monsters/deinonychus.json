@@ -1,0 +1,45 @@
+{
+ "id": "deinonychus",
+ "name": "Deinonychus",
+ "type": "Bête (dinosaure)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**Ponce.** Si le deinonychus se déplace au moins 6 m droit vers une créature et la frappe avec une attaque de la griffe au même tour, cette cible doit réussir sur un DD 12 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, le deinonychus peut faire une attaque Bite contre elle en tant qu'action bonus.",
+ "actionsText": "**Multiattaques.** Le deinonychus fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/9158f9d238_monstre-deinonychus.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3"
+}

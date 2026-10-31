@@ -1,0 +1,39 @@
+{
+ "id": "flabbergast",
+ "name": "Flabbergast",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 17,
+  "SAG": 13,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, draconique, elfique, gnome",
+ "traits": "**Détection orthographique.** Flabbergast est un spellcaster de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 13, +5 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Trait de feu, Lumière, Main de mage, Prestidigitation\n- Niveau 1 (4 emplacements) : Détection de la magie, Armure de mage, Valeur de distorsion *\n- Niveau 2 (3 emplacements) : Cadeau de gab *, Suggestion\n- Niveau 3 (3 emplacements) : Rapide faux amis *, Éclair\n- Niveau 4 (3 emplacements) : Invisibilité supérieure\n- Niveau 5 (1 emplacements) : Cône de froid\n* Nouveau sort introduit au chapitre 3",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0c7a75c21c_monstre-flabbergast.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "saves": "INT +5, SAG +3",
+ "skills": "Arcanes +5, Persuasion +3, Histoire +5, Perception +3"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "animation-baton",
+ "name": "Animated Staff",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "0",
+ "xp": 10,
+ "ca": 17,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 18,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 12",
+ "languages": "commun",
+ "traits": "**Charme.** Une créature peut prendre le personnel hors de l'air avec un contrôle de grappin réussi contre le personnel, et la lutte contre le personnel ne réduit pas la vitesse de la créature. Toute créature qui a réussi à gripper le staff doit réussir sur un DD 12 jet de sauvegarde de Charisme ou être charmé par le staff jusqu'à ce que le staff ne soit plus à sa portée. Alors que la créature est charmé, le personnel peut lui émettre des commandes, que la créature fait de son mieux pour obéir. La créature peut répéter le jet de sauvegarde à chaque fois qu'il prend des dégâts, mettant fin à l'effet sur elle-même sur un succès. Une créature qui résiste avec succès au contrôle du personnel ne peut pas être charmé par elle pendant 24 heures.\nUne créature qui tient le staff qui n'est pas charmé par elle peut utiliser une action pour tenter de briser le staff sur un genou ou contre une surface solide, ce faisant avec un DD 17 test de Force (Athlétisme) réussi. Briser le personnel de cette façon détruit.",
+ "actionsText": "**Personnel de Frost.** Le personnel a 10 charges. Il peut dépenser 1 ou plusieurs de ses charges pour lancer l'un des sorts suivants (enregistrer DD 12) : Cône de froid (5 charges), Nappe de brouillard (1 charge), Tempête de grêle (4 charges) ou Mur de glace (4 charges). Il récupère 1d6 + 4 charges dépensées chaque jour à l'aube. Si le personnel dépense sa dernière charge, roulez un d20. Sur un 1, le personnel se tourne vers l'eau et est détruit.\n**Attaque de Melee.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d6) dégâts contondants plus 1 dégâts de froid.",
+ "attacks": [
+  {
+   "name": "Attaque de Melee",
+   "bonus": 5,
+   "damage": "2d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/60ab0c437d_monstre-animation-baton.webp",
+ "notes": "points de vie : 40",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Animation bâton",
+ "caNote": "armure naturelle",
+ "resistances": "froid",
+ "immunities": "poison"
+}

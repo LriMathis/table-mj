@@ -1,0 +1,47 @@
+{
+ "id": "githyanki-buccaneer",
+ "name": "Githyanki Buccaneer",
+ "type": "Humanoïde (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, gith",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le githyanki fait deux Grandes Paroles ou Bolt Telekinetic.\n**Grande épée.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants plus 3 (1d6) dégâts psychiques.\n**Bolt télécinétique.** Attaque de sort à distance : +5 au toucher, portée 18 m, une cible. Touché : 13 (3d6 + 3) dégâts de force.\n**Coulisse (Psioniques).** Le githyanki lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumière, Main de mage (la main est invisible)\n- 1/jour chacun : Changement de plan, Télékinésie",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant + psychique"
+  },
+  {
+   "name": "Bolt télécinétique",
+   "bonus": 5,
+   "damage": "3d6+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/82dc4334d9_monstre-githyanki-buccaneer.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "saves": "CON +4, INT +5, SAG +3",
+ "skills": "Athlétisme +5, Tromperie +3, Perception +3, Survie +3",
+ "bonusActions": "**Étape astrale (Recharge 4-6).** Les téléports githyanki, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

@@ -1,0 +1,38 @@
+{
+ "id": "naxene-drathkala",
+ "name": "Naxene Drathkala",
+ "type": "Humanoïde (Turami humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 11,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, draconique, nain, elfique",
+ "traits": "**Information sur le jeu de rôles.** Les cultures des champs d'or sont vitales pour la survie de Waterdeep, c'est pourquoi l'Ordre vigilant des Magistes et des Protecteurs a envoyé Naxène pour s'assurer que la ferme du temple est adéquatement défendue. Au début, elle considérait la tâche comme une punition, mais maintenant elle apprécie la paix et le calme.\nIdéal: \"Il n'y a aucun problème qui ne puisse être résolu avec la magie.\"\nObligation : \"J'ai beaucoup de respect pour Lady Laeral Silverhand de Waterdeep. Elle et l'Alliance des Seigneurs vont apporter un ordre bien nécessaire à cette terre sans loi.\"\nFaux : \"Je suis trop malin pour me tromper.\"",
+ "actionsText": "**Personnel.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une créature. Touché : 2 (1d6 - 1) dégâts contondants, ou 3 (1d8 - 1) dégâts contondants si utilisé avec deux mains.\n**Détection orthographique.** Naxene lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 13 ; +5 au toucher avec attaques de sort):\n- À volonté : Trait de feu (1d10 dégâts de feu), Lumière, Main de mage\n- 1/jour chacun : Armure de mage, Projectile magique, Suggestion",
+ "attacks": [
+  {
+   "name": "Personnel",
+   "bonus": 1,
+   "damage": "1d6-1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/396432f586_monstre-naxene-drathkala.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "skills": "Arcanes +5, Histoire +5"
+}

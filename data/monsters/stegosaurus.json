@@ -1,0 +1,38 @@
+{
+ "id": "stegosaurus",
+ "name": "Stegosaurus",
+ "type": "Bête (dinosaure)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 76,
+ "hpFormula": "8d12+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 9,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 5
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Queue.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 26 (6d6 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Queue",
+   "bonus": 7,
+   "damage": "6d6+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c78b9eeca2_monstre-stegosaurus.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

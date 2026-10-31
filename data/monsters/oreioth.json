@@ -1,0 +1,39 @@
+{
+ "id": "oreioth",
+ "name": "Oreioth",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 9,
+  "CHA": 11
+ },
+ "senses": "Perception passive 9",
+ "languages": "abyssal, commun",
+ "traits": "**Récolte de Grim.** Une fois par tour quand Oreioth tue une ou plusieurs créatures avec un sort de de niveau 1 ou plus, il retrouve points de vie égal à deux fois le niveau du sort.\n**Animation rapide (recharge après un repos long).** Lorsqu'un humanoïde vivant moyen ou petit de 9 m d'Oreioth meurt, il peut utiliser une action à son tour suivant pour jeter Animation des morts sur le cadavre de cet humanoïde, au lieu d'utiliser le temps de coulée normal du sort.\n**Détection orthographique.** Oreioth est un orthographe de niveau 6. Son caractéristique d'incantation est Intelligence (save spell DD 13, +5 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Contact glacial, Illusion mineure, Prestidigitation, Poigne électrique\n- Niveau 1 (4 emplacements) : Simulacre de vie, Armure de mage, Projectile magique, Rayon empoisonné\n- Niveau 2 (3 emplacements) : Couronne du dément, Foulée brumeuse\n- Niveau 3 (3 emplacements) : Animation des morts, Toucher du vampire",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a0e50104fc_monstre-oreioth.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "saves": "SAG +1",
+ "skills": "Arcanes +5, Investigation +5, Médecine +1"
+}

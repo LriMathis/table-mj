@@ -1,0 +1,39 @@
+{
+ "id": "renard",
+ "name": "Fox",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "9 m, creusement 1,50 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Audience Keen.** Le renard a un avantage sur tests de Sagesse (Perception) qui se fie à l'ouïe.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 1 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/1df76749b5_monstre-renard.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Renard",
+ "skills": "Perception +3, Discrétion +5"
+}

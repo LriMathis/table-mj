@@ -1,0 +1,48 @@
+{
+ "id": "withers",
+ "name": "Withers",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "les langues qu'il connaissait dans la vie",
+ "traits": "**Matériel spécial.** Le garrot porte l'Amulet du crâne noir.\n**Sensibilité à la lumière du soleil.** En plein soleil, Withers a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Détection orthographique.** Withers est un speller de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 13, +5 au toucher avec attaques de sort). Withers a préparé les sorts d'assistant suivants :\n- Sorts mineurs (à volonté) : Aspersion d'acide, Main de mage, Illusion mineure, Prestidigitation\n- Niveau 1 (4 emplacements) : Détection de la magie, Repli expéditif, Feuille morte, Vague tonnante\n- Niveau 2 (4 emplacements) : Ténèbres, Immobilisation de personne, Corde enchantée\n- Niveau 3 (3 emplacements) : Dissipation de la magie, Éclair\n- Niveau 4 (3 emplacements) : Flétrissement, Mur de feu\n- Niveau 5 (1 emplacements) : Télékinésie",
+ "actionsText": "**Multiattaques.** Withers fait deux attaques de longues épées. Il peut utiliser son drain de vie à la place d'une attaque à longue épée.\n**Drain de vie.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d6 + 2) dégâts nécrotiques. La cible doit réussir sur une DD 13 jet de sauvegarde de Constitution ou sa maximum de points de vie est réduite d'un montant égal aux dégâts subis. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit sa maximum de points de vie à 0.\nUn humanoïde tué par cette attaque se lève 24 heures plus tard comme un zombie sous le contrôle du Withers, à moins que l'humanoïde ne soit remis en vie ou son corps est détruit. Withers ne peut avoir plus de douze zombies sous son contrôle à un moment donné.\n**Mot long.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants, ou 7 (1d10 + 2) dégâts tranchants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Drain de vie",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Mot long",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a1e59ad259_monstre-withers.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Perception +3, Discrétion +4",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

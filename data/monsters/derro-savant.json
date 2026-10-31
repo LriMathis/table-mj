@@ -1,0 +1,39 @@
+{
+ "id": "derro-savant",
+ "name": "Derro Savant",
+ "type": "Aberration (ensorceleur)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 36,
+ "hpFormula": "8d6+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 5,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 7",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Résistance magique.** Le derro a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sensibilité à la lumière du soleil.** En plein soleil, le derro présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d6 - 1) dégâts contondants.\n**Boom chromatique.** Le derro lance un faisceau brillant d'énergie magique dans une ligne large de 1,50 m qui est longue de 18 m. Chaque créature dans la ligne doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Le derro lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Main de mage, Message, Prestidigitation\n- 1/jour chacun : Invisibilité, Sommeil, Pattes d'araignée",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 1,
+   "damage": "1d6-1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/66acd35b36_monstre-derro-savant.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Discrétion +4"
+}

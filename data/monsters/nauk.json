@@ -1,0 +1,47 @@
+{
+ "id": "nauk",
+ "name": "Nauk",
+ "type": "Humanoïde (demi-orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 170,
+ "hpFormula": "20d8+80",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, gobelin, orc, commun des profondeurs",
+ "traits": "**Potion Mishap.** Lorsque Nauk utilise l'action Imbibe Potion plus d'une fois en une heure, roulez 1d4 pour ce qui se passe :\n- 1. La potion fonctionne normalement.\n- 2. La potion fonctionne normalement. De plus, Nauk tourne invisible pendant 1 minute ou jusqu'à ce que Nauk attaque ou jette un sort.\n- 3. La potion n'a aucun effet.\n- 4. Au lieu de l'effet normal, la potion fait exploser le feu de la bouche de Nauk dans un cône 4,50 m. Nauk et toute créature dans le cône prennent 21 (6d6) dégâts de feu.\n**Sans relâche.** Lorsque Nauk est réduit à 0 points de vie mais non tué, il peut tomber à 1 points de vie. Il ne peut plus utiliser cette fonctionnalité pendant 24 heures.\n**Questions spéciales.** Nauk porte une armure de plaque d'adamantine. Il manie un maul +1 et un arbalète +1 lourd qui est déjà pris en compte dans ses statistiques. Il a 2 potions de résistance (froid), 2 potions de résistance (feu), 2 potions de résistance (éclairage). Il a 2 potions d'héroïsme et 4 potions de guérison supérieure.",
+ "actionsText": "**Multiattaques.** Nauk fait trois attaques magiques de Maul. Nauk pourrait remplacer l'une de ces attaques par l'action Imbibe Potion.\n**Maul magique.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une créature. Touché : 13 (2d6 + 6) dégâts contondants.\n**Grosse arbalète.** Attaque d'arme à distance : +6 au toucher, intervalle 30/120 m., une cible. Touché : 7 (1d10 + 2) dégâts perforants.\n**Imbibe Potion.** Nauk boit une potion de la liste suivante:\n- Potion de l'héroïsme: Nauk gagne 10 points de vie temporaires pour 1 heure. Pour la même durée, Nauk est sous l'effet du sort Bénédiction (pas de concentration requis).\n- Potion de résistance: Nauk gagne de la résistance d'un type de dégâts pendant 1 heure. Nauk choisit parmi l'un de ces types de dégâts: froid, feu, foudre.\n- Potion de guérison supérieure : Nauk retrouve 28 points de vie.",
+ "attacks": [
+  {
+   "name": "Maul magique",
+   "bonus": 10,
+   "damage": "2d6+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 6,
+   "damage": "1d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1da46c3d5e_monstre-nauk.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "plaque",
+ "saves": "FOR +9, DEX +5, CON +8",
+ "skills": "Intimidation +10, Persuasion +6",
+ "reactions": "**Parry.** Nauk ajoute 4 à sa CA contre une attaque de mêlée qui le frapperait. Pour ce faire, Nauk doit voir l'agresseur et manier une arme de mêlée."
+}

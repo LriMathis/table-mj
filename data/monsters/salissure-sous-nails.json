@@ -1,0 +1,44 @@
+{
+ "id": "salissure-sous-nails",
+ "name": "Dirt-Under-Nails",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "télépathie 18 m",
+ "traits": "**La chance de Dark One (recharge après un repos court ou long).** Lorsque le warlock fait un test de caractéristique ou jet de sauvegarde, il peut ajouter un d10 au rouleau. Il peut le faire après que le rouleau est fait, mais avant que l'un des effets du rouleau se produise.\n**Régénération.** Dirt-Under-Nails retrouve 10 points de vie au début de son tour s'il est en contact avec le sol. Si Dirt-Under-Nails prend dégâts de feu, ce trait ne fonctionne pas au début de son prochain tour. Dirt-Under-Nails meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Sens partagés.** Dirt-Under-Nails peut voir et entendre ce que n'importe quelle plante de 36 m peut voir et entendre. De plus, les Nails de Dirt-Under- peuvent communiquer télépathiquement avec n'importe quelle plante de cette gamme.\n**Équipement spécial (+2 Rod du titulaire du pacte).** En tenant cette tige, Dirt-Under-Nails gagne un bonus de +2 pour épeler jets d'attaque et les DC jet de sauvegarde de ses sorts de sorcier (inclus dans les modifications, ci-dessous). En outre, il peut récupérer 1 warlock emplacement de sort en action tout en tenant la tige. Il ne peut plus utiliser cette propriété tant qu'il n'a pas fini un repos long.\n**Essence d'arbres.** Une fois sur chacun de ses tours, Dirt-Under-Nails peut utiliser 3 m de son mouvement pour passer magiquement dans un cosses de champignons au sein de 1,50 m de lui et émerger d'un second cosses de champignons au sein de 18 m, apparaissant dans un espace inoccupé au sein de 1,50 m du second cosses. Les deux flics de champignons doivent être grands ou grands. Dirt-Under-Nails n'a pas besoin de pouvoir voir le second flic pour utiliser cette capacité.\n**Découpe intérieure.** Le warlock inné caractéristique d'incantation est Charisme. Il peut lancer innéement les sorts suivants (spell save DD 15), ne nécessitant aucun composant matériel:\n- À volonté : Modification d'apparence, Simulacre de vie, Lévitation (autoseulement), Armure de mage (autoseulement), Image silencieuse\n- 1/jour chacun : Esprit faible, Doigt de mort, Changement de plan\n**Détection orthographique.** Dirt-Under-Nails est un spellcaster de niveau 17. Son caractéristique d'incantation est Charisme (save spell DD 17, +9 au toucher avec attaques de sort). Il retrouve son emplacements de sort dépensé quand il termine un repos court ou long. Il connaît les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Contact glacial, Décharge occulte, Amis, Main de mage, Illusion mineure, Prestidigitation, Poigne électrique\n- Niveau 5 (4 emplacements) : Armure d'Agathys, Bannissement, Mains brûlantes, Brume mortelle, Colonne de flamme, Cercle magique, Rayon ardent, Scrutation, Nuage nauséabond, Suggestion",
+ "actionsText": "**Mace.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants plus 10 (3d6) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 3,
+   "damage": "1d6",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/186118afb9_monstre-salissure-sous-nails.webp",
+ "notes": "",
+ "source": "Return to the Glory (5e.tools, traduction automatique)",
+ "aka": "Salissure sous Nails",
+ "saves": "SAG +4, CHA +7",
+ "skills": "Arcanes +4, Tromperie +7, Persuasion +7, Religion +4",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

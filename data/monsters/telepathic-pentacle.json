@@ -1,0 +1,39 @@
+{
+ "id": "telepathic-pentacle",
+ "name": "Telepathic Pentacle",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 172,
+ "hpFormula": "15d12+75",
+ "vitesse": "9 m, escalade 9 m, nage 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 20,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "—",
+ "traits": "**Maintenez votre souffle.** Le Pentacle Télépathique peut retenir son souffle pendant 1 heure.\n**Têtes multiples.** Le Pentacle Télépathique a cinq têtes. Bien qu'il ait plus d'une tête, le Pentacle Télépathique a avantage sur jet de sauvegarde contre aveuglé, charmé, assourdi, effrayé, étourdi, inconscient.\nChaque fois que le Pentacle Télépathique prend 25 ou plus de dégâts en un seul tour, une de ses têtes meurt. Si toutes ses têtes meurent, le Pentacle Télépathique meurt.\nA la fin de son tour, il pousse deux têtes pour chacune de ses têtes qui sont mortes depuis son dernier tour, à moins qu'il n'ait pris dégâts de feu depuis son dernier tour. Le Pentacle Télépathique retrouve 10 points de vie pour chaque tête replantée de cette façon.\n**Têtes réactives.** Pour chaque tête le Pentacle Télépathique a au-delà d'une, il obtient une réaction supplémentaire qui peut être utilisé seulement pour les attaques d'opportunité.\n**Réveille-toi.** Pendant que le Pentacle télépathique dort, au moins une de ses têtes est réveillée.",
+ "actionsText": "**Multiattaques.** Le Pentacle Télépathique fait autant d'attaques de morsures qu'il a des têtes.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 10 (1d10 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "1d10+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c8881b465c_monstre-telepathic-pentacle.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6"
+}

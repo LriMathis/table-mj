@@ -1,0 +1,41 @@
+{
+ "id": "fiend-membre-de-secte",
+ "name": "Fiend Cultist",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 127,
+ "hpFormula": "17d8+51",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 18,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 27 m (unimpeded by magical Darkness), Perception passive 17",
+ "languages": "abyssal, commun, infernal",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le culte fait trois attaques de Pact Axe.\n**Axe du pacte.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 10 (1d12 + 4) dégâts tranchants plus 13 (3d8) dégâts de feu.\n**Détection orthographique.** Le cultivateur lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 15, +7 au toucher avec attaques de sort) :\n- À volonté : Rayon ardent (version de niveau 5), Thaumaturgie\n- 2/jour : Boule de feu (version de niveau 6)",
+ "attacks": [
+  {
+   "name": "Axe du pacte",
+   "bonus": 7,
+   "damage": "1d12+4",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/96e76caff0_monstre-fiend-membre-de-secte.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Fiend membre de secte",
+ "saves": "CON +6, SAG +7",
+ "skills": "Perception +7, Religion +4",
+ "reactions": "**Répugnance de l'enfer.** Le cultivateur lance Représailles infernales en réponse au déclencheur de ce sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Représailles infernales"
+}

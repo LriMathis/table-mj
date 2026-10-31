@@ -1,0 +1,44 @@
+{
+ "id": "dragon-ombre",
+ "name": "Shadow Dragon",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 16,
+ "hp": 189,
+ "hpFormula": "18d12+72",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 19,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 21",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (3/jour, ou 4/jour à Lair).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Ombre vivante.** Pendant qu'il est dans la lumière ou l'obscurité, le dragon a une résistance aux dégâts qui n'est pas force, psychique, ou radiant.\n**Sensibilité à la lumière du soleil.** Alors qu'au soleil, le dragon a un désavantage sur tests de caractéristique et jets d'attaque.",
+ "actionsText": "**Multiattaques.** Le dragon fait trois attaques Rend.\n**Rend.** Jet d'attaque au corps à corps : +10, allonge 3 m. Touché : 12 (2d6 + 5) dégâts tranchants plus 3 (1d6) dégâts nécrotiques.\n**Shadow Breath (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 17, chaque créature dans un cône 18 m. Échec : 35 (10d6) dégâts nécrotiques. Réussite : Demi-dégâts. Échec ou réussite : Un Humanoïde réduit à 0 points de vie par ce dégâts meurt, et un Ombre se lève du corps. L'ombre est sous le contrôle du dragon et partage l'Initiative du dragon, mais agit immédiatement après le dragon.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/8cb4d2ffa1_monstre-dragon-ombre.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Dragon ombre",
+ "saves": "DEX +9, SAG +6",
+ "skills": "Perception +11, Discrétion +14",
+ "resistances": "Voir l'ombre vivante",
+ "immunities": "nécrotique",
+ "bonusActions": "**Vols d'ombre.** Dans la Lumière Dim ou l'Obscur, le dragon prend l'action Se cacher.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon ombre peut entreprendre l'une des actions ci-après.\n**Ponce.** Le dragon se déplace jusqu'à la moitié de sa vitesse, et il fait une attaque Rend.\n**Veil de l'ombre.** Le dragon utilise Shadow Stealth, et une créature de son choix qu'il peut voir dans 3 m d'il prend 10 (3d6) dégâts nécrotiques. Le dragon ne peut pas reprendre cette action avant le début de son prochain tour."
+}

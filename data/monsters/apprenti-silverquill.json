@@ -1,0 +1,41 @@
+{
+ "id": "apprenti-silverquill",
+ "name": "Silverquill Apprentice",
+ "type": "Humanoïde (barde)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "senses": "Perception passive 10",
+ "languages": "Commun plus deux langues",
+ "traits": "",
+ "actionsText": "**Lame d'encre.** Attaque de sort au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants plus 9 (2d8) dégâts psychiques.\n**Détection orthographique.** L'apprenti lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 12):\n- À volonté : Lumières dansantes, Amis\n- 1/jour chacun : Injonction, Armure de mage",
+ "attacks": [
+  {
+   "name": "Lame d'encre",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/85bef814d6_monstre-apprenti-silverquill.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Apprenti Silverquill",
+ "saves": "DEX +4, CHA +4",
+ "skills": "Tromperie +4, Représentation +6, Persuasion +6",
+ "reactions": "**Verset tournant.** Lorsqu'une créature que l'apprenti peut voir à l'intérieur de 9 m de lui échoue un jet de sauvegarde, l'apprenti tisse magiquement ensemble en remuant la prose, permettant à la créature de rerouler le jet de sauvegarde et d'utiliser le résultat plus élevé."
+}

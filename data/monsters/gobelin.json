@@ -1,37 +1,46 @@
 {
  "id": "gobelin",
  "name": "Gobelin",
- "type": "Humanoïde",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
  "cr": "1/4",
  "xp": 50,
  "ca": 15,
- "hp": 7,
- "hpFormula": "2d6",
+ "hp": 10,
+ "hpFormula": "3d6",
  "vitesse": "9 m",
- "size": 1,
  "stats": {
   "FOR": 8,
-  "DEX": 14,
+  "DEX": 15,
   "CON": 10,
   "INT": 10,
   "SAG": 8,
   "CHA": 8
  },
+ "skills": "Discrétion +6",
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, gobelin",
+ "traits": "",
+ "actionsText": "**Cimeterre.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts tranchants, plus 2 (1d4) dégâts tranchants si le jet d’attaque avait l’Avantage.\n**Arc court.** À distance : +4, portée 24/96 m. Touché : 5 (1d6 + 2) dégâts perforants, plus 2 (1d4) dégâts perforants si le jet d’attaque avait l’Avantage.",
+ "bonusActions": "**Fuite agile.** Le gobelin entreprend l’action Désengagement ou Furtivité.",
  "attacks": [
   {
    "name": "Cimeterre",
    "bonus": 4,
    "damage": "1d6+2",
-   "type": "tranchant"
+   "type": "tranchant (+1d4 tranchant sous condition)"
   },
   {
    "name": "Arc court",
    "bonus": 4,
    "damage": "1d6+2",
-   "type": "perforant"
+   "type": "perforant (+1d4 perforant sous condition)"
   }
  ],
- "traits": "**Fuite agile.** Peut Se désengager ou Se cacher par une action bonus à chacun de ses tours.",
- "portrait": "/data/images/1c88cec6d2_monstre-gobelin.svg",
- "notes": ""
+ "portrait": "/data/images/993a94817b_monstre-gobelin.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 164",
+ "aka": "Combattant gobelin (2024)"
 }

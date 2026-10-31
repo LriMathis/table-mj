@@ -1,0 +1,40 @@
+{
+ "id": "lifferlas",
+ "name": "Lifferlas",
+ "type": "Plante",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 59,
+ "hpFormula": "7d12+14",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 6,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Fausse apparence.** Alors que Lifferlas reste immobile, il est indistinguable d'un arbre normal.\n**Information sur le jeu de rôles.** Une druide de l'Enclave Emeraude a réveillé l'arbre Lifferlas avec un sort. Goldenfields est sa maison, ses gens ses amis. Les enfants aiment sculpter leur nom et leurs initiales dans son corps et accrocher à ses branches, et il est heureux de cela.\nIdéal: \"J'existe pour protéger les gens et les plantes de Goldenfields.\"\nObligation : \"Les enfants sont merveilleux. Je ferais n'importe quoi pour les rendre heureux et en sécurité. »\nFaux : \"Je ne me souviens pas des noms des gens et je les mélange souvent.\"",
+ "actionsText": "**Multiattaques.** Lifferlas fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 14 (3d6 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 6,
+   "damage": "3d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4ad7be8dde_monstre-lifferlas.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant"
+}

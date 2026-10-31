@@ -1,0 +1,46 @@
+{
+ "id": "slaad-rouge",
+ "name": "Slaad rouge",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "caNote": "armure naturelle",
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 6,
+  "CHA": 7
+ },
+ "skills": "Perception +1",
+ "resistances": "acide, feu, foudre, froid, tonnerre",
+ "senses": "vision dans le noir 18 m, Perception passive 11",
+ "languages": "slaad, télépathie à 18 m",
+ "traits": "**Régénération.** Le slaad récupère 10 points de vie au début de son tour tant qu'il lui reste au moins 1 point de vie.\n**Résistance à la magie.** Le slaad est avantagé lors de ses jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le slaad porte trois attaques, l'une avec sa morsure, les deux autres avec ses griffes.\n**Morsure.** *Attaque d'arme au corps à corps :* +6 pour toucher, allonge 1,50 m, une cible. *Touché :* 8 (2d4+3) dégâts perforants.\n**Griffe.** *Attaque d'arme au corps à corps :* +6 pour toucher, allonge 1,50 m, une cible. *Touché :* 7 (1d8+3) dégâts perforants. Si la cible est un humanoïde, elle doit réussir un jet de sauvegarde de Constitution DD 14, sans quoi elle est infectée par une maladie, à savoir un minuscule œuf de slaad. Un hôte humanoïde ne peut conduire qu'un seul œuf à terme à la fois. En trois mois, l'œuf se déplace jusqu'à la cavité thoracique, entre en gestation et donne naissance à un têtard. Pendant les 24 heures qui précèdent l'éclosion, l'hôte se sent mal, sa vitesse est réduite de moitié et il est désavantagé lors de ses jets d'attaque, de ses tests de caractéristique et de ses jets de sauvegarde. Pour éclore, le têtard ronge les organes vitaux de l'hôte et creuse un trou pour sortir de sa poitrine en un round, le tuant sur le coup. Si la maladie est guérie avant l'éclosion du têtard, ce dernier est désintégré avant de terminer sa gestation.",
+ "portrait": "/data/images/26be217657_monstre-slaad-rouge.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 268 · image : Manuel des monstres p. 266",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 6,
+   "damage": "2d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ]
+}

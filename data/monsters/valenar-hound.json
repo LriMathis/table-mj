@@ -1,0 +1,39 @@
+{
+ "id": "valenar-hound",
+ "name": "Valenar Hound",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 19,
+ "hpFormula": "3d8+6",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Perception passive 14",
+ "languages": "comprend Fréquent, elfique, et Sylvan mais ne peut pas parler",
+ "traits": "**Obligations.** Le chien peut magiquement se lier avec une créature il peut voir, immédiatement après avoir passé au moins 1 heure à observer cette créature alors que dans 9 m de lui. Le lien dure jusqu'à ce que le chien se lie à une autre créature ou jusqu'à ce que la créature liée meurt. Tout en étant lié, le chien et la créature liée peuvent communiquer télépathiquement entre eux à une distance allant jusqu'à 30 m.\n**L'ouïe et l'odeur de Keen.** Le chien a l'avantage sur tests de Sagesse (Perception) qui dépendent de l'ouïe ou de l'odeur.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/bd848723b7_monstre-valenar-hound.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4"
+}

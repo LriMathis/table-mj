@@ -1,0 +1,37 @@
+{
+ "id": "fennick",
+ "name": "Fennick (Valets de Pique)",
+ "type": "Humanoïde (gnome) ✎",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 18,
+ "hpFormula": "4d6+4",
+ "vitesse": "7,5 m",
+ "size": 0.5,
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "attacks": [
+  {
+   "name": "Trait de feu (36 m)",
+   "bonus": 4,
+   "damage": "1d10",
+   "type": "feu"
+  },
+  {
+   "name": "Dague",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Sorts (DD 12, +4).** Tours de magie : *trait de feu*, *main du mage*, *prestidigitation*. Niveau 1 (3 emplacements) : *bouclier*, *projectile magique*, *sommeil*.\n**Prudent.** Reste derrière Mara, et se rend si Joss se retire.",
+ "portrait": "/data/images/29be003705_monstre-mage.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

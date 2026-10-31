@@ -2,13 +2,15 @@
  "id": "ombre",
  "name": "Ombre",
  "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
  "cr": "1/2",
  "xp": 100,
  "ca": 12,
- "hp": 16,
- "hpFormula": "3d8+3",
+ "hp": 27,
+ "hpFormula": "5d8+5",
  "vitesse": "12 m",
- "size": 1,
  "stats": {
   "FOR": 6,
   "DEX": 14,
@@ -17,15 +19,25 @@
   "SAG": 10,
   "CHA": 8
  },
+ "skills": "Discrétion +6",
+ "vulnerabilities": "radiants",
+ "resistances": "acide, feu, foudre, froid, tonnerre",
+ "immunities": "nécrotiques, poison",
+ "conditionImmunities": "à terre, agrippé, effrayé, empoisonné, entravé, épuisement, inconscient, paralysé, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "aucune",
+ "traits": "**Informe.** L’ombre peut se déplacer dans un espace étroit d’une largeur minimale de 2,5 cm sans dépense supplémentaire en déplacement.\n**Morsure du soleil.** Tant qu’elle est exposée à la lumière du soleil, l’ombre subit le Désavantage aux Tests d20.",
+ "actionsText": "**Caresse dévitalisante.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts nécrotiques, et la valeur de Force de la cible est réduite de 1d4. La cible meurt si l’effet fait tomber cette valeur à 0. Si un Humanoïde est tué par cette attaque, une **ombre** émerge de son cadavre 1d4 heures plus tard.",
+ "bonusActions": "**Discrétion dans les ombres.** Tant qu’elle reste dans les Ténèbres ou sous une Lumière faible, l’ombre peut entreprendre l’action Furtivité.",
  "attacks": [
   {
-   "name": "Drain de force",
+   "name": "Caresse dévitalisante",
    "bonus": 4,
-   "damage": "2d6+2",
+   "damage": "1d6+2",
    "type": "nécrotique"
   }
  ],
- "traits": "**Furtivité dans l'ombre.** Peut se cacher par une action bonus dans la pénombre.\n**Drain de force.** La FOR de la cible diminue de 1d4 ; à 0, elle meurt.",
- "portrait": "/data/images/39af5e3829_monstre-ombre.svg",
- "notes": ""
+ "portrait": "/data/images/93d26d3de0_monstre-ombre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 241"
 }

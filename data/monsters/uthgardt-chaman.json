@@ -1,0 +1,46 @@
+{
+ "id": "uthgardt-chaman",
+ "name": "Uthgardt Shaman",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 12
+ },
+ "senses": "Perception passive 14",
+ "languages": "Les deux, commun",
+ "traits": "",
+ "actionsText": "**Lancer.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si elle est maniée avec deux mains.\n**Saubèche.** Attaque d'arme à distance : +3 au toucher, portée 24/96 m., une cible. Touché : 4 (1d6 + 1) dégâts perforants.\n**La diffusion de l'orthographe (nécessite un ensemble sacré).** Le shaman lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 12 ; +4 au toucher avec attaques de sort):\n- À volonté : Lumières dansantes, Main de mage, Message, Thaumaturgie\n- 1/jour chacun : Augure (sous forme d'une action), Malédiction, Cordon de flèches, Détection de la magie, Communication avec les morts, Esprits gardiens",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2efcfc2f93_monstre-uthgardt-chaman.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Uthgardt chaman",
+ "caNote": "Cache l'armure",
+ "skills": "Médecine +4, Nature +4, Perception +4, Survie +6"
+}

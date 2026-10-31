@@ -1,0 +1,40 @@
+{
+ "id": "mephite-de-boue",
+ "name": "Méphite de boue",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 27,
+ "hpFormula": "6d6+6",
+ "vitesse": "6 m, vol 6 m, nage 6 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "skills": "Discrétion +3",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision dans le noir 18 m, Perception passive 10",
+ "languages": "aquatique, terreux",
+ "traits": "**Explosion finale.** Quand le méphite meurt, il explose en une gerbe de boue. Les créatures de taille Moyenne ou inférieure situées dans un rayon de 1,50 mètre autour de lui doivent réussir un jet de sauvegarde de Dextérité DD 11, sans quoi elles sont entravées jusqu'à la fin de leur prochain tour.\n**Faux-semblant.** Aussi longtemps que le méphite reste immobile, il est impossible de le distinguer d'un amas de boue ordinaire.",
+ "actionsText": "**Poings.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une créature. *Touché :* 4 (1d6+1) dégâts contondants.\n**Souffle de boue (recharge 6).** Le méphite souffle une boue visqueuse sur une créature située dans un rayon de 1,50 mètre. Si la cible est de taille Moyenne ou inférieure, elle doit réussir un jet de sauvegarde de Dextérité DD 11, sans quoi elle est entravée pendant 1 minute. Une créature peut répéter ce jet de sauvegarde à la fin de chacun de ses tours. Elle met un terme à l'effet dès qu'elle en réussit un.",
+ "portrait": "/data/images/d114de47b0_monstre-mephite-de-boue.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 218 · image : Manuel des monstres p. 217",
+ "attacks": [
+  {
+   "name": "Poings",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "avatar-de-baalzebul",
+ "name": "Avatar of Baalzebul",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 14,
+ "hp": 285,
+ "hpFormula": "30d8+150",
+ "vitesse": "6 m, vol 9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 13,
+  "CON": 20,
+  "INT": 17,
+  "SAG": 18,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Détachement de l'écume.** Toute créature qui commence son tour dans 3 m de l'avatar doit réussir sur un DD 19 jet de sauvegarde de Constitution ou avoir l'état empoisonné jusqu'au début de leur prochain tour. Sur un jet de sauvegarde réussi, la créature est immunisée contre cette puanteur pendant 1 heure.",
+ "actionsText": "**Multiattaques.** L'avatar fait quatre attaques de la griffe. Il peut remplacer l'une des attaques par Insect Gorge (si disponible).\n**Griffe ensanglantée.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts tranchants plus 13 (3d8) dégâts d'acide. Le maximum de points de vie de la cible est réduit par le dégâts d'acide pris. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0.\n**Gorge d'insectes (Recharge 4-6).** L'avatar dégorge un essaim de mouches mordantes à un point qu'il peut voir en lui-même. Chaque créature dans une sphère 6 m -radius centrée sur ce point doit faire un DD 19 jet de sauvegarde de Constitution. Une créature prend 55 (10d10) dégâts perforants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Les mouches mordantes persistent pendant 1 minute ou jusqu'à ce que l'avatar soit tué. Une créature doit également faire ce jet de sauvegarde quand elle entre dans la zone des insectes pour la première fois sur un virage ou y termine son virage.\n**Slimepool caustique (1/jour).** L'avatar provoque l'apparition d'une slime caustique, couvrant un cercle 4,50 m -radius. Chaque créature à l'intérieur de la boue doit réussir sur un DD 19 jet de sauvegarde de Dextérité ou avoir l'état agrippé (évasion DD 17). Une créature agrippé prend 21 (6d6) dégâts d'acide au début de son tour.",
+ "attacks": [
+  {
+   "name": "Griffe ensanglantée",
+   "bonus": 11,
+   "damage": "1d8+5",
+   "type": "tranchant + acide"
+  }
+ ],
+ "portrait": "/data/images/e298fb3509_monstre-avatar-de-baalzebul.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Avatar de Baalzebul",
+ "caNote": "armure naturelle",
+ "saves": "FOR +11, CHA +11",
+ "skills": "Tromperie +11, Perspicacité +10, Intimidation +11, Persuasion +11",
+ "vulnerabilities": "radiant",
+ "resistances": "acide, froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

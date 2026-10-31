@@ -1,0 +1,45 @@
+{
+ "id": "refraction-de-ilvaash",
+ "name": "Refraction of Ilvaash",
+ "type": "Aberration (flagelleur mental)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 11,
+ "hp": 199,
+ "hpFormula": "21d12+63",
+ "vitesse": "3 m, vol 9 m (vol stationnaire), nage 3 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 23,
+  "SAG": 20,
+  "CHA": 22
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 15",
+ "languages": "commun, profond, télépathie 100 miles, commun des profondeurs",
+ "traits": "**Sens de la créature.** La réfraction est consciente des créatures au sein de 150 km qui ont un score Intelligence de 4 ou plus. Il connaît la distance et la direction de chaque créature, ainsi que le score Intelligence de chacun, mais ne peut rien sentir d'autre à ce sujet. Une créature protégée par un sort Esprit impénétrable, un sort Antidétection ou une magie similaire ne peut pas être perçue de cette manière.\n**Mouvement intégré.** La réfraction peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance légendaire (5/jour).** Si la réfraction échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** La réfraction a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** La réfraction fait deux attaques de la Griffe Dissonante.\n**Griffe dissonante.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m ou portée 36 m, une créature. Touché : 25 (3d12 + 6) dégâts psychiques. Si la cible est une créature concentrating sur un sort, sa concentration est cassée.\n**Boussole mentale (Recharge 5-6).** Les créatures du choix de la réfraction au sein de 18 m doivent réussir sur un DD 19 jet de sauvegarde d'Intelligence ou prendre 33 (5d10 + 6) dégâts psychiques et avoir l'état étourdi pendant 1 minute. Une créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Téléportation.** Les téléports de réfraction, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un endroit inoccupé qu'il peut voir.\n**Coulisse (Psioniques).** La réfraction lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Détection de la magie, Détection des pensées\n- 1/jour chacun : Esprit faible, Changement de plan (autoseulement)\n- 3/jour chacun : Dissipation de la magie, Modification de mémoire",
+ "attacks": [
+  {
+   "name": "Griffe dissonante",
+   "bonus": 11,
+   "damage": "3d12+6",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/60a78cf3c0_monstre-refraction-de-ilvaash.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Refraction de Ilvaash",
+ "caNote": "armure naturelle",
+ "saves": "INT +11, SAG +10",
+ "skills": "Arcanes +11, Perspicacité +15, Intimidation +11, Persuasion +11",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, refraction de ilvaash peut entreprendre l'une des actions ci-après.\n**Mindbreaker.** La réfraction cible une créature en 36 m elle-même et perturbe ses processus mentaux, ce qui fait que la cible est désavantagée sur tous les tests de caractéristique, jets d'attaque et jet de sauvegarde jusqu'à la fin du prochain virage de la cible.\n**Griffe projetée (coûts 2 actions).** La réfraction fait une attaque de Dissonant Claw."
+}

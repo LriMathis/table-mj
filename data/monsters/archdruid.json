@@ -1,0 +1,47 @@
+{
+ "id": "archdruid",
+ "name": "Archdruid",
+ "type": "Humanoïde (druide)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 14,
+ "hp": 154,
+ "hpFormula": "28d8+28",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 20,
+  "CHA": 11
+ },
+ "senses": "Perception passive 19",
+ "languages": "Druidique plus deux langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'archidruid fait trois attaques de l'état-major ou Wildfire. Il peut remplacer une attaque par une utilisation de Spellcasting.\n**Personnel.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants plus 21 (6d6) dégâts de poison.\n**Feu sauvage.** Attaque de sort à distance : +9 au toucher, portée 36 m, une cible. Touché : 26 (6d6 + 5) dégâts de feu, et la cible est aveuglé jusqu'au début du tour suivant du druid.\n**Détection orthographique.** L'archidruid lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Sens animal, Enchevêtrement, Communication avec les animaux\n- 1/jour chacun : Communion avec la nature (en tant qu'action), Soins de groupe\n- 3/jour chacun : Messager animal, Domination de bête, Lueurs féeriques, Passage par les arbres",
+ "attacks": [
+  {
+   "name": "Personnel",
+   "bonus": 6,
+   "damage": "1d6+2",
+   "type": "contondant + poison"
+  },
+  {
+   "name": "Feu sauvage",
+   "bonus": 9,
+   "damage": "6d6+5",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/c6bf5a177f_monstre-archdruid.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "saves": "INT +5, SAG +9",
+ "skills": "Médecine +9, Nature +5, Perception +9",
+ "bonusActions": "**Forme du changement (2/jour).** L'archidruide se transforme magiquement en Bête ou en Élémental avec une cote de défi de 6 ou moins et peut rester sous cette forme pendant jusqu'à 9 heures. L'archidruide peut choisir si son équipement tombe au sol, se mélange avec sa nouvelle forme, ou est porté par la nouvelle forme. L'archidruide revient à sa forme réelle s'il meurt ou tombe inconscient. L'archidruid peut revenir à sa forme réelle en utilisant un action bonus.\nAlors que dans une nouvelle forme, le bloc de stat de l'archidruid est remplacé par le bloc de stat de cette forme, sauf que l'archidruid garde son points de vie, son maximum de points de vie, ce action bonus, ses langues et sa capacité à parler, et son action Spellcasting.\nLes attaques de la nouvelle forme sont magiques pour surmonter les résistances et l'immunité aux attaques non magiques."
+}

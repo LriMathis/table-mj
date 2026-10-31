@@ -1,0 +1,47 @@
+{
+ "id": "winged-thrull",
+ "name": "Winged Thrull",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 31,
+ "hpFormula": "7d6+7",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 9,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts tranchants.\n**Roche.** Attaque d'arme à distance : +4 au toucher, portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4bf6d47c38_monstre-winged-thrull.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "saves": "DEX +4",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "reactions": "**Auto-sacrifice.** Lorsqu'une créature de 1,50 m de la thull est frappée par une attaque, la thull échange des places avec cette créature et est frappée à la place."
+}

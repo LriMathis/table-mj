@@ -1,0 +1,45 @@
+{
+ "id": "chaman-homme-lezard",
+ "name": "Chaman homme-lézard",
+ "type": "Humanoïde (homme-lézard)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "caNote": "armure naturelle",
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 8
+ },
+ "skills": "Discrétion +4, Perception +4, Survie +6",
+ "senses": "Perception passive 14",
+ "languages": "draconique",
+ "traits": "**Incantation (sous forme d'homme-lézard uniquement).** L'homme-lézard est un lanceur de sorts de niveau 5. Il utilise la Sagesse comme caractéristique d'incantation (DD de sauvegarde contre ses sorts 12, +4 pour toucher avec des attaques de sort). Il a préparé les sorts de druide suivants :\n- Tours de magie (à volonté) : *druidisme, flamme, fouet d'épines*\n- Niveau 1 (4 emplacements) : *enchevêtrement, nappe de brouillard*\n- Niveau 2 (3 emplacements) : *croissance d'épines, métal brûlant*\n- Niveau 3 (2 emplacements) : *croissance végétale, invoquer des animaux* (seulement des reptiles)\n**Retenir son souffle.** L'homme-lézard peut retenir son souffle pendant 15 minutes.",
+ "actionsText": "**Attaques multiples (sous forme d'homme-lézard).** L'homme-lézard effectue deux attaques au corps à corps, l'une avec sa morsure, l'autre avec ses griffes.\n**Griffes.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 4 (1d4+2) dégâts tranchants.\n**Morsure.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (1d6+2) dégâts perforants ou 7 (1d10+2) perforants sous forme de crocodile. Si l'homme-lézard est sous forme de crocodile et sa cible de Grande taille ou plus petite, cette cible est empoignée (DD 12 pour s'échapper). Tant que l'empoignade se poursuit, la cible est entravée et l'homme-lézard ne peut pas en mordre une autre. Si l'homme-lézard reprend sa forme normale, l'empoignade se termine.\n**Changement de forme (recharge après un court ou un long repos).** L'homme-lézard se métamorphose en crocodile et reste sous cette forme une heure au maximum. Il peut reprendre sa forme normale par une action bonus. En dehors de sa taille, ses statistiques ne changent pas, quelle que soit sa forme. L'équipement qu'il porte ou transporte ne se transforme pas avec lui. L'homme-lézard reprend sa forme normale s'il meurt.",
+ "portrait": "/data/images/1db1405d44_monstre-chaman-homme-lezard.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 187 · image : internet",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ]
+}

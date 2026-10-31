@@ -1,0 +1,44 @@
+{
+ "id": "verminaard",
+ "name": "Verminaard",
+ "type": "Humanoïde (clerc, humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 20,
+ "hp": 143,
+ "hpFormula": "22d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 26",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Commandement draconien.** Chaque fois qu'un Dragon ou une créature avec le caractère Draconic Devotion dans 9 m de Verminaard fait un jet d'attaque, la créature peut rouler un d4 et ajouter le nombre roulé au jet d'attaque.\n**Résistance légendaire (3/jour).** Si Verminaard échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Matériel spécial.** Verminaard porte +2 armure de plaque et manie la mace Nightbringer, qui lui accorde la vision sombre ainsi que l'immunité à dégâts de feu et aux conditions charmé et effrayé (inclus ci-dessus).",
+ "actionsText": "**Multiattaques.** Verminaard fait deux attaques Nightbringer et utilise Malédiction.\n**Brouillard.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 12 (1d6 + 9) dégâts contondants plus 10 (4d4) dégâts radiants. Si la cible est une créature, la cible doit réussir sur un DD 20 jet de sauvegarde de Constitution ou être aveuglé jusqu'au prochain tour de Verminaard.\n**Malédiction.** Verminaard prononce un mot impie, faisant descendre le feu profane sur une créature Verminaard peut voir en lui-même 18 m. La créature doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 11 (2d10) dégâts nécrotiques plus 11 (2d10) dégâts radiants sur un sauvegarde raté ou la moitié de ces dégâts sur un succès.\n**Détection orthographique.** Verminaard lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Lumière, Thaumaturgie\n- 2/jour chacun : Fléau, Peur, Liberté de mouvement, Restauration supérieure, Immobilisation de monstre, Retour à la vie",
+ "attacks": [
+  {
+   "name": "Brouillard",
+   "bonus": 15,
+   "damage": "1d6+9",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/487c089c2a_monstre-verminaard.webp",
+ "notes": "",
+ "source": "MCV2DC (5e.tools, traduction automatique)",
+ "caNote": "+2 armure de plaque",
+ "saves": "SAG +10, CHA +9",
+ "skills": "Perception +16, Religion +9",
+ "immunities": "feu",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Dragon Queen's Favor (5/jour).** Verminaard ou une créature il peut voir dans 18 m de lui-même magiquement reprend 17 (2d12 + 4) points de vie.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, verminaard peut entreprendre l'une des actions ci-après.\n**Mouvement tactique.** Verminaard se déplace à sa vitesse ou commande une monture qu'il roule pour monter à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités.\n**Grève sévère (coûts 2 actions).** Verminaard fait une attaque Nightbringer. Si cette attaque frappe, elle offre un 7 (2d6) dégâts contondants supplémentaire.\n**Lancer une éperole (coûts 3 actions).** Verminaard utilise la projection orthographique."
+}

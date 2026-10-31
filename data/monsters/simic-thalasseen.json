@@ -1,0 +1,39 @@
+{
+ "id": "simic-thalasseen",
+ "name": "Simic Merfolk",
+ "type": "Humanoïde (Merfolk)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 11,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m, nage 12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, Merfolk",
+ "traits": "**Amphibie.** Le merfolk peut respirer l'air et l'eau.",
+ "actionsText": "**Lancer.** Attaque d'arme au corps à corps ou à distance : +2 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d6) dégâts perforants, ou 4 (1d8) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6e2f27ad41_monstre-simic-thalasseen.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Simic thalasséen",
+ "skills": "Perception +2"
+}

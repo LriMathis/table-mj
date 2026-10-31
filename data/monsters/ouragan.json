@@ -1,0 +1,40 @@
+{
+ "id": "ouragan",
+ "name": "Hurricane",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "13,50 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Perception passive 11",
+ "languages": "aérien, commun",
+ "traits": "**Défense non armée.** Alors que l'ouragan ne porte pas d'armure et ne porte pas de bouclier, son CA inclut son modificateur Sagesse.\n**Mouvement non armé.** Alors que l'ouragan ne porte pas d'armure et n'a pas de bouclier, sa vitesse de marche augmente de 4,50 m (inclus dans sa vitesse).\n**Détection orthographique.** L'ouragan est un spellcaster de niveau 3. Son caractéristique d'incantation est Sagesse (save spell DD 11, +3 au toucher avec attaques de sort). Il connaît les sorts de sorciers suivants:\n- Sorts mineurs (à volonté) : Protection contre les armes, Saute de vent, Lumière, Prestidigitation\n- Niveau 1 (4 emplacements) : Feuille morte, Saut, Vague tonnante\n- Niveau 2 (2 emplacements) : Bourrasque",
+ "actionsText": "**Multiattaques.** L'ouragan fait deux attaques à la mêlée.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/26d0374ddc_monstre-ouragan.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Ouragan",
+ "skills": "Acrobaties +5",
+ "reactions": "**Missiles défectueux.** Lorsque l'ouragan est touché par une attaque d'armes, il réduit les dégâts causés par l'attaque de 1d10 + 9. Si les dégâts sont réduits à 0, l'ouragan peut attraper le missile s'il est suffisamment petit pour tenir dans une main et l'ouragan a au moins une main libre."
+}

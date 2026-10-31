@@ -1,0 +1,50 @@
+{
+ "id": "pilote-ashen",
+ "name": "Ashen Rider",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 18,
+ "hp": 178,
+ "hpFormula": "21d8+84",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 16,
+  "CON": 19,
+  "INT": 15,
+  "SAG": 21,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 20",
+ "languages": "tous",
+ "traits": "**Aura du silence.** Lorsqu'une créature commence son tour dans la 9 m du pilote d'Ashen, le pilote peut forcer cette créature à faire une DD 18 jet de sauvegarde de Sagesse si le pilote peut la voir. Sur un salut réussi, la créature est à l'abri de cette aura pendant les 24 prochaines heures. Sur une sauvegarde ratée, la créature ne peut pas parler et est assourdi jusqu'au début de son prochain tour.\n**Montage.** Si le pilote d'Ashen n'est pas monté, il peut utiliser un action bonus pour téléporter par magie sur la créature servant de monture, à condition que le pilote d'Ashen et son monture soient sur le même plan d'existence. Lorsqu'il téléporte, le pilote d'Ashen apparaît s'acharner sur la monture avec tout équipement qu'il porte ou transporte.\nBien que monté et non neutralisé, le pilote d'Ashen ne peut pas être surpris, et à la fois lui et son montage ont avantage sur jet de sauvegarde de Dextérité. Si le pilote d'ashen est réduit à 0 points de vie alors qu'il monte, le montage est réduit à 0 points de vie également.\n**Découpe intérieure.** Le caractéristique d'incantation du pilote Ashen est Sagesse (Spell Save DD 18). Le motard peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Injonction, Duel forcé\n- 1/jour chacun : Bannissement, Barrière de lames",
+ "actionsText": "**Multiattaques.** Le pilote Ashen fait trois attaques avec sa lame Ashen ou deux attaques avec son boulon de cendres.\n**Lame d'Ashen.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 14 (2d8 + 5) dégâts tranchants plus 13 (2d12) dégâts radiants.\n**Bolt de cendre.** Attaque de sort à distance : +10 au toucher, portée 36 m, une créature. Touché : 22 (4d10) dégâts nécrotiques, et la cible ne peut pas retrouver points de vie avant le départ du prochain tour du pilote.",
+ "attacks": [
+  {
+   "name": "Lame d'Ashen",
+   "bonus": 10,
+   "damage": "2d8+5",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Bolt de cendre",
+   "bonus": 10,
+   "damage": "4d10",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/34630dcfe8_monstre-pilote-ashen.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Pilote Ashen",
+ "caNote": "plaque",
+ "saves": "FOR +10, CON +9, SAG +10, CHA +9",
+ "skills": "Histoire +7, Perspicacité +10, Perception +10",
+ "immunities": "tonnerre",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, pilote ashen peut entreprendre l'une des actions ci-après.\n**Attaque.** Le pilote d'anse fait une attaque en utilisant sa lame de frêne ou son boulon de frêne.\n**Agression coordonnée (coûts 2 actions).** Le pilote d'anse fait une attaque en utilisant sa lame de frêne ou son boulon de frêne, et ensuite sa monture peut utiliser sa réaction pour faire une attaque d'arme à la mêlée.\n**Réduire au frêne (coûts 3 actions).** Le pilote Ashen cible une créature qu'il peut voir dans 18 m de lui. La cible doit réussir sur une DD 18 jet de sauvegarde de Constitution, ou elle prend 27 (5d10) dégâts nécrotiques et sa maximum de points de vie est réduite d'un montant égal à la dégâts nécrotiques prise. Cette réduction dure jusqu'à ce que la cible termine un repos long. Si le maximum de points de vie de la cible est réduit à 0, son corps et tout ce qu'il porte, sauf pour les objets magiques, sont réduits en cendres. Une créature réduite en cendres ne peut être ravivée par aucun moyen à court d'un sort Souhait."
+}

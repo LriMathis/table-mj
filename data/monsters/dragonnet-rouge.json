@@ -1,0 +1,40 @@
+{
+ "id": "dragonnet-rouge",
+ "name": "Dragonnet rouge",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 17,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m, escalade 9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "saves": "DEX +2, SAG +2",
+ "skills": "Discrétion +2, Perception +4",
+ "immunities": "feu",
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "draconique",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le dragon effectue deux attaques de Saignée.\n**Saignée.** Corps à corps : +6, allonge 1,50 m. Touché : 9 (1d10 + 4) dégâts tranchants plus 3 (1d6) dégâts de feu.\n**Souffle de feu (recharge 5–6).** JS Dextérité : DD 13, chaque créature dans un Cône de 4,50 m. Échec : 24 (7d6) dégâts de feu. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 6,
+   "damage": "1d10+4+1d6",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/c243fabe5f_monstre-dragonnet-rouge.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 92"
+}

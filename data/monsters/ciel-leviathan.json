@@ -1,0 +1,40 @@
+{
+ "id": "ciel-leviathan",
+ "name": "Sky Leviathan",
+ "type": "Bête",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 14,
+ "hp": 247,
+ "hpFormula": "15d20+90",
+ "vitesse": "vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 28,
+  "DEX": 7,
+  "CON": 22,
+  "INT": 1,
+  "SAG": 8,
+  "CHA": 4
+ },
+ "senses": "Perception passive 9",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 22 (3d8 + 9) dégâts perforants. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 18 jet de sauvegarde de Dextérité ou être avalée par le leviathan. Une créature avalée est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors du leviathan, et il prend 21 (6d6) dégâts d'acide au début de chacun des tours du leviathan.\nSi le leviathan prend 30 dégâts ou plus sur un seul tour d'une créature à l'intérieur, le leviathan doit réussir sur un DD 21 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m du leviathan. Si le leviathan meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 6 m de mouvement, sortant d'à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "3d8+9",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/a7fc1c7272_monstre-ciel-leviathan.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "aka": "Ciel Leviathan",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, SAG +3"
+}

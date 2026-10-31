@@ -1,0 +1,50 @@
+{
+ "id": "hulgaz",
+ "name": "Hulgaz",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 17,
+ "hp": 190,
+ "hpFormula": "20d10+80",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 17",
+ "languages": "abyssal, commun, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Hulgaz échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Hulgaz a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Hulgaz fait deux attaques de griffe et une attaque de Sting enivrante.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts tranchants.\n**Enivrant Sting.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une créature. Touché : 8 (1d10 + 3) dégâts perforants plus 10 (3d6) dégâts de poison, et la cible doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou avoir l'état charmé jusqu'au prochain tour de Hulgaz.\n**Brimstone Vapor (Recharge 5-6).** Hulgaz exhale un cône 9 m de vapeurs nocives et brûlantes. Chaque créature dans cette zone doit réussir sur un DD 17 jet de sauvegarde de Constitution ou avoir l'état empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, une créature prend 31 (7d8) dégâts de feu au début de chacun de ses tours et a un désavantage sur jet de sauvegarde de Sagesse. Une cible peut répéter le jet de sauvegarde de Constitution à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Hulgaz lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Charme-personne\n- 1/jour : Téléportation\n- 2/jour chacun : Dissipation de la magie, Nappe de brouillard",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Enivrant Sting",
+   "bonus": 8,
+   "damage": "1d10+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/8b4c03c155_monstre-hulgaz.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "SAG +7, CHA +10",
+ "skills": "Tromperie +10, Perspicacité +7, Perception +7, Persuasion +10",
+ "resistances": "acide, froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, hulgaz peut entreprendre l'une des actions ci-après.\n**Attaque.** Hulgaz fait une attaque de Griffe.\n**Charme.** Hulgaz utilise Spellcasting pour lancer Charme-personne.\n**Coeur de la courbe (coûts 2 actions).** Hulgaz attise les sentiments de ses victimes charmé. Elle choisit n'importe quel nombre de créatures qu'elle peut voir qui sont charmé par elle. Chaque cible prend 17 (5d6) dégâts psychiques comme l'état charmé appliqué par Hulgaz se termine dessus."
+}

@@ -1,0 +1,42 @@
+{
+ "id": "sentinel-forges-a-l-or",
+ "name": "Gold-Forged Sentinel",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 76,
+ "hpFormula": "8d10+32",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 19,
+  "INT": 3,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "comprend une langue de son créateur mais ne peut pas parler",
+ "traits": "**Frais.** Si la sentinelle se déplace au moins 6 m droit vers une cible et la frappe avec une attaque de bélier au même tour, la cible prend un 10 (3d6) dégâts contondants supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou être à terre.\n**Tournage de l'orthographe.** La sentinelle a l'avantage sur jet de sauvegarde contre tout sort qui ne cible que la sentinelle (pas une zone). Si le jet de sauvegarde du sentinelle réussit et que le sort est de de niveau 4 ou inférieur, le sort n'a aucun effet sur le sentinelle et cible plutôt le lanceur.",
+ "actionsText": "**Multiattaques.** La sentinelle fait deux attaques de bélier.\n**Ram.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants.\n**feu Respiration (Recharge 5-6).** La sentinelle expire le feu dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 27 (6d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Ram",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/bab5acc5e6_monstre-sentinel-forges-a-l-or.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Sentinel forgés à l'or",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, paralysé, pétrifié, empoisonné"
+}

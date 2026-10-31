@@ -1,0 +1,41 @@
+{
+ "id": "vin-ennemi-subconscient",
+ "name": "Wine Weird",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 58,
+ "hpFormula": "9d10+9",
+ "vitesse": "0 m, nage 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 10",
+ "languages": "comprend Aquan mais ne parle pas",
+ "traits": "**invisible dans l'eau.** Le vin bizarre est invisible tout en étant complètement immergé dans l'eau.\n**Bound d'eau.** Le vin bizarre meurt s'il laisse l'eau à laquelle il est lié ou si cette eau est détruite.",
+ "actionsText": "**Constriction.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une créature. Touché : 13 (3d6 + 3) dégâts contondants. Si la cible est moyenne ou plus petite, c'est agrippé (évasion DD 13) et a tiré 1,50 m vers le vin bizarre. Jusqu'à ce que ce grappin se termine, la cible est entravé, le vin bizarre essaie de la noyer, et le vin bizarre ne peut pas constricter une autre cible.",
+ "attacks": [
+  {
+   "name": "Constriction",
+   "bonus": 5,
+   "damage": "3d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/7488709eae_monstre-vin-ennemi-subconscient.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Vin ennemi subconscient",
+ "resistances": "feu, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, empoisonné, entravé, à terre, inconscient"
+}

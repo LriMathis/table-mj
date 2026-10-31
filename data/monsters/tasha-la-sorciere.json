@@ -1,0 +1,44 @@
+{
+ "id": "tasha-la-sorciere",
+ "name": "Tasha the Witch",
+ "type": "Humanoïde (humain, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 19,
+ "hp": 210,
+ "hpFormula": "28d8+84",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 17,
+  "INT": 23,
+  "SAG": 12,
+  "CHA": 22
+ },
+ "senses": "Perception passive 11",
+ "languages": "abyssal, céleste, commun, draconique, elfique, infernal, sylvestre",
+ "traits": "**Résistance légendaire (3/jour).** Si Tasha échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Tasha a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques. (Ce trait est conféré par sa Robe des Archmagi.)\n**Matériel spécial.** Tasha porte un Robe de l'archimage.",
+ "actionsText": "**Multiattaques.** Tasha fait deux attaques de blast caustique et utilise psychique Whip une fois.\n**Blast caustique.** Attaque de sort au corps à corps ou à distance : +14 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 21 (6d4 + 6) dégâts d'acide.\n**Whip psychique.** Tasha crie psychiquement à une créature elle peut voir en 27 m d'elle-même. La cible doit faire un DD 20 jet de sauvegarde d'Intelligence. Lors d'une sauvegarde ratée, la cible prend 21 (6d6) dégâts psychiques et a l'état étourdi jusqu'au prochain tour de Tasha. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement.\n**Détection orthographique.** Tasha lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 22, +14 au toucher avec attaques de sort) :\n- À volonté : Détection de la magie, Déguisement, Dissipation de la magie, Lumière, Main de mage, Message, Prestidigitation, Fou rire de Tasha\n- 1/jour chacun : Dédale, Télékinésie\n- 2/jour : Métamorphose",
+ "attacks": [
+  {
+   "name": "Blast caustique",
+   "bonus": 14,
+   "damage": "6d4+6",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/c70c4d9104_monstre-tasha-la-sorciere.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Tasha la sorcière",
+ "caNote": "Robe de l'archimage",
+ "saves": "INT +12, SAG +7, CHA +12",
+ "skills": "Arcanes +18, Histoire +12, Persuasion +12",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Visage abyssal (2/jour).** Pendant 1 minute, Tasha gagne une vitesse de vol de 9 m, est immunisé contre dégâts de poison et l'état empoisonné, et a un avantage sur jets d'attaque contre toute créature qui n'a pas toute sa points de vie. Ces avantages se terminent tôt si Tasha a l'état neutralisé ou si elle utilise un autre action bonus pour les congédier.",
+ "reactions": "**Rebuff de l'Arcane.** Immédiatement après que Tasha ait subi des dégâts, elle libère de l'énergie arcane dans une sphère 3 m -radius centrée sur elle-même. Toutes les autres créatures dans cette zone doivent faire un DD 20 jet de sauvegarde de Dextérité, en prenant 19 (3d12) dégâts de foudre sur un sauvegarde raté ou la moitié de ces dégâts sur un succès. Tasha téléporte ensuite, avec tout l'équipement qu'elle porte ou qu'elle transporte, dans un espace inoccupé qu'elle peut voir au sein de 18 m d'elle-même."
+}

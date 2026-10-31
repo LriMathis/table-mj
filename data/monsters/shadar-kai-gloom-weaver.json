@@ -1,0 +1,41 @@
+{
+ "id": "shadar-kai-gloom-weaver",
+ "name": "Shadar-kai Gloom Weaver",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 14,
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, elfique",
+ "traits": "**Charge de temps.** Les bêtes et les humanoïdes (à l'exception des elfes) ont un désavantage sur jet de sauvegarde alors qu'ils sont dans 3 m du shadar-kai.\n**Ancêtre fécale.** Le shadar-kai a l'avantage sur jet de sauvegarde contre le charmé et la magie ne peut pas le mettre en sommeil.",
+ "actionsText": "**Multiattaques.** Le Shadar-kai fait trois attaques de Shadar Spear. Il peut remplacer une attaque par une utilisation de Spellcasting.\n**Fusée d'ombre.** Attaque d'arme au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou gamme 30/120, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 26 (4d12) dégâts nécrotiques. Touché ou raté : La lance revient magiquement à la main de Shadar-kai immédiatement après une attaque étendue.\n**Détection orthographique.** Le shadar-kai lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 16):\n- À volonté : Oeil magique, Armure de mage, Illusion mineure, Prestidigitation, Communication avec les morts\n- 1/jour chacun : Portail magique, Fléau, Confusion, Ténèbres, Peur, Image majeure, Vision suprême",
+ "attacks": [
+  {
+   "name": "Fusée d'ombre",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/00b58555b2_monstre-shadar-kai-gloom-weaver.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "saves": "DEX +8, CON +6",
+ "immunities": "nécrotique",
+ "conditionImmunities": "charmé, épuisement",
+ "reactions": "**Évasion de la misty (Recharge 6).** Lorsque le shadar-kai prend des dégâts, il tourne invisible et téléports, avec tout équipement qu'il porte ou transporte, jusqu'à 18 m dans un espace inoccupé qu'il peut voir. Il reste invisible jusqu'au début de son prochain tour ou jusqu'à ce qu'il attaque ou jette un sort."
+}

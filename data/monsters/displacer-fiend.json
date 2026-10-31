@@ -1,0 +1,49 @@
+{
+ "id": "displacer-fiend",
+ "name": "Displacer Fiend",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 135,
+ "hpFormula": "18d10+36",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 19,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**Évitement.** Si le déferleur est soumis à un effet qui lui permet de faire un jet de sauvegarde pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue.\n**Déplacement.** Le déferleur projette une illusion magique qui lui donne l'air d'être debout près de son emplacement réel, ce qui fait que jets d'attaque contre lui est désavantagé. S'il est touché par une attaque, ce trait est perturbé jusqu'à la fin de son prochain tour. Ce trait est également perturbé alors que le fiende de déplacement est neutralisé ou a une vitesse de 0.",
+ "actionsText": "**Multiattaques.** Le démon du déplacement fait trois attaques du Tentacle. Il peut remplacer une des attaques par une attaque Bite.\n**Tentacle.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 18 (4d6 + 4) dégâts perforants plus 7 (2d6) dégâts nécrotiques.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 23 (3d12 + 4) dégâts perforants, et le score Dextérité de la cible est réduit de 2 (1d4). La cible est tuée si cela réduit son Dextérité à 0. La réduction dure jusqu'à ce que la cible termine un repos court ou long.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 8,
+   "damage": "4d6+4",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "3d12+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5554f2593f_monstre-displacer-fiend.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +7, DEX +8",
+ "skills": "Acrobaties +8, Athlétisme +7, Perception +5, Discrétion +12",
+ "resistances": "feu, poison",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Shadowhop.** Alors que dans la lumière ou l'obscurité, le déferleur peut téléporter jusqu'à 18 m, à condition que sa destination soit également dans la lumière ou l'obscurité."
+}

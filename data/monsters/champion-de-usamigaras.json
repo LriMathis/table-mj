@@ -1,0 +1,41 @@
+{
+ "id": "champion-de-usamigaras",
+ "name": "Champion of Usamigaras",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le champion fait deux attaques d'Arcane Burst ou fait une attaque d'Arcane Burst et utilise Spellcasting.\n**La Burst d'Arcane.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 8 (1d10 + 3) dégâts de force.\n**Détection orthographique.** Le champion lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumière, Armure de mage (autoseulement), Main de mage, Illusion mineure\n- 1/jour chacun : Couronne du dément, Fracassement\n- 2/jour chacun : Charme-personne, Déguisement, Image silencieuse",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/d9ea35d725_monstre-champion-de-usamigaras.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Champion de Usamigaras",
+ "saves": "INT +5, CHA +4",
+ "skills": "Arcanes +5, Tromperie +6, Escamotage +4",
+ "bonusActions": "**Aura de la décadence (1/jour).** Le champion émet une aura d'illusions fantomatiques qui remplit une sphère 3 m -radius centrée sur lui-même. Alors que cette aura est active, les créatures ont un désavantage sur jets d'attaque contre le champion et tous les alliés du champion qui sont dans l'aura. L'aura se déplace avec le champion et dure 1 minute, jusqu'à ce que le champion ait l'état neutralisé, ou jusqu'à ce que le champion utilise un autre action bonus pour terminer l'aura."
+}

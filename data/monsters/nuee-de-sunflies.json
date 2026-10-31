@@ -1,0 +1,39 @@
+{
+ "id": "nuee-de-sunflies",
+ "name": "Swarm of Sunflies",
+ "type": "Nuée de taille très petite (Céleste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "3 m, vol 12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 17,
+  "CON": 10,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Perception passive 10",
+ "languages": "Céleste, mais ne peut pas parler.",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour une petite libellule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Bâtons.** Attaque d'arme au corps à corps : +5 au toucher, allonge 0 m, une créature dans l'espace de l'essaim. Touché : 10 (3d4 + 3) dégâts perforants, ou 5 (1d4 + 3) dégâts perforants si l'essaim a la moitié de son points de vie ou moins. De plus, si l'essaim est sur un plan extérieur, il injecte la cible avec une toxine dont l'effet est déterminé par l'emplacement de l'essaim:\n**Plan supérieur.** La cible apporte une lumière vive dans un rayon de 1,50 m jusqu'à la fin de son prochain virage. Pendant ce temps, l'état invisible n'a aucun effet sur elle.\n**Avion neutre.** Si la cible est concentrating sur un sort ou un effet similaire, elle perd son concentration.\n**Avion inférieur.** La vitesse de la cible est réduite de 3 m jusqu'à la fin de son prochain tour.\n**Lumières éblouissantes (Recharge 6).** L'essaim brille dans un écran éblouissant. Chaque créature de 4,50 m de l'essaim doit réussir sur un DD 10 jet de sauvegarde de Constitution ou avoir l'état étourdi pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Bâtons",
+   "bonus": 5,
+   "damage": "3d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e313855425_monstre-nuee-de-sunflies.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Nuée de Sunflies",
+ "bonusActions": "**Éclairage.** L'essaim apporte une lumière vive dans un rayon de 4,50 m et une lumière dim pour un 4,50 m supplémentaire, ou il utilise un action bonus pour éteindre la lumière."
+}

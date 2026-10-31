@@ -20,7 +20,10 @@
     <button data-tab="map" title="Map" data-t><i class="ico" style="--i:url(/shared/icons/map.svg)"></i><span data-t>Map</span></button>
     <button data-tab="spellbook" title="Spellbook" data-t><i class="ico" style="--i:url(/shared/icons/spellbook.svg)"></i><span data-t>Spellbook</span></button>
     <button data-tab="bestiary" title="Bestiary" data-t><i class="ico" style="--i:url(/shared/icons/bestiary.svg)"></i><span data-t>Bestiary</span></button>
+    <button data-tab="equipment" title="Equipment" data-t><i class="ico" style="--i:url(/shared/icons/bag.svg)"></i><span data-t>Equipment</span></button>
+    <button data-tab="shop" title="Magasins : générer des boutiques, les ouvrir aux joueurs, valider leurs achats"><i class="ico" style="--i:url(/shared/icons/purse.svg)"></i><span>Magasin</span></button>
     <button data-tab="journal" title="Journal" data-t><i class="ico" style="--i:url(/shared/icons/journal.svg)"></i><span data-t>Journal</span></button>
+    <button data-tab="deck" class="hidden" title="Le Jeu des Mille Fortunes : pioche du MJ et des joueurs"><i class="ico" style="--i:url(/shared/icons/joker.svg)"></i><span>Jeu</span></button>
     <button data-tab="tools" title="Tools" data-t><i class="ico" style="--i:url(/shared/icons/tools.svg)"></i><span data-t>Tools</span></button>
   </nav>
   <div class="top-right">
@@ -66,15 +69,26 @@
 <script src="/shared/core.js"></script>
 <script src="/shared/spells.js"></script>
 <script src="/shared/mapview.js"></script>
+<script src="/shared/world.js"></script>
 <script src="/shared/classes.js"></script>
+<script src="/shared/economy.js"></script>
+<script src="/shared/items.js"></script>
+<script src="/shared/money.js"></script>
 <script src="/shared/levelup.js"></script>
 <script src="/gm/characters.js"></script>
 <script src="/gm/combat.js"></script>
 <script src="/gm/map.js"></script>
+<script src="/gm/worldmap.js"></script>
 <script src="/gm/spellbook.js"></script>
 <script src="/gm/bestiary.js"></script>
+<script src="/gm/equipment.js"></script>
 <script src="/gm/tools.js"></script>
 <script src="/gm/campaigns.js"></script>
+<script src="/shared/deck.js"></script>
+<script src="/gm/deck.js"></script>
+<script src="/shared/shop.js"></script>
+<script src="/gm/shop.js"></script>
+<script src="/gm/rewards.js"></script>
 <script>
   translatePage();
   document.getElementById('theme-btn').onclick = themeModal;

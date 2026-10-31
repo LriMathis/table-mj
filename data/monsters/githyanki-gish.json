@@ -1,0 +1,47 @@
+{
+ "id": "githyanki-gish",
+ "name": "Githyanki Gish",
+ "type": "Humanoïde (Ceinture, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 130,
+ "hpFormula": "20d8+40",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "gith",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le githyanki fait trois Longsword ou Telekinetic Bolt attaques, ou il fait une de ces attaques et utilise Spellcasting.\n**Mot long.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains, plus 22 (5d8) dégâts psychiques.\n**Bolt télécinétique.** Attaque de sort à distance : +7 au toucher, portée 36 m, une cible. Touché : 28 (8d6) dégâts de force.\n**Coulisse (Psioniques).** Le githyanki lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Lumière, Main de mage (la main est invisible), Message\n- 1/jour chacun : Porte dimensionnelle, Changement de plan, Télékinésie\n- 3/jour chacun : Boule de feu, Invisibilité, Antidétection (autoseulement)",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 7,
+   "damage": "1d8+3",
+   "type": "tranchant + psychique"
+  },
+  {
+   "name": "Bolt télécinétique",
+   "bonus": 7,
+   "damage": "8d6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/abee34b5c0_monstre-githyanki-gish.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "demi-plaque",
+ "saves": "CON +6, INT +7, SAG +6",
+ "skills": "Perspicacité +6, Perception +6, Discrétion +6",
+ "bonusActions": "**Étape astrale (Recharge 4-6).** Les téléports githyanki, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

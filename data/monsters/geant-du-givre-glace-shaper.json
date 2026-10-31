@@ -1,0 +1,49 @@
+{
+ "id": "geant-du-givre-glace-shaper",
+ "name": "Frost Giant Ice Shaper",
+ "type": "Géant (clerc)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "tout alignement",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 16,
+ "hp": 310,
+ "hpFormula": "27d12+135",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 11,
+  "SAG": 19,
+  "CHA": 16
+ },
+ "senses": "Perception passive 20",
+ "languages": "commun, géant",
+ "traits": "**Rune de givre.** Le géant a une rune gelée inscrite sur un morceau de glace ou un autre objet en sa possession. Tout en tenant ou en portant l'objet portant la rune, le géant peut utiliser son action de loups de glace et sa réaction d'armure de glace.\nL'objet portant la rune a CA 16; 40 points de vie ; et l'immunité à la nécrose, au poison, et dégâts psychiques. L'objet retrouve tout son points de vie à la fin de chaque tour, mais il se transforme en poussière si réduit à 0 points de vie ou quand le géant meurt. Si la rune est détruite, le géant peut inscrire une rune gelée sur un objet en sa possession lorsqu'il termine un repos court ou long.\n**Résistance légendaire (3/jour).** Si le géant échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le géant fait trois attaques en utilisant Greataxe, le Rayon Gelé, ou une combinaison d'entre eux.\n**Grandaxe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 22 (3d10 + 6) dégâts tranchants plus 9 (2d8) dégâts de froid.\n**Rayon de congélation.** Attaque de sort à distance : +10 au toucher, portée 36 m, une cible. Touché : 17 (3d8 + 4) dégâts de froid, et la cible doit faire un DD 18 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la cible a l'état entravé jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la vitesse de la cible est réduite de 3 m jusqu'à la fin de son prochain tour.\n**Loups de glace (nécessite une rune de givre).** Le géant appelle magiquement les loups 1d4 faits de glace (utilisez le bloc de statistiques Loup arctique dans le Monster Manual pour les représenter, mais ce sont des éléments au lieu de Monstrosities). Les loups apparaissent dans des espaces inoccupés que le géant peut voir en lui-même en 9 m. Les loups prennent leur tour immédiatement après le géant sur le même compte d'initiative, et ils obéissent aux commandements du géant. Les loups gagnent un bonus de +6 à leur attaque et jets de dégâts alors qu'ils sont dans 9 m du géant. Les loups disparaissent après 1 minute, quand le géant meurt, ou quand le géant recourt à cette action.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 12,
+   "damage": "3d10+6",
+   "type": "tranchant + froid"
+  },
+  {
+   "name": "Rayon de congélation",
+   "bonus": 10,
+   "damage": "3d8+4",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/9730099161_monstre-geant-du-givre-glace-shaper.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant du givre glace Shaper",
+ "caNote": "Courrier en chaîne",
+ "saves": "FOR +12, CON +11, SAG +10, CHA +9",
+ "skills": "Athlétisme +12, Perception +10",
+ "immunities": "froid",
+ "reactions": "**Armure de glace (exige une rune de givre).** Lorsqu'une créature que le géant peut voir fait un jet d'attaque contre elle, le géant peut former une couche de glace autour de lui, lui accordant un bonus de +6 à sa CA contre cette attaque. Après l'attaque frappe ou manque, la glace éclate, et chaque créature dans 1,50 m du géant doit réussir sur un DD 18 jet de sauvegarde de Dextérité ou prendre 13 (3d8) dégâts de froid."
+}

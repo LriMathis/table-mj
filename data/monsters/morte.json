@@ -1,0 +1,41 @@
+{
+ "id": "morte",
+ "name": "Morte",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d4+12",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c13bae69cc_monstre-morte.webp",
+ "notes": "",
+ "source": "Turn of Fortune's Wheel (5e.tools, traduction automatique)",
+ "skills": "Arcanes +3, Discrétion +5",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "nuee-de-gremishkas",
+ "name": "Swarm of Gremishkas",
+ "type": "Nuée de taille très petite (Monstruosité)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 31,
+ "hpFormula": "7d4+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 12",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Résistance magique.** La gremishka a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Swarm (Forme chaude seulement).** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour une créature minuscule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Morceaux de swarming (forme chaude seulement).** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 12 (3d6 + 2) dégâts perforants, ou 9 (3d4 + 2) dégâts perforants si l'essaim est en sang, plus 7 (2d6) dégâts de force. Si la cible est adaptée à n'importe quel objet magique, son Attribution à un élément (le choix de le MD) se termine.",
+ "attacks": [
+  {
+   "name": "Morceaux de swarming (forme chaude seulement)",
+   "bonus": 4,
+   "damage": "3d6+2",
+   "type": "perforant + force"
+  }
+ ],
+ "portrait": "/data/images/a42eeee14f_monstre-nuee-de-gremishkas.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Nuée de Gremishkas",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

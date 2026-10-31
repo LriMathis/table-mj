@@ -1,0 +1,52 @@
+{
+ "id": "ogruhl",
+ "name": "Ogruhl",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 20,
+ "hp": 341,
+ "hpFormula": "22d20+110",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "draconique, terreux",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Ogruhl fait trois attaques : une avec sa morsure et deux avec ses griffes. Il peut faire une attaque de queue à la place de ses deux attaques de griffes.\n**Morceau.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 26 (3d12 + 7) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 16 (2d8 + 7) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 26 (3d12 + 7) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 20 jet de sauvegarde de Force ou être poussée jusqu'à 3 m loin d'Ogruhl et à terre.\n**Respiration de sable (Recharge 5-6).** Ogruhl exhale du sable abrasif dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Constitution, en prenant 52 (15d6) dégâts tranchants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 13,
+   "damage": "3d12+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 13,
+   "damage": "2d8+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 13,
+   "damage": "3d12+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e086f0f849_monstre-ogruhl.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CON +11, SAG +7",
+ "resistances": "feu"
+}

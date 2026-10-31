@@ -1,0 +1,39 @@
+{
+ "id": "moustique-heartstabber",
+ "name": "Heartstabber Mosquito",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 14,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "3 m, vol 12 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 8,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Égoutter le sang.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d4 + 3) dégâts perforants, et le moustique se fixe à la cible. Le moustique n'attaque pas. Au début de chaque tour du moustique, la cible perd 5 (1d4 + 3) points de vie en raison d'une perte de sang.\nLe moustique peut se détacher en dépensant 1,50 m de son mouvement. Il le fait après avoir drainé 10 points de vie de sang de la cible ou la cible meurt. Une créature, y compris la cible, peut utiliser son action pour détacher le moustique.",
+ "attacks": [
+  {
+   "name": "Égoutter le sang",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/28a07fb8f0_monstre-moustique-heartstabber.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "aka": "Moustique Heartstabber",
+ "caNote": "armure naturelle"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "elementaire-de-la-terre",
+ "name": "Élémentaire de la terre",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 147,
+ "hpFormula": "14d10+70",
+ "vitesse": "9 m, creusement 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 8,
+  "CON": 20,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "vulnerabilities": "tonnerre",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné, épuisement, inconscient, paralysé, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 10",
+ "languages": "primordial (terreux)",
+ "traits": "**Déplacement tellurique.** L’élémentaire peut se déplacer par fouissement dans la pierre et la terre brutes et non magiques. Ce faisant, il laisse intacte la structure de ce qu’il traverse.\n**Monstre de siège.** L’élémentaire inflige des dégâts doublés aux objets et aux structures.",
+ "actionsText": "**Attaques multiples.** L’élémentaire effectue deux attaques, réparties à sa guise entre Coup et Projection de rocher.\n**Coup.** Corps à corps : +8, allonge 3 m. Touché : 14 (2d8 + 5) dégâts contondants.\n**Projection de rocher.** À distance : +8, portée 18 m. Touché : 8 (1d6 + 5) dégâts contondants. Si la cible est une créature de taille G ou inférieure, elle subit l’état À terre.",
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Projection de rocher",
+   "bonus": 8,
+   "damage": "1d6+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c2c8787a8f_monstre-elementaire-de-la-terre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 121"
+}

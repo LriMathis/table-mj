@@ -1,0 +1,39 @@
+{
+ "id": "dracohydra",
+ "name": "Dracohydra",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 218,
+ "hpFormula": "19d12+95",
+ "vitesse": "9 m, vol 9 m, nage 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 20,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 19",
+ "languages": "comprend Draconic mais ne peut pas parler",
+ "traits": "**Têtes multiples.** La dracohydre a cinq têtes. Bien qu'il ait plus d'une tête, la dracohydre a un avantage sur jet de sauvegarde contre aveuglé, charmé, assourdi, effrayé, étourdi, inconscient.\nChaque fois que la dracohydre prend 30 ou plus de dégâts en un seul tour, une de ses têtes meurt. Si toutes ses têtes meurent, la dracohydre meurt.\nÀ la fin de son tour, la dracohydre pousse deux têtes pour chacune de ses têtes qui sont mortes depuis son dernier tour, à moins qu'elle n'ait pris dégâts radiants depuis son dernier tour. La dracohydre retrouve 10 points de vie pour chaque tête replantée de cette façon.\n**Têtes réactives.** Pour chaque tête la dracohydre a au-delà d'une, il obtient une réaction supplémentaire qui peut être utilisé uniquement pour les attaques d'opportunité.\n**Réveille-toi.** Pendant que la dracohydre dort, au moins une de ses têtes est réveillée.",
+ "actionsText": "**Multiattaques.** La dracohydre fait autant d'attaques de Bite qu'elle a des têtes.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 10 (1d10 + 5) dégâts d'un type choisi par la dracohydre: acide, froid, feu, foudre, ou poison.\n**Respiration Prismatique (Recharge 4-6).** Les têtes de la dracohydre expirent un souffle unique d'énergie multicolore dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Dextérité. Sur un sauvetage raté, la créature prend 33 (6d10) dégâts d'un type choisi par la dracohydre: acide, froid, feu, foudre, ou poison. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "1d10+5",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/11a9610190_monstre-dracohydra.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +9"
+}

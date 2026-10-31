@@ -1,0 +1,39 @@
+{
+ "id": "barnibus-blastwind",
+ "name": "Barnibus Blastwind",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 10,
+ "hp": 24,
+ "hpFormula": "7d8-7",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 10,
+  "CON": 9,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, draconique, nain, halfelin",
+ "traits": "**Matériel spécial.** Barnibus porte un Baguette de détection de la magie. (orthographe incluse dans la liste de sorts ci-dessous, mais n'utilise pas de fente lors de la coulée de la baguette)\n**Détection orthographique.** Barnibus est un épeautre de niveau 7. Son caractéristique d'incantation est Intelligence (save spell DD 13, +5 au toucher avec attaques de sort) Il a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Protection contre les armes, Lumière, Main de mage, Message\n- Niveau 1 (4 emplacements) : Compréhension des langues, Identification, Détection de la magie, Armure de mage, Bouclier\n- Niveau 2 (3 emplacements) : Détection des pensées, Suggestion\n- Niveau 3 (3 emplacements) : Clairvoyance, Communication à distance\n- Niveau 4 (1 emplacements) : Localisation de créature, Sphère résiliente d'Otiluke",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +2 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 2 (1d4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/55fb5ada25_monstre-barnibus-blastwind.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "saves": "INT +5, SAG +4",
+ "skills": "Arcanes +5, Perspicacité +6, Investigation +7, Perception +4"
+}

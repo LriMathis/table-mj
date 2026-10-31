@@ -1,0 +1,47 @@
+{
+ "id": "strahd-zombi",
+ "name": "Strahd Zombie",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 8,
+ "hp": 30,
+ "hpFormula": "4d8+12",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 6,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 6,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "comprend les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "**Des limbes loufoques.** Chaque fois que le zombie prend au moins 5 bludgeoning ou dégâts tranchants à la fois, rouler un d20 pour déterminer ce qui lui arrive d'autre:\n1–8: Une jambe est coupée du zombie s'il a des jambes restantes.\n9–16: Un bras est coupé du zombie s'il reste des bras.\n17–20: Le zombie est décapité.\nSi le zombie est réduit à 0 points de vie, toutes les parties de celui-ci meurent. Jusque-là, une partie coupée agit sur l'initiative du zombie et a sa propre action et mouvement. Une partie coupée a CA 8. Tout dégâts qu'il prend est soustrait du points de vie du zombie.\nUne jambe coupée est incapable d'attaquer et a une vitesse de 1,50 m.\nUn bras coupé a une vitesse de 1,50 m et peut faire une attaque de griffe sur son tour, avec un désavantage sur le jet d'attaque. Chaque fois que le zombie perd un bras, il perd une attaque de griffes.\nSi sa tête est coupée, le zombie perd son attaque de morsure et son corps est aveuglé à moins que la tête puisse le voir. La tête coupée a une vitesse de 0 m. Il peut faire une attaque de morsure, mais seulement contre une cible dans son espace.\nLa vitesse du zombie est réduite de moitié s'il manque une jambe. Si elle perd les deux jambes, elle tombe en à terre. S'il a les deux bras, il peut ramper. Avec un seul bras, il peut encore ramper, mais sa vitesse est réduite de moitié. Sans bras ni jambes, sa vitesse est 0 m et il ne peut pas bénéficier de bonus à la vitesse.",
+ "actionsText": "**Multiattaques.** Le zombie fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f391027d4d_monstre-strahd-zombi.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Strahd zombi",
+ "saves": "SAG +0",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

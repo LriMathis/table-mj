@@ -1,0 +1,40 @@
+{
+ "id": "lemure",
+ "name": "Lémure",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "0",
+ "xp": 10,
+ "ca": 9,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 5,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 11,
+  "CHA": 3
+ },
+ "resistances": "froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "comprend l’infernal mais ne peut pas parler",
+ "traits": "**Restauration infernale.** Si le lémure meurt dans les Neuf Enfers, il revient à la vie avec tous ses pv en 1d10 jours sauf s’il est tué par une créature sous les effets du sort *bénédiction* ou si ce qu’il en reste est aspergé d’eau bénite.",
+ "actionsText": "**Limon abject.** Corps à corps : +2, allonge 1,50 m. Touché : 2 (1d4) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Limon abject",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/fc4b8e3258_monstre-lemure.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 72"
+}

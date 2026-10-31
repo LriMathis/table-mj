@@ -1,0 +1,43 @@
+{
+ "id": "caradoc",
+ "name": "Caradoc",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 110,
+ "hpFormula": "20d8+20",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 15,
+  "SAG": 13,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, Solamique",
+ "traits": "**C'est un hantement.** L'esprit de Caradoc est lié à Dargaard Keep. Au début de son tour, s'il est à l'extérieur des murs du donjon et qu'il ne possède pas une créature utilisant son action Possession, il doit réussir sur un DD 15 jet de sauvegarde de Charisme ou disparaître et réapparaître dans un espace inoccupé dans le donjon.\n**Mouvement intégré.** Caradoc peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Réjuvenance.** Si Caradoc meurt, il reforme au sein de Dargaard Keep en 2d6 jours.\n**Nature inhabituelle.** Caradoc n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Caradoc fait deux attaques Withering Touch.\n**Touche de flétrissement.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts nécrotiques.\n**Possession (Recharge 5-6).** Un humanoïde que Caradoc peut voir en 1,50 m de lui-même doit réussir sur un DD 15 jet de sauvegarde de Charisme ou être possédé par lui ; il disparaît alors, et la cible est neutralisé et perd le contrôle de son corps. Caradoc contrôle maintenant le corps mais ne prive pas la cible de la conscience. Caradoc ne peut être visé par aucune attaque, sort, ou autre effet, sauf ceux qui tournent Undead, et il conserve son alignement, Intelligence, Sagesse, et Charisme, l'immunité à être charmé et effrayé, et son Divisive Whispers action bonus. Il utilise les statistiques de la cible possédée, mais n'a pas accès aux connaissances, aux caractéristiques de classe ou aux compétences de la cible.\nLa possession dure jusqu'à ce que le corps tombe à 0 points de vie, Caradoc la termine comme un action bonus, ou il est tourné ou forcé par un effet comme le sort Dissipation du mal et du bien. Lorsque la possession se termine, Caradoc réapparaît dans un espace inoccupé au sein de 1,50 m du corps. La cible est à l'abri de la possession de Caradoc pendant 24 heures après avoir réussi sur le jet de sauvegarde ou après la fin de la possession.",
+ "attacks": [
+  {
+   "name": "Touche de flétrissement",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/3f00b1ba07_monstre-caradoc.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "saves": "INT +5, SAG +4",
+ "skills": "Tromperie +7, Perspicacité +4, Perception +4",
+ "resistances": "acide, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "bonusActions": "**Des whispers discursifs.** Caradoc chuchote magiquement à une créature en 18 m de lui-même. La cible doit réussir sur un DD 15 jet de sauvegarde de Sagesse, ou la cible doit immédiatement utiliser sa réaction pour faire une attaque de mêlée contre une autre créature du choix de Caradoc (en gaspillant sa réaction s'il n'y a pas d'autres créatures à portée de main)."
+}

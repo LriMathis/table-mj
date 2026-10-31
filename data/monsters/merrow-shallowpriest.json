@@ -1,0 +1,38 @@
+{
+ "id": "merrow-shallowpriest",
+ "name": "Merrow Shallowpriest",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 75,
+ "hpFormula": "10d10+20",
+ "vitesse": "3 m, nage 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "abyssal, aquatique",
+ "traits": "**Amphibie.** Le merrow peut respirer l'air et l'eau.\n**Détection orthographique.** Le Merrow est un spellcaster de niveau 6. Son caractéristique d'incantation est Sagesse (save spell DD 13, +5 au toucher avec attaques de sort). Le merrow a les sorts druides suivants préparés:\n- Sorts mineurs (à volonté) : Druidisme, Illusion mineure, Poigne électrique\n- Niveau 1 (4 emplacements) : Soins, Nappe de brouillard, Vague tonnante\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Image miroir, Foulée brumeuse\n- Niveau 3 (3 emplacements) : Dissipation de la magie, Éclair (voir \"Actions\" ci-dessous), Tempête de neige",
+ "actionsText": "**Harpoon.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 11 (2d6 + 4) dégâts perforants. Si la cible est une créature moyenne ou plus petite, le merrow peut la rapprocher de 3 m.\n**foudre Bolt (de niveau 3 Spell; Nécessite un emplacement de sort).** Le merrow déclenche un coup de foudre dans une ligne 30 m longue et 1,50 m large. Chaque créature dans la ligne doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 28 (8d6) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Harpoon",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4fa580e45d_monstre-merrow-shallowpriest.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

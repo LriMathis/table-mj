@@ -1,0 +1,33 @@
+{
+ "id": "cassiok-shadowdusk",
+ "name": "Cassiok Shadowdusk",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 14,
+ "hp": 99,
+ "hpFormula": "18d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, profond, infernal, commun des profondeurs",
+ "traits": "**Résistance magique.** Cassiok a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Matériel spécial.** Cassiok porte un Bâton de surpuissance qui lui accorde un bonus de +2 à classe d'armure, sort jets d'attaque, et jet de sauvegarde. Sa physiologie insectoïde l'empêche de faire des attaques avec le personnel. Si elle est réduite à 20 points de vie ou moins, Cassiok utilise sa prochaine action pour briser son personnel dans une grève rétributive.\n**Détection orthographique.** Cassiok est un épeleur de niveau 18. Son caractéristique d'incantation est Intelligence (save spell DD 19, +11 au toucher avec attaques de sort). Cassiok peut lancer Déguisement et l'invisibilité à volonté et a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Trait de feu, Lumière, Main de mage, Prestidigitation, Poigne électrique\n- Niveau 1 (4 emplacements) : Détection de la magie, Identification, Armure de mage *, Projectile magique\n- Niveau 2 (3 emplacements) : Détection des pensées, Image miroir, Foulée brumeuse\n- Niveau 3 (3 emplacements) : Contresort, Vol, Éclair\n- Niveau 4 (3 emplacements) : Assassin imaginaire, Bouclier de feu, Peau de pierre *\n- Niveau 5 (3 emplacements) : Cône de froid, Scrutation, Mur de force\n- Niveau 6 (1 emplacements) : Globe d'invulnérabilité\n- Niveau 7 (1 emplacements) : Téléportation\n- Niveau 8 (1 emplacements) : Esprit impénétrable *\n- Niveau 9 (1 emplacements) : Arrêt du temps\n*Cassiok jette ces sorts sur lui avant le combat.",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/425eb35bc8_monstre-cassiok-shadowdusk.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "saves": "FOR +2, DEX +4, CON +3, INT +11, SAG +8, CHA +5",
+ "skills": "Arcanes +13, Histoire +13",
+ "resistances": "dégâts causés par des sorts, non magique contondant, perforant, tranchant (de la peau de pierres)"
+}

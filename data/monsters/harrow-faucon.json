@@ -1,0 +1,42 @@
+{
+ "id": "harrow-faucon",
+ "name": "Harrow Hawk",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 25,
+ "hpFormula": "10d4",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 5,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 2,
+  "SAG": 14,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Talons.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (2d4 + 3) dégâts tranchants plus 3 (1d6) dégâts nécrotiques.\n**Déplacement de l'avion (2/jour).** Le faucon lance Changement de plan sur lui-même, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation.",
+ "attacks": [
+  {
+   "name": "Talons",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/193f6115a3_monstre-harrow-faucon.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Harrow faucon",
+ "skills": "Perception +6, Discrétion +5",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "bonusActions": "**Dash de l'ombre.** Lorsque le faucon est dans la lumière ou l'obscurité, il téléporte jusqu'à 9 m dans un espace inoccupé, il peut voir que c'est aussi dans la lumière ou l'obscurité. Le faucon a alors l'avantage sur la première attaque de mêlée qu'il fait avant la fin du tour."
+}

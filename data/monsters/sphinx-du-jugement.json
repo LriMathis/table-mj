@@ -1,0 +1,44 @@
+{
+ "id": "sphinx-du-jugement",
+ "name": "Sphinx of Judgment",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 18,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 18",
+ "languages": "commun, sphinx",
+ "traits": "**Inscrutable.** Le sphinx est à l'abri de tout effet qui sentirait ses émotions ou lireait ses pensées, ainsi que tout sort de divination qu'il refuserait. tests de Sagesse (Perspicacité) fait pour vérifier les intentions ou la sincérité du sphinx ont un désavantage.\n**Armes magiques.** Les attaques d'armes du sphinx sont magiques.\n**Détection orthographique.** Le sphinx est un épeautre de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 16, +8 au toucher avec attaques de sort). Il ne nécessite aucun composant matériel pour lancer ses sorts. Le sphinx a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Amis, Main de mage, Message\n- Niveau 1 (4 emplacements) : Injonction, Frappe piégeuse, Bouclier\n- Niveau 2 (3 emplacements) : Apaisement des émotions, Immobilisation de personne, Suggestion\n- Niveau 3 (3 emplacements) : Clairvoyance, Contresort, Dissipation de la magie\n- Niveau 4 (3 emplacements) : Bannissement, Divination\n- Niveau 5 (1 emplacements) : Domination de personne",
+ "actionsText": "**Multiattaques.** Le sphinx fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/5055746c7a_monstre-sphinx-du-jugement.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Sphinx du jugement",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +12, Histoire +12, Perception +8, Religion +8",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, sphinx du jugement peut entreprendre l'une des actions ci-après.\n**Attaque de griffes.** Le sphinx fait une attaque de griffes.\n**Téléportation (coûts 2 actions).** Le sphinx téléporte magiquement, avec tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.\n**Lancer une éperole (coûts 3 actions).** Le sphinx jette un sort à partir de sa liste de sorts préparés, en utilisant un emplacement de sort comme normal."
+}

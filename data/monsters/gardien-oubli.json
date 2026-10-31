@@ -1,0 +1,31 @@
+{
+ "id": "gardien-oubli",
+ "name": "Gardien de l'Oubli (juge d'Ostrevie)",
+ "type": "Mort-vivant ✎",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 152,
+ "hpFormula": "16d10+64",
+ "vitesse": "9 m, vol 9 m",
+ "size": 2,
+ "stats": {
+  "FOR": 22,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "attacks": [
+  {
+   "name": "Marteau du verdict",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "contondant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Trois attaques de marteau.\n**✎ Sentence (recharge 5-6).** Cône de 18 m : JS de Sagesse DD 17 ; échec : 6d10 psychique, et la cible est enfermée dans une bulle de Donjon jusqu'à la fin de son prochain tour (neutralisée, intouchable) ; réussite : moitié des dégâts, pas de bulle.\n**Résistance légendaire (2/jour).**\n**Résistances** nécrotique ; dégâts non magiques. **Immunités** poison ; charmé, effrayé, empoisonné.\n**Tribunal.** Il ne frappe pas ceux qui plaident. Un procès en règle (Persuasion ou Histoire DD 17 : trois réussites avant trois échecs) peut l'arrêter.\n**Il garde** le miroir d'argent d'Ilse et les âmes du Néant.",
+ "portrait": "/data/images/df0e27f582_monstre-gardien-pierre.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

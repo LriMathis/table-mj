@@ -1,0 +1,46 @@
+{
+ "id": "fouet-booyahg",
+ "name": "Booyahg Whip",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, gobelin",
+ "traits": "**Échappement de Nimble.** Le goblin peut prendre l'action Se désengager ou Se cacher en action bonus sur chacun de ses tours.\n**Cadeau de Khurgorbaeyag.** Khurgorbaeyag a vu bon de donner ce goblin avec des pouvoirs qui lui permettent de dominer les autres. Le goblin a 1d3 d'autres gobelins qui obéissent avec asservissement à ses ordres.",
+ "actionsText": "**Scimitar.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.\n**Saubèche.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b239a548ee_monstre-fouet-booyahg.webp",
+ "notes": "",
+ "source": "Volo's Guide to Monsters (5e.tools, traduction automatique)",
+ "aka": "Fouet Booyahg",
+ "caNote": "Armure en cuir, Bouclier",
+ "skills": "Discrétion +6"
+}

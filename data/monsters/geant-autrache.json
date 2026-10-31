@@ -1,0 +1,45 @@
+{
+ "id": "geant-autrache",
+ "name": "Giant Axe Beak",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 84,
+ "hpFormula": "8d12+32",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 14,
+  "CON": 19,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Perception passive 14",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le bec de hache fait une attaque de bec aiguisé et une attaque de Talons.\n**Bec aiguisé.** Jet d'attaque au corps à corps : +8, allonge 3 m. Touché : 18 (2d12 + 5) dégâts tranchants, et une créature à l'intérieur de 1,50 m de la cible (le choix de l'axe du bec) prend 6 (1d12) dégâts tranchants.\n**Talons.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts perforants. Si la cible est une créature grande ou plus petite, elle a l'état à terre.",
+ "attacks": [
+  {
+   "name": "Bec aiguisé",
+   "bonus": 8,
+   "damage": "2d12+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Talons",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d9052e0761_monstre-geant-autrache.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Géant autrache",
+ "skills": "Perception +4"
+}

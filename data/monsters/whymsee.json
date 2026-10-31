@@ -1,0 +1,40 @@
+{
+ "id": "whymsee",
+ "name": "Whymsee",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, aquatique",
+ "traits": "**Amphibie.** Whymsee peut respirer l'air et l'eau.\n**Découpe intérieure.** Le caractéristique d'incantation de Whymsee est Sagesse (save spell DD 13, +5 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Injonction, Création ou destruction d'eau\n- 1/jour chacun : Éclair, Tentacules noirs d'Evard\n- 3/jour chacun : Contrôle de l'eau, Ténèbres, Respiration aquatique, Marche sur l'eau",
+ "actionsText": "**Touche tonnerre.** Attaque de sort au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 27 (5d10) dégâts de tonnerre.\n**Nuage d'encre.** Sous l'eau, Whymsee peut expulser un nuage d'encre dans un rayon de 6 m. Le nuage s'étend autour des coins, et cette zone est 2 pour des créatures autres que les prêtres kraken ou un kraken. Chaque créature autre qu'un prêtre kraken ou un kraken qui termine son tour là doit réussir sur un DD 14 jet de sauvegarde de Constitution, en prenant 9 (2d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Un fort courant disperse le nuage, qui, autrement, disparaît à la fin du prochain virage de Whymsee.\n**Défense de la coquille.** Whymsee se retire dans sa coquille. Jusqu'à ce qu'elle émerge, elle gagne un bonus de +4 à CA et a un avantage sur Force et jet de sauvegarde de Constitution. Alors que dans sa coquille, Whymsee est à terre, sa vitesse est 0 et ne peut pas augmenter, elle a un désavantage sur jet de sauvegarde de Dextérité, il ne peut pas prendre des réactions, et la seule action qu'elle peut prendre est un action bonus à émerger.",
+ "attacks": [
+  {
+   "name": "Touche tonnerre",
+   "bonus": 5,
+   "damage": "5d10",
+   "type": "tonnerre"
+  }
+ ],
+ "portrait": "/data/images/5cba3673f5_monstre-whymsee.webp",
+ "notes": "",
+ "source": "Locathah Rising (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques"
+}

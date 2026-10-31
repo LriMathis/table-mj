@@ -1,0 +1,48 @@
+{
+ "id": "chaise-mimique",
+ "name": "Mimic Chair",
+ "type": "Monstruosité (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 30,
+ "hpFormula": "9d8+18",
+ "vitesse": "4,50 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 5,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Changeur de forme.** L'imitateur peut utiliser son action pour se polymorphiser en un objet ou revenir dans sa forme amorphe vraie. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**Adhésif (formulaire d'objet seulement).** Le mimique adhère à tout ce qui le touche. Une créature énorme ou plus petite a adhéré à l'imitation est également agrippé par elle (évasion DD 10). tests de caractéristique fait pour échapper à ce grappin ont un désavantage.\n**Fausse apparence (formulaire d'objet seulement).** Bien que l'imite reste immobile, il est indistinguable d'un objet ordinaire.\n**Grappeur.** L'imite a un avantage sur jets d'attaque contre toute créature agrippé par elle.",
+ "actionsText": "**Pseudopod.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants. Si l'imit est en forme d'objet, la cible est soumise à son caractère adhésif.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 4 (1d8) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/00ba187db9_monstre-chaise-mimique.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Chaise mimique",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +5",
+ "immunities": "acide",
+ "conditionImmunities": "à terre"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "devourer",
+ "name": "Devourer",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 16,
+ "hp": 189,
+ "hpFormula": "18d10+90",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 20,
+  "INT": 13,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Nature inhabituelle.** Un dévorant n'a pas besoin d'air, ni de boire, ni de dormir.",
+ "actionsText": "**Multiattaques.** Le dévorant fait deux attaques de griffe et peut utiliser soit Imprison Soul ou Soul Rend, si disponible.\n**Griffe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants plus 21 (6d6) dégâts nécrotiques.\n**Emprisonner l'âme.** Le dévorant choisit un Humanoïde vivant avec 0 points de vie qu'il peut voir à l'intérieur de 9 m. Cette créature est téléportée à l'intérieur de la cage thoracique du dévorant et emprisonnée là-bas. Alors qu'elle est emprisonnée de cette façon, la créature est entravé et a un désavantage sur la mort jet de sauvegarde. Si la créature meurt alors qu'elle est emprisonnée, le dévorant reprend 25 points de vie et recharge immédiatement Soul Rend. De plus, au début de son prochain tour, le dévorant régurgite la créature tuée comme un action bonus, et la créature devient un mort-vivant. Si la victime avait 2 dés de vie ou moins, elle devient Zombi. S'il avait 3 à 5 dés de vie, il devient un Goule. Sinon, il devient un Nécrophage. Un dévorant ne peut emprisonner qu'une créature à la fois.\n**Soul Rend (Recharge 6).** Le dévorant crée un vortex d'énergie drainante dans un rayon 6 m centré sur lui-même. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Constitution, en prenant 44 (8d10) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/bd474aec24_monstre-devourer.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

@@ -166,8 +166,32 @@ def load_chars(cid=None):
     return load_dir(chars_dir(cid))
 
 
+_MON_CACHE = {}  # path -> (mtime_ns, size, monster): the bestiary has hundreds of files, read on every player poll
+
+
 def load_mons():
-    return load_dir(shared_dir("monsters"))
+    """Bestiary, re-reading only the files that changed. The returned monsters must not be modified."""
+    d = shared_dir("monsters")
+    out, seen = {}, set()
+    for e in sorted(os.scandir(d), key=lambda e: e.name):   # scandir: stat comes with the listing on Windows (much faster)
+        if not e.name.endswith(".json"):
+            continue
+        path = e.path
+        try:
+            st = e.stat()
+        except OSError:
+            continue
+        seen.add(path)
+        hit = _MON_CACHE.get(path)
+        if not hit or hit[:2] != (st.st_mtime_ns, st.st_size):
+            hit = (st.st_mtime_ns, st.st_size, read_json(path, None))
+            _MON_CACHE[path] = hit
+        obj = hit[2]
+        if isinstance(obj, dict) and obj.get("id"):
+            out[obj["id"]] = obj
+    for path in set(_MON_CACHE) - seen:
+        del _MON_CACHE[path]
+    return out
 
 
 def load_camp():
@@ -269,6 +293,44 @@ def merge_campaign(obj, base):
                 log.sort(key=lambda e: -(e.get("t") or 0))
                 del log[300:]
                 merged = True
+        elif p["kind"] == "deck-draw":
+            draws = obj.setdefault("deck", {}).setdefault("draws", [])
+            i = next((k for k, x in enumerate(draws) if x.get("id") == p["entry"]["id"]), None)
+            if i is None:
+                draws.append(p["entry"])
+                draws.sort(key=lambda x: -(x.get("t") or 0))
+                del draws[300:]
+                merged = True
+            elif draws[i] != p["entry"]:
+                draws[i] = p["entry"]
+                merged = True
+        elif p["kind"] == "shop-req":   # a purchase / resale request (merged by id)
+            reqs = obj.setdefault("shops", {}).setdefault("requests", [])
+            i = next((k for k, x in enumerate(reqs) if x.get("id") == p["entry"]["id"]), None)
+            if i is None:
+                reqs.append(p["entry"])
+                reqs.sort(key=lambda x: -(x.get("t") or 0))
+                del reqs[200:]
+                merged = True
+            elif reqs[i] != p["entry"]:
+                reqs[i] = p["entry"]
+                merged = True
+        elif p["kind"] == "shop-stock":   # stock of a shop item after a sale
+            for s in (obj.get("shops") or {}).get("list") or []:
+                if s.get("id") != p["shop"]:
+                    continue
+                for it in s.get("items") or []:
+                    if it.get("uid") == p["uid"] and it.get("qty") != p["qty"]:
+                        it["qty"] = p["qty"]
+                        merged = True
+        elif p["kind"] == "cb-eco":   # a player's action economy on their combatant (found by uid: the list may be re-sorted)
+            c = obj.get("combat") or {}
+            if p.get("at") != [c.get("round"), c.get("turn")]:
+                continue   # the GM has moved on to another turn since: the turn's economy was reset
+            for cb in c.get("list") or []:
+                if cb.get("uid") == p["uid"] and cb.get("eco") != p["value"]:
+                    cb["eco"] = p["value"]
+                    merged = True
         elif p["kind"] == "camp-set":
             if get_path(obj, p["path"]) != p["value"]:
                 set_path(obj, p["path"], p["value"])

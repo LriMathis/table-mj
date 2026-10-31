@@ -1,0 +1,46 @@
+{
+ "id": "salida",
+ "name": "Salida",
+ "type": "Humanoïde (yuan-ti)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Résistance magique.** Salida a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** Le caractéristique d'incantation de Salida est Charisme (Spell save DD 12). Salida peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Amitié avec les animaux (snakes seulement)\n- 3/jour chacun : Bouffée de poison, Suggestion",
+ "actionsText": "**Multiattaques.** Salida fait deux attaques à la mêlée.\n**Scimitar.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts tranchants.\n**Saubèche.** Attaque d'arme à distance : +3 au toucher, portée 24/96 m., une cible. Touché : 4 (1d6 + 1) dégâts perforants plus 7 (2d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/5b7ddf74c2_monstre-salida.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "skills": "Tromperie +6, Perception +3, Discrétion +3, Survie +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

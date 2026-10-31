@@ -1,0 +1,46 @@
+{
+ "id": "emerald-claw-chevalier",
+ "name": "Emerald Claw Knight",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 18,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, nain",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le chevalier fait deux attaques, en utilisant Flail ou Javelin dans n'importe quelle combinaison.\n**Feu.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts contondants —plus 4 (1d8) dégâts nécrotiques si le chevalier est Bloodié – et la cible a un désavantage sur son prochain jet d'attaque avant le début du prochain tour du chevalier.\n**Javelin.** Jet d'attaque au corps à corps ou à distance : +5, allonge 1,50 m ou portée 9/36 m. Touché : 6 (1d6 + 3) dégâts perforants —plus 4 (1d8) dégâts nécrotiques si le chevalier est en sang.",
+ "attacks": [
+  {
+   "name": "Feu",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/4e7b80ebf3_monstre-emerald-claw-chevalier.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "aka": "Emerald Claw chevalier",
+ "saves": "SAG +2",
+ "skills": "Athlétisme +5, Perception +2"
+}

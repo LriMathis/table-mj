@@ -1,0 +1,50 @@
+{
+ "id": "dolgrim",
+ "name": "Dolgrim",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "hp": 13,
+ "hpFormula": "3d6+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "profond, gobelin",
+ "traits": "**Dual Conscience.** Le dolgrim présente un avantage sur jet de sauvegarde par rapport à aveuglé, charmé, assourdi, effrayé, étourdi et inconscient.",
+ "actionsText": "**Multiattaques.** Le dolgrim fait trois attaques.\n**Matinée.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.\n**Acrobatie des mains.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/67089eeab4_monstre-dolgrim.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle, Bouclier"
+}

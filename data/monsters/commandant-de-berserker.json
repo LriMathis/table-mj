@@ -1,0 +1,48 @@
+{
+ "id": "commandant-de-berserker",
+ "name": "Berserker Commander",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 19,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 9
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun",
+ "traits": "**Frénésie sanglante.** Alors qu'en sang, le berserker a avantage sur jets d'attaque et jet de sauvegarde.",
+ "actionsText": "**Multiattaques.** Le berserker fait trois attaques, en utilisant Greataxe ou Javelin dans n'importe quelle combinaison.\n**Grandaxe.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 10 (1d12 + 4) dégâts tranchants, plus 10 (3d6) dégâts de tonnerre à la cible ou à une autre créature dans 1,50 m de la cible.\n**Javelin.** Jet d'attaque au corps à corps ou à distance : +7, allonge 1,50 m ou portée 9/36 m. Touché : 18 (4d6 + 4) dégâts perforants, et la vitesse de la cible diminue par 1,50 m jusqu'au prochain tour du berserker.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 7,
+   "damage": "1d12+4",
+   "type": "tranchant + tonnerre"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 7,
+   "damage": "4d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2bcde758cf_monstre-commandant-de-berserker.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Commandant de berserker",
+ "saves": "FOR +7, CON +7",
+ "skills": "Athlétisme +7, Perception +5",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Rush frénésie.** Chaque allié au sein de 9 m du berserker peut prendre une Réaction pour passer jusqu'à la moitié de la Vitesse de l'allié sans provoquer Opportunity Attacks. Le berserker peut également déplacer jusqu'à la moitié de sa vitesse sans provoquer Opportunity Attacks."
+}

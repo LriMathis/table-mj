@@ -1,0 +1,40 @@
+{
+ "id": "yeti-abominable",
+ "name": "Yeti abominable",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 137,
+ "hpFormula": "11d12+66",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 9,
+  "SAG": 13,
+  "CHA": 9
+ },
+ "skills": "Discrétion +4, Perception +5",
+ "immunities": "froid",
+ "senses": "vision dans le noir 18 m, Perception passive 15",
+ "languages": "yeti",
+ "traits": "**Camouflage dans la neige.** Le yeti est avantagé lors des tests de Dextérité (Discrétion) effectués en terrain enneigé.\n**Odorat aiguisé.** Le yeti est avantagé lors des tests de Sagesse (Perception) basés sur l'odorat.\n**Peur du feu.** Si le yeti subit des dégâts de feu, il est désavantagé lors de ses jets d'attaque et de ses tests de caractéristique jusqu'à la fin de son prochain tour.",
+ "actionsText": "**Attaques multiples.** Le yeti peut utiliser son attaque de regard glaçant et faire deux attaques de griffes.\n**Griffe.** *Attaque d'arme au corps à corps :* +11 pour toucher, allonge 1,50 m, une cible. *Touché :* 14 (2d6+7) dégâts tranchants plus 7 (2d6) dégâts de froid.\n**Regard glaçant.** Le yeti vise une créature située dans son champ de vision et dans un rayon de 9 mètres. Si elle peut voir le yeti, elle doit réussir un jet de sauvegarde de Constitution DD 18 contre cette magie, sans quoi elle reçoit 21 (6d6) dégâts de froid et reste paralysée pendant 1 minute, à moins qu'elle ne soit immunisée contre le froid. La cible peut refaire ce jet de sauvegarde à la fin de chacun de ses tours et met un terme à l'effet dès qu'elle le réussit. Si elle réussit son jet de sauvegarde ou si l'effet se termine pour elle, elle est immunisée contre le regard glaçant de ce yeti pendant 1 heure.\n**Souffle glacial (recharge 6).** Le yeti exhale un cône d'air glacé de 9 mètres. Chaque créature présente dans la zone doit faire un jet de sauvegarde de Constitution DD 18. Celles qui échouent subissent 45 (10d8) dégâts de froid, les autres la moitié seulement.",
+ "portrait": "/data/images/505487538e_monstre-yeti-abominable.png",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 307 · image : internet",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 11,
+   "damage": "2d6+7+2d6",
+   "type": "tranchant + froid"
+  }
+ ]
+}

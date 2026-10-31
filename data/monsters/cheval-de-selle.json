@@ -1,0 +1,37 @@
+{
+ "id": "cheval-de-selle",
+ "name": "Cheval de selle",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 13,
+ "hpFormula": "2d10+2",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Sabots.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Sabots",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8d0edc91e1_monstre-cheval-de-selle.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

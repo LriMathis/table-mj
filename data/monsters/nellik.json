@@ -1,0 +1,48 @@
+{
+ "id": "nellik",
+ "name": "Nellik",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 123,
+ "hpFormula": "13d10+52",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 11,
+  "CON": 19,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 15
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "abyssal, infernal, télépathie 18 m",
+ "traits": "**Résistance magique.** Nellik a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes de Nellik sont magiques.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Nellik est Charisme. Nellik peut lancer innéement les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Ténèbres, Détection de la magie, Dissipation de la magie, Invisibilité (autoseulement), Image miroir",
+ "actionsText": "**Multiattaques.** Nellik fait deux attaques à la mêlée, ou il fait une attaque à la mêlée et des téléports avant ou après l'attaque.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants. Si la cible est une créature, elle doit réussir sur une DD 16 jet de sauvegarde de Constitution ou prendre 5 (2d4) dégâts tranchants au début de chacun de ses tours en raison d'une blessure fiendeuse. Chaque fois que Nellik frappe la cible blessée avec cette attaque, les dégâts infligés par la blessure augmentent de 5 (2d4). N'importe quelle créature peut prendre une action pour stagner la plaie avec un succès DD 13 test de Sagesse (Médecine). La blessure se ferme aussi si la cible reçoit une guérison magique.\n**Grandaxe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 19 (2d12 + 6) dégâts tranchants ; si la cible est une Aberration, elle prend un 6 (1d12) dégâts tranchants supplémentaire, et si elle est en train de faire du mal à une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou ses extrémités de grappin.\n**Téléportation.** Nellik téléporte magiquement, avec tout équipement qu'il porte ou transporte, jusqu'à 18 m dans un espace inoccupé qu'il peut voir.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grandaxe",
+   "bonus": 10,
+   "damage": "2d12+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ca6b261380_monstre-nellik.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Intimidation +6, Perception +4, Discrétion +4",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné"
+}

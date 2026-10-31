@@ -1,0 +1,47 @@
+{
+ "id": "terran-magen",
+ "name": "Terran Magen",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 21,
+ "hp": 121,
+ "hpFormula": "22d8+22",
+ "vitesse": "9 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 18,
+  "CHA": 10
+ },
+ "senses": "Perception passive 17",
+ "languages": "comprend Common plus deux autres langues mais ne peut pas parler",
+ "traits": "**Désintégration.** Si le mage meurt, il se désintègre en poussière, laissant derrière lui tout ce qu'il portait ou transportait.\n**Résistance magique.** Le magen a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le magen fait deux attaques, en utilisant Hammer Fist ou Thunderous Boom dans n'importe quelle combinaison.\n**Châssis.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 16 (3d8 + 3) dégâts contondants plus 13 (3d8) dégâts de force.\n**Boom tonnerre.** Jet d'attaque à distance : +7, portée 18 m. Touché : 28 (8d6) dégâts de tonnerre.\n**Détection orthographique.** Le magen lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Main de mage, Réparation, Prestidigitation\n- 1/jour chacun : Désintégration, Terraformage, Façonnage de la pierre",
+ "attacks": [
+  {
+   "name": "Châssis",
+   "bonus": 6,
+   "damage": "3d8+3",
+   "type": "contondant + force"
+  },
+  {
+   "name": "Boom tonnerre",
+   "bonus": 7,
+   "damage": "8d6",
+   "type": "tonnerre"
+  }
+ ],
+ "portrait": "/data/images/8cc9021618_monstre-terran-magen.webp",
+ "notes": "",
+ "source": "Netheril's Fall (5e.tools, traduction automatique)",
+ "saves": "SAG +7",
+ "skills": "Perception +7",
+ "immunities": "poison, tonnerre",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

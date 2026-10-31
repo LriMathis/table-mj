@@ -1,0 +1,46 @@
+{
+ "id": "geant-du-feu",
+ "name": "Géant du feu",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 162,
+ "hpFormula": "13d12+78",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 9,
+  "CON": 23,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "saves": "DEX +3, CON +10, CHA +5",
+ "skills": "Athlétisme +11, Perception +6",
+ "immunities": "feu",
+ "senses": "Perception passive 16",
+ "languages": "gigant",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le géant effectue deux attaques, réparties à sa guise entre Épée de feu et Lancer de marteau.\n**Épée de feu.** Corps à corps : +11, allonge 3 m. Touché : 21 (4d6 + 7) dégâts tranchants plus 10 (3d6) dégâts de feu.\n**Lancer de marteau.** À distance : +11, portée 18/72 m. Touché : 23 (3d10 + 7) dégâts contondants plus 4 (1d8) dégâts de feu, et la cible est repoussée d’un maximum de 4,50 m du géant et subit le Désavantage à son prochain jet d’attaque intervenant avant la fin de son propre tour suivant.",
+ "attacks": [
+  {
+   "name": "Épée de feu",
+   "bonus": 11,
+   "damage": "4d6+7+3d6",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Lancer de marteau",
+   "bonus": 11,
+   "damage": "3d10+7+1d8",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/7ee4f03ed3_monstre-geant-du-feu.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 153"
+}

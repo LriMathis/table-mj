@@ -1,0 +1,40 @@
+{
+ "id": "mary-greymalkin",
+ "name": "Mary Greymalkin",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Perception passive 12",
+ "languages": "abyssal, céleste, commun, elfique, infernal, sylvestre",
+ "traits": "**Matériel spécial.** Mary porte un Bracelets de défense et un Anneau de protection et porte un De plusieurs choses\n**Présence de fièvre (recharge après un repos court).** Mary peut faire en sorte que chaque créature au sein de 3 m d'elle réussisse sur un DD 12 jet de sauvegarde de Sagesse ou devienne charmé ou effrayé par son (le choix de Mary) jusqu'à la fin de son prochain tour.\n**Ancêtre fécale.** Mary a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas la mettre au lit.\n**Détection orthographique.** Mary est une épeautre de niveau 5. Son caractéristique d'incantation est Charisme (save spell DD 12, +4 au toucher avec attaques de sort). Elle retrouve son emplacements de sort dépensé quand elle termine un repos court ou long. Elle connaît les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Contact glacial, Décharge occulte, Main de mage\n- Niveau 3 (3 emplacements) : Ténèbres, Maléfice, Motif hypnotique, Foulée brumeuse, Force fantasmagorique, Serviteur invisible",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c55bbad4de_monstre-mary-greymalkin.webp",
+ "notes": "",
+ "source": "Lost Laboratory of Kwalish (5e.tools, traduction automatique)",
+ "caNote": "Bracelets de défense, Anneau de protection",
+ "saves": "SAG +4, CHA +4",
+ "skills": "Arcanes +4, Médecine +4, Nature +4, Religion +4"
+}

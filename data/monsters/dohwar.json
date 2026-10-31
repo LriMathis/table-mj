@@ -1,0 +1,39 @@
+{
+ "id": "dohwar",
+ "name": "Dohwar",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 10,
+ "hpFormula": "3d6",
+ "vitesse": "6 m, nage 6 m",
+ "stats": {
+  "FOR": 5,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, Dohwar, télépathie 9 m (see also Merging below)",
+ "traits": "**Fusion.** Deux dohwars peuvent avoir une conversation télépathique l'un avec l'autre et une troisième créature de leur choix, à condition que les trois soient dans 9 m l'un de l'autre.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.\n**Coulisse (Psioniques).** Le dohwar lance le sort suivant, ne nécessitant aucun composant du sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 11) :\n- 3/jour : Détection des pensées",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/761bc6dece_monstre-dohwar.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "saves": "DEX +3, SAG +4",
+ "skills": "Tromperie +3, Perspicacité +4, Persuasion +3"
+}

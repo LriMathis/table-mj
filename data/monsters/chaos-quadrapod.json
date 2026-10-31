@@ -1,0 +1,39 @@
+{
+ "id": "chaos-quadrapod",
+ "name": "Chaos Quadrapod",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 36 m (aveugle au-delà de ce rayon), Perception passive 14",
+ "languages": "—",
+ "traits": "**Résistance magique.** Le quadrapod de chaos a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le quadrapode du chaos fait jusqu'à deux attaques de tentacules.\n**Tentacle.** Attaque d'arme au corps à corps : +6 au toucher, allonge 4,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants. Si la cible est une créature, c'est agrippé (évasion DD 14). Jusqu'à ce que ce grappin se termine, la cible est entravé. Le quadrapod du chaos ne peut pas atteindre plus de deux cibles à la fois.\n**Chaos Cloud (recharge après un repos court ou long).** Le quadrapod du chaos tire un nœud de lumière éthérée qui explose à un point qu'il peut voir à l'intérieur de 18 m. Chaque créature dans une sphère 6 m -radius centrée sur ce point doit réussir sur une DD 14 jet de sauvegarde de Charisme ou être étourdi jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e5ac300408_monstre-chaos-quadrapod.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Acrobaties +5, Perception +4"
+}

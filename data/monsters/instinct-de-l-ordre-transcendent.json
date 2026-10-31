@@ -1,0 +1,42 @@
+{
+ "id": "instinct-de-l-ordre-transcendent",
+ "name": "Transcendent Order Instinct",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "senses": "Perception passive 15",
+ "languages": "Commun plus une langue de plus",
+ "traits": "**Défense non armée.** Bien que l'instinct ne porte ni armure ni bouclier, son CA inclut son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** L'instinct fait trois attaques frappe à mains nues.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/6aa5978061_monstre-instinct-de-l-ordre-transcendent.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Instinct de l'ordre Transcendent",
+ "caNote": "Défense non armée",
+ "saves": "SAG +5, CHA +3",
+ "skills": "Acrobaties +5, Perception +5, Représentation +3",
+ "reactions": "**Défaut de sélectionner Blow.** En réponse à un coup de melee jet d'attaque, l'instinct dévie partiellement le coup. Les dégâts que l'instinct retire de l'attaque sont réduits par 1d6."
+}

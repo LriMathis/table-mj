@@ -1,0 +1,47 @@
+{
+ "id": "otyugh-mutate",
+ "name": "Otyugh Mutate",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 16,
+ "hp": 76,
+ "hpFormula": "8d10+32",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "Otyugh, télépathie 36 m",
+ "traits": "**Respiration virale.** Le gaz nocif de la digestion du mutat des repas précédents jaillit de sa bouche. Au début du tour du mutat, chaque créature de 1,50 m doit réussir sur un DD 15 jet de sauvegarde de Constitution ou prendre 3 (1d6) dégâts de poison.",
+ "actionsText": "**Multiattaques.** Le mutat fait deux attaques Bite ou Tentacle. Il peut remplacer une de ces attaques par Chitin Slam.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution ou avoir l'état empoisonné. Toutes les 24 heures qui s'écoulent, la cible doit répéter la jet de sauvegarde, réduisant sa maximum de points de vie de 5 (1d10) en cas de défaillance. Sur une sauvegarde réussie, la cible n'est plus empoisonné. La cible meurt si son maximum de points de vie est réduit à 0. Cette réduction par rapport à la maximum de points de vie de la cible dure jusqu'à ce qu'elle n'ait plus l'état empoisonné.\n**Tentacle.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants, et si la cible est une créature moyenne ou plus petite, il a l'état agrippé (évasion DD 15) et l'état entravé jusqu'à ce que ce grappin se termine. Le mutat a deux tentacules qui peuvent battre une cible chacun.\n**Chitine Slam.** Le mutat cible une créature il se bat, claquant la créature contre son plat chitineux. La créature doit réussir sur un DD 15 jet de sauvegarde de Constitution ou prendre 16 (3d10) dégâts contondants et avoir l'état étourdi jusqu'à la fin du prochain tour du mutat.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/fa0b5b4d1f_monstre-otyugh-mutate.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +7, CON +7",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

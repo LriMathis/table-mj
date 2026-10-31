@@ -1,0 +1,40 @@
+{
+ "id": "varnyr",
+ "name": "Varnyr",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 15,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, elfique",
+ "traits": "**Ancêtre fécale.** Varnyr a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas mettre Varnyr à dormir.",
+ "actionsText": "**Multiattaques.** Varnyr fait deux attaques.\n**Cane.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Cane",
+   "bonus": 3,
+   "damage": "1d4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/649d5affe4_monstre-varnyr.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "skills": "Tromperie +5, Perspicacité +4, Persuasion +5",
+ "reactions": "**Parry.** Varnyr ajoute 2 à leur CA contre une attaque à la mêlée qui l'aurait touché. Pour ce faire, Varnyr doit voir l'agresseur et utiliser une arme à la mêlée."
+}

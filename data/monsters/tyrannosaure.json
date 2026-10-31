@@ -1,0 +1,45 @@
+{
+ "id": "tyrannosaure",
+ "name": "Tyrannosaure",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "non aligné",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 13,
+ "hp": 136,
+ "hpFormula": "13d12+52",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 19,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "saves": "FOR +10, SAG +4",
+ "skills": "Perception +4",
+ "senses": "Perception passive 14",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le tyrannosaure effectue une attaque de Morsure et une de Queue.\n**Morsure.** Corps à corps : +10, allonge 3 m. Touché : 33 (4d12 + 7) dégâts perforants. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 17). Tant qu’elle est Agrippée, la cible subit l’état Entravé et ne peut pas être ciblée par la Queue du tyrannosaure.\n**Queue.** Corps à corps : +10, allonge 4,50 m. Touché : 25 (4d8 + 7) dégâts contondants. Si la cible est une créature de taille TG ou inférieure, elle subit l’état À terre.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 10,
+   "damage": "4d12+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 10,
+   "damage": "4d8+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d54ddc66e0_monstre-tyrannosaure.png",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet"
+}

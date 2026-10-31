@@ -1,0 +1,38 @@
+{
+ "id": "torve",
+ "name": "Torve",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvaise",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 9,
+  "SAG": 8,
+  "CHA": 6
+ },
+ "skills": "Athlétisme +5, Discrétion +5, Perception +3",
+ "senses": "Vision aveugle 9 m, Perception passive 13",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Gourdin en os.** Corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts contondants plus 2 (1d4) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Gourdin en os",
+   "bonus": 5,
+   "damage": "1d6+3+1d4",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/cea4251ab8_monstre-torve.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 283"
+}

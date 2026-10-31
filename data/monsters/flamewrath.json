@@ -1,0 +1,39 @@
+{
+ "id": "flamewrath",
+ "name": "Flamewrath",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 105,
+ "hpFormula": "14d8+42",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, igné",
+ "traits": "**En flammes.** Pour l'ignifugation, la version chaude du sort Bouclier de feu a une durée de \"jusqu'à ce qu'elle soit dissipée\". Le bouclier brûle pendant 10 minutes après la mort du ignifugation, en consommant son corps.\n**Détection orthographique.** La flamme est un épeautre de niveau 7. Son caractéristique d'incantation est Charisme (save spell DD 14, +6 au toucher avec attaques de sort). Il connaît les sorts de sorciers suivants:\n- Sorts mineurs (à volonté) : Contrôle des flammes, Trait de feu, Amis, Lumière, Illusion mineure\n- Niveau 1 (4 emplacements) : Mains brûlantes, Couleurs dansantes, Armure de mage\n- Niveau 2 (3 emplacements) : Rayon ardent, Suggestion\n- Niveau 3 (3 emplacements) : Boule de feu, Motif hypnotique\n- Niveau 4 (1 emplacements) : Bouclier de feu (voir Wreathed in Flame)",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/634490b2f5_monstre-flamewrath.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "skills": "Arcanes +3, Religion +3",
+ "immunities": "feu"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "zombi-chat",
+ "name": "Zombie Cat",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**Fortitude non-morte.** Si le dégâts réduit le chat à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + le dégâts pris, à moins que le dégâts soit radieux ou d'un coup critique. Sur un succès, le chat tombe à 1 points de vie.",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/99612bc6a6_monstre-zombi-chat.webp",
+ "notes": "",
+ "source": "PSI (5e.tools, traduction automatique)",
+ "aka": "Zombi chat",
+ "skills": "Perception +3, Discrétion +4"
+}

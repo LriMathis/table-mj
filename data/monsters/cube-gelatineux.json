@@ -1,0 +1,39 @@
+{
+ "id": "cube-gelatineux",
+ "name": "Cube gélatineux",
+ "type": "Vase",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "2",
+ "xp": 450,
+ "ca": 6,
+ "hp": 63,
+ "hpFormula": "6d10+30",
+ "vitesse": "4,5 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 3,
+  "CON": 20,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "immunities": "acide",
+ "conditionImmunities": "à terre, assourdi, aveuglé, charmé, épuisement, effrayé",
+ "senses": "Vision aveugle 18 m, Perception passive 8",
+ "languages": "aucune",
+ "traits": "**Cube de vase.** Le cube emplit la totalité de son espace et il est transparent. D’autres créatures peuvent entrer dans cet espace, mais ce faisant, elles se soumettent à l’Enveloppement du cube en subissant le Désavantage au jet de sauvegarde. Les créatures dans le cube bénéficient d’un Abri total, sachant que le cube peut contenir une créature de taille G ou jusqu’à quatre créatures de taille M ou P. Au prix d’une action, une créature dans un rayon de 1,50 m du cube peut en extraire une autre ou un objet à condition de réussir un test de Force (Athlétisme) DD 12, l’opération lui infligeant 10 (3d6) dégâts d’acide.\n**Transparent.** Même lorsque rien ne cache le cube, une créature doit réussir un test de Sagesse (Perception) DD 15 pour remarquer sa présence si elle ne l’a pas déjà vu se déplacer ni agir.",
+ "actionsText": "**Pseudopode.** Corps à corps : +4, allonge 1,50 m. Touché : 12 (3d6 + 2) dégâts d’acide.\n**Enveloppement.** Le cube se déplace dans les limites de sa Vitesse sans provoquer d’attaques d’Opportunité. Il peut se déplacer à travers les espaces de créatures de taille G ou inférieure s’il a encore de la place pour les accueillir dans sa masse (voir le trait Cube de vase). JS Dextérité : DD 12, chaque créature dans l’espace de laquelle le cube pénètre pour la première fois de ce déplacement. Échec : 10 (3d6) dégâts d’acide, et la cible est enveloppée. Une cible enveloppée s’asphyxie, ne peut pas lancer de sorts à composante verbale, subit l’état Entravé, ainsi que 10 (3d6) dégâts d’acide au début de chacun des tours du cube. Quand le cube se déplace, la cible enveloppée l’accompagne. Une créature enveloppée peut tenter de s’extraire du cube au prix d’une action et d’un test de Force (Athlétisme) DD 12. En cas de réussite, la cible s’évade dans l’espace inoccupé le plus proche. Réussite : demi-dégâts, et la cible se déplace en un espace inoccupé dans un rayon de 1,50 m du cube. S’il n’y a pas d’espace inoccupé dans ce rayon, la cible rate en fait son JS.",
+ "attacks": [
+  {
+   "name": "Pseudopode",
+   "bonus": 4,
+   "damage": "3d6+2",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/e01f65f4a9_monstre-cube-gelatineux.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 297"
+}

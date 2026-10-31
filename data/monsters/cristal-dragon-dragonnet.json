@@ -1,0 +1,42 @@
+{
+ "id": "cristal-dragon-dragonnet",
+ "name": "Crystal Dragon Wyrmling",
+ "type": "Dragon (gemme)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m, creusement 4,50 m, escalade 9 m, vol 18 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 15",
+ "languages": "draconique, télépathie 36 m",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 7 (1d10 + 2) dégâts perforants plus 2 (1d4) dégâts radiants.\n**Scintillation du souffle (Recharge 5-6).** Le dragon exhale un éclat brillant dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 12 jet de sauvegarde de Constitution, en prenant 18 (4d8) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Le dragon gagne alors 5 points de vie temporaires en absorbant une partie de l'énergie rayonnante.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation :\n- À volonté : Lumières dansantes, Assistance",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/01185e7ede_monstre-cristal-dragon-dragonnet.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Cristal dragon dragonnet",
+ "caNote": "armure naturelle",
+ "saves": "DEX +3, CON +4, SAG +3, CHA +4",
+ "skills": "Perception +5, Discrétion +5, Survie +3",
+ "resistances": "froid, radiant"
+}

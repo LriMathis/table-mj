@@ -1,0 +1,50 @@
+{
+ "id": "nafik",
+ "name": "Nafik",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 13,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun",
+ "traits": "**Résistance légendaire (2/jour).** Si Nafik échoue avec un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Nafik a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Réjuvenance.** Lorsqu'il est détruit, Nafik gagne un nouveau corps en 24 heures si son cœur est intact, récupérant tout son points de vie. Le nouveau corps apparaît dans un espace inoccupé au sein de 1,50 m du cœur de Nafik.",
+ "actionsText": "**Multiattaques.** Nafik peut utiliser son Épouvantable Glare et fait un Rotting Fist ou une attaque de faisceau impoli.\n**Fistillation de rotation.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants plus 21 (6d6) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être maudite avec la pourriture momie. La cible maudite ne peut pas récupérer points de vie, et son maximum de points de vie diminue de 10 (3d6) toutes les 24 heures qui s'écoulent. Si la malédiction réduit le maximum de points de vie à 0, la cible meurt et son corps se transforme en poussière. La malédiction dure jusqu'à ce qu'elle soit enlevée par le sort Délivrance des malédictions ou toute autre magie.\n**Bâton impie.** Attaque de sort à distance : +6 au toucher, portée 36 m, une cible. Touché : 28 (8d6) dégâts nécrotiques, et la prochaine jet d'attaque faite contre cette cible avant la fin du prochain tour de Nafik a avantage.\n**C'est terrible..** Nafik cible une créature il peut voir en lui-même 18 m. La cible doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'à la fin du prochain tour de Nafik. Une cible qui réussit sur le jet de sauvegarde est à l'abri de l'épouvantable glare de Nafik pour les prochaines 24 heures.\n**Détection orthographique.** Nafik lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Thaumaturgie\n- 1/jour : Fléau d'insectes\n- 2/jour chacun : Injonction, Silence",
+ "attacks": [
+  {
+   "name": "Fistillation de rotation",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Bâton impie",
+   "bonus": 6,
+   "damage": "8d6",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/ed83077096_monstre-nafik.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +3, SAG +6",
+ "skills": "Histoire +3, Religion +3",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné"
+}

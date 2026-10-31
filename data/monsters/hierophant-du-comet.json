@@ -1,0 +1,49 @@
+{
+ "id": "hierophant-du-comet",
+ "name": "Hierophant of the Comet",
+ "type": "Humanoïde (occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 153,
+ "hpFormula": "18d8+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 13,
+  "CON": 18,
+  "INT": 15,
+  "SAG": 17,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 13",
+ "languages": "Commun plus deux langues, télépathie 18 m",
+ "traits": "**Voix de la comète (1/jour).** Le hiérarchique peut lancer Contact avec un autre plan, en utilisant Charisme comme caractéristique d'incantation.\n**Résistance magique.** Le hiérophant a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Bouclier de pensée.** Les pensées du hiérarchique ne peuvent être lues que si le hiérarchique le permet.",
+ "actionsText": "**Multiattaques.** Le hiérogénien fait deux attaques à la hache du Herald ou trois attaques à la comète.\n**Axe d'Herald.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 11 (1d12 + 5) dégâts tranchants plus 10 (3d6) dégâts nécrotiques.\n**Comète Blast.** Attaque de sort à distance : +9 au toucher, portée 36 m, une cible. Touché : 16 (2d10 + 5) dégâts de force.\n**Étoile tout-consommation (Recharge 6).** Le hiérophant évoque une manifestation de l'étoile tout-consommant : une lumière brillante et des cris hantants qui remplissent une sphère 6 m -radius centrée sur un point que le hiérophant peut voir en lui-même. Chaque créature dans la sphère a les conditions aveuglé et assourdi. Chaque créature qui entre dans la sphère pour la première fois sur un tour ou commence son tour là doit faire un DD 17 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, une créature prend 27 (6d8) dégâts psychiques et a l'état neutralisé jusqu'au début de son prochain tour. Une créature ne prend que la moitié de ces dégâts pour une sauvegarde réussie. La manifestation persiste jusqu'à ce que le hiérarchique meurt, a l'état neutralisé, utilise un action bonus pour mettre fin à l'effet, ou encore utilise cette action.\n**Détection orthographique.** Le hiérophant lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection des pensées, Main de mage, Thaumaturgie\n- 1/jour chacun : Porte dimensionnelle, Suggestion de groupe",
+ "attacks": [
+  {
+   "name": "Axe d'Herald",
+   "bonus": 9,
+   "damage": "1d12+5",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Comète Blast",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/0dbc9ab5a3_monstre-hierophant-du-comet.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Hierophant du Comet",
+ "caNote": "Breastplate",
+ "saves": "SAG +7, CHA +9",
+ "skills": "Arcanes +10, Tromperie +9, Persuasion +9, Religion +6",
+ "resistances": "psychique",
+ "bonusActions": "**La faim de l'étoile.** Le hiérophant cible une créature à l'intérieur de 9 m du centre de son étoile tout-consommant. La cible doit réussir sur un DD 17 jet de sauvegarde de Force ou être tirée vers 9 m vers le centre de l'étoile tout-consommation."
+}

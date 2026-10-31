@@ -1,0 +1,39 @@
+{
+ "id": "merrow-doublespeaker",
+ "name": "Merrow Doublespeaker",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "commun, Primordial (Aquan)",
+ "traits": "**Amphibie.** Le merrow peut respirer l'air et l'eau.\n**Mimétisme.** Le merrow peut imiter des voix et des sons d'animaux. Une créature qui entend les imitations peut dire qu'elles sont des imitations avec un DD 15 test de Sagesse (Perspicacité) réussi.",
+ "actionsText": "**Multiattaques.** Le merrow fait trois attaques de la Tail. Il peut remplacer l'une de ces attaques par une utilisation de Spellcasting pour lancer Injonction.\n**La queue a subi une rotation.** Jet d'attaque au corps à corps ou à distance : +6, allonge 1,50 m ou portée 6/18 m. Touché : 14 (3d6 + 4) dégâts perforants.\n**Détection orthographique.** Le Merrow lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Injonction, Main de mage, Illusion mineure",
+ "attacks": [
+  {
+   "name": "La queue a subi une rotation",
+   "bonus": 6,
+   "damage": "3d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c83c3d56c5_monstre-merrow-doublespeaker.webp",
+ "notes": "",
+ "source": "Lorwyn: First Light (5e.tools, traduction automatique)",
+ "saves": "DEX +5, CHA +5",
+ "skills": "Tromperie +5, Discrétion +5"
+}

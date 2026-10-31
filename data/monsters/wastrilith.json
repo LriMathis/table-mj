@@ -1,0 +1,49 @@
+{
+ "id": "wastrilith",
+ "name": "Wastrilith",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 157,
+ "hpFormula": "15d10+75",
+ "vitesse": "9 m, nage 24 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 18,
+  "CON": 21,
+  "INT": 19,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Amphibie.** Le guestrilith peut respirer l'air et l'eau.\n**Eau corrompue.** Au début de chacun des virages du guestrilith, l'eau exposée à l'intérieur de 9 m est souillée. Sous l'eau, cet effet obscurcit légèrement la zone jusqu'à ce qu'un courant la dissipe. L'eau dans les conteneurs reste corrompue jusqu'à ce qu'elle s'évapore.\nUne créature qui consomme cette mauvaise eau ou nage dans elle doit faire un DD 18 jet de sauvegarde de Constitution. Sur une sauvegarde réussie, la créature est à l'abri de l'eau sale pendant 24 heures. Sur une sauvegarde ratée, la créature prend 14 (4d6) dégâts de poison et est empoisonné pendant 1 minute. A la fin de ce temps, la créature empoisonné doit répéter la jet de sauvegarde. En cas d'échec, la créature prend 18 (4d8) dégâts de poison et est empoisonné jusqu'à ce qu'elle termine un repos long.\nSi un autre démon boit l'eau sale comme une action, il gagne 11 (2d10) points de vie temporaires.\n**Résistance magique.** Le guestrilith a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le guestrilith fait une attaque de Bite et deux attaques de Claw, et il utilise le Spout Grasping.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 30 (4d12 + 4) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 18 (4d6 + 4) dégâts tranchants.\n**Bouclier grenaille.** Le wastrith lance magiquement un jet d'eau à une créature qu'il peut voir à l'intérieur de 18 m. La cible doit faire un DD 17 jet de sauvegarde de Force, et elle a un désavantage si elle est sous l'eau. Sur une sauvegarde ratée, il prend 22 (4d8 + 4) dégâts d'acide et est tiré jusqu'à 18 m vers le guestrilith. Sur une sauvegarde réussie, il prend la moitié de ces dégâts et n'est pas tiré.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "4d12+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 9,
+   "damage": "4d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/297b37b505_monstre-wastrilith.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +9, CON +10",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Sous-titrage.** Si le guestrilith est sous l'eau, il fait que toute l'eau dans 18 m de lui est de 3 pour d'autres créatures jusqu'au début de son prochain tour."
+}

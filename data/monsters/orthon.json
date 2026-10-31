@@ -1,0 +1,51 @@
+{
+ "id": "orthon",
+ "name": "Orthon",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 105,
+ "hpFormula": "10d10+50",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 16,
+  "CON": 21,
+  "INT": 15,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 9 m, Perception passive 20",
+ "languages": "commun, infernal, télépathie 36 m",
+ "traits": "**Résistance magique.** L'orthon a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Dague infernale.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d4 + 6) dégâts de force, et la cible doit faire un DD 17 jet de sauvegarde de Constitution, en prenant 22 (4d10) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. En cas d'échec, la cible est empoisonné pendant 1 minute. La cible empoisonné peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Acrobate en laiton.** Attaque d'arme à distance : +7 au toucher, portée 30/120 m., une cible. Touché : 14 (2d10 + 3) dégâts de force. La cible subit également l'un des effets suivants du choix de l'orthon ; l'orthon ne peut pas utiliser le même effet deux tours de rang :\n- **acide** La cible doit faire un DD 17 jet de sauvegarde de Constitution, en prenant un 17 (5d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite supplémentaire.\n- **Cécité** La cible prend 5 (1d10) dégâts radiants. De plus, la cible et toutes les autres créatures de 6 m doivent chacune faire un DD 17 jet de sauvegarde de Dextérité ou être aveuglé jusqu'à la fin du prochain tour de l'orthon.\n- **Commotion** La cible et chaque créature dans 6 m de celle-ci doivent faire un DD 17 jet de sauvegarde de Constitution, en prenant 13 (2d12) dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **Enveloppe** La cible doit faire un DD 17 jet de sauvegarde de Dextérité réussi ou être entravé pendant 1 heure par des brins de sangle collante. La cible peut s'échapper en prenant une action pour faire un DD 17 Force ou test de Dextérité et réussir.\n- **Paralysie** La cible prend 22 (4d10) dégâts de foudre et doit faire un DD 17 jet de sauvegarde de Constitution réussi ou être paralysé pendant 1 minute. La cible paralysé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **Suivi** Pendant les 24 heures suivantes, l'orthon connaît la direction et la distance de la cible, tant qu'elle est sur le même plan d'existence. Si la cible est sur un plan différent, l'orthon sait lequel, mais pas l'emplacement exact là.",
+ "attacks": [
+  {
+   "name": "Dague infernale",
+   "bonus": 10,
+   "damage": "2d4+6",
+   "type": "force + poison"
+  },
+  {
+   "name": "Acrobate en laiton",
+   "bonus": 7,
+   "damage": "2d10+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/ed7d95e76e_monstre-orthon.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "demi-plaque",
+ "saves": "DEX +7, CON +9, SAG +6",
+ "skills": "Perception +10, Discrétion +11, Survie +10",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, empoisonné",
+ "bonusActions": "**Champ d'invisibilité (Recharge 4-6).** L'orthon devient invisible. Tout équipement qu'il porte ou porte est également invisible aussi longtemps que l'équipement est sur sa personne. Cette invisibilité se termine immédiatement après avoir fait un jet d'attaque ou est frappée par un jet d'attaque.",
+ "reactions": "**Rétribution d ' explosifs.** En réponse à la chute à 15 points de vie ou moins, l'orthon explose. Toutes les autres créatures de 9 m doivent chacune faire un DD 17 jet de sauvegarde de Dextérité, en prenant 9 (2d8) dégâts de feu plus 9 (2d8) dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite. L'orthon, son poignard infernal et son arbalète en laiton sont détruits."
+}

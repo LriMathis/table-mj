@@ -1,0 +1,48 @@
+{
+ "id": "balhannoth",
+ "name": "Balhannoth",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "7,50 m, escalade 7,50 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 8,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 15,
+  "CHA": 8
+ },
+ "senses": "Vision aveugle 150 m (aveugle au-delà de ce rayon), Perception passive 16",
+ "languages": "comprend le discours profond, télépathie 1 mile",
+ "traits": "**Résistance légendaire (2/jour).** Si le balhannoth échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le balhannoth fait une attaque Bite et deux attaques Tentacle.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 19 (3d10 + 3) dégâts perforants.\n**Tentacle.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants, et la cible est agrippé (évasion DD 15) et est déplacée vers 1,50 m vers le balhannoth. Jusqu'à ce que ce grappin se termine, la cible est entravé, et le balhannoth ne peut pas utiliser cette tente contre d'autres cibles. Le balhannoth a quatre tentacules.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "3d10+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 7,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5a4ed423af_monstre-balhannoth.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +8",
+ "skills": "Perception +6",
+ "conditionImmunities": "aveuglé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, balhannoth peut entreprendre l'une des actions ci-après.\n**Morceau.** Le balhannoth fait une attaque Bite contre une créature il a agrippé.\n**Téléportation.** Les téléportages balhannoth, avec tout équipement qu'il porte ou transporte et toutes les créatures qu'il a agrippé, jusqu'à 18 m dans un espace inoccupé qu'il peut voir.\n**Vaniche.** Le balhannoth devient magiquement invisible pendant jusqu'à 10 minutes ou jusqu'à ce qu'il fasse un jet d'attaque immédiatement après."
+}

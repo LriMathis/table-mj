@@ -1,0 +1,47 @@
+{
+ "id": "orthoclath-regulier",
+ "name": "Regular Orthoclath",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 20,
+ "hp": 210,
+ "hpFormula": "20d10+100",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 9,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**feu absorption.** Chaque fois que l'orthoclath est soumis à dégâts de feu, il ne prend aucun dégâts et récupère plutôt un nombre de points de vie égal à la dégâts de feu distribuée.\n**Formulaire immuable.** L'orthoclath est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Résistance magique.** L'orthoclath a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes de l'orthoclath sont magiques.",
+ "actionsText": "**Multiattaques.** L'orthoclath fait deux attaques à la mêlée.\n**Clamer.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 20 (3d8 + 7) dégâts contondants.\n**Épée.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 23 (3d10 + 7) dégâts tranchants.\n**poison Respiration (Recharge 5-6).** L'orthoclath exhale des gaz toxiques dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 19 jet de sauvegarde de Constitution, en prenant 45 (10d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 13,
+   "damage": "3d8+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Épée",
+   "bonus": 13,
+   "damage": "3d10+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/71d8c4d61b_monstre-orthoclath-regulier.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Orthoclath régulier",
+ "caNote": "armure naturelle",
+ "immunities": "feu, poison, psychique, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

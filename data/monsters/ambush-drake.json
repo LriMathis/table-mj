@@ -1,0 +1,40 @@
+{
+ "id": "ambush-drake",
+ "name": "Ambush Drake",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d6+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 4,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "comprend Draconic mais ne peut pas le dire",
+ "traits": "**Tactiques de conditionnement.** Le drake a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du drake se trouve à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Attaque surprise.** Si le drake surprend une créature et la frappe avec une attaque lors du premier tour de combat, la cible prend un autre 7 (2d6) dégâts de l'attaque.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e79fcae6f5_monstre-ambush-drake.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4, Discrétion +4",
+ "resistances": "poison"
+}

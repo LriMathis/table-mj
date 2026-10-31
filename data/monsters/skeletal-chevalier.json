@@ -1,0 +1,48 @@
+{
+ "id": "skeletal-chevalier",
+ "name": "Skeletal Knight",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 18,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "comprend les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "**Fortitude non-morte.** Si le dégâts réduit le chevalier squelettique à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + le dégâts pris, à moins que le dégâts ne rougit ou d'un coup critique. Sur un succès, le chevalier squelette tombe à 1 points de vie à la place.\n**Nature inhabituelle.** Le chevalier squelettique n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le chevalier squelettique fait trois attaques de la lame énervante ou de la hache à lancer dans n'importe quelle combinaison.\n**Lame énervante.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 15 (3d6 + 5) dégâts nécrotiques, et si la cible est une créature, il ne peut pas retrouver points de vie avant le début du prochain tour du chevalier squelettique.\n**Lancer la hache.** Attaque d'arme au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 14 (2d8 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Lame énervante",
+   "bonus": 8,
+   "damage": "3d6+5",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Lancer la hache",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/0d7dae7c87_monstre-skeletal-chevalier.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Skeletal chevalier",
+ "caNote": "plaque",
+ "saves": "CON +6, SAG +5",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

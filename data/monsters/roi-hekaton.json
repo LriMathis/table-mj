@@ -1,0 +1,49 @@
+{
+ "id": "roi-hekaton",
+ "name": "King Hekaton",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique bon",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 16,
+ "hp": 330,
+ "hpFormula": "20d12+100",
+ "vitesse": "15 m, nage 15 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Perception passive 19",
+ "languages": "commun, géant",
+ "traits": "**Amphibie.** Hekaton peut respirer l'air et l'eau.\n**Découpe intérieure.** Le caractéristique d'incantation inné du géant est Charisme (sorption sauvegardez DD 17). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Feuille morte, Lévitation, Lumière\n- 3/jour chacun : Contrôle du climat, Respiration aquatique",
+ "actionsText": "**Multiattaques.** Hekaton fait deux attaques en chaîne cassées.\n**Chaîne brisée.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 18 (3d6 + 9) dégâts contondants.\n**Balliste.** Attaque d'arme à distance : +6 au toucher, portée 36/144 m., une cible. Touché : 18 (3d10 + 2) dégâts perforants.\n**foudre Strike (Recharge 5-6).** Hekaton lance un éclair magique à un point qu'il peut voir au sein de 150 m. Chaque créature dans 3 m de ce point doit faire un DD 17 jet de sauvegarde de Dextérité, en prenant 54 (12d8) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Stompe tonnerre (Recharge 6).** Hekaton frappe le sol, déclenchant un coup de foudre. Toutes les autres créatures au sein de 4,50 m de lui doivent réussir sur un DD 17 jet de sauvegarde de Constitution ou prendre 33 (6d10) dégâts de tonnerre et être assourdi jusqu'au prochain tour de Hekaton. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas assourdi. Le coup de tonnerre peut être entendu sur une gamme de 360 m.",
+ "attacks": [
+  {
+   "name": "Chaîne brisée",
+   "bonus": 14,
+   "damage": "3d6+9",
+   "type": "contondant"
+  },
+  {
+   "name": "Balliste",
+   "bonus": 6,
+   "damage": "3d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0f5b9cb02f_monstre-roi-hekaton.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Roi Hekaton",
+ "caNote": "Courrier d'échelle",
+ "saves": "FOR +14, CON +10, SAG +9, CHA +9",
+ "skills": "Arcanes +8, Athlétisme +14, Histoire +8, Perception +9",
+ "resistances": "froid",
+ "immunities": "foudre, tonnerre"
+}

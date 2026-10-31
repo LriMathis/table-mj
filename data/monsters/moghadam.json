@@ -1,0 +1,40 @@
+{
+ "id": "moghadam",
+ "name": "Moghadam",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 14,
+ "hp": 104,
+ "hpFormula": "19d8+19",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 13",
+ "languages": "abyssal, commun, nain, infernal, commun des profondeurs",
+ "traits": "**Matériel spécial.** Le moghadam est utilisé pour la fabrication de Ruinblade (voir appendice C).\n**Esprit artificiel.** Le moghadam peut manifester un esprit artificiel comme une image spectrale flottante du crâne bijouté d'un Demi-liche. Moghadam peut communiquer télépathiquement avec cet esprit, l'envoyer à 90 m loin de lui, et voir et entendre à travers elle.\n**Infoportation (1/jour).** Moghadam peut se téléporter dans un espace inoccupé à côté de son esprit artificiel.\n**Détection orthographique.** Moghadam est un spellcaster de niveau 18. Son caractéristique d'incantation est Intelligence (save spell DD 16, +8 au toucher avec attaques de sort). Il a préparé les sorts d'artifice suivants:\n- Sorts mineurs (à volonté) : Lumières dansantes, Lumière, Message, Poigne électrique\n- Niveau 1 (4 emplacements) : Compréhension des langues, Soins, Graisse, Identification\n- Niveau 2 (3 emplacements) : Détection des pensées, Invisibilité, Métal brûlant\n- Niveau 3 (3 emplacements) : Dissipation de la magie, Flèches enflammées, Motif hypnotique\n- Niveau 4 (3 emplacements) : Fabrication, Façonnage de la pierre, Peau de pierre\n- Niveau 5 (1 emplacements) : Création",
+ "actionsText": "**Ruinblade.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts tranchants.\n**Beurre (1/jour).** En utilisant Ruinblade, Moghadam peut lancer le sort Flétrissement (DD 15).\n**Désintégration (1/7 jours).** En utilisant Ruinblade, Moghadam peut lancer le sort Désintégration contre n'importe quel objet non magique ou création de force magique.\n**Information Surcharge (Recharge 5-6).** Moghadam surcharge les pensées d'une créature dans 1,50 m de lui-même ou de son esprit artificiel. La cible doit réussir sur une DD 16 jet de sauvegarde d'Intelligence ou prendre 22 (4d8 + 4) dégâts psychiques, et la prochaine jet d'attaque faite contre la cible avant la fin du prochain tour de Moghadam a avantage.",
+ "attacks": [
+  {
+   "name": "Ruinblade",
+   "bonus": 6,
+   "damage": "2d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f3ffce4bb0_monstre-moghadam.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "saves": "CON +5, INT +8, SAG +7",
+ "skills": "Arcanes +8, Perspicacité +7, Médecine +7"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "frere-morax",
+ "name": "Brother Morax",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 21,
+ "hp": 337,
+ "hpFormula": "25d10+200",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 22,
+  "CON": 27,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "céleste, commun, draconique, infernal, télépathie 36 m",
+ "traits": "**Petites épines.** Pour chacune des épines brisées qu'une créature a, la créature prend 3 (1d6) dégâts de poison au début de chacun de leurs tours, et quand Morax active Burrow ou Deep Burrow. Les épines ne peuvent être enlevées que par un sort de régénération ou similaire, ou en tuant Morax.\n**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure de Morax.\n**Résistance magique.** Morax a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Cache-cache.** Chaque fois que Morax est touché par une attaque à la mêlée, l'attaquant prend 7 (2d6) dégâts perforants et gagne 1 Brittle Spine.\n**Obligation incassable.** Si Morax est réduit à 0 points de vie alors que frère Adramalech vit encore, Morax régénère 50 points de vie au début de son prochain tour. Cette régénération est interrompue si le frère Adramalech est réduit à 0 points de vie avant le début du tour de Morax.",
+ "actionsText": "**Multiattaques.** Morax fait quatre attaques en utilisant sa griffe, Spine Fling, ou une combinaison des deux.\n**Griffe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 17 (3d6 + 7) dégâts tranchants, et la cible gagne 1 Brittle Spine.\n**Fling spinal.** Attaque d'arme à distance : +13 au toucher, portée 9/18 m., une cible. Touché : 12 (1d12 + 6) dégâts perforants, et la cible gagne 1 Brittle Spine.\n**Burrow profond.** Morax inflige immédiatement des dégâts continus à toutes les créatures qui ont au moins une épinière de Brittle qu'il peut voir.\n**Spikes os (Recharge 6).** Morax fourre un bras dans le sol, des os qui se développent rapidement et qui éclatent à un moment qu'il peut voir au sein de 30 m de lui. Chaque créature dans une sphère 18 m -radius centrée sur ce point doit faire un DD 21 jet de sauvegarde de Dextérité, en prenant 28 (8d6) dégâts perforants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Créatures qui échouent le gain de sauvegarde 2 Épunes brisées, tandis que les créatures qui réussissent ne gagnent que 1 Épune brisée.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 14,
+   "damage": "3d6+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Fling spinal",
+   "bonus": 13,
+   "damage": "1d12+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/70ade21368_monstre-frere-morax.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Frère Morax",
+ "caNote": "armure naturelle",
+ "saves": "FOR +14, DEX +13, CON +15",
+ "skills": "Acrobaties +20, Athlétisme +21, Intimidation +11, Médecine +10, Discrétion +13, Survie +10",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, frère morax peut entreprendre l'une des actions ci-après.\n**Griffe.** Morax fait une attaque à la griffe.\n**Splinters os (coûts 2 actions).** Morax gestes à une créature qu'il peut voir qui a au moins 1 Épune Brittle. Cette créature doit réussir sur un DD 21 jet de sauvegarde de Constitution ou le nombre de Brittle Spines il a des doubles.\n**Burrow (coûts 2 actions).** Morax bourre les épines au sein d'une créature qu'il voit. La cible subit immédiatement des dégâts continus à l'épine de Brittle."
+}

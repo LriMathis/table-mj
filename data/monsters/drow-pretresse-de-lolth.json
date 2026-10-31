@@ -1,0 +1,41 @@
+{
+ "id": "drow-pretresse-de-lolth",
+ "name": "Drow Priestess of Lolth",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 99,
+ "hpFormula": "18d8+18",
+ "vitesse": "9 m, vol 4,50 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 18,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "abyssal, commun, elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Le drow a Avantage sur jet de sauvegarde il fait d'éviter ou de terminer l'état charmé, et la magie ne peut pas mettre le drow à dormir.\n**Sensibilité à la lumière du soleil.** Pendant que dans la lumière du soleil, le drow a Déconseillé sur jets d'attaque.",
+ "actionsText": "**Multiattaques.** Le front fait trois attaques de Scourge.\n**Scorurge.** Jet d'attaque au corps à corps : +5, allonge 3 m. Touché : 6 (1d6 + 3) dégâts perforants plus 17 (5d6) dégâts de poison.\n**Le Vortex d'araignée (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 15, chaque ennemi dans une Emanation 6 m provenant du sillon. Échec : 33 (6d10) dégâts perforants, et la cible a l'état entravé jusqu'au début du prochain tour du sillon. Réussite : Demi-dégâts seulement.\n**Détection orthographique.** Le sillon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation :\n- À volonté : Lumières dansantes, Assistance, Thaumaturgie",
+ "attacks": [
+  {
+   "name": "Scorurge",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/9753793633_monstre-drow-pretresse-de-lolth.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Drow, prêtresse de Lolth",
+ "saves": "CON +4, SAG +7, CHA +6",
+ "skills": "Perspicacité +7, Perception +7, Religion +4, Discrétion +5",
+ "bonusActions": "**Bénédiction de Lolth (3/jour).** Le drow lance Soins, Ténèbres, Dissipation de la magie, ou Restauration partielle, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Soins, Ténèbres, Dissipation de la magie, Restauration partielle"
+}

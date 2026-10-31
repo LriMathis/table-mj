@@ -1,0 +1,42 @@
+{
+ "id": "jenevere",
+ "name": "Jenevere",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal bon",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 20,
+ "hp": 216,
+ "hpFormula": "16d10+128",
+ "vitesse": "12 m, vol 36 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 22,
+  "CON": 26,
+  "INT": 18,
+  "SAG": 20,
+  "CHA": 24
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance magique.** Jenevere a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Jenevere fait trois attaques radiant Touch.\n**Touche radiant.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 33 (6d8 + 6) dégâts radiants.\n**Pardon (2/jour).** Jenevere sélectionne une cible dans 3 m. La cible est libérée de toute malédiction, maladie, poison, cécité ou surdité. Si la cible est un Fiend, elle doit réussir sur un DD 21 jet de sauvegarde ou avoir un désavantage sur tous les jets d'attaque pendant 24 heures.\n**Détection orthographique.** Jenevere lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 21) :\n- À volonté : Bénédiction, Détection du mal et du bien\n- 1/jour : Prémonition\n- 2/jour chacun : Communion, Guérison, Mythes et légendes, Rappel à la vie, Scrutation",
+ "attacks": [
+  {
+   "name": "Touche radiant",
+   "bonus": 12,
+   "damage": "6d8+6",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/102174c9c3_monstre-jenevere.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +10, SAG +11, CHA +13",
+ "skills": "Perception +11",
+ "resistances": "radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé"
+}

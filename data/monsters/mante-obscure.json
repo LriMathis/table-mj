@@ -1,0 +1,38 @@
+{
+ "id": "mante-obscure",
+ "name": "Mante obscure",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 22,
+ "hpFormula": "5d6+5",
+ "vitesse": "3 m, vol 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "skills": "Discrétion +3",
+ "senses": "Vision aveugle 18 m, Perception passive 10",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Écrasement.** Corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts contondants, et la mante obscure se fixe à la cible. Si la cible est une créature de taille M ou inférieure et si la mante obscure avait l’Avantage au jet d’attaque, elle recouvre la cible qui subit l’état Aveuglé et s’asphyxie tant que la mante obscure reste ainsi fixée à elle.\nTant qu’elle est fixée à une cible, la mante obscure ne peut attaquer que cette cible mais elle a l’Avantage à ses jets d’attaque contre elle. Sa Vitesse passe à 0, elle ne peut profiter d’aucun bonus de Vitesse et suit les déplacements de sa cible.\nUne créature peut entreprendre une action pour tenter de détacher la mante obscure fixée à elle, ce qui nécessite de réussir un test de Force (Athlétisme) DD 13. À son tour, la mante obscure peut se détacher en y consacrant 1,50 m de déplacement.\n**Aura de ténèbres (1/jour).** Des ténèbres magiques emplissent une Émanation de 4,50 m centrée sur la mante obscure. Cet effet persiste tant que la mante obscure maintient sa Concentration, à concurrence de 10 minutes. La Vision dans le noir échoue à percer cette zone, qu’aucune source de lumière ne parvient à éclairer.",
+ "attacks": [
+  {
+   "name": "Écrasement",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c145ea781b_monstre-mante-obscure.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 212"
+}

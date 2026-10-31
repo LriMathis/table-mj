@@ -1,0 +1,47 @@
+{
+ "id": "vampirate",
+ "name": "Vampirate",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 42,
+ "hpFormula": "5d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Exploser.** Lorsque le vampire est réduit à 0 points de vie, il explose dans un nuage de cendres. Toute créature de 1,50 m doit réussir sur un DD 14 jet de sauvegarde de Constitution ou prendre 5 (1d10) dégâts nécrotiques.\n**Escalade des araignées.** Le vampire peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Nature inhabituelle.** Le vampire n'a pas besoin d'air ni de boisson.",
+ "actionsText": "**Évacuation d'énergie.** Attaque de sort au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 9 m, une créature. Touché : 11 (2d10) dégâts nécrotiques. Un Humanoïde réduit à 0 points de vie par cette attaque meurt et se transforme instantanément en une ombre libre sous le contrôle de le MD.\n**Acrobatie légère.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 11 (2d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Évacuation d'énergie",
+   "bonus": 4,
+   "damage": "2d10",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3b43d6c2ee_monstre-vampirate.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "radiant",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, empoisonné"
+}

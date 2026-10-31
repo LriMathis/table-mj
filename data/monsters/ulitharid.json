@@ -1,0 +1,46 @@
+{
+ "id": "ulitharid",
+ "name": "Ulitharid",
+ "type": "Aberration (flagelleur mental)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 15,
+ "hp": 127,
+ "hpFormula": "17d10+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 21,
+  "SAG": 19,
+  "CHA": 21
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "profond, commun des profondeurs, télépathie 2 miles",
+ "traits": "**Sens de la créature.** L'ulitharid est conscient de la présence de créatures au sein de 3 km qui ont un score Intelligence de 4 ou plus. Il connaît la distance et la direction de chaque créature, ainsi que le score de l'intelligence de chaque créature, mais ne peut rien sentir d'autre à ce sujet. Une créature protégée par un sort Esprit impénétrable, un sort Antidétection ou une magie similaire ne peut pas être perçue de cette manière.\n**Résistance magique.** L'ulitharid a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Hub psionique.** Si un cerveau aîné établit un lien psychique avec l'ulithride, le cerveau aîné peut former un lien psychique avec toute autre créature que l'ulithride peut détecter en utilisant son sens de la Créature. Un tel lien se termine si la créature tombe en dehors des gammes de télépathie de l'ulitharide et du cerveau aîné. L'ulitharide peut maintenir son lien psychique avec le cerveau aîné quelle que soit la distance entre eux, tant qu'ils sont tous les deux sur le même plan d'existence. Si l'ulitharide est plus que 7,5 km loin du cerveau aîné, il peut mettre fin au lien psychique à tout moment (aucune action requise).",
+ "actionsText": "**Tentacules.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une créature. Touché : 27 (4d10 + 5) dégâts psychiques. Si la cible est grande ou plus petite, c'est agrippé (évasion DD 14) et doit réussir sur un DD 17 jet de sauvegarde d'Intelligence ou être étourdi jusqu'à ce que ce grappin se termine.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, un neutralisé Humanoid agrippé par l'ulitharide. Touché : 55 (10d10) dégâts perforants. Si ces dégâts réduisent la cible à 0 points de vie, l'ulitharide tue la cible en enlevant et en dévorant son cerveau.\n**Boussole mentale (Recharge 5-6).** L'ulitharide émet magiquement de l'énergie psychique dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 17 jet de sauvegarde d'Intelligence ou prendre 31 (4d12 + 5) dégâts psychiques et être étourdi pendant 1 minute. Une cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Coulisse (Psioniques).** L'ulitharide lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection des pensées, Lévitation\n- 1/jour chacun : Domination de monstre, Esprit faible, Suggestion de groupe, Changement de plan (autoseulement), Projection d'image, Scrutation, Télékinésie",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 9,
+   "damage": "4d10+5",
+   "type": "psychique"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 9,
+   "damage": "10d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/34b6f0f614_monstre-ulitharid.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "saves": "INT +9, SAG +8, CHA +9",
+ "skills": "Arcanes +9, Perspicacité +8, Perception +8, Discrétion +5"
+}

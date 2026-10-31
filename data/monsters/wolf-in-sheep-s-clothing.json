@@ -1,0 +1,47 @@
+{
+ "id": "wolf-in-sheep-s-clothing",
+ "name": "Wolf-in-Sheep's-Clothing",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 9,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Si l'habillement du loup-en-brebis est immobile (à l'exception de son attrait) au début du combat, il a l'avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte de l'enrobage du loup dans les moutons (sauf pour l'enrobage), cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que l'enrobage du loup dans les moutons est animeux.",
+ "actionsText": "**Multiattaques.** La tenue du loup dans les moutons fait une attaque Bite et deux attaques du Tentacle racine.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts perforants plus 7 (2d6) dégâts d'acide.\n**Tentacle racinaire.** Attaque d'arme au corps à corps : +8 au toucher, allonge 6 m, une cible. Touché : 8 (1d6 + 5) dégâts contondants, et si la cible est une créature moyenne ou plus petite, il a l'état agrippé (évasion DD 16). Alors qu'agrippé de cette façon, la cible a l'état entravé, et au début de chaque tour du loup-en-brebis-vêtements, le loup-en-brebis-vêtements-vêtements peut tirer la cible jusqu'à 3 m vers lui-même (aucune action requise). Le loup-en-brebis-vêtements a quatre tentacules de racines, chacun d'entre eux peut battre une cible.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Tentacle racinaire",
+   "bonus": 8,
+   "damage": "1d6+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/1b26a97150_monstre-wolf-in-sheep-s-clothing.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +7, Discrétion +5",
+ "conditionImmunities": "à terre",
+ "bonusActions": "**Lure totalement sans danger.** Le vêtement du loup-en-brebis peut changer la couleur, la texture et la forme de son attrait pour ressembler à un objet Tiny Beast ou Tiny. Il peut déplacer l'attrait pour renforcer la ressemblance (aucune action requise), mais l'attrait doit rester dans 4,50 m de l'habillement du loup dans les moutons, relié par presque les vrilles de filament invisible."
+}

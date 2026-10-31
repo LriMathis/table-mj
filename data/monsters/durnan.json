@@ -1,0 +1,46 @@
+{
+ "id": "durnan",
+ "name": "Durnan",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 144,
+ "hpFormula": "17d8+68",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, nain",
+ "traits": "**Matériel spécial.** Durnan manie une épée de netteté appelée Grimvault. Il porte Bottes de sept lieues, Mailles elfiques, et un Anneau de renvoi des sorts.\n**Indomidable (recharge après un repos long).** Durnan peut reroller un jet de sauvegarde qu'il échoue. Il doit utiliser le nouveau rouleau.\n**Tournage de l'orthographe.** Tout en portant son anneau de sort tournant, Durnan a avantage sur jet de sauvegarde contre tout sort qui ne cible que lui (pas dans une zone d'effet). Si Durnan roule un 20 pour l'enregistrement et que le sort est de niveau 7 ou inférieur, le sort n'a aucun effet sur lui et cible plutôt le lanceur, en utilisant le niveau d'emplacement, DD de sauvegarde des sorts, bonus d'attaque et caractéristique d'incantation du lanceur.",
+ "actionsText": "**Multiattaques.** Durnan fait quatre attaques d'armes.\n**Grimvault.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants. Si la cible est un objet, le coup traite plutôt 16 dégâts tranchants. Si la cible est une créature et Durnan roule un 20 sur le d20 pour le jet d'attaque, la cible prend un 14 dégâts tranchants supplémentaire, et Durnan roule un autre d20. Sur un rouleau de 20, il détache un membre de la cible, ou une autre partie de son corps si elle est sans membres.\n**Double arbalète.** Attaque d'arme à distance : +6 au toucher, portée 18/72 m., une cible. Touché : 13 (2d10 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grimvault",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Double arbalète",
+   "bonus": 6,
+   "damage": "2d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ed604d09ba_monstre-durnan.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Mailles elfiques",
+ "saves": "FOR +8, CON +8",
+ "skills": "Athlétisme +8, Perception +5"
+}

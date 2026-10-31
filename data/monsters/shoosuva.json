@@ -1,0 +1,49 @@
+{
+ "id": "shoosuva",
+ "name": "Shoosuva",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 17,
+  "INT": 7,
+  "SAG": 14,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "abyssal, gnoll, télépathie 36 m",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le shoosuva fait une attaque Bite et une attaque Tail Stinger.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 26 (4d10 + 4) dégâts perforants.\n**Tail Stinger.** Attaque d'arme au corps à corps : +7 au toucher, allonge 4,50 m, une créature. Touché : 13 (2d8 + 4) dégâts perforants, et la cible doit réussir sur un DD 14 jet de sauvegarde de Constitution ou devenir empoisonné. Alors qu'empoisonné de cette façon, la cible est également paralysé. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "4d10+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Tail Stinger",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6153a9ed10_monstre-shoosuva.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +6, SAG +5",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "bonusActions": "**Rampage.** Lorsqu'il réduit une créature à 0 points de vie avec une attaque à la mêlée sur son tour, le shoosuva peut avancer jusqu'à la moitié de sa vitesse et faire une attaque Bite."
+}

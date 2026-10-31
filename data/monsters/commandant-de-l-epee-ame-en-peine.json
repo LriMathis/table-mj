@@ -1,0 +1,50 @@
+{
+ "id": "commandant-de-l-epee-ame-en-peine",
+ "name": "Sword Wraith Commander",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 127,
+ "hpFormula": "15d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**La défiance se transforme.** Le commandant et tout autre sabre dans 9 m de lui ont avantage sur jet de sauvegarde contre les effets qui tournent Undead.\n**Nature inhabituelle.** Le commandant n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le commandant fait deux attaques Longsword ou Longbow.\n**Mot long.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains.\n**Longbow.** Attaque d'arme à distance : +5 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.\n**Appel à l'honneur (1/jour).** Si le commandant a pris des dégâts pendant ce combat, il se donne avantage sur jets d'attaque jusqu'à la fin de son prochain tour, et l'épée 1d4 + 1 wraith guerriers apparaissent dans des espaces inoccupés à l'intérieur de 9 m. Les guerriers durent jusqu'à ce qu'ils tombent à 0 points de vie, et ils prennent leur tour immédiatement après le tour du commandant sur le même compte d'initiative.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 5,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d58648b451_monstre-commandant-de-l-epee-ame-en-peine.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Commandant de l'épée âme en peine",
+ "caNote": "Breastplate, Bouclier",
+ "skills": "Perception +4",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, effrayé, empoisonné, inconscient",
+ "bonusActions": "**Fureur martielle.** Le commandant fait une attaque de Longsword ou de Longbow, qui traite un 9 (2d8) dégâts nécrotiques supplémentaire sur un coup, et jets d'attaque contre elle ont avantage jusqu'au début de son prochain tour."
+}

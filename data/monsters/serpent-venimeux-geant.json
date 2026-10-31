@@ -1,0 +1,38 @@
+{
+ "id": "serpent-venimeux-geant",
+ "name": "Serpent venimeux géant",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 14,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "12 m, nage 12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "skills": "Perception +2",
+ "senses": "Vision aveugle 3 m, Perception passive 12",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +6, allonge 3 m. Touché : 6 (1d4 + 4) dégâts perforants plus 4 (1d8) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 6,
+   "damage": "1d4+4+1d8",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/0c9921f7e3_monstre-serpent-venimeux-geant.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

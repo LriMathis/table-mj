@@ -4,7 +4,7 @@
    term() shows them in English when the interface is in English. */
 'use strict';
 
-const LANG = (() => { try { return localStorage.getItem('gt-lang') === 'fr' ? 'fr' : 'en'; } catch (e) { return 'en'; } })();
+const LANG = (() => { try { return localStorage.getItem('gt-lang') === 'en' ? 'en' : 'fr'; } catch (e) { return 'fr'; } })();
 document.documentElement.lang = LANG;
 
 /* t('Delete {name}?', { name }) -> translated text with its placeholders filled in */

@@ -1,0 +1,49 @@
+{
+ "id": "merrow",
+ "name": "Merrow",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvaise",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "3 m, nage 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 15,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "abyssal, primordial (aquatique)",
+ "traits": "**Amphibie.** Le merrow peut respirer sous l’eau comme à l’air libre.",
+ "actionsText": "**Attaques multiples.** Le merrow effectue deux attaques, réparties à sa guise entre Griffe, Morsure et Harpon.\n**Griffe.** Corps à corps : +6, allonge 1,50 m. Touché : 9 (2d4 + 4) dégâts tranchants.\n**Harpon.** Corps à corps ou à distance : +6, allonge 1,50 m ou portée 6/18 m. Touché : 11 (2d6 + 4) dégâts perforants. Si la cible est une créature de taille G ou inférieure, le merrow la tire en ligne droite vers lui d’un maximum de 4,50 m.\n**Morsure.** Corps à corps : +6, allonge 1,50 m. Touché : 6 (1d4 + 4) dégâts perforants, et la cible subit l’état Empoisonné jusqu’à la fin du tour suivant du merrow.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Harpon",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8b923d4d22_monstre-merrow.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 220"
+}

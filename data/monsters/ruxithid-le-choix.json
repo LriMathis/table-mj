@@ -1,0 +1,43 @@
+{
+ "id": "ruxithid-le-choix",
+ "name": "Ruxithid the Chosen",
+ "type": "Aberration (gobelinoïde)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 88,
+ "hpFormula": "16d8+16",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 14,
+  "DEX": 19,
+  "CON": 12,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun, gobelin, télépathie 18 m",
+ "traits": "**Résistance légendaire (2/jour).** Lorsque Ruxithid échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Fortitude mentale.** Ruxithid a un avantage sur jet de sauvegarde contre les conditions charmé et effrayé.",
+ "actionsText": "**Multiattaques.** Ruxithid fait deux attaques de Scimitar.\n**Scimitar chargé de l'examen Psi.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants plus 7 (2d6) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Scimitar chargé de l'examen Psi",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/ac21cd43ae_monstre-ruxithid-le-choix.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Ruxithid le choix",
+ "caNote": "Chemise chaîne",
+ "saves": "INT +7, SAG +5",
+ "skills": "Perspicacité +5, Perception +5, Discrétion +10",
+ "resistances": "psychique",
+ "bonusActions": "**Cerveau Tendrilles (Recharge 5-6).** Le ruxithide libère un flot de vrilles psychiques cristallines de son cerveau, ciblant une créature qu'il peut voir en lui-même. La cible doit réussir sur un DD 15 jet de sauvegarde de Dextérité ou prendre 9 (2d8) dégâts psychiques et avoir l'état étourdi jusqu'au prochain tour de Ruxithid.\n**Commandement de combat.** Ruxithid commande à une créature alliée qu'il peut voir dans 18 m de lui-même de frapper. La créature peut immédiatement utiliser sa réaction pour faire une attaque d'arme à la mêlée contre une cible à sa portée."
+}

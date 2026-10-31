@@ -1,0 +1,41 @@
+{
+ "id": "chair-meld",
+ "name": "Flesh Meld",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 95,
+ "hpFormula": "10d12+30",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 7,
+  "SAG": 13,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 18 m (can't see beyond this radius), Perception passive 11",
+ "languages": "comprend tout, mais ne peut pas parler",
+ "traits": "**Amorphe.** La mélisse de chair peut se déplacer dans un espace aussi étroit que 1 pouce sans serrer.\n**Aura de la mort.** Au début de chaque tour de la chair, chaque créature de 1,50 m doit réussir sur une DD 15 jet de sauvegarde de Constitution ou prendre 3 (1d6) dégâts nécrotiques et avoir l'état empoisonné jusqu'au prochain tour de la chair.\n**Résistance magique.** La chair de meld a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Escalade des araignées.** La mélisse de chair peut monter des surfaces difficiles, y compris des plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** La fusion de chair fait deux attaques de Bite.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 9 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants, et si la cible est une créature grande ou plus petite, il a l'état agrippé (évasion DD 15) et est tiré jusqu'à 4,50 m vers la chair meld.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e480cff6ca_monstre-chair-meld.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Chair Meld",
+ "saves": "FOR +8, DEX +5",
+ "conditionImmunities": "aveuglé, à terre",
+ "bonusActions": "**Consommer la créature.** La fusion de chair cible une créature grande ou plus petite en 1,50 m elle-même qu'elle est en train de lutter. La cible doit réussir sur un DD 15 jet de sauvegarde de Dextérité ou être avalée par la chair. La chair de mélisse peut être avalée à la fois par une créature.\nUne créature avalée n'a plus l'état agrippé. En avalé, il a les conditions aveuglé et entravé, a 3 contre les attaques et autres effets en dehors de la fusion de chair, et prend 10 (3d6) dégâts nécrotiques au début de chacun des tours de la fusion de chair. Si ce dégâts réduit une créature avalée à 0 points de vie, la créature meurt, et la chair se mêle consume son corps.\nSi la chair de fusion prend 30 dégâts ou plus sur un seul tour de la créature avalée, la chair de fusion doit réussir sur un DD 15 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter la créature, qui tombe avec l'état à terre dans un espace à l'intérieur de 1,50 m de la chair de fusion. Si la chair meurt, la créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 3 m de mouvement, sortant avec l'état à terre."
+}

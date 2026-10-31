@@ -1,0 +1,46 @@
+{
+ "id": "tashlyn-yafeera",
+ "name": "Tashlyn Yafeera",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 149,
+ "hpFormula": "23d8+46",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun",
+ "traits": "**Indominable (2/jour).** Tashlyn peut reroller un jet de sauvegarde qu'elle échoue. Elle doit utiliser le nouveau rouleau.\n**Deuxième vent (recharge après un repos court ou long).** En tant qu'action bonus, Tashlyn peut retrouver 20 points de vie.\n**Dégâts supplémentaires.** Tashlyn inflige 7 (2d6) de plus à chaque coup si elle a plus de la moitié de son points de vie restant.",
+ "actionsText": "**Multiattaques.** Tashlyn fait trois attaques avec son grand-mot ou son satin.\n**Grande épée.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.\n**Saubèche.** Attaque d'arme à distance : +6 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 6,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/862f62aafa_monstre-tashlyn-yafeera.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "FOR +8, CON +6",
+ "skills": "Athlétisme +8, Intimidation +5, Perception +6"
+}

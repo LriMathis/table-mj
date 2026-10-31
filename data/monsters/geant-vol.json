@@ -1,0 +1,31 @@
+{
+ "id": "geant-vol",
+ "name": "Giant Fly",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 19,
+ "hpFormula": "3d10+3",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 13,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/e19d224164_monstre-geant-vol.webp",
+ "notes": "",
+ "source": "Dungeon Master's Guide (2024) (5e.tools, traduction automatique)",
+ "aka": "Géant vol"
+}

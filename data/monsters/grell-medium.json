@@ -1,0 +1,47 @@
+{
+ "id": "grell-medium",
+ "name": "Grell Psychic",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "3 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 14",
+ "languages": "profond, Grill",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le médium grell fait une attaque du Tentacle et une attaque du bec.\n**Bec.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (3d4 + 3) dégâts perforants.\n**Tentacle.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants, et la cible doit réussir sur un DD 11 jet de sauvegarde de Constitution ou avoir l'état empoisonné pendant 1 minute. Bien que la cible soit empoisonné, il a également l'état paralysé. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. La cible a également l'état agrippé (évasion DD 16). Pendant qu'il s'attaque à la cible, le gell ne peut pas faire d'attaques au Tentacle contre d'autres cibles. Lorsque le gell se déplace, toute cible moyenne ou plus petite se déplace avec elle.\n**Coulisse (Psioniques).** Le médium de gell jette l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Détection des pensées, Armure de mage, Main de mage (la main est invisible)\n- 1/jour chacun : Confusion, Peur",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 5,
+   "damage": "3d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/045197999f_monstre-grell-medium.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Grell médium",
+ "skills": "Perception +4, Discrétion +6",
+ "immunities": "foudre",
+ "conditionImmunities": "aveuglé, à terre"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "tete-de-death-s",
+ "name": "Death's Head",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 16,
+ "hp": 17,
+ "hpFormula": "5d4+5",
+ "vitesse": "1,50 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 8,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 5,
+  "SAG": 14,
+  "CHA": 3
+ },
+ "senses": "Perception passive 12",
+ "languages": "—",
+ "traits": "**Volée.** La tête de la mort ne provoque pas un Opportunity Attack quand il vole hors de la portée de l'ennemi.",
+ "actionsText": "**Morceau.** Jet d'attaque au corps à corps : +3, allonge 1,50 m. Touché : 3 (1d4 + 1) dégâts perforants plus 7 (2d6) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/ee3a4e89f3_monstre-tete-de-death-s.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Tête de Death's",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

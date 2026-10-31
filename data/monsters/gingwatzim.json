@@ -1,0 +1,39 @@
+{
+ "id": "gingwatzim",
+ "name": "Gingwatzim",
+ "type": "Aberration (métamorphe)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 39,
+ "hpFormula": "6d6+18",
+ "vitesse": "9 m, vol 9 m (vol stationnaire) (dans sa forme réelle seulement)",
+ "stats": {
+  "FOR": 3,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 4,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "télépathie 18 m",
+ "traits": "**Formulaires alternatifs.** Le gingwatzim a deux formes alternatives, qui sont toutes deux choisies par son créateur lorsque le gingwatzim prend naissance. Une forme est un duplicate exact d'un objet non magique minuscule (comme un livre, une dague ou une pierre précieuse) que son créateur porte ou porte lorsque le gingwatzim est conjuré. L'autre forme peut être n'importe quelle petite bête. Une fois que ces formulaires alternatifs sont choisis, ils ne peuvent pas être modifiés.",
+ "actionsText": "**Drain d'énergie (formulaire réel seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 16 (4d6 + 2) dégâts nécrotiques, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou gagner 1 niveau d'épuisement. Lorsque la cible termine un repos court ou long, la cible perd tous les niveaux d'épuisement gagnés par cette attaque.\n**Modifier la forme.** Le gingwatzim se transforme de sa vraie forme – une sphère 0,90 m-diamètre d'éctoplasme lumineux – en une de ses deux formes alternatives, ou de l'une de ces formes retour dans sa vraie forme. Sous forme d'objet, il ne peut ni bouger ni faire d'attaques, mais il conserve ses statistiques, et il est indistinguable de la chose qu'il imite. En forme de bête, il conserve son points de vie mais utilise autrement le bloc de la bête qu'il imite. Quand il meurt, le gingwatzim revient à sa vraie forme, puis disparaît.",
+ "attacks": [
+  {
+   "name": "Drain d'énergie (formulaire réel seulement)",
+   "bonus": 4,
+   "damage": "4d6+2",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/6fd53a543d_monstre-gingwatzim.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

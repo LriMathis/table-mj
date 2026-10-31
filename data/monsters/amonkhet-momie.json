@@ -1,0 +1,44 @@
+{
+ "id": "amonkhet-momie",
+ "name": "Amonkhet Mummy",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 11,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 8,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La momie peut utiliser son Dreadful Glare et fait une attaque avec son poing pourri.\n**Fistillation de rotation.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants plus 10 (3d6) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être maudite avec la pourriture momie. La cible maudite ne peut pas récupérer points de vie, et son maximum de points de vie diminue de 10 (3d6) toutes les 24 heures qui s'écoulent. Si la malédiction réduit le maximum de points de vie à 0, la cible meurt, et son corps se transforme en poussière. La malédiction dure jusqu'à ce qu'elle soit enlevée par le sort Délivrance des malédictions ou toute autre magie.\n**C'est terrible..** La momie cible une créature il peut voir dans 18 m de lui. Si la cible peut voir la momie, elle doit réussir sur un DD 11 jet de sauvegarde de Sagesse contre cette magie ou devenir effrayé jusqu'à la fin du prochain tour de la momie. Si la cible échoue le jet de sauvegarde par 5 ou plus, elle est également paralysé pour la même durée. Une cible qui réussit sur le jet de sauvegarde est à l'abri de l'épouvantable glare de toutes les momies (mais pas les seigneurs de la momie) pendant les 24 heures suivantes.",
+ "attacks": [
+  {
+   "name": "Fistillation de rotation",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/45dbc4c794_monstre-amonkhet-momie.webp",
+ "notes": "",
+ "source": "PSA (5e.tools, traduction automatique)",
+ "aka": "Amonkhet momie",
+ "caNote": "armure naturelle",
+ "saves": "SAG +2",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné"
+}

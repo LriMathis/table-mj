@@ -1,0 +1,38 @@
+{
+ "id": "killmoulis",
+ "name": "Killmoulis",
+ "type": "Fée",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 14,
+ "hp": 7,
+ "hpFormula": "2d4+2",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 19,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 14",
+ "languages": "commun, sylvestre, télépathie 18 m",
+ "traits": "",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : -1 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts contondants.\n**Bénédiction de la générosité généreuse (1/jour).** Le killmoulis cible jusqu'à huit créatures au sein de 30 m qu'il peut voir. La prochaine fois qu'une cible termine un repos long, elle retrouve tout le dés de vie dépensé et gagne 10 points de vie temporaires.\n**Malheur à la mauvaise hospitalité (1/jour).** Le killmoulis cible jusqu'à huit créatures au sein de 30 m qu'il peut voir. La prochaine fois qu'une cible complète un repos long, elle ne retrouve pas dés de vie dépensé.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": -1,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/229b604877_monstre-killmoulis.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "skills": "Histoire +3, Perception +4, Discrétion +8"
+}

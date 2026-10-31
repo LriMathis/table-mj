@@ -1,0 +1,39 @@
+{
+ "id": "pegase",
+ "name": "Pégase",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "18 m, vol 27 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 13
+ },
+ "saves": "DEX +4, CON +5, SAG +4, CHA +3",
+ "skills": "Perception +6",
+ "senses": "Perception passive 16",
+ "languages": "comprend le céleste, le commun, l’elfique et le sylvestre mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Sabots.** Corps à corps : +6, allonge 1,50 m. Touché : 7 (1d6 + 4) dégâts contondants plus 5 (2d4) dégâts radiants.",
+ "attacks": [
+  {
+   "name": "Sabots",
+   "bonus": 6,
+   "damage": "1d6+4+2d4",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/641e430e35_monstre-pegase.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 249"
+}

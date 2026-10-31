@@ -1,0 +1,45 @@
+{
+ "id": "jeune-griffon-moyenne",
+ "name": "Young Griffon (Medium)",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 32,
+ "hpFormula": "5d6+15",
+ "vitesse": "9 m, vol 24 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**C'est la vue..** Le griffon a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le griffon fait deux attaques : une avec son bec et une avec ses griffes.\n**Bec.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 6 (2d4 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/43fb60b1d4_monstre-jeune-griffon-moyenne.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Jeune griffon (moyenne)",
+ "skills": "Perception +5"
+}

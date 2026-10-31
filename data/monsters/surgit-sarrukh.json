@@ -1,0 +1,50 @@
+{
+ "id": "surgit-sarrukh",
+ "name": "Arisen Sarrukh",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 18,
+ "hp": 273,
+ "hpFormula": "26d8+156",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 17,
+  "CON": 22,
+  "INT": 18,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 19",
+ "languages": "commun, Draconique; télépathie 36 m.",
+ "traits": "**Résistance légendaire (3/jour).** Si le sarrukh échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le sarrukh a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le sarrukh fait trois attaques, en utilisant Trident ou nécrotique Spit dans n'importe quelle combinaison.\n**Trident.** Jet d'attaque au corps à corps : +12, allonge 3 m. Touché : 33 (6d8 + 6) dégâts perforants.\n**nécrotique craquage.** Jet d'attaque à distance : +12, portée 27 m. Touché : 11 (2d10) dégâts de poison plus 22 (4d10) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Trident",
+   "bonus": 12,
+   "damage": "6d8+6",
+   "type": "perforant"
+  },
+  {
+   "name": "nécrotique craquage",
+   "bonus": 12,
+   "damage": "2d10",
+   "type": "poison + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/30d04ac440_monstre-surgit-sarrukh.webp",
+ "notes": "",
+ "source": "Arcana Unleashed: Deadfall (5e.tools, traduction automatique)",
+ "aka": "Surgit Sarrukh",
+ "saves": "FOR +12, DEX +9, CON +12, SAG +9",
+ "skills": "Perception +9, Discrétion +12",
+ "immunities": "feu, nécrotique, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "bonusActions": "**Téléport veineux (Recharge 5-6).** Le sarrukh téléporte jusqu'à 36 m vers un espace occupé qu'il peut voir, et chaque créature dans 3 m de l'espace le sarrukh quitte ou arrive dans (le choix de Sarrukh) est soumis à l'effet suivant. Jet de sauvegarde de Constitution : DD 20. Échec : 22 (4d10) dégâts de poison. Réussite : Demi-dégâts.",
+ "reactions": "**Contrôle de la forme.** Déclencheur : Une créature que le sarrukh peut voir des changements de forme. Réponse : Le sarrukh choisit la forme résultante parmi les options disponibles pour la créature qui change de forme ou empêche la créature de changer de forme."
+}

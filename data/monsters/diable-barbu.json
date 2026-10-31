@@ -1,0 +1,47 @@
+{
+ "id": "diable-barbu",
+ "name": "Diable barbu",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 15,
+  "CON": 15,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "saves": "FOR +5, CON +4, CHA +4",
+ "resistances": "froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "effrayé, empoisonné",
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**Résistance à la magie.** Le diable a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le diable effectue une attaque de Barbe et une de Coutille infernale.\n**Barbe.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts perforants, et la cible subit l’état Empoisonné jusqu’au début du tour suivant du diable. Tant que cet état persiste, la cible ne peut pas récupérer de points de vie.\n**Coutille infernale.** Corps à corps : +5, allonge 3 m. Touché : 8 (1d10 + 3) dégâts tranchants. Si la cible est une créature et ne souffre pas déjà d’une plaie infernale, elle est soumise à l’effet suivant. JS Constitution : DD 12. Échec : la cible subit une plaie infernale. Ainsi blessée, la cible perd 5 (1d10) points de vie au début de chacun de ses tours. La plaie se referme au bout de 1 minute, si un sort lui restitue des points de vie ou si elle-même ou une créature dans un rayon de 1,50 m d’elle consacre une action à panser la plaie et réussit un test de Sagesse (Médecine) DD 12.",
+ "attacks": [
+  {
+   "name": "Barbe",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Coutille infernale",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1ecb59e650_monstre-diable-barbu.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 66"
+}

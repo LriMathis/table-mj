@@ -1,0 +1,42 @@
+{
+ "id": "lantern-archon",
+ "name": "Lantern Archon",
+ "type": "Céleste",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "5d6+5",
+ "vitesse": "0 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "tous",
+ "traits": "**Aura de la Menace.** Tant que l'archen n'a pas l'état neutralisé, chaque créature du choix de l'archen qui commence son tour dans 6 m de l'archen doit faire un DD 11 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature a l'état effrayé jusqu'au début de son prochain tour. Sur un salut réussi, la créature est immunisée contre l'aura de la Menace de tous les arqués pendant 24 heures.\n**Éclairage.** L'arceau apporte une lumière lumineuse dans un rayon de 9 m et une lumière dim pour un 9 m supplémentaire.\n**Mouvement intégré.** L'archon peut se déplacer à travers des créatures et des objets comme s'ils étaient terrain difficile. Si elle termine son tour à l'intérieur d'un objet, elle prend 5 (1d10) dégâts de force.",
+ "actionsText": "**Multiattaques.** L'archen fait deux attaques radiant Strike. Il peut remplacer une attaque par une utilisation de Teleport.\n**Grève de radiant.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 6 (1d6 + 3) dégâts radiants.\n**Téléportation.** Les téléports arqués, ainsi que tout équipement qu'ils portent ou transportent, se trouvent dans un espace inoccupé qu'ils peuvent voir à l'intérieur de 36 m.\n**Détection orthographique.** L'archon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation :\n- À volonté : Détection du mal et du bien\n- 1/jour : Aide",
+ "attacks": [
+  {
+   "name": "Grève de radiant",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/0baf7f20dd_monstre-lantern-archon.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "skills": "Perception +3",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, radiant",
+ "conditionImmunities": "épuisement, agrippé, paralysé, à terre, entravé",
+ "bonusActions": "**Radiance du poste.** L'arc réduit son éclairage pour ne verser que de la lumière faible dans un rayon 1,50 m, ou il renvoie la lumière à pleine intensité."
+}

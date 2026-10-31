@@ -1,0 +1,46 @@
+{
+ "id": "echelle-kobold",
+ "name": "Kobold Scale Sorcerer",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 27,
+ "hpFormula": "5d6+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 9,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, draconique",
+ "traits": "**Tactiques de conditionnement.** Le kobold a avantage sur un jet d'attaque contre une créature si au moins un des alliés du kobold est dans le 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Sensibilité à la lumière du soleil.** En plein soleil, le kobold a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le kobold fait deux attaques de poignard ou de bolt chromatique. Il peut remplacer une attaque par une utilisation de Spellcasting.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Bolt chromatique.** Attaque de sort à distance : +4 au toucher, portée 18 m, une cible. Touché : 9 (2d6 + 2) d'un type de choix du kobold: acide, froid, feu, foudre, poison, ou tonnerre.\n**Détection orthographique.** Le kobold lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Main de mage, Prestidigitation\n- 2/jour chacun : Charme-personne, Nappe de brouillard, Lévitation",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Bolt chromatique",
+   "bonus": 4,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/dc79b8c0e9_monstre-echelle-kobold.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Échelle kobold",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +2, Médecine +1"
+}

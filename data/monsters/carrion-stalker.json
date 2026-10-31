@@ -1,0 +1,43 @@
+{
+ "id": "carrion-stalker",
+ "name": "Carrion Stalker",
+ "type": "Aberration",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 55,
+ "hpFormula": "10d4+30",
+ "vitesse": "9 m, creusement 9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "senses": "Perception des vibrations 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le harceleur de carrure fait deux attaques du Tentacle et une attaque du Stinger.\n**Tentacle.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 8 (2d4 + 3) dégâts perforants, et le harceleur de carrion s'attache à la cible. Bien qu'attaché, le harceleur de carrions ne peut pas faire d'attaques du Tentacle contre d'autres cibles.\nLe harceleur de carrion peut se détacher en dépensant 1,50 m de mouvement. La cible ou une créature de 1,50 m peut détacher le harceleur de carrure comme une action.\n**Aiguille.** Jet d'attaque au corps à corps : +5 (avec Avantage si le harceleur de carrion est attaché à la cible), allonge 1,50 m. Touché : 7 (2d6) dégâts de poison, et la cible est soumise à l'effet suivant. Jet de sauvegarde de Constitution : DD 13. Échec : La cible a l'état empoisonné. Alors qu'empoisonné de cette façon, la cible est infestée par une larve de harceleur de carrion. Si la cible est toujours empoisonné de cette façon après 24 heures, l'effet se termine lorsque la larve devient un Carrion Stalker entièrement cultivé, qui éclate de la poitrine de la cible et la tue.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Aiguille",
+   "bonus": 5,
+   "damage": "2d6",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/055dbd0e17_monstre-carrion-stalker.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)"
+}

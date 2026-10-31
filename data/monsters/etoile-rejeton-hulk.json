@@ -1,0 +1,43 @@
+{
+ "id": "etoile-rejeton-hulk",
+ "name": "Star Spawn Hulk",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 136,
+ "hpFormula": "13d10+65",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 8,
+  "CON": 21,
+  "INT": 7,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "profond",
+ "traits": "**Miroir psychique.** Si le hulk prend dégâts psychiques, chaque créature à l'intérieur de 3 m du hulk prend plutôt ces dégâts ; le hulk ne prend aucun des dégâts. De plus, les pensées et l'emplacement de la hulk ne peuvent pas être discernés par la magie.",
+ "actionsText": "**Multiattaques.** Le hulk fait deux attaques de Slam. Si les deux attaques atteignent la même cible, la cible prend également 9 (2d8) dégâts psychiques et doit réussir sur un DD 17 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin du prochain tour de la cible.\n**Clamer.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 14 (2d8 + 5) dégâts contondants.\n**Armes à remous (Recharge 5-6).** Le hulk fait une attaque séparée contre chaque créature dans 3 m de lui. Chaque créature qui est frappée doit également réussir sur un DD 17 jet de sauvegarde de Dextérité ou être à terre.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/677c6af2b5_monstre-etoile-rejeton-hulk.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Étoile rejeton Hulk",
+ "caNote": "armure naturelle",
+ "saves": "DEX +3, SAG +5",
+ "skills": "Perception +5",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, effrayé"
+}

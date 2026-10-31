@@ -1,0 +1,52 @@
+{
+ "id": "typhon",
+ "name": "Typhon",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 17,
+ "hp": 195,
+ "hpFormula": "17d12+85",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 7,
+  "SAG": 12,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun",
+ "traits": "**Sensation de Keen.** Le typhon a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Régénération.** Le typhon retrouve 20 points de vie au début de son tour. Si elle prend dégâts radiants, ce trait ne fonctionne pas au début de son tour suivant. Le typhon meurt seulement s'il démarre son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Le typhon fait trois attaques : une avec son Flurry of Bites, une pour constricter, et une avec sa mamelle.\n**Fluide de Bites.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 35 (8d6 + 7) dégâts perforants.\n**Constriction.** Attaque d'arme au corps à corps : +12 au toucher, allonge 4,50 m, une créature grande ou plus petite. Touché : 17 (3d6 + 7) dégâts contondants, et la cible est agrippé (évasion DD 19). Jusqu'à ce que ce grappin se termine, la cible est entravé et prend 17 (3d6 + 7) dégâts contondants au début de chacun de ses tours. Le typhon peut avoir jusqu'à deux créatures restreintes.\n**Maw.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 26 (3d12 + 7) dégâts perforants plus 19 (3d12) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Fluide de Bites",
+   "bonus": 12,
+   "damage": "8d6+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 12,
+   "damage": "3d6+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Maw",
+   "bonus": 12,
+   "damage": "3d12+7",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/0f61dbabec_monstre-typhon.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +10",
+ "immunities": "acide, nécrotique"
+}

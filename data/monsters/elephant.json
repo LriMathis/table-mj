@@ -1,0 +1,38 @@
+{
+ "id": "elephant",
+ "name": "Éléphant",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "non alignée",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 76,
+ "hpFormula": "8d12+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 9,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Perception passive 10",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** L’éléphant effectue deux attaques de Coup de défense.\n**Coup de défense.** Corps à corps : +8, allonge 1,50 m. Touché : 15 (2d8 + 6) dégâts perforants. Si la cible est une créature de taille TG ou inférieure et si l’éléphant s’est déplacé en ligne droite d’un minimum de 6 m juste avant de la toucher, la cible subit l’état À terre.",
+ "bonusActions": "**Piétinement.** JS Dextérité : DD 16, une créature subissant l’état À terre dans un rayon de 1,50 m. Échec : 17 (2d10 + 6) dégâts contondants. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Coup de défense",
+   "bonus": 8,
+   "damage": "2d8+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/214ab03383_monstre-elephant.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

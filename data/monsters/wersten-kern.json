@@ -1,0 +1,41 @@
+{
+ "id": "wersten-kern",
+ "name": "Wersten Kern",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 18,
+ "hp": 178,
+ "hpFormula": "21d8+84",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, infernal, Solamique",
+ "traits": "**Fortitude non-morte.** Si les dégâts réduisent Wersten à 0 points de vie, elle doit faire un jet de sauvegarde de Constitution avec un DD de 5 + les dégâts pris, à moins que les dégâts sont bludges ou d'un coup critique. Sur un succès, Wersten tombe à 1 points de vie.\n**Nature inhabituelle.** Wersten n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Wersten fait trois attaques Banner Pike et utilise Terrify Litany si elle est disponible.\n**Pique à bannières.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d10 + 5) dégâts perforants plus 13 (3d8) dégâts nécrotiques. Si la cible est un humanoïde, elle doit réussir sur un DD 16 jet de sauvegarde de Charisme ou être maudite. La malédiction dure jusqu'à ce qu'elle soit levée par enlever la malédiction ou la magie similaire. La rose noire et épineuse pousse du corps de la créature pendant qu'elle est maudite, imposant un désavantage sur les tests de caractéristique et jets d'attaque de la créature et réduisant de moitié sa vitesse. Une créature qui réussit sur le jet de sauvegarde contre la malédiction est immunisée contre elle pendant 24 heures.\n**Litanie terrifiante (Recharge 5-6).** Wersten récite les noms des âmes tuées par Soth et sa compagnie, canalisant leur terreur mortelle. Chaque créature qui n'est pas un mort-vivant au sein de 9 m d'elle doit faire un DD 16 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature prend 22 (4d10) dégâts psychiques et est effrayé de Wersten pendant 1 minute. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas effrayé. A la fin de chacun de ses tours, une créature effrayé peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Wersten lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- 1/jour chacun : Dissipation de la magie, Mur de pierre",
+ "attacks": [
+  {
+   "name": "Pique à bannières",
+   "bonus": 10,
+   "damage": "1d10+5",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/65aec41853_monstre-wersten-kern.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "plaque",
+ "saves": "CON +9, SAG +7",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, effrayé, empoisonné"
+}

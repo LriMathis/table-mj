@@ -1,0 +1,47 @@
+{
+ "id": "grisdelfawr",
+ "name": "Grisdelfawr",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 178,
+ "hpFormula": "17d10+85",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 18",
+ "languages": "commun, draconique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Grisdelfawr fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants plus 3 (1d6) dégâts de feu.\n**Griffe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants.\n**feu Respiration (Recharge 5-6).** Grisdelfawr exhale le feu dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Dextérité, en prenant 56 (16d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ad3a0a6f28_monstre-grisdelfawr.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +9, SAG +4, CHA +8",
+ "skills": "Perception +8, Discrétion +4",
+ "immunities": "feu"
+}

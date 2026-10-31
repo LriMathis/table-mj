@@ -1,0 +1,55 @@
+{
+ "id": "sang-drinker-vampire",
+ "name": "Blood Drinker Vampire",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 18,
+  "CON": 17,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le vampire fait trois attaques de mêlée, dont une seule peut être une attaque de morsure.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature volontaire, ou une créature qui est agrippé par le vampire, neutralisé, ou entravé. Touché : 7 (1d6 + 4) dégâts perforants plus 7 (2d6) dégâts nécrotiques. Si la cible est humanoïde, elle doit réussir sur un DD 15 jet de sauvegarde de Charisme ou être charmé par le vampire pendant 1 minute. Alors que charmé de cette façon, la cible est entachée du vampire. Le maximum de points de vie de la cible est réduit d'une quantité égale au dégâts nécrotiques pris, et le vampire récupère points de vie égale à cette quantité. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0.\n**Violeur.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants. Le vampire peut aussi frapper la cible (évasion DD 14) si c'est une créature et le vampire a une main libre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Violeur",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "frappe à mains nues",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/6312ff48c4_monstre-sang-drinker-vampire.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Sang Drinker vampire",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +6, SAG +4",
+ "skills": "Intimidation +7, Perception +4, Discrétion +7",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "reactions": "**Parry.** Le vampire ajoute 3 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, le vampire doit voir l'agresseur et manier une arme de mêlée."
+}

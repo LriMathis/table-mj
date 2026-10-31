@@ -1,0 +1,38 @@
+{
+ "id": "cranium-rat-squeaker",
+ "name": "Cranium Rat Squeaker",
+ "type": "Aberration",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 4,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "télépathie 9 m (emotions only)",
+ "traits": "**Télépathie partagée.** Toute créature touchant le rat cranium peut utiliser la télépathie du rat si le rat le permet. Si la créature connaît n'importe quel langage, elle peut utiliser la télépathie pour communiquer des mots et des émotions.\n**Chouette télépathique.** Le rat cranium est immunisé contre tout effet qui sentirait ses émotions ou lireait ses pensées, ainsi que contre les sorts de divination.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/b552f14106_monstre-cranium-rat-squeaker.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "bonusActions": "**Éclairage.** Le rat cranium apporte une lumière faible de son cerveau exposé dans un rayon de 1,50 m ou éteint la lumière."
+}

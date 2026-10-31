@@ -1,0 +1,47 @@
+{
+ "id": "sylvanien-sapling",
+ "name": "Treant Sapling",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 8,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, druidique, elfique, sylvestre",
+ "traits": "**Fausse apparence.** Si le treant est immobile au début du combat, il a l'avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte du treant, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que le treant est animé.",
+ "actionsText": "**Multiattaques.** Le treant fait deux attaques de Slam.\n**Clamer.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +5 au toucher, portée 6/18 m., une cible. Touché : 14 (2d10 + 3) dégâts contondants.\n**Arbres animés (1/jour).** Le treant anime magiquement un ou deux arbres qu'il peut voir à l'intérieur de 18 m de lui. Ces arbres ont les mêmes statistiques qu'un arbre éveillé (voir le Manuel Monster), sauf qu'ils ne peuvent pas parler. Un arbre animé agit comme un allié du treant. L'arbre reste animé pendant 1 jour ou jusqu'à sa mort, jusqu'à ce que le treant meurt ou soit plus que 36 m de l'arbre, ou jusqu'à ce que le treant prenne un action bonus pour le transformer en arbre inanimé. L'arbre prend alors racine si possible.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/71b081437b_monstre-sylvanien-sapling.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Sylvanien Sapling",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant"
+}

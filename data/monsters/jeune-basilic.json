@@ -1,0 +1,39 @@
+{
+ "id": "jeune-basilic",
+ "name": "Young Basilisk",
+ "type": "Monstruosité",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d6+8",
+ "vitesse": "4,50 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 8,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 8,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Gaz pétrifiant.** Si une créature commence son tour dans 4,50 m du basilic et que les deux d'entre eux peuvent se voir, le basilic peut forcer la créature à faire un DD 12 jet de sauvegarde de Constitution si le basilic n'est pas neutralisé. Sur une sauvegarde ratée, la créature commence magiquement à se tourner vers la pierre et est entravé. Il doit répéter le jet de sauvegarde à la fin de son prochain tour. Sur un succès, l'effet se termine. Sur un échec, la créature est pétrifié jusqu'à ce qu'elle soit libérée par le sort Restauration supérieure ou autre magie.\nUne créature qui n'est pas surpris peut détourner ses yeux pour éviter la jet de sauvegarde au début de son tour. S'il le fait, il ne peut pas voir le basilic jusqu'au début de son prochain tour, quand il peut détourner ses yeux à nouveau. S'il regarde le basilic dans l'intervalle, il doit immédiatement faire l'épargne.\nSi le basilic voit sa réflexion dans 9 m de lui en lumière vive, il s'erreur pour un rival et se vise avec son regard.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants plus 2 (1d4) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/a377dc41bc_monstre-jeune-basilic.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Jeune basilic",
+ "caNote": "armure naturelle"
+}

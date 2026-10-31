@@ -1,0 +1,42 @@
+{
+ "id": "occulte-silvertongue",
+ "name": "Occult Silvertongue",
+ "type": "Humanoïde (ensorceleur)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 13,
+ "hp": 127,
+ "hpFormula": "17d8+51",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 15,
+  "SAG": 17,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 16",
+ "languages": "Commun plus trois autres langues, télépathie 18 m",
+ "traits": "**Esprit étranger.** Si une créature tente de lire les pensées de la langue d'argent ou de distribuer dégâts psychiques à la langue d'argent, cette créature doit réussir sur une DD 16 jet de sauvegarde d'Intelligence ou être étourdi jusqu'au début de son prochain tour.\n**Résistance magique.** La langue argentée a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Crimson Bolt.** Attaque de sort au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 18 m, une créature. Touché : 27 (4d10 + 5) dégâts psychiques.\n**Détection orthographique.** La langue d'argent jette l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- 1/jour : Porte dimensionnelle\n- 2/jour chacun : Charme-personne, Armure de mage, Communication à distance",
+ "attacks": [
+  {
+   "name": "Crimson Bolt",
+   "bonus": 8,
+   "damage": "4d10+5",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/46ecb7a95a_monstre-occulte-silvertongue.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Occulte Silvertongue",
+ "saves": "SAG +6, CHA +8",
+ "skills": "Arcanes +8, Tromperie +11, Histoire +5, Perception +6",
+ "resistances": "psychique",
+ "bonusActions": "**Serviteur élémentaire (1/jour).** La langue argentée appelle magiquement une terre élémentaire, qui apparaît dans un espace inoccupé que la langue argentée peut voir en 18 m de lui-même. L'élémental de la terre prend son tour immédiatement après la langue d'argent sur la même initiative compter et obéit aux commandements de la langue d'argent. La terre élémentaire disparaît après 1 minute ou quand elle ou la langue argentée meurt."
+}

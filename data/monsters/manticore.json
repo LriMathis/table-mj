@@ -1,0 +1,43 @@
+{
+ "id": "manticore",
+ "name": "Manticore",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyale mauvaise",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "9 m, vol 15 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 7,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** La manticore effectue trois attaques, réparties à sa guise entre Saignée et Piquant caudal.\n**Saignée.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts tranchants.\n**Piquant caudal.** À distance : +5, portée 30/60 m. Touché : 7 (1d8 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Piquant caudal",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/aa99268895_monstre-manticore.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 214"
+}

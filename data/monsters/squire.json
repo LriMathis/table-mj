@@ -1,0 +1,41 @@
+{
+ "id": "squire",
+ "name": "Squire",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Mot long.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants, ou 6 (1d10 + 1) dégâts tranchants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ead6ccf976_monstre-squire.webp",
+ "notes": "",
+ "source": "Ravenloft: The House of Lament (5e.tools, traduction automatique)",
+ "caNote": "Bouclier",
+ "saves": "FOR +3",
+ "skills": "Athlétisme +3",
+ "bonusActions": "**Tourne-toi.** En utilisant un bouclier, vous essayez de pousser une créature au sein de 1,50 m de votre part."
+}

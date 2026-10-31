@@ -1,0 +1,41 @@
+{
+ "id": "flitterstep-eidolon",
+ "name": "Flitterstep Eidolon",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 18,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Forme floue.** jets d'attaque contre l'éidolon sont faites avec un désavantage à moins que l'éidolon soit neutralisé.\n**Évasion.** Si l'eidolon est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, l'eidolon ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue. Il ne peut pas utiliser ce trait si c'est neutralisé.\n**Mouvement intégré.** L'éidolon peut se déplacer à travers d'autres créatures et objets comme s'ils avaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance au virage.** L'eidolon a un avantage sur jet de sauvegarde contre tout effet qui devient mort-vivant.",
+ "actionsText": "**Multiattaques.** L'éidolon fait deux attaques de mêlée. Immédiatement avant ou après l'une de ses attaques, il peut utiliser Flitterstep s'il est disponible.\n**Dague à bascule.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts perforants plus 3 (1d6) dégâts psychiques.\n**Flitterstep (Recharge 5-6).** L'eidolon se téléporte magiquement dans un espace inoccupé qu'il peut voir à l'intérieur de 9 m. S'il fait une attaque immédiatement après le téléportage, il a avantage sur le jet d'attaque.",
+ "attacks": [
+  {
+   "name": "Dague à bascule",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/d54a548655_monstre-flitterstep-eidolon.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +8",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, entravé"
+}

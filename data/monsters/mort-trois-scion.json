@@ -1,0 +1,49 @@
+{
+ "id": "mort-trois-scion",
+ "name": "Dead Three Scion",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 17,
+ "hp": 221,
+ "hpFormula": "26d8+104",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 19,
+  "INT": 18,
+  "SAG": 21,
+  "CHA": 24
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 15",
+ "languages": "commun",
+ "traits": "**Culling Aura.** Jet de sauvegarde de Constitution : DD 20, chaque créature en sang dans une émanation 9 m provenant du scion à la fin du tour du scion. Échec : La cible ne peut retrouver points de vie qu'au début du prochain tour du scion.\n**Résistance légendaire (3/jour).** Si le scion échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le scion a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Commande.** Le scion lance Injonction (version de niveau 2) en utilisant le même caractéristique d'incantation que Spellcasting. Le scion ne peut pas reprendre cette action avant le début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Le scion fait deux attaques, en utilisant Death Touch ou Mindwrack Bolt dans n'importe quelle combinaison.\n**Touche de mort.** Jet d'attaque au corps à corps : +12, allonge 1,50 m. Touché : 25 (4d8 + 7) dégâts nécrotiques.\n**Bolt de Mindwrack.** Jet d'attaque à distance : +12, portée 36 m. Touché : 21 (6d6) dégâts psychiques et la cible a l'état empoisonné jusqu'au prochain tour du scion.\n**Détection orthographique.** Le scion lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Détection des pensées, Dissipation de la magie\n- 1/jour chacun : Cercle de mort, Création de mort-vivant\n- 2/jour chacun : Porte dimensionnelle, Invisibilité, Scrutation",
+ "attacks": [
+  {
+   "name": "Touche de mort",
+   "bonus": 12,
+   "damage": "4d8+7",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Bolt de Mindwrack",
+   "bonus": 12,
+   "damage": "6d6",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/25cf158837_monstre-mort-trois-scion.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Mort trois Scion",
+ "saves": "CON +9, SAG +10",
+ "skills": "Arcanes +9, Intimidation +12, Discrétion +7",
+ "immunities": "nécrotique",
+ "conditionImmunities": "charmé, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, mort trois scion peut entreprendre l'une des actions ci-après.\n**Attaque.** Le scion fait une attaque de la mort ou de Mindwrack Bolt."
+}

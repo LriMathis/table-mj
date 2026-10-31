@@ -1,0 +1,41 @@
+{
+ "id": "azer",
+ "name": "Azer",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 17,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "saves": "CON +4",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Perception passive 11",
+ "languages": "primordial (igné)",
+ "traits": "**Aura de feu.** À la fin de chaque tour de l’azer, chaque créature qu’il choisit dans une Émanation de 1,50 m centrée sur lui subit 5 (1d10) dégâts de feu, sauf si cet azer subit l’état Neutralisé.\n**Illumination.** L’azer projette une Lumière vive sur un rayon de 3 m, et une Lumière faible sur 3 m de plus.",
+ "actionsText": "**Marteau ardent.** Corps à corps : +5, allonge 1,50 m. Touché : 8 (1d10 + 3) dégâts contondants plus 3 (1d6) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Marteau ardent",
+   "bonus": 5,
+   "damage": "1d10+3+1d6",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/6783364abc_monstre-azer.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 21",
+ "aka": "Sentinelle azer (2024)"
+}

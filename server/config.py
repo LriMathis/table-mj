@@ -11,3 +11,4 @@ PATHS = {
 LOCK = threading.RLock()
 INFO = {"lan": False, "remote": False, "port": 8765, "urls": [], "public": None}
 LOCAL = ("127.0.0.1", "::1", "::ffff:127.0.0.1")
+GM_KEY = None   # set with --gm-lan: secret that lets another computer of the local network use the GM interface

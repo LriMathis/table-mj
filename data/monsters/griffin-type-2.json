@@ -1,0 +1,44 @@
+{
+ "id": "griffin-type-2",
+ "name": "Griffin (Type 2)",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 19,
+ "hpFormula": "3d10+3",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 13,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Perception passive 15",
+ "languages": "—",
+ "traits": "**C'est la vue..** Le griffin a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le griffin fait deux attaques : une avec son bec et une avec ses griffes.\n**Bec.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/781b7e6166_monstre-griffin-type-2.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "skills": "Perception +5"
+}

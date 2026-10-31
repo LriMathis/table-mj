@@ -1,0 +1,44 @@
+{
+ "id": "ekengarik",
+ "name": "Ekengarik",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 16,
+ "hp": 231,
+ "hpFormula": "22d10+110",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 21,
+  "INT": 14,
+  "SAG": 17,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 13",
+ "languages": "commun, Formien, télépathie 36 m",
+ "traits": "**Mensonge de la vie.** Tous les formiens fiendes de 1,5 km d'Ekengarik peuvent communiquer par télépathie entre eux et Ekengarik.\n**Régénération.** Ekengarik régénère 10 points de vie au début de son tour, à moins qu'elle n'ait pris dégâts radiants au dernier tour.",
+ "actionsText": "**Multiattaques.** Ekengarik fait trois attaques Bite. Elle peut remplacer l'une des attaques par une attaque acide Spray (si disponible) ou une utilisation de Spellcasting.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d8 + 6) dégâts perforants et la cible doit faire un DD 19 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, le score Force de la cible est réduit de 2 (1d4). La cible meurt si cela réduit sa Force à 0. Sinon, la réduction dure jusqu'à ce que la cible termine un repos court ou long.\n**acide Spray (Recharge 5-6).** Ekengarik crache de l'acide à une créature à l'intérieur de 18 m d'elle, ou deux créatures à l'intérieur de 18 m d'elle et 1,50 m de l'autre. Les cibles doivent faire un DD 18 jet de sauvegarde de Dextérité, en prenant 33 (6d10) dégâts d'acide sur un jet de sauvegarde échoué, ou la moitié de ce qui se passe sur un succès.\n**Détection orthographique.** Ekengarik lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection de la magie, Dissipation de la magie, Héroïsme, Projectile magique\n- 1/jour chacun : Tentacules noirs d'Evard, Cône de froid, Confusion, Porte dimensionnelle, Quête, Invisibilité, Mur prismatique, Lenteur",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "2d8+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1d1e89e780_monstre-ekengarik.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, CHA +10",
+ "skills": "Tromperie +10, Perspicacité +8, Persuasion +10",
+ "resistances": "acide, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, feu, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "reactions": "**Carapace durci (Recharge 4-6).** Atteinte par une attaque, Ekengarik durcit temporairement sa carapace, réduisant sa vitesse à 0 et augmentant sa CA de 5 jusqu'au début de son prochain tour."
+}

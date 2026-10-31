@@ -1,0 +1,44 @@
+{
+ "id": "alyxian-le-tormented",
+ "name": "Alyxian the Tormented",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 16,
+ "hp": 150,
+ "hpFormula": "12d12+72",
+ "vitesse": "12 m, nage 12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 18,
+  "CON": 22,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 20
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 17",
+ "languages": "céleste, commun, elfique, télépathie 36 m",
+ "traits": "**Réjeunissement apothéonique.** Quand Alyxian tombe à 0 points de vie, son corps meurt et se fissure comme un cocon. Alyxian émerge instantanément du cocon sous sa seconde forme, Alyxian le Callous, dans l'espace où sa forme précédente est morte. Son initiative compte ne change pas.\n**Divinement béni.** Alyxian ne peut pas être surpris et ne peut pas être changé en une autre forme contre sa volonté.\n**Résistance légendaire (2/jour).** Si Alyxian échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Alyxian fait deux coups de main.\n**Poignée de graissage.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 15 (3d6 + 5) dégâts de force, et si la cible est une créature moyenne ou plus petite, c'est agrippé (évasion DD 15). Alyxian a six mains, chacune d'entre elles peut battre une cible.\n**Yeux vides (Recharge 5-6).** Alyxian cible jusqu'à deux créatures qu'il peut voir en lui-même. Chaque cible doit faire un DD 17 jet de sauvegarde de Constitution, en prenant 28 (8d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Poignée de graissage",
+   "bonus": 9,
+   "damage": "3d6+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/cd6452c1d8_monstre-alyxian-le-tormented.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Alyxian le Tormented",
+ "caNote": "armure naturelle",
+ "saves": "FOR +9, CON +10, SAG +7",
+ "skills": "Tromperie +9, Perspicacité +7, Perception +7",
+ "immunities": "nécrotique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, alyxian le tormented peut entreprendre l'une des actions ci-après.\n**Attaque.** Alyxian fait une attaque de main.\n**Armes d'Yore (coûts 2 actions).** Des armes anciennes intégrées dans la cachette d'Alyxian se détachent d'Alyxian et volent dans une sphère 3 m -radius centrée sur un point qu'Alyxian peut voir en lui-même. Une créature prend 18 (4d8) dégâts tranchants quand elle entre dans cette zone pour la première fois sur un tour ou commence son tour là. L'effet dure jusqu'à la fin du prochain tour d'Alyxian, quand les armes retournent à Alyxian et s'enrôlent dans sa peau une fois de plus (ce qui ne lui cause aucun mal)."
+}

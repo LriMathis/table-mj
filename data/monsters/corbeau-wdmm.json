@@ -1,0 +1,39 @@
+{
+ "id": "corbeau-wdmm",
+ "name": "Crow",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "3 m, vol 15 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 14,
+  "CON": 8,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**Mimétisme.** Le corbeau peut imiter des sons simples qu'il a entendus, comme une personne qui murmure, un bébé qui pleure ou un animal qui chie. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 10 test de Sagesse (Perspicacité).",
+ "actionsText": "**Bec.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 4,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/a5989d124c_monstre-corbeau-wdmm.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Corbeau",
+ "skills": "Perception +3"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "mennek-ariz",
+ "name": "Mennek Ariz",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "quatre langues",
+ "traits": "**Détection orthographique.** Mennek est un épeautre de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort). Mennek a préparé les sorts d'assistant suivants :\n- Sorts mineurs (à volonté) : Amis, Main de mage, Réparation, Message\n- Niveau 1 (4 emplacements) : Charme-personne *, Armure de mage, Projectile magique\n- Niveau 2 (3 emplacements) : Immobilisation de personne *, Invisibilité, Suggestion *\n- Niveau 3 (3 emplacements) : Boule de feu, Hâte, Don des langues\n- Niveau 4 (3 emplacements) : Domination de bête *, Peau de pierre\n- Niveau 5 (2 emplacements) : Immobilisation de monstre *\n*Temps d'ancrage de de niveau 1 ou plus",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d6 - 1) dégâts contondants, ou 3 (1d8 - 1) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 2,
+   "damage": "1d6-1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8f05d7e642_monstre-mennek-ariz.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "saves": "INT +6, SAG +4",
+ "skills": "Arcanes +6, Histoire +6",
+ "reactions": "**Charm Instictif (recharge après l'Enchanteur jette un Enchantement Spell de de niveau 1 ou supérieur).** Mennek essaie de détourner magiquement une attaque faite contre elle, à condition que l'attaquant soit à l'intérieur de 9 m et visible à elle. Mennek doit décider de le faire avant que l'attaque ne frappe ou ne manque.\nL'attaquant doit faire un DD 14 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, l'attaquant cible la créature la plus proche, autre que Mennek ou elle-même. Si plusieurs créatures sont les plus proches, l'attaquant choisit celle à cibler."
+}

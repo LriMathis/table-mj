@@ -1,0 +1,49 @@
+{
+ "id": "treefolk",
+ "name": "Treefolk",
+ "type": "Plante (druide)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "tout alignement",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 171,
+ "hpFormula": "18d10+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 20,
+  "CHA": 11
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 19",
+ "languages": "commun, druidique, sylvestre",
+ "traits": "**Camouflage des plantes.** L'arbrefolk a avantage sur tests de Dextérité (Discrétion) il fait en terrain forestier.\n**Essence d'arbres.** Une fois sur chacun de ses virages, l'arbre peut utiliser 3 m de son mouvement pour passer magiquement dans un arbre vivant en 1,50 m de lui-même et émerger d'un deuxième arbre vivant en 18 m de lui-même qu'il peut voir, apparaissant dans un espace inoccupé au sein de 1,50 m du deuxième arbre. Les deux arbres doivent être au moins aussi grands que les arbres.",
+ "actionsText": "**Multiattaques.** L'arbre fait deux attaques à la vigne, deux attaques à l'ombre de nuit, ou l'une de chacune.\n**Vin de concassage.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 25 (3d12 + 6) dégâts contondants. Si la cible est une créature, elle a l'état agrippé (évasion DD 18). Alors qu'agrippé, la créature a également l'état entravé. Les arbres peuvent gripper jusqu'à six créatures de cette façon.\n**Bolt d'ombre de nuit.** Attaque de sort à distance : +9 au toucher, portée 18 m, une cible. Touché : 33 (6d10) dégâts de poison.\n**Détection orthographique.** L'arbrefolk lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection du poison et des maladies, Druidisme\n- 1/jour : Communion avec la nature (en tant qu'action)\n- 2/jour chacun : Agrandissement/Rapetissement, Communication avec les plantes",
+ "attacks": [
+  {
+   "name": "Vin de concassage",
+   "bonus": 10,
+   "damage": "3d12+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Bolt d'ombre de nuit",
+   "bonus": 9,
+   "damage": "6d10",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/38793fdb86_monstre-treefolk.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, INT +4, SAG +9",
+ "skills": "Perspicacité +9, Nature +8, Perception +9",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant",
+ "bonusActions": "**Boon de chêne.** L'arbre bénit une créature autre que lui-même qu'il peut voir en 18 m de lui-même avec la puissance et la sagesse de la forêt. Tout en étant bénie de cette façon, une créature peut utiliser le trait de l'arbre Stride et gagne 5 (2d4) points de vie temporaires au début de chacun de ses tours. Cette bénédiction dure 1 minute, jusqu'à ce que l'arbrefolk ait l'état neutralisé, ou jusqu'à ce que l'arbrefolk utilise à nouveau ce action bonus."
+}

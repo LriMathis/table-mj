@@ -1,0 +1,49 @@
+{
+ "id": "geant-du-givre-d-eau-mauvaise",
+ "name": "Frost Giant of Evil Water",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 16,
+ "hp": 172,
+ "hpFormula": "15d12+75",
+ "vitesse": "12 m, nage 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 21,
+  "INT": 9,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Perception passive 16",
+ "languages": "aquatique, commun, géant",
+ "traits": "**Amphibie.** Le géant peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques Battleaxe et une attaque Harpoon.\n**Bataille.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 19 (3d8 + 6) dégâts tranchants, ou 22 (3d10 + 6) dégâts tranchants si utilisé avec deux mains, plus 7 (2d6) dégâts de froid.\n**Harpoon.** Attaque d'arme à distance : +7 au toucher, portée 15/60 m., une créature. Touché : 14 (2d10 + 3) dégâts perforants, et la cible a l'état agrippé (évasion DD 16). Bien que la cible soit agrippé de cette façon, sa vitesse n'est pas réduite, mais elle ne peut pas se déplacer plus loin du géant. La cible prend 5 (1d10) dégâts tranchants si elle s'échappe du grappin ou si elle essaie et échoue. Le géant ne peut battre qu'une cible à la fois avec son harpon.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 10,
+   "damage": "3d8+6",
+   "type": "tranchant + froid"
+  },
+  {
+   "name": "Harpoon",
+   "bonus": 7,
+   "damage": "2d10+3",
+   "type": "perforant + tranchant"
+  }
+ ],
+ "portrait": "/data/images/448e1261bc_monstre-geant-du-givre-d-eau-mauvaise.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant du givre d'eau mauvaise",
+ "caNote": "Courrier d'échelle",
+ "saves": "DEX +7, CON +9, SAG +6",
+ "skills": "Athlétisme +10, Perception +6",
+ "immunities": "froid",
+ "bonusActions": "**Enroulez.** Le géant tire la cible agrippé par son Harpoon jusqu'à 6 m vers lui-même."
+}

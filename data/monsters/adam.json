@@ -1,0 +1,43 @@
+{
+ "id": "adam",
+ "name": "Adam",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 161,
+ "hpFormula": "19d8+76",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 16,
+  "CON": 19,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun",
+ "traits": "**Fureur sanglante.** Alors qu'en sang, Adam a avantage sur jets d'attaque.\n**Formulaire immuable.** Adam ne peut pas changer de forme.\n**Résistance magique.** Adam a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Adam fait deux attaques de Slam et utilise Crush ou Lancer.\n**Clamer.** Jet d'attaque au corps à corps : +10, allonge 1,50 m. Touché : 13 (2d6 + 6) dégâts contondants plus 7 (2d6) dégâts de foudre. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 18) d'une des deux mains.\n**Écraser.** Jet de sauvegarde de Force : DD 18, une créature agrippé par Adam. Échec : 13 (2d6 + 6) dégâts contondants plus 7 (2d6) dégâts de foudre, et la cible a l'état entravé. Alors qu'entravé, la cible est suffocante.\n**Lancer.** Adam jette une créature agrippé par lui dans un espace qu'il peut voir en 9 m de lui-même qui n'est pas dans l'air. Jet de sauvegarde de Dextérité : DD 18, la créature jetée et chaque créature dans l'espace de destination. Échec : 13 (2d6 + 6) dégâts contondants, et la cible a l'état à terre. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "2d6+6",
+   "type": "contondant + foudre"
+  }
+ ],
+ "portrait": "/data/images/8953f44f6c_monstre-adam.webp",
+ "notes": "",
+ "source": "Project_Lamordia (5e.tools, traduction automatique)",
+ "saves": "FOR +10, DEX +7",
+ "skills": "Acrobaties +7, Athlétisme +14",
+ "resistances": "contondant, perforant, tranchant",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Leap violent.** Adam dépense 3 m de mouvement pour sauter dans un espace au sein de 12 m qui contient une ou plusieurs créatures moyennes ou plus petites. Jet de sauvegarde de Dextérité : DD 18, chaque créature dans l'espace de destination d'Adam. Échec : 14 (4d6) dégâts contondants, et la cible a l'état à terre. Échec ou réussite : La cible se déplace vers l'espace inoccupé le plus proche."
+}

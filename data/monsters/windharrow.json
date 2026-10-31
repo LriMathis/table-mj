@@ -1,0 +1,39 @@
+{
+ "id": "windharrow",
+ "name": "Windharrow",
+ "type": "Humanoïde (demi-elf)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 55,
+ "hpFormula": "10d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "aérien, commun, elfique",
+ "traits": "**Ancêtre fécale.** Windharrow a l'avantage sur jet de sauvegarde contre le fait d'être charmé, et la magie ne peut pas le mettre au lit.\n**Détection orthographique.** Windharrow est un spellcaster de niveau 8. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Windharrow connaît les sorts suivants:\n- Sorts mineurs (à volonté) : Amis, Prestidigitation, Moquerie cruelle\n- Niveau 1 (4 emplacements) : Déguisement, Murmures dissonants, Vague tonnante\n- Niveau 2 (3 emplacements) : Invisibilité, Fracassement, Silence\n- Niveau 3 (3 emplacements) : Antidétection, Communication à distance, Don des langues\n- Niveau 4 (2 emplacements) : Confusion, Porte dimensionnelle",
+ "actionsText": "**Multiattaques.** Windharrow fait deux attaques à la mêlée.\n**Violeur.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 7 (1d8 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3826f114f2_monstre-windharrow.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Acrobaties +5, Tromperie +7, Persuasion +5, Représentation +7, Discrétion +5"
+}

@@ -1,0 +1,44 @@
+{
+ "id": "jermlaine",
+ "name": "Jermlaine",
+ "type": "Humanoïde (Jermlaine)",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 11,
+ "hp": 3,
+ "hpFormula": "1d4+1",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "commun des profondeurs",
+ "traits": "**Des voyous dans l'ombre.** Jermlaine sont invisible à vision sombre.\n**Résistance magique.** La jermlaine a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Ami vermin.** La jermlaine peut parler et comprendre les rats et les rats géants.\n**Rush de swarming.** Une jermlaine ajoute 1d4 à son arme jets de dégâts alors que dans 1,50 m d'une autre jermlaine consciente.",
+ "actionsText": "**Club.** Attaque d'arme au corps à corps : -1 au toucher, allonge 1,50 m, une cible. Touché : 1 (1d4 - 3) dégâts contondants.\n**Débrouille-toi.** Attaque d'arme à distance : +3 au toucher, portée 6/18 m., une cible. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": -1,
+   "damage": "1d4-3",
+   "type": "contondant"
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e056a6d868_monstre-jermlaine.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "skills": "Discrétion +5"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "sul-khatesh",
+ "name": "Sul Khatesh",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "28",
+ "xp": 120000,
+ "ca": 22,
+ "hp": 475,
+ "hpFormula": "50d10+200",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 21,
+  "CON": 19,
+  "INT": 30,
+  "SAG": 22,
+  "CHA": 25
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 16",
+ "languages": "tous, télépathie 45 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Sul Khatesh échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Sul Khatesh a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Maître de Magie.** Sul Khatesh a l'avantage sur jet de sauvegarde de Constitution de maintenir concentration.\n**Découpe intérieure.** caractéristique d'incantation de Sul Khatesh est Intelligence (spell save DD 26, +18 au toucher avec attaques de sort). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Contresort, Détection de la magie, Détection des pensées, Dissipation de la magie, Mauvais oeil, Boule de feu, Éclair, Bouclier\n- 1/jour chacun : Prémonition, Portail, Mot de pouvoir mortel, Téléportation\n- 3/jour chacun : Chaîne d'éclairs, Création de mort-vivant, Songe, Immobilisation de monstre, Suggestion de groupe, Scrutation",
+ "actionsText": "**Multiattaques.** Sul Khatesh fait quatre attaques avec Arcane Blast.\n**Blast d'arcane.** Attaque de sort à distance : +18 au toucher, portée 36 m, une cible. Touché : 15 (1d10 + 10) dégâts de force.\n**Personnel magique.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 36 (5d12 + 4) dégâts de force.\n**Catalysme d'Arcane (recharge après un repos long).** Sul Khatesh évoque des orbes d'énergie magique qui s'effondrent au sol à trois points différents qu'elle peut voir au sein de 1,5 km d'elle. Chaque créature d'une sphère 12 m -radius centrée sur chaque point doit faire un DD 26 jet de sauvegarde de Dextérité, en prenant 71 (11d12) dégâts de force sur un sauvegarde raté ou la moitié de ces dégâts sur un succès. Une créature dans la zone de plus d'un éclat d'arcane n'est affectée qu'une seule fois. La zone de chaque éclatement d'arcane agit alors comme un Champ antimagie pendant 1 heure. Sul Khatesh et ses sorts ne sont pas affectés par ces champs.\n**Modifier la forme.** Sul Khatesh se polymorphe magiquement en humanoïde, bête, ou géant qui a une cote de défi pas plus élevé que la sienne, ou de nouveau dans sa forme réelle. Elle revient à sa vraie forme si elle meurt. Tout équipement qu'elle porte ou qu'elle porte est absorbé ou porté par la nouvelle forme (le choix de Sul Khatesh).\nSous une nouvelle forme, Sul Khatesh conserve son alignement, points de vie, dés de vie, la capacité de parler, les compétences, la résistance légendaire, et Intelligence, Sagesse, et Charisme, ainsi que cette action. Ses statistiques et ses capacités sont remplacées par celles du nouveau formulaire, à l'exception des caractéristiques de classe ou des actions légendaires de ce formulaire.",
+ "attacks": [
+  {
+   "name": "Blast d'arcane",
+   "bonus": 18,
+   "damage": "1d10+10",
+   "type": "force"
+  },
+  {
+   "name": "Personnel magique",
+   "bonus": 12,
+   "damage": "5d12+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/1caa37adf9_monstre-sul-khatesh.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, INT +18, SAG +14, CHA +15",
+ "skills": "Arcanes +18, Histoire +18, Perspicacité +14, Religion +18",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, sul khatesh peut entreprendre l'une des actions ci-après.\n**Attaque.** Sul Khatesh fait deux attaques avec son Arcane Blast ou une attaque avec son personnel magique.\n**Consommer la magie (coûts 2 actions).** Sul Khatesh cible une créature dans 36 m d'elle qui est concentrating sur un sort. La cible doit réussir sur un DD 26 jet de sauvegarde de Constitution ou son concentration est cassé sur le sort, et Sul Khatesh gagne 5 points de vie temporaires par niveau de ce sort.\n**Secrets de folie (coûts 3 actions).** Sul Khatesh chuchote un secret arcane dans l'esprit d'une créature qu'elle peut voir au sein de 18 m d'elle. La cible doit réussir sur un DD 26 jet de sauvegarde de Sagesse ou dépenser l'un de ses emplacements de sort de niveau 3 ou plus bas et fournir 26 (4d12) dégâts de force à chaque créature dans 9 m de lui. Une créature qui échoue au jet de sauvegarde mais ne peut pas dépenser un emplacement de sort est plutôt étourdi jusqu'à la fin de son prochain tour."
+}

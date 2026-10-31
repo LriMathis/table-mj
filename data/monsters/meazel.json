@@ -1,0 +1,45 @@
+{
+ "id": "meazel",
+ "name": "Meazel",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 35,
+ "hpFormula": "10d8-10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 9,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Garrot.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible de la taille du méazel ou plus petit. Touché : 6 (1d6 + 3) dégâts contondants, et la cible est agrippé (évasion DD 13 avec inconvénient). Jusqu'à ce que le grappin se termine, la cible prend 10 (2d6 + 3) dégâts contondants au début de chaque tour du méazel. Le meazel ne peut pas faire d'attaques d'armes en s'attaquant à une créature de cette façon.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 3 (1d6) dégâts nécrotiques.\n**Téléportage Ombre (Recharge 5-6).** Le méazel, tout équipement qu'il porte ou qu'il transporte, et toute créature qu'il est en difficulté téléportation vers un espace inoccupé à l'intérieur de 150 m de lui, à condition que l'espace de départ et la destination soient dans la lumière sombre ou l'obscurité. La destination doit être un endroit que le meazel a déjà vu, mais il ne doit pas être dans la ligne de vue. Si l'espace de destination est occupé, la téléportation mène à l'espace inoccupé le plus proche.\nToute autre créature que les téléports de meazel deviennent maudit pendant 1 heure ou jusqu'à ce que la malédiction soit terminée par Délivrance des malédictions ou Restauration supérieure. Jusqu'à la fin de cette malédiction, chaque mort-vivant et chaque créature originaire de l'Ombrefell dans 90 m de la créature maudite peut le sentir, ce qui empêche cette créature de se cacher d'eux.",
+ "attacks": [
+  {
+   "name": "Garrot",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/4c41bb9959_monstre-meazel.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +5",
+ "bonusActions": "**Vols d'ombre.** Alors que dans la lumière sombre ou l'obscurité, le meazel prend l'action Se cacher."
+}

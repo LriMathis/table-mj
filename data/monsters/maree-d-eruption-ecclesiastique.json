@@ -1,0 +1,40 @@
+{
+ "id": "maree-d-eruption-ecclesiastique",
+ "name": "Rip Tide Priest",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 16
+ },
+ "senses": "Perception passive 10",
+ "languages": "aquatique, commun",
+ "traits": "**Détection orthographique.** Le prêtre est un épeautre de niveau 5. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Il connaît les sorts de sorciers suivants:\n- Sorts mineurs (à volonté) : Contact glacial, Main de mage, Illusion mineure, Prestidigitation, Rayon de givre\n- Niveau 1 (4 emplacements) : Repli expéditif, Projectile magique, Bouclier\n- Niveau 2 (3 emplacements) : Flou, Immobilisation de personne\n- Niveau 3 (2 emplacements) : Tempête de neige",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8dec05e734_monstre-maree-d-eruption-ecclesiastique.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Marée d'éruption ecclésiastique",
+ "caNote": "Chemise chaîne",
+ "skills": "Tromperie +5, Religion +2, Discrétion +2"
+}

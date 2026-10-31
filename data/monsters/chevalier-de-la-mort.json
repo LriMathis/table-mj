@@ -1,0 +1,42 @@
+{
+ "id": "chevalier-de-la-mort",
+ "name": "Chevalier de la mort",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 20,
+ "caNote": "bouclier, harnois",
+ "hp": 180,
+ "hpFormula": "19d8+95",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 11,
+  "CON": 20,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "saves": "DEX +6, SAG +9, CHA +10",
+ "immunities": "nécrotiques, poison",
+ "conditionImmunities": "empoisonné, épuisé, terrorisé",
+ "senses": "vision dans le noir 36 m, Perception passive 13",
+ "languages": "abyssal, commun",
+ "traits": "**Incantation.** Le chevalier de la mort est un lanceur de sorts de niveau 19. Sa caractéristique d'incantation est le Charisme (DD du jet de sauvegarde contre les sorts 18, +10 pour toucher avec les attaques de sort). Voici les sorts de paladin préparés par le chevalier de la mort :\n- Niveau 1 (4 emplacements) : *duel forcé, frappe ardente, injonction*\n- Niveau 2 (3 emplacements) : *arme magique, immobiliser un humanoïde*\n- Niveau 3 (3 emplacements) : *arme élémentaire, dissipation de la magie*\n- Niveau 4 (3 emplacements) : *bannissement, frappe assommante*\n- Niveau 5 (2 emplacements) : *vague destructrice (nécrotique)*\n**Motiver les morts-vivants.** À moins qu'il ne soit neutralisé, le chevalier de la mort et les morts-vivants qu'il désigne et se situent dans un rayon de 18 mètres autour de lui sont avantagés lors des jets de sauvegarde contre les aptitudes qui renvoient les morts-vivants.\n**Résistance à la magie.** Le chevalier de la mort est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le chevalier de la mort effectue trois attaques avec son épée longue.\n**Épée longue.** *Attaque d'arme au corps à corps :* +11 pour toucher, allonge 1,50 m, une cible. *Touché :* 9 (1d8+5) dégâts tranchants, ou 10 (1d10+5) dégâts tranchants si elle est maniée à deux mains, plus 18 (4d8) dégâts nécrotiques.\n**Orbe de feu infernal (1/jour).** Le chevalier de la mort peut projeter une boule de feu magique qui explose en un point situé à 36 mètres ou moins de lui dans son champ de vision. Les créatures situées dans une sphère de 6 mètres de rayon centrée sur ce point doivent chacune effectuer un jet de sauvegarde de Dextérité DD 18. Le feu dans cette sphère contourne les angles. Une créature subit 35 (10d6) dégâts de feu et 35 (10d6) dégâts nécrotiques si elle rate son jet de sauvegarde, la moitié seulement si elle le réussit.",
+ "reactions": "**Parade.** Le chevalier de la mort ajoute 6 à sa CA contre une attaque au corps à corps qui devrait le toucher. Il doit voir son agresseur et manier une arme de corps à corps pour pouvoir parer ainsi.",
+ "portrait": "/data/images/43b70aa1dc_monstre-chevalier-de-la-mort.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 35 · image : Manuel des monstres p. 34",
+ "attacks": [
+  {
+   "name": "Épée longue",
+   "bonus": 11,
+   "damage": "1d8+5",
+   "type": "tranchant"
+  }
+ ]
+}

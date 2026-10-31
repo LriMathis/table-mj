@@ -1,0 +1,39 @@
+{
+ "id": "willifort-crowelle",
+ "name": "Willifort Crowelle",
+ "type": "Monstruosité (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun",
+ "traits": "**Changeur de forme.** Willifort peut utiliser son action pour se polymorphiser en un humanoïde petit ou moyen qu'il a vu, ou de nouveau dans sa forme réelle. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**Ambusher.** Dans la première manche d'un combat, Willifort a avantage sur jets d'attaque contre toute créature il surpris.\n**Attaque surprise.** Si Willifort surprend une créature et la frappe avec une attaque lors du premier tour de combat, la cible prend 10 (3d6) de plus de dégâts de l'attaque.",
+ "actionsText": "**Multiattaques.** Willifort fait deux attaques à la mêlée.\n**Clamer.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants.\n**Lire Pensées.** Willifort lit magiquement les pensées de surface d'une créature dans 18 m de lui. L'effet peut pénétrer les barrières, mais 0,90 m de bois ou de saleté, 0,60 m de pierre, 2 pouces de métal, ou une mince feuille de plomb le bloque. Alors que la cible est à portée, Willifort peut continuer à lire ses pensées, tant que le concentration de Willifort n'est pas cassé (comme si concentrating sur un sort). En lisant l'esprit de la cible, Willifort a un avantage sur Sagesse (Perspicacité) et Charisme (Tromperie, Intimidation et Persuasion) contre la cible.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4001a1ba17_monstre-willifort-crowelle.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "skills": "Tromperie +6, Perspicacité +3",
+ "conditionImmunities": "charmé"
+}

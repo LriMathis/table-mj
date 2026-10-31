@@ -1,0 +1,45 @@
+{
+ "id": "gennifer-weathermay-foxgrove",
+ "name": "Gennifer Weathermay-Foxgrove",
+ "type": "Humanoïde (humain, Lycanthrope)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 15,
+  "SAG": 17,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, draconique, infernal",
+ "traits": "**Lycanthropie réprimée.** Si elle est réduite à 0 points de vie, Gennifer succombe à la lycanthropie. Ses statistiques sont remplacées par celles du bloc stat de Werewolf, mais elle conserve son alignement ; personnalité ; Intelligence, Sagesse, et Charisme scores; les compétences; et les langues connues. Elle reprend alors immédiatement dans sa forme hybride avec tout son points de vie.",
+ "actionsText": "**Multiattaques.** Gennifer fait deux attaques, en utilisant Béni Dagger ou radiant Wisp dans n'importe quelle combinaison.\n**Bienheureuse Dagger.** Jet d'attaque au corps à corps ou à distance : +4, allonge 1,50 m ou portée 6/18 m. Touché : 4 (1d4 + 2) dégâts perforants plus 9 (2d8) dégâts radiants.\n**Wisp radiant.** Jet d'attaque à distance : +5, portée 18 m. Touché : 14 (2d10 + 3) dégâts radiants.\n**Ésotérique (Recharge 6).** Jet de sauvegarde de Constitution : DD 13, chaque créature dans une Emanation 4,50 m originaire de Gennifer. Échec : 18 (4d8) dégâts radiants. Si la cible est une créature Undead, elle a l'état étourdi jusqu'à la fin de son prochain tour.\n**Détection orthographique.** Gennifer lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumière, Réparation\n- 1/jour chacun : Localisation d'animaux ou de plantes, Cercle magique, Protection contre le poison",
+ "attacks": [
+  {
+   "name": "Bienheureuse Dagger",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Wisp radiant",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/4508febed6_monstre-gennifer-weathermay-foxgrove.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "skills": "Arcanes +4, Investigation +4, Médecine +5, Discrétion +4",
+ "bonusActions": "**Aide occulte (2/jour).** Gennifer lance Mot de guérison, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 2/jour : Mot de guérison"
+}

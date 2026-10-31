@@ -1,0 +1,43 @@
+{
+ "id": "affreuse-pecheuse",
+ "name": "Awful Fisher",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 17,
+ "hp": 348,
+ "hpFormula": "24d20+96",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision aveugle 36 m, Vision dans le noir 18 m, Perception passive 16",
+ "languages": "—",
+ "traits": "**Sang inflammable.** Si le pêcheur tombe en dessous de 200 points de vie, il devient vulnérable à dégâts de feu.\n**Résistance légendaire (3/jour).** Si le pêcheur échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Escalade des araignées.** Le pêcheur peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Le pêcheur fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 4,50 m, une cible. Touché : 20 (4d6 + 6) dégâts tranchants.\n**Rétracter le filament.** Une créature énorme ou plus petite agrippé par le Filament Adhésif du pêcheur doit faire un DD 20 jet de sauvegarde de Force. Lors d'une sauvegarde ratée, la cible est tirée dans un espace inoccupé au sein de 1,50 m du pêcheur, et le pêcheur fait une attaque Claw contre lui avec avantage. Toute autre personne attachée au filament est libérée. Jusqu'à ce que le grappin se termine sur la cible, le pêcheur ne peut pas utiliser le Filament Adhésif.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "4d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/93fa995c2c_monstre-affreuse-pecheuse.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Affreuse pêcheuse",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +10",
+ "skills": "Perception +6, Discrétion +9, Survie +6",
+ "bonusActions": "**Filament adhésif.** Le pêcheur étend un filament collant jusqu'à 27 m en ligne droite, qui adhère à tout ce qui le touche. Une créature énorme ou plus petite que le filament adhère à a l'état agrippé (évasion DD 20), et tests de caractéristique fait pour échapper à ce grappin ont un désavantage. Le filament peut être attaqué (CA 16; 25 points de vie ; immunité au poison et dégâts psychiques). Une arme qui n'arrive pas à la couper devient collée à elle, nécessitant une action et un DD 20 test de Force réussi à tirer libre. Détruire le filament n'endommage pas le pêcheur. Le filament s'écroule si le pêcheur reprend ce action bonus.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, affreuse pêcheuse peut entreprendre l'une des actions ci-après.\n**Couper.** Le pêcheur attaque une griffe.\n**Craquage.** Le pêcheur utilise le Filament Adhésif.\n**Enroulez.** Le pêcheur utilise Retract Filament."
+}

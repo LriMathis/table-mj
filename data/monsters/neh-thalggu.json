@@ -1,0 +1,50 @@
+{
+ "id": "neh-thalggu",
+ "name": "Neh-thalggu",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 95,
+ "hpFormula": "10d10+40",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 8,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "Deep Speech; voir aussi Brain Dump",
+ "traits": "**Dump cérébrale.** Chaque fois que le neh-thalggu consomme un cerveau, il gagne la capacité magique de parler et de comprendre les langues connues par le propriétaire précédent du cerveau.\n**Nature inhabituelle.** Le neh-thalggu ne nécessite pas d'air.",
+ "actionsText": "**Multiattaques.** Le neh-thalggu fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d8 + 2) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, un humanoïde neutralisé. Touché : 35 (10d6) dégâts perforants. Si ces dégâts réduisent la cible à 0 points de vie, le neh-thalggu tue la cible en extrayant et en consommant son cerveau.\n**Boussole mentale (Recharge 5-6).** Le neh-thalggu émet magiquement de l'énergie psychique à un humanoïde qu'il peut voir à l'intérieur de 3 m de lui-même. La cible doit faire un DD 14 jet de sauvegarde de Sagesse. Lors d'une sauvegarde ratée, la cible prend 9 (2d8) dégâts psychiques et est neutralisé jusqu'à la fin de son prochain tour. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts et n'est pas neutralisé.\n**Coulisse (Psioniques).** Le neh-thalggu lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 11). Il a dû consommer le nombre requis de cerveaux pour lancer le sort, comme indiqué:\n- 1/jour chacun : Tentacules de Hadar (1 cerveau), Détection de la magie (2 cerveaux), Projectile magique (3 cerveaux), Disque flottant de Tenser (4 cerveaux), Ténèbres (5 cerveaux), Immobilisation de personne (6 cerveaux), Invisibilité (7 cerveaux), Pattes d'araignée (8 cerveaux), Peur (9 cerveaux), Motif hypnotique (10 cerveaux), Image majeure (11 cerveaux), Nuage nauséabond (12 cerveaux)",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 4,
+   "damage": "10d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b4b6d5a2e5_monstre-neh-thalggu.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

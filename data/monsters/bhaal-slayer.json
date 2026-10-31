@@ -1,0 +1,45 @@
+{
+ "id": "bhaal-slayer",
+ "name": "Bhaal, Slayer",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 19,
+ "hp": 266,
+ "hpFormula": "28d8+140",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 22,
+  "CON": 20,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "abyssal, commun",
+ "traits": "**Assassinat.** Lors de son premier tour, la tueuse a l'avantage sur jets d'attaque contre toute créature qui n'a pas pris de tour. Toute frappe de la tueuse contre une créature surprise est un coup critique.\n**La vue du diable.** L'obscurité magique n'empêche pas la vision obscure de la tueuse.\n**Formulaire immuable.** La tueuse est immunisée contre tout sort ou effet qui pourrait modifier sa forme, sauf pour sa capacité de forme Ravager.\n**Résistance légendaire (2/jour).** Si la tueuse échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** La tueuse a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques de la tueuse sont magiques.",
+ "actionsText": "**Multiattaques.** La tueuse fait quatre attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d8 + 7) dégâts tranchants plus 3 (1d6) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur un DD 19 jet de sauvegarde de Constitution ou avoir son maximum de points de vie réduit d'une quantité égale aux dégâts subis. La cible meurt si cette attaque réduit son maximum de points de vie à 0. La réduction dure jusqu'à ce qu'elle soit enlevée par le sort Restauration supérieure ou autre magie.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 13,
+   "damage": "2d8+7",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/4a4717fc89_monstre-bhaal-slayer.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +13, DEX +12",
+ "skills": "Discrétion +18",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, neutralisé, paralysé, pétrifié, empoisonné, étourdi, inconscient",
+ "bonusActions": "**Poire.** La tueuse se concentre sur une seule créature qu'elle peut voir à l'intérieur de 18 m. Ensuite, la première fois que la tueuse frappe cette créature, la tueuse fait 7 (2d6) de plus.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, bhaal, slayer peut entreprendre l'une des actions ci-après.\n**Désengagement des savages.** La tueuse se désengage sans provoquer d'attaques d'opportunité. S'il se déplace dans 1,50 m d'une créature, il fait une attaque de griffe contre la créature.\n**Finition (coûts 2 actions).** La tueuse attaque une créature qui a été marquée par sa capacité de Prey. Si cette attaque frappe et que la créature a moins de 40 points de vie restant après l'attaque, la créature est réduite à 0 points de vie.\n**Formulaire Ravager (coûts 3 actions).** Si la tueuse a tué une créature de CR/niveau 5 ou plus qu'elle avait précédemment marqué avec sa capacité de Prey à la dernière minute, elle peut se transformer en sa forme de rasoir. Le formulaire dure jusqu'à l'aube (minimum 1 heure)."
+}

@@ -1,0 +1,46 @@
+{
+ "id": "aiguille-rejeton",
+ "name": "Needle Spawn",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m, escalade 6 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 17,
+  "CON": 12,
+  "INT": 6,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 11",
+ "languages": "sylvestre",
+ "traits": "**Fermer les quartiers Tirs.** La fraie de l'aiguille ne souffre pas de désavantage sur les attaques variables tandis que dans 1,50 m d'une créature hostile qui peut le voir et n'est pas neutralisé, si la cible de l'attaque est également dans 1,50 m de la fraie de l'aiguille.",
+ "actionsText": "**Volley des aiguilles.** L'aiguille fraye jusqu'à 1d6 attaques de l'aiguille, mais elle ne peut pas attaquer la même cible plus de deux fois pendant son tour.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Aiguille.** Attaque d'arme à distance : +5 au toucher, portée 18 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Aiguille",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f48202496f_monstre-aiguille-rejeton.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "aka": "Aiguille rejeton",
+ "skills": "Discrétion +5",
+ "conditionImmunities": "aveuglé, assourdi, épuisement"
+}

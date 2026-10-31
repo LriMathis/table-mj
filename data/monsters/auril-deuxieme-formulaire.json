@@ -1,0 +1,51 @@
+{
+ "id": "auril-deuxieme-formulaire",
+ "name": "Auril (Second Form)",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 136,
+ "hpFormula": "13d10+65",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 21,
+  "INT": 24,
+  "SAG": 26,
+  "CHA": 28
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 36 m, Perception passive 26",
+ "languages": "tous, télépathie 300 m",
+ "traits": "**Être divin.** Auril ne peut pas être surpris et ne peut pas être changé en une autre forme contre sa volonté.\n**Régénération divine.** Quand Auril tombe à 0 points de vie, son corps s'effondre en éclats de glace, sur quoi Auril réapparaît instantanément sous sa troisième forme, dans un espace inoccupé dans 18 m où sa deuxième forme a été détruite. Son initiative compte ne change pas.\n**Résistance légendaire (2/jour sous cette forme).** Si Auril échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Auril a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** Auril n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Auril attaque deux fois avec son étoile du matin ou trois fléchettes de glace.\n**Ice Morningstar.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 9 (2d8) dégâts de froid.\n**Dart de glace.** Attaque d'arme à distance : +7 au toucher, portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 3 (1d6) dégâts de froid.\n**Cône de froid (Recharges après un repos court ou long).** Auril provoque une explosion magique d'air froid de sa main. Chaque créature dans un cône 18 m doit faire un DD 21 jet de sauvegarde de Constitution, en prenant 36 (8d8) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Créer du méphis de glace (3/jour).** Auril brise un icle de son corps et l'enfonce dans un espace inoccupé qu'elle peut voir au sein de 6 m d'elle, où il se transforme par magie en Méphite gelé (voir son entrée dans le Monster Manual). Le méphit agit immédiatement après Auril dans l'ordre d'initiative et obéit à ses commandements.\n**Stase de glace (Recharge 5-6).** Auril crée magiquement un cristal de glace de taille gemme qui s'envole dans un espace au sein de 1,50 m d'elle. Auril cible alors une créature qu'elle peut voir dans le 18 m du cristal. La cible doit réussir sur un DD 21 jet de sauvegarde de Charisme ou être piégée dans le cristal, qui est immobile. Si le jet de sauvegarde réussit, le cristal se brise et rien d'autre ne se produit. Une créature piégée dans le cristal est étourdi, a 3 contre les attaques et autres effets en dehors du cristal, et prend 21 (6d6) dégâts de froid au début de chacun de ses tours. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, se libérant sur un succès. La créature est également libérée si le cristal est détruit, qui est un objet minuscule avec CA 18, 9 points de vie, et l'immunité à tous les dégâts sauf dégâts de feu. La créature libérée apparaît dans un espace inoccupé de son choix à l'intérieur de 9 m du cristal brisé.",
+ "attacks": [
+  {
+   "name": "Ice Morningstar",
+   "bonus": 7,
+   "damage": "1d8+3",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Dart de glace",
+   "bonus": 7,
+   "damage": "1d4+3",
+   "type": "perforant + froid"
+  }
+ ],
+ "portrait": "/data/images/45ac27916b_monstre-auril-deuxieme-formulaire.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Auril (deuxième formulaire)",
+ "caNote": "armure naturelle",
+ "saves": "CON +9, SAG +12",
+ "skills": "Tromperie +13, Perspicacité +12, Intimidation +13, Perception +16",
+ "vulnerabilities": "feu",
+ "immunities": "froid, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, auril (deuxième formulaire) peut entreprendre l'une des actions ci-après.\n**Attaque.** Auril fait une attaque d'arme.\n**Flûte à glace (coûts 2 actions).** Chaque créature de 9 m d'Auril prend 5 (2d4) dégâts perforants de la glace tourbillonnante, et les flammes non magiques et ouvertes dans cette zone sont éteintes.\n**Splinter (coûts 3 actions).** Auril utilise Create Ice Mephit ou fait en sorte qu'un mephit glacé qu'elle peut voir au sein de 18 m d'elle exploser et mourir. Un méphite qui meurt de cette façon n'utilise pas sa Burst de Mort. Au lieu de cela, chaque créature de 3 m du méphit explosant doit réussir sur un DD 21 jet de sauvegarde de Dextérité, en prenant 13 (3d8) dégâts perforants sur un jet de sauvegarde échoué, et la moitié de ces dégâts sur un succès."
+}

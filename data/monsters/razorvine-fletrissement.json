@@ -1,0 +1,40 @@
+{
+ "id": "razorvine-fletrissement",
+ "name": "Razorvine Blight",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 13,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m (can't see beyond this radius), Perception passive 10",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Fausse apparence.** Si la brûlure est immobile au début du combat, elle a avantage sur son rôle d'initiative. Si une créature n'a pas observé le mouvement ou l'acte de la brûlure, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que la brûlure est animée.\n**Escalade des araignées.** La brûlure peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** La brûlure fait deux attaques de la griffe.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher (avec avantage si la cible manque une de ses points de vie), allonge 3 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.\n**Vins de drainage de vie (Recharge 6).** Des vignes serpentent à la flamme. Chaque créature de 3 m doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 9 (2d8) dégâts tranchants sur un sauvegarde raté, ou la moitié de ces dégâts sur un succès. Si au moins une des créatures qui ont échoué à cette sauvegarde n'est pas un Construct ou un Undead, la brûlure reprend 9 points de vie.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8123a51e6a_monstre-razorvine-fletrissement.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Razorvine flétrissement",
+ "skills": "Discrétion +4",
+ "conditionImmunities": "aveuglé, assourdi"
+}

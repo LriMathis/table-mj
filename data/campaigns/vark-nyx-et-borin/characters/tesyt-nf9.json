@@ -1,0 +1,146 @@
+{
+ "id": "tesyt-nf9",
+ "name": "tesyt",
+ "title": "",
+ "player": "",
+ "race": "",
+ "classe": "barde",
+ "niveau": 2,
+ "historique": "",
+ "alignement": "",
+ "taille": "Moyenne",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "saves": [],
+ "prof": 2,
+ "hpMax": 16,
+ "hp": 16,
+ "hpTemp": 0,
+ "ca": 10,
+ "initBonus": 0,
+ "xp": 300,
+ "hitDie": 8,
+ "hitDice": 2,
+ "skills": {},
+ "attacks": [],
+ "resources": [
+  {
+   "name": "Inspiration bardique",
+   "max": 1,
+   "cur": 1,
+   "reset": "long"
+  }
+ ],
+ "spellcasting": {
+  "ability": "CHA",
+  "dc": 10,
+  "attack": 2,
+  "slots": {
+   "1": {
+    "max": 3,
+    "cur": 3
+   }
+  }
+ },
+ "spells": {
+  "1": [
+   "Injonction"
+  ]
+ },
+ "features": [
+  {
+   "name": "Touche-à-tout",
+   "text": "Ajoutez la moitié de votre maîtrise aux tests sans maîtrise."
+  },
+  {
+   "name": "Chant reposant (d6)",
+   "text": "Pendant un repos court, les alliés qui dépensent des dés de vie regagnent 1d6 PV de plus."
+  },
+  {
+   "name": "Incantation",
+   "text": "Aptitude de Barde (niveau 1)."
+  },
+  {
+   "name": "Inspiration bardique (d6)",
+   "text": "Action bonus : un allié gagne un dé d'inspiration à ajouter à un jet (CHA fois par repos long)."
+  }
+ ],
+ "equipment": "",
+ "gold": 0,
+ "conditions": [],
+ "deathSaves": {
+  "s": 0,
+  "f": 0
+ },
+ "exhaustion": 0,
+ "notes": "",
+ "sheet": "",
+ "portrait": "",
+ "color": "",
+ "source": "",
+ "levelHistory": [
+  {
+   "niveau": 1,
+   "t": 1792259195366,
+   "snap": {
+    "id": "tesyt-nf9",
+    "name": "tesyt",
+    "title": "",
+    "player": "",
+    "race": "",
+    "classe": "barde",
+    "niveau": 1,
+    "historique": "",
+    "alignement": "",
+    "taille": "Moyenne",
+    "vitesse": "9 m",
+    "stats": {
+     "FOR": 10,
+     "DEX": 10,
+     "CON": 10,
+     "INT": 10,
+     "SAG": 10,
+     "CHA": 10
+    },
+    "saves": [],
+    "prof": 2,
+    "hpMax": 10,
+    "hp": 10,
+    "hpTemp": 0,
+    "ca": 10,
+    "initBonus": 0,
+    "xp": 300,
+    "hitDie": 8,
+    "hitDice": 1,
+    "skills": {},
+    "attacks": [],
+    "resources": [],
+    "spellcasting": null,
+    "spells": {},
+    "features": [],
+    "equipment": "",
+    "gold": 0,
+    "conditions": [],
+    "deathSaves": {
+     "s": 0,
+     "f": 0
+    },
+    "exhaustion": 0,
+    "notes": "",
+    "sheet": "",
+    "portrait": "",
+    "color": "",
+    "source": ""
+   }
+  }
+ ],
+ "inventory": [],
+ "saveItemBonus": 0
+}

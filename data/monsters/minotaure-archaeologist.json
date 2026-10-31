@@ -1,0 +1,40 @@
+{
+ "id": "minotaure-archaeologist",
+ "name": "Minotaur Archaeologist",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 18,
+ "hpFormula": "4d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 11,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun",
+ "traits": "**Rappel de Labyrinthine.** Le minotaure peut parfaitement se rappeler n'importe quel chemin qu'il a parcouru.",
+ "actionsText": "**Gore.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants. Si le minotaur a déplacé au moins 3 m tout droit vers la cible immédiatement avant qu'il ne frappe, la cible prend un 3 (1d6) dégâts perforants supplémentaire, et si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 11 jet de sauvegarde de Force ou être poussée jusqu'à 3 m du minotaur et avoir l'état à terre.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/de4f25a76f_monstre-minotaure-archaeologist.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Minotaure Archaeologist",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +3, Histoire +5, Perception +5, Religion +3"
+}

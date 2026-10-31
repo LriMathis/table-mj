@@ -1,0 +1,40 @@
+{
+ "id": "witchstalker",
+ "name": "Witchstalker",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 13,
+ "hp": 82,
+ "hpFormula": "11d10+22",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 17",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Résistance magique.** Le sorcier a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Magie de l'odeur.** Le sorcier peut sentir la présence et l'emplacement de la magie en 36 m de lui-même. Il a également avantage sur jets d'attaque contre les créatures qui ont jeté un sort depuis la fin du dernier tour du sorcier.",
+ "actionsText": "**Multiattaques.** Le sorcier fait deux attaques Bite.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 14 (3d6 + 4) dégâts perforants. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou avoir l'état à terre.\n**Hurlement de l'esprit (Recharge 5-6).** Le sorcier déclenche un terrible hurlement, et chaque créature au sein de 9 m de celui-ci qui n'est pas une Monstrosity doit faire un DD 13 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, une créature prend 24 (7d6) dégâts psychiques et a un désavantage sur jet de sauvegarde de Constitution pour maintenir concentration sur les sorts jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "3d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/529ee00387_monstre-witchstalker.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "saves": "FOR +7, SAG +4",
+ "skills": "Perception +7, Discrétion +6",
+ "reactions": "**Détachement d'orthographe.** Immédiatement après qu'une créature au sein de 36 m du sorcier jette un sort, le sorcier téléporte magiquement dans un espace inoccupé au sein de 1,50 m de la créature et peut faire une attaque Bite contre la créature."
+}

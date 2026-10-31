@@ -36,17 +36,32 @@ function seedBestiary() {
   });
 }
 
-let selMon = null, monFilter = '', monType = '', monEdit = false;
+let selMon = null, monFilter = '', monType = '', monEdit = false, monCrMin = '', monCrMax = '';
 const CR_NUM = cr => { const [a, b] = String(cr).split('/'); return b ? +a / +b : +a || 0; };
+/* challenge ratings offered by the CR filter: the standard ones + any found in the bestiary */
+const crChoices = () => [...new Set([...Object.keys(CR_XP), ...monList().map(m => String(m.cr))])].sort((a, b) => CR_NUM(a) - CR_NUM(b));
 const monFamily = m => String(m.type || 'Autre').split(/[\s(]/)[0];
 const SIZE_NAMES = { 0.5: t('size:tiny'), 1: t('size:medium'), 2: t('size:large'), 3: t('size:huge'), 4: t('size:gargantuan') };
+/* optional stat block fields: one-line values, then markdown sections */
+const MON_LINES = [['aka', 'Other name'], ['sizeName', 'Size'], ['alignment', 'Alignment'], ['caNote', 'Armor'], ['saves', 'Saving throws'], ['skills', 'Skills'],
+  ['vulnerabilities', 'Damage vulnerabilities'], ['resistances', 'Damage resistances'], ['immunities', 'Damage immunities'],
+  ['conditionImmunities', 'Condition immunities'], ['senses', 'Senses'], ['languages', 'Languages'], ['source', 'Source']];
+const MON_SECTIONS = [['actionsText', 'Actions'], ['bonusActions', 'Bonus actions'], ['reactions', 'Reactions'], ['legendary', 'Legendary actions']];
+/* proficient saving throws written as "DEX +5, SAG +4" */
+const monSaves = m => { const o = {}; String(m.saves || '').replace(/(FOR|DEX|CON|INT|SAG|CHA)\w*\s*([+−-]\s*\d+)/gi, (x, s, v) => { o[s.toUpperCase()] = +v.replace(/\s/g, '').replace('−', '-'); }); return o; };
 function renderBestiary(main) {
   const fams = [...new Set(monList().map(monFamily))].sort((a, b) => termLead(a).localeCompare(termLead(b)));
   main.innerHTML = `<div class="split"><div class="side-list" style="width:300px">
     <div class="row"><input id="mo-q" placeholder="${t('Search a monster…')}" value="${esc(monFilter)}" style="flex:1"><button class="primary" id="mo-new">+ ${t('New')}</button></div>
+    <div class="row small" title="${t('Same min and max for an exact CR')}"><span>${t('CR from')}</span>
+      <select id="mo-crmin"><option value="">—</option>${crChoices().map(c => `<option ${c === monCrMin ? 'selected' : ''}>${c}</option>`).join('')}</select>
+      <span>${t('to')}</span><select id="mo-crmax"><option value="">—</option>${crChoices().map(c => `<option ${c === monCrMax ? 'selected' : ''}>${c}</option>`).join('')}</select>
+      <span class="muted grow right" id="mo-count"></span></div>
     <div class="fam-chips"><button class="chip-btn ${monType ? '' : 'on'}" data-fam="">${t('All')}</button>${fams.map(f => `<button class="chip-btn ${monType === f ? 'on' : ''}" data-fam="${esc(f)}">${esc(termLead(f))}</button>`).join('')}</div>
     <div id="mo-list" class="list" style="max-height:calc(100vh - 200px);overflow:auto"></div></div><div class="sheet" id="mo-sheet"></div></div>`;
   $('#mo-q').oninput = e => { monFilter = e.target.value; drawMonList(); };
+  $('#mo-crmin').onchange = e => { monCrMin = e.target.value; drawMonList(); };
+  $('#mo-crmax').onchange = e => { monCrMax = e.target.value; drawMonList(); };
   $$('[data-fam]').forEach(b => b.onclick = () => { monType = b.dataset.fam; $$('[data-fam]').forEach(x => x.classList.toggle('on', x === b)); drawMonList(); });
   $('#mo-new').onclick = () => ask(t('New monster'), [{ k: 'name', label: t('Name') }], o => {
     if (!o.name) return;
@@ -59,8 +74,11 @@ function renderBestiary(main) {
 function drawMonList() {
   const el = $('#mo-list'); if (!el) return;
   const q = monFilter.toLowerCase();
-  const list = monList().filter(m => (!q || m.name.toLowerCase().includes(q) || String(m.type).toLowerCase().includes(q) || String(termLead(m.type)).toLowerCase().includes(q)) && (!monType || monFamily(m) === monType))
+  const lo = monCrMin === '' ? -Infinity : CR_NUM(monCrMin), hi = monCrMax === '' ? Infinity : CR_NUM(monCrMax);
+  const list = monList().filter(m => (!q || m.name.toLowerCase().includes(q) || String(m.aka || '').toLowerCase().includes(q) || String(m.type).toLowerCase().includes(q) || String(termLead(m.type)).toLowerCase().includes(q)) && (!monType || monFamily(m) === monType)
+      && CR_NUM(m.cr) >= Math.min(lo, hi) && CR_NUM(m.cr) <= Math.max(lo, hi))
     .sort((a, b) => CR_NUM(a.cr) - CR_NUM(b.cr) || a.name.localeCompare(b.name));
+  const count = $('#mo-count'); if (count) count.textContent = t('{n} monsters', { n: list.length });
   el.innerHTML = list.map(m => `<div class="li mon-li ${m.id === selMon ? 'sel' : ''}" data-mo="${m.id}">${avatarHTML({ name: m.name, portrait: m.portrait, color: '#7a2a2a' }, 40)}
     <div class="grow"><b>${esc(m.name)}</b><div class="muted small">${esc(termLead(m.type))}</div></div><span class="cr-badge" title="${t('Challenge rating')}">${t('CR')} ${esc(m.cr)}</span></div>`).join('') || `<div class="muted">${t('No results.')}</div>`;
   $$('[data-mo]', el).forEach(d => d.onclick = () => { selMon = d.dataset.mo; monEdit = false; drawMonList(); drawMonSheet(); });
@@ -85,6 +103,9 @@ function drawMonSheet() {
     <div class="col"><div class="row"><input id="mo-n" type="number" value="1" min="1" style="width:50px"><button class="primary" id="mo-fight"><i class="ico i-combat"></i> ${t('Add to combat')}</button></div>
       <button id="mo-dup">${t('Duplicate')}</button><button class="danger" id="mo-del"><i class="ico i-trash"></i> ${t('Delete')}</button></div></div>
   <div class="stats">${STATS.map(s => `<div class="stat"><span class="ab">${abbr(s)}</span><span class="md" data-roll="1d20${fmod(mod(m.stats[s]))}" data-label="${t('{ability} check', { ability: STAT_NAMES[s] })}" data-who="${esc(m.name)}">${fmod(mod(m.stats[s]))}</span><input data-mk="stats.${s}" data-num type="number" value="${m.stats[s]}"></div>`).join('')}</div>
+  <div class="card"><h4><i class="ico i-book"></i> ${t('Stat block details')}</h4><div class="mon-fields">
+    ${MON_LINES.map(([k, label]) => `<label class="field"><span>${t(label)}</span><input data-mk="${k}" value="${esc(m[k] || '')}"></label>`).join('')}</div></div>
+  <div class="grid2">${MON_SECTIONS.map(([k, label]) => `<div class="card"><h4>${t(label)} <span class="muted small">(${t('markdown, **bold**')})</span></h4><textarea data-mk="${k}" data-live rows="6">${esc(m[k] || '')}</textarea></div>`).join('')}</div>
   <div class="grid2"><div class="card"><h4><i class="ico i-combat"></i> ${t('Attacks')}</h4><table class="t"><tr><th>${t('Name')}</th><th>${t('To hit')}</th><th>${t('Damage')}</th><th>${t('Type / effect')}</th><th></th></tr>
     ${m.attacks.map((a, i) => `<tr><td><input data-mk="attacks.${i}.name" value="${esc(a.name)}"></td><td style="width:56px"><input data-mk="attacks.${i}.bonus" data-num value="${a.bonus}"></td>
       <td style="width:80px"><input data-mk="attacks.${i}.damage" value="${esc(a.damage)}"></td><td><input data-mk="attacks.${i}.type" value="${esc(a.type)}"></td>
@@ -112,25 +133,33 @@ function drawMonSheet() {
 }
 /* monster-manual style stat block */
 function drawStatBlock(el, m) {
-  const sz = (SIZE_NAMES[m.size || 1] || '').replace('size:', '');
-  const saves = STATS.map(s => mod(m.stats?.[s]));
+  const sz = m.sizeName || (SIZE_NAMES[m.size || 1] || '').replace('size:', '');
+  const mods = STATS.map(s => mod(m.stats?.[s])), prof = monSaves(m), saves = STATS.map((s, i) => prof[s] ?? mods[i]);
+  const line = (label, v) => v ? `<div class="sb-line"><b>${t(label)}</b> ${linkDice(esc(v))}</div>` : '';
+  const quick = (m.attacks || []).map((a, i) => `<div class="sb-act"><b><i>${esc(a.name)}.</i></b> <span class="muted">${t('Attack')}:</span> <span class="droll" data-matk2="${i}">${t('{n} to hit', { n: fmod(+a.bonus || 0) })}</span>,
+        <span class="muted">${t('hit')}:</span> <span class="droll" data-roll="${esc(a.damage)}" data-label="${t('{name} damage', { name: esc(a.name) })}" data-who="${esc(m.name)}">${esc(a.damage)}</span> ${esc(termLead(a.type || ''))}.</div>`).join('');
+  const pp = String(m.senses || '').match(/Perception passive\s*(\d+)/i);
   el.innerHTML = `<div class="statblock-wrap">
     <div class="statblock">
-      <div class="sb-head"><div><h2>${esc(m.name)}</h2><div class="sb-sub">${esc(termLead(m.type) || t('Creature'))}${sz ? ', ' + t('size {size}', { size: sz }) : ''}</div></div>
+      <div class="sb-head"><div><h2>${esc(m.name)}</h2><div class="sb-sub">${esc(termLead(m.type) || t('Creature'))}${sz ? ', ' + t('size {size}', { size: sz }) : ''}${m.alignment ? ', ' + esc(m.alignment) : ''}</div>
+        ${m.aka ? `<div class="small muted">${t('Other name')} : ${esc(m.aka)}</div>` : ''}</div>
         <div class="sb-tools"><button class="small" id="sb-edit"><i class="ico i-quill"></i> ${t('Edit')}</button></div></div>
       <div class="sb-rule"></div>
-      <div class="sb-line"><b>${t('Armor Class')}</b> ${m.ca}</div>
+      <div class="sb-line"><b>${t('Armor Class')}</b> ${m.ca}${m.caNote ? ` (${esc(m.caNote)})` : ''}</div>
       <div class="sb-line"><b>${t('Hit Points')}</b> ${m.hp}${m.hpFormula ? ` (<span class="droll" data-roll="${esc(m.hpFormula)}" data-label="${t('HP')}" data-who="${esc(m.name)}">${esc(m.hpFormula)}</span>)` : ''}</div>
       <div class="sb-line"><b>${t('Speed')}</b> ${esc(m.vitesse || '—')}</div>
       <div class="sb-rule"></div>
-      <div class="sb-abil">${STATS.map((s, i) => `<div data-roll="1d20${fmod(saves[i])}" data-label="${t('{ability} check', { ability: STAT_NAMES[s] })}" data-who="${esc(m.name)}" title="${t('{ability} check', { ability: STAT_NAMES[s] })}"><b>${abbr(s)}</b><span>${m.stats?.[s] ?? 10} (${fmod(saves[i])})</span></div>`).join('')}</div>
+      <div class="sb-abil">${STATS.map((s, i) => `<div data-roll="1d20${fmod(mods[i])}" data-label="${t('{ability} check', { ability: STAT_NAMES[s] })}" data-who="${esc(m.name)}" title="${t('{ability} check', { ability: STAT_NAMES[s] })}"><b>${abbr(s)}</b><span>${m.stats?.[s] ?? 10} (${fmod(mods[i])})</span></div>`).join('')}</div>
       <div class="sb-rule"></div>
+      ${line('Saving throws', m.saves)}${line('Skills', m.skills)}${line('Damage vulnerabilities', m.vulnerabilities)}${line('Damage resistances', m.resistances)}
+      ${line('Damage immunities', m.immunities)}${line('Condition immunities', m.conditionImmunities)}${line('Senses', m.senses)}${line('Languages', m.languages)}
       <div class="sb-line"><b>${t('Challenge')}</b> ${esc(m.cr)} <span class="muted">(${(m.xp || CR_XP[m.cr] || 0).toLocaleString(LANG === 'fr' ? 'fr-FR' : 'en-US')} XP)</span></div>
       ${m.traits ? `<div class="sb-rule"></div><div class="sb-traits md-view">${md(m.traits)}</div>` : ''}
       <h3 class="sb-sec">${t('Actions')}</h3>
-      ${(m.attacks || []).map((a, i) => `<div class="sb-act"><b><i>${esc(a.name)}.</i></b> <span class="muted">${t('Attack')}:</span> <span class="droll" data-matk2="${i}">${t('{n} to hit', { n: fmod(+a.bonus || 0) })}</span>,
-        <span class="muted">${t('hit')}:</span> <span class="droll" data-roll="${esc(a.damage)}" data-label="${t('{name} damage', { name: esc(a.name) })}" data-who="${esc(m.name)}">${esc(a.damage)}</span> ${esc(termLead(a.type || ''))}.</div>`).join('') || `<div class="muted small">${t('No actions.')}</div>`}
+      ${m.actionsText ? `<div class="md-view">${md(m.actionsText)}</div>${quick ? `<div class="sb-quick"><div class="small muted">${t('Quick rolls')}</div>${quick}</div>` : ''}` : quick || `<div class="muted small">${t('No actions.')}</div>`}
+      ${MON_SECTIONS.slice(1).map(([k, label]) => m[k] ? `<h3 class="sb-sec">${t(label)}</h3><div class="md-view">${md(m[k])}</div>` : '').join('')}
       ${m.notes ? `<div class="sb-rule"></div><div class="small muted">${esc(m.notes)}</div>` : ''}
+      ${m.source ? `<div class="small muted sb-src">${t('Source')} : ${esc(m.source)}</div>` : ''}
     </div>
     <div class="sb-side">
       <div class="sb-portrait ${m.portrait ? '' : 'empty-p'}" id="sb-portrait" style="${m.portrait ? `background-image:url('${esc(m.portrait)}')` : ''}" title="${t('Drop an image to replace it')}">${m.portrait ? '' : t('Drop an image')}</div>
@@ -140,7 +169,7 @@ function drawStatBlock(el, m) {
         <button class="primary" id="sb-fight"><i class="ico i-combat"></i> ${t('Add')}</button></div>
       <div class="card col small"><b>${t('Quick reference')}</b>
         <span>${t('Saving throws')}: ${STATS.map((s, i) => `<span class="droll" data-roll="1d20${fmod(saves[i])}" data-label="${t('{ability} save', { ability: abbr(s) })}" data-who="${esc(m.name)}">${abbr(s)} ${fmod(saves[i])}</span>`).join(' · ')}</span>
-        <span>${t('Passive Perception')} ≈ ${10 + mod(m.stats?.SAG)}</span></div>
+        <span>${t('Passive Perception')} ${pp ? pp[1] : '≈ ' + (10 + mod(m.stats?.SAG))}</span></div>
     </div></div>`;
   $('#sb-edit', el).onclick = () => { monEdit = true; drawMonSheet(); };
   dropImage($('#sb-portrait', el), r => { m.portrait = r.url; saveMon(m); drawMonSheet(); drawMonList(); });

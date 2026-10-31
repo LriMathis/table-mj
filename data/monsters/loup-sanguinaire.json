@@ -2,13 +2,15 @@
  "id": "loup-sanguinaire",
  "name": "Loup sanguinaire",
  "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
  "cr": "1",
  "xp": 200,
  "ca": 14,
- "hp": 37,
- "hpFormula": "5d10+10",
+ "hp": 22,
+ "hpFormula": "3d10+6",
  "vitesse": "15 m",
- "size": 2,
  "stats": {
   "FOR": 17,
   "DEX": 15,
@@ -17,15 +19,20 @@
   "SAG": 12,
   "CHA": 7
  },
+ "skills": "Discrétion +4, Perception +5",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "aucune",
+ "traits": "**Tactique de meute.** Quand au moins un de ses alliés non Neutralisés se situe dans un rayon de 1,50 m de la créature qu’il cible, le loup a l’Avantage au jet d’attaque correspondant.",
+ "actionsText": "**Morsure.** Corps à corps : +5, allonge 1,50 m. Touché : 8 (1d10 + 3) dégâts perforants. Si la cible est une créature de taille G ou inférieure, elle subit l’état À terre.",
  "attacks": [
   {
    "name": "Morsure",
    "bonus": 5,
-   "damage": "2d6+3",
+   "damage": "1d10+3",
    "type": "perforant"
   }
  ],
- "traits": "**Tactique de groupe.** Avantage si un allié est à 1,50 m de la cible.\n**Morsure.** FOR DD 13 ou à terre.",
- "portrait": "/data/images/e8f1b572c6_monstre-loup-sanguinaire.svg",
- "notes": ""
+ "portrait": "/data/images/bb70a148c4_monstre-loup-sanguinaire.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
 }

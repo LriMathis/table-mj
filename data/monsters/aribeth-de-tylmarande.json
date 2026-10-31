@@ -1,0 +1,48 @@
+{
+ "id": "aribeth-de-tylmarande",
+ "name": "Aribeth de Tylmarande",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 120,
+ "hpFormula": "16d8+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun, elfique, infernal",
+ "traits": "**Tracker infernal.** Aribeth connaît la distance et la direction de toute créature qui a rompu un pacte avec Méphistophéles, même si la créature et Aribeth sont sur différents plans d'existence.\n**Résistance magique.** Aribeth a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Macre de nuit.** Aribeth est accompagné d'un Destrier noir. Le cauchemar permet à Aribeth de l'utiliser comme monture.\n**Régénération.** Aribeth retrouve 20 points de vie au début de son tour. Si Aribeth prend dégâts radiants, ce trait ne fonctionne pas au début du prochain tour d'Aribeth. Le corps d'Aribeth n'est détruit que si elle commence son tour avec 0 points de vie et ne se régénère pas.\n**Ombres.** Trois ombres se cachent dans la selle du cauchemar d'Aribeth. Ces ombres ne sortent que s'il y a une créature dans 9 m qui est à 0 points de vie. Quand cela arrive, une ombre émerge et attaque la créature afin de la faire échouer une mort jet de sauvegarde. Il continue de le faire jusqu'à ce que la créature soit morte.\n**Sensibilité à la lumière du soleil.** En plein soleil, Aribeth a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Aribeth fait trois attaques de Void ou de Strike Unholy.\n**Vide.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains, plus 7 (2d6) dégâts nécrotiques. Une créature réduite à 0 points de vie à cause des dégâts infligés par l'épée Vid meurt et ne peut être ravivé par aucun moyen à court d'un sort Souhait.\n**Grève impie.** Attaque de sort à distance : +7 au toucher, portée 36 m, une cible. Touché : 12 (2d8 + 3) dégâts nécrotiques.\n**Détection orthographique.** Aribeth lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- 1/jour : Dissipation de la magie\n- 2/jour chacun : Aide, Injonction, Arme magique, Châtiment calcinant, Bouclier de la foi",
+ "attacks": [
+  {
+   "name": "Vide",
+   "bonus": 7,
+   "damage": "1d8+3",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Grève impie",
+   "bonus": 7,
+   "damage": "2d8+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/d0a0da85f4_monstre-aribeth-de-tylmarande.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "demi-plaque",
+ "skills": "Perception +5, Religion +4",
+ "immunities": "nécrotique, contondant, perforant, tranchant d'armes non magiques qui ne sont pas argentées",
+ "conditionImmunities": "empoisonné",
+ "reactions": "**Parry.** Aribeth ajoute 4 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, Aribeth doit voir l'agresseur et manier une arme de mêlée."
+}

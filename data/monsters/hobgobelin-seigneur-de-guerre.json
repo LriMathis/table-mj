@@ -1,0 +1,46 @@
+{
+ "id": "hobgobelin-seigneur-de-guerre",
+ "name": "Hobgoblin Warlord",
+ "type": "Fée (gobelinoïde)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 20,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, gobelin",
+ "traits": "**Aurore de l'autorité.** Alors que dans une Emanation 9 m originaire du hobgoblin, le hobgoblin et ses alliés ont Avantage sur jets d'attaque et jet de sauvegarde, à condition que le hobgoblin n'ait pas l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Le hobgoblin fait trois attaques, en utilisant Javelin ou Longsword dans n'importe quelle combinaison.\n**Javelin.** Jet d'attaque au corps à corps ou à distance : +6, allonge 1,50 m ou portée 9/36 m. Touché : 11 (2d6 + 4) dégâts perforants, et la vitesse de la cible diminue par 3 m jusqu'au début du prochain tour du hoblogoblin.\n**Mot long.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 12 (2d8 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Javelin",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Mot long",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/329b7ec373_monstre-hobgobelin-seigneur-de-guerre.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Hobgobelin, seigneur de guerre",
+ "saves": "DEX +5, INT +5, SAG +3, CHA +5",
+ "reactions": "**Parry.** Déclencheur : Le hobgoblin est frappé par une melee jet d'attaque tout en tenant une arme. Réponse : Le hobboblin ajoute 3 à sa CA contre cette attaque, ce qui peut la faire manquer."
+}

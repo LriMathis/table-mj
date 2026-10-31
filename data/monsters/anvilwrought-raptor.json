@@ -1,0 +1,41 @@
+{
+ "id": "anvilwrought-raptor",
+ "name": "Anvilwrought Raptor",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 18,
+ "hpFormula": "4d4+8",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "comprend une langue de son créateur mais ne peut pas parler",
+ "traits": "**C'est la vue..** Le rappeur a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Mimétisme enregistré.** Le rappeur peut imiter n'importe quel son, y compris les voix, il a entendu au cours des dernières 24 heures. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 12 test de Sagesse (Perspicacité).",
+ "actionsText": "**Multiattaques.** Le rappeur fait deux attaques avec son bec.\n**Bec.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3c51962f34_monstre-anvilwrought-raptor.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, paralysé, pétrifié, empoisonné"
+}

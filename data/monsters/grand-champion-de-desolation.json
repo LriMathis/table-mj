@@ -1,0 +1,46 @@
+{
+ "id": "grand-champion-de-desolation",
+ "name": "Grim Champion of Desolation",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 18,
+ "hp": 416,
+ "hpFormula": "49d8+196",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 23,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 20,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 23",
+ "languages": "commun, elfique",
+ "traits": "**Résistance légendaire (3/jour).** Si le champion échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le champion fait deux attaques de Lame de Leeching et utilise Hollow Void.\n**Lame de levage.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants plus 33 (6d10) dégâts de froid, et le champion retrouve 10 points de vie.\n**Void creux.** Le champion convoque une faille de faim autour d'une créature qu'il peut voir en 36 m de lui-même. La créature doit faire un DD 22 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la créature prend 49 (11d8) dégâts de force et a l'état étourdi jusqu'au prochain tour du champion. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement. Si une créature est réduite à 0 points de vie par cet effet, la créature meurt, et son corps s'écroule en poussière.",
+ "attacks": [
+  {
+   "name": "Lame de levage",
+   "bonus": 14,
+   "damage": "2d6+6",
+   "type": "tranchant + froid"
+  }
+ ],
+ "portrait": "/data/images/879dcf5174_monstre-grand-champion-de-desolation.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Grand champion de Desolation",
+ "caNote": "Armure en cuir Studded",
+ "saves": "DEX +14, CON +12, SAG +13",
+ "skills": "Tromperie +12, Perspicacité +13, Perception +13, Discrétion +14",
+ "resistances": "froid, nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, empoisonné, étourdi, inconscient",
+ "bonusActions": "**Entrez dans Rien (Recharge 4-6).** Le champion, ainsi que tout équipement qu'il porte ou qu'il transporte, a l'état invisible et téléporte dans un espace inoccupé qu'il peut voir en lui-même. Le champion reste invisible jusqu'au début de son prochain tour ou immédiatement après avoir causé des dégâts.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, grand champion de desolation peut entreprendre l'une des actions ci-après.\n**Écraser.** Le champion déclenche une explosion de force d'écrasement sur une créature qu'il peut voir en 9 m de lui-même. La créature doit réussir sur un DD 22 jet de sauvegarde de Force ou prendre 14 (4d6) dégâts de force et avoir l'état à terre.\n**Craignant pour la poursuite.** Le champion se déplace à sa vitesse ou commande sa monture à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités.\n**Nullify (coûts 2 actions).** Le champion émet une vague magique dans un cône 18 m. Chaque sort de de niveau 5 ou inférieur se termine sur les créatures et objets du choix du champion dans cette zone."
+}

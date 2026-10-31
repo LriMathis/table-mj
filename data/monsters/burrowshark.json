@@ -1,0 +1,40 @@
+{
+ "id": "burrowshark",
+ "name": "Burrowshark",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 18,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "**Le lien de la Terre Noire.** Le terrier est magiquement lié à une boulette entraînée à servir de monture. En montant sur sa bullette, le terrier partage les sens de la bullette et peut monter sur la bullette pendant qu'elle s'enfonce. La boulette liée obéit aux ordres du terrier. Si sa monture meurt, le terrier peut former une nouvelle boulette pour servir de monture liée, un processus qui nécessite un mois.",
+ "actionsText": "**Multiattaques.** Le terrier fait trois attaques à la mêlée.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants, ou 8 (1d8 + 4) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8e9dca043d_monstre-burrowshark.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "skills": "Dressage +2, Athlétisme +6, Intimidation +3, Perception +2",
+ "reactions": "**Un rendement insuffisant.** Lorsque le terrier est soumis à un effet qui le déplacerait, frapper à terre, ou les deux, il peut utiliser sa réaction pour ne pas être déplacé ni à terre."
+}

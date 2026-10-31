@@ -1,0 +1,39 @@
+{
+ "id": "chevalier-githyanki",
+ "name": "Chevalier githyanki",
+ "type": "Humanoïde (gith)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "caNote": "harnois",
+ "hp": 91,
+ "hpFormula": "14d8+28",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "saves": "CON +5, INT +5, SAG +5",
+ "senses": "Perception passive 12",
+ "languages": "gith",
+ "traits": "**Incantation innée (psionique).** La caractéristique d'incantation innée du githyanki est l'Intelligence (DD des jets de sauvegarde contre ses sorts 13, +5 pour toucher avec des attaques de sort). Il peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *main du mage* (la main est invisible)\n- 3/jour chacun : *langues, non-détection* (soi-même uniquement), *pas brumeux, saut*\n- 1/jour chacun : *changement de plan, télékinésie*",
+ "actionsText": "**Attaques multiples.** Le githyanki effectue deux attaques avec son épée à deux mains d'argent.\n**Épée à deux mains d'argent.** *Attaque d'arme au corps à corps :* +9 pour toucher, allonge 1,50 m, une cible. *Touché :* 13 (2d6+6) dégâts tranchants plus 10 (3d6) dégâts psychiques. Cette une attaque d'arme magique. En cas de coup critique réussi contre une cible dans un corps astral (comme avec le sort *projection astrale*), le githyanki peut trancher la corde d'argent qui la relie à son corps physique au lieu d'infliger des dégâts.",
+ "portrait": "/data/images/f9b2e8e728_monstre-chevalier-githyanki.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 159 · image : Manuel des monstres p. 158",
+ "attacks": [
+  {
+   "name": "Épée à deux mains d'argent",
+   "bonus": 9,
+   "damage": "2d6+6+3d6",
+   "type": "tranchant + psychique"
+  }
+ ]
+}

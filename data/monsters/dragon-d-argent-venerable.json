@@ -1,0 +1,41 @@
+{
+ "id": "dragon-d-argent-venerable",
+ "name": "Dragon d'argent vénérable",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal bon",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 22,
+ "hp": 468,
+ "hpFormula": "24d20+216",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 10,
+  "CON": 29,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 26
+ },
+ "saves": "DEX +7, SAG +9",
+ "skills": "Discrétion +7, Histoire +11, Perception +16",
+ "immunities": "froid",
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 26",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (4/jour, ou 5/jour dans son antre).** Si le dragon rate un jet de sauvegarde, il peut décider de le réussir tout de même.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée. Il peut remplacer l’une de ces attaques par une utilisation de (A) Incantation pour lancer *couteau de glace* (au 2e niveau) ou (B) Souffle paralysant.\n**Saignée.** Corps à corps : +17, allonge 4,50 m. Touché : 19 (2d8 + 10) dégâts tranchants plus 9 (2d8) dégâts de froid.\n**Incantation.** Le dragon lance l’un des sorts suivants sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 23, +15 pour toucher) :\n- À volonté : *changement de forme* (Bête ou Humanoïde uniquement, le sort ne fait pas gagner de points de vie temporaires, ni Concentration ni points de vie temporaires nécessaires pour maintenir le sort), *couteau de glace* (au 2e niveau), *détection de la magie*, *immobilisation de monstre*\n- 1/jour chacun : *contrôle du climat*, *téléportation*, *tempête de grêle* (au 7e niveau), *zone de vérité*\n**Souffle glacial (recharge 5–6).** JS Constitution : DD 24, chaque créature dans un Cône de 27 m. Échec : 67 (15d8) dégâts de froid. Réussite : demi-dégâts.\n**Souffle paralysant.** JS Constitution : DD 24, chaque créature dans un Cône de 27 m. Premier échec : la cible subit l’état Neutralisé jusqu’à la fin de son tour suivant, et réitère alors son JS. Deuxième échec : la cible subit l’état Paralysé et réitère le JS à la fin de chacun de ses tours ; elle met un terme à l’effet sur elle-même en cas de réussite. Au bout de 1 minute, elle réussit automatiquement ce JS.",
+ "legendary": "**Utilisations d'action Légendaire : 3 (4 dans son antre).** Aussitôt après le tour d'une autre créature, le dragon peut dépenser une utilisation pour entreprendre l'une des actions ci-après. Le dragon récupère toutes ses utilisations dépensées au début de chacun de ses tours.\n**Assaut incisif.** Le dragon se déplace à concurrence de la moitié de sa Vitesse et effectue une attaque de Saignée.\n**On ne bouge plus.** Le dragon recourt à Incantation pour lancer *immobilisation de monstre*. Le dragon ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.\n**Rafale gelée.** JS Dextérité : DD 23, chaque créature dans une Ligne de 18 m de long sur 3 m de large. Échec : 14 (4d6) dégâts de froid, et la cible est repoussée du dragon en ligne droite d’un maximum de 9 m. Réussite : demi-dégâts uniquement. Échec ou réussite : Le dragon ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 17,
+   "damage": "2d8+10+2d8",
+   "type": "tranchant + froid"
+  }
+ ],
+ "portrait": "/data/images/19493d5659_monstre-dragon-d-argent-venerable.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 102"
+}

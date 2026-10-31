@@ -1,0 +1,41 @@
+{
+ "id": "menace-reduite-behir",
+ "name": "Reduced-Threat Behir",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 168,
+ "hpFormula": "16d12+64",
+ "vitesse": "15 m, escalade 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 27 m, Perception passive 16",
+ "languages": "draconique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le béhir fait deux attaques : une avec sa morsure et une pour constriction.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 22 (3d10 + 6) dégâts perforants.\n**foudre Respiration (Recharge 5-6).** Le béhir exhale une ligne de foudre qui est longue 6 m et large 1,50 m. Chaque créature dans cette ligne doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 66 (12d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "3d10+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9866d05959_monstre-menace-reduite-behir.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Menace réduite béhir",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6, Discrétion +7",
+ "immunities": "foudre"
+}

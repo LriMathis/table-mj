@@ -1,0 +1,44 @@
+{
+ "id": "narth-tezrin",
+ "name": "Narth Tezrin",
+ "type": "Humanoïde (Téthyrien humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 18,
+ "hpFormula": "4d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, nain",
+ "traits": "**Action énergique.** À chacun de ses tours, Narth peut utiliser un action bonus pour prendre l'action Foncer, Se désengager ou Se cacher.\n**Information sur le jeu de rôles.** Narth vend de l'équipement aux aventuriers, et il a aussi un esprit aventureux. Le Lionshield Coster le paie bien, mais il veut se faire un nom. En même temps, il dirige une entreprise avec son partenaire Alaestra et sait qu'elle ne lui pardonnerait pas s'il s'était enfui et ne serait jamais revenu.\nIdéal: \"Plus le risque est grand, plus la récompense est grande.\"\nObligation : \"J'adore mon collègue Alestra, et j'aimerais faire quelque chose pour l'impressionner.\"\nFaux : \"Je vais risquer la vie et les membres pour devenir une légende.\"",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Acrobatie des mains.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants. Narth porte vingt boulons arbalètes.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/cec48d4dfa_monstre-narth-tezrin.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "skills": "Perspicacité +4, Investigation +3, Perception +6, Persuasion +5"
+}

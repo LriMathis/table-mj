@@ -1,0 +1,40 @@
+{
+ "id": "duergar-soulblade",
+ "name": "Duergar Soulblade",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Résilience des duers.** Le duergar a un avantage sur jet de sauvegarde contre les sorts et les conditions charmé, paralysé et empoisonné.\n**Sensibilité à la lumière du soleil.** En plein soleil, le duergar présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Lame d'âme.** Attaque de sort au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts de force, ou 13 (3d6 + 3) dégâts de force alors que sous l'effet d'Elargi.\n**Invisibilité (Recharges après un repos court ou long).** Le duergar tourne magiquement invisible pendant 1 heure ou jusqu'à ce qu'il attaque, il force une créature à faire un jet de sauvegarde ou son concentration est cassé (comme si concentrating sur un sort). Tout équipement que le duergar porte ou porte est invisible.",
+ "attacks": [
+  {
+   "name": "Lame d'âme",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/2d58640a0c_monstre-duergar-soulblade.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "resistances": "poison",
+ "bonusActions": "**agrandir (recharges après un repos court ou long).** Pendant 1 minute, le duergar augmente magiquement en taille, avec tout ce qu'il porte ou porte. Bien qu'agrandi, le duergar est grand, double ses dés de dégâts sur les attaques d'armes à base de Force (inclus dans les attaques), et rend tests de Force et jet de sauvegarde de Force avec avantage. Si le duergar manque de la pièce pour devenir grand, il atteint la taille maximale possible dans l'espace disponible."
+}

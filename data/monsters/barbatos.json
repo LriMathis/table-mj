@@ -1,0 +1,46 @@
+{
+ "id": "barbatos",
+ "name": "Barbatos",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun",
+ "traits": "**Cloque de monstre de la rouille.** Toute arme non magique en métal qui frappe Barbatos corrode. Après avoir causé des dégâts, l'arme prend une pénalité permanente et cumulative -1 à jets de dégâts. Si sa peine tombe à -5, l'arme est détruite. Des munitions non magiques en métal qui frappent Barbatos sont détruites après avoir causé des dégâts.\n**Cœur du Troll.** Barbatos retrouve 10 points de vie au début de son tour. Si Barbatos prend de l'acide ou dégâts de feu, ce trait ne fonctionne pas au début du prochain tour de Barbatos. Barbatos meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Détection orthographique.** Barbatos est un spellcaster de niveau 6. Son caractéristique d'incantation est Sagesse (save spell DD 13, +5 au toucher avec attaques de sort). Il a préparé les sorts de ranger suivants:\n- Niveau 1 (4 emplacements) : Frappe piégeuse, Grêle d'épines, Marque du chasseur\n- Niveau 2 (2 emplacements) : Localisation d'animaux ou de plantes",
+ "actionsText": "**Multiattaques.** Barbatos fait deux attaques de mots courts os.\n**Mot-clé osseux.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Acrobatie légère.** Attaque d'arme à distance : +6 au toucher, portée 24/96 m., une cible. Touché : 7 (1d8 + 3) dégâts perforants, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné pendant 1 heure. Si le jet de sauvegarde échoue de 5 ou plus, la cible est également inconscient. La cible reprend conscience si elle prend des dégâts ou si une autre créature prend une action pour la secouer.\n**Balayage en boucle.** Barbatos corrode un objet métallique ferreux non magique qu'il peut voir en lui-même. Si l'objet n'est pas porté ou porté, le toucher détruit un cube 0,30 m de celui-ci. Si l'objet est porté ou porté par une créature, la créature peut faire un DD 12 jet de sauvegarde de Dextérité pour éviter le toucher de Barbatos.\nSi l'objet touché est soit une armure métallique ou un bouclier métallique porté ou transporté, il prend une pénalité permanente et cumulative de 1 pour le CA qu'il offre. Armure réduite à un CA de 10 ou un bouclier qui tombe à un bonus de +0 est détruit. Si l'objet touché est une arme de métal, il rouille comme décrit dans le caractère de Cloak de monstre rouille de Barbatos.",
+ "attacks": [
+  {
+   "name": "Mot-clé osseux",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/212843c52c_monstre-barbatos.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Dressage +5, Tromperie +3, Perception +5, Discrétion +6",
+ "resistances": "poison"
+}

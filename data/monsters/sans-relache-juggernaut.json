@@ -1,0 +1,47 @@
+{
+ "id": "sans-relache-juggernaut",
+ "name": "Relentless Juggernaut",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 16,
+ "hp": 168,
+ "hpFormula": "16d10+80",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 12,
+  "CON": 20,
+  "INT": 8,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "comprend tout, mais ne peut pas parler",
+ "traits": "**Résistance légendaire (3/jour).** Si le juggernaut échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Régénération.** Le juggernaut retrouve 10 points de vie au début de chacun de ses tours. Si le juggernaut prend dégâts radiants ou endommage un Hit critique, ce trait ne fonctionne pas au prochain tour du juggernaut. Le juggernaut ne meurt que s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Monstre de siège.** Le juggernaut inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le juggernaut fait deux attaques, en utilisant la lame d'exécution ou la pierre de concassage dans n'importe quelle combinaison.\n**Blade de l'exécuteur.** Jet d'attaque au corps à corps : +10, allonge 3 m. Touché : 19 (3d8 + 6) dégâts tranchants, et la vitesse de la cible est réduite de 3 m jusqu'à la fin du prochain tour du juggernaut.\n**Pierre de concassage.** Jet d'attaque à distance : +10, portée 18 m. Touché : 13 (2d6 + 6) dégâts contondants, et la cible a l'état neutralisé jusqu'au prochain tour du juggernaut.",
+ "attacks": [
+  {
+   "name": "Blade de l'exécuteur",
+   "bonus": 10,
+   "damage": "3d8+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Pierre de concassage",
+   "bonus": 10,
+   "damage": "2d6+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f6a96edf6f_monstre-sans-relache-juggernaut.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Sans relâche Juggernaut",
+ "saves": "DEX +5, SAG +6, CHA +7",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, sans relâche juggernaut peut entreprendre l'une des actions ci-après.\n**Avance implacable.** Le juggernaut monte jusqu'à la moitié de sa vitesse, ignorant le terrain difficile. Chaque créature dans son chemin est soumise à l'effet suivant. Jet de sauvegarde de Force : DD 18. Échec : 7 (2d6) dégâts contondants, et la cible a l'état à terre. Échec ou réussite : Le juggernaut ne peut pas reprendre cette action avant le début de son prochain tour.\n**Lame de balayage.** Jet de sauvegarde de Dextérité : DD 18, chaque créature dans un cône 4,50 m. Échec : 11 (1d10 + 6) dégâts tranchants, et la cible est tirée jusqu'à 3 m droit vers le juggernaut."
+}

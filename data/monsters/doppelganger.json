@@ -1,0 +1,40 @@
+{
+ "id": "doppelganger",
+ "name": "Doppelganger",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "skills": "Intuition +3, Tromperie +6",
+ "conditionImmunities": "charmé",
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun et trois autres langues",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le doppelganger effectue deux attaques de Coup et recourt à Visage déstabilisant si disponible.\n**Coup.** Corps à corps : +6 (avec Avantage au premier round de chaque combat), allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts contondants.\n**Lecture des pensées.** Le doppelganger lance *détection des pensées* sans composantes de sort, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 12).\n**Visage déstabilisant (recharge 6).** JS Sagesse : DD 12, chaque créature dans une Émanation de 4,50 m centrée sur le doppelganger et qui voit celui-ci. Échec : la cible subit l’état Effrayé et réitère le JS à la fin de chacun de ses tours ; elle met un terme à l’effet sur elle-même en cas de réussite. Au bout de 1 minute, elle réussit automatiquement ce JS.",
+ "bonusActions": "**Changement d’aspect.** Le doppelganger se transforme en Humanoïde de taille M ou P, ou bien reprend sa forme véritable. En dehors de sa catégorie de taille, son profil reste le même, quelle que soit la forme. Rien de ce qu’il porte n’est transformé.",
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0395a8585c_monstre-doppelganger.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 77"
+}

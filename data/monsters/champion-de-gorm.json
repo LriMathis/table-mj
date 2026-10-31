@@ -1,0 +1,48 @@
+{
+ "id": "champion-de-gorm",
+ "name": "Champion of Gorm",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 19,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "**Brave.** Le champion a un avantage sur jet de sauvegarde contre l'état effrayé.",
+ "actionsText": "**Multiattaques.** Le champion fait deux attaques foudre Mace ou trois attaques Handaxe.\n**Mace foudre.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 5 (2d4) dégâts de foudre.\n**Handaxe.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Mace foudre",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + foudre"
+  },
+  {
+   "name": "Handaxe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ea9dc39684_monstre-champion-de-gorm.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Champion de Gorm",
+ "caNote": "Armure Splint, Bouclier",
+ "saves": "FOR +5, SAG +4",
+ "skills": "Athlétisme +5, Perspicacité +4, Religion +3",
+ "bonusActions": "**Aura de résilience (1/jour).** Le champion exsude une aura de foudre fantôme qui remplit une sphère 3 m -radius centrée sur lui-même. Alors que cette aura est active, le champion et chaque créature de son choix dans l'aura ont avantage sur jet de sauvegarde. L'aura se déplace avec le champion et dure 1 minute, jusqu'à ce que le champion ait l'état neutralisé, ou jusqu'à ce que le champion utilise un autre action bonus pour terminer l'aura."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "drake-compagnon",
+ "name": "Drake Companion",
+ "type": "Dragon",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 8,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "draconique",
+ "traits": "**Essence draconienne.** Lorsque vous invoquez le drak, choisissez un type de dégâts : acide, froid, feu, foudre ou poison. Le type choisi détermine l'immunité de dégâts du drake et les dégâts de son caractère Strikes infusé.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 plus PB à frapper, allonge 1,50 m, une cible. Touché : 1d6 plus PB dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/2a7a7148f6_monstre-drake-compagnon.webp",
+ "notes": "points de vie : 5 + 5 fois votre niveau de ranger (le drake a un nombre de dés de vie [d10s] égal à votre niveau de ranger)",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Drake compagnon",
+ "saves": "DEX +1 + PB, SAG +2 + PB",
+ "immunities": "déterminé par l'essence draconienne du drake",
+ "reactions": "**Grèves infusées.** Quand une autre créature de 9 m du drake qu'elle peut voir frapper une cible avec une attaque d'arme, le drake infuse la frappe avec son essence, ce qui fait que la cible prend un dégâts supplémentaire 1d6 du type déterminé par son Essence draconienne."
+}

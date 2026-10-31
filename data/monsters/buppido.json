@@ -1,0 +1,45 @@
+{
+ "id": "buppido",
+ "name": "Buppido",
+ "type": "Humanoïde (derro)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "3d6+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 5,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 7",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Insanité.** Buppido a un avantage sur jet de sauvegarde contre charmé ou effrayé.\n**Résistance magique.** Buppido a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sensibilité à la lumière du soleil.** En plein soleil, Buppido a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Short-spear crocheté.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 1 (1d4 - 1) dégâts perforants. Si la cible est une créature, Buppido peut choisir de n'infliger aucun dégâts et essayer de la déplacer à la place, auquel cas la cible doit réussir sur un DD 9 jet de sauvegarde de Force ou tomber sur à terre.\n**Acrobate à répétition de lumière.** Attaque d'arme à distance : +4 au toucher, portée 12/48 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Short-spear crocheté",
+   "bonus": 2,
+   "damage": "1d4-1",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobate à répétition de lumière",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/861651f1ea_monstre-buppido.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Discrétion +4"
+}

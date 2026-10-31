@@ -1,0 +1,40 @@
+{
+ "id": "droki",
+ "name": "Droki",
+ "type": "Humanoïde (derro)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 31,
+ "hpFormula": "7d6+7",
+ "vitesse": "9 m (18 m avec bottes de vitesse)",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 5,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 7",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Matériel spécial.** Droki porte Bottes de rapidité.\n**Insanité.** Droki a un avantage sur jet de sauvegarde contre charmé ou effrayé.\n**Attaque d'éternuement (1/Turn).** Droki inflige un dégâts supplémentaire de 7 (2d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur le jet d'attaque, ou lorsque la cible est dans le 1,50 m d'un allié de Droki qui n'est pas neutralisé et Droki n'a pas de désavantage sur le jet d'attaque.\n**Résistance magique.** Le derro a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sensibilité à la lumière du soleil.** En plein soleil, le derro présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Droki est Charisme (sorption sauvegardez DD 13). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Illusion mineure\n- 1/jour chacun : Ténèbres, Peur, Fracassement",
+ "actionsText": "**Multiattaques.** Droki fait deux attaques avec son mot court\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants. L'épée est enduite de venin de serpent qui s'use après le premier coup. Une cible soumise au venin doit faire un DD 11 jet de sauvegarde de Constitution, en prenant 10 (3d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/217dea3dd4_monstre-droki.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Discrétion +5",
+ "reactions": "**Parry.** Droki ajoute 3 à sa CA contre une attaque de mêlée qui le frapperait. Pour ce faire, Droki doit voir l'agresseur et manier une arme à melee."
+}

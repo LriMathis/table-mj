@@ -1,0 +1,41 @@
+{
+ "id": "bibliotheque-animee-chained",
+ "name": "Animated Chained Library",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 8,
+  "CON": 14,
+  "INT": 1,
+  "SAG": 5,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 7",
+ "languages": "—",
+ "traits": "**Faux objet.** Si la bibliothèque est immobile au début du combat, elle a avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte de la bibliothèque, cette créature doit réussir sur un DD 15 test de Sagesse (Perception) pour discerner que la bibliothèque est animée.",
+ "actionsText": "**Multiattaques.** La bibliothèque fait deux attaques.\n**Livre enchaîné.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts contondants, et si la cible est une créature, c'est agrippé (évasion DD 12).",
+ "attacks": [
+  {
+   "name": "Livre enchaîné",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5110e508d9_monstre-bibliotheque-animee-chained.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Bibliothèque animée Chained",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné, à terre"
+}

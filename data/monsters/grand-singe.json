@@ -1,0 +1,44 @@
+{
+ "id": "grand-singe",
+ "name": "Grand singe",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 19,
+ "hpFormula": "3d8+6",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "skills": "Athlétisme +5, Perception +3",
+ "senses": "Perception passive 13",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le singe effectue deux attaques de Poing.\n**Poing.** Corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts contondants.\n**Rocher (recharge 6).** À distance : +5, portée 7,50/15 m. Touché : 10 (2d6 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Poing",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Rocher (recharge 6)",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8dc71bef6a_monstre-grand-singe.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

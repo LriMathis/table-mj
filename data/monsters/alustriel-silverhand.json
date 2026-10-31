@@ -1,0 +1,50 @@
+{
+ "id": "alustriel-silverhand",
+ "name": "Alustriel Silverhand",
+ "type": "Humanoïde (humain, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 15,
+ "hp": 272,
+ "hpFormula": "32d8+128",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 20,
+  "CON": 18,
+  "INT": 24,
+  "SAG": 23,
+  "CHA": 22
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, draconique, elfique",
+ "traits": "**L'oreille des élus.** Chaque fois qu'une créature sur le même plan d'existence qu'Alustriel parle le nom d'Alustriel, Alustriel entend son nom et les neuf mots suivants que l'orateur prononce.\n**Résistance légendaire (3/jour).** Si Alustriel échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Matériel spécial.** Alustriel porte un bâton magique connu sous le nom de bâton de Silverymoon. Dans les mains de toute personne autre qu'Alustriel, le personnel de Silverymoon est un Bâton de surpuissance.",
+ "actionsText": "**Multiattaques.** Alustriel fait trois attaques de l'état-major de Silverymoon ou deux attaques de Ray Reprouvant.\n**Personnel de Silverymoon.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts contondants plus 38 (7d10) dégâts radiants.\n**Récupérer Ray.** Attaque de sort à distance : +14 au toucher, portée 36 m, une cible. Touché : 65 (9d12 + 7) dégâts de force, et si la cible est une créature, elle doit faire un DD 22 jet de sauvegarde de Charisme. Lors d'une sauvegarde ratée, la cible a l'état neutralisé jusqu'au début du prochain tour d'Alustriel. Lors d'une sauvegarde réussie, la vitesse de la cible est réduite de 3 m jusqu'au début du prochain tour d'Alustriel.\n**Blaze d'argent (nécessite feu d'argent).** Alustriel appelle un cône 18 m de feu d'argent. Chaque créature dans cette zone doit faire un DD 22 jet de sauvegarde de Dextérité, en prenant 77 (14d10) dégâts radiants sur un sauvegarde raté ou la moitié de ces dégâts sur un succès. De plus, Alustriel ou une créature de son choix dans 18 m de son alors retrouve 10 (3d6) points de vie.\n**Détection orthographique.** Alustriel lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 22) :\n- À volonté : Lumières dansantes, Détection de la magie, Armure de mage (autoseulement), Main de mage\n- 1/jour chacun : Télépathie, Téléportation, Arrêt du temps\n- 2/jour chacun : Détection des pensées, Dissipation de la magie, Don des langues",
+ "attacks": [
+  {
+   "name": "Personnel de Silverymoon",
+   "bonus": 12,
+   "damage": "2d8+5",
+   "type": "contondant + radiant"
+  },
+  {
+   "name": "Récupérer Ray",
+   "bonus": 14,
+   "damage": "9d12+7",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/65540abc8b_monstre-alustriel-silverhand.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "saves": "CON +11, INT +14, SAG +13",
+ "skills": "Arcanes +14, Histoire +14, Perspicacité +13, Religion +14",
+ "resistances": "radiant",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, empoisonné",
+ "bonusActions": "**Argent feu (2/jour).** Brillant feu d'argent inoffensif couronne Alustriel et lui donne le pouvoir. Le feu d'argent dure 1 heure ou jusqu'à ce qu'elle ait l'état neutralisé ou utilise un autre action bonus pour l'éteindre. Alors qu'Alustriel est en feu d'argent, elle gagne en vision réelle au sein de 9 m et peut utiliser son action Argent Blaze. En outre, Alustriel n'est pas affecté par la magie qui permettrait de vérifier son alignement, son type de créature, ses pensées ou sa véracité.",
+ "reactions": "**Contre-orthographe brillant.** Alustriel interrompt une créature qu'elle peut voir en 18 m elle-même qui jette un sort. Si le sort est de niveau 5 ou inférieur, il échoue et n'a aucun effet. Si le sort est de niveau 6 ou supérieur, Alustriel fait un test d'Intelligence (DD 10 plus le niveau du sort). Sur un contrôle réussi, le sort échoue et n'a aucun effet. Quel que soit le niveau du sort, le lanceur prend 11 (2d10) dégâts radiants si le sort échoue."
+}

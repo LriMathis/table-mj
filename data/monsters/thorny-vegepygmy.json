@@ -1,0 +1,40 @@
+{
+ "id": "thorny-vegepygmy",
+ "name": "Thorny Vegepygmy",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "—",
+ "traits": "**Camouflage des plantes.** L'épineux a un avantage sur tests de Dextérité (Discrétion) il fait dans n'importe quel terrain avec une végétation abondante obscurcie.\n**Régénération.** L'épineux retrouve 5 points de vie au début de son tour. S'il prend froid, feu, ou dégâts nécrotiques, ce trait ne fonctionne pas au début du prochain tour de l'épine. L'épineux ne meurt que s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Corps épineux.** Au début de son tour, l'épineux offre 2 (1d4) dégâts perforants à toute créature qui l'affronte.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "2d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/571b0760b7_monstre-thorny-vegepygmy.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4, Discrétion +3",
+ "resistances": "foudre, perforant"
+}

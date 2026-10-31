@@ -1,0 +1,45 @@
+{
+ "id": "serpent-de-riviere",
+ "name": "River Serpent",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 60,
+ "hpFormula": "8d12+8",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 12",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une créature. Touché : 11 (2d6 + 4) dégâts perforants.\n**Constriction.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 13 (2d8 + 4) dégâts contondants, et la cible est agrippé (évasion DD 16). Jusqu'à ce que ce grappin se termine, la créature est entravé, et le serpent ne peut pas constricter une autre cible.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/dccbad93c7_monstre-serpent-de-riviere.webp",
+ "notes": "",
+ "source": "PSA (5e.tools, traduction automatique)",
+ "aka": "Serpent de rivière",
+ "skills": "Perception +2"
+}

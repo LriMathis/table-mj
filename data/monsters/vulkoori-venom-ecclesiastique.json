@@ -1,0 +1,42 @@
+{
+ "id": "vulkoori-venom-ecclesiastique",
+ "name": "Vulkoori Venom Priest",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "commun, elfique, géant",
+ "traits": "**Ancêtre fécale.** La magie ne peut pas endormir le prêtre.",
+ "actionsText": "**Personnel du Venom.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 9 (2d6 + 2) dégâts contondants, et la cible a l'état empoisonné jusqu'à la fin du prochain tour du prêtre.\n**Détection orthographique.** Le prêtre lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (Spell save DD 13, +5 au toucher avec attaques de sort):\n- À volonté : Lumières dansantes, Rayon empoisonné, Thaumaturgie\n- 1/jour chacun : Soins, Immobilisation de personne, Protection contre le poison",
+ "attacks": [
+  {
+   "name": "Personnel du Venom",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3ea4369ff5_monstre-vulkoori-venom-ecclesiastique.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "aka": "Vulkoori Venom ecclésiastique",
+ "saves": "CON +3, SAG +5",
+ "skills": "Perception +5, Religion +2, Discrétion +5",
+ "resistances": "poison",
+ "bonusActions": "**Intensifier poison.** Chaque créature avec l'état empoisonné dans une Emanation 9 m originaire du prêtre prend 3 (1d6) dégâts de poison."
+}

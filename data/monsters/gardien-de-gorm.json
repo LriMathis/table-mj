@@ -1,0 +1,46 @@
+{
+ "id": "gardien-de-gorm",
+ "name": "Guardian of Gorm",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 16,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun",
+ "traits": "**Brave.** Le tuteur a un avantage sur jet de sauvegarde contre l'état effrayé.",
+ "actionsText": "**Mace foudre.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants plus 2 (1d4) dégâts de foudre.\n**Handaxe.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Mace foudre",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant + foudre"
+  },
+  {
+   "name": "Handaxe",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/208a20151d_monstre-gardien-de-gorm.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Gardien de Gorm",
+ "caNote": "Courrier en chaîne",
+ "skills": "Athlétisme +4, Perspicacité +3, Religion +2"
+}

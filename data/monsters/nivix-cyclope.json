@@ -1,0 +1,43 @@
+{
+ "id": "nivix-cyclope",
+ "name": "Nivix Cyclops",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 115,
+ "hpFormula": "10d10+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 9,
+  "CON": 22,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, géant",
+ "traits": "**Résistance magique.** Les cyclopes ont un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Les cyclopes font deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 23 (3d10 + 7) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "3d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d9c2a30431_monstre-nivix-cyclope.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Nivix cyclope",
+ "caNote": "Armure demi-plate",
+ "saves": "CON +9, SAG +3",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "reactions": "**Vitalisation de l'orthographe.** Immédiatement après qu'une créature ait lancé un sort de de niveau 1 ou plus à l'intérieur de 36 m des cyclopes, les cyclopes peuvent avancer jusqu'à deux fois leur vitesse sans provoquer d'attaques d'opportunités. Il peut alors faire une attaque de clam contre une cible de son choix."
+}

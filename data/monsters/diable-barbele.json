@@ -1,0 +1,54 @@
+{
+ "id": "diable-barbele",
+ "name": "Diable barbelé",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 110,
+ "hpFormula": "13d8+52",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 17,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "saves": "FOR +6, CON +7, SAG +5, CHA +5",
+ "skills": "Intuition +5, Perception +8, Tromperie +5",
+ "resistances": "froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**Peau barbelée.** Au début de chacun de ses tours, le diable barbelé inflige 5 (1d10) dégâts perforants à toute créature qui l’agrippe ou que lui-même agrippe.\n**Résistance à la magie.** Le diable a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration diabolique.** Si le diable meurt hors des Neuf Enfers, son corps disparaît dans un nuage de fumée sulfureuse, tandis qu’il en acquiert aussitôt un nouveau et revient à la vie avec tous ses pv quelque part dans les Neuf Enfers.",
+ "actionsText": "**Attaques multiples.** Le diable effectue une attaque de Griffes et une de Queue, ou bien il effectue deux attaques de Jet de flammes.\n**Griffes.** Corps à corps : +6, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts perforants. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 13) par les deux griffes.\n**Queue.** Corps à corps : +6, allonge 3 m. Touché : 14 (2d10 + 3) dégâts tranchants.\n**Jet de flammes.** À distance : +5, portée 45 m. Touché : 17 (5d6) dégâts de feu. Si la cible est un objet inflammable qui n’est porté par personne, elle s’embrase.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 6,
+   "damage": "2d10+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Jet de flammes",
+   "bonus": 5,
+   "damage": "5d6",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/a4d5d9344c_monstre-diable-barbele.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 66"
+}

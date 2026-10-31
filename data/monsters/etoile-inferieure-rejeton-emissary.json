@@ -1,0 +1,44 @@
+{
+ "id": "etoile-inferieure-rejeton-emissary",
+ "name": "Lesser Star Spawn Emissary",
+ "type": "Aberration",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 19,
+ "hp": 241,
+ "hpFormula": "21d8+147",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 21,
+  "DEX": 18,
+  "CON": 24,
+  "INT": 25,
+  "SAG": 20,
+  "CHA": 23
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "tous; télépathie 36 m.",
+ "traits": "**Résistance légendaire (3/jour, ou 4/jour dans le tanière).** Si l'émissaire échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** L'émissaire fait trois attaques, en utilisant Lashing Maw ou Invert Flesh dans n'importe quelle combinaison.\n**Mâchoire.** Jet d'attaque au corps à corps : +11, allonge 4,50 m. Touché : 16 (2d10 + 5) dégâts perforants plus 13 (3d8) dégâts d'acide.\n**Inverser la chair.** Jet de sauvegarde de Constitution : DD 21, une créature l'émissaire peut voir dans 36 m. Échec : 29 (4d10 + 7) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Mâchoire",
+   "bonus": 11,
+   "damage": "2d10+5",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/b0a4c76959_monstre-etoile-inferieure-rejeton-emissary.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Étoile inférieure rejeton Emissary",
+ "saves": "INT +13, SAG +11, CHA +12",
+ "skills": "Arcanes +19, Tromperie +18, Perception +11",
+ "resistances": "acide, force, nécrotique, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "bonusActions": "**Forme-filtre.** La forme émissaire se transforme en une créature petite ou moyenne, ou elle revient à sa vraie forme. Ses statistiques de jeu, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, étoile inférieure rejeton emissary peut entreprendre l'une des actions ci-après.\n**Téléportation de laash.** L'émissaire téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir et fait une attaque de Lashing Maw.\n**Twist.** L'émissaire utilise Invert Flesh.\n**Corps de la chaîne.** Jet de sauvegarde de Constitution : DD 21, une créature l'émissaire peut voir dans 9 m. Échec : 27 (6d8) dégâts de force, et la cible a l'état étourdi jusqu'au début de son prochain tour. Échec ou réussite : L'émissaire ne peut reprendre cette action qu'au début de son prochain tour."
+}

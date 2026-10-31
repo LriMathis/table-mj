@@ -1,0 +1,49 @@
+{
+ "id": "maitre-drowned",
+ "name": "Drowned Master",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 14,
+ "hp": 157,
+ "hpFormula": "21d8+63",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 9,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 20",
+ "languages": "comprend les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "**Ensemble.** Le maître noyé partage son esprit avec tous les autres noyés l'un dans 1,5 km de lui, et peut leur communiquer ses pensées et observations instantanément et sans limitation.\n**froid Aura.** Au début de chacun des tours du maître noyé, chaque créature dans 1,50 m il faut 5 (1d10) dégâts de froid. Une créature qui touche le maître noyé ou la frappe avec une attaque de mêlée alors qu'à l'intérieur de 1,50 m il prend 5 (1d10) dégâts de froid.\n**Fortitude non-morte.** Si le dégâts réduit le maître noyé à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + le dégâts pris, à moins que le dégâts soit radieux ou d'un coup critique. Sur un succès, le maître noyé tombe à 1 points de vie.",
+ "actionsText": "**Multiattaques.** Le maître noyé fait deux attaques : l'une avec sa grande épée et l'autre avec son Tentacle drainant la vie.\n**Grande épée.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants plus 14 (4d6) dégâts de froid, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou un bluerot contractuel (voir le \"Bluerot\" dans les notes).\n**Tentacle drainant la vie.** Attaque d'arme au corps à corps : +7 au toucher, allonge 4,50 m, une cible. Touché : 10 (2d6 + 3) dégâts nécrotiques. La cible doit réussir sur un DD 15 jet de sauvegarde de Constitution ou avoir son maximum de points de vie réduit d'un montant égal aux dégâts subis. La cible meurt si cet effet réduit sa maximum de points de vie à 0. Cette réduction dure jusqu'à ce que la cible termine un repos long. Sur une sauvegarde ratée, la cible contracte également le bluerot (voir le \"Bluerot\" dans les notes).\n**Encre nécrotique.** Le maître noyé décharge l'encre sale devant lui-même dans un cône 9 m. Chaque créature prise dans l'encre doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 27 (6d8) dégâts nécrotiques sur un sauvegarde raté ou la moitié de ces dégâts sur un succès. Une créature qui échoue ce jet de sauvegarde est aveuglé jusqu'à la fin de son prochain tour et contracte le bluerot (voir le \"Bluerot\" en notes).",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 7,
+   "damage": "2d6+3",
+   "type": "tranchant + froid"
+  },
+  {
+   "name": "Tentacle drainant la vie",
+   "bonus": 7,
+   "damage": "2d6+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/4d9c9c7af2_monstre-maitre-drowned.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Maître Drowned",
+ "caNote": "armure naturelle",
+ "saves": "CON +7, SAG +6",
+ "skills": "Perception +10",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

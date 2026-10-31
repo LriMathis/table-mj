@@ -1,0 +1,41 @@
+{
+ "id": "iriad",
+ "name": "Iriad",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 14,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "10,50 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, elfique",
+ "traits": "**Compétences en bonus.** Iriad est compétent avec des armes simples, armure légère, Outils Cartographer's et Outils Woodcarver's.\n**Ancêtre fécale.** Iriad a l'avantage sur jet de sauvegarde fait pour éviter ou mettre fin l'état charmé sur elle-même, et la magie ne peut pas la mettre à dormir.",
+ "actionsText": "**Dague poison.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 3 (1d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Dague poison",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/bcd6407c9e_monstre-iriad.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +4",
+ "skills": "Acrobaties +5, Athlétisme +2, Investigation +2, Nature +2, Perception +5, Discrétion +5, Survie +3",
+ "bonusActions": "**Utile.** Iriad prend l'action Aider."
+}

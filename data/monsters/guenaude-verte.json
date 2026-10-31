@@ -1,0 +1,38 @@
+{
+ "id": "guenaude-verte",
+ "name": "Guenaude verte",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvaise",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "skills": "Arcanes +5, Discrétion +3, Perception +4, Tromperie +4",
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Amphibie.** La guenaude peut respirer sous l’eau comme à l’air libre.\n**Imitation.** La guenaude imite à merveille les bruits des animaux et les voix humanoïdes. Une créature qui l’entend se rend compte qu’il s’agit d’une imitation si elle réussit un test de Sagesse (Intuition) DD 14.\n**Magie d’assemblée.** Tant qu’elle se trouve dans un rayon de 9 m d’au moins deux alliées guenaudes, la guenaude peut lancer l’un des sorts suivants sans composantes matérielles, avec le temps d’incantation normal, l’Intelligence étant sa caractéristique d’incantation (DD de sauvegarde 11) : *appel de familier*, *augure*, *identification*, *localisation d’objet*, *scrutation*, *serviteur invisible*. La guenaude doit terminer un Repos long avant de pouvoir relancer ce sort par ce trait.",
+ "actionsText": "**Attaques multiples.** La guenaude effectue deux attaques de Griffe.\n**Griffe.** Corps à corps : +6, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts tranchants plus 3 (1d6) dégâts de poison.\n**Incantation.** La guenaude lance l’un des sorts suivants sans composantes matérielles, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde 12, +4 pour toucher) :\n- À volonté : *déguisement* (durée : 24 heures), *illusion mineure*, *invisibilité* (soi-même uniquement ; la guenaude ne laisse aucune trace tant qu’elle est Invisible), *lumières dansantes*, *rayon empoisonné* (au 3e niveau)",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d8+4+1d6",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/afe0b289f7_monstre-guenaude-verte.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 178"
+}

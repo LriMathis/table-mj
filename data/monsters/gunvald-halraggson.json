@@ -1,0 +1,45 @@
+{
+ "id": "gunvald-halraggson",
+ "name": "Gunvald Halraggson",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 76,
+ "hpFormula": "9d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 8,
+  "CON": 18,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Irréductible (3/jour).** Gunvald peut reroller un jet de sauvegarde qu'il échoue. Il doit utiliser le nouveau rouleau.\n**Porcs menaçants (1/Turn).** Gunvald inflige des dégâts supplémentaires de 6 (1d12) lorsqu'il frappe une cible avec une attaque d'arme. Si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être effrayé jusqu'au prochain tour de Gunvald.\n**Deuxième vent (recharge après un repos court ou long).** En tant qu'action bonus, Gunvald peut retrouver 15 points de vie.",
+ "actionsText": "**Multiattaques.** Gunvald fait trois attaques à la mêlée.\n**Bataille.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts tranchants, ou 10 (1d10 + 5) dégâts tranchants lorsqu'il est utilisé avec deux mains, plus 6 (1d12) dégâts tranchants si Gunvald utilise des coups de Menaging.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +8 au toucher, portée 9/36 m., une cible. Touché : 8 (1d6 + 5) dégâts perforants, plus 6 (1d12) dégâts perforants si Gunvald utilise des coups de Menacing.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 8,
+   "damage": "1d6+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/67421c4a70_monstre-gunvald-halraggson.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure, Bouclier",
+ "skills": "Athlétisme +8, Intimidation +6, Survie +3"
+}

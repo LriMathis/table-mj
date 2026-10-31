@@ -1,0 +1,39 @@
+{
+ "id": "jaune-musk-creeper",
+ "name": "Yellow Musk Creeper",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 6,
+ "hp": 60,
+ "hpFormula": "11d8+11",
+ "vitesse": "1,50 m, escalade 1,50 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 3,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Alors que le rampeur reste immobile, il est indistinct d'une vigne ordinaire à fleurs.\n**Régénération.** Le rampant retrouve 10 points de vie au début de son tour. Si le rampant prend feu, nécrotique ou dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Le rampant meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Toucher.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une créature. Touché : 13 (3d8) dégâts psychiques. Si la cible est un humanoïde qui tombe à 0 points de vie à la suite de ces dégâts, elle meurt et est implantée avec une ampoule jaune musqué. À moins que l'ampoule ne soit détruite, le cadavre anime comme un zombie musqué jaune après avoir été mort pendant 24 heures. L'ampoule est détruite si la créature est relevée des morts avant qu'elle puisse se transformer en un zombie musqué jaune, ou si le cadavre est visé par un sort Délivrance des malédictions ou une magie similaire avant qu'il anime.\n**Musque jaune (3/jour).** Les fleurs de la rampeuse libèrent un musc fort qui cible tous les humanoïdes dans 9 m de celui-ci. Chaque cible doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou être charmé par le traceur pendant 1 minute. Une créature charmé de cette façon ne fait rien à son tour, sauf se déplacer aussi près qu'elle le peut à la rampeuse. Une créature charmé par le rampant peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Toucher",
+   "bonus": 3,
+   "damage": "3d8",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/75dbb30a2b_monstre-jaune-musk-creeper.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Jaune Musk Creeper",
+ "conditionImmunities": "aveuglé, assourdi, épuisement, à terre"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "kelpie",
+ "name": "Kelpie",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "3 m, nage 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 7,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 13",
+ "languages": "commun, sylvestre",
+ "traits": "**Amphibie.** Le kelpie peut respirer l'air et l'eau.\n**Forme des algues.** Le kelpie peut utiliser son action pour remodeler son corps sous la forme d'un humanoïde ou d'une bête qui est petite, moyenne ou grande. Ses statistiques sont autrement inchangées. Le déguisement est convaincant, à moins que le kelpie soit en lumière vive ou que le spectateur en soit à l'intérieur de 9 m, auquel cas les coutures entre les brins d'algues sont visibles. Le kelpie retourne à sa forme réelle si prend un action bonus pour le faire ou s'il meurt.\n**Fausse apparence.** Bien que le kelpie reste immobile dans sa forme réelle, il est indistinct des algues normales.",
+ "actionsText": "**Multiattaques.** Le kelpie fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 11 (2d8 + 2) dégâts perforants. Si la cible est une créature moyenne ou plus petite, c'est agrippé (évasion DD 12).\n**Hypnose noyante.** Le kelpie choisit un humanoïde qu'il peut voir à l'intérieur de 45 m. Si la cible peut voir le kelpie, la cible doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou être magiquement charmé tandis que le kelpie maintient concentration, jusqu'à 10 minutes (comme si concentrating sur un sort). La cible charmé est neutralisé et au lieu de retenir son souffle sous l'eau, elle essaie de respirer normalement et s'épuise immédiatement, à moins qu'elle ne puisse respirer de l'eau. Si la cible charmé est plus que 1,50 m loin de la kelpie, la cible doit se déplacer à son tour vers la kelpie par la route la plus directe, en essayant d'obtenir à l'intérieur de 1,50 m. Ça n'évite pas les opportunités.\nAvant de se déplacer dans un terrain endommageant, comme la lave ou une fosse, et chaque fois qu'il prend des dégâts d'une source autre que la kelpie ou la noyade, la cible peut répéter le jet de sauvegarde. Une cible charmé peut également répéter la jet de sauvegarde à la fin de chacun de ses tours. Si le jet de sauvegarde est réussi, l'effet s'arrête dessus.\nUne cible qui sauve avec succès est immunisée contre l'hypnose de ce kelpie pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5e5abbf2f1_monstre-kelpie.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3, Discrétion +4",
+ "resistances": "feu, contondant, perforant",
+ "conditionImmunities": "aveuglé, assourdi, épuisement"
+}

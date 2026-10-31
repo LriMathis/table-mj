@@ -1,0 +1,45 @@
+{
+ "id": "brutacien",
+ "name": "Brutacien",
+ "type": "Humanoïde (brutacien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "caNote": "armure de peau, bouclier",
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "skills": "Discrétion +3",
+ "senses": "Perception passive 10",
+ "languages": "brutacien",
+ "traits": "**Amphibie.** Le brutacien peut respirer à l'air libre et sous l'eau.\n**Camouflage des marais.** Le brutacien est avantagé lors des tests de Dextérité (Discrétion) effectués dans des environnements marécageux.\n**Communication avec les grenouilles et les crapauds.** Le brutacien peut transmettre des concepts simples aux grenouilles et aux crapauds en parlant le brutacien.\n**Saut sans élan.** Le brutacien saute sur une longueur maximale de 6 mètres et une hauteur maximale de 3 mètres, avec ou sans élan préalable.",
+ "actionsText": "**Attaques multiples.** Le brutacien effectue deux attaques au corps à corps : une avec sa morsure et l'autre avec sa lance.\n**Lance.** *Attaque d'arme au corps à corps ou à distance :* +3 pour toucher, allonge 1,50 m ou portée 6/18 m, une cible. *Touché :* 4 (1d6+1) dégâts perforants, ou 5 (1d8+1) dégâts perforants si elle est maniée à deux mains au corps à corps.\n**Morsure.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 3 (1d4+1) dégâts contondants.",
+ "portrait": "/data/images/a499e02166_monstre-brutacien.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 28 · image : Manuel des monstres p. 27",
+ "attacks": [
+  {
+   "name": "Lance",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  }
+ ]
+}

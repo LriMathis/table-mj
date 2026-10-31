@@ -1,0 +1,42 @@
+{
+ "id": "metallique-warbler",
+ "name": "Metallic Warbler",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 14,
+ "hp": 14,
+ "hpFormula": "4d4+4",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend le commun et le draconien mais ne peut pas parler",
+ "traits": "**Formulaire immuable.** La paruline est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Bond télépathique.** Tandis que la paruline est sur le même plan d'existence que son maître, elle peut par magie transmettre ce qu'elle sent à son maître, et les deux peuvent communiquer télépathiquement entre eux.",
+ "actionsText": "**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.\n**Calmer Mist (Recharge 5-6).** La paruline libère un gaz calmant dans une sphère 1,50 m -radius centrée sur elle-même. Chaque créature dans cette zone doit réussir sur un DD 11 jet de sauvegarde de Charisme ou devenir charmé par la paruline pendant 1 minute. Alors que charmé de cette façon, la créature est neutralisé et a une vitesse de 0.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/af0df981af_monstre-metallique-warbler.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Métallique Warbler",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4",
+ "immunities": "feu",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "virruza",
+ "name": "Virruza",
+ "type": "Aberration (métamorphe)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 127,
+ "hpFormula": "15d10+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 8,
+  "CHA": 12
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 18 m, Perception passive 12",
+ "languages": "C'est vrai., télépathie 18 m",
+ "traits": "**Throès de la mort.** Lorsque Virruza est réduit à 0 points de vie, il se transforme en flaque d'acide et éclabousse l'acide autour de lui. Chaque créature de 1,50 m de lui doit réussir sur un DD 12 jet de sauvegarde de Dextérité ou être couverte d'acide pendant 1 minute. Une créature peut utiliser son action pour gratter ou laver l'acide elle-même ou une autre créature. Une créature couverte dans l'acide prend 7 (2d6) dégâts d'acide au début de chacun de ses tours.\n**Résistance magique.** Virruza a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** Virruza retrouve 10 points de vie au début de son tour si elle a au moins 1 points de vie.\n**Découpe intérieure.** L'innée de Virruza caractéristique d'incantation est Charisme (spell save DD 12). Virruza peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Détection des pensées, Main de mage\n- 1/jour : Boule de feu\n- 2/jour chacun : Peur, Invisibilité (autoseulement)",
+ "actionsText": "**Multiattaques.** Virruza fait trois attaques : une avec sa morsure et deux avec ses griffes ou son bâton. Alternativement, il utilise sa flamme Hurl deux fois.\n**Bite (formulaire de l'Éclandre seulement).** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants.\n**Griffe (formulaire de l'escargot seulement).** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.\n**Personnel.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.\n**Feu de hurl.** Attaque de sort à distance : +4 au toucher, portée 18 m, une cible. Touché : 10 (3d6) dégâts de feu. Le feu enflamme des objets inflammables qui ne sont pas portés ou transportés.",
+ "attacks": [
+  {
+   "name": "Bite (formulaire de l'Éclandre seulement)",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe (formulaire de l'escargot seulement)",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Personnel",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Feu de hurl",
+   "bonus": 4,
+   "damage": "3d6",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/022a1918d2_monstre-virruza.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +3, Perception +2",
+ "resistances": "acide, froid, feu, foudre, tonnerre"
+}

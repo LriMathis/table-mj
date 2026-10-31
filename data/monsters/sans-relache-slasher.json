@@ -1,0 +1,41 @@
+{
+ "id": "sans-relache-slasher",
+ "name": "Relentless Slasher",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 91,
+ "hpFormula": "14d8+28",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "comprend tout, mais ne peut pas parler",
+ "traits": "**Résistance légendaire (1/jour).** Si le slasher échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le slasher fait deux attaques du couteau de Slasher.\n**Couteau de slasher.** Jet d'attaque au corps à corps ou à distance : +7, allonge 1,50 m ou portée 9/18 m. Touché : 9 (2d4 + 4) dégâts tranchants plus 21 (6d6) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Couteau de slasher",
+   "bonus": 7,
+   "damage": "2d4+4",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/f6a96edf6f_monstre-sans-relache-slasher.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Sans relâche Slasher",
+ "saves": "FOR +4, DEX +7, CON +5, SAG +5",
+ "conditionImmunities": "charmé, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, sans relâche slasher peut entreprendre l'une des actions ci-après.\n**Couteau d'hommage.** Jet de sauvegarde de Dextérité : DD 15, une créature dans 36 m que le slasher a frappé avec son couteau de Slasher attaque dans les dernières 24 heures. Échec : 11 (2d6 + 4) dégâts tranchants.\n**Grève de fuite.** Le slasher fait une attaque de couteau Slasher, puis téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir. Le slasher ne peut pas reprendre cette action avant le début de son prochain tour."
+}

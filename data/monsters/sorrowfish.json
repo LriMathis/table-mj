@@ -1,0 +1,38 @@
+{
+ "id": "sorrowfish",
+ "name": "Sorrowfish",
+ "type": "Aberration",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "0 m, nage 12 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 16,
+  "CON": 9,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 2
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Frénésie sanguine.** Le poisson triste a avantage sur melee jets d'attaque contre toute créature qui n'a pas tout son points de vie.\n**Respiration d'eau.** Le poisson-sorrow ne peut respirer que sous l'eau.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/abf7bdcaa4_monstre-sorrowfish.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "immunities": "psychique"
+}

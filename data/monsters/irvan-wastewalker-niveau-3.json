@@ -1,0 +1,47 @@
+{
+ "id": "irvan-wastewalker-niveau-3",
+ "name": "Irvan Wastewalker (Tier 3)",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 123,
+ "hpFormula": "19d8+38",
+ "vitesse": "12 m, nage 12 m (voir équipement spécial)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 20,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, gobelin, orc",
+ "traits": "**Fortitude (Recharge après un repos court ou long).** Si le dégâts réduit Irvan à 0 points de vie, il peut faire un jet de sauvegarde de Constitution avec un DD égal à 5 + le dégâts pris. Lors d'une sauvegarde réussie, Irvan tombe à 1 points de vie à la place.\n**Matériel spécial.** Irvan porte Gants de nage et d'escalade et manie un mot-clé raidium (voir appendice B). Si Irvan roule un 1 sur un jet d'attaque fait avec le shortsword, il doit réussir sur un DD 20 jet de sauvegarde de Charisme ou gagner 1 niveau d'épuisement.\nEn outre, Irvan a un bras prothétique magique. Alors que le bras est attaché à lui, il fonctionne comme la partie du corps qu'il remplace. Irvan peut attacher ou détacher le bras comme une action, et il ne peut être enlevé par personne d'autre.",
+ "actionsText": "**Multiattaques.** Irvan fait une attaque Dagger et deux attaques Ruidium Shortsword.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d4 + 5) dégâts perforants plus 17 (5d6) dégâts de poison.\n**Ruidium Shortsword.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts perforants plus 7 (2d6) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 8,
+   "damage": "1d4+5",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Ruidium Shortsword",
+   "bonus": 8,
+   "damage": "1d6+5",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/5136478620_monstre-irvan-wastewalker-niveau-3.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Irvan Wastewalker (niveau 3)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +8, CON +5",
+ "skills": "Acrobaties +8, Tromperie +9, Discrétion +11, Survie +6"
+}

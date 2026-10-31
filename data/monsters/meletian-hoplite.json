@@ -1,0 +1,52 @@
+{
+ "id": "meletian-hoplite",
+ "name": "Meletian Hoplite",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 18,
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun",
+ "traits": "**Détection orthographique.** La hoplite est un spellcaster de niveau 3. Son caractéristique d'incantation est Intelligence (save spell DD 13, +5 au toucher avec attaques de sort). Il a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Main de mage, Illusion mineure, Rayon de givre (voir \"Actions\" ci-dessous)\n- Niveau 1 (4 emplacements) : Couleurs dansantes, Repli expéditif, Sommeil\n- Niveau 2 (2 emplacements) : Flou, Nuée de dagues, Invisibilité",
+ "actionsText": "**Multiattaques.** L'hoplite fait trois attaques d'armes. Il peut remplacer une attaque d'arme par un rayon de gel.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants, ou 7 (1d8 + 3) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.\n**Bouclier.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d4 + 3) dégâts contondants. Si la cible est une créature moyenne ou plus petite, elle doit réussir sur une DD 13 jet de sauvegarde de Force ou être à terre.\n**Rayon de gel (sort mineur).** Attaque de sort à distance : +5 au toucher, portée 18 m, une créature. Touché : 4 (1d8) dégâts de froid, et la vitesse de la cible est réduite de 3 m jusqu'au début du prochain tour de la hoplite.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Bouclier",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Rayon de gel (sort mineur)",
+   "bonus": 5,
+   "damage": "1d8",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/74130e48c5_monstre-meletian-hoplite.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "Breastplate, Bouclier",
+ "saves": "DEX +4, INT +5",
+ "skills": "Arcanes +5, Histoire +5, Perception +3"
+}

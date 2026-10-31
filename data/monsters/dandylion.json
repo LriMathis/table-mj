@@ -1,0 +1,46 @@
+{
+ "id": "dandylion",
+ "name": "Dandylion",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 19,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun, sylvestre",
+ "traits": "**Résistance magique.** Le dandylion a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Tactiques de conditionnement.** Le dandylion a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du dandylion est dans 1,50 m de la créature et l'allié n'a pas l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Le dandylion fait une attaque Bite et une attaque des griffes.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 20 (4d6 + 6) dégâts tranchants. Si le dandylion a déplacé au moins 6 m droit vers la cible immédiatement avant le coup, la cible doit réussir sur un DD 17 jet de sauvegarde de Force ou avoir l'état à terre. Si la cible a l'état à terre, le dandylion peut faire une attaque Bite contre elle en tant qu'action bonus.\n**Régénérateurs de pépins (2/jour).** Le dandylion libère un éclat de sèmes de sa queue, remplissant une sphère 3 m -radius centrée sur lui-même. Chaque créature du choix du dandylion dans la sphère peut immédiatement mettre fin à l'une des conditions suivantes sur elle-même (le choix de la création): aveuglé, assourdi, paralysé ou empoisonné. De plus, tous les sols de la zone de la sphère sont enrichis, ce qui rétablit la végétation desséchée dans la zone en bonne santé et fait en sorte que toutes les cultures de la zone produisent le double de la récolte normale pour l'année suivante.\n**Détection orthographique.** Le dandylion lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Druidisme, Assistance, Purification de nourriture et d'eau\n- 1/jour : Communication avec les plantes\n- 2/jour chacun : Enchevêtrement, Baies nourricières",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d6+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 9,
+   "damage": "4d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c6dfcac03f_monstre-dandylion.webp",
+ "notes": "",
+ "source": "MisMV1 (5e.tools, traduction automatique)",
+ "saves": "FOR +9, CHA +7",
+ "skills": "Nature +9, Perception +6, Survie +6",
+ "reactions": "**La rancune de l'orgueil.** Lorsqu'une créature de 18 m du dandylion la frappe avec un jet d'attaque, le dandylion peut déclencher un rugissement furieux. La créature qui a déclenché cette réaction doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'à la fin du tour suivant du dandylion."
+}

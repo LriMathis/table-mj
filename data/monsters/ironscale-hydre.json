@@ -1,0 +1,41 @@
+{
+ "id": "ironscale-hydre",
+ "name": "Ironscale Hydra",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 181,
+ "hpFormula": "11d20+66",
+ "vitesse": "12 m, nage 12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 18",
+ "languages": "—",
+ "traits": "**Sang acide.** Lorsque l'hydre prend le perçage ou dégâts tranchants, chaque créature dans 1,50 m de l'hydre prend 9 (2d8) dégâts d'acide.\n**Maintenez votre souffle.** L'hydre peut retenir son souffle pendant 1 heure.\n**Têtes multiples.** L'hydre a cinq têtes. Bien qu'il ait plus d'une tête, l'hydra a avantage sur jet de sauvegarde contre être aveuglé, charmé, assourdi, effrayé, étourdi, inconscient. Chaque fois que l'hydre prend 35 ou plus de dégâts en un seul tour, une de ses têtes meurt. Si toutes ses têtes meurent, l'hydre meurt. À la fin de son tour, il pousse deux têtes pour chacune de ses têtes qui sont mortes depuis son dernier tour, à moins qu'il n'ait pris dégâts de feu depuis son dernier tour. L'hydre retrouve 10 points de vie pour chaque tête replantée de cette façon.\n**Têtes réactives.** Pour chaque tête l'hydre a au-delà d'une, il obtient une réaction supplémentaire qui peut être utilisé seulement pour des attaques d'opportunité.\n**Réveille-toi.** Pendant que l'hydre dort, au moins une de ses têtes est réveillée.",
+ "actionsText": "**Multiattaques.** L'hydre fait autant d'attaques de morsures qu'elle a la tête.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 4,50 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c72adfe183_monstre-ironscale-hydre.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Ironscale hydre",
+ "caNote": "armure naturelle",
+ "skills": "Perception +8",
+ "immunities": "acide"
+}

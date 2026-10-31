@@ -1,0 +1,54 @@
+{
+ "id": "annis-guenaude",
+ "name": "Annis Hag",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun, géant, sylvestre",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'Annis fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 15 (3d6 + 5) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 15 (3d6 + 5) dégâts tranchants.\n**Cravache.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 36 (9d6 + 5) dégâts contondants, et la cible est agrippé (évasion DD 15) si c'est une créature grande ou plus petite. Jusqu'à ce que le grappin se termine, la cible prend 36 (9d6 + 5) dégâts contondants au début de chacun des tours du ham. La harpe ne peut pas faire d'attaques en s'attaquant à une créature de cette façon.\n**Détection orthographique.** L'hag lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- 3/jour chacun : Déguisement (y compris la forme d'un humanoïde moyen), Nappe de brouillard",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "3d6+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "3d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Cravache",
+   "bonus": 8,
+   "damage": "9d6+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/7308990066_monstre-annis-guenaude.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Annis guenaude",
+ "caNote": "armure naturelle",
+ "saves": "CON +5",
+ "skills": "Tromperie +5, Perception +5",
+ "resistances": "froid"
+}

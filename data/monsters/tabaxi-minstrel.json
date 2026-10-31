@@ -1,0 +1,44 @@
+{
+ "id": "tabaxi-minstrel",
+ "name": "Tabaxi Minstrel",
+ "type": "Humanoïde (Tabaxi)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m, escalade 6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "Commun plus deux langues",
+ "traits": "**Agilité féline.** Lorsque le tabaxi se déplace à son tour au combat, il peut doubler sa vitesse jusqu'à la fin du tour. Une fois qu'il utilise cette capacité, le tabaxi ne peut pas l'utiliser à nouveau jusqu'à ce qu'il déplace 0 m sur l'un de ses tours.\n**Inspirer (1/jour).** En prenant un repos court, le tabaxi peut passer 1 minute à chanter, jouer un instrument, raconter une histoire ou réciter un poème pour apaiser et inspirer des créatures autres que lui-même. Jusqu'à cinq créatures du choix du tabaxi qui peuvent voir et entendre ses performances gagnent 8 points de vie temporaires à la fin du repos court du tabaxi.",
+ "actionsText": "**Multiattaques.** Le tabaxi fait deux attaques de griffes ou deux attaques de fléchettes.\n**Griffes.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts tranchants.\n**Débrouille-toi.** Attaque d'arme à distance : +4 au toucher, portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9a5353ce9d_monstre-tabaxi-minstrel.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Représentation +7, Persuasion +5, Discrétion +4"
+}

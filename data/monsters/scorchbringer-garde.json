@@ -1,0 +1,39 @@
+{
+ "id": "scorchbringer-garde",
+ "name": "Scorchbringer Guard",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 16,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 9,
+  "CHA": 10
+ },
+ "senses": "Perception passive 9",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Citernes explosives.** Lorsque le garde meurt, ou s'il roule un 1 en vérifiant si son action Scorchbringer se recharge, le réservoir sur son dos explose dans une sphère de rayon 3 m. Chaque créature dans cette zone doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 7 (2d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. L'explosion enflamme des objets inflammables qui ne sont pas portés ou transportés, et elle détruit le griffon.",
+ "actionsText": "**Marteau léger.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts contondants.\n**Scorchbringer (Recharge 4-6).** Le scorchbringer du garde jaillit un flux de flamme dans une ligne longue de 9 m et large de 1,50 m. Chaque créature dans la ligne doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 7 (2d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Marteau léger",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/567d082179_monstre-scorchbringer-garde.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Scorchbringer garde",
+ "caNote": "Breastplate"
+}

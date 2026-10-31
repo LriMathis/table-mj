@@ -1,0 +1,46 @@
+{
+ "id": "morgn",
+ "name": "Môrgæn",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, draconique, nain, géant, gobelin",
+ "traits": "**Ancêtre fécale.** Môrgæn a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas la mettre au lit.\n**Découpe intérieure.** caractéristique d'incantation de Môrgæn est Intelligence. Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Main de mage\n**Détection orthographique.** Môrgæn est un orthographe de niveau 9. Son caractéristique d'incantation est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). Elle a préparé les sorts de ranger suivants :\n- Niveau 1 (4 emplacements) : Alarme, Amitié avec les animaux, Marque du chasseur\n- Niveau 2 (3 emplacements) : Passage sans trace, Croissance d'épines\n- Niveau 3 (2 emplacements) : Invocation d'animaux",
+ "actionsText": "**Multiattaques.** Môrgæn fait trois attaques avec ses scimitars ou sa longbow.\n**Scimitars.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.\n**Longbow.** Attaque d'arme à distance : +6 au toucher, portée 45/180 m., une cible. Touché : 8 (1d8 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitars",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1b1d8f3aa9_monstre-morgn.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "FOR +3, DEX +6",
+ "skills": "Athlétisme +3, Perspicacité +4, Nature +3, Perception +4, Discrétion +6, Survie +4"
+}

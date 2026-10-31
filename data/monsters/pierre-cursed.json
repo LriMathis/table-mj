@@ -1,0 +1,42 @@
+{
+ "id": "pierre-cursed",
+ "name": "Stone Cursed",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 17,
+ "hp": 19,
+ "hpFormula": "3d8+6",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 5,
+  "CON": 14,
+  "INT": 5,
+  "SAG": 8,
+  "CHA": 7
+ },
+ "senses": "Perception passive 9",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Opportuniste rusé.** La pierre maudite a un avantage sur la jets d'attaque d'opportunity attacks.\n**Fausse apparence.** Si la pierre maudite est immobile au début du combat, elle a un avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte maudit de la pierre, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que la pierre maudite n'est pas une statue.\n**Nature inhabituelle.** La pierre maudite ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Griffes pétrifiantes.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts tranchants. Si la cible est une créature, elle doit réussir sur un DD 12 jet de sauvegarde de Constitution, ou elle commence à tourner en pierre et est entravé jusqu'à la fin de son prochain tour, quand elle doit répéter le jet de sauvegarde. L'effet se termine si la deuxième sauvegarde est réussie; sinon la cible est pétrifié pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "Griffes pétrifiantes",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c0beef3989_monstre-pierre-cursed.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Pierre Cursed",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, pétrifié, empoisonné"
+}

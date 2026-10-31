@@ -1,0 +1,49 @@
+{
+ "id": "dragon-choisi",
+ "name": "Dragon Chosen",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, draconique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le choix fait une attaque Handaxe et deux attaques Shortsword.\n**Handaxe.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d6 + 4) dégâts tranchants. Touché ou raté : La handaxe revient magiquement à la main de l'élu immédiatement après une attaque variée.\n**Mot-clé.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Handaxe",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5e24a450c3_monstre-dragon-choisi.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon choisi",
+ "caNote": "armure naturelle",
+ "saves": "FOR +6, DEX +6, CON +4",
+ "skills": "Athlétisme +6, Perception +3",
+ "conditionImmunities": "effrayé",
+ "reactions": "**Réplique bâclée.** Immédiatement après que l'élu a pris des dégâts d'une créature à l'intérieur de 1,50 m, il peut faire une attaque Shortsword avec l'avantage contre cette créature."
+}

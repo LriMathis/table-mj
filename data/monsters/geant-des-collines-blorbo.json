@@ -1,0 +1,44 @@
+{
+ "id": "geant-des-collines-blorbo",
+ "name": "Hill Giant, Blorbo",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 8,
+  "CON": 19,
+  "INT": 5,
+  "SAG": 9,
+  "CHA": 6
+ },
+ "senses": "",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques de grand club.\n**Grand club.** Attaque d'arme au corps à corps : +8 au toucher, une cible. Touché : 18 (3d8 + 5) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +8 au toucher, une cible. Touché : 21 (3d10 + 5) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 8,
+   "damage": "3d8+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 8,
+   "damage": "3d10+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/6f03d10002_monstre-geant-des-collines-blorbo.webp",
+ "notes": "points de vie : 105",
+ "source": "Adventure with Muk (5e.tools, traduction automatique)",
+ "aka": "Géant des collines, Blorbo"
+}

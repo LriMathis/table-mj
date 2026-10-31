@@ -1,0 +1,55 @@
+{
+ "id": "yuan-ti-anathema",
+ "name": "Yuan-ti Anathema",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 16,
+ "hp": 189,
+ "hpFormula": "18d12+72",
+ "vitesse": "12 m, escalade 12 m, nage 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 13,
+  "CON": 19,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 20
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 18 m, Perception passive 21",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Résistance magique.** L'anathème a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Ophidiophobie Aura.** Toute créature du choix de l'anathème, autre qu'un serpent ou un yuan-ti, qui commence son tour à l'intérieur de 9 m de l'anathème doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou devenir effrayé de serpents et yuan-ti. Une cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une cible est réussi ou si l'effet se termine pour elle, la cible est immunisée contre l'aura de cet anathème pendant les 24 prochaines heures.\n**Six chefs.** L'anathème a avantage sur les sauvegardes contre être aveuglé, charmé, assourdi, effrayé, étourdi, ou inconscient.",
+ "actionsText": "**Multiattaque (Forme d'anathème seulement).** L'anathème fait deux attaques de griffe et une attaque de Bites.\n**Griffe (formulaire d'anathème seulement).** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants.\n**Flureur de morses (Forme d'anathème seulement).** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une créature. Touché : 27 (6d6 + 6) dégâts perforants plus 14 (4d6) dégâts de poison.\n**Constriction (Forme de serpent seulement).** Attaque d'arme au corps à corps : +10 au toucher, allonge 4,50 m, une créature grande ou plus petite. Touché : 16 (3d6 + 6) dégâts contondants plus 7 (2d6) dégâts d'acide, et la cible est agrippé (évasion DD 16). Jusqu'à ce que ce grappin se termine, la cible est entravé, et elle prend 16 (3d6 + 6) dégâts contondants plus 7 (2d6) dégâts d'acide au début de chacun de ses tours. L'anathème ne peut constricter qu'une créature à la fois.\n**Diffusion orthographique (Forme d'anathème seulement).** L'anathème lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Amitié avec les animaux (snakes seulement)\n- 3/jour chacun : Ténèbres, Enchevêtrement, Peur, Métamorphose, Suggestion",
+ "attacks": [
+  {
+   "name": "Griffe (formulaire d'anathème seulement)",
+   "bonus": 10,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Flureur de morses (Forme d'anathème seulement)",
+   "bonus": 10,
+   "damage": "6d6+6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Constriction (Forme de serpent seulement)",
+   "bonus": 10,
+   "damage": "3d6+6",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/07ba6fc742_monstre-yuan-ti-anathema.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +11, Discrétion +5",
+ "resistances": "acide, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Modifier la forme.** L'anathème se transforme en un serpent Constricteur Énorme ou de nouveau en sa forme véritable. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé."
+}

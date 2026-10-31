@@ -1,0 +1,56 @@
+{
+ "id": "hlam",
+ "name": "Hlam",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 22,
+ "hp": 137,
+ "hpFormula": "25d8+25",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 24,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 21,
+  "CHA": 14
+ },
+ "senses": "Perception passive 15",
+ "languages": "toutes les langues parlées",
+ "traits": "**Évasion.** Si Hlam est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue. Il ne peut pas utiliser ce trait s'il est neutralisé.\n**Attaques magiques.** Les frappes à mains nues de Hlam sont magiques.\n**Défense non armée.** Tandis que Hlam ne porte pas d'armure et n'a pas de bouclier, son CA inclut son modificateur Sagesse.\n**Détection orthographique.** Hlam est un spellcaster de niveau 5. Son caractéristique d'incantation est Sagesse (save spell DD 18, +10 au toucher avec attaques de sort) Il a les sorts clerc suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Lumière, Flamme sacrée, Stabilisation\n- Niveau 1 (4 emplacements) : Détection du mal et du bien, Mot de guérison, Sanctuaire, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Apaisement des émotions, Prière de guérison, Silence\n- Niveau 3 (2 emplacements) : Protection contre une énergie, Délivrance des malédictions, Communication à distance",
+ "actionsText": "**Multiattaques.** Hlam attaque trois fois avec ses frappe à mains nues, ses fléchettes ou les deux.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 12 (1d10 + 7) bludgétisme, dégâts magiques. Si la cible est une créature, Hlam peut choisir l'un des effets supplémentaires suivants:\nLa cible doit réussir sur un DD 18 jet de sauvegarde de Force ou laisser tomber un élément qu'elle détient (le choix de Hlam).\nLa cible doit réussir sur un DD 18 jet de sauvegarde de Dextérité ou être à terre.\nLa cible doit réussir sur un DD 18 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin du prochain tour de Hlam.\n**Débrouille-toi.** Attaque d'arme à distance : +12 au toucher, portée 6/18 m., une cible. Touché : 9 (1d4 + 7) dégâts perforants.\n**Palme de quirpage (Recharge 6).** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une créature. Touché : La cible doit faire un DD 18 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la cible est réduite à 0 points de vie. Sur une sauvegarde réussie, la cible prend 55 (10d10) dégâts nécrotiques.\n**L'ensemble du corps (recharge après un repos long).** Hlam retrouve 60 points de vie.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 12,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 12,
+   "damage": "1d4+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Palme de quirpage (Recharge 6)",
+   "bonus": 12,
+   "damage": "10d10",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/a3f1144761_monstre-hlam.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Défense non armée",
+ "saves": "FOR +5, DEX +12",
+ "skills": "Athlétisme +5, Religion +7",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné, maladie",
+ "reactions": "**Missile défectueux.** En réponse à une attaque d'armes, Hlam détourne le missile. Les dégâts qu'il prend de l'attaque sont réduits de 1d10 + 27. Si les dégâts sont réduits à 0, Hlam prend le missile si c'est assez petit pour tenir dans une main et il a une main libre.\n**Chute lente.** Hlam réduit la dégâts contondants qu'il prend d'une chute de 100.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, hlam peut entreprendre l'une des actions ci-après.\n**Étape rapide.** Hlam se met à sa vitesse sans provoquer d'attaques d'opportunité.\n**frappe à mains nues (coûts 2 actions).** Hlam fait un frappe à mains nues.\n**Invisibilité (coûts 3 actions).** Hlam devient invisible jusqu'à la fin de son prochain tour. L'effet se termine si Hlam attaque ou jette un sort."
+}

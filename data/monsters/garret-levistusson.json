@@ -1,0 +1,39 @@
+{
+ "id": "garret-levistusson",
+ "name": "Garret Levistusson",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "senses": "Perception passive 11",
+ "languages": "abyssal, commun, infernal, argot des voleurs",
+ "traits": "**Matériel spécial.** Garret porte un Anneau de chaleur constante (inclus dans ses statistiques) et manie un long mot de la Blade de Gambler.\n**Inspiration bardique (3/jour).** Comme un action bonus, Garret peut donner à une créature choisie (autre que lui) une inspiration d6 mourir. La créature choisie doit être dans 18 m de Garret et pouvoir l'entendre. Une fois dans les 10 minutes suivantes, la créature peut rouler la matrice et ajouter le nombre roulé à un test de caractéristique, jet d'attaque ou jet de sauvegarde qu'elle fabrique. La créature peut utiliser l'inspiration mourir après le rouleau est fait, mais avant le MD dit si elle réussit ou échoue. Une fois que l'inspiration meurt est roulée, elle est perdue. Une créature ne peut avoir qu'une seule inspiration mourir à la fois.\n**Action énergique.** À chacun de ses tours, Garret peut utiliser un action bonus pour prendre l'action Foncer, Se désengager ou Se cacher.\n**Attaque d'éternuement (1/Turn).** Garret inflige un dégâts supplémentaire de 7 (2d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur la jet d'attaque, ou lorsque la cible est dans 1,50 m d'un allié de Garret qui n'est pas neutralisé et Garret n'a pas d'inconvénient sur la jet d'attaque.\n**Détection orthographique.** Garret est un spellcaster de niveau 2. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Il a préparé les sorts de barde suivants:\n- Sorts mineurs (à volonté) : Protection contre les armes, Moquerie cruelle\n- Niveau 1 (3 emplacements) : Charme-personne, Détection de la magie, Déguisement, Identification, Fou rire de Tasha",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/18a436d63c_monstre-garret-levistusson.webp",
+ "notes": "",
+ "source": "Lost Laboratory of Kwalish (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +7, Investigation +4, Représentation +5, Persuasion +5"
+}

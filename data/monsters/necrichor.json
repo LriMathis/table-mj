@@ -1,0 +1,41 @@
+{
+ "id": "necrichor",
+ "name": "Necrichor",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 14,
+ "hp": 85,
+ "hpFormula": "10d8+40",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 11",
+ "languages": "télépathie 36 m Common plus two other languages",
+ "traits": "**Amorphe.** Le nécroseur peut se déplacer dans un espace aussi étroit que 1 pouce sans dépenser de mouvement supplémentaire pour le faire.\n**Résistance légendaire (2/jour).** Si le necrichor échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Régénérer par le sang.** S'il est détruit, le nécricheur reprend avec tout son points de vie en 1d10 jours dans l'espace inoccupé le plus proche à côté d'une créature de son choix qu'il a précédemment possédé avec son action de marionnettes de sang. Ce trait ne fonctionne pas si les restes du nécricheur détruits sont dans un vaisseau affecté par le sort Sanctification ou si toutes les cibles précédentes du nécricheur sont mortes.\n**Escalade des araignées.** Le necrichor peut monter des surfaces difficiles, y compris le long des plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Le necrichor fait deux attaques nécrotique Burst.\n**nécrotique Burst.** Jet d'attaque au corps à corps ou à distance : +6, allonge 1,50 m ou portée 36 m. Touché : 12 (2d8 + 3) dégâts de force plus 11 (2d10) dégâts nécrotiques, et la cible a l'état empoisonné jusqu'au prochain tour du necrichor. Alors qu'empoisonné, la cible ne peut pas récupérer points de vie.\n**Puppéterie sanguine (Recharge 6).** Jet de sauvegarde de Constitution : DD 15, une créature en sang dans 1,50 m. Construits et Undead réussissent automatiquement sur cette sauvegarde. Échec : La cible est possédée par le necrichor; le necrichor disparaît, et la cible a l'état neutralisé et perd le contrôle de son corps. Le nécricheur contrôle maintenant le corps de la cible, mais la cible garde conscience. Le nécricheur ne peut être ciblé par aucune attaque, sort, ou autre effet, sauf ceux qui ciblent spécifiquement les morts-vivants. Les statistiques de jeu du necrichor sont les mêmes, sauf qu'il utilise les scores Speed et Force de la cible possédée, Dextérité et Constitution.\nLa possession dure jusqu'à ce que la cible tombe à 0 points de vie ou que le necrichor la quitte comme un action bonus. Lorsque la possession prend fin, le nécricheur apparaît dans un espace inoccupé à l'intérieur de 1,50 m de la cible, et la cible est à l'abri de la puptimétrie du sang de ce nécricheur pendant 24 heures. Réussite : La cible est à l'abri de la puptille de sang de ce nécricheur pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "nécrotique Burst",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "force + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/fa24323bb4_monstre-necrichor.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "CON +7, INT +6, SAG +4",
+ "resistances": "acide, nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, agrippé, paralysé, empoisonné, à terre, entravé"
+}

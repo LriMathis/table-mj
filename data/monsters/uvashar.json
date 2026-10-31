@@ -1,0 +1,41 @@
+{
+ "id": "uvashar",
+ "name": "Uvashar",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 16,
+ "hp": 110,
+ "hpFormula": "13d8+52",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 17,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, infernal",
+ "traits": "**Immunité magique limitée.** Uvashar ne peut pas être affecté ou détecté par des sorts de de niveau 6 ou plus bas à moins qu'il ne le veuille. Il a un avantage sur jet de sauvegarde contre tous les autres sorts et effets magiques.",
+ "actionsText": "**Multiattaques.** Uvashar fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts tranchants, et la cible est maudite si elle est une créature. La malédiction magique prend effet chaque fois que la cible prend un repos court ou long, remplissant les pensées de la cible d'images et de rêves horribles. La cible maudite ne profite pas de la finition d'un repos court ou long. La malédiction dure jusqu'à ce qu'elle soit levée par un sort Délivrance des malédictions ou une magie similaire.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "2d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/efc6723e70_monstre-uvashar.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +10, Perspicacité +8",
+ "vulnerabilities": "perforant des armes magiques maniées par de bonnes créatures",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques"
+}

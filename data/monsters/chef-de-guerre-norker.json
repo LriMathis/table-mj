@@ -1,0 +1,47 @@
+{
+ "id": "chef-de-guerre-norker",
+ "name": "Norker War Leader",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, gobelin",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le chef de guerre norker fait une grande frappe et une bouchée, et utilise aussi Fight On, You Slugs.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Grandaxe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d12 + 3) dégâts tranchants.\n**Combattez-vous, bande d'idiots..** Le chef de guerre norker prend jusqu'à trois goblinoïdes alliés dans 18 m qui peuvent le voir. Les créatures choisies peuvent chacune utiliser leurs réactions pour faire une seule attaque de mêlée.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Grandaxe",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/89ab9b12b8_monstre-chef-de-guerre-norker.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "aka": "Chef de guerre Norker",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +5, Intimidation +3, Perception +2",
+ "reactions": "**Récuse défensive.** Si une créature au sein de 1,50 m du norker fait une attaque de mêlée contre elle, le norker peut utiliser sa réaction pour lui causer 6 dégâts perforants."
+}

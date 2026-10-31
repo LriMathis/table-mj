@@ -1,0 +1,46 @@
+{
+ "id": "apprenti",
+ "name": "Apprentice",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 7,
+ "hpFormula": "2d8-2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 10,
+  "CON": 9,
+  "INT": 13,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d6 - 1) dégâts contondants, ou 3 (1d8 - 1) dégâts contondants si utilisé avec deux mains.\n**Brûlure des mains (de niveau 1 Spell; 2/Jour).** Vous tirez un cône de feu 4,50 m. Chaque créature dans cette zone doit faire un DD 11 jet de sauvegarde de Dextérité. Une créature prend 10 (3d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite Le feu enflamme tout objet inflammable dans la zone qui n'est pas porté ou transporté.\n**feu Bolt (sort mineur).** Attaque de sort à distance : Gamme attaque de sort : +3 au toucher, portée 36 m, une cible. Touché : 5 (1d10) dégâts de feu. Un objet inflammable frappé par ce sort s'enflamme s'il n'est pas porté ou transporté.\n**Détection orthographique.** Vous lancez l'un des sorts d'assistant suivants (spell save DD 11), en utilisant Intelligence comme caractéristique d'incantation :\n- À volonté : Illusion mineure, Trait de feu\n- 2/jour : Graisse\n- 2/jour chacun : Mains brûlantes",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 1,
+   "damage": "1d6-1",
+   "type": "contondant"
+  },
+  {
+   "name": "feu Bolt (sort mineur)",
+   "bonus": 3,
+   "damage": "1d10",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/cb8c64ec02_monstre-apprenti.webp",
+ "notes": "",
+ "source": "Ravenloft: The House of Lament (5e.tools, traduction automatique)",
+ "aka": "Apprenti",
+ "saves": "INT +3",
+ "skills": "Arcanes +3, Histoire +3"
+}

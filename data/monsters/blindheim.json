@@ -1,0 +1,39 @@
+{
+ "id": "blindheim",
+ "name": "Blindheim",
+ "type": "Humanoïde (Scotchheim)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun des profondeurs",
+ "traits": "**radiant Yeux.** Tandis que ses yeux sont ouverts, un blindheim projette une lumière lumineuse dans un cône 18 m et une lumière faible pour un 18 m supplémentaire. Il fixe l'orientation de ce cône à la fin de chacun de ses tours. Toutes les créatures qui peuvent voir le blindheim ont un désavantage sur jets d'attaque alors que dans la zone de lumière vive et dans 4,50 m du blindheim. Les créatures avec le caractère de sensibilité Sunlight qui peut voir les aveugles ont un désavantage sur jets d'attaque n'importe où dans la zone de lumière vive.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Affichage : 5 (1d6 + 2) dégâts perforants.\n**Blast radiant.** L'énergie radiant s'éteint des yeux de l'aveugle dans un cône 4,50 m. Chaque créature dans cette zone doit réussir sur un DD 12 jet de sauvegarde de Constitution ou prendre 7 (2d6) dégâts radiants et être aveuglé jusqu'à la fin du prochain tour de l'aveugle. Les créatures avec le caractère de sensibilité à la lumière du soleil ont un désavantage sur ce jet de sauvegarde.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b60df30785_monstre-blindheim.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +3, Perception +2"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "momie-auguste",
+ "name": "Momie auguste",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 17,
+ "hp": 187,
+ "hpFormula": "25d8+75",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 11,
+  "SAG": 19,
+  "CHA": 16
+ },
+ "saves": "INT +5, SAG +9",
+ "skills": "Histoire +5, Perception +9, Religion +5",
+ "vulnerabilities": "feu",
+ "immunities": "nécrotiques, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné, épuisement, paralysé",
+ "senses": "Vision véritable 18 m, Perception passive 19",
+ "languages": "commun et trois autres langues",
+ "traits": "**Résistance à la magie.** La momie a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Résistance légendaire (3/jour, ou 4/jour dans son antre).** Si la momie rate un jet de sauvegarde, elle peut décider de le réussir tout de même.\n**Restauration funeste.** Si elle est détruite, la momie reçoit un nouveau corps en 24 heures si son cœur est intact, en récupérant tous ses points de vie. Le nouveau corps apparaît en un espace inoccupé dans l’antre de la momie. Le cœur est un objet de taille TP avec le profil suivant : CA 17, 10 pv, Immunité contre tous les dégâts sauf le feu.",
+ "actionsText": "**Attaques multiples.** La momie effectue une attaque de Poing putréfié ou de Conduit d’énergie négative, et recourt à Regard effroyable.\n**Poing putréfié.** Corps à corps : +9, allonge 1,50 m. Touché : 15 (2d10 + 4) dégâts contondants plus 10 (3d6) dégâts nécrotiques. Si la cible est une créature, elle est maudite. Ainsi maudite, la cible ne peut pas récupérer de points de vie et ne reçoit aucun bénéfice en terminant un Repos long, tandis que son maximum de points de vie est réduit de 10 (3d6) toutes les 24 heures. Une créature que cette attaque fait tomber à 0 point de vie meurt, réduite en poussière.\n**Conduit d’énergie négative.** À distance : +9, portée 18 m. Touché : 25 (6d6 + 4) dégâts nécrotiques.\n**Incantation.** La momie lance l’un des sorts suivants sans composantes matérielles, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde 17, +9 pour toucher) :\n- À volonté : *dissipation de la magie*, *thaumaturgie*\n- 1/jour chacun : *animation des morts*, *contamination*, *fléau d’insectes* (au 7e niveau)\n**Regard effroyable.** JS Sagesse : DD 17, une créature que la momie voit dans un rayon de 18 m. Échec : 25 (6d6 + 4) dégâts psychiques, et la cible subit l’état Paralysé jusqu’à la fin du tour suivant de la momie.",
+ "reactions": "**Tourbillon de sable.** Déclencheur : la momie est touchée par un jet d’attaque. Conséquences : la momie ajoute 2 à sa CA contre l’attaque, ce qui peut la faire rater celle-ci, et se téléporte pour un maximum de 18 m dans un espace inoccupé qu’elle voit. Chaque créature de son choix parmi celles qu’elle voit dans un rayon de 1,50 m de son espace de destination subit l’état Aveuglé jusqu’à la fin du tour suivant de la momie.",
+ "legendary": "**Utilisations d'action Légendaire : 3 (4 dans son antre).** Aussitôt après le tour d'une autre créature, la momie peut dépenser une utilisation pour entreprendre l'une des actions ci-après. La momie récupère toutes ses utilisations dépensées au début de chacun de ses tours.\n**Frappe nécrotique.** La momie effectue une attaque de Poing putréfié ou de Conduit d’énergie négative.\n**Injonction effroyable.** La momie lance *injonction* (au 2e niveau), avec la même caractéristique d’incantation que pour Incantation. La momie ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.\n**Regard de biais.** La momie recourt à Regard effroyable. La momie ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Poing putréfié",
+   "bonus": 9,
+   "damage": "2d10+4+3d6",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Conduit d’énergie négative",
+   "bonus": 9,
+   "damage": "6d6+4",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/b37a2d1691_monstre-momie-auguste.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

@@ -1,0 +1,49 @@
+{
+ "id": "triton-maitre-des-vagues",
+ "name": "Triton Master of Waves",
+ "type": "Humanoïde (triton)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 105,
+ "hpFormula": "14d8+42",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, primordial",
+ "traits": "**Amphibie.** Le triton peut respirer de l'air et de l'eau.\n**Invoquer l'eau bizarre (Recharges après un repos court ou long).** Comme un action bonus, le triton appelle magiquement l'eau 1d4 bizarre. Les bizarres convoqués apparaissent dans des espaces inoccupés dans l'eau à l'intérieur de 18 m du triton. L'eau bizarre agit immédiatement après le triton sur la même initiative compter et se battre jusqu'à ce qu'ils soient détruits. Ils disparaissent si le triton meurt.\n**Découpe intérieure.** Le caractéristique d'incantation du triton est Charisme (save DD 15, +7 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Rayon de givre (voir \"Actions\" ci-dessous)\n- 1/jour chacun : Nappe de brouillard, Bourrasque, Mur de vent\n- 2/jour : Cône de froid",
+ "actionsText": "**Multiattaques.** Le triton fait deux attaques en utilisant Wave Touch et lance Rayon de givre.\n**Touche d'onde.** Attaque de sort au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 22 (4d10) dégâts de froid.\n**Rayon de gel (sort mineur).** Attaque de sort à distance : +7 au toucher, portée 18 m, une créature. Touché : 13 (3d8) dégâts de froid, et la vitesse de la cible est réduite de 3 m jusqu'au début du prochain tour du triton.",
+ "attacks": [
+  {
+   "name": "Touche d'onde",
+   "bonus": 7,
+   "damage": "4d10",
+   "type": "froid"
+  },
+  {
+   "name": "Rayon de gel (sort mineur)",
+   "bonus": 7,
+   "damage": "3d8",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/1750a40243_monstre-triton-maitre-des-vagues.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Triton maître des vagues",
+ "caNote": "armure naturelle",
+ "saves": "DEX +3, INT +3, CHA +7",
+ "skills": "Athlétisme +6, Nature +6, Survie +4",
+ "resistances": "froid, feu",
+ "reactions": "**Bouclier frigide.** Quand une créature le triton peut voir des cibles du triton avec une attaque, le triton gagne 10 points de vie temporaires. Si l'attaque frappe et réduit le points de vie temporaires à 0, chaque créature dans le 1,50 m du triton prend 9 (2d8) dégâts de froid."
+}

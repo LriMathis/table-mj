@@ -1,0 +1,42 @@
+{
+ "id": "dragon-emerald-dragonnet",
+ "name": "Emerald Dragon Wyrmling",
+ "type": "Dragon (gemme)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m, creusement 6 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 15",
+ "languages": "draconique, télépathie 36 m",
+ "traits": "**Tunneler.** Le dragon peut creuser à la moitié de sa vitesse de creusement et laisser un tunnel 3 m dans son sillage.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 7 (1d10 + 2) dégâts perforants plus 3 (1d6) dégâts psychiques.\n**Respiration désorientante (Recharge 5-6).** Le dragon exhale une vague de dissonance psychique dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 12 jet de sauvegarde d'Intelligence. Sur une sauvegarde ratée, la créature prend 17 (5d6) dégâts psychiques, et jusqu'à la fin de son prochain tour, quand la créature fait un jet d'attaque ou un test de caractéristique, elle doit rouler un d4 et réduire le total par le nombre roulé. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts sans effets supplémentaires.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Main de mage (la main est invisible), Illusion mineure",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/409f812db7_monstre-dragon-emerald-dragonnet.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon Emerald dragonnet",
+ "caNote": "armure naturelle",
+ "saves": "DEX +3, CON +4, SAG +3, CHA +4",
+ "skills": "Arcanes +4, Tromperie +4, Perception +5, Discrétion +3",
+ "resistances": "feu, psychique"
+}

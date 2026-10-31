@@ -1,0 +1,47 @@
+{
+ "id": "sildar-hallwinter",
+ "name": "Sildar Hallwinter",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Sildar fait deux attaques de Longsword.\n**Mot long.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants, ou 6 (1d10 + 1) dégâts tranchants si utilisé avec deux mains.\n**Grosse arbalète.** Attaque d'arme à distance : +2 au toucher, portée 30/120 m., une cible. Touché : 5 (1d10) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 2,
+   "damage": "1d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a3d64f21a4_monstre-sildar-hallwinter.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne",
+ "saves": "FOR +3, CON +3",
+ "skills": "Perception +2",
+ "reactions": "**Parry.** Lorsqu'un attaquant Sildar peut voir qu'il l'a frappé avec une attaque à la mêlée, il peut rouler un d6 et ajouter le nombre roulé à son CA contre l'attaque à la détente, à condition qu'il manie une arme à la mêlée."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "menace-reduite-mante-obscure",
+ "name": "Reduced-Threat Darkmantle",
+ "type": "Monstruosité",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 22,
+ "hpFormula": "5d6+5",
+ "vitesse": "3 m, vol 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Écholocation.** Le manteau noir ne peut pas utiliser sa vue aveugle pendant qu'assourdi.\n**Fausse apparence.** Bien que le manteau sombre reste immobile, il est indistinct d'une formation de cavernes comme la stalactite ou la stalagmite.",
+ "actionsText": "**Écraser.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 6 (1d6 + 3) dégâts contondants, et le manteau noir se fixe à la cible. Si la cible est moyenne ou plus petite et que le manteau noir a l'avantage sur le jet d'attaque, il se fixe en engloutissant la tête de la cible, et la cible est également aveuglé et incapable de respirer pendant que le manteau noir est attaché de cette façon.\nTout en étant attaché à la cible, le manteau noir ne peut attaquer aucune autre créature, sauf la cible, mais a un avantage sur sa jets d'attaque. La vitesse du darkmantle devient également 0, il ne peut bénéficier d'aucun bonus à sa vitesse, et il se déplace avec la cible.\nUne créature peut détacher le manteau noir en faisant un DD 13 test de Force réussi comme action. À son tour, le manteau peut se détacher de la cible en utilisant 1,50 m de mouvement.\n**Aura des ténèbres (1/jour).** Un rayon 4,50 m d'obscurité magique s'étend du manteau noir, se déplace avec lui, et s'étend autour des coins. L'obscurité dure aussi longtemps que le manteau noir maintient concentration, jusqu'à 10 minutes (comme si concentrating sur un sort). Darkvision ne peut pas pénétrer dans cette obscurité, et aucune lumière naturelle ne peut l'illuminer. Si l'une des ténèbres se chevauche avec une zone de lumière créée par un sort de de niveau 2 ou inférieur, le sort créant la lumière est dissipé.",
+ "attacks": [
+  {
+   "name": "Écraser",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/17cabcb9c2_monstre-menace-reduite-mante-obscure.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Menace réduite mante obscure",
+ "skills": "Discrétion +3"
+}

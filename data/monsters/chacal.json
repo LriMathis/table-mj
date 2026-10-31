@@ -1,0 +1,38 @@
+{
+ "id": "chacal",
+ "name": "Chacal",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 3,
+ "hpFormula": "1d6",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "skills": "Discrétion +4, Perception +5",
+ "senses": "Vision dans le noir 27 m, Perception passive 15",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +1, allonge 1,50 m. Touché : 1 (1d4 – 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 1,
+   "damage": "1d4-1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/accac83a66_monstre-chacal.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

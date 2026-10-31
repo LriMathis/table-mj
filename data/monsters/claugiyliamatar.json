@@ -1,0 +1,55 @@
+{
+ "id": "claugiyliamatar",
+ "name": "Claugiyliamatar",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 21,
+ "hp": 385,
+ "hpFormula": "22d20+154",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 12,
+  "CON": 25,
+  "INT": 20,
+  "SAG": 17,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 27",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer l'air et l'eau.\n**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon peut utiliser sa présence effrayante. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +15 au toucher, allonge 4,50 m, une cible. Touché : 19 (2d10 + 8) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Griffe.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 22 (4d6 + 8) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +15 au toucher, allonge 6 m, une cible. Touché : 17 (2d8 + 8) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix du dragon qui est dans 36 m du dragon et conscient de lui doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante du dragon pour les prochaines 24 heures.\n**poison Respiration (Recharge 5-6).** Le dragon exhale du gaz toxique dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 22 jet de sauvegarde de Constitution, en prenant 77 (22d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Claudiyliamatar lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Détection de la magie, Druidisme, Communication avec les animaux\n- 1/jour chacun : Flétrissement, Mythes et légendes (sous forme d'une action), Localisation de créature, Passage sans trace, Protection contre une énergie, Vision suprême\n- 2/jour chacun : Messager animal, Soins, Dissipation de la magie, Enchevêtrement, Invisibilité",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 15,
+   "damage": "2d10+8",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 15,
+   "damage": "4d6+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 15,
+   "damage": "2d8+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c34938ed2c_monstre-claugiyliamatar.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +14, SAG +10, CHA +11",
+ "skills": "Tromperie +11, Perspicacité +10, Perception +17, Persuasion +11, Discrétion +8",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, claugiyliamatar peut entreprendre l'une des actions ci-après.\n**Détecter.** Le dragon fait un test de Sagesse (Perception).\n**Attaque de queue.** Le dragon fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** Le dragon bat ses ailes. Chaque créature au sein de 4,50 m du dragon doit réussir sur un DD 23 jet de sauvegarde de Dextérité ou prendre 15 (2d6 + 8) dégâts contondants et être à terre. Le dragon peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

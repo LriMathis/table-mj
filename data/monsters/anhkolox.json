@@ -1,0 +1,48 @@
+{
+ "id": "anhkolox",
+ "name": "Anhkolox",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 15,
+ "hp": 157,
+ "hpFormula": "15d12+60",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 4,
+  "SAG": 14,
+  "CHA": 2
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "—",
+ "traits": "**Nature inhabituelle.** L'anhkolox n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** L'anhkolox fait deux attaques de Claw et une attaque de Rend.\n**Griffe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants. Si la cible est une créature grande ou plus petite, elle doit réussir sur une DD 18 jet de sauvegarde de Force ou être poussée jusqu'à 6 m dans une direction horizontale du choix de l'anhkolox.\n**Rend entrouverte.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 23 (5d6 + 6) dégâts perforants, et si la cible est une créature grande ou plus petite, la cible doit réussir sur une DD 18 jet de sauvegarde de Force ou être piégée dans la cage thoracique de l'anhkolox et agrippé (évasion DD 18). Jusqu'à ce que ce grappin se termine, la cible est entravé, et l'anhkolox ne peut pas utiliser Entrapping Rend sur une autre cible.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Rend entrouverte",
+   "bonus": 10,
+   "damage": "5d6+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e05a23be44_monstre-anhkolox.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "SAG +6",
+ "skills": "Perception +6",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné"
+}

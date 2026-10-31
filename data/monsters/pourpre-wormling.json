@@ -1,0 +1,45 @@
+{
+ "id": "pourpre-wormling",
+ "name": "Purple Wormling",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 42,
+ "hpFormula": "5d10+15",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 7,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 2
+ },
+ "senses": "Vision aveugle 9 m, Perception des vibrations 9 m, Perception passive 8",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le ver fait deux attaques : l'une avec sa morsure et l'autre avec son bardeau.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 5) dégâts perforants. Si la cible est une créature petite ou plus petite, elle doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou être avalée par le ver. Une créature avalée est aveuglé et entravé, il a 3 contre les attaques et d'autres effets en dehors du verling, et il prend 3 (1d6) dégâts d'acide au début de chaque tour du verling.\nSi le ver prend 10 dégâts ou plus sur un seul tour d'une créature à l'intérieur, le ver doit réussir sur un DD 21 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m du ver. Si le ver meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 1,50 m de mouvement, sortant d'à terre.\n**Tail Stinger.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d4 + 3) dégâts perforants, et la cible doit faire un DD 13 jet de sauvegarde de Constitution, en prenant 10 (3d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+5",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Tail Stinger",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/550a12d7dd_monstre-pourpre-wormling.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Pourpre Wormling",
+ "caNote": "armure naturelle"
+}

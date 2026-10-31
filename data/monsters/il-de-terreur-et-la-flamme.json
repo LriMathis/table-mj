@@ -1,0 +1,44 @@
+{
+ "id": "il-de-terreur-et-la-flamme",
+ "name": "Eye of Fear and Flame",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 15,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 18,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "commun, tous les langages connus par toute créature dans 9 m de lui",
+ "traits": "**Tourner l'immunité.** L'œil de la peur et de la flamme est à l'abri des effets qui deviennent morts.\n**Découpe intérieure.** L'œil de la peur et de la flamme innée caractéristique d'incantation est Intelligence (spell save DD 16). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Détection du mal et du bien, Détection des pensées\n- 1/jour chacun : Forme éthérée, Vision suprême",
+ "actionsText": "**Multiattaques.** L'œil de la peur et de la flamme fait deux attaques de griffes et utilise ses yeux de pierre.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d12 + 3) dégâts tranchants.\n**Yeux de pierres précieuses.** L'œil de la peur et de la flamme tire l'un des rayons oculaires magiques suivants, en choisissant une cible il peut voir dans 27 m de lui.\n- **L'œil de la peur** La cible et jusqu'à quatre autres créatures de l'œil de la peur et le choix de la flamme dans 3 m de la cible doivent chacun réussir sur un DD 16 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. Une créature affectée peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **Oeil de flamme** La cible doit faire un DD 16 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, la cible prend 44 (8d10) dégâts de feu, et s'il s'agit d'une créature ou d'un objet inflammable, elle s'enflamme. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts et ne s'enflamme pas. Une cible qui s'enflamme prend 5 (1d10) dégâts de feu au début de chacun de ses virages jusqu'à ce qu'une créature prenne une action pour éteindre le feu.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "1d12+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/3d50314053_monstre-il-de-terreur-et-la-flamme.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "aka": "Œil de terreur et la flamme",
+ "caNote": "armure naturelle",
+ "saves": "FOR +7, CON +8, SAG +7, CHA +8",
+ "skills": "Perception +7",
+ "resistances": "nécrotique, psychique",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, épuisement, effrayé, paralysé, empoisonné, étourdi"
+}

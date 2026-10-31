@@ -1,0 +1,40 @@
+{
+ "id": "nuit-scavver",
+ "name": "Night Scavver",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 114,
+ "hpFormula": "12d12+36",
+ "vitesse": "0 m, vol 12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 17,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "—",
+ "traits": "**Nature inhabituelle.** Le scavver ne demande pas d'air.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +8 au toucher (avec avantage si la cible est une créature qui manque n'importe quel points de vie), allonge 3 m, une cible. Touché : 27 (4d10 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "4d10+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/db9d8f5973_monstre-nuit-scavver.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Nuit Scavver",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6, Discrétion +8"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "nielleux",
+ "name": "Twig Blight",
+ "type": "Plante",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 14,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 4,
+  "SAG": 8,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 9",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Tactiques de conditionnement.** La brûlure a avantage sur une jet d'attaque contre une créature si au moins un des alliés de la brûlure est dans 1,50 m de la créature et l'allié n'a pas l'état neutralisé.",
+ "actionsText": "**Griffe.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 4 (1d4 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/354f2edbec_monstre-nielleux.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Nielleux",
+ "skills": "Discrétion +4",
+ "vulnerabilities": "feu",
+ "conditionImmunities": "assourdi"
+}

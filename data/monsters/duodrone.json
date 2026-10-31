@@ -1,0 +1,44 @@
+{
+ "id": "duodrone",
+ "name": "Duodrone",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "vision parfaite à 36 m, Perception passive 10",
+ "languages": "modron",
+ "traits": "**Désintégration.** Si le duodrone meurt, son corps se désintègre et devient poussière, ne laissant derrière lui que ses armes et ce qu'il transportait éventuellement.\n**Esprit axiomatique.** Il est impossible d'obliger le duodrone à agir de manière contraire à sa nature ou ses instructions.",
+ "actionsText": "**Attaques multiples.** Le duodrone peut faire deux attaques de poing ou deux attaques à la javeline.\n**Javeline.** *Attaque d'arme au corps à corps ou à distance :* +3 pour toucher, allonge 1,50 m ou portée 9/36 m, une cible. *Touché :* 4 (1d6+1) dégâts perforants.\n**Poing.** *Attaque d'arme au corps à corps :* +2 pour toucher, allonge 1,50 m, une cible. *Touché :* 2 (1d4) dégâts contondants.",
+ "portrait": "/data/images/1f3e25557a_monstre-duodrone.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 225 · image : Manuel des monstres p. 224",
+ "attacks": [
+  {
+   "name": "Javeline",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Poing",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "contondant"
+  }
+ ]
+}

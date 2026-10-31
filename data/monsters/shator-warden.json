@@ -1,0 +1,51 @@
+{
+ "id": "shator-warden",
+ "name": "Shator Warden",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 16,
+ "hp": 119,
+ "hpFormula": "14d10+42",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 11,
+  "CON": 17,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "abyssal, commun",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure du shator.\n**Sensation de Keen.** Le shator a l'avantage sur tests de Sagesse (Perception) qui dépendent de l'odeur.\n**Résistance magique.** Le shator a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes du shator sont magiques.",
+ "actionsText": "**Multiattaques.** Le shator fait une attaque de Bite ou une attaque de Spit Poisonous (si disponible) et fait ensuite deux attaques de griffes.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d8 + 7) dégâts perforants plus 10 (3d6) dégâts d'acide.\n**Griffes.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 11 (1d8 + 7) dégâts tranchants plus 7 (2d6) dégâts d'acide.\n**Craquage toxique (Recharge 5-6).** Le shator exhale une crache venimeuse dans une ligne 6 m qui est large de 1,50 m. Chaque créature dans cette ligne doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 22 (5d8) dégâts d'acide sur un sauvegarde échoué et en ayant l'état paralysé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur un succès.\n**Détection orthographique.** Le shator lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Clairvoyance, Détection de la magie, Peur, Invisibilité (autoseulement), Pattes d'araignée, Don des langues\n- 2/jour chacun : Brume mortelle, Dissipation de la magie, Changement de plan, Fou rire de Tasha",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d8+7",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 12,
+   "damage": "1d8+7",
+   "type": "tranchant + acide"
+  }
+ ],
+ "portrait": "/data/images/f8b08bacca_monstre-shator-warden.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +12, CON +8, CHA +10",
+ "skills": "Athlétisme +12, Perspicacité +8, Persuasion +10",
+ "resistances": "froid, feu, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Invoquer la démodand (1/jour).** Le shator roule un d6. Un résultat de 1-2 convocations dans deux harceleurs farastu alliés, un résultat de 3-4 convocations dans un Shator Warden allié.",
+ "reactions": "**Slime toxique.** Lorsqu'il est touché par une attaque à la mêlée, le shator expulse un shite toxique. L'attaquant doit réussir sur un DD 18 jet de sauvegarde de Dextérité ou avoir l'état paralysé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur un succès."
+}

@@ -1,0 +1,47 @@
+{
+ "id": "guerrier-d-elite-drow",
+ "name": "Guerrier d'élite drow",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "caNote": "armure de cuir clouté, bouclier",
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "saves": "DEX +7, CON +5, SAG +4",
+ "skills": "Discrétion +10, Perception +4",
+ "senses": "vision dans le noir 36 m, Perception passive 14",
+ "languages": "commun des profondeurs, elfique",
+ "traits": "**Ascendance féerique.** Le drow est avantagé lors des jets de sauvegarde contre l'état charmé et la magie ne peut pas l'endormir.\n**Incantation innée.** La caractéristique d'incantation du drow est le Charisme (DD du jet de sauvegarde contre les sorts 12). Le drow peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *lumières dansantes*\n- 1/jour chacun : *lévitation* (soi-même uniquement), *lueurs féeriques, ténèbres*\n**Sensibilité à la lumière du soleil.** Le drow est désavantagé lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à la lumière du soleil.",
+ "actionsText": "**Attaques multiples.** Le drow effectue deux attaques avec son épée courte.\n**Épée courte.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 7 (1d6+4) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Arbalète de poing.** *Attaque d'arme à distance :* +7 pour toucher, portée 9/36 m, une cible. *Touché :* 7 (1d6+4) dégâts perforants, et la cible doit réussir un jet de sauvegarde de Constitution DD 13 pour ne pas être empoisonnée pendant 1 heure. Si elle rate son jet de sauvegarde de 5 points ou plus, elle est également inconsciente tant qu'elle reste ainsi empoisonnée. Elle reprend conscience avant si elle subit des dégâts ou si une autre créature consacre une action à la secouer pour lui faire reprendre ses esprits.",
+ "reactions": "**Parade.** Le drow ajoute 3 à sa CA contre une attaque au corps à corps qui devrait le toucher. Il doit voir son agresseur et manier une arme de corps à corps pour pouvoir parer de cette façon.",
+ "portrait": "/data/images/7836854642_monstre-guerrier-d-elite-drow.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 125 · image : internet",
+ "attacks": [
+  {
+   "name": "Épée courte",
+   "bonus": 7,
+   "damage": "1d6+4+3d6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Arbalète de poing",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ]
+}

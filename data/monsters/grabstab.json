@@ -1,0 +1,46 @@
+{
+ "id": "grabstab",
+ "name": "Grabstab",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 17,
+ "hp": 21,
+ "hpFormula": "6d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, gobelin",
+ "traits": "**Échappement de Nimble.** Grabstab peut prendre l'action Se désengager ou Se cacher en action bonus sur chacun de ses tours.",
+ "actionsText": "**Multiattaques.** Grabstab fait deux attaques avec son scimitar. La deuxième attaque a un désavantage.\n**Scimitar.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +2 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 3 (1d6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/501184b4c4_monstre-grabstab.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne, Bouclier",
+ "skills": "Discrétion +6",
+ "reactions": "**Réorienter l'attaque.** Quand une créature Grabstab peut voir des cibles avec une attaque, Grabstab choisit un autre goblin dans 1,50 m de lui. Les deux gobelins échangent des places, et le gobelin choisi devient la cible à la place."
+}

@@ -1,0 +1,48 @@
+{
+ "id": "molten-magma-enlaceur",
+ "name": "Molten Magma Roper",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 20,
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 8,
+  "CON": 17,
+  "INT": 7,
+  "SAG": 16,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Bien que le câbleur reste immobile, il est indistinguable d'une formation de caverne normale, telle qu'une stalagmite.\n**Tendrins gras.** Le cordonnier peut avoir jusqu'à six vrilles à la fois. Chaque vrille peut être attaquée (CA 20; 10 points de vie ; immunité contre le poison et dégâts psychiques). Détruire une vrille ne cause aucun dégâts à la cordeuse, qui peut extruder une vrille de remplacement à son tour suivant. Une vrille peut également être brisée si une créature agit et réussit sur une DD 15 test de Force contre elle.\n**Escalade des araignées.** Le câbleur peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** La cordeuse fait quatre attaques avec ses vrilles, utilise Reel, et fait une attaque avec sa morsure.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 22 (4d8 + 4) dégâts de feu.\n**Tendril.** Attaque d'arme au corps à corps : +7 au toucher, allonge 15 m, une créature. Touché : 4 (1d8) dégâts de feu et la cible est agrippé (évasion DD 15). Jusqu'à ce que le grappin se termine, la cible est entravé et a un désavantage sur tests de Force et jet de sauvegarde de Force et le câbleur ne peut pas utiliser la même vrille sur une autre cible. Une créature prend 4 (1d8) dégâts de feu chaque fois qu'elle termine son tour agrippé par le câbleur.\n**Bobine.** La cordette tire chaque créature agrippé par elle jusqu'à 7,50 m droit vers elle.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "4d8+4",
+   "type": "feu"
+  },
+  {
+   "name": "Tendril",
+   "bonus": 7,
+   "damage": "1d8",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/cb53e67f8e_monstre-molten-magma-enlaceur.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Molten Magma enlaceur",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6, Discrétion +5",
+ "vulnerabilities": "froid",
+ "immunities": "feu"
+}

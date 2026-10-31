@@ -1,0 +1,49 @@
+{
+ "id": "menace-reduite-hezrou",
+ "name": "Reduced-Threat Hezrou",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 136,
+ "hpFormula": "13d10+65",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 17,
+  "CON": 20,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Résistance magique.** L'hezrou a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Poignée.** Toute créature qui commence son tour au sein de 3 m de l'hezrou doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être empoisonné jusqu'au début de son prochain tour. Sur un jet de sauvegarde réussi, la créature est immunisée contre la puanteur de l'hezrou pendant 24 heures.",
+ "actionsText": "**Multiattaques.** Le hezrou fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b0f6bcd0cf_monstre-menace-reduite-hezrou.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Menace réduite hezrou",
+ "caNote": "armure naturelle",
+ "saves": "FOR +7, CON +8, SAG +4",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

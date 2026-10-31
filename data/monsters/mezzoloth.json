@@ -1,0 +1,48 @@
+{
+ "id": "mezzoloth",
+ "name": "Mezzoloth",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "caNote": "armure naturelle",
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "skills": "Perception +3",
+ "resistances": "feu, foudre, froid ; contondants, perforants et tranchants émanant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision parfaite 18 m, vision nocturne 18 m, Perception passive 13",
+ "languages": "abyssal, infernal, télépathie 18 m",
+ "traits": "**Armes magiques.** Les attaques d'arme d'un mezzoloth sont de nature magique.\n**Incantation innée.** Le mezzoloth utilise le Charisme comme caractéristique d'incantation innée (DD du jet de sauvegarde contre ses sorts : 11). Il peut lancer les sorts suivants de façon innée, sans dépenser de composantes matérielles\n- 2/jour chacun : *dissipation de la magie, ténèbres*\n- 1/jour : *nuage mortel*\n**Résistance à la magie.** Le mezzoloth est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le mezzoloth peut effectuer deux attaques : l'une avec son trident, l'autre avec ses griffes.\n**Griffes.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 9 (2d4+4) dégâts tranchants.\n**Trident.** *Attaque d'arme au corps à corps ou à distance :* +7 pour toucher, allonge 1,50 m ou portée 6/18 m, une cible. *Touché :* 7 (1d6+4) dégâts perforants ou 8 (1d8+4) dégâts perforants si le fiélon manie l'arme à deux mains au corps à corps.\n**Téléportation.** Le mezzoloth se téléporte par magie, avec tout l'équipement qu'il porte et transporte, jusqu'à un emplacement inoccupé situé dans son champ de vision et dans un rayon maximum de 18 mètres.",
+ "portrait": "/data/images/f39f9d507b_monstre-mezzoloth.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 314 · image : Manuel des monstres p. 313",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d4+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Trident",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ]
+}

@@ -102,7 +102,7 @@ def delete(cid):
 
 # fields kept from the existing character when a sheet is imported again
 KEEP_ON_REIMPORT = ("hp", "hpTemp", "xp", "niveau", "conditions", "deathSaves", "notes", "playerNotes",
-                    "portrait", "color", "player", "gold", "exhaustion", "hitDice", "name", "concentration")
+                    "portrait", "color", "player", "gold", "purse", "exhaustion", "hitDice", "name", "concentration")
 
 
 def do_import(cid=None, names=None, force=False):

@@ -1,0 +1,43 @@
+{
+ "id": "mer-fury",
+ "name": "Sea Fury",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 14,
+ "hp": 105,
+ "hpFormula": "14d8+42",
+ "vitesse": "9 m, nage 15 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "aquatique, commun, géant",
+ "traits": "**Amphibie.** La fureur de la mer peut respirer de l'air et de l'eau.\n**Résistance légendaire (3/jour).** Si la fureur de la mer échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** La fureur de mer a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** Le caractéristique d'incantation inné de la fureur de mer est Charisme (save spell DD 16, +8 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Trait ensorcelé\n- 1/jour chacun : Malédiction, Peur, Vague tonnante",
+ "actionsText": "**Multiattaques.** La fureur de la mer fait deux attaques avec ses griffes.\n**Griffes.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.\n**L'éclat de la mort.** La fureur de la mer cible une créature effrayé qu'elle peut voir à l'intérieur de 9 m. La cible doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou tomber à 0 points de vie.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/5ce814a201_monstre-mer-fury.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Mer Fury",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +8, Perspicacité +5, Perception +5, Discrétion +6",
+ "immunities": "froid, feu, poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "conditionImmunities": "paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, mer fury peut entreprendre l'une des actions ci-après.\n**Comme de l'eau.** La fureur de la mer se transforme en une vague d'eau de mer mouvante, avec tout ce qu'elle porte ou transporte, et se déplace à sa vitesse sans provoquer des attaques d'occasion. Alors que dans cette forme, il ne peut pas être agrippé ou entravé. Il revient à sa véritable forme à la fin de ce mouvement.\n**Craignant l'apparition (coûts 2 actions).** La fureur de la mer évoque l'apparition d'une de ses sœurs mortes, qui apparaît dans un espace inoccupé que la fureur de la mer peut voir à l'intérieur de 9 m de lui. Les ennemis de la fureur de mer qui peuvent voir l'apparition doivent réussir sur un DD 16 jet de sauvegarde de Sagesse ou en être effrayé jusqu'à ce qu'il disparaisse à la fin du prochain tour de la fureur de mer.\n**Les serpents conjurés (coûts 3 actions).** La fureur de la mer dégorge un Nuée de serpents venimeux, qui occupe le même espace que la fureur de la mer, agit de sa propre initiative, et les attaques comme dirigé par la fureur de la mer. La fureur de la mer peut contrôler jusqu'à trois de ces essaims à la fois."
+}

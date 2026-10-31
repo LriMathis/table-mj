@@ -1,0 +1,39 @@
+{
+ "id": "chimeric-belette",
+ "name": "Chimeric Weasel",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 16,
+  "CON": 8,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 3
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**L'ouïe et l'odeur de Keen.** La belette a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou l'odeur.\n**Création chimérique.** La belette a des yeux brillants qui émettent de la lumière lumineuse dans un rayon de 6 m et de la lumière dim pour un 6 m supplémentaire.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/edfb045efe_monstre-chimeric-belette.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Chimeric belette",
+ "skills": "Perception +3, Discrétion +5"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "robot-de-combat",
+ "name": "Combat Robot",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "Commune plus les langues parlées par son créateur",
+ "traits": "**Surcharge de foudre.** Lorsque le robot prend dégâts de foudre, il doit réussir sur un DD 10 jet de sauvegarde de Constitution ou avoir l'état étourdi jusqu'au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Le robot fait deux attaques du Tentacle ou trois attaques de faisceau laser.\n**Tentacle.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 10 (1d10 + 5) dégâts contondants. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 16). Alors qu'agrippé, la cible a également l'état entravé. Le robot a deux tentacules, chacun pouvant battre une cible.\n**Faisceau laser.** Attaque d'arme à distance : +5 au toucher, portée 36 m, une cible. Touché : 16 (4d6 + 2) dégâts radiants.\n**Lanceur de grenade (Recharge 5-6).** Le robot tire une grenade à un point qu'il peut voir en 36 m de lui-même. La grenade explose dans une sphère 6 m -radius centrée sur ce point, créant l'un des effets suivants (le choix du robot) :\n- **Commotion Grenade** Chaque créature dans la sphère doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts de force sur un sauvegarde raté ou la moitié de ces dégâts sur un succès.\n- **Grenade du sommeil** Chaque créature dans la sphère doit réussir sur un DD 15 jet de sauvegarde de Constitution ou avoir l'état inconscient pendant 1 heure. La condition se termine sur une créature tôt si la créature prend des dégâts ou si une autre créature utilise une action pour la secouer éveillée.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 8,
+   "damage": "1d10+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Faisceau laser",
+   "bonus": 5,
+   "damage": "4d6+2",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/771c87d6f8_monstre-robot-de-combat.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Robot de combat",
+ "caNote": "armure naturelle",
+ "saves": "CON +6, CHA +3",
+ "skills": "Athlétisme +8, Intimidation +6, Perception +5",
+ "resistances": "acide, feu",
+ "immunities": "froid, poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "bonusActions": "**Vitesse de secours (2/jour).** Le robot prend l'action Foncer ou Se désengager."
+}

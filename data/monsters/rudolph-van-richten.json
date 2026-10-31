@@ -1,0 +1,46 @@
+{
+ "id": "rudolph-van-richten",
+ "name": "Rudolph van Richten",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 105,
+ "hpFormula": "14d8+42",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 17,
+  "SAG": 18,
+  "CHA": 15
+ },
+ "senses": "Perception passive 17",
+ "languages": "abyssal, commun, elfique, infernal",
+ "traits": "**Bouclier d'Erasmus.** Alors qu'en sang, Rudolph a une résistance à force, poison et dégâts psychiques.",
+ "actionsText": "**Multiattaques.** Rudolph fait trois attaques, en utilisant la canne à épée d'argent ou l'arbalète main dans n'importe quelle combinaison.\n**Cane d'épée en argent.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts tranchants plus 5 (2d4) dégâts radiants. Critical Touché : La cible a l'état empoisonné jusqu'à ce qu'elle termine un repos long. Il fait un DD 15 jet de sauvegarde de Constitution à la fin de chaque heure, mettant fin à l'effet sur un succès.\n**Acrobatie des mains.** Jet d'attaque à distance : +5, portée 9/36 m. Touché : 5 (1d6 + 2) dégâts perforants plus 5 (2d4) dégâts radiants.\n**Répandre le mal (Recharge 5-6).** Jet de sauvegarde de Charisme : DD 15, chaque créature du choix de Rudolph dans un cône 9 m. Échec : 18 (4d8) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin du prochain tour de Rudolph. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Cane d'épée en argent",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/4f6c6f546a_monstre-rudolph-van-richten.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "CON +6, SAG +7",
+ "skills": "Arcanes +6, Médecine +7, Perception +7, Religion +6, Escamotage +5",
+ "bonusActions": "**Aide occulte (2/jour).** Rudolph lance Soins, Dissipation du mal et du bien, ou Sanctuaire, en utilisant Sagesse comme modificateur de diffusion orthographique (spell save DD 15)."
+}

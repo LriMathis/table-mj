@@ -1,0 +1,45 @@
+{
+ "id": "y",
+ "name": "Y",
+ "type": "Humanoïde (derro)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 49,
+ "hpFormula": "11d6+11",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 18,
+  "SAG": 5,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 7",
+ "languages": "nain, commun des profondeurs, elfique",
+ "traits": "**Insanité.** Le derro a un avantage sur jet de sauvegarde contre charmé ou effrayé.\n**Résistance magique.** Le derro a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sensibilité à la lumière du soleil.** En plein soleil, le derro présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Détection orthographique.** Y est un spellcaster de niveau 5. Son caractéristique d'incantation est Charisme (save spell DD 12, +4 au toucher avec attaques de sort). Le derro connaît les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Aspersion d'acide, Main de mage, Message, Rayon de givre\n- Niveau 1 (4 emplacements) : Mains brûlantes, Orbe chromatique, Sommeil\n- Niveau 2 (3 emplacements) : Invisibilité, Pattes d'araignée\n- Niveau 3 (2 emplacements) : Clignotement, Éclair\n**Découpe intérieure.** Y peut innéement lancer peut lancer le sort Téléportation une fois par jour, mais la destination prévue doit être à l'intérieur de 9 m d'un autre 1. Cet effet de téléportation peut être perturbé (voir « 1 »), c'est ainsi que les membres de la société se retrouvent parfois dans des coins lointains de l'Underdark, séparés de leurs semblables.\n- 1/jour chacun : Téléportation",
+ "actionsText": "**Short-spear crocheté.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 1 (1d4 - 1) dégâts perforants. Si la cible est une créature, le derro peut choisir d'infliger aucun dégâts et essayer de faire un voyage sur la cible, auquel cas la cible doit réussir sur un DD 9 jet de sauvegarde de Force ou tomber sur à terre.\n**Acrobate à répétition de lumière.** Attaque d'arme à distance : +4 au toucher, portée 12/48 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Short-spear crocheté",
+   "bonus": 2,
+   "damage": "1d4-1",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobate à répétition de lumière",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6609c335db_monstre-y.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Discrétion +4"
+}

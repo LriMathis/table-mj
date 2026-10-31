@@ -1,0 +1,54 @@
+{
+ "id": "sir-ursas",
+ "name": "Sir Ursas",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 20,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, infernal",
+ "traits": "**Matériel spécial.** Sir Ursas porte une armure Anneau de barrière mentale et une armure de résistance au feu.\n**Brave.** Sir Ursas a un avantage sur jet de sauvegarde contre effrayé.\n**Brute.** Une arme à la mêlée inflige une mort supplémentaire de ses dégâts lorsque Sir Ursas frappe avec elle (inclus dans son attaque).",
+ "actionsText": "**Multiattaques.** Sir Ursas fait trois attaques à la mêlée ou deux attaques à portée de main.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m et portée 6/18 m., une cible. Touché : 11 (2d6 + 4) dégâts perforants, ou 13 (2d8 + 4) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.\n**Bouclier.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d4 + 4) dégâts contondants, et si la cible est une créature moyenne ou plus petite, elle doit réussir sur une DD 15 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Bouclier",
+   "bonus": 7,
+   "damage": "2d4+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/08bdc1976e_monstre-sir-ursas.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque, Bouclier",
+ "saves": "FOR +7, DEX +5, CON +6",
+ "skills": "Athlétisme +10, Intimidation +5",
+ "resistances": "feu",
+ "reactions": "**Parry.** Sir Ursas ajoute 3 à son CA contre une attaque qui le frapperait. Pour ce faire, il doit voir l'agresseur et manier une arme de mêlée."
+}

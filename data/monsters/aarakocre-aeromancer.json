@@ -1,0 +1,41 @@
+{
+ "id": "aarakocre-aeromancer",
+ "name": "Aarakocra Aeromancer",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "6 m, vol 15 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 17,
+  "CHA": 12
+ },
+ "senses": "Perception passive 17",
+ "languages": "Aarakocra, Primordial (Auran)",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'aarakocra fait deux attaques de l'état-major du vent, et il peut utiliser Spellcasting pour lancer Bourrasque.\n**Personnel du secteur éolien.** Jet d'attaque au corps à corps ou à distance : +5, allonge 1,50 m ou portée 36 m. Touché : 7 (1d8 + 3) dégâts contondants plus 11 (2d10) dégâts de foudre.\n**Détection orthographique.** L'aarakocra lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Élémentalisme, Bourrasque, Main de mage, Message\n- 1/jour : Éclair",
+ "attacks": [
+  {
+   "name": "Personnel du secteur éolien",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant + foudre"
+  }
+ ],
+ "portrait": "/data/images/6b7eb5f8f4_monstre-aarakocre-aeromancer.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Aarakocre Aeromancer",
+ "saves": "DEX +5, SAG +5",
+ "skills": "Arcanes +3, Nature +5, Perception +7",
+ "reactions": "**Chute des plumes (1/jour).** L'aarakocra lance Feuille morte en réponse au déclencheur de ce sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 1/jour : Feuille morte"
+}

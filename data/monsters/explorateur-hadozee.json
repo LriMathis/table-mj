@@ -1,0 +1,49 @@
+{
+ "id": "explorateur-hadozee",
+ "name": "Hadozee Explorer",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 13,
+  "SAG": 17,
+  "CHA": 14
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, Hadozée",
+ "traits": "**Glisse.** S'il n'est pas neutralisé ou s'il porte une armure lourde, le hadozee peut étendre ses membranes de peau pour atteindre 1,50 m horizontalement pour chaque 0,30 m qu'il descend dans l'air.",
+ "actionsText": "**Multiattaques.** Le hadozee fait deux attaques de Shortsword.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Mousquet.** Attaque d'arme à distance : +5 au toucher, portée 12/36 m., une cible. Touché : 16 (2d12 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Mousquet",
+   "bonus": 5,
+   "damage": "2d12+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5c1cecbaa6_monstre-explorateur-hadozee.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Explorateur Hadozee",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "CON +3, SAG +5",
+ "skills": "Athlétisme +2, Perception +5, Discrétion +5, Survie +5",
+ "bonusActions": "**Échappement de Nimble.** Le hadozee prend l'action Se désengager ou Se cacher.",
+ "reactions": "**Descente sûre.** Lorsqu'il endommage une chute, le hadozee étend ses membranes de peau pour réduire les dégâts de la chute à 0, à condition qu'il ne porte pas d'armure lourde."
+}

@@ -1,0 +1,31 @@
+{
+ "id": "faucheur-dormant",
+ "name": "Le Faucheur dormant (écho du Crâne)",
+ "type": "Mort-vivant ✎",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "0 m, vol 9 m (stationnaire)",
+ "size": 1,
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "attacks": [
+  {
+   "name": "Faux spectrale",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant + 1d6 nécrotique"
+  }
+ ],
+ "traits": "**✎ SEUL.** Il ne combat que la créature qui l'a attaqué en premier. Si une autre créature l'attaque ou aide la première, un second Faucheur apparaît à côté d'elle et ne combat qu'elle.\n**Déplacement intangible.** Traverse créatures et objets (1d10 force s'il termine son tour à l'intérieur).\n**Résistances** acide, feu, foudre, tonnerre ; contondant, perforant et tranchant non magiques. **Immunités** nécrotique, poison ; charmé, effrayé, agrippé, à terre, empoisonné.\n**Lié à la carte.** À 0 PV, il se dissipe et revient la nuit suivante, tant que Bastien porte le Crâne.\n**Apaisement.** Si Bastien s'avance seul vers lui et lui parle sans peur, il s'incline et disparaît pour la nuit.",
+ "portrait": "/data/images/4e38bba2f1_monstre-spectre.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

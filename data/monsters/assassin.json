@@ -1,0 +1,47 @@
+{
+ "id": "assassin",
+ "name": "Assassin",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "saves": "DEX +7, INT +6",
+ "skills": "Acrobaties +7, Discrétion +10, Perception +6",
+ "resistances": "poison",
+ "senses": "Perception passive 16",
+ "languages": "commun, argot des voleurs",
+ "traits": "**Esquive totale.** Si l’assassin est soumis à un effet qui lui permet d’effectuer un jet de sauvegarde de Dextérité pour réduire les dégâts de moitié, il ne subit en fait aucun dégât en cas de JS réussi, et seulement la moitié en cas d’échec. Il ne peut pas recourir à ce trait s’il subit l’état Neutralisé.",
+ "actionsText": "**Attaques multiples.** L’assassin effectue trois attaques, réparties à sa guise entre Épée courte et Arbalète légère.\n**Épée courte.** Corps à corps : +7, allonge 1,50 m. Touché : 7 (1d6 + 4) dégâts perforants plus 17 (5d6) dégâts de poison, et la cible subit l’état Empoisonné jusqu’au début du tour suivant de l’assassin.\n**Arbalète légère.** À distance : +7, portée 24/96 m. Touché : 8 (1d8 + 4) dégâts perforants plus 21 (6d6) dégâts de poison.",
+ "bonusActions": "**Ruse.** L’assassin entreprend l’action Désengagement, Furtivité ou Pointe.",
+ "attacks": [
+  {
+   "name": "Épée courte",
+   "bonus": 7,
+   "damage": "1d6+4+5d6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Arbalète légère",
+   "bonus": 7,
+   "damage": "1d8+4+6d6",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/c68ed0e242_monstre-assassin.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

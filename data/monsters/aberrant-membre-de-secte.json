@@ -1,0 +1,41 @@
+{
+ "id": "aberrant-membre-de-secte",
+ "name": "Aberrant Cultist",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 137,
+ "hpFormula": "25d8+25",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 19,
+  "CON": 12,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 27 m, Perception passive 17",
+ "languages": "commun, Discours profond; télépathie 9 m.",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le cultivateur fait deux attaques de Lash Tentacle. Il peut remplacer n'importe quelle attaque par une utilisation de Mind Rot.\n**Tente laisse.** Jet d'attaque au corps à corps : +7, allonge 3 m. Touché : 7 (1d6 + 4) dégâts tranchants plus 14 (4d6) dégâts psychiques. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 14) de l'un des deux tentacules, et elle a l'état entravé jusqu'à la fin du grappin.\n**Rotation de l'esprit.** Jet de sauvegarde de Sagesse : DD 15, une créature le cultivateur peut voir dans 27 m. Échec : 27 (6d8) dégâts psychiques, et la cible a l'état empoisonné jusqu'au début du prochain tour du culte. Réussite : Demi-dégâts seulement.\n**Détection orthographique.** Le cultivateur lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection des pensées, Illusion mineure",
+ "attacks": [
+  {
+   "name": "Tente laisse",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/96e76caff0_monstre-aberrant-membre-de-secte.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Aberrant membre de secte",
+ "saves": "INT +6, SAG +7",
+ "skills": "Arcanes +6, Perception +7, Religion +6",
+ "reactions": "**Contrepel (2/jour).** Le cultivateur lance Contresort en réponse au déclencheur de ce sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 2/jour : Contresort"
+}

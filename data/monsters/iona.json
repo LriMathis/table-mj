@@ -1,0 +1,50 @@
+{
+ "id": "iona",
+ "name": "Iona",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal bon",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 21,
+ "hp": 243,
+ "hpFormula": "18d10+144",
+ "vitesse": "15 m, vol 45 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 22,
+  "CON": 26,
+  "INT": 25,
+  "SAG": 25,
+  "CHA": 30
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 24",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Armes anges.** Les attaques d'armes d'Iona sont magiques. Lorsque Iona frappe avec n'importe quelle arme, l'arme offre un 6d8 dégâts radiants supplémentaire (inclus dans l'attaque).\n**La conscience divine.** Iona sait si elle entend un mensonge.\n**Résistance magique.** Iona a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** Le caractéristique d'incantation d'Iona est Charisme (Spell save DD 25). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection du mal et du bien, Invisibilité (autoseulement)\n- 1/jour chacun : Communion, Contrôle du climat\n- 3/jour chacun : Barrière de lames, Dissipation du mal et du bien, Résurrection",
+ "actionsText": "**Multiattaques.** Iona fait deux attaques de grands mots.\n**Grande épée.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 22 (4d6 + 8) dégâts tranchants plus 27 (6d8) dégâts radiants.\n**La longe tueuse.** Attaque d'arme à distance : +13 au toucher, portée 45/180 m., une cible. Touché : 15 (2d8 + 6) dégâts perforants plus 27 (6d8) dégâts radiants. Si la cible est une créature qui a 100 points de vie ou moins, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution ou mourir.\n**Épée volante.** Iona libère son grand mot pour survoler magiquement dans un espace inoccupé au sein de 1,50 m de lui. Si Iona peut voir l'épée, Iona peut mentalement commander comme un action bonus de voler jusqu'à 15 m et soit faire une attaque contre une cible ou revenir aux mains d'Iona. Si l'épée plane est ciblée par quelque effet que ce soit, Iona est considérée comme la tenant. L'épée plane tombe si Iona meurt.\n**Touche de guérison (4 jours).** Iona touche une autre créature. La cible récupère magiquement 40 (8d8 + 4) points de vie et est libérée de toute malédiction, maladie, poison, cécité, ou surdité.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 15,
+   "damage": "4d6+8",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "La longe tueuse",
+   "bonus": 13,
+   "damage": "2d8+6",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/75f20d7c55_monstre-iona.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +14, SAG +14, CHA +17",
+ "skills": "Perception +14",
+ "resistances": "radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, iona peut entreprendre l'une des actions ci-après.\n**Téléportation.** Iona téléporte magiquement, avec tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.\n**Burst de mer (coûts 2 actions).** Iona émet de l'énergie magique et divine. Chaque créature de son choix dans un rayon 3 m doit faire un DD 23 jet de sauvegarde de Dextérité, en prenant 14 (4d6) dégâts de feu plus 14 (4d6) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Gaz aveuglant (coûts 3 actions).** Iona cible une créature il peut voir dans 9 m de lui. Si la cible peut la voir, la cible doit réussir sur un DD 15 jet de sauvegarde de Constitution ou être aveuglé jusqu'à ce que la magie telle que le sort Restauration partielle supprime la cécité."
+}

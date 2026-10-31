@@ -1,0 +1,41 @@
+{
+ "id": "dragon-noir-adulte",
+ "name": "Dragon noir adulte",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 19,
+ "hp": 195,
+ "hpFormula": "17d12+85",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 14,
+  "CON": 21,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 19
+ },
+ "saves": "DEX +7, SAG +6",
+ "skills": "Discrétion +7, Perception +11",
+ "immunities": "acide",
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 21",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer sous l’eau comme à l’air libre.\n**Résistance légendaire (3/jour, ou 4/jour dans son antre).** Si le dragon rate un jet de sauvegarde, il peut décider de le réussir tout de même.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée. Il peut remplacer l’une de ces attaques par une utilisation d’Incantation pour lancer *flèche acide* (au 3e niveau).\n**Saignée.** Corps à corps : +11, allonge 3 m. Touché : 13 (2d6 + 6) dégâts tranchants plus 4 (1d8) dégâts d’acide.\n**Incantation.** Le dragon lance l’un des sorts suivants sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 17, +9 pour toucher) :\n- À volonté : *détection de la magie*, *flèche acide* (au 3e niveau), *terreur*\n- 1/jour chacun : *communication avec les morts*, *sphère de vitriol*\n**Souffle d’acide (recharge 5–6).** JS Dextérité : DD 18, chaque créature dans une Ligne de 18 m de long sur 1,50 m de large. Échec : 54 (12d8) dégâts d’acide. Réussite : demi-dégâts.",
+ "legendary": "**Utilisations d'action Légendaire : 3 (4 dans son antre).** Aussitôt après le tour d'une autre créature, le dragon peut dépenser une utilisation pour entreprendre l'une des actions ci-après. Le dragon récupère toutes ses utilisations dépensées au début de chacun de ses tours.\n**Assaut incisif.** Le dragon se déplace à concurrence de la moitié de sa Vitesse et effectue une attaque de Saignée.\n**Nuage d’insectes.** JS Dextérité : DD 17, une créature que le dragon voit dans un rayon de 36 m. Échec : 22 (4d10) dégâts de poison, et la cible subit le Désavantage aux jets de sauvegarde visant à maintenir sa Concentration, jusqu’à la fin de son tour suivant. Échec ou réussite : le dragon ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.\n**Présence terrifiante.** Le dragon recourt à Incantation pour lancer *terreur*. Le dragon ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 11,
+   "damage": "2d6+6+1d8",
+   "type": "tranchant + acide"
+  }
+ ],
+ "portrait": "/data/images/597b7d5eb5_monstre-dragon-noir-adulte.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 89"
+}

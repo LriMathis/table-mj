@@ -1,0 +1,51 @@
+{
+ "id": "cristal-greatwyrm",
+ "name": "Crystal Greatwyrm",
+ "type": "Dragon (gemme)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "26",
+ "xp": 90000,
+ "ca": 21,
+ "hp": 507,
+ "hpFormula": "26d20+234",
+ "vitesse": "18 m, creusement 18 m, vol 36 m (vol stationnaire), nage 18 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 14,
+  "CON": 29,
+  "INT": 30,
+  "SAG": 24,
+  "CHA": 25
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 25",
+ "languages": "commun, draconique",
+ "traits": "**Réveillement des pierres précieuses (recharge après un repos court ou long).** Si le styrène est réduit à 0 points de vie, son total actuel de points de vie réinitialise à la place à 400 points de vie, il recharge son arme respiratoire, et il retrouve toutes les utilisations dépensées de la résistance légendaire. De plus, le grand-wym peut maintenant utiliser son action de masse Telekinesis pendant la prochaine heure. Récompensez un parti de 90 000 XP supplémentaires (soit un total de 180 000 XP) pour avoir vaincu le grand-wym après que son réveil de la gemme se soit activé.\n**Résistance légendaire (4/jour).** Si le grand wym échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Nature inhabituelle.** Le grand wym n'a pas besoin de nourriture ou de boisson.",
+ "actionsText": "**Multiattaques.** Le grand-wym fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +17 au toucher, allonge 4,50 m, une cible. Touché : 20 (2d10 + 9) dégâts perforants plus 16 (3d10) dégâts de force.\n**Griffe.** Attaque d'arme au corps à corps : +17 au toucher, allonge 3 m, une cible. Touché : 18 (2d8 + 9) dégâts tranchants. Si la cible est une créature Énorme ou plus petite, elle est agrippé (évasion DD 19) et entravé jusqu'à ce que ce grappin se termine. Le grand wyrm peut avoir seulement une créature agrippé de cette façon à la fois.\n**Arme respiratoire (Recharge 5-6).** Le grand wym exhale la force de concassage dans un cône 90 m. Chaque créature dans cette zone doit faire un DD 25 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la créature prend 71 (11d12) dégâts de force et est à terre. Sur une sauvegarde réussie, il prend la moitié de ces dégâts et n'est pas à terre. Sur un succès ou un échec, la vitesse de la créature devient 0 jusqu'à la fin de son prochain tour.\n**Télékinésie de masse (Réveillement du Gem seulement; Recharges après un repos court ou long).** Le grand-wyrm cible n'importe quel nombre de créatures et d'objets qu'il peut voir dans 36 m de lui. Aucun une cible ne peut peser plus que 2000 kg et les objets ne peuvent pas être ciblés s'ils sont portés ou transportés. Chaque créature ciblée doit réussir sur un DD 26 jet de sauvegarde de Force ou être entravé dans la poignée télékinétique de l'arrière-pays. À la fin du tour d'une créature, elle peut répéter le jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès.\nÀ la fin du tour du grand wym, il peut déplacer chaque créature ou objet qu'il a dans sa prise télékinétique jusqu'à 18 m dans n'importe quelle direction, mais pas au-delà de 36 m de lui-même. En outre, il peut choisir n'importe quel nombre de créatures entravé de cette façon et de traiter 45 (7d12) dégâts de force à chacun d'eux.\n**Coulisse (Psioniques).** Le grand-wyrm lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 26, +18 au toucher with attaque de sort) :\n- 1/jour chacun : Dissipation de la magie, Cage de force, Changement de plan, Inversion de la gravité, Arrêt du temps",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 17,
+   "damage": "2d10+9",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 17,
+   "damage": "2d8+9",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/77674c2a7b_monstre-cristal-greatwyrm.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Cristal Greatwyrm",
+ "caNote": "armure naturelle",
+ "saves": "DEX +10, CON +17, SAG +15, CHA +15",
+ "skills": "Arcanes +26, Histoire +18, Perception +15",
+ "immunities": "radiant",
+ "conditionImmunities": "charmé, effrayé, empoisonné, à terre",
+ "bonusActions": "**Modifier la forme.** Le grand wym se transforme magiquement en toute créature qui est moyenne ou petite, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si le grand-wym est réduit à 0 points de vie ou utilise un action bonus pour y mettre fin.\n**Étape psychique.** Le grand wym se téléporte magiquement dans un espace inoccupé qu'il peut voir dans 18 m de lui.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, cristal greatwyrm peut entreprendre l'une des actions ci-après.\n**Griffe.** Le grand-wym fait une attaque de griffe.\n**Psionics (coûts 2 actions).** Le grand-wym utilise psychique Step ou Spellcasting.\n**psychique Beam (coûts 3 actions).** Le grand-wym émet un faisceau d'énergie psychique dans une ligne 27 m large. Chaque créature dans cette zone doit faire un DD 26 jet de sauvegarde d'Intelligence, en prenant 27 (5d10) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

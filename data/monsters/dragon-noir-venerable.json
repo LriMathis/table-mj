@@ -1,0 +1,41 @@
+{
+ "id": "dragon-noir-venerable",
+ "name": "Dragon noir vénérable",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 22,
+ "hp": 367,
+ "hpFormula": "21d20+147",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 25,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 22
+ },
+ "saves": "DEX +9, SAG +9",
+ "skills": "Discrétion +9, Perception +16",
+ "immunities": "acide",
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 26",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer sous l’eau comme à l’air libre.\n**Résistance légendaire (4/jour, ou 5/jour dans son antre).** Si le dragon rate un jet de sauvegarde, il peut décider de le réussir tout de même.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée. Il peut remplacer l’une de ces attaques par une utilisation d’Incantation pour lancer *flèche acide* (au 4e niveau).\n**Saignée.** Corps à corps : +15, allonge 4,50 m. Touché : 17 (2d8 + 8) dégâts tranchants plus 9 (2d8) dégâts d’acide.\n**Incantation.** Le dragon lance l’un des sorts suivants sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 21, +13 pour toucher) :\n- À volonté : *détection de la magie*, *flèche acide* (au 4e niveau), *terreur*\n- 1/jour chacun : *communication avec les morts*, *création de mort-vivant*, *sphère de vitriol* (au 5e niveau)\n**Souffle d’acide (recharge 5–6).** JS Dextérité : DD 22, chaque créature dans une Ligne de 27 m de long sur 3 m de large. Échec : 67 (15d8) dégâts d’acide. Réussite : demi-dégâts.",
+ "legendary": "**Utilisations d'action Légendaire : 3 (4 dans son antre).** Aussitôt après le tour d'une autre créature, le dragon peut dépenser une utilisation pour entreprendre l'une des actions ci-après. Le dragon récupère toutes ses utilisations dépensées au début de chacun de ses tours.\n**Assaut incisif.** Le dragon se déplace à concurrence de la moitié de sa Vitesse et effectue une attaque de Saignée.\n**Nuage d’insectes.** JS Dextérité : DD 21, une créature que le dragon voit dans un rayon de 36 m. Échec : 33 (6d10) dégâts de poison, et la cible subit le Désavantage aux jets de sauvegarde visant à maintenir sa Concentration, jusqu’à la fin de son tour suivant. Échec ou réussite : Le dragon ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.\n**Présence terrifiante.** Le dragon recourt à Incantation pour lancer *terreur*. Le dragon ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 15,
+   "damage": "2d8+8+2d8",
+   "type": "tranchant + acide"
+  }
+ ],
+ "portrait": "/data/images/597b7d5eb5_monstre-dragon-noir-venerable.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 89"
+}

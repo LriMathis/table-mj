@@ -1,0 +1,39 @@
+{
+ "id": "moniteur-kuo-toa",
+ "name": "Kuo-toa Monitor",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 9 m, Perception passive 16",
+ "languages": "commun des profondeurs",
+ "traits": "**Amphibie.** Le kuo-toa peut respirer l'air et l'eau.\n**Sensibilité à la lumière du soleil.** En plein soleil, le kuo-toa a un désavantage sur tests de caractéristique et jets d'attaque.",
+ "actionsText": "**Multiattaques.** Le kuo-toa fait deux attaques de Whip os.\n**Lactosérum.** Jet d'attaque au corps à corps : +5, allonge 3 m. Touché : 6 (1d6 + 3) dégâts tranchants plus 7 (2d6) dégâts de foudre, et la cible ne peut pas faire Opportunity Attacks avant le début du prochain tour du kuo-toa.",
+ "attacks": [
+  {
+   "name": "Lactosérum",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant + foudre"
+  }
+ ],
+ "portrait": "/data/images/d55da59a71_monstre-moniteur-kuo-toa.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Moniteur kuo-toa",
+ "skills": "Perception +6, Religion +3"
+}

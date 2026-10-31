@@ -1,0 +1,32 @@
+{
+ "id": "fer-araignee",
+ "name": "Iron Spider",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 19,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 6",
+ "languages": "—",
+ "traits": "**Escalade des araignées.** L'araignée de fer peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Susceptibilité antimagique.** L'araignée de fer est neutralisé alors que dans la zone d'un Champ antimagie. Si elle est ciblée par Dissipation de la magie, l'araignée de fer doit réussir sur un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts de la roulette ou tomber inconscient pendant 1 minute.",
+ "actionsText": "**Câble Web.** L'araignée de fer tire un câble web de 6 pouces jusqu'à 15 m long, en fixant l'extrémité du câble à une surface solide jusqu'à 15 m loin de lui. En tant qu'action bonus, il peut détacher l'autre extrémité du câble de lui-même et le fixer à une surface solide à l'intérieur de 3 m. Une fois qu'il crée 60 m de câble web, l'araignée ne peut produire plus de câble avant l'aube prochaine.",
+ "attacks": [],
+ "portrait": "/data/images/58b81d0526_monstre-fer-araignee.webp",
+ "notes": "points de vie : 80",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Fer araignée",
+ "immunities": "poison, psychique"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "onde-de-concassage-reaver",
+ "name": "Crushing Wave Reaver",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Épée longue recoins.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants, ou 7 (1d10 + 2) dégâts tranchants si utilisé avec deux mains. Contre une cible ne porte pas d'armure, le sauveur inflige une mort supplémentaire de dégâts avec cette épée.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Épée longue recoins",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8ae3c71dd3_monstre-onde-de-concassage-reaver.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Onde de concassage Reaver",
+ "caNote": "Bouclier",
+ "skills": "Athlétisme +4, Discrétion +4"
+}

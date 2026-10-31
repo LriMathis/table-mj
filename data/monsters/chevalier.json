@@ -1,0 +1,46 @@
+{
+ "id": "chevalier",
+ "name": "Chevalier",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 18,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "saves": "CON +4, SAG +2",
+ "conditionImmunities": "effrayé",
+ "senses": "Perception passive 10",
+ "languages": "commun et une autre langue",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le chevalier effectue deux attaques, réparties à sa guise entre Épée à deux mains et Arbalète lourde.\n**Épée à deux mains.** Corps à corps : +5, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts tranchants plus 4 (1d8) dégâts radiants.\n**Arbalète lourde.** À distance : +2, portée 30/120 m. Touché : 11 (2d10) dégâts perforants plus 4 (1d8) dégâts radiants.",
+ "reactions": "**Parade.** Déclencheur : le Chevalier est touché par un jet d’attaque de corps à corps alors qu’il tient une arme. Conséquences : le chevalier ajoute 2 à sa CA contre cette attaque, ce qui peut la faire rater.",
+ "attacks": [
+  {
+   "name": "Épée à deux mains",
+   "bonus": 5,
+   "damage": "2d6+3+1d8",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Arbalète lourde",
+   "bonus": 2,
+   "damage": "2d10+1d8",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/d54a1c7e2c_monstre-chevalier.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

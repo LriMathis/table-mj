@@ -1,0 +1,48 @@
+{
+ "id": "draegloth",
+ "name": "Draegloth",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 123,
+ "hpFormula": "13d10+52",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 11,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "abyssal, elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** La draegloth a l'avantage sur jet de sauvegarde contre charmé et la magie ne peut pas la mettre en sommeil.",
+ "actionsText": "**Multiattaques.** Le draegloth fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 16 (2d10 + 5) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts tranchants.\n**Détection orthographique.** Le draegloth lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 11):\n- À volonté : Lumières dansantes, Ténèbres\n- 1/jour chacun : Confusion, Lueurs féeriques",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c9d570becc_monstre-draegloth.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3, Discrétion +5",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

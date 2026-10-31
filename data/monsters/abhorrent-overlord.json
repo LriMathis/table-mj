@@ -1,0 +1,43 @@
+{
+ "id": "abhorrent-overlord",
+ "name": "Abhorrent Overlord",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 15,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "abyssal, commun, infernal",
+ "traits": "**L'avidité insatiable.** L'abominable seigneur peut sentir la présence de l'or en 300 m de lui-même. Il peut déterminer quel emplacement a la plus grande quantité d'or et peut sentir la direction vers ce site. Si l'or est déplacé, il connaît la direction du mouvement. Il ne peut pas localiser l'or si toute épaisseur d'argile ou de plomb, même une mince feuille, bloque un chemin direct entre elle et l'or.\n**Résistance magique.** L'abominable maître a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** caractéristique d'incantation est Charisme (spell save DD 15). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Confusion, Couronne du dément, Suggestion",
+ "actionsText": "**Multiattaques.** L'ignorant seigneur fait deux attaques avec ses griffes.\n**Griffes.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts tranchants plus 14 (4d6) dégâts nécrotiques. L'abominable seigneur retrouve points de vie égal à la moitié de la quantité de dégâts nécrotiques traitée si la cible est une créature.\n**Tempête de Crows (Recharge 6).** L'abominable seigneur conjure un essaim de corbeaux spectraux et de harpies dans une sphère 6 m -radius centrée sur un point que l'absurde peut voir à l'intérieur de 36 m. La sphère reste pendant 1 minute ou jusqu'à ce que l'overlord perde concentration (comme si concentrating sur un sort), et sa zone est légèrement obscurcie et 3.\nToute créature qui se déplace dans la zone pour la première fois sur un tour ou commence son tour là doit faire un DD 15 jet de sauvegarde de Constitution. Une créature prend 16 (3d10) dégâts tranchants plus 16 (3d10) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/58ace7aadf_monstre-abhorrent-overlord.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +7, CHA +7",
+ "skills": "Tromperie +7, Intimidation +7, Persuasion +7",
+ "resistances": "froid, nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

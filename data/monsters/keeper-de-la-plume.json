@@ -1,0 +1,51 @@
+{
+ "id": "keeper-de-la-plume",
+ "name": "Keeper of the Feather",
+ "type": "Humanoïde (humain, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 31,
+ "hpFormula": "7d8",
+ "vitesse": "9 m (Flying 15 m sous forme de corbeilles et hybrides)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 13,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Perception passive 16",
+ "languages": "Fréquent (ne peut pas parler sous forme de corbeilles)",
+ "traits": "**Changeur de forme.** Le gardien peut utiliser son action pour se polymorphiser en un hybride raven-humanoïde ou en un raven, ou revenir dans sa forme humaine. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa forme humaine s'il meurt.\n**Mimétisme.** Le gardien peut imiter des sons simples qu'il a entendus, comme une personne qui murmure, un bébé qui pleure, ou un animal qui chie. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 10 test de Sagesse (Perspicacité).\n**Régénération.** Le gardien retrouve 10 points de vie au début de son tour. Si le gardien prend des dégâts à partir d'une arme argentée ou d'un sort, ce trait ne fonctionne pas au début du prochain tour du gardien. Le gardien meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Détection orthographique.** Le gardien est un épeautre de niveau 4. Son caractéristique d'incantation est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). Il a les sorts druides suivants préparés:\n- Sorts mineurs (à volonté) : Druidisme, Flammes, Gourdin magique\n- Niveau 1 (4 emplacements) : Enchevêtrement, Grande foulée, Communication avec les animaux, Vague tonnante\n- Niveau 2 (3 emplacements) : Messager animal, Peau d'écorce",
+ "actionsText": "**Multiattaque (forme humaine ou hybride seulement).** Le gardien fait deux attaques d'armes, dont l'une peut être avec son arbalète main.\n**Bec (forme Raven ou hybride seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants sous forme de corbeilles ou 4 (1d4 + 2) dégâts perforants sous forme hybride.\n**Mot court (forme humaine ou hybride seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Acrobate à main (forme humaine ou hybride seulement).** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec (forme Raven ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Mot court (forme humaine ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobate à main (forme humaine ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5dc77d43e4_monstre-keeper-de-la-plume.webp",
+ "notes": "",
+ "source": "PSI (5e.tools, traduction automatique)",
+ "aka": "Keeper de la plume",
+ "skills": "Perspicacité +4, Perception +6"
+}

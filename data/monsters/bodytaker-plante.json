@@ -1,0 +1,41 @@
+{
+ "id": "bodytaker-plante",
+ "name": "Bodytaker Plant",
+ "type": "Plante",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "3 m, escalade 3 m, nage 3 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 8,
+  "CON": 20,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 12",
+ "languages": "télépathie 36 m",
+ "traits": "**Lien de podling.** L'usine peut voir et communiquer télépathiquement avec n'importe lequel de ses podlings dans 15 km de lui. Lorsque la plante meurt, ses coquillages meurent aussi.\n**Réjuvenance.** Si la plante meurt, elle reprend avec tout son points de vie en 1d10 jours. Ce trait ne fonctionne pas si la plante est réduite à 0 points de vie par dégâts de poison ou si ses restes sont saupoudrés de sel.",
+ "actionsText": "**Multiattaques.** L'usine fait trois attaques de vigne. Il peut remplacer une attaque par une utilisation d'Entrapping Pod.\n**Vin.** Jet d'attaque au corps à corps : +7, allonge 6 m. Touché : 17 (3d8 + 4) dégâts tranchants. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 14) d'une des quatre vignes.\n**Pod d'entaillement.** Jet de sauvegarde de Force : DD 15, une grande ou plus petite créature la plante est en train de se battre. Échec : La cible est tirée dans l'espace de l'usine, n'est plus agrippé, et est piégée dans le pod de l'usine. Alors qu'elle est piégée, la cible a les conditions aveuglé et paralysé, et elle a Total Cover contre les attaques et autres effets en dehors du pod. Après 2d4 heures, la cible piégée meurt, et si c'était un Humanoïde, un Bodytaker Podling ressemblant à elle émerge de la goupille.\nUne créature à l'extérieur de la goupille et à l'intérieur de 1,50 m de la plante peut prendre une action pour faire un DD 14 test de Force (Athlétisme). Lors d'un contrôle réussi, la cible est retirée du pod, tombe dans un espace à l'intérieur de 1,50 m de l'usine, et a l'état à terre. Si la plante meurt, la cible piégée n'est plus aveuglé ou paralysé et peut s'échapper de la goupille en utilisant 1,50 m de mouvement, sortant d'à terre.",
+ "attacks": [
+  {
+   "name": "Vin",
+   "bonus": 7,
+   "damage": "3d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/34f6307f17_monstre-bodytaker-plante.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Bodytaker plante",
+ "vulnerabilities": "poison",
+ "conditionImmunities": "aveuglé, charmé, épuisement, effrayé, à terre",
+ "reactions": "**Harcèlement de transfert.** Déclencheur : Un jet d'attaque frappe l'usine alors qu'un podling se trouve à l'intérieur de 1,50 m de l'usine. Réponse : L'usine réduit de moitié les dégâts qu'elle prend lors de cette attaque, et le podling prend l'autre moitié des dégâts."
+}

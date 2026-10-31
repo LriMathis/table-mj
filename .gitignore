@@ -1,9 +1,11 @@
-__pycache__/
+﻿__pycache__/
 *.pyc
 # cloudflared binary, downloaded automatically for remote play
 tools/
 # automatic archives: kept on the game master's computer only
 data/backups/
 data/trash/
-# campaign saves: kept on each game master's computer only
-data/campaigns/
+# secret of the GM link for other computers (--gm-lan)
+data/gm-key.txt
+# maps built with Forgotten Adventures assets (personal-use licence): never published
+data/images/fa4_*

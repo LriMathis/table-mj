@@ -1,0 +1,48 @@
+{
+ "id": "bodhi-irenicus",
+ "name": "Bodhi Irenicus",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 17,
+ "hp": 212,
+ "hpFormula": "25d8+100",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 20,
+  "CON": 18,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Résistance légendaire (3/jour).** Si Bodhi échoue à un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Régénération.** Bodhi retrouve 20 points de vie au début de son tour si elle a au moins 1 points de vie et n'est pas en plein soleil. Si elle prend dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour.\n**Réjuvenance.** Si Bodhi est détruite, son corps apparaît immédiatement dans son lieu de repos. Elle est paralysé jusqu'à ce qu'elle retrouve au moins 1 points de vie. Après avoir passé 24 heures dans son lieu de repos avec 0 points de vie, elle retrouve 1 points de vie. Alors que paralysé de cette façon, si une créature au sein de 18 m dit son nom 9 fois, Bodhi est définitivement détruit.\n**Attaque d'éternuement (1/Turn).** Bodhi inflige un dégâts supplémentaire de 28 (8d6) lorsqu'elle frappe une cible avec une attaque d'arme et a un avantage sur la jet d'attaque, ou lorsque la cible est dans 1,50 m d'un allié de Bodhi qui n'est pas neutralisé et Bodhi n'a pas d'inconvénient sur la jet d'attaque.\n**Escalade des araignées.** Bodhi peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Invoqué par nom (1/jour).** Si une créature dit le nom complet de Bodhi Irenicus 9 fois de suite, Bodhi entend son nom et prend conscience de la créature. Bodhi connaît l'emplacement exact et le nom de la créature qui a parlé de son nom. Elle peut alors choisir, comme action libre, de se téléporter dans un endroit adjacent à la créature. Elle doit choisir de le faire dans les 1 minutes qui suivent son nom. Ce pouvoir fonctionne même si la créature est sur un autre plan d'existence. 1 minute après avoir téléporté, Bodhi téléporte de nouveau là où elle se trouvait lorsqu'elle a entendu son nom parler. Cela se produit même si Bodhi n'est pas disposée et même si elle est dans un effet antimagique.\n**Faiblesses du vampire.** Bodhi Irenicus présente les défauts suivants:\n- **Chant d'Elvish** Bodhi ne peut pas supporter une chanson jouée en langue elfique. Une créature qui peut parler le langage elfique peut utiliser une action pour chanter une chanson elfique. Si Bodhi est au sein de 18 m de la chanteuse et peut entendre la chanson, elle a un désavantage sur les attaques et jet de sauvegarde.\n- **Attrapez le cœur** Si une arme perçante en bois est poussée dans le cœur de Bodhi alors qu'elle est neutralisé dans son lieu de repos, Bodhi est paralysé jusqu'à ce que le pieu soit enlevé.\n- **Hypersensibilité à la lumière du soleil** Bodhi prend 20 dégâts radiants quand elle commence son tour en plein soleil. En plein soleil, elle a un désavantage sur jets d'attaque et tests de caractéristique.",
+ "actionsText": "**Multiattaque (formulaire de vampire seulement).** Bodhi fait trois attaques frappe à mains nues, dont l'une peut être une attaque Bite à la place.\n**frappe à mains nues (formulaire de vampire seulement).** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une créature. Touché : 9 (1d8 + 5) dégâts contondants. Au lieu d'infliger des dégâts, Bodhi peut atteindre une cible de taille moyenne ou plus petite (évasion DD 18).\n**Bite (forme de panthère ou de vampire seulement).** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une créature. Touché : 8 (1d6 + 5) dégâts perforants plus 14 (4d6) dégâts nécrotiques. La maximum de points de vie de la cible est réduite d'un montant égal à la dégâts nécrotiques prise, et Bodhi récupère la points de vie égale à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0. Un humanoïde tué de cette façon puis enterré dans le sol se lève la nuit suivante comme un vampire frayer sous le contrôle de Bodhi.\n**Modifier la forme.** Si Bodhi n'est pas au soleil, elle peut se polymorphiser en panthère moyenne ou revenir dans sa forme réelle. Alors que sous forme de panthère, Bodhi Irenicus ne peut pas parler, sa vitesse de marche est 12 m, et elle a une vitesse de montée de 9 m. Ses statistiques, autres que sa taille et sa vitesse, sont inchangées. Tout ce qu'elle porte se transforme avec elle, mais rien de ce qu'elle porte ne le fait. Elle revient à sa vraie forme si elle meurt.\n**Charme.** Bodhi cible un humanoïde qu'elle peut voir au sein de 9 m d'elle. Si la cible peut voir Bodhi, la cible doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou être charmé par Bodhi. La cible charmé considère Bodhi comme un ami de confiance pour être écouté et protégé. Bien que la cible n'est pas sous le contrôle de Bodhi, il prend les demandes ou les actions de Bodhi de la manière la plus favorable qu'il puisse. Chaque fois que Bodhi ou ses alliés font n'importe quoi qui nuit à la cible, il peut répéter le jet de sauvegarde, mettant fin à l'effet sur lui-même sur un succès. Sinon, l'effet dure 24 heures ou jusqu'à ce que Bodhi soit détruit, soit sur un plan d'existence différent de la cible, soit prend un action bonus pour mettre fin à l'effet.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues (formulaire de vampire seulement)",
+   "bonus": 10,
+   "damage": "1d8+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Bite (forme de panthère ou de vampire seulement)",
+   "bonus": 10,
+   "damage": "1d6+5",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/45deeb9be9_monstre-bodhi-irenicus.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +10, SAG +7, CHA +9",
+ "skills": "Perception +7, Discrétion +15",
+ "resistances": "nécrotique, contondant, perforant, tranchant des armes non magiques",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, bodhi irenicus peut entreprendre l'une des actions ci-après.\n**Bouge.** Bodhi passe à sa vitesse sans provoquer d'attaques d'opportunités.\n**frappe à mains nues.** Bodhi fait un frappe à mains nues.\n**Bite (coûts 2 actions).** Bodhi fait une attaque Bite."
+}

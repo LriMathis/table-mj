@@ -1,0 +1,38 @@
+{
+ "id": "fennor",
+ "name": "Fennor",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Sans déconner.** Au début de son tour, Fennor peut gagner de l'avantage sur toute l'arme à melee jets d'attaque pendant ce tour, mais jets d'attaque contre elle a un avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Fennor fait deux attaques avec sa grande épée\n**Grande épée.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/2cb0fadb10_monstre-fennor.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne"
+}

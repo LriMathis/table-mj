@@ -1,0 +1,39 @@
+{
+ "id": "redcap",
+ "name": "Redcap",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "6d6+24",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, sylvestre",
+ "traits": "**Bottes de fer.** La redcap présente un inconvénient sur tests de Dextérité (Discrétion).\n**Taille extérieure Force.** Pendant le combat, la calotte rouge est considérée comme étant moyenne. Aussi, manier une arme lourde n'impose pas de désavantage à son jets d'attaque.",
+ "actionsText": "**Multiattaques.** La casquette fait trois attaques de la faucille.\n**Fausse faucille.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d4 + 4) dégâts tranchants.\n**Poursuite en fer.** La redcap passe à sa vitesse à une créature qu'elle peut voir et frapper avec ses bottes de fer. La cible doit réussir sur un DD 14 jet de sauvegarde de Dextérité ou prendre 20 (3d10 + 4) dégâts contondants et être à terre.",
+ "attacks": [
+  {
+   "name": "Fausse faucille",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/29499f6972_monstre-redcap.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +6, Perception +3"
+}

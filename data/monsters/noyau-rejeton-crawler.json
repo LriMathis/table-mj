@@ -1,0 +1,53 @@
+{
+ "id": "noyau-rejeton-crawler",
+ "name": "Core Spawn Crawler",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 21,
+ "hpFormula": "6d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 9,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception des vibrations 18 m, Perception passive 15",
+ "languages": "Ça comprend le discours profond mais ne peut pas parler",
+ "traits": "**Tactiques de conditionnement.** Le rampeur a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du rampeur se trouve à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le rampeur fait quatre attaques: une avec sa morsure, deux avec ses griffes, et une avec sa queue.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d4 + 2) dégâts perforants et la cible doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou devenir effrayé jusqu'au début du prochain tour du rampeur.\n**Griffes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 4,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +4 au toucher, allonge 4,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9c36e89937_monstre-noyau-rejeton-crawler.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Noyau rejeton Crawler",
+ "skills": "Perception +5",
+ "immunities": "psychique",
+ "conditionImmunities": "aveuglé"
+}

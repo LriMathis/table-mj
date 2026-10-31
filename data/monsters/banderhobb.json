@@ -1,0 +1,53 @@
+{
+ "id": "banderhobb",
+ "name": "Banderhobb",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 84,
+ "hpFormula": "8d10+40",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 20,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "comprend le commun et les langues de son créateur mais ne peut pas parler",
+ "traits": "**Connexion de résonance.** Si le banderhobb a même un petit morceau d'une créature ou un objet en sa possession, comme une mèche de cheveux ou un éclat de bois, il connaît la route la plus directe vers cette créature ou objet s'il se trouve à l'intérieur de 1,5 km du banderhobb.",
+ "actionsText": "**Multiattaques.** Le banderhobb fait une attaque Bite et une attaque de langue. Il peut remplacer une attaque par une utilisation de Shadow Step.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 15 (3d6 + 5) dégâts perforants, et la cible est agrippé (évasion DD 16) si c'est une créature grande ou plus petite. Jusqu'à ce que ce grappin se termine, la cible est entravé, et le banderhobb ne peut pas utiliser son attaque Bite ou Tongue sur une autre cible.\n**Langue.** Attaque d'arme au corps à corps : +8 au toucher, allonge 4,50 m, une créature. Touché : 10 (3d6) dégâts nécrotiques, et la cible doit faire un DD 16 jet de sauvegarde de Force. Lors d'une sauvegarde ratée, la cible est tirée vers un espace situé à l'intérieur de 1,50 m du banderhobb.\n**Étape de l'ombre.** Le banderhobb téléporte jusqu'à 9 m dans un espace inoccupé de lumière ou d'obscurité qu'il peut voir.\n**Avalez.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature moyenne ou plus petite agrippé par le banderhobb. Touché : 15 (3d6 + 5) dégâts perforants. La créature est aussi avalée, et le grappin se termine. La créature avalée est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors du banderhobb, et il prend 10 (3d6) dégâts nécrotiques au début de chacun des tours du banderhobb. Une créature réduite à 0 points de vie de cette façon arrête de prendre le dégâts nécrotiques et devient stable.\nLe banderhobb ne peut avoir qu'une créature avalé à la fois. Bien que le banderhobb n'est pas neutralisé, il peut régurgiter la créature à tout moment (aucune action requise) dans un espace à l'intérieur de 1,50 m de lui. La créature sort d'à terre. Si le banderhobb meurt, il régurgite aussi une créature avalée.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "3d6+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Langue",
+   "bonus": 8,
+   "damage": "3d6",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Avalez",
+   "bonus": 8,
+   "damage": "3d6+5",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/73f73b4528_monstre-banderhobb.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +8, Discrétion +7",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Vols d'ombre.** Alors que dans la lumière sombre ou sombre, le banderhobb prend l'action Se cacher."
+}

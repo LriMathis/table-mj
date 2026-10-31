@@ -1,0 +1,42 @@
+{
+ "id": "geant-du-givre-squelette",
+ "name": "Frost Giant Skeleton",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 102,
+ "hpFormula": "12d12+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 9,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "C'est géant, mais il ne peut pas parler.",
+ "traits": "**Nature inhabituelle.** Le squelette n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le squelette fait deux attaques de grandaxe.\n**Grandaxe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 25 (3d12 + 6) dégâts tranchants.\n**Gel de l'étoile.** Le squelette cible une créature il peut voir dans 18 m de lui. La cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou prendre 35 (10d6) dégâts de froid et être paralysé jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 9,
+   "damage": "3d12+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/aa8b43a11f_monstre-geant-du-givre-squelette.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Géant du givre squelette",
+ "caNote": "déchets d'armures",
+ "vulnerabilities": "contondant",
+ "immunities": "froid, poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

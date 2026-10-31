@@ -1,0 +1,48 @@
+{
+ "id": "os-chevalier",
+ "name": "Bone Knight",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement non bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 20,
+ "hp": 84,
+ "hpFormula": "13d8+26",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Commandant des os.** En tant qu'action bonus, le chevalier peut cibler un squelette ou un zombie qu'il peut voir dans 9 m de lui. La cible doit faire un DD 14 jet de sauvegarde de Sagesse. Sur un sauvetage raté, la cible doit obéir aux ordres du chevalier jusqu'à ce que le chevalier meurt ou jusqu'à ce que le chevalier le libère comme un action bonus. Le chevalier peut commander jusqu'à douze morts-vivants à la fois de cette façon.\n**Maître de la bannière Pallid.** Alors que dans 18 m du chevalier, tout allié non mort du chevalier a avantage sur jet de sauvegarde contre tout effet qui devient non mort.\n**Détection orthographique.** Le chevalier est un épeautre de niveau 8. Son caractéristique d'incantation est Charisme (save spell DD 14, +6 au toucher avec attaques de sort). Il a les sorts de paladin suivants préparés:\n- Niveau 1 (4 emplacements) : Injonction, Duel forcé, Représailles infernales, Châtiment courroucé\n- Niveau 2 (3 emplacements) : Châtiment révélateur, Couronne du dément, Ténèbres, Appel de destrier, Arme magique",
+ "actionsText": "**Multiattaques.** Le chevalier attaque deux fois avec une de ses armes.\n**Grande épée.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.\n**Longbow.** Attaque d'arme à distance : +4 au toucher, portée 45/180 m., une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 4,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a9d21deba1_monstre-os-chevalier.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "aka": "Os chevalier",
+ "caNote": "armure d ' ossature",
+ "saves": "SAG +5, CHA +6",
+ "skills": "Athlétisme +7, Tromperie +6, Intimidation +6",
+ "resistances": "nécrotique, poison"
+}

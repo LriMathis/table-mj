@@ -1,0 +1,45 @@
+{
+ "id": "dragon-tortue",
+ "name": "Dragon-tortue",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 20,
+ "hp": 356,
+ "hpFormula": "23d20+115",
+ "vitesse": "6 m, nage 15 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "saves": "CON +11, SAG +7",
+ "resistances": "feu",
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "draconique, primordial (aquatique)",
+ "traits": "**Amphibie.** Le dragon peut respirer sous l’eau comme à l’air libre.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Morsure. Il peut en remplacer une par une attaque de Queue.\n**Morsure.** Corps à corps : +13, allonge 4,50 m. Touché : 23 (3d10 + 7) dégâts perforants plus 7 (2d6) dégâts de feu. Être immergé dans l’eau n’octroie pas la Résistance à ces dégâts de feu.\n**Queue.** Corps à corps : +13, allonge 4,50 m. Touché : 18 (2d10 + 7) dégâts contondants. Si la cible est une créature de taille TG ou inférieure, elle subit l’état À terre.\n**Souffle de vapeur (recharge 5–6).** JS Constitution : DD 19, chaque créature dans un Cône de 18 m. Échec : 56 (16d6) dégâts de feu. Réussite : demi-dégâts. Échec ou réussite : être immergé dans l’eau n’octroie pas la Résistance à ces dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 13,
+   "damage": "3d10+7+2d6",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Queue",
+   "bonus": 13,
+   "damage": "2d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/84946fcd53_monstre-dragon-tortue.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 115"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "nintra-siotta",
+ "name": "Nintra Siotta",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 17,
+ "hp": 306,
+ "hpFormula": "36d10+108",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 24,
+  "CON": 16,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 24
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 17",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Résistance légendaire (3/jour).** Si Nintra échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Nintra fait deux attaques.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d4 + 7) dégâts perforants.\n**Couche d'ombre.** Attaque de sort à distance : +12 au toucher, portée 36 m, une cible. Touché : 10 (1d6 + 7) dégâts nécrotiques, et si la cible est une créature, elle doit réussir sur une DD 20 jet de sauvegarde de Constitution ou être empoisonné jusqu'à la fin de son prochain tour.\n**Storm of Shattered Glass (Recharge 6).** Nintra vise un point qu'elle peut voir dans 18 m d'elle et crée une sphère 6 m -radius de shards de verre tourbillonnés centrés sur ce point. Chaque créature dans la sphère doit faire un DD 20 jet de sauvegarde de Dextérité, en prenant 28 (8d6) dégâts tranchants sur une sauvegarde ratée, ou la moitié de ces dégâts sur une sauvegarde réussie. Si Nintra est dans la sphère, les shards ne lui infligent aucun dégâts.\n**Détection orthographique.** Nintra lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (enregistrer DD 20) et ne nécessitant aucun composant matériel:\n- 3/jour chacun : Dissipation de la magie, Lueurs féeriques, Image miroir",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "2d4+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Couche d'ombre",
+   "bonus": 12,
+   "damage": "1d6+7",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/933c1fd666_monstre-nintra-siotta.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "saves": "FOR +8, DEX +12, SAG +7",
+ "skills": "Tromperie +12, Perspicacité +7, Perception +7",
+ "conditionImmunities": "charmé, épuisement, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, nintra siotta peut entreprendre l'une des actions ci-après.\n**Attaque.** Nintra fait une attaque.\n**Étape de la fièvre.** Nintra téléporte dans un espace inoccupé qu'elle peut voir au sein de 9 m d'elle.\n**Strikes d'ombre (coûts 2 actions).** A condition qu'elle soit en lumière vive ou sombre, Nintra provoque son ombre à attaquer une créature au sein de 3 m d'elle. Son ombre fait deux attaques de griffes, chacune identique à l'attaque de Nintra sauf qu'elle traite dégâts psychiques au lieu de dégâts perforants."
+}

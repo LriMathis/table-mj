@@ -1,0 +1,50 @@
+{
+ "id": "dragon-venerable-emerald",
+ "name": "Ancient Emerald Dragon",
+ "type": "Dragon (gemme)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal neutre",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 20,
+ "hp": 332,
+ "hpFormula": "19d20+133",
+ "vitesse": "12 m, creusement 9 m, vol 24 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 12,
+  "CON": 25,
+  "INT": 20,
+  "SAG": 18,
+  "CHA": 20
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 28",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Tunneler.** Le dragon peut creuser à la moitié de sa vitesse de creusement et laisser un tunnel 6 m dans son sillage.\n**Perception de la distorsion (1/jour).** Le dragon peut lancer Mirage, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 4,50 m, une cible. Touché : 18 (2d10 + 7) dégâts perforants plus 10 (3d6) dégâts psychiques.\n**Griffe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 14 (2d6 + 7) dégâts tranchants.\n**Respiration désorientante (Recharge 5-6).** Le dragon exhale une vague de dissonance psychique dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 22 jet de sauvegarde d'Intelligence. Sur une sauvegarde ratée, la créature prend 56 (16d6) dégâts psychiques, et jusqu'à la fin de son prochain tour, quand la créature fait un jet d'attaque ou un test de caractéristique, elle doit rouler un d8 et réduire le total par le nombre roulé. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts sans effets supplémentaires.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Main de mage (la main est invisible), Illusion mineure\n- 1/jour chacun : Détection des pensées, Dissipation de la magie, Forme éthérée, Image majeure, Double illusoire",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "2d10+7",
+   "type": "perforant + psychique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 14,
+   "damage": "2d6+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/409f812db7_monstre-dragon-venerable-emerald.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon vénérable Emerald",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +14, SAG +11, CHA +12",
+ "skills": "Arcanes +12, Tromperie +12, Perception +18, Discrétion +8",
+ "resistances": "feu, psychique",
+ "bonusActions": "**Modifier la forme.** Le dragon se transforme magiquement en toute créature moyenne ou petite, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si le dragon est réduit à 0 points de vie ou utilise un action bonus pour y mettre fin.\n**Étape psychique.** Le dragon se téléporte magiquement dans un espace inoccupé qu'il peut voir à l'intérieur de 18 m.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon vénérable emerald peut entreprendre l'une des actions ci-après.\n**Griffe.** Le dragon fait une attaque de griffe.\n**Psionics (coûts 2 actions).** Le dragon utilise psychique Step ou Spellcasting.\n**Emeraude Embers (coûts 3 actions).** Le dragon crée une mote de flamme verte autour d'une créature qu'il peut voir à l'intérieur de 18 m. La cible doit réussir sur un DD 20 jet de sauvegarde de Dextérité ou prendre 42 (12d6) dégâts de feu."
+}

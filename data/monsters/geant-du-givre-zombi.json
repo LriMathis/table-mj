@@ -1,0 +1,48 @@
+{
+ "id": "geant-du-givre-zombi",
+ "name": "Frost Giant Zombie",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 15,
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 6,
+  "CON": 21,
+  "INT": 3,
+  "SAG": 6,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "C'est géant, mais il ne peut pas parler.",
+ "traits": "**Numérotation Aura.** Toute créature qui commence son tour dans 3 m du zombie doit faire un DD 17 jet de sauvegarde de Constitution. À moins que le sauvetage ne réussisse, la créature ne peut pas faire plus d'une attaque, ou prendre un action bonus sur ce tour.\n**Fortitude non-morte.** Si les dégâts réduisent le zombie à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + les dégâts pris, à moins que les dégâts soient le feu, radieux, ou d'un coup critique. Sur un succès, le zombie tombe à 1 points de vie à la place.",
+ "actionsText": "**Multiattaques.** Le zombie fait deux attaques d'armes.\n**Grandaxe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 25 (3d12 + 6) dégâts tranchants.\n**Hurl Rock.** Attaque d'arme à distance : +10 au toucher, portée 18/72 m., une cible. Touché : 28 (4d10 + 6) dégâts contondants.\n**Gel de l'étoile.** Le zombie cible une créature il peut voir dans 18 m de lui. La cible doit réussir sur un DD 17 jet de sauvegarde de Constitution ou prendre 35 (10d6) dégâts de froid et être paralysé jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 10,
+   "damage": "3d12+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Hurl Rock",
+   "bonus": 10,
+   "damage": "4d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0cfa683a11_monstre-geant-du-givre-zombi.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Géant du givre zombi",
+ "caNote": "armure patchwork",
+ "saves": "SAG +2",
+ "immunities": "froid, poison",
+ "conditionImmunities": "empoisonné"
+}

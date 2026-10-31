@@ -1,0 +1,41 @@
+{
+ "id": "scribe-sivis",
+ "name": "Sivis Scribe",
+ "type": "Humanoïde (gnome)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 56,
+ "hpFormula": "16d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 16,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, Gnomish plus trois autres langues",
+ "traits": "**Motifs.** Les alliés dans une Emanation 3 m provenant du scribe ont Avantage sur jet de sauvegarde pour éviter ou mettre fin à l'état charmé ou effrayé. Ce trait ne fonctionne pas si le scribe a l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Le scribe fait deux attaques de Bursting Sigil.\n**Enterrement de Sigil.** Jet d'attaque au corps à corps ou à distance : +5, allonge 1,50 m ou portée 18 m. Touché : 13 (3d6 + 3) dégâts radiants.\n**Détection orthographique.** Le scribe lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (DD 13) :\n- À volonté : Compréhension des langues, Armure de mage (inclus dans CA), Message\n- 1/jour chacun : Communication à distance",
+ "attacks": [
+  {
+   "name": "Enterrement de Sigil",
+   "bonus": 5,
+   "damage": "3d6+3",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/f2fec61cf6_monstre-scribe-sivis.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "aka": "Scribe Sivis",
+ "saves": "SAG +3",
+ "skills": "Arcanes +5, Escamotage +4",
+ "reactions": "**Mot de la stase (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 13, chaque créature dans une Sphère 6 m -radius centrée sur un point que le scribe peut voir dans 18 m. Échec : La cible a l'état neutralisé jusqu'au début du prochain tour du scribe. Bien que la cible soit neutralisé, sa vitesse est 0 et ne peut pas augmenter."
+}

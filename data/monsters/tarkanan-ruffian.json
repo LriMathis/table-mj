@@ -1,0 +1,39 @@
+{
+ "id": "tarkanan-ruffian",
+ "name": "Tarkanan Ruffian",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, argot des voleurs",
+ "traits": "**Surgélation aberrante.** Lorsque le ruffien lance Trait ensorcelé, roulez 1d8. Sur un nombre pair, le ruffien gagne un nombre de points de vie temporaires égal au nombre roulé. Sur un nombre impair, une créature du choix du ruffian dans 9 m il prend dégâts de force égal au nombre roulé; si aucune autre créature n'est à portée, il prend les dégâts.",
+ "actionsText": "**Lancer.** Jet d'attaque au corps à corps ou à distance : +4, allonge 1,50 m ou portée 6/18 m. Touché : 6 (1d8 + 2) dégâts perforants.\n**Détection orthographique.** Le ruffien lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Constitution comme caractéristique d'incantation (spell save DD 12, +4 au toucher with attaques de sort) :\n- À volonté : Thaumaturgie\n- 1/jour : Trait ensorcelé",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c949314679_monstre-tarkanan-ruffian.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "saves": "DEX +3, CON +4",
+ "skills": "Intimidation +3, Perception +2"
+}

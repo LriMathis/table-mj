@@ -1,0 +1,42 @@
+{
+ "id": "planetar",
+ "name": "Planétar",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal bon",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 19,
+ "hp": 262,
+ "hpFormula": "21d10+147",
+ "vitesse": "12 m, vol 36 m (vol stationnaire)",
+ "stats": {
+  "FOR": 24,
+  "DEX": 20,
+  "CON": 24,
+  "INT": 19,
+  "SAG": 22,
+  "CHA": 25
+ },
+ "saves": "FOR +12, CON +12, SAG +11, CHA +12",
+ "skills": "Perception +11",
+ "resistances": "radiants",
+ "conditionImmunities": "charmé, effrayé, épuisement",
+ "senses": "Vision véritable 36 m, Perception passive 21",
+ "languages": "toutes, télépathie 36 m",
+ "traits": "**Résistance à la magie.** Le planétar a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration exaltée.** Si le planétar meurt hors du Mont Céleste, son corps disparaît et il en acquiert aussitôt un nouveau en revenant à la vie avec tous ses pv, quelque part sur le Mont Céleste.\n**Vigilance divine.** Le planétar reconnaît un mensonge quand il en entend un.",
+ "actionsText": "**Attaques multiples.** Le planétar effectue trois attaques d’Épée radiante ou recourt deux fois à Éruption bénie.\n**Épée radiante.** Corps à corps : +12, allonge 3 m. Touché : 14 (2d6 + 7) dégâts tranchants plus 18 (4d8) dégâts radiants.\n**Éruption bénie.** JS Dextérité : DD 20, chaque ennemi dans une Sphère de 6 m de rayon centrée sur un point que le planétar voit dans un rayon de 36 m. Échec : 24 (7d6) dégâts radiants. Réussite : demi-dégâts.\n**Incantation.** Le planétar lance l’un des sorts suivants sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 20) :\n- À volonté : *détection du mal et du bien*\n- 1/jour chacun : *communion*, *contrôle du climat*, *dissipation du mal et du bien*, *rappel à la vie*",
+ "bonusActions": "**Soutien divin (2/jour).** Le planétar lance *délivrance des malédictions*, *invisibilité*, *restauration partielle* ou *soins*, avec la même caractéristique d’incantation que pour Incantation.",
+ "attacks": [
+  {
+   "name": "Épée radiante",
+   "bonus": 12,
+   "damage": "2d6+7+4d8",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/c606484cc2_monstre-planetar.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 18"
+}

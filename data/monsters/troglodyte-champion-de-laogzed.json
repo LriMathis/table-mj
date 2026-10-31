@@ -1,0 +1,52 @@
+{
+ "id": "troglodyte-champion-de-laogzed",
+ "name": "Troglodyte Champion of Laogzed",
+ "type": "Humanoïde (Troglodyte)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 59,
+ "hpFormula": "7d8+28",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "Troglodyte",
+ "traits": "**Peau de caméléon.** Le troglodyte a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher.\n**Poignée.** Toute créature autre qu'un troglodyte qui commence son tour à l'intérieur de 1,50 m du troglodyte doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être empoisonné jusqu'au prochain tour de la créature. Sur un jet de sauvegarde réussi, la créature est immunisée contre la puanteur de tous les troglodytes pendant 1 heure.\n**Sensibilité à la lumière du soleil.** En plein soleil, le troglodyte présente un désavantage sur jets d'attaque ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le troglodyte fait trois attaques : une avec sa morsure et deux avec ses griffes ou son grand club.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts tranchants.\n**Grand club.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants.\n**acide Spray (Recharge 6).** Le troglodyte crache de l'acide dans une ligne 4,50 m longue et 1,50 m large. Chaque créature dans cette ligne doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 10 (3d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grand club",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d2178bd925_monstre-troglodyte-champion-de-laogzed.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Troglodyte champion de Laogzed",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +6, Intimidation +3, Discrétion +3"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "rendu-gris",
+ "name": "Gray Render",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 19,
+ "hp": 189,
+ "hpFormula": "18d10+90",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 13,
+  "CON": 20,
+  "INT": 3,
+  "SAG": 6,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le rendu gris fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d12 + 4) dégâts perforants. Si la cible est moyenne ou plus petite, la cible doit réussir sur un DD 16 jet de sauvegarde de Force ou être à terre.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants, plus 10 (3d6) dégâts contondants si la cible est à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d12+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "tranchant + contondant"
+  }
+ ],
+ "portrait": "/data/images/240096cd1b_monstre-rendu-gris.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Rendu gris",
+ "caNote": "armure naturelle",
+ "saves": "FOR +8, CON +9",
+ "skills": "Perception +2",
+ "reactions": "**Rampage sanguinaire.** Quand le rendu gris prend des dégâts, il fait une attaque de griffe contre une créature aléatoire à sa portée, autre que son maître."
+}

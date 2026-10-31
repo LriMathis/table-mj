@@ -1,0 +1,40 @@
+{
+ "id": "psurlon-ringer",
+ "name": "Psurlon Ringer",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 31,
+ "hpFormula": "7d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 11,
+  "CON": 10,
+  "INT": 17,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "Deep Speech plus les langues de l'Humanoïde il est imitant, télépathie 36 m",
+ "traits": "**Esprit aberrant.** La magie ne peut pas lire les pensées du psurlon ou le mettre dans le sommeil.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +2 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 2 (1d4) dégâts perforants plus 4 (1d8) dégâts psychiques.\n**Crush psychique.** Le psurlon cible une créature il peut voir en lui-même 36 m. La cible doit faire un DD 13 jet de sauvegarde de Sagesse, en prenant 12 (3d8 + 3) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Coulisse (Psioniques).** Le psurlon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- 1/jour : Suggestion\n- 2/jour : Armure de mage (autoseulement)",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/d63c6eea2b_monstre-psurlon-ringer.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "Armure de mage",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé"
+}

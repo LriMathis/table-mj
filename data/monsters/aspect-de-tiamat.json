@@ -1,0 +1,56 @@
+{
+ "id": "aspect-de-tiamat",
+ "name": "Aspect of Tiamat",
+ "type": "Dragon (chromatique)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "30",
+ "xp": 155000,
+ "ca": 23,
+ "hp": 574,
+ "hpFormula": "28d20+280",
+ "vitesse": "18 m, creusement 18 m, vol 36 m, nage 18 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 14,
+  "CON": 30,
+  "INT": 21,
+  "SAG": 20,
+  "CHA": 26
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 33",
+ "languages": "commun, draconique, infernal",
+ "traits": "**Cravate chromatique (recharge après un repos court ou long).** Si l'aspect était réduit à 0 points de vie, son total actuel points de vie se réinitialise à la place à 500 points de vie, elle recharge ses flammes chromatiques, et elle retrouve toutes les utilisations dépensées de la résistance légendaire. En outre, l'aspect peut maintenant utiliser les options dans la section « Actions Mythiques » pendant 1 heure. Attribuer à un parti un montant supplémentaire de 155.000 XP (310.000 XP au total) pour avoir vaincu l'aspect de Tiamat après l'activation de sa couronne chromatique.\n**Résistance légendaire (5/jour).** Si l'aspect échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** L'aspect fait une attaque Bite, une attaque Claw, et une attaque Tail.\n**Morceau.** Attaque d'arme au corps à corps : +19 au toucher, allonge 6 m, une cible. Touché : 23 (2d12 + 10) dégâts perforants plus 19 (3d12) dégâts de force.\n**Griffe.** Attaque d'arme au corps à corps : +19 au toucher, allonge 4,50 m, une cible. Touché : 21 (2d10 + 10) dégâts tranchants. Si la cible est une créature Énorme ou plus petite, elle est agrippé (évasion DD 20) et entravé jusqu'à ce que ce grappin se termine. L'aspect peut avoir seulement une créature agrippé de cette façon à la fois.\n**Queue.** Attaque d'arme au corps à corps : +19 au toucher, allonge 4,50 m, une cible. Touché : 23 (2d12 + 10) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 27 jet de sauvegarde de Force ou être à terre.\n**Flammes chromatiques (Recharge 5-6).** L'aspect exhale des flammes multicolores dans un cône 90 m. Chaque créature dans cette zone doit faire un DD 27 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la créature prend 71 (11d12) dégâts d'un type de l'aspect de choix: acide, froid, feu, foudre, ou poison. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 19,
+   "damage": "2d12+10",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 19,
+   "damage": "2d10+10",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 19,
+   "damage": "2d12+10",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/91316c57b6_monstre-aspect-de-tiamat.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Aspect de Tiamat",
+ "caNote": "armure naturelle",
+ "saves": "DEX +11, CON +19, SAG +14, CHA +17",
+ "skills": "Intimidation +26, Perception +23",
+ "immunities": "acide, froid, feu, foudre, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, empoisonné, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, aspect de tiamat peut entreprendre l'une des actions ci-après.\n**Attaque.** L'aspect fait une attaque de Griffe ou de Tail.\n**Bite furieuse (coûts 2 actions).** L'aspect fait une attaque Bite. Si l'attaque frappe une créature, la cible doit réussir sur un DD 27 jet de sauvegarde de Sagesse ou devenir effrayé de l'aspect jusqu'à la fin de son prochain tour.\n**Actions mythiques.**\n**Hurl par Avernus (coûts 2 actions).** L'aspect cible une créature qu'elle lutte. La créature doit réussir sur un DD 25 jet de sauvegarde de Charisme ou prendre 44 (8d10) dégâts psychiques et être bannie à Avernus (la première couche des Neuf Enfers). Au début du prochain tour de l'aspect, la créature réapparaît dans un espace inoccupé au sein de 3 m de l'aspect.\n**Flamme chromatique (coûts 3 actions).** L'aspect s'échauffe avec de l'énergie élémentaire. Chaque créature du choix de l'aspect dans une sphère 18 m -radius centrée sur elle doit faire un DD 27 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la créature prend 39 (6d12) dégâts d'un type choisi par l'aspect: acide, froid, feu, foudre, ou poison. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts."
+}

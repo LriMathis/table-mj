@@ -1,0 +1,41 @@
+{
+ "id": "buisson-malade",
+ "name": "Buisson malade",
+ "type": "Plante",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 13,
+ "caNote": "armure naturelle",
+ "hp": 4,
+ "hpFormula": "1d6+1",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 4,
+  "SAG": 8,
+  "CHA": 3
+ },
+ "skills": "Discrétion +3",
+ "vulnerabilities": "feu",
+ "conditionImmunities": "assourdi, aveuglé",
+ "senses": "vision aveugle 18 m (aveugle au-delà de cette distance), Perception passive 9",
+ "languages": "comprend le commun, mais ne peut pas parler",
+ "traits": "**Faux-semblant.** Aussi longtemps que le buisson malade reste immobile, il est impossible de le distinguer d'un arbuste mort.",
+ "actionsText": "**Griffes.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 3 (1d4+1) dégâts perforants.",
+ "portrait": "/data/images/895aa33c4c_monstre-buisson-malade.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 302 · image : Manuel des monstres p. 301",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ]
+}

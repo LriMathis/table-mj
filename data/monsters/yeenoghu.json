@@ -1,0 +1,51 @@
+{
+ "id": "yeenoghu",
+ "name": "Yeenoghu",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "24",
+ "xp": 62000,
+ "ca": 20,
+ "hp": 333,
+ "hpFormula": "23d12+184",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 16,
+  "CON": 26,
+  "INT": 16,
+  "SAG": 24,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 24",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Yeenoghu échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Yeenoghu a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Yeenoghu fait trois attaques de Flail.\n**Feu.** Attaque d'arme au corps à corps : +16 au toucher, allonge 4,50 m, une cible. Touché : 22 (2d12 + 9) dégâts de force. Si c'est son tour, Yeenoghu peut faire subir à la cible l'un des effets supplémentaires suivants, qu'il ne peut appliquer qu'une seule fois par tour.\n- **Confusion** La cible doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou être affectée par le sort de confusion jusqu'au début du prochain tour d'Yeenoghu.\n- **force** La cible prend un 13 (2d12) dégâts de force supplémentaire.\n- **Paralysie** La cible doit réussir sur un DD 17 jet de sauvegarde de Constitution ou être paralysé jusqu'au début du prochain tour d'Yeenoghu.\n**Morceau.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 20 (2d10 + 9) dégâts d'acide.\n**Détection orthographique.** Yeenoghu lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection de la magie\n- 1/jour : Téléportation\n- 3/jour chacun : Dissipation de la magie, Peur, Invisibilité",
+ "attacks": [
+  {
+   "name": "Feu",
+   "bonus": 16,
+   "damage": "2d12+9",
+   "type": "force"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 16,
+   "damage": "2d10+9",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/e207e5667e_monstre-yeenoghu.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +10, CON +15, SAG +14",
+ "skills": "Intimidation +9, Perception +14",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison, contondant, perforant, tranchant qui est non magique",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "bonusActions": "**Rampage.** Lorsque Yeenoghu réduit une créature à 0 points de vie avec une attaque à la mêlée, il se déplace jusqu'à la moitié de sa vitesse et fait une attaque Bite.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, yeenoghu peut entreprendre l'une des actions ci-après.\n**Frais.** Yeenoghu se déplace à sa vitesse.\n**Swat loin.** Yeenoghu fait une attaque de Flail. Si l'attaque frappe, la cible doit réussir sur un DD 24 jet de sauvegarde de Force ou être poussée jusqu'à 4,50 m dans une ligne droite loin d'Yeenoghu. Si le jet de sauvegarde échoue de 5 ou plus, la cible est également à terre.\n**Savage (coûts 2 actions).** Yeenoghu fait une attaque Bite séparée contre chaque créature dans 3 m de lui."
+}

@@ -1,0 +1,38 @@
+{
+ "id": "wiggan-nettlebee",
+ "name": "Wiggan Nettlebee",
+ "type": "Humanoïde (halfelin)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 36,
+ "hpFormula": "8d6+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, halfelin",
+ "traits": "**Dévotion courageuse.** Wiggan a un avantage sur jet de sauvegarde contre charmé ou effrayé.\n**Détection orthographique.** Wiggan est un épeautre de niveau 4. Son caractéristique d'incantation est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). Il a préparé les sorts clercs suivants:\n- Sorts mineurs (à volonté) : Assistance, Lumière, Réparation, Gourdin magique, Thaumaturgie\n- Niveau 1 (4 emplacements) : Amitié avec les animaux, Soins, Mot de guérison, Blessure, Communication avec les animaux\n- Niveau 2 (3 emplacements) : Peau d'écorce, Croissance d'épines, Arme spirituelle",
+ "actionsText": "**Multiattaques.** Wiggan fait deux attaques avec sa canne en bois.\n**Canne en bois.** Attaque d'arme au corps à corps : +0 au toucher (+4 au toucher avec shillelagh), allonge 1,50 m, une cible. Touché : 1 (1d4 - 1) dégâts contondants ou 6 (1d8 + 2) dégâts contondants avec shillelagh.",
+ "attacks": [
+  {
+   "name": "Canne en bois",
+   "bonus": 0,
+   "damage": "1d4-1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/23cafab010_monstre-wiggan-nettlebee.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "skills": "Tromperie +3, Perspicacité +4"
+}

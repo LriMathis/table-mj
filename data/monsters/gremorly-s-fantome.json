@@ -1,0 +1,44 @@
+{
+ "id": "gremorly-s-fantome",
+ "name": "Gremorly's Ghost",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 12,
+ "hp": 82,
+ "hpFormula": "15d8+15",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 7,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 18,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, draconique, nain, géant",
+ "traits": "**Vue éthérée.** Gremorly peut voir 18 m dans l'avion éthéré quand il est sur l'avion matériel, et vice versa.\n**Mouvement intégré.** Gremorly peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance légendaire (3/jour).** Si Gremorly échoue à un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Gremorly fait trois attaques de Withering Strike.\n**Grève de dépérissement.** Attaque de sort au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 19 (3d12) dégâts nécrotiques.\n**Nécromanèse des fèves.** Gremorly cible une créature qu'il peut voir dans 18 m de lui-même. La cible doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 61 (7d8 + 30) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. En outre, Gremorly retrouve 9 (2d8) points de vie.\n**Possession (Recharge 6).** Un humanoïde Gremorly peut voir dans 1,50 m de lui-même doit réussir sur un DD 15 jet de sauvegarde de Charisme ou être possédé par lui; Gremorly disparaît, et la cible a l'état neutralisé et perd le contrôle de son corps. Gremorly ne peut pas être ciblé par aucune attaque, sort, ou autre effet, sauf ceux qui tournent Undead, et il conserve son alignement, Intelligence, Sagesse, Charisme, et l'immunité aux conditions charmé et effrayé. Il utilise les statistiques de jeu de la cible, mais Gremorly n'a pas accès aux connaissances, aux fonctionnalités de classe ou aux compétences de la cible.\nLa possession dure jusqu'à ce que la cible tombe à 0 points de vie, Gremorly la termine comme un action bonus, ou Gremorly est tourné ou forcé par un effet comme le sort Dissipation du mal et du bien. Lorsque la possession prend fin, Gremorly réapparaît dans un espace inoccupé à l'intérieur de 1,50 m de la cible. La cible est à l'abri de cette possession pendant 24 heures après avoir réussi sur le jet de sauvegarde ou après la fin de la possession.\n**Détection orthographique.** Gremorly lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Lumières dansantes, Main de mage, Prestidigitation\n- 1/jour : Lenteur\n- 2/jour chacun : Malédiction, Dissipation de la magie",
+ "attacks": [
+  {
+   "name": "Grève de dépérissement",
+   "bonus": 8,
+   "damage": "3d12",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/67e4a97590_monstre-gremorly-s-fantome.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Gremorly's fantôme",
+ "saves": "INT +8, SAG +5",
+ "skills": "Arcanes +8, Histoire +8",
+ "resistances": "acide, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "bonusActions": "**Étape éthérée (Recharge 4-6).** Gremorly téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

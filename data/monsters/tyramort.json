@@ -1,0 +1,43 @@
+{
+ "id": "tyramort",
+ "name": "Tyramort",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 19,
+ "caNote": "armure naturelle",
+ "hp": 187,
+ "hpFormula": "25d10+50",
+ "vitesse": "0 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "saves": "FOR +5, CON +7, INT +9, SAG +7, CHA +9",
+ "skills": "Perception +12",
+ "immunities": "poison",
+ "conditionImmunities": "à terre, charmé, empoisonné, épuisé, paralysé, pétrifié",
+ "senses": "vision dans le noir 36 m, Perception passive 22",
+ "languages": "commun des profondeurs, profond",
+ "traits": "**Cône d'énergie négative.** L'œil central du tyramort émet un cône d'énergie négative de 45 mètres, invisible et magique. Au début de chacun de ses tours, le tyramort décide de la direction vers laquelle diriger le cône et choisit s'il l'active ou non. Une créature dans le cône ne peut plus récupérer ses points de vie. Un humanoïde qui meurt dans le cône devient un zombi sous les ordres du tyramort. L'humanoïde mort conserve sa place dans l'ordre d'initiative et s'anime au début de son prochain tour, à condition que son corps ne soit pas complètement détruit.",
+ "actionsText": "**Morsure.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 14 (4d6) dégâts perforants.\n**Rayons oculaires.** Le tyramort tire trois des rayons oculaires magiques suivants (déterminez-les aléatoirement et relancez en cas de résultats identiques), en désignant une à trois cibles situées à 36 mètres ou moins de lui et dans son champ de vision. Ses rayons sont identiques à ceux du tyrannœil (charme, paralysie, terreur, lenteur, nécrose 36 (8d8), télékinésie, sommeil, pétrification, désintégration 45 (10d8), mort 55 (10d10)), mais leur DD de sauvegarde est de 17.",
+ "legendary": "Le tyramort peut effectuer 3 actions légendaires et il utilise alors à chaque fois le rayon oculaire décrit ici. Il ne peut effectuer qu'une seule action légendaire à la fois et uniquement à la fin du tour d'une autre créature. Le tyramort récupère au début de son tour l'utilisation des actions légendaires déjà effectuées.\n**Rayon oculaire.** Le tyramort utilise un rayon oculaire aléatoire.",
+ "portrait": "/data/images/ef9679e182_monstre-tyramort.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 291 · image : Manuel des monstres p. 290",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "4d6",
+   "type": "perforant"
+  }
+ ]
+}

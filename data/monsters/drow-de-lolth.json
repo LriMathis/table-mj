@@ -1,0 +1,45 @@
+{
+ "id": "drow-de-lolth",
+ "name": "Drow of Lolth",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "commun, elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Le drow a Avantage sur jet de sauvegarde il fait d'éviter ou de terminer l'état charmé, et la magie ne peut pas mettre le drow à dormir.\n**Sensibilité à la lumière du soleil.** Pendant que dans la lumière du soleil, le drow a Déconseillé sur jets d'attaque.",
+ "actionsText": "**Violeur.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts perforants.\n**Acrobatie de la main.** Jet d'attaque à distance : +4, portée 9/36 m. Touché : 4 (1d4 + 2) dégâts perforants, et la cible fait un jet de sauvegarde. Jet de sauvegarde de Constitution : DD 12. Échec : La cible a l'état empoisonné pendant 1 heure. Si la cible échoue de 5 ou plus, elle a également l'état inconscient alors qu'empoisonné de cette façon. La cible se réveille si elle prend des dégâts ou si une créature dans 1,50 m prend une action pour la réveiller.\n**Détection orthographique.** Le sillon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 11) :\n- À volonté : Lumières dansantes\n- 1/jour : Lueurs féeriques",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie de la main",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9753793633_monstre-drow-de-lolth.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Drow de Lolth",
+ "skills": "Perception +2, Discrétion +4"
+}

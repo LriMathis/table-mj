@@ -1,0 +1,42 @@
+{
+ "id": "retriever",
+ "name": "Retriever",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 19,
+ "hp": 210,
+ "hpFormula": "20d10+100",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 16,
+  "CON": 20,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 18 m, Perception passive 15",
+ "languages": "comprend Abyssal, elfique, et Undercommon mais ne peut pas parler",
+ "traits": "**Traqueur sans faute.** Le récupérateur reçoit une carrière par son maître. La carrière peut être une créature ou un objet spécifique que le maître connaît personnellement, ou bien un type général de créature ou d'objet que le maître a vu auparavant. Le récupérateur connaît la direction et la distance de sa carrière aussi longtemps que les deux sont sur le même plan d'existence. Le récupérateur ne peut avoir qu'une seule carrière à la fois. Le récupérateur connaît aussi toujours l'emplacement de son maître.",
+ "actionsText": "**Multiattaques.** Le récupérateur fait deux attaques Foreleg, et il utilise force Beam ou Paralysing Beam, si disponible.\n**Précédant.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 15 (2d8 + 6) dégâts tranchants.\n**Boom force.** Le récupérateur cible une créature qu'il peut voir dans 18 m de lui. La cible doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 27 (5d10) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Paralysant faisceau (Recharge 5-6).** Le récupérateur cible une créature il peut voir dans 18 m de lui. La cible doit réussir sur un DD 18 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible paralysé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\nSi la créature paralysé est moyenne ou plus petite, le récupérateur peut la récupérer dans le cadre du déplacement du récupérateur et marcher ou monter avec lui à pleine vitesse.\n**Détection orthographique.** Le récupérateur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- 3/jour chacun : Changement de plan (seulement soi et jusqu'à une créature neutralisé, qui est considérée prête pour le sort), Toile d'araignée",
+ "attacks": [
+  {
+   "name": "Précédant",
+   "bonus": 11,
+   "damage": "2d8+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/75e55226b8_monstre-retriever.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +10, SAG +5",
+ "skills": "Perception +5, Discrétion +8",
+ "immunities": "nécrotique, poison, psychique, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné"
+}

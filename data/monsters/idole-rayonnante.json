@@ -1,0 +1,43 @@
+{
+ "id": "idole-rayonnante",
+ "name": "Radiant Idol",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 142,
+ "hpFormula": "15d10+60",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 18,
+  "CON": 19,
+  "INT": 17,
+  "SAG": 20,
+  "CHA": 21
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Aura de fausse divinité.** Une créature qui commence son tour dans 9 m de l'idole radieuse doit faire un DD 17 jet de sauvegarde de Sagesse, à condition que l'idole radieuse n'est pas neutralisé. Sur un sauvetage raté, la créature est charmé par l'idole radieuse. Une créature charmé de cette façon peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Une fois qu'il réussit sur le jet de sauvegarde, une créature est immunisée contre l'aura de la fausse Divinité de cette idole rayonnante pendant 24 heures.\n**Résistance magique.** L'idole radieuse a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** caractéristique d'incantation de l'idole radieuse est Charisme (sorption sauvegardez DD 17). L'idole radieuse peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Charme-personne, Soins, Déguisement, Thaumaturgie\n- 1/jour chacun : Communion, Domination de personne, Fléau d'insectes, Suggestion de groupe, Rappel à la vie",
+ "actionsText": "**Multiattaques.** L'idole radieuse fait deux attaques de mêlée.\n**Feu.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts contondants plus 18 (4d8) dégâts radiants.\n**Grève radiant (1/jour).** L'idole radieuse choisit un point sur le sol qu'elle peut voir dans 18 m de lui. Un 9 m -radius, 12 m -haut cylindre de lumière lumineuse apparaît là jusqu'au début du prochain tour de l'idole rayonnante. Chaque créature dans le cylindre quand il apparaît ou qui termine son tour là doit faire un DD 17 jet de sauvegarde de Constitution, en prenant 36 (8d8) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Feu",
+   "bonus": 10,
+   "damage": "1d8+6",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/a2957b2c92_monstre-idole-rayonnante.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "aka": "Idole rayonnante",
+ "caNote": "armure naturelle",
+ "saves": "SAG +9, CHA +9",
+ "skills": "Tromperie +9, Perspicacité +9, Perception +9, Persuasion +9",
+ "resistances": "radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé"
+}

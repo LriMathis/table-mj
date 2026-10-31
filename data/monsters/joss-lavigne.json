@@ -1,0 +1,37 @@
+{
+ "id": "joss-lavigne",
+ "name": "Joss Lavigne (Valets de Pique)",
+ "type": "Humanoïde ✎",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "attacks": [
+  {
+   "name": "Rapière",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Dague lancée (6/18 m)",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux attaques de rapière.\n**Parade (réaction).** +2 à la CA contre une attaque au corps à corps qui le toucherait.\n**Panache.** Il ne cherche pas à tuer, et se retire s'il tombe sous la moitié de ses PV.",
+ "portrait": "/data/images/ad45a4c918_monstre-chef-bandit.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

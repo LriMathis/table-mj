@@ -1,0 +1,42 @@
+{
+ "id": "hybride-poisoner",
+ "name": "Hybrid Poisoner",
+ "type": "Humanoïde (hybride simique)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 19,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 13",
+ "languages": "Commun plus une langue",
+ "traits": "**Assassinat.** Lors de son premier tour, l'hybride a avantage sur jets d'attaque contre toute créature qui n'a pas pris de tour. Tout coup de marque hybride contre une créature surpris est un coup critique.\n**Peau toxique.** Toute créature qui touche l'hybride ou la frappe avec une attaque de melee alors que dans 1,50 m il prend 3 (1d6) dégâts de poison.",
+ "actionsText": "**Touche toxique.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d6) dégâts contondants, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 minute. À la fin de chacun des tours de la cible empoisonné, elle doit répéter l'enregistrement, en prenant 3 (1d6) dégâts de poison sur un enregistrement échoué, ou en mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Touche toxique",
+   "bonus": 6,
+   "damage": "2d6",
+   "type": "contondant + poison"
+  }
+ ],
+ "portrait": "/data/images/2b8b23083b_monstre-hybride-poisoner.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Hybride Poisoner",
+ "saves": "DEX +6, CON +4",
+ "skills": "Athlétisme +3, Perception +3, Discrétion +6",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

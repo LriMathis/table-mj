@@ -1,0 +1,47 @@
+{
+ "id": "sorciere-du-sang",
+ "name": "Blood Witch",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 13,
+  "SAG": 9,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "Abyssal plus n'importe quelle langue (habituellement commune)",
+ "traits": "**Danse de la sorcière du sang.** La sorcière peut utiliser un action bonus pour contrôler le mouvement d'une créature maudit par son sort Maléfice qu'elle peut voir à l'intérieur de 9 m. La créature doit réussir sur un DD 15 jet de sauvegarde de Charisme ou utiliser sa réaction pour monter à 9 m dans la direction du choix de la sorcière.\n**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure de la sorcière.\n**Découpe intérieure.** caractéristique d'incantation innée de la sorcière est Charisme (spell save DD 15, +7 au toucher with attaques de sort). La sorcière peut innéement lancer les sorts suivants, ne nécessitant pas de composants matériels:\n- À volonté : Modification d'apparence, Détection de la magie, Décharge occulte (à de niveau 11), Simulacre de vie, Lévitation (autoseulement), Armure de mage (autoseulement)\n- 1/jour chacun : Cercle de mort, Discours captivant, Suggestion\n- 3/jour chacun : Représailles infernales, Maléfice, Rayon ardent (à de niveau 3)",
+ "actionsText": "**Multiattaques.** La sorcière fait deux attaques : l'une avec son épée longue et l'autre avec son épée courte.\n**Mot long.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants.\n**Mot-clé.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c11672f1c0_monstre-sorciere-du-sang.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Sorcière du sang",
+ "saves": "SAG +2, CHA +7",
+ "skills": "Arcanes +4, Intimidation +7, Perception +2, Discrétion +5",
+ "resistances": "psychique"
+}

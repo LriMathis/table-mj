@@ -1,0 +1,40 @@
+{
+ "id": "stomping-pied",
+ "name": "Stomping Foot",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre mauvais",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Tourner l'immunité.** Le pied est à l'abri des effets qui ne deviennent pas morts.",
+ "actionsText": "**Stompe.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Stompe",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/15466848be_monstre-stomping-pied.webp",
+ "notes": "",
+ "source": "The Orrery of the Wanderer (5e.tools, traduction automatique)",
+ "aka": "Stomping pied",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, empoisonné"
+}

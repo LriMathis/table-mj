@@ -1,0 +1,49 @@
+{
+ "id": "ember",
+ "name": "Ember",
+ "type": "Dragon (chromatique adulte)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 20,
+ "hp": 270,
+ "hpFormula": "20d12+140",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 10,
+  "CON": 25,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 22
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 26",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Aura calescente.** Au début du tour d'Ember, Ember peut forcer n'importe quel nombre de créatures de son choix dans 3 m de lui-même à faire un DD 22 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 7 (2d6) dégâts de feu et est effrayé d'Ember jusqu'au début de son prochain tour.\n**Résistance légendaire (5/jour).** Si Ember échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Matériel spécial.** Dans la bataille, Ember donne des armures de plaque magiques forgées sur mesure pour son utilisation. En portant l'armure, Ember ajoute son modificateur Charisme à son arme jets de dégâts (inclus dans les descriptions d'attaque), et son CA ne peut pas être inférieur à 20.",
+ "actionsText": "**Multiattaques.** Ember fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 26 (2d10 + 15) dégâts perforants plus 13 (2d6 + 6) dégâts de feu.\n**Griffe.** Attaque d'arme au corps à corps : +16 au toucher, allonge 1,50 m, une cible. Touché : 22 (2d6 + 15) dégâts tranchants.\n**Respiration d'incendie (Recharge 5-6).** Ember exhale les flammes et les cendres dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 22 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 56 (16d6) dégâts de feu et est poussée jusqu'à 9 m loin d'Ember et à terre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts sans autres effets. Si une créature est réduite à 0 points de vie par cet effet, la créature meurt immédiatement, et son corps est réduit en cendres.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 16,
+   "damage": "2d10+15",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 16,
+   "damage": "2d6+15",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/039a4f2c6a_monstre-ember.webp",
+ "notes": "",
+ "source": "MCV2DC (5e.tools, traduction automatique)",
+ "caNote": "matériel spécial",
+ "saves": "DEX +7, CON +14, SAG +9, CHA +13",
+ "skills": "Perception +16, Religion +10, Discrétion +14",
+ "immunities": "feu",
+ "bonusActions": "**Forme alter.** Ember se transforme magiquement en vautour ou en mage et conserve son alignement, ses immunités de dégâts, points de vie et dés de vie ainsi que ses scores Intelligence, Sagesse et Charisme. Cette transformation se termine si Ember est réduit à 0 points de vie ou s'il utilise un autre action bonus pour y mettre fin.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, ember peut entreprendre l'une des actions ci-après.\n**Poursuite.** Ember monte vers 12 m en ligne droite vers une créature qu'il peut voir. Ce mouvement ignore les attaques d'opportunités.\n**Bite de mise en mer (coûts 2 actions).** Ember fait une attaque Bite. Si l'attaque frappe, elle offre un 7 (2d6) dégâts de feu supplémentaire."
+}

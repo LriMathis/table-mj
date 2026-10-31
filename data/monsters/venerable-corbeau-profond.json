@@ -1,0 +1,49 @@
+{
+ "id": "venerable-corbeau-profond",
+ "name": "Ancient Deep Crow",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 187,
+ "hpFormula": "15d12+90",
+ "vitesse": "6 m, vol 24 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 23,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 17",
+ "languages": "Crow profond",
+ "traits": "**Résistance magique.** L'ancien corbeau profond a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Vols d'ombre.** Alors que dans la lumière faible ou l'obscurité, l'ancien corbeau profond peut prendre l'action Se cacher comme un action bonus.",
+ "actionsText": "**Multiattaques.** L'ancien corbeau profond fait trois attaques: une avec ses mandibules et deux avec ses griffes.\n**Obtention à partir de matières textiles.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants, et la cible est agrippé (évasion DD 19). Jusqu'à ce que ce grappin se termine, la cible est entravé, et l'ancien corbeau profond ne peut pas utiliser ses mandibules sur une autre cible.\n**Griffe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants.\n**Câble d'ombre.** L'ancien corbeau profond libère une scie à éclats d'oreilles. Chaque créature dans 18 m du corbeau et capable de l'entendre doit faire un DD 17 jet de sauvegarde de Constitution. Sur une défaillance, une créature prend 10 (3d6) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Obtention à partir de matières textiles",
+   "bonus": 11,
+   "damage": "2d10+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 11,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a491b85890_monstre-venerable-corbeau-profond.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "aka": "Vénérable corbeau profond",
+ "caNote": "armure naturelle",
+ "saves": "CON +11, SAG +7",
+ "skills": "Perception +7, Discrétion +13",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, vénérable corbeau profond peut entreprendre l'une des actions ci-après.\n**Détecter.** Le corbeau profond fait un test de Sagesse (Perception).\n**Sciure d'ombre (coûts 2 actions).** L'ancienne corneille profonde utilise la scie à ombre.\n**Attaque de l'escadre (coûts 2 actions).** L'ancien corbeau profond bat ses ailes. Chaque créature dans 3 m du corbeau profond doit réussir sur un DD 19 jet de sauvegarde de Dextérité ou prendre 13 (2d6 + 6) dégâts contondants et être à terre. L'ancien corbeau profond peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

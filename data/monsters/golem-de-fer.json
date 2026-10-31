@@ -1,0 +1,45 @@
+{
+ "id": "golem-de-fer",
+ "name": "Golem de fer",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non aligné",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 20,
+ "hp": 252,
+ "hpFormula": "24d10+120",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 9,
+  "CON": 20,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 1
+ },
+ "immunities": "feu, poison, psychiques",
+ "conditionImmunities": "charmé, effrayé, empoisonné, épuisement, paralysé, pétrifié",
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "comprend le commun et deux autres langues mais ne peut pas parler",
+ "traits": "**Absorption du feu.** Chaque fois que le golem est soumis à des dégâts de feu, il récupère en fait autant de points de vie que les dégâts de feu infligés.\n**Forme immuable.** Le golem ne peut pas être métamorphosé.\n**Résistance à la magie.** Le golem a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le golem effectue deux attaques, réparties à sa guise entre Lame brachiale et Trait enflammé.\n**Lame brachiale.** Corps à corps : +12, allonge 3 m. Touché : 20 (3d8 + 7) dégâts tranchants plus 10 (3d6) dégâts de feu.\n**Trait enflammé.** À distance : +10, portée 36 m. Touché : 36 (8d8) dégâts de feu.\n**Souffle empoisonné (recharge 6).** JS Constitution : DD 18, chaque créature dans un Cône de 18 m. Échec : 55 (10d10) dégâts de poison. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Lame brachiale",
+   "bonus": 12,
+   "damage": "3d8+7+3d6",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Trait enflammé",
+   "bonus": 10,
+   "damage": "8d8",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/ff31ecc502_monstre-golem-de-fer.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 169"
+}

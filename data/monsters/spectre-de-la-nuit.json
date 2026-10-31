@@ -1,0 +1,50 @@
+{
+ "id": "spectre-de-la-nuit",
+ "name": "Specter of Night",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 15,
+ "hp": 142,
+ "hpFormula": "15d12+45",
+ "vitesse": "18 m, vol 18 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 18,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Résistance légendaire (3/jour).** Si le spectre échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le spectre a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le spectre utilise Mournful Keening si disponible, puis fait une attaque Hooves et une attaque de Reaping Scythe.\n**Des voyous.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 16 (3d6 + 6) dégâts contondants plus 28 (8d6) dégâts nécrotiques. Si la cible est une créature moyenne ou plus petite, elle doit réussir sur un DD 18 jet de sauvegarde de Force ou avoir l'état à terre.\n**Bournful Keening (Recharge 6).** Le spectre fait des lamentations ardentes, appelant ceux qui sont près de la mort. Chaque créature non morte dans 36 m du spectre doit faire un DD 15 jet de sauvegarde de Constitution. En cas d'échec, la créature entend les lamentations et est marquée pour la mort.\nUne créature marquée pour la mort ne peut pas récupérer points de vie, a un désavantage sur la mort jet de sauvegarde, et tous les jets d'attaque contre elle sont faits avec avantage. Cet effet dure 1 minute ou jusqu'à ce que la créature soit ciblée par un sort Délivrance des malédictions ou une magie similaire.\n**Récupérer Scythe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 12 (1d12 + 6) dégâts tranchants plus 28 (8d6) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution ou gagner un niveau d'épuisement.",
+ "attacks": [
+  {
+   "name": "Des voyous",
+   "bonus": 10,
+   "damage": "3d6+6",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Récupérer Scythe",
+   "bonus": 10,
+   "damage": "1d12+6",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/191bc8ce5f_monstre-spectre-de-la-nuit.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Spectre de la nuit",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, SAG +5",
+ "skills": "Perception +5",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

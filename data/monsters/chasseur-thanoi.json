@@ -1,0 +1,48 @@
+{
+ "id": "chasseur-thanoi",
+ "name": "Thanoi Hunter",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "senses": "Perception passive 15",
+ "languages": "aquatique, commun",
+ "traits": "**Maintenez votre souffle.** Le chasseur peut retenir son souffle jusqu'à 10 minutes.\n**Tactiques de conditionnement.** Le chasseur a avantage sur un jet d'attaque contre une créature si au moins un des alliés du chasseur est dans 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le chasseur fait une attaque à un Harpoon os et une attaque à Tusk.\n**Harpoon désossé.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 3 m ou portée 6/18 m., une cible. Touché : 8 (1d8 + 4) dégâts perforants. Touché ou raté : Le harpon revient à la main du chasseur.\n**Tusque.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Harpoon désossé",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Tusque",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/86d2fa8529_monstre-chasseur-thanoi.webp",
+ "notes": "",
+ "source": "MCV2DC (5e.tools, traduction automatique)",
+ "aka": "Chasseur Thanoi",
+ "caNote": "Cache l'armure",
+ "saves": "FOR +6, CON +4",
+ "skills": "Athlétisme +6, Perception +5, Survie +5",
+ "immunities": "froid"
+}

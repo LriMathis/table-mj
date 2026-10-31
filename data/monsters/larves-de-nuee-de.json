@@ -1,0 +1,40 @@
+{
+ "id": "larves-de-nuee-de",
+ "name": "Swarm of Larvae",
+ "type": "Nuée de taille moyenne (Fiélon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "3d10+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 2
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "comprend tout, mais ne peut pas parler",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers une ouverture assez grande pour une créature moyenne. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Morceaux.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 9 (2d6 + 2) dégâts nécrotiques ou 7 (2d4 + 2) dégâts nécrotiques si l'essaim est en sang.",
+ "attacks": [
+  {
+   "name": "Morceaux",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/ae1b620355_monstre-larves-de-nuee-de.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Larves de nuée de",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

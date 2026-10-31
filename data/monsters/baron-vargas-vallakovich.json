@@ -1,0 +1,40 @@
+{
+ "id": "baron-vargas-vallakovich",
+ "name": "Baron Vargas Vallakovich",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 15,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "deux langues différentes",
+ "traits": "",
+ "actionsText": "**Violeur.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/bdb65df59c_monstre-baron-vargas-vallakovich.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "skills": "Tromperie +5, Perspicacité +4, Persuasion +5",
+ "reactions": "**Parry.** Vargas ajoute 2 à sa CA contre une attaque à la mêlée qui la frapperait. Pour ce faire, Vargas doit voir l'agresseur et utiliser une arme de mêlée."
+}

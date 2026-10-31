@@ -1,0 +1,37 @@
+{
+ "id": "chauve-souris",
+ "name": "Chauve-souris",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 1,
+ "hpFormula": "1d4–1",
+ "vitesse": "1,5 m, vol 9 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 15,
+  "CON": 8,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 11",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +4, allonge 1,50 m. Touché : 1 dégât perforant.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/7a047f7759_monstre-chauve-souris.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

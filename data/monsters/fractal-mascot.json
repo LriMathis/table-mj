@@ -1,0 +1,40 @@
+{
+ "id": "fractal-mascot",
+ "name": "Fractal Mascot",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "6d6+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Densité relative.** La fractale peut se déplacer à travers des créatures et des objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.",
+ "actionsText": "**Grève quantique.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts de force, ou 6 (2d4 + 1) dégâts de force si la fractale est moyenne ou plus grande.",
+ "attacks": [
+  {
+   "name": "Grève quantique",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/bcf8a643b7_monstre-fractal-mascot.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Augmentation.** La taille de la fractale augmente d'une catégorie. Alors que la fractale est moyenne ou plus grande, elle rend tests de Force et jet de sauvegarde de Force avec avantage. La fractale ne peut pas devenir plus grande que l'Énorme via ce action bonus.\n**Diminution.** La taille de la fractale diminue d'une catégorie. Alors que la fractale est Tiny, elle rend jets d'attaque, tests de Dextérité, et jet de sauvegarde de Dextérité avec avantage. La fractale ne peut devenir plus petite que 0,30 m en hauteur via ce action bonus."
+}

@@ -1,0 +1,48 @@
+{
+ "id": "maw-de-sekolah",
+ "name": "Maw of Sekolah",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 114,
+ "hpFormula": "12d12+36",
+ "vitesse": "0 m, nage 15 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 14,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "sahuagin, télépathie 30 m",
+ "traits": "**Résistance légendaire (2/jour).** Si la mache de Sekolah échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Respiration d'eau.** La mache de Sekolah ne peut respirer que sous l'eau.",
+ "actionsText": "**Multiattaques.** La mache de Sekolah fait une attaque avec sa morsure et une attaque avec sa queue fracassée.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants.\n**C'est la fin de l'histoire.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 9 (1d8 + 5) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "C'est la fin de l'histoire",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3de61c79d0_monstre-maw-de-sekolah.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Maw de Sekolah",
+ "caNote": "armure naturelle",
+ "saves": "FOR +8, CON +6",
+ "skills": "Athlétisme +8, Perception +5",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, maw de sekolah peut entreprendre l'une des actions ci-après.\n**Détecter.** La mache de Sekolah fait un test de Sagesse (Perception).\n**Vitesse de Sekolah.** La mache de Sekolah se déplace à sa vitesse.\n**Aliments pour animaux (coûts 2 actions).** L'esprit féroce de Sekolah brille dans l'eau, déchirant les ennemis de la mache de Sekolah. Chaque créature du choix de la scie dans 18 m de lui doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 7 (2d6) dégâts tranchants en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

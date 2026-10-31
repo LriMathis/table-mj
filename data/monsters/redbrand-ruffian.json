@@ -1,0 +1,39 @@
+{
+ "id": "redbrand-ruffian",
+ "name": "Redbrand Ruffian",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 9,
+  "SAG": 9,
+  "CHA": 11
+ },
+ "senses": "Perception passive 9",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0214fddbcd_monstre-redbrand-ruffian.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Intimidation +2"
+}

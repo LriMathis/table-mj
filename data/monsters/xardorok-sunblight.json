@@ -1,0 +1,48 @@
+{
+ "id": "xardorok-sunblight",
+ "name": "Xardorok Sunblight",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "commun, nain",
+ "traits": "**Résilience des duers.** Xardorok a avantage sur jet de sauvegarde contre le poison, les sorts et les illusions, ainsi que de résister à être charmé ou paralysé.\n**Sensibilité à la lumière du soleil.** En plein soleil, Xardorok a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Découpe intérieure.** caractéristique d'incantation inné de Xardorok est Charisme (sorption sauvegardez DD 15, +7 au toucher avec attaques de sort). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Décharge occulte (voir \"Actions\" ci-dessous), Main de mage\n- 1/jour chacun : Immobilisation de personne, Suggestion",
+ "actionsText": "**Multiattaques.** Xardorok attaque deux fois avec une arme ou lance deux fois Décharge occulte.\n**Gantelet épicé.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants, ou 8 (2d4 + 3) dégâts perforants alors que Xardorok est agrandi.\n**Blast d'Eldritch (sort mineur).** Attaque de sort à distance : +7 au toucher, portée 36 m, une créature. Touché : 9 (1d10 + 4) dégâts de force.\n**agrandir (recharges après un repos court ou long).** Pendant 1 minute, Xardorok augmente magiquement sa taille, avec tout ce qu'il porte ou porte. Alors qu'il est agrandi, Xardorok est grand, double ses dés de dégâts sur les attaques d'armes basées sur Force (inclus dans ses attaques), et rend tests de Force et jet de sauvegarde de Force avec avantage. Si Xardorok manque de la pièce pour devenir grand, il atteint la taille maximale possible dans l'espace disponible.\n**Invisible (Recharge 4-6).** Xardorok tourne magiquement invisible jusqu'à ce qu'il attaque, il jette un sort, il utilise son agrandir, ou son concentration est cassé (comme si concentrating sur un sort). Tout équipement Xardorok porte ou porte invisible avec lui.",
+ "attacks": [
+  {
+   "name": "Gantelet épicé",
+   "bonus": 6,
+   "damage": "1d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Blast d'Eldritch (sort mineur)",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/be50a699dd_monstre-xardorok-sunblight.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne",
+ "saves": "SAG +4, CHA +7",
+ "skills": "Arcanes +4, Tromperie +7, Intimidation +7",
+ "resistances": "poison",
+ "reactions": "**Réplique hellish (2/jour).** Lorsque Xardorok est endommagé par une créature au sein de 18 m de lui qu'il peut voir, la créature qui l'a endommagé est engloutie dans des flammes infernales et doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 16 (3d10) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

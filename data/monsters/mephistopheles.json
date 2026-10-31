@@ -1,0 +1,45 @@
+{
+ "id": "mephistopheles",
+ "name": "Mephistopheles",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "27",
+ "xp": 105000,
+ "ca": 21,
+ "hp": 460,
+ "hpFormula": "40d10+240",
+ "vitesse": "12 m, vol 30 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 23,
+  "CON": 22,
+  "INT": 30,
+  "SAG": 28,
+  "CHA": 26
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**La vue du diable.** Les ténèbres magiques n'empêchent pas la vision sombre de Méphistophéles.\n**Régénération fidendoise.** Mephistopheles retrouve 20 points de vie au début de son tour. S'il prend dégâts radiants ce trait ne fonctionne pas au début de son prochain tour. Méphistophélès ne meurt que s'il commence son tour avec 0 points de vie et est incapable de se régénérer.\n**Volée.** Mephistopheles ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.\n**Maître de feu de l'enfer.** dégâts de feu que Mephistopheles inflige ignore les résistances et les immunités. Méphistophéles est à l'abri de cet effet.\n**Résistance légendaire (3/jour).** Si Mephistopheles échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Mephistopheles a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Méphistopheles fait trois attaques de Ranseur. Il peut remplacer une des attaques par Hellfire Lash (si disponible).\n**Ranseur +3.** Attaque d'arme au corps à corps : +17 au toucher, allonge 3 m, une cible. Touché : 20 (2d10 + 9) dégâts perforants plus 18 (4d8) feu ou dégâts de froid (le choix de Méphistopheles).\n**Implosion de feu d'enfer (Recharge 4-6).** Une série lumineuse de Hellfire apparaît à un point que Méphistopheles peut voir au sein de 45 m de lui. Chaque créature dans une sphère 6 m -radius centrée sur ce point doit faire un DD 22 jet de sauvegarde de Dextérité. Les cibles prennent 31 (9d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Lash (Recharge 5-6) de Hellfire.** Mephistopheles déclenche un choc 18 m -long, 1,50 m - large de Hellfire qui allume une sphère de rayon 1,50 m - autour de laquelle il frappe. Toute cible dans la zone d'effet doit faire un DD 22 jet de sauvegarde de Dextérité, en prenant 36 (8d8) dégâts de feu sur une sauvegarde échouée, ou la moitié de celle sur une réussite.\n**Détection orthographique.** Mephistopheles lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 26) :\n- À volonté : Ténèbres, Détection du mal et du bien, Détection de la magie, Dissipation de la magie, Quête (durée 1 an), Restauration supérieure, Sanctification, Immobilisation de monstre, Localisation de créature, Localisation d'objet, Image majeure, Résurrection, Scrutation, Suggestion, Mur de feu\n- 1/jour chacun : Nuée de météores, Symbole, Souhait",
+ "attacks": [
+  {
+   "name": "Ranseur +3",
+   "bonus": 17,
+   "damage": "2d10+9",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a28ea30c85_monstre-mephistopheles.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +18, SAG +17, CHA +16",
+ "skills": "Tromperie +24, Perspicacité +25, Persuasion +24",
+ "resistances": "acide, froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "bonusActions": "**Téleport Ashen.** Le corps de Mephistopheles et tout équipement qu'il porte ou transporte tourne en cendres, puis il téléporte magiquement jusqu'à 36 m dans un espace inoccupé qu'il peut voir et réformer.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, mephistopheles peut entreprendre l'une des actions ci-après.\n**Ailes de feu de l'enfer.** Mephistopheles utilise ses ailes pour générer une explosion de chaleur. Chaque créature au sein de 3 m de lui doit réussir sur un DD 22 jet de sauvegarde de Dextérité ou prendre 9 (2d8) dégâts contondants plus 9 (2d8) dégâts de feu. Les créatures qui ont échoué l'enregistrement ont également l'état à terre.\n**Tempête de feu de l'enfer (coûts 2 actions).** Mephistopheles crée une pluie de Hellfire à un moment qu'il peut voir dans 45 m. Chaque créature dans une sphère 6 m -radius centrée sur ce point doit faire un DD 24 jet de sauvegarde de Dextérité. Les cibles prennent 38 (7d10) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Appel d'offres (coûts 3 actions).** Mephistopheles convoque un Diable cornu allié dans un espace inoccupé qu'il peut voir."
+}

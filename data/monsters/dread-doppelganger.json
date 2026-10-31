@@ -1,0 +1,39 @@
+{
+ "id": "dread-doppelganger",
+ "name": "Dread Doppelganger",
+ "type": "Monstruosité (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 22,
+  "CON": 14,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun",
+ "traits": "**Ambusher.** Le dread doppelganger a un avantage sur jets d'attaque contre toute créature qu'il a surpris.\n**Changeur de forme.** L'horrible doppelganger peut utiliser son action pour se polymorphiser en un humanoïde petit ou moyen qu'il a vu, ou de nouveau dans sa forme réelle. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**Attaque surprise.** Si l'effroyable doppelganger surprend une créature et la frappe avec une attaque lors du premier combat, la cible prend 17 (5d6) de plus de dégâts de l'attaque.",
+ "actionsText": "**Multiattaques.** Le doppelganger d'horreur fait trois attaques de Slam.\n**Clamer.** Attaque d'arme au corps à corps : +9 au toucher, portée 1,50 m, une cible. Touché : 10 (1d8 + 6).\n**Lire Pensées.** L'effroyable doppelganger lit magiquement les pensées de surface d'une créature à l'intérieur de 18 m. L'effet peut pénétrer les barrières, mais 0,90 m de bois ou de saleté, 0,60 m de pierre, 2 pouces de métal, ou une mince feuille de plomb le bloque. Alors que la cible est à portée, le dopeppeganger peut continuer à lire ses pensées, tant que la concentration du dopeppeganger n'est pas cassée (comme si concentrating sur un sort). En lisant l'esprit de la cible, le doppelganger a un avantage sur Sagesse (Perspicacité) et Charisme (Tromperie, Intimidation et Persuasion) contre la cible.\n**Détection orthographique.** Le dread doppelganger lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- 1/jour chacun : Image miroir, Double illusoire\n- 2/jour : Assassin imaginaire",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 9,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/47eadc50ba_monstre-dread-doppelganger.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "skills": "Tromperie +8, Discrétion +9",
+ "conditionImmunities": "charmé"
+}

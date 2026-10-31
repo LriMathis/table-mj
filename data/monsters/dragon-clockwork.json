@@ -1,0 +1,42 @@
+{
+ "id": "dragon-clockwork",
+ "name": "Clockwork Dragon",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, draconique",
+ "traits": "**Fausse apparence.** Tandis que le dragon d'horlogerie reste immobile, il est indissociable d'une statue en métal.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d10 + 2) dégâts perforants.\n**feu Respiration (Recharge 5-6).** Le dragon d'horlogerie exhale le feu dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 11 jet de sauvegarde de Dextérité, en prenant 14 (4d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c1de0af637_monstre-dragon-clockwork.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "aka": "Dragon Clockwork",
+ "caNote": "armure naturelle",
+ "skills": "Acrobaties +2, Perception +4",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

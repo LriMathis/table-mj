@@ -1,0 +1,48 @@
+{
+ "id": "vampire-nightbringer",
+ "name": "Vampire Nightbringer",
+ "type": "Mort-vivant",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 142,
+ "hpFormula": "19d8+57",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "Commun plus une autre langue",
+ "traits": "**Hypersensibilité à la lumière du soleil.** Le vampire prend 10 dégâts radiants s'il commence son tour dans la lumière du soleil. En plein soleil, il présente un désavantage sur jets d'attaque et tests de caractéristique.",
+ "actionsText": "**Multiattaques.** Le vampire fait une attaque Bite et une attaque Shadow Strike.\n**Morceau.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 7 (1d6 + 4) dégâts perforants plus 10 (3d6) dégâts nécrotiques. Le maximum de points de vie de la cible diminue d'un montant égal au dégâts nécrotiques pris, et le vampire récupère points de vie égal à ce montant.\n**Strike Ombre.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 7 (1d6 + 4) dégâts tranchants plus 14 (4d6) dégâts de froid.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Strike Ombre",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant + froid"
+  }
+ ],
+ "portrait": "/data/images/097919f10e_monstre-vampire-nightbringer.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "saves": "DEX +7, SAG +5",
+ "skills": "Perception +5, Discrétion +7",
+ "immunities": "froid, nécrotique",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "bonusActions": "**Vols d'ombre.** En Dim Light ou Darkness, le vampire prend l'action Se cacher."
+}

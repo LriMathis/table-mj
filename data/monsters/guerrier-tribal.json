@@ -1,0 +1,38 @@
+{
+ "id": "guerrier-tribal",
+ "name": "Guerrier tribal",
+ "type": "Humanoïde (n'importe quelle race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "n'importe quel alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "caNote": "armure de peau",
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix",
+ "traits": "**Tactique de groupe.** Le guerrier est avantagé lors d'un jet d'attaque effectué contre une créature si au moins un des alliés du guerrier se trouve à 1,50 mètre ou moins de la créature qu'il attaque et n'est pas neutralisé.",
+ "actionsText": "**Lance.** *Attaque d'arme au corps à corps ou à distance :* +3 pour toucher, allonge 1,50 m ou portée 6/18 m, une cible. *Touché :* 4 (1d6+1) dégâts perforants ou 5 (1d8+1) dégâts perforants si elle est maniée à deux mains pour effectuer une attaque au corps à corps.",
+ "portrait": "/data/images/a8a23d513f_monstre-guerrier-tribal.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 349 · image : internet",
+ "attacks": [
+  {
+   "name": "Lance",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ]
+}

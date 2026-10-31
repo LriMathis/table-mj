@@ -1,0 +1,40 @@
+{
+ "id": "ott-steeltoes",
+ "name": "Ott Steeltoes",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, nain",
+ "traits": "**Résilience des nains.** Ott a un avantage sur jet de sauvegarde contre le poison et la résistance à dégâts de poison.\n**Dévotion sombre.** Le cultivateur a un avantage sur jet de sauvegarde contre charmé ou effrayé.",
+ "actionsText": "**Scimitar.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d6 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/90023fe00d_monstre-ott-steeltoes.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Tromperie +2, Religion +0",
+ "resistances": "poison"
+}

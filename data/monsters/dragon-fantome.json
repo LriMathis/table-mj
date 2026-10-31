@@ -1,0 +1,49 @@
+{
+ "id": "dragon-fantome",
+ "name": "Ghost Dragon",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "tout alignement",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 10,
+ "hp": 324,
+ "hpFormula": "24d12+168",
+ "vitesse": "12 m, vol 24 m (vol stationnaire)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 25,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 24",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Mouvement intégré.** Le dragon fantôme peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance légendaire (3/jour).** Si le dragon fantôme échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Nature inhabituelle.** Le dragon fantôme n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le dragon fantôme fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 32 (6d8 + 5) dégâts de froid, et la vitesse de la cible est réduite de moitié jusqu'au début du prochain tour du dragon.\n**Griffe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts nécrotiques.\n**Souffle terrifiant (Recharge 6).** Le dragon fantôme exhale la brume ombreuse dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 21 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 40 (9d8) dégâts de froid et est effrayé du dragon fantôme pendant 1 minute. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas effrayé.\nAlors qu'effrayé du dragon fantôme, une créature est paralysé. La créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\nSi le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre le souffle terrifiant de ce dragon fantôme pour les prochaines 24 heures.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "6d8+5",
+   "type": "froid"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 11,
+   "damage": "2d8+5",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/bdc23fcd99_monstre-dragon-fantome.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon fantôme",
+ "saves": "CON +13, SAG +8, CHA +10",
+ "skills": "Perception +14, Discrétion +12",
+ "resistances": "contondant, perforant, tranchant",
+ "immunities": "acide, froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

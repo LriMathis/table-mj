@@ -1,0 +1,43 @@
+{
+ "id": "clockwork-gardienne",
+ "name": "Clockwork Defender",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 17,
+ "hp": 42,
+ "hpFormula": "5d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 1
+ },
+ "senses": "Perception passive 16",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Nature inhabituelle.** Le défenseur n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Bite électrifiée.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 7 (2d6) dégâts de foudre. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être agrippé (évasion DD 13). Une créature agrippé par le défenseur prend à nouveau les dégâts au début de chaque tour du défenseur. Le défenseur ne peut avoir qu'une créature agrippé de cette façon à la fois, et le défenseur ne peut pas faire des attaques de Bite électrifiées tout en se débattant.",
+ "attacks": [
+  {
+   "name": "Bite électrifiée",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant + foudre"
+  }
+ ],
+ "portrait": "/data/images/e8c83b85a5_monstre-clockwork-gardienne.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "aka": "Clockwork gardienne",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6, Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**faisceaux légers.** Le défenseur émet une lumière lumineuse de ses yeux dans un cône 18 m, ou il coupe cette lumière."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dragon-tortue-dragonnet",
+ "name": "Dragon Turtle Wyrmling",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 18,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "6 m, nage 9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "draconique",
+ "traits": "**Amphibie.** La tortue dragon peut respirer l'air et l'eau.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 11 (1d12 + 3) dégâts perforants.\n**Souffle de vapeur (Recharge 5-6).** La tortue du dragon exhale de la vapeur dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 12 jet de sauvegarde de Constitution, en prenant 17 (5d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Être sous l'eau n'accorde pas de résistance à ces dégâts.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8834fde3f3_monstre-dragon-tortue-dragonnet.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon-tortue dragonnet",
+ "caNote": "armure naturelle",
+ "saves": "DEX +2, CON +4, SAG +2",
+ "resistances": "feu"
+}

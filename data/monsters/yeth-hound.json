@@ -1,0 +1,41 @@
+{
+ "id": "yeth-hound",
+ "name": "Yeth Hound",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 51,
+ "hpFormula": "6d10+18",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "comprend Common, Elvish et Sylvan mais ne peut pas parler",
+ "traits": "**Interdiction de la lumière du soleil.** Si le chien de l'époque commence son tour dans la lumière du soleil, il est transporté à l'Aviation Étherale. Alors que la lumière du soleil brille sur l'endroit d'où elle a disparu, le chien doit rester dans le Deep Ethereal. Après le coucher du soleil, il retourne à la frontière éthéréale au même endroit, où il s'apprête généralement à trouver son paquet ou son maître. Le chien est visible sur l'avion matériel alors qu'il est dans l'éthéré frontalier, et vice versa, mais il ne peut pas affecter ou être affecté par rien sur l'autre plan. Une fois qu'elle est adjacente à son maître ou à un matelot qui se trouve sur le Plan Matériel, un chien de l'Ethereal Frontier peut retourner au Plan Matériel comme action.\n**Bond télépathique.** Tandis que le chien de l'instant est sur le même plan d'existence que son maître, il peut par magie transmettre ce qu'il sent à son maître, et les deux peuvent communiquer télépathiquement entre eux.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants, plus 14 (4d6) dégâts psychiques si la cible est effrayé.\n**Baleful Baying.** Le chien de l'an dernier c'est magique. Chaque ennemi au sein de 90 m du chien qui peut l'entendre doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être effrayé du chien jusqu'à la fin du prochain tour du chien ou jusqu'à ce que le chien soit neutralisé. Une cible effrayé qui commence son virage à l'intérieur de 9 m du chien doit utiliser tout son mouvement sur ce virage pour se rendre le plus loin possible du chien, doit terminer le mouvement avant de prendre une action, et doit prendre la route la plus directe, même si les dangers se trouvent de cette façon. Une cible qui sauve avec succès est à l'abri de l'éviction de tous les chiens pour les prochaines 24 heures.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/75eec243c3_monstre-yeth-hound.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques non faites avec des armes argentées",
+ "conditionImmunities": "charmé, épuisement, effrayé"
+}

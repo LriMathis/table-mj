@@ -1,0 +1,54 @@
+{
+ "id": "pelyious-avhoste",
+ "name": "Pelyious Avhoste",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 12,
+ "hp": 143,
+ "hpFormula": "22d8+44",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 17,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 18",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Maintenez votre souffle.** Pelyious peut retenir son souffle pendant 15 minutes.",
+ "actionsText": "**Multiattaque (forme humaine ou hybride).** Sous forme d'humanoïde, Pelyious fait deux attaques de Scimitar ou deux attaques d'arbustes à main. Sous forme hybride, il peut substituer une attaque Scimitar à une attaque Bite.\n**Scimitar (forme humaine ou hybride).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants plus 7 (2d6) dégâts de poison.\n**Acrobate à main (forme humaine ou hybride).** Attaque d'arme à distance : +6 au toucher, portée 9/27 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Bite (forme hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d10 + 4) dégâts perforants. Si la cible est moyenne ou plus petite, c'est agrippé (évasion DD 16) et jusqu'à ce que ce grappin se termine, la cible est entravé, et Pelyious ne peut pas Bit une autre cible.\n**Modifier la forme.** Polymorphes pélicieux en un hybride crocodile-humanoïde, ou de nouveau dans sa forme réelle, qui est Humanoïde. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**Détection orthographique.** Pelyious lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (sorption sauvegardez DD 15, +7 au toucher avec attaques de sort) :\n- À volonté : Trait de feu, Lumière, Main de mage, Prestidigitation\n- 1/jour chacun : Cône de froid, Contresort, Vol, Invisibilité supérieure\n- 2/jour chacun : Détection de la magie, Armure de mage, Bouclier, Suggestion",
+ "attacks": [
+  {
+   "name": "Scimitar (forme humaine ou hybride)",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Acrobate à main (forme humaine ou hybride)",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Bite (forme hybride seulement)",
+   "bonus": 8,
+   "damage": "1d10+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9db7e4952f_monstre-pelyious-avhoste.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "saves": "FOR +8, DEX +6",
+ "skills": "Perception +8, Discrétion +6",
+ "immunities": "poison, contondant, perforant, tranchant dégâts causés par des armes non magiques qui ne sont pas argentées",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Étape de la sliperie (2/jour).** Téléporte vers 9 m dans un espace inoccupé qu'il peut voir et utiliser Change Shape."
+}

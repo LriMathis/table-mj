@@ -1,0 +1,50 @@
+{
+ "id": "danika-dorakova",
+ "name": "Danika Dorakova",
+ "type": "Humanoïde (humain, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 31,
+ "hpFormula": "7d8",
+ "vitesse": "9 m (Flying 15 m sous forme de corbeilles et hybrides)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 13,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Perception passive 16",
+ "languages": "Fréquent (ne peut pas parler sous forme de corbeilles)",
+ "traits": "**Changeur de forme.** Danika peut utiliser son action pour se polymorphiser en un hybride raven-humanoïde ou en un raven, ou revenir dans sa forme humaine. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa forme humaine s'il meurt.\n**Mimétisme.** Danika peut imiter des sons simples qu'il a entendus, comme une personne qui murmure, un bébé qui pleure, ou un animal qui chie. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 10 test de Sagesse (Perspicacité).\n**Régénération.** Danika retrouve 10 points de vie au début de son tour. Si Danika prend des dégâts d'une arme argentée ou d'un sort, ce trait ne fonctionne pas au début du prochain tour de Danika. Danika meurt seulement si elle commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaque (forme humaine ou hybride seulement).** Danika fait deux attaques d'armes, dont l'une peut être avec son arbalète main.\n**Bec (forme Raven ou hybride seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants sous forme de corbeilles ou 4 (1d4 + 2) dégâts perforants sous forme hybride. Si la cible est humanoïde, elle doit réussir sur un DD 10 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie de werraven.\n**Mot court (forme humaine ou hybride seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Acrobate à main (forme humaine ou hybride seulement).** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec (forme Raven ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Mot court (forme humaine ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobate à main (forme humaine ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3a21b2651f_monstre-danika-dorakova.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "skills": "Perspicacité +4, Perception +6"
+}

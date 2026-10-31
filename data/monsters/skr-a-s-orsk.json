@@ -1,0 +1,45 @@
+{
+ "id": "skr-a-s-orsk",
+ "name": "Skr'a S'orsk",
+ "type": "Humanoïde (homme-lézard)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 8
+ },
+ "senses": "Perception passive 14",
+ "languages": "draconique",
+ "traits": "**Maintenez votre souffle.** Le lézardfolk peut retenir son souffle pendant 15 minutes.\n**Diffusion de l'orthographe (formulaire Lizardfolk seulement).** Skr'a S'orsk est un sorcier de niveau 5. Son caractéristique d'incantation est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). Skr'a S'orsk a les sorts druides suivants préparés:\n- Sorts mineurs (à volonté) : Flammes, Résistance, Fouet épineux\n- Niveau 1 (4 emplacements) : Enchevêtrement, Nappe de brouillard\n- Niveau 2 (3 emplacements) : Cécité/Surdité, Croissance d'épines\n- Niveau 3 (2 emplacements) : Animation des morts, Invocation d'animaux (reptiles seulement)",
+ "actionsText": "**Multiattaque (Forme de Lizardfolk seulement).** Le lézardfolk fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 7 (1d10 + 2) dégâts perforants sous forme Crocodile. Si Skr'a S'orsk est en forme de crocodile et que la cible est une créature grande ou plus petite, la cible est agrippé (évasion DD 12). Jusqu'à ce que ce grappin se termine, la cible est entravé, et Skr'a S'orsk ne peut pas mordre une autre cible. Si Skr'a S'orsk revient à sa vraie forme, le grappin se termine.\n**Griffes (formulaire Lizardfolk seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.\n**Modifier la forme (recharge après un repos court ou long).** Le lézardfolk se polymorphe magiquement en Crocodile, restant sous cette forme jusqu'à 1 heure. Il peut revenir à sa vraie forme comme un action bonus. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes (formulaire Lizardfolk seulement)",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/5572fa8690_monstre-skr-a-s-orsk.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4, Discrétion +4, Survie +6"
+}

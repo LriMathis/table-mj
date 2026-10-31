@@ -1,0 +1,44 @@
+{
+ "id": "aarakocre",
+ "name": "Aarakocre",
+ "type": "Humanoïde (aarakocre)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "6 m, vol 15 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "skills": "Perception +5",
+ "senses": "Perception passive 15",
+ "languages": "aarakocre, aérien",
+ "traits": "**Attaque en piqué.** Si l'aarakocre est en train de voler et effectue un piqué de 9 mètres au moins, tout droit vers une cible, puis la touche avec une attaque d'arme au corps à corps, celle-ci lui inflige 3 (1d6) dégâts supplémentaires.",
+ "actionsText": "**Javeline.** *Attaque d'arme au corps à corps ou à distance :* +4 pour toucher, allonge 1,50 m ou portée 9/36 m, une cible. *Touché :* 5 (1d6+2) dégâts perforants.\n**Serre.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 4 (1d4+2) dégâts tranchants.",
+ "portrait": "/data/images/c4636a7e3f_monstre-aarakocre.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 13 · image : Manuel des monstres p. 12",
+ "attacks": [
+  {
+   "name": "Javeline",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Serre",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "tsucora-quori",
+ "name": "Tsucora Quori",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 68,
+ "hpFormula": "8d8+32",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun, Quori",
+ "traits": "**La diffusion de l'orthographe innée (Psioniques).** Le caractéristique d'incantation du quori est Charisme (spell save DD 14). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Charme-personne\n- 1/jour : Peur",
+ "actionsText": "**Multiattaques.** Le quori fait trois attaques : une attaque de pincer, une attaque avec ses griffes, et une attaque de stinger.\n**Pincer.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts contondants. La cible est agrippé (évasion DD 14) si c'est une créature grande ou plus petite. Le quori a deux pincers, qui peuvent chacun battre une cible.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (4d4 + 3) dégâts tranchants.\n**Aiguille.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une créature. Touché : 8 (1d10 + 3) dégâts perforants plus 10 (3d6) dégâts psychiques, et la cible doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être effrayé du quori pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Possession (Recharge 6).** Un humanoïde que le quori peut voir à l'intérieur de 1,50 m de lui doit réussir sur un DD 14 jet de sauvegarde de Charisme ou être possédé par le quori; le quori disparaît alors, et la cible est neutralisé et perd le contrôle de son corps. Le quori contrôle maintenant le corps mais ne prive pas la cible de la conscience. Le quori ne peut être ciblé par aucun effet d'attaque, sort, ou autre, et il conserve son alignement, Intelligence, Sagesse, Charisme, et l'immunité à être charmé et effrayé. Il utilise les statistiques de la cible possédée, mais n'a pas accès aux connaissances, aux fonctionnalités de classe ou aux compétences de la cible.\nLa possession dure jusqu'à ce que le corps tombe à 0 points de vie, le quori la termine comme un action bonus, ou le quori est forcé par un effet comme le sort Dissipation du mal et du bien. Lorsque la possession prend fin, le quori réapparaît dans un espace inoccupé à l'intérieur de 1,50 m du corps. La cible est à l'abri de la possession de ce quori pendant 24 heures après avoir réussi sur le jet de sauvegarde ou après la fin de la possession.",
+ "attacks": [
+  {
+   "name": "Pincer",
+   "bonus": 6,
+   "damage": "1d10+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "4d4+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Aiguille",
+   "bonus": 6,
+   "damage": "1d10+3",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/9520b5e8f9_monstre-tsucora-quori.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "SAG +5, CHA +6",
+ "skills": "Perspicacité +5, Perception +5",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé, effrayé"
+}

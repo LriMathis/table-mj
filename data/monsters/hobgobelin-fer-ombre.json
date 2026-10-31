@@ -1,0 +1,46 @@
+{
+ "id": "hobgobelin-fer-ombre",
+ "name": "Hobgoblin Iron Shadow",
+ "type": "Fée (gobelinoïde)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, gobelin",
+ "traits": "**Défense non armée.** Alors que le hobgoblin ne porte pas d'armure et n'a pas de bouclier, son CA inclut son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Le hobgoblin fait quatre attaques, chacune pouvant être une attaque frappe à mains nues ou Dart. Il peut également utiliser\nShadow Jaunt une fois, soit avant ou après l'une des attaques.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts contondants.\n**Débrouille-toi.** Attaque d'arme à distance : +5 au toucher, portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants.\n**La chasse aux ombres.** Les téléportages de hobgoblin, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir. Tant l'espace qu'il laisse et sa destination doivent être dans la lumière sombre ou sombre.\n**Détection orthographique.** Le hoblogoblin lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Illusion mineure, Prestidigitation\n- 1/jour chacun : Charme-personne, Déguisement, Image silencieuse",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a5e73fc899_monstre-hobgobelin-fer-ombre.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Hobgobelin fer ombre",
+ "caNote": "Défense non armée",
+ "skills": "Acrobaties +5, Athlétisme +4, Discrétion +5"
+}

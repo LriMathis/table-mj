@@ -1,0 +1,40 @@
+{
+ "id": "wyllow",
+ "name": "Wyllow",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 16,
+ "hp": 132,
+ "hpFormula": "24d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 20,
+  "CHA": 11
+ },
+ "senses": "Perception passive 19",
+ "languages": "commun, druidique, elfique",
+ "traits": "**Détection orthographique.** Wyllow est un épeautre de niveau 18. Son caractéristique d'incantation est Sagesse (save spell DD 17, +9 au toucher avec attaques de sort). Il a les sorts druides suivants préparés:\n- Sorts mineurs (à volonté) : Druidisme, Réparation, Bouffée de poison, Flammes\n- Niveau 1 (4 emplacements) : Soins, Enchevêtrement, Lueurs féeriques, Communication avec les animaux\n- Niveau 2 (3 emplacements) : Messager animal, Sens animal, Immobilisation de personne\n- Niveau 3 (3 emplacements) : Invocation d'animaux, Fusion dans la pierre, Respiration aquatique\n- Niveau 4 (3 emplacements) : Domination de bête, Localisation de créature, Peau de pierre, Mur de feu\n- Niveau 5 (3 emplacements) : Communion avec la nature, Soins de groupe, Passage par les arbres\n- Niveau 6 (1 emplacements) : Guérison, Festin des héros, Rayon de soleil\n- Niveau 7 (1 emplacements) : Tempête de feu\n- Niveau 8 (1 emplacements) : Formes animales\n- Niveau 9 (1 emplacements) : Prémonition",
+ "actionsText": "**Scimitar.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.\n**Forme du changement (2/jour).** Wyllow se polymorphe magiquement en bête ou élémental avec une cote de défi de 6 ou moins, et peut rester dans cette forme jusqu'à 9 heures. Wyllow peut choisir si son équipement tombe au sol, se mélange avec sa nouvelle forme, ou est porté par la nouvelle forme. Wyllow revient à sa forme réelle s'il meurt ou tombe inconscient. Wyllow peut revenir à sa vraie forme en utilisant un action bonus à son tour.\nAlors que dans une nouvelle forme, Wyllow conserve ses statistiques de jeu et sa capacité à parler, mais ses CA, modes de mouvement, Force, et Dextérité sont remplacés par ceux de la nouvelle forme, et il gagne tous les sens spéciaux, les compétences, les traits, les actions et les réactions (sauf les caractéristiques de classe, les actions légendaires et les actions de lair) que la nouvelle forme a mais qu'elle manque. Il peut jeter ses sorts avec des composants verbaux ou somatiques dans sa nouvelle forme.\nLes attaques de la nouvelle forme sont magiques pour surmonter les résistances et l'immunité aux attaques non magiques.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 6,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/70a36b0663_monstre-wyllow.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure, Bouclier",
+ "saves": "INT +5, SAG +9",
+ "skills": "Médecine +9, Nature +5, Perception +9"
+}

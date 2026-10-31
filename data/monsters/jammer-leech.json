@@ -1,0 +1,41 @@
+{
+ "id": "jammer-leech",
+ "name": "Jammer Leech",
+ "type": "Plante",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "5d4+15",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 1,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Surcharge d'orthographe.** Si la sangsue est réduite à 0 points de vie alors qu'elle est fixée à un navire qui a une barre de jammage, la créature attachée à cette barre doit faire une DD 13 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 10 (4d4) dégâts psychiques et est neutralisé pendant 1 minute. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et est neutralisé jusqu'à la fin de son prochain tour.\n**Nature inhabituelle.** La sangsue n'a pas besoin d'air ou de sommeil.",
+ "actionsText": "**Tentacle épicé.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Tentacle épicé",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6d878f391b_monstre-jammer-leech.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "conditionImmunities": "charmé, effrayé, à terre",
+ "bonusActions": "**Joindre à Hull.** La sangsue s'attache à la coque d'un navire dans son espace, en traitant 2 (1d4) dégâts perforants au navire (en faisant fi du seuil de dégâts du navire). Ces dégâts ne peuvent être réparés avant que la lunette ne soit arrachée de la coque. Pendant que la sangsue est fixée, sa vitesse est de 0, et il peut se détacher comme un action bonus. En action, une créature à portée de la sangsue peut essayer de la gratter de la coque, ce faisant avec un succès DD 18 test de Force. Lors d'une vérification ratée, l'action est gâchée car la sangsue reste attachée à la coque. Enlever la sangsue de cette façon ne cause aucun dégâts à la sangsue ou au navire.",
+ "reactions": "**Décharge magique (1/jour).** Lorsqu'il prend des dégâts, la sangsue peut décharger un boulon d'énergie magique de son œil qui cible une créature il peut voir en 9 m de lui-même. La cible doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou prendre 10 (3d6) dégâts de force et être étourdi jusqu'à la fin de son prochain tour."
+}

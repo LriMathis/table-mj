@@ -1,0 +1,40 @@
+{
+ "id": "thopter-owl",
+ "name": "Thopter (Owl)",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "1,50 m, vol 18 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 13,
+  "CON": 8,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Volée.** Le thoptère ne provoque pas d'attaques d'opportunité quand il vole hors de la portée d'un ennemi.\n**Audition et vue.** Le thoptère a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou la vue.",
+ "actionsText": "**Talons.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Talons",
+   "bonus": 3,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/ddd1ff4629_monstre-thopter-owl.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +3",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

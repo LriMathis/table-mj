@@ -1,0 +1,49 @@
+{
+ "id": "sheldon-le-dragon-blueberry",
+ "name": "Sheldon the Blueberry Dragon",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre bon",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 142,
+ "hpFormula": "15d10+60",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 13,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 12",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Habitation spatiale.** Sheldon peut respirer normalement dans un vide.",
+ "actionsText": "**Multiattaques.** Sheldon fait deux attaques Bite, deux attaques Blueberry Fling, ou l'une de chacune.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 4 (1d8) dégâts psychiques.\n**Flèche de bleuets.** Attaque d'arme à distance : +7 au toucher, portée 9 m, une créature. Touché : 11 (2d6 + 4) dégâts aux bleuets.\n**Jetstream souffle (Recharge 5-6).** Sheldon exhale une ligne de vent magique qui est longue 18 m et large 1,50 m. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Force. Sur une sauvegarde ratée, la créature prend 21 (6d6) dégâts de force, est poussé 4,50 m loin de Sheldon, et a l'état à terre. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement.\n**Coulisse (Psioniques).** Sheldon lance l'un des sorts suivants, ne nécessitant pas de composants de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Lumière, Main de mage (la main est invisible)\n- 1/jour chacun : Porte dimensionnelle, Télékinésie",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + psychique"
+  },
+  {
+   "name": "Flèche de bleuets",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/234c18317b_monstre-sheldon-le-dragon-blueberry.webp",
+ "notes": "",
+ "source": "MisMV1 (5e.tools, traduction automatique)",
+ "aka": "Sheldon le dragon Blueberry",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +7, INT +6",
+ "skills": "Acrobaties +7, Athlétisme +7, Représentation +6",
+ "resistances": "force, psychique",
+ "bonusActions": "**Évents (2/jour).** Sheldon invoque une puissante rafale de vent et vole à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités. À la fin de ce mouvement, chaque créature de 1,50 m de Sheldon doit réussir sur un DD 15 jet de sauvegarde de Force ou avoir l'état à terre, alors que le vent éclate autour de Sheldon."
+}

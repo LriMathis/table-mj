@@ -1,0 +1,40 @@
+{
+ "id": "spiked-gardien-tombe",
+ "name": "Spiked Tomb Guardian",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 9,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Berserk.** Chaque fois que le gardien tombe commence son tour avec 40 points de vie ou moins, roulez un d6. Sur un 6, le gardien tombe en colère. Sur chacun de ses virages tandis que berserk, le gardien du tombeau attaque la créature la plus proche qu'il puisse voir. Si aucune créature n'est assez proche pour se déplacer et attaquer, le gardien du tombeau attaque un objet, avec la préférence pour un objet plus petit qu'elle-même. Une fois que le gardien de tombe est en colère, il continue à le faire jusqu'à ce qu'il soit détruit ou retrouve tout son points de vie. Le créateur du golem, si au sein de 18 m du gardien tombeau berkerk, peut essayer de le calmer en parlant fermement et avec persuasion. Le gardien de tombe doit pouvoir entendre son créateur, qui doit prendre une mesure pour faire un DD 15 test de Charisme (Persuasion). Si le chèque réussit, le gardien du tombeau cesse d'être bercé. S'il prend des dégâts alors qu'il est encore à 40 points de vie ou moins, le gardien de la tombe pourrait à nouveau faire du berserk.\n**Aversion de feu.** Si le gardien de tombe prend dégâts de feu, il a un désavantage sur jets d'attaque et tests de caractéristique jusqu'à la fin de son prochain tour.\n**Formulaire immuable.** Le gardien du tombeau est à l'abri de tout sort ou effet qui modifierait sa forme.\n**foudre absorption.** Chaque fois que le gardien de tombe est soumis à dégâts de foudre, il ne prend aucun dégâts et récupère plutôt un nombre de points de vie égal à la dégâts de foudre distribuée.\n**Résistance magique.** Le gardien de tombe a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes du golem sont magiques.\n**Enchaîné.** Ce caractère s'applique lorsque deux tuteurs sont enchaînés ensemble.\nUne chaîne magique qui lie une paire de gardiens les empêche de se déplacer plus que 4,50 m. De plus, tant que la chaîne est intacte, les dégâts infligés à l'un ou l'autre gardien sont répartis uniformément entre eux. La chaîne peut être attaquée séparément et a CA 18, un seuil de dégâts de 10, 5 points de vie, et l'immunité au poison et dégâts psychiques. Si la chaîne se brise, les deux gardiens de tombes se mettent en colère.",
+ "actionsText": "**Multiattaques.** Le gardien de la tombe fait deux attaques de gantelet.\n**Gantelet épicé.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants plus 9 (2d6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Gantelet épicé",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant + perforant"
+  }
+ ],
+ "portrait": "/data/images/7f24484835_monstre-spiked-gardien-tombe.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Spiked gardien tombe",
+ "immunities": "foudre, poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

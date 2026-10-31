@@ -1,0 +1,39 @@
+{
+ "id": "noggle-ransacker",
+ "name": "Noggle Ransacker",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 13,
+ "hpFormula": "3d6+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 15,
+  "CON": 13,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, sylvestre",
+ "traits": "**Monstre de siège.** Le noggle inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Sabotage Swipe.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts tranchants. Si la cible porte une armure, elle est soumise à l'effet suivant. Jet de sauvegarde de Dextérité : DD 12. Échec : L'armure prend une pénalité de -1 à la CA qu'elle offre. La cible peut prendre une mesure pour enlever la pénalité de son armure.",
+ "attacks": [
+  {
+   "name": "Sabotage Swipe",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b34ccee956_monstre-noggle-ransacker.webp",
+ "notes": "",
+ "source": "Lorwyn: First Light (5e.tools, traduction automatique)",
+ "skills": "Discrétion +4",
+ "bonusActions": "**Échappement de Nimble.** Le noggle prend l'action Se désengager ou Se cacher."
+}

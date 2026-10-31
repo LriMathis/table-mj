@@ -1,0 +1,41 @@
+{
+ "id": "nuee-de-lemures",
+ "name": "Swarm of Lemures",
+ "type": "Nuée de taille moyenne (Fiélon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 7,
+  "CON": 14,
+  "INT": 1,
+  "SAG": 12,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 36 m (unimpeded by magical Darkness), Perception passive 11",
+ "languages": "comprend Infernal mais ne peut pas parler",
+ "traits": "**Restauration de l'enfer.** Si l'essaim meurt dans les Neuf Enfers, il ressuscite avec tout son points de vie en 1d10 jours à moins qu'il ne soit tué par une créature sous les effets d'un sort Bénédiction ou ses restes sont aspergés d'Eau bénite.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers une ouverture assez grande pour une créature moyenne. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Multiattaques.** L'essaim fait deux attaques de Vile Slime.\n**Slime vile.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 11 (2d8 + 2) dégâts de poison ou 9 (2d6 + 2) dégâts de poison si l'essaim est en sang.",
+ "attacks": [
+  {
+   "name": "Slime vile",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/a97159c37d_monstre-nuee-de-lemures.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Nuée de Lemures",
+ "resistances": "contondant, froid, perforant, tranchant",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi"
+}

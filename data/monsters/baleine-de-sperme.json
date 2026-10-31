@@ -1,0 +1,45 @@
+{
+ "id": "baleine-de-sperme",
+ "name": "Sperm Whale",
+ "type": "Bête",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 13,
+ "hp": 189,
+ "hpFormula": "14d20+42",
+ "vitesse": "0 m, nage 18 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 8,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Écholocation.** La baleine ne peut pas utiliser sa vue aveugle pendant assourdi.\n**Maintenez votre souffle.** La baleine peut retenir son souffle pendant 90 minutes.\n**Audience Keen.** La baleine a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe.",
+ "actionsText": "**Multiattaques.** La baleine fait deux attaques : une avec sa morsure et une avec sa queue.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 21 (3d8 + 8) dégâts perforants. Si la cible est une créature grande ou plus petite, elle doit réussir sur une DD 14 jet de sauvegarde de Dextérité ou être avalée par la baleine. Une créature avalée a 3 contre des attaques et d'autres effets en dehors de la baleine, et il faut 3 (1d6) dégâts d'acide au début de chaque tour de la baleine. Si la baleine subit 30 dégâts ou plus sur un seul virage d'une créature à l'intérieur, la baleine doit réussir sur un DD 16 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m de la baleine. Si la baleine meurt, une créature avalée peut s'échapper du corps en utilisant 6 m de mouvement, sortant d'à terre.\n**Queue.** Attaque d'arme au corps à corps : +11 au toucher, allonge 4,50 m, une cible. Touché : 18 (3d6 + 8) dégâts contondants, ou 37 (6d6 + 16) dégâts contondants si la cible est un objet.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "3d8+8",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Queue",
+   "bonus": 11,
+   "damage": "3d6+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/927df5fba5_monstre-baleine-de-sperme.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Baleine de sperme",
+ "caNote": "armure naturelle"
+}

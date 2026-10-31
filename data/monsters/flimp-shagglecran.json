@@ -1,0 +1,41 @@
+{
+ "id": "flimp-shagglecran",
+ "name": "Flimp Shagglecran",
+ "type": "Humanoïde (gnome)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 21,
+ "hp": 137,
+ "hpFormula": "25d6+50",
+ "vitesse": "7,50 m, vol 7,50 m, nage 18 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, nain, géant, gnome",
+ "traits": "**Bataille Smith.** Flimp utilise son modificateur Intelligence pour attaquer et jets de dégâts avec ses armes.\n**Gnome Cunning.** Flimp a un avantage sur tous les Intelligence, Sagesse et jet de sauvegarde de Charisme contre la magie.\n**Matériel spécial.** Flimp porte une armure Cape de la raie manta, une armure Cape de protection, +2 et une armure Bottes ailées. Flimp manie un warhammer +2. Ces objets disparaissent 4 jours après la mort de Flimp.",
+ "actionsText": "**Multiattaques.** Flimp fait deux attaques de Warhammer magiques.\n**La guerre magique.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts contondants plus 3 (1d6) dégâts de force.\n**Hurl acide (Recharge 6).** Flimp lance un flacon d'acide à un endroit situé à l'intérieur de 18 m. Chaque créature dans 3 m de l'emplacement cible doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 21 (6d6) dégâts d'acide.\n**Invoquer un défenseur de l'acier (1/jour).** Flimp appelle une panthère métallique pour l'aider au combat. La panthère a 24 points de vie et est immunisée contre dégâts de poison et les conditions de poison et charmé.\n**Détection orthographique.** Flimp lance l'un des sorts suivants en utilisant Intelligence comme son caractéristique d'incantation (spell save DD 16) :\n- À volonté : Assistance, Lumière\n- 1/jour chacun : Clignotement, Arme élémentaire, Bouclier de feu\n- 2/jour chacun : Aide, Flou, Soins, Bouclier",
+ "attacks": [
+  {
+   "name": "La guerre magique",
+   "bonus": 10,
+   "damage": "1d8+6",
+   "type": "contondant + force"
+  }
+ ],
+ "portrait": "/data/images/f12e2ef41a_monstre-flimp-shagglecran.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "+2 plaque, Cape de protection",
+ "saves": "CON +6, INT +8",
+ "skills": "Arcanes +8, Histoire +8, Médecine +5",
+ "reactions": "**Flash de génie.** Lorsque Flimp ou une autre créature qu'il peut voir dans 9 m de lui fait un test de caractéristique ou un jet de sauvegarde, Flimp peut utiliser sa réaction pour ajouter +4 au rouleau."
+}

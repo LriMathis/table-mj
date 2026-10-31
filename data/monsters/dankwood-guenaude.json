@@ -1,0 +1,38 @@
+{
+ "id": "dankwood-guenaude",
+ "name": "Dankwood Hag",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "",
+ "languages": "—",
+ "traits": "**Amphibie.** La colère peut respirer de l'air et de l'eau.\n**Mimétisme (Hag vert).** La harpe peut imiter des sons animaux et des voix humanoïdes. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 14 test de Sagesse (Perspicacité).\n**Découpe intérieure.** caractéristique d'incantation est Charisme (Spell save DD 12). Il peut innément lancer les sorts suivants:\n- À volonté : Lumières dansantes, Illusion mineure, Moquerie cruelle",
+ "actionsText": "**Apparence illusoire.** La harpe se couvre d'une illusion magique qui lui permet de ressembler à une autre créature de sa taille et de sa forme générales. L'illusion se termine quand la harpe choisit, ou si elle meurt. Un DD 20 test d'Intelligence (Investigation) exposera le déguisement de la ham.\n**Passage invisible.** Le ham tourne magiquement invisible jusqu'à ce qu'elle attaque ou jette un sort, ou jusqu'à ce que son concentration se termine. Alors qu'invisible, elle ne laisse aucune preuve physique de son passage, et ne peut être suivi que par la magie.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, une cible. Touché : 17 (2d8 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/eb545fe895_monstre-dankwood-guenaude.webp",
+ "notes": "points de vie : 82",
+ "source": "Adventure with Muk (5e.tools, traduction automatique)",
+ "aka": "Dankwood guenaude"
+}

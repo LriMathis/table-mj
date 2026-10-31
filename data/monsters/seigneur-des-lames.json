@@ -1,0 +1,56 @@
+{
+ "id": "seigneur-des-lames",
+ "name": "The Lord of Blades",
+ "type": "Humanoïde (warforged)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 19,
+ "hp": 195,
+ "hpFormula": "23d8+92",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Perception passive 19",
+ "languages": "commun, draconique, nain, elfique",
+ "traits": "**Plaquette d'Adamantine.** Tout coup critique contre le Seigneur des Blades devient un coup normal.\n**Armure à lames.** Une créature qui bat le Seigneur des Lames ou est agrippé par lui prend 13 (3d8) dégâts tranchants. Une créature prend 13 (3d8) dégâts tranchants s'il commence son tour à grappiller ou à être agrippé par le Seigneur des Lames.\n**Frais.** Si le Seigneur des Blades se déplace au moins 3 m droit vers une cible et le frappe avec son sixblade adamantine au même tour, la cible prend un 11 (2d10) dégâts tranchants supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 19 jet de sauvegarde de Force ou être poussée jusqu'à 3 m et à terre.\n**Résilience guerrière.** Le Seigneur des Blades a avantage sur jet de sauvegarde contre le fait d'être empoisonné, est immunisé contre maladie, et la magie ne peut pas le faire dormir.\n**Détection orthographique.** Le Seigneur des Blades est un épeautre de niveau 20. Son caractéristique d'incantation est Intelligence (save spell DD 18, +10 au toucher avec attaques de sort). Il a préparé les sorts d'artifice suivants:\n- Sorts mineurs (à volonté) : Trait de feu (voir \"Actions\" ci-dessous), Main de mage, Réparation, Prestidigitation\n- Niveau 1 (4 emplacements) : Repli expéditif, Sanctuaire, Vague tonnante\n- Niveau 2 (3 emplacements) : Flou, Métal brûlant, Rayon ardent, Voir l'invisible\n- Niveau 3 (3 emplacements) : Dissipation de la magie, Vol, Hâte\n- Niveau 4 (3 emplacements) : Liberté de mouvement, Chien de garde de Mordenkainen\n- Niveau 5 (2 emplacements) : Animation d'objets, Mur de force",
+ "actionsText": "**Multiattaques.** Le Seigneur des Lames fait trois attaques : deux avec son sixlade d'adamantine et une avec ses ailes lames.\n**Adamantine Sixblade.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 21 (3d10 + 5) dégâts tranchants plus 7 (2d6) dégâts de force.\n**Ailes lamellées.** Attaque d'arme au corps à corps ou à distance : +11 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 8 (1d6 + 5) dégâts tranchants.\n**feu Bolt (sort mineur).** Attaque de sort à distance : +10 au toucher, portée 36 m, une cible. Touché : 22 (4d10) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Adamantine Sixblade",
+   "bonus": 11,
+   "damage": "3d10+5",
+   "type": "tranchant + force"
+  },
+  {
+   "name": "Ailes lamellées",
+   "bonus": 11,
+   "damage": "1d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "feu Bolt (sort mineur)",
+   "bonus": 10,
+   "damage": "4d10",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/6429b03ae4_monstre-seigneur-des-lames.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "aka": "Seigneur des lames",
+ "caNote": "armure naturelle",
+ "saves": "FOR +11, CON +10, INT +10, SAG +9",
+ "skills": "Arcanes +10, Athlétisme +11, Histoire +10, Perception +9",
+ "resistances": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, maladie",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, seigneur des lames peut entreprendre l'une des actions ci-après.\n**Attaque.** Le Seigneur des Lames fait une attaque d'arme.\n**sort mineur.** Le Seigneur des Lames jette un de ses sorts mineurs.\n**Lancer un sort (coûts 2 actions).** Le Seigneur des Blades jette un sort de de niveau 2 ou moins de sa liste de sorts qui prend 1 action pour lancer.\n**Blade Dash (coûts 3 actions).** Le Seigneur des Blades se déplace à sa vitesse sans provoquer d'attaques d'occasion, puis fait une attaque avec son sixblade adamantine. Il peut faire attaquer une seule aile lame contre chaque créature qu'il passe."
+}

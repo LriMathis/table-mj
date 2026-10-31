@@ -1,0 +1,41 @@
+{
+ "id": "vrock",
+ "name": "Vrock",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 152,
+ "hpFormula": "16d10+64",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "saves": "DEX +5, SAG +4, CHA +2",
+ "resistances": "feu, foudre, froid",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Résistance à la magie.** Le vrock a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration démoniaque.** Si le vrock meurt hors des Abysses, son corps se dissout en ichor et il en acquiert aussitôt un nouveau en revenant à la vie avec tous ses pv, quelque part dans les Abysses.",
+ "actionsText": "**Attaques multiples.** Le vrock effectue deux attaques de Déchiquetage.\n**Déchiquetage.** Corps à corps : +6, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Piaillement étourdissant (1/jour).** JS Constitution : DD 15, chaque créature dans une Émanation de 6 m centrée sur le vrock (les démons réussissent automatiquement). Échec : 10 (3d6) dégâts de tonnerre, et la cible subit l’état Étourdi jusqu’à la fin du tour suivant du vrock.\n**Spores (recharge 6).** JS Constitution : DD 15, chaque créature dans une Émanation de 6 m centrée sur le vrock. Échec : la cible subit l’état Empoisonné et réitère le JS à la fin de chacun de ses tours ; elle met un terme à l’effet sur elle-même en cas de réussite. Ainsi Empoisonnée, une cible subit 5 (1d10) dégâts de poison au début de chacun de ses tours. Vider une flasque d’eau bénite sur la cible met prématurément fin à l’effet.",
+ "attacks": [
+  {
+   "name": "Déchiquetage",
+   "bonus": 6,
+   "damage": "2d6+3+3d6",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/5c549575b3_monstre-vrock.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 58"
+}

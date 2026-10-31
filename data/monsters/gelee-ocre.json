@@ -1,0 +1,41 @@
+{
+ "id": "gelee-ocre",
+ "name": "Gelée ocre",
+ "type": "Vase",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "2",
+ "xp": 450,
+ "ca": 8,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 6,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "resistances": "acide",
+ "immunities": "foudre, tranchants",
+ "conditionImmunities": "à terre, agrippé, assourdi, charmé, effrayé, entravé, épuisement",
+ "senses": "Vision aveugle 18 m, Perception passive 8",
+ "languages": "aucune",
+ "traits": "**Informe.** La gelée peut se déplacer dans un espace étroit d’une largeur minimale de 2,5 cm sans dépense supplémentaire en déplacement.\n**Pattes d’araignée.** La gelée peut parcourir les parois les plus difficiles à escalader, y compris les plafonds, sans passer par un test de caractéristique.",
+ "actionsText": "**Pseudopode.** Corps à corps : +4, allonge 1,50 m. Touché : 12 (3d6 + 2) dégâts d’acide.",
+ "reactions": "**Division.** Déclencheur : alors que la gelée est de taille G ou M et dispose d’au moins 10 points de vie, elle se retrouve En péril ou subit des dégâts de foudre ou tranchants. Conséquences : la gelée se divise en deux nouvelles gelées ocres. Chaque nouvelle gelée présente une catégorie de taille de moins que la gelée dont elle est issue et agit au même rang d’Initiative. Les points de vie de la gelée d’origine sont divisés équitablement entre les deux nouvelles (arrondis à l’inférieur).",
+ "attacks": [
+  {
+   "name": "Pseudopode",
+   "bonus": 4,
+   "damage": "3d6+2",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/600f2f9c49_monstre-gelee-ocre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 299"
+}

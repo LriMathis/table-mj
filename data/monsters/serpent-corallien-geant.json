@@ -1,0 +1,39 @@
+{
+ "id": "serpent-corallien-geant",
+ "name": "Giant Coral Snake",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 12",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (2d4 + 3) dégâts perforants, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin de son prochain tour. Sur un sauvetage raté, la cible commence à halluciner et est affligée d'un effet de folie à court terme (déterminé au hasard ou par le MD ; voir \"Madeness\" au chapitre 8 du 8). L'effet dure 10 minutes.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e8acabc324_monstre-serpent-corallien-geant.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Serpent corallien géant",
+ "skills": "Perception +2"
+}

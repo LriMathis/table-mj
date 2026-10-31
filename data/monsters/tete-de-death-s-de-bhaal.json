@@ -1,0 +1,40 @@
+{
+ "id": "tete-de-death-s-de-bhaal",
+ "name": "Death's Head of Bhaal",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 76,
+ "hpFormula": "8d8+40",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 20,
+  "CON": 20,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun",
+ "traits": "**Aura de meurtre.** Tant que la tête de la mort n'est pas neutralisé, les créatures hostiles au sein de 1,50 m de celle-ci deviennent vulnérables à dégâts perforants à moins qu'elles n'aient une résistance ou une immunité à de tels dégâts.\n**Résistance magique.** La tête de la mort a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** La tête de la mort utilise le gaz stupéfiant et fait deux attaques de poignard.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d4 + 5) dégâts perforants.\n**Éblouissante gaze.** La tête de la mort vise une créature il peut voir dans 9 m de lui. La cible doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être étourdi jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 7,
+   "damage": "1d4+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5a1a18c410_monstre-tete-de-death-s-de-bhaal.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Tête de Death's de Bhaal",
+ "skills": "Intimidation +6, Perception +4, Persuasion +6, Discrétion +11",
+ "reactions": "**Incapable (3/jour).** La tête de la mort réduit les dégâts qu'elle prend d'une attaque à 0."
+}

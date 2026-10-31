@@ -1,0 +1,51 @@
+{
+ "id": "frilled-deathspitter",
+ "name": "Frilled Deathspitter",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 18,
+ "hpFormula": "4d6+4",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le tueur fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Craquage poison.** Attaque d'arme à distance : +5 au toucher, portée 4,50/9 m., une créature. Touché : La cible doit faire un DD 13 jet de sauvegarde de Constitution, en prenant 18 (4d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. De plus, une créature qui échoue à son jet de sauvegarde est aveuglé jusqu'à la fin du prochain tour de la mort.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Craquage poison",
+   "bonus": 5,
+   "damage": "4d8",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/a1a2e4941d_monstre-frilled-deathspitter.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3"
+}

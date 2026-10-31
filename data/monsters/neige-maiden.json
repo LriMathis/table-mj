@@ -1,0 +1,41 @@
+{
+ "id": "neige-maiden",
+ "name": "Snow Maiden",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "0 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend toutes les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "**Mouvement intégré.** Le spectre peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Sensibilité à la lumière du soleil.** En plein soleil, le spectre présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Drain de vie.** Attaque de sort au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 10 (3d6) dégâts de froid. La cible doit réussir sur une DD 10 jet de sauvegarde de Constitution ou sa maximum de points de vie est réduite d'un montant égal aux dégâts subis. Cette réduction dure jusqu'à ce que la créature termine un repos long. La cible meurt si cet effet réduit sa maximum de points de vie à 0.",
+ "attacks": [
+  {
+   "name": "Drain de vie",
+   "bonus": 4,
+   "damage": "3d6",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/f25c86556d_monstre-neige-maiden.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Neige Maiden",
+ "resistances": "acide, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient"
+}

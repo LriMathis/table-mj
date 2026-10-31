@@ -1,0 +1,41 @@
+{
+ "id": "nightwalker",
+ "name": "Nightwalker",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 14,
+ "hp": 337,
+ "hpFormula": "25d12+175",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 19,
+  "CON": 24,
+  "INT": 6,
+  "SAG": 9,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Anéantir Aura.** Toute créature qui commence son tour dans 9 m du nightwalker doit réussir sur un DD 21 jet de sauvegarde de Constitution ou prendre 21 (6d6) dégâts nécrotiques. Les morts-vivants sont à l'abri de cette aura.\n**Mangeur de vie.** Une créature meurt si elle est réduite à 0 points de vie par le nightwalker et ne peut être ravivée que par un sort Souhait.\n**Nature inhabituelle.** Le marcheur de nuit n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le nightwalker fait deux attaques Enervating Focus, dont l'une peut être remplacée par Finger of Doom, si disponible.\n**Énervation de la concentration.** Attaque d'arme au corps à corps : +12 au toucher, allonge 4,50 m, une cible. Touché : 28 (5d8 + 6) dégâts nécrotiques. La cible doit réussir sur un DD 21 jet de sauvegarde de Constitution ou son maximum de points de vie est réduit d'un montant égal à la dégâts nécrotiques prise. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0.\n**Doigt de Doom (Recharge 6).** Le nightwalker pointe à une créature il peut voir dans 90 m de lui. La cible doit réussir sur un DD 21 jet de sauvegarde de Sagesse ou prendre 39 (6d12) dégâts nécrotiques et devenir effrayé jusqu'à la fin du prochain tour du nightwalker. Alors qu'effrayé de cette façon, la créature est également paralysé. Si le jet de sauvegarde d'une cible est réussi, la cible est à l'abri du Doigt de Doom de la marche de nuit pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Énervation de la concentration",
+   "bonus": 12,
+   "damage": "5d8+6",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/23561ce2f3_monstre-nightwalker.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "saves": "CON +13",
+ "resistances": "acide, froid, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "lorwyn-geant",
+ "name": "Lorwyn Giant",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 13,
+ "hp": 115,
+ "hpFormula": "11d12+44",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 13,
+  "CON": 18,
+  "INT": 9,
+  "SAG": 16,
+  "CHA": 8
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques, en utilisant Stone Sword ou Boulder dans n'importe quelle combinaison.\n**Épée de pierre.** Jet d'attaque au corps à corps : +8, allonge 4,50 m. Touché : 21 (3d10 + 5) dégâts tranchants.\n**Découpe.** Jet d'attaque à distance : +8, portée 18/72 m. Touché : 14 (2d8 + 5) dégâts contondants. Si la cible est une créature grande ou plus petite, elle a l'état à terre.",
+ "attacks": [
+  {
+   "name": "Épée de pierre",
+   "bonus": 8,
+   "damage": "3d10+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Découpe",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3871467e66_monstre-lorwyn-geant.webp",
+ "notes": "",
+ "source": "Lorwyn: First Light (5e.tools, traduction automatique)",
+ "aka": "Lorwyn géant",
+ "saves": "CON +7, SAG +6",
+ "bonusActions": "**Nom Sommeil (Recharge 5-6).** Le géant tombe dans un sommeil profond et réparateur. Le géant gagne 20 points de vie temporaires et a l'état inconscient jusqu'à ce qu'il prenne des dégâts ou la fin de son prochain tour. Le géant dispose d'Avantage sur tests de caractéristique et jet de sauvegarde pendant 1 minute."
+}

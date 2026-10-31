@@ -1,0 +1,42 @@
+{
+ "id": "chevalier-de-la-mort-aspirant",
+ "name": "Death Knight Aspirant",
+ "type": "Mort-vivant",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 20,
+ "hp": 178,
+ "hpFormula": "21d8+84",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, commun",
+ "traits": "**Résistance magique.** L'aspirant a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Le maréchal n'est pas mort.** Les créatures mortes du choix de l'aspirant (sauf lui-même) dans une Emanation 18 m originaire de celle-ci ont Avantage sur jets d'attaque et jet de sauvegarde. Il ne peut pas utiliser ce trait s'il a l'état neutralisé.",
+ "actionsText": "**Multiattaques.** L'aspirant fait trois attaques de Dread Blade.\n**Lame de dragage.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts tranchants plus 10 (3d6) dégâts nécrotiques.\n**Orbe de feu d'enfer (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 15, chaque créature dans un 6 m -radius Sphere centré sur un point que l'aspirant peut voir dans 36 m de lui-même. Échec : 21 (6d6) dégâts de feu plus 21 (6d6) dégâts nécrotiques. Réussite : Demi-dégâts.\n**Détection orthographique.** L'aspirant lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Monture fantôme\n- 1/jour chacun : Vague destructrice (nécrotique), Dissipation de la magie",
+ "attacks": [
+  {
+   "name": "Lame de dragage",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/47d5a3f022_monstre-chevalier-de-la-mort-aspirant.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Chevalier de la mort Aspirant",
+ "saves": "DEX +4, SAG +5",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, effrayé, empoisonné",
+ "reactions": "**Parry.** Déclencheur : L'aspirant est frappé par une melee jet d'attaque tout en tenant une arme. Réponse : L'aspirant ajoute 4 à sa CA contre cette attaque, ce qui peut la faire manquer."
+}

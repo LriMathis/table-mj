@@ -1,0 +1,39 @@
+{
+ "id": "cygne-geant",
+ "name": "Giant Swan",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 26,
+ "hpFormula": "4d10+4",
+ "vitesse": "3 m, vol 24 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 8,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "aérien, commun",
+ "traits": "**C'est la vue..** Le cygne a l'avantage sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le cygne fait deux attaques avec son bec.\n**Bec.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8534a2697c_monstre-cygne-geant.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Cygne géant",
+ "skills": "Perception +4"
+}

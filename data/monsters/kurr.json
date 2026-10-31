@@ -1,0 +1,45 @@
+{
+ "id": "kurr",
+ "name": "Kurr",
+ "type": "Fiélon (gnoll)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "abyssal, gnoll",
+ "traits": "**Rampage.** Lorsque Kurr réduit une créature à 0 points de vie avec une attaque de mêlée à son tour, Kurr peut prendre une action bonus pour passer à la moitié de sa vitesse et faire une attaque de morsure.",
+ "actionsText": "**Multiattaques.** Kurr fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 6 (1d6 + 3) dégâts perforants, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou prendre 7 (2d6) dégâts de poison.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/db0b4df45c_monstre-kurr.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "saves": "CON +4, SAG +2, CHA +3"
+}

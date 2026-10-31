@@ -1,0 +1,47 @@
+{
+ "id": "langdedrosa-cyanwrath",
+ "name": "Langdedrosa Cyanwrath",
+ "type": "Humanoïde (demi-dragon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 17,
+ "hp": 57,
+ "hpFormula": "6d12+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, draconique",
+ "traits": "**Action Surge (Recharges sur un repos court ou long).** A son tour, Langdedrosa peut prendre une autre mesure.\n**Amélioration de l ' élément critique.** Les attaques d'armes de Langdedrosa marquent un coup critique sur un rouleau de 19 ou 20.",
+ "actionsText": "**Multiattaques.** Langdedrosa attaque deux fois, soit avec sa grande épée ou sa lance.\n**Grande épée.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou 6/18 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.\n**foudre Respiration (Recharge 5-6).** Langdedrosa respire la foudre dans une ligne 9 m qui est large. Chaque créature dans la ligne doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 22 (4d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9e2da87303_monstre-langdedrosa-cyanwrath.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Armure Splint",
+ "saves": "FOR +6, CON +5",
+ "skills": "Athlétisme +6, Intimidation +3, Perception +4",
+ "resistances": "foudre"
+}

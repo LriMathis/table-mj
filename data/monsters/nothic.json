@@ -1,0 +1,39 @@
+{
+ "id": "nothic",
+ "name": "Nothic",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "skills": "Arcanes +3, Discrétion +5, Perspicacité +4, Perception +2",
+ "senses": "vision parfaite à 36 m, Perception passive 12",
+ "languages": "commun des profondeurs",
+ "traits": "**Vue aiguisée.** Le nothic est avantagé sur les tests de Sagesse (Perception) basés sur la vue.",
+ "actionsText": "**Attaques multiples.** Le nothic peut faire deux attaques de griffes.\n**Griffes.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d6+3) dégâts tranchants.\n**Étrange intuition.** Le nothic vise une créature située dans son champ de vision et dans un rayon de 9 mètres. La cible doit remporter un test de Charisme (Supercherie) opposé au test de Sagesse (Perspicacité) du nothic. Si ce dernier l'emporte, il apprend par magie un fait ou un secret concernant la cible. Cette dernière remporte automatiquement le test si elle est immunisée contre le charme.\n**Regard décomposeur.** Le nothic vise une créature située dans son champ de vision et dans un rayon de 9 mètres. La cible doit réussir un jet de sauvegarde de Constitution DD 12 contre cette magie ou subir 10 (3d6) dégâts nécrotiques.",
+ "portrait": "/data/images/875846e1a3_monstre-nothic.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 237 · image : Manuel des monstres p. 236",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ]
+}

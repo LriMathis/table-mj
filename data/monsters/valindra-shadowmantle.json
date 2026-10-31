@@ -1,0 +1,51 @@
+{
+ "id": "valindra-shadowmantle",
+ "name": "Valindra Shadowmantle",
+ "type": "Mort-vivant (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 20,
+ "hp": 315,
+ "hpFormula": "42d8+126",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 21,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 19",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (4/jour ou 5/jour à Lair).** Si Valindra échoue avec un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Gemme de l'esprit.** S'il est détruit, Valindra se reforme en 1d10 jours si sa pierre de l'esprit est intacte, en revitalisant avec tous ses points de vie. Le nouveau corps apparaît dans un espace inoccupé dans son repaire.",
+ "actionsText": "**Multiattaques.** Valindra fait trois attaques, en utilisant Eldritch Burst ou Paralysing Touch dans n'importe quelle combinaison. Elle peut remplacer deux attaques par une utilisation de Spellcasting pour lancer Éclair (version de niveau 5).\n**Laboureur d'Eldritch.** Jet d'attaque au corps à corps ou à distance : +12, allonge 1,50 m ou portée 36 m. Touché : 31 (4d12 + 5) dégâts de force.\n**Touche paralysante.** Jet d'attaque au corps à corps : +12, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts de froid, et la cible a l'état paralysé jusqu'au prochain tour de Valindra.\n**Grasp (Recharge 5-6) mortel.** Jet de sauvegarde de Dextérité : DD 20, chaque créature dans une Emanation 9 m originaire de Valindra. Échec de 1 ou plus : 39 (6d12) dégâts de force et la cible a l'état entravé et répète l'enregistrement à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Après 1 minute, il réussit automatiquement. Défauts ultérieurs : 39 (6d12) dégâts nécrotiques, et Valindra gagne 20 points de vie temporaires.\n**Détection orthographique.** Valindra lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Détection de la magie, Détection des pensées, Dissipation de la magie, Vol, Invisibilité, Éclair (version de niveau 5), Main de mage, Prestidigitation\n- 1/jour chacun : Cône de froid (version de niveau 8), Doigt de mort, Mot de pouvoir mortel, Scrutation\n- 2/jour chacun : Animation des morts, Changement de plan",
+ "attacks": [
+  {
+   "name": "Laboureur d'Eldritch",
+   "bonus": 12,
+   "damage": "4d12+5",
+   "type": "force"
+  },
+  {
+   "name": "Touche paralysante",
+   "bonus": 12,
+   "damage": "2d8+5",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/81196d4dcc_monstre-valindra-shadowmantle.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "saves": "DEX +10, CON +10, INT +12, SAG +9",
+ "skills": "Arcanes +19, Histoire +12, Perspicacité +9, Perception +9",
+ "resistances": "froid, foudre",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "bonusActions": "**Illusoire Disguise.** Valindra lance Déguisement, en utilisant le même caractéristique d'incantation que Spellcasting. Le sort dure jusqu'à ce que Valindra tombe à 30 points de vie ou moins ou utilise son Gaze Légendaire de la Vie. tests d'Intelligence (Investigation) fait pour discerner son apparence vraie sont faits avec Disadvantage.\n- À volonté : Déguisement",
+ "reactions": "**Magie protectrice.** Valindra lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Contresort, Bouclier",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, valindra shadowmantle peut entreprendre l'une des actions ci-après.\n**Perturbation de la vie.** Jet de sauvegarde de Constitution : DD 20, chaque créature qui n'est pas morte dans une Emanation 6 m originaire de Valindra. Échec : 21 (6d6) dégâts nécrotiques. Réussite : Demi-dégâts. Échec ou réussite : Valindra ne peut pas reprendre cette action avant le début de son prochain tour.\n**Eldritch Jaunt.** Valindra fait une attaque Eldritch Burst. Avant ou après l'attaque, Valindra peut téléporter jusqu'à 6 m dans un espace inoccupé qu'elle peut voir.\n**Gaz à effet de vie.** Jet de sauvegarde de Sagesse : DD 20, une créature Valindra peut voir à l'intérieur de 9 m. Échec : 22 (4d10) dégâts nécrotiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour. Réussite : Demi-dégâts seulement."
+}

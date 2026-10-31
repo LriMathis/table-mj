@@ -1,0 +1,42 @@
+{
+ "id": "respiration-animee",
+ "name": "Animated Breath",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 95,
+ "hpFormula": "10d10+40",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend Draconic mais ne peut pas parler",
+ "traits": "**Forme chromatique.** Une fois créée, la respiration animée prend l'une des cinq formes, correspondant à l'arme respiratoire de son créateur : acide, froid, feu, foudre ou poison. Cette forme détermine le CA de la créature, la résistance aux dégâts, les traits et les attaques.\n**feu Aura (formulaire feu seulement).** Au début de chacun des virages de la respiration animée, chaque créature de 1,50 m prend 3 (1d6) dégâts de feu, et les objets inflammables dans l'aura qui ne sont pas portés ou transportés en feu. Une créature qui touche le souffle animé ou la frappe avec une attaque à la mêlée prend 3 (1d6) dégâts de feu.\n**Aura putride (formulaires acide et poison seulement).** Une créature qui commence son tour au sein de 1,50 m du souffle animé doit réussir sur un DD 15 jet de sauvegarde de Constitution ou être empoisonné jusqu'au début de son prochain tour. Une créature qui touche le souffle animé ou la frappe avec une attaque de melee prend 3 (1d6) dégâts d'acide.",
+ "actionsText": "**Multiattaques.** Le souffle animé fait deux attaques de Slam.\n**Clamer.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants plus 11 (2d10) dégâts d'un type déterminé par la forme de l'haleine animée: acide, froid, feu, foudre, ou poison.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/dd5c36a9df_monstre-respiration-animee.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Respiration animée",
+ "caNote": "armure naturelle",
+ "resistances": "dégâts du type correspondant à la forme de l'haleine animée (acide, froid, feu, foudre ou poison)",
+ "conditionImmunities": "épuisement, paralysé, pétrifié, empoisonné, entravé, inconscient",
+ "bonusActions": "**foudre Burst (formulaire foudre seulement).** Le souffle animé se téléporte magiquement dans un espace inoccupé qu'il peut voir à l'intérieur de 9 m. Chaque créature au sein de 1,50 m de la respiration animée après qu'elle téléporte prend 3 (1d6) dégâts de foudre."
+}

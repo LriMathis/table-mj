@@ -1,0 +1,47 @@
+{
+ "id": "fleecemane-lion",
+ "name": "Fleecemane Lion",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** Le lion a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Ponce.** Si le lion se déplace au moins 6 m droit vers une créature et le frappe avec une attaque de griffe sur le même tour, cette cible doit réussir sur un DD 14 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, le lion peut faire une attaque de morsure contre elle comme un action bonus.\n**Fuite courante.** Avec un démarrage en course 3 m, le lion peut long sauter jusqu'à 7,50 m.\n**Tournage de l'orthographe.** Le lion a un avantage sur jet de sauvegarde contre tout sort qui ne vise que le lion (pas une zone). Si le jet de sauvegarde du lion réussit et que le sort est de de niveau 4 ou inférieur, le sort n'a pas d'effet sur le lion et cible plutôt le lanceur.",
+ "actionsText": "**Multiattaques.** Le lion fait deux attaques : une avec sa morsure et une avec sa griffe.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d70e542c40_monstre-fleecemane-lion.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +6, CON +4",
+ "skills": "Perception +4, Discrétion +5",
+ "legendary": "**Actions légendaires (2/round).** Aussitôt après le tour d'une autre créature, fleecemane lion peut entreprendre l'une des actions ci-après.\n**Griffe.** Le lion fait une attaque de griffes.\n**Roar (coûts 2 actions).** Le lion émet un rugissement magique. Chaque créature au sein de 18 m du lion qui peut entendre le rugissement doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou être effrayé du lion jusqu'à la fin du tour suivant du lion."
+}

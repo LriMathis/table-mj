@@ -1,0 +1,47 @@
+{
+ "id": "dermot-wurder-niveau-2",
+ "name": "Dermot Wurder (Tier 2)",
+ "type": "Humanoïde (clerc, goblin, gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 19,
+ "hp": 82,
+ "hpFormula": "15d6+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 18,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, gobelin, orc",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Dermot fait une attaque Warhammer et une attaque Searing Wrath.\n**Marteau de guerre.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants, ou 9 (1d10 + 4) dégâts contondants lorsqu'il est utilisé à deux mains.\n**Cravate à la mer.** Attaque de sort à distance : +7 au toucher, portée 18 m, une créature. Touché : 18 (4d8) dégâts radiants, et la cible est aveuglé jusqu'à la fin de son prochain tour.\n**Détection orthographique.** Dermot lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Assistance, Lumière, Stabilisation\n- 1/jour : Retour à la vie\n- 2/jour chacun : Bénédiction (à de niveau 2), Soins (à de niveau 3)",
+ "attacks": [
+  {
+   "name": "Marteau de guerre",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Cravate à la mer",
+   "bonus": 7,
+   "damage": "4d8",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/5905288d26_monstre-dermot-wurder-niveau-2.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Dermot Wurder (niveau 2)",
+ "caNote": "courrier à attelle, Bouclier",
+ "saves": "SAG +7, CHA +3",
+ "skills": "Médecine +7, Religion +3, Survie +7"
+}

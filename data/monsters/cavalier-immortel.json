@@ -1,0 +1,44 @@
+{
+ "id": "cavalier-immortel",
+ "name": "Deathless Rider",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 84,
+ "hpFormula": "13d8+26",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 6,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "comprend les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "**Adépte monté.** Bien qu'il soit monté et sans l'état neutralisé, le pilote a avantage sur melee jets d'attaque contre toute créature non montée plus petite que sa monture, le pilote et sa monture ont avantage sur jet de sauvegarde de Dextérité, et le pilote peut forcer une attaque ciblée sur sa monture pour cibler le pilote à la place.\n**Fortitude non-morte.** Si le dégâts réduit le pilote à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD égal à 5 + le dégâts pris, sauf si le dégâts est radieux ou d'un coup critique. En cas de succès, le pilote tombe à 1 points de vie.",
+ "actionsText": "**Multiattaques.** Le coureur fait deux attaques d'Axe. Il peut remplacer une de ces attaques par Fell Glare.\n**Axe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Glissements.** Le cavalier regarde une créature en 9 m de lui-même. La créature doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou avoir l'état effrayé pendant 1 minute. La créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, avec un désavantage si elle peut voir le pilote, mettant fin à la condition sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Axe",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/08013b92d2_monstre-cavalier-immortel.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Cavalier immortel",
+ "caNote": "Courrier en chaîne, Bouclier",
+ "saves": "FOR +7, CON +5",
+ "skills": "Athlétisme +7, Perception +1",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

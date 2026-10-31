@@ -1,0 +1,44 @@
+{
+ "id": "lazav",
+ "name": "Lazav",
+ "type": "Monstruosité (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 18,
+ "hp": 204,
+ "hpFormula": "24d8+96",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 24,
+  "CON": 18,
+  "INT": 22,
+  "SAG": 20,
+  "CHA": 22
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 21",
+ "languages": "commun, argot des voleurs",
+ "traits": "**Elusive.** Aucun jet d'attaque n'a d'avantage contre Lazav sauf s'il est neutralisé.\n**Résistance légendaire (3/jour).** Si Lazav échoue à un jet de sauvegarde, il peut choisir de réussir à la place.\n**Shapechanger Savant.** Lazav peut utiliser un action bonus pour se polymorphiser en un humanoïde petit ou moyen qu'il a vu. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé.\n**psychique Défenses.** À moins que Lazav soit neutralisé, il est immunisé contre la magie qui permet à d'autres créatures de lire ses pensées, de déterminer s'il ment, de connaître son alignement ou de connaître son type de créature. Les créatures ne peuvent communiquer par télépathie avec Lazav que s'il le permet.\n**Découpe intérieure.** caractéristique d'incantation inné de Lazav est Intelligence (spell save DD 20). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection des pensées, Encode pensées (voir chapitre 2), Liberté de mouvement, Moquerie cruelle (4d4 dégâts psychiques)\n- 1/jour chacun : Modification de mémoire, Lien télépathique de Rary\n- 3/jour chacun : Flou, Confusion, Image miroir",
+ "actionsText": "**Multiattaques.** Lazav fait trois attaques de mots courts.\n**Mot-clé.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d6 + 7) dégâts perforants plus 10 (3d6) dégâts psychiques, et la cible a un désavantage sur la prochaine jet d'attaque qu'elle fait avant le prochain tour de Lazav.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 13,
+   "damage": "1d6+7",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/0075585e7a_monstre-lazav.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +13, INT +12, SAG +11, CHA +12",
+ "skills": "Tromperie +18, Perspicacité +11, Perception +11, Discrétion +19",
+ "resistances": "nécrotique, psychique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, lazav peut entreprendre l'une des actions ci-après.\n**Attaque.** Lazav fait une attaque d'arme.\n**Lancer un sort (coûts 2 actions).** Lazav jette un de ses sorts innés.\n**Maillot de nuit en mouvement (coûts 3 actions).** Lazav prend rapidement la forme de plusieurs créatures cauchemardesques, s'élançant à tout près. Chaque créature de 3 m de Lazav doit réussir sur un DD 21 jet de sauvegarde de Dextérité ou prendre 18 (4d8) dégâts d'un type choisi par Lazav: acide, froid, feu, foudre, ou nécrotique."
+}

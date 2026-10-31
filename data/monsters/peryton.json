@@ -1,0 +1,46 @@
+{
+ "id": "peryton",
+ "name": "Péryton",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "caNote": "armure naturelle",
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "6 m, vol 18 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 9,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "skills": "Perception +5",
+ "resistances": "contondants, perforants et tranchants des armes non magiques",
+ "senses": "Perception passive 15",
+ "languages": "comprend le commun et l'elfique, mais ne peut pas parler",
+ "traits": "**Attaque en piqué.** Si le péryton vole et descend en piqué sur au moins 9 mètres en ligne droite vers sa cible et la touche avec une attaque d'arme au corps à corps, cette attaque lui inflige 9 (2d8) dégâts supplémentaires.\n**Repli aérien.** Le péryton ne provoque pas d'attaque d'opportunité quand il s'envole hors de portée d'un ennemi.\n**Vue et odorat aiguisés.** Le péryton est avantagé lors des tests de Sagesse (Perception) basés sur la vue ou l'odorat.",
+ "actionsText": "**Attaques multiples.** Le péryton effectue une attaque de corne et une de serre.\n**Corne.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 7 (1d8+3) dégâts perforants.\n**Serres.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 8 (2d4+3) dégâts perforants.",
+ "portrait": "/data/images/339df73d93_monstre-peryton.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 252 · image : Manuel des monstres p. 251",
+ "attacks": [
+  {
+   "name": "Corne",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Serres",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "perforant"
+  }
+ ]
+}

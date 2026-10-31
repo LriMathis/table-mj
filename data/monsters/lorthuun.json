@@ -1,0 +1,42 @@
+{
+ "id": "lorthuun",
+ "name": "Lorthuun",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 180,
+ "hpFormula": "19d10+76",
+ "vitesse": "0 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 22",
+ "languages": "profond, commun des profondeurs",
+ "traits": "**Cône antimagique.** L'œil central de Lorthuun crée une zone d'antimagique, comme dans le sort Champ antimagie, dans un cône 45 m. Au début de chacun de ses virages, Lorthuun décide de la façon dont le cône se présente et si le cône est actif. La zone fonctionne contre les propres rayons oculaires de Lorthuun.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 14 (4d6) dégâts perforants.\n**Rayons oculaires.** Le titulaire tire trois des rayons oculaires magiques suivants au hasard (reroll duplicatas), en choisissant une à trois cibles qu'il peut voir dans 36 m de lui:\n- **1. Rayon de charme** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être charmé par le détenteur pendant 1 heure, ou jusqu'à ce que le détenteur blesse la créature.\n- **2. Ray paralysant** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **3. Peur Ray** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **4. Rayon lent** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, la vitesse de la cible est réduite de moitié pendant 1 minute. En outre, la créature ne peut pas prendre de réactions, et elle peut prendre soit une action, soit une action bonus à son tour, pas les deux. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **5. Rayon d'énervation** La créature ciblée doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 36 (8d8) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **6. Rayon télékinétique** Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Force ou le titulaire le déplace vers 9 m dans n'importe quelle direction. C'est entravé par la poignée télékinétique du rayon jusqu'au début du prochain tour du porteur ou jusqu'à ce que le détenteur soit neutralisé. Si la cible est un objet pesant 150 kg ou moins qui n'est pas porté ou transporté, elle est déplacée vers 9 m dans n'importe quelle direction. Le support peut également exercer un contrôle fin sur les objets avec ce rayon, comme manipuler un outil simple ou ouvrir une porte ou un conteneur.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "4d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a6eaf22f29_monstre-lorthuun.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +8, SAG +7, CHA +8",
+ "skills": "Perception +12",
+ "conditionImmunities": "à terre",
+ "legendary": "Lorthuun peut prendre 3 actions légendaires, en utilisant l'option Rayon Eye ci-dessous. Il ne peut prendre qu'une action légendaire à la fois et seulement à la fin du tour d'une autre créature. Lorthuun retrouve des actions légendaires au début de son tour.\n**Rayon oculaire.** Lorthuun utilise un rayon oculaire aléatoire."
+}

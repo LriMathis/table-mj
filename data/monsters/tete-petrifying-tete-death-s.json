@@ -1,0 +1,42 @@
+{
+ "id": "tete-petrifying-tete-death-s",
+ "name": "Petrifying Death's Head",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 21,
+ "hpFormula": "6d4+6",
+ "vitesse": "1,50 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 8,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 5,
+  "SAG": 14,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Volée.** La tête de la mort ne provoque pas un Opportunity Attack quand il vole hors de la portée de l'ennemi.",
+ "actionsText": "**Bite pétrifiante.** Jet d'attaque au corps à corps : +3, allonge 1,50 m. Touché : 3 (1d4 + 1) dégâts perforants plus 3 (1d6) dégâts nécrotiques. Si la cible est une créature, elle est soumise à l'effet suivant. Jet de sauvegarde de Constitution : DD 11. Échec de 1 ou plus : La cible a l'état entravé et répète l'enregistrement à la fin de son prochain tour si elle est toujours entravé, mettant fin à l'effet sur elle-même sur un succès. Échec de 2 ou plus : La cible a l'état pétrifié au lieu de l'état entravé pendant 10 minutes, après quoi l'effet se termine sur la cible.",
+ "attacks": [
+  {
+   "name": "Bite pétrifiante",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/ee3a4e89f3_monstre-tete-petrifying-tete-death-s.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Tête Petrifying tête Death's",
+ "saves": "CON +3",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

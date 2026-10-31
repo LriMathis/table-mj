@@ -1,0 +1,42 @@
+{
+ "id": "haint",
+ "name": "Haint",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 7,
+  "DEX": 15,
+  "CON": 17,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Mouvement intégré.** Le suif peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Nature inhabituelle.** Le suif ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** La baie fait deux attaques de Sorrowful Touch.\n**Touche douloureuse.** Attaque de sort au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 21 (4d8 + 3) dégâts psychiques.\n**Modifier la forme.** La hint prend magiquement l'apparence de l'Humanoïde qu'il était dans la vie, tout en conservant ses statistiques de jeu. L'apparence supposée se termine si la teinte est réduite à 0 points de vie ou utilise une action pour y mettre fin.",
+ "attacks": [
+  {
+   "name": "Touche douloureuse",
+   "bonus": 6,
+   "damage": "4d8+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/cfd9f5a5e0_monstre-haint.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "skills": "Tromperie +6, Discrétion +8",
+ "resistances": "acide, feu, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "bonusActions": "**La douleur partagée.** L'aint cible une créature il peut voir en 18 m de lui-même qui manque n'importe quel points de vie, partageant son propre tourment avec cette âme douloureuse. La cible doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être neutralisé.\nUne créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est un succès ou si l'effet se termine pour elle, la créature est immunisée contre le Sorrow partagé de l'aile pendant les 24 prochaines heures."
+}

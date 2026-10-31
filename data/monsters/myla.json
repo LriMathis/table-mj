@@ -1,0 +1,38 @@
+{
+ "id": "myla",
+ "name": "Myla",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 10,
+ "hpFormula": "3d6",
+ "vitesse": "9 m, vol 3 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 15,
+  "SAG": 7,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, draconique",
+ "traits": "**Inquiry Mind (1/jour).** Myla peut lancer Détection de la magie, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation.\n**Tactiques de conditionnement.** Myla a un avantage sur un jet d'attaque contre une créature si au moins un de ses alliés est dans 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Sensibilité à la lumière du soleil.** En plein soleil, Myla a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Flamme alchimique (Recharge 6).** Myla déclenche le feu dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 10 (3d6) dégâts de feu sur un jet de sauvegarde défaillant, ou la moitié de ces dégâts sur un succès.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/86c3772bcc_monstre-myla.webp",
+ "notes": "",
+ "source": "Dragons of Stormwreck Isle (5e.tools, traduction automatique)",
+ "skills": "Arcanes +4, Perception +0"
+}

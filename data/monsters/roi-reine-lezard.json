@@ -1,0 +1,53 @@
+{
+ "id": "roi-reine-lezard",
+ "name": "Roi/reine lézard",
+ "type": "Humanoïde (homme-lézard)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "saves": "CON +4, SAG +2",
+ "skills": "Discrétion +5, Perception +4, Survie +4",
+ "conditionImmunities": "terrorisé",
+ "senses": "vision dans le noir à 18 m, Perception passive 14",
+ "languages": "abyssal, draconique",
+ "traits": "**Embrocher.** Une fois par tour, quand l'homme-lézard porte une attaque au corps à corps avec son trident et touche, la victime reçoit 10 (3d6) dégâts supplémentaires et l'homme-lézard gagne un nombre de points de vie temporaires égal aux dégâts supplémentaires infligés.\n**Retenir son souffle.** L'homme-lézard peut retenir son souffle pendant 15 minutes.",
+ "actionsText": "**Attaques multiples.** L'homme-lézard effectue deux attaques au corps à corps, l'une avec sa morsure, l'autre avec ses griffes ou son trident ou bien deux avec son trident.\n**Griffes.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (1d4+3) dégâts tranchants.\n**Morsure.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d6+3) dégâts perforants.\n**Trident.** *Attaque d'arme au corps à corps ou à distance :* +5 pour toucher, portée 1,50 m ou portée 6/18 m, une cible. *Touché :* 6 (1d6+3) dégâts perforants ou 7 (1d8+3) perforants si l'homme-lézard utilise ses deux mains pour porter l'attaque au corps à corps.",
+ "portrait": "/data/images/2302700211_monstre-roi-reine-lezard.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 187 · image : internet",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Trident",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ]
+}

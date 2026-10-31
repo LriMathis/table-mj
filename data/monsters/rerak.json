@@ -1,0 +1,43 @@
+{
+ "id": "rerak",
+ "name": "Rerak",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 18,
+ "hp": 199,
+ "hpFormula": "21d8+105",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 20,
+  "INT": 25,
+  "SAG": 19,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 14",
+ "languages": "abyssal, commun, draconique, nain, elfique, géant, infernal, primordial, commun des profondeurs",
+ "traits": "**Résistance légendaire (3/jour).** Si Rerak échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Rerak a un avantage sur jet de sauvegarde contre les sorts et les effets magiques.",
+ "actionsText": "**Multiattaques.** Rerak fait deux attaques de Rend Death et utilise Bloodcurdling Lament si disponible.\n**Décès Rend.** Attaque de sort au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 23 (3d10 + 7) dégâts nécrotiques.\n**Lamentage de la circulation sanguine (Recharge 5-6).** Rerak émet un hideux criquet chargé d'énergie maligne. Chaque créature de 9 m de Rerak doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou avoir l'état effrayé pendant 1 minute. Alors qu'effrayé de cette façon, une créature a également l'état inconscient. Une créature affectée peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Rerak lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Intelligence comme caractéristique d'incantation (spell save DD 22) :\n- À volonté : Détection de la magie, Vol, Main de mage, Prestidigitation\n- 1/jour chacun : Globe d'invulnérabilité, Immobilisation de monstre\n- 3/jour chacun : Dissipation de la magie, Invisibilité (autoseulement)",
+ "attacks": [
+  {
+   "name": "Décès Rend",
+   "bonus": 14,
+   "damage": "3d10+7",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/d24535337d_monstre-rerak.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, INT +14, SAG +11, CHA +9",
+ "immunities": "nécrotique, poison, psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, étourdi",
+ "bonusActions": "**Siphon de l'âme.** Rerak cible une créature il peut voir en lui-même 36 m. La cible doit faire un DD 22 jet de sauvegarde de Charisme ; si la cible a l'état inconscient, elle a un désavantage sur ce jet de sauvegarde. La cible prend 21 (6d6) dégâts de force sur une sauvegarde ratée ou la moitié de ces dégâts sur une sauvegarde réussie. Rerak retrouve ensuite un nombre de points de vie égal à la quantité de dégâts de force prise.\nSi ce dégâts réduit la cible à 0 points de vie, la cible meurt immédiatement, son corps disparaît, et son âme est piégée à l'intérieur d'un des joyaux de l'âme dans le crâne de Rerak. Après 24 heures, le bijou transfère l'âme au créateur de Rerak.\nLorsque Rerak est réduit à 0 points de vie, il est détruit et se désintègre, laissant derrière les pierres précieuses. Crushing une gemme libère toutes les âmes piégées à l'intérieur, auquel point le corps de l'âme se reforme dans un espace inoccupé le plus proche de la gemme et dans le même état que celui où son âme était piégée.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, rerak peut entreprendre l'une des actions ci-après.\n**Téléportation épineuse.** Rerak, avec tout ce qu'il porte ou transporte, téléporte dans un espace inoccupé qu'il peut voir à l'intérieur de 18 m de lui-même. Il fait alors une attaque de la Rende de la Mort si possible.\n**Lancer un sort (coûts 2 actions).** Rerak utilise la projection orthographique."
+}

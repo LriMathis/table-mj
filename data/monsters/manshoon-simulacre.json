@@ -1,0 +1,40 @@
+{
+ "id": "manshoon-simulacre",
+ "name": "Manshoon Simulacrum",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 12,
+ "hp": 126,
+ "hpFormula": "23d8+23",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 23,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, draconique, gobelin, infernal, orc, commun des profondeurs",
+ "traits": "**Détection orthographique.** Manshoon est un spellcaster de niveau 18. Son caractéristique d'incantation est Intelligence (save spell DD 19, +11 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Trait de feu, Lumière, Main de mage, Prestidigitation, Poigne électrique\n- Niveau 1 (4 emplacements) : Détection de la magie, Armure de mage, Projectile magique, Bouclier\n- Niveau 2 (3 emplacements) : Détection des pensées, Image miroir, Foulée brumeuse\n- Niveau 3 (3 emplacements) : Contresort, Éclair, Communication à distance\n- Niveau 4 (3 emplacements) : Bouclier de feu, Invisibilité supérieure, Métamorphose\n- Niveau 5 (3 emplacements) : Main de Bigby, Scrutation, Mur de force",
+ "actionsText": "**Fistage métallique.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Fistage métallique",
+   "bonus": 6,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/541517ddb1_monstre-manshoon-simulacre.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "aka": "Manshoon simulacre",
+ "saves": "INT +11, SAG +7",
+ "skills": "Arcanes +12, Histoire +12"
+}

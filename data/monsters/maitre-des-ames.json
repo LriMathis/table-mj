@@ -1,0 +1,58 @@
+{
+ "id": "maitre-des-ames",
+ "name": "Master of Souls",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 19,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "abyssal, commun, infernal",
+ "traits": "**Magie des tombes.** Lorsque le maître des âmes jette un sort qui inflige des dégâts, il peut changer le type de dégâts du sort en nécrotique.\n**Détection orthographique.** Le maître des âmes est un épeautre de niveau 5. Son caractéristique d'incantation est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort). Il a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Contact glacial (voir \"Actions\" ci-dessous), Main de mage, Message, Prestidigitation\n- Niveau 1 (4 emplacements) : Mains brûlantes, Détection de la magie, Rayon empoisonné (voir \"Actions\" ci-dessous), Bouclier\n- Niveau 2 (3 emplacements) : Ténèbres, Foulée brumeuse, Rayon ardent (voir \"Actions\" ci-dessous)\n- Niveau 3 (2 emplacements) : Animation des morts, Boule de feu",
+ "actionsText": "**Multiattaques.** Le maître des âmes attaque deux fois avec son échec.\n**Flacon de crâne argenté.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d8) dégâts contondants plus 14 (4d6) dégâts nécrotiques, et la cible a un désavantage sur tous les jet de sauvegarde jusqu'à la fin du prochain tour du maître des âmes.\n**Touche froide (sort mineur).** Attaque de sort à distance : +6 au toucher, portée 36 m, une créature. Touché : 13 (2d8) dégâts nécrotiques, et la cible ne peut pas retrouver points de vie avant le début du prochain tour du maître des âmes. Si la cible n'est pas morte, elle a un désavantage sur jets d'attaque contre le maître des âmes pour la même durée.\n**Rayon de maladie (de niveau 1 Spell; Nécessite un emplacement de sort).** Attaque de sort à distance : +6 au toucher, portée 18 m, une créature. Touché : 9 (2d8) dégâts de poison, et la cible doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être empoisonné jusqu'à la fin du prochain tour du maître des âmes. Si le maître des âmes lance ce sort en utilisant un emplacement de sort de niveau 2 ou plus, les dégâts augmentent de 1d8 pour chaque niveau d'emplacement au-delà du niveau 1.\n**Rayon d ' incinération (de niveau 2 Spell; Nécessite un emplacement de sort).** Attaque de sort à distance : +6 au toucher, portée 36 m, une cible par rayon (3 rayons si un emplacement de sort de niveau 2 est utilisé, 4 rayons si un emplacement de sort de niveau 3 est utilisé). Touché : 7 (2d6) dégâts de feu par rayon.",
+ "attacks": [
+  {
+   "name": "Flacon de crâne argenté",
+   "bonus": 2,
+   "damage": "1d8",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Touche froide (sort mineur)",
+   "bonus": 6,
+   "damage": "2d8",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Rayon de maladie (de niveau 1 Spell; Nécessite un emplacement de sort)",
+   "bonus": 6,
+   "damage": "2d8",
+   "type": "poison"
+  },
+  {
+   "name": "Rayon d ' incinération (de niveau 2 Spell; Nécessite un emplacement de sort)",
+   "bonus": 6,
+   "damage": "2d6",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/b3ddb4142b_monstre-maitre-des-ames.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Maître des âmes",
+ "saves": "SAG +4",
+ "skills": "Arcanes +6, Religion +6"
+}

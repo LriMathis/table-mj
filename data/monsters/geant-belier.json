@@ -1,0 +1,47 @@
+{
+ "id": "geant-belier",
+ "name": "Giant Ram",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 28,
+ "hpFormula": "3d10+12",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "—",
+ "traits": "**Résistance magique.** Le bélier a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Ram.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d4 + 4) dégâts contondants plus 3 (1d6) dégâts de force. Si le bélier a déplacé au moins 6 m droit vers la cible immédiatement avant le coup, la cible doit réussir sur un DD 14 jet de sauvegarde de Force ou avoir l'état à terre.\n**force Bolt.** Attaque de sort à distance : +4 au toucher, portée 9 m, une cible. Touché : 7 (2d6) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Ram",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "contondant + force"
+  },
+  {
+   "name": "force Bolt",
+   "bonus": 4,
+   "damage": "2d6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/0ecb3196d2_monstre-geant-belier.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant bélier",
+ "caNote": "armure naturelle",
+ "resistances": "froid, feu, foudre",
+ "reactions": "**Fusée absorbante (Recharge 6).** Immédiatement après que le bélier ait réussi sur un jet de sauvegarde contre un sort ou une attaque d'un sort, le bélier peut faire une attaque de force Bolt."
+}

@@ -1,0 +1,46 @@
+{
+ "id": "neo-otyugh",
+ "name": "Neo-Otyugh",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 150,
+ "hpFormula": "12d12+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 11,
+  "CON": 22,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "Otyugh",
+ "traits": "**Télépathie limitée.** L'otyugh peut par magie transmettre des messages et des images simples à n'importe quelle créature de 36 m qui peut comprendre un langage. Cette forme de télépathie ne permet pas à la créature réceptrice de répondre par télépathie.\n**La diffusion de l'orthographe innée (Psioniques).** Le caractéristique d'incantation inné du néo-otyugh est Intelligence (spell save DD 12). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Détection des pensées\n- 1/jour chacun : Injonction, Immobilisation de personne",
+ "actionsText": "**Multiattaques.** Le néo-otyugh fait trois attaques : une avec sa morsure et deux avec ses tentacules.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 17 jet de sauvegarde de Constitution contre maladie ou devenir empoisonné jusqu'à ce que le maladie soit guéri. Toutes les 24 heures qui s'écoulent, la cible doit répéter le jet de sauvegarde, réduisant son maximum de points de vie de 5 (1d10) en cas de défaillance. La maladie est guérie sur un succès. La cible meurt si la maladie réduit sa maximum de points de vie à 0. Cette réduction par rapport au maximum de points de vie de la cible dure jusqu'à ce que le maladie soit guéri.\n**Tentacle.** Attaque d'arme au corps à corps : +8 au toucher, allonge 4,50 m, une cible. Touché : 10 (1d10 + 5) dégâts contondants. Si la cible est grande ou plus petite, elle est agrippé (évasion DD 16) et entravé jusqu'à la fin du grappin. Le néo-otyugh a deux tentacules, qui peuvent chacun gripper une cible.\n**Clam du Tentacle.** Le néo-otyugh claque les créatures agrippé par elle dans l'autre ou une surface solide. Chaque créature doit réussir sur un DD 16 jet de sauvegarde de Constitution ou prendre 15 (3d6 + 5) dégâts contondants et être étourdi jusqu'à la fin du prochain tour du néo-otyugh. Lors d'une sauvegarde réussie, la cible prend la moitié du dégâts contondants et n'est pas étourdi.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 8,
+   "damage": "1d10+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/dd207b0d17_monstre-neo-otyugh.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +9",
+ "conditionImmunities": "empoisonné"
+}

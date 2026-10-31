@@ -1,0 +1,44 @@
+{
+ "id": "sir-talavar",
+ "name": "Sir Talavar",
+ "type": "Dragon",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 14,
+ "hpFormula": "4d4+4",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 20,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, draconique, elfique, sylvestre",
+ "traits": "**Invisibilité supérieure.** En tant qu'action bonus, Sir Talavar peut par magie tourner invisible jusqu'à ce que son concentration se termine (comme si concentrating sur un sort). Tout équipement que Sir Talavar porte est invisible avec lui.\n**Télépathie limitée.** À l'aide de la télépathie, Sir Talavar peut par magie communiquer avec n'importe quel autre dragon de féerie au sein de 18 m de lui.\n**Résistance magique.** Sir Talavar a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** L'innée caractéristique d'incantation de Sir Talavar est Charisme (spell save DD 13). Il peut innéalement lancer un certain nombre de sorts, ne nécessitant aucun composant matériel. Comme le dragon vieillit et change de couleur, il gagne des sorts supplémentaires comme indiqué ci-dessous.\n- 1/jour : Couleurs dansantes (Orange), Image miroir (jaune), Suggestion (vert), Image majeure (bleu), Terrain hallucinatoire (indigo), Métamorphose (Violet)\n- 1/jour chacun : Lumières dansantes, Main de mage, Illusion mineure",
+ "actionsText": "**+1 Épée minuscule.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d4 + 6) dégâts perforants.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 1 dégâts perforants.\n**Euphorie Respiration (Recharge 5-6).** Sir Talavar exhale une bouffée d'euphorie à une créature au sein de 1,50 m de lui. La cible doit réussir sur un DD 11 jet de sauvegarde de Sagesse, ou pendant 1 minute, la cible ne peut pas prendre de réactions et doit rouler un d6 au début de chacun de ses tours pour déterminer son comportement pendant le tour:\n- **1-4** La cible ne prend aucune action ou action bonus et utilise tout son mouvement pour se déplacer dans une direction aléatoire.\n- **5-6** La cible ne bouge pas, et la seule chose qu'elle peut faire à son tour est de faire un DD 11 jet de sauvegarde de Sagesse, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "+1 Épée minuscule",
+   "bonus": 8,
+   "damage": "1d4+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/05a553cd83_monstre-sir-talavar.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "skills": "Arcanes +4, Perception +3, Discrétion +7"
+}

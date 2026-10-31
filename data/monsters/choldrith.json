@@ -1,0 +1,46 @@
+{
+ "id": "choldrith",
+ "name": "Choldrith",
+ "type": "Monstruosité (clerc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Le holdrithe a l'avantage sur jet de sauvegarde contre le charmé, et la magie ne peut pas mettre le holdrithe à dormir.\n**Escalade des araignées.** Le holdrith peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sensibilité à la lumière du soleil.** En plein soleil, le holdrithe a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Sens du Web.** Pendant qu'il est en contact avec un web, le holdrithe connaît l'emplacement exact de toute autre créature en contact avec le même web.\n**Web Walker.** Le holdrithe ignore les restrictions de circulation causées par la sangle.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Web (Recharge 5-6).** Attaque d'arme à distance : +5 au toucher, portée 9/18 m., une créature grande ou plus petite. Touché : La cible est entravé par webbing. En action, la cible entravé peut faire un DD 11 test de Force, éclater la webbing sur un succès. La toile peut également être attaquée et détruite (CA 10; 5 points de vie ; vulnérabilité à dégâts de feu ; immunité au bludgunge, au poison et à dégâts psychiques).\n**Détection orthographique.** Le cholderith lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Assistance, Thaumaturgie\n- 1/jour chacun : Fléau, Immobilisation de personne",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Site Web 5",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/db2c3296a2_monstre-choldrith.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +5, Religion +2, Discrétion +5",
+ "bonusActions": "**Dague spectrale (recharge après un repos court ou long).** Le cholderith évoque une dague spectrale flottante en 18 m de lui-même. Le holdrith peut faire une melee attaque de sort (+4 au toucher) contre une créature dans 1,50 m de la dague. Sur un coup, la cible prend 6 (1d8 + 2) dégâts de force.\nLa dague dure 1 minute. Comme un action bonus sur les tours ultérieurs, le cholderith peut déplacer le poignard jusqu'à 6 m et répéter l'attaque contre une créature dans 1,50 m du poignard."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "apprenti-thayan",
+ "name": "Thayan Apprentice",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement non bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 15,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, Thayan",
+ "traits": "**Doomvault Dévotion.** Au sein de la Doomvault, l'apprenti a l'avantage sur jet de sauvegarde contre charmé ou effrayé.\n**Détection orthographique.** L'apprenti est un épeautre de niveau 4. Son caractéristique d'incantation est Intelligence (save spell DD 12, +4 au toucher avec attaques de sort). Il a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Trait de feu, Main de mage, Prestidigitation, Poigne électrique\n- Niveau 1 (4 emplacements) : Mains brûlantes, Détection de la magie, Armure de mage, Bouclier\n- Niveau 2 (3 emplacements) : Flou, Rayon ardent",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8fdb620498_monstre-apprenti-thayan.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Apprenti Thayan",
+ "skills": "Arcanes +4"
+}

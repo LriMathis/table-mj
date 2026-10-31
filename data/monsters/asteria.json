@@ -1,0 +1,44 @@
+{
+ "id": "asteria",
+ "name": "Asteria",
+ "type": "Humanoïde (humain, paladin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 18,
+ "hp": 195,
+ "hpFormula": "26d8+78",
+ "vitesse": "9 m, vol 9 m (bottes ailées)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 21,
+  "CON": 17,
+  "INT": 15,
+  "SAG": 11,
+  "CHA": 20
+ },
+ "senses": "Perception passive 22",
+ "languages": "commun, druidique",
+ "traits": "**Aura gardienne.** Chaque fois qu'une créature du choix d'Asteria dans 9 m d'elle fait un jet de sauvegarde, Asteria peut donner l'avantage de la créature sur le jet de sauvegarde (aucune action requise). Ce trait ne fonctionne pas si Asteria a l'état neutralisé.\n**Résistance légendaire (3/jour).** Si Asteria échoue à un jet de sauvegarde, elle peut choisir de réussir.\n**Matériel spécial.** Asteria porte Bottes ailées, qui lui accorde une vitesse de vol (inclus dans ses statistiques). Elle porte également la moitié d'une paire de Pierres de communication à distance ; l'autre moitié de la paire est détenue par Euryale.",
+ "actionsText": "**Multiattaques.** Asteria fait deux attaques radiant Blade et utilise Bursting Benediction.\n**Lame radiant.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts tranchants plus 13 (3d8) dégâts radiants.\n**Bénédiction en perte.** Asteria provoque une explosion d'énergie magique pour envelopper une créature qu'elle peut voir au sein de 18 m d'elle-même. La cible doit faire un DD 19 jet de sauvegarde de Dextérité, en prenant 40 (9d8) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Asteria ou une autre créature qu'elle peut voir au sein de 18 m d'elle-même puis retrouve 10 points de vie.\n**Détection orthographique.** Asteria lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Assistance, Lumière, Thaumaturgie\n- 2/jour chacun : Bénédiction, Liberté de mouvement, Restauration supérieure, Changement de plan (autoseulement), Protection contre le mal et le bien, Retour à la vie",
+ "attacks": [
+  {
+   "name": "Lame radiant",
+   "bonus": 11,
+   "damage": "1d8+5",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/c2507329dd_monstre-asteria.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "caNote": "Breastplate, Bouclier",
+ "saves": "DEX +11, CON +9, SAG +6, CHA +11",
+ "skills": "Acrobaties +11, Arcanes +14, Investigation +8, Perception +12, Persuasion +11, Survie +6",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "bonusActions": "**Autonomisation d'Aegis (Recharge 4-6).** Asteria appelle une version spectrale de son bouclier, qui orbite et renforce le choix d'Asteria une créature qu'elle peut voir au sein de 18 m. Le bouclier spectral dure jusqu'au prochain tour d'Asteria. Pendant que le bouclier tourne autour de la créature, la créature a 3, est immunisée contre l'état effrayé, et fait arme jets d'attaque avec avantage.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, asteria peut entreprendre l'une des actions ci-après.\n**Grève surgelée.** Asteria fait une attaque radiant Blade.\n**Sprint nimble.** Asteria passe à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités.\n**Lancer un sort (coûts 2 actions).** Asteria utilise la technique de l'orthographe."
+}

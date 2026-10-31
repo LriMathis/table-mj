@@ -1,0 +1,40 @@
+{
+ "id": "nevermind-gnome-mastermind",
+ "name": "Nevermind Gnome Mastermind",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 82,
+ "hpFormula": "15d6+30",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 20,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, gnome",
+ "traits": "**Toujours penser à l'avenir.** Le cerveau possède un avantage sur les rouleaux d'initiative.\n**Escalade des araignées.** Le cerveau peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique. Ce trait ne fonctionne pas si le cerveau est en train de lutter contre des créatures dans ses deux griffes de travail d'horlogerie.",
+ "actionsText": "**Multiattaques.** Le cerveau fait deux attaques Clockwork Claw. Le cerveau peut remplacer l'une de ces attaques par Generate Gadget si elle est disponible.\n**Griffe d'horlogerie.** Attaque d'arme au corps à corps : +7 au toucher, allonge 6 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants, et si la cible est une créature moyenne ou plus petite, la cible est agrippé (évasion DD 15). Jusqu'à ce que ce grappin se termine, la cible prend 10 (3d6) dégâts perforants au début de chaque tour du cerveau. Le cerveau a deux griffes, chacune ne pouvant être prise que par une cible.\n**Générer Gadget (Recharge 5-6).** Le cerveau assemble rapidement un gadget de travail d'horloge, produisant l'un des effets suivants (le choix du cerveau) :\n**Chattergrab.** Les parties de ce gadget ressemblent à des dents en métal grincant. Ce gadget fait mal à une créature que le cerveau peut voir en lui-même. La créature doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 31 (7d8) dégâts perforants et être neutralisé jusqu'au prochain tour du cerveau.\n**Phasmoball.** Le cerveau lance ce gadget à un point que le cerveau peut voir en 9 m de lui-même, où le gadget libère un nuage de gaz de réchauffement mental dans une sphère 3 m -radius. Chaque créature dans la sphère doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou prendre 11 (2d10) dégâts psychiques et être effrayé du cerveau jusqu'au prochain tour du cerveau.\n**Crèche de tonnerre.** Ce gadget émet une onde sonore scrutante dans un cône 9 m issu du cerveau. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 21 (6d6) dégâts de tonnerre sur un sauvegarde raté ou la moitié de ces dégâts sur un succès.",
+ "attacks": [
+  {
+   "name": "Griffe d'horlogerie",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/fa5ad7e6e8_monstre-nevermind-gnome-mastermind.webp",
+ "notes": "",
+ "source": "MCV2DC (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +7, CON +5, INT +8",
+ "skills": "Arcanes +8, Investigation +8, Perception +3"
+}

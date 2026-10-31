@@ -1,0 +1,44 @@
+{
+ "id": "vinx",
+ "name": "Vinx",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, nain",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Vinx fait deux attaques, en utilisant Shortsword et Sling dans n'importe quelle combinaison.\n**Mot-clé.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts perforants.\n**Écharpe.** Jet d'attaque à distance : +4, portée 9/36 m. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/6a60e16238_monstre-vinx.webp",
+ "notes": "",
+ "source": "Heroes of the Borderlands (5e.tools, traduction automatique)",
+ "skills": "Perception +5, Discrétion +6, Survie +5"
+}

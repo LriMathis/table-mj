@@ -1,0 +1,48 @@
+{
+ "id": "borivik-windheim",
+ "name": "Borivik Windheim",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 195,
+ "hpFormula": "30d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 20,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "senses": "Perception passive 21",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Bolts de tuerie non morte.** Borivik a une demi-douzaine de boulons non morts. S'il frappe une créature non morte avec un de ces boulons magiques, il doit faire un DD 17 jet de sauvegarde de Constitution, en prenant un 33 (6d10) dégâts perforants supplémentaire sur une sauvegarde ratée, ou la moitié des dégâts supplémentaires sur un succès.",
+ "actionsText": "**Multiattaques.** Borivik fait deux attaques par mots courts ou deux attaques par des arbalètes lourds.\n**Mot-clé.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts perforants.\n**Grosse arbalète.** Attaque d'arme à distance : +9 au toucher, intervalle 30/120 m., une cible. Touché : 10 (1d10 + 5) dégâts perforants.\n**Détection orthographique.** Borivik lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Frappe piégeuse, Communication avec les animaux\n- 2/jour chacun : Cordon de flèches, Lumière du jour, Restauration partielle, Antidétection",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 9,
+   "damage": "1d10+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1565ac652e_monstre-borivik-windheim.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +9, SAG +7",
+ "skills": "Nature +8, Perception +11, Discrétion +13, Survie +11",
+ "bonusActions": "**Expert en arbalètes.** Borivik ajoute 1d10 à sa prochaine attaque ou jet de dégâts avec son attaque Heavy Crossbow.\n**Échappement de Nimble.** Borivik peut prendre l'action Se désengager ou Se cacher.",
+ "reactions": "**Réponse définitive.** Lorsque Borivik prend de l'acide, du froid, du feu, de la foudre ou de la dégâts de tonnerre, il acquiert l'immunité contre ce type de dégâts jusqu'au début de son prochain tour. Aussi, la première fois qu'il frappe avec une attaque Shortsword à son prochain tour, la cible prend un 10 supplémentaire (3d6) du type de dégâts déclencheurs."
+}

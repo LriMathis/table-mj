@@ -1,0 +1,44 @@
+{
+ "id": "androsphinx",
+ "name": "Androsphinx",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 17,
+ "hp": 199,
+ "hpFormula": "19d10+95",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 23,
+  "CHA": 18
+ },
+ "saves": "DEX +6, CON +11, INT +9, SAG +12",
+ "skills": "Arcanes +9, Perception +12, Religion +15",
+ "resistances": "nécrotiques, radiants",
+ "immunities": "psychiques",
+ "conditionImmunities": "charmé, effrayé",
+ "senses": "Vision véritable 36 m, Perception passive 22",
+ "languages": "céleste, commun",
+ "traits": "**Insondable.** Nulle magie ne permet d’observer le sphinx à distance ni de détecter ses pensées sans son consentement. Les tests de Sagesse (Intuition) visant à percer ses intentions ou évaluer sa sincérité subissent le Désavantage.\n**Résistance légendaire (3/jour, ou 4/jour dans son antre).** Si le sphinx rate un jet de sauvegarde, il peut décider de le réussir tout de même.",
+ "actionsText": "**Attaques multiples.** Le sphinx effectue deux attaques de Griffe et recourt à Rugissement.\n**Griffe.** Corps à corps : +12, allonge 1,50 m. Touché : 20 (4d6 + 6) dégâts tranchants.\n**Incantation.** Le sphinx lance l’un des sorts suivants, sans composantes matérielles, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde 20) :\n- À volonté : *détection du mal et du bien*, *thaumaturgie*\n- 1/jour chacun : *détection de la magie*, *dissipation de la magie*, *festin des héros*, *restauration suprême*, *zone de vérité*\n**Rugissement (3/jour).** Le sphinx pousse un rugissement magique. Chaque fois qu’il rugit, il produit un effet différent, comme détaillé ci-après (la séquence est réinitialisée lorsqu’il prend un Repos long) :\n**Premier rugissement.** JS Sagesse : DD 20, chaque ennemi dans une Émanation de 150 m centrée sur le sphinx. Échec : la cible subit l’état Effrayé pendant 1 minute.\n**Deuxième rugissement.** JS Sagesse : DD 20, chaque ennemi dans une Émanation de 150 m centrée sur le sphinx. Échec : la cible subit l’état Paralysé et réitère le JS à la fin de chacun de ses tours ; elle met un terme à l’effet sur elle-même en cas de réussite. Au bout de 1 minute, elle réussit automatiquement ce JS.\n**Troisième rugissement.** JS Constitution : DD 20, chaque ennemi dans une Émanation de 150 m centrée sur le sphinx. Échec : 44 (8d10) dégâts de tonnerre, et la cible subit l’état À terre. Réussite : demi-dégâts uniquement.",
+ "legendary": "**Utilisations d'action Légendaire : 3 (4 dans son antre).** Aussitôt après le tour d'une autre créature, le sphinx peut dépenser une utilisation pour entreprendre l'une des actions ci-après. Le sphinx récupère toutes ses utilisations dépensées au début de chacun de ses tours.\n**Poids des années.** JS Constitution : DD 16, une créature que le sphinx voit dans un rayon de 36 m. Échec : la cible reçoit 1 niveau d’Épuisement. Tant que la cible a le moindre niveau d’Épuisement, elle paraît 3d10 ans plus âgée que la réalité. Échec ou réussite : le sphinx ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.\n**Traque arcanique.** Le sphinx se téléporte en un espace inoccupé qu’il voit dans un rayon de 9 m, et il effectue une attaque de Griffe.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "4d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/e24a96e1fd_monstre-androsphinx.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 272",
+ "aka": "Sphinx valeureux (2024)"
+}

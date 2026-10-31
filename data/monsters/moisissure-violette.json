@@ -1,0 +1,39 @@
+{
+ "id": "moisissure-violette",
+ "name": "Moisissure violette",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 5,
+ "hp": 18,
+ "hpFormula": "4d8",
+ "vitesse": "1,5 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 1,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "conditionImmunities": "assourdi, aveuglé, charmé, effrayé",
+ "senses": "Vision aveugle 9 m, Perception passive 6",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le champignon effectue deux attaques de Contact putréfiant.\n**Contact putréfiant.** Corps à corps : +2, allonge 3 m. Touché : 4 (1d8) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Contact putréfiant",
+   "bonus": 2,
+   "damage": "1d8",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/eee6733115_monstre-moisissure-violette.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 32",
+ "aka": "Thallophyte violette (2024)"
+}

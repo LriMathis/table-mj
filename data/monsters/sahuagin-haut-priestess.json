@@ -1,0 +1,53 @@
+{
+ "id": "sahuagin-haut-priestess",
+ "name": "Sahuagin High Priestess",
+ "type": "Humanoïde (sahuagine)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "9 m, nage 12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "sahuagin",
+ "traits": "**Frénésie sanguine.** La haute prêtresse a avantage sur melee jets d'attaque contre toute créature qui n'a pas toute sa points de vie.\n**Amphibie limitée.** La haute prêtresse peut respirer de l'air et de l'eau, mais elle doit être submergée au moins une fois toutes les 4 heures pour éviter l'étouffement.\n**Télépathie des requins.** La haute prêtresse peut par magie commander n'importe quel requin au sein de 36 m d'elle, en utilisant une télépathie limitée.\n**Détection orthographique.** La haute prêtresse est un épeautre de niveau 7. Son caractéristique d'incantation est Sagesse (save spell DD 14, +6 au toucher avec attaques de sort). Elle a préparé les sorts clercs suivants :\n- Sorts mineurs (à volonté) : Assistance, Réparation, Résistance, Thaumaturgie\n- Niveau 1 (4 emplacements) : Bénédiction, Détection de la magie, Éclair traçant\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Arme spirituelle (traînement)\n- Niveau 3 (3 emplacements) : Malédiction, Peur, Mot de guérison de groupe, Don des langues\n- Niveau 4 (1 emplacements) : Bannissement",
+ "actionsText": "**Multiattaques.** La haute prêtresse fait deux attaques avec son bâton dentifrice, ou une attaque avec sa morsure et une avec ses griffes.\n**Personnel d'appoint.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d8 + 2) dégâts perforants.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Personnel d'appoint",
+   "bonus": 5,
+   "damage": "2d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/33aec16a24_monstre-sahuagin-haut-priestess.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Sahuagin haut Priestess",
+ "caNote": "armure naturelle",
+ "saves": "SAG +6",
+ "skills": "Perspicacité +6, Perception +6"
+}

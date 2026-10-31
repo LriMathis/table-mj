@@ -1,0 +1,48 @@
+{
+ "id": "jeune-kraken",
+ "name": "Young Kraken",
+ "type": "Monstruosité (titan)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 16,
+ "hp": 207,
+ "hpFormula": "18d12+90",
+ "vitesse": "6 m, nage 15 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 11,
+  "CON": 20,
+  "INT": 19,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 14",
+ "languages": "abyssal, céleste, infernal, primordial, télépathie 18 m but can't speak",
+ "traits": "**Amphibie.** Le kraken peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Le kraken fait deux attaques tentaculaires, chacune d'elles pouvant se substituer à une seule utilisation de Fling.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 20 (3d8 + 7) dégâts perforants.\nSi la cible est une créature moyenne ou plus petite agrippé par le kraken, cette créature est avalée et le grappin se termine. En avalant, la créature est aveuglé et entravé, elle a 3 contre les attaques et autres effets en dehors du kraken, et il prend 21 (6d6) dégâts d'acide au début de chacun des tours du kraken. Une ou deux petites créatures peuvent être avalées simultanément.\nSi le kraken prend 35 dégâts ou plus sur un seul tour d'une créature à l'intérieur, le kraken doit réussir sur un DD 23 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans des espaces à l'intérieur de 3 m du kraken. Si le kraken meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 3 m de mouvement, sortant d'à terre.\n**Tentacle.** Attaque d'arme au corps à corps : +12 au toucher, allonge 6 m, une cible. Touché : 17 (3d6 + 7) dégâts contondants, et la cible est agrippé (évasion DD 20). Jusqu'à ce que le grappin se termine, la cible est entravé. Le kraken a dix tentacules, chacun d'eux peut battre une cible.\n**Vols.** Un objet moyen ou plus petit détenu ou créature agrippé par le kraken est jeté jusqu'à 12 m dans une direction aléatoire et à terre. Si une cible lancée frappe une surface solide, la cible prend 3 (1d6) dégâts contondants pour chaque 3 m qu'elle a lancé. Si la cible est lancée sur une autre créature, cette créature doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou prendre les mêmes dégâts et être à terre.\n**Grève de foudre.** Le kraken crée magiquement un boulon de foudre, qui peut frapper une cible que le kraken peut voir dans 27 m de lui. La cible doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 22 (4d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "3d8+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 12,
+   "damage": "3d6+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/58da1c6e95_monstre-jeune-kraken.webp",
+ "notes": "",
+ "source": "Locathah Rising (5e.tools, traduction automatique)",
+ "aka": "Jeune kraken",
+ "caNote": "armure naturelle",
+ "saves": "FOR +12, DEX +5, CON +10, INT +9, SAG +7",
+ "immunities": "foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "effrayé, paralysé"
+}

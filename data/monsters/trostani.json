@@ -1,0 +1,48 @@
+{
+ "id": "trostani",
+ "name": "Trostani",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre bon",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 17,
+ "hp": 252,
+ "hpFormula": "24d10+120",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 30,
+  "CHA": 25
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 26",
+ "languages": "commun, druidique, elfique, sylvestre",
+ "traits": "**Résistance légendaire (3/jour).** Si Trostani échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Trostani a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes de Trostani sont magiques.\n**Parlez avec les bêtes et les plantes.** Trostani peut communiquer avec des bêtes et des plantes comme s'ils partageaient une langue.\n**Essence d'arbres.** Une fois à son tour, Trostani peut utiliser 3 m de son mouvement pour passer magiquement dans un arbre vivant à sa portée et émerger d'un deuxième arbre vivant à l'intérieur de 18 m du premier arbre, apparaissant dans un espace inoccupé à l'intérieur de 1,50 m du second arbre. Les deux arbres doivent être grands ou plus grands.\n**Découpe intérieure.** L'innée de Trostani caractéristique d'incantation est Sagesse (spell save DD 24). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Dissipation de la magie, Druidisme\n- 1/jour chacun : Invocation de fée, Soins de groupe\n- 3/jour chacun : Bénédiction, Invocation d'animaux, Insecte géant, Rayon de lune, Croissance végétale, Croissance d'épines, Suggestion",
+ "actionsText": "**Multiattaques.** Trostani prend trois actions : elle utilise Constrict et Touch of Order, et elle lance un sort avec un temps de lancer de 1 action.\n**Constriction.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une créature. Touché : 15 (3d6 + 5) dégâts contondants, et la cible est agrippé (évasion DD 19). Jusqu'à ce que ce grappin se termine, la cible est entravé. Trostani ne peut pas atteindre plus de trois cibles à la fois.\n**Touche d'ordre.** Attaque de sort au corps à corps : +16 au toucher, allonge 1,50 m, une créature. Touché : 23 (3d8 + 10) dégâts radiants, et Trostani peut choisir un objet magique qu'elle peut voir en possession de la cible. Sauf si c'est un artefact, la magie de l'objet est supprimée jusqu'au prochain tour de Trostani.\n**La rouille de Mat'Selesnya (Recharge 5-6).** Trostani évoque un tourbillon momentané de branches et de vignes à un point qu'elle peut voir au sein de 18 m d'elle. Chaque créature dans un cube 9 m sur ce point doit faire un DD 24 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts contondants et 21 (6d6) dégâts tranchants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Constriction",
+   "bonus": 11,
+   "damage": "3d6+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Touche d'ordre",
+   "bonus": 16,
+   "damage": "3d8+10",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/b9a84744d2_monstre-trostani.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +11, SAG +16, CHA +13",
+ "skills": "Arcanes +9, Perspicacité +16, Nature +9, Perception +16, Persuasion +13",
+ "conditionImmunities": "charmé, agrippé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, trostani peut entreprendre l'une des actions ci-après.\n**Voix de l'harmonie.** Trostani fait une attaque de mêlée, avec avantage sur la jet d'attaque.\n**La voix de la vie.** Trostani accorde 20 points de vie temporaires à une autre créature qu'elle peut voir au sein de 36 m d'elle.\n**La voix de l'ordre.** Trostani lance Dissipation de la magie.\n**Choeur du conclave (coûts 2 actions).** Trostani lance Suggestion. Cela compte comme l'une de ses utilisations quotidiennes du sort.\n**Gardiens de l'éveil Grove (coûts 3 actions).** Trostani anime un ou deux arbres qu'elle peut voir au sein de 36 m d'elle, les faisant déraciner et devenir des arbres éveillés (voir le Monster Manual pour leurs blocs de statistiques) pendant 1 minute ou jusqu'à ce que Trostani utilise un action bonus pour mettre fin à l'effet. Ces arbres comprennent druidique et obéissent aux ordres parlés de Trostani, mais ne peuvent pas parler. Si elle ne leur donne aucun ordre, les arbres ne font que la suivre et prendre l'action Esquiver."
+}

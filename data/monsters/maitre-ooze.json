@@ -1,0 +1,45 @@
+{
+ "id": "maitre-ooze",
+ "name": "Ooze Master",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 9,
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 1,
+  "CON": 20,
+  "INT": 17,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 10",
+ "languages": "commun, primordial, Thayan",
+ "traits": "**Forme corrosive.** Une créature qui touche le maître Ooze ou qui la frappe avec une attaque de mêlée alors qu'à l'intérieur de 1,50 m il prend 9 (2d8) dégâts d'acide. Toute arme non magique qui frappe le maître Ooze corrode. Après avoir causé des dégâts, l'arme prend une pénalité permanente et cumulative de −1 à jets de dégâts. Si sa peine tombe à −5, l'arme est détruite. Les munitions non magiques qui frappent le maître Ooze sont détruites après avoir causé des dégâts.\nLe maître Ooze peut manger à travers 2 pouces de bois non magique ou de métal en 1 tour.\n**Attaque instinctive.** Lorsque le maître Ooze lance un sort avec un temps de coulée de 1 action, il peut faire une attaque pseudopode comme un action bonus.\n**Escalade des araignées.** L'Ooze Master peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Détection orthographique.** Le maître Ooze est un épeautre de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 15, +7 au toucher avec attaques de sort). Il a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Aspersion d'acide, Amis, Main de mage, Bouffée de poison\n- Niveau 1 (4 emplacements) : Charme-personne, Détection de la magie, Projectile magique, Rayon empoisonné\n- Niveau 2 (3 emplacements) : Détection des pensées, Flèche acide de Melf, Suggestion\n- Niveau 3 (3 emplacements) : Peur, Lenteur, Nuage nauséabond\n- Niveau 4 (3 emplacements) : Confusion, Tentacules noirs d'Evard\n- Niveau 5 (1 emplacements) : Brume mortelle",
+ "actionsText": "**Pseudopod.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 13 (3d6 + 3) dégâts contondants plus 10 (3d6) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 7,
+   "damage": "3d6+3",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/01f7b52c79_monstre-maitre-ooze.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Maître Ooze",
+ "caNote": "armure naturelle",
+ "saves": "INT +7, SAG +4",
+ "skills": "Arcanes +7, Perspicacité +4",
+ "resistances": "foudre, nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, froid, poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, empoisonné, à terre",
+ "reactions": "**Charm Instictif.** Si une créature que le maître Ooze peut voir fait un jet d'attaque contre elle pendant qu'il est dans le 9 m, le maître Ooze peut utiliser une réaction pour détourner l'attaque si une autre créature se trouve à l'intérieur de la portée de l'attaque. L'attaquant doit faire un DD 15 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, l'attaquant cible la créature qui est la plus proche, sans s'y inclure ni le maître Ooze. Si plusieurs créatures sont les plus proches, l'attaquant choisit celle à cibler. Sur une sauvegarde réussie, l'attaquant est à l'abri de ce Charm Instictif pendant 24 heures. Les créatures qui ne peuvent pas être charmé sont immunisées contre cet effet."
+}

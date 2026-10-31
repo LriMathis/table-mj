@@ -1,0 +1,45 @@
+{
+ "id": "rivibiddel",
+ "name": "Rivibiddel",
+ "type": "Humanoïde (gnome)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "hp": 16,
+ "hpFormula": "3d6+6",
+ "vitesse": "4,50 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "gnome, terreux, commun des profondeurs",
+ "traits": "**Camouflage en pierre.** Rivibiddel a l'avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans le terrain rocheux.\n**Gnome Cunning.** Rivibiddel a un avantage sur Intelligence, Sagesse et jet de sauvegarde de Charisme contre la magie.\n**Découpe intérieure.** caractéristique d'incantation inné de Rivibiddel est Intelligence (spell save DD 11). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Antidétection (autoseulement)\n- 1/jour chacun : Cécité/Surdité, Flou, Déguisement",
+ "actionsText": "**Choix de guerre.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.\n**empoisonné Dart.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une créature. Touché : 4 (1d4 + 2) dégâts perforants, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès",
+ "attacks": [
+  {
+   "name": "Choix de guerre",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "empoisonné Dart",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/bc11f44389_monstre-rivibiddel.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne",
+ "skills": "Investigation +3, Perception +2, Discrétion +4"
+}

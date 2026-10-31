@@ -1,0 +1,48 @@
+{
+ "id": "harkon-lukas",
+ "name": "Harkon Lukas",
+ "type": "Monstruosité (Lycanthrope)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 15,
+ "hp": 187,
+ "hpFormula": "22d8+88",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 18,
+  "CON": 19,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "Commun (ne peut pas parler sous forme de loup)",
+ "traits": "**Frénésie sanguine.** Harkon a avantage sur jets d'attaque contre toute créature qui n'a pas tous ses points de vie.\n**Restauration de lord noir.** Si Harkon meurt, il ressuscite avec tout son points de vie en 1d10 semaines quelque part à Kartakass.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Harkon échoue à un jet de sauvegarde, il peut choisir de réussir à la place.\n**Régénération.** Harkon gagne 10 points de vie au début de chacun de ses tours s'il a au moins 1 points de vie. Si Harkon prend dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Harkon fait deux attaques Swipe. Il peut remplacer une attaque par (A) Bite ou (B) Enthralling Performance.\n**Morceau (Loup d'eau ou forme hybride seulement).** Jet d'attaque au corps à corps : +10, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts perforants plus 14 (4d6) dégâts nécrotiques. Si la cible est un humanoïde, elle est soumise à l'effet suivant: Jet de sauvegarde de Constitution : DD 17. La cible est maudite. Si la cible maudite tombe à 0 points de vie, il devient plutôt un loup-garou sous le contrôle de le MD et a 50 points de vie. La malédiction ne peut être enlevée avant que Harkon ne meure. Réussite : La cible est immunisée contre la malédiction de Harkon pendant 24 heures.\n**Nage (Loup d'eau ou forme hybride seulement).** Jet d'attaque au corps à corps : +10, allonge 1,50 m. Touché : 16 (2d10 + 5) dégâts tranchants. Si la cible est une créature moyenne ou plus petite, elle a l'état à terre.\n**Performance enthousiasmante (Forme humaine seulement).** Jet de sauvegarde de Sagesse : DD 17, chaque créature dans une Emanation 9 m originaire de Harkon. Échec : La cible a l'état charmé pendant 1 heure ou jusqu'à ce qu'il prenne des dégâts.",
+ "attacks": [
+  {
+   "name": "Morceau (Loup d'eau ou forme hybride seulement)",
+   "bonus": 10,
+   "damage": "2d8+5",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Nage (Loup d'eau ou forme hybride seulement)",
+   "bonus": 10,
+   "damage": "2d10+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/6ffc108429_monstre-harkon-lukas.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "CON +9, SAG +8",
+ "skills": "Perception +8, Représentation +9, Discrétion +9",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Forme-filtre.** Le Harkon se transforme en un grand hybride loup-humanoïde ou un grand loup, ou il revient à sa vraie forme humanoïde. Ses statistiques de jeu, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, harkon lukas peut entreprendre l'une des actions ci-après.\n**Crushing Insulte.** Harkon utilise Shape-Shift pour revenir à sa forme humanoïde, puis utilise l'effet suivant. Jet de sauvegarde de Sagesse : DD 17, chaque créature du choix de Harkon qu'il peut voir dans 9 m de lui-même (créatures charmé par Harkon échoue automatiquement cette sauvegarde). Échec : 16 (3d10) dégâts psychiques. Échec ou réussite : Harkon ne peut pas reprendre cette action avant le début de son prochain tour.\n**Ponce.** Harkon se déplace jusqu'à la moitié de sa vitesse et fait une attaque Swipe.\n**Bite surprise.** Harkon utilise Shape-Shift pour se transformer en sa forme de loup hybride ou terrible, puis fait une attaque Bite. Harkon ne peut pas reprendre cette action avant le début de son prochain tour."
+}

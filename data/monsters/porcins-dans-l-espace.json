@@ -1,0 +1,39 @@
+{
+ "id": "porcins-dans-l-espace",
+ "name": "Space Swine",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Perception passive 14",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6cf70d12d8_monstre-porcins-dans-l-espace.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Porcins dans l'espace",
+ "skills": "Perception +4, Survie +4"
+}

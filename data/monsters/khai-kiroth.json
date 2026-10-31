@@ -1,0 +1,49 @@
+{
+ "id": "khai-kiroth",
+ "name": "Khai Kiroth",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 22,
+ "hp": 289,
+ "hpFormula": "34d8+136",
+ "vitesse": "9 m, vol 15 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 19,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "draconique, infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir de Khai.\n**Résistance magique.** Khai a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Khai fait une attaque Bite et une attaque de griffe, et il peut utiliser Présence effrayante ou Incite Fanaticism.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 22 (3d10 + 6) dégâts perforants plus 38 (7d10) dégâts de feu.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d10 + 6) dégâts de force plus 11 (2d10) dégâts de feu.\n**Présence effrayante.** Chaque créature du choix de Khai qui se trouve dans 36 m et conscient de Khai doit réussir sur un DD 18 jet de sauvegarde de Sagesse ou en devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si la jet de sauvegarde d'une créature est réussie ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante de Khai pour les prochaines 24 heures.\n**Incite le fanatisme.** Khai choisit jusqu'à quatre autres créatures au sein de 18 m qui peuvent le voir. Jusqu'au prochain tour de Khai, chacune de ces créatures fait jets d'attaque avec avantage et ne peut pas être effrayé.\n**Puissance de la Reine Dragon.** Khai cible un Dragon qu'il peut voir dans 36 m de lui. Le Dragon doit faire un DD 18 jet de sauvegarde de Charisme. Un dragon chromatique le fait sauver avec désavantage. Sur une sauvegarde réussie, la cible est à l'abri de la puissance de Khai de la Reine Dragon pendant 1 heure. Lors d'une sauvegarde ratée, la cible est charmé par Khai pendant 1 heure. Alors que charmé de cette façon, la cible considère Khai comme un ami de confiance à être écouté et protégé. Cet effet se termine si Khai ou ses compagnons infligent des dégâts à la cible.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "3d10+6",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "2d10+6",
+   "type": "force + feu"
+  }
+ ],
+ "portrait": "/data/images/1c033ff6fd_monstre-khai-kiroth.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +12, CON +10, SAG +8",
+ "skills": "Intimidation +10, Perception +8",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "effrayé, empoisonné"
+}

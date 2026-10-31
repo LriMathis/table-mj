@@ -1,0 +1,46 @@
+{
+ "id": "dralmorrer-borngray",
+ "name": "Dralmorrer Borngray",
+ "type": "Humanoïde (Elfe élevé)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, C'est vrai, c'est vrai., draconique, elfique, gobelin, sylvestre",
+ "traits": "**Ancêtre fécale.** Dralmorrer a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas le faire dormir.\n**Magie de guerre.** Lorsque Dralmorrer utilise son action pour lancer un sort mineur, il peut également prendre un action bonus pour faire une attaque d'arme.\n**Obligation d'armement.** Si sa longue épée est dans le même avion, Dralmorrer peut prendre un action bonus pour le téléporter à sa main.\n**Détection orthographique.** Dralmorrer est un spellcaster de niveau 7 qui utilise Intelligence comme son caractéristique d'incantation (save spell DD 13, +5 au toucher avec attaques de sort). Dralmorrer a les sorts suivants préparés à partir de la liste des sorts de l'assistant :\n- Sorts mineurs (à volonté) : Trait de feu, Prestidigitation, Poigne électrique\n- Niveau 1 (4 emplacements) : Grande foulée, Projectile magique, Bouclier, Vague tonnante\n- Niveau 2 (2 emplacements) : Arme magique, Foulée brumeuse",
+ "actionsText": "**Multiattaques.** Dralmorrer attaque deux fois, soit avec son épée ou son poignard.\n**Mot long.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou 6/18 m, une cible. Touché : 6 (1d4 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b6660c00ef_monstre-dralmorrer-borngray.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus, Bouclier",
+ "saves": "FOR +6, CON +4",
+ "skills": "Arcanes +5, Tromperie +1, Perspicacité +2, Perception +2, Religion +5"
+}

@@ -1,0 +1,31 @@
+{
+ "id": "poissons",
+ "name": "Fish",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "nage 12 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 16,
+  "CON": 9,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 2
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Respiration d'eau.** Le poisson ne peut respirer que sous l'eau.",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/ee1fb06dbb_monstre-poissons.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Poissons"
+}

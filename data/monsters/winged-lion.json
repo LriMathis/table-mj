@@ -1,0 +1,43 @@
+{
+ "id": "winged-lion",
+ "name": "Winged Lion",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "18 m, vol 18 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 14,
+  "CHA": 5
+ },
+ "senses": "Perception passive 12",
+ "languages": "Céleste, mais ne peut pas parler.",
+ "traits": "**Ponce.** Si le lion se déplace au moins 6 m droit vers une créature et le frappe avec une attaque de griffe sur le même tour, cette cible doit réussir sur un DD 15 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, le lion peut faire une attaque de morsure contre elle comme un action bonus.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "2d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/eeb06bdfdb_monstre-winged-lion.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)"
+}

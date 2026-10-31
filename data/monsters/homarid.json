@@ -1,0 +1,39 @@
+{
+ "id": "homarid",
+ "name": "Homarid",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "6 m, nage 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 8,
+  "CON": 13,
+  "INT": 9,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "Homaride",
+ "traits": "**Amphibie.** L'homaride peut respirer de l'air et de l'eau.",
+ "actionsText": "**Multiattaques.** L'homaride fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants, et la cible est agrippé (évasion DD 11). L'homaride a deux griffes, chacune ne pouvant battre qu'une cible.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a2bfc5f26e_monstre-homarid.webp",
+ "notes": "",
+ "source": "PSD (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4, Discrétion +3"
+}

@@ -39,7 +39,7 @@ function drawGrimList() {
   const el = $('#gr-list'); if (!el) return;
   const L = grimList();
   $('#gr-count').textContent = t(L.length > 1 ? '{n} spells' : '{n} spell', { n: L.length });
-  el.innerHTML = L.slice(0, 400).map(([k, s]) => `<div class="li ${k === grimSel ? 'sel' : ''}" data-gk="${k}"><span class="sp-ico">${SCHOOL_ICON[s.ecole] || '<i class="ico i-sparkle"></i>'}</span>
+  el.innerHTML = L.map(([k, s]) => `<div class="li ${k === grimSel ? 'sel' : ''}" data-gk="${k}"><span class="sp-ico">${SCHOOL_ICON[s.ecole] || '<i class="ico i-sparkle"></i>'}</span>
     <div class="grow"><b>${esc(spellName(s))}</b> <span class="muted small">${s.niv ? t('lvl {n}', { n: s.niv }) : t('cantrip')}${s.conc ? ' · C' : ''}${s.rituel ? ' · R' : ''}</span>
     <div class="muted small ellipsis">${esc(s.resume)}</div></div></div>`).join('') || `<div class="muted">${t('No spells.')}</div>`;
   $$('[data-gk]', el).forEach(d => d.onclick = () => { grimSel = d.dataset.gk; drawGrimList(); drawGrimDetail(); });

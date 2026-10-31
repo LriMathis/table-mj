@@ -1,0 +1,42 @@
+{
+ "id": "slayer",
+ "name": "Slayer",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "alignement de l'hôte",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 19,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 19,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Perception passive 16",
+ "languages": "Langues de l'hôte",
+ "traits": "**Assassinat.** Lors de son premier tour, la Tueuse a l'avantage sur jets d'attaque contre toute créature qui n'a pas pris de tour. Tout coup de la Tueuse contre une créature surprise est un coup critique.\n**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure de la Tueuse.\n**Résistance magique.** La Tueuse a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** La Tueuse fait quatre attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants plus 7 (2d6) dégâts de poison. La Slayer offre un 14 (4d6) dégâts tranchants supplémentaire lorsqu'elle a un avantage sur la jet d'attaque et touche la cible.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/e6852a1448_monstre-slayer.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, INT +5",
+ "skills": "Acrobaties +8, Tromperie +6, Perception +6, Discrétion +12",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "poison"
+}

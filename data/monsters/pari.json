@@ -1,0 +1,42 @@
+{
+ "id": "pari",
+ "name": "Pari",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 16,
+ "hp": 180,
+ "hpFormula": "19d8+95",
+ "vitesse": "9 m, vol 27 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 20,
+  "CON": 20,
+  "INT": 20,
+  "SAG": 22,
+  "CHA": 22
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance magique.** Le pari a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** Le pari ne nécessite ni nourriture, ni boisson, ni sommeil.",
+ "actionsText": "**Multiattaques.** Le pari fait trois attaques de Mace.\n**Mace.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts contondants plus 14 (4d6) dégâts radiants.\n**Futurs désorientés.** Le pari tente d'inonder l'esprit d'une créature il peut voir en 18 m de lui-même avec des visions du futur. La cible doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou prendre 27 (5d10) dégâts psychiques et avoir un désavantage sur jets d'attaque jusqu'au début du prochain tour du pari.\n**Détection orthographique.** Le pari lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Détection du mal et du bien\n- 1/jour chacun : Communion (en tant qu'action), Dissipation du mal et du bien\n- 2/jour chacun : Soins (sous forme de sort de niveau 6), Restauration partielle",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 10,
+   "damage": "1d6+5",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/ca48da1703_monstre-pari.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "saves": "CON +10, SAG +11, CHA +11",
+ "skills": "Perspicacité +16, Perception +11",
+ "resistances": "feu, radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé"
+}

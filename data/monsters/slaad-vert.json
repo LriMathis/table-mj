@@ -1,0 +1,58 @@
+{
+ "id": "slaad-vert",
+ "name": "Slaad vert",
+ "type": "Aberration (métamorphe)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "caNote": "armure naturelle",
+ "hp": 127,
+ "hpFormula": "15d10+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 8,
+  "CHA": 12
+ },
+ "skills": "Arcanes +3, Perception +2",
+ "resistances": "acide, feu, foudre, froid, tonnerre",
+ "senses": "vision aveugle 9 m, vision dans le noir 18 m, Perception passive 12",
+ "languages": "slaad, télépathie à 18 m",
+ "traits": "**Incantation innée.** Le slaad utilise le Charisme comme caractéristique d'incantation (DD du jet de sauvegarde contre les sorts : 12). Il peut lancer les sorts suivants de manière innée, sans utiliser de composantes matérielles.\n- À volonté : *détection de la magie, détection des pensées, main du mage*\n- 2/jour chacun : *invisibilité* (sur soi uniquement), *peur*\n- 1/jour : *boule de feu*\n**Métamorphe.** Le slaad peut dépenser son action pour se métamorphoser en humanoïde de taille Moyenne ou Petite ou pour reprendre sa véritable apparence. En dehors de sa taille, son profil ne change pas, quelle que soit la forme qu'il revêt. L'équipement qu'il porte ou transporte ne se transforme pas en même temps que lui. S'il meurt, il reprend son apparence normale.\n**Régénération.** Le slaad récupère 10 points de vie au début de son tour tant qu'il lui reste au moins 1 point de vie.\n**Résistance à la magie.** Le slaad est avantagé lors de ses jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le slaad porte trois attaques, l'une avec sa morsure, les deux autres avec ses griffes ou son bâton. À la place, il peut utiliser deux fois projeter une flamme.\n**Bâton.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 11 (2d6+4) dégâts contondants.\n**Griffe (sous forme de slaad uniquement).** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 7 (1d6+4) dégâts tranchants.\n**Morsure (sous forme de slaad uniquement).** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 11 (2d6+4) dégâts perforants.\n**Projeter une flamme.** *Attaque de sort à distance :* +4 pour toucher, portée 18 m, une cible. *Touché :* 10 (3d6) dégâts de feu. La flamme embrase les objets inflammables que personne ne porte ni ne transporte.",
+ "portrait": "/data/images/5945540c05_monstre-slaad-vert.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 269 · image : Manuel des monstres p. 266",
+ "attacks": [
+  {
+   "name": "Bâton",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Griffe (sous forme de slaad uniquement)",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure (sous forme de slaad uniquement)",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Projeter une flamme",
+   "bonus": 4,
+   "damage": "3d6",
+   "type": "feu"
+  }
+ ]
+}

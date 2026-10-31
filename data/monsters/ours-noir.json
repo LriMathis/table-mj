@@ -1,0 +1,38 @@
+{
+ "id": "ours-noir",
+ "name": "Ours noir",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non aligné",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 19,
+ "hpFormula": "3d8+6",
+ "vitesse": "9 m, escalade 9 m, nage 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "skills": "Perception +5",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** L’ours effectue deux attaques de Saignée.\n**Saignée.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a6d39387cd_monstre-ours-noir.png",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet"
+}

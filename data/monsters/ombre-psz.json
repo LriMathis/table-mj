@@ -1,0 +1,43 @@
+{
+ "id": "ombre-psz",
+ "name": "Shade",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Amorphe.** L'ombre peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Vols d'ombre.** Dans la lumière ou l'obscurité, l'ombre peut prendre l'action Se cacher comme un action bonus. Son bonus furtif est également amélioré à +6.\n**Faiblesse de la lumière du soleil.** Alors que dans la lumière du soleil, l'ombre a désavantage sur jets d'attaque, tests de caractéristique, et jet de sauvegarde.",
+ "actionsText": "**Égoutter Force.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 9 (2d6 + 2) dégâts nécrotiques, et le score Force de la cible est réduit de 1d4. La cible meurt si cela réduit sa Force à 0. Sinon, la réduction dure jusqu'à ce que la cible termine un repos court ou long.\nSi un humanoïde non malin meurt de cette attaque, un nouveau Ombre s'élève du corps 1d4 heures plus tard.",
+ "attacks": [
+  {
+   "name": "Égoutter Force",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/b23a4e9a4d_monstre-ombre-psz.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "aka": "Ombre",
+ "skills": "Discrétion +4",
+ "vulnerabilities": "radiant",
+ "resistances": "acide, froid, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

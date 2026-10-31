@@ -1,0 +1,47 @@
+{
+ "id": "sirac-de-suzail",
+ "name": "Sirac of Suzail",
+ "type": "Humanoïde (Chondathan humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 14,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 17,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, orc",
+ "traits": "**Information sur le jeu de rôles.** Acolyte de Torm, Sirac a grandi dans les rues de Suzail, la capitale de Cormyr. Il est venu à Icewind Dale pour devenir un pêcheur de truites à tête de noeud, mais a plutôt trouvé la religion. Fils mécontent d'Artus Cimber, un aventurier humain renommé, Sirac n'a pas vu son père depuis qu'il était bébé.\nIdéal: \"Sans devoir ni loyauté, un homme n'est rien.\"\nObligation : \"Icewind Dale est là où j'appartiens pour le reste de ma vie.\"\nFaux : \"Je suis honnête envers une faute.\"",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Débrouille-toi.** Attaque d'arme à distance : +5 au toucher, portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants. Sirac porte six fléchettes.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/643876ad3b_monstre-sirac-de-suzail.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Sirac de Suzail",
+ "caNote": "Armure en cuir",
+ "skills": "Athlétisme +4, Perspicacité +3, Survie +3",
+ "reactions": "**Parry.** Sirac ajoute 2 à sa CA contre l'attaque de melee qui le frapperait. Pour ce faire, Sirac doit voir l'agresseur et utiliser une arme à la mêlée."
+}

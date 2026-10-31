@@ -1,0 +1,41 @@
+{
+ "id": "moisissure-violette-necrohulk",
+ "name": "Violet Fungus Necrohulk",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 123,
+ "hpFormula": "13d10+52",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La nécrohulk fait deux attaques de slams.\n**Le clam de rottage.** Jet d'attaque au corps à corps : +7, allonge 3 m. Touché : 9 (1d10 + 4) dégâts contondants plus 7 (2d6) dégâts nécrotiques.\n**Spore Bomb (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 15, chaque créature dans une Sphère 6 m -radius centrée sur un point que la nécrohulk peut voir à l'intérieur de 18 m. Échec : 28 (8d6) dégâts nécrotiques, et la cible a l'état empoisonné jusqu'au début du prochain tour de la nécrohulk. Alors qu'empoisonné, la cible ne peut pas récupérer points de vie. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Le clam de rottage",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/45ac5fb072_monstre-moisissure-violette-necrohulk.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Moisissure violette Necrohulk",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, empoisonné",
+ "bonusActions": "**Corps absorbant.** Jet de sauvegarde de Force : DD 15, une créature moyenne ou petite que la nécrohulk peut voir dans 1,50 m. Échec : La cible est tirée dans l'espace de la nécrohulk et devient greffée à son corps. La nécrohulk ne peut avoir qu'une cible greffé à la fois.\nPendant la greffe, la cible a l'état entravé et Désavantage sur jet de sauvegarde de Constitution. Lorsque la nécrohulk se déplace, la cible greffée se déplace avec elle. Si la cible meurt alors qu'elle est greffée, son corps est détruit, et la nécrohulk retrouve 10 points de vie.\nLa cible greffée ou une créature dans 1,50 m de la nécrohulk peut prendre une action pour faire un DD 15 test de Force (Athlétisme). Lors d'un contrôle réussi, la cible n'est plus greffée et se déplace vers un espace inoccupé au sein de 1,50 m de la nécrohulk."
+}

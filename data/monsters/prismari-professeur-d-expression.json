@@ -1,0 +1,42 @@
+{
+ "id": "prismari-professeur-d-expression",
+ "name": "Prismari Professor of Expression",
+ "type": "Humanoïde (ensorceleur)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 13,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 15,
+  "SAG": 13,
+  "CHA": 19
+ },
+ "senses": "Perception passive 14",
+ "languages": "Commun plus quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le professeur fait trois attaques de Cinder Strike.\n**Grève du cylindre.** Attaque de sort au corps à corps : +7 au toucher, allonge 4,50 m, une cible. Touché : 13 (2d8 + 4) dégâts de feu.\n**foudre Flourish (Recharge 6).** Le professeur libère des arcs de foudre magique à deux créatures qu'il peut voir en lui-même. Chaque cible doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 35 (10d6) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Le professeur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 15):\n- À volonté : Illusion mineure\n- 2/jour chacun : Nappe de brouillard, Bourrasque, Armure de mage",
+ "attacks": [
+  {
+   "name": "Grève du cylindre",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/fd923f9395_monstre-prismari-professeur-d-expression.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Prismari professeur d'expression",
+ "saves": "DEX +6, INT +5, SAG +4, CHA +7",
+ "skills": "Acrobaties +6, Arcanes +5, Athlétisme +5, Perception +4, Représentation +10",
+ "resistances": "feu, foudre",
+ "bonusActions": "**Feuillet de flamençage.** Le professeur est enflammé et saute jusqu'à 9 m dans n'importe quelle direction. Lorsque le professeur atterrit, les flammes éclatent dans un rayon de 3 m autour du professeur et disparaissent. Chaque créature du choix du professeur dans cette zone doit réussir sur un DD 15 jet de sauvegarde de Dextérité ou prendre 7 (2d6) dégâts de feu."
+}

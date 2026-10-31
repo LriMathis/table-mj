@@ -1,0 +1,48 @@
+{
+ "id": "vladeska-drakov",
+ "name": "Vladeska Drakov",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 170,
+ "hpFormula": "20d8+80",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, géant, orc",
+ "traits": "**Restauration de lord noir.** Si Vladeska meurt, elle ressuscite avec tout son points de vie en 1d10 semaines quelque part en Falkovnia.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Vladeska échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Vladeska fait deux attaques de Pike. Elle peut remplacer une attaque par une attaque à la lance.\n**Empaler la Spear.** Jet d'attaque au corps à corps ou à distance : +8, allonge 1,50 m ou portée 6/18 m. Touché : 13 (2d8 + 4) dégâts perforants, et la cible est empalée sur la lance de Vladeska. Alors qu'elle est empalée, la créature a l'état entravé et prend 3 (1d6) dégâts perforants au début de chacun de ses tours. La cible ou une créature dans 1,50 m d'elle peut prendre une action pour l'enlever de la lance.\n**Poire.** Jet d'attaque au corps à corps : +8, allonge 3 m. Touché : 15 (2d10 + 4) dégâts perforants.\n**Artillerie feu (1/jour).** Jet de sauvegarde de Dextérité : DD 15, chaque créature dans un 6 m -radius, 18 m -haut Cylindre centré sur un point Vladeska peut voir dans 90 m. Échec : 13 (3d8) dégâts contondants plus 13 (3d8) dégâts de feu, et la cible a l'état à terre. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Empaler la Spear",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Poire",
+   "bonus": 8,
+   "damage": "2d10+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d7edb1a137_monstre-vladeska-drakov.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "CON +8, CHA +7",
+ "skills": "Athlétisme +8, Perception +5",
+ "conditionImmunities": "effrayé",
+ "reactions": "**Réorienter l'attaque.** Déclencheur : Une créature Vladeska peut voir fait un jet d'attaque contre elle. Réponse : Vladeska choisit un allié petit ou moyen au sein de 1,50 m d'elle-même. Elle et cet allié échangent des places, et l'allié devient la cible de l'attaque à la place.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, vladeska drakov peut entreprendre l'une des actions ci-après.\n**Avances.** Vladeska se déplace jusqu'à la moitié de sa vitesse et fait une attaque de Pike.\n**C'est terrible d'être impaludé..** Vladeska fait une attaque à la lance. Si l'attaque frappe et que la cible est une créature, chaque allié de la cible dans 9 m est soumis à l'effet suivant. Jet de sauvegarde de Sagesse : DD 15. Échec : La cible a l'état effrayé jusqu'à la fin de son prochain tour. Échec ou réussite : Vladeska ne peut pas reprendre cette action avant le début de son prochain tour.\n**Commande Ballista.** Jet de sauvegarde de Dextérité : DD 15, une créature Vladeska peut voir dans 36 m. Échec : 14 (4d6 + 3) dégâts perforants, et la vitesse de la cible est réduite de moitié jusqu'à la fin de son prochain tour."
+}

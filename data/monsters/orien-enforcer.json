@@ -1,0 +1,41 @@
+{
+ "id": "orien-enforcer",
+ "name": "Orien Enforcer",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 55,
+ "hpFormula": "10d8+10",
+ "vitesse": "10,50 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 13,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 14",
+ "languages": "Commun plus deux autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'exécuteur fait trois attaques de Dagger. Il peut remplacer une attaque par une utilisation de foudre Cage si disponible.\n**Déclencheur.** Jet d'attaque au corps à corps ou à distance : +6, allonge 1,50 m ou portée 6/18 m. Touché : 9 (2d4 + 4) dégâts perforants plus 7 (2d6) dégâts de poison.\n**foudre Cage (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 13, chaque créature dans un 6 m -radius Sphere centré sur un point que l'exécuteur peut voir dans 18 m. Échec : 13 (3d8) dégâts de foudre, et la créature ne peut pas prendre Réactions jusqu'à la fin du prochain tour de l'exécuteur. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/23d5f0a2e0_monstre-orien-enforcer.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "saves": "DEX +6, SAG +4",
+ "skills": "Acrobaties +6, Perception +4",
+ "bonusActions": "**Étape de la mise en danger (2/jour).** L'exécuteur lance Foulée brumeuse, en utilisant Intelligence comme caractéristique d'incantation.\n- 2/jour : Foulée brumeuse",
+ "reactions": "**Perturbation temporelle (1/jour).** Déclencheur : L'exécuteur prend les dégâts d'une attaque de mêlée. Réponse : L'exécuteur téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir. Chaque créature dans 3 m de l'espace que l'exécuteur gauche doit réussir sur un DD 13 jet de sauvegarde de Constitution, ou sa vitesse est réduite de moitié jusqu'au début du prochain tour de l'exécuteur."
+}

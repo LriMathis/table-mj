@@ -1,0 +1,40 @@
+{
+ "id": "tarkanan-marauder",
+ "name": "Tarkanan Marauder",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 16,
+ "hp": 247,
+ "hpFormula": "26d8+130",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 17,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 13
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, argot des voleurs",
+ "traits": "**Évasion.** Si le maraudeur est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, le maraudeur ne prend pas de dégâts s'il réussit sur le save et seulement la moitié de ces dégâts s'il échoue. Il ne peut pas utiliser ce trait s'il a l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Le maraudeur fait trois attaques Aberrant Strike.\n**Grève aberrante.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 13 (3d6 + 3) dégâts perforants, plus 21 (6d6) dégâts de force si le maraudeur avait un avantage sur le jet d'attaque.\n**Détection orthographique.** Le maraudeur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Constitution comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Message\n- 1/jour : Désintégration",
+ "attacks": [
+  {
+   "name": "Grève aberrante",
+   "bonus": 7,
+   "damage": "3d6+3",
+   "type": "perforant + force"
+  }
+ ],
+ "portrait": "/data/images/d779814fd8_monstre-tarkanan-marauder.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "saves": "DEX +7, CON +9, SAG +6",
+ "skills": "Tromperie +5, Perception +6, Discrétion +7",
+ "bonusActions": "**La déchirure dans l'espace.** Le maraudeur se téléporte dans un espace qu'il peut voir à l'intérieur de 9 m, apparaissant dans un flash éblouissant. Jet de sauvegarde de Constitution : DD 17, chaque créature dans une Emanation 1,50 m originaire du maraudeur quand elle apparaît. Échec : La cible a l'état aveuglé jusqu'à la fin du prochain tour du maraudeur."
+}

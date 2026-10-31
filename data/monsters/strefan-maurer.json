@@ -1,0 +1,48 @@
+{
+ "id": "strefan-maurer",
+ "name": "Strefan Maurer",
+ "type": "Mort-vivant (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 16,
+ "hp": 144,
+ "hpFormula": "17d8+68",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 22",
+ "languages": "abyssal, commun, draconique, elfique, géant, infernal",
+ "traits": "**Changeur de forme.** Si Strefan n'est pas dans l'eau courante ou la lumière du soleil, il peut utiliser son action pour se polymorphiser en une petite chauve-souris, un loup moyen, ou un nuage moyen de brouillard, ou revenir dans sa forme réelle.\nAlors que sous forme de chauve-souris ou de loup, Strefan ne peut pas parler. En forme de chauve-souris, sa vitesse de marche est 1,50 m, et il a une vitesse de vol de 9 m. En forme de loup, sa vitesse de marche est 12 m. Ses statistiques, autres que sa taille et sa vitesse, sont inchangées. Tout ce qu'il porte se transforme avec lui, mais rien de ce qu'il porte ne le fait. Il revient à sa vraie forme s'il meurt.\nAlors que sous forme de brouillard, Strefan ne peut prendre aucune action, parler, ou manipuler des objets. Il est sans poids, a une vitesse de vol de 6 m, peut planer, et peut entrer dans l'espace d'une créature hostile et s'arrêter là. De plus, si l'air peut passer dans un espace, la brume peut le faire sans serrer, et il ne peut pas passer dans l'eau. Il a un avantage sur Force, Dextérité et jet de sauvegarde de Constitution, et il est à l'abri de tous les dégâts non magiques, sauf les dégâts qu'il prend du soleil.\n**Résistance légendaire (3/jour).** Si Strefan échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Échappement de la fausseté.** Lorsque Strefan tombe à 0 points de vie en dehors de son cercueil, il se transforme en un nuage de brouillard (comme dans le trait Shapechanger) au lieu de tomber inconscient, à condition qu'il ne soit pas dans l'eau courante ou la lumière du soleil. S'il ne peut pas se transformer, il est détruit.\nBien qu'il ait 0 points de vie sous forme de brouillard, il ne peut pas revenir à sa forme de vampire, et il doit atteindre son cercueil dans les 2 heures ou être détruit. Une fois dans son cercueil, il revient à sa forme vampire. Il est alors paralysé jusqu'à ce qu'il retrouve au moins 1 points de vie. Après 1 heure dans son cercueil avec 0 points de vie, il retrouve 1 points de vie.\n**Régénération.** Strefan retrouve 20 points de vie au début de son tour s'il a au moins 1 points de vie et n'est pas dans l'eau courante ou la lumière du soleil. S'il prend dégâts radiants ou endommage l'eau bénite, ce trait ne fonctionne pas au début de son prochain tour.\n**Escalade des araignées.** Strefan peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir à faire un test de caractéristique.\n**Vulnérabilités Vampire.** Les armes coupées du bois vivant sont particulièrement efficaces contre les vampires, bien que toute arme puisse les blesser ou les tuer. Un vampire ne peut traverser l'eau courante qui montre le reflet de la lune, et l'eau bénie par Avacyn (eau sainte) brûle la chair de vampire comme de l'acide. Le reflet d'un vampire en argent (y compris un miroir de verre à dos argenté) apparaît comme le vampire aurait regardé sans la condition vampirique – ni son apparence véritable ni son glamère, mais un humain normal, des défauts et tout. Pour cette raison, les vampires vont à de grandes longueurs pour éviter les miroirs, et la présence d'argent sous quelque forme que ce soit est troublante pour eux.\n**Détection orthographique.** Strefan est un spellcaster de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 18, +10 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Main de mage, Prestidigitation, Rayon de givre\n- Niveau 1 (4 emplacements) : Compréhension des langues, Nappe de brouillard, Sommeil\n- Niveau 2 (3 emplacements) : Détection des pensées, Bourrasque, Image miroir\n- Niveau 3 (3 emplacements) : Animation des morts, Boule de feu, Antidétection\n- Niveau 4 (3 emplacements) : Flétrissement, Invisibilité supérieure, Métamorphose\n- Niveau 5 (1 emplacements) : Animation d'objets, Scrutation",
+ "actionsText": "**Multiattaque (formulaire de vampire seulement).** Strefan fait deux attaques, dont une seule peut être une attaque de morsure.\n**frappe à mains nues (formulaire Vampire ou Wolf seulement).** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, plus 14 (4d6) dégâts nécrotiques. Si la cible est une créature, Strefan peut la grappiller (évasion DD 18) au lieu de traiter la dégâts tranchants.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature volontaire, ou une créature qui est agrippé par Strefan, neutralisé, ou entravé. Touché : 7 (1d6 + 4) dégâts perforants plus 10 (3d6) dégâts nécrotiques. La maximum de points de vie de la cible est réduite d'un montant égal à la dégâts nécrotiques prise, et Strefan récupère la points de vie égale à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0. Un humanoïde tué de cette façon puis enterré dans le sol monte la nuit suivante comme un Vampirien sous le contrôle de Strefan.\n**Charme.** Strefan cible un humanoïde qu'il peut voir au sein de 9 m de lui. Si la cible peut voir Strefan, la cible doit réussir sur un DD 17 jet de sauvegarde de Sagesse contre cette magie ou être charmé. La cible charmé considère Strefan comme un ami de confiance pour être écouté et protégé. La cible n'est pas sous le contrôle de Strefan, mais il prend les demandes et les actions de Strefan de la manière la plus favorable et laisse Strefan la mordre.\nChaque fois que Strefan ou ses compagnons font quelque chose de dangereux pour la cible, il peut répéter le jet de sauvegarde, mettant fin à l'effet sur lui-même sur un succès. Sinon, l'effet dure 24 heures ou jusqu'à ce que Strefan soit détruit, soit sur un autre plan d'existence que la cible, soit prend un action bonus pour mettre fin à l'effet.\n**Enfants de la nuit (1/jour).** Strefan appelle magiquement des essaims 2d4 de chauves-souris ou des essaims de rats, à condition que le soleil ne soit pas levé. En plein air, Strefan peut appeler les loups 3d6. Les créatures appelées arrivent en 1d4, agissant comme alliés de Strefan et obéissant à ses commandements parlés. Les bêtes restent pendant 1 heure, jusqu'à ce que Strefan meure, ou jusqu'à ce qu'il les rejette comme un action bonus.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues (formulaire Vampire ou Wolf seulement)",
+   "bonus": 9,
+   "damage": "1d8+4",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "1d6+4",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/ed85454e6d_monstre-strefan-maurer.webp",
+ "notes": "",
+ "source": "PSI (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, SAG +7, CHA +9",
+ "skills": "Arcanes +15, Perception +12, Religion +10, Discrétion +14",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, strefan maurer peut entreprendre l'une des actions ci-après.\n**Bouge.** Strefan se déplace jusqu'à sa vitesse sans provoquer d'attaques d'opportunités.\n**frappe à mains nues.** Strefan fait un frappe à mains nues.\n**Bite (coûts 2 actions).** Strefan fait une attaque de morsure."
+}

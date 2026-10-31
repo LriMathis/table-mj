@@ -1,0 +1,43 @@
+{
+ "id": "geant-des-tempetes-quintessent",
+ "name": "Storm Giant Quintessent",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique bon",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 12,
+ "hp": 230,
+ "hpFormula": "20d12+100",
+ "vitesse": "15 m, vol 15 m (vol stationnaire), nage 15 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 17,
+  "SAG": 20,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 20",
+ "languages": "commun, géant",
+ "traits": "**Amphibie.** Le géant peut respirer l'air et l'eau.\n**Résistance légendaire (1/jour).** Si le géant échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques foudre Sword, ou il utilise Wind Javelin deux fois.\n**Épée foudre.** Attaque d'arme au corps à corps : +14 au toucher, allonge 4,50 m, une cible. Touché : 40 (9d6 + 9) dégâts de foudre.\n**Javelin du vent.** Le géant forme un vent de javelot et le jette à une créature qu'il peut voir à l'intérieur de 180 m. Le javelot traite 19 (3d6 + 9) dégâts de force à la cible, frappant avec acharnement. Le javelot disparaît après qu'il frappe.",
+ "attacks": [
+  {
+   "name": "Épée foudre",
+   "bonus": 14,
+   "damage": "9d6+9",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/9a70cd3eb6_monstre-geant-des-tempetes-quintessent.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Géant des tempêtes Quintessent",
+ "saves": "FOR +14, CON +10, SAG +10, CHA +9",
+ "skills": "Arcanes +8, Histoire +8, Perception +10",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, tonnerre",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, géant des tempêtes quintessent peut entreprendre l'une des actions ci-après.\n**Gust.** Le géant cible une créature qu'il peut voir à l'intérieur de 18 m et crée une rafale magique de vent autour de la cible, qui doit réussir sur un DD 18 jet de sauvegarde de Force ou être déplacé vers 6 m dans n'importe quelle direction horizontale que le géant choisit.\n**Thunderbolt (coûts 2 actions).** Le géant lance un coup de tonnerre sur une créature qu'il peut voir à l'intérieur de 180 m. La cible doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 22 (4d10) dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Un avec la tempête (coûts 3 actions).** Le géant disparaît, se dispersant dans la tempête qui entoure son repaire. Le géant peut mettre fin à cet effet au début de n'importe quel de ses virages, devenant un géant une fois de plus et apparaissant dans n'importe quel endroit qu'il choisit dans son repaire. Bien qu'éparpillé, le géant ne peut pas prendre d'autres mesures que les tanières, et il ne peut pas être ciblé par des attaques, des sorts, ou d'autres effets. Le géant ne peut pas utiliser cette capacité en dehors de sa tanière, ni utiliser cette capacité si une autre créature utilise un sort Contrôle du climat ou une magie similaire pour éteindre la tempête."
+}

@@ -1,0 +1,49 @@
+{
+ "id": "geant-du-givre-eternel",
+ "name": "Frost Giant Everlasting One",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 15,
+ "hp": 189,
+ "hpFormula": "14d12+98",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 9,
+  "CON": 24,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "géant",
+ "traits": "**Chefs supplémentaires.** Le géant a une chance 25 % d'avoir plus d'une tête. Si elle en a plusieurs, elle a avantage sur tests de Sagesse (Perception) et sur jet de sauvegarde contre aveuglé, charmé, assourdi, effrayé, étourdi, inconscient.\n**Régénération.** Le géant retrouve 10 points de vie au début de son tour. Si le géant prend de l'acide ou du dégâts de feu, ce trait ne fonctionne pas au début de son prochain tour. Le géant meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques Greataxe ou Rock.\n**Grandaxe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 26 (3d12 + 7) dégâts tranchants, ou 30 (3d12 + 11) dégâts tranchants tout en faisant rage.\n**Roche.** Attaque d'arme à distance : +11 au toucher, portée 18/72 m., une cible. Touché : 29 (4d10 + 7) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 11,
+   "damage": "3d12+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 11,
+   "damage": "4d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/af84bcae33_monstre-geant-du-givre-eternel.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Géant du givre éternel",
+ "caNote": "armure patchwork",
+ "saves": "FOR +11, CON +11, SAG +4",
+ "skills": "Athlétisme +11, Perception +4",
+ "immunities": "froid",
+ "bonusActions": "**Rage de Vaprak (recharge après un repos court ou long).** Le géant entre dans une rage. La rage dure 1 minute ou jusqu'à ce que le géant soit neutralisé. Tout en faisant rage, le géant gagne les avantages suivants:\n- Le géant a un avantage sur tests de Force et jet de sauvegarde de Force.\n- Lorsqu'il fait une attaque d'arme à la mêlée, le géant gagne un bonus de +4 à la jet de dégâts.\n- Le géant a une résistance au bludgeoning, au perçage et au dégâts tranchants."
+}

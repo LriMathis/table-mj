@@ -1,0 +1,54 @@
+{
+ "id": "isendraug",
+ "name": "Isendraug",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "12 m, creusement 9 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 21",
+ "languages": "commun, draconique",
+ "traits": "**Marche sur glace.** Le dragon peut se déplacer à travers et escalader des surfaces glacées sans avoir besoin de faire un test de caractéristique. De plus, 3 composés de glace ou de neige ne coûtent pas plus de mouvement.\n**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon peut utiliser sa présence effrayante. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants plus 4 (1d8) dégâts de froid.\n**Griffe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +11 au toucher, allonge 4,50 m, une cible. Touché : 15 (2d8 + 6) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix du dragon qui est dans 36 m du dragon et conscient de lui doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante du dragon pour les prochaines 24 heures.\n**froid Respiration (Recharge 5-6).** Le dragon exhale une explosion glacée dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 19 jet de sauvegarde de Constitution, en prenant 54 (12d8) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "2d10+6",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 11,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 11,
+   "damage": "2d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/61035b573e_monstre-isendraug.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +11, SAG +6, CHA +6",
+ "skills": "Perception +11, Discrétion +5",
+ "immunities": "froid",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, isendraug peut entreprendre l'une des actions ci-après.\n**Détecter.** Le dragon fait un test de Sagesse (Perception).\n**Attaque de queue.** Le dragon fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** Le dragon bat ses ailes. Chaque créature au sein de 3 m du dragon doit réussir sur un DD 19 jet de sauvegarde de Dextérité ou prendre 13 (2d6 + 6) dégâts contondants et être à terre. Le dragon peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

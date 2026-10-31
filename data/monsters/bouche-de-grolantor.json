@@ -1,0 +1,47 @@
+{
+ "id": "bouche-de-grolantor",
+ "name": "Mouth of Grolantor",
+ "type": "Géant (géant de la colline)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 105,
+ "hpFormula": "10d12+40",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 5
+ },
+ "senses": "Perception passive 11",
+ "languages": "géant",
+ "traits": "**Bouche du Chaos.** Le géant est à l'abri du sort Confusion.\nSur chacun de ses tours, le géant utilise tout son mouvement pour se diriger vers la créature la plus proche ou tout autre chose qu'il pourrait percevoir comme de la nourriture. Roulez un d10 au début de chaque tour du géant pour déterminer son action pour ce tour :\n- **1–3:** Le géant fait trois attaques Fist contre une créature aléatoire à portée de main. Si aucune créature n'est à portée de main, le géant s'envole vers une rage et gagne de l'avantage sur tous les jets d'attaque jusqu'à la fin de son prochain tour.\n- **4–5:** Le géant fait une attaque Fist contre chaque créature à portée de main. Si aucune créature n'est à portée de main, le géant fait une attaque Fist contre lui-même.\n- **6–7:** Le géant fait une attaque Bite contre une créature aléatoire à portée de main. Si aucune autre créature n'est à portée de main, ses yeux s'évanouissent et c'est étourdi jusqu'au début de son prochain tour.\n- **8–10:** Le géant fait une attaque Bite et deux attaques Fist contre une créature aléatoire à portée de main. Si aucune créature n'est à portée de main, le géant s'envole vers une rage et gagne de l'avantage sur tous les jets d'attaque jusqu'à la fin de son prochain tour.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 15 (3d6 + 5) dégâts perforants, et le géant récupère magiquement points de vie égal aux dégâts infligés.\n**Fist.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 18 (3d8 + 5) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "3d6+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Fist",
+   "bonus": 8,
+   "damage": "3d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/43360d7e0a_monstre-bouche-de-grolantor.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Bouche de Grolantor",
+ "caNote": "armure naturelle",
+ "skills": "Perception +1",
+ "conditionImmunities": "effrayé"
+}

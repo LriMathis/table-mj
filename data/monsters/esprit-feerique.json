@@ -1,0 +1,33 @@
+{
+ "id": "esprit-feerique",
+ "name": "Fey Spirit",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "sylvestre, comprend les langues que vous connaissez",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'esprit fait un certain nombre d'attaques de Fey Blade égal à la moitié du niveau de ce sort (ronde vers le bas).\n**Lame de fécule.** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 2d6 + 3 + summonSpellLevel dégâts de force.",
+ "attacks": [],
+ "portrait": "/data/images/c2953aed9b_monstre-esprit-feerique.webp",
+ "notes": "points de vie : 30 + 10 pour chaque niveau de sort supérieur à 3",
+ "source": "Player's Handbook (2024) (5e.tools, traduction automatique)",
+ "aka": "Esprit féerique",
+ "conditionImmunities": "charmé",
+ "bonusActions": "**Étape de la fièvre.** L'esprit téléporte magiquement jusqu'à 9 m dans un espace inoccupé qu'il peut voir. Puis l'un des effets suivants se produit, basé sur l'humeur choisie par l'esprit:\n- **Fumées** L'esprit a Avantage sur la prochaine jet d'attaque qu'il fait avant la fin de ce tour.\n- **C'est un peu dégueulasse.** Jet de sauvegarde de Sagesse : DD égale votre DD de sauvegarde des sorts, une créature l'esprit peut voir en 3 m de lui-même. Échec : La cible est charmé par vous et l'esprit pendant 1 minute ou jusqu'à ce que la cible prenne tout dégâts.\n- **Tricksy** L'esprit remplit un Cube 3 m de 1,50 m de l'obscurité magique, qui dure jusqu'à la fin de son prochain tour."
+}

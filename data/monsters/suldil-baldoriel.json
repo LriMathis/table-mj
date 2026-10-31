@@ -1,0 +1,41 @@
+{
+ "id": "suldil-baldoriel",
+ "name": "Suldil Baldoriel",
+ "type": "Humanoïde (demi-elf)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 12,
+ "hp": 137,
+ "hpFormula": "25d8+25",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 20
+ },
+ "senses": "Perception passive 12",
+ "languages": "céleste, commun, draconique, elfique",
+ "traits": "**Jeune Dragon de Bronze.** Suldil est accompagné d'un Dragon de bronze, jeune. Le dragon permet à Suldil de l'utiliser comme monture.",
+ "actionsText": "**Bolt de bronze.** Attaque de sort au corps à corps ou à distance : +9 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 21 (3d10 + 5) dégâts de foudre.\n**Explosion (1/jour).** Suldil rejette une explosion d'énergie dans un rayon 18 m. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Dextérité, en prenant 44 (8d10) dégâts de foudre sur l'enregistrement échoué, la moitié de ces dégâts sur un enregistrement réussi.\n**Détection orthographique.** Suldil lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection de la magie, Lumière, Main de mage\n- 1/jour : Désintégration\n- 2/jour chacun : Contresort, Bouclier",
+ "attacks": [
+  {
+   "name": "Bolt de bronze",
+   "bonus": 9,
+   "damage": "3d10+5",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/61c1e56977_monstre-suldil-baldoriel.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "saves": "CON +5, CHA +9",
+ "skills": "Arcanes +9, Tromperie +9, Persuasion +9",
+ "resistances": "foudre",
+ "bonusActions": "**Montés.** Si Suldil n'est pas montée, elle peut utiliser un action bonus pour se téléporter magiquement sur sa jeune monture de dragon en bronze, à condition que Suldil et le jeune dragon en bronze soient sur le même plan d'existence. Lorsqu'elle téléporte, Suldil s'acharne sur le jeune dragon en bronze avec tout l'équipement qu'elle porte. Bien que monté et non neutralisé, Suldil ne peut pas être surpris, et elle et son montage gagnent avantage sur jet de sauvegarde de Dextérité."
+}

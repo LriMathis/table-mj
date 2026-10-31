@@ -1,0 +1,49 @@
+{
+ "id": "olhydra",
+ "name": "Olhydra",
+ "type": "Élémentaire",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 18,
+ "hp": 324,
+ "hpFormula": "24d12+168",
+ "vitesse": "15 m, nage 30 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 22,
+  "CON": 24,
+  "INT": 17,
+  "SAG": 18,
+  "CHA": 23
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 14",
+ "languages": "aquatique",
+ "traits": "**Attaques motorisées.** Les attaques de slam d'Olhydre sont traitées comme magiques dans le but de contourner la résistance et l'immunité aux attaques non magiques.\n**Résistance légendaire (3/jour).** Si Olhydra échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Olhydra a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Formulaire Eau.** Olhydra peut entrer dans l'espace d'une créature hostile et s'arrêter là. Elle peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Découpe intérieure.** Le caractéristique d'incantation inné d'Olhydra est Charisme (save spell DD 20, +12 au toucher avec attaques de sort). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Mur de glace\n- 1/jour : Tempête vengeresse\n- 3/jour : Tempête de grêle",
+ "actionsText": "**Multiattaques.** Olhydra fait deux attaques de clam ou deux attaques de jet d'eau.\n**Clamer.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 21 (3d10 + 5) dégâts contondants, et la cible est agrippé (évasion DD 19). Olhydra peut atteindre quatre cibles. Quand Olhydra bouge, toutes les créatures qu'elle lutte se déplacent.\n**Jet d'eau.** Attaque d'arme à distance : +12 au toucher, portée 36 m, une cible. Touché : 21 (6d6) dégâts contondants, et la cible est à terre si elle échoue un DD 19 jet de sauvegarde de Force.\n**Invoquer les éléments (1/jour).** Olhydre convoque jusqu'à trois éléments d'eau et perd 30 points de vie pour chaque élément qu'elle convoque. Les éléments invoqués ont un maximum de points de vie, apparaissent à l'intérieur de 30 m d'Olhydra et disparaissent si Olhydra est réduit à 0 points de vie.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 11,
+   "damage": "3d10+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Jet d'eau",
+   "bonus": 12,
+   "damage": "6d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b1906527ab_monstre-olhydra.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +11, CON +13, SAG +10",
+ "resistances": "foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, froid, poison",
+ "conditionImmunities": "charmé, effrayé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, olhydra peut entreprendre l'une des actions ci-après.\n**Écraser.** une créature qu'Olhydra est en train de grappiller est écrasé pour 21 (3d10 + 5) dégâts contondants.\n**Fling (coûts 2 actions).** Olhydra libère une créature elle est en train de lutter en volant la créature jusqu'à 18 m loin d'elle, dans une direction de son choix. Si la créature en contact avec une surface solide, telle qu'un mur ou un plancher, la créature prend 1d6 dégâts contondants pour chaque 3 m qu'elle a été en contact.\n**Eau jusqu'à acide (coûts 3 actions).** Olhydra transforme son corps aqueux en acide. Cet effet dure jusqu'au prochain tour d'Olhydra. Toute créature qui entre en contact avec Olhydra ou la frappe avec une attaque de mêlée tout en se tenant à l'intérieur de 1,50 m d'elle prend 11 (2d10) dégâts d'acide. Toute créature agrippé par Olhydra prend 22 (4d10) dégâts d'acide au début de son tour."
+}

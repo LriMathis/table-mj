@@ -1,0 +1,41 @@
+{
+ "id": "oint",
+ "name": "Anointed",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 8,
+ "hp": 22,
+ "hpFormula": "3d8+9",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 6,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 6,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "comprend toutes les langues qu'il parlait dans la vie mais ne peut pas parler",
+ "traits": "**Fortitude non-morte.** Si le dégâts réduit l'oint à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + le dégâts pris, à moins que le dégâts soit radieux ou d'un coup critique. Sur un succès, l'oint tombe à 1 points de vie.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/45dbc4c794_monstre-oint.webp",
+ "notes": "",
+ "source": "PSA (5e.tools, traduction automatique)",
+ "aka": "Oint",
+ "saves": "SAG +0",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

@@ -1,0 +1,38 @@
+{
+ "id": "quickling",
+ "name": "Quickling",
+ "type": "Fée",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 10,
+ "hpFormula": "3d4+3",
+ "vitesse": "36 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 23,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun, sylvestre",
+ "traits": "**Mouvement flou.** jets d'attaque contre le quickling ont l'inconvénient sauf si c'est neutralisé ou sa vitesse est 0.\n**Évasion.** Si le vidage est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde et seulement la moitié des dégâts s'il échoue, à condition qu'il ne soit pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le rapide fait trois attaques de Dagger.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 8 (1d4 + 6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 8,
+   "damage": "1d4+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5fc51446ce_monstre-quickling.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "skills": "Acrobaties +8, Escamotage +8, Discrétion +8, Perception +5"
+}

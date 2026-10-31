@@ -1,0 +1,41 @@
+{
+ "id": "elemental-cataclysm",
+ "name": "Elemental Cataclysm",
+ "type": "Élémentaire (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique neutre",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 20,
+ "hp": 370,
+ "hpFormula": "20d20+160",
+ "vitesse": "18 m, creusement 18 m, vol 24 m (vol stationnaire), nage 24 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 19,
+  "CON": 27,
+  "INT": 9,
+  "SAG": 14,
+  "CHA": 9
+ },
+ "senses": "Vision parfaite 45 m, Perception passive 12",
+ "languages": "primordial",
+ "traits": "**Glisse de terre.** Le cataclysme peut creuser à travers la terre et la pierre non magiques et non travaillées. Ce faisant, le cataclysme ne perturbe pas le matériel qu'il traverse.\n**Résistance légendaire (4/jour).** Si le cataclysme échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Monstre de siège.** Le cataclysme cause deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le cataclysme fait deux attaques Elemental Burst.\n**Détournement élémentaire.** Jet d'attaque au corps à corps ou à distance : +15, allonge 9 m ou portée 45 m. Touché : 25 (5d6 + 8) dégâts d'un type choisi par le cataclysme: acide, froid, feu, foudre ou tonnerre.\n**Événement cataclysmique (Recharge 4-6).** Le cataclysme crée l'un des effets suivants au hasard (roule 1d4) :\n- **1: Flammes à clin d'œil** Jet de sauvegarde de Dextérité : DD 23, chaque créature dans un 18 m -radius Sphere centré sur un point le cataclysme peut voir dans 45 m. Échec : 45 (13d6) dégâts de feu. Réussite : Demi-dégâts. Échec ou réussite : La cible commence à brûler.\n- **2: Les vagues de congélation** Jet de sauvegarde de Force : DD 23, chaque créature dans un cône 27 m. Échec : 22 (5d8) dégâts contondants plus 22 (5d8) dégâts de froid, et la cible a l'état à terre. Réussite : Demi-dégâts seulement. Échec ou réussite : La vitesse de la cible est réduite à 0 jusqu'à la fin de son prochain tour.\n- **3: Tempête de rugissement** Un nuage de tempête remplit une sphère 18 m -radius centrée sur un point que le cataclysme peut voir dans 45 m. Le nuage dure 1 minute ou jusqu'à ce que le cataclysme utilise à nouveau Cataclysmic Event. Les créatures entièrement dans le nuage ont les conditions aveuglé et assourdi et ne peuvent pas lancer des sorts avec un composant verbal. Jet de sauvegarde de Dextérité : DD 23, chaque créature qui entre dans le nuage pour la première fois sur un tour ou commence son tour là. Échec : 18 (4d8) dégâts de foudre plus 18 (4d8) dégâts de tonnerre. Réussite : Demi-dégâts.\n- **4: Swalling Earth** Jet de sauvegarde de Force : DD 23, chaque créature dans un Cube 27 m provenant d'un point sur le sol à l'intérieur de 45 m. Échec : 18 (4d8) dégâts contondants plus 18 (4d8) dégâts d'acide, et la cible a l'état à terre et est enterrée sous des décombres. Une cible enterrée a l'état entravé, a Total Cover, et est étouffante. Comme une action, une créature enterrée ou une autre créature au sein de 1,50 m d'elle peut faire un DD 18 test de Force (Athlétisme). Sur un contrôle réussi, la créature n'est plus enterrée. Réussite : Demi-dégâts seulement.\n**Contrôle de la météo.** Le cataclysme lance le sort Contrôle du climat, ne nécessitant aucun composant du sort et utilisant Constitution comme caractéristique d'incantation.\n- À volonté : Contrôle du climat",
+ "attacks": [
+  {
+   "name": "Détournement élémentaire",
+   "bonus": 15,
+   "damage": "5d6+8",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/e03245ab25_monstre-elemental-cataclysm.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "saves": "DEX +11, CON +15, SAG +9, CHA +6",
+ "immunities": "acide, froid, feu, foudre, poison, tonnerre",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi, inconscient",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, elemental cataclysm peut entreprendre l'une des actions ci-après.\n**Éruption.** Le cataclysme fait une attaque Elemental Burst.\n**Mouvement d ' écroulement.** Le cataclysme se déplace jusqu'à sa vitesse, vitesse de vol, ou vitesse de natation sans provoquer Opportunity Attacks. Chaque créature de 1,50 m du cataclysme qui se déplace est ciblée une fois par l'effet suivant. Jet de sauvegarde de Constitution : DD 23. Échec : La cible a l'état à terre. Échec ou réussite : Le cataclysme ne peut pas reprendre cette action avant le début de son prochain tour."
+}

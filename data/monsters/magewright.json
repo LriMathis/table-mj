@@ -1,0 +1,38 @@
+{
+ "id": "magewright",
+ "name": "Magewright",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 13,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Perception passive 12",
+ "languages": "Commun plus deux langues",
+ "traits": "**Détection orthographique.** Le caractéristique d'incantation du magewright est Intelligence (sorption sauvegardez DD 12). Pour lancer l'un de ses rituels, le magewright doit fournir des composants matériels supplémentaires dont la valeur en pièces d'or est 20 fois supérieure au niveau du sort. Ces composants sont consommés lorsque le rituel est terminé. Le magewright connaît les sorts suivants :\n- À volonté : Main de mage, Prestidigitation",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/71018eef83_monstre-magewright.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "skills": "Arcanes +4"
+}

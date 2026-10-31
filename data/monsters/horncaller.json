@@ -1,0 +1,39 @@
+{
+ "id": "horncaller",
+ "name": "Horncaller",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 14",
+ "languages": "Commun plus une langue",
+ "traits": "**Parlez avec Beasts.** L'appeleur de cornes peut communiquer avec des bêtes comme s'ils partageaient une langue.\n**Découpe intérieure.** Le caractéristique d'incantation inné du klaxon est Sagesse (sorption sauvegardez DD 14). Le call-caller peut innerately lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Bénédiction, Invocation d'animaux",
+ "actionsText": "**Multiattaques.** Le corn caller fait deux attaques de mêlée avec son personnel et utilise One avec l'âme du monde.\n**Personnel.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants, ou 5 (1d8 + 1) dégâts contondants si utilisé avec deux mains.\n**Un avec l'âme du monde.** L'aiguillon choisit une bête qu'il peut voir dans 9 m de lui. Si la bête peut entendre l'appel à la corne, la bête utilise sa réaction pour faire une attaque à la mêlée contre une cible que l'appel à la corne peut voir.",
+ "attacks": [
+  {
+   "name": "Personnel",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant + contondant"
+  }
+ ],
+ "portrait": "/data/images/34bd216a7b_monstre-horncaller.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "skills": "Dressage +4, Nature +2, Perception +4"
+}

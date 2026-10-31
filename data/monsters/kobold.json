@@ -1,14 +1,16 @@
 {
  "id": "kobold",
  "name": "Kobold",
- "type": "Humanoïde",
+ "type": "Dragon",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
  "cr": "1/8",
  "xp": 25,
- "ca": 12,
- "hp": 5,
- "hpFormula": "2d6-2",
+ "ca": 14,
+ "hp": 7,
+ "hpFormula": "3d6–3",
  "vitesse": "9 m",
- "size": 1,
  "stats": {
   "FOR": 7,
   "DEX": 15,
@@ -17,21 +19,20 @@
   "SAG": 7,
   "CHA": 8
  },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "commun, draconique",
+ "traits": "**Sensibilité au soleil.** Tant qu’il est exposé à la lumière du soleil, le kobold subit le Désavantage aux tests de caractéristique et aux jets d’attaque.\n**Tactique de meute.** Quand au moins un de ses alliés non Neutralisés se situe dans un rayon de 1,50 m de la créature qu’il cible, le kobold a l’Avantage au jet d’attaque correspondant.",
+ "actionsText": "**Dague.** Corps à corps ou à distance : +4, allonge 1,50 m ou portée 6/18 m. Touché : 4 (1d4 + 2) dégâts perforants.",
  "attacks": [
   {
    "name": "Dague",
    "bonus": 4,
    "damage": "1d4+2",
    "type": "perforant"
-  },
-  {
-   "name": "Fronde",
-   "bonus": 4,
-   "damage": "1d4+2",
-   "type": "contondant"
   }
  ],
- "traits": "**Sensibilité au soleil.** Désavantage aux attaques et à la Perception (vue) en plein soleil.\n**Tactique de groupe.** Avantage si un allié est à 1,50 m de la cible.",
- "portrait": "/data/images/7ba8f8feeb_monstre-kobold.svg",
- "notes": ""
+ "portrait": "/data/images/cb3d45cbbc_monstre-kobold.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 193",
+ "aka": "Combattant kobold (2024)"
 }

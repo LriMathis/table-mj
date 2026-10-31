@@ -1,0 +1,40 @@
+{
+ "id": "vox-seeker",
+ "name": "Vox Seeker",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 14,
+ "hp": 7,
+ "hpFormula": "2d4+2",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "**Serrure vocale.** Le demandeur de vox doit se diriger vers la source de la voix la plus proche de 18 m, à l'exclusion de toutes les autres cibles, aussi longtemps qu'elle reste opérationnelle.\n**Escalade des araignées.** Le chercheur de vox peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Pincer.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts perforants plus 3 dégâts de foudre.",
+ "attacks": [
+  {
+   "name": "Pincer",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e2012298a3_monstre-vox-seeker.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

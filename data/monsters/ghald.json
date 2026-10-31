@@ -1,0 +1,52 @@
+{
+ "id": "ghald",
+ "name": "Ghald",
+ "type": "Humanoïde (sahuagine)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 102,
+ "hpFormula": "12d10+36",
+ "vitesse": "9 m, nage 15 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "commun, sahuagin",
+ "traits": "**Assassinat.** Lors de son premier tour, Ghald a l'avantage sur jets d'attaque contre toute créature qui n'a pas pris de tour. Tout résultat de Ghald contre une créature surpris est un résultat critique.\n**Amphibie limitée.** Ghald peut respirer de l'air et de l'eau, mais il doit être submergé au moins une fois toutes les 4 heures pour éviter l'étouffement.\n**Télépathie des requins.** Ghald peut magiquement commander n'importe quel requin dans 36 m de lui, en utilisant une télépathie limitée.\n**Attaque d'escroquerie.** Ghald inflige un dégâts supplémentaire de 14 (4d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur le jet d'attaque, ou lorsque la cible est dans 1,50 m d'un allié de Ghald qui n'est pas neutralisé et Ghald n'a pas d'inconvénient sur le jet d'attaque.",
+ "actionsText": "**Multiattaques.** Ghald fait trois attaques, une avec sa morsure et deux avec ses mots courts.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 9 (2d4 + 4) dégâts perforants.\n**Mot-clé.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 11 (2d6 + 4) dégâts perforants.\n**Garrot.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature moyenne ou petite contre laquelle Ghald a avantage sur le jet d'attaque. Touché : 9 (2d4 + 4) dégâts contondants, et la cible est agrippé (évasion DD 15). Jusqu'à ce que le grappin se termine, la cible ne peut pas respirer, et Ghald a l'avantage sur jets d'attaque contre elle.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d4+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Garrot",
+   "bonus": 7,
+   "damage": "2d4+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c0672d87d8_monstre-ghald.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CON +6, INT +5, SAG +4",
+ "skills": "Perspicacité +4, Perception +7"
+}

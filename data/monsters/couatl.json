@@ -1,0 +1,41 @@
+{
+ "id": "couatl",
+ "name": "Couatl",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 19,
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "9 m, vol 27 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 20,
+  "CON": 17,
+  "INT": 18,
+  "SAG": 20,
+  "CHA": 18
+ },
+ "saves": "CON +5, SAG +7",
+ "resistances": "contondants, perforants, tranchants",
+ "immunities": "psychiques, radiants",
+ "senses": "Vision véritable 36 m, Perception passive 15",
+ "languages": "toutes, télépathie 36 m",
+ "traits": "**Esprit protégé.** Rien ne peut lire les pensées du couatl, et les autres créatures ne peuvent communiquer avec lui par télépathie que s’il le permet.",
+ "actionsText": "**Morsure.** Corps à corps : +7, allonge 1,50 m. Touché : 11 (1d12 + 5) dégâts perforants, et la cible subit l’état Empoisonné jusqu’à la fin du tour suivant du couatl.\n**Constriction.** JS Force : DD 15, une créature de taille M ou inférieure que le couatl voit dans un rayon de 1,50 m. Échec : 8 (1d6 + 5) dégâts contondants. La cible subit l’état Agrippé (évasion DD 13), ainsi que l’état Entravé tant qu’elle est Agrippée.\n**Incantation.** Le couatl lance l’un des sorts suivants sans la moindre composante, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde 15) :\n- À volonté : *changement de forme* (Bête ou Humanoïde uniquement, le sort ne fait pas gagner de points de vie temporaires, ni Concentration ni points de vie temporaires nécessaires pour maintenir le sort), *détection de la magie*, *détection des pensées*, *détection du mal et du bien*\n- 1/jour chacun : *création de nourriture et d’eau*, *restauration suprême*, *scrutation*, *sommeil*, *songe*",
+ "bonusActions": "**Soutien divin (2/jour).** Le couatl lance *bénédiction*, *restauration partielle* ou *sanctuaire* sans la moindre composante et avec la même caractéristique d’incantation que pour Incantation.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 7,
+   "damage": "1d12+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/fb01c6a0fa_monstre-couatl.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 38"
+}

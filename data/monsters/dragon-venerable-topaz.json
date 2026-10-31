@@ -1,0 +1,50 @@
+{
+ "id": "dragon-venerable-topaz",
+ "name": "Ancient Topaz Dragon",
+ "type": "Dragon (gemme)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique neutre",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 20,
+ "hp": 280,
+ "hpFormula": "17d20+102",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 12,
+  "CON": 23,
+  "INT": 20,
+  "SAG": 19,
+  "CHA": 20
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 26",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Amphibie.** Le dragon peut respirer à la fois l'air et l'eau.\n**Fabrication (1/jour).** Le dragon peut lancer Fabrication, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation.\n**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 4,50 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants plus 10 (3d6) dégâts nécrotiques.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants.\n**Respiration dessicante (Recharge 5-6).** Le dragon exhale l'énergie nécrotique jaunâtre dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 20 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la créature prend 49 (14d6) dégâts nécrotiques et est affaiblie jusqu'à la fin de son prochain tour. Une créature affaiblie a un désavantage sur Force -basé tests de caractéristique et jet de sauvegarde de Force, et les attaques d'armes de la créature qui dépendent de Force infligent la moitié des dégâts. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas affaiblie.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 19) :\n- 1/jour chacun : Coquille antivie, Fléau, Contrôle de l'eau, Création ou destruction d'eau",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d10+6",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/31406b9d0c_monstre-dragon-venerable-topaz.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon vénérable Topaz",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +12, SAG +10, CHA +11",
+ "skills": "Intimidation +17, Perception +16, Discrétion +7",
+ "resistances": "froid, nécrotique",
+ "bonusActions": "**Modifier la forme.** Le dragon se transforme magiquement en toute créature moyenne ou petite, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si le dragon est réduit à 0 points de vie ou utilise un action bonus pour y mettre fin.\n**Étape psychique.** Le dragon se téléporte magiquement dans un espace inoccupé qu'il peut voir à l'intérieur de 18 m.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon vénérable topaz peut entreprendre l'une des actions ci-après.\n**Griffe.** Le dragon fait une attaque de griffe.\n**Psionics (coûts 2 actions).** Le dragon utilise psychique Step ou Spellcasting.\n**Réduction essentielle (coûts 3 actions).** Le dragon cible une créature ou un objet qui n'est ni porté ni porté qu'il peut voir à l'intérieur de 18 m. La cible doit réussir sur un DD 19 jet de sauvegarde de Constitution ou prendre 40 (9d8) dégâts nécrotiques. Si ce dégâts réduit la cible à 0 points de vie, il s'effondre en poussière."
+}

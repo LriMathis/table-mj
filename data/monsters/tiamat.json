@@ -1,0 +1,49 @@
+{
+ "id": "tiamat",
+ "name": "Tiamat",
+ "type": "Fiélon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "30",
+ "xp": 155000,
+ "ca": 25,
+ "hp": 615,
+ "hpFormula": "30d20+300",
+ "vitesse": "18 m, vol 36 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 10,
+  "CON": 30,
+  "INT": 26,
+  "SAG": 26,
+  "CHA": 28
+ },
+ "senses": "Vision dans le noir 72 m, Vision parfaite 36 m, Perception passive 36",
+ "languages": "commun, draconique, infernal",
+ "traits": "**Décomposition.** Quand Tiamat tombe à 0 points de vie ou meurt, son corps est détruit mais son essence retourne à son domaine dans les Neuf Enfers, et elle est incapable de prendre forme physique pendant un certain temps.\n**Résistance légendaire (5/jour).** Si Tiamat échoue à un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Immunité magique limitée.** À moins qu'elle ne veuille être affectée, Tiamat est immunisée contre les sorts de de niveau 6 ou moins. Elle a un avantage sur jet de sauvegarde contre tous les autres sorts et effets magiques.\n**Armes magiques.** Les attaques d'armes de Tiamat sont magiques.\n**Têtes multiples.** Tiamat peut prendre une réaction par tour, plutôt qu'une seule par tour. Elle a également un avantage sur jet de sauvegarde contre inconscient. Si elle échoue un jet de sauvegarde contre un effet qui étourdirait une créature, l'une de ses actions légendaires non dépensées est dépensée.\n**Régénération.** Tiamat retrouve 30 points de vie au début de son tour.\n**Découpe intérieure.** Tiamat peut lancer innéement le sort suivant, son caractéristique d'incantation est Charisme (spell save DD 26) :\n- 3/jour : Parole divine",
+ "actionsText": "**Multiattaques.** Tiamat peut utiliser sa Présence effrayante. Elle fait ensuite trois attaques : deux avec ses griffes et une avec sa queue.\n**Griffe.** Attaque d'arme au corps à corps : +19 au toucher, allonge 4,50 m, une cible. Touché : 24 (4d6 + 10) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +19 au toucher, allonge 7,50 m, une cible. Touché : 28 (4d8 + 10) dégâts perforants.\n**Présence effrayante.** Chaque créature du choix de Tiamat qui se trouve dans 72 m de Tiamat et consciente d'elle doit réussir sur un DD 26 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante de Tiamat pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 19,
+   "damage": "4d6+10",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 19,
+   "damage": "4d8+10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ddbe580761_monstre-tiamat.webp",
+ "notes": "",
+ "source": "Rise of Tiamat (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +19, DEX +9, SAG +17",
+ "skills": "Arcanes +17, Perception +26, Religion +17",
+ "immunities": "acide, froid, feu, foudre, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, empoisonné, étourdi",
+ "legendary": "Tiamat peut prendre 5 actions légendaires, en choisissant parmi les options ci-dessous. Seule une action légendaire peut être utilisée à la fois et seulement à la fin du tour d'une autre créature. Tiamat retrouve des actions légendaires au début de son tour.\nLes options d'action légendaires de Tiamat sont associées à ses cinq têtes de dragon (une morsure et une arme à souffle pour chacune). Une fois que Tiamat a choisi une option d'action légendaire pour une de ses têtes, elle ne peut en choisir une autre associée à cette tête jusqu'au début de son prochain tour.\n**Morceau.** Attaque d'arme au corps à corps : +19 au toucher, allonge 6 m, une cible. Touché : 32 (4d10 + 10) dégâts tranchants plus 14 (4d6) dégâts d'acide (tête de dragon noir), dégâts de foudre (tête de dragon bleu), dégâts de poison (tête de dragon vert), dégâts de feu (tête de dragon rouge) ou dégâts de froid (tête de dragon blanc).\n**Tête de dragon noir: acide Respiration (coûts 2 actions).** Tiamat respire de l'acide dans une ligne 36 m large. Chaque créature dans cette ligne doit faire un DD 27 jet de sauvegarde de Dextérité, en prenant 67 (15d8) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Tête de Dragon Bleu: foudre Respiration (coûts 2 actions).** Tiamat respire la foudre dans une ligne 36 m qui est large. Chaque créature dans cette ligne doit faire un DD 27 jet de sauvegarde de Dextérité, en prenant 88 (16d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Tête de dragon vert: poison Respiration (coûts 2 actions).** Tiamat respire du gaz toxique dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 27 jet de sauvegarde de Constitution, en prenant 77 (22d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Tête de dragon rouge: feu Respiration (coûts 2 actions).** Tiamat respire le feu dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 27 jet de sauvegarde de Dextérité, en prenant 91 (26d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Tête de dragon blanc: froid Respiration (coûts 2 actions).** Tiamat respire une explosion glacée dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 27 jet de sauvegarde de Dextérité, en prenant 72 (16d8) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

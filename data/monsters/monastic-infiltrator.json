@@ -1,0 +1,44 @@
+{
+ "id": "monastic-infiltrator",
+ "name": "Monastic Infiltrator",
+ "type": "Humanoïde (moine)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 18,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 20,
+  "CON": 16,
+  "INT": 15,
+  "SAG": 17,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "Commun plus trois autres langues",
+ "traits": "**L'esprit gardé.** Les sorts et autres effets ne peuvent pas lire les pensées de l'infiltrateur ou déterminer si l'infiltrateur est couché. Les créatures ne peuvent communiquer télépathiquement avec l'infiltrateur que si elles permettent un tel contact.\n**Défense non armée.** Bien que l'infiltrateur ne porte pas d'armure et n'ait pas de bouclier, son CA inclut son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** L'infiltrateur fait trois attaques frappe à mains nues.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d10 + 5) dégâts de force.\n**Détection orthographique.** L'infiltrateur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Déguisement\n- 1/jour chacun : Porte dimensionnelle, Zone de vérité\n- 2/jour chacun : Détection des pensées, Invisibilité",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 8,
+   "damage": "1d10+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/366e6cb078_monstre-monastic-infiltrator.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "caNote": "Défense non armée",
+ "saves": "DEX +8, SAG +6",
+ "skills": "Acrobaties +8, Tromperie +9, Perception +6, Discrétion +11",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé",
+ "bonusActions": "**Action énergique.** L'infiltrateur prend l'action Foncer ou Se désengager.",
+ "reactions": "**Grève de représailles.** Lorsqu'une créature dans 1,50 m de l'infiltrateur frappe ou rate l'infiltrateur avec une attaque de mêlée, l'infiltrateur fait une attaque de frappe à mains nues contre l'agresseur."
+}

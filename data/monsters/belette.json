@@ -1,0 +1,38 @@
+{
+ "id": "belette",
+ "name": "Belette",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 1,
+ "hpFormula": "1d4–1",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 16,
+  "CON": 8,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 3
+ },
+ "skills": "Acrobaties +5, Discrétion +5, Perception +3",
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +5, allonge 1,50 m. Touché : 1 dégât perforant.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/993f5d0ae6_monstre-belette.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

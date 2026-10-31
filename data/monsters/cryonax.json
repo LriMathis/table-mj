@@ -1,0 +1,50 @@
+{
+ "id": "cryonax",
+ "name": "Cryonax",
+ "type": "Élémentaire",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 21,
+ "hp": 391,
+ "hpFormula": "27d12+216",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 16,
+  "CON": 26,
+  "INT": 19,
+  "SAG": 19,
+  "CHA": 23
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 14",
+ "languages": "commun, primordial",
+ "traits": "**froid Aura.** Au début de chacun des tours de Cryonax, chaque créature dans 3 m de lui prend 21 (6d6) dégâts de froid. Une créature prend également 21 (6d6) dégâts de froid s'ils touchent ou frappent Cryonax. Les armes non magiques qui ont frappé Cryonax sont congelées immédiatement après avoir causé des dégâts à Cryonax. S'ils sont à nouveau utilisés et qu'ils frappent n'importe quelle créature, l'arme se brise. L'effet de congélation disparaît après une heure.\n**Attaques motorisées.** Les attaques de Cryonax sont traitées comme magiques dans le but de contourner la résistance et l'immunité aux armes non magiques.\n**Marcheur de glace.** Aucun tests de caractéristique n'est requis lorsque Cryonax marche ou monte sur des surfaces glacées et que la neige ou le terrain de glace difficiles ne lui coûte pas plus de mouvement.\n**Résistance légendaire (3/jour).** Si Cryonax échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Cryonax a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Cryonax fait deux attaques de Chelem avec ses tentacules ou deux attaques de lance-glace.\n**Clamer.** Attaque d'arme au corps à corps : +15 au toucher, allonge 4,50 m, une cible. Touché : 27 (3d12 + 8) dégâts contondants. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 20). Cryonax peut atteindre deux cibles, mais n'importe quel tentacule qui est en difficulté ne peut pas être utilisé pour faire une attaque Slam ou Ice Spear.\n**Lance à glace.** Attaque d'arme à distance : +10 au toucher, portée 36 m, une cible. Touché : 36 (6d10 + 3) dégâts de froid.\n**Invoquer Frost Horde (1/jour).** Cryonax convoque deux jeunes dragons blancs ou un Géant du givre avec deux yétis. La convocation coûte Cryonax 50 points de vie. Les créatures convoquées ont un maximum de points de vie et apparaissent à l'intérieur de 30 m de Cryonax.\n**Détection orthographique.** Cryonax lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 21, +13 au toucher with attaques de sort) :\n- À volonté : Tempête de grêle, Tempête de neige, Mur de glace\n- 2/jour chacun : Cône de froid, Sphère glaciale d'Otiluke (45 (13d6) dégâts)",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 15,
+   "damage": "3d12+8",
+   "type": "contondant"
+  },
+  {
+   "name": "Lance à glace",
+   "bonus": 10,
+   "damage": "6d10+3",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/5e117db765_monstre-cryonax.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +15, DEX +10, CON +15, SAG +11",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, poison",
+ "conditionImmunities": "charmé, effrayé, paralysé, pétrifié, empoisonné, à terre",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, cryonax peut entreprendre l'une des actions ci-après.\n**Casse-tête.** Cryonax frappe une cible agrippé contre le sol, lui vendant 13 (3d8) dégâts contondants.\n**Gel du tentacule.** Le tentacule de Cryonax gèle une cible agrippé. Si la cible échoue un DD 22 jet de sauvegarde de Constitution, ils sont paralysé et Cryonax les libère de son tentacule. Ils restent gelés indéfiniment mais peuvent tenter le jet de sauvegarde de Constitution à la fin de chacun de leurs tours. Le succès signifie qu'ils ne sont plus gelés.\n**Chouette de glace (coûts 3 actions).** Avec un geste Cryonax cible une créature gelée (voir le gel du Tentacle) qui est dans 9 m de lui. La cible est encastrée instantanément dans une coquille dure de glace concassante. La cible ne reçoit pas de jet de sauvegarde et prend 22 (5d8) dégâts de froid immédiatement et au début de chacun de leurs tours. La cible est considérée comme étourdi, mais elle est en partie protégée par le linceul et résistante à tous les dégâts. Le linceul disparaît si Cryonax le supprime, Cryonax meurt, le linceul prend 100 points de vie de dégâts ou un autre personnage utilise leur action et réussit sur un DD 22 test de Force à enlever l'allié piégé."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "ingenieur",
+ "name": "Engineer",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 10,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, gnome",
+ "traits": "**Détection orthographique.** L'ingénieur est un épeautre de niveau 1. Son caractéristique d'incantation est Intelligence (save spell DD 12, +4 au toucher avec attaques de sort). Il a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Trait de feu, Réparation, Prestidigitation\n- Niveau 1 (2 emplacements) : Mains brûlantes, Déguisement, Bouclier",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +2 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 2 (1d4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/97ae228fa1_monstre-ingenieur.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "aka": "Ingénieur",
+ "skills": "Arcanes +4, Histoire +4"
+}

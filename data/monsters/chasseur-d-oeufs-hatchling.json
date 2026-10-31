@@ -1,0 +1,43 @@
+{
+ "id": "chasseur-d-oeufs-hatchling",
+ "name": "Egg Hunter Hatchling",
+ "type": "Monstruosité",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 28,
+ "hpFormula": "8d4+8",
+ "vitesse": "9 m, creusement 3 m, escalade 9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Amphibie.** Le chasseur d'oeufs peut respirer de l'air et de l'eau.",
+ "actionsText": "**Multiattaques.** Le chasseur d'oeufs fait deux attaques de dents d'oeuf.\n**Dent de l'œuf.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants, ou 17 (4d6 + 3) dégâts perforants si la cible est un objet.",
+ "attacks": [
+  {
+   "name": "Dent de l'œuf",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/48dc4b21d7_monstre-chasseur-d-oeufs-hatchling.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Chasseur d'oeufs Hatchling",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, SAG +2",
+ "skills": "Perception +2, Discrétion +7",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Mouvement rapide.** Le chasseur d'oeufs prend l'action Foncer ou Se désengager."
+}

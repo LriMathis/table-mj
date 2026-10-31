@@ -1,0 +1,47 @@
+{
+ "id": "pidlwick-ii",
+ "name": "Pidlwick II",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 14,
+ "hp": 10,
+ "hpFormula": "3d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Perception passive 11",
+ "languages": "comprend le commun mais ne parle pas et ne peut ni lire ni écrire",
+ "traits": "**Ambusher.** Lors de la première manche de combat, Pidlwick II a un avantage sur jets d'attaque contre toute créature qui n'a pas encore eu de virage.",
+ "actionsText": "**Club.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts contondants.\n**Débrouille-toi.** Attaque d'arme à distance : +4 au toucher, portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "contondant"
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ab7306841a_monstre-pidlwick-ii.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Représentation +2",
+ "immunities": "poison",
+ "conditionImmunities": "paralysé, pétrifié, empoisonné"
+}

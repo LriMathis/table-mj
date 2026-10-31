@@ -1,0 +1,42 @@
+{
+ "id": "roi-pudding",
+ "name": "The Pudding King",
+ "type": "Humanoïde (gnome, métamorphe)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 49,
+ "hpFormula": "9d6+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 8,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "abyssal, gnome, terreux, commun des profondeurs",
+ "traits": "**Camouflage en pierre.** Le Roi Pudding a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans le terrain rocheux.\n**Gnome Cunning.** Le Roi Pudding a un avantage sur Intelligence, Sagesse et jet de sauvegarde de Charisme contre la magie.\n**Insanité.** Le Roi Pudding a un avantage sur jet de sauvegarde contre charmé ou effrayé.\n**Découpe intérieure.** Le caractéristique d'incantation inné du Roi pudding est Intelligence (spell save DD 12). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Antidétection (autoseulement)\n- 1/jour chacun : Cécité/Surdité, Flou, Déguisement\n**Détection orthographique.** Le Roi Pudding est un épeautre de niveau 9. Son caractéristique d'incantation est Charisme (save spell DD 14, +6 au toucher avec attaques de sort). Le roi pudding connaît les sorts de sorcier suivants:\n- Sorts mineurs (à volonté) : Aspersion d'acide, Lumière, Main de mage, Bouffée de poison, Prestidigitation\n- Niveau 1 (4 emplacements) : Simulacre de vie, Armure de mage, Rayon empoisonné, Bouclier\n- Niveau 2 (3 emplacements) : Couronne du dément, Foulée brumeuse\n- Niveau 3 (3 emplacements) : Forme gazeuse, Nuage nauséabond\n- Niveau 4 (3 emplacements) : Flétrissement, Confusion\n- Niveau 5 (1 emplacements) : Brume mortelle",
+ "actionsText": "**Choix de guerre.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d8) dégâts perforants.\n**Modifier la forme.** Le Roi Pudding se transforme magiquement en un type = ooze, ou de nouveau en sa vraie forme. Il revient à sa vraie forme s'il meurt. Tout équipement qu'il porte ou qu'il porte est absorbé par le nouveau formulaire. Sous forme ooze, le Roi Pudding conserve son alignement, points de vie, dés de vie, Intelligence, Sagesse et Charisme, ainsi que cette action. Ses statistiques et ses capacités sont autrement remplacées par celles du nouveau formulaire.\n**Créer un slime vert (Recharge après un repos long).** Le roi pudding crée un patch de slime verte (voir « Dangers de dungeon » au chapitre 5 du Guide du maître du dungeon). La boue apparaît sur une section de mur, de plafond ou de plancher à l'intérieur de 9 m du roi pudding.",
+ "attacks": [
+  {
+   "name": "Choix de guerre",
+   "bonus": 3,
+   "damage": "1d8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ee98ee860a_monstre-roi-pudding.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Roi Pudding",
+ "saves": "CON +6, CHA +7",
+ "skills": "Arcanes +4, Perception +2, Discrétion +6, Survie +2",
+ "resistances": "acide, poison",
+ "conditionImmunities": "empoisonné"
+}

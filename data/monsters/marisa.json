@@ -1,0 +1,40 @@
+{
+ "id": "marisa",
+ "name": "Marisa",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 11,
+ "hp": 45,
+ "hpFormula": "10d8",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 7,
+  "DEX": 13,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Vue éthérée.** Marisa peut voir 18 m dans le Plan Ethereal quand il est sur le Plan Matériel, et vice versa.\n**Mouvement intégré.** Marisa peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.",
+ "actionsText": "**Touche de flétrissement.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 17 (4d6 + 3) dégâts nécrotiques.\n**Éthérité.** Marisa entre dans l'avion éthéré de l'avion matériel, ou vice versa. Il est visible sur l'avion matériel alors qu'il est dans l'éthéré frontalier, et vice versa, mais il ne peut pas affecter ou être affecté par rien sur l'autre plan.\n**Visage horrifiant.** Chaque créature non morte au sein de 18 m de Marisa qui peut voir qu'elle doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. Si l'épargne échoue de 5 ans ou plus, la cible vieillit aussi de 1d4 × 10 ans. Une cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'état effrayé sur elle-même sur un succès. Si le jet de sauvegarde d'une cible est réussi ou si l'effet se termine pour elle, la cible est immunisée contre le Visage Horrifiant de ce fantôme pendant les 24 prochaines heures. L'effet de vieillissement peut être inversé avec un sort Restauration supérieure, mais seulement dans les 24 heures qui suivent son apparition.\n**Possession (Recharge 6).** Un humanoïde que Marisa peut voir à l'intérieur de 1,50 m doit réussir sur un DD 13 jet de sauvegarde de Charisme ou être possédé par Marisa; Marisa disparaît alors, et la cible est neutralisé et perd le contrôle de son corps. Marisa contrôle maintenant le corps mais ne prive pas la cible de la conscience. Marisa ne peut être ciblé par aucune attaque, sort, ou autre effet, sauf ceux qui deviennent morts-vivants, et il conserve son alignement, Intelligence, Sagesse, Charisme, et l'immunité à être charmé et effrayé. Il utilise les statistiques de la cible possédée, mais n'a pas accès aux connaissances, aux fonctionnalités de classe ou aux compétences de la cible.\nLa possession dure jusqu'à ce que le corps tombe à 0 points de vie, Marisa la termine comme un action bonus, ou Marisa est tourné ou forcé par un effet comme le sort Dissipation du mal et du bien. Lorsque la possession prend fin, Marisa réapparaît dans un espace inoccupé au sein de 1,50 m du corps. La cible est à l'abri de la possession de ce fantôme pendant 24 heures après avoir réussi sur le jet de sauvegarde ou après la fin de la possession.",
+ "attacks": [
+  {
+   "name": "Touche de flétrissement",
+   "bonus": 5,
+   "damage": "4d6+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/3d043a4fe2_monstre-marisa.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "resistances": "acide, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

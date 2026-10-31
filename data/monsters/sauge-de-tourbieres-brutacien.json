@@ -1,0 +1,41 @@
+{
+ "id": "sauge-de-tourbieres-brutacien",
+ "name": "Bullywug Bog Sage",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "senses": "Perception passive 13",
+ "languages": "C'est vrai, c'est vrai., commun",
+ "traits": "**Amphibie.** Le bullywug peut respirer l'air et l'eau.\n**Parlez avec des grenouilles et des crapauds.** Le bullywug peut communiquer des concepts simples aux grenouilles et aux crapauds lorsqu'il parle à Bullywug.",
+ "actionsText": "**Multiattaques.** Le bullywug fait deux attaques de l'état-major de Bog. Il peut remplacer n'importe quelle attaque par une utilisation de Spellcasting pour lancer Rayon empoisonné.\n**Personnel de la tourbière.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts contondants plus 10 (3d6) dégâts de poison.\n**Détection orthographique.** Le bullywug lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 13, +5 au toucher avec attaques de sort) :\n- À volonté : Lumières dansantes, Druidisme, Rayon empoisonné\n- 1/jour chacun : Communication avec les plantes, Sphère de vitriol",
+ "attacks": [
+  {
+   "name": "Personnel de la tourbière",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant + poison"
+  }
+ ],
+ "portrait": "/data/images/e35fbdec7b_monstre-sauge-de-tourbieres-brutacien.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Sauge de tourbières brutacien",
+ "saves": "CON +4, SAG +5, CHA +3",
+ "skills": "Nature +4, Discrétion +5",
+ "bonusActions": "**Naissance.** Le bullywug peut sauter jusqu'à 9 m en dépensant 3 m de mouvement."
+}

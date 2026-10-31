@@ -1,0 +1,919 @@
+{
+ "id": "ryun",
+ "name": "Ryûn",
+ "title": "Le Gardien du Bosquet",
+ "player": "",
+ "race": "Changepeau (Shifter) — lignée Wildhunt, tempérament de renard",
+ "classe": "Druide — Cercle de la lune",
+ "niveau": 2,
+ "historique": "Guide (Gardien de forêt)",
+ "alignement": "Neutre Bon",
+ "taille": "Moyenne",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 17,
+  "CHA": 12
+ },
+ "saves": [
+  "INT",
+  "SAG"
+ ],
+ "prof": 2,
+ "hpMax": 20,
+ "hp": 20,
+ "hpTemp": 0,
+ "ca": 15,
+ "initBonus": 2,
+ "xp": 405,
+ "hitDie": 8,
+ "hitDice": 3,
+ "skills": {
+  "Perception": 5,
+  "Survie": 5,
+  "Médecine": 5,
+  "Discrétion": 4,
+  "Acrobaties": 4,
+  "Nature": 3,
+  "Arcanes": 3
+ },
+ "attacks": [
+  {
+   "name": "Bâton noueux (Gourdin magique)",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Arc court (24/96 m)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant",
+   "item": "it62fe7e07bf"
+  },
+  {
+   "name": "Flammes (Production de flamme, 18 m)",
+   "bonus": 5,
+   "damage": "1d8",
+   "type": "feu"
+  },
+  {
+   "name": "Fouet épineux (9 m, attire de 3 m)",
+   "bonus": 5,
+   "damage": "1d6",
+   "type": "perforant"
+  },
+  {
+   "name": "Faucille",
+   "bonus": 1,
+   "damage": "1d4-1",
+   "type": "tranchant",
+   "item": "itfba64e0da5"
+  }
+ ],
+ "resources": [
+  {
+   "name": "Mue (Shifting)",
+   "max": 2,
+   "cur": 2,
+   "reset": "long"
+  },
+  {
+   "name": "Communication avec les animaux (Initié à la magie)",
+   "max": 1,
+   "cur": 1,
+   "reset": "long"
+  },
+  {
+   "name": "Forme sauvage",
+   "max": 2,
+   "cur": 2,
+   "reset": "court"
+  }
+ ],
+ "spellcasting": {
+  "ability": "SAG",
+  "dc": 13,
+  "attack": 5,
+  "slots": {
+   "1": {
+    "max": 3,
+    "cur": 3
+   }
+  }
+ },
+ "spells": {
+  "0": [
+   "Druidisme",
+   "Fouet épineux",
+   "Flammes",
+   "Gourdin magique",
+   "Assistance"
+  ],
+  "1": [
+   "Soins",
+   "Enchevêtrement",
+   "Amitié avec les animaux",
+   "Vague tonnante",
+   "Communication avec les animaux",
+   "Couteau de glace"
+  ]
+ },
+ "features": [
+  {
+   "name": "Druidique",
+   "text": "Connaît la langue secrète des druides. Communication avec les animaux est toujours préparé."
+  },
+  {
+   "name": "Ordre primitif : Magicien",
+   "text": "1 tour de magie supplémentaire. Ajoute son modificateur de SAG à ses tests d'INT (Arcanes, Nature)."
+  },
+  {
+   "name": "Initié à la magie (druide)",
+   "text": "Don d'origine : 2 tours de magie (Gourdin magique, Assistance) + 1 sort de niveau 1 (Communication avec les animaux, lançable gratuitement 1 fois par repos long), lancés avec la SAG."
+  },
+  {
+   "name": "Mue (Shifting) — Instinct du renard",
+   "text": "Action bonus, 1 minute, 2 fois par repos long : gagne 4 PV temporaires. Pendant la mue (lignée Wildhunt) : avantage aux tests de SAG, et aucune créature à 9 m ou moins ne peut l'attaquer avec avantage, sauf s'il est neutralisé."
+  },
+  {
+   "name": "Vision dans le noir",
+   "text": "18 m."
+  },
+  {
+   "name": "Ruse animale (cosmétique)",
+   "text": "Quand il lance un sort, des traits animaux apparaissent brièvement : oreilles, yeux de hibou, griffes (via Druidisme)."
+  },
+  {
+   "name": "Maîtrises et langues",
+   "text": "Armes courantes, armures légères, boucliers. Outils : matériel d'herboriste, outils de cartographe. Langues : commun, druidique, elfique, gnome."
+  },
+  {
+   "name": "Kitsu",
+   "text": "Ryûn parle régulièrement à son esprit-renard, Kitsu, même quand personne d'autre ne peut le voir. On ne sait jamais vraiment si Kitsu est un esprit réel ou une simple part de Ryûn."
+  },
+  {
+   "name": "Forme sauvage",
+   "text": "Prenez la forme d'une bête déjà vue (FP 1/4, sans vol ni nage), 2 fois par repos court."
+  },
+  {
+   "name": "Cercle druidique",
+   "text": "Aptitude de Druide gagnée au niveau 2."
+  }
+ ],
+ "equipment": "Bâton noueux (focaliseur druidique), faucille, armure de cuir façonnée comme de l'écorce, bouclier de bois, arc court, 20 flèches, carquois, sac d'herboriste (matériel d'herboriste), outils de cartographe, sac d'explorateur, sac de couchage, tente, vêtements de voyageur, pendentif en tête de renard.",
+ "gold": 100,
+ "conditions": [],
+ "deathSaves": {
+  "s": 0,
+  "f": 0
+ },
+ "exhaustion": 0,
+ "notes": "Personnalité : rusé, patient, très protecteur envers les animaux. Préfère négocier, mais devient extrêmement dangereux si on menace son territoire. « La forêt pardonne beaucoup de choses. Elle n'oublie rien. »\nProgression prévue : niv. 2 Forme sauvage (FP 1/4 : loup, panthère) et Kitsu en familier via Appel de familier ; niv. 3 Cercle de la Lune ; niv. 4 SAG 17 → 18.",
+ "sheet": "# RYÛN — Le Gardien du Bosquet (niveau 1)\n\n**Concept :** homme-renard druide · D&D 5e, règles 2024\n**Espèce :** Changepeau (Shifter) — lignée Wildhunt (chasse sauvage), tempérament de renard\n**Classe :** Druide 1 (cercle choisi au niveau 3)\n**Historique :** Guide (version « Gardien de forêt »)\n**Alignement :** Neutre Bon\n\n### Caractéristiques\n(tableau standard + historique Guide : +2 SAG, +1 CON)\nFOR 8 (-1) · DEX 14 (+2) · CON 14 (+2) · INT 10 (+0) · SAG 17 (+3) · CHA 12 (+1)\n\n### Statistiques\nBonus de maîtrise +2 · PV 10 (dé de vie 1d8) · CA 15 (armure de cuir façon écorce 13 + bouclier de bois +2)\nInitiative +2 · Vitesse 9 m · Vision dans le noir 18 m · Perception passive 15\nJets de sauvegarde : INT +2, SAG +5\n\n### Compétences\nPerception +5 · Survie +5 · Médecine +5 · Discrétion +4 · Acrobaties +4 · Nature +3 · Arcanes +3 (bonus de l'Ordre primitif : Magicien)\n\n### Maîtrises et langues\nArmes courantes, armures légères, boucliers · Outils : matériel d'herboriste, outils de cartographe · Langues : commun, druidique, elfique, gnome\n\n### Attaques\n- Bâton noueux (Gourdin magique) : +5, 1d8 + 3 contondant\n- Arc court : +4, 1d6 + 2 perforant, portée 24/96 m\n- Production de flamme : +5, 1d8 feu, portée 18 m\n- Fouet épineux : +5, 1d6 perforant, portée 9 m, attire la cible de 3 m\n- Faucille : +1, 1d4 - 1 tranchant\n\n### Sorts\nDD 13 · attaque de sort +5 · emplacements de niveau 1 : 2\nTours de magie : Druidisme, Fouet épineux, Production de flamme, Gourdin magique (Initié à la magie), Assistance (Initié à la magie)\nSorts préparés de niveau 1 (4) : Soins, Enchevêtrement, Amitié avec les animaux, Vague tonnante\nToujours préparé : Communication avec les animaux (lançable gratuitement 1 fois par repos long grâce à Initié à la magie)\n\n### Capacités\n- **Druidique** : langue secrète des druides ; Communication avec les animaux toujours préparé.\n- **Ordre primitif : Magicien** : 1 tour de magie supplémentaire ; ajoute son modificateur de SAG à ses tests d'INT (Arcanes, Nature).\n- **Initié à la magie (druide)**, don d'origine : 2 tours de magie + 1 sort de niveau 1, lancés avec la SAG.\n- **Mue (Shifting) — Instinct du renard** : action bonus, 1 minute, 2 utilisations par repos long ; 4 PV temporaires ; pendant la mue : avantage aux tests de SAG, aucune créature à 9 m ou moins ne peut l'attaquer avec avantage, sauf s'il est neutralisé.\n- **Ruse animale (cosmétique)** : des traits animaux apparaissent brièvement quand il lance un sort.\n\n### Équipement\nBâton noueux (focaliseur druidique), faucille, armure de cuir façonnée comme de l'écorce, bouclier de bois, arc court, 20 flèches, carquois, sac d'herboriste, outils de cartographe, sac d'explorateur, sac de couchage, tente, vêtements de voyageur, pendentif en tête de renard, 12 po.\n\n### Personnalité\nRusé, patient et très protecteur envers les animaux. Préfère négocier plutôt que combattre, mais devient extrêmement dangereux quand on menace son territoire.\n« La forêt pardonne beaucoup de choses. Elle n'oublie rien. »\n\n### Particularité\nRyûn parle régulièrement à son esprit-renard, Kitsu, même quand personne d'autre ne peut le voir. On ne sait jamais vraiment si Kitsu est un esprit réel ou une simple part de Ryûn.\n\n### Progression prévue\n- Niveau 2 : Forme sauvage (bêtes de FP 1/4 max : loup, panthère) ; Kitsu peut devenir un familier féerique via Appel de familier.\n- Niveau 3 : choix du cercle (Lune conseillé pour les formes animales).\n- Niveau 4 : amélioration de caractéristique (SAG 17 → 18).\n",
+ "portrait": "/data/images/14d3e8f2de_ryun-carre.png",
+ "color": "",
+ "source": "import (texte collé)",
+ "inspiration": "",
+ "playerNotes": "Possède l'Etui\n",
+ "inventory": [
+  {
+   "uid": "it2c0da533c3",
+   "ref": "eq-druidic-focus",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Bâton noueux (focaliseur druidique)"
+  },
+  {
+   "uid": "itfba64e0da5",
+   "ref": "eq-sickle",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Faucille"
+  },
+  {
+   "uid": "itacdc9b574d",
+   "ref": "eq-leather",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Armure de cuir façonnée comme de l'écorce"
+  },
+  {
+   "uid": "itc1f11557f3",
+   "ref": "eq-shield",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Bouclier de bois"
+  },
+  {
+   "uid": "it62fe7e07bf",
+   "ref": "eq-shortbow",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false
+  },
+  {
+   "uid": "itf2f0f544ce",
+   "ref": "eq-arrows",
+   "qty": 20,
+   "equipped": false,
+   "attuned": false
+  },
+  {
+   "uid": "it42b30b7fcd",
+   "ref": "eq-quiver",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false
+  },
+  {
+   "uid": "it8f947fd5d3",
+   "ref": "eq-herbalism-kit",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Sac d'herboriste (matériel d'herboriste)"
+  },
+  {
+   "uid": "it12eca16716",
+   "ref": "eq-cartographer-tools",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false
+  },
+  {
+   "uid": "it9f674d0622",
+   "ref": "eq-pack-explorer",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false
+  },
+  {
+   "uid": "it2d99a044c7",
+   "ref": "eq-bedroll",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false
+  },
+  {
+   "uid": "it8bdc14299d",
+   "ref": "eq-tent",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Tente"
+  },
+  {
+   "uid": "it4e3d6ad372",
+   "ref": "eq-travelers-clothes",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Vêtements de voyageur"
+  },
+  {
+   "uid": "itd71d500bb4",
+   "ref": null,
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Pendentif en tête de renard",
+   "desc": "",
+   "kind": "gear",
+   "cat": "Divers"
+  },
+  {
+   "uid": "itmvmyaco7fk94i",
+   "ref": null,
+   "name": "étui des cartes",
+   "desc": "",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "kind": "gear",
+   "cat": "Divers"
+  }
+ ],
+ "saveItemBonus": 0,
+ "purse": {
+  "pp": 0,
+  "po": 100,
+  "pa": 0,
+  "pc": 0
+ },
+ "dead": false,
+ "lvlRoll": {
+  "niveau": 2,
+  "roll": 4,
+  "die": 8
+ },
+ "levelHistory": [
+  {
+   "niveau": 1,
+   "t": 1792877942905,
+   "snap": {
+    "id": "ryun",
+    "name": "Ryûn",
+    "title": "Le Gardien du Bosquet",
+    "player": "",
+    "race": "Changepeau (Shifter) — lignée Wildhunt, tempérament de renard",
+    "classe": "Druide",
+    "niveau": 1,
+    "historique": "Guide (Gardien de forêt)",
+    "alignement": "Neutre Bon",
+    "taille": "Moyenne",
+    "vitesse": "9 m",
+    "stats": {
+     "FOR": 8,
+     "DEX": 14,
+     "CON": 14,
+     "INT": 10,
+     "SAG": 17,
+     "CHA": 12
+    },
+    "saves": [
+     "INT",
+     "SAG"
+    ],
+    "prof": 2,
+    "hpMax": 10,
+    "hp": 10,
+    "hpTemp": 0,
+    "ca": 15,
+    "initBonus": 2,
+    "xp": 405,
+    "hitDie": 8,
+    "hitDice": 1,
+    "skills": {
+     "Perception": 5,
+     "Survie": 5,
+     "Médecine": 5,
+     "Discrétion": 4,
+     "Acrobaties": 4,
+     "Nature": 3,
+     "Arcanes": 3
+    },
+    "attacks": [
+     {
+      "name": "Bâton noueux (Gourdin magique)",
+      "bonus": 5,
+      "damage": "1d8+3",
+      "type": "contondant"
+     },
+     {
+      "name": "Arc court (24/96 m)",
+      "bonus": 4,
+      "damage": "1d6+2",
+      "type": "perforant",
+      "item": "it62fe7e07bf"
+     },
+     {
+      "name": "Flammes (Production de flamme, 18 m)",
+      "bonus": 5,
+      "damage": "1d8",
+      "type": "feu"
+     },
+     {
+      "name": "Fouet épineux (9 m, attire de 3 m)",
+      "bonus": 5,
+      "damage": "1d6",
+      "type": "perforant"
+     },
+     {
+      "name": "Faucille",
+      "bonus": 1,
+      "damage": "1d4-1",
+      "type": "tranchant",
+      "item": "itfba64e0da5"
+     }
+    ],
+    "resources": [
+     {
+      "name": "Mue (Shifting)",
+      "max": 2,
+      "cur": 2,
+      "reset": "long"
+     },
+     {
+      "name": "Communication avec les animaux (Initié à la magie)",
+      "max": 1,
+      "cur": 1,
+      "reset": "long"
+     }
+    ],
+    "spellcasting": {
+     "ability": "SAG",
+     "dc": 13,
+     "attack": 5,
+     "slots": {
+      "1": {
+       "max": 2,
+       "cur": 2
+      }
+     }
+    },
+    "spells": {
+     "0": [
+      "Druidisme",
+      "Fouet épineux",
+      "Flammes",
+      "Gourdin magique",
+      "Assistance"
+     ],
+     "1": [
+      "Soins",
+      "Enchevêtrement",
+      "Amitié avec les animaux",
+      "Vague tonnante",
+      "Communication avec les animaux"
+     ]
+    },
+    "features": [
+     {
+      "name": "Druidique",
+      "text": "Connaît la langue secrète des druides. Communication avec les animaux est toujours préparé."
+     },
+     {
+      "name": "Ordre primitif : Magicien",
+      "text": "1 tour de magie supplémentaire. Ajoute son modificateur de SAG à ses tests d'INT (Arcanes, Nature)."
+     },
+     {
+      "name": "Initié à la magie (druide)",
+      "text": "Don d'origine : 2 tours de magie (Gourdin magique, Assistance) + 1 sort de niveau 1 (Communication avec les animaux, lançable gratuitement 1 fois par repos long), lancés avec la SAG."
+     },
+     {
+      "name": "Mue (Shifting) — Instinct du renard",
+      "text": "Action bonus, 1 minute, 2 fois par repos long : gagne 4 PV temporaires. Pendant la mue (lignée Wildhunt) : avantage aux tests de SAG, et aucune créature à 9 m ou moins ne peut l'attaquer avec avantage, sauf s'il est neutralisé."
+     },
+     {
+      "name": "Vision dans le noir",
+      "text": "18 m."
+     },
+     {
+      "name": "Ruse animale (cosmétique)",
+      "text": "Quand il lance un sort, des traits animaux apparaissent brièvement : oreilles, yeux de hibou, griffes (via Druidisme)."
+     },
+     {
+      "name": "Maîtrises et langues",
+      "text": "Armes courantes, armures légères, boucliers. Outils : matériel d'herboriste, outils de cartographe. Langues : commun, druidique, elfique, gnome."
+     },
+     {
+      "name": "Kitsu",
+      "text": "Ryûn parle régulièrement à son esprit-renard, Kitsu, même quand personne d'autre ne peut le voir. On ne sait jamais vraiment si Kitsu est un esprit réel ou une simple part de Ryûn."
+     }
+    ],
+    "equipment": "Bâton noueux (focaliseur druidique), faucille, armure de cuir façonnée comme de l'écorce, bouclier de bois, arc court, 20 flèches, carquois, sac d'herboriste (matériel d'herboriste), outils de cartographe, sac d'explorateur, sac de couchage, tente, vêtements de voyageur, pendentif en tête de renard.",
+    "gold": 100,
+    "conditions": [],
+    "deathSaves": {
+     "s": 0,
+     "f": 0
+    },
+    "exhaustion": 0,
+    "notes": "Personnalité : rusé, patient, très protecteur envers les animaux. Préfère négocier, mais devient extrêmement dangereux si on menace son territoire. « La forêt pardonne beaucoup de choses. Elle n'oublie rien. »\nProgression prévue : niv. 2 Forme sauvage (FP 1/4 : loup, panthère) et Kitsu en familier via Appel de familier ; niv. 3 Cercle de la Lune ; niv. 4 SAG 17 → 18.",
+    "sheet": "# RYÛN — Le Gardien du Bosquet (niveau 1)\n\n**Concept :** homme-renard druide · D&D 5e, règles 2024\n**Espèce :** Changepeau (Shifter) — lignée Wildhunt (chasse sauvage), tempérament de renard\n**Classe :** Druide 1 (cercle choisi au niveau 3)\n**Historique :** Guide (version « Gardien de forêt »)\n**Alignement :** Neutre Bon\n\n### Caractéristiques\n(tableau standard + historique Guide : +2 SAG, +1 CON)\nFOR 8 (-1) · DEX 14 (+2) · CON 14 (+2) · INT 10 (+0) · SAG 17 (+3) · CHA 12 (+1)\n\n### Statistiques\nBonus de maîtrise +2 · PV 10 (dé de vie 1d8) · CA 15 (armure de cuir façon écorce 13 + bouclier de bois +2)\nInitiative +2 · Vitesse 9 m · Vision dans le noir 18 m · Perception passive 15\nJets de sauvegarde : INT +2, SAG +5\n\n### Compétences\nPerception +5 · Survie +5 · Médecine +5 · Discrétion +4 · Acrobaties +4 · Nature +3 · Arcanes +3 (bonus de l'Ordre primitif : Magicien)\n\n### Maîtrises et langues\nArmes courantes, armures légères, boucliers · Outils : matériel d'herboriste, outils de cartographe · Langues : commun, druidique, elfique, gnome\n\n### Attaques\n- Bâton noueux (Gourdin magique) : +5, 1d8 + 3 contondant\n- Arc court : +4, 1d6 + 2 perforant, portée 24/96 m\n- Production de flamme : +5, 1d8 feu, portée 18 m\n- Fouet épineux : +5, 1d6 perforant, portée 9 m, attire la cible de 3 m\n- Faucille : +1, 1d4 - 1 tranchant\n\n### Sorts\nDD 13 · attaque de sort +5 · emplacements de niveau 1 : 2\nTours de magie : Druidisme, Fouet épineux, Production de flamme, Gourdin magique (Initié à la magie), Assistance (Initié à la magie)\nSorts préparés de niveau 1 (4) : Soins, Enchevêtrement, Amitié avec les animaux, Vague tonnante\nToujours préparé : Communication avec les animaux (lançable gratuitement 1 fois par repos long grâce à Initié à la magie)\n\n### Capacités\n- **Druidique** : langue secrète des druides ; Communication avec les animaux toujours préparé.\n- **Ordre primitif : Magicien** : 1 tour de magie supplémentaire ; ajoute son modificateur de SAG à ses tests d'INT (Arcanes, Nature).\n- **Initié à la magie (druide)**, don d'origine : 2 tours de magie + 1 sort de niveau 1, lancés avec la SAG.\n- **Mue (Shifting) — Instinct du renard** : action bonus, 1 minute, 2 utilisations par repos long ; 4 PV temporaires ; pendant la mue : avantage aux tests de SAG, aucune créature à 9 m ou moins ne peut l'attaquer avec avantage, sauf s'il est neutralisé.\n- **Ruse animale (cosmétique)** : des traits animaux apparaissent brièvement quand il lance un sort.\n\n### Équipement\nBâton noueux (focaliseur druidique), faucille, armure de cuir façonnée comme de l'écorce, bouclier de bois, arc court, 20 flèches, carquois, sac d'herboriste, outils de cartographe, sac d'explorateur, sac de couchage, tente, vêtements de voyageur, pendentif en tête de renard, 12 po.\n\n### Personnalité\nRusé, patient et très protecteur envers les animaux. Préfère négocier plutôt que combattre, mais devient extrêmement dangereux quand on menace son territoire.\n« La forêt pardonne beaucoup de choses. Elle n'oublie rien. »\n\n### Particularité\nRyûn parle régulièrement à son esprit-renard, Kitsu, même quand personne d'autre ne peut le voir. On ne sait jamais vraiment si Kitsu est un esprit réel ou une simple part de Ryûn.\n\n### Progression prévue\n- Niveau 2 : Forme sauvage (bêtes de FP 1/4 max : loup, panthère) ; Kitsu peut devenir un familier féerique via Appel de familier.\n- Niveau 3 : choix du cercle (Lune conseillé pour les formes animales).\n- Niveau 4 : amélioration de caractéristique (SAG 17 → 18).\n",
+    "portrait": "/data/images/14d3e8f2de_ryun-carre.png",
+    "color": "",
+    "source": "import (texte collé)",
+    "inspiration": "",
+    "playerNotes": "Possède l'Etui\n",
+    "inventory": [
+     {
+      "uid": "it2c0da533c3",
+      "ref": "eq-druidic-focus",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Bâton noueux (focaliseur druidique)"
+     },
+     {
+      "uid": "itfba64e0da5",
+      "ref": "eq-sickle",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Faucille"
+     },
+     {
+      "uid": "itacdc9b574d",
+      "ref": "eq-leather",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Armure de cuir façonnée comme de l'écorce"
+     },
+     {
+      "uid": "itc1f11557f3",
+      "ref": "eq-shield",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Bouclier de bois"
+     },
+     {
+      "uid": "it62fe7e07bf",
+      "ref": "eq-shortbow",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false
+     },
+     {
+      "uid": "itf2f0f544ce",
+      "ref": "eq-arrows",
+      "qty": 20,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it42b30b7fcd",
+      "ref": "eq-quiver",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it8f947fd5d3",
+      "ref": "eq-herbalism-kit",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Sac d'herboriste (matériel d'herboriste)"
+     },
+     {
+      "uid": "it12eca16716",
+      "ref": "eq-cartographer-tools",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it9f674d0622",
+      "ref": "eq-pack-explorer",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it2d99a044c7",
+      "ref": "eq-bedroll",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it8bdc14299d",
+      "ref": "eq-tent",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Tente"
+     },
+     {
+      "uid": "it4e3d6ad372",
+      "ref": "eq-travelers-clothes",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Vêtements de voyageur"
+     },
+     {
+      "uid": "itd71d500bb4",
+      "ref": null,
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Pendentif en tête de renard",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     }
+    ],
+    "saveItemBonus": 0,
+    "purse": {
+     "pp": 0,
+     "po": 100,
+     "pa": 0,
+     "pc": 0
+    },
+    "dead": false,
+    "lvlRoll": {
+     "niveau": 2,
+     "roll": 8,
+     "die": 8
+    }
+   }
+  },
+  {
+   "niveau": 1,
+   "t": 1792878096887,
+   "snap": {
+    "id": "ryun",
+    "name": "Ryûn",
+    "title": "Le Gardien du Bosquet",
+    "player": "",
+    "race": "Changepeau (Shifter) — lignée Wildhunt, tempérament de renard",
+    "classe": "Druide — Cercle de la lune",
+    "niveau": 1,
+    "historique": "Guide (Gardien de forêt)",
+    "alignement": "Neutre Bon",
+    "taille": "Moyenne",
+    "vitesse": "9 m",
+    "stats": {
+     "FOR": 8,
+     "DEX": 14,
+     "CON": 14,
+     "INT": 10,
+     "SAG": 17,
+     "CHA": 12
+    },
+    "saves": [
+     "INT",
+     "SAG"
+    ],
+    "prof": 2,
+    "hpMax": 20,
+    "hp": 20,
+    "hpTemp": 0,
+    "ca": 15,
+    "initBonus": 2,
+    "xp": 405,
+    "hitDie": 8,
+    "hitDice": 2,
+    "skills": {
+     "Perception": 5,
+     "Survie": 5,
+     "Médecine": 5,
+     "Discrétion": 4,
+     "Acrobaties": 4,
+     "Nature": 3,
+     "Arcanes": 3
+    },
+    "attacks": [
+     {
+      "name": "Bâton noueux (Gourdin magique)",
+      "bonus": 5,
+      "damage": "1d8+3",
+      "type": "contondant"
+     },
+     {
+      "name": "Arc court (24/96 m)",
+      "bonus": 4,
+      "damage": "1d6+2",
+      "type": "perforant",
+      "item": "it62fe7e07bf"
+     },
+     {
+      "name": "Flammes (Production de flamme, 18 m)",
+      "bonus": 5,
+      "damage": "1d8",
+      "type": "feu"
+     },
+     {
+      "name": "Fouet épineux (9 m, attire de 3 m)",
+      "bonus": 5,
+      "damage": "1d6",
+      "type": "perforant"
+     },
+     {
+      "name": "Faucille",
+      "bonus": 1,
+      "damage": "1d4-1",
+      "type": "tranchant",
+      "item": "itfba64e0da5"
+     }
+    ],
+    "resources": [
+     {
+      "name": "Mue (Shifting)",
+      "max": 2,
+      "cur": 2,
+      "reset": "long"
+     },
+     {
+      "name": "Communication avec les animaux (Initié à la magie)",
+      "max": 1,
+      "cur": 1,
+      "reset": "long"
+     },
+     {
+      "name": "Forme sauvage",
+      "max": 2,
+      "cur": 2,
+      "reset": "court"
+     }
+    ],
+    "spellcasting": {
+     "ability": "SAG",
+     "dc": 13,
+     "attack": 5,
+     "slots": {
+      "1": {
+       "max": 3,
+       "cur": 3
+      }
+     }
+    },
+    "spells": {
+     "0": [
+      "Druidisme",
+      "Fouet épineux",
+      "Flammes",
+      "Gourdin magique",
+      "Assistance"
+     ],
+     "1": [
+      "Soins",
+      "Enchevêtrement",
+      "Amitié avec les animaux",
+      "Vague tonnante",
+      "Communication avec les animaux"
+     ]
+    },
+    "features": [
+     {
+      "name": "Druidique",
+      "text": "Connaît la langue secrète des druides. Communication avec les animaux est toujours préparé."
+     },
+     {
+      "name": "Ordre primitif : Magicien",
+      "text": "1 tour de magie supplémentaire. Ajoute son modificateur de SAG à ses tests d'INT (Arcanes, Nature)."
+     },
+     {
+      "name": "Initié à la magie (druide)",
+      "text": "Don d'origine : 2 tours de magie (Gourdin magique, Assistance) + 1 sort de niveau 1 (Communication avec les animaux, lançable gratuitement 1 fois par repos long), lancés avec la SAG."
+     },
+     {
+      "name": "Mue (Shifting) — Instinct du renard",
+      "text": "Action bonus, 1 minute, 2 fois par repos long : gagne 4 PV temporaires. Pendant la mue (lignée Wildhunt) : avantage aux tests de SAG, et aucune créature à 9 m ou moins ne peut l'attaquer avec avantage, sauf s'il est neutralisé."
+     },
+     {
+      "name": "Vision dans le noir",
+      "text": "18 m."
+     },
+     {
+      "name": "Ruse animale (cosmétique)",
+      "text": "Quand il lance un sort, des traits animaux apparaissent brièvement : oreilles, yeux de hibou, griffes (via Druidisme)."
+     },
+     {
+      "name": "Maîtrises et langues",
+      "text": "Armes courantes, armures légères, boucliers. Outils : matériel d'herboriste, outils de cartographe. Langues : commun, druidique, elfique, gnome."
+     },
+     {
+      "name": "Kitsu",
+      "text": "Ryûn parle régulièrement à son esprit-renard, Kitsu, même quand personne d'autre ne peut le voir. On ne sait jamais vraiment si Kitsu est un esprit réel ou une simple part de Ryûn."
+     },
+     {
+      "name": "Forme sauvage",
+      "text": "Prenez la forme d'une bête déjà vue (FP 1/4, sans vol ni nage), 2 fois par repos court."
+     },
+     {
+      "name": "Cercle druidique",
+      "text": "Aptitude de Druide gagnée au niveau 2."
+     }
+    ],
+    "equipment": "Bâton noueux (focaliseur druidique), faucille, armure de cuir façonnée comme de l'écorce, bouclier de bois, arc court, 20 flèches, carquois, sac d'herboriste (matériel d'herboriste), outils de cartographe, sac d'explorateur, sac de couchage, tente, vêtements de voyageur, pendentif en tête de renard.",
+    "gold": 100,
+    "conditions": [],
+    "deathSaves": {
+     "s": 0,
+     "f": 0
+    },
+    "exhaustion": 0,
+    "notes": "Personnalité : rusé, patient, très protecteur envers les animaux. Préfère négocier, mais devient extrêmement dangereux si on menace son territoire. « La forêt pardonne beaucoup de choses. Elle n'oublie rien. »\nProgression prévue : niv. 2 Forme sauvage (FP 1/4 : loup, panthère) et Kitsu en familier via Appel de familier ; niv. 3 Cercle de la Lune ; niv. 4 SAG 17 → 18.",
+    "sheet": "# RYÛN — Le Gardien du Bosquet (niveau 1)\n\n**Concept :** homme-renard druide · D&D 5e, règles 2024\n**Espèce :** Changepeau (Shifter) — lignée Wildhunt (chasse sauvage), tempérament de renard\n**Classe :** Druide 1 (cercle choisi au niveau 3)\n**Historique :** Guide (version « Gardien de forêt »)\n**Alignement :** Neutre Bon\n\n### Caractéristiques\n(tableau standard + historique Guide : +2 SAG, +1 CON)\nFOR 8 (-1) · DEX 14 (+2) · CON 14 (+2) · INT 10 (+0) · SAG 17 (+3) · CHA 12 (+1)\n\n### Statistiques\nBonus de maîtrise +2 · PV 10 (dé de vie 1d8) · CA 15 (armure de cuir façon écorce 13 + bouclier de bois +2)\nInitiative +2 · Vitesse 9 m · Vision dans le noir 18 m · Perception passive 15\nJets de sauvegarde : INT +2, SAG +5\n\n### Compétences\nPerception +5 · Survie +5 · Médecine +5 · Discrétion +4 · Acrobaties +4 · Nature +3 · Arcanes +3 (bonus de l'Ordre primitif : Magicien)\n\n### Maîtrises et langues\nArmes courantes, armures légères, boucliers · Outils : matériel d'herboriste, outils de cartographe · Langues : commun, druidique, elfique, gnome\n\n### Attaques\n- Bâton noueux (Gourdin magique) : +5, 1d8 + 3 contondant\n- Arc court : +4, 1d6 + 2 perforant, portée 24/96 m\n- Production de flamme : +5, 1d8 feu, portée 18 m\n- Fouet épineux : +5, 1d6 perforant, portée 9 m, attire la cible de 3 m\n- Faucille : +1, 1d4 - 1 tranchant\n\n### Sorts\nDD 13 · attaque de sort +5 · emplacements de niveau 1 : 2\nTours de magie : Druidisme, Fouet épineux, Production de flamme, Gourdin magique (Initié à la magie), Assistance (Initié à la magie)\nSorts préparés de niveau 1 (4) : Soins, Enchevêtrement, Amitié avec les animaux, Vague tonnante\nToujours préparé : Communication avec les animaux (lançable gratuitement 1 fois par repos long grâce à Initié à la magie)\n\n### Capacités\n- **Druidique** : langue secrète des druides ; Communication avec les animaux toujours préparé.\n- **Ordre primitif : Magicien** : 1 tour de magie supplémentaire ; ajoute son modificateur de SAG à ses tests d'INT (Arcanes, Nature).\n- **Initié à la magie (druide)**, don d'origine : 2 tours de magie + 1 sort de niveau 1, lancés avec la SAG.\n- **Mue (Shifting) — Instinct du renard** : action bonus, 1 minute, 2 utilisations par repos long ; 4 PV temporaires ; pendant la mue : avantage aux tests de SAG, aucune créature à 9 m ou moins ne peut l'attaquer avec avantage, sauf s'il est neutralisé.\n- **Ruse animale (cosmétique)** : des traits animaux apparaissent brièvement quand il lance un sort.\n\n### Équipement\nBâton noueux (focaliseur druidique), faucille, armure de cuir façonnée comme de l'écorce, bouclier de bois, arc court, 20 flèches, carquois, sac d'herboriste, outils de cartographe, sac d'explorateur, sac de couchage, tente, vêtements de voyageur, pendentif en tête de renard, 12 po.\n\n### Personnalité\nRusé, patient et très protecteur envers les animaux. Préfère négocier plutôt que combattre, mais devient extrêmement dangereux quand on menace son territoire.\n« La forêt pardonne beaucoup de choses. Elle n'oublie rien. »\n\n### Particularité\nRyûn parle régulièrement à son esprit-renard, Kitsu, même quand personne d'autre ne peut le voir. On ne sait jamais vraiment si Kitsu est un esprit réel ou une simple part de Ryûn.\n\n### Progression prévue\n- Niveau 2 : Forme sauvage (bêtes de FP 1/4 max : loup, panthère) ; Kitsu peut devenir un familier féerique via Appel de familier.\n- Niveau 3 : choix du cercle (Lune conseillé pour les formes animales).\n- Niveau 4 : amélioration de caractéristique (SAG 17 → 18).\n",
+    "portrait": "/data/images/14d3e8f2de_ryun-carre.png",
+    "color": "",
+    "source": "import (texte collé)",
+    "inspiration": "",
+    "playerNotes": "Possède l'Etui\n",
+    "inventory": [
+     {
+      "uid": "it2c0da533c3",
+      "ref": "eq-druidic-focus",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Bâton noueux (focaliseur druidique)"
+     },
+     {
+      "uid": "itfba64e0da5",
+      "ref": "eq-sickle",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Faucille"
+     },
+     {
+      "uid": "itacdc9b574d",
+      "ref": "eq-leather",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Armure de cuir façonnée comme de l'écorce"
+     },
+     {
+      "uid": "itc1f11557f3",
+      "ref": "eq-shield",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Bouclier de bois"
+     },
+     {
+      "uid": "it62fe7e07bf",
+      "ref": "eq-shortbow",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false
+     },
+     {
+      "uid": "itf2f0f544ce",
+      "ref": "eq-arrows",
+      "qty": 20,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it42b30b7fcd",
+      "ref": "eq-quiver",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it8f947fd5d3",
+      "ref": "eq-herbalism-kit",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Sac d'herboriste (matériel d'herboriste)"
+     },
+     {
+      "uid": "it12eca16716",
+      "ref": "eq-cartographer-tools",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it9f674d0622",
+      "ref": "eq-pack-explorer",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it2d99a044c7",
+      "ref": "eq-bedroll",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it8bdc14299d",
+      "ref": "eq-tent",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Tente"
+     },
+     {
+      "uid": "it4e3d6ad372",
+      "ref": "eq-travelers-clothes",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Vêtements de voyageur"
+     },
+     {
+      "uid": "itd71d500bb4",
+      "ref": null,
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Pendentif en tête de renard",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     }
+    ],
+    "saveItemBonus": 0,
+    "purse": {
+     "pp": 0,
+     "po": 100,
+     "pa": 0,
+     "pc": 0
+    },
+    "dead": false,
+    "lvlRoll": null
+   }
+  }
+ ]
+}

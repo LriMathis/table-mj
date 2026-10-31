@@ -1,0 +1,44 @@
+{
+ "id": "fathomer",
+ "name": "Fathomer",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 10,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "senses": "Perception passive 14",
+ "languages": "aquatique, commun",
+ "traits": "**Changeur de forme (2/jour).** Le fathomer peut utiliser son action pour se polymorphiser en serpent moyen composé d'eau, ou revenir dans sa forme réelle. Tout ce que le fathomer porte ou porte est subsumé dans la forme serpent pendant le changement, inaccessible jusqu'à ce que le fathomer retourne à sa forme véritable. Le fathomer revient à sa forme réelle après 4 heures, à moins qu'il puisse dépenser une autre utilisation de ce caractère. Si le fathomer est inconscient ou meurt, il revient aussi à sa forme réelle.\nAlors qu'il est sous forme de serpent, le fathomer gagne une vitesse de nage de 12 m, la capacité de respirer sous l'eau, l'immunité à dégâts de poison, ainsi que la résistance à dégâts de feu et le bludgeoning, piercing, et dégâts tranchants des attaques non magiques. Elle jouit également de l'immunité aux conditions suivantes : épuisement, agrippé, paralysé, empoisonné, entravé, à terre, inconscient. La forme serpent peut entrer dans l'espace d'une créature hostile et s'arrêter là. De plus, si l'eau peut passer dans un espace, le serpent peut le faire sans serrer.\n**Armure d'Olhydre (forme humaine seulement).** Le fathomer peut fondre Armure de mage à volonté, sans dépenser les composants de matériau.\n**Diffusion orthographique (Forme humaine seulement).** Le fathomer est un spellcaster de niveau 5. Son caractéristique d'incantation est Charisme (save spell DD 12, +4 au toucher avec attaques de sort). Il a deux emplacements de sort de niveau 3, qu'il retrouve après avoir terminé un repos court ou long, et connaît les sorts de sorciers suivants:\n- Sorts mineurs (à volonté) : Contact glacial, Décharge occulte, Main de mage\n- Niveau 3 (2 emplacements) : Armure d'Agathys, Repli expéditif, Maléfice, Invisibilité, Toucher du vampire",
+ "actionsText": "**Constriction (formulaire usé seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts contondants. Si la cible est moyenne ou plus petite, elle est agrippé (évasion DD 12). Jusqu'à ce que le grappin se termine, la cible est entravé, et le fathomer ne peut pas constricter une autre cible.\n**Dague (Forme humaine seulement).** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Constriction (formulaire usé seulement)",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "contondant"
+  },
+  {
+   "name": "Dague (Forme humaine seulement)",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8b0ebbcb94_monstre-fathomer.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "skills": "Arcanes +2, Perception +4, Discrétion +4"
+}

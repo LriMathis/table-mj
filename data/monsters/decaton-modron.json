@@ -1,0 +1,41 @@
+{
+ "id": "decaton-modron",
+ "name": "Decaton Modron",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 144,
+ "hpFormula": "17d10+51",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 15,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 18",
+ "languages": "Modron, télépathie 36 m",
+ "traits": "**Esprit axiomatique.** Le décaton ne peut être contraint d'agir d'une manière contraire à sa nature ou à ses instructions.\n**Prêt au combat.** Le décaton a un avantage sur les rouleaux d'initiative.\n**Désintégration.** Si le décaton meurt, son corps se désintègre en poussière, laissant derrière lui tout ce qu'il transportait.",
+ "actionsText": "**Multiattaques.** Le décaton fait trois attaques du Tentacle.\n**Tentacle.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants, et si la cible est une créature moyenne ou plus petite, il a l'état agrippé (évasion DD 14). Jusqu'à ce que ce grappin se termine, le décaton ne peut pas utiliser ce tentacule contre d'autres cibles. Le décaton a dix tentacules, qui peuvent chacun gripper une cible.\n**Rayons foudre (Recharge 6).** Le décaton libère un barrage de boulons de foudre de ses yeux. Chaque créature de 9 m du décaton doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 38 (7d10) dégâts de foudre sur un sauvegarde raté, ou la moitié de ces dégâts sur un sauvegarde réussi.\n**Détection orthographique.** Le décaton lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Détection de la magie, Dissipation de la magie, Réparation (en tant qu'action)\n- 1/jour chacun : Changement de plan (autoseulement), Protection contre le mal et le bien",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6fd7f1c181_monstre-decaton-modron.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +5, SAG +5",
+ "skills": "Perception +8",
+ "conditionImmunities": "charmé, effrayé"
+}

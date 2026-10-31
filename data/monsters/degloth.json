@@ -1,0 +1,44 @@
+{
+ "id": "degloth",
+ "name": "Degloth",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 133,
+ "hpFormula": "14d10+56",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 17,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Résistance magique.** Le déglot a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** La déglotte fait deux attaques de Razor Fist.\n**Razor Fist.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 17 (2d10 + 6) dégâts tranchants, et si la cible est une créature moyenne ou plus petite, la cible a l'état agrippé (évasion DD 18). Jusqu'à ce que ce grappin se termine, la cible a l'état entravé, et le degloth ne peut pas utiliser ce poing pour grappiller une autre cible. Le diglot a deux poings.",
+ "attacks": [
+  {
+   "name": "Razor Fist",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/18fe298e7e_monstre-degloth.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +10, CON +8",
+ "skills": "Athlétisme +10, Perception +4",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "bonusActions": "**Écraser.** Le dégloth cible une créature actuellement agrippé par lui. La cible doit faire un DD 18 jet de sauvegarde de Force, en prenant 15 (2d8 + 6) dégâts contondants sur une sauvegarde ratée ou la moitié de ces dégâts sur une sauvegarde réussie."
+}

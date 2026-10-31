@@ -1,0 +1,43 @@
+{
+ "id": "chasme",
+ "name": "Chasme",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 84,
+ "hpFormula": "13d10+13",
+ "vitesse": "6 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "saves": "DEX +5, SAG +5",
+ "skills": "Perception +5",
+ "resistances": "feu, foudre, froid",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision aveugle 3 m, vision dans le noir 36 m, Perception passive 15",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Bourdonnement.** Le chasme produit un horrible bourdonnement contre lequel les démons sont immunisés. Une autre créature qui commence son tour à 9 mètres ou moins du chasme doit réussir un jet de sauvegarde de Constitution DD 12 pour ne pas tomber inconsciente pendant 10 minutes. Une créature incapable d'entendre le bourdonnement réussit automatiquement le jet de sauvegarde. L'effet sur la créature prend fin si elle subit des dégâts ou si une autre créature effectue une action pour l'asperger d'eau bénite. Si le jet de sauvegarde d'une créature est réussi ou si l'effet prend fin, elle est immunisée contre le bourdonnement pendant les 24 prochaines heures.\n**Pattes d'araignée.** Le chasme peut escalader les surfaces difficiles, y compris les plafonds, la tête en bas, sans faire de test de caractéristique.\n**Résistance à la magie.** Le chasme est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Trompe.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une créature. *Touché :* 16 (4d6+2) dégâts perforants plus 24 (7d6) dégâts nécrotiques, et le total maximum de points de vie de la cible est réduit d'un montant égal aux dégâts nécrotiques subis. Si cet effet réduit le total maximum de points de vie d'une créature à 0, elle meurt. Cette réduction du total maximum de points de vie persiste jusqu'à ce que la créature termine un long repos ou bénéficie des effets du sort *restauration supérieure* ou d'une magie similaire.",
+ "portrait": "/data/images/101767897c_monstre-chasme.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 52 · image : Manuel des monstres p. 51",
+ "attacks": [
+  {
+   "name": "Trompe",
+   "bonus": 5,
+   "damage": "4d6+2+7d6",
+   "type": "perforant + nécrotique"
+  }
+ ]
+}

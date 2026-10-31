@@ -1,0 +1,41 @@
+{
+ "id": "succube-incube",
+ "name": "Succube/Incube",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 20
+ },
+ "skills": "Discrétion +7, Intuition +5, Perception +5, Persuasion +9, Tromperie +9",
+ "resistances": "feu, froid, poison, psychiques",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "abyssal, commun, infernal, télépathie 18 m",
+ "traits": "**Forme d’incube.** Lorsque le succube termine un Repos long, il peut se transformer en **incube**, le profil de celui-ci remplaçant alors le sien.",
+ "actionsText": "**Attaques multiples.** Le succube effectue une attaque de Contact fiélon et recourt à Baiser dévitalisant ou Charme.\n**Contact fiélon.** Corps à corps : +7, allonge 1,50 m. Touché : 16 (2d10 + 5) dégâts psychiques.\n**Baiser dévitalisant.** JS Constitution : DD 15, une créature dans un rayon de 1,50 m, Charmée par la succube. Échec : 13 (3d8) dégâts psychiques. Réussite : demi-dégâts. Échec ou réussite : le maximum de points de vie de la cible est réduit d’un montant égal aux dégâts subis.\n**Charme.** Le succube lance *domination de personne* (au 8e niveau), sans composantes de sort, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 15).",
+ "bonusActions": "**Changement d’aspect.** Le succube se transforme en Humanoïde de taille M ou P, ou bien reprend sa forme véritable. En dehors de sa catégorie de taille, son profil de jeu reste le même sous toutes les formes, si ce n’est que la Vitesse de vol propre à sa forme véritable. Rien de ce qu’il porte n’est transformé.",
+ "attacks": [
+  {
+   "name": "Contact fiélon",
+   "bonus": 7,
+   "damage": "2d10+5",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/7ad527bbd7_monstre-succube-incube.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 277",
+ "aka": "Succube (2024)"
+}

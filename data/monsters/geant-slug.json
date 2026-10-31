@@ -1,0 +1,47 @@
+{
+ "id": "geant-slug",
+ "name": "Giant Slug",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 66,
+ "hpFormula": "6d10+18",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "abyssal, aquatique, commun",
+ "traits": "**Sensation de Keen.** La limace a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Escalade des araignées.** La limace peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Découpe intérieure.** Le caractéristique d'incantation inné de la limace est Sagesse (save spell DD 11, +3 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Éclair traçant, Sanctuaire, Arme spirituelle",
+ "actionsText": "**Multiattaques.** La limace fait deux attaques : une avec ses tentacules et une avec sa morsure.\n**Tentacules.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une créature. Touché : 4 (1d4 + 2) dégâts de poison, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Jusqu'à ce que ce poison se termine, la cible est paralysé. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin au poison sur elle-même sur un succès.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 8,
+   "damage": "1d4+2",
+   "type": "poison"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/849043b3a6_monstre-geant-slug.webp",
+ "notes": "",
+ "source": "The Tortle Package (5e.tools, traduction automatique)",
+ "aka": "Géant Slug",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3",
+ "reactions": "**Tentacle animé.** Lorsque la limace est endommagée dans cette grotte (3), elle peut utiliser sa réaction pour animer l'un des tentacules de la statue de kraken et lui faire faire une attaque d'arme à melee (+3 au toucher) contre une créature dans 6 m de la statue que la limace peut voir. Le tentacule offre 8 (1d8 + 4) dégâts contondants sur un coup."
+}

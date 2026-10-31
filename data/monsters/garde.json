@@ -1,0 +1,38 @@
+{
+ "id": "garde",
+ "name": "Garde",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 16,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "skills": "Perception +2",
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Lance.** Corps à corps ou à distance : +3, allonge 1,50 m ou portée 6/18 m. Touché : 4 (1d6 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Lance",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0ee4436f87_monstre-garde.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

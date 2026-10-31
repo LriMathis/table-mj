@@ -1,0 +1,41 @@
+{
+ "id": "momie",
+ "name": "Momie",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 11,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 8,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "saves": "SAG +3",
+ "vulnerabilities": "feu",
+ "immunities": "nécrotiques, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné, épuisement, paralysé",
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun et deux autres langues",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** La momie effectue deux attaques de Poing putréfié et recourt à Regard effroyable.\n**Poing putréfié.** Corps à corps : +5, allonge 1,50 m. Touché : 8 (1d10 + 3) dégâts contondants plus 10 (3d6) dégâts nécrotiques. Ainsi maudite, la cible ne peut pas récupérer de points de vie et ne reçoit aucun bénéfice en terminant un Repos long, tandis que son maximum de points de vie est réduit de 10 (3d6) toutes les 24 heures. Une créature que cette attaque fait tomber à 0 point de vie meurt, réduite en poussière.\n**Regard effroyable.** JS Sagesse : DD 11, une créature que la momie voit dans un rayon de 18 m. Échec : la cible subit l’état Effrayé jusqu’à la fin du tour suivant de la momie. Réussite : la cible est immunisée contre le Regard effroyable de cette momie pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "Poing putréfié",
+   "bonus": 5,
+   "damage": "1d10+3+3d6",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/83b62fe34f_monstre-momie.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 227"
+}

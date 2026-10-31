@@ -1,0 +1,45 @@
+{
+ "id": "wasteland-dragonnel",
+ "name": "Wasteland Dragonnel",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 65,
+ "hpFormula": "10d10+10",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 13",
+ "languages": "comprend le commun et le draconien mais ne peut pas parler",
+ "traits": "**Volée.** Le dragonne ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.",
+ "actionsText": "**Multiattaques.** Le dragonne fait deux attaques de Rend.\n**Rend.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.\n**acide craquage.** Attaque d'arme à distance : +5 au toucher, portée 18 m, une cible. Touché : 20 (5d6 + 3) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "acide craquage",
+   "bonus": 5,
+   "damage": "5d6+3",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/d8acb2d698_monstre-wasteland-dragonnel.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "skills": "Perception +3",
+ "resistances": "acide"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "nuee-de-corbeaux",
+ "name": "Nuée de corbeaux",
+ "type": "Nuée (bêtes de taille TP)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "3 m, vol 15 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "skills": "Perception +5",
+ "resistances": "contondants, perforants, tranchants",
+ "conditionImmunities": "à terre, agrippé, charmé, effrayé, entravé, étourdi, paralysé, pétrifié",
+ "senses": "Perception passive 15",
+ "languages": "aucune",
+ "traits": "**Nuée.** La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut se déplacer par toute ouverture assez large pour un corbeau de taille TP. La nuée ne peut ni récupérer de points de vie ni recevoir de points de vie temporaires.",
+ "actionsText": "**Becs.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts perforants, ou 2 (1d4) dégâts perforants si la nuée est En péril.\n**Cacophonie (recharge 6).** JS Sagesse : DD 10, une créature dans l’espace de la nuée. Échec : la cible subit l’état Assourdi jusqu’au début du tour suivant de la nuée. Ainsi Assourdie, la cible subit aussi le Désavantage aux tests de caractéristique et aux jets d’attaque.",
+ "attacks": [
+  {
+   "name": "Becs",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant (+1d4 perforant sous condition)"
+  }
+ ],
+ "portrait": "/data/images/dd0b6fd7d8_monstre-nuee-de-corbeaux.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

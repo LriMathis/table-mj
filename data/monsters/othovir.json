@@ -1,0 +1,39 @@
+{
+ "id": "othovir",
+ "name": "Othovir",
+ "type": "Humanoïde (Illuskan humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, elfique",
+ "traits": "**Information sur le jeu de rôles.** Othovir est un harnais doué qui ne parle pas de sa famille ou d'où il vient. Il se soucie de ses affaires, de ses clients, et de son bon nom.\nIdéal: \"Trouvez ce que vous faites bien, et faites-l'au mieux de votre capacité.\"\nObligation : \"Je ne permettrai pas que mon nom soit terni.\"\nFaux : \"Je m'énerve quand d'autres s'en prennent à ma vie privée.\"",
+ "actionsText": "**Violeur.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d8) dégâts perforants.\n**Détection orthographique.** Othovir lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 13 ; +5 au toucher avec attaques de sort):\n- À volonté : Trait de feu (1d10 dégâts de feu), Prestidigitation\n- 1/jour chacun : Armure de mage, Vague tonnante, Trait ensorcelé",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 2,
+   "damage": "1d8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/885a749f27_monstre-othovir.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Perspicacité +4, Persuasion +5",
+ "reactions": "**Parry.** Othovir ajoute 2 à son CA contre une attaque de mêlée qui le frapperait. Pour ce faire, Othovir doit voir l'attaquant et utiliser une arme à la mêlée."
+}

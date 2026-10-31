@@ -1,0 +1,39 @@
+{
+ "id": "lysan",
+ "name": "Lysan",
+ "type": "Humanoïde (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 91,
+ "hpFormula": "14d8+28",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Perception passive 12",
+ "languages": "gith",
+ "traits": "**La diffusion de l'orthographe innée (Psioniques).** caractéristique d'incantation inné de Lysan est Intelligence (save spel DD 13, +5 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Main de mage (la main est invisible)\n- 1/jour chacun : Changement de plan, Télékinésie\n- 3/jour chacun : Saut, Foulée brumeuse, Antidétection (autoseulement), Don des langues",
+ "actionsText": "**Multiattaques.** Lysan fait deux attaques d'argent.\n**Grandes paroles d'argent.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants plus 10 (3d6) dégâts psychiques. C'est une attaque d'arme magique. Sur un coup critique contre une cible dans un corps astral (comme avec le sort Projection astrale), Lysan peut couper le cordon argenté qui attache la cible à son corps matériel, au lieu d'infliger des dégâts.",
+ "attacks": [
+  {
+   "name": "Grandes paroles d'argent",
+   "bonus": 9,
+   "damage": "2d6+6",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/89a8d4c8b2_monstre-lysan.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "CON +5, INT +5, SAG +5"
+}

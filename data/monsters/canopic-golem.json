@@ -1,0 +1,48 @@
+{
+ "id": "canopic-golem",
+ "name": "Canopic Golem",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 17,
+ "hp": 252,
+ "hpFormula": "24d10+120",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 7,
+  "SAG": 11,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Immunité d'orthographe limitée.** Le golem succède automatiquement sur jet de sauvegarde contre des sorts de de niveau 7 ou plus bas, et le jets d'attaque de ces sorts le rate toujours.\n**Nature inhabituelle.** Le golem n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le golem fait deux attaques.\n**Clamer.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 27 (4d10 + 5) dégâts de force.\n**Cristal Dart.** Attaque d'arme à distance : +10 au toucher, portée 36 m, une cible. Touché : 14 (2d8 + 5) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "4d10+5",
+   "type": "force"
+  },
+  {
+   "name": "Cristal Dart",
+   "bonus": 10,
+   "damage": "2d8+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/1bd7f998f0_monstre-canopic-golem.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +3, SAG +5, CHA +0",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "reactions": "**Défaillance orthographique.** En réponse à un attaque de sort manquant le golem, il provoque ce sort de frapper une autre créature dans 36 m de celui-ci qu'il peut voir."
+}

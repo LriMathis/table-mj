@@ -1,0 +1,43 @@
+{
+ "id": "harrow-hound",
+ "name": "Harrow Hound",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 19,
+  "CON": 16,
+  "INT": 8,
+  "SAG": 15,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "Chien à cliquet, comprend Sylvan mais ne peut pas le dire",
+ "traits": "**Tactiques de conditionnement.** Le chien a avantage sur jets d'attaque contre une créature si au moins un des alliés du chien est dans 1,50 m de la cible et l'allié n'a pas l'état neutralisé.\n**Tracker surnaturel.** Le chien connaît la distance et la direction de toute créature qui en est venue à 9 m, même si cette créature est sur un autre plan d'existence. Si la créature qui est traquée par le chien meurt, le chien le sait.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants plus 3 (1d6) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou avoir l'état à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/3de191a6cc_monstre-harrow-hound.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6, Discrétion +6",
+ "resistances": "nécrotique, psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "bonusActions": "**Étape de l'ombre (Recharge 4-6).** Le chien téléporte magiquement, avec tout équipement qu'il porte ou transporte, jusqu'à 12 m dans un espace inoccupé qu'il peut voir."
+}

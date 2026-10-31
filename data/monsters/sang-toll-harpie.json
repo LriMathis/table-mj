@@ -1,0 +1,45 @@
+{
+ "id": "sang-toll-harpie",
+ "name": "Blood-Toll Harpy",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 11,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "6 m, vol 12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 13,
+  "CON": 10,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Frénésie sanguine.** La harpie a avantage sur melee jets d'attaque contre toute créature qui n'a pas toute sa points de vie.\n**Dévotion sombre.** La harpie a un avantage sur jet de sauvegarde contre charmé ou effrayé.",
+ "actionsText": "**Multiattaques.** La harpie fait deux attaques à la mêlée: l'une avec sa morsure et l'autre avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8de0ecb6bd_monstre-sang-toll-harpie.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Sang- Toll harpie",
+ "skills": "Intimidation +3"
+}

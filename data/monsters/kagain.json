@@ -1,0 +1,47 @@
+{
+ "id": "kagain",
+ "name": "Kagain",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 161,
+ "hpFormula": "17d8+85",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 14",
+ "languages": "commun, nain",
+ "traits": "**Matériel spécial.** Kagain manie un +3 superaxe. Alors que Kagain est attaché à cette arme, son maximum de points de vie augmente à 178. Chaque fois qu'une créature hostile endommage Kagain pendant que la hache est en sa possession, il doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou aller berserk. Il peut choisir d'échouer cette jet de sauvegarde. Alors que Berserk, Kagain gagne des avantages sur toutes les attaques de mêlée et les attaques faites contre lui sont faites avec avantage.",
+ "actionsText": "**Multiattaques.** Kagain fait trois attaques avec sa Grandeaxe de Berserking.\n**Grandaxe de Berserking.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 13 (1d12 + 7) dégâts tranchants.\n**Grosse arbalète.** Attaque d'arme à distance : +5 au toucher, portée 30/120 m., une cible. Touché : 6 (1d10 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grandaxe de Berserking",
+   "bonus": 11,
+   "damage": "1d12+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 5,
+   "damage": "1d10+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d0d6490ad0_monstre-kagain.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "plaque",
+ "saves": "FOR +8, CON +9",
+ "skills": "Athlétisme +8, Perception +4, Survie +4",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, kagain peut entreprendre l'une des actions ci-après.\n**Attaque d ' armes.** Kagain fait une attaque de la Grandeaxe de Berserking.\n**Berserk Whirlwind (coûts 3 actions).** Kagain fait une attaque Berserking Greataxe contre toutes les créatures de 1,50 m de lui."
+}

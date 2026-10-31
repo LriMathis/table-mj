@@ -1,0 +1,54 @@
+{
+ "id": "aboleth-rejeton",
+ "name": "Aboleth Spawn",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "commun, profond, télépathie 18 m",
+ "traits": "**Navire aboléthique.** Le géniteur doit obéir à son maître abolit.\n**Amphibie.** Le frai peut respirer de l'air et de l'eau.\n**Dépendance de l'eau.** Le frai prend 6 (1d12) dégâts d'acide toutes les 10 minutes sans être immergé dans l'eau.",
+ "actionsText": "**Multiattaques.** Le frai fait une attaque Spear, deux attaques Tentacle, et une attaque psychique Lash.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants, ou 8 (1d8 + 4) dégâts perforants lorsqu'il est utilisé avec deux mains pour faire une attaque de mêlée.\n**Tentacle.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une créature. Touché : La cible est agrippé (évasion DD 14) et prend 9 (2d8) dégâts psychiques au début de chacun de ses tours jusqu'à ce que le grappin se termine. Le frai a quatre tentacules, qui peuvent chacun gripper une créature.\n**Laisse psychique.** Attaque de sort à distance : +7 au toucher, portée 36 m, une créature. Touché : 18 (4d8) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 7,
+   "damage": "2d8",
+   "type": "psychique"
+  },
+  {
+   "name": "Laisse psychique",
+   "bonus": 7,
+   "damage": "4d8",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/3c8537f9b0_monstre-aboleth-rejeton.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Aboleth rejeton",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé, effrayé"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "imoen",
+ "name": "Imoen",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 156,
+ "hpFormula": "24d8+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, argot des voleurs, commun des profondeurs",
+ "traits": "**Évasion.** Si Imoen est soumise à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, Imoen ne prend pas de dégâts si elle réussit sur le jet de sauvegarde, et seulement la moitié des dégâts si elle échoue.\n**Attaque d'éternuement (1/Turn).** Imoen inflige un dégâts supplémentaire de 14 (4d6) quand elle frappe une cible avec une attaque d'arme et a un avantage sur le jet d'attaque, ou quand la cible est dans 1,50 m d'un allié d'Imoen qui n'est pas neutralisé et Imoen n'a pas d'inconvénient sur le jet d'attaque.\n**Escalade des araignées.** Imoen peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sensibilité à la lumière du soleil.** En plein soleil, Imoen a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Imoen fait deux attaques de Shortsword et une attaque de Hand Crossbow.\n**Mot-clé.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 3 (1d6) dégâts de poison.\n**Acrobatie des mains.** Attaque d'arme à distance : +7 au toucher, portée 9/63 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 10 (3d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/7783937a0a_monstre-imoen.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +7, INT +5",
+ "skills": "Acrobaties +7, Tromperie +5, Perception +3, Discrétion +10",
+ "resistances": "nécrotique, poison",
+ "bonusActions": "**Action énergique.** Imoen prend l'action Foncer, Se désengager ou Se cacher."
+}

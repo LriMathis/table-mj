@@ -1,0 +1,45 @@
+{
+ "id": "scuttling-serpentmaw",
+ "name": "Scuttling Serpentmaw",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 17,
+ "hp": 65,
+ "hpFormula": "10d6+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "**Amphibie.** Le serpentmaw peut respirer l'air et l'eau.\n**Tactiques de conditionnement.** La serpentmaw a avantage sur une jet d'attaque contre une créature si au moins un des alliés de la serpentmaw est dans 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le serpentmaw fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 4,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants, ou 17 (4d6 + 3) dégâts perforants si le serpentmaw avait un avantage sur le jet d'attaque.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ada1915b7c_monstre-scuttling-serpentmaw.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +6"
+}

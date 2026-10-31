@@ -1,0 +1,41 @@
+{
+ "id": "nuee-de-sorrowfish",
+ "name": "Swarm of Sorrowfish",
+ "type": "Nuée de taille très petite (Aberration)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "0 m, nage 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 19,
+  "CON": 14,
+  "INT": 1,
+  "SAG": 11,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers une ouverture aussi étroite que 0,30 m large. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.\n**Douleur virale.** Chaque fois que l'essaim prend des dégâts, toute créature de 1,50 m doit en faire un DD 13 jet de sauvegarde de Sagesse. Sur un jet de sauvegarde raté, la créature subit les effets suivants jusqu'à la fin de son prochain tour : elle a un désavantage sur son jets d'attaque, elle ne peut pas prendre de réactions, et sa vitesse est réduite de moitié.\n**Respiration d'eau.** L'essaim ne peut respirer que sous l'eau.",
+ "actionsText": "**Swarm de morses.** Attaque d'arme au corps à corps : +8 au toucher, allonge 0 m, une cible dans l'espace de l'essaim. Touché : 21 (6d6) dégâts perforants, ou 10 (3d6) dégâts perforants si l'essaim a la moitié de son points de vie ou moins.\n**Désolation du drain (Recharge 5-6).** Chaque créature dans l'espace de l'essaim doit faire un DD 13 jet de sauvegarde de Sagesse. Sur un jet de sauvegarde raté, une créature prend 24 (7d6) dégâts psychiques et est étourdi jusqu'à la fin de son prochain tour. L'effet se termine sur une créature si l'essaim sort de l'espace de la créature ou si une autre créature dans 1,50 m de l'essaim utilise une action pour faire un DD 14 test de Force, tirant la créature affectée hors de l'essaim sur un contrôle réussi. Sur un jet de sauvegarde réussi, une créature prend la moitié de ces dégâts et ne subit aucun autre effet.",
+ "attacks": [
+  {
+   "name": "Swarm de morses",
+   "bonus": 8,
+   "damage": "6d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/114dcbb30b_monstre-nuee-de-sorrowfish.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Nuée de Sorrowfish",
+ "resistances": "contondant, perforant, tranchant",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

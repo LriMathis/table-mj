@@ -1,0 +1,48 @@
+{
+ "id": "kozilek",
+ "name": "Kozilek",
+ "type": "Monstruosité (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 18,
+ "hp": 472,
+ "hpFormula": "27d20+189",
+ "vitesse": "6 m, nage 18 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 11,
+  "CON": 25,
+  "INT": 22,
+  "SAG": 18,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 14",
+ "languages": "abyssal, céleste, infernal, primordial, télépathie 36 m but can't speak",
+ "traits": "**Amphibie.** Kozilek peut respirer l'air et l'eau.\n**Liberté de circulation.** Kozilek ignore 3, et les effets magiques ne peuvent pas réduire sa vitesse ou le faire être entravé. Il peut dépenser 1,50 m de mouvement pour échapper aux contraintes non magiques ou être agrippé.\n**Monstre de siège.** Kozilek inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Kozilek fait trois attaques tentaculaires, chacune d'elles pouvant se substituer à une seule utilisation de Fling.\n**Morceau.** Attaque d'arme au corps à corps : +17 au toucher, allonge 1,50 m, une cible. Touché : 23 (3d8 + 10) dégâts perforants. Si la cible est une grande ou plus petite créature agrippé par Kozilek, cette créature est avalée, et le grappin se termine. En avalé, la créature est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors de Kozilek, et il prend 42 (12d6) dégâts d'acide au début de chaque tour de Kozilek. Si Kozilek prend 50 dégâts ou plus sur un seul tour d'une créature à l'intérieur, Kozilek doit réussir sur un DD 25 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m de Kozilek. Si Kozilek meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 4,50 m de mouvement, sortant d'à terre.\n**Tentacle.** Attaque d'arme au corps à corps : +17 au toucher, allonge 9 m, une cible. Touché : 20 (3d6 + 10) dégâts contondants, et la cible est agrippé (évasion DD 18). Jusqu'à ce que ce grappin se termine, la cible est entravé. Kozilek a dix tentacules, qui peuvent chacun gripper une cible.\n**Vols.** Un objet plus grand ou plus petit détenu ou créature agrippé par Kozilek est projeté jusqu'à 18 m dans une direction aléatoire et à terre. Si une cible lancée frappe une surface solide, la cible prend 3 (1d6) dégâts contondants pour chaque 3 m qu'elle a lancé. Si la cible est lancée sur une autre créature, cette créature doit réussir sur un DD 18 jet de sauvegarde de Dextérité ou prendre les mêmes dégâts et être à terre.\n**Tempête de foudre.** Kozilek crée magiquement trois boulons de foudre, dont chacun peut frapper une cible Kozilek peut voir dans 36 m de lui. Une cible doit faire un DD 23 jet de sauvegarde de Dextérité, en prenant 22 (4d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 17,
+   "damage": "3d8+10",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 17,
+   "damage": "3d6+10",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/80cbe8cff9_monstre-kozilek.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +17, DEX +7, CON +14, INT +13, SAG +11",
+ "immunities": "foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "effrayé, paralysé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, kozilek peut entreprendre l'une des actions ci-après.\n**Attaque de tension ou vol.** Kozilek fait une attaque tentaculaire ou utilise son Fling.\n**Tempête de foudre (coûts 2 actions).** Kozilek utilise foudre Storm.\n**Enk Cloud (coûts 3 actions).** Sous l'eau, Kozilek expulse un nuage d'encre dans un rayon de 18 m. Le nuage s'étend autour des coins, et cette zone est de 2 pour des créatures autres que Kozilek. Chaque créature autre que Kozilek qui termine son tour là doit réussir sur un DD 23 jet de sauvegarde de Constitution, en prenant 16 (3d10) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Un fort courant disperse le nuage, qui disparaît à la fin du prochain tour de Kozilek."
+}

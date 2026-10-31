@@ -1,0 +1,38 @@
+{
+ "id": "hippogriffe",
+ "name": "Hippogriffe",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 26,
+ "hpFormula": "4d10+4",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 13,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "skills": "Perception +5",
+ "senses": "Perception passive 15",
+ "languages": "aucune",
+ "traits": "**Repli aérien.** L’hippogriffe ne provoque pas d’attaque d’Opportunité lorsqu’il quitte la zone d’allonge d’un ennemi en volant.",
+ "actionsText": "**Attaques multiples.** L’hippogriffe effectue deux attaques de Saignée.\n**Saignée.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/80d83e7bc3_monstre-hippogriffe.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 181"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "noyer-dankgrass",
+ "name": "Walnut Dankgrass",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "10,50 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 18,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun, druidique, elfique, sylvestre",
+ "traits": "**Ancêtre fécale.** Walnut a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas la mettre au lit.\n**Masque du Sauvage.** La noyer peut tenter de se cacher même lorsqu'elle n'est que légèrement obscurcie par le feuillage, les fortes pluies, la chute de neige, la brume et d'autres phénomènes naturels.\n**Forme sauvage (recharge après un repos court ou long).** Comme un action bonus, Walnut peut prendre la forme d'un loup terrible. Elle peut rester sous cette forme pendant 3 heures ou jusqu'à ce qu'elle revienne à sa forme normale comme un action bonus. Elle revient automatiquement si elle tombe en inconscient, tombe en points de vie ou meurt.\nPendant sa transformation, les statistiques du jeu de Walnut sont remplacées par les statistiques du loup dérisoire, sauf qu'elle conserve son alignement, sa personnalité et ses scores Intelligence, Sagesse et Charisme.\nSes attaques sous forme de bêtes sont magiques. En forme de bête, Walnut peut utiliser un action bonus pour dépenser un emplacement de sort et récupérer 1d8 points de vie par niveau d'emplacement de sort dépensé.\n**Détection orthographique.** Walnut est un spellcaster de niveau 7. Son caractéristique d'incantation est Sagesse (save spell DD 14, +6 au toucher avec attaques de sort). Elle a préparé les sorts druides suivants :\n- Sorts mineurs (à volonté) : Druidisme, Flammes, Fouet épineux\n- Niveau 1 (4 emplacements) : Soins, Enchevêtrement, Vague tonnante\n- Niveau 2 (3 emplacements) : Lame de feu, Rayon de lune, Passage sans trace\n- Niveau 3 (3 emplacements) : Appel de la foudre, Dissipation de la magie, Croissance végétale\n- Niveau 4 (1 emplacements) : Flétrissement, Liberté de mouvement",
+ "actionsText": "**Multiattaques.** Le noyer fait deux attaques avec la mère antérieure ou son longbow.\n**Pré-mère (+1 Scimitar).** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.\n**Longbow.** Attaque d'arme à distance : +5 au toucher, portée 45/180 m., une cible. Touché : 7 (1d8 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Pré-mère (+1 Scimitar)",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1c7a92fd89_monstre-noyer-dankgrass.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "aka": "Noyer Dankgrass",
+ "caNote": "Armure en cuir",
+ "saves": "INT +2, SAG +6",
+ "skills": "Athlétisme +1, Perspicacité +6, Perception +6, Discrétion +5, Survie +6"
+}

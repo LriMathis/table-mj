@@ -1,0 +1,44 @@
+{
+ "id": "su-monster",
+ "name": "Su-monster",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 9,
+  "SAG": 13,
+  "CHA": 9
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le su-monstre fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts tranchants, ou 12 (4d4 + 2) dégâts tranchants si le su-monstre est suspendu par sa queue et que les quatre membres sont libres.\n**Crush psychique (Recharge 5-6).** Le su-monster cible une créature il peut voir dans 9 m de lui. La cible doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou prendre 17 (5d6) dégâts psychiques et être étourdi pendant 1 minute. La cible étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/e517b5ba18_monstre-su-monster.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "skills": "Athlétisme +6, Perception +3"
+}

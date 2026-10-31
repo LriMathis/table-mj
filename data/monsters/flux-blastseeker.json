@@ -1,0 +1,39 @@
+{
+ "id": "flux-blastseeker",
+ "name": "Flux Blastseeker",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 55,
+ "hpFormula": "10d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 9,
+  "CHA": 14
+ },
+ "senses": "Perception passive 12",
+ "languages": "Commun plus une langue",
+ "traits": "**Flux de surdiffusion (Recharge 5-6).** Le blastseeker peut créer un effet supplémentaire immédiatement après avoir lancé un sort. Rouler un d6 pour déterminer l'effet: 1-3. Le blastseeker téléporte, échangeant des places avec une créature qu'il peut voir à l'intérieur de 9 m. 4-6. Le blastseeker et chaque créature de 3 m doivent réussir sur un DD 16 jet de sauvegarde de Constitution ou prendre 11 (2d10) dégâts de tonnerre.\n**Découpe intérieure.** Le caractéristique d'incantation inné du blastseeker est Intelligence (save spell DD 16, +8 au toucher avec attaques de sort). Le blastseeker peut lancer innéement les sorts suivants, ne nécessitant aucun composant autre que son engrenage Izzet, qui ne fonctionne pas pour les autres:\n- 1/jour chacun : Bannissement, Cône de froid, Porte dimensionnelle, Boule de feu, Tempête de grêle\n- 3/jour chacun : Armure de mage (autoseulement), Rayon ardent",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants, ou 4 (1d8) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 3,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/59be2146a3_monstre-flux-blastseeker.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "saves": "DEX +5, INT +8",
+ "skills": "Arcanes +8, Perception +2"
+}

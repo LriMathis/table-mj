@@ -1,0 +1,43 @@
+{
+ "id": "necromancer-magicien",
+ "name": "Necromancer Wizard",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 12,
+ "hp": 110,
+ "hpFormula": "20d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le nécromanceur fait trois attaques d'Arcane Burst.\n**La Burst d'Arcane.** Attaque de sort au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 25 (4d10 + 3) dégâts nécrotiques.\n**Détection orthographique.** Le nécromanceur lance l'un des sorts suivants en utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Lumières dansantes, Main de mage, Prestidigitation\n- 1/jour chacun : Cercle de mort\n- 2/jour chacun : Malédiction, Porte dimensionnelle, Armure de mage, Toile d'araignée",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 7,
+   "damage": "4d10+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/7c3df086ba_monstre-necromancer-magicien.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Necromancer magicien",
+ "saves": "INT +7, SAG +5",
+ "skills": "Arcanes +7, Histoire +7",
+ "resistances": "nécrotique",
+ "bonusActions": "**Invoquer un décès (1/jour).** Le nécromantre appelle magiquement cinq squelettes ou zombies. Les créatures convoquées apparaissent dans des espaces inoccupés à l'intérieur de 18 m du nécromanceur, qu'elles obéissent. Ils prennent leur tour immédiatement après le nécromance. Chacun dure 1 heure, jusqu'à ce qu'il ou le nécromance meurt, ou jusqu'à ce que le nécromance le rejette comme un action bonus.",
+ "reactions": "**Récolte de Grim (1/Turn).** Lorsque le nécromance tue une créature avec dégâts nécrotiques, le nécromance retrouve 9 (2d8) points de vie."
+}

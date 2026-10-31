@@ -1,0 +1,40 @@
+{
+ "id": "deux-tetes-plesiosaure",
+ "name": "Two-Headed Plesiosaurus",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 100,
+ "hpFormula": "8d10+24",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**Deux chefs.** Le plésiosaurus à deux têtes présente un avantage sur tests de Sagesse (Perception) et sur jet de sauvegarde contre aveuglé, charmé, assourdi, effrayé, étourdi et inconscient.\n**Maintenez votre souffle.** Le plesiosaurus peut retenir son souffle pendant 1 heure.",
+ "actionsText": "**Multiattaques.** Le plésiosaurus à deux têtes fait deux attaques de morsure.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 14 (3d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "3d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/22edc807f1_monstre-deux-tetes-plesiosaure.webp",
+ "notes": "",
+ "source": "The Tortle Package (5e.tools, traduction automatique)",
+ "aka": "Deux têtes plésiosaure",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3, Discrétion +4"
+}

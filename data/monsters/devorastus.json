@@ -1,0 +1,47 @@
+{
+ "id": "devorastus",
+ "name": "Devorastus",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 14,
+ "hp": 275,
+ "hpFormula": "22d12+132",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 14,
+  "CON": 22,
+  "INT": 8,
+  "SAG": 6,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Devorastu échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Cube Ooze.** Devoraste prend tout son espace. D'autres créatures peuvent entrer dans l'espace, mais une créature qui le fait est soumise à Engulf et a un désavantage sur le jet de sauvegarde. Les créatures à l'intérieur du cube peuvent être vues mais ont 3. Une créature dans 1,50 m du cube peut prendre une action pour tirer une créature ou un objet hors du cube. Pour ce faire, il faut un DD 21 test de Force réussi, et la créature qui fait la tentative prend 35 (10d6) dégâts d'acide. Le cube ne peut contenir qu'une créature énorme ou jusqu'à six grandes ou petites créatures à la fois.\n**Sticky.** Devorastus peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Transparent.** Même lorsque Devorastus est en vue, il faut un DD 15 test de Sagesse (Perception) réussi pour repérer Devorastus s'il n'a ni déplacé ni attaqué. Une créature qui tente d'entrer dans l'espace de Devorastus tout en ignorant de Devorastus est surpris par elle.",
+ "actionsText": "**Multiattaques.** Devorastus fait quatre attaques en utilisant son Pseudopod, Spit, ou une combinaison des deux.\n**Pseudopod.** Attaque d'arme au corps à corps : +13 au toucher, allonge 6 m, une cible. Touché : 42 (12d6) dégâts d'acide.\n**Craquage.** Attaque d'arme à distance : +8 au toucher, portée 30/60 m., une cible. Touché : 28 (8d6) dégâts d'acide. Une cible touchée par cette attaque doit faire un DD 21 jet de sauvegarde de Constitution. Sur une sauvegarde échouée, la cible a l'état à terre.\n**Engloutissement.** Devorastus se déplace à sa vitesse. Ce faisant, il peut pénétrer dans les espaces des grandes ou des petites créatures. Chaque fois que Devorastu entre dans l'espace d'une créature, la créature doit faire un DD 21 jet de sauvegarde de Dextérité. Lors d'une sauvegarde réussie, la créature peut choisir d'être repoussée 1,50 m ou du côté de Devorastu. Une créature qui choisit de ne pas être poussée souffre des conséquences d'un jet de sauvegarde raté. Sur une sauvegarde ratée, Devorastus entre dans l'espace de la créature, la créature prend 35 (10d6) dégâts d'acide, et est engloutie. La créature engloutie ne peut pas respirer, a l'état entravé et prend 42 (12d6) dégâts d'acide au début de chaque tour de Devoraste. Quand Devorastus bouge, la créature engloutie bouge avec elle. Une créature engloutie peut essayer de s'échapper en faisant un DD 21 test de Force comme action. Sur un succès, la créature s'échappe et entre dans un espace de son choix au sein de 1,50 m de Devoraste.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 13,
+   "damage": "12d6",
+   "type": "acide"
+  },
+  {
+   "name": "Craquage",
+   "bonus": 8,
+   "damage": "8d6",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/22876adce5_monstre-devorastus.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "froid, feu, poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "acide",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, à terre"
+}

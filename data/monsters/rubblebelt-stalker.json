@@ -1,0 +1,39 @@
+{
+ "id": "rubblebelt-stalker",
+ "name": "Rubblebelt Stalker",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Perception passive 14",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Ambusher.** Au premier tour d'un combat, le harceleur a avantage sur jets d'attaque contre toute créature qui n'a pas encore pris de tour.\n**Échappement de Nimble.** Le harceleur peut prendre l'action Se désengager ou Se cacher en action bonus sur chacun de ses tours.\n**Ruin Dweller.** Le harceleur a avantage sur tests de Dextérité (Discrétion) fait pour se cacher en ruines, et sa vitesse n'est pas réduite en 3 composés de décombres.\n**Monstre de siège.** Le harceleur inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le harceleur fait trois attaques avec son mot court.\n**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9c2791afc0_monstre-rubblebelt-stalker.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "Armure à la pièce",
+ "skills": "Athlétisme +2, Perception +4, Discrétion +4"
+}

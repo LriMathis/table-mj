@@ -1,0 +1,57 @@
+{
+ "id": "homme-lezard",
+ "name": "Homme-lézard",
+ "type": "Humanoïde (homme-lézard)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "caNote": "armure naturelle, bouclier",
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 7,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "skills": "Discrétion +4, Perception +3, Survie +5",
+ "senses": "Perception passive 13",
+ "languages": "draconique",
+ "traits": "**Retenir son souffle.** L'homme-lézard peut retenir son souffle pendant 15 minutes.",
+ "actionsText": "**Attaques multiples.** L'homme-lézard effectue deux attaques au corps à corps, chacune devant être effectuée avec une arme différente.\n**Bouclier à pointes.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (1d6+2) dégâts perforants.\n**Gourdin lourd.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (1d6+2) dégâts contondants.\n**Javeline.** *Attaque d'arme au corps à corps ou à distance :* +4 pour toucher, allonge 1,50 m ou portée 9/36 m, une cible. *Touché :* 5 (1d6+2) dégâts perforants.\n**Morsure.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (1d6+2) dégâts perforants.",
+ "portrait": "/data/images/b758ed1a11_monstre-homme-lezard.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 186 · image : Manuel des monstres p. 185",
+ "attacks": [
+  {
+   "name": "Bouclier à pointes",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Gourdin lourd",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  },
+  {
+   "name": "Javeline",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ]
+}

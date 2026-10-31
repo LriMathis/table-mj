@@ -1,0 +1,48 @@
+{
+ "id": "aeorian-nullifier",
+ "name": "Aeorian Nullifier",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 180,
+ "hpFormula": "19d10+76",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "comprend Draconic mais ne peut pas parler",
+ "traits": "**C'est terrible..** Les bouches de l'annulateur gnash inconstancielle alors qu'il peut voir n'importe quel ennemi. Chaque créature qui commence son tour dans 6 m de l'annulateur et peut l'entendre doit faire un DD 16 jet de sauvegarde de Sagesse. À moins que le save ne réussisse, la créature roule un d8 pour déterminer ce qu'il fait pendant le tour actuel:\n- **1-4:** La créature est étourdi jusqu'à la fin du tour.\n- **5-6:** La créature est effrayé jusqu'à la fin du tour et utilise son mouvement pour obtenir le plus loin possible de l'annulateur.\n- **7-8:** La créature ne bouge pas, et elle utilise son action pour faire une attaque de mêlée contre une créature aléatoire (autre que lui-même) si on est à portée de main. Sinon, ça ne fait rien\n**Résistance magique.** L'annulateur a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** Le caractéristique d'incantation inné de l'annulateur est Charisme (spell save DD 16). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Contresort (voir \"Réactions\" ci-dessous), Détection de la magie, Dissipation de la magie, Voir l'invisible\n- 1/jour : Champ antimagie",
+ "actionsText": "**Multiattaques.** L'annulateur fait trois attaques : une avec ses morsures et deux avec ses griffes.\n**Morceaux.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 17 (2d12 + 4) dégâts perforants plus 11 (2d10) dégâts de force.\n**Griffes.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants plus 11 (2d10) dégâts de force, et la cible est agrippé (évasion DD 16) si c'est une créature. L'annulateur a deux griffes, chacune pouvant battre une créature.",
+ "attacks": [
+  {
+   "name": "Morceaux",
+   "bonus": 8,
+   "damage": "2d12+4",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/3c6cccbaf4_monstre-aeorian-nullifier.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "SAG +6, CHA +8",
+ "skills": "Perception +6, Survie +6",
+ "immunities": "nécrotique, radiant",
+ "reactions": "**Contre-orpilleurs.** L'annulateur tente d'interrompre une créature qu'il peut voir à l'intérieur de 18 m dans le processus de lancer un sort. Si la créature jette un sort de de niveau 3 ou plus bas, son sort échoue et n'a aucun effet. S'il lance un sort de de niveau 4 ou plus, l'annulation rend un test de Charisme avec un DD égal à 10 + niveau du sort. Sur un succès, le sort de la créature échoue et n'a aucun effet."
+}

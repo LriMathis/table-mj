@@ -1,0 +1,45 @@
+{
+ "id": "cannith-artificer",
+ "name": "Cannith Artificer",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 14",
+ "languages": "Commun plus deux autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'artifice fait deux attaques, en utilisant Battering Mace ou Artillery Strike dans n'importe quelle combinaison.\n**Mace de battement.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 14 (3d6 + 4) dégâts contondants, et si la cible est une créature grande ou plus petite, elle a l'état à terre.\n**Grève d'artillerie.** Jet d'attaque à distance : +6, portée 36 m. Touché : 22 (4d8 + 4) dégâts de force.\n**Détection orthographique.** L'artiste lance l'un des sorts suivants, en utilisant ses Outils Tinker comme un Arcane Focus et en utilisant Intelligence comme caractéristique d'incantation (Spell save DD 14) :\n- À volonté : Mains brûlantes (version de niveau 3), Réparation, Vague tonnante (version de niveau 3)\n- 1/jour chacun : Soins, Invisibilité",
+ "attacks": [
+  {
+   "name": "Mace de battement",
+   "bonus": 6,
+   "damage": "3d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Grève d'artillerie",
+   "bonus": 6,
+   "damage": "4d8+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/3afdf917fa_monstre-cannith-artificer.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "saves": "CON +4, INT +6",
+ "skills": "Arcanes +6, Perception +4, Escamotage +3"
+}

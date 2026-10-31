@@ -1,0 +1,41 @@
+{
+ "id": "guenaude-nocturne",
+ "name": "Guenaude nocturne",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "skills": "Discrétion +5, Intuition +5, Perception +5, Tromperie +6",
+ "resistances": "feu, froid",
+ "conditionImmunities": "charmé",
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "abyssal, commun, infernal, primordial",
+ "traits": "**Magie d’assemblée.** Tant qu’elle se trouve dans un rayon de 9 m d’au moins deux alliées guenaudes, la guenaude peut lancer l’un des sorts suivants sans composantes matérielles, avec le temps d’incantation normal, l’Intelligence étant sa caractéristique d’incantation (DD de sauvegarde 14) : *appel de familier*, *augure*, *identification*, *localisation d’objet*, *scrutation*, *serviteur invisible*. La guenaude doit terminer un Repos long avant de pouvoir relancer ce sort par ce trait.\n**Résistance à la magie.** La guenaude a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Sac des âmes.** La guenaude possède un sac des âmes. Tant qu’elle brandit ou porte ce sac, la guenaude peut recourir à l’action Cauchemars accablants.\nLe profil du sac est le suivant : CA 15, 20 Pv et Résistance à tous les dégâts. Le sac tombe en poussière s’il est réduit à 0 point de vie. Si le sac est détruit, les âmes qu’il contenait sont libérées. Il faut 7 jours à la guenaude pour créer un nouveau sac.",
+ "actionsText": "**Attaques multiples.** La guenaude effectue deux attaques de Griffe.\n**Griffe.** Corps à corps : +7, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Cauchemars accablants (1/jour ; sac des âmes requis).** Alors qu’elle se trouve sur le Plan Éthéré, la guenaude lance *songe* avec la même caractéristique d’incantation que pour Incantation. Seule la guenaude peut faire office de messager du sort, et la cible doit être une créature que la guenaude voit sur le Plan Matériel. Le sort échoue et il est gaspillé si la cible est sous l’effet du sort *protection contre le mal et le bien* ou dans la zone du sort *cercle magique*.\nSi le sort *songe* inflige des dégâts à la cible, le maximum de points de vie de celle-ci est réduit d’un montant égal aux dégâts subis. Si le sort tue la cible, son âme se retrouve piégée dans le sac des âmes de la guenaude, et la cible ne peut pas revenir à la vie tant que son âme n’a pas été libérée.\n**Incantation.** La guenaude lance l’un des sorts suivants, sans composantes matérielles, l’Intelligence étant sa caractéristique d’incantation (DD de sauvegarde 14) :\n- À volonté : *détection de la magie*, *forme éthérée*, *projectile magique* (au 4e niveau)\n- 2/jour chacun : *assassin imaginaire*, *changement de plan* (soi-même uniquement)",
+ "bonusActions": "**Changement d’aspect.** La guenaude se transforme en Humanoïde de taille P ou M, ou bien retrouve sa forme véritable. Hormis sa catégorie de taille, son profil reste le même, quelle que soit sa forme. Rien de ce qu’elle porte n’est transformé.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/5ade2090df_monstre-guenaude-nocturne.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 177"
+}

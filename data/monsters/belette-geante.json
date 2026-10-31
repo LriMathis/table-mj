@@ -1,0 +1,38 @@
+{
+ "id": "belette-geante",
+ "name": "Belette géante",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 13,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 17,
+  "CON": 10,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "skills": "Acrobaties +5, Discrétion +5, Perception +3",
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5716966363_monstre-belette-geante.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "alcool-dryade",
+ "name": "Dryad Spirit",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 58,
+ "hpFormula": "13d8",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, elfique",
+ "traits": "**Détecter la vie.** Le dryad peut par magie sentir la présence de créatures vivantes jusqu'à 7,5 km loin qui ne sont ni mortes ni construites. Elle connaît la direction générale dans laquelle ils sont, mais pas leur localisation exacte.\n**Mouvement intégré.** Le dryad peut se déplacer à travers d'autres créatures et objets comme s'ils avaient 3. Elle prend 5 (1d10) dégâts de force si elle termine son tour à l'intérieur d'un objet.",
+ "actionsText": "**Perturbation du toucher.** Attaque de sort au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 12 (3d6 + 2) dégâts nécrotiques.\n**Visage horrifiant.** Chaque créature non morte au sein de 18 m de l'aqueduc qui peut la voir doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. Une cible effrayé peut répéter le jet de sauvegarde à la fin de chacun de ses tours, avec un désavantage si le dryad est dans la ligne de vue, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une cible est réussi ou si l'effet se termine pour elle, la cible est immunisée contre le Visage Horrifiant du dryad pendant les 24 prochaines heures.\n**Voile (1/jour).** Le dryad libère une lamentable lamentation, à condition qu'elle ne soit pas au soleil. Cette lamentation n'a aucun effet sur les constructions et non-morts. Toutes les autres créatures au sein de 9 m d'elle qui peuvent l'entendre doivent faire un DD 13 jet de sauvegarde de Constitution. Sur un échec, une créature tombe à 0 points de vie. Sur un succès, une créature prend 10 (3d6) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Perturbation du toucher",
+   "bonus": 4,
+   "damage": "3d6+2",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/7d7a3e4ae2_monstre-alcool-dryade.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Alcool dryade",
+ "saves": "SAG +2, CHA +5",
+ "resistances": "acide, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

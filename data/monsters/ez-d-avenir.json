@@ -1,0 +1,47 @@
+{
+ "id": "ez-d-avenir",
+ "name": "Ez d'Avenir",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 120,
+ "hpFormula": "16d8+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 19,
+  "CON": 16,
+  "INT": 18,
+  "SAG": 11,
+  "CHA": 17
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, elfique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Ez fait trois attaques, en utilisant Hunter's Blade ou Fiery Bolt dans n'importe quelle combinaison.\n**Lame de chasse.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts perforants plus 11 (2d10) dégâts radiants.\n**Bouillon de feu.** Jet d'attaque à distance : +7, portée 36 m. Touché : 19 (3d10 + 3) dégâts de feu.\n**Détection orthographique.** Ez lance l'un des sorts suivants, ne nécessitant aucun composant de matériau et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Lumière, Main de mage\n- 1/jour chacun : Dissipation du mal et du bien, Éclair, Cercle magique",
+ "attacks": [
+  {
+   "name": "Lame de chasse",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Bouillon de feu",
+   "bonus": 7,
+   "damage": "3d10+3",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/f039ee9564_monstre-ez-d-avenir.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "DEX +7, SAG +3",
+ "skills": "Acrobaties +7, Tromperie +6, Perception +3, Discrétion +7, Survie +3",
+ "bonusActions": "**Les alliés de Bolster.** Ez choisit jusqu'à six alliés dans 18 m. Chaque cible qui peut l'entendre a le choix d'Ez (A) Avantage sur le prochain jet d'attaque il fait avant la fin de son prochain tour ou (B) Résistance à acide, nécrotique, et dégâts de poison jusqu'à la fin de son prochain tour.\n**Malédiction de l'œil à tous les yeux (1/jour).** Ez choisit un type de dégâts. Jet de sauvegarde de Sagesse : DD 15, une cible dans 9 m qu'Ez peut voir. La cible est maudite. Jusqu'à la fin de la malédiction, la cible a la vulnérabilité au type de dégâts choisi. La malédiction se termine tôt si Ez recourt à cette action.\nSi la cible tombe à 0 points de vie avant la fin de la malédiction, Ez peut prendre un action bonus à un tour ultérieur pour maudire une nouvelle créature.\n**Rallye Inspirant.** Ez choisit jusqu'à six alliés au sein de 18 m. Chaque cible qui peut l'entendre peut prendre une réaction pour passer à sa vitesse sans provoquer Opportunity Attacks.",
+ "reactions": "**Bouclier (3/jour).** Ez lance Bouclier en réponse au déclencheur de ce sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Bouclier"
+}

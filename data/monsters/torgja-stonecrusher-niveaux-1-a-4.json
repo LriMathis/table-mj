@@ -1,0 +1,45 @@
+{
+ "id": "torgja-stonecrusher-niveaux-1-a-4",
+ "name": "Torgja Stonecrusher (Levels 1-4)",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Scimitar.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts tranchants.\n**Acrobatie légère.** Attaque d'arme à distance : +3 au toucher, portée 24/96 m., une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/bfe16ca63e_monstre-torgja-stonecrusher-niveaux-1-a-4.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "aka": "Torgja Stonecrusher (niveaux 1 à 4)",
+ "caNote": "Armure en cuir"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "gibberling",
+ "name": "Gibberling",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "7,50 m, creusement 1,50 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Sensibilité à la lumière.** Alors que dans la lumière vive, les gibberlings ont un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui comptent sur la vue.\n**Sans déconner.** Au début de son tour, le gibberling peut gagner un avantage sur toutes les armes à melee jets d'attaque pendant ce tour, mais jets d'attaque contre elle a un avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Swarm.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 10). Tous les gabblings dans 1,50 m de la cible peuvent utiliser une réaction pour faire une attaque Dagger avec avantage sur la jet d'attaque.\n**Burrow.** Le gibberling se creuse dans la saleté, se donnant l'état à terre. Il a un avantage sur tests de Dextérité (Discrétion) alors qu'il est à terre.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Swarm",
+   "bonus": 4,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/725dba5814_monstre-gibberling.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "skills": "Discrétion +4",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé, effrayé"
+}

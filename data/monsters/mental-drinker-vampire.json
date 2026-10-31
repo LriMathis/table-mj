@@ -1,0 +1,47 @@
+{
+ "id": "mental-drinker-vampire",
+ "name": "Mind Drinker Vampire",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 55,
+ "hpFormula": "10d8+10",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Vols d'ombre.** Dans la lumière sombre ou sombre, le vampire peut prendre l'action Se cacher comme un action bonus.\n**Sensibilité à la lumière du soleil.** Alors qu'au soleil, le vampire a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui comptent sur la vue.\n**La diffusion de l'orthographe innée (Psioniques).** Le caractéristique d'incantation inné du vampire est Intelligence (sorption sauver DD 14). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Message\n- 1/jour chacun : Forme gazeuse, Image majeure\n- 3/jour chacun : Charme-personne, Immobilisation de personne, Image miroir, Sommeil",
+ "actionsText": "**Multiattaques.** Le vampire fait deux attaques, dont une seule peut être une attaque mordue.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature volontaire, ou une créature qui est agrippé par le vampire, neutralisé, ou entravé. Touché : 7 (1d6 + 4) dégâts perforants plus 7 (2d6) dégâts nécrotiques. Le maximum de points de vie de la cible est réduit d'un montant égal au dégâts nécrotiques pris, et le vampire retrouve le points de vie égal à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants. Le vampire peut aussi frapper la cible (évasion DD 13) si c'est une créature et le vampire a une main libre.\n**Siphon mental (Recharge 5-6).** Le vampire cible une créature qu'il peut voir à l'intérieur de 9 m. La cible doit faire un DD 14 jet de sauvegarde d'Intelligence, avec un désavantage si le vampire a déjà consommé le sang de la cible. Sur une sauvegarde ratée, la cible prend 28 (8d6) dégâts psychiques, et le vampire discerne les émotions et les pensées de la cible à la surface. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts, et le vampire discerne l'état émotionnel général de la cible, mais pas ses pensées.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "frappe à mains nues",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/72f862aa92_monstre-mental-drinker-vampire.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Mental Drinker vampire",
+ "saves": "DEX +6, INT +6, SAG +3",
+ "skills": "Tromperie +4, Perspicacité +3, Perception +3, Discrétion +6",
+ "resistances": "nécrotique"
+}

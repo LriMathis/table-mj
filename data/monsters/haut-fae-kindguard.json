@@ -1,0 +1,44 @@
+{
+ "id": "haut-fae-kindguard",
+ "name": "High Fae Kindguard",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 156,
+ "hpFormula": "24d8+48",
+ "vitesse": "12 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 22,
+  "DEX": 23,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 17,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "commun, sylvestre",
+ "traits": "**Évasion.** Si le fé est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde et seulement la moitié des dégâts s'il échoue, à condition qu'il n'ait pas l'état neutralisé.\n**Résistance magique.** La haute fae a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** La haute fae fait deux attaques de Fae Claymore et utilise Tripping Feint.\n**Fae Claymore.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 20 (4d6 + 6) dégâts de force, et la vitesse de la cible est réduite de 3 m, à une vitesse minimale de 1,50 m. La réduction dure jusqu'au début du prochain tour des fae.\n**Fruits de trébuchage.** La fée haute cible une créature grande ou plus petite qu'elle peut voir en elle-même. La cible doit réussir sur un DD 18 jet de sauvegarde de Dextérité ou avoir l'état à terre.",
+ "attacks": [
+  {
+   "name": "Fae Claymore",
+   "bonus": 10,
+   "damage": "4d6+6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/539bba878f_monstre-haut-fae-kindguard.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Haut Fae Kindguard",
+ "caNote": "armure naturelle",
+ "saves": "FOR +10, DEX +10",
+ "skills": "Acrobaties +10, Athlétisme +10, Perception +7",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "bonusActions": "**Vol de dérapage.** La haute fae se déplace à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités.",
+ "reactions": "**Parry et Riposte.** La fae haute ajoute 4 à sa CA contre une melee jet d'attaque qui la frapperait, à condition qu'elle puisse voir l'attaquant. Après l'attaque frappe ou manque, la fée élevée fait alors une attaque Fae Claymore contre l'attaquant."
+}

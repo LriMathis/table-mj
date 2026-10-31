@@ -1,0 +1,45 @@
+{
+ "id": "uthgardt-tete-de-barbare",
+ "name": "Uthgardt Barbarian Leader",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 15,
+  "CON": 17,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Perception passive 10",
+ "languages": "Les deux, commun, elfique",
+ "traits": "**Sans déconner.** Au début de son tour, le barbare peut gagner de l'avantage sur toute l'arme de mêlée jets d'attaque pendant ce tour, mais jets d'attaque contre lui a avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Grandaxe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d12 + 3) dégâts tranchants.\n**Oathbow.** Attaque d'arme à distance : +5 au toucher, portée 45/180 m., une cible. Touché : 7 (1d8 + 3) dégâts perforants, plus un 10 (3d6) dégâts perforants supplémentaire contre un ennemi juré Voir l'entrée Arc du serment pour les autres propriétés.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Oathbow",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5b5722a380_monstre-uthgardt-tete-de-barbare.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Uthgardt tête de barbare",
+ "caNote": "Cache l'armure"
+}

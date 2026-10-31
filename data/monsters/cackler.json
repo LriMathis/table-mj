@@ -1,0 +1,48 @@
+{
+ "id": "cackler",
+ "name": "Cackler",
+ "type": "Fiélon (démon)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "hp": 10,
+ "hpFormula": "3d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 11,
+  "SAG": 7,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "abyssal, commun",
+ "traits": "**Dernier rire.** Quand le cackler meurt, il libère un rire mourant qui fait des cicatrices dans l'esprit d'autres créatures voisines. Chaque créature de 3 m du cackler doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou prendre 2 (1d4) dégâts psychiques.\n**Mimétisme.** Le cackler peut imiter tous les sons qu'il a entendus, y compris les voix. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 11 test de Sagesse (Perspicacité).\n**Découpe intérieure.** Le caractéristique d'incantation inné du cackler est Charisme (save spell DD 11, +3 au toucher avec attaques de sort). Le cackler peut lancer innéement les sorts suivants, ne nécessitant pas de composants matériels:\n- À volonté : Trait de feu\n- 1/jour : Fou rire de Tasha",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants.\n**Chaîne épilée.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Chaîne épilée",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/460ada89a8_monstre-cackler.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +3, Perception +0, Représentation +3",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

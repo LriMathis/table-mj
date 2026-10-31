@@ -1,0 +1,50 @@
+{
+ "id": "centaure-momie",
+ "name": "Centaur Mummy",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 13,
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, sylvestre",
+ "traits": "**Frais.** Si la momie centaure se déplace au moins 6 m droit vers une cible et la frappe avec une attaque de brochet au même tour, la cible prend un 10 (3d6) dégâts perforants supplémentaire.",
+ "actionsText": "**Multiattaques.** La momie centaure fait deux attaques à la mêlée, l'une avec son brochet et l'autre avec ses sabots, ou elle attaque avec son brochet et utilise le Dreadful Glare.\n**Poire.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 10 (1d10 + 5) dégâts perforants.\n**Des voyous.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants plus 10 (3d6) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être maudite avec la pourriture momie. La cible maudite ne peut pas récupérer points de vie, et son maximum de points de vie diminue de 10 (3d6) toutes les 24 heures qui s'écoulent. Si la malédiction réduit le maximum de points de vie à 0, la cible meurt, et son corps se transforme en poussière. La malédiction dure jusqu'à ce qu'elle soit enlevée par le sort Délivrance des malédictions ou une magie similaire.\n**C'est terrible..** La momie centaure cible une créature qu'elle peut voir à l'intérieur de 18 m. Si la cible peut voir la momie, la cible doit réussir sur un DD 12 jet de sauvegarde de Sagesse contre cette magie ou devenir effrayé jusqu'à la fin du prochain tour de la momie. Si la cible échoue le jet de sauvegarde par 5 ou plus, elle est également paralysé pour la même durée. Une cible qui réussit sur le jet de sauvegarde est à l'abri de l'épouvantable glare de toutes les momies (mais pas les seigneurs de la momie) pendant les 24 heures suivantes.",
+ "attacks": [
+  {
+   "name": "Poire",
+   "bonus": 8,
+   "damage": "1d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Des voyous",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/669adbf12d_monstre-centaure-momie.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Centaure momie",
+ "caNote": "armure naturelle",
+ "saves": "SAG +5",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné"
+}

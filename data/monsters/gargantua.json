@@ -1,0 +1,49 @@
+{
+ "id": "gargantua",
+ "name": "Gargantua",
+ "type": "Aberration",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique neutre",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 17,
+ "hp": 388,
+ "hpFormula": "21d20+168",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 26,
+  "INT": 9,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "géant",
+ "traits": "**Aura bizarre.** Au début de chacun des tours de la gargantua, chaque créature du choix de la gargantua dans 9 m de celle-ci doit faire un DD 19 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, une cible voit la gargantua comme une manifestation des pires craintes de la cible; elle prend 17 (5d6) dégâts psychiques et a l'état effrayé jusqu'au prochain tour de la cible. Sur une sauvegarde réussie, une cible est à l'abri de cette gargantua de l'aura bizarre pendant 24 heures.",
+ "actionsText": "**Multiattaques.** La gargantua fait deux attaques de Slam ou de Rock.\n**Clamer.** Attaque d'arme au corps à corps : +15 au toucher, allonge 6 m, une cible. Touché : 27 (3d12 + 8) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +15 au toucher, portée 36/144 m., une cible. Touché : 24 (3d10 + 8) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 15,
+   "damage": "3d12+8",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 15,
+   "damage": "3d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c02b89c1fb_monstre-gargantua.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, INT +6, SAG +10",
+ "resistances": "force, psychique",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Hex chauve.** Le gargantua maudit une créature il peut voir en lui-même 36 m. La cible doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou avoir l'état neutralisé jusqu'à la fin de son prochain tour.\n**Téléportation.** Le port de gargantua se téléporte, avec tout équipement qu'il porte ou transporte, dans un espace inoccupé qu'il peut voir en lui-même.",
+ "reactions": "**Flick.** Immédiatement après que la gargantua a pris des dégâts d'une créature grande ou plus petite qu'elle peut voir en 6 m de lui-même, elle essaie de la faire disparaître. La cible doit réussir sur une DD 23 jet de sauvegarde de Force, ou la cible prend 18 (3d6 + 8) dégâts contondants, est poussée horizontalement jusqu'à 30 m loin de la gargantua, et a l'état à terre.\n**Mimétisme orthographique (1/jour).** Immédiatement après qu'une créature la gargantua peut voir jette un sort de de niveau 5 ou inférieur, la gargantua essaie de copier le sort. Cette créature doit réussir sur un DD 19 jet de sauvegarde de Charisme, ou la gargantua lance immédiatement le même sort au même niveau (+11 au toucher avec attaques de sort, sort sauvegardez DD 19), ne nécessitant aucun composant matériel et choisissant les cibles du sort."
+}

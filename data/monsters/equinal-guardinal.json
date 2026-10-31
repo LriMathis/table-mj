@@ -1,0 +1,48 @@
+{
+ "id": "equinal-guardinal",
+ "name": "Equinal Guardinal",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre bon",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 15,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Perception passive 15",
+ "languages": "céleste, commun",
+ "traits": "**Première charge.** Si l'équine se déplace au moins 9 m en ligne droite vers une créature et se termine à l'intérieur de 1,50 m de celle-ci, cette créature doit réussir sur un DD 17 jet de sauvegarde de Force ou prendre 14 (4d6) dégâts contondants et avoir l'état à terre.",
+ "actionsText": "**Multiattaques.** L'équinal fait deux attaques Fist.\n**Fist.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts contondants plus 3 (1d6) dégâts radiants.\n**Roche.** Attaque d'arme à distance : +9 au toucher, portée 18/54 m., une cible. Touché : 22 (3d10 + 6) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 17 jet de sauvegarde de Force ou avoir l'état à terre.\n**Découpe (Recharge 6).** L'équine laisse sortir un cri enflammé. Chaque créature de 9 m de l'équine doit réussir sur un DD 14 jet de sauvegarde de Constitution ou avoir l'état étourdi jusqu'à la fin du prochain tour de l'équine.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 9,
+   "damage": "2d6+6",
+   "type": "contondant + radiant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 9,
+   "damage": "3d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/eb89afa7e2_monstre-equinal-guardinal.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +9, CON +6",
+ "skills": "Athlétisme +9, Perception +5, Religion +5",
+ "resistances": "radiant",
+ "conditionImmunities": "charmé, effrayé"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "gobelin-chef-archer",
+ "name": "Goblin Boss Archer",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 17,
+ "hp": 21,
+ "hpFormula": "6d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, gobelin",
+ "traits": "**Échappement de Nimble.** Le goblin peut prendre l'action Se désengager ou Se cacher en action bonus sur chacun de ses tours.",
+ "actionsText": "**Multiattaques.** Le goblin fait deux attaques avec son scimitar. La deuxième attaque a un désavantage.\n**Scimitar.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.\n**Saubèche.** Attaque d'arme à distance : +4 au toucher, portée 24 m / 96 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2d8b51fe3d_monstre-gobelin-chef-archer.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Gobelin, chef Archer",
+ "caNote": "Chemise chaîne, Bouclier",
+ "skills": "Discrétion +6",
+ "reactions": "**Réorienter l'attaque.** Lorsqu'une créature peut voir une cible avec une attaque, le goblin choisit un autre goblin à l'intérieur de 1,50 m. Les deux gobelins échangent des places, et le gobelin choisi devient la cible à la place."
+}

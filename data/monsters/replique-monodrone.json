@@ -1,0 +1,45 @@
+{
+ "id": "replique-monodrone",
+ "name": "Replica Monodrone",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 15,
+ "hp": 5,
+ "hpFormula": "1d8+1",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "Modron, peut comprendre Commun mais ne parle que des réponses préprogrammées",
+ "traits": "**Esprit axiomatique.** Le monodrone ne peut être contraint d'agir d'une manière contraire à sa nature ou à ses instructions.\n**Démantèlement.** Si la réplique de monodrone meurt, son corps tombe dans un tas de parties (géres, plaques, vis et fils), laissant derrière ses armes et tout ce qu'il transportait.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +2 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 3 (1d6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f21e92e0c5_monstre-replique-monodrone.webp",
+ "notes": "",
+ "source": "The Orrery of the Wanderer (5e.tools, traduction automatique)",
+ "aka": "Réplique monodrone",
+ "caNote": "armure naturelle"
+}

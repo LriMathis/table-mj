@@ -1,0 +1,48 @@
+{
+ "id": "venomfang",
+ "name": "Venomfang",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 17",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Venomfang peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Venomfang fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.\n**poison Respiration (Recharge 5-6).** Venomfang exhale du gaz toxique dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Constitution, en prenant 42 (12d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/72bb4e5244_monstre-venomfang.webp",
+ "notes": "",
+ "source": "Lost Mine of Phandelver (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +6, SAG +4, CHA +5",
+ "skills": "Tromperie +5, Perception +7, Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

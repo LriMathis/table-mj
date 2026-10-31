@@ -1,0 +1,56 @@
+{
+ "id": "orcus",
+ "name": "Orcus",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "26",
+ "xp": 90000,
+ "ca": 17,
+ "hp": 405,
+ "hpFormula": "30d12+210",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 25,
+  "INT": 20,
+  "SAG": 20,
+  "CHA": 25
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 22",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Orcus échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Orcus a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Maître de l'indécès.** Orcus peut lancer Animation des morts (à volonté) et Création de mort-vivant (3/jour). Il choisit le niveau auquel les sorts sont jetés, et les créatures créées par eux restent indéfiniment sous son contrôle. En outre, il peut lancer Création de mort-vivant même quand il n'est pas la nuit.\n**Matériel spécial.** L'orque fait tourner le Baguette d'Orcus.",
+ "actionsText": "**Multiattaques.** Orcus fait trois attaques de baguette d'Orcus, Tail ou nécrotique Bolt.\n**Laine d'Orcus.** Attaque d'arme au corps à corps : +19 au toucher, allonge 3 m, une cible. Touché : 24 (3d8 + 11) dégâts contondants plus 13 (2d12) dégâts nécrotiques.\n**Queue.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts de force plus 9 (2d8) dégâts de poison.\n**nécrotique Bolt.** Attaque de sort à distance : +15 au toucher, portée 36 m, une cible. Touché : 29 (5d8 + 7) dégâts nécrotiques.\n**Conjurer les morts-vivants (1/jour).** En tenant le Baguette d'Orcus, Orcus conjure type=undead dont la moyenne combinée points de vie ne dépasse pas 500. Ces créatures se lèvent magiquement du sol ou se forment dans des espaces inoccupés au sein de 90 m d'Orcus et obéissent à ses commandements jusqu'à ce qu'ils soient détruits ou jusqu'à ce qu'il les rejette comme une action.\n**Détection orthographique.** Orcus lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 23) :\n- À volonté : Détection de la magie\n- 1/jour : Arrêt du temps\n- 3/jour : Dissipation de la magie\n**Détection de l'orthographe.** Tout en tenant le Baguette d'Orcus, Orcus lance l'un des sorts suivants (spell save DD 18), dont certains nécessitent des charges ; la baguette a 7 charges pour alimenter ces sorts, et il reprend les charges 1d4 + 3 chaque jour à l'aube :\n- À volonté : Animation des morts (en tant qu'action), Flétrissement, Communication avec les morts",
+ "attacks": [
+  {
+   "name": "Laine d'Orcus",
+   "bonus": 19,
+   "damage": "3d8+11",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Queue",
+   "bonus": 16,
+   "damage": "3d8+8",
+   "type": "force + poison"
+  },
+  {
+   "name": "nécrotique Bolt",
+   "bonus": 15,
+   "damage": "5d8+7",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/3ac1775753_monstre-orcus.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +10, CON +15, SAG +13",
+ "skills": "Arcanes +13, Perception +13",
+ "resistances": "froid, feu, foudre",
+ "immunities": "nécrotique, poison, contondant, perforant, tranchant qui est non magique",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "legendary": "Orcus peut prendre 3 actions légendaires, en choisissant parmi les options ci-dessous. Seule une option d'action légendaire peut être utilisée à la fois et seulement à la fin du tour d'une autre créature. Orcus reprend des actions légendaires au début de son tour.\n**Attaque.** Orcus fait une attaque Tail ou nécrotique Bolt.\n**Décès en état d'ébriété (coûts 2 actions).** Orcus choisit un point sur le terrain qu'il peut voir au sein de 30 m de lui. Un cylindre d'énergie nécrotique tourbillonnante 18 m haut et avec un rayon 3 m se lève de ce point et dure jusqu'à la fin du prochain tour d'Orcus. Les créatures dans cette zone ont une vulnérabilité à dégâts nécrotiques."
+}

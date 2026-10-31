@@ -1,0 +1,41 @@
+{
+ "id": "rejeton-de-kyuss",
+ "name": "Spawn of Kyuss",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 10,
+ "hp": 76,
+ "hpFormula": "9d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "comprend les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "**Régénération.** La fraye de Kyuss reprend 10 points de vie au début de son tour si elle a au moins 1 points de vie et n'est pas au soleil ou dans un plan d'eau courante. Si le frai prend de l'acide, du feu ou du dégâts radiants, ce trait ne fonctionne pas au début du prochain tour du frai. Le frai est détruit seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Vers.** Si la fraie de Kyuss est ciblée par un effet qui guérit maladie ou élimine une malédiction, tous les vers l'infestant se fanent, et il perd son action de Secourage.\n**Nature inhabituelle.** La fraye de Kyuss n'a besoin ni d'air, ni de nourriture, ni de boisson, ni de sommeil.",
+ "actionsText": "**Multiattaques.** La fraye de Kyuss fait deux attaques de griffe, et il utilise le Worm de Burrowing.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants plus 7 (2d6) dégâts nécrotiques.\n**Vers de l'enterrement.** Un ver se lance de la fraie de Kyuss à un humanoïde que la fraie peut voir à l'intérieur de 3 m de lui. Le ver se verrouille sur la peau de la cible à moins que la cible ne réussisse sur un DD 11 jet de sauvegarde de Dextérité. Le ver est un Tiny Undead avec CA 6, 1 points de vie, un 2 (-4) dans chaque score de capacité, et une vitesse de 0,30 m. Sur la peau de la cible, le ver peut être tué par des moyens normaux ou gratté en utilisant une action (le frai peut utiliser le ver de Burrowing pour lancer un ver gratté à un Humanoïde qu'il peut voir à l'intérieur de 3 m du ver). Sinon, le ver s'enfonce sous la peau de la cible à la fin du prochain tour de la cible, lui envoyant 1 dégâts perforants. À la fin de chacun de ses tours par la suite, la cible prend 7 (2d6) dégâts nécrotiques par ver qui l'infeste (maximum de 10d6), et si elle tombe à 0 points de vie, elle meurt et monte ensuite 10 minutes plus tard comme un frayage de Kyuss. Si une cible infestée par un ver est ciblée par un effet qui guérit maladie ou élimine une malédiction, tous les vers l'infestent se flétrissent.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/f32efbe762_monstre-rejeton-de-kyuss.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Rejeton de Kyuss",
+ "saves": "SAG +1",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

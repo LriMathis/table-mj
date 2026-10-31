@@ -1,0 +1,41 @@
+{
+ "id": "fletrissement-totem-elemental",
+ "name": "Blight Totem Elemental",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 26,
+ "hpFormula": "4d8+4",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 8,
+  "CON": 14,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "commun",
+ "traits": "**Fausse apparence.** Alors que le totem de la brûlure reste immobile, il est indistinct à partir d'un enchevêtrement de vignes.",
+ "actionsText": "**Constriction.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 9 (2d6 + 2) dégâts contondants, et une cible grande ou plus petite est agrippé (évasion DD 12). Jusqu'à ce que ce grappin se termine, la cible est entravé, et le totem brumeux ne peut pas constricter une autre cible.\n**Plantes d'emboutissage (Recharge 5-6).** Les racines et les vignes germent dans un rayon de 4,50 m centré sur le totem de la brûlure, se flétrissant après 1 minute. Pour la durée, cette zone est de 3 pour les créatures non végétales. En outre, chaque créature du totem de brûlure dans cette zone lorsque les plantes apparaissent doit réussir sur un DD 12 jet de sauvegarde de Force ou devenir entravé. Une créature peut utiliser son action pour faire une DD 12 test de Force, se libérer ou une autre créature enchevêtrée à portée de main sur un succès.",
+ "attacks": [
+  {
+   "name": "Constriction",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3fccd303ac_monstre-fletrissement-totem-elemental.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "aka": "Flétrissement Totem Elemental",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +1",
+ "conditionImmunities": "aveuglé, assourdi"
+}

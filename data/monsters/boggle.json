@@ -1,0 +1,40 @@
+{
+ "id": "boggle",
+ "name": "Boggle",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 14,
+ "hp": 18,
+ "hpFormula": "4d6+4",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 18,
+  "CON": 13,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "sylvestre",
+ "traits": "",
+ "actionsText": "**Pummel.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d6 - 1) dégâts contondants.\n**Pâte à huile.** Le boggle crée une flaque d'huile non inflammable. La flaque est de 1 pouce de profondeur et couvre le sol dans l'espace de la borgne. La flaque est de 3 pour toutes les créatures sauf les borgnes et dure 1 heure. L'huile a l'un des effets supplémentaires suivants du choix du buggle:\n- **Huile de sliperie** Toute créature non-boggle qui entre dans la flaque ou commence son tour là-bas doit réussir sur un DD 11 jet de sauvegarde de Dextérité ou automne à terre.\n- **Huile collante** Toute créature non-bogue qui entre dans la flaque ou commence son tour là-bas doit réussir sur un DD 11 jet de sauvegarde de Force ou être entravé. À son tour, une créature peut utiliser une action pour essayer de s'extirper, mettant fin à l'effet et se déplaçant dans l'espace inoccupé le plus proche de son choix avec un DD 11 test de Force réussi.",
+ "attacks": [
+  {
+   "name": "Pummel",
+   "bonus": 1,
+   "damage": "1d6-1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/fe9edc0503_monstre-boggle.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "skills": "Perception +5, Escamotage +6, Discrétion +6",
+ "resistances": "feu",
+ "bonusActions": "**Huile de Boggle.** Le buggle excréte l'huile non inflammable de ses pores, se donnant l'un des avantages suivants de son choix jusqu'à ce qu'il utilise à nouveau ce action bonus:\n- **Huile de sliperie** Le boggle a un avantage sur tests de Dextérité (Acrobaties) fait pour échapper aux liens et aux grappins d'extrémité, et il peut se déplacer à travers des ouvertures assez grandes pour une créature minuscule sans serrer.\n- **Huile collante** Le boggle a un avantage sur tests de Force (Athlétisme) fait pour grappiller et tout test de caractéristique fait pour maintenir une cale sur une autre créature, une surface, ou un objet. Le boggle peut également grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Rift dimensionnel.** Le boggle crée un rocaillement invisible et immobile dans une ouverture ou un cadre qu'il peut voir dans 1,50 m à condition que l'espace ne soit pas plus grand que 3 m de quelque côté que ce soit. La faille dimensionnelle relie la distance entre cet espace et un point de 9 m de celui-ci que le boggle peut voir ou spécifier par la distance et la direction (comme « 9 m rectiligne »). Alors qu'à côté de la faille, le buggle peut voir à travers elle et est considéré comme à côté de la destination ainsi, et tout ce que le buggle met à travers la faille (y compris une partie de son corps) émerge à la destination. Seul le boggle peut utiliser la faille, et il dure jusqu'à la fin du prochain tour du boggle."
+}

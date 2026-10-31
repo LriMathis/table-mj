@@ -1,0 +1,37 @@
+{
+ "id": "vesper-main-gauche",
+ "name": "Vesper, la Main gauche",
+ "type": "Humanoïde (la Table) ✎",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 110,
+ "hpFormula": "17d8+34",
+ "vitesse": "12 m",
+ "size": 1,
+ "stats": {
+  "FOR": 10,
+  "DEX": 20,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "attacks": [
+  {
+   "name": "Rapière",
+   "bonus": 8,
+   "damage": "1d8+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Lame-carte (6/18 m)",
+   "bonus": 8,
+   "damage": "1d4+5",
+   "type": "tranchant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Trois attaques (rapière ou lames-cartes).\n**Attaque sournoise (1/tour).** +3d6 dégâts si elle a l'avantage, ou si un allié est à 1,50 m de la cible.\n**Ruse.** Action bonus : Foncer, Se désengager ou Se cacher.\n**Esquive instinctive (réaction).** Divise par deux les dégâts d'une attaque qu'elle voit.\n**Dérobade.** JS de Dextérité réussi : aucun dégât ; raté : moitié.\n**Résistance légendaire (1/jour).**\n**✎ Coupe le jeu (recharge 5-6).** Une volée de cartes dans un cône de 9 m : JS de Dextérité DD 15, 6d6 tranchant, moitié en cas de réussite.\n**✎ Sortie de table.** À 25 PV ou moins, elle tente de fuir, sauf si Lucan est menacé.",
+ "portrait": "/data/images/45612e8d14_monstre-bouffon-pale.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "menace-reduite-otyugh",
+ "name": "Reduced-Threat Otyugh",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 19,
+  "INT": 6,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "Otyugh",
+ "traits": "**Télépathie limitée.** L'otyugh peut par magie transmettre des messages et des images simples à n'importe quelle créature de 36 m qui peut comprendre un langage. Cette forme de télépathie ne permet pas à la créature réceptrice de répondre par télépathie.",
+ "actionsText": "**Multiattaques.** L'otyugh fait trois attaques : une avec sa morsure et deux avec ses tentacules.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution contre maladie ou devenir empoisonné jusqu'à ce que le maladie soit guéri. Toutes les 24 heures qui s'écoulent, la cible doit répéter le jet de sauvegarde, réduisant son maximum de points de vie de 5 (1d10) en cas de défaillance. La maladie est guérie sur un succès. La cible meurt si la maladie réduit sa maximum de points de vie à 0. Cette réduction par rapport au maximum de points de vie de la cible dure jusqu'à ce que le maladie soit guéri.\n**Tentacle.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants plus 4 (1d8) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "contondant + perforant"
+  }
+ ],
+ "portrait": "/data/images/30418a920e_monstre-menace-reduite-otyugh.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Menace réduite otyugh",
+ "caNote": "armure naturelle",
+ "saves": "CON +7"
+}

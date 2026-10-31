@@ -1,0 +1,41 @@
+{
+ "id": "enorme-golem-de-pierre",
+ "name": "Huge Stone Golem",
+ "type": "Créature artificielle",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 195,
+ "hpFormula": "17d12+85",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 9,
+  "CON": 20,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Formulaire immuable.** Le golem est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Résistance magique.** Le golem a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes du golem sont magiques.",
+ "actionsText": "**Multiattaques.** Le golem fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 19 (3d8 + 6) dégâts contondants.\n**Lent (Recharge 5-6).** Le golem cible une ou plusieurs créatures qu'il peut voir à l'intérieur de 3 m. Chaque cible doit faire un DD 17 jet de sauvegarde de Sagesse contre cette magie. Sur une sauvegarde ratée, une cible ne peut pas utiliser de réactions, sa vitesse est réduite de moitié, et elle ne peut pas faire plus d'une attaque à son tour. En outre, la cible peut prendre une action ou une action bonus à son tour, pas les deux. Ces effets durent 1 minute. Une cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 10,
+   "damage": "3d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/553c6d879c_monstre-enorme-golem-de-pierre.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Énorme golem de pierre",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "auspicia-dran",
+ "name": "Auspicia Dran",
+ "type": "Humanoïde (demi-elf)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, elfique",
+ "traits": "**La diffusion de l'orthographe innée (Psioniques).** Auspicia innate caractéristique d'incantation est Intelligence. Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Détection des pensées\n- 1/jour chacun : Augure",
+ "actionsText": "**Multiattaques.** Auspicia fait deux attaques.\n**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains.\n**Acrobatie légère.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/cdb3d00e71_monstre-auspicia-dran.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne",
+ "skills": "Athlétisme +5, Perception +3"
+}

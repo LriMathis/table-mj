@@ -1,0 +1,41 @@
+{
+ "id": "skabatha-nightshade",
+ "name": "Skabatha Nightshade",
+ "type": "Fée (guenaude)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 9,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 16",
+ "languages": "commun, elfique, infernal, sylvestre",
+ "traits": "**Bout de l'immortalité.** Skabatha est à l'abri de tout effet qui l'aurait vieillie, et elle ne peut pas mourir de vieillesse.\n**L'oubli.** La première créature que Skabatha voit après avoir fini un repos long est invisible pour elle. Elle ne se souvient pas avoir vu la créature ni l'avoir perçue en utilisant sa vision fidèle jusqu'à la fin de sa prochaine repos long.",
+ "actionsText": "**Multiattaques.** Skabatha fait deux attaques de la griffe.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 25 (6d6 + 4) dégâts de poison.\n**Détection orthographique.** Skabatha lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 14):\n- À volonté : Détection de la magie, Druidisme, Communication avec les animaux\n- 1/jour : Éveil (en tant qu'action), Changement de plan (autoseulement)\n- 2/jour chacun : Métamorphose, Délivrance des malédictions, Communication avec les plantes",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "6d6+4",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/61c44de20f_monstre-skabatha-nightshade.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +6, INT +4, SAG +6, CHA +5",
+ "skills": "Arcanes +7, Tromperie +5, Perception +6, Discrétion +2",
+ "bonusActions": "**Taille différente.** Skabatha se rétrécit magiquement à la taille minuscule (entre 4 et 8 pouces de haut) ou revient à sa taille normale. Si Skabatha manque de place pour revenir à sa taille normale, elle atteint la taille maximale possible dans l'espace disponible. Tout ce qu'elle porte change de taille avec elle.\nComme une créature minuscule, Skabatha traite 2 (1d4) dégâts de poison quand elle frappe avec une attaque de griffe. Elle a un avantage sur tests de Dextérité (Discrétion) et un désavantage sur tests de Force et jet de sauvegarde de Force. Ses statistiques restent inchangées."
+}

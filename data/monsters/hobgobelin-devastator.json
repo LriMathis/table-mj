@@ -1,0 +1,46 @@
+{
+ "id": "hobgobelin-devastator",
+ "name": "Hobgoblin Devastator",
+ "type": "Fée (gobelinoïde)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, gobelin",
+ "traits": "**Armée Arcana.** Lorsque le hoblogoblin jette un sort qui provoque des dégâts ou qui oblige d'autres créatures à faire un jet de sauvegarde, il peut choisir lui-même et n'importe quel nombre d'alliés pour être immunisé aux dégâts causés par le sort et pour réussir sur le jet de sauvegarde requis.",
+ "actionsText": "**Multiattaques.** Le hobgoblin fait deux quarts de personnel ou des attaques de Bolt Devastating.\n**Quarter staff.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants, ou 5 (1d8 + 1) dégâts contondants si utilisé avec deux mains, plus 13 (3d8) dégâts de force.\n**Dévastation du bolt.** Attaque de sort à distance : +5 au toucher, portée 18 m, une cible. Touché : 21 (4d8 + 3) dégâts de force, et la cible est à terre.\n**Détection orthographique.** Le hoblogoblin lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Main de mage, Prestidigitation\n- 2/jour chacun : Boule de feu, Vol, Nappe de brouillard, Bourrasque, Éclair",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant + force"
+  },
+  {
+   "name": "Dévastation du bolt",
+   "bonus": 5,
+   "damage": "4d8+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/7568043340_monstre-hobgobelin-devastator.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Hobgobelin Devastator",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Arcanes +5"
+}

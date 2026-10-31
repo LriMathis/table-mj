@@ -1,0 +1,43 @@
+{
+ "id": "spectral-nuage",
+ "name": "Spectral Cloud",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 11,
+ "hp": 189,
+ "hpFormula": "18d12+72",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 24,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 17,
+  "CHA": 16
+ },
+ "senses": "Perception passive 18",
+ "languages": "commun, géant",
+ "traits": "**Forme floue.** jets d'attaque contre le nuage spectral est fait avec désavantage à moins que l'attaquant soit à l'intérieur de 4,50 m du nuage spectral ou que le nuage spectral soit neutralisé.\n**Mouvement intégré.** Le nuage spectral peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.",
+ "actionsText": "**Multiattaques.** Le nuage spectral fait deux attaques Spectral Touch.\n**Touche spectrale.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 20 (3d8 + 7) dégâts de force plus 10 (3d6) dégâts nécrotiques. Si la cible est une créature, elle doit réussir sur un DD 20 jet de sauvegarde de Constitution ou son maximum de points de vie est réduit d'une quantité égale à la dégâts nécrotiques prise. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0.\nUn humanoïde tué par cette attaque s'élève immédiatement comme un nuage spectral miniature (utiliser le bloc de statistiques Spectre dans le Monster Manual). Le nuage spectral miniature agit comme un allié de son créateur mais n'est pas sous son contrôle.\n**Vents de refroidissement (Recharge 5-6).** Le nuage spectral émet un vent intensément froid dans une ligne 18 m large de 3 m. Chaque créature dans cette zone doit faire un DD 20 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 38 (7d10) dégâts de froid et a l'état neutralisé pendant 1 minute. La créature affectée peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.\nSi le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, cette créature est immunisée contre les vents froids de ce nuage spectral pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Touche spectrale",
+   "bonus": 12,
+   "damage": "3d8+7",
+   "type": "force + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/aad47fca62_monstre-spectral-nuage.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Spectral nuage",
+ "saves": "DEX +6, CHA +8",
+ "skills": "Perception +8",
+ "resistances": "froid, nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison, tonnerre",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

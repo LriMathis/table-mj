@@ -1,0 +1,46 @@
+{
+ "id": "arts-martiaux-zhent-adept",
+ "name": "Zhent Martial Arts Adept",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 49,
+ "hpFormula": "11d6+11",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, halfelin",
+ "traits": "**Défense non armée.** Bien que l'adepte ne porte pas d'armure et n'ait pas de bouclier, son CA comprend son modificateur Sagesse.\n**Matériel spécial.** L'adepte porte un Anneau Teleporter.",
+ "actionsText": "**Multiattaques.** L'adepte fait trois attaques frappes à mains nues ou trois fléchettes.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants. Si la cible est une créature, l'adepte peut choisir l'un des effets supplémentaires suivants:\n- La cible doit réussir sur un DD 13 jet de sauvegarde de Force ou laisser tomber un élément qu'elle détient (le choix de l'aide).\n- La cible doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou être à terre.\n- La cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin du prochain tour de l'adepte.\n**Débrouille-toi.** Attaque d'arme à distance : +5 au toucher, portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/04957a92c9_monstre-arts-martiaux-zhent-adept.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "aka": "Arts martiaux Zhent Adept",
+ "skills": "Acrobaties +5, Perspicacité +5, Discrétion +5",
+ "reactions": "**Missile défectueux.** En réponse à une attaque d'armes à grande échelle, l'adepte détourne le missile. Les dégâts qu'il prend de l'attaque sont réduits de 1d10 + 3. Si les dégâts sont réduits à 0, l'adepte capture le missile s'il est assez petit pour tenir dans une main et l'adepte a une main libre."
+}

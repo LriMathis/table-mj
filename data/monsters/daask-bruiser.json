@@ -1,0 +1,40 @@
+{
+ "id": "daask-bruiser",
+ "name": "Daask Bruiser",
+ "type": "Humanoïde (gnoll)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 17,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun, gnoll",
+ "traits": "**Frénésie sanguine.** Le contuseur a avantage sur jets d'attaque contre toute créature qui n'a pas tout son points de vie.",
+ "actionsText": "**Multiattaques.** Le brunisseur fait trois attaques de Pummel et utilise Glare.\n**Pummel.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 12 (2d6 + 5) dégâts contondants.\n**Éblouissement.** Jet de sauvegarde de Sagesse : DD 14, une créature le brunisseur peut voir dans 9 m. Échec : La cible a l'état effrayé jusqu'au début du prochain tour du brunisseur.",
+ "attacks": [
+  {
+   "name": "Pummel",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/839130581f_monstre-daask-bruiser.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "saves": "FOR +9, CON +7, SAG +5",
+ "skills": "Athlétisme +9, Intimidation +6, Perception +5",
+ "reactions": "**Retour en arrière.** Déclencheur : Le contuseur prend les dégâts d'une créature dans 1,50 m. Réponse : Le contuseur fait une attaque de Pummel, ciblant la créature qui déclenche."
+}

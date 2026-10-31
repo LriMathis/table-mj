@@ -1,0 +1,40 @@
+{
+ "id": "quandrix-pledgemage",
+ "name": "Quandrix Pledgemage",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 12",
+ "languages": "Commun plus deux langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le gage fait deux attaques de Lash.\n**Laisse exponentielle.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 6 (1d6 + 3) dégâts de force, et le gage peut faire en sorte qu'une créature peut voir dans 9 m de la cible prendre 10 (2d6 + 3) dégâts de force.\n**Détection orthographique.** Le gantage lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Assistance, Main de mage\n- 1/jour chacun : Porte dimensionnelle, Agrandissement/Rapetissement, Armure de mage, Croissance végétale",
+ "attacks": [
+  {
+   "name": "Laisse exponentielle",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/90b3d3128b_monstre-quandrix-pledgemage.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "saves": "INT +5, SAG +4",
+ "skills": "Arcanes +7, Investigation +7, Nature +5",
+ "bonusActions": "**Vortex Calculus (Recharge 4-6).** Les téléportages de gage, ainsi que tout équipement qu'il porte ou transporte, dans un espace inoccupé qu'il peut voir à l'intérieur de 18 m lui-même. Immédiatement après qu'il téléporte, chaque créature dans 6 m de l'espace qu'elle a laissé doit faire un DD 13 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 7 (2d6) dégâts de force et est déplacée 3 m dans une direction horizontale aléatoire. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas déplacée."
+}

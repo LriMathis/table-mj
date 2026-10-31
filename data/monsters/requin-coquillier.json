@@ -1,0 +1,41 @@
+{
+ "id": "requin-coquillier",
+ "name": "Shell Shark",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 18,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "0 m, nage 12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Frénésie sanguine.** Le requin a avantage sur melee jets d'attaque contre toute créature qui n'a pas tout son points de vie.\n**Résistance magique.** Le requin a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Respiration d'eau.** Le requin ne peut respirer que sous l'eau.",
+ "actionsText": "**Multiattaques.** Le requin fait deux attaques de morsure.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d10 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ec5015a3da_monstre-requin-coquillier.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Requin coquillier",
+ "caNote": "armure de plaque d'obus",
+ "saves": "FOR +6",
+ "skills": "Athlétisme +6"
+}

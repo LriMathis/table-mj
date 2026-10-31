@@ -1,0 +1,48 @@
+{
+ "id": "jeune-dragon-d-ombre-rouge",
+ "name": "Jeune dragon d'ombre rouge",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "caNote": "armure naturelle",
+ "hp": 178,
+ "hpFormula": "17d10+85",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 19
+ },
+ "saves": "DEX +4, CON +9, SAG +4, CHA +8",
+ "skills": "Discrétion +8, Perception +8",
+ "resistances": "nécrotiques",
+ "immunities": "feu",
+ "senses": "vision aveugle 9 m, vision dans le noir 36 m, Perception passive 18",
+ "languages": "commun, draconique",
+ "traits": "**Discrétion dans les ombres.** Tant qu'il se trouve dans une zone faiblement éclairée ou plongée dans l'obscurité totale, le dragon d'ombre peut effectuer l'action se cacher par une action bonus.\n**Ombre vivante.** Dans une lumière faible ou dans l'obscurité, le dragon bénéficie d'une résistance aux dégâts s'ils ne sont ni de force, ni psychiques, ni radiants.\n**Sensibilité à la lumière du soleil.** Le dragon d'ombre est désavantagé lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à la lumière du soleil.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morsure.** *Attaque d'arme au corps à corps :* +10 pour toucher, allonge 3 m, une cible. *Touché :* 17 (2d10+6) dégâts perforants plus 3 (1d6) dégâts nécrotiques.\n**Griffe.** *Attaque d'arme au corps à corps :* +10 pour toucher, allonge 1,50 m, une cible. *Touché :* 13 (2d6+6) dégâts tranchants.\n**Souffle d'ombre (recharge 5-6).** Le dragon souffle une ombre ardente sur un cône de 9 mètres. Les créatures dans ce cône doivent effectuer un jet de sauvegarde de Dextérité DD 18. Celles qui échouent subissent 56 (16d6) dégâts nécrotiques, les autres la moitié seulement. Si ces dégâts réduisent un humanoïde à 0 point de vie, il meurt et une ombre s'extrait de son cadavre. Elle agit immédiatement après le dragon lors du décompte de l'initiative et se trouve sous son contrôle.",
+ "portrait": "/data/images/963c014ba5_monstre-jeune-dragon-d-ombre-rouge.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 81 · image : Manuel des monstres p. 80",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 10,
+   "damage": "2d10+6+1d6",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  }
+ ]
+}

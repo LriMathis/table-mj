@@ -1,0 +1,39 @@
+{
+ "id": "gaj",
+ "name": "Gaj",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 75,
+ "hpFormula": "10d10+20",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "comprend toutes les langues mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le gaj fait une attaque de Mandibles et utilise Mind-Probing Antennae ou Paralyse (si disponible).\n**Obtention à partir de matières textiles.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 10 (2d6 + 3) dégâts tranchants, et la cible est agrippé (évasion DD 11). Jusqu'à la fin du grappin, la cible prend 10 (2d6 + 3) dégâts tranchants au début de chaque tour du gaj. Alors qu'il lutte contre une créature, le gaj ne peut pas utiliser ses mandibules pour attaquer d'autres créatures.\n**Antenne probatrice mentale.** Le gaj cible une créature agrippé par lui. La cible doit faire un DD 12 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la cible prend 16 (3d10) dégâts psychiques, et le gaj tire magiquement un morceau d'information de l'esprit de la cible que le gaj veut savoir. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts, et le gaj n'apprend rien.\n**Paralyser (Recharge 6).** Le gaj vise magiquement une créature qu'il peut voir en lui-même. La cible doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Obtention à partir de matières textiles",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/6927c634ca_monstre-gaj.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6, Discrétion +4"
+}

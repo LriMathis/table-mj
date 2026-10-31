@@ -1,0 +1,42 @@
+{
+ "id": "lynx-creatlach",
+ "name": "Lynx Creatlach",
+ "type": "Mort-vivant (tieffelin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, infernal",
+ "traits": "**Matériel spécial.** Lynx est un Boule de cristal magiquement éparpillé de vraies vues. L'une de ses dents est une Anneau de barrière mentale redessinée, tandis qu'une autre a été magique pour la placer sous un sort permanent Aura magique de Nystul, dissimulant la magie de ces objets et cachant sa vraie nature de magie ou de caractéristiques qui peuvent détecter des morts-vivants.\n**Aversion de feu.** Si Lynx prend dégâts de feu, elle a un désavantage sur jets d'attaque et tests de caractéristique jusqu'à la fin de son prochain tour.\n**Formulaire immuable.** Lynx est à l'abri de tout sort ou effet qui pourrait modifier sa forme.\n**foudre absorption.** Chaque fois que Lynx est soumise à dégâts de foudre, elle ne prend aucun dégâts et récupère plutôt un nombre de points de vie égal à la dégâts de foudre distribuée.\n**Résistance magique.** Lynx a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** Lynx retrouve 10 points de vie au début de son tour. Si elle prend feu ou dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Le corps de Lynx n'est détruit que si elle commence son tour avec 0 points de vie et ne se régénère pas.\n**Tourner l'immunité.** Lynx est immunisé contre les effets qui deviennent morts-vivants.",
+ "actionsText": "**Multiattaques.** Lynx fait deux attaques de mots courts.\n**Mot-clé.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6990032b65_monstre-lynx-creatlach.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "FOR +7, CON +7, SAG +6, CHA +7",
+ "resistances": "nécrotique, psychique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, étourdi"
+}

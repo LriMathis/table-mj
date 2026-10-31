@@ -1,0 +1,40 @@
+{
+ "id": "gargantuan-tapis-etrangleur",
+ "name": "Gargantuan Rug of Smothering",
+ "type": "Créature artificielle",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 63,
+ "hpFormula": "6d20",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 6",
+ "languages": "—",
+ "traits": "**Susceptibilité antimagique.** Le tapis est neutralisé alors que dans la zone d'un Champ antimagie. Si le tapis est ciblé par Dissipation de la magie, il doit réussir sur un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur ou tomber sur inconscient pendant 1 minute.\n**Transfert de dégâts.** Alors qu'il s'attaque à une créature, le tapis ne prend que la moitié des dégâts qui lui sont infligés, et la créature agrippé par le tapis prend l'autre moitié.\n**Fausse apparence.** Bien que le tapis reste immobile, il est indistinct d'un tapis normal.",
+ "actionsText": "**Mère.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature moyenne ou plus petite. Touché : La créature est agrippé (évasion DD 13). Jusqu'à ce que ce grappin se termine, la cible est entravé, aveuglé, et risque d'étouffer, et le tapis ne peut pas étouffer une autre cible. En outre, au début de chaque tour de la cible, la cible prend 10 (2d6 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Mère",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d94ef6803e_monstre-gargantuan-tapis-etrangleur.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Gargantuan tapis étrangleur",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, paralysé, pétrifié, empoisonné"
+}

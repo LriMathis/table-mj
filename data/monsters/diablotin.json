@@ -1,0 +1,41 @@
+{
+ "id": "diablotin",
+ "name": "Diablotin",
+ "type": "Fiélon",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 21,
+ "hpFormula": "6d4+6",
+ "vitesse": "6 m, vol 12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "skills": "Discrétion +5, Intuition +3, Tromperie +4",
+ "resistances": "froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "commun, infernal",
+ "traits": "**Résistance à la magie.** Le diablotin a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Dard.** Corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Changement d’aspect.** Le diablotin se métamorphose en prenant l’aspect d’un rat (Vitesse 6 m), d’un corbeau (6 m, vol 18 m) ou d’une araignée (6 m, escalade 6 m) ou reprend sa forme véritable. Son profil reste le même sous chaque forme, à l’exception de sa Vitesse. Rien de ce qu’il porte n’est transformé.\n**Invisibilité.** Le diablotin lance *invisibilité* sur lui-même, sans aucune composante, le Charisme étant sa caractéristique d’incantation.",
+ "attacks": [
+  {
+   "name": "Dard",
+   "bonus": 5,
+   "damage": "1d6+3+2d6",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/497587dc6f_monstre-diablotin.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 72"
+}

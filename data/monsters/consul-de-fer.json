@@ -1,0 +1,42 @@
+{
+ "id": "consul-de-fer",
+ "name": "Iron Consul",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun",
+ "traits": "**Discipline tactique.** Le Consul en fer a un avantage sur tous les tests de caractéristique et jet de sauvegarde fabriqués pendant le combat.",
+ "actionsText": "**Multiattaques.** Le consul de fer fait une attaque avec sa lance et peut utiliser sa capacité de la voix de commandement.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants, ou 7 (1d8 + 3) dégâts perforants lorsqu'il est utilisé avec deux mains pour faire une attaque de mêlée.\n**Voix de commandement.** Le consul de fer sélectionne jusqu'à deux alliés au sein de 27 m qui peuvent entendre ses commandes. Chaque allié peut immédiatement utiliser sa réaction pour faire une attaque de mêlée.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a0358e3614_monstre-consul-de-fer.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Consul de fer",
+ "caNote": "Courrier en chaîne",
+ "saves": "SAG +4",
+ "skills": "Intimidation +5, Perception +4",
+ "conditionImmunities": "effrayé"
+}

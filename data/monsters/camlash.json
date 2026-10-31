@@ -1,0 +1,48 @@
+{
+ "id": "camlash",
+ "name": "Camlash",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 19,
+ "hp": 325,
+ "hpFormula": "26d12+156",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 15,
+  "CON": 22,
+  "INT": 20,
+  "SAG": 16,
+  "CHA": 22
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 13",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Throès de la mort.** Camlash explose lorsqu'il est réduit à 0 points de vie, et chaque créature de 9 m de Camlash doit faire un DD 21 jet de sauvegarde de Dextérité, en prenant 70 (20d6) dégâts de feu sur un sauvegarde raté ou la moitié de ces dégâts sur un succès. L'explosion enflamme des objets inflammables dans cette zone qui ne sont ni portés ni transportés.\n**Résistance magique.** Camlash a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Aura d'araignée.** Camlash est entouré de minuscules araignées mordantes qui apparaissent magiquement et disparaissent de moment en moment. Au début de chaque tour de Camlash, chaque créature de 3 m de Camlash prend 10 (3d6) dégâts de poison et doit réussir sur un DD 21 jet de sauvegarde de Constitution ou avoir l'état paralysé jusqu'au prochain tour de Camlash.",
+ "actionsText": "**Multiattaques.** Camlash fait une attaque Flaming Whip et une attaque foudre Blade. Camlash peut remplacer une de ces attaques par Teleport.\n**Whip flamboyant.** Attaque d'arme au corps à corps : +15 au toucher, allonge 9 m, une cible. Touché : 25 (5d6 + 8) dégâts de feu, et si la cible est une créature, elle doit réussir sur un DD 21 jet de sauvegarde de Force ou être tiré jusqu'à 7,50 m vers Camlash.\n**Lame foudre.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts tranchants plus 13 (3d8) dégâts de foudre.\n**Téléportation.** Camlash téléporte magiquement, avec tout équipement qu'elle porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'elle peut voir.",
+ "attacks": [
+  {
+   "name": "Whip flamboyant",
+   "bonus": 15,
+   "damage": "5d6+8",
+   "type": "feu"
+  },
+  {
+   "name": "Lame foudre",
+   "bonus": 15,
+   "damage": "3d8+8",
+   "type": "tranchant + foudre"
+  }
+ ],
+ "portrait": "/data/images/f13dcf9bbb_monstre-camlash.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +14, CON +12, SAG +9, CHA +12",
+ "resistances": "froid, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

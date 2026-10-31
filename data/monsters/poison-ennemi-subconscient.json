@@ -1,0 +1,41 @@
+{
+ "id": "poison-ennemi-subconscient",
+ "name": "Poison Weird",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 58,
+ "hpFormula": "9d10+9",
+ "vitesse": "0 m, nage 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 10",
+ "languages": "comprend Aquan mais ne parle pas",
+ "traits": "**invisible dans l'eau.** L'étrange est invisible tout en étant complètement immergé dans un brassage toxique.\n**Brèves.** L'étrange meurt s'il est forcé de quitter le bassin de la bière toxique qu'il habite, ou si un sort Purification de nourriture et d'eau est jeté sur la bière.\n**Corps toxique.** Une créature prend 10 (3d6) dégâts de poison au début de chacun de ses tours tandis qu'agrippé par un poison bizarre.",
+ "actionsText": "**Constriction.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une créature. Touché : 13 (3d6 + 3) dégâts contondants. Si la cible est moyenne ou plus petite, c'est agrippé (évasion DD 13) et a tiré 1,50 m vers le poison bizarre. Jusqu'à ce que ce grappin finisse, la cible est entravé, le poison bizarre essaie de le noyer, et le poison bizarre ne peut pas constricter une autre cible.",
+ "attacks": [
+  {
+   "name": "Constriction",
+   "bonus": 5,
+   "damage": "3d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/37028f7180_monstre-poison-ennemi-subconscient.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Poison ennemi subconscient",
+ "resistances": "feu, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, empoisonné, entravé, à terre, inconscient"
+}

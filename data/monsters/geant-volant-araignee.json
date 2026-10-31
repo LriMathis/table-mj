@@ -1,0 +1,46 @@
+{
+ "id": "geant-volant-araignee",
+ "name": "Giant Flying Spider",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 26,
+ "hpFormula": "4d10+4",
+ "vitesse": "9 m, escalade 9 m, vol 12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Escalade des araignées.** L'araignée peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sens du Web.** En contact avec une toile, l'araignée connaît l'emplacement exact de toute autre créature en contact avec la même toile.\n**Web Walker.** L'araignée ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 7 (1d8 + 3) dégâts perforants, et la cible doit faire un DD 11 jet de sauvegarde de Constitution, en prenant 9 (2d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si la dégâts de poison réduit la cible à 0 points de vie, la cible est stable mais empoisonné pendant 1 heure, même après avoir récupéré points de vie, et est paralysé alors qu'empoisonné de cette façon.\n**Web (Recharge 5-6).** Attaque d'arme à distance : +5 au toucher, portée 9/18 m., une créature. Touché : La cible est entravé par webbing. En action, la cible entravé peut faire un DD 12 test de Force, éclater la webbing sur un succès. La sangle peut également être attaquée et détruite (CA 10; hp 5; vulnérabilité à dégâts de feu; immunité au bludgeon, poison et dégâts psychiques).",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Site Web 5",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/05e99cd994_monstre-geant-volant-araignee.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Géant volant araignée",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +7"
+}

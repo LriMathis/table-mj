@@ -1,0 +1,55 @@
+{
+ "id": "amortisseur-aeorian",
+ "name": "Aeorian Absorber",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 171,
+ "hpFormula": "18d10+72",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "comprend Draconic mais ne peut pas parler",
+ "traits": "**Résistance magique.** L'absorbeur a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Ponce.** Si l'absorbeur se déplace au moins directement vers une créature et frappe ensuite ses griffes attaque au même tour, cette cible doit réussir sur un DD 17 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, l'absorbeur peut faire une attaque de morsure contre elle sous forme d'action bonus.",
+ "actionsText": "**Multiattaques.** L'absorbeur fait trois attaques : une avec sa morsure ou son Mind Bolt et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature. Touché : 10 (1d10 + 5) dégâts perforants plus 5 (1d10) dégâts de force.\n**Griffes.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts tranchants plus 3 (1d6) dégâts de force.\n**Bougie mentale.** Attaque de sort à distance : +8 au toucher, portée 36 m, une créature. Touché : 22 (4d10) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "1d10+5",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "tranchant + force"
+  },
+  {
+   "name": "Bougie mentale",
+   "bonus": 8,
+   "damage": "4d10",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/5f9b4c3eec_monstre-amortisseur-aeorian.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Amortisseur Aeorian",
+ "caNote": "armure naturelle",
+ "saves": "SAG +6, CHA +3",
+ "skills": "Perception +6, Discrétion +8, Survie +6",
+ "immunities": "nécrotique, radiant",
+ "reactions": "**Rayon de queue.** Lorsque l'absorbeur prend des dégâts d'un sort, l'absorbeur prend seulement la moitié des dégâts déclencheurs. Si l'orthographe se trouve à l'intérieur de 18 m de l'absorbeur, l'absorbeur peut forcer la roulette à faire un DD 16 jet de sauvegarde de Dextérité. À moins que le sauvetage ne réussisse, le lanceur prend l'autre moitié des dégâts."
+}

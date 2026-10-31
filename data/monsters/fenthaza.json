@@ -1,0 +1,48 @@
+{
+ "id": "fenthaza",
+ "name": "Fenthaza",
+ "type": "Monstruosité (métamorphe, yuan-ti)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m (penetrates magical darkness), Perception passive 11",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Changeur de forme.** Fenthaza peut utiliser son action pour se polymorphiser en serpent moyen ou revenir dans sa forme véritable. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. S'il meurt, il reste dans sa forme actuelle.\n**Fangs de la mort (2/jour).** La première fois que Fenthaza frappe avec une attaque de melee à son tour, il peut fournir un 16 (3d10) dégâts nécrotiques supplémentaire à la cible.\n**Résistance magique.** Fenthaza a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Cartouches d'orthographe innées (Forme Yuan-ti seulement).** Le caractéristique d'incantation inné de Fenthaza est Charisme (spell save DD 13). Fenthaza peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Amitié avec les animaux (snakes seulement)\n- 3/jour : Suggestion\n**Diffusion de l'orthographe (Forme Yuan-ti seulement).** Fenthaza est un spellcaster de niveau 6. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Il retrouve sa emplacements de sort dépensée lorsqu'il termine une repos court ou long. Il connaît les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Contact glacial, Décharge occulte (portée 90 m, +3 bonus pour chaque jet de dégâts), Main de mage, Message, Bouffée de poison, Prestidigitation\n- Niveau 3 (2 emplacements) : Tentacules de Hadar, Ténèbres, Peur, Maléfice, Immobilisation de personne, Voracité de Hadar, Trait ensorcelé",
+ "actionsText": "**Multiattaques (formulaire Yuan-ti seulement).** Fenthaza fait une attaque constrictive et une attaque scimitar.\n**Constriction.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants, et la cible est agrippé (évasion DD 14) si c'est une créature grande ou plus petite. Jusqu'à ce que ce grappin se termine, la cible est entravé, et Fenthaza ne peut pas constricter une autre cible.\n**Scimitar (Forme Yuan-ti seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Invoquer Nightmare (Recharge après un repos court ou long).** Fenthaza tire dans les cauchemars d'une créature qu'elle peut voir à l'intérieur de 18 m et crée une manifestation illusoire et immobile des peurs les plus profondes de la créature, visible seulement à cette créature. La cible doit faire un DD 13 jet de sauvegarde d'Intelligence. Sur une sauvegarde ratée, la cible prend 11 (2d10) dégâts psychiques et est effrayé de la manifestation, croyant qu'elle est réelle. Fenthaza doit se concentrer pour maintenir l'illusion (comme si concentrating sur un sort), qui dure jusqu'à 1 minute et ne peut pas être blessé. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettre fin à l'illusion d'un succès, ou prendre 11 (2d10) dégâts psychiques sur un échec.",
+ "attacks": [
+  {
+   "name": "Constriction",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Scimitar (Forme Yuan-ti seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1a868aa6b4_monstre-fenthaza.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "SAG +3, CHA +5",
+ "skills": "Tromperie +5, Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

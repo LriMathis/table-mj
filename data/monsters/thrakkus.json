@@ -1,0 +1,39 @@
+{
+ "id": "thrakkus",
+ "name": "Thrakkus",
+ "type": "Humanoïde (drakéide)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, draconique",
+ "traits": "**Sans déconner.** Au début de son tour, Thrakkus peut gagner de l'avantage sur toute l'arme à melee jets d'attaque pendant ce tour, mais jets d'attaque contre lui a l'avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Grandaxe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d12 + 3) dégâts tranchants.\n**Arme respiratoire (1/jour).** Thrakkus peut utiliser son action pour exhaler un cône de feu 4,50 m. Chaque créature dans le cône doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 6 (2d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1e3268fa28_monstre-thrakkus.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "resistances": "feu"
+}

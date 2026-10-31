@@ -1,0 +1,40 @@
+{
+ "id": "dragonnet-noir",
+ "name": "Dragonnet noir",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 17,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m, vol 18 m, nage 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "saves": "DEX +4, SAG +2",
+ "skills": "Discrétion +4, Perception +4",
+ "immunities": "acide",
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer sous l’eau comme à l’air libre.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue deux attaques de Saignée.\n**Saignée.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts tranchants plus 2 (1d4) dégâts d'acide.\n**Souffle d'acide (recharge 5–6).** JS Dextérité : DD 11, chaque créature dans une Ligne de 4,50 m de long sur 1,50 m de large. Échec : 22 (5d8) dégâts d'acide. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 4,
+   "damage": "1d6+2+1d4",
+   "type": "tranchant + acide"
+  }
+ ],
+ "portrait": "/data/images/597b7d5eb5_monstre-dragonnet-noir.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 89"
+}

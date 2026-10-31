@@ -1,0 +1,50 @@
+{
+ "id": "chimere",
+ "name": "Chimère",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvaise",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 19,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "skills": "Perception +8",
+ "senses": "Vision dans le noir 18 m, Perception passive 18",
+ "languages": "comprend le draconique mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** La chimère effectue trois attaques : une de Coup de bélier, une de Griffe et une de Morsure. Elle peut remplacer l’attaque de Griffe par une utilisation de son Souffle de feu si disponible.\n**Coup de bélier.** Corps à corps : +7, allonge 1,50 m. Touché : 10 (1d12 + 4) dégâts contondants. Si la cible est une créature de taille M ou inférieure, elle subit l’état À terre.\n**Griffe.** Corps à corps : +7, allonge 1,50 m. Touché : 7 (1d6 + 4) dégâts tranchants.\n**Morsure.** Corps à corps : +7, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts perforants, ou 18 (4d6 + 4) dégâts perforants si la chimère avait l’Avantage au jet d’attaque.\n**Souffle de feu (recharge 5–6).** JS Dextérité : DD 15, chaque créature dans un Cône de 4,50 m. Échec : 31 (7d8) dégâts de feu. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Coup de bélier",
+   "bonus": 7,
+   "damage": "1d12+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant (+4d6+4 perforant sous condition)"
+  }
+ ],
+ "portrait": "/data/images/29f3705147_monstre-chimere.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 35"
+}

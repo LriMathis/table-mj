@@ -1,0 +1,40 @@
+{
+ "id": "prolix-yusaf",
+ "name": "Prolix Yusaf",
+ "type": "Humanoïde (tieffelin, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 16,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Perception passive 11",
+ "languages": "Commun plus une autre langue",
+ "traits": "",
+ "actionsText": "**Choc d'Arcane.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 9 m, une cible. Touché : 14 (2d10 + 3) dégâts de foudre. Si la cible est une créature, elle ne peut pas prendre de réactions avant le début de son prochain tour.\n**Détection orthographique.** Prolix lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation :\n- À volonté : Lumières dansantes, Main de mage\n- 1/jour chacun : Compréhension des langues, Identification (en tant qu'action), Armure de mage",
+ "attacks": [
+  {
+   "name": "Choc d'Arcane",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/ba8ac4e537_monstre-prolix-yusaf.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "saves": "INT +5",
+ "skills": "Arcanes +5, Histoire +5, Investigation +5",
+ "reactions": "**Glyphe de blindage.** Prolix ajoute 2 à sa CA contre une attaque qui la frapperait. Pour ce faire, Prolix doit être en mesure de voir l'agresseur et avoir une main libre."
+}

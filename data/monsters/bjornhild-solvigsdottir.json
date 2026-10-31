@@ -1,0 +1,45 @@
+{
+ "id": "bjornhild-solvigsdottir",
+ "name": "Bjornhild Solvigsdottir",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 102,
+ "hpFormula": "12d8+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, Yeti",
+ "traits": "**Bénédiction d'Auril (3/jour).** Lorsque Bjornhild frappe une créature avec une attaque d'arme, l'attaque offre un 11 (2d10) dégâts de froid supplémentaire.",
+ "actionsText": "**Multiattaques.** Bjornhild fait deux attaques à la mêlée.\n**Grandaxe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d12 + 4) dégâts tranchants, plus 11 (2d10) dégâts de froid si Bjornhild utilise la Bénédiction d'Auril.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants, ou 8 (1d8 + 4) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee, plus 11 (2d10) dégâts de froid si Bjornhild utilise la Bénédiction d'Auril.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 7,
+   "damage": "1d12+4",
+   "type": "tranchant + froid"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + froid"
+  }
+ ],
+ "portrait": "/data/images/8f38548969_monstre-bjornhild-solvigsdottir.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "skills": "Athlétisme +7, Intimidation +5, Survie +3"
+}

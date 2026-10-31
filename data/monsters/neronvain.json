@@ -1,0 +1,47 @@
+{
+ "id": "neronvain",
+ "name": "Neronvain",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 17,
+ "hp": 117,
+ "hpFormula": "18d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 15,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun, draconique, elfique, infernal",
+ "traits": "**Majesté draconienne.** Neronvain ajoute son bonus Charisme à son CA (inclus).\n**Ancêtre fécale.** La magie ne peut pas endormir Neronvain.",
+ "actionsText": "**Multiattaques.** Neronvain fait deux attaques, soit avec son mot court ou Eldritch Arrow.\n**Mot-clé.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 13 (3d8) dégâts de poison.\n**Flèche Eldritch.** Attaque de sort à distance : +7 au toucher, portée 36 m, une cible. Touché : 11 (2d10) dégâts de force plus 9 (2d8) dégâts de poison.\n**Nuage toxique (2/jour).** Le gaz poison remplit une sphère 6 m -radius centrée sur un point que Neronvain peut voir au sein de 15 m de lui. Le gaz s'étend autour des coins et reste jusqu'au prochain virage de Neronvain. Chaque créature qui commence son tour dans le gaz doit réussir sur un DD 16 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 7,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Flèche Eldritch",
+   "bonus": 7,
+   "damage": "2d10",
+   "type": "force + poison"
+  }
+ ],
+ "portrait": "/data/images/2e9df69958_monstre-neronvain.webp",
+ "notes": "",
+ "source": "Rise of Tiamat (5e.tools, traduction automatique)",
+ "saves": "CON +5, SAG +4",
+ "skills": "Arcanes +6, Perception +4",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

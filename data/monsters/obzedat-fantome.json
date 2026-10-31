@@ -1,0 +1,45 @@
+{
+ "id": "obzedat-fantome",
+ "name": "Obzedat Ghost",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 110,
+ "hpFormula": "20d8+20",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 18,
+  "SAG": 20,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 18",
+ "languages": "commun",
+ "traits": "**Conseil des Cinq.** Le fantôme a un caractère basé sur qui il est, comme montré ci-dessous:\n- **Enezesku: Rayon qui frappe** Le caractère d'Enezesku est composé de Rayon affaiblissant, qu'il peut lancer à volonté.\n- **Fautomnie: Fortitude non-morte** Si le dégâts réduit Fautomni à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + le dégâts pris, à moins que le dégâts soit radieux ou d'un coup critique. Sur un succès, Fautomni tombe à 1 points de vie à la place.\n- **- Oui. Vigor contre nature** Quand Karlov reprend points de vie, il a l'avantage sur jets d'attaque il fait son prochain tour.\n- **C'est ça. Téléportation** Le caractère de Spellcasting Inné de Vuliev inclut Foulée brumeuse, qu'il peut lancer à volonté.\n- **Xil Xaxosz: Épices lingotières** Lorsque Xil Xaxosz est réduit à 0 points de vie, sa forme incorpore explose dans une explosion d'énergie nécrotique. Chaque créature dans 1,50 m de lui doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 14 (4d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Vue éthérée.** Le fantôme peut voir 18 m dans l'avion éthéré quand il est sur l'avion matériel, et vice versa.\n**Mouvement intégré.** Le fantôme peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance légendaire (1/jour).** Si le fantôme échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Découpe intérieure.** Le caractéristique d'incantation inné du fantôme est Sagesse (spell save DD 16, +8 au toucher with attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Contact glacial (à de niveau 5, et le fantôme récupère points de vie égal à la moitié de la quantité de dégâts que la cible prend)\n- 1/jour chacun : Sanctuaire, Esprits gardiens (à de niveau 4)",
+ "actionsText": "**Drain de vie.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 18 (4d8) dégâts nécrotiques, et le fantôme récupère points de vie égale à la moitié de la quantité de dégâts que prend la cible. La cible doit réussir sur une DD 13 jet de sauvegarde de Constitution ou sa maximum de points de vie est réduite d'un montant égal aux dégâts subis. La cible meurt si son maximum de points de vie est réduit à 0. Cette réduction par rapport au maximum de points de vie de la cible dure jusqu'à ce que la cible termine un repos long.\n**Convoquer le Conseil des fantômes.** Le fantôme convoque les quatre autres membres de l'Obzedat. Au début du prochain tour du fantôme, les autres membres apparaissent dans des espaces inoccupés au sein de 9 m de l'invocateur. Les fantômes font chaque initiative quand ils apparaissent.",
+ "attacks": [
+  {
+   "name": "Drain de vie",
+   "bonus": 8,
+   "damage": "4d8",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/dddf13552e_monstre-obzedat-fantome.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Obzedat fantôme",
+ "caNote": "armure naturelle plus 1 pour l'autre Obzedat",
+ "saves": "INT +7, SAG +8",
+ "skills": "Perspicacité +8, Perception +8",
+ "resistances": "acide, froid, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "legendary": "Si cinq fantômes Obzedat sont tous dans 9 m l'un de l'autre, ils peuvent collectivement prendre 3 actions légendaires, en choisissant parmi les options ci-dessous. Une seule option d'action légendaire peut être utilisée à la fois, et seulement à la fin du tour d'une autre créature. Les fantômes obsédés retrouvent les actions légendaires passées au début du tour du fantôme avec la plus haute initiative.\n**Obédience forcée.** Une cible que tous les fantômes d'Obzedat peuvent voir doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou un arc jusqu'à la fin de son prochain tour. Jusqu'à ce que cet arc se termine, la cible ne peut pas prendre d'actions ou de réactions, et sa vitesse est 0 et ne peut pas être augmentée.\n**Esprits indéntrés (coûts 3 actions).** Les fantômes d'Obzedat conjurent les esprits indenturés 1d6 (décrits dans ce chapitre) à l'intérieur de 18 m de l'un d'eux."
+}

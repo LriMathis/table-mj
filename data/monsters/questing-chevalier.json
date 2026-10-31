@@ -1,0 +1,47 @@
+{
+ "id": "questing-chevalier",
+ "name": "Questing Knight",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 202,
+ "hpFormula": "27d8+81",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Perception passive 15",
+ "languages": "Commun plus une autre langue",
+ "traits": "**Aura de la bravoure.** Les créatures du choix du chevalier dans une Emanation 9 m originaire de celle-ci ont l'immunité aux conditions charmé et effrayé pendant qu'il y a.",
+ "actionsText": "**Multiattaques.** Le chevalier fait trois attaques, en utilisant Greatsword ou Longbow dans n'importe quelle combinaison.\n**Grande épée.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 12 (2d6 + 5) dégâts tranchants plus 22 (5d8) dégâts radiants.\n**Longbow.** Jet d'attaque à distance : +7, portée 45/180 m. Touché : 12 (2d8 + 3) dégâts perforants plus 22 (5d8) dégâts radiants.\n**Détection orthographique.** Le chevalier lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- 1/jour chacun : Lumière du jour, Dissipation du mal et du bien, Restauration supérieure, Monture fantôme",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 7,
+   "damage": "2d8+3",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/0ff5fb0e41_monstre-questing-chevalier.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Questing chevalier",
+ "saves": "FOR +9, CON +7, SAG +5, CHA +8",
+ "skills": "Athlétisme +9, Perception +5, Persuasion +8",
+ "conditionImmunities": "charmé, effrayé"
+}

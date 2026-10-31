@@ -1,0 +1,46 @@
+{
+ "id": "ogre-channeler",
+ "name": "Ogre Channeler",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 110,
+ "hpFormula": "13d10+39",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, géant",
+ "traits": "**Armes magiques.** Les attaques de l'ogre sont magiques.\n**Régénération.** L'ogre retrouve 10 points de vie au début de son tour s'il a au moins 1 points de vie.\n**Découpe intérieure.** Le caractéristique d'incantation inné de l'ogre est Charisme (spell save DD 13). L'ogre peut lancer innéement les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Ténèbres, Invisibilité\n- 1/jour chacun : Charme-personne, Cône de froid, Forme gazeuse, Sommeil",
+ "actionsText": "**Multiattaques.** L'ogre fait deux attaques, soit avec ses griffes, soit avec son glaive.\n**Griffe (formulaire Oni seulement).** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants.\n**Glaive.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 15 (2d10 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants en forme petite ou moyenne.\n**Modifier la forme.** L'ogre se polymorphe magiquement en humanoïde petit ou moyen, en géant grand, ou en retour dans sa forme réelle. En dehors de sa taille, ses statistiques sont les mêmes dans chaque forme. Le seul équipement qui est transformé est son glaive, qui se rétrécit pour qu'il puisse être manié sous forme humanoïde. Si l'ogre meurt, il revient à sa vraie forme, et son glaive revient à sa taille normale.",
+ "attacks": [
+  {
+   "name": "Griffe (formulaire Oni seulement)",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Glaive",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c8590fd4e3_monstre-ogre-channeler.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne",
+ "saves": "DEX +3, CON +6, SAG +4, CHA +5",
+ "skills": "Arcanes +5, Tromperie +8, Perception +4"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "clockwork-oaken-bolter",
+ "name": "Clockwork Oaken Bolter",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 117,
+ "hpFormula": "18d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend une langue de son créateur mais ne peut pas parler",
+ "traits": "**Résistance magique.** L'horlogerie a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** L'horlogerie ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** L'horlogerie fait deux attaques Lancing Bolt ou une attaque Lancing Bolt et une attaque Harpoon.\n**Lancing Bolt.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 30/120 m., une cible. Touché : 15 (2d10 + 4) dégâts perforants.\n**Harpoon.** Attaque d'arme à distance : +7 au toucher, portée 15/60 m., une cible. Touché : 9 (1d10 + 4) dégâts perforants, et la cible est agrippé (évasion DD 12). Alors qu'agrippé de cette façon, la vitesse d'une créature n'est pas réduite, mais elle ne peut se déplacer que dans des directions qui la rapprochent de l'horlogerie. Une créature prend 5 (1d10) dégâts tranchants si elle s'échappe du grappin ou si elle essaie et échoue. L'horlogerie ne peut battre qu'une créature à la fois avec son harpon.\n**Bolt explosif (Recharge 5-6).** L'horlogerie lance une charge explosive à un point situé à l'intérieur de 36 m. Chaque créature dans une sphère 6 m -radius centrée sur ce point doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 17 (5d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Lancing Bolt",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Harpoon",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "perforant + tranchant"
+  }
+ ],
+ "portrait": "/data/images/452435b7d2_monstre-clockwork-oaken-bolter.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Enroulez.** L'horlogerie tire la créature agrippé par son Harpoon jusqu'à 6 m plus près."
+}

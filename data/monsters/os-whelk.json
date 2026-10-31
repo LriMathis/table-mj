@@ -1,0 +1,39 @@
+{
+ "id": "os-whelk",
+ "name": "Bone Whelk",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "5d10",
+ "vitesse": "4,50 m, escalade 4,50 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 5,
+  "CON": 11,
+  "INT": 6,
+  "SAG": 9,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Adhésif.** Le lactosérum osseux peut faire adhérer des objets moyens ou plus petits. Une créature moyenne ou plus petite qui touche le whelk osseux est agrippé par elle (évasion DD 10).\n**Cri de mort.** Lorsque le sifflement osseux meurt, il émet un cri de sang qui peut être entendu à une gamme de 36 m. Ce shriek provoque la pourriture de matières organiques non magiques dans le 3 m de l'os. Chaque créature de 3 m de l'os lactosérum lorsqu'il meurt prend 9 (2d8) dégâts nécrotiques.\n**Escalade des araignées.** Le whelk osseux peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d8) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 2,
+   "damage": "1d8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c9c73cf2ca_monstre-os-whelk.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Os Whelk",
+ "caNote": "armure naturelle"
+}

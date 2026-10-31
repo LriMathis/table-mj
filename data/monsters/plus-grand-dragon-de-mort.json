@@ -1,0 +1,51 @@
+{
+ "id": "plus-grand-dragon-de-mort",
+ "name": "Greater Death Dragon",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 16,
+ "hp": 230,
+ "hpFormula": "20d12+100",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 17",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (3/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Nature inhabituelle.** Le dragon n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants plus 4 (1d8) dégâts nécrotiques. Si la cible est une créature grande ou plus petite, c'est agrippé (évasion DD 19). Jusqu'à ce que ce grappin se termine, la cible est entravé, et le dragon ne peut pas mordre une cible différente.\n**Griffe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m une cible. Touché : 10 (1d8 + 6) dégâts tranchants.\n**Respiration cataclysmique (Recharge 5-6).** Le dragon exhale une vague de flammes fantomatiquement violettes dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 45 (10d8) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature meurt si le souffle la réduit à 0 points de vie. De plus, tout Humanoïde moyen ou plus petit tué par les dégâts de la respiration, ainsi que tous les cadavres d'une telle créature dans le cône, devient un zombie (voir le Monster Manual) sous le contrôle du dragon. Le zombie agit sur l'initiative du dragon mais immédiatement après le tour du dragon. En l'absence de toute autre commande, le zombie essaie de tuer toute créature non-morte qu'il rencontre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "2d10+6",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 11,
+   "damage": "1d8+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/bd24b5be75_monstre-plus-grand-dragon-de-mort.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Plus grand dragon de mort",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, SAG +7",
+ "skills": "Perception +7, Discrétion +5",
+ "resistances": "perforant",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, plus grand dragon de mort peut entreprendre l'une des actions ci-après.\n**Griffe.** Le dragon fait une attaque de griffe.\n**Rush cataclysmique (coût 2 actions).** Le dragon se déplace jusqu'à la moitié de sa vitesse de vol sans provoquer d'attaques d'occasion, portant avec lui toutes les créatures qu'il est en train de combattre. Au cours de ce déplacement, si elle entre dans l'espace d'une créature moyenne ou plus petite, cette créature prend 4 (1d8) dégâts nécrotiques. Une créature ne peut prendre ce dégâts qu'une seule fois par tour."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "il-monger",
+ "name": "Eye Monger",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 149,
+ "hpFormula": "13d10+78",
+ "vitesse": "0 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 21,
+  "DEX": 6,
+  "CON": 23,
+  "INT": 7,
+  "SAG": 13,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 36 m, Vision aveugle 36 m while the eye monger's eye is closed, Perception passive 11",
+ "languages": "profond",
+ "traits": "**Gullet antimagique.** Les effets magiques, y compris ceux produits par des sorts et des objets magiques, mais à l'exclusion de ceux créés par des artefacts ou des divinités, sont supprimés à l'intérieur du goéland de l'œil. Tout emplacement de sort ou charge dépensée par une créature dans le goéland pour lancer un sort ou activer une propriété d'un objet magique est gaspillé. Bien qu'un effet soit supprimé, il ne fonctionne pas, mais le temps qu'il passe à supprimer compte pour sa durée. Aucun sort ou effet magique provenant de l'extérieur du goéland des yeux, sauf un produit créé par un artefact ou une divinité, ne peut affecter une créature ou un objet à l'intérieur du goéland.\n**Fausse apparence.** Si le monger des yeux est immobile et que son œil et sa bouche sont fermés au début du combat, il a avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'action du monger des yeux, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que le monger des yeux est animé.\n**Nature inhabituelle.** L'œil n'a pas besoin d'air.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants, et si la cible est une créature moyenne ou plus petite, elle doit réussir sur une DD 18 jet de sauvegarde de Dextérité ou être avalée par le monger oculaire et déposée dans le goéland du monger oculaire (voir Gullet antimagique). Le monger des yeux peut avaler une créature à la fois. Une créature avalée est aveuglé et entravé, a 3 contre les attaques et autres effets provenant de l'extérieur du monger oculaire, et prend 35 (10d6) dégâts d'acide au début de chacun de ses tours.\nSi le monger d'oeil prend 25 dégâts ou plus sur un seul virage d'une créature à l'intérieur de son goéland, le monger d'oeil régurgite la créature avalée, qui tombe à terre dans un espace à l'intérieur de 3 m du monger d'oeil. Si le monger des yeux meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 3 m de mouvement, sortant d'à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/d3297c1db8_monstre-il-monger.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Œil Monger",
+ "caNote": "armure naturelle"
+}

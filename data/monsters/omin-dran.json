@@ -1,0 +1,41 @@
+{
+ "id": "omin-dran",
+ "name": "Omin Dran",
+ "type": "Humanoïde (demi-elf)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 8,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 18,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "commun, nain, elfique, gobelin",
+ "traits": "**Grève divine.** Une fois à chacun de ses tours lorsqu'il frappe une créature avec une attaque d'arme, Omin peut causer l'attaque pour infliger un 4 (1d8) de plus de dégâts du même type traité par l'arme.\n**Ancêtre fécale.** Omin a l'avantage sur jet de sauvegarde contre le fait d'être charmé et la magie ne peut pas le faire dormir.\n**Détection orthographique.** Omin est un spellcaster de niveau 9. Son caractéristique d'incantation est Sagesse (save spell DD 15, +7 au toucher avec attaques de sort). Il a préparé les sorts clercs suivants:\n- Sorts mineurs (à volonté) : Assistance, Flamme sacrée, Stabilisation, Thaumaturgie\n- Niveau 1 (4 emplacements) : Bénédiction, Injonction, Faveur divine, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Amélioration de caractéristique, Immobilisation de personne, Arme magique, Silence, Arme spirituelle\n- Niveau 3 (3 emplacements) : Lueur d'espoir, Aura du croisé, Dissipation de la magie, Mot de guérison de groupe, Esprits gardiens\n- Niveau 4 (3 emplacements) : Protection contre la mort, Liberté de mouvement, Localisation de créature, Peau de pierre\n- Niveau 5 (1 emplacements) : Dissipation du mal et du bien, Colonne de flamme, Immobilisation de monstre, Restauration supérieure, Mythes et légendes",
+ "actionsText": "**Multiattaques.** Omin fait deux attaques avec son maul.\n**Maul.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ec39fbc54a_monstre-omin-dran.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "SAG +7, CHA +4",
+ "skills": "Tromperie +4, Perspicacité +7, Intimidation +4, Médecine +7, Perception +7, Persuasion +4",
+ "reactions": "**Guerre la Bénédiction de Dieu (Recharge après un repos court ou long).** Lorsqu'une créature au sein de 9 m d'Omin fait un jet d'attaque, mais avant d'apprendre si elle frappe ou manque, Omin peut accorder à la créature un bonus de +10 à ce rouleau."
+}

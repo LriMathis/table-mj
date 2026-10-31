@@ -1,0 +1,40 @@
+{
+ "id": "brigganock",
+ "name": "Brigganock",
+ "type": "Fée",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre bon",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d4+4",
+ "vitesse": "4,50 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, sylvestre",
+ "traits": "**Ancêtre fécale.** Le brigganock a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas le mettre au sommeil.\n**Lumière de l'âme.** Le brigganock est accompagné d'une boule de lumière infondée et invulnérable qui contient son âme. Le brigganock ne peut pas éteindre la lumière ni contrôler sa luminosité. La lumière de l'âme apporte une lumière lumineuse dans un rayon de 3 m et une lumière faible pour un 3 m supplémentaire. Si le brigganock meurt, sa lumière de l'âme s'efface.\n**Tunneler.** À l'aide d'un pioche ou d'un outil similaire, un brigganock peut creuser à travers une roche solide à une vitesse de 1,50 m, laissant un tunnel de 6 pouces dans son sillage.",
+ "actionsText": "**Pickaxe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Lapse de temps (recharge après un repos court ou long).** Le brigganock accélère le passage du temps autour d'elle-même, lui permettant d'accomplir jusqu'à 1 heure de travail en quelques secondes. Ce travail ne peut affecter aucune créature autre que le brigganock, ou tout objet porté ou porté par une autre créature, et l'activité doit avoir lieu dans un cube 3 m. Par exemple, le brigganock pourrait utiliser cette action pour tailler rapidement une citrouille, cuisiner et manger le dîner, déplacer une pile de pierres, ou attacher une douzaine de nœuds dans une longueur de corde.\n**Détection orthographique.** Le brigganock lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 11):\n- À volonté : Illusion mineure, Stabilisation\n- 1/jour chacun : Amitié avec les animaux, Lueurs féeriques, Fusion dans la pierre, Silence",
+ "attacks": [
+  {
+   "name": "Pickaxe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/01b5889a51_monstre-brigganock.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "saves": "DEX +4, CON +4",
+ "conditionImmunities": "épuisement",
+ "bonusActions": "**Déplacer la lumière de l'âme.** Le brigganock déplace son âme jusqu'à 9 m dans n'importe quelle direction vers un espace inoccupé qu'il peut voir. À la fin du virage actuel, la lumière revient au brigganock."
+}

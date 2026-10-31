@@ -1,0 +1,43 @@
+{
+ "id": "blob-de-annihilation",
+ "name": "Blob of Annihilation",
+ "type": "Vase (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 18,
+ "hp": 448,
+ "hpFormula": "23d20+207",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 28,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Implosion astrale.** Si le blob est réduit à 0 points de vie, il implose et éjecte toutes les créatures et objets qu'il engloutit dans la mer Astral. Le blob lui-même disparaît, laissant derrière lui une couche de slime sur tout ce qui était dans 180 m de lui. En 1d20 ans, le blob se reconstitue sur un monde aléatoire dans le Matériau Plane.\n**Résistance légendaire (4/jour).** Si le blob échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le blob a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le blob fait deux attaques de Pseudopod et utilise Engulf. Il peut remplacer une attaque par une utilisation de Restraining Glob.\n**Pseudopod.** Jet d'attaque au corps à corps : +15, allonge 9 m. Touché : 24 (3d10 + 8) dégâts de force.\n**Engloutissement.** Le blob se déplace jusqu'à sa vitesse et peut se déplacer à travers les espaces d'énormes ou de petites créatures et objets. Jet de sauvegarde de Force : DD 23, chaque créature ou objet dont l'espace entre pour la première fois au cours de ce déplacement. Échec : La cible est engloutie. Bien qu'engloutie, une cible a Total Cover contre les attaques et autres effets en dehors du blob, et lorsque le blob se déplace, la cible engloutie se déplace avec elle. Un objet non magique est détruit après avoir passé 1 minute engloutie.\nAlors qu'engloutie, une créature prend 21 (6d6) dégâts de force au début de chacun de ses tours, est suffocante, a l'état entravé, et répète l'enregistrement à la fin de chacun de ses tours. Une créature engloutie qui est réduite à 0 points de vie se dissout en cendres, qui est éjectée dans la mer d'Astral. Réussite : La cible s'échappe et pénètre dans l'espace inoccupé le plus proche.\n**Glob de recyclage.** Le lob blob est un globule visqueux chez une grande créature ou une créature plus petite qu'il peut voir en lui-même. Jet de sauvegarde de Dextérité : DD 23, la créature ciblée. Échec : 18 (3d6 + 8) dégâts d'acide. La globule roule la cible 18 m droit vers le blob, et la cible a l'état entravé jusqu'à la fin de son prochain tour, lorsque la globule se dissout inoffensivement. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 15,
+   "damage": "3d10+8",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/b43d80724d_monstre-blob-de-annihilation.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Blob de Annihilation",
+ "saves": "DEX +9, CON +16",
+ "resistances": "contondant, perforant, tranchant",
+ "immunities": "acide, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi, inconscient",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, blob de annihilation peut entreprendre l'une des actions ci-après.\n**Découverte.** Le blob distribue 14 (4d6) dégâts nécrotiques à chaque créature engloutie par elle. Le blob ne peut pas reprendre cette action avant le début de son prochain tour.\n**Glob de Grasping.** Le blob utilise le Glob Restraining. Le blob ne peut pas reprendre cette action avant le début de son prochain tour.\n**Coucher de la gueule.** Le blob fait une attaque de Pseudopod."
+}

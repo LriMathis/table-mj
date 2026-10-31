@@ -1,0 +1,46 @@
+{
+ "id": "groundling-slayer",
+ "name": "Groundling Slayer",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m, creusement 6 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'échouement fait deux attaques, en utilisant Claw ou Dagger dans n'importe quelle combinaison.\n**Griffe.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 12 (2d8 + 3) dégâts tranchants. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 13) d'une des deux pattes.\n**Déclencheur.** Jet d'attaque au corps à corps ou à distance : +5, allonge 1,50 m ou portée 6/18 m. Touché : 5 (1d4 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/d228bd3892_monstre-groundling-slayer.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +7, Survie +3",
+ "resistances": "poison",
+ "reactions": "**Aller au sol.** Déclencheur : L'échouement est frappé par un jet d'attaque alors qu'il est au sol. Réponse : La mise à la terre réduit de moitié les dégâts (rondes vers le bas) qu'elle prend de cette attaque."
+}

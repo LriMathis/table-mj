@@ -1,0 +1,42 @@
+{
+ "id": "jijibisha-manivarshi",
+ "name": "Jijibisha Manivarshi",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 19,
+ "hp": 153,
+ "hpFormula": "18d8+72",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 17",
+ "languages": "abyssal, infernal, télépathie 36 m",
+ "traits": "**Résistance magique.** Jijibisha a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes de Jijibisha sont magiques.\n**Découpe intérieure.** caractéristique d'incantation innée de Jijibisha est Charisme (spell save DD 17). Jijibisha peut innerately lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Modification d'apparence, Clairvoyance, Ténèbres, Détection de la magie, Détection des pensées, Dissipation de la magie, Invisibilité (autoseulement), Suggestion\n- 1/jour chacun : Tempête de feu, Suggestion de groupe\n- 3/jour chacun : Porte dimensionnelle, Peur, Mur de feu",
+ "actionsText": "**Multiattaques.** Jijibisha peut utiliser son Hypnotic Gaze et faire trois attaques de mêlée.\n**Mot long.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains.\n**Gaz hypnotique.** Les yeux de Jijibisha brillent avec la lumière opalescente car il cible une créature il peut voir dans 9 m de lui. Si la cible peut voir Jijibisha, la cible doit réussir sur un DD 17 jet de sauvegarde de Sagesse contre cette magie ou être charmé jusqu'à la fin du prochain tour de Jijibisha. La cible charmé est étourdi. Si le jet de sauvegarde de la cible est réussi, la cible est à l'abri du regard de Jijibisha pendant les 24 prochaines heures.\n**Téléportation.** Jijibisha téléporte magiquement, avec tout équipement qu'il porte ou transporte, jusqu'à 18 m dans un espace inoccupé qu'il peut voir.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 8,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ead8e1da0b_monstre-jijibisha-manivarshi.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Intimidation +9, Perception +7, Discrétion +8",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

@@ -1,0 +1,49 @@
+{
+ "id": "yagnoloth",
+ "name": "Yagnoloth",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 147,
+ "hpFormula": "14d10+70",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 21,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 18 m, Perception passive 16",
+ "languages": "abyssal, infernal, télépathie 18 m",
+ "traits": "**Résistance magique.** L'yagnoloth a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'yagnoloth fait une attaque Touch électrifiée et une attaque Arm Massive, ou il fait une attaque Arm Massive et utilise Battlefield Cunning, si disponible, ou Teleport.\n**Touche électrifiée.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 27 (6d8) dégâts de foudre.\n**Bras massif.** Attaque d'arme au corps à corps : +8 au toucher, allonge 4,50 m, une cible. Touché : 23 (3d12 + 4) dégâts de force. Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Constitution ou devenir étourdi jusqu'à la fin du prochain tour du yagnoloth.\n**Champ de bataille Cunning (Recharge 4-6).** Jusqu'à deux yugoloths alliés dans 18 m du yagnoloth qui peut l'entendre peuvent utiliser leurs réactions pour faire une attaque de melee chacun.\n**Leech de la vie.** L'yagnoloth touche une créature neutralisé dans 4,50 m de lui. La cible prend 36 (7d8 + 4) dégâts nécrotiques, et l'yagnoloth gagne points de vie temporaires égal à la moitié des dégâts infligés. La cible doit réussir sur un DD 16 jet de sauvegarde de Constitution, ou son maximum de points de vie est réduit d'un montant égal à la moitié du dégâts nécrotiques. Cette réduction dure jusqu'à ce que la cible termine un repos long, et la cible meurt si son maximum de points de vie est réduit à 0.\n**Téléportation.** Les téléportages yagnoloth, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 18 m dans un espace inoccupé qu'il peut voir.\n**Détection orthographique.** L'yagnoloth lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Ténèbres, Détection de la magie, Dissipation de la magie, Invisibilité (autoseulement), Suggestion\n- 3/jour : Éclair",
+ "attacks": [
+  {
+   "name": "Touche électrifiée",
+   "bonus": 8,
+   "damage": "6d8",
+   "type": "foudre"
+  },
+  {
+   "name": "Bras massif",
+   "bonus": 8,
+   "damage": "3d12+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/1540c10fc0_monstre-yagnoloth.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, INT +7, SAG +6, CHA +8",
+ "skills": "Tromperie +8, Perspicacité +6, Perception +6, Persuasion +8",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné"
+}

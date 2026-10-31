@@ -36,6 +36,7 @@ function addMonsterToCombat(m, count = 1, hpMode = 'avg', hidden = false, kind =
       initMod: mod(m.stats?.DEX), hp, hpMax: hp, hpTemp: 0, ca: +m.ca || 10, conditions: [], dead: false, hidden,
       attacks: JSON.parse(JSON.stringify(m.attacks || [])), stats: { ...(m.stats || {}) }, xp: CR_XP[m.cr] ?? (+m.xp || 0),
       cr: m.cr, traits: m.traits || '', portrait: m.portrait || '', color: m.color || '',
+      actionsText: m.actionsText || '', bonusActions: m.bonusActions || '', reactions: m.reactions || '', legendary: m.legendary || '',
     };
     if (kind === 'npc') cb.xp = 0;
     CB().list.push(cb); out.push(cb);
@@ -71,11 +72,50 @@ function tickConditions(cb) {
   (e.conditions || []).forEach(x => { if (x.r > 0) { x.r--; if (x.r === 0) logInfo(`<i class="ico i-hourglass"></i> ${t("{who}'s {cond} condition ends.", { who: esc(cbName(cb)), cond: `<b>${esc(condName(x.n))}</b>` })}`); } });
   e.conditions = (e.conditions || []).filter(x => x.r !== 0);
 }
+/* ---------- action economy ---------- */
+const cbText = (cb, k) => cb[k] ?? S.mons[cb.monId]?.[k] ?? '';
+const ecoOf = cb => cb.eco || (cb.eco = {});
+const isTurnOf = cb => CB().active && currentCb()?.uid === cb.uid;
+function multiOf(cb) { return cb.kind === 'pc' ? null : parseMultiattack(cbText(cb, 'actionsText'), cb.attacks || []); }
+function atkPerAction(cb) { return cb.kind === 'pc' ? attacksPerAction(S.chars[cb.charId] || {}) : multiOf(cb)?.n || 1; }
+/* spends part of the turn: 'atk' (one attack of the Attack action), 'a' (whole action), 'b', 'r'. Warns when it was already used. */
+function ecoSpend(cb, kind, label = '') {
+  if (!CB().active || !cb) return;
+  const E = ecoOf(cb), n = atkPerAction(cb);
+  let warn = '';
+  if (kind === 'atk') {
+    if (E.a && (E.atk || 0) === 0) warn = t('{who} has already used their action.', { who: cbName(cb) });
+    else if ((E.atk || 0) >= n) warn = t('{who} has already made their {n} attack(s).', { who: cbName(cb), n });
+    E.a = 1; E.atk = (E.atk || 0) + 1;
+  } else if (kind === 'a') { if (E.a) warn = t('{who} has already used their action.', { who: cbName(cb) }); E.a = 1; E.atk = Math.max(E.atk || 0, n); }
+  else if (kind === 'b') { if (E.b) warn = t('{who} has already used their bonus action.', { who: cbName(cb) }); E.b = 1; }
+  else if (kind === 'r') { if (E.r) warn = t('{who} has already used their reaction.', { who: cbName(cb) }); E.r = 1; }
+  if (warn) toast(`<i class="ico i-alert"></i> ${esc(warn)}${label ? ' (' + esc(label) + ')' : ''}`);
+  saveCamp();
+}
+/* recharge abilities "(recharge 5–6)" used by a monster: rolled at the start of its turn */
+function rechargeAt(name) { const m = normTxt(name).match(/recharge (\d)/); return m ? +m[1] : null; }
+function rechargeRolls(cb) {
+  const spent = cb.spent || {};
+  Object.keys(spent).forEach(name => {
+    const need = rechargeAt(name); if (!need) return;
+    const r = rollExpr('1d6');
+    if (r.total >= need) delete spent[name];
+    logInfo(`<i class="ico i-dice"></i> ${t('{who}: recharge of {name}', { who: esc(cbName(cb)), name: `<b>${esc(name)}</b>` })} — d6 = <b>${r.total}</b> ${r.total >= need ? '✔ ' + t('recharged') : '✘'}`);
+  });
+}
+function useAbility(cb, kind, name, text, extra = '') {
+  ecoSpend(cb, kind, name);
+  logInfo(`<i class="ico i-sparkle"></i> <b>${esc(cbName(cb))}</b> — ${ECO_LABEL[kind] ? `<span class="tag">${ECO_LABEL[kind]()}</span> ` : ''}<b>${esc(name)}</b>${extra}${text ? `<div class="small">${md(text)}</div>` : ''}`);
+}
+
 function announceTurn() {
   const cb = currentCb(); if (!cb) return;
   tickConditions(cb); selCb = cb.uid;
+  cb.eco = {};
   const e = ent(cb);
   logInfo(`<i class="ico i-hourglass"></i> ${t('Round {n}', { n: CB().round })} — ${t("{who}'s turn", { who: `<b>${esc(cbName(cb))}</b>` })}${cb.kind === 'pc' && e?.hp === 0 ? ' ' + t('(unconscious: death saving throw!)') : ''}`);
+  if (cb.kind !== 'pc') rechargeRolls(cb);
   cbSave(cb);
 }
 function startCombat() {
@@ -208,6 +248,8 @@ function castFromGM(c, item, cbUid) {
   const tg = combatTargets(cbUid);
   castModal(c, item, tg, o => {
     const res = castLocal(c, item, o, u => { const x = CB().list.find(y => y.uid === u); return x && { uid: u, name: cbName(x), ac: ent(x).ca }; });
+    const caster = CB().list.find(x => x.uid === cbUid);
+    if (res && caster) ecoSpend(caster, isTurnOf(caster) ? castKind(item.sp) : 'r', item.label);
     if (res) spellResultModal(c, res, o);
     rerender();
   }, { inCombat });
@@ -259,6 +301,48 @@ document.addEventListener('click', ev => {
   else modal(spellCardHTML(item.key, item.sp, c) + `<div class="actions"><button data-close>${t('Close')}</button></div>`);
 });
 
+/* ---------- monster search (combat and map tabs) ---------- */
+/* name, other name, type or CR ("fp 5", "cr 1/2"), without accents or case */
+function monMatch(m, q) {
+  q = normTxt(q).trim(); if (!q) return true;
+  const cr = q.match(/^(?:fp|cr|fd)\s*([\d/]+)$/);
+  if (cr) return String(m.cr) === cr[1];
+  const hay = normTxt([m.name, m.aka, m.type, termLead(m.type)].join(' '));
+  return q.split(/\s+/).every(w => hay.includes(w));
+}
+function monSearch(q, max = 40) {
+  const nq = normTxt(q).trim(), L = monList().filter(m => monMatch(m, q));
+  // names that start with the search first
+  if (nq) L.sort((a, b) => (normTxt(b.name).startsWith(nq) - normTxt(a.name).startsWith(nq)) || a.name.localeCompare(b.name));
+  return L.slice(0, max);
+}
+/* search field with a result list under it; onPick(monster) */
+function monPicker(input, onPick) {
+  const box = document.createElement('div'); box.className = 'mon-res hidden';
+  input.after(box);
+  let sel = 0, res = [];
+  const draw = () => {
+    res = monSearch(input.value);
+    sel = clamp(sel, 0, Math.max(0, res.length - 1));
+    box.innerHTML = res.map((m, i) => `<div class="mon-opt ${i === sel ? 'on' : ''}" data-mo="${m.id}">${avatarHTML({ name: m.name, portrait: m.portrait, color: '#7a2a2a' }, 26)}
+      <span class="grow">${esc(m.name)}</span><span class="muted small">${t('CR')} ${esc(m.cr)}</span></div>`).join('') || `<div class="muted small" style="padding:6px">${t('No results.')}</div>`;
+    box.classList.remove('hidden');
+    $$('[data-mo]', box).forEach(d => {
+      d.onmousedown = e => e.preventDefault();   // keeps the focus in the field
+      d.onclick = () => pick(S.mons[d.dataset.mo]);
+    });
+  };
+  const pick = m => { if (!m) return; input.value = ''; box.classList.add('hidden'); onPick(m); };
+  input.oninput = () => { sel = 0; draw(); };
+  input.onfocus = draw;
+  input.onblur = () => setTimeout(() => box.classList.add('hidden'), 120);
+  input.onkeydown = e => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); sel += e.key === 'ArrowDown' ? 1 : -1; draw(); box.querySelector('.on')?.scrollIntoView({ block: 'nearest' }); }
+    else if (e.key === 'Enter') { e.preventDefault(); pick(res[sel]); }
+    else if (e.key === 'Escape') { input.value = ''; input.blur(); }
+  };
+}
+
 /* ---------- rendering ---------- */
 function renderCombat(main) {
   const C = CB();
@@ -270,7 +354,7 @@ function renderCombat(main) {
       : `<button class="primary" id="cb-start"><i class="ico i-combat"></i> ${t('Start the combat')}</button>`}
     <span class="right"></span>
     <button id="cb-pcs">+ ${t('Characters')}</button>
-    <select id="cb-mon" style="width:170px"><option value="">+ ${t('Bestiary monster…')}</option>${mons.map(m => `<option value="${m.id}">${esc(m.name)} (${t('CR')} ${esc(m.cr)})</option>`).join('')}</select>
+    <span class="mon-pick"><input id="cb-mon" placeholder="+ ${t('Bestiary monster…')} (${mons.length})" title="Chercher par nom, type ou FP (ex. « gobelin », « dragon rouge », « fp 3 »)" autocomplete="off" style="width:220px"></span>
     <input id="cb-count" type="number" value="1" min="1" style="width:46px" title="${t('Number')}">
     <select id="cb-hpmode" title="${t('Monster hit points')}"><option value="avg">${t('average HP')}</option><option value="roll">${t('rolled HP')}</option></select>
     <label class="chk small" title="${t('Opponents hidden in the player view')}"><input type="checkbox" id="cb-hidden"> ${t('hidden')}</label>
@@ -289,7 +373,7 @@ function renderCombat(main) {
   $('#cb-prev') && ($('#cb-prev').onclick = prevTurn);
   $('#cb-end') && ($('#cb-end').onclick = endCombat);
   $('#cb-pcs').onclick = () => { addPCsToCombat(); rerender(); };
-  $('#cb-mon').onchange = e => { const m = S.mons[e.target.value]; if (m) { addMonsterToCombat(m, Math.max(1, num($('#cb-count').value, 1)), $('#cb-hpmode').value, $('#cb-hidden').checked); rerender(); } };
+  monPicker($('#cb-mon'), m => { addMonsterToCombat(m, Math.max(1, num($('#cb-count').value, 1)), $('#cb-hpmode').value, $('#cb-hidden').checked); rerender(); });
   $('#cb-custom').onclick = addCustomCombatant;
   $('#cb-enc') && ($('#cb-enc').onchange = e => { const x = S.camp.encounters.find(y => y.id === e.target.value); e.target.value = ''; if (x) encounterModal(x); });
   $('#cb-init').onclick = () => rollInitiative(false);
@@ -349,20 +433,48 @@ function drawTurnPanel() {
   const attacks = isPc ? [...(e.attacks || [])] : (cb.attacks || []);
   const targets = C.list.filter(x => x.uid !== cb.uid && cbAlive(x));
   const defTarget = lastAtk?.from === cb.uid ? lastAtk.target : (targets.find(x => (x.kind === 'pc') !== isPc)?.uid || '');
+  // action economy
+  const E = cb.eco || {}, nAtk = atkPerAction(cb), myTurn = isTurnOf(cb), multi = multiOf(cb);
+  const bonusIdx = isPc ? [] : bonusAttackIdx(cbText(cb, 'bonusActions'), attacks);
+  const actEntries = isPc ? [] : mdEntries(cbText(cb, 'actionsText')).filter(x => x.name && !/^attaques? multiples?/.test(normTxt(x.name)) && !attacks.some(a => attackKey(a.name) === attackKey(x.name)));
+  const bonusEntries = isPc ? featureActions(e, 'b') : mdEntries(cbText(cb, 'bonusActions')).filter(x => x.name && !attacks.some(a => attackKey(a.name) === attackKey(x.name)));
+  const reactEntries = isPc ? featureActions(e, 'r') : mdEntries(cbText(cb, 'reactions')).filter(x => x.name);
+  const leg = isPc ? null : parseLegendary(cbText(cb, 'legendary'));
+  const spent = cb.spent || {};
+  const chip = (k, on, label, extra = '') => `<button class="eco ${on ? 'used' : ''}" data-eco="${k}" title="${t('Click to mark as used / available')}">${label}${extra}</button>`;
+  const ecoBar = C.active ? `<div class="eco-bar">${chip('a', E.a && (E.atk || 0) >= nAtk || (E.a && !E.atk), t('Action'), nAtk > 1 || E.atk ? ` <span class="small">${t('attacks')} ${Math.min(E.atk || 0, nAtk)}/${nAtk}</span>` : '')}
+    ${chip('b', E.b, t('Bonus action'))}${chip('r', E.r, t('Reaction'))}
+    ${leg ? `<span class="eco leg">${t('Legendary')} <span class="pips">${Array.from({ length: leg.uses }, (_, k) => `<button class="pip ${k < leg.uses - (E.leg || 0) ? 'full' : ''}" data-leg="${k}"></button>`).join('')}</span></span>` : ''}
+    <span class="muted small">${myTurn ? t('its turn') : t('outside its turn: an attack uses its reaction')}</span></div>` : '';
+  const entryRow = (kind, x, i) => {
+    const rc = rechargeAt(x.name), isSpent = rc && spent[x.name];
+    return `<div class="ab-row"><button class="small ${kind === 'leg' ? '' : 'primary'}" data-use="${kind}:${i}" ${isSpent ? 'disabled' : ''}>${kind === 'leg' && x.cost > 1 ? `${x.cost} ${t('actions')}` : t('Use')}</button>
+      <div class="grow"><b>${esc(x.name)}</b>${isSpent ? ` <span class="tag">${t('to recharge')}</span>` : ''}<div class="muted small ab-txt">${linkDice(esc(x.text))}</div></div></div>`;
+  };
   el.innerHTML = `<div class="card">
     <div class="row">${isPc ? avatarHTML(e, 52) : avatarHTML({ name: cb.name, portrait: cbPortrait(cb), color: cb.color || '#7a2a2a' }, 52)}
       <div><h3 style="margin:0">${esc(cbName(cb))}</h3><div class="muted small">${isPc ? esc(e.race) + ' · ' + esc(classLabel(e.classe)) : `${t('CR')} ${esc(cb.cr ?? '?')} · ${cb.xp} XP`}</div></div>
       ${isPc ? `<button class="small right" id="tp-sheet">${t('Sheet')} ›</button>` : ''}</div>
     <div class="row" style="margin-top:6px"><b>${e.hp}/${e.hpMax} ${t('HP')}</b> · ${t('AC')} ${e.ca}${isPc ? ` · ${t('spell DC')} ${e.spellcasting?.dc ?? '—'} · ${t('Passive Perception')} ${10 + skillBonus(e, 'Perception')}` : ''}</div>
     ${hpBar(e)}
+    ${ecoBar}
   </div>
-  <div class="card"><h4><i class="ico i-target"></i> ${t('Attack')}</h4>
+  <div class="card"><h4><i class="ico i-target"></i> ${t('Attack')} <span class="muted small">${nAtk > 1 ? t('{n} attacks per Attack action', { n: nAtk }) : ''}</span></h4>
     <div class="row"><span class="muted small">${t('Target')}</span><select id="tp-target" style="flex:1"><option value="">(${t('none')})</option>${targets.map(x => `<option value="${x.uid}" ${x.uid === defTarget ? 'selected' : ''}>${esc(cbName(x))} — ${t('AC')} ${ent(x).ca}, ${ent(x).hp} ${t('HP')}</option>`).join('')}</select></div>
+    ${multi ? `<div class="multi-box">${multi.parts.length ? `<button class="primary" id="tp-multi"><i class="ico i-combat"></i> ${t('Multiattack')} : ${multi.parts.map(p => `${p.n > 1 ? p.n + '× ' : ''}${esc(attacks[p.idx].name)}`).join(' + ')}</button>`
+      : `<b>${t('Multiattack')}</b> : ${t('{n} attacks of your choice', { n: multi.n })}`}<div class="muted small">${linkDice(esc(multi.text))}</div></div>` : ''}
     <div class="col" style="margin-top:6px">${attacks.map((a, i) => `<div class="row"><button class="primary small" data-tpatk="${i}" style="min-width:150px;justify-content:space-between">${esc(a.name)} <span>${fmod(+a.bonus || 0)}</span></button>
-      <span class="muted small">${esc(a.damage || '')} ${esc(term(a.type || ''))}</span></div>`).join('') || `<span class="muted small">${t('No attack defined.')}</span>`}</div>
+      <span class="muted small">${esc(a.damage || '')} ${esc(term(a.type || ''))}</span>${bonusIdx.includes(i) ? ` <span class="tag">${t('bonus action')}</span>` : ''}
+      ${isPc && a.damage ? `<button class="small right" data-tpoff="${i}" title="${t('Second attack with a light weapon in the other hand, as a bonus action (no ability modifier to the damage)')}">${t('off-hand')}</button>` : ''}</div>`).join('') || `<span class="muted small">${t('No attack defined.')}</span>`}</div>
     <div id="tp-res" style="margin-top:8px"></div>
     ${!isPc ? `<button class="small" id="tp-addatk" style="margin-top:6px">+ ${t('attack')}</button>` : ''}
   </div>
+  ${actEntries.length ? `<div class="card"><h4><i class="ico i-lightning"></i> ${t('Other actions')}</h4>${actEntries.map((x, i) => entryRow('a', x, i)).join('')}</div>` : ''}
+  ${bonusEntries.length || isPc ? `<div class="card"><h4><i class="ico i-lightning"></i> ${t('Bonus actions')}</h4>${bonusEntries.map((x, i) => entryRow('b', x, i)).join('')}
+    ${isPc ? `<div class="muted small">${t('Also: off-hand attack (button next to the attacks), bonus-action spells (cast from the list below).')}</div>` : ''}</div>` : ''}
+  ${reactEntries.length || isPc ? `<div class="card"><h4><i class="ico i-shield"></i> ${t('Reactions')}</h4>${reactEntries.map((x, i) => entryRow('r', x, i)).join('')}
+    <div class="muted small">${t('Opportunity attack: click an attack when it is not this creature\'s turn.')}</div></div>` : ''}
+  ${leg?.list.length ? `<div class="card"><h4><i class="ico i-sparkle"></i> ${t('Legendary actions')} <span class="muted small">${t('{n} left', { n: Math.max(0, leg.uses - (E.leg || 0)) })} / ${leg.uses}</span></h4>${leg.list.map((x, i) => entryRow('leg', x, i)).join('')}</div>` : ''}
   ${!isPc && cb.stats && Object.keys(cb.stats).length ? `<div class="card"><h4>${t('Saving throws')}</h4><div class="row">${STATS.map(s => `<button class="small" data-roll="1d20${fmod(saveBonusCb(cb, s))}" data-label="${t('{ability} save', { ability: abbr(s) })}" data-who="${esc(cb.name)}">${abbr(s)} ${fmod(saveBonusCb(cb, s))}</button>`).join('')}</div></div>` : ''}
   ${isPc ? `<div class="card"><h4>${t('Quick rolls')}</h4><div class="row">${STATS.map(s => `<button class="small" data-roll="1d20${fmod(saveBonus(e, s))}" data-label="${t('{ability} save', { ability: abbr(s) })}" data-who="${esc(e.name)}">${t('{ability} save', { ability: abbr(s) })} ${fmod(saveBonus(e, s))}</button>`).join('')}</div>
       ${(e.resources || []).length ? `<div class="col" style="margin-top:8px">${e.resources.map((r, i) => `<div class="res"><span class="rn small">${esc(r.name)}</span><button class="icon small" data-tpres="${i}:-1">−</button><b>${r.cur}/${r.max}</b><button class="icon small" data-tpres="${i}:1">+</button></div>`).join('')}</div>` : ''}
@@ -372,11 +484,58 @@ function drawTurnPanel() {
   ${!isPc && cb.traits ? `<div class="card"><h4>${t('Features')}</h4><div class="ft md-view small">${md(cb.traits)}</div></div>` : ''}
   ${isPc && e.features?.length ? `<div class="card"><h4>${t('Features')}</h4>${e.features.map(f => `<details><summary><b>${esc(f.name)}</b></summary><div class="small ft" style="white-space:pre-wrap">${linkDice(esc(f.text))}</div></details>`).join('')}</div>` : ''}`;
   $('#tp-sheet', el) && ($('#tp-sheet', el).onclick = () => { selChar = cb.charId; charSub = 'sheet'; go('characters'); });
-  $$('[data-tpatk]', el).forEach(b => b.onclick = () => {
-    const a = attacks[+b.dataset.tpatk], tu = $('#tp-target', el).value, tg = CB().list.find(x => x.uid === tu);
+  const redraw = () => { saveCamp(); drawTurnPanel(); };
+  $$('[data-eco]', el).forEach(b => b.onclick = () => {
+    const k = b.dataset.eco, X = ecoOf(cb);
+    if (k === 'a') { const used = b.classList.contains('used'); X.a = used ? 0 : 1; X.atk = used ? 0 : nAtk; } else X[k] = X[k] ? 0 : 1;
+    redraw();
+  });
+  $$('[data-leg]', el).forEach(b => b.onclick = () => { const k = +b.dataset.leg; ecoOf(cb).leg = b.classList.contains('full') ? leg.uses - k : leg.uses - k - 1; redraw(); });
+  $$('[data-use]', el).forEach(b => b.onclick = () => {
+    const [kind, i] = b.dataset.use.split(':'), list = { a: actEntries, b: bonusEntries, r: reactEntries, leg: leg?.list }[kind], x = list[+i];
+    if (kind === 'leg') {
+      const X = ecoOf(cb), left = leg.uses - (X.leg || 0);
+      if (x.cost > left) toast(`<i class="ico i-alert"></i> ${t('Not enough legendary actions left ({n}).', { n: left })}`);
+      X.leg = Math.min(leg.uses, (X.leg || 0) + x.cost);
+      logInfo(`<i class="ico i-sparkle"></i> <b>${esc(cbName(cb))}</b> — <span class="tag">${t('Legendary action')}</span> <b>${esc(x.name)}</b>${x.cost > 1 ? ` (${x.cost})` : ''}<div class="small">${md(x.text)}</div>`);
+      return redraw();
+    }
+    let extra = '';
+    if (isPc) {   // a bonus-action feature with a resource of the same name (Rage, Ki…) spends one use
+      const r = (e.resources || []).find(r => normTxt(r.name).startsWith(normTxt(x.name).split(' (')[0]) || normTxt(x.name).startsWith(normTxt(r.name)));
+      if (r) { if (r.cur <= 0) toast(`<i class="ico i-alert"></i> ${t('No uses left.')} (${esc(r.name)})`); r.cur = Math.max(0, r.cur - 1); extra = ` <span class="muted small">(${esc(r.name)} ${r.cur}/${r.max})</span>`; saveChar(e); }
+    }
+    useAbility(cb, kind === 'a' ? 'a' : kind, x.name, x.text, extra);
+    if (rechargeAt(x.name)) (cb.spent || (cb.spent = {}))[x.name] = true;
+    redraw(); drawInitList();
+  });
+  const tgtNow = () => CB().list.find(x => x.uid === $('#tp-target', el).value);
+  const hitRow = (r, a, i, tg) => `<div class="row small"><b>${esc(r.label)}</b> ${t('Attack')} <b>${r.res.atk.total}</b> ${r.res.atk.crit ? `<i class="ico i-sparkle"></i> ${t('CRITICAL')}` : r.res.atk.fumble ? '<i class="ico i-skull"></i>' : ''}
+    ${tg ? (r.res.hit ? `<span class="hit">${t('HIT')}</span>` : `<span class="miss">${t('MISS')}</span>`) : ''}
+    ${r.res.dmg ? ` — <b>${r.res.dmg.total}</b> ${esc(term(a.type || ''))}${tg ? ` <button class="small danger" data-maply="${i}">${t('Apply')}</button>` : ''}` : ''}</div>`;
+  $('#tp-multi', el) && ($('#tp-multi', el).onclick = () => {
+    const tg = tgtNow(), adv = advVal(); resetAdv();
+    ecoSpend(cb, 'a', t('Multiattack')); ecoOf(cb).atk = nAtk;
+    const rows = [];
+    multi.parts.forEach(p => { const a = attacks[p.idx]; for (let k = 0; k < p.n; k++) rows.push({ a, label: p.n > 1 ? `${a.name} ${k + 1}` : a.name, res: attackRoll({ who: cbName(cb), name: a.name, bonus: a.bonus, damage: a.damage, type: a.type, targetAC: tg ? ent(tg).ca : null, targetName: tg ? cbName(tg) : '', adv }) }); });
+    lastAtk = { from: cb.uid, target: tg?.uid || '' };
+    drawTurnPanel();
+    const total = rows.reduce((s, r) => s + (r.res.dmg?.total || 0), 0), box = $('#tp-res');
+    box.innerHTML = `<div class="atk-res">${rows.map((r, i) => hitRow(r, r.a, i, tg)).join('')}
+      ${total ? `<div class="row" style="margin-top:6px">${t('Total')} <b style="font-size:1.3rem">${total}</b>${tg ? ` <button class="danger small" id="tp-mall">${t('Apply everything to {name}', { name: esc(cbName(tg)) })}</button>` : ''}</div>` : ''}</div>`;
+    const applyDmg = (n, btns) => { dealDamage(ent(tg), n, cbName(tg)); cbSave(tg); btns.forEach(x => { x.disabled = true; x.textContent = '✔'; }); drawInitList(); };
+    $$('[data-maply]', box).forEach(x => x.onclick = () => applyDmg(rows[+x.dataset.maply].res.dmg.total, [x]));
+    $('#tp-mall', box) && ($('#tp-mall', box).onclick = () => applyDmg($$('[data-maply]:not([disabled])', box).reduce((s, x) => s + rows[+x.dataset.maply].res.dmg.total, 0), [...$$('[data-maply]', box), $('#tp-mall', box)]));
+  });
+  $$('[data-tpatk],[data-tpoff]', el).forEach(b => b.onclick = () => {
+    const off = !!b.dataset.tpoff, i = +(b.dataset.tpatk ?? b.dataset.tpoff), a0 = attacks[i];
+    const a = off ? { ...a0, name: `${a0.name} (${t('off-hand')})`, damage: offhandDamage(a0.damage) } : a0;
+    ecoSpend(cb, off ? 'b' : !myTurn ? 'r' : bonusIdx.includes(i) ? 'b' : 'atk', a.name);
+    const tu = $('#tp-target', el).value, tg = CB().list.find(x => x.uid === tu);
     const res = attackRoll({ who: cbName(cb), name: a.name, bonus: a.bonus, damage: a.damage, type: a.type, targetAC: tg ? ent(tg).ca : null, targetName: tg ? cbName(tg) : '' });
     lastAtk = { from: cb.uid, target: tu };
-    const box = $('#tp-res', el);
+    drawTurnPanel();
+    const box = $('#tp-res');
     box.innerHTML = `<div class="atk-res">${t('Attack')}: <b>${res.atk.total}</b> ${res.atk.crit ? `<i class="ico i-sparkle"></i> <b>${t('CRITICAL')}</b>` : res.atk.fumble ? `<i class="ico i-skull"></i> ${t('critical failure')}` : ''}
       ${tg ? (res.hit ? `<span class="hit">${t('HIT')}</span>` : `<span class="miss">${t('MISS')}</span>`) : ''}
       ${res.dmg ? `<div>${t('Damage')}: <b style="font-size:1.3rem">${res.dmg.total}</b> ${esc(term(a.type || ''))}</div>` : ''}

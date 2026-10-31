@@ -1,0 +1,43 @@
+{
+ "id": "cthulhu",
+ "name": "Cthulhu",
+ "type": "Aberration",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 19,
+ "hp": 385,
+ "hpFormula": "22d20+154",
+ "vitesse": "9 m, escalade 9 m, nage 18 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 12,
+  "CON": 25,
+  "INT": 28,
+  "SAG": 18,
+  "CHA": 24
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 22",
+ "languages": "tous; télépathie 36 m.",
+ "traits": "**Amphibie.** Cthulhu peut respirer l'air et l'eau.\n**Restauration de lord noir.** Si Cthulhu meurt, il ressuscite avec toute sa points de vie en 1d10 semaines à l'intérieur de la faille de Cthulhu.\n**Géométrie impossible.** Le sol, l'air et l'eau dans une émanation de 3 m provenant de Cthulhu est un terrain difficile. Une créature qui commence son tour dans l'Émanation prend 7 (2d6) dégâts contondants.\n**Résistance légendaire (4/jour, ou 5/jour dans le domaine).** Si Cthulhu échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Cthulhu a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Cthulhu fait trois attaques Eldritch Claw et utilise Spellcasting pour lancer Abrutissement si disponible ou Épine mentale (version de niveau 4). Il peut remplacer une attaque de la griffe d'Eldritch par une utilisation du Tentacle.\n**Griffe d'Eldritch.** Jet d'attaque au corps à corps : +17, allonge 3 m. Touché : 18 (2d8 + 9) dégâts tranchants plus 9 (2d8) dégâts d'acide. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 19) de l'un des deux membres.\n**Tentacle.** Jet de sauvegarde de Constitution : DD 25, une créature agrippé par Cthulhu. Échec : 21 (6d6) dégâts d'acide plus 13 (3d8) dégâts psychiques. Réussite : Demi-dégâts. Échec ou réussite : Le maximum de points de vie de la cible diminue d'un montant égal au dégâts psychiques pris, et Cthulhu retrouve points de vie égal à ce montant.\n**Détection orthographique.** Cthulhu lance l'un des sorts suivants, ne nécessitant pas de composants de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 25) :\n- À volonté : Épine mentale (version de niveau 4)\n- 1/jour chacun : Abrutissement, Changement de plan (autoseulement)\n- 3/jour chacun : Songe, Quête (peuvent cibler les créatures à travers les rêves)",
+ "attacks": [
+  {
+   "name": "Griffe d'Eldritch",
+   "bonus": 17,
+   "damage": "2d8+9",
+   "type": "tranchant + acide"
+  }
+ ],
+ "portrait": "/data/images/45834f5073_monstre-cthulhu.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "CON +15, SAG +12, CHA +15",
+ "skills": "Perspicacité +12, Perception +12, Persuasion +15",
+ "resistances": "acide, froid, foudre, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "bonusActions": "**Chaîne.** Cthulhu téléporte dans un espace inoccupé qu'il peut voir dans 36 m, en prenant des créatures il est aux prises avec elle. Ensuite, chaque créature dans 3 m de l'espace qu'elle a laissé est soumise à l'effet suivant. Jet de sauvegarde de Force : DD 25. Échec : 7 (2d6) dégâts contondants plus 7 (2d6) dégâts de tonnerre, et si la cible est une créature grande ou plus petite, il a l'état à terre. Réussite : Demi-dégâts seulement.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, cthulhu peut entreprendre l'une des actions ci-après.\n**Serrure.** Cthulhu fait une attaque Eldritch Claw.\n**Espace replié.** Jet de sauvegarde de Charisme : DD 25, chaque créature et objet qui n'est pas porté ou porté dans une Sphère 3 m -radius centrée sur un point Cthulhu peut voir dans 18 m. Échec : 36 (8d8) dégâts de force, et la cible est téléportée dans un espace inoccupé à l'intérieur de 18 m de Cthulhu qui est horizontal à lui. Réussite : Demi-dégâts seulement. Échec ou réussite : Cthulhu ne peut pas reprendre cette action avant le début de son prochain tour."
+}

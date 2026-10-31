@@ -1,0 +1,32 @@
+{
+ "id": "astronaute-chwinga",
+ "name": "Chwinga Astronaut",
+ "type": "Élémentaire",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 15,
+ "hp": 7,
+ "hpFormula": "3d4",
+ "vitesse": "6 m, escalade 6 m, nage 6 m",
+ "stats": {
+  "FOR": 1,
+  "DEX": 20,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 17",
+ "languages": "—",
+ "traits": "**Évasion.** Lorsque le chwinga est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue, à condition qu'il ne soit pas neutralisé.\n**Nature inhabituelle.** La chwinga n'a pas besoin d'air, de nourriture ou de boisson. Quand il meurt, il se transforme en un petit tas de poussière de lune, un nuage de spores pailletées, une statuette ressemblant à son ancien moi, un morceau de glace, ou une éponge en forme de dodécaèdre (le choix de le MD).",
+ "actionsText": "**Cadeau magique (1/jour).** Le chwinga cible un Humanoïde qu'il peut voir en lui-même en 1,50 m. La cible gagne un type=charm du choix de le MD. Voir 7 pour plus d'informations sur les charmes surnaturels.\n**Logement naturel.** La chwinga s'abrite à l'intérieur d'un rocher, d'un buisson, d'un arbre ou d'une source naturelle d'eau douce. La chwinga ne peut être visée par aucune attaque, sort ou autre effet alors qu'elle est par magie protégée de cette façon, et l'abri ne nuit pas à la vue de la chwinga. La chwinga peut utiliser son action pour émerger d'un abri. Si son abri est détruit, le chwinga est forcé de sortir et apparaît dans l'espace de l'abri, mais est autrement indemne.\n**Détection orthographique.** La chwinga lance l'un des sorts suivants, ne nécessitant aucun composant matériel ou verbal et utilisant Charisme comme caractéristique d'incantation :\n- À volonté : Druidisme, Assistance, Passage sans trace, Résistance",
+ "attacks": [],
+ "portrait": "/data/images/656405de50_monstre-astronaute-chwinga.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Astronaute Chwinga",
+ "skills": "Acrobaties +7, Perception +7, Discrétion +7"
+}

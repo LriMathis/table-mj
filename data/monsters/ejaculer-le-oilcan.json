@@ -1,0 +1,41 @@
+{
+ "id": "ejaculer-le-oilcan",
+ "name": "Squirt the Oilcan",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 17,
+ "hpFormula": "7d4",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 3,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 8,
+  "CHA": 15
+ },
+ "senses": "Perception passive 9",
+ "languages": "commun, nain, sylvestre",
+ "traits": "**Fausse apparence.** Si Squirt est immobile au début du combat, il a un avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé Squirt se déplacer ou agir, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que Squirt est animé.\n**Nature inhabituelle.** Squirt n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts contondants.\n**Huile de Boggle (3 applications).** Squirt dépense 1 application d'huile de borgne pour créer une flaque carrée 3 m d'huile glissante et non inflammable sur le sol à l'intérieur de 1,50 m de lui. La flaque est de 3 et dure 1 heure. Chaque créature qui entre dans la zone de la flaque ou commence son tour là-bas doit réussir sur un DD 11 jet de sauvegarde de Dextérité ou automne à terre. Les boggles ne sont pas affectés par l'huile. Après avoir dépensé les 3 applications, Squirt ne peut plus utiliser cette action tant que son approvisionnement en huile de tourbe n'est pas reconstitué.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8899549a5e_monstre-ejaculer-le-oilcan.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Éjaculer le Oilcan",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, paralysé, empoisonné, inconscient"
+}

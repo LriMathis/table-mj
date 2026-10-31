@@ -1,0 +1,40 @@
+{
+ "id": "howling-haine-initier",
+ "name": "Howling Hatred Initiate",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 13,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 9,
+  "CHA": 11
+ },
+ "senses": "Perception passive 9",
+ "languages": "commun",
+ "traits": "**Vent de guidage (Recharges après un repos court ou long).** En tant qu'action bonus, l'initié gagne un avantage sur la jet d'attaque de gamme suivante qu'il réalise avant la fin de son prochain tour.\n**Maintenez votre souffle.** L'initié peut retenir son souffle pendant 30 minutes.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/375b16fc4e_monstre-howling-haine-initier.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Howling haine initier",
+ "caNote": "Armure en cuir",
+ "skills": "Tromperie +2, Religion +2, Discrétion +4"
+}

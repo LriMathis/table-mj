@@ -1,0 +1,38 @@
+{
+ "id": "vaeve",
+ "name": "Vaeve",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 45,
+ "hpFormula": "10d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 17,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Vaeve a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas mettre Vaeve à dormir.\n**Sensibilité à la lumière du soleil.** En plein soleil, Vaeve a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Découpe intérieure.** Le caractéristique d'incantation de Vaeve est Charisme (sorption sauvegardez DD 12). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques, Lévitation (autoseulement)\n**Détection orthographique.** Vaeve est un spellcaster de niveau 10. Son caractéristique d'incantation est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort). Vaeve a préparé les sorts d'assistant suivants :\n- Sorts mineurs (à volonté) : Main de mage, Illusion mineure, Bouffée de poison, Rayon de givre\n- Niveau 1 (4 emplacements) : Armure de mage, Projectile magique, Bouclier, Trait ensorcelé\n- Niveau 2 (3 emplacements) : Modification d'apparence, Foulée brumeuse, Toile d'araignée\n- Niveau 3 (3 emplacements) : Vol, Éclair\n- Niveau 4 (3 emplacements) : Tentacules noirs d'Evard, Invisibilité supérieure\n- Niveau 5 (2 emplacements) : Brume mortelle",
+ "actionsText": "**Personnel.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d6 - 1) dégâts contondants, ou 3 (1d8 - 1) dégâts contondants si utilisé avec deux mains, plus 3 (1d6) dégâts de poison.\n**Invoquer le démon (1/jour).** Vaeve invoque magiquement un Quasit ou tente d'invoquer un Démon des ombres avec une chance de succès 50 %. Le démon convoqué apparaît dans un espace inoccupé au sein de 18 m de son convocateur, agit comme un allié de son convocateur, et ne peut pas convoquer d'autres démons. Il reste 10 minutes, jusqu'à ce qu'il ou son convocateur décède, ou jusqu'à ce que son convocateur le rejette comme une action.",
+ "attacks": [
+  {
+   "name": "Personnel",
+   "bonus": 2,
+   "damage": "1d6-1",
+   "type": "contondant + poison"
+  }
+ ],
+ "portrait": "/data/images/6322032e1c_monstre-vaeve.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "skills": "Arcanes +6, Tromperie +4, Perception +4, Discrétion +5"
+}

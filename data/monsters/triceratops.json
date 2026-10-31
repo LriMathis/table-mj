@@ -1,0 +1,37 @@
+{
+ "id": "triceratops",
+ "name": "Tricératops",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "non aligné",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 114,
+ "hpFormula": "12d12+36",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 9,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 5
+ },
+ "senses": "Perception passive 10",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le tricératops effectue deux attaques de Coup de corne.\n**Coup de corne.** Corps à corps : +9, allonge 1,50 m. Touché : 19 (2d12 + 6) dégâts perforants. Si la cible est de taille TG ou inférieure et si le tricératops s’est déplacé d’au moins 6 m en ligne droite vers elle juste avant de la toucher, la cible subit 9 (2d8) dégâts perforants supplémentaires, ainsi que l’état À terre.",
+ "attacks": [
+  {
+   "name": "Coup de corne",
+   "bonus": 9,
+   "damage": "2d12+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2aebd064ce_monstre-triceratops.png",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "stellaire-angler",
+ "name": "Star Angler",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 119,
+ "hpFormula": "14d10+42",
+ "vitesse": "0 m, vol 12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 15,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 6
+ },
+ "senses": "Vision aveugle 36 m (can't see beyond this radius), Perception passive 15",
+ "languages": "—",
+ "traits": "**Évitement.** Si le pêcheur étoile est soumis à un effet qui lui permet de faire un jet de sauvegarde pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde et seulement la moitié des dégâts s'il échoue.\n**Éclairage.** L'attrait de l'étoile de pêche apporte une lumière lumineuse dans un rayon de 9 m et une lumière faible pour un 9 m supplémentaire.",
+ "actionsText": "**Multiattaques.** Le pêcheur d'étoiles fait trois attaques Bite.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/444299f2f3_monstre-stellaire-angler.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Stellaire Angler",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5, Discrétion +8",
+ "bonusActions": "**Charme de lure.** L'éperlan de l'étoile de pêche avec un enchantement de la lumière de l'étoile, ciblant une créature l'étoile de pêche peut voir en 36 m de lui-même. La cible doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou avoir l'état charmé jusqu'au début du prochain virage de l'étoile. Alors que charmé de cette façon, la cible a l'état neutralisé et doit utiliser son mouvement à son tour pour se diriger directement vers le pêcheur étoile; une cible charmé n'évite pas les attaques d'opportunités, mais elle évite les dégâts de terrain. Une cible peut être charmé par un seul pêcheur étoile à la fois."
+}

@@ -1,0 +1,51 @@
+{
+ "id": "tlincalli",
+ "name": "Tlincalli",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "Tlincalli",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le tlincalli fait un Longsword ou Spiked Chain attaque et un Sting attaque.\n**Mot long.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains.\n**Chaîne épilée.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants, et la cible est agrippé (évasion DD 11) si c'est une créature grande ou plus petite. Jusqu'à ce que ce grappin se termine, la cible est entravé, et le tlincalli ne peut pas utiliser la chaîne piquée contre une autre cible.\n**Sting.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 6 (1d6 + 3) dégâts perforants plus 14 (4d6) dégâts de poison, et la cible doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Si elle échoue le jet de sauvegarde par 5 ou plus, la cible est également paralysé alors qu'empoisonné. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Chaîne épilée",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Sting",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/98c6a121a9_monstre-tlincalli.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4, Discrétion +4, Survie +4"
+}

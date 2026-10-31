@@ -1,0 +1,40 @@
+{
+ "id": "razerblast",
+ "name": "Razerblast",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 112,
+ "hpFormula": "15d8+75",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, igné",
+ "traits": "**Armure de mer.** L'armure du raserblast est chaude. Toute créature qui lutte contre le raserblast ou l'agrippé prend 5 (1d10) dégâts de feu à la fin du tour de la créature.\n**Explosion des éclats.** Lorsque le raserblast tombe à 0 points de vie, une orbe enflammée dans sa poitrine explose, détruisant le corps du raserblast et dispersant son armure comme des éclats. Les créatures dans 3 m du raserblast lorsqu'il explose doivent réussir sur un DD 12 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts perforants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "actionsText": "**Multiattaques.** Le razerblast fait trois attaques de mêlée.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants, ou 7 (1d8 + 3) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee, plus 3 (1d6) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/2a6b44a98e_monstre-razerblast.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "Armure Splint",
+ "skills": "Intimidation +4, Perception +3",
+ "immunities": "feu"
+}

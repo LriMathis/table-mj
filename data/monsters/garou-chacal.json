@@ -1,0 +1,45 @@
+{
+ "id": "garou-chacal",
+ "name": "Garou-chacal",
+ "type": "Humanoïde (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 18,
+ "hpFormula": "4d8",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 13,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "skills": "Discrétion +4, Perception +2, Supercherie +4",
+ "immunities": "contondants, perforants et tranchants infligés par des attaques non magiques autres que celles d'armes en argent",
+ "senses": "Perception passive 12",
+ "languages": "commun (ne peut pas parler sous forme de chacal)",
+ "traits": "**Métamorphe.** Le garou-chacal peut utiliser son action pour se métamorphoser en un humain spécifique de taille Moyenne, en un hybride de chacal et d'humanoïde, ou pour reprendre sa véritable forme de chacal de Petite taille. Ses statistiques, à l'exception de sa taille, restent les mêmes, quelle que soit la forme adoptée. Les objets qu'il porte ou transporte ne se transforment pas. Le garou-chacal reprend sa forme véritable s'il meurt.\n**Odorat et ouïe aiguisés.** Le garou-chacal est avantagé lors des tests de Sagesse (Perception) basés sur l'odorat ou l'ouïe.\n**Tactique de groupe.** Le garou-chacal est avantagé lors d'un jet d'attaque effectué contre une créature si au moins un des alliés du garou-chacal, qui n'est pas neutralisé, se trouve à 1,50 mètre ou moins de cette créature.",
+ "actionsText": "**Morsure (forme de chacal ou d'hybride uniquement).** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 4 (1d4+2) dégâts perforants.\n**Cimeterre (forme humaine ou hybride uniquement).** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 5 (1d6+2) dégâts tranchants.\n**Regard soporifique.** Le garou-chacal fixe du regard une créature située à 1,50 mètre ou moins de lui dans son champ de vision. La cible doit effectuer un jet de sauvegarde de Sagesse DD 10. Si elle le rate, elle s'endort profondément par magie et tombe inconsciente pendant 10 minutes ou jusqu'à ce que quelqu'un utilise une action pour la réveiller en la secouant. Une créature qui réussit son jet de sauvegarde contre cet effet est immunisée contre le regard de ce garou-chacal pendant 24 heures. Les morts-vivants et les créatures immunisées contre l'état charmé ne sont pas affectés par cet effet.",
+ "portrait": "/data/images/40f9a6f262_monstre-garou-chacal.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 142 · image : Manuel des monstres p. 141",
+ "attacks": [
+  {
+   "name": "Morsure (forme de chacal ou d'hybride uniquement)",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Cimeterre (forme humaine ou hybride uniquement)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "deathwolf",
+ "name": "Deathwolf",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 15,
+ "hp": 153,
+ "hpFormula": "18d8+72",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 17,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 23",
+ "languages": "commun",
+ "traits": "**Résistance légendaire (2/jour).** Si le loup de mort échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**La grâce de la lune.** Lorsque le loup de mort tombe, il descend à un taux de 18 m par tour et ne subit aucun dégâts.",
+ "actionsText": "**Multiattaques.** Le loup de mort fait une attaque Bite et deux attaques Claw. Il peut remplacer une de ces attaques par Phantom Deathwolf si disponible.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts perforants plus 9 (2d8) dégâts nécrotiques. La cible doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou avoir un désavantage sur jet de sauvegarde contre l'état effrayé. Cette malédiction dure jusqu'à ce qu'elle soit enlevée par le sort Délivrance des malédictions ou toute autre magie.\n**Griffe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants plus 4 (1d8) dégâts nécrotiques.\n**Le loup de mort fantôme (Recharge 5-6).** Le loup de mort crée un fantôme terrifiant de lui-même dans l'esprit d'une créature que le loup de mort peut voir en lui-même. La cible doit réussir sur un DD 17 jet de sauvegarde d'Intelligence ou avoir l'état effrayé pendant 1 minute.\nAlors que la cible est effrayé, le fantôme traite 21 (6d6) dégâts psychiques à la cible au début de chaque tour de la cible. Une cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "2d8+5",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/d2bda2e69f_monstre-deathwolf.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +10, DEX +8, CHA +9",
+ "skills": "Perception +13, Discrétion +8",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "reactions": "**Imposer Slash.** Lorsqu'une créature au sein de 1,50 m du loup de mort fait un jet d'attaque contre elle, le loup de mort force la créature à réussir sur un DD 17 jet de sauvegarde de Sagesse ou à avoir un désavantage sur ce rouleau. Après l'attaque frappe ou manque, le loup de mort fait une attaque de griffe contre la créature.\n**Étape.** Immédiatement après avoir subi des dégâts, le loup mort téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir dans la lumière faible ou l'obscurité."
+}

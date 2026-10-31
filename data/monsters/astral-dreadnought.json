@@ -1,0 +1,49 @@
+{
+ "id": "astral-dreadnought",
+ "name": "Astral Dreadnought",
+ "type": "Monstruosité (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 20,
+ "hp": 297,
+ "hpFormula": "17d20+119",
+ "vitesse": "4,50 m, vol 24 m (vol stationnaire)",
+ "stats": {
+  "FOR": 28,
+  "DEX": 7,
+  "CON": 25,
+  "INT": 5,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "—",
+ "traits": "**Cône antimagique.** L'œil de la dreadnought crée une zone d'antimagie, comme dans le sort Champ antimagie, dans un cône 45 m. Au début de chacun de ses virages, il décide de la façon dont le cône fait face. Le cône ne fonctionne pas pendant que l'œil est fermé ou pendant que le dreadnought est aveuglé.\n**Entité astrale.** Le redouté ne peut pas quitter l'Aviation Astral, ni être banni ou autrement transporté hors de cet avion.\n**Démiplanaire Donjon.** Tout ce que les hirondelles dreadnought sont transportés vers un demi-plan qui ne peut être entré par aucun autre moyen que par un sort Souhait ou la visite de la bitte et de Donjon de la dreadnought. Une créature ne peut quitter le démiplan qu'en utilisant la magie qui permet un voyage planaire, comme le sort Changement de plan. Le démiplan ressemble à une grotte en pierre d'environ 300 m de diamètre avec un plafond 30 m haut. Comme un estomac, il contient les restes des repas passés. Le dreadnought ne peut pas être blessé de l'intérieur du demi-plan. Si le dreadnought meurt, le démiplan disparaît, et tout ce qui est à l'intérieur apparaît autour du cadavre du dreadnought. Le démiplan est autrement indestructible.\n**Résistance légendaire (3/jour).** Si le dreadnought échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Couper le cordon d'argent.** Si le dreadnought marque un coup critique contre une créature voyageant au moyen du sort Projection astrale, le dreadnought peut couper le cordon d'argent de la cible au lieu de causer des dégâts.\n**Nature inhabituelle.** Le dreadnought ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le dreadnought fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 36 (5d10 + 9) dégâts de force. Si la cible est une créature Énorme ou plus petite et que ce dégâts la réduit à 0 points de vie ou qu'il est neutralisé, la dreadnought l'avale. La cible avalée, ainsi que tout ce qu'elle porte et porte, apparaît dans un espace inoccupé sur le sol du Demiplanar Donjon.\n**Griffe.** Attaque d'arme au corps à corps : +16 au toucher, allonge 6 m, une cible. Touché : 19 (3d6 + 9) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 16,
+   "damage": "5d10+9",
+   "type": "force"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 16,
+   "damage": "3d6+9",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/6c808a6757_monstre-astral-dreadnought.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, SAG +9",
+ "skills": "Perception +9",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, à terre, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, astral dreadnought peut entreprendre l'une des actions ci-après.\n**Griffe.** La dreadnought fait une attaque de la griffe.\n**Visite de Donjon (coûts 2 actions).** Une créature énorme ou plus petite que le dreadnought peut voir à l'intérieur de 18 m doit réussir sur un DD 19 jet de sauvegarde de Charisme ou être téléportée dans un espace inoccupé sur le sol du Demiplanar Donjon. À la fin du prochain virage de la cible, elle réapparaît dans l'espace qu'elle a quitté ou dans l'espace inoccupé le plus proche si cet espace est occupé.\n**Projection psychique (coûts 3 actions).** Chaque créature dans 18 m de la dreadnought doit faire un DD 19 jet de sauvegarde de Sagesse, en prenant 26 (4d10 + 4) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

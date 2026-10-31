@@ -1,0 +1,47 @@
+{
+ "id": "arts-martiaux-adept",
+ "name": "Martial Arts Adept",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 60,
+ "hpFormula": "11d8+11",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Défense non armée.** Bien que l'adepte ne porte pas d'armure et n'ait pas de bouclier, son CA comprend son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** L'adepte fait trois attaques frappe à mains nues ou cinq attaques Dart.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants. Une fois par tour, l'adepte peut causer l'un des effets supplémentaires suivants (choisir un ou rouler un d4):\n- **1–2: Baissez-vous.** La cible doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou être à terre.\n- **3–4: Poussez.** La cible doit réussir sur un DD 13 jet de sauvegarde de Force ou être poussée jusqu'à 3 m directement loin de l'adepte.\n**Débrouille-toi.** Attaque d'arme à distance : +5 au toucher, portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ab497af70d_monstre-arts-martiaux-adept.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Arts martiaux Adept",
+ "caNote": "Défense non armée",
+ "skills": "Acrobaties +5, Perspicacité +5, Discrétion +5",
+ "reactions": "**Missile défectueux.** En réponse à une attaque d'armes à grande échelle, l'adepte détourne le missile. Les dégâts qu'il prend de l'attaque sont réduits de 1d10 + 3. Si les dégâts sont réduits à 0, l'adepte capture le missile s'il est assez petit pour tenir dans une main et l'adepte a une main libre."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "underworld-cerberus",
+ "name": "Underworld Cerberus",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 16,
+ "hp": 104,
+ "hpFormula": "11d10+44",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 9
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 19",
+ "languages": "comprend toutes les langues mais ne peut pas parler",
+ "traits": "**Agressifs.** En tant qu'action bonus, le cerberus peut se diriger à sa vitesse vers une créature hostile qu'il peut voir.\n**Multi-têtes.** Le cerberus ne peut pas être surpris, et il a avantage sur jet de sauvegarde contre être inconscient.\n**Tactiques de conditionnement.** Le cerberus a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du cerberus est à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le cerbère fait trois attaques de morsure.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants plus 3 (1d6) dégâts de feu.\n**Arme respiratoire (Recharge 5-6).** Le cerberus expire un cône 9 m de roche fondue. Chaque créature dans le cône doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Sur une sauvegarde ratée, une créature est également entravé par la roche durcissante. Une créature peut faire un DD 15 test de Force (Athlétisme) comme action, se libérer ou une créature à portée de la roche sur un succès. La roche a CA 17 et 20 points de vie, et il est immunisé contre le feu, le poison, et dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/ef35845404_monstre-underworld-cerberus.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +7, Perception +9, Discrétion +4",
+ "immunities": "feu, nécrotique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, étourdi"
+}

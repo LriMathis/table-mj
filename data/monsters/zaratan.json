@@ -1,0 +1,56 @@
+{
+ "id": "zaratan",
+ "name": "Zaratan",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 21,
+ "hp": 307,
+ "hpFormula": "15d20+150",
+ "vitesse": "12 m, nage 12 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 10,
+  "CON": 30,
+  "INT": 2,
+  "SAG": 21,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**Résistance légendaire (3/jour).** Si le zaratan échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Monstre de siège.** L'élémentaire inflige deux dégâts aux objets et aux structures (inclus dans le Mouvement de Shaking de la Terre).",
+ "actionsText": "**Multiattaques.** Le zaratan fait une attaque Bite et une attaque Stomp.\n**Morceau.** Attaque d'arme au corps à corps : +17 au toucher, allonge 6 m, une cible. Touché : 28 (4d8 + 10) dégâts de force.\n**Stompe.** Attaque d'arme au corps à corps : +17 au toucher, allonge 6 m, une cible. Touché : 26 (3d10 + 10) dégâts de tonnerre.\n**Roche à cracher.** Attaque d'arme à distance : +17 au toucher, portée 36 m / 72 m, une cible. Touché : 31 (6d8 + 10) dégâts de force.\n**Débris spew (Recharge 5-6).** Le zaratan exhale des débris rocheux dans un cube 27 m. Chaque créature dans cette zone doit faire un DD 25 jet de sauvegarde de Dextérité. Une créature prend 33 (6d10) dégâts contondants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature qui échoue le save de 5 ou plus est à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 17,
+   "damage": "4d8+10",
+   "type": "force"
+  },
+  {
+   "name": "Stompe",
+   "bonus": 17,
+   "damage": "3d10+10",
+   "type": "tonnerre"
+  },
+  {
+   "name": "Roche à cracher",
+   "bonus": 17,
+   "damage": "6d8+10",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/a816d84a3b_monstre-zaratan.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "SAG +12, CHA +11",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, paralysé, pétrifié, empoisonné, étourdi",
+ "bonusActions": "**Mouvement de tremblement de terre.** Après avoir déplacé au moins 3 m sur le sol, le zaratan envoie une onde de choc à travers le sol dans un cercle 36 m -radius centré sur lui-même. Cette zone devient 3 pendant 1 minute. Chaque créature au sol qui est concentrating doit réussir sur un DD 25 jet de sauvegarde de Constitution ou le concentration de la créature est brisé. L'onde de choc affecte 100 dégâts de tonnerre à toutes les structures en contact avec le sol dans la région. Si une créature est près d'une structure qui s'effondre, la créature pourrait être enterrée; une créature à moins de la moitié de la distance de la hauteur de la structure doit faire un DD 25 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la créature prend 17 (5d6) dégâts contondants, est à terre, et est piégée dans les décombres. Une créature piégée est entravé, nécessitant un succès DD 20 test de Force (Athlétisme) comme une action pour s'échapper. Une autre créature au sein de 1,50 m de la créature enterrée peut utiliser son action pour effacer les décombres et accorder un avantage sur le chèque. Si trois créatures utilisent leurs actions de cette façon, le contrôle est un succès automatique. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et ne tombe pas à terre ou est piégée.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, zaratan peut entreprendre l'une des actions ci-après.\n**Stompe.** Le zaratan fait une attaque de Stomp.\n**Bouge.** Le zaratan monte à sa vitesse.\n**Spit (coûts 2 actions).** Le zaratan fait une attaque de Spit Rock.\n**Rétractation (coûts 2 actions).** Le zaratan se rétracte dans sa coquille. Jusqu'à ce qu'il prenne son action Emerge, il a une résistance à tous les dégâts, et il est entravé. La prochaine fois qu'il prend une action légendaire, il doit prendre son action Revitaliser ou Emerge.\n**Revitaliser (coûts 2 actions).** Le zaratan ne peut utiliser cette option que s'il est rétracté dans sa coque. Il retrouve 52 (5d20) points de vie. La prochaine fois qu'il prend une action légendaire, il doit prendre son action d'Emerge.\n**Emerge (coûts 2 actions).** Le zaratan sort de sa coquille et fait une attaque de Spit Rock. Il ne peut utiliser cette option que s'il est rétracté dans sa coque."
+}

@@ -1,0 +1,47 @@
+{
+ "id": "warlord",
+ "name": "Warlord",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 229,
+ "hpFormula": "27d8+108",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Perception passive 15",
+ "languages": "deux langues différentes",
+ "traits": "**Irréductible (3/jour).** Le seigneur de guerre peut recycler un jet de sauvegarde il échoue. Il doit utiliser le nouveau rouleau.\n**Survivant.** Le seigneur de guerre retrouve 10 points de vie au début de son tour s'il a moins de la moitié de sa points de vie mais au moins 1 points de vie.",
+ "actionsText": "**Multiattaques.** Le seigneur de la guerre fait deux Grandes épées ou des attaques de l'arc court.\n**Grande épée.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants.\n**Saubèche.** Attaque d'arme à distance : +7 au toucher, portée 24/96 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 7,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/7c4e1383b2_monstre-warlord.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "plaque",
+ "saves": "FOR +9, DEX +7, CON +8",
+ "skills": "Athlétisme +9, Intimidation +8, Perception +5, Persuasion +8",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, warlord peut entreprendre l'une des actions ci-après.\n**Commandez Allié.** Le seigneur de guerre cible un allié qu'il peut voir dans 9 m de lui. Si la cible peut voir et entendre le seigneur de guerre, la cible peut faire une attaque d'arme comme une réaction et gagne un avantage sur le jet d'attaque.\n**Attaque d ' armes.** Le seigneur de la guerre fait une Grande Parole ou une attaque de Shortbow.\n**Frighten Foe (coûts 2 actions).** Le seigneur de guerre cible une créature il peut voir dans 9 m de lui. Si la cible peut la voir et l'entendre, la cible doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être effrayé jusqu'à la fin du prochain tour du seigneur de guerre."
+}

@@ -1,0 +1,47 @@
+{
+ "id": "markos-delphi",
+ "name": "Markos Delphi",
+ "type": "Humanoïde (humain, occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "céleste, commun, profond",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Markos fait deux attaques de Lame Cérémoniale, deux attaques d'Orbe psychique ou une de chacune.\n**Blade cérémonielle.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants plus 3 (1d6) dégâts de poison. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 minute. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**psychique Orbe.** Attaque de sort à distance : +5 au toucher, portée 18 m, une créature. Touché : 10 (2d6 + 3) dégâts psychiques.\n**Détection orthographique.** Markos lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- 1/jour chacun : Tentacules de Hadar, Charme-personne, Armure de mage",
+ "attacks": [
+  {
+   "name": "Blade cérémonielle",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "psychique Orbe",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/2ef7c494ed_monstre-markos-delphi.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "saves": "SAG +3, CHA +5",
+ "skills": "Arcanes +7, Histoire +7, Perception +3",
+ "immunities": "psychique",
+ "bonusActions": "**Espace d'échange.** Markos cible une créature moyenne ou petite qu'il peut voir en lui-même. La cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou elle téléporte, avec tout équipement qu'elle porte ou transporte, échangeant des positions avec Markos."
+}

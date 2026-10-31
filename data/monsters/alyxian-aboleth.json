@@ -1,0 +1,48 @@
+{
+ "id": "alyxian-aboleth",
+ "name": "Alyxian Aboleth",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 135,
+ "hpFormula": "18d10+36",
+ "vitesse": "3 m, nage 9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 9,
+  "CON": 15,
+  "INT": 18,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 22",
+ "languages": "profond, télépathie 36 m",
+ "traits": "**Amphibie.** L'abolent peut respirer de l'air et de l'eau.\n**Nuage de muqueuses.** Sous l'eau, l'abolent est entouré d'un nuage de mucus collants. Une créature qui touche l'abolon ou la frappe avec une attaque de mêlée alors que dans 1,50 m il doit réussir sur un DD 14 jet de sauvegarde de Force ou être entravé jusqu'à la fin du tour suivant de l'abolon.\n**Télépathie probante.** Si une créature que l'abole peut voir communique télépathiquement avec l'abole, l'abole apprend les plus grands désirs de la créature.",
+ "actionsText": "**Multiattaques.** L'abolie fait deux attaques du Tentacle.\n**Tentacle.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants plus 3 (1d6) dégâts psychiques.\n**Queue.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 14 (2d8 + 5) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "Queue",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8f23d28078_monstre-alyxian-aboleth.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +6, INT +8, SAG +8",
+ "skills": "Histoire +12, Perception +12",
+ "bonusActions": "**Enslave (Recharge 4-6).** L'aboleth cible une créature il peut voir en lui-même 9 m. La cible doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être magiquement charmé par l'abolon jusqu'à ce que l'abolon meurt ou jusqu'à ce qu'il soit sur un autre plan d'existence que la cible. La cible charmé est sous le contrôle de l'aboleth et ne peut pas prendre de réactions, et l'aboleth et la cible peuvent communiquer télépathiquement l'un avec l'autre sur n'importe quelle distance.\nLa cible charmé peut répéter la jet de sauvegarde chaque fois qu'elle prend des dégâts, mettant fin à l'effet sur elle-même sur un succès. Pas plus d'une fois toutes les 24 heures, la cible peut répéter le jet de sauvegarde lorsqu'il est au moins 1,5 km loin de l'abolon.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, alyxian aboleth peut entreprendre l'une des actions ci-après.\n**Raquette de queue.** L'abole fait une attaque de Tail.\n**Évacuation de psychique (coûts 2 actions).** une créature charmé par l'aboleth prend 10 (3d6) dégâts psychiques, et l'aboleth récupère points de vie égal aux dégâts infligés."
+}

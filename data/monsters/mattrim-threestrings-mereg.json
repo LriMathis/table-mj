@@ -1,0 +1,46 @@
+{
+ "id": "mattrim-threestrings-mereg",
+ "name": "Mattrim \"Threestrings\" Mereg",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Perception passive 15",
+ "languages": "deux langues différentes",
+ "traits": "**Chanson du repos.** Mattrim peut jouer une chanson en prenant un repos court. Tout allié qui entend la chanson récupère un 1d6 points de vie supplémentaire s'il dépense un dés de vie pour récupérer points de vie à la fin de ce repos. Mattrim peut lui aussi lui conférer cet avantage.\n**Taunt (2/jour).** Mattrim peut utiliser un action bonus à son tour pour cibler une créature à l'intérieur de 9 m. Si la cible peut entendre Mattrim, la cible doit réussir sur un DD 12 jet de sauvegarde de Charisme ou avoir un désavantage sur tests de caractéristique, jets d'attaque, et jet de sauvegarde jusqu'au prochain tour de Mattrim.\n**Détection orthographique.** Mattrim est un épeautre de niveau 4. Son caractéristique d'incantation est Charisme (save spell DD 12, +4 au toucher avec attaques de sort). Il a les sorts de barde suivants préparés:\n- Sorts mineurs (à volonté) : Amis, Main de mage, Moquerie cruelle\n- Niveau 1 (4 emplacements) : Charme-personne, Mot de guérison, Héroïsme, Sommeil, Vague tonnante\n- Niveau 2 (3 emplacements) : Invisibilité, Fracassement",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Saubèche.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/79ae380cd7_monstre-mattrim-threestrings-mereg.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne",
+ "saves": "DEX +4, SAG +3",
+ "skills": "Acrobaties +4, Perception +5, Représentation +6"
+}

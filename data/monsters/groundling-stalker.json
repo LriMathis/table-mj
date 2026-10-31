@@ -1,0 +1,46 @@
+{
+ "id": "groundling-stalker",
+ "name": "Groundling Stalker",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m, creusement 3 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Griffe.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 12 (2d8 + 3) dégâts tranchants. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 13) d'une des deux pattes.\n**Grosse arbalète.** Jet d'attaque à distance : +5, portée 30/120 m. Touché : 14 (2d10 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d228bd3892_monstre-groundling-stalker.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +5, Survie +3",
+ "resistances": "poison",
+ "reactions": "**Aller au sol.** Déclencheur : L'échouement est frappé par un jet d'attaque alors qu'il est au sol. Réponse : La mise à la terre réduit de moitié les dégâts (rondes vers le bas) qu'elle prend de cette attaque."
+}

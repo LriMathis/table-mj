@@ -1,0 +1,53 @@
+{
+ "id": "chakuna",
+ "name": "Chakuna",
+ "type": "Monstruosité (Lycanthrope)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 16,
+ "hp": 210,
+ "hpFormula": "28d8+84",
+ "vitesse": "9 m, escalade 12 m (Forme panthère seulement)",
+ "stats": {
+  "FOR": 17,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 45 m, Perception passive 20",
+ "languages": "Fréquent (ne peut pas parler sous forme de panthère)",
+ "traits": "**Restauration de lord noir.** Si Chakuna meurt et que son cœur reste intact, elle ressuscite avec tout son points de vie en 1d10 semaines quelque part à Valachan. Le cœur de Chakuna est un objet minuscule qui a CA 17, HP 10, et l'immunité à tous les dégâts sauf feu.\n**Chasseur expérimenté.** Terrain difficile composé de sous-bois ne coûte pas le mouvement supplémentaire de Chakuna.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Chakuna échoue un jet de sauvegarde, elle peut choisir de réussir.",
+ "actionsText": "**Multiattaques.** Chakuna fait trois attaques, en utilisant Scratch ou Barbed Spear dans n'importe quelle combinaison. Elle peut remplacer une attaque par une attaque Bite.\n**Bite (forme panthère ou hybride seulement).** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 20 (3d10 + 4) dégâts perforants. Si la cible est un humanoïde, elle est soumise à l'effet suivant. Jet de sauvegarde de Constitution : DD 15. La cible est maudite. Si la cible maudite tombe à 0 points de vie, il devient plutôt un guypanther sous le contrôle de le MD et a 10 points de vie (utiliser le bloc de statistiques de Weretiger). Réussite : La cible est immunisée contre la malédiction de Chakuna pendant 24 heures.\n**Gratte-toi.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Lance à barbe (forme humaine ou hybride seulement).** Jet d'attaque au corps à corps ou à distance : +8, allonge 1,50 m ou portée 9/36 m. Touché : 8 (1d8 + 4) dégâts perforants et la cible reçoit une blessure grave si elle n'en a pas. Alors que la cible est blessée, sa vitesse est réduite de 3 m, et elle perd 5 (1d10) points de vie au début de chacun de ses tours. La blessure se ferme après 1 minute, après qu'un sort rétablit points de vie à la cible, ou après que la cible ou une créature dans 1,50 m il prend une action pour étrangler la blessure, le faisant en succédant sur un DD 15 test de Sagesse (Médecine). Touché ou raté : La lance revient magiquement à la main de Chakuna immédiatement après une attaque variée.",
+ "attacks": [
+  {
+   "name": "Bite (forme panthère ou hybride seulement)",
+   "bonus": 8,
+   "damage": "3d10+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Gratte-toi",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Lance à barbe (forme humaine ou hybride seulement)",
+   "bonus": 8,
+   "damage": "1d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b8bd993478_monstre-chakuna.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "CON +7, SAG +6",
+ "skills": "Perception +10, Discrétion +12",
+ "bonusActions": "**Prowl (formulaire panthère ou hybride seulement).** Chakuna passe à sa vitesse sans provoquer Opportunity Attacks. À la fin de ce mouvement, elle peut prendre l'action Se cacher.\n**Forme-filtre.** La forme de Chakuna se transforme en un hybride panthère-humanoïde ou une grande panthère, ou elle revient à sa vraie forme humanoïde. Ses statistiques de jeu, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'elle porte ou qu'elle transporte n'est pas transformé.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, chakuna peut entreprendre l'une des actions ci-après.\n**Ponce.** Chakuna se déplace jusqu'à la moitié de sa vitesse et fait une attaque de Scratch.\n**Frappe des ombres.** Chakuna fait une attaque de Barbed Spear. Si Chakuna a l'état invisible de l'action Se cacher, cette attaque ne met pas fin à cette condition. Chakuna ne peut pas recommencer jusqu'au début de son prochain tour.\n**Morceaux soudains.** Chakuna utilise Shape-Shift pour se transformer en forme hybride ou en forme de panthère, puis fait une attaque Bite. Chakuna ne peut pas recommencer jusqu'au début de son prochain tour."
+}

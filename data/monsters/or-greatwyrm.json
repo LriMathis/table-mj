@@ -1,0 +1,56 @@
+{
+ "id": "or-greatwyrm",
+ "name": "Gold Greatwyrm",
+ "type": "Dragon (métallique)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal bon",
+ "cr": "28",
+ "xp": 120000,
+ "ca": 22,
+ "hp": 565,
+ "hpFormula": "29d20+261",
+ "vitesse": "18 m, creusement 18 m, vol 36 m, nage 18 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 16,
+  "CON": 29,
+  "INT": 21,
+  "SAG": 22,
+  "CHA": 30
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 32",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (4/jour).** Si le grand wym échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Réveillement métallique (recharge après un repos court ou long).** Si le styrène est réduit à 0 points de vie, son total actuel de points de vie réinitialise à la place à 450 points de vie, il recharge son arme respiratoire, et il retrouve toutes les utilisations dépensées de la résistance légendaire. De plus, le grand-wyrm peut maintenant utiliser les options dans la section \"Actions mythiques\" pendant 1 heure. Récompensez un parti de 120.000 XP supplémentaires (240.000 XP au total) pour avoir vaincu le grand-wyrme après que son réveil métallique se soit activé.\n**Nature inhabituelle.** Le grand wym n'a pas besoin de nourriture ou de boisson.",
+ "actionsText": "**Multiattaques.** Le grand-wym fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +18 au toucher, allonge 4,50 m, une cible. Touché : 21 (2d10 + 10) dégâts perforants plus 13 (2d12) dégâts de force.\n**Griffe.** Attaque d'arme au corps à corps : +18 au toucher, allonge 3 m, une cible. Touché : 19 (2d8 + 10) dégâts tranchants. Si la cible est une créature Énorme ou plus petite, elle est agrippé (évasion DD 20) et entravé jusqu'à ce que ce grappin se termine. Le grand wyrm peut avoir seulement une créature agrippé de cette façon à la fois.\n**Queue.** Attaque d'arme au corps à corps : +18 au toucher, allonge 6 m, une cible. Touché : 21 (2d10 + 10) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 26 jet de sauvegarde de Force ou être à terre.\n**Arme respiratoire (Recharge 5-6).** Le grand-wym utilise l'une des armes suivantes :\n- **Respiration élémentaire** Le grand wym exhale l'énergie élémentaire dans un cône 90 m. Chaque créature dans cette zone doit faire un DD 25 jet de sauvegarde de Dextérité, en prenant 84 (13d12) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **Souffle respiratoire** Le grand wym exhale du gaz dans un cône 90 m. Chaque créature dans cette zone doit faire un DD 25 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature tombe inconscient pendant 1 minute. Sur une sauvegarde réussie, la créature a un désavantage sur jets d'attaque et jet de sauvegarde jusqu'à la fin du prochain tour du styrène. Une créature inconscient peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Modifier la forme.** Le grand wym se transforme magiquement en toute créature qui est moyenne ou petite, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si le dragon est réduit à 0 points de vie ou utilise son action pour l'en finir.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 18,
+   "damage": "2d10+10",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 18,
+   "damage": "2d8+10",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 18,
+   "damage": "2d10+10",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f1d83992ef_monstre-or-greatwyrm.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Or Greatwyrm",
+ "caNote": "armure naturelle",
+ "saves": "DEX +11, CON +17, INT +13, SAG +14, CHA +18",
+ "skills": "Perspicacité +14, Perception +22, Persuasion +18",
+ "immunities": "feu",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, or greatwyrm peut entreprendre l'une des actions ci-après.\n**Attaque.** Le grand-wym fait une attaque de Griffe ou de Tail.\n**Attaque de l'escadre (coûts 2 actions).** Le grand wym bat ses ailes. Chaque créature de 9 m doit réussir sur un DD 26 jet de sauvegarde de Dextérité ou prendre 17 (2d6 + 10) dégâts contondants et être à terre. Le grand wym peut alors voler jusqu'à la moitié de sa vitesse de vol.\n**Actions mythiques.**\n**Morceau.** Le grand-wym fait une attaque Bite.\n**Roar shuttering (coûts 2 actions).** Le grand-wym déclenche un rugissement magique. Chaque créature d'une sphère 36 m -radius centrée sur le grand wyrme doit réussir sur un DD 26 jet de sauvegarde de Constitution ou prendre 19 (3d12) dégâts de tonnerre et être neutralisé jusqu'à la fin de son prochain tour."
+}

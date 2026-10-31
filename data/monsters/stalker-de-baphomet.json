@@ -1,0 +1,48 @@
+{
+ "id": "stalker-de-baphomet",
+ "name": "Stalker of Baphomet",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 17,
+  "CON": 22,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "abyssal, géant",
+ "traits": "**Rappel de Labyrinthine.** Le harceleur peut parfaitement se rappeler n'importe quel chemin qu'il a parcouru.\n**Résistance magique.** Le harceleur a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le harceleur fait deux attaques Glaive ou deux attaques Rock.\n**Glaive.** Attaque d'arme au corps à corps : +11 au toucher, allonge 4,50 m, une cible. Touché : 18 (2d10 + 7) dégâts tranchants plus 9 (2d8) dégâts de force.\n**Roche.** Attaque d'arme à distance : +11 au toucher, portée 18/72 m., une cible. Touché : 23 (3d10 + 7) dégâts contondants. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 19 jet de sauvegarde de Force ou avoir l'état à terre. Après que le harceleur jette la roche, rouler un d6 ; sur un rouleau de 3 ou moins, le harceleur n'a plus de rochers à jeter.\n**Déclenchement des cornes (Recharge 5-6).** Le harceleur fait que la terre bat en un point sur le sol qu'elle peut voir en 18 m de lui-même. Six pierres en forme de corne éclatent dans un 9 m -radius, 9 m -haut cylindre centré sur ce point et puis s'écroulent à la poussière.\nChaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, une créature prend 33 (6d10) dégâts perforants et est poussée jusqu'à 9 m vers le haut puis tombe. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.\n**Détection orthographique.** Le harceleur lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- 1/jour chacun : Fusion dans la pierre, Façonnage de la pierre, Mur de pierre",
+ "attacks": [
+  {
+   "name": "Glaive",
+   "bonus": 11,
+   "damage": "2d10+7",
+   "type": "tranchant + force"
+  },
+  {
+   "name": "Roche",
+   "bonus": 11,
+   "damage": "3d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ff5805d55b_monstre-stalker-de-baphomet.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Stalker de Baphomet",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, SAG +7",
+ "skills": "Athlétisme +15, Perception +7, Discrétion +11",
+ "conditionImmunities": "charmé, effrayé"
+}

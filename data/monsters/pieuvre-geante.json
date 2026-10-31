@@ -1,0 +1,39 @@
+{
+ "id": "pieuvre-geante",
+ "name": "Pieuvre géante",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non aligné",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 45,
+ "hpFormula": "7d10+7",
+ "vitesse": "3 m, nage 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 13,
+  "CON": 13,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "skills": "Perception +4, Discrétion +5",
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "aucune",
+ "traits": "**Respiration aquatique.** La pieuvre ne peut respirer que sous l’eau. Elle peut retenir son souffle pendant 1 heure hors de l’eau.",
+ "actionsText": "**Tentacules.** Corps à corps : +5, allonge 3 m. Touché : 10 (2d6 + 3) dégâts contondants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 13) par les huit tentacules. Tant qu’elle est Agrippée, la cible subit l’état Entravé.",
+ "reactions": "**Nuage d’encre (1/jour).** Déclencheur : la pieuvre subit des dégâts alors qu’elle est sous l’eau. Conséquences : la pieuvre libère de l’encre qui remplit un Cube de 3 m centré sur elle, puis elle se déplace à concurrence de sa Vitesse de nage. Le Cube est à Visibilité nulle pendant 1 minute ou jusqu’à ce qu’un fort courant ou un effet similaire disperse l’encre.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/1b9b887db6_monstre-pieuvre-geante.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet"
+}

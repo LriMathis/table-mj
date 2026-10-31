@@ -1,0 +1,41 @@
+{
+ "id": "elan-geant",
+ "name": "Élan géant",
+ "type": "Céleste",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 42,
+ "hpFormula": "5d12+10",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 7,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "saves": "FOR +6, DEX +6",
+ "skills": "Perception +4",
+ "resistances": "nécrotiques, radiants",
+ "senses": "Vision dans le noir 27 m, Perception passive 14",
+ "languages": "céleste, comprend le commun, l’elfique et le sylvestre mais ne peut pas les parler",
+ "traits": "",
+ "actionsText": "**Coup de tête.** Corps à corps : +6, allonge 3 m. Touché : 11 (2d6 + 4) dégâts contondants plus 5 (2d4) dégâts radiants. Si la cible est une créature de taille TG ou inférieure et si le cervidé s’est déplacé d’au moins 6 m en ligne droite vers elle juste avant de la toucher, la cible subit 5 (2d4) dégâts contondants supplémentaires, ainsi que l’état À terre.",
+ "attacks": [
+  {
+   "name": "Coup de tête",
+   "bonus": 6,
+   "damage": "2d6+4+2d4",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/cbf7a5e674_monstre-elan-geant.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr",
+ "aka": "Cervidé géant (2024)"
+}

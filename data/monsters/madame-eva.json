@@ -1,0 +1,47 @@
+{
+ "id": "madame-eva",
+ "name": "Madam Eva",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 117,
+ "hpFormula": "18d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 17,
+  "SAG": 20,
+  "CHA": 18
+ },
+ "senses": "Perception passive 19",
+ "languages": "abyssal, commun, elfique, infernal",
+ "traits": "**Résistance magique.** Madame Eva a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Madame Eva fait trois attaques, en utilisant Cursed Dagger ou radiant Flame dans n'importe quelle combinaison.\n**Dague maudite.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 10 (2d4 + 5) dégâts perforants plus 21 (6d6) dégâts nécrotiques.\n**Flamme radiant.** Jet d'attaque à distance : +9, portée 18 m. Touché : 21 (3d10 + 5) dégâts radiants, et la cible a l'état aveuglé jusqu'au début du prochain tour de Mme Eva.\n**Visions apocalyptiques (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 17, chaque créature dans un 6 m -radius Sphere centré sur un point Madame Eva peut voir dans 36 m. Échec : 24 (7d6) dégâts nécrotiques plus 24 (7d6) dégâts psychiques, et la cible a l'état effrayé jusqu'au début du prochain tour de Mme Eva. Réussite : Demi-dégâts seulement.\n**Détection orthographique.** Madame Eva lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Lumière, Réparation, Thaumaturgie\n- 1/jour chacun : Restauration supérieure, Rappel à la vie, Scrutation, Esprits gardiens (version de niveau 8)\n- 2/jour chacun : Dissipation de la magie, Délivrance des malédictions",
+ "attacks": [
+  {
+   "name": "Dague maudite",
+   "bonus": 9,
+   "damage": "2d4+5",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Flamme radiant",
+   "bonus": 9,
+   "damage": "3d10+5",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/4e90f6bd19_monstre-madame-eva.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Madame Eva",
+ "saves": "SAG +9, CHA +8",
+ "skills": "Arcanes +7, Perspicacité +9, Perception +9, Religion +7",
+ "bonusActions": "**Mauvais œil (2/jour).** Madame Eva lance Immobilisation de personne, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 2/jour : Immobilisation de personne"
+}

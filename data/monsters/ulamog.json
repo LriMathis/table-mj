@@ -1,0 +1,48 @@
+{
+ "id": "ulamog",
+ "name": "Ulamog",
+ "type": "Céleste (titan)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique bon",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 22,
+ "hp": 313,
+ "hpFormula": "19d12+190",
+ "vitesse": "15 m, vol 15 m, nage 15 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 21,
+  "CON": 30,
+  "INT": 21,
+  "SAG": 22,
+  "CHA": 27
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 16",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (3/jour).** Si Ulamog échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Ulamog a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'Ulamog sont magiques.\n**Découpe intérieure.** Le caractéristique d'incantation inné d'Ulamog est le Charisme (save spell DD 23, +15 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Restauration supérieure, Passage sans trace, Respiration aquatique, Marche sur l'eau\n- 1/jour chacun : Communion, Dissipation du mal et du bien, Tremblement de terre, Tempête de feu, Changement de plan (autoseulement)",
+ "actionsText": "**Maul.** Attaque d'arme au corps à corps : +17 au toucher, allonge 3 m, une cible. Touché : 31 (6d6 + 10) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin du prochain tour d'Ulamog.\n**Bolt.** Attaque de sort à distance : +15 au toucher, portée 180 m, une cible. Touché : 24 (7d6) dégâts de l'un des types suivants (le choix de l'empyréen): acide, froid, feu, force, foudre, rayonnant, ou tonnerre.",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 17,
+   "damage": "6d6+10",
+   "type": "contondant"
+  },
+  {
+   "name": "Bolt",
+   "bonus": 15,
+   "damage": "7d6",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/80cbe8cff9_monstre-ulamog.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +17, INT +12, SAG +13, CHA +15",
+ "skills": "Perspicacité +13, Persuasion +15",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, ulamog peut entreprendre l'une des actions ci-après.\n**Attaque.** Ulamog fait une attaque.\n**Bolster.** Ulamog renforce toutes les créatures non hostiles au sein de 36 m jusqu'à la fin de son prochain tour. Les créatures boulonnées ne peuvent pas être charmé ou effrayé, et elles gagnent un avantage sur tests de caractéristique et jet de sauvegarde jusqu'à la fin du prochain tour d'Ulamog.\n**Grève de tremblement (coûts 2 actions).** Ulamog frappe le sol avec sa maul, déclenchant un tremblement de terre. Toutes les autres créatures au sol dans 18 m d'Ulamog doivent réussir sur un DD 25 jet de sauvegarde de Force ou être à terre."
+}

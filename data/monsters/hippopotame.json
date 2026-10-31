@@ -1,0 +1,39 @@
+{
+ "id": "hippopotame",
+ "name": "Hippopotame",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 82,
+ "hpFormula": "11d10+22",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 7,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 4
+ },
+ "saves": "FOR +7",
+ "skills": "Perception +3",
+ "senses": "Perception passive 13",
+ "languages": "aucune",
+ "traits": "**Apnée.** L’hippopotame peut retenir son souffle pendant 10 minutes.",
+ "actionsText": "**Attaques multiples.** L’hippopotame effectue deux attaques de Morsure.\n**Morsure.** Corps à corps : +7, allonge 1,50 m. Touché : 16 (2d10 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 7,
+   "damage": "2d10+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6b4f459d4a_monstre-hippopotame.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

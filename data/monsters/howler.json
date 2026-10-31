@@ -1,0 +1,41 @@
+{
+ "id": "howler",
+ "name": "Howler",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 5,
+  "SAG": 14,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "comprend Abyssal mais ne peut pas parler",
+ "traits": "**Tactiques de conditionnement.** Un hurleur a un avantage sur jets d'attaque contre une créature si au moins un des alliés du hurleur est dans 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le hurleur fait deux attaques de Bite Rending.\n**Morceau de cirage.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants, plus 22 (4d10) dégâts psychiques si la cible est effrayé. Cette attaque ignore la résistance aux dégâts.\n**Hémorragie de l'esprit (Recharge 4-6).** Le hurleur émet un hurlement vif dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou prendre 16 (3d10) dégâts psychiques et être effrayé jusqu'à la fin du prochain tour du hurleur. Alors qu'une créature est effrayé de cette façon, sa vitesse est réduite de moitié, et c'est neutralisé. Une cible qui sauve avec succès est immunisée contre le hurlement de l'esprit de tous les hurleurs pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Morceau de cirage",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/fb13c220cd_monstre-howler.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "effrayé"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "rezmir",
+ "name": "Rezmir",
+ "type": "Humanoïde (Dragon demi-noir)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 13,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 36 m, Perception passive 11",
+ "languages": "commun, draconique, infernal, géant, Pays-Bas",
+ "traits": "**Matériel spécial.** Rezmir a le Masque de dragon noir, Hazirawn et un Insignia de Claws.\n**Amphibie.** Rezmir peut respirer l'air et l'eau.\n**Avantage sombre.** Une fois par tour, Rezmir peut infliger des dégâts supplémentaires de 10 (3d6) lorsqu'elle frappe avec une attaque d'arme, à condition que Rezmir ait un avantage sur le jet d'attaque.\n**Majesté draconienne.** Tout en ne portant pas d'armure et portant le masque Dragon noir, Rezmir ajoute son bonus Charisme à son CA (inclus).\n**Immobilisation.** Lorsque Rezmir est réduit à 0 points de vie, son corps se désintègre en une pile de cendres.\n**Résistance légendaire (1/jour).** Si Rezmir échoue avec un jet de sauvegarde tout en portant le masque Dragon noir, elle peut choisir de réussir à la place.",
+ "actionsText": "**Grande parole (Hazirawn).** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants plus 7 (2d6) dégâts nécrotiques. Si la cible est une créature, elle ne peut pas retrouver points de vie pendant 1 minute. La cible peut faire un DD 15 jet de sauvegarde de Constitution à la fin de chacun de ses tours, mettant fin à cet effet tôt sur un succès.\n**Bolt caustique.** Attaque de sort à distance : +8 au toucher, portée 27 m, une cible. Touché : 18 (4d8) dégâts d'acide.\n**acide Respiration (Recharge 5-6).** Rezmir respire de l'acide dans une ligne 9 m large. Chaque créature dans la ligne doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 22 (5d8) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Grande parole (Hazirawn)",
+   "bonus": 9,
+   "damage": "2d6+6",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Bolt caustique",
+   "bonus": 8,
+   "damage": "4d8",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/8702450cdb_monstre-rezmir.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "saves": "DEX +6, SAG +4",
+ "skills": "Arcanes +5, Discrétion +9",
+ "immunities": "acide",
+ "conditionImmunities": "charmé, effrayé",
+ "legendary": "Si elle porte le masque de Dragon noir, Rezmir peut prendre jusqu'à deux actions légendaires entre chacun de ses tours, en prenant les actions en même temps ou en les répartissant sur la ronde. Une action légendaire ne peut être prise qu'au début ou à la fin d'un tour.\n**Ténèbres (coûts 2 actions).** Un rayon de 4,50 m d'obscurité magique s'étend d'un point Rezmir peut voir à l'intérieur de 18 m d'elle et s'étend autour des coins. L'obscurité dure aussi longtemps que Rezmir maintient concentration, jusqu'à 1 minute. Une créature avec une vision sombre ne peut pas voir à travers cette obscurité, et aucune lumière naturelle ne peut l'illuminer. Si l'une des zones se chevauche avec une zone de lumière créée par un sort de de niveau 2 ou inférieur, le sort créant la lumière est dissipé.\n**Attaque de Melee.** Rezmir fait une attaque à la mêlée.\n**Masquer.** Rezmir prend l'action Se cacher."
+}

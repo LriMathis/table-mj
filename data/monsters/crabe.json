@@ -1,0 +1,38 @@
+{
+ "id": "crabe",
+ "name": "Crabe",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 3,
+ "hpFormula": "1d4+1",
+ "vitesse": "6 m, nage 6 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 8,
+  "CHA": 2
+ },
+ "skills": "Discrétion +2",
+ "senses": "Vision aveugle 9 m, Perception passive 9",
+ "languages": "aucune",
+ "traits": "**Amphibie.** Le crabe peut respirer sous l’eau comme à l’air libre.",
+ "actionsText": "**Griffe.** Corps à corps : +2, allonge 1,50 m. Touché : 1 dégât contondant.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 2,
+   "damage": "1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8fe5cea7b4_monstre-crabe.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

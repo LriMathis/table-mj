@@ -1,0 +1,45 @@
+{
+ "id": "thri-kreen",
+ "name": "Thri-kreen",
+ "type": "Humanoïde (thri-kreen)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 13,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "skills": "Discrétion +4, Perception +3, Survie +3",
+ "senses": "vision dans le noir à 18 m, Perception passive 13",
+ "languages": "thri-kreen",
+ "traits": "**Carapace caméléon.** Le thri-kreen modifie la couleur de sa carapace pour l'accorder aux teintes et à la texture de son environnement. Il est donc avantagé lors des tests de Dextérité (Discrétion) effectués pour se cacher.\n**Saut sans élan.** Le thri-kreen effectue des sauts en longueur d'un maximum de 9 mètres et des sauts en hauteur d'un maximum 4,50 mètres, qu'il dispose d'une course d'élan ou non.\n**Variante : armes et psioniques thri-kreen.** Un thri-kreen équipé d'une gythka et de chatkchas peut effectuer deux attaques de gythka (+3, 1d8+1 tranchants) ou deux attaques de chatkchas (+4, portée 9/36 m, 1d6+2 tranchants). Un thri-kreen psionique dispose de la télépathie à 18 m et d'une incantation innée (Sagesse) : à volonté *main du mage* (invisible) ; 2/jour chacun *arme magique, flou* ; 1/jour *invisibilité* (sur soi uniquement).",
+ "actionsText": "**Attaques multiples.** Le thri-kreen effectue deux attaques, l'une avec sa morsure, l'autre avec ses griffes.\n**Griffes.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (2d4+1) dégâts tranchants.\n**Morsure.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une créature. *Touché :* 4 (1d6+1) dégâts perforants. La cible doit réussir un jet de sauvegarde de Constitution DD 11, sans quoi elle est empoisonnée pendant 1 minute. Si elle rate ce test de 5 ou plus, elle est également paralysée tant qu'elle reste victime de ce poison. La cible empoisonnée peut refaire son jet de sauvegarde à chacun de ses tours. Elle met un terme à l'effet dès qu'elle en réussit un.",
+ "portrait": "/data/images/67d6008e72_monstre-thri-kreen.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 283 · image : Manuel des monstres p. 282",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ]
+}

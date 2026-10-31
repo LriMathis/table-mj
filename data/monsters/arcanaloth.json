@@ -1,0 +1,43 @@
+{
+ "id": "arcanaloth",
+ "name": "Arcanaloth",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "caNote": "armure naturelle",
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 20,
+  "SAG": 16,
+  "CHA": 17
+ },
+ "saves": "DEX +5, INT +9, SAG +7, CHA +7",
+ "skills": "Arcanes +13, Perception +7, Perspicacité +9, Supercherie +9",
+ "resistances": "froid, feu, foudre ; contondants, perforants et tranchants émanant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "senses": "vision parfaite 36 m, Perception passive 17",
+ "languages": "toutes, télépathie 36 m",
+ "traits": "**Armes magiques.** Les attaques d'arme de l'arcanaloth sont de nature magique.\n**Incantation.** L'arcanaloth est un lanceur de sorts de niveau 16 qui utilise l'Intelligence comme caractéristique d'incantation (DD des jets de sauvegarde : 17, +9 pour toucher avec un sort d'attaque). Il a préparé les sorts de magicien suivants.\n- Tours de magie (à volonté) : *illusion mineure, main du mage, prestidigitation, trait de feu*\n- Niveau 1 (4 emplacements) : *bouclier, détection de la magie, disque flottant de Tenser, identification*\n- Niveau 2 (3 emplacements) : *détection des pensées, force fantasmagorique, image miroir, suggestion*\n- Niveau 3 (3 emplacements) : *boule de feu, contresort, peur*\n- Niveau 4 (3 emplacements) : *bannissement, porte dimensionnelle*\n- Niveau 5 (2 emplacements) : *contacter un autre plan, immobiliser un monstre*\n- Niveau 6 (1 emplacement) : *chaîne d'éclairs*\n- Niveau 7 (1 emplacement) : *doigt de mort*\n- Niveau 8 (1 emplacement) : *esprit impénétrable*\n**Incantation innée.** L'arcanaloth utilise le Charisme comme caractéristique d'incantation innée (DD du jet de sauvegarde contre ses sorts : 15). Il peut lancer les sorts suivants de façon innée, sans dépenser de composantes matérielles.\n- À volonté : *invisibilité* (sur soi uniquement), *métal brûlant, modification d'apparence, projectile magique*\n**Résistance à la magie.** L'arcanaloth est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Griffes.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 8 (2d4+3) dégâts tranchants. La cible doit faire un jet de sauvegarde de Constitution DD 14. Si elle échoue, elle subit 10 (3d6) dégâts de poison, la moitié seulement si elle réussit.\n**Téléportation.** L'arcanaloth se téléporte par magie, avec tout l'équipement qu'il porte et transporte, jusqu'à un emplacement inoccupé situé dans son champ de vision et dans un rayon maximum de 18 mètres.",
+ "portrait": "/data/images/f39f9d507b_monstre-arcanaloth.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 314 · image : Manuel des monstres p. 313",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d4+3",
+   "type": "tranchant"
+  }
+ ]
+}

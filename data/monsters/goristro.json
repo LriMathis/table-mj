@@ -1,0 +1,55 @@
+{
+ "id": "goristro",
+ "name": "Goristro",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 19,
+ "caNote": "armure naturelle",
+ "hp": 310,
+ "hpFormula": "23d12+161",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 11,
+  "CON": 25,
+  "INT": 6,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "saves": "FOR +13, DEX +6, CON +13, SAG +7",
+ "skills": "Perception +7",
+ "resistances": "feu, foudre, froid ; contondants, perforants et tranchants infligés par des attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision dans le noir 36 m, Perception passive 17",
+ "languages": "abyssal",
+ "traits": "**Charge.** Si le goristro se déplace de 4,50 mètres au moins en ligne droite vers une cible contre laquelle il réussit ensuite une attaque de cornes lors du même tour, celle-ci subit 38 (7d10) dégâts perforants supplémentaires. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Force DD 21 pour ne pas être repoussée sur une distance de 6 mètres et jetée à terre.\n**Mémoire des labyrinthes.** Le goristro se souvient parfaitement de tous les itinéraires déjà empruntés.\n**Monstre assiégeur.** Le goristro inflige des dégâts doublés aux objets et aux structures.\n**Résistance à la magie.** Le goristro est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le goristro effectue trois attaques : deux avec ses poings et une avec ses sabots.\n**Coup de corne.** *Attaque d'arme au corps à corps :* +13 pour toucher, allonge 3 m, une cible. *Touché :* 45 (7d10+7) dégâts perforants.\n**Poing.** *Attaque d'arme au corps à corps :* +13 pour toucher, allonge 3 m, une cible. *Touché :* 20 (3d8+7) dégâts contondants.\n**Sabot.** *Attaque d'arme au corps à corps :* +13 pour toucher, allonge 1,50 m, une cible. *Touché :* 23 (3d10+7) dégâts contondants. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Force DD 21 pour ne pas être jetée à terre.",
+ "portrait": "/data/images/b87653afc6_monstre-goristro.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 54 · image : Manuel des monstres p. 53",
+ "attacks": [
+  {
+   "name": "Coup de corne",
+   "bonus": 13,
+   "damage": "7d10+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Poing",
+   "bonus": 13,
+   "damage": "3d8+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Sabot",
+   "bonus": 13,
+   "damage": "3d10+7",
+   "type": "contondant"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "nuee-de-gibberlings",
+ "name": "Swarm of Gibberlings",
+ "type": "Nuée de taille petite (Fiélon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 38,
+ "hpFormula": "7d10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 8",
+ "languages": "Gibberling",
+ "traits": "**Aversion pour feu.** Si l'essaim prend dégâts de feu, il a un désavantage sur jets d'attaque et tests de caractéristique jusqu'à la fin de son prochain tour.\n**Gibberish incessant.** Tout non-gibberling qui se trouve à l'intérieur de 18 m de l'essaim et n'a pas l'état assourdi a un désavantage sur jet de sauvegarde de Constitution pour maintenir concentration sur les sorts et effets similaires.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour accueillir un Petit gibberling. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Multiattaques.** L'essaim fait deux attaques de dents Gnashing.\n**Dents grincantes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 0 m, une cible dans l'espace de l'essaim. Touché : 14 (4d4 + 4) dégâts perforants, ou 9 (2d4 + 4) dégâts perforants si l'essaim a la moitié de son points de vie ou moins.",
+ "attacks": [
+  {
+   "name": "Dents grincantes",
+   "bonus": 6,
+   "damage": "4d4+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c61a62606f_monstre-nuee-de-gibberlings.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Nuée de Gibberlings",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

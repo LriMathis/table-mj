@@ -1,0 +1,41 @@
+{
+ "id": "nuee-de-dretches",
+ "name": "Swarm of Dretches",
+ "type": "Nuée de taille petite (Fiélon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 5,
+  "SAG": 8,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "Abyssal; télépathie 18 m (travaille uniquement avec des créatures qui comprennent Abyssal)",
+ "traits": "**Fétide Aura.** Jet de sauvegarde de Constitution : DD 12, toute créature qui commence son tour dans une Emanation 3 m provenant de l'essaim. Échec : La cible a l'état empoisonné jusqu'au début de son prochain tour. Alors qu'empoisonné, la cible peut prendre soit une action ou un action bonus à son tour, pas les deux, et elle ne peut pas prendre des Réactions.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour une Petite créature. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Multiattaques.** L'essaim fait deux attaques de Rend.\n**Rend.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 12 (3d6 + 2) dégâts tranchants ou 9 (3d4 + 2) dégâts tranchants si l'essaim est en sang.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 4,
+   "damage": "3d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a91624593a_monstre-nuee-de-dretches.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Nuée de Dretches",
+ "resistances": "contondant, froid, feu, foudre, perforant, tranchant",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi"
+}

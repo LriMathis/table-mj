@@ -1,0 +1,46 @@
+{
+ "id": "layla-le-lezard",
+ "name": "Layla the Lizard",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une créature. Touché : 9 (2d6 + 2) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 2,
+   "damage": "2d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f8a7570535_monstre-layla-le-lezard.webp",
+ "notes": "",
+ "source": "The Lost Dungeon of Rickedness: Big Rick Energy (5e.tools, traduction automatique)",
+ "aka": "Layla le lézard",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

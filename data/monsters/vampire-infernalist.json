@@ -1,0 +1,43 @@
+{
+ "id": "vampire-infernalist",
+ "name": "Vampire Infernalist",
+ "type": "Mort-vivant (magicien)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 16,
+ "hp": 172,
+ "hpFormula": "23d8+69",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 20,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m (unimpeded by magical Darkness), Perception passive 18",
+ "languages": "commun, infernal",
+ "traits": "**Résistance légendaire (3/jour, ou 4/jour à Lair).** Si le vampire échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Échappement de la fausseté.** Si le vampire tombe à 0 points de vie à l'extérieur de son lieu de repos, le vampire utilise Shape-Shift pour devenir brume (aucune action requise). S'il ne peut pas utiliser Shape-Shift, il est détruit.\nBien qu'il ait 0 points de vie sous forme de brouillard, il ne peut pas revenir à sa forme de vampire, et il doit atteindre son lieu de repos dans les 2 heures ou être détruit. Une fois dans son lieu de repos, il revient à sa forme vampire et a l'état paralysé jusqu'à ce qu'il retrouve n'importe quel points de vie, et il retrouve 1 points de vie après avoir passé 1 heure là-bas.\n**Faiblesse du vampire.** Le vampire a ces faiblesses :\n- **Interdiction** Le vampire ne peut entrer dans une résidence sans une invitation d'un occupant.\n- **Eau courante** Le vampire prend 20 dégâts d'acide s'il finit son tour dans l'eau courante.\n- **Attrapez le cœur** Si une arme qui traite dégâts perforants est jetée dans le cœur du vampire alors que le vampire a l'état neutralisé à son lieu de repos, le vampire a l'état paralysé jusqu'à ce que l'arme soit enlevée.\n- **Lumière solaire** Le vampire prend 20 dégâts radiants s'il commence son tour dans la lumière du soleil. En plein soleil, il présente un désavantage sur jets d'attaque et tests de caractéristique.",
+ "actionsText": "**Multiattaque (formulaire de vampire seulement).** Le vampire fait deux attaques de la griffe Hellfire et utilise Bite.\n**Griffe de feu d'enfer (Forme de vampire seulement).** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts tranchants plus 10 (3d6) dégâts de feu. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 17) de l'une des deux griffes.\n**Bite (Forme d'imperméabilisation ou de vampire seulement).** Jet de sauvegarde de Constitution : DD 18, une créature dans 1,50 m qui est volontaire ou qui a l'état agrippé, neutralisé, ou entravé. Échec : 6 (1d4 + 4) dégâts perforants plus 16 (3d10) dégâts nécrotiques et la créature perd son plus haut niveau disponible emplacement de sort (le cas échéant). Le maximum de points de vie de la cible diminue d'un montant égal au dégâts nécrotiques pris, et le vampire récupère points de vie égal à ce montant. Un Humanoïde réduit à 0 points de vie par ces dégâts puis enterré monte le coucher de soleil suivant comme un Vampire Spawn sous le contrôle du vampire.\n**Détection orthographique.** Le vampire lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection de la magie, Détection des pensées, Dissipation de la magie, Boule de feu (version de niveau 4), Main de mage, Prestidigitation\n- 1/jour : Mur de feu\n- 2/jour : Scrutation",
+ "attacks": [
+  {
+   "name": "Griffe de feu d'enfer (Forme de vampire seulement)",
+   "bonus": 9,
+   "damage": "2d8+4",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/cb342e8a80_monstre-vampire-infernalist.webp",
+ "notes": "",
+ "source": "Astarion's Book of Hungers (5e.tools, traduction automatique)",
+ "saves": "CON +8, INT +10",
+ "skills": "Arcanes +10, Perception +8, Religion +10, Discrétion +8",
+ "resistances": "feu, nécrotique, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Forme-filtre.** Si le vampire n'est pas dans la lumière du soleil ou l'eau courante, il forme un Tiny imp (Speed 6 m, Fly Speed 12 m), ou un nuage moyen de brouillard (Speed 1,50 m, Fly Speed 6 m [hover]), ou il retourne à sa forme vampire. Tout ce qu'il porte se transforme avec.\nBien que sous forme imp, les statistiques du jeu du vampire, autres que sa taille et sa vitesse, sont inchangées.\nAlors que sous forme de brouillard, le vampire ne peut prendre aucune action, parler, ou manipuler des objets. Il est sans poids et peut entrer dans l'espace d'un ennemi et s'arrêter là. Si l'air peut passer dans un espace, la brume peut le faire, mais il ne peut pas passer dans le liquide. Il a la résistance à tous les dégâts, sauf les dégâts qu'il prend de la lumière du soleil.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, vampire infernalist peut entreprendre l'une des actions ci-après.\n**Grève contre le feu de l'enfer.** Le vampire passe à la moitié de sa vitesse, et il fait une attaque de la griffe Hellfire.\n**Majesté infernale.** Jet de sauvegarde de Charisme : DD 17, chaque créature dans une Emanation 6 m originaire du vampire. Échec : 9 (2d8) dégâts psychiques, et la cible a l'état effrayé jusqu'au début de son prochain tour. Réussite : Demi-dégâts seulement. Échec ou réussite : Le vampire ne peut pas reprendre cette action avant le début de son prochain tour.\n**Téléportation.** Le vampire téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

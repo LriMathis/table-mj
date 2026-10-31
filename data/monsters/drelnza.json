@@ -1,0 +1,49 @@
+{
+ "id": "drelnza",
+ "name": "Drelnza",
+ "type": "Mort-vivant (vampire)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 187,
+ "hpFormula": "22d8+88",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "abyssal, commun, géant",
+ "traits": "**Résistance légendaire (3/jour).** Si Drelnza échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Matériel spécial.** Drelnza a des spires Heretic.\n**Escalade des araignées.** Drelnza peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Hypersensibilité à la lumière du soleil.** Drelnza prend 20 dégâts radiants quand elle commence son tour de soleil. En plein soleil, elle a un désavantage sur jets d'attaque et tests de caractéristique.",
+ "actionsText": "**Multiattaques.** Drelnza fait une attaque Bite et une attaque hérétiques.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature. Touché : 7 (1d6 + 4) dégâts perforants plus 10 (3d6) dégâts nécrotiques. La maximum de points de vie de la cible est réduite d'un montant égal à la dégâts nécrotiques prise, et Drelnza retrouve la points de vie égale à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0. Un humanoïde tué de cette façon puis enterré se lève la nuit suivante comme un vampire frayer sous le contrôle de Drelnza.\n**Hérétique.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m une cible. Touché : 40 (6d10 + 7) dégâts tranchants, et la cible doit réussir sur un DD 17 jet de sauvegarde de Constitution ou avoir l'état paralysé jusqu'au début du prochain tour de Drelnza. Les célébrités ont un désavantage sur le jet de sauvegarde.\n**Charme.** Drelnza cible un humanoïde qu'elle peut voir au sein de 9 m elle-même. La cible doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou avoir l'état charmé. Alors que charmé de cette façon, la cible considère Drelnza comme un ami de confiance à être écouté et protégé. La cible n'est pas sous le contrôle de Drelnza, mais elle prend ses demandes et ses actions de la manière la plus favorable.\nChaque fois que Drelnza ou ses alliés font quelque chose de dangereux pour la cible, il peut répéter le jet de sauvegarde, mettant fin à l'effet sur lui-même sur un succès. Sinon, l'effet dure 24 heures ou jusqu'à ce que Drelnza soit détruit, soit sur un plan d'existence différent de la cible, soit prend un action bonus pour mettre fin à l'effet.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "1d6+4",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Hérétique",
+   "bonus": 12,
+   "damage": "6d10+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/68ff22004d_monstre-drelnza.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "DEX +9, INT +8, SAG +7, CHA +9",
+ "skills": "Arcanes +8, Tromperie +9, Perception +7",
+ "resistances": "nécrotique",
+ "conditionImmunities": "épuisement",
+ "reactions": "**Bouge.** Immédiatement après qu'une créature Drelnza puisse voir son tour se terminer, Drelnza se déplace à sa vitesse sans provoquer d'attaques d'opportunités.\n**Parry.** Drelnza ajoute 5 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, elle doit voir l'agresseur et manier une arme de mêlée."
+}

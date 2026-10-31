@@ -1,0 +1,48 @@
+{
+ "id": "darkweaver",
+ "name": "Darkweaver",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 149,
+ "hpFormula": "23d8+46",
+ "vitesse": "15 m, escalade 15 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "abyssal, profond, télépathie 36 m",
+ "traits": "**Forme obscure.** Alors que l'écrevisse est dans la lumière ou l'obscurité, jets d'attaque contre elle sont faites avec désavantage à moins que l'écrevisse ait l'état neutralisé.\n**Escalade des araignées.** Le tisserand peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Hypersensibilité à la lumière du soleil.** Le tisserand prend 10 dégâts radiants quand il commence son tour en plein soleil. En plein soleil, il présente un désavantage sur jets d'attaque et tests de caractéristique.",
+ "actionsText": "**Multiattaques.** Le tisserand fait deux attaques de Shadow Web et une attaque de Bite. Il peut utiliser Reel après l'une de ces attaques.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 13 (3d6 + 3) dégâts perforants plus 17 (5d6) dégâts nécrotiques, et si la cible est une créature, la maximum de points de vie de la cible est réduite d'une quantité égale à la dégâts nécrotiques prise. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0.\n**Toile Ombre.** Attaque d'arme à distance : +7 au toucher, allonge 36 m, une créature. Touché : 16 (3d10) dégâts nécrotiques, et la cible a l'état agrippé (évasion DD 15). La toile d'ombre peut être attaquée et détruite (CA 16; 20 points de vie ; vulnérabilité à dégâts radiants ; immunité à la bludgeon, nécrose, poison et dégâts psychiques). Le tisserand peut battre jusqu'à six créatures à la fois en utilisant sa toile d'ombre.\n**Bobine.** Le tisserand tire chaque créature qu'il a agrippé jusqu'à 18 m vers lui-même.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "3d6+3",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Toile Ombre",
+   "bonus": 7,
+   "damage": "3d10",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/b31e2c8ef6_monstre-darkweaver.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, SAG +6",
+ "skills": "Perception +6, Discrétion +7",
+ "resistances": "froid",
+ "immunities": "nécrotique"
+}

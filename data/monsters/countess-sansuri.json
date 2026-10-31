@@ -1,0 +1,46 @@
+{
+ "id": "countess-sansuri",
+ "name": "Countess Sansuri",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 14,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 16,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "aérien, commun, géant",
+ "traits": "**Sensation de Keen.** Le géant a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Découpe intérieure.** Le caractéristique d'incantation inné du géant est Charisme. Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Nappe de brouillard, Lumière\n- 1/jour chacun : Contrôle du climat, Forme gazeuse\n- 3/jour chacun : Feuille morte, Vol, Foulée brumeuse, Télékinésie",
+ "actionsText": "**Multiattaques.** Sansuri fait deux attaques de lance.\n**Lancer.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts perforants.\n**Roche.** Attaque d'arme à distance : +12 au toucher, portée 18/72 m., une cible. Touché : 30 (4d10 + 8) dégâts contondants.\n**Détection orthographique.** Sansuri lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15 ; +7 au toucher avec attaques de sort):\n- À volonté : Main de mage, Message, Prestidigitation, Rayon de givre\n- 1/jour chacun : Globe d'invulnérabilité, Hâte, Motif hypnotique, Tempête de grêle, Éclair, Épée de Mordenkainen, Mur de force\n- 2/jour chacun : Verrou magique, Bourrasque, Invisibilité, Projectile magique, Serviteur invisible",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 12,
+   "damage": "3d8+8",
+   "type": "perforant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 12,
+   "damage": "4d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4494510b1c_monstre-countess-sansuri.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, SAG +7, CHA +7",
+ "skills": "Perspicacité +7, Perception +7"
+}

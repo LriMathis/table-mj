@@ -1,0 +1,41 @@
+{
+ "id": "brazen-gorgone",
+ "name": "Brazen Gorgon",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 19,
+ "hp": 161,
+ "hpFormula": "17d10+68",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 19,
+  "INT": 2,
+  "SAG": 14,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 20",
+ "languages": "—",
+ "traits": "**Aura de flamme.** À la fin de chaque tour du gorgon, chaque créature dans une émanation 1,50 m provenant du gorgon prend 13 (3d8) dégâts de feu.\n**Éclairage.** Le gorgon jette la Lumière Brillante dans un rayon 3 m et la Lumière Dim pour un 3 m supplémentaire.",
+ "actionsText": "**Multiattaques.** Le Gorgon fait deux attaques Gore.\n**Gore.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts perforants plus 10 (3d6) dégâts de feu.\n**Charge de fusion (Recharge 5-6).** Le gorgon se déplace jusqu'à sa vitesse sans provoquer Opportunity Attacks et peut se déplacer à travers les espaces des créatures moyennes ou plus petites. Chaque fois que le gorgon entre dans l'espace d'une créature pour la première fois au cours de ce mouvement, cette cible est soumise à l'effet suivant. Jet de sauvegarde de Dextérité : DD 16. Échec : 13 (2d8 + 4) dégâts perforants plus 13 (3d8) dégâts de feu, et la cible est tirée dans l'espace du gorgon et a l'état agrippé (évasion DD 14); si le gorgon a déjà une créature agrippé, la cible a l'état à terre à la place. Jusqu'à ce que le grappin se termine, la cible a l'état entravé. Lorsque le gorgon se déplace, la cible agrippé se déplace avec elle, ce qui ne coûte aucun mouvement supplémentaire.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/9e4ce86b0b_monstre-brazen-gorgone.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Brazen gorgone",
+ "skills": "Perception +10",
+ "immunities": "feu",
+ "conditionImmunities": "épuisement, pétrifié"
+}

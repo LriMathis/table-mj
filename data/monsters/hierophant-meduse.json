@@ -1,0 +1,63 @@
+{
+ "id": "hierophant-meduse",
+ "name": "Hierophant Medusa",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "tout alignement",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 17,
+ "hp": 237,
+ "hpFormula": "25d10+100",
+ "vitesse": "12 m, escalade 12 m, nage 12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 20,
+  "CON": 18,
+  "INT": 15,
+  "SAG": 23,
+  "CHA": 22
+ },
+ "senses": "Perception passive 22",
+ "languages": "Fréquent plus trois langues (Abyssale, Céleste, Druidique, ou Infernal recommandé)",
+ "traits": "**Appel de la Dévotion (1/jour).** La médusa peut lancer le sort Résurrection, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation.\n**Résistance légendaire (4/jour).** Si la médusa échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** La méduse fait une attaque Constrict, une attaque Final Blade et une attaque Snake Hair. Alternativement, il fait deux attaques de grève terribles.\n**Constriction.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 16 (3d6 + 6) dégâts contondants, et si la cible est une créature moyenne ou plus petite, il a l'état agrippé (évasion DD 20). Jusqu'à ce que ce grappin se termine, la cible a l'état entravé, et la médusa ne peut pas constricter une autre créature.\n**Lame finale.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants plus 21 (6d6) dégâts de force. Si la cible a au moins une tête et que la médusa a roulé un 20 sur la jet d'attaque, la cible est décapitée et meurt si elle échoue une DD 20 jet de sauvegarde de Constitution et ne peut pas survivre sans cette tête. Une cible est à l'abri de cet effet si elle ne prend aucun des dégâts, a des actions légendaires, ou est Énorme ou plus grande. Une telle créature prend un 28 (8d6) dégâts de force supplémentaire du coup.\n**Poil de serpent.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 11 (1d10 + 6) dégâts perforants plus 5 (1d10) dégâts de poison.\n**C'est une grève terrible.** Attaque de sort à distance : +12 au toucher, portée 36 m, une créature. Touché : 22 (3d10 + 6) dégâts radiants, et la cible a l'état aveuglé jusqu'à la fin de son prochain tour.\n**Détection orthographique.** La médusa lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Lumière, Stabilisation, Thaumaturgie\n- 1/jour chacun : Barrière de lames, Divination, Restauration supérieure\n- 2/jour : Soins de groupe (châssé à de niveau 8)",
+ "attacks": [
+  {
+   "name": "Constriction",
+   "bonus": 12,
+   "damage": "3d6+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Lame finale",
+   "bonus": 12,
+   "damage": "2d6+6",
+   "type": "tranchant + force"
+  },
+  {
+   "name": "Poil de serpent",
+   "bonus": 12,
+   "damage": "1d10+6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "C'est une grève terrible",
+   "bonus": 12,
+   "damage": "3d10+6",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/05ea9b1851_monstre-hierophant-meduse.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Hierophant méduse",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, SAG +12",
+ "skills": "Perspicacité +12, Perception +12, Persuasion +12, Religion +8, Discrétion +11",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, pétrifié, empoisonné",
+ "bonusActions": "**Gaz pétrifiant (Recharge 4-6).** La médusa libère la magie pétrifiante de ses yeux dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Constitution si elle n'a pas l'état aveuglé. Si le jet de sauvegarde échoue par 5 ou plus, la créature a l'état pétrifié. Sinon, sur un sauvegarde raté, la créature prend 10 (3d6) dégâts de force, commence à tourner en pierre, et a l'état entravé. La créature entravé doit répéter la jet de sauvegarde à la fin de son prochain tour. Sur une sauvegarde échouée, il a l'état pétrifié, et sur une sauvegarde réussie, l'effet se termine sur elle. La pétrification dure jusqu'à ce que la créature soit libérée par le sort Restauration supérieure ou autre magie.\nUne créature peut utiliser sa réaction, si disponible, pour fermer les yeux pour éviter le jet de sauvegarde. Si la créature le fait, elle a l'état aveuglé jusqu'à la fin de son prochain tour.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, hierophant méduse peut entreprendre l'une des actions ci-après.\n**Bouge.** La méduse se déplace à sa vitesse sans provoquer des attaques d'opportunité.\n**Blast terrible (coûts 2 actions).** La méduse fait une attaque de grève.\n**Final Slash (coûts 3 actions).** La médusa fait une attaque finale avec avantage."
+}

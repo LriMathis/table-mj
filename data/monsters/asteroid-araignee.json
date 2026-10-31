@@ -1,0 +1,48 @@
+{
+ "id": "asteroid-araignee",
+ "name": "Asteroid Spider",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 17,
+ "hp": 348,
+ "hpFormula": "24d20+96",
+ "vitesse": "18 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 26,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Vision aveugle 36 m while the spider's eyes are closed, Vision dans le noir 36 m, Perception passive 21",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Si l'araignée est immobile, a les yeux et la bouche fermés, et a ses jambes enveloppées autour de son corps au début du combat, elle a l'avantage sur son rouleau d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte de l'araignée, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que l'araignée est autre chose qu'un astéroïde.\n**Résistance légendaire (3/jour).** Si l'araignée échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Nature inhabituelle.** L'araignée ne demande pas d'air.",
+ "actionsText": "**Multiattaques.** L'araignée fait deux attaques de Web Strand, utilise Reel, et fait deux attaques de Bite.\n**Morceau.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts perforants plus 10 (3d6) dégâts d'acide.\n**Volet Web.** Attaque d'arme à distance : +13 au toucher, allonge 36 m, une créature. Touché : La cible est agrippé (évasion DD 18). Le brin web peut être attaqué et détruit (CA 12; 20 points de vie ; vulnérabilité à dégâts de feu ; immunité au bludgeoning, au poison et à dégâts psychiques. L'araignée peut battre jusqu'à six créatures à la fois en utilisant ses brins de toile.\n**Bobine.** L'araignée tire chaque créature agrippé par elle jusqu'à 18 m droit vers elle-même.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 13,
+   "damage": "3d8+8",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Volet Web",
+   "bonus": 13,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/6e884bdd17_monstre-asteroid-araignee.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 1: Spelljammer Creatures (5e.tools, traduction automatique)",
+ "aka": "Asteroid araignée",
+ "caNote": "armure naturelle",
+ "saves": "CON +9, SAG +6",
+ "skills": "Perception +11, Discrétion +5",
+ "bonusActions": "**Navire de chasse (1/jour).** L'araignée tisse une toile magique autour d'un vaisseau enchanteur qu'elle peut voir en 36 m de lui-même. La toile dure 1 minute et supprime la magie de toute barre envoûtante à bord du navire. Les ponts et autres surfaces du navire qui ne sont pas fermées deviennent des terrains difficiles jusqu'à ce que l'effet se termine. La toile est imperméable aux dégâts mais est détruite par une coulée réussie de Dissipation de la magie (DD 18)."
+}

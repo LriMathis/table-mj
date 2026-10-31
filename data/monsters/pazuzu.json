@@ -1,0 +1,51 @@
+{
+ "id": "pazuzu",
+ "name": "Pazuzu",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 21,
+ "hp": 405,
+ "hpFormula": "30d10+240",
+ "vitesse": "9 m, vol 27 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 30,
+  "CON": 27,
+  "INT": 23,
+  "SAG": 18,
+  "CHA": 27
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 22",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Aura de Servile Avians.** Toute créature maléfique à vitesse de vol naturelle et à une CR de 20 ou moins doit faire un DD 21 jet de sauvegarde de Sagesse s'ils tentent d'attaquer Pazuzu. Une sauvegarde ratée signifie que leur action est gâchée et que l'attaque échoue. Sur un jet de sauvegarde réussi, la cible est à l'abri de cet effet dans le futur.\n**Résistance légendaire (3/jour).** Si Pazuzu échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Pazuzu a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les armes de Pazuzu sont magiques.",
+ "actionsText": "**Multiattaques.** Pazuzu fait deux Grandes Paroles ou Talon attaques.\n**Grande épée.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants plus 7 (2d6) dégâts nécrotiques.\n**Talon.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d8 + 6) dégâts tranchants plus 9 (2d8) dégâts de poison.\n**Armes respiratoires (Recharge 5-6).** Pazuzu exhale de l'acide toxique dans une ligne 30 m large. Chaque créature frappée par l'acide doit faire un DD 21 jet de sauvegarde de Dextérité, en prenant 70 (20d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature tuée par cette arme à souffle fond et est désintégrée.\n**Détection orthographique.** Pazuzu lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 24) :\n- À volonté : Projection astrale, Flétrissement, Charme-personne, Détection du mal et du bien, Dissipation de la magie, Sanctification, Fléau d'insectes, Télékinésie, Téléportation, Marche sur le vent\n- 1/jour : Souhait\n- 2/jour chacun : Domination de personne, Motif hypnotique, Changement de plan (seulement lui-même et les créatures volontaires)",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 14,
+   "damage": "2d6+6",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Talon",
+   "bonus": 14,
+   "damage": "2d8+6",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/ff948429c4_monstre-pazuzu.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +18, CON +16, CHA +16",
+ "skills": "Perception +12, Persuasion +16",
+ "resistances": "acide, froid, feu",
+ "immunities": "foudre, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "bonusActions": "**Éliminer.** Pazuzu lance Dissipation de la magie, dissipant automatiquement tout sort de de niveau 6 ou inférieur sur la cible.\n**Une grande épée hâtée.** Pazuzu utilise sa grande épée magique pour lui accorder les capacités suivantes jusqu'au début de son prochain tour. La vitesse de Pazuzu est maintenant doublée, il gagne un bonus de +2 à CA, a un avantage sur jet de sauvegarde de Dextérité et gagne une attaque supplémentaire Greatsword.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, pazuzu peut entreprendre l'une des actions ci-après.\n**Désarmer.** Pazuzu essaie de tirer une arme de la main d'une cible. Il fait une attaque Greatsword et si elle frappe, la cible ne prend pas de dégâts, mais doit plutôt faire un DD 22 jet de sauvegarde de Force. Si la cible échoue au jet de sauvegarde, l'arme ciblée vole au 3 m dans une direction aléatoire.\n**Pois létal.** Pazuzu attaque une fois avec son Greatsword ou Talon et peut alors voler jusqu'à 18 m. Le mouvement de Pazuzu ne provoque pas d'attaques d'opportunités."
+}

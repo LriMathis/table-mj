@@ -1,0 +1,39 @@
+{
+ "id": "chevre",
+ "name": "Chèvre",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 4,
+ "hpFormula": "1d8",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 10,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "saves": "FOR +2",
+ "skills": "Perception +2",
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Coup de bélier.** Corps à corps : +2, allonge 1,50 m. Touché : 1 dégât contondant, ou 2 (1d4) dégâts contondants si la chèvre s’est déplacée d’au moins 6 m en ligne droite vers la cible juste avant de la toucher.",
+ "attacks": [
+  {
+   "name": "Coup de bélier",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/a43c655d58_monstre-chevre.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

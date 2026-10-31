@@ -1,0 +1,47 @@
+{
+ "id": "monstrous-peryton",
+ "name": "Monstrous Peryton",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 14,
+ "hp": 144,
+ "hpFormula": "17d10+51",
+ "vitesse": "6 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 9,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "C'est commun et elfique mais il ne peut pas parler.",
+ "traits": "**Volée.** Le peryton ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.\n**La vue et l'odeur de Keen.** Le peryton a un avantage sur tests de Sagesse (Perception) qui repose sur la vue ou l'odeur.\n**Résistance légendaire (3/jour).** Si le peryton échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le peryton fait deux attaques : une avec son gore et une avec ses talons.\n**Gore.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants.\n**Talons.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d10 + 5) dégâts tranchants.\n**Ombre de distorsion.** Le peryton choisit jusqu'à trois créatures au sein de 18 m qu'il peut voir. Chaque créature doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou devenir maudite. Bien que maudite, chaque fois que la créature fait un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, elle doit rouler un d4 et soustraire ce nombre du rouleau. Une créature maudite peut répéter ce jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même avec un succès. Une créature qui réussit sur ce jet de sauvegarde est immunisée contre l'ombre de Warp de ce peryton pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Talons",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a8830f9c1d_monstre-monstrous-peryton.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +8, DEX +6, SAG +6",
+ "skills": "Perception +6",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, monstrous péryton peut entreprendre l'une des actions ci-après.\n**Détecter.** Le peryton fait un test de Sagesse (Perception).\n**Attaque de Talons.** Le peryton fait une attaque avec ses talons.\n**Attaque de plongée (coûts 2 actions).** Le peryton se déplace à sa vitesse vers une cible de son choix. Il fait ensuite une attaque de gore qui traite un 9 (2d8) dégâts perforants supplémentaire sur un coup."
+}

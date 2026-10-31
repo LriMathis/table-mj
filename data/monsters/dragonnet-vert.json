@@ -1,0 +1,41 @@
+{
+ "id": "dragonnet-vert",
+ "name": "Dragonnet vert",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 17,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "9 m, vol 18 m, nage 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "saves": "DEX +3, SAG +2",
+ "skills": "Discrétion +3, Perception +4",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer sous l’eau comme à l’air libre.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue deux attaques de Saignée.\n**Saignée.** Corps à corps : +4, allonge 1,50 m. Touché : 7 (1d10 + 2) dégâts tranchants plus 3 (1d6) dégâts de poison.\n**Souffle empoisonné (recharge 5–6).** JS Constitution : DD 11, chaque créature dans un Cône de 4,50 m. Échec : 21 (6d6) dégâts de poison. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 4,
+   "damage": "1d10+2+1d6",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/a91c7806c2_monstre-dragonnet-vert.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 97"
+}

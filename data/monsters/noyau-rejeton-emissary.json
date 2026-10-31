@@ -1,0 +1,43 @@
+{
+ "id": "noyau-rejeton-emissary",
+ "name": "Core Spawn Emissary",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 102,
+ "hpFormula": "12d8+48",
+ "vitesse": "12 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision aveugle 9 m, Perception des vibrations 18 m, Perception passive 14",
+ "languages": "télépathie 36 m, Ça comprend le discours profond mais ne peut pas parler",
+ "traits": "**Résistance magique.** L'émissaire a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'émissaire fait trois attaques de talons.\n**Talons.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 14 (2d10 + 3) dégâts tranchants.\n**Séduisant Thrum (Recharge 5-6).** L'émissaire émet un humiliant mais séduisant. Chaque créature au sein de 6 m de l'émissaire qui peut l'entendre et qui n'est pas une aberration doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être charmé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Spores de cristal (Recharge 6).** Un nuage 4,50 m -radius de spores cristallines toxiques s'étend de l'émissaire. Les spores s'étendent autour des coins. Chaque créature de la région doit réussir sur un DD 14 jet de sauvegarde de Constitution ou devenir empoisonné. Alors qu'empoisonné de cette façon, une créature prend 11 (2d10) dégâts de poison au début de chacun de ses tours. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Talons",
+   "bonus": 6,
+   "damage": "2d10+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/bc287a6257_monstre-noyau-rejeton-emissary.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Noyau rejeton Emissary",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, SAG +4, CHA +2",
+ "skills": "Perception +4",
+ "immunities": "psychique",
+ "conditionImmunities": "aveuglé"
+}

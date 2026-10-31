@@ -1,0 +1,54 @@
+{
+ "id": "phaerimm",
+ "name": "Phaerimm",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 170,
+ "hpFormula": "20d10+60",
+ "vitesse": "4,50 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 19,
+  "SAG": 20,
+  "CHA": 23
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 15",
+ "languages": "commun des profondeurs, comprend Fréquent, télépathie 30 m",
+ "traits": "**Vue d'Arcane.** Le phaerimm discerne l'emplacement de toutes les auras magiques en vue et sait quelles créatures au sein de 18 m sont des orthographes.\n**Concentration prolongée.** Le phaerimm peut se concentrer sur deux sorts différents en même temps. Si concentration est cassé, les deux sorts s'effacent immédiatement.\n**Formulaire immuable.** Le phaerimm est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Résistance magique.** Le phaerimm a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le phaerimm fait quatre attaques de griffe et puis fait une attaque de Bite ou Stinger. Alternativement, il utilise Spellcasting et fait ensuite deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 18 (2d12 + 5) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants.\n**Aiguille.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants. Si la cible échoue un DD 18 jet de sauvegarde de Constitution, elle a l'état paralysé pendant 1 minute. Le poison du phaerimm force la cible paralysé à flotter 1,50 m au-dessus du sol. La cible peut répéter le jet de sauvegarde à la fin de chaque tour.\n**Implant.** Le phaerimm fait une attaque Stinger contre une cible paralysé. Si la piqûre frappe, un œuf est implanté dans la cible. Cet œuf ne peut être enlevé que par des sorts qui guérissent maladie, comme une restauration moindre. Si l'œuf n'est pas enlevé dans les 90 jours, la larve émerge, et l'hôte est tué. Un phaerimm a un seul oeuf, donc ne peut utiliser cette capacité qu'une seule fois.\n**Détection orthographique.** Le phaerimm lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 19):\n- À volonté : Main de mage, Illusion mineure, Télékinésie\n- 1/jour chacun : Chaîne d'éclairs, Confusion, Domination de monstre, Invisibilité supérieure, Immobilisation de monstre, Suggestion de groupe, Rayons prismatiques, Inversion de la gravité\n- 2/jour chacun : Couronne du dément, Détection des pensées, Domination de personne, Peur, Boule de feu, Force fantasmagorique, Projectile magique, Bouclier",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "2d12+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Aiguille",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/95d168d700_monstre-phaerimm.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +9, CHA +11",
+ "skills": "Arcanes +9, Perspicacité +10",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "pétrifié"
+}

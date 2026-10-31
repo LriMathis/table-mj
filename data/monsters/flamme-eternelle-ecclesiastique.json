@@ -1,0 +1,40 @@
+{
+ "id": "flamme-eternelle-ecclesiastique",
+ "name": "Eternal Flame Priest",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 16
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, igné",
+ "traits": "**Détection orthographique.** Le prêtre est un épeautre de niveau 5. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Il connaît les sorts de sorciers suivants:\n- Sorts mineurs (à volonté) : Contrôle des flammes, Embrasement, Trait de feu, Lumière, Illusion mineure\n- Niveau 1 (4 emplacements) : Mains brûlantes, Repli expéditif, Armure de mage\n- Niveau 2 (3 emplacements) : Flou, Rayon ardent\n- Niveau 3 (2 emplacements) : Boule de feu",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/070e254fe0_monstre-flamme-eternelle-ecclesiastique.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Flamme éternelle ecclésiastique",
+ "skills": "Tromperie +5, Intimidation +5, Religion +2",
+ "resistances": "feu"
+}

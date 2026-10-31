@@ -1,0 +1,39 @@
+{
+ "id": "zerth-githzerai",
+ "name": "Zerth githzeraï",
+ "type": "Humanoïde (gith)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 84,
+ "hpFormula": "13d8+26",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 16,
+  "SAG": 17,
+  "CHA": 12
+ },
+ "saves": "FOR +4, DEX +7, INT +6, SAG +6",
+ "skills": "Arcanes +6, Perception +6, Perspicacité +6",
+ "senses": "Perception passive 16",
+ "languages": "gith",
+ "traits": "**Défense psychique.** Si le githzeraï ne porte aucune armure et ne manie aucun bouclier, son modificateur de Sagesse est inclus dans sa CA.\n**Incantation innée (psionique).** La caractéristique d'incantation innée du githzeraï est la Sagesse (DD des jets de sauvegarde contre ses sorts 14, +6 pour toucher avec les attaques de sort). Il peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *main du mage* (la main est invisible)\n- 3/jour chacun : *bouclier, léger comme une plume, saut, voir l'invisible*\n- 1/jour chacun : *assassin imaginaire, changement de plan*",
+ "actionsText": "**Attaques multiples.** Le githzeraï effectue deux attaques à mains nues.\n**Attaque à mains nues.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 11 (2d6+4) dégâts contondants plus 13 (3d8) dégâts psychiques. C'est une attaque d'arme magique.",
+ "portrait": "/data/images/aa6b37c414_monstre-zerth-githzerai.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 160 · image : Manuel des monstres p. 159",
+ "attacks": [
+  {
+   "name": "Attaque à mains nues",
+   "bonus": 7,
+   "damage": "2d6+4+3d8",
+   "type": "contondant + psychique"
+  }
+ ]
+}

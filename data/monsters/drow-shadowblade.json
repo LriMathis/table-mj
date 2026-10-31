@@ -1,0 +1,47 @@
+{
+ "id": "drow-shadowblade",
+ "name": "Drow Shadowblade",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 21,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir du sillon.\n**Ancêtre fécale.** Le drow a l'avantage sur jet de sauvegarde contre le charmé, et la magie ne peut pas mettre le drow à dormir.\n**Sensibilité à la lumière du soleil.** En plein soleil, le drow présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le drow fait trois attaques de l'épée d'ombre. L'une des attaques peut être remplacée par une attaque à main arbalète. Le sillon peut également utiliser Spellcasting pour jeter l'obscurité.\n**Épée de l'ombre.** Attaque d'arme au corps à corps ou à distance : +9 au toucher, allonge 1,50 m ou portée 9/18 m., une cible. Touché : 27 (7d6 + 5) dégâts nécrotiques.\n**Acrobatie des mains.** Attaque d'arme à distance : +9 au toucher, portée 9/36 m., une cible. Touché : 8 (1d6 + 5) dégâts perforants, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné pendant 1 heure. Si le jet de sauvegarde échoue par 5 ou plus, la cible est également inconscient alors qu'empoisonné de cette façon. La cible reprend conscience si elle prend des dégâts ou si une autre créature prend une action pour la secouer.\n**Détection orthographique.** Le sillon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumières dansantes, Ténèbres\n- 1/jour chacun : Lueurs féeriques, Lévitation (autoseulement)",
+ "attacks": [
+  {
+   "name": "Épée de l'ombre",
+   "bonus": 9,
+   "damage": "7d6+5",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6df3045a61_monstre-drow-shadowblade.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +9, CON +7, SAG +6",
+ "skills": "Perception +6, Discrétion +9",
+ "bonusActions": "**Étape de l'ombre.** Alors que dans la lumière ou l'obscurité, les téléportations de la sourcil, avec tout équipement qu'il porte ou transporte, jusqu'à 18 m dans un espace inoccupé, il peut voir que c'est aussi dans la lumière ou l'obscurité. Il a alors l'avantage sur la première attaque de mêlée qu'il fait avant la fin du tour."
+}

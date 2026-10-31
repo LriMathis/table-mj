@@ -1,0 +1,42 @@
+{
+ "id": "hendrik-von-aubrecker",
+ "name": "Hendrik von Aubrecker",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Hendrik fait deux attaques de Slam et utilise Numbing Needle.\n**Clamer.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts contondants.\n**Aiguille de numération.** Jet de sauvegarde de Constitution : DD 14, une créature dans 1,50 m. Échec : 7 (2d6) dégâts de poison. Jusqu'à la fin du prochain virage de la cible, la vitesse de la cible est réduite de moitié; la cible ne peut pas prendre de réactions; et elle peut prendre soit une action ou un action bonus à son tour, pas les deux. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f30f98f32a_monstre-hendrik-von-aubrecker.webp",
+ "notes": "",
+ "source": "Project_Lamordia (5e.tools, traduction automatique)",
+ "saves": "CON +4",
+ "skills": "Acrobaties +6, Perception +3",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement",
+ "reactions": "**Parry.** Déclencheur : Hendrik est frappé par une melee jet d'attaque. Réponse : Hendrik ajoute 2 à sa CA contre cette attaque, ce qui peut la faire manquer."
+}

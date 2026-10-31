@@ -1,0 +1,44 @@
+{
+ "id": "terastodon",
+ "name": "Terastodon",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 13,
+ "hp": 126,
+ "hpFormula": "11d12+55",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 9,
+  "CON": 21,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Frais de chargement.** Si le térastodon se déplace au moins 6 m droit vers une créature et le frappe avec une attaque gore au même tour, cette cible doit réussir sur un DD 18 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, le térastodon peut faire une attaque de stomp contre elle en tant qu'action bonus.",
+ "actionsText": "**Gore.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 25 (4d8 + 7) dégâts perforants.\n**Stompe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une créature à terre. Touché : 29 (4d10 + 7) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 10,
+   "damage": "4d8+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Stompe",
+   "bonus": 10,
+   "damage": "4d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e043788987_monstre-terastodon.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

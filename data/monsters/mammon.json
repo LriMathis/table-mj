@@ -1,0 +1,45 @@
+{
+ "id": "mammon",
+ "name": "Mammon",
+ "type": "Fiélon (diable)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "26",
+ "xp": 90000,
+ "ca": 18,
+ "hp": 464,
+ "hpFormula": "32d12+256",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 17,
+  "CON": 26,
+  "INT": 22,
+  "SAG": 25,
+  "CHA": 25
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 36 m, Perception passive 17",
+ "languages": "céleste, commun, draconique, infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure de Mammon.\n**Régénération fidendoise.** Mammon retrouve 20 points de vie au début de son tour. S'il prend dégâts radiants ce trait ne fonctionne pas au début de son prochain tour. Mammon ne meurt que s'il commence son tour avec 0 points de vie et est incapable de se régénérer.\n**Résistance légendaire (3/jour).** Si Mammon échoue un jet de sauvegarde, il peut choisir de réussir à la place\n**Résistance magique.** Mammon a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Mammon utilise le gaz craintif, puis fait quatre attaques en utilisant Tail Swipe, Constrict, ou une combinaison des deux.\n**Raquette de queue.** Attaque d'arme au corps à corps : +17 au toucher, allonge 3 m, une cible. Touché : 31 (4d10 + 9) dégâts contondants. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 21). Alors qu'agrippé, la créature a également l'état entravé, et Mammon ne peut pas faire d'attaques Tail Swipe.\n**Crainte d'avoir une vision.** Mammon focalise son regard sur un cône 27 m devant lui. Chaque créature de son choix dans le cône doit faire un DD 23 jet de sauvegarde de Sagesse, en prenant 19 (3d12) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Les créatures qui échouent le save ont l'état effrayé jusqu'à la fin de leur prochain tour.\n**Constriction.** Mammon serre son emprise sur une créature qu'il a agrippé. La cible prend 35 (4d12 + 9) dégâts contondants.\n**Gaz d'or (Recharge 6).** Mammon tente de transformer une créature il peut voir dans 18 m de lui en or massif. La cible doit faire un DD 23 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la chair de la cible commence à durcir, et elle a l'état entravé. Une créature entravé doit répéter la jet de sauvegarde à la fin de chaque tour. Si elle enregistre avec succès trois fois, l'effet se termine. Si elle échoue trois fois, elle se tourne vers l'or et a maintenant l'état pétrifié. Les réussites et les échecs n'ont pas besoin d'être consécutifs.",
+ "attacks": [
+  {
+   "name": "Raquette de queue",
+   "bonus": 17,
+   "damage": "4d10+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/727c2fa114_monstre-mammon.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +11, CON +16, SAG +15, CHA +15",
+ "skills": "Arcanes +14, Tromperie +15, Perspicacité +15, Intimidation +23, Investigation +14, Persuasion +23",
+ "resistances": "acide, froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "reactions": "**Taxe sur la douleur.** En réaction à la prise de dégâts, Mammon fait briller les objets de valeur de l'agresseur. Cela traite 3 (1d6) dégâts de feu à l'attaquant pour chaque 100 or (ou équivalent en gemmes, bijoux, et autres pièces) qu'il porte actuellement.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, mammon peut entreprendre l'une des actions ci-après.\n**Modifier le formulaire.** Mammon change sa forme en celle d'un fiende, tenant ses statistiques mais perdant ses actions. Il gagne les actions et la mobilité d'un fier de fosse, y compris son arme, et maintient ses actions légendaires et ses actions de traîneau. Les capacités serpentines de Mammon peuvent encore se recharger alors qu'il est en forme de fiende. Si Mammon est déjà un fiendre, cette action le ramène dans sa forme serpentine.\n**Golden Touch (coûts 2 actions).** Mammon recharge Golden Gaze.\n**Appel d'offres (coûts 3 actions).** Mammon convoque un Diable cornu allié dans un espace inoccupé qu'il peut voir."
+}

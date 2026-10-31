@@ -1,0 +1,41 @@
+{
+ "id": "octon-modron",
+ "name": "Octon Modron",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 187,
+ "hpFormula": "22d10+66",
+ "vitesse": "9 m, vol 9 m (vol stationnaire), nage 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 17,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "Modron, télépathie 36 m",
+ "traits": "**Esprit axiomatique.** L'octon ne peut être contraint d'agir d'une manière contraire à sa nature ou à ses instructions.\n**Prêt au combat.** L'octon a un avantage sur les contrôles d'initiative.\n**Désintégration.** Si l'octon meurt, son corps se désintègre en poussière, laissant derrière lui tout ce qu'il transportait.",
+ "actionsText": "**Multiattaques.** L'octon fait trois attaques du Tentacle.\n**Tentacle.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 14 (3d6 + 4) dégâts contondants plus 9 (2d8) dégâts de foudre.\n**Vent de tourbillon des Tentacles (Recharge 5-6).** L'octon s'étend rapidement et tourne son anneau de tentacules. Chaque créature de 6 m de l'octon doit réussir sur un DD 16 jet de sauvegarde de Force ou être tirée jusqu'à 3 m en ligne droite vers l'octon. Ensuite, l'octon fait deux attaques du Tentacle contre chaque créature en 3 m de lui-même.\n**Détection orthographique.** L'octon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection de la magie, Dissipation de la magie, Réparation (en tant qu'action)\n- 1/jour chacun : Changement de plan (autoseulement), Protection contre le mal et le bien",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 8,
+   "damage": "3d6+4",
+   "type": "contondant + foudre"
+  }
+ ],
+ "portrait": "/data/images/6fd7f1c181_monstre-octon-modron.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +7, SAG +7",
+ "skills": "Perception +11",
+ "resistances": "psychique"
+}

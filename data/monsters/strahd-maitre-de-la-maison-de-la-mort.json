@@ -1,0 +1,44 @@
+{
+ "id": "strahd-maitre-de-la-maison-de-la-mort",
+ "name": "Strahd, Master of Death House",
+ "type": "Mort-vivant (vampire, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 16,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 22",
+ "languages": "abyssal, commun, draconique, elfique, géant, infernal",
+ "traits": "**Résistance légendaire (3/jour).** Si Strahd échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Maître de la maison.** Lorsque Strahd est réduit à 0 points de vie, il se dissout en brouillard et se téléporte immédiatement à son repaire du château de Ravenloft. Après 1d4 heures, Strahd se reforme dans un espace inoccupé au hasard dans son repaire, récupérant tout son points de vie.\n**Régénération.** Strahd retrouve 20 points de vie au début de son tour s'il a au moins 1 points de vie. S'il prend dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour.\n**Escalade des araignées.** Strahd peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Faiblesses du vampire.** Strahd présente les défauts suivants:\n- **Harcelé par l'eau courante** Dans l'eau courante, Strahd prend 20 dégâts d'acide s'il finit son tour là, et il ne peut pas utiliser sa forme de changement.\n- **Hypersensibilité à la lumière du soleil** Alors qu'au soleil, Strahd prend 20 dégâts radiants au début de son tour, a un désavantage sur jets d'attaque et tests de caractéristique et ne peut pas utiliser sa forme de changement action bonus.",
+ "actionsText": "**Multiattaques.** Strahd fait deux attaques de la grève de la mort. Il peut remplacer une de ces attaques par Blighted feu si disponible.\n**Grève de la mort.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants plus 14 (4d6) dégâts nécrotiques. Si la cible est une créature, Strahd peut renoncer à traiter dégâts tranchants ; la cible a alors l'état agrippé (évasion DD 18) à la place. Strahd ne peut battre qu'une créature à la fois.\n**feu Blighted (Recharge 5-6).** Strahd invoque un feu nécrotique qui remplit une sphère 6 m -radius centrée sur un point qu'il peut voir au sein de 27 m de lui-même. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 14 (4d6) dégâts de feu plus 14 (4d6) dégâts nécrotiques sur une sauvegarde ratée ou la moitié de ces dégâts sur une sauvegarde réussie.\n**Charme.** Strahd cible un humanoïde qu'il peut voir en lui-même. La cible doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou avoir l'état charmé. La cible charmé considère Strahd comme un ami de confiance pour être écouté et protégé. La cible n'est pas sous le contrôle de Strahd, mais il prend les demandes et les actions de Strahd de la manière la plus favorable.\nChaque fois que Strahd ou ses compagnons infligent des dégâts à la cible, il peut répéter le jet de sauvegarde, mettant fin à l'effet sur lui-même sur un succès. Sinon, l'effet dure 24 heures ou jusqu'à ce que Strahd soit réduit à 0 points de vie, est sur un plan d'existence différent de la cible, ou utilise un action bonus pour mettre fin à l'effet.\n**Détection orthographique.** Strahd lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection des pensées, Nappe de brouillard, Main de mage\n- 1/jour chacun : Invisibilité supérieure, Métamorphose, Scrutation (en tant qu'action)\n- 2/jour chacun : Animation des morts (en tant qu'action), Bourrasque, Image miroir, Antidétection",
+ "attacks": [
+  {
+   "name": "Grève de la mort",
+   "bonus": 9,
+   "damage": "1d8+4",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/0d1a584204_monstre-strahd-maitre-de-la-maison-de-la-mort.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Strahd, maître de la maison de la mort",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, SAG +7, CHA +9",
+ "skills": "Arcanes +15, Perception +12, Religion +10, Discrétion +14",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "bonusActions": "**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature qui a l'état charmé ou agrippé. Touché : 7 (1d6 + 4) dégâts perforants plus 10 (3d6) dégâts nécrotiques. La maximum de points de vie de la cible est réduite d'un montant égal à la dégâts nécrotiques prise, et Strahd retrouve un nombre de points de vie égal à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0. Un humanoïde tué de cette façon puis enterré se lève la nuit suivante comme un vampire frayer sous le contrôle de Strahd.\n**Modifier la forme.** Strahd se transforme en une nouvelle forme ou de nouveau en sa vraie forme. Tout ce qu'il porte se transforme avec lui, mais rien de ce qu'il porte ne le fait. Il revient à sa vraie forme s'il meurt. Lors de la transformation en une nouvelle forme, Strahd choisit l'une des options suivantes:\n**Forme de la bête.** Strahd se transforme en une petite chauve-souris (vitesse de vol 9 m) ou un loup moyen (vitesse 12 m). Alors que dans cette forme, il ne peut pas parler, et il conserve ses statistiques de jeu autres que sa taille et sa vitesse.\n**Forme de brouillard.** Strahd se transforme en un nuage de brouillard moyen. Alors que dans cette forme, Strahd a une vitesse de vol de 6 m, peut planer, et peut entrer dans l'espace d'une créature hostile et s'arrêter là. Alors que sous forme de brouillard, Strahd peut traverser un espace sans presser tant que l'air peut traverser cet espace, mais il ne peut pas passer par l'eau. Strahd a un avantage sur Force, Dextérité et jet de sauvegarde de Constitution, et il est à l'abri de tous les dégâts non magiques sauf les dégâts qu'il prend dans le cadre de son caractère Vampire Weaknesses. Alors que sous forme de brouillard, Strahd ne peut pas prendre d'actions, parler, ou manipuler des objets.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, strahd, maître de la maison de la mort peut entreprendre l'une des actions ci-après.\n**Échappement Cunning.** Strahd monte à sa vitesse sans provoquer d'attaques d'opportunités.\n**Grève (coûts 2 actions).** Strahd fait une attaque de la Mort."
+}

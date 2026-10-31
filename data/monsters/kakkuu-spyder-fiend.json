@@ -1,0 +1,49 @@
+{
+ "id": "kakkuu-spyder-fiend",
+ "name": "Kakkuu Spyder-Fiend",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 91,
+ "hpFormula": "14d8+28",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "comprend Abyssal mais ne peut pas parler",
+ "traits": "**Résistance magique.** Le kakkuu a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Escalade des araignées.** Le kakkuu peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sens du Web.** En contact avec un web, le kakkuu connaît l'emplacement exact de toute autre créature en contact avec le même web.\n**Web Walker.** Le kakkuu ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** Le kakkuu fait une attaque Web Snare, utilise Reel, et fait une attaque Bite.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d10 + 3) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Bobine.** Le kakkuu tire chaque créature dans 18 m de lui-même qui est agrippé par son Web Snare jusqu'à 9 m droit vers lui-même.\n**Serre Web.** Attaque d'arme à distance : +6 au toucher, allonge 9/18 m., une créature grande ou plus petite. Touché : La cible a l'état agrippé (évasion DD 13). Alors qu'agrippé, la cible a également l'état entravé. Un piège à toile peut être attaqué et détruit (CA; 10 points de vie ; immunité contre le bludgeon, le poison et dégâts psychiques).",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d10+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Serre Web",
+   "bonus": 6,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/4ead056dfe_monstre-kakkuu-spyder-fiend.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +5, SAG +3",
+ "skills": "Perception +3, Discrétion +5",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

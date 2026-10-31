@@ -1,0 +1,57 @@
+{
+ "id": "scion-de-skoraeus",
+ "name": "Scion of Skoraeus",
+ "type": "Géant (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 19,
+ "hp": 444,
+ "hpFormula": "24d20+192",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 20,
+  "CON": 26,
+  "INT": 19,
+  "SAG": 24,
+  "CHA": 14
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 24",
+ "languages": "géant, primordial",
+ "traits": "**Résistance légendaire (6/jour).** Si le scion échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le scion a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le scion inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le scion fait une attaque Crystal Club et deux attaques Slam, puis utilise Entombing Grasp si disponible. Alternativement, le scion fait deux attaques runiques Boulder.\n**Club de cristal.** Attaque d'arme au corps à corps : +16 au toucher, allonge 9 m, une cible. Touché : 35 (4d12 + 9) dégâts contondants. Touché ou raté : Le scion peut faire éclater le club avec une lumière vive, et la cible doit réussir sur un DD 22 jet de sauvegarde de Constitution ou prendre 18 (4d8) dégâts radiants et avoir l'état aveuglé jusqu'au prochain tour du scion.\n**Clamer.** Attaque d'arme au corps à corps : +16 au toucher, allonge 6 m, une cible. Touché : 31 (4d10 + 9) dégâts de force.\n**Boulder runique.** Attaque d'arme à distance : +16 au toucher, portée 36/144 m., une cible. Touché : 27 (4d8 + 9) dégâts contondants. Touché ou raté : Le bloc explose. La cible et chaque créature dans 9 m de celle-ci doivent faire un DD 22 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 19 (3d12) dégâts de force et a l'état à terre. Une créature ne prend que la moitié de ces dégâts pour une sauvegarde réussie.\n**Montage de Grasp (Recharge 6).** Le scion cède sa main dans la magie pétrifiante et touche une créature énorme ou plus petite qu'il peut voir en 6 m de lui-même. La cible doit réussir sur un DD 24 jet de sauvegarde de Dextérité ou prendre 28 (8d6) dégâts de force et avoir l'état agrippé (évasion DD 19). Au début du prochain tour du scion, si la cible est toujours agrippé, la cible a l'état pétrifié.",
+ "attacks": [
+  {
+   "name": "Club de cristal",
+   "bonus": 16,
+   "damage": "4d12+9",
+   "type": "contondant + radiant"
+  },
+  {
+   "name": "Clamer",
+   "bonus": 16,
+   "damage": "4d10+9",
+   "type": "force"
+  },
+  {
+   "name": "Boulder runique",
+   "bonus": 16,
+   "damage": "4d8+9",
+   "type": "contondant + force"
+  }
+ ],
+ "portrait": "/data/images/ff96e75f59_monstre-scion-de-skoraeus.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Scion de Skoraeus",
+ "caNote": "armure naturelle",
+ "saves": "DEX +12, SAG +14",
+ "skills": "Acrobaties +12, Perception +14",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide",
+ "conditionImmunities": "charmé, effrayé, paralysé, pétrifié",
+ "bonusActions": "**Mouvement de tremblement de terre.** Le scion monte à sa vitesse et envoie ensuite une onde de choc à travers le sol dans un cercle de rayon 18 m centré sur lui-même. Chaque créature au sol dans cette zone qui est concentrating doit réussir sur un DD 24 jet de sauvegarde de Constitution ou perdre concentration."
+}

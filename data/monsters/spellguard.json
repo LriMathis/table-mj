@@ -1,0 +1,45 @@
+{
+ "id": "spellguard",
+ "name": "Spellguard",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 20,
+ "hp": 105,
+ "hpFormula": "14d8+42",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun",
+ "traits": "**Résistance magique supérieure.** Le garde du sort a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques. Spell jets d'attaque ont Désavantage contre le garde-symbole.",
+ "actionsText": "**Multiattaques.** Le garde du sort fait deux attaques, en utilisant force Flail ou Javelin dans n'importe quelle combinaison.\n**Flacon force.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts contondants plus 7 (2d6) dégâts de force.\n**Javelin.** Jet d'attaque au corps à corps ou à distance : +7, allonge 1,50 m ou portée 9/36 m. Touché : 14 (3d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Flacon force",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "contondant + force"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 7,
+   "damage": "3d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/67a32bea04_monstre-spellguard.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "skills": "Arcanes +4, Athlétisme +7, Perception +4",
+ "reactions": "**Divination défensive.** Déclencheur : Une créature peut voir un allié dans 1,50 m du garde-symbole avec un jet d'attaque, ou un allié dans 1,50 m du garde-symbole échoue un jet de sauvegarde contre un sort ou un autre effet magique. Réponse : Le sortguard roule 1d20 et choisit d'utiliser ce rouleau à la place du d20 roulé pour le jet d'attaque ou jet de sauvegarde."
+}

@@ -1,0 +1,46 @@
+{
+ "id": "membre-du-gang-gobelin",
+ "name": "Goblin Gang Member",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 14,
+ "hp": 10,
+ "hpFormula": "3d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, gobelin",
+ "traits": "**Échappement de Nimble.** Le goblin peut prendre l'action Se désengager ou Se cacher en action bonus sur chacun de ses tours.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants.\n**Acrobatie légère.** Attaque d'arme à distance : +5 au toucher, portée 24/96 m., une cible. Touché : 7 (1d8 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3d8b348604_monstre-membre-du-gang-gobelin.webp",
+ "notes": "",
+ "source": "Krenko's Way (5e.tools, traduction automatique)",
+ "aka": "Membre du gang gobelin",
+ "caNote": "Armure en cuir",
+ "skills": "Discrétion +5"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "zombi-ogre",
+ "name": "Zombi ogre",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 8,
+ "hp": 85,
+ "hpFormula": "9d10+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 6,
+  "CON": 18,
+  "INT": 3,
+  "SAG": 6,
+  "CHA": 5
+ },
+ "saves": "SAG +0",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné, épuisement",
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "comprend le commun et le gigant mais ne peut pas parler",
+ "traits": "**Robustesse de la non-vie.** Si des dégâts font tomber le zombi à 0 point de vie, il effectue un jet de sauvegarde de Constitution (DD 5 + les dégâts subis), sauf en cas de dégâts radiants ou de Coup critique. En cas de réussite, le zombi se retrouve en fait à 1 point de vie.",
+ "actionsText": "**Coup.** Corps à corps : +6, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c5d0184bce_monstre-zombi-ogre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 315",
+ "aka": "Ogre zombi (2024)"
+}

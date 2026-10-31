@@ -1,0 +1,53 @@
+{
+ "id": "jarl-storvald",
+ "name": "Jarl Storvald",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 189,
+ "hpFormula": "12d12+60",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 9,
+  "CON": 21,
+  "INT": 9,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, géant, Chouette géante",
+ "traits": "",
+ "actionsText": "**Montant net pondéré.** Attaque d'arme à distance : +5 au toucher, varié 6/18 m., une petite, moyenne, ou grande créature. Touché : La cible est entravé jusqu'à ce qu'elle échappe au filet. Toute créature peut utiliser son action pour faire un DD 17 test de Force pour se libérer ou une autre créature dans le filet, mettant fin à l'effet sur un succès. La distribution de 15 dégâts tranchants sur le réseau (CA 12) détruit le réseau et libère la cible.\n**Multiattaques.** Le géant fait deux grandes attaques.\n**Grandaxe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 25 (3d12 + 6) dégâts tranchants.\n**Roche.** Attaque d'arme à distance : +9 au toucher, portée 18/72 m., une cible. Touché : 28 (4d10 + 6) dégâts contondants.\n**Détection orthographique.** Storvald lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation :\n- 1/jour chacun : Saut, Localisation d'animaux ou de plantes, Localisation d'objet, Respiration aquatique, Marche sur l'eau",
+ "attacks": [
+  {
+   "name": "Montant net pondéré",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "Grandaxe",
+   "bonus": 9,
+   "damage": "3d12+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 9,
+   "damage": "4d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/345661e898_monstre-jarl-storvald.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "déchets de bardeaux",
+ "saves": "CON +8, SAG +6, CHA +6",
+ "skills": "Athlétisme +9, Perception +6",
+ "immunities": "froid"
+}

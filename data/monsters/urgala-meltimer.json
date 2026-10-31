@@ -1,0 +1,45 @@
+{
+ "id": "urgala-meltimer",
+ "name": "Urgala Meltimer",
+ "type": "Humanoïde (Turami humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, géant",
+ "traits": "**Tueuse géante.** Toute attaque d'armes qu'Urgala fait contre un géant inflige 7 (2d6) de plus de dégâts sur un coup.\n**Information sur le jeu de rôles.** Aventurier retraité, Urgala possède une auberge respectable, la Maison de bouclier du Nord, et elle ne veut pas la voir ou les maisons de ses voisins détruites. Elle n'a aucune tolérance pour les monstres ou les brutes.\nIdéal: « Nous vivons dans un monde violent, et parfois la violence est nécessaire pour survivre. »\nObligation : \"Ma maison est ma vie. Menacez-le, et je vous ferai du mal.\"\nFaux : \"Je sais à quel point les aventuriers sont traîtres et avides. Je ne leur fais pas confiance, aucun d'entre eux.\"",
+ "actionsText": "**Multiattaques.** Urgala fait deux attaques avec son étoile du matin ou son satin.\n**Matinée.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants.\n**Saubèche.** Attaque d'arme à distance : +3 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 1) dégâts perforants. Urgala porte un carquois de vingt flèches.",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2fe517d37d_monstre-urgala-meltimer.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Athlétisme +5, Intimidation +3"
+}

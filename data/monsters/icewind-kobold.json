@@ -1,0 +1,46 @@
+{
+ "id": "icewind-kobold",
+ "name": "Icewind Kobold",
+ "type": "Humanoïde (kobold)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 14,
+ "hp": 9,
+ "hpFormula": "2d6+2",
+ "vitesse": "9 m, escalade 6 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 8,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, draconique",
+ "traits": "**Tactiques de conditionnement.** Le kobold a avantage sur un jet d'attaque contre une créature si au moins un des alliés du kobold est dans le 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Sensibilité à la lumière du soleil.** En plein soleil, le kobold a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +0 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 1 (1d6 - 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 0,
+   "damage": "1d6-2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/32825baaee_monstre-icewind-kobold.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "saves": "DEX +4, CON +3",
+ "skills": "Perception +1, Discrétion +4, Survie +1"
+}

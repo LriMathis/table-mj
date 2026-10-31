@@ -1,0 +1,47 @@
+{
+ "id": "drow-guerrier-d-elite-de-lolth",
+ "name": "Drow Elite Warrior of Lolth",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "commun, elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Le drow a Avantage sur jet de sauvegarde il fait d'éviter ou de terminer l'état charmé, et la magie ne peut pas mettre le drow à dormir.\n**Sensibilité à la lumière du soleil.** Pendant que dans la lumière du soleil, le drow a Déconseillé sur jets d'attaque.",
+ "actionsText": "**Multiattaques.** Le drow fait deux attaques en utilisant Shortsword ou Drow Hand Crossbow dans toute combinaison\n**Mot-clé.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Acrobatie de la main.** Jet d'attaque à distance : +7, portée 9/36 m. Touché : 7 (1d6 + 4) dégâts perforants, et la cible fait un jet de sauvegarde. Jet de sauvegarde de Constitution : DD 15. Échec : La cible a l'état empoisonné pendant 1 heure. Alors qu'empoisonné de cette façon, la cible a également l'état inconscient. La cible se réveille si elle prend des dégâts ou si une créature dans 1,50 m prend une action pour la réveiller.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Acrobatie de la main",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9753793633_monstre-drow-guerrier-d-elite-de-lolth.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Drow, guerrier d'élite de Lolth",
+ "saves": "DEX +7, CON +5, SAG +4",
+ "skills": "Perception +4, Discrétion +10",
+ "bonusActions": "**Magie souterraine (3/jour).** Le drow lance Ténèbres, Lueurs féeriques, ou Lévitation (seul), ne nécessitant pas de composants Matériau et utilisant Charisme comme caractéristique d'incantation (save DD 12).\n- 3/jour : Ténèbres, Lueurs féeriques, Lévitation"
+}

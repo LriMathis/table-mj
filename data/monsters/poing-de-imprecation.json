@@ -1,0 +1,46 @@
+{
+ "id": "poing-de-imprecation",
+ "name": "Fist of Bane",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 18,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun",
+ "traits": "**Discipline tactique.** Le poing de Bane a un avantage sur tous les tests de caractéristique et jet de sauvegarde réalisés au combat.",
+ "actionsText": "**Mace.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants.\n**Longbow.** Attaque d'arme à distance : +2 au toucher, portée 45/180 m., une cible. Touché : 4 (1d8) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 2,
+   "damage": "1d8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/160a22241e_monstre-poing-de-imprecation.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Poing de imprécation",
+ "caNote": "Courrier en chaîne, Bouclier",
+ "conditionImmunities": "effrayé"
+}

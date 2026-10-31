@@ -1,0 +1,47 @@
+{
+ "id": "bleme-gravecaller",
+ "name": "Ghast Gravecaller",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 16,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "abyssal, commun",
+ "traits": "**Poignée.** Jet de sauvegarde de Constitution : DD 13, toute créature qui commence son tour dans une Emanation 1,50 m originaire du ghast. Échec : La cible a l'état empoisonné jusqu'au début de son prochain tour. Réussite : La cible est à l'abri de ce sternol pendant 24 heures.",
+ "actionsText": "**Multiattaques.** Le monstre fait deux attaques de nécrose horrible. Il peut remplacer une attaque par une attaque de la griffe.\n**Griffe.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 13 (3d6 + 3) dégâts tranchants. Si la cible n'est pas un Undead, elle a l'état paralysé jusqu'à la fin de son prochain tour.\n**Nécrose horrificale.** Jet d'attaque au corps à corps ou à distance : +7, allonge 1,50 m ou portée 36 m. Touché : 15 (2d10 + 4) dégâts nécrotiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour.\n**Détection orthographique.** Le ghast lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation :\n- À volonté : Communication avec les morts, Thaumaturgie",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "3d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Nécrose horrificale",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/c135aeefb6_monstre-bleme-gravecaller.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Blême Gravecaller",
+ "saves": "CON +5, SAG +5",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, empoisonné"
+}

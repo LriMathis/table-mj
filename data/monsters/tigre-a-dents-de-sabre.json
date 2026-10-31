@@ -1,0 +1,40 @@
+{
+ "id": "tigre-a-dents-de-sabre",
+ "name": "Tigre à dents de sabre",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 17,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "saves": "FOR +6, DEX +5",
+ "skills": "Discrétion +7, Perception +5",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "aucune",
+ "traits": "**Saut avec élan.** Avec une prise d’élan de 3 m, le tigre peut franchir jusqu’à 7,50 m d’un saut en longueur.",
+ "actionsText": "**Attaques multiples.** Le tigre effectue deux attaques de Saignée.\n**Saignée.** Corps à corps : +6, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts tranchants.",
+ "bonusActions": "**Fuite agile.** Le tigre entreprend l’action Désengagement ou Furtivité.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/2a7b703959_monstre-tigre-a-dents-de-sabre.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

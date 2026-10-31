@@ -1,0 +1,40 @@
+{
+ "id": "vampiric-ixitxachitl-clerc",
+ "name": "Vampiric Ixitxachitl Cleric",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "0 m, nage 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 18,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "abyssal, Autres produits",
+ "traits": "**Détection orthographique.** L'ixitxachitl est un spellcaster de niveau 5 qui utilise Sagesse comme caractéristique d'incantation (Spell save DD 11, +3 au toucher avec attaques de sort). L'ixitxachitl a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Thaumaturgie\n- Niveau 1 (4 emplacements) : Charme-personne, Création ou destruction d'eau\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Silence\n- Niveau 3 (2 emplacements) : Dissipation de la magie, Don des langues",
+ "actionsText": "**Morceau de vampire.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants. La cible doit réussir sur une DD 11 jet de sauvegarde de Constitution ou sa maximum de points de vie est réduite d'un montant égal aux dégâts pris, et l'ixitxachitl récupère points de vie égal à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0.",
+ "attacks": [
+  {
+   "name": "Morceau de vampire",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0a0208abb5_monstre-vampiric-ixitxachitl-clerc.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Vampiric Ixitxachitl clerc",
+ "caNote": "armure naturelle",
+ "reactions": "**Tail barbelé.** Lorsqu'une créature provoque une attaque d'opportunité à partir de l'ixitxachitl, l'ixitxachitl peut faire l'attaque suivante au lieu d'utiliser sa morsure.\nAttaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d10 + 4) dégâts perforants."
+}

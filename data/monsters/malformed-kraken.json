@@ -1,0 +1,48 @@
+{
+ "id": "malformed-kraken",
+ "name": "Malformed Kraken",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 172,
+ "hpFormula": "15d12+75",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 11,
+  "CON": 20,
+  "INT": 11,
+  "SAG": 15,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 12",
+ "languages": "comprend Commun mais ne peut pas parler, télépathie 18 m",
+ "traits": "**Amphibie.** Le kraken peut respirer l'air et l'eau.\n**Monstre de siège.** Le kraken inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le kraken fait trois attaques de tentacules. L'un d'eux peut être remplacé par une attaque de morsure, et l'un d'eux peut être remplacé par Fling.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d8 + 7) dégâts perforants.\n**Tentacle.** Attaque d'arme au corps à corps : +11 au toucher, allonge 6 m, une cible. Touché : 14 (2d6 + 7) dégâts contondants, et la cible est agrippé (évasion DD 16). Jusqu'à ce que ce grappin se termine, la cible est entravé. Le kraken a dix tentacules, chacun d'eux peut battre une cible.\n**Vols.** Un objet moyen ou plus petit détenu ou créature agrippé par les tentacules du kraken est jeté à 18 m dans une direction aléatoire et à terre. Si une cible lancée frappe une surface solide, la cible prend 3 (1d6) dégâts contondants pour chaque 3 m qu'elle a lancé. Si la cible est lancée sur une autre créature, cette créature doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre les mêmes dégâts et être à terre.\n**Tempête de foudre.** Le kraken crée trois boulons de foudre, chacun d'entre eux peut frapper une cible que le kraken peut voir dans 45 m de lui. Une cible doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 16 (3d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "2d8+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 11,
+   "damage": "2d6+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2f8ad6325c_monstre-malformed-kraken.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +11, CON +9, INT +4, SAG +6, CHA +6",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre",
+ "conditionImmunities": "effrayé, paralysé"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "membre-de-secte-de-bhaal",
+ "name": "Cultist of Bhaal",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 144,
+ "hpFormula": "17d8+68",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 19,
+  "CON": 18,
+  "INT": 15,
+  "SAG": 17,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun",
+ "traits": "**Résoudre le sang.** Alors qu'en sang, le culte a avantage sur jet de sauvegarde.",
+ "actionsText": "**Multiattaques.** Le culte fait trois attaques de la Blade Maudite. Il peut remplacer l'une de ces attaques par un recours à Spellcasting.\n**Lame maudite.** Jet d'attaque au corps à corps ou à distance : +7 (avec Avantage si la cible n'a pas tous ses points de vie), allonge 1,50 m ou portée 6/24 m. Touché : 14 (3d6 + 4) dégâts tranchants. Touché ou raté : La lame revient magiquement à la main du culte immédiatement après une attaque étendue.\n**Détection orthographique.** Le cultivateur lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 14) :\n- 1/jour chacun : Porte dimensionnelle, Double illusoire\n- 2/jour : Épine mentale",
+ "attacks": [
+  {
+   "name": "Lame maudite",
+   "bonus": 7,
+   "damage": "3d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b7dddfee21_monstre-membre-de-secte-de-bhaal.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Membre de secte de Bhaal",
+ "saves": "DEX +7, INT +5",
+ "skills": "Perception +6, Discrétion +7"
+}

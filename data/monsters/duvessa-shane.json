@@ -1,0 +1,39 @@
+{
+ "id": "duvessa-shane",
+ "name": "Duvessa Shane",
+ "type": "Humanoïde (Illuskan humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 11,
+  "CON": 10,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, nain, géant, orc",
+ "traits": "**Information sur le jeu de rôles.** Fille d'un commerçant de Waterdhave et d'un serveur de tavernes, Duvesse a le talent de sa mère pour la négociation et le charme de son père. Comme première femme à présider la ville de Bryn Shander, et jeune à cela, elle a beaucoup à prouver.\nIdéal: \"Les gens d'Icewind Dale sont des survivants. Ils peuvent faire face à n'importe quelle tempête.\"\nObligation : \"Ma mère m'a appris ce que signifie être un bon leader. Je ne vais pas la décevoir.\"\nFaux : \"Je ne donne pas de pouce dans un argument de conflit.\"",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +2 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 2 (1d4) dégâts perforants. Duvessa n'a qu'un poignard.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/34f1482730_monstre-duvessa-shane.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Perspicacité +4, Persuasion +5",
+ "reactions": "**Parry.** Duvessa ajoute 2 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, Duvessa doit voir l'agresseur et manier une arme de mêlée."
+}

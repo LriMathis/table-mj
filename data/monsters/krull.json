@@ -1,0 +1,46 @@
+{
+ "id": "krull",
+ "name": "Krull",
+ "type": "Humanoïde (torche)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 117,
+ "hpFormula": "18d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 20,
+  "CHA": 12
+ },
+ "senses": "Perception passive 15",
+ "languages": "aquatique, commun, draconique",
+ "traits": "**Maintenez votre souffle.** Krull peut retenir son souffle pendant 1 heure.\n**Destruction inévitable.** dégâts nécrotiques traité par les sorts de Krull ignore la résistance à dégâts nécrotiques.\n**Détection orthographique.** Krull est un orthographe de niveau 14. Son caractéristique d'incantation est Sagesse (save spell DD 16, +8 au toucher avec attaques de sort). Il a préparé les sorts clercs suivants:\n- Sorts mineurs (à volonté) : Contact glacial, Réparation, Résistance, Flamme sacrée, Stabilisation, Thaumaturgie\n- Niveau 1 (4 emplacements) : Soins, Détection du mal et du bien, Simulacre de vie, Blessure, Rayon empoisonné\n- Niveau 2 (3 emplacements) : Cécité/Surdité, Préservation des morts, Immobilisation de personne, Rayon affaiblissant, Arme spirituelle\n- Niveau 3 (3 emplacements) : Animation des morts, Cercle magique, Communication avec les morts, Esprits gardiens, Toucher du vampire\n- Niveau 4 (3 emplacements) : Bannissement, Flétrissement, Protection contre la mort, Divination, Localisation de créature\n- Niveau 5 (2 emplacements) : Coquille antivie, Brume mortelle, Contagion, Restauration supérieure\n- Niveau 6 (1 emplacements) : Création de mort-vivant, Vision suprême\n- Niveau 7 (1 emplacements) : Parole divine, Régénération",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d4 + 5) dégâts perforants.\n**+1 Maul.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts contondants plus 9 (2d8) dégâts nécrotiques.\n**Défense de la coquille.** Krull se retire dans sa coquille. Jusqu'à ce qu'il émerge comme un action bonus, il a un bonus +4 à CA et a un avantage sur Force et jet de sauvegarde de Constitution. Alors que dans sa coquille, Krull est à terre, sa vitesse est 0 et ne peut pas augmenter, il a un désavantage sur jet de sauvegarde de Dextérité, il ne peut pas prendre de réactions, et la seule action qu'il peut prendre est de sortir de sa coquille.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 8,
+   "damage": "1d4+5",
+   "type": "perforant"
+  },
+  {
+   "name": "+1 Maul",
+   "bonus": 9,
+   "damage": "2d6+6",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/be0d739ef4_monstre-krull.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "SAG +8, CHA +4",
+ "skills": "Arcanes +4, Médecine +8, Nature +4, Survie +8"
+}

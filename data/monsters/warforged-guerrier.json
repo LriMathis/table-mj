@@ -1,0 +1,49 @@
+{
+ "id": "warforged-guerrier",
+ "name": "Warforged Warrior",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 30,
+ "hpFormula": "4d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La guerre fait deux attaques de la lame d'Armblade.\n**Lame d'arme.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Lame d'arme",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1f618b9f1c_monstre-warforged-guerrier.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Warforged guerrier",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +5, Perception +4, Survie +4",
+ "resistances": "poison",
+ "conditionImmunities": "empoisonné",
+ "reactions": "**Protection.** Lorsqu'un attaquant peut voir la warforged fait un jet d'attaque contre une créature dans 1,50 m de la warforged, la warforged peut imposer un désavantage sur la jet d'attaque."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "clockwork-fer-cobra",
+ "name": "Clockwork Iron Cobra",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 91,
+ "hpFormula": "14d8+28",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend une langue de son créateur mais ne peut pas parler",
+ "traits": "**Résistance magique.** L'horlogerie a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** L'horlogerie ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Constitution ou subir un effet aléatoire (rouler un d6) :\n- **1–2: Confusion** À son tour suivant, la cible doit utiliser son action pour faire une attaque d'arme contre une créature aléatoire qu'elle peut voir à l'intérieur de 9 m, en utilisant l'arme qu'elle a en main et en se déplaçant au préalable si nécessaire pour atteindre sa portée. S'il ne tient pas d'arme, il fait un frappe à mains nues. Si aucune créature n'est visible à l'intérieur de 9 m, elle prend l'action de Foncer, se déplaçant vers la créature la plus proche.\n- **3–4: Paralysie** La cible est paralysé jusqu'à la fin de son prochain tour.\n- **5–6: poison** La cible prend 13 (3d8) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/bab84e2fbb_monstre-clockwork-fer-cobra.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Clockwork fer Cobra",
+ "skills": "Discrétion +7",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

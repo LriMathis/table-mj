@@ -1,0 +1,41 @@
+{
+ "id": "cogwork-archivist",
+ "name": "Cogwork Archivist",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 17,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 17,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "tous",
+ "traits": "**Résistance magique.** L'archiviste a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'archiviste fait deux attaques de limbes griffants.\n**Grasping Limb.** Attaque d'arme au corps à corps : +6 au toucher, allonge 4,50 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants, et la cible est agrippé (évasion DD 14). L'archiviste ne peut avoir plus de deux cibles agrippé à la fois.\n**Détection orthographique.** L'archiviste lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation :\n- À volonté : Lumières dansantes, Prestidigitation\n- 2/jour : Silence",
+ "attacks": [
+  {
+   "name": "Grasping Limb",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d1ca0d1f98_monstre-cogwork-archivist.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +5, Histoire +5, Nature +5, Perception +2, Religion +5",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, pétrifié, empoisonné"
+}

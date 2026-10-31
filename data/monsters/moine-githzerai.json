@@ -1,0 +1,39 @@
+{
+ "id": "moine-githzerai",
+ "name": "Moine githzeraï",
+ "type": "Humanoïde (gith)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "saves": "FOR +3, DEX +4, INT +3, SAG +4",
+ "skills": "Perception +4, Perspicacité +4",
+ "senses": "Perception passive 14",
+ "languages": "gith",
+ "traits": "**Défense psychique.** Si le githzeraï ne porte aucune armure et ne manie aucun bouclier, son modificateur de Sagesse est inclus dans sa CA.\n**Incantation innée (psionique).** La caractéristique d'incantation innée du githzeraï est la Sagesse. Il peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *main du mage* (la main est invisible)\n- 3/jour chacun : *bouclier, léger comme une plume, saut, voir l'invisible*",
+ "actionsText": "**Attaques multiples.** Le githzeraï effectue deux attaques à mains nues.\n**Attaque à mains nues.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d8+2) dégâts contondants plus 9 (2d8) dégâts psychiques. C'est une attaque d'arme magique.",
+ "portrait": "/data/images/aa6b37c414_monstre-moine-githzerai.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 160 · image : Manuel des monstres p. 159",
+ "attacks": [
+  {
+   "name": "Attaque à mains nues",
+   "bonus": 4,
+   "damage": "1d8+2+2d8",
+   "type": "contondant + psychique"
+  }
+ ]
+}

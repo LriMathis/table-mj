@@ -1,0 +1,45 @@
+{
+ "id": "quadrone",
+ "name": "Quadrone",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "caNote": "armure naturelle",
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "skills": "Perception +2",
+ "senses": "vision parfaite à 36 m, Perception passive 12",
+ "languages": "modron",
+ "traits": "**Désintégration.** Si le quadrone meurt, son corps se désintègre et devient poussière, ne laissant derrière lui que ses armes et ce qu'il transportait éventuellement.\n**Esprit axiomatique.** Il est impossible d'obliger le quadrone à agir de manière contraire à sa nature ou ses instructions.",
+ "actionsText": "**Attaques multiples.** Le quadrone peut faire deux attaques de poing ou quatre attaques à l'arc court.\n**Arc court.** *Attaque d'arme à distance :* +4 pour toucher, portée 24/96 m, une cible. *Touché :* 5 (1d6+2) dégâts perforants.\n**Poing.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 3 (1d4+1) dégâts contondants.",
+ "portrait": "/data/images/b2c75081fb_monstre-quadrone.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 226 · image : Manuel des monstres p. 225",
+ "attacks": [
+  {
+   "name": "Arc court",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Poing",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  }
+ ]
+}

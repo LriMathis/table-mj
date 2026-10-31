@@ -1,0 +1,44 @@
+{
+ "id": "hanne-hallen",
+ "name": "Hanne Hallen",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 17,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "elfique, commun des profondeurs, commun",
+ "traits": "**Ancêtre fécale.** Hanne a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas endormir Hanne.\n**Sensibilité à la lumière du soleil.** En plein soleil, Hanne a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Découpe intérieure.** Le caractéristique d'incantation de Hanne est Charisme (Spell save DD 11). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques\n**Détection orthographique.** Hanne est un épeautre de niveau 1. Son caractéristique d'incantation est Intelligence (save spell DD 13, +5 au toucher avec attaques de sort). Elle a préparé les sorts d'assistants suivants :\n- Sorts mineurs (à volonté) : Illusion mineure, Rayon de givre\n- Niveau 1 (4 emplacements) : Bouclier, Armure de mage",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Acrobatie des mains.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné pendant 1 heure. Si le jet de sauvegarde échoue par 5 ou plus, la cible est également inconscient alors qu'empoisonné de cette façon. La cible se réveille si elle prend des dégâts ou si une autre créature prend une action pour la secouer.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/7b04180547_monstre-hanne-hallen.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "skills": "Perception +2, Discrétion +4, Arcanes +5, Investigation +5"
+}

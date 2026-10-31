@@ -1,0 +1,40 @@
+{
+ "id": "main-de-orc-de-yurtrus",
+ "name": "Orc Hand of Yurtrus",
+ "type": "Humanoïde (orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 30,
+ "hpFormula": "4d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "comprend Common et Orc mais ne peut pas parler",
+ "traits": "**Agressifs.** En tant qu'action bonus, l'orc peut se déplacer à sa vitesse vers une créature hostile qu'il peut voir.\n**Détection orthographique.** L'orc est un spellcaster de niveau 4. Son caractéristique d'incantation est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). Il n'exige pas de composants verbaux pour jeter ses sorts. L'orc a les sorts clerc suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Réparation, Résistance, Thaumaturgie\n- Niveau 1 (4 emplacements) : Fléau, Détection de la magie, Blessure, Protection contre le mal et le bien\n- Niveau 2 (3 emplacements) : Cécité/Surdité, Silence",
+ "actionsText": "**Touche de la main blanche.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d8) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Touche de la main blanche",
+   "bonus": 3,
+   "damage": "2d8",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/e98fa398cd_monstre-main-de-orc-de-yurtrus.webp",
+ "notes": "",
+ "source": "Volo's Guide to Monsters (5e.tools, traduction automatique)",
+ "aka": "Main de orc de Yurtrus",
+ "caNote": "Cache l'armure",
+ "skills": "Arcanes +2, Intimidation +1, Médecine +4, Religion +2"
+}

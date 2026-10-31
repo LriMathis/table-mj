@@ -1,0 +1,40 @@
+{
+ "id": "generateur-de-jeu-par-jeu",
+ "name": "Play-by-Play Generator",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 12",
+ "languages": "commun",
+ "traits": "**Esprit axiomatique.** le générateur ne peut être contraint d'agir d'une manière contraire à sa nature ou à ses instructions.\n**Désintégration.** Si le générateur meurt, son corps se désintègre en poussière, laissant derrière lui ses armes et tout ce qu'il transportait.",
+ "actionsText": "**Multiattaques.** Le générateur fait deux attaques de poing ou quatre attaques de fléchettes.\n**Fist.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts contondants.\n**Magie Dart.** Le générateur lance une fléchette magique à une cible qu'il peut voir jusqu'à 18 m loin de lui. La fléchette frappe automatiquement sa cible (pas de jet d'attaque) pour 5 (2d4) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d212e8571e_monstre-generateur-de-jeu-par-jeu.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Générateur de jeu par jeu",
+ "caNote": "armure naturelle",
+ "skills": "Perception +2"
+}

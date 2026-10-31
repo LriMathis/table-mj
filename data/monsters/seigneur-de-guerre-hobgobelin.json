@@ -1,0 +1,52 @@
+{
+ "id": "seigneur-de-guerre-hobgobelin",
+ "name": "Seigneur de guerre hobgobelin",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 20,
+ "caNote": "bouclier, harnois",
+ "hp": 97,
+ "hpFormula": "13d8+39",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "saves": "INT +5, SAG +3, CHA +5",
+ "senses": "vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, gobelin",
+ "traits": "**Avantage martial.** Une fois par tour, le hobgobelin peut infliger 14 (4d6) dégâts supplémentaires à une créature contre laquelle il réussit une attaque d'arme, si cette créature se trouve à 1,50 mètre ou moins d'un allié du hobgobelin et si cet allié n'est pas neutralisé.",
+ "actionsText": "**Attaques multiples.** Le hobgobelin effectue trois attaques au corps à corps. Sinon, il peut effectuer deux attaques à distance avec ses javelines.\n**Coup de bouclier.** *Attaque d'arme au corps à corps :* +9 pour toucher, allonge 1,50 m, une créature. *Touché :* 5 (1d4+3) dégâts contondants. Si la cible est de Grande taille ou plus petite, elle doit réussir un jet de sauvegarde de Force DD 14 pour ne pas être jetée à terre.\n**Épée longue.** *Attaque d'arme au corps à corps :* +9 pour toucher, allonge 1,50 m, une cible. *Touché :* 7 (1d8+3) dégâts tranchants, ou 8 (1d10+3) dégâts tranchants si elle est maniée à deux mains.\n**Javeline.** *Attaque d'arme au corps à corps ou à distance :* +9 pour toucher, allonge 1,50 m ou portée 9/36 m, une cible. *Touché :* 6 (1d6+3) dégâts perforants.\n**Commandement (recharge après un court ou un long repos).** Pendant 1 minute, le hobgobelin peut hurler un ordre ou un avertissement spécial chaque fois qu'une créature non hostile située à 9 mètres ou moins de lui dans son champ de vision effectue un jet d'attaque ou de sauvegarde. La créature peut ajouter un d4 à son jet, à condition qu'elle entende et comprenne l'ordre hurlé par le hobgobelin. Une créature ne peut bénéficier que d'un dé de commandement à la fois. Cet effet prend fin si le hobgobelin est neutralisé.",
+ "reactions": "**Parade.** Le hobgobelin ajoute 3 à sa CA lorsqu'il est la cible d'une attaque au corps à corps qui devrait le toucher. Il doit voir son agresseur et manier une arme de corps à corps pour pouvoir parer ainsi.",
+ "portrait": "/data/images/c340ca60e2_monstre-seigneur-de-guerre-hobgobelin.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 185 · image : Manuel des monstres p. 184",
+ "attacks": [
+  {
+   "name": "Coup de bouclier",
+   "bonus": 9,
+   "damage": "1d4+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Épée longue",
+   "bonus": 9,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javeline",
+   "bonus": 9,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ]
+}

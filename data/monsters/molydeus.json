@@ -1,0 +1,56 @@
+{
+ "id": "molydeus",
+ "name": "Molydeus",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 19,
+ "hp": 216,
+ "hpFormula": "16d12+112",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 22,
+  "CON": 25,
+  "INT": 21,
+  "SAG": 24,
+  "CHA": 24
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 31",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si le molydeus échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le molydeus a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le molydeus fait une attaque d'arme démoniaque, une attaque de Snakebite et une attaque de Wolf Bite.\n**Arme démoniaque.** Attaque d'arme au corps à corps : +16 au toucher, allonge 4,50 m, une cible. Touché : 35 (4d12 + 9) dégâts de force. Si la cible a au moins une tête et que le molydeus a roulé un 20 sur le jet d'attaque, la cible est décapité et meurt si elle ne peut pas survivre sans cette tête. Une cible est à l'abri de cet effet si elle ne prend aucun des dégâts, a des actions légendaires, ou est Énorme ou plus grande. Une telle créature prend un 27 (6d8) dégâts de force supplémentaire du coup.\n**Snakebite.** Attaque d'arme au corps à corps : +16 au toucher, allonge 4,50 m, une créature. Touché : 16 (2d6 + 9) dégâts de poison. La cible doit réussir sur une DD 22 jet de sauvegarde de Constitution, ou sa maximum de points de vie est réduite d'un montant égal aux dégâts subis. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible se transforme en Mâne si cela réduit sa maximum de points de vie à 0. Cette transformation ne peut être terminée que par un sort Souhait.\n**Morceau de loup.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 25 (3d10 + 9) dégâts nécrotiques.\n**Détection orthographique.** Le molydeus lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 22) :\n- À volonté : Dissipation de la magie, Métamorphose, Télékinésie, Téléportation\n- 3/jour : Éclair",
+ "attacks": [
+  {
+   "name": "Arme démoniaque",
+   "bonus": 16,
+   "damage": "4d12+9",
+   "type": "force"
+  },
+  {
+   "name": "Snakebite",
+   "bonus": 16,
+   "damage": "2d6+9",
+   "type": "poison"
+  },
+  {
+   "name": "Morceau de loup",
+   "bonus": 16,
+   "damage": "3d10+9",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/214a81fcb9_monstre-molydeus.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +16, CON +14, SAG +14, CHA +14",
+ "skills": "Perception +21",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, empoisonné, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, molydeus peut entreprendre l'une des actions ci-après.\n**Attaque.** Le molydeus fait une arme démoniaque ou une attaque de Snakebite.\n**Bouge.** Le molydeus se déplace sans provoquer opportunity attacks.\n**Lancer un sort (coûts 2 actions).** Le molydeus utilise le speldcasting."
+}

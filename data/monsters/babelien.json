@@ -1,0 +1,38 @@
+{
+ "id": "babelien",
+ "name": "Babélien",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 9,
+ "hp": 52,
+ "hpFormula": "7d8+21",
+ "vitesse": "6 m, nage 6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "conditionImmunities": "à terre",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "aucune",
+ "traits": "**Charabia.** Le babélien bredouille de façon incohérente tant qu’il ne subit pas l’état Neutralisé. JS Sagesse : DD 10, toute créature qui commence son tour dans un rayon de 6 m du babélien alors qu’il bredouille. Échec : la cible lance 1d8 pour déterminer ce qu’elle fait pour le tour en cours :\n1–4. La cible ne fait rien.\n5–6. La cible n’entreprend ni action ni action Bonus, et consacre tout son déplacement dans une direction aléatoire.\n7–8. La cible effectue une attaque de corps à corps contre une créature déterminée aléatoirement à portée d’allonge (elle ne fait rien si une telle attaque n’est pas possible).\n**Sol aberrant.** Le sol dans une Émanation de 3 m centrée sur le babélien est un Terrain difficile.",
+ "actionsText": "**Morsure.** Corps à corps : +2, allonge 1,50 m. Touché : 7 (2d6) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état À terre. La cible meurt si cette attaque la fait tomber à 0 point de vie. Son corps est alors absorbé par le babélien en ne laissant que son équipement.\n**Crachat aveuglant (recharge 5–6).** JS Dextérité : DD 10, chaque créature dans une Sphère de 3 m de rayon centrée sur un point dans un rayon de 9 m. Échec : 7 (2d6) dégâts radiants, et la cible subit l’état Aveuglé jusqu’à la fin du tour suivant du babélien.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 2,
+   "damage": "2d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/cb1a3a2d7d_monstre-babelien.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 22"
+}

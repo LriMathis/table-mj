@@ -1,0 +1,41 @@
+{
+ "id": "gauth",
+ "name": "Gauth",
+ "type": "Aberration (tyrannoeil)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 52,
+ "hpFormula": "7d8+21",
+ "vitesse": "0 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 15,
+  "SAG": 15,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "profond, commun des profondeurs",
+ "traits": "**Éblouissante gaze.** Lorsqu'une créature qui peut voir l'œil central du gauthe commence son virage à l'intérieur de 9 m du gauthe, le gauthe peut la forcer à faire un DD 14 jet de sauvegarde de Sagesse si le gauthe n'est pas neutralisé et peut voir la créature. Une créature qui échoue le save est étourdi jusqu'au début de son prochain tour.\nSauf si surpris, une créature peut ouvrir ses yeux au début de son tour pour éviter la jet de sauvegarde. Si la créature le fait, elle ne peut voir le gauthe qu'au début de son prochain tour, quand elle peut à nouveau détourner ses yeux. Si la créature regarde le gauthe dans l'intervalle, elle doit immédiatement faire le sauvetage.\n**Throès de la mort.** Lorsque le gauth meurt, l'énergie magique à l'intérieur de lui explose, et chaque créature à l'intérieur de 3 m de lui doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 13 (3d8) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d8) dégâts perforants.\n**Rayons oculaires.** Le gauthe tire trois des rayons oculaires magiques suivants au hasard (roulez trois d6 s, et reroulez des duplicatas), ciblant une à trois créatures qu'il peut voir dans 36 m de lui:\n- **1: Rayon Magique Dévoré** La cible doit réussir sur un DD 14 jet de sauvegarde de Dextérité ou avoir un de ses objets magiques perdent toutes les propriétés magiques jusqu'au début du prochain tour du gauth. Si l'objet est un objet chargé, il perd également les charges 1d4. Déterminer l'élément touché au hasard, en ignorant les éléments à usage unique comme les potions et les rouleaux.\n- **2: Rayon d'énervation** La cible doit faire un DD 14 jet de sauvegarde de Constitution, en prenant 18 (4d8) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **3: Rayon feu** La cible doit réussir sur un DD 14 jet de sauvegarde de Dextérité ou prendre 22 (4d10) dégâts de feu.\n- **4: Ray paralysant** La cible doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **5: Pousser Ray** La cible doit réussir sur un DD 14 jet de sauvegarde de Force ou être poussée jusqu'à 4,50 m loin du gauth et avoir sa vitesse de moitié jusqu'au début du prochain tour du gauth.\n- **6: Rayon de sommeil** La cible doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou s'endormir et rester inconscient pendant 1 minute. La cible se réveille si elle prend des dégâts ou si une autre créature prend une action pour la réveiller. Ce rayon n'a aucun effet sur les constructions et les morts-vivants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "2d8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/852f23c260_monstre-gauth.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +5, SAG +5, CHA +4",
+ "skills": "Perception +5",
+ "conditionImmunities": "à terre"
+}

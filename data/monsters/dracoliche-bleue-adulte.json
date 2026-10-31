@@ -1,0 +1,56 @@
+{
+ "id": "dracoliche-bleue-adulte",
+ "name": "Dracoliche bleue adulte",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 19,
+ "caNote": "armure naturelle",
+ "hp": 225,
+ "hpFormula": "18d12+108",
+ "vitesse": "12 m, fouissement 9 m, vol 24 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 23,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "saves": "DEX +5, CON +11, SAG +7, CHA +9",
+ "skills": "Discrétion +5, Perception +12",
+ "resistances": "nécrotiques",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "charmé, empoisonné, épuisé, paralysé, terrorisé",
+ "senses": "vision aveugle 18 m, vision dans le noir 36 m, Perception passive 22",
+ "languages": "commun, draconique",
+ "traits": "**Résistance à la magie.** La dracoliche est avantagée lors des jets de sauvegarde contre les sorts et autres effets magiques.\n**Résistance légendaire (3/jour).** La dracoliche peut remplacer l'échec d'un de ses jets de sauvegarde par une réussite.",
+ "actionsText": "**Attaques multiples.** La dracoliche peut utiliser sa présence terrifiante. Elle effectue ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morsure.** *Attaque d'arme au corps à corps :* +12 pour toucher, allonge 3 m, une cible. *Touché :* 18 (2d10+7) dégâts perforants plus 5 (1d10) dégâts de foudre.\n**Griffe.** *Attaque d'arme au corps à corps :* +12 pour toucher, allonge 1,50 m, une cible. *Touché :* 14 (2d6+7) dégâts tranchants.\n**Queue.** *Attaque d'arme au corps à corps :* +12 pour toucher, allonge 4,50 m, une cible. *Touché :* 16 (2d8+7) dégâts contondants.\n**Présence terrifiante.** Les créatures choisies par la dracoliche, situées à 36 mètres ou moins d'elle et conscientes de sa présence, doivent réussir un jet de sauvegarde de Sagesse DD 18 pour ne pas être terrorisées pendant 1 minute. Une créature peut retenter le jet de sauvegarde à la fin de chacun de ses tours et met fin à l'effet dont elle est victime en cas de réussite. Si une créature réussit son jet de sauvegarde ou si l'effet dont elle est victime prend fin, elle est immunisée contre la présence terrifiante de la dracoliche pendant 24 heures.\n**Souffle de foudre (recharge 5-6).** La dracoliche souffle de la foudre sur une ligne de 27 mètres de long et 1,50 mètre de large. Les créatures sur cette ligne doivent effectuer un jet de sauvegarde de Dextérité DD 20 ; celles qui le ratent subissent 66 (12d10) dégâts de foudre, les autres la moitié seulement.",
+ "legendary": "La dracoliche peut effectuer 3 actions légendaires qu'elle choisit parmi celles décrites ici. Elle ne peut en effectuer qu'une seule à la fois et uniquement à la fin du tour d'une autre créature. La dracoliche récupère au début de son tour l'utilisation des actions légendaires déjà effectuées.\n**Attaque avec la queue.** Le dragon effectue une attaque de queue.\n**Attaque avec les ailes (coûte 2 actions).** La dracoliche bat violemment des ailes. Les créatures situées à 3 mètres ou moins d'elle doivent réussir un jet de sauvegarde de Dextérité DD 21 pour ne pas subir 14 (2d6+7) dégâts contondants et être jetées à terre. La dracoliche peut ensuite prendre son envol à la moitié de sa vitesse de vol.\n**Détecter.** La dracoliche effectue un test de Sagesse (Perception).",
+ "portrait": "/data/images/93f4570de2_monstre-dracoliche-bleue-adulte.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 80 · image : Manuel des monstres p. 78",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 12,
+   "damage": "2d10+7+1d10",
+   "type": "perforant + foudre"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "2d6+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 12,
+   "damage": "2d8+7",
+   "type": "contondant"
+  }
+ ]
+}

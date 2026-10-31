@@ -1,0 +1,49 @@
+{
+ "id": "berceau-du-feu-scion",
+ "name": "Cradle of the Fire Scion",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal mauvais",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 20,
+ "hp": 555,
+ "hpFormula": "30d20+240",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 12,
+  "CON": 27,
+  "INT": 12,
+  "SAG": 20,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "géant, primordial",
+ "traits": "**L'éveil des Scion.** Le berceau est un conteneur pour le Scion de Surtur. Lorsque le berceau tombe à 0 points de vie, son corps durcit et s'écroule en cendres. Le scion apparaît instantanément dans l'espace occupé par le berceau et utilise le nombre d'initiatives du berceau.\n**Résistance légendaire (5/jour).** Si le berceau échoue un jet de sauvegarde, il peut choisir de réussir.\n**Résistance magique.** Le berceau a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le berceau inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le berceau fait trois attaques Slam ou Hurl Lava dans n'importe quelle combinaison.\n**Clamer.** Attaque d'arme au corps à corps : +17 au toucher, allonge 6 m, une cible. Touché : 31 (4d10 + 9) dégâts contondants plus 14 (4d6) dégâts de feu.\n**Hurl Lava.** Attaque d'arme à distance : +17 au toucher, portée 36 m, une cible. Touché : 27 (4d8 + 9) dégâts de feu. Si la cible est une créature ou un objet inflammable, elle s'enflamme. Jusqu'à ce qu'une créature au sein de 1,50 m du feu prenne une action pour endosser le feu, la cible prend 10 (3d6) dégâts de feu au début de chacun de ses tours.\n**Eruption du souffle (Recharge 5-6).** Le berceau exhale des flammes et des gaz volcaniques dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 24 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 55 (10d10) dégâts de feu et a l'état empoisonné pendant 1 minute. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.\nUne créature empoisonné de cette façon peut faire un DD 24 jet de sauvegarde de Constitution à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 17,
+   "damage": "4d10+9",
+   "type": "contondant + feu"
+  },
+  {
+   "name": "Hurl Lava",
+   "bonus": 17,
+   "damage": "4d8+9",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/987b50eaa1_monstre-berceau-du-feu-scion.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Berceau du feu Scion",
+ "caNote": "armure naturelle",
+ "resistances": "froid, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu, poison",
+ "conditionImmunities": "épuisement, pétrifié, empoisonné",
+ "bonusActions": "**Lava Geyser.** Le berceau provoque l'éclatement de la lave d'un point sur le sol qu'il peut voir à l'intérieur de 36 m lui-même. Chaque créature dans un 6 m -radius, 15 m -haut cylindre centré sur ce point doit réussir sur un DD 21 jet de sauvegarde de Dextérité ou prendre 14 (4d6) dégâts de feu."
+}

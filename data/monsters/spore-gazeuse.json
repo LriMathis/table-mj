@@ -1,0 +1,39 @@
+{
+ "id": "spore-gazeuse",
+ "name": "Spore gazeuse",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non-aligné",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 5,
+ "hp": 1,
+ "hpFormula": "1d10-4",
+ "vitesse": "0 m, vol 3 m (vol stationnaire)",
+ "stats": {
+  "FOR": 5,
+  "DEX": 1,
+  "CON": 3,
+  "INT": 1,
+  "SAG": 1,
+  "CHA": 1
+ },
+ "immunities": "poison",
+ "conditionImmunities": "à terre, assourdi, aveuglé, empoisonné, paralysé, terrorisé",
+ "senses": "vision aveugle 9 m (aveugle au-delà de cette distance), Perception passive 5",
+ "languages": "—",
+ "traits": "**Explosion mortelle.** La spore gazeuse explose lorsque ses points de vie sont réduits à 0. Chaque créature située à 6 mètres ou moins d'elle doit réussir un jet de sauvegarde de Constitution DD 15 pour ne pas subir 10 (3d6) dégâts de poison et contracter une maladie en cas de jet de sauvegarde raté. Les créatures immunisées contre l'état empoisonné le sont aussi contre cette maladie. Les spores envahissent le corps de la créature malade et la tue au bout d'un nombre d'heures égal à 1d10 + la valeur de Constitution de la créature, à moins que la maladie ne soit soignée avant. Une fois la moitié de cette durée écoulée, la créature devient empoisonnée pendant le reste de la période. Du cadavre de la créature morte germent 2d4 spores gazeuses de taille TP qui atteignent leur taille normale au bout de 7 jours.\n**Ressemblance inquiétante.** La spore gazeuse ressemble à un tyrannœil. Une créature qui peut voir la spore gazeuse peut aussi identifier sa véritable nature en réussissant un test d'Intelligence (Nature) DD 15.",
+ "actionsText": "**Contact.** *Attaque d'arme au corps à corps :* +0 pour toucher, allonge 1,50 m, une créature. *Touché :* 1 dégât de poison, et la créature doit réussir un jet de sauvegarde de Constitution DD 10 pour ne pas contracter la maladie décrite dans le trait Explosion mortelle.",
+ "portrait": "/data/images/eee6733115_monstre-spore-gazeuse.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 33 · image : Manuel des monstres p. 32",
+ "attacks": [
+  {
+   "name": "Contact",
+   "bonus": 0,
+   "damage": "1",
+   "type": "poison"
+  }
+ ]
+}

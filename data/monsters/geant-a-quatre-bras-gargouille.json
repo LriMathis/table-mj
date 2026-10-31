@@ -1,0 +1,50 @@
+{
+ "id": "geant-a-quatre-bras-gargouille",
+ "name": "Giant Four-Armed Gargoyle",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 147,
+ "hpFormula": "14d10+70",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 20,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "terreux",
+ "traits": "**Fausse apparence.** Bien que la gargouille reste immobile, elle est indistinguable d'une statue inanimée.",
+ "actionsText": "**Multiattaques.** La gargouille fait cinq attaques : une avec sa morsure et quatre avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d4 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d4+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1a9d5ae296_monstre-geant-a-quatre-bras-gargouille.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Géant à quatre bras gargouille",
+ "caNote": "armure naturelle",
+ "saves": "SAG +4",
+ "skills": "Perception +4",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques non faites avec des armes adamantines",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, pétrifié, empoisonné"
+}

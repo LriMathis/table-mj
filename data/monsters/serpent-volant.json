@@ -1,0 +1,37 @@
+{
+ "id": "serpent-volant",
+ "name": "Serpent volant",
+ "type": "Monstruosité",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non aligné",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 14,
+ "hp": 5,
+ "hpFormula": "2d4",
+ "vitesse": "9 m, vol 18 m, nage 9 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 11",
+ "languages": "aucune",
+ "traits": "**Repli aérien.** Le serpent ne provoque pas d’attaque d’Opportunité lorsqu’il quitte la zone d’allonge d’un ennemi en volant.",
+ "actionsText": "**Morsure.** Corps à corps : +4, allonge 1,50 m. Touché : 1 dégât perforant plus 5 (2d4) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "2d4",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/e4437ddd1b_monstre-serpent-volant.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet"
+}

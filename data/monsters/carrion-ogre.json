@@ -1,0 +1,44 @@
+{
+ "id": "carrion-ogre",
+ "name": "Carrion Ogre",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La créature fait deux attaques : une avec ses tentacules et une avec sa morsure.\n**Tentacules.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une créature. Touché : 4 (1d4 + 2) dégâts de poison, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Jusqu'à ce que ce poison se termine, la cible est paralysé. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin au poison sur elle-même sur un succès.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 8,
+   "damage": "1d4+2",
+   "type": "poison"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/671ebf60c2_monstre-carrion-ogre.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure"
+}

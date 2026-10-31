@@ -1,0 +1,46 @@
+{
+ "id": "maree-noire-chevalier",
+ "name": "Dark Tide Knight",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 11
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Monture collée.** Le chevalier est magiquement lié à une bête avec une vitesse de nage innée entraînée à servir de sa monture. Alors qu'il est monté sur cette bête, le chevalier gagne les sens et la capacité de la bête à respirer sous l'eau. La monture liée obéit aux ordres du chevalier. Si sa monture meurt, le chevalier peut former une nouvelle bête pour servir de monture liée, un processus qui nécessite un mois.\n**Attaque d'escroquerie.** Le chevalier inflige un dégâts supplémentaire de 7 (2d6) quand il frappe une cible avec une attaque d'arme et a un avantage sur le jet d'attaque, ou quand la cible est dans le 1,50 m d'un allié du chevalier qui n'est pas neutralisé et le chevalier n'a pas de désavantage sur le jet d'attaque.",
+ "actionsText": "**Multiattaques.** Le chevalier fait deux attaques de mots courts.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Lance.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 9 (1d12 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Lance",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1aa1aed6d6_monstre-maree-noire-chevalier.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Marée noire chevalier",
+ "skills": "Athlétisme +7, Discrétion +7",
+ "reactions": "**Uncanny Dodge.** Lorsqu'un attaquant le chevalier peut le voir frapper avec une attaque, le chevalier peut réduire de moitié les dégâts contre elle."
+}

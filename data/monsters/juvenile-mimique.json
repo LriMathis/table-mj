@@ -1,0 +1,41 @@
+{
+ "id": "juvenile-mimique",
+ "name": "Juvenile Mimic",
+ "type": "Monstruosité (métamorphe)",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 7,
+ "hpFormula": "2d4+2",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 1,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, commun des profondeurs, télépathie 36 m",
+ "traits": "**Fausse apparence (formulaire d'objet seulement).** Bien que l'imite reste immobile, il est indistinguable d'un objet ordinaire.\n**Escalade des araignées.** L'imite peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants plus 2 (1d4) dégâts d'acide.\n**Forme-filtre.** Les polymorphes mimétiques se transforment en objet ou en sa forme amorphe. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d4",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/4c07bcff30_monstre-juvenile-mimique.webp",
+ "notes": "",
+ "source": "Tasha's Cauldron of Everything (5e.tools, traduction automatique)",
+ "aka": "Juvénile mimique",
+ "skills": "Discrétion +3",
+ "immunities": "acide",
+ "conditionImmunities": "à terre"
+}

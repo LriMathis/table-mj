@@ -1,0 +1,39 @@
+{
+ "id": "mer-rejeton",
+ "name": "Sea Spawn",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "6 m, nage 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 8,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "comprend Aquan et Common mais ne peut pas parler",
+ "traits": "**Amphibie limitée.** La fraie marine peut respirer de l'air et de l'eau, mais elle doit être submergée dans la mer au moins une fois par jour pendant 1 minute pour éviter l'étouffement.",
+ "actionsText": "**Multiattaques.** La fraie de la mer fait deux attaques frappe à mains nues et une attaque d'anatomie de la piscine.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts contondants.\n**Anatomie de la piscine.** La fraie de mer utilise l'une des options suivantes (choisir une ou rouler un d6):\n- **1–2: Morceau** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n- **3–4: Quilles poison** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 3 (1d6) dégâts de poison, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **5–6: Tentacle** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants, et la cible est agrippé (évasion DD 12) si c'est une créature moyenne ou plus petite. Jusqu'à ce que ce grappin se termine, la frayère de la mer ne peut pas utiliser ce tentacule sur une autre cible.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5fa06e10c8_monstre-mer-rejeton.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Mer rejeton",
+ "caNote": "armure naturelle"
+}

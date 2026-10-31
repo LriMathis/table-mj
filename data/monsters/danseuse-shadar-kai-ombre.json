@@ -1,0 +1,44 @@
+{
+ "id": "danseuse-shadar-kai-ombre",
+ "name": "Shadar-kai Shadow Dancer",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, elfique",
+ "traits": "**Ancêtre fécale.** Le shadar-kai a l'avantage sur jet de sauvegarde contre le charmé et la magie ne peut pas le mettre en sommeil.",
+ "actionsText": "**Multiattaques.** Le shadar-kai fait trois attaques de la chaîne Spiked.\nIl peut utiliser Shadow Jump après une de ces attaques.\n**Chaîne épilée.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants. La cible doit réussir sur un DD 14 jet de sauvegarde de Dextérité ou subir l'un des effets suivants (choisir un ou rouler un d6):\n- **1–2: Découverte** La cible prend 22 (4d10) dégâts nécrotiques.\n- **3–4: Grappe** La cible est agrippé (évasion DD 14) si c'est une créature moyenne ou plus petite. Jusqu'à ce que le grappin se termine, la cible est entravé, et le shadar-kai ne peut pas atteindre une autre cible.\n- **5–6: Découpe** La cible est à terre.",
+ "attacks": [
+  {
+   "name": "Chaîne épilée",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d0753028c0_monstre-danseuse-shadar-kai-ombre.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Danseuse Shadar -kai ombre",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +6, CHA +4",
+ "skills": "Discrétion +6",
+ "resistances": "nécrotique",
+ "conditionImmunities": "charmé, épuisement",
+ "bonusActions": "**Saut à l'ombre.** Les téléports Shadar-kai, ainsi que tout équipement, sont portés ou transportés, jusqu'à 9 m dans un espace inoccupé qu'il peut voir. L'espace qu'il téléporte et l'espace qu'il téléporte doivent être dans la lumière sombre ou sombre."
+}

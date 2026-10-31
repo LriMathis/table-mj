@@ -1,0 +1,42 @@
+{
+ "id": "chair-colossus",
+ "name": "Flesh Colossus",
+ "type": "Créature artificielle",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 14,
+ "hp": 280,
+ "hpFormula": "16d20+112",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 9,
+  "CON": 24,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "C'est géant, mais il ne peut pas parler.",
+ "traits": "**Berserk.** Si le cœur du colosse est détruit, le colosse devient bercé. Sur chacun de ses virages tandis que berker, le colosse attaque la créature la plus proche qu'il puisse voir. Si aucune créature n'est assez proche pour se déplacer et attaquer, le colosse attaque un objet. Une fois que le colosse devient berker, il reste berker jusqu'à ce qu'il soit détruit.\n**Formulaire immuable.** Le colosse est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Résistance magique.** Le colosse a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le colosse cause deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le colosse fait deux attaques Fist.\n**Fist.** Attaque d'arme au corps à corps : +13 au toucher (avec avantage si le colosse est bersk), allonge 6 m, une cible. Touché : 17 (3d6 + 7) dégâts contondants. Si la cible est une créature grande ou plus petite, elle est tirée jusqu'à 4,50 m vers le colosse, elle a l'état agrippé (évasion DD 17), et elle a l'état entravé jusqu'à ce que ce grappin se termine. Le colosse peut avoir jusqu'à deux créatures agrippé de cette façon à la fois.\n**Respiration élémentaire (Recharge 5-6).** Le colosse exhale un nuage tourbillonnant avec de l'énergie élémentaire dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 21 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 40 (9d8) dégâts d'un type de choix du colosse: acide, froid, feu, ou la foudre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts.\nEn même temps que le colosse libère cette exhalation, les créatures à l'intérieur de la cavité thoracique du colosse prennent 40 (9d8) dégâts de force de l'énergie élémentaire criante.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 13,
+   "damage": "3d6+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/102d4691b5_monstre-chair-colossus.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Chair Colossus",
+ "caNote": "armure naturelle",
+ "immunities": "foudre, poison, psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Morceau.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une Grande ou plus petite créature agrippé par le colosse. Touché : 20 (3d8 + 7) dégâts contondants, et la créature est avalée. Une créature avalée a l'état entravé, a 3 contre les attaques et autres effets en dehors du colosse, et prend 10 (3d6) dégâts de force au début de chacun des tours du colosse.\nLa cavité thoracique du colosse peut contenir jusqu'à deux créatures à la fois. À l'intérieur de sa cavité thoracique se trouve son noyau, qui est un objet grand avec CA 16 qui est immunisé contre la foudre, le poison et dégâts psychiques. Il dispose de 140 points de vie et jette la lumière dans un rayon de 3 m. Si le noyau est détruit, le colosse régurgite toutes les créatures avalées, qui tombent chacune dans un espace à l'intérieur de 3 m du colosse et a l'état à terre, et le colosse ne peut plus avaler une créature. Si le colosse meurt, toute créature avalée n'a plus l'état entravé et peut s'échapper du corps en utilisant 3 m de mouvement, en sortant avec l'état à terre."
+}

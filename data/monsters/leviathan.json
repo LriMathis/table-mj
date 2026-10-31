@@ -1,0 +1,48 @@
+{
+ "id": "leviathan",
+ "name": "Leviathan",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 17,
+ "hp": 328,
+ "hpFormula": "16d20+160",
+ "vitesse": "12 m, nage 36 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 24,
+  "CON": 30,
+  "INT": 2,
+  "SAG": 18,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "—",
+ "traits": "**Résistance légendaire (3/jour).** Si le leviathan échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Gel partiel.** Si le leviathan prend 50 dégâts de froid ou plus pendant un seul virage, le leviathan se fige partiellement ; jusqu'à la fin de son prochain virage, ses vitesses sont réduites à 6 m, et il rend jets d'attaque désavantagé.\n**Monstre de siège.** Le leviathan inflige deux dégâts aux objets et aux structures.\n**Formulaire Eau.** Le leviathan peut entrer dans l'espace d'une créature hostile et s'arrêter là. Il peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.",
+ "actionsText": "**Multiattaques.** Le leviathan fait une attaque de Chelem et une attaque de Tail.\n**Clamer.** Attaque d'arme au corps à corps : +14 au toucher, allonge 6 m, une cible. Touché : 21 (2d12 + 8) dégâts contondants plus 13 (2d12) dégâts d'acide.\n**Queue.** Attaque d'arme au corps à corps : +14 au toucher, allonge 6 m, une cible. Touché : 19 (2d10 + 8) dégâts contondants plus 10 (3d6) dégâts d'acide.\n**Onde de marée (Recharge 6).** Le leviathan crée magiquement une vague d'eau qui s'étend d'un point qu'il peut voir en lui-même. La vague est longue jusqu'à 75 m, haute jusqu'à 75 m, et large jusqu'à 15 m. Chaque créature dans l'onde doit faire un DD 24 jet de sauvegarde de Force. Sur une sauvegarde ratée, une créature prend 45 (7d12) dégâts contondants et est à terre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas à terre. L'eau s'étend sur le sol dans toutes les directions, éteignant les flammes non protégées dans sa zone et à l'intérieur de 75 m, puis elle disparaît.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 14,
+   "damage": "2d12+8",
+   "type": "contondant + acide"
+  },
+  {
+   "name": "Queue",
+   "bonus": 14,
+   "damage": "2d10+8",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/4a179b29b2_monstre-leviathan.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "saves": "SAG +10, CHA +9",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, leviathan peut entreprendre l'une des actions ci-après.\n**Bouge.** Le leviathan monte à sa vitesse.\n**Slam (coûts 2 actions).** Le leviathan fait une attaque de Slam."
+}

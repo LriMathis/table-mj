@@ -1,0 +1,46 @@
+{
+ "id": "aartuk-starhorror",
+ "name": "Aartuk Starhorror",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "Aartuk",
+ "traits": "**Escalade des araignées.** L'aartuk peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** L'aartuk fait deux attaques de Branch, deux attaques de Pellet radiant ou l'une de chacune.\n**Branche.** Attaque d'arme au corps à corps : +3 au toucher, allonge 3 m, une cible. Touché : 8 (2d6 + 1) dégâts contondants.\n**Pellet radiant.** Attaque de sort à distance : +2 au toucher, portée 18 m, une cible. Touché : 7 (3d4) dégâts radiants.\n**Coulisse (Psioniques).** L'aartuk lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation :\n- 1/jour chacun : Retour à la vie, Communication avec les plantes",
+ "attacks": [
+  {
+   "name": "Branche",
+   "bonus": 3,
+   "damage": "2d6+1",
+   "type": "contondant"
+  },
+  {
+   "name": "Pellet radiant",
+   "bonus": 2,
+   "damage": "3d4",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/f00cbd1871_monstre-aartuk-starhorror.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +4",
+ "bonusActions": "**Rallye des troupes (1/jour).** L'artuk met fin magiquement aux conditions charmé et effrayé sur lui-même et sur chaque créature de son choix qu'il peut voir en 9 m de lui-même.\n**Langue (Recharge 6).** L'aartuk essaie d'utiliser sa langue gooy pour arracher une créature moyenne ou plus petite qu'il peut voir en 9 m de lui-même. La cible doit faire un DD 12 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la cible est agrippé par la langue (évasion DD 11) et a tiré jusqu'à 7,50 m vers l'aartuk. La langue peut battre une créature à la fois."
+}

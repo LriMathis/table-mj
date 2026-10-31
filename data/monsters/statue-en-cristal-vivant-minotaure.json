@@ -1,0 +1,49 @@
+{
+ "id": "statue-en-cristal-vivant-minotaure",
+ "name": "Minotaur Living Crystal Statue",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 9,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Formulaire immuable.** La statue est à l'abri de tout sort ou effet qui modifierait sa forme.",
+ "actionsText": "**Multiattaques.** La statue fait deux attaques : une avec sa grandeaxe et une gore.\n**Grandaxe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d12 + 4) dégâts tranchants.\n**Gore.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 7,
+   "damage": "2d12+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Gore",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/11765990bc_monstre-statue-en-cristal-vivant-minotaure.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Statue en cristal vivant minotaure",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "force",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "reactions": "**Chardons volants.** En réponse à une créature frappant la statue avec une attaque d'arme à la mêlée, la statue traite 11 (2d10) dégâts perforants à l'attaquant."
+}

@@ -1,0 +1,49 @@
+{
+ "id": "galvanise",
+ "name": "Galvan",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 110,
+ "hpFormula": "17d8+34",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, draconique, infernal",
+ "traits": "**Note sur les 5outils.** Alors que Galvan n'est pas présenté dans une rencontre dans The Rise of Tiamat, le bloc de statistiques Dragonsoul a été fourni ici pour faciliter l'utilisation, avec des modifications optionnelles pour le Masque de dragon bleu.\n**Matériel spécial.** Galvan a le Masque de dragon bleu.\n**Majesté draconienne.** Tout en ne portant pas d'armure et portant le masque Dragon Bleu, Galvan ajoute son bonus Charisme à son CA (inclus).\n**Choc lingé.** Si Galvan distribue dégâts de foudre à une créature en portant le masque Dragon Bleu, cette créature ne peut pas prendre de réactions avant son prochain tour.\n**Résistance légendaire (1/jour).** Si Galvan échoue avec un jet de sauvegarde tout en portant le masque Dragon Bleu, il peut choisir de réussir à la place.\n**Dragon fanatique.** Galvan a un avantage sur jet de sauvegarde contre charmé ou effrayé. Alors que Galvan peut voir un dragon ou un Culte supérieur du culte Dragon amical à elle, Galvan ignore les effets d'être charmé ou effrayé.\n**Avantage fanatique.** Une fois par tour, si Galvan fait une attaque d'arme avec l'avantage sur le jet d'attaque et frappe, la cible prend un 10 (3d6) de dégâts supplémentaires.\n**Vol limité.** Galvan peut utiliser un action bonus pour gagner une vitesse de vol de 9 m jusqu'à la fin de son tour.\n**Tactiques de conditionnement.** Galvan a avantage sur un jet d'attaque contre une créature si au moins un des alliés de Galvan est dans 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Galvan attaque deux fois avec son mot court.\n**Mot-clé.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 10 (3d6) dégâts du type auquel Galvan a une résistance.\n**Orbe de Dragon's Breath (3/jour).** Attaque de sort à distance : +7 au toucher, portée 27 m, une cible. Touché : 27 (6d8) dégâts du type auquel Galvan a une résistance aux dégâts.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 7,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Orbe de Dragon's Breath (3/jour)",
+   "bonus": 7,
+   "damage": "6d8",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/7aab46a1ce_monstre-galvanise.webp",
+ "notes": "",
+ "source": "Rise of Tiamat (5e.tools, traduction automatique)",
+ "aka": "Galvanisé",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "SAG +4",
+ "skills": "Tromperie +6, Discrétion +7",
+ "resistances": "l'un des éléments suivants: acide, froid, feu, foudre, poison",
+ "immunities": "foudre"
+}

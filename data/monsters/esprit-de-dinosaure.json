@@ -1,0 +1,31 @@
+{
+ "id": "esprit-de-dinosaure",
+ "name": "Dinosaur Spirit",
+ "type": "Bête (dinosaure)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Perception passive 11",
+ "languages": "comprend les langues que vous connaissez",
+ "traits": "**Monstre de siège (Ankylosaur seulement).** L'esprit inflige deux dégâts aux objets et aux structures.\n**Dure.** Ajoutez la moitié du niveau du sort (ronde vers le bas) à n'importe quel Force ou jet de sauvegarde de Constitution que l'esprit fait.",
+ "actionsText": "**Multiattaques.** L'esprit fait un nombre d'attaques égal à la moitié du niveau de ce sort (ronde vers le bas).\n**Bite (Tyrannosaure seulement).** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 3 m. Touché : 2d10 + 5 + summonSpellLevel dégâts perforants. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD égale votre DD de sauvegarde des sorts), et elle a l'état entravé jusqu'à ce que le grappin se termine.\n**Gore (Tricératops seulement).** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d10 + 5 + summonSpellLevel dégâts perforants. Si la cible est une créature immense ou plus petite et que l'esprit a déplacé plus de 20 pieds droit vers elle immédiatement avant le coup, la cible prend un 1d10 dégâts perforants supplémentaire et a l'état à terre.\n**Clamer.** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 3 m. Touché : 1d10 + 5 + summonSpellLevel dégâts contondants.",
+ "attacks": [],
+ "portrait": "/data/images/22b4e76c41_monstre-esprit-de-dinosaure.webp",
+ "notes": "points de vie : 60 + 10 pour chaque niveau de sort supérieur à 6",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "aka": "Esprit de dinosaure"
+}

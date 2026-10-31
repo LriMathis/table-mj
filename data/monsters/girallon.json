@@ -1,0 +1,45 @@
+{
+ "id": "girallon",
+ "name": "Girallon",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le girallon fait une attaque de Bite et quatre attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 7 (1d6 + 4) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/fda09479b6_monstre-girallon.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "skills": "Perception +5, Discrétion +5",
+ "bonusActions": "**Agressifs.** Le girallon se dirige vers une créature hostile qu'il peut voir."
+}

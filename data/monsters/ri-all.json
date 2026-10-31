@@ -1,0 +1,47 @@
+{
+ "id": "ri-all",
+ "name": "Ri'all",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 127,
+ "hpFormula": "15d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun",
+ "traits": "**Immunités et économies.** Ri'all réussit automatiquement sur tous les jet de sauvegarde.",
+ "actionsText": "**Multiattaques.** Ri'all fait trois attaques, utilisant Dread Scythe ou Deathly Ray dans n'importe quelle combinaison.\n**Épouvantable Scythe.** Jet d'attaque au corps à corps : +7, allonge 3 m. Touché : 9 (1d10 + 4) dégâts tranchants plus 11 (2d10) dégâts nécrotiques, et la cible ne peut retrouver points de vie qu'à la fin de son prochain tour.\n**Rayon de mort.** Jet d'attaque à distance : +6, portée 36 m. Touché : 22 (4d10) dégâts nécrotiques.\n**Détection orthographique.** Ri'all lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Communication avec les morts, Thaumaturgie",
+ "attacks": [
+  {
+   "name": "Épouvantable Scythe",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Rayon de mort",
+   "bonus": 6,
+   "damage": "4d10",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/6e87ed01ed_monstre-ri-all.webp",
+ "notes": "",
+ "source": "Red Wizards' Gambit (5e.tools, traduction automatique)",
+ "saves": "CON +7, SAG +6",
+ "skills": "Perspicacité +6, Perception +6, Religion +4",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, agrippé, neutralisé, invisible, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi, inconscient",
+ "bonusActions": "**Spirit Wail (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 14, chaque créature, à l'exclusion des mercenaires Thayan, dans une émanation 6 m originaire de Ri'all. Échec : 7 (2d6) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour. Réussite : Demi-dégâts seulement."
+}

@@ -1,0 +1,43 @@
+{
+ "id": "dracophage-sujet",
+ "name": "Dracophage Subject",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, draconique",
+ "traits": "**Throès de la mort.** Lorsque le sujet est réduit à 0 points de vie, il se dissout en acide qui éclabousse sur ceux qui l'entourent. Chaque créature de 1,50 m du sujet doit réussir sur un DD 12 jet de sauvegarde de Dextérité ou être recouverte d'acide pendant 1 minute. Une créature couverte dans l'acide prend 7 (2d6) dégâts d'acide au début de chacun de ses tours. Une créature peut utiliser son action pour gratter ou laver l'acide elle-même ou une autre créature.\n**Glisse.** Lorsque le sujet tombe et n'est pas neutralisé, il soustrait jusqu'à 30 m de la chute lors du calcul des dégâts de la chute, et il peut passer à 0,60 m horizontalement pour chaque 0,30 m qu'il descend.",
+ "actionsText": "**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 7 (2d6) dégâts de poison. Si la cible est un humanoïde, elle doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être infectée par un maladie – un œuf minuscule slaad.\nUn hôte humanoïde ne peut porter qu'un seul œuf à la fois. Pendant trois mois, l'œuf se déplace vers la cavité thoracique, les gestates et forme un têtard slaad. Dans la période de 24 heures avant la naissance du têtard, l'hôte se sent mal; sa vitesse est réduite de moitié; et il a un désavantage sur jets d'attaque, tests de caractéristique et jet de sauvegarde. À la naissance, le têtard mâche son chemin à travers les organes vitaux et sort de la poitrine de l'hôte en 1 tour, tuant l'hôte dans le processus.\nSi le maladie est guéri avant l'émergence du têtard, celui-ci se désintègre.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/b6f6a52cf8_monstre-dracophage-sujet.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Dracophage sujet",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5",
+ "skills": "Tromperie +4, Perception +3, Discrétion +7",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

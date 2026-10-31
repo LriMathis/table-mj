@@ -1,0 +1,38 @@
+{
+ "id": "satyre",
+ "name": "Satyre",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 31,
+ "hpFormula": "7d8",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 14
+ },
+ "skills": "Discrétion +5, Perception +2, Représentation +6",
+ "senses": "Perception passive 12",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Résistance à la magie.** Le satyre a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Sabots.** Corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts contondants. Si la cible est une créature de taille M ou inférieure, le satyre la repousse en ligne droite d’un maximum de 3 m.\n**Moquerie.** JS Sagesse : DD 12, une créature que le satyre voit dans un rayon de 27 m. Échec : 5 (1d6 + 2) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Sabots",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/500e9d11e3_monstre-satyre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 263"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "rat-corrompu-geant",
+ "name": "Giant Corrupted Rat",
+ "type": "Monstruosité",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 18,
+ "hpFormula": "4d6",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Burst de mort.** Le rat explose quand il meurt. jet de sauvegarde de Constitution DD 11, chaque créature dans une émanation 1,50 m provenant du rat. Échec : 5 (2d4) dégâts d'acide. Réussite : Demi-dégâts.",
+ "actionsText": "**Morceau.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts perforants plus 5 (2d4) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/40d4da28f0_monstre-rat-corrompu-geant.webp",
+ "notes": "",
+ "source": "Stranger Things: Welcome to the Hellfire Club (5e.tools, traduction automatique)",
+ "aka": "Rat corrompu géant",
+ "skills": "Perception +12, Discrétion +5"
+}

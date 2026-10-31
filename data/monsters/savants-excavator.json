@@ -1,0 +1,42 @@
+{
+ "id": "savants-excavator",
+ "name": "Scholarly Excavator",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Perception passive 12",
+ "languages": "Commun plus deux autres langues",
+ "traits": "**Expert en siège.** La pelle inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** L'excavatrice fait trois attaques Thunderous Warhammer.\n**Un warhammer bruyant.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d10 + 2) dégâts de tonnerre.",
+ "attacks": [
+  {
+   "name": "Un warhammer bruyant",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "tonnerre"
+  }
+ ],
+ "portrait": "/data/images/28829d4054_monstre-savants-excavator.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Savants Excavator",
+ "caNote": "Breastplate",
+ "saves": "CON +5, INT +4",
+ "skills": "Arcanes +4, Athlétisme +4, Histoire +4",
+ "bonusActions": "**Découpe télékinétique (Recharge 5-6).** La pelle cible une créature moyenne ou plus petite ou un objet pesant au moins 150 kg qui n'est ni porté ni porté. La cible, qui doit être à l'intérieur de 9 m de la pelle et visible à elle, est par magie poussée jusqu'à 6 m horizontalement dans la direction du choix de la pelle. Si la cible est une créature, elle peut faire un DD 13 jet de sauvegarde de Force pour résister à l'effet et n'est pas poussée sur une sauvegarde réussie."
+}

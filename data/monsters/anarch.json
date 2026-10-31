@@ -1,0 +1,39 @@
+{
+ "id": "anarch",
+ "name": "Anarch",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Agressifs.** En tant qu'action bonus, l'anarch peut se déplacer à sa vitesse vers une créature hostile qu'il peut voir.\n**Monstre de siège.** L'anarch inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Club piqué.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants, ou 7 (1d10 + 2) dégâts perforants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Club piqué",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/748f5bad3c_monstre-anarch.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "skills": "Perception +2, Survie +2"
+}

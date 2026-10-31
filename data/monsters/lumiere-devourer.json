@@ -1,0 +1,41 @@
+{
+ "id": "lumiere-devourer",
+ "name": "Light Devourer",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 119,
+ "hpFormula": "14d8+56",
+ "vitesse": "0 m, nage 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Absorption légère.** Si le dévorant de lumière passe une partie de son tour dans une zone de lumière vive ou est soumis à dégâts radiants, il rayonne la lumière dans un rayon de 3 m pendant 1 heure.\n**Respiration d'eau.** Le dévorant de lumière ne peut respirer que sous l'eau.",
+ "actionsText": "**Multiattaques.** Le dévorant de lumière fait deux attaques Bite.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 21 (5d6 + 4) dégâts perforants, ou dégâts radiants si le dévorant de la lumière rayonne (voir Absorption de la lumière).",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "5d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8030bab408_monstre-lumiere-devourer.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Lumière Devourer",
+ "skills": "Perception +3, Discrétion +10",
+ "immunities": "radiant",
+ "bonusActions": "**Décharge radiant.** Si la lumière dévorante rayonne (voir Absorption de la lumière), elle libère la lumière stockée dans son corps dans une sphère 6 m -radius centrée sur elle-même, alors cesse de rayonner la lumière. Chaque créature dans la sphère doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 24 (7d6) dégâts radiants sur un jet de sauvegarde défaillant, ou la moitié de ces dégâts sur un succès."
+}

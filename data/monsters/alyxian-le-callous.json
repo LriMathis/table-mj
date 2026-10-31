@@ -1,0 +1,44 @@
+{
+ "id": "alyxian-le-callous",
+ "name": "Alyxian the Callous",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 157,
+ "hpFormula": "15d10+75",
+ "vitesse": "9 m, vol 27 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 18,
+  "CON": 21,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 17",
+ "languages": "céleste, commun, elfique, télépathie 36 m",
+ "traits": "**Réjeunissement apothéonique.** Quand Alyxian le Callous tombe à 0 points de vie, son corps meurt et verse ses ailes, et il se lève à ses pieds dans sa troisième forme, Alyxian le Dépossé. Son initiative compte ne change pas.\n**Divinement béni.** Alyxian ne peut pas être surpris et ne peut pas être changé en une autre forme contre sa volonté.\n**Résistance légendaire (2/jour).** Si Alyxian échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Alyxian fait deux attaques radiant Spear. Il peut remplacer l'une de ces attaques par un téléporteur aveugle.\n**radiant Spear.** Attaque d'arme au corps à corps ou à distance : +10 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 15 (2d8 + 6) dégâts radiants.\n**Téléportage aveugle.** Les téléportations alyxiennes, ainsi que tout équipement qu'il porte ou qu'il transporte, dans un espace inoccupé qu'il peut voir à l'intérieur de 36 m de lui-même. Chaque créature au sein de 1,50 m de son nouvel emplacement doit réussir sur un DD 17 jet de sauvegarde de Constitution ou être aveuglé jusqu'à la fin de son prochain tour.\n**Destruction céleste (1/jour).** Alyxian libère l'énergie divine dans un cône 18 m. Chaque créature de son choix dans cette zone doit faire un DD 17 jet de sauvegarde de Constitution. Sur un jet de sauvegarde échoué, la créature prend 31 (7d8) dégâts radiants et est à terre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas à terre.",
+ "attacks": [
+  {
+   "name": "radiant Spear",
+   "bonus": 10,
+   "damage": "2d8+6",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/67addb9357_monstre-alyxian-le-callous.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Alyxian le Callous",
+ "caNote": "demi-plaque",
+ "saves": "FOR +10, CON +9, SAG +7",
+ "skills": "Tromperie +9, Perspicacité +7, Perception +7",
+ "immunities": "radiant",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, entravé, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, alyxian le callous peut entreprendre l'une des actions ci-après.\n**Attaque.** Alyxian fait une attaque radiant Spear.\n**Chaînes célestes.** Alyxian cible une créature qu'il peut voir dans 36 m de lui-même. La cible doit réussir sur un DD 17 jet de sauvegarde de Force ou être entravé par des chaînes magiques pendant 1 minute. Alors qu'entravé de cette façon, la cible ne peut pas quitter l'espace par aucun moyen. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Flare (coûts 2 actions).** Alyxian cible une créature il peut voir dans 9 m de lui-même. La lumière éclaire la cible, lui vendant 17 (5d6) dégâts radiants et des créatures à l'intérieur de 3 m."
+}

@@ -1,0 +1,37 @@
+{
+ "id": "rhinoceros",
+ "name": "Rhinocéros",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 8,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 11",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Coup de corne.** Corps à corps : +7, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts perforants. Si la cible est une créature de taille G ou inférieure et si le rhinocéros s’est déplacé d’au moins 6 m en ligne droite vers elle juste avant de la toucher, la cible subit 9 (2d8) dégâts perforants supplémentaires, ainsi que l’état À terre.",
+ "attacks": [
+  {
+   "name": "Coup de corne",
+   "bonus": 7,
+   "damage": "2d8+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b9c1e3c7d7_monstre-rhinoceros.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

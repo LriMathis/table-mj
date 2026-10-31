@@ -1,0 +1,41 @@
+{
+ "id": "leprechaun",
+ "name": "Leprechaun",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 52,
+ "hpFormula": "8d6+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, sylvestre",
+ "traits": "**Industrieux.** Le leprechaun est compétent avec tous les outils artisanaux et ajoute deux fois son bonus de maîtrise à tests de caractéristique fabriqués avec eux.\n**Refus réluctant.** Lorsqu'une créature offre au leprechaun la chance de participer à la joie ou à la révérence, comme une chanson, une danse ou un bon repas, le leprechaun doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou avoir l'état charmé pendant 24 heures. Tandis que charmé de cette façon, le leprechaun participe à l'offrande, traite la créature comme un ami de confiance, et cherche à la défendre du mal. l'état charmé se termine si la créature ou l'un de ses alliés endommage le leprechaun, force le leprechaun à faire un jet de sauvegarde, ou voler du leprechaun.",
+ "actionsText": "**Multiattaques.** Le leprechaun fait deux attaques de Hammer de Cobbler et peut utiliser Spellcasting.\n**Hammer de Cobbler.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants plus 13 (3d8) dégâts de force. Si la cible est une créature, sa vitesse est réduite de moitié jusqu'au prochain tour du leprechaun.\n**Don de chance (1/jour).** Le leprechaun touche une créature et donne magiquement à la cible une mesure de chance. La créature gagne la réaction du léprechaun à la chance étonnante. La créature peut utiliser la réaction trois fois, après quoi ce don disparaît. Le lépréchaun peut révoquer ce don d'une créature à tout moment (aucune action requise). Une créature peut bénéficier d'un seul don de chance d'un leprechaun à la fois.\n**Détection orthographique.** Le leprechaun lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Réparation (en tant qu'action), Prestidigitation\n- 1/jour chacun : Fabrication (en tant qu'action), Double illusoire\n- 2/jour chacun : Invisibilité, Force fantasmagorique",
+ "attacks": [
+  {
+   "name": "Hammer de Cobbler",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant + force"
+  }
+ ],
+ "portrait": "/data/images/5d72f76ccc_monstre-leprechaun.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "saves": "CON +5, SAG +4",
+ "skills": "Perception +4, Escamotage +7, Discrétion +5",
+ "bonusActions": "**Trick clinquant.** Le leprechaun prend l'action Se désengager ou Se cacher ou fait un test de Dextérité (Escamotage).",
+ "reactions": "**La chance s'étonne.** Lorsque le leprechaun échoue un test de caractéristique, un jet d'attaque, ou un jet de sauvegarde, il peut rouler un nouveau d20 et choisir quel rouleau à utiliser, potentiellement transformer l'échec en un succès."
+}

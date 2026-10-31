@@ -1,0 +1,47 @@
+{
+ "id": "brutacien-royal",
+ "name": "Bullywug Royal",
+ "type": "Humanoïde (outrance)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Perception passive 10",
+ "languages": "C'est vrai, c'est vrai.",
+ "traits": "**Amphibie.** Le roi peut respirer de l'air et de l'eau.\n**Brute.** Une arme à melee inflige une mort supplémentaire de ses dégâts lorsque le roi frappe avec lui (inclus dans l'attaque).\n**Cavalier de grenouilles.** Le roi a l'avantage sur les attaques à la mêlée faites pendant qu'il chevauche un mont de grenouille.\n**Parlez avec des grenouilles et des crapauds.** Le roi peut communiquer des concepts simples aux grenouilles et aux crapauds quand il parle à Bullywug.\n**Leap debout.** Le long saut du roi est jusqu'à 6 m et son saut en hauteur est jusqu'à 3 m, avec ou sans départ en course.\n**Camouflage de swamp.** Le royal a avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans un terrain marécageux.",
+ "actionsText": "**Multiattaques.** Le roi fait deux attaques : l'une avec sa lance royale et l'autre avec sa morsure.\n**Lance royale.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 3 m ou portée 6/18 m., une cible. Touché : 10 (2d6 + 3) dégâts perforants, ou 12 (2d8 + 3) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee. Si la cible est une créature moyenne ou plus petite, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Décret entaché (1/jour).** Le roi fait une déclaration forte. Chaque bullywug au sein de 18 m du royal qui peut entendre la déclaration a avantage sur son prochain jet d'attaque.",
+ "attacks": [
+  {
+   "name": "Lance royale",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9daca23f3d_monstre-brutacien-royal.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Brutacien royal",
+ "caNote": "Cache l'armure, Bouclier",
+ "saves": "FOR +5, DEX +3",
+ "skills": "Athlétisme +5, Intimidation +4, Discrétion +3"
+}

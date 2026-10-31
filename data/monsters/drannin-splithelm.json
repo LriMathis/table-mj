@@ -1,0 +1,40 @@
+{
+ "id": "drannin-splithelm",
+ "name": "Drannin Splithelm",
+ "type": "Humanoïde (Nain du bouclier)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 18,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 8,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, nain",
+ "traits": "**Action Surge (recharge après un repos court ou long).** Drannin prend une autre mesure à son tour.\n**Brute.** Une arme à melee inflige une mort supplémentaire de ses dégâts quand Drannin frappe avec elle (inclus dans l'attaque).\n**Résilience des nains.** Drannin a un avantage sur jet de sauvegarde contre le poison.\n**Indomidable (recharge après un repos court ou long).** Drannin peut reroller un jet de sauvegarde qu'il échoue. Il doit utiliser le nouveau rouleau.\n**Deuxième vent (recharge après un repos court ou long).** Drannin peut utiliser un action bonus pour récupérer 16 (1d10 + 11) points de vie.\n**Matériel spécial.** Drannin porte une amulette de contrôle pour son Garde animé (voir le Monster Manual) et un Anneau de froid résistance. Il porte également un Potion of Frost Giant Strength.",
+ "actionsText": "**Multiattaques.** Drannin fait trois attaques avec sa grande emprise.\n**Grandaxe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d12 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 7,
+   "damage": "2d12+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/2a407f99fc_monstre-drannin-splithelm.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "skills": "Athlétisme +7, Intimidation +4",
+ "resistances": "froid, poison"
+}

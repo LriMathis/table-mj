@@ -1,0 +1,41 @@
+{
+ "id": "en-colere-sorrowsworn",
+ "name": "Angry Sorrowsworn",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 255,
+ "hpFormula": "30d8+120",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 19,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 21",
+ "languages": "commun",
+ "traits": "**Deux chefs.** La douleur a l'avantage sur jet de sauvegarde contre aveuglé, charmé, assourdi, effrayé, étourdi, ou inconscient.\n**La colère montante.** Si une autre créature inflige des dégâts à la douleurworn, la jets d'attaque de la douleurworn ont avantage jusqu'à la fin de son prochain tour, et la première fois qu'elle frappe avec une attaque Crochet à son prochain tour, la cible de l'attaque prend un 19 (3d12) dégâts psychiques supplémentaire.\nA son tour, le chagrin a désavantagé jets d'attaque si aucune autre créature ne lui a causé de dégâts depuis la fin de son dernier tour.",
+ "actionsText": "**Multiattaques.** Les chagrinsworn font deux attaques de Crochet.\n**Crochet.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d12 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Crochet",
+   "bonus": 8,
+   "damage": "2d12+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b39d5018c6_monstre-en-colere-sorrowsworn.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "En colère Sorrowsworn",
+ "caNote": "armure naturelle",
+ "skills": "Perception +11",
+ "resistances": "contondant, perforant, tranchant alors que dans la lumière sombre ou l'obscurité"
+}

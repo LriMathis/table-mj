@@ -1,0 +1,41 @@
+{
+ "id": "pecheur-de-grottes",
+ "name": "Cave Fisher",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Sang inflammable.** Si le pêcheur tombe à la moitié de sa points de vie ou moins, il devient vulnérable à la dégâts de feu.\n**Escalade des araignées.** Le pêcheur de grottes peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Le pêcheur de grottes fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.\n**Rétracter le filament.** Une grande ou plus petite créature agrippé par le filament adhésif du pêcheur de grotte doit faire un DD 13 jet de sauvegarde de Force. Lors d'un sauvetage raté, la cible est tirée dans un espace inoccupé à l'intérieur de 1,50 m du pêcheur de grotte, et le pêcheur de grotte fait une attaque de griffe contre elle. Toute autre personne attachée au filament est libérée. Jusqu'à ce que le grappin se termine sur la cible, le pêcheur de grotte ne peut pas utiliser le Filament Adhésif.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ea25bf84aa_monstre-pecheur-de-grottes.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Pêcheur de grottes",
+ "caNote": "armure naturelle",
+ "skills": "Perception +2, Discrétion +5",
+ "bonusActions": "**Filament adhésif.** Le pêcheur de grotte étend un filament collant jusqu'à 18 m et le filament adhère à tout ce qui le touche. Une créature à laquelle le filament adhère est agrippé par le pêcheur de caverne (évasion DD 13), et tests de caractéristique fait pour échapper à ce grappin ont un désavantage. Le filament peut être attaqué (CA 15; 5 points de vie ; immunité au poison et dégâts psychiques). Une arme qui n'arrive pas à la couper devient collée à elle, nécessitant une action et un DD 13 test de Force réussi à tirer libre. Détruire le filament ne cause aucun dégâts au pêcheur de la grotte. Le filament s'effondre si le pêcheur de la grotte reprend ce action bonus."
+}

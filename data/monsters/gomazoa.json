@@ -1,0 +1,45 @@
+{
+ "id": "gomazoa",
+ "name": "Gomazoa",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 20,
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "vol 3 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 8,
+  "CON": 17,
+  "INT": 7,
+  "SAG": 16,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Bien que le gomazoa reste immobile, il est indissociable d'une formation de caverne normale, telle qu'une stalagmite.\n**Tendrins gras.** Le gomazoa peut avoir jusqu'à six vrilles à la fois. Chaque vrille peut être attaquée (CA 20; 10 points de vie ; immunité contre le poison et dégâts psychiques). Détruire une vrille ne cause aucun dégâts au gomazoa, qui peut extruder une vrille de remplacement à son tour suivant. Une vrille peut également être brisée si une créature agit et réussit sur une DD 15 test de Force contre elle.\n**Escalade des araignées.** Le gomazoa peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Le gomazoa fait quatre attaques avec ses vrilles, utilise Reel, et fait une attaque avec sa morsure.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 22 (4d8 + 4) dégâts perforants.\n**Tendril.** Attaque d'arme au corps à corps : +7 au toucher, allonge 15 m, une créature. Touché : La cible est agrippé (évasion DD 15). Jusqu'à ce que le grappin se termine, la cible est entravé et a un désavantage sur tests de Force et jet de sauvegarde de Force, et le gomazoa ne peut pas utiliser la même vrille sur une autre cible.\n**Bobine.** Le gomazoa tire chaque créature agrippé par elle jusqu'à 7,50 m droit vers elle.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "4d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Tendril",
+   "bonus": 7,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/a92dd6e7b4_monstre-gomazoa.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6, Discrétion +5"
+}

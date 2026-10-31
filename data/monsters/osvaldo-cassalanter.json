@@ -1,0 +1,43 @@
+{
+ "id": "osvaldo-cassalanter",
+ "name": "Osvaldo Cassalanter",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 85,
+ "hpFormula": "10d8+40",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'empêche pas Osvaldo de voir les ténèbres.\n**Résistance magique.** Osvaldo a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Osvaldo fait deux attaques avec ses chaînes.\n**Chaîne.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants. La cible est agrippé (évasion DD 14) si Osvaldo n'est pas déjà en train de battre une créature. Jusqu'à ce que ce grappin se termine, la cible est entravé et prend 7 (2d6) dégâts perforants au début de chacun de ses tours.\n**Chaînes animées (recharges après un repos court ou long).** Jusqu'à quatre chaînes Osvaldo peut voir à l'intérieur de 18 m de lui magiquement germer des barbes à armature de rasoir et l'animate sous le contrôle d'Osvaldo, à condition que les chaînes ne sont pas portés ou transportés.\nChaque chaîne animée est un objet avec CA 20, 20 points de vie, résistance à dégâts perforants, et immunité à psychique et dégâts de tonnerre. Quand Osvaldo utilise Multiattack à son tour, il peut utiliser chaque chaîne animée pour faire une attaque de chaîne supplémentaire. Une chaîne animée peut se battre contre une créature mais ne peut pas faire d'attaques en se battant. Une chaîne animée revient à son état inanimé si elle est réduite à 0 points de vie ou si Osvaldo est neutralisé ou meurt.",
+ "attacks": [
+  {
+   "name": "Chaîne",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "tranchant + perforant"
+  }
+ ],
+ "portrait": "/data/images/f7a2c75bfb_monstre-osvaldo-cassalanter.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +7, SAG +4, CHA +5",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "reactions": "**Masque dénervant.** Lorsqu'une créature Osvaldo peut voir son tour commence à l'intérieur de 9 m d'Osvaldo, Osvaldo peut créer l'illusion qu'il ressemble à un des êtres chers défunts de la créature ou à des ennemis amers. Si la créature peut voir Osvaldo, elle doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être effrayé jusqu'à la fin de son tour."
+}

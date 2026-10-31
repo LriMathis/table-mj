@@ -1,0 +1,50 @@
+{
+ "id": "moindre-dragon-mort",
+ "name": "Lesser Death Dragon",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 199,
+ "hpFormula": "21d10+84",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "comprend le commun et le draconien mais ne peut pas parler",
+ "traits": "**Nature inhabituelle.** Le dragon n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 14 (2d8 + 5) dégâts perforants plus 4 (1d8) dégâts nécrotiques.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m une cible. Touché : 8 (1d6 + 5) dégâts tranchants. Si la cible est une créature moyenne ou plus petite, c'est agrippé (évasion DD 15). Jusqu'à ce que ce grappin se termine, la cible est entravé. Le dragon a deux griffes, chacune pouvant battre une cible.\n**Respiration cataclysmique (Recharge 5-6).** Le dragon exhale une vague de flammes fantomatiquement violettes dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 36 (8d8) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature meurt si le souffle la réduit à 0 points de vie. De plus, tout humanoïde moyen ou plus petit tué par les dégâts du souffle, ainsi que tous les cadavres d'une telle créature dans le cône, devient un zombie (voir le Monster Manual) sous le contrôle du dragon. Le zombie agit sur l'initiative du dragon mais immédiatement après le tour du dragon. En l'absence de toute autre commande, le zombie essaie de tuer toute créature non-morte qu'il rencontre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/52e7d9d8c9_monstre-moindre-dragon-mort.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Moindre dragon mort",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, SAG +4",
+ "skills": "Perception +4, Discrétion +4",
+ "resistances": "perforant",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

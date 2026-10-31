@@ -1,0 +1,39 @@
+{
+ "id": "geant-snail",
+ "name": "Giant Snail",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 22,
+ "hpFormula": "4d10",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 3,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Osmose salée.** Chaque fois que l'escargot commence son tour en contact avec une livre ou plus de sel, il prend 1d4 dégâts nécrotiques. En utilisant une action pour saupoudrer une livre de sel sur l'escargot, 1d4 dégâts nécrotiques lui fait immédiatement parvenir immédiatement et un autre 1d4 dégâts nécrotiques à lui au début de son prochain tour (après quoi le sel se frotte), à condition que l'escargot ne se soit pas retiré dans sa coquille.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants.\n**Défense de la coquille.** L'escargot se retire dans sa coquille, gagnant un bonus de +4 à son CA jusqu'à ce qu'il émerge. Il peut émerger de sa coquille comme un action bonus à son tour.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ce185459c2_monstre-geant-snail.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Géant Snail",
+ "caNote": "armure naturelle"
+}

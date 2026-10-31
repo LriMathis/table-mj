@@ -1,0 +1,46 @@
+{
+ "id": "draconian-dreadnought",
+ "name": "Draconian Dreadnought",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 57,
+ "hpFormula": "6d10+24",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, draconique",
+ "traits": "**Throès de la mort.** Lorsque le draconien est réduit à 0 points de vie, il éclate en flammes et est réduit en cendres. Chaque créature dans une sphère 3 m -radius centrée sur le draconien doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou prendre 10 (3d6) dégâts de feu.",
+ "actionsText": "**Multiattaques.** Le draconien fait deux attaques d'épées déraillées et une attaque de Tail.\n**Épée déraillée.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 14 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Épée déraillée",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0ef6a8d9cc_monstre-draconian-dreadnought.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +6, SAG +2",
+ "reactions": "**Vol de forme.** Après que le draconien tue un humanoïde moyen ou plus petit, le draconien peut magiquement se transformer pour ressembler à cette créature tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation dure jusqu'à ce que le draconien meurt ou utilise une action pour y mettre fin."
+}

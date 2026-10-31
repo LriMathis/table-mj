@@ -1,0 +1,40 @@
+{
+ "id": "dabus",
+ "name": "Dabus",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "6 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "comprend toutes les langues mais ne peut pas parler; communique par le biais du discours symbolique",
+ "traits": "**Dispositif de retenue physique.** Le dabus ne fait pas d'attaques de mêlée ou d'opportunités, même en légitime défense.\n**Discours symbolique.** Un dabus communique en créant des symboles et des images illusoires qui flottent en l'air devant lui-même et disparaissent quelques secondes plus tard. Une créature qui peut voir un tel message peut le déchiffrer avec un DD 10 test d'Intelligence (Investigation) (aucune action requise).",
+ "actionsText": "**Multiattaques.** Le dabus fait deux attaques Flying Brick.\n**Brique volante.** Attaque de sort à distance : +5 au toucher, portée 27 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants.\n**Grappage du sol (Recharge 6).** Le dabus provoque une surface de sol carrée 6 m qu'il peut voir à l'intérieur de 18 m de lui-même pour germer des appendices d'embrayage en pierre. Chaque créature du choix du dabus dans cette zone doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou prendre 9 (2d8) dégâts contondants et avoir l'état agrippé (évasion DD 13). Alors qu'agrippé de cette façon, la créature a l'état entravé. Les appendices disparaissent après 1 minute ou si le concentration du dabus se termine (comme si concentrating sur un sort).",
+ "attacks": [
+  {
+   "name": "Brique volante",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ceb606f3fc_monstre-dabus.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "saves": "INT +5, SAG +4",
+ "skills": "Perspicacité +4, Perception +6",
+ "conditionImmunities": "épuisement"
+}

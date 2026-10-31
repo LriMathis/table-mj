@@ -1,0 +1,44 @@
+{
+ "id": "capitaine-de-la-garde",
+ "name": "Capitaine de la garde",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 18,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "skills": "Athlétisme +6, Perception +4",
+ "senses": "Perception passive 14",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le garde effectue deux attaques, réparties à sa guise entre Épée longue et Javeline.\n**Épée longue.** Corps à corps : +6, allonge 1,50 m. Touché : 15 (2d10 + 4) dégâts tranchants.\n**Javeline.** Corps à corps ou à distance : +6, allonge 1,50 m ou portée 9/36 m. Touché : 14 (3d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Épée longue",
+   "bonus": 6,
+   "damage": "2d10+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javeline",
+   "bonus": 6,
+   "damage": "3d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0bd8f834f1_monstre-capitaine-de-la-garde.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

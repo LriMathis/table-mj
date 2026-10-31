@@ -1,0 +1,39 @@
+{
+ "id": "gug",
+ "name": "Gug",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 16,
+ "hp": 250,
+ "hpFormula": "20d12+120",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 15,
+  "CON": 23,
+  "INT": 7,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "Ça comprend le discours profond mais ne peut pas parler",
+ "traits": "**Tactiques de conditionnement.** Le gag a Avantage sur un jet d'attaque contre une créature si au moins un des alliés du gag est dans le 1,50 m de la créature et l'allié n'a pas l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Le gag fait deux attaques Claw et utilise Chew.\n**Griffe.** Jet d'attaque au corps à corps : +10, allonge 3 m. Touché : 22 (3d10 + 6) dégâts tranchants. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 16) de l'une des deux griffes.\n**A chier.** Jet de sauvegarde de Dextérité : DD 18, jusqu'à deux créatures moyennes ou plus petites agrippé par le gag. Échec : Le gag place la cible dans sa bouche et mâche. Une créature mâchée n'est plus agrippé mais a l'état entravé. Alors qu'entravé de cette façon, une cible a Half Cover contre les attaques et autres effets non originaires du gag et prend 10 (3d6) dégâts perforants au début de chaque tour du gag. Un voyou peut avoir un maximum de quatre créatures dans sa bouche à la fois.\nUne créature dans la bouche du voyou peut prendre une action pour faire un DD 16 test de Force (Athlétisme). Lors d'un contrôle réussi, la cible n'est plus entravé et se déplace vers un espace inoccupé au sein de 1,50 m du gag. Si le gag meurt, une cible n'est plus entravé et peut s'échapper du gag en utilisant 1,50 m du mouvement, en sortant avec l'état à terre.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "3d10+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/357eef17bf_monstre-gug.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "FOR +10, CON +10",
+ "skills": "Perception +7, Discrétion +10"
+}

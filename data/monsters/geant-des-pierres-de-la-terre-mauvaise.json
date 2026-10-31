@@ -1,0 +1,48 @@
+{
+ "id": "geant-des-pierres-de-la-terre-mauvaise",
+ "name": "Stone Giant of Evil Earth",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 20,
+ "hp": 137,
+ "hpFormula": "11d12+66",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 13,
+  "CON": 22,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun, géant, terreux",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques Thundering Stone Club ou Boulder dans n'importe quelle combinaison.\n**Club de la pierre tondeuse.** Attaque d'arme au corps à corps : +10 au toucher, allonge 4,50 m, une cible. Touché : 16 (3d6 + 6) dégâts contondants. Le géant peut faire en sorte que le club émette une explosion d'énergie tonnerre qui distribue 10 (3d6) dégâts de tonnerre à chaque créature, autre que le géant, dans le 9 m de la cible. Le club ne peut émettre une explosion de cette façon qu'une seule fois par tour.\n**Découpe.** Attaque d'arme à distance : +10 au toucher, portée 18/72 m., une cible. Touché : 19 (3d8 + 6) dégâts contondants, et la cible doit réussir sur un DD 18 jet de sauvegarde de Force ou avoir l'état à terre. Après que le géant jette le bloc, roulez un d6 ; sur un rouleau de 3 ou moins, le géant n'a plus de bloc à lancer.",
+ "attacks": [
+  {
+   "name": "Club de la pierre tondeuse",
+   "bonus": 10,
+   "damage": "3d6+6",
+   "type": "contondant + tonnerre"
+  },
+  {
+   "name": "Découpe",
+   "bonus": 10,
+   "damage": "3d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/51522ac925_monstre-geant-des-pierres-de-la-terre-mauvaise.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant des pierres de la terre mauvaise",
+ "caNote": "plaque",
+ "saves": "FOR +10, CON +10",
+ "skills": "Athlétisme +14, Perception +5",
+ "reactions": "**Un rendement insuffisant.** En réponse à l'échec d'un jet de sauvegarde pour éviter d'être déplacé, ayant l'état à terre, ou les deux, le géant réussit à la place."
+}

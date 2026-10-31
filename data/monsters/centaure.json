@@ -1,0 +1,46 @@
+{
+ "id": "centaure",
+ "name": "Centaure",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre bonne",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 9,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "skills": "Athlétisme +6, Perception +3",
+ "senses": "Perception passive 13",
+ "languages": "elfique, sylvestre",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le centaure effectue deux attaques, réparties à sa guise entre Pique et Arc long.\n**Pique.** Corps à corps : +6, allonge 3 m. Touché : 9 (1d10 + 4) dégâts perforants.\n**Arc long.** À distance : +4, portée 45/180 m. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "bonusActions": "**Charge écrasante (recharge 5–6).** Le centaure se déplace dans les limites de sa Vitesse sans provoquer d’attaques d’Opportunité et peut traverser les espaces des créatures de taille M ou inférieure. Chaque créature dont l’espace est traversé par le centaure est la cible de l’effet suivant. JS Force : DD 14. Échec : 7 (1d6 + 4) dégâts contondants, et la cible subit l’état À terre.",
+ "attacks": [
+  {
+   "name": "Pique",
+   "bonus": 6,
+   "damage": "1d10+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Arc long",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2341c8eec3_monstre-centaure.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 30",
+ "aka": "Soldat centaure (2024)"
+}

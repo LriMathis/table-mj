@@ -1,0 +1,40 @@
+{
+ "id": "arbuste-eveille-totem-elemental",
+ "name": "Awakened Shrub Totem Elemental",
+ "type": "Plante",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 9,
+ "hp": 10,
+ "hpFormula": "3d6",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 8,
+  "CON": 11,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue connue de son créateur",
+ "traits": "**Fausse apparence.** Bien que le totem arbustif reste immobile, il est indistinctible d'un totem arbustif normal.",
+ "actionsText": "**Râteau.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une cible. Touché : 1 (1d4 - 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Râteau",
+   "bonus": 1,
+   "damage": "1d4-1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d9d047b718_monstre-arbuste-eveille-totem-elemental.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "aka": "Arbuste éveillé Totem Elemental",
+ "vulnerabilities": "feu",
+ "resistances": "perforant"
+}

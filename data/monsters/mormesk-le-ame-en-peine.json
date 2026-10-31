@@ -1,0 +1,41 @@
+{
+ "id": "mormesk-le-ame-en-peine",
+ "name": "Mormesk the Wraith",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "0 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 6,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Mouvement intégré.** Mormesk peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Sensibilité à la lumière du soleil.** En plein soleil, Mormesk a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Drain de vie.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 21 (4d8 + 3) dégâts nécrotiques. La cible doit réussir sur une DD 14 jet de sauvegarde de Constitution ou sa maximum de points de vie est réduite d'un montant égal aux dégâts subis. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit sa maximum de points de vie à 0.\n**Créer un spectre.** Mormesk vise un humanoïde dans 3 m de celui-ci qui est mort depuis pas plus d'une minute et est mort violemment. L'esprit de la cible s'élève en Spectre dans l'espace de son corps ou dans l'espace inoccupé le plus proche. Le Spectre est sous le contrôle de Mormesk. Mormesk ne peut avoir plus de sept spectres sous son contrôle à un moment donné.",
+ "attacks": [
+  {
+   "name": "Drain de vie",
+   "bonus": 6,
+   "damage": "4d8+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/e96034f95f_monstre-mormesk-le-ame-en-peine.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Mormesk le âme en peine",
+ "resistances": "acide, froid, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

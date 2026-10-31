@@ -1,0 +1,42 @@
+{
+ "id": "plasmoid-chef",
+ "name": "Plasmoid Boss",
+ "type": "Vase",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 11,
+ "hp": 82,
+ "hpFormula": "11d10+22",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun",
+ "traits": "**Amorphe.** Le plasmoïde peut se presser dans un espace aussi étroit que 1 pouce de large, à condition qu'il ne porte rien. Il a un avantage sur tests de caractéristique il fait d'initier ou d'échapper à un grappin.\n**Maintenez votre souffle.** Le plasmoïde peut retenir son souffle pendant 1 heure.",
+ "actionsText": "**Multiattaques.** Le plasmoïde fait trois attaques de Pseudopod.\n**Pseudopod.** Attaque d'arme au corps à corps : +6 au toucher (avec avantage si le plasmoïde a un ou plusieurs alliés au sein de 3 m de lui-même), allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/481d3cb18a_monstre-plasmoid-chef.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Plasmoid chef",
+ "saves": "CON +4, SAG +3",
+ "skills": "Tromperie +4, Intimidation +4, Persuasion +4",
+ "resistances": "acide, poison",
+ "reactions": "**Uncanny Dodge.** Le plasmoïde réduit de moitié les dégâts qu'il prend d'une attaque qui le frappe. Le plasmoïde doit pouvoir voir l'attaquant."
+}

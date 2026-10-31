@@ -1,0 +1,42 @@
+{
+ "id": "abomination-yuan-tie",
+ "name": "Yuan-ti Abomination",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 127,
+ "hpFormula": "15d10+45",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 17,
+  "SAG": 18,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Résistance magique.** L'yuan-ti a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'yuan-ti fait deux attaques Bite, et il peut utiliser Spellcasting pour lancer Suggestion si disponible.\n**Morceau.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Constriction.** Jet de sauvegarde de Force : DD 15, une créature grande ou plus petite au sein de 1,50 m. Échec : 28 (7d6 + 4) dégâts contondants. La cible a l'état agrippé (évasion DD 14) et elle a l'état entravé jusqu'à la fin du grappin. Réussite : Demi-dégâts seulement.\n**poison Spray (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 14, chaque créature dans un cône 9 m. Échec : 21 (6d6) dégâts de poison, et la cible a l'état empoisonné jusqu'à la fin du prochain tour du yuan-ti. Alors qu'empoisonné, la cible a l'état aveuglé. Réussite : Demi-dégâts seulement.\n**Diffusion de l'orthographe (Forme Yuan-ti seulement).** L'yuan-ti lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Amitié avec les animaux (snakes seulement)\n- 3/jour : Suggestion",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/cc320335fe_monstre-abomination-yuan-tie.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Abomination yuan-tie",
+ "skills": "Perception +7, Discrétion +6",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Forme-filtre.** La forme du yuan-ti se transforme en grand serpent ou revient à sa forme réelle. S'il meurt, il reste dans sa forme actuelle. Les statistiques du jeu du yuan-ti sont les mêmes dans chaque forme, sauf où noté. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé."
+}

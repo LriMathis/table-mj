@@ -1,0 +1,41 @@
+{
+ "id": "zodar",
+ "name": "Zodar",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 20,
+ "hp": 200,
+ "hpFormula": "16d8+128",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 30,
+  "DEX": 10,
+  "CON": 26,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 36 m (aveugle au-delà de ce rayon), Perception passive 12",
+ "languages": "voir Voix désincarnée ci-dessous",
+ "traits": "**Voix désincarnée.** Jusqu'à trois fois dans sa vie, le zodar peut faire émettre un message de vingt-cinq mots de l'air qui l'entoure. Il ne parle que lorsqu'il a quelque chose de profondément important à dire, et le message peut être compris par toute créature qui a un score Intelligence de 2 ou plus.\n**Résistance légendaire (3/jour).** Si le zodar échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Inhibiteur du transport.** Le zodar ne peut pas être téléporté ni envoyé à n'importe quel plan d'existence contre sa volonté.\n**Nature inhabituelle.** Le zodar n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le zodar fait deux attaques de Crushing Fist. Avant ou après ces attaques, le zodar utilise le téléport forcé.\n**Crushing Fist.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 21 (2d10 + 10) dégâts de force.\n**Téléportation forcée.** Le zodar gâche magiquement l'espace autour d'une créature il peut voir en lui-même 18 m. La cible doit faire un DD 21 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la cible prend 22 (4d10) dégâts de force, et le zodar le téléporte, avec tout équipement qu'il porte ou transporte, jusqu'à 18 m dans un espace inoccupé que le zodar peut voir et qui peut soutenir la cible. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts et n'est pas téléportée.\n**Souhaits.** Le zodar lance le sort Souhait, ne nécessitant aucun composant du sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 17). Après avoir jeté ce sort, le zodar se transforme en poussière et est détruit.\n- À volonté : Souhait",
+ "attacks": [
+  {
+   "name": "Crushing Fist",
+   "bonus": 15,
+   "damage": "2d10+10",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/85262d664c_monstre-zodar.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +13, INT +6, SAG +7, CHA +9",
+ "immunities": "acide, feu, poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, pétrifié, empoisonné"
+}

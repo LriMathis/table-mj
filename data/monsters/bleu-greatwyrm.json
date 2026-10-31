@@ -1,0 +1,56 @@
+{
+ "id": "bleu-greatwyrm",
+ "name": "Blue Greatwyrm",
+ "type": "Dragon (chromatique)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "27",
+ "xp": 105000,
+ "ca": 22,
+ "hp": 533,
+ "hpFormula": "26d20+260",
+ "vitesse": "18 m, creusement 18 m, vol 36 m, nage 18 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 14,
+  "CON": 30,
+  "INT": 21,
+  "SAG": 20,
+  "CHA": 26
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 31",
+ "languages": "commun, draconique",
+ "traits": "**Réveillement chromatique (recharge après un repos court ou long).** Si le styrène est réduit à 0 points de vie, son total actuel points de vie se réinitialise à la place à 425 points de vie, il recharge son arme respiratoire, et il retrouve toutes les utilisations dépensées de la résistance légendaire. De plus, le grand-wyrm peut maintenant utiliser les options dans la section \"Actions mythiques\" pendant 1 heure. Récompensez un parti de 105,000 XP (210 000 XP au total) pour avoir vaincu le grand-wym après que son réveil chromatique ait été activé.\n**Résistance légendaire (4/jour).** Si le grand wym échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Nature inhabituelle.** Le grand wym n'a pas besoin de nourriture ou de boisson.",
+ "actionsText": "**Multiattaques.** Le grand-wym fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +18 au toucher, allonge 4,50 m, une cible. Touché : 21 (2d10 + 10) dégâts perforants plus 13 (2d12) dégâts de force.\n**Griffe.** Attaque d'arme au corps à corps : +18 au toucher, allonge 3 m, une cible. Touché : 19 (2d8 + 10) dégâts tranchants. Si la cible est une créature Énorme ou plus petite, elle est agrippé (évasion DD 20) et entravé jusqu'à ce que ce grappin se termine. Le grand wym ne peut avoir qu'une créature agrippé de cette façon à la fois.\n**Queue.** Attaque d'arme au corps à corps : +18 au toucher, allonge 6 m, une cible. Touché : 19 (2d8 + 10) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 26 jet de sauvegarde de Force ou être à terre.\n**Arme respiratoire (Recharge 5-6).** Le grand wym exhale une explosion d'énergie dans un cône 90 m. Chaque créature dans cette zone doit faire un DD 26 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la créature prend 78 (12d12) dégâts de foudre. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 18,
+   "damage": "2d10+10",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 18,
+   "damage": "2d8+10",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 18,
+   "damage": "2d8+10",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/084cc8f1ac_monstre-bleu-greatwyrm.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Bleu Greatwyrm",
+ "caNote": "armure naturelle",
+ "saves": "DEX +10, CON +18, SAG +13, CHA +16",
+ "skills": "Intimidation +16, Perception +21, Discrétion +10",
+ "immunities": "foudre",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, bleu greatwyrm peut entreprendre l'une des actions ci-après.\n**Attaque.** Le grand-wym fait une attaque de Griffe ou de Tail.\n**Attaque de l'escadre (coûts 2 actions).** Le grand wym bat ses ailes. Chaque créature de 9 m doit réussir sur un DD 26 jet de sauvegarde de Dextérité ou prendre 17 (2d6 + 10) dégâts contondants et être à terre. Le grand wym peut alors voler jusqu'à la moitié de sa vitesse de vol.\n**Arcane Spear (coûts 3 actions).** Le grand-wym crée quatre lances de force magique. Chaque lance frappe une créature du choix du grand-wyrm qu'elle peut voir dans 36 m de lui, en traitant 12 (1d8 + 8) dégâts de force à sa cible, puis disparaît.\n**Actions mythiques.**\n**Morceau.** Le grand-wym fait une attaque Bite.\n**Flamme chromatique (coûts 2 actions).** Les éruptions de grand-wym avec de l'énergie élémentaire. Chaque créature dans une sphère 18 m -radius centrée sur le grand-wyrme doit réussir sur un DD 26 jet de sauvegarde de Dextérité ou prendre 22 (5d8) dégâts de foudre."
+}

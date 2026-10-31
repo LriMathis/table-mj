@@ -1,0 +1,44 @@
+{
+ "id": "noyau-rejeton-seer",
+ "name": "Core Spawn Seer",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 17,
+ "hp": 153,
+ "hpFormula": "18d8+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 22,
+  "SAG": 19,
+  "CHA": 16
+ },
+ "senses": "Vision aveugle 18 m, Perception des vibrations 18 m, Perception passive 19",
+ "languages": "commun, profond, télépathie 36 m, commun des profondeurs",
+ "traits": "**Glisse de terre.** Le voyant peut traverser la terre et la pierre non magiques et non travaillées. Ce faisant, le voyant ne dérange pas le matériel qu'il traverse.\n**Résistance magique.** Le voyant a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le voyant utilise le personnel de fission deux fois, Orbe psychédélique deux fois, ou chacun une fois.\n**Personnel chargé de la fission.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 9 (1d6 + 6) dégâts contondants plus 18 (4d8) dégâts radiants, et la cible est à terre.\n**Orbe psychédélique.** Le voyant lance une orbe qui brille à une créature et peut voir à l'intérieur de 120 de celle-ci. La cible doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou prendre 27 (5d10) dégâts psychiques et souffrir d'une condition aléatoire jusqu'au prochain tour du voyant. Rouler un d6 pour l'état: (1-2) aveuglé, (3-4) effrayé ou (5-6) étourdi.",
+ "attacks": [
+  {
+   "name": "Personnel chargé de la fission",
+   "bonus": 8,
+   "damage": "1d6+6",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/5a2558ab45_monstre-noyau-rejeton-seer.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Noyau rejeton Seer",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, INT +11, SAG +9, CHA +8",
+ "skills": "Perception +9",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Dégâts causés par la fumée.** Lorsque le voyant est touché par une attaque, il ne prend que la moitié des dégâts déclencheurs. La première fois que le voyant frappe avec une attaque de mêlée à son prochain tour, la cible prend un 1d6 dégâts radiants supplémentaire."
+}

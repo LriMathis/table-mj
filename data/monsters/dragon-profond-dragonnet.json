@@ -1,0 +1,42 @@
+{
+ "id": "dragon-profond-dragonnet",
+ "name": "Deep Dragon Wyrmling",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m, creusement 4,50 m, vol 18 m, nage 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 13
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 15",
+ "languages": "draconique",
+ "traits": "",
+ "actionsText": "**Rend.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts tranchants.\n**Respiration de cauchemar (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 11, chaque créature dans un cône 4,50 m. Échec : 7 (2d6) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin du prochain tour du dragon. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/2a7351865f_monstre-dragon-profond-dragonnet.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Dragon profond dragonnet",
+ "saves": "DEX +2, SAG +3",
+ "skills": "Perception +5, Discrétion +4",
+ "resistances": "poison, psychique",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

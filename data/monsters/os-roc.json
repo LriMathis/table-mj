@@ -1,0 +1,49 @@
+{
+ "id": "os-roc",
+ "name": "Bone Roc",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 133,
+ "hpFormula": "14d12+42",
+ "vitesse": "4,50 m, vol 27 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 20,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 17,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le roc osseux fait une attaque de bec et deux attaques de Talons.\n**Bec.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts perforants.\n**Talons.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants plus 10 (3d6) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Talons",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/ec3cfce39b_monstre-os-roc.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Os roc",
+ "saves": "DEX +8, SAG +6",
+ "skills": "Perception +6",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

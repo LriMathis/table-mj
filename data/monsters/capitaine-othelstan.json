@@ -1,0 +1,47 @@
+{
+ "id": "capitaine-othelstan",
+ "name": "Captain Othelstan",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 19,
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, draconique, géant",
+ "traits": "**Action Surge (Recharges sur un repos court ou long).** A son tour, Othelstan peut prendre une autre mesure.\n**La Bénédiction de la Rétribution de Tiamat.** Lorsque Othelstan prend des dégâts qui le réduisent à 0 points de vie, il retrouve immédiatement 20 points de vie. S'il a 20 points de vie ou moins à la fin de son prochain tour, il meurt.",
+ "actionsText": "**Multiattaques.** L'othelstan attaque deux fois avec sa lance ou sa lance, ou deux fois avec ses lances.\n**Feu.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou 6/18 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Feu",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5021af84cd_monstre-capitaine-othelstan.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Capitaine Othelstan",
+ "caNote": "Armure Splint, Bouclier",
+ "saves": "FOR +7, CON +6",
+ "skills": "Athlétisme +7, Intimidation +7, Perception +5, Religion +4"
+}

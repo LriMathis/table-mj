@@ -1,0 +1,52 @@
+{
+ "id": "mechachimera",
+ "name": "Mechachimera",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 19,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 18",
+ "languages": "comprend Draconic mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La chimère fait trois attaques: une avec sa morsure, une avec ses cornes, et une avec ses griffes. Lorsque son souffle de feu est disponible, il peut utiliser le souffle à la place de sa morsure ou de ses cornes.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants.\n**Cornes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d12 + 4) dégâts contondants.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.\n**feu Respiration (Recharge 5-6).** La tête de dragon exhale le feu dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 31 (7d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Cornes",
+   "bonus": 7,
+   "damage": "1d12+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/e2360a0074_monstre-mechachimera.webp",
+ "notes": "",
+ "source": "The Orrery of the Wanderer (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +8",
+ "immunities": "poison, psychique"
+}

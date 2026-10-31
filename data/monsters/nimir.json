@@ -1,0 +1,48 @@
+{
+ "id": "nimir",
+ "name": "Nimir",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal bon",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 16,
+ "hp": 230,
+ "hpFormula": "20d12+100",
+ "vitesse": "15 m, nage 15 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Perception passive 19",
+ "languages": "commun, géant",
+ "traits": "**Information sur le jeu de rôles.** Nimir est un géant de la tempête perspicace et à même d'y penser qui croit qu'une alliance durable entre les géants et les petits gens peut faire du monde un endroit plus sûr et plus éclairé. Il croit que le roi Hekaton était sage de choisir la princesse Serissa comme héritier apparent, et il ne lui arriverait jamais de remettre en question leurs ordres.\nIdéal: \"C'est le devoir des grands de protéger les petits.\"\nObligation : \"Je donnerais ma vie pour défendre mon roi et sa lignée royale.\"\nFaux : \"Je ne remets jamais en question les ordres.\"\n**Amphibie.** Nimir peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Nimir fait deux attaques de grands mots.\n**Grande épée.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 30 (6d6 + 9) dégâts tranchants.\n**Roche.** Attaque d'arme à distance : +14 au toucher, portée 18/72 m., une cible. Touché : 35 (4d12 + 9) dégâts contondants.\n**foudre Strike (Recharge 5-6).** Nimir lance un éclair magique à un point qu'il peut voir à l'intérieur de 150 m. Chaque créature dans 3 m de ce point doit faire un DD 17 jet de sauvegarde de Dextérité, en prenant 54 (12d8) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Nimir lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection de la magie, Lévitation, Lumière\n- 1/jour chacun : Contrôle du climat (sous forme d'une action), Respiration aquatique",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 14,
+   "damage": "6d6+9",
+   "type": "tranchant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 14,
+   "damage": "4d12+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/901d9d9959_monstre-nimir.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Courrier d'échelle",
+ "saves": "FOR +14, CON +10, SAG +9, CHA +9",
+ "skills": "Athlétisme +14, Perspicacité +9, Perception +9",
+ "resistances": "froid",
+ "immunities": "foudre, tonnerre"
+}

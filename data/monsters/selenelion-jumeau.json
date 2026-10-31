@@ -1,0 +1,52 @@
+{
+ "id": "selenelion-jumeau",
+ "name": "Selenelion Twin",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 18,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, elfique",
+ "traits": "**Ancêtre fécale.** Les jumeaux Selenelion, Gleam et Glister, ont l'avantage sur jet de sauvegarde contre charmé et la magie ne peut pas les endormir.\n**Régénération.** Un jumeau Selenion retrouve 5 points de vie au début de son tour aussi longtemps que les deux jumeaux sont vivants et au sein de 18 m l'un de l'autre. Un jumeau meurt seulement si elle commence son tour avec 0 points de vie et ne se régénère pas.\n**Obligations jumelées.** Alors que les deux jumeaux de Selenelion sont vivants et sur le même plan d'existence, chacun est conscient des émotions de l'autre.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d4 + 4) dégâts perforants.\n**Rayon de la lune (Gleam seulement; 3 jours).** Attaque de sort à distance : +5 au toucher, portée 18 m, une créature. Touché : 12 (2d8 + 3) dégâts radiants, et la cible doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être transformée en batte pendant 1 minute, comme si elle était affectée par un sort Métamorphose. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Soleil Ray (Glister seulement); 3 jours).** Attaque de sort à distance : +5 au toucher, portée 18 m, une créature. Touché : 12 (2d8 + 3) dégâts radiants, et la cible doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être aveuglé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Double vue (recharge après un repos court ou long).** Dans l'œil de son esprit, un jumeau sélénien peut voir ce que l'autre jumeau voit pendant jusqu'à 1 minute, à condition que les deux jumeaux soient vivants et sur le même plan d'existence. Le maintien de cet effet nécessite concentration (comme si concentrating sur un sort).",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Rayon de la lune (Gleam seulement; 3 jours)",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "radiant"
+  },
+  {
+   "name": "Soleil Ray (Glister seulement); 3 jours)",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/ff16243c77_monstre-selenelion-jumeau.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Selenelion jumeau",
+ "saves": "DEX +6, CHA +5",
+ "skills": "Acrobaties +8, Escamotage +6, Discrétion +6"
+}

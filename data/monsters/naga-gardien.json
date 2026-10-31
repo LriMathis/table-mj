@@ -1,0 +1,41 @@
+{
+ "id": "naga-gardien",
+ "name": "Naga gardien",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "12 m, escalade 12 m, nage 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 19,
+  "CHA": 18
+ },
+ "saves": "DEX +8, CON +7, INT +7, SAG +8, CHA +8",
+ "skills": "Arcanes +11, Histoire +11, Religion +11",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné, entravé, paralysé",
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "céleste, commun",
+ "traits": "**Restauration céleste.** Quand le naga meurt, il revient à la vie au bout de 1d6 jours avec tous ses points de vie, sauf si *dissipation du mal et du bien* est lancé sur son cadavre.",
+ "actionsText": "**Attaques multiples.** Le naga effectue deux attaques de Morsure. Il peut remplacer l’une de ces attaques par une utilisation de Crachat venimeux.\n**Morsure.** Corps à corps : +8, allonge 3 m. Touché : 17 (2d12 + 4) dégâts perforants plus 22 (4d10) dégâts de poison.\n**Crachat venimeux.** JS Constitution : DD 16, une créature que le naga voit dans un rayon de 18 m. Échec : 31 (7d8) dégâts de poison, et la cible subit l’état Aveuglé jusqu’au début du tour suivant du naga. Réussite : demi-dégâts uniquement.\n**Incantation.** Le naga lance l’un des sorts suivants sans composantes matérielles ni somatiques, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde 16) :\n- À volonté : *thaumaturgie*\n- 1/jour chacun : *clairvoyance*, *colonne de flamme* (au 6e niveau), *quête*, *soins* (au 6e niveau), *vision suprême*",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 8,
+   "damage": "2d12+4+4d10",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/1128f95fa8_monstre-naga-gardien.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 234"
+}

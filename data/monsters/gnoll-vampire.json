@@ -1,0 +1,46 @@
+{
+ "id": "gnoll-vampire",
+ "name": "Gnoll Vampire",
+ "type": "Mort-vivant (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, gnoll",
+ "traits": "**Sensation de Keen.** Le vampire a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Rampage.** Lorsqu'il réduit une créature à 0 points de vie avec une attaque de mêlée à son tour, le vampire peut prendre un action bonus pour passer à la moitié de sa vitesse et faire une attaque de morsure.\n**Régénération.** Le vampire retrouve 10 points de vie au début de son tour s'il a au moins 1 points de vie et n'est pas dans la lumière du soleil ou l'eau courante. Si le vampire prend dégâts radiants ou des dégâts de l'eau bénite, ce trait ne fonctionne pas au début du prochain tour du vampire.\n**Changeur de forme.** Si le vampire n'est pas dans la lumière du soleil, il peut utiliser son action pour se polymorpher en une grande hyène ou un nuage moyen de brouillard, ou revenir dans sa forme réelle.\nAlors que sous forme d'hyène, le vampire ne peut pas parler, et sa vitesse de marche est 15 m. Ses statistiques, autres que sa taille et sa vitesse, sont inchangées. Tout ce qu'il porte se transforme avec, mais rien de ce qu'il porte ne le fait. Il revient à sa vraie forme s'il meurt.\nBien que sous forme de brouillard, le vampire ne peut pas prendre d'actions, parler, ou manipuler des objets. il est sans poids, a une vitesse de vol de 6 m, peut planer, et peut entrer dans l'espace d'une créature hostile et s'arrêter là. En outre, si l'air peut passer dans un espace, la brume peut le faire sans presser, et il ne peut pas passer dans l'eau. Il a un avantage sur Force, Dextérité, et jet de sauvegarde de Constitution, et il est immunisé contre tous les dégâts non magiques, sauf les dégâts qu'il prend de la lumière du soleil.\n**Nature inhabituelle.** Le vampire n'a pas besoin d'air.\n**Faiblesses du vampire.** Le vampire a les défauts suivants:\n- **Enragé par les Célestes** S'il entend des paroles de Céleste, le vampire doit essayer d'attaquer la source de ces paroles à son prochain tour. Si ces mots viennent de plusieurs sources et de directions opposées, le vampire est entravé. Sinon, il s'attaque à ce qu'il perçoit comme la source la plus proche.\n- **Répugnés par le parfum** Le vampire a l'inconvénient sur melee jets d'attaque faite contre toute créature portant du parfum ou portant un conteneur ouvert de celui-ci.\n- **Attrapez le cœur** Si une arme perçante en bois est jetée dans le cœur du vampire alors que le vampire est neutralisé dans son lieu de repos, le vampire est paralysé jusqu'à ce que le pieu soit enlevé.\n- **Hypersensibilité à la lumière du soleil** Le vampire prend 20 dégâts radiants quand il commence son tour dans la lumière du soleil. En plein soleil, il présente un désavantage sur jets d'attaque et tests de caractéristique.",
+ "actionsText": "**Multiattaque (formulaire de vampire seulement).** Le vampire fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Bite (Hyène ou forme de vampire seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 12 (2d6 + 5) dégâts perforants plus 9 (2d8) dégâts nécrotiques. Le maximum de points de vie de la cible est réduit d'un montant égal au dégâts nécrotiques pris, et le vampire retrouve points de vie égal à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. la cible meurt si son maximum de points de vie est réduit à 0.\n**Griffes (formulaire de vampire seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d4 + 5) dégâts tranchants.\n**Câblage effrayant (Hyène ou forme de vampire seulement).** Le vampire émet un câlin qui refroidit les os. Chaque créature du choix du vampire qui est dans 36 m du vampire et peut entendre son cackle doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est un succès ou si l'effet se termine pour elle, la créature est immunisée contre le Cackle effrayant du vampire pour les prochaines 24 heures.\n**Gaz d'affaiblissement (Hyène ou forme de vampire seulement).** Le vampire cible un humanoïde qu'il peut voir à l'intérieur de 9 m. Si la cible peut voir le vampire, la cible doit réussir sur un DD 15 jet de sauvegarde de Constitution contre cette magie ou être empoisonné pendant 24 heures. Une créature dont le jet de sauvegarde est un succès est à l'abri de ce vampire qui s'affaiblit pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "Bite (Hyène ou forme de vampire seulement)",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffes (formulaire de vampire seulement)",
+   "bonus": 8,
+   "damage": "2d4+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c2228226e2_monstre-gnoll-vampire.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +7",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques"
+}

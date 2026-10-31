@@ -1,0 +1,42 @@
+{
+ "id": "k-neuf",
+ "name": "K-Nine",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 22,
+ "hpFormula": "3d10+6",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**Formulaire immuable.** Le K-Nine ne peut pas changer de forme.\n**Tactiques de conditionnement.** Le K-Nine a avantage sur un jet d'attaque contre une créature si au moins un des alliés du K-Nine est dans le 1,50 m de la créature et l'allié n'a pas l'état neutralisé.",
+ "actionsText": "**Morceau.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 8 (1d10 + 3) dégâts perforants. Si la cible est une créature grande ou plus petite, elle a l'état à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6c1a4f8ec0_monstre-k-neuf.webp",
+ "notes": "",
+ "source": "Project_Lamordia (5e.tools, traduction automatique)",
+ "aka": "K-neuf",
+ "skills": "Perception +5, Discrétion +4",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Numérisation par rayons X.** Le K-Nine gagne Blindsight à une gamme de 18 m. Ce Blindsight ignore la couverture totale créée par jusqu'à 0,30 m de pierre, 1 pouce de métal commun, ou 0,90 m de bois ou de saleté. Des substances plus épaisses ou de minces feuilles de plomb bloquent la vue aveugle comme d'habitude. Ce bénéfice dure 1 minute ou jusqu'à ce que le K-Nine ait l'état aveuglé."
+}

@@ -1,0 +1,45 @@
+{
+ "id": "auril-troisieme-formulaire",
+ "name": "Auril (Third Form)",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 19,
+ "hp": 136,
+ "hpFormula": "16d6+80",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 12,
+  "CON": 21,
+  "INT": 24,
+  "SAG": 26,
+  "CHA": 28
+ },
+ "senses": "Vision aveugle 36 m (aveugle au-delà de ce rayon), Vision parfaite 36 m, Perception passive 26",
+ "languages": "tous, télépathie 300 m",
+ "traits": "**Être divin.** Auril ne peut pas être surpris et ne peut pas être changé en une autre forme contre sa volonté.\n**Résurrection divine.** Quand Auril tombe à 0 points de vie, sa forme cristalline se brise et son étincelle divine disparaît. Elle est morte jusqu'au prochain solstice d'hiver, quand elle réapparaît en pleine santé dans un endroit froid et éloigné de son choix.\n**Frigid Aura.** Tant qu'Auril a au moins 1 points de vie dans cette forme, chaque créature dans 3 m d'elle prend 10 dégâts de froid au début de chacun de ses tours.\n**Résistance légendaire (1/jour sous cette forme).** Si Auril échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Auril a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** Auril n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Auril utilise Polar Ray deux fois.\n**Rayon polaire.** Attaque de sort à distance : +13 au toucher, portée 36 m, une cible. Touché : 14 (4d6) dégâts de froid.\n**Blizzard Veil.** Auril crée un blizzard magique dans une sphère 9 m -radius centrée sur elle. La zone à l'intérieur de la sphère est 2, et la sphère se déplace avec Auril. L'effet dure jusqu'à ce qu'Auril tombe à 0 points de vie sous cette forme, jusqu'à ce qu'elle choisisse de mettre fin à l'effet (aucune action requise), ou jusqu'à ce que son concentration soit cassé (comme si concentrating sur un sort).",
+ "attacks": [
+  {
+   "name": "Rayon polaire",
+   "bonus": 13,
+   "damage": "4d6",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/45ac27916b_monstre-auril-troisieme-formulaire.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Auril (troisième formulaire)",
+ "caNote": "armure naturelle",
+ "saves": "CON +9, SAG +12",
+ "skills": "Tromperie +13, Perspicacité +12, Intimidation +13, Perception +16",
+ "vulnerabilities": "tonnerre",
+ "immunities": "froid, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, à terre, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, auril (troisième formulaire) peut entreprendre l'une des actions ci-après.\n**Rayon polaire.** Auril utilise Polar Ray.\n**Intensifier Aura (coûts 2 actions).** Auril's Frigid Aura offre un 10 dégâts de froid supplémentaire jusqu'à la fin de son prochain tour.\n**Gleam aveuglant (coûts 2 actions).** Les fusées d'Auril avec une lumière bleue. Chaque créature qui peut voir Auril et qui est dans 3 m d'elle doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou être aveuglé par la lueur magique d'Auril pendant 1 minute. La créature aveuglé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès."
+}

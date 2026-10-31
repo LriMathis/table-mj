@@ -1,0 +1,47 @@
+{
+ "id": "bete-destrier-noir",
+ "name": "Nightmare Beast",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 17,
+ "hp": 232,
+ "hpFormula": "15d20+75",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 9,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Résistance légendaire (2/jour).** Si la bête échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Monstre de siège.** La bête inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** La bête fait deux attaques de griffes et une attaque de Tusk.\n**Griffe.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 14 (1d12 + 8) dégâts tranchants, et si la cible est une créature, elle doit réussir sur un DD 21 jet de sauvegarde de Force ou être à terre.\n**Tusque.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 17 (2d8 + 8) dégâts tranchants.\n**Gaz de désintégration (Recharge 5-6).** La bête cible une créature elle peut voir en elle-même 18 m. La cible doit faire un DD 18 jet de sauvegarde de Constitution, en prenant 70 (10d6 + 40) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si cet effet magique réduit la cible à 0 points de vie, la cible est désintégrée et ne laisse rien derrière, sauf un tas de cendres plus quel que soit l'équipement qu'elle portait ou transportait.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 13,
+   "damage": "1d12+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Tusque",
+   "bonus": 13,
+   "damage": "2d8+8",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c0cb0a2055_monstre-bete-destrier-noir.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 1: Spelljammer Creatures (5e.tools, traduction automatique)",
+ "aka": "Bête destrier noir",
+ "caNote": "armure naturelle",
+ "bonusActions": "**Téléport (2/jour).** La bête téléporte magiquement, avec tout équipement qu'elle porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'elle peut voir.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, bête destrier noir peut entreprendre l'une des actions ci-après.\n**Attaque de défense.** La bête fait une attaque de Tusk.\n**Charge (coûts 2 actions).** La bête monte à sa vitesse sans provoquer des attaques d'opportunité, puis fait deux attaques de Tusk.\n**Effroyable hurlement (coûts 2 actions).** La bête hurle alors qu'elle exhale un nuage de gaz de peur magique dans un cône 36 m. Toute créature dans cette zone doit réussir sur un DD 18 jet de sauvegarde de Sagesse ou être effrayé de la bête pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès."
+}

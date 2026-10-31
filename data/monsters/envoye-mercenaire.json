@@ -1,0 +1,47 @@
+{
+ "id": "envoye-mercenaire",
+ "name": "Mercenary Envoy",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 15,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun",
+ "traits": "**Courage inspiré.** Le mercenaire a l'avantage sur l'épargne jette contre charmé, effrayé, agrippé, ou entravé alors que dans 1,50 m d'au moins un allié.\n**Avantage martial.** Une fois par tour, le mercenaire peut infliger un dégâts supplémentaire à une créature qu'il frappe avec une attaque d'arme si cette créature est dans 1,50 m d'un allié du mercenaire qui n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le mercenaire fait deux attaques à la longue.\n**Mot long.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants.\n**Grosse arbalète.** Attaque d'arme à distance : +4 au toucher, portée\n30/120 m., une cible. Touché : 7 (1d10 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 4,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/9acdc357a0_monstre-envoye-mercenaire.webp",
+ "notes": "",
+ "source": "Adventures in the Forgotten Realms: From Cyan Depths (5e.tools, traduction automatique)",
+ "aka": "Envoyé mercenaire",
+ "caNote": "Chemise chaîne",
+ "saves": "FOR +4, CON +4",
+ "skills": "Athlétisme +4, Perception +3"
+}

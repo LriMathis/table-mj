@@ -1,0 +1,46 @@
+{
+ "id": "geant-des-pierres",
+ "name": "Géant des pierres",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 126,
+ "hpFormula": "11d12+55",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "saves": "DEX +5, CON +8, SAG +4",
+ "skills": "Athlétisme +12, Discrétion +5, Perception +4",
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "gigant",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le géant effectue deux attaques, réparties à sa guise entre Gourdin de pierre et Rocher.\n**Gourdin de pierre.** Corps à corps : +9, allonge 4,50 m. Touché : 22 (3d10 + 6) dégâts contondants.\n**Rocher.** À distance : +9, portée 18/72 m. Touché : 15 (2d8 + 6) dégâts contondants. Si la cible est une créature de taille G ou inférieure, elle subit l’état À terre.",
+ "reactions": "**Parade de projectile (recharge 5–6).** Déclencheur : le géant est touché par un jet d’attaque à distance qui lui inflige des dégâts contondants, perforants ou tranchants. Conséquences : le géant réduit les dégâts infligés par l’attaque de 11 (1d10 + 6) ; si ces dégâts sont réduits à 0, le géant peut réorienter une partie de l’impact. JS Dextérité : DD 17, une créature que le géant voit dans un rayon de 18 m. Échec : 11 (1d10 + 6) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Gourdin de pierre",
+   "bonus": 9,
+   "damage": "3d10+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Rocher",
+   "bonus": 9,
+   "damage": "2d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/7b8c332a24_monstre-geant-des-pierres.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 155"
+}

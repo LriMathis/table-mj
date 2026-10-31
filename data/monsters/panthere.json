@@ -1,0 +1,39 @@
+{
+ "id": "panthere",
+ "name": "Panthère",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "15 m, escalade 12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 7
+ },
+ "skills": "Discrétion +7, Perception +4",
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Saignée.** Corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts tranchants.",
+ "bonusActions": "**Fuite agile.** La panthère entreprend l’action Désengagement ou Furtivité.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/059143e767_monstre-panthere.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

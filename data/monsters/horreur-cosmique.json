@@ -1,0 +1,49 @@
+{
+ "id": "horreur-cosmique",
+ "name": "Cosmic Horror",
+ "type": "Aberration",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 15,
+ "hp": 280,
+ "hpFormula": "16d20+112",
+ "vitesse": "15 m, vol 30 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 25,
+  "INT": 24,
+  "SAG": 15,
+  "CHA": 24
+ },
+ "senses": "Vision dans le noir 72 m, Perception passive 12",
+ "languages": "profond, télépathie 72 m",
+ "traits": "**Résistance légendaire (3/jour).** Si l'horreur échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Nature inhabituelle.** L'horreur ne nécessite pas l'air.",
+ "actionsText": "**Multiattaques.** L'horreur fait une attaque Bite et deux attaques Tentacle.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 22 (4d6 + 8) dégâts perforants.\n**Tentacle.** Attaque d'arme au corps à corps : +14 au toucher, allonge 9 m, une cible. Touché : 18 (3d6 + 8) dégâts de force, et si la cible est une créature, c'est agrippé (évasion DD 18). Jusqu'à ce que ce grappin se termine, l'horreur ne peut pas utiliser cette tente contre d'autres cibles. L'horreur a des tentacules 1d8 + 1, chacun pouvant battre une cible.\n**psychique Whispers (Recharge 5-6).** L'horreur émet de terribles murmures dans une sphère 18 m -radius centrée sur elle-même. Chaque créature dans la sphère qui n'est pas une Aberration doit faire un DD 21 jet de sauvegarde de Sagesse, en prenant 33 (6d10) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "4d6+8",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 14,
+   "damage": "3d6+8",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/0846f984f1_monstre-horreur-cosmique.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Horreur cosmique",
+ "caNote": "armure naturelle",
+ "saves": "INT +13, SAG +8, CHA +13",
+ "immunities": "acide, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, horreur cosmique peut entreprendre l'une des actions ci-après.\n**Tentacle de concassage.** L'horreur écrase une créature il est en difficulté. La créature agrippé doit faire un DD 22 jet de sauvegarde de Constitution, en prenant 18 (3d6 + 8) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**poison Jet (coûts 2 actions).** Foul gaz éjaculations de l'horreur dans une ligne 9 m qui est large 1,50 m. Chaque créature dans la ligne doit réussir sur un DD 21 jet de sauvegarde de Constitution ou prendre 14 (4d6) dégâts de poison.\n**Téléportation (coûts 2 actions).** Les téléportations d'horreur, avec toutes les créatures qu'elle est en difficulté, dans un espace inoccupé qu'elle peut voir en elle-même en 36 m."
+}

@@ -1,0 +1,45 @@
+{
+ "id": "torogar-steelfist",
+ "name": "Torogar Steelfist",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 168,
+ "hpFormula": "16d10+80",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 17,
+  "CON": 20,
+  "INT": 8,
+  "SAG": 9,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "abyssal, commun",
+ "traits": "**La ruée vers l'or.** Immédiatement après avoir utilisé l'action Foncer, Torogar peut faire une attaque de mêlée avec ses cornes.\n**Rappel de Labyrinthine.** Torogar peut parfaitement se rappeler n'importe quel chemin qu'il a parcouru.\n**Rage (Recharge après un repos court ou long).** Comme un action bonus, Torogar peut entrer dans une rage qui dure 1 minute. La rage se termine tôt si Torogar est inconscient ou si son tour se termine et qu'il n'a pas attaqué une créature hostile ou pris des dégâts depuis son dernier tour. Tout en faisant rage, Torogar gagne les avantages suivants:\nIl a un avantage sur tests de Force et jet de sauvegarde de Force.\nIl inflige des dégâts supplémentaires lorsqu'il frappe une cible avec une attaque d'arme.\nIl a de la résistance au bludgung, au piercing et au dégâts tranchants.\n**Matériel spécial.** Torogar porte Gauntlets de Flaming Fury et un Ceinture de résistance géant du feu. Sans la ceinture, son Force a 21 ans. Il porte également un Pièce d'âme.",
+ "actionsText": "**Multiattaques.** Torogar fait trois attaques: deux avec ses scimitars et une avec ses cornes.\n**Scimitar.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d6 + 7) dégâts tranchants, ou 17 (2d6 + 10) dégâts tranchants pendant la rage, plus 3 (1d6) dégâts de feu des gantelets de fureur flamboyante.\n**Cornes.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d8 + 7) dégâts perforants, ou 19 (2d8 + 10) dégâts perforants tout en faisant rage.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 11,
+   "damage": "2d6+7",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Cornes",
+   "bonus": 11,
+   "damage": "2d8+7",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d1ebac85ea_monstre-torogar-steelfist.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +11, CON +9"
+}

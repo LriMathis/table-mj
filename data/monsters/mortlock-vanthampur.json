@@ -1,0 +1,44 @@
+{
+ "id": "mortlock-vanthampur",
+ "name": "Mortlock Vanthampur",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 13
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun",
+ "traits": "**Indominable (2/jour).** Mortlock peut reroller un jet de sauvegarde qu'il échoue. Il doit utiliser le nouveau rouleau.",
+ "actionsText": "**Multiattaques.** Mortlock fait deux attaques avec son grand club.\n**Grand club.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d4 + 4) dégâts contondants, plus 5 (2d4) dégâts contondants si Mortlock a subi des dégâts depuis son dernier tour.\n**Grosse arbalète.** Attaque d'arme à distance : +4 au toucher, portée 30/120 m., une cible. Touché : 7 (1d10 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/60d79fbe59_monstre-mortlock-vanthampur.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "skills": "Athlétisme +6, Intimidation +5"
+}

@@ -1,0 +1,37 @@
+{
+ "id": "guthash",
+ "name": "Guthash",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 16,
+ "hpFormula": "2d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 10 jet de sauvegarde de Constitution ou contracter un maladie. Jusqu'à ce que la maladie soit guérie, la cible ne peut pas retrouver points de vie sauf par des moyens magiques, et la maximum de points de vie de la cible diminue de 3 (1d6) toutes les 24 heures. Si le maximum de points de vie de la cible tombe à 0 à la suite de ce maladie, la cible meurt.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/16b3ac0115_monstre-guthash.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)"
+}

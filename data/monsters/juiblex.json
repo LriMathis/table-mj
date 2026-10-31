@@ -1,0 +1,44 @@
+{
+ "id": "juiblex",
+ "name": "Juiblex",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 18,
+ "hp": 350,
+ "hpFormula": "28d12+168",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 10,
+  "CON": 23,
+  "INT": 20,
+  "SAG": 20,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 22",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Foul.** Toute créature autre qu'un Ooze qui commence son tour dans 3 m de Juiblex doit réussir sur un DD 21 jet de sauvegarde de Constitution ou être empoisonné jusqu'au prochain tour de la créature.\n**Résistance légendaire (3/jour).** Si Juiblex échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Juiblex a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** Juiblex retrouve 20 points de vie au début de son tour. S'il prend feu ou dégâts radiants, ce trait ne fonctionne pas au début de son tour suivant. Juiblex meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Escalade des araignées.** Juiblex peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Juiblex fait trois attaques acide Lash.\n**Laisse acide.** Attaque d'arme au corps à corps ou à distance : +14 au toucher, allonge 3 m ou portée 18/36 m., une cible. Touché : 21 (4d6 + 7) dégâts d'acide. Toute créature tuée par cette attaque est attirée dans le corps de Juiblex, où le corps est dissous après 1 minute.\n**Éjecter le Slime (Recharge 5-6).** Juiblex éjecte une slime corrosive, ciblant une créature qu'il peut voir dans 18 m de lui. La cible doit réussir sur un DD 21 jet de sauvegarde de Dextérité ou prendre 55 (10d10) dégâts d'acide. Sauf si la cible évite de prendre tous ces dégâts, toute armure métallique portée par la cible prend une pénalité permanente de −1 pour le CA qu'elle offre, et toute arme métallique que la cible porte ou porte prend une pénalité permanente de −1 pour le jets de dégâts. La peine s'aggrave chaque fois qu'une cible est soumise à cet effet. Si la pénalité sur un objet tombe à −5, l'objet est détruit. La pénalité sur un objet peut être supprimée par le sort Réparation.\n**Détection orthographique.** Juiblex lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Détection de la magie\n- 3/jour chacun : Contagion, Forme gazeuse",
+ "attacks": [
+  {
+   "name": "Laisse acide",
+   "bonus": 14,
+   "damage": "4d6+7",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/0c7077ecd5_monstre-juiblex.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +13, SAG +12",
+ "skills": "Perception +12",
+ "resistances": "froid, feu, foudre",
+ "immunities": "acide, poison, contondant, perforant, tranchant qui est non magique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi, inconscient",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, juiblex peut entreprendre l'une des actions ci-après.\n**Attaque.** Juiblex fait une attaque acide Lash.\n**Perturbation du toucher (coûts 2 actions).** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une créature. Touché : 21 (4d6 + 7) dégâts de poison, et la cible est mincie. Jusqu'à ce que le slime soit gratté avec une action, la cible est empoisonné, et toute créature, autre qu'un Ooze, est empoisonné alors qu'elle se trouve à l'intérieur de 3 m de la cible."
+}

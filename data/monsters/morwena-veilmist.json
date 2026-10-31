@@ -1,0 +1,40 @@
+{
+ "id": "morwena-veilmist",
+ "name": "Morwena Veilmist",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 55,
+ "hpFormula": "10d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Perception passive 10",
+ "languages": "quatre langues",
+ "traits": "**Détection orthographique.** Morwena est un orthographe de niveau 10. Son caractéristique d'incantation est Intelligence (save spell DD 15, +6 au toucher avec attaques de sort). Elle a préparé les sorts d'assistants suivants :\n- Sorts mineurs (à volonté) : Amis, Main de mage, Réparation, Message\n- Niveau 1 (4 emplacements) : Charme-personne *, Armure de mage, Projectile magique\n- Niveau 2 (3 emplacements) : Immobilisation de personne *, Invisibilité, Suggestion *\n- Niveau 3 (3 emplacements) : Boule de feu, Hâte, Don des langues\n- Niveau 4 (3 emplacements) : Oeil magique, Assassin imaginaire\n- Niveau 5 (2 emplacements) : Immobilisation de monstre *\n*Temps d'ancrage de de niveau 1 ou plus",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d6-1) dégâts contondants, ou 3 (1d8-1) dégâts contondants s'il est utilisé à deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 2,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/08d50d9ff6_monstre-morwena-veilmist.webp",
+ "notes": "",
+ "source": "Adventures in the Forgotten Realms: The Hidden Page (5e.tools, traduction automatique)",
+ "saves": "INT +6, SAG +4",
+ "skills": "Arcanes +6, Histoire +6",
+ "reactions": "**Charm instinctif (recharge après Morwena jette un Enchantement Spell de de niveau 1 ou supérieur).** Morwena essaie de détourner magiquement une attaque faite contre elle, à condition que l'agresseur soit au sein de 9 m d'elle et visible pour elle. Elle doit décider de le faire avant que l'attaque ne frappe ou ne rate.\nL'attaquant doit faire un DD 15 jet de sauvegarde de Sagesse. Sur un sauvetage raté, l'agresseur cible la créature la plus proche, autre que Morwena ou elle-même. Si plusieurs créatures sont les plus proches, l'attaquant choisit celle à cibler."
+}

@@ -1,0 +1,49 @@
+{
+ "id": "lowarnizel",
+ "name": "Lowarnizel",
+ "type": "Dragon (jeune gemme)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 168,
+ "hpFormula": "16d10+80",
+ "vitesse": "12 m, vol 24 m (vol stationnaire), nage 12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 12,
+  "CON": 21,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 20",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Amphibie.** Lowarnizel peut respirer à la fois l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Lowarnizel fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants plus 4 (1d8) dégâts de force.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d8 + 5) dégâts tranchants.\n**Singularité Respiration (Recharge 5-6).** Lowarnizel crée une perle brillante de force gravitationnelle, puis libère l'énergie dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Force. Sur une sauvegarde ratée, une créature prend 36 (8d8) dégâts de force, et sa vitesse devient 0 jusqu'au début du prochain tour du dragon. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.\n**Coulisse (Psioniques).** Lowarnizel lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- 1/jour chacun : Dissipation de la magie, Hâte, Protection contre le mal et le bien, Communication à distance",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "1d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/54f0582d3b_monstre-lowarnizel.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +9, SAG +6, CHA +8",
+ "skills": "Arcanes +12, Perception +10, Persuasion +8, Discrétion +5",
+ "resistances": "force, psychique",
+ "conditionImmunities": "effrayé, à terre",
+ "bonusActions": "**Modifier la forme.** Lowarnizel se transforme magiquement en toute créature moyenne ou petite, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si le dragon est réduit à 0 points de vie ou utilise un action bonus pour y mettre fin."
+}

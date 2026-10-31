@@ -1,0 +1,39 @@
+{
+ "id": "imelda",
+ "name": "Imelda",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Sans déconner.** Au début de son tour, Imelda peut gagner de l'avantage sur toute l'arme à melee jets d'attaque pendant ce tour, mais jets d'attaque contre elle a l'avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Fist.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d12d263b17_monstre-imelda.webp",
+ "notes": "",
+ "source": "NERDS Restoring Harmony: Circus of Illusion (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "skills": "Athlétisme +6"
+}

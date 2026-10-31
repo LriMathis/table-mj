@@ -1,0 +1,38 @@
+{
+ "id": "worg",
+ "name": "Worg",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvaise",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 26,
+ "hpFormula": "4d10+4",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 13,
+  "INT": 7,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "skills": "Perception +4",
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "gobelin, worg",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts perforants. Si la cible est une créature, elle doit réussir un jet d’attaque effectué contre la cible avant le début du tour suivant du worg a l’Avantage.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/236eaae1d4_monstre-worg.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

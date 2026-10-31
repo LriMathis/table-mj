@@ -1,0 +1,48 @@
+{
+ "id": "shatterskull-geant",
+ "name": "Shatterskull Giant",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 126,
+ "hpFormula": "11d12+55",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "géant",
+ "traits": "**Camouflage en pierre.** Le géant a l'avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans un terrain rocheux.",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques de grand club.\n**Grand club.** Attaque d'arme au corps à corps : +9 au toucher, allonge 4,50 m, une cible. Touché : 19 (3d8 + 6) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +9 au toucher, portée 18/72 m., une cible. Touché : 28 (4d10 + 6) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 17 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 9,
+   "damage": "3d8+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 9,
+   "damage": "4d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/41c85934dc_monstre-shatterskull-geant.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "aka": "Shatterskull géant",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +8, SAG +4",
+ "skills": "Athlétisme +12, Perception +4",
+ "reactions": "**Capture de roche.** Si un rocher ou un objet similaire est lancé sur le géant, le géant peut, avec un succès DD 10 jet de sauvegarde de Dextérité, attraper le missile et ne pas en prendre dégâts contondants."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "majesto",
+ "name": "Majesto",
+ "type": "Fiélon (diable)",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 10,
+ "hpFormula": "3d4+3",
+ "vitesse": "6 m, vol 12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "infernal, commun",
+ "traits": "**Changeur de forme.** Majesto peut utiliser son action pour se polymorphiser en une forme de bête qui ressemble à un rat (vitesse 6 m), un corbeau (6 m, vol 18 m), ou une araignée (6 m, escalade 6 m), ou revenir dans sa vraie forme. Ses statistiques sont les mêmes dans chaque forme, sauf pour les changements de vitesse notés. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure de Majesto.\n**Résistance magique.** Majesto a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Bête (Bite sous forme de bête).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants, et la cible doit faire un DD 11 jet de sauvegarde de Constitution, en prenant 10 (3d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Invisibilité.** Majesto tourne magiquement invisible jusqu'à ce qu'il attaque, ou jusqu'à ce que son concentration se termine (comme si concentrating sur un sort). Tout équipement que Majesto porte ou porte est invisible avec lui.",
+ "attacks": [
+  {
+   "name": "Bête (Bite sous forme de bête)",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/d8b929f040_monstre-majesto.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "skills": "Tromperie +4, Perspicacité +3, Persuasion +4, Discrétion +5",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques non faites avec des armes argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

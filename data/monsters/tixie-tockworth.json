@@ -1,0 +1,47 @@
+{
+ "id": "tixie-tockworth",
+ "name": "Tixie Tockworth",
+ "type": "Humanoïde (gnome)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 75,
+ "hpFormula": "10d6+40",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 9,
+  "CHA": 10
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 12",
+ "languages": "commun, gnome, terreux, commun des profondeurs",
+ "traits": "**Champ force.** Tockworth génère un champ de force magique autour d'elle. Ce champ de force a 15 points de vie et retrouve tous ses points de vie au début de chaque tour de Tockworth, mais il cesse de fonctionner si Tockworth tombe à 0 points de vie. Tout dégâts pris par Tockworth est soustrait du champ de force points de vie d'abord. Chaque fois que le champ de force reprend points de vie, les conditions suivantes se terminent sur Tockworth: agrippé, entravé et étourdi.",
+ "actionsText": "**Multiattaques.** Tockworth effectue trois attaques Shortsword ou foudre Discharge.\n**Mot-clé.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 10 (3d6) dégâts de force.\n**Décharge foudre.** Attaque de sort à distance : +6 au toucher, portée 18 m, une créature. Touché : 16 (3d10) dégâts de foudre.\n**Détection orthographique.** Tockworth lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Antidétection (autoseulement)\n- 1/jour chacun : Cécité/Surdité, Flou\n- 2/jour : Porte dimensionnelle",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Décharge foudre",
+   "bonus": 6,
+   "damage": "3d10",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/1322a5db63_monstre-tixie-tockworth.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle, Bouclier",
+ "saves": "INT +6, SAG +2",
+ "skills": "Arcanes +9, Perception +2",
+ "bonusActions": "**Écaillage de vapeur (Recharge 5-6).** Tockworth émet un jet de vapeur chaude dans un cône 4,50 m. Chaque créature dans ce cône doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 10 (3d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

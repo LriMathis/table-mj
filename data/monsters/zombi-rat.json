@@ -1,0 +1,38 @@
+{
+ "id": "zombi-rat",
+ "name": "Zombie Rat",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 11,
+  "CON": 9,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Fortitude non-morte.** Si le dégâts réduit le rat à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + le dégâts pris, à moins que le dégâts soit radieux ou d'un coup critique. Sur un succès, le rat tombe à 1 points de vie à la place.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/99612bc6a6_monstre-zombi-rat.webp",
+ "notes": "",
+ "source": "PSI (5e.tools, traduction automatique)",
+ "aka": "Zombi rat"
+}

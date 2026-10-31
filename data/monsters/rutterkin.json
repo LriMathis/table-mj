@@ -1,0 +1,40 @@
+{
+ "id": "rutterkin",
+ "name": "Rutterkin",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 37,
+ "hpFormula": "5d8+15",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 15,
+  "CON": 17,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "comprend Abyssal mais ne peut pas parler",
+ "traits": "**Immobiliser la peur.** Lorsqu'une créature qui n'est pas un démon commence son tour à l'intérieur de 9 m d'un ou plusieurs rutterkins, cette créature doit faire un DD 11 jet de sauvegarde de Sagesse. La créature a un désavantage sur le save si elle est dans 9 m de six rutterkins ou plus. Lors d'un sauvetage raté, la créature devient effrayé des rutterkins pendant 1 minute. Alors qu'effrayé de cette façon, la créature est entravé. À la fin de chacun des tours de la créature effrayé, elle peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès. Sur un salut réussi, la créature est immunisée contre la peur criptante de tous les rutterkins pendant 24 heures.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 12 (3d6 + 2) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Constitution contre maladie ou devenir empoisonné. À la fin de chaque repos long, la cible empoisonné peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès. Si la cible est réduite à 0 points de vie alors qu'empoisonné de cette façon, il meurt et se transforme instantanément en un Mâne vivant. La transformation ne peut être annulée que par un sort Souhait.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "3d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3efba6eaf5_monstre-rutterkin.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

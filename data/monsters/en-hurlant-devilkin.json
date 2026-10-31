@@ -1,0 +1,39 @@
+{
+ "id": "en-hurlant-devilkin",
+ "name": "Screaming Devilkin",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 17,
+ "hp": 18,
+ "hpFormula": "4d6+4",
+ "vitesse": "0 m, vol 12 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 5,
+  "SAG": 8,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 9",
+ "languages": "sylvestre",
+ "traits": "**Flier agile.** Les attaques possibles contre le diable hurlant ont un désavantage pendant qu'il vole.\n**Ne criez pas.** Toute créature autre qu'un diable criant qui commence son tour à l'intérieur de 9 m d'un ou plusieurs diables criants et peut l'entendre doit faire un DD 10\njet de sauvegarde de Sagesse. Sur un échec, la créature est neutralisé jusqu'au début de son prochain tour. Sur un succès, la créature n'a aucun effet.\n**Jambes étourdies.** Le diable hurlant a un désavantage sur jets d'attaque et tout jets d'attaque fait contre elle gagne un avantage alors que le diable ne vole pas.",
+ "actionsText": "**Tail barbelé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Tail barbelé",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d91860ba15_monstre-en-hurlant-devilkin.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "aka": "En hurlant Devilkin",
+ "caNote": "armure naturelle"
+}

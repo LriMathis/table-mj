@@ -1,0 +1,40 @@
+{
+ "id": "vivant-sphere-de-vitriol",
+ "name": "Living Vitriolic Sphere",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 76,
+ "hpFormula": "8d10+32",
+ "vitesse": "7,50 m, vol 7,50 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Amorphe.** Le sort vivant peut se déplacer dans un espace aussi étroit que 1 pouce sans dépenser de mouvement supplémentaire pour le faire.\n**Résistance magique.** Le sort vivant a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le sort vivant fait deux attaques de grève magique.\n**Grève magique.** Jet d'attaque au corps à corps : +7, allonge 3 m. Touché : 21 (5d6 + 4) dégâts d'acide.\n**Mimétisme orthographique (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 15, chaque créature dans un 6 m -radius Sphere centré sur un point au sein de 45 m. Échec : 25 (10d4) dégâts d'acide, et 12 (5d4) dégâts d'acide à la fin du prochain tour de la cible. Réussite : Avarie initiale de moitié seulement.",
+ "attacks": [
+  {
+   "name": "Grève magique",
+   "bonus": 7,
+   "damage": "5d6+4",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/9a7ebf535a_monstre-vivant-sphere-de-vitriol.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "aka": "Vivant sphère de vitriol",
+ "immunities": "acide",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, agrippé, empoisonné, à terre, entravé"
+}

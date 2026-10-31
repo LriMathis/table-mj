@@ -1,0 +1,46 @@
+{
+ "id": "frere-adramalech",
+ "name": "Brother Adramalech",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 19,
+ "hp": 212,
+ "hpFormula": "25d8+100",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 25,
+  "SAG": 25,
+  "CHA": 25
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "céleste, commun, draconique, infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure d'Adramalech.\n**Résistance magique.** Adramalech a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Obligation incassable.** Si Adramalech est réduit à 0 points de vie alors que frère Morax vit encore, Adramalech régénère 50 points de vie au début de son prochain tour. Cette régénération est interrompue si le frère Morax est réduit à 0 points de vie avant le début du tour d'Adramalech.",
+ "actionsText": "**Multiattaques.** Adramalech fait quatre attaques en utilisant Mental\n**Barrage.** Il peut remplacer l'une des attaques par le gel du cerveau ou le cône de la folie (si disponible).\n**Barrage mental.** Attaque d'arme au corps à corps ou à distance : +14 au toucher, allonge 1,50 m ou portée 18/36 m., une cible. Touché : 25 (4d8 + 7) dégâts psychiques.\n**Gel du cerveau.** Adramalech tente de surcharger le cerveau d'une créature qu'il peut voir au sein de 18 m de lui. La cible doit faire un DD 22 jet de sauvegarde d'Intelligence, en prenant 22 (4d10) dégâts psychiques sur une sauvegarde ratée, ou la moitié de celle sur une réussite. Les créatures qui échouent le jet de sauvegarde ont le l'état étourdi jusqu'à 1 minute. Une créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur un succès.\n**Cône de folie (Recharge 4-6).** Adramalech lance des visions dans un cône 9 m devant lui. Toutes les créatures dans le cône doivent faire un DD 22 jet de sauvegarde de Sagesse, en prenant 17 (5d6) dégâts psychiques sur une sauvegarde ratée, ou la moitié de celle sur une réussite. Pendant 1 minute, les créatures qui ont échoué au sauvetage ne peuvent pas prendre de réactions et chaque tour doit utiliser leur action pour faire une attaque de mêlée contre la créature la plus proche. Les créatures peuvent répéter le jet de sauvegarde à la fin de chacun de leurs tours, mettant fin à l'effet sur un succès.",
+ "attacks": [
+  {
+   "name": "Barrage mental",
+   "bonus": 14,
+   "damage": "4d8+7",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/1126240d80_monstre-frere-adramalech.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Frère Adramalech",
+ "caNote": "armure naturelle",
+ "saves": "INT +14, SAG +14, CHA +14",
+ "skills": "Arcanes +14, Tromperie +21, Perspicacité +14, Intimidation +14, Persuasion +21, Religion +14",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "bonusActions": "**Effet conjugué (Recharge 6).** Adramalech cible une créature, lisant ses pensées et créant une effigie d'un être cher dans un espace inoccupé qu'il peut voir au sein de 18 m d'Adramalech. L'effigie a 55 (10d10) points de vie, un CA de 10, et des scores de capacité de 10. Il crie parfois pour de l'aide, mais autrement ne prend aucune action. Alors que l'effigie est vivante, la créature cible a un désavantage sur les attaques visant Adramalech et chaque fois que l'effigie prend des dégâts, la créature cible prend également une quantité égale à dégâts psychiques. Si l'effigie est tuée, la créature cible gagne un niveau d'épuisement. Si Adramalech est tué alors qu'il existe des effigies, elles fondent inoffensivement dans une boue chaude.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, frère adramalech peut entreprendre l'une des actions ci-après.\n**Barrage.** Adramalech fait une attaque de Barrage Mental.\n**Blocker mental.** Adramalech fortifie l'esprit d'une créature qu'il peut voir au sein de 18 m de lui, ou lui-même. La cible bénéficie comme si le sort Restauration supérieure a été lancé sur eux et est accordé résistance à dégâts psychiques jusqu'à la fin du prochain tour d'Adramalech."
+}

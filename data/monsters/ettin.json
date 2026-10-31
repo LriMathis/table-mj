@@ -1,0 +1,45 @@
+{
+ "id": "ettin",
+ "name": "Ettin",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 8,
+  "CON": 17,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "skills": "Perception +4",
+ "conditionImmunities": "assourdi, aveuglé, charmé, effrayé, étourdi, inconscient",
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "gigant",
+ "traits": "**Équipement.** hache d’armes, morgenstern",
+ "actionsText": "**Attaques multiples.** L’ettin effectue une attaque de Hache d’armes et une de Morgenstern.\n**Hache d’armes.** Corps à corps : +7, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts tranchants. Si la cible est une créature de taille G ou inférieure, elle subit l’état À terre.\n**Morgenstern.** Corps à corps : +7, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts perforants, et la cible subit le Désavantage à son prochain jet d’attaque effectué avant la fin de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Hache d’armes",
+   "bonus": 7,
+   "damage": "2d8+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morgenstern",
+   "bonus": 7,
+   "damage": "2d8+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d66d256721_monstre-ettin.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 131"
+}

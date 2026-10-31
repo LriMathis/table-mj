@@ -1,0 +1,31 @@
+{
+ "id": "gresil",
+ "name": "Grésil (diablotin)",
+ "type": "Fiélon (diable)",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 10,
+ "hpFormula": "3d4+3",
+ "vitesse": "6 m, vol 12 m",
+ "size": 0.5,
+ "stats": {
+  "FOR": 6,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "attacks": [
+  {
+   "name": "Dard",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + 3d6 poison (JS Con DD 11, moitié)"
+  }
+ ],
+ "traits": "**Métamorphe.** Peut prendre la forme d'un rat, d'un corbeau ou d'une araignée.\n**Vision du diable.** Les ténèbres magiques ne gênent pas sa vision.\n**Résistance à la magie.** Avantage aux JS contre les sorts et effets magiques.\n**Invisibilité** (à volonté, concentration).\n**Résistances** froid ; contondant, perforant et tranchant non magiques et non argentés. **Immunités** feu, poison.\n**Secret.** Il sert un diable qui veut que la serrure s'ouvre. Interrogé, il avoue : « Les morts ouvrent des marchés. »\nStatistiques du diablotin (MM).",
+ "portrait": "/data/images/f82fe237a3_monstre-feu-follet-noir.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "destrier-noir",
+ "name": "Destrier noir",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "18 m, vol 27 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "immunities": "feu",
+ "senses": "Perception passive 11",
+ "languages": "comprend l’abyssal, le commun et l’infernal mais ne peut pas parler",
+ "traits": "**Illumination.** L’horriflamme émet une Lumière vive sur un rayon de 3 m et une Lumière faible sur 3 m de plus.\n**Protection contre les flammes.** L’horriflamme peut octroyer la Résistance aux dégâts de feu à son cavalier tant que celui-ci la chevauche.",
+ "actionsText": "**Sabots.** Corps à corps : +6, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts contondants plus 10 (3d6) dégâts de feu.\n**Chevauchée éthérée.** L’horriflamme et un maximum de trois créatures consentantes dans un rayon de 1,50 m se téléportent sur le Plan Éthéré depuis le Plan Matériel, ou inversement.",
+ "attacks": [
+  {
+   "name": "Sabots",
+   "bonus": 6,
+   "damage": "2d8+4+3d6",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/e97c98349d_monstre-destrier-noir.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 60",
+ "aka": "Horriflamme (2024)"
+}

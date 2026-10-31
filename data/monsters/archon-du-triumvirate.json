@@ -1,0 +1,44 @@
+{
+ "id": "archon-du-triumvirate",
+ "name": "Archon of the Triumvirate",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 18,
+ "hp": 144,
+ "hpFormula": "17d8+68",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 19,
+  "INT": 15,
+  "SAG": 21,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 20",
+ "languages": "tous",
+ "traits": "**L'œil de la loi.** En tant qu'action bonus, l'archon peut cibler une créature qu'il peut voir à l'intérieur de 36 m et déterminer quelles lois cette créature a brisées au cours des dernières 24 heures.\n**Montage.** Si l'archen n'est pas monté, il peut utiliser un action bonus pour téléporter magiquement sur la créature servant de monture, à condition que l'archen et sa monture soient sur le même plan d'existence. Lorsqu'il téléporte, l'archon apparaît stupéfiant la monture ainsi que tout équipement qu'il porte ou qu'il transporte. Bien que monté et non neutralisé, l'arcon ne peut pas être surpris, et à la fois lui et son montage gagnent avantage sur jet de sauvegarde de Dextérité. Si l'arc est réduit à 0 points de vie alors qu'il monte, le montage est réduit à 0 points de vie également.\n**Découpe intérieure.** Le caractéristique d'incantation inné de l'archon est Sagesse (save spell DD 18, +10 au toucher avec attaques de sort). L'archon peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Apaisement des émotions, Injonction, Duel forcé",
+ "actionsText": "**Multiattaques.** L'archen fait deux attaques de Hammer of Justice.\n**Marteau de justice.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants plus 18 (4d8) dégâts de force. Si la cible est une créature, elle doit réussir sur un DD 18 jet de sauvegarde de Force ou être à terre.\n**Présence pacifiante.** Chaque créature du choix de l'archon que l'archon peut voir à l'intérieur de 36 m doit réussir sur un DD 18 jet de sauvegarde de Sagesse, ou bien la cible lâche toutes les armes qu'elle tient, termine son concentration sur tous les sorts ou autres effets, et devient charmé par l'archon pendant 1 minute. La créature charmé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence pacificante de l'archon pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Marteau de justice",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "contondant + force"
+  }
+ ],
+ "portrait": "/data/images/4192fd689e_monstre-archon-du-triumvirate.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Archon du Triumvirate",
+ "caNote": "Armure de plaque",
+ "saves": "CON +9, SAG +10, CHA +9",
+ "skills": "Perspicacité +10, Perception +10",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, archon du triumvirate peut entreprendre l'une des actions ci-après.\n**Rejoins le Mont.** Si l'archen n'est pas monté, il se téléporte magiquement à son pied et le monte tant que l'archen et son pied sont sur le même plan d'existence.\n**Smite (actions de coût 2).** L'archen fait une attaque de Hammer of Justice, et ensuite sa monture peut utiliser sa réaction pour faire une attaque d'arme à la mêlée.\n**Détention (coûts 3 actions).** L'archon cible une créature qu'il peut voir à l'intérieur de 18 m. La cible doit réussir sur un DD 18 jet de sauvegarde de Charisme ou être téléportée par magie sur un démiplane inoffensif jusqu'à la fin du prochain virage de l'archon, après quoi la cible réapparaît dans l'espace qu'elle a laissé ou dans l'espace inoccupé le plus proche si cet espace est occupé."
+}

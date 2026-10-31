@@ -1,0 +1,45 @@
+{
+ "id": "draconian-mage",
+ "name": "Draconian Mage",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 11,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, draconique",
+ "traits": "**Throès de la mort.** Lorsque le draconien est réduit à 0 points de vie, ses écailles et sa chair se raclent immédiatement et ses os explosent. Chaque créature de 3 m doit réussir sur un DD 10 jet de sauvegarde de Dextérité ou prendre 9 (2d8) dégâts de force.\n**Glisse.** Lorsque le draconien tombe et n'est pas neutralisé, il soustrait jusqu'à 30 m de la chute lors du calcul des dégâts de la chute, et il peut passer à 0,60 m horizontalement pour chaque 0,30 m qu'il descend.",
+ "actionsText": "**Multiattaques.** Le draconien fait deux attaques Trident ou nécrotique Ray.\n**Trident.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.\n**Rayon nécrotique.** Attaque de sort à distance : +4 au toucher, portée 18 m, une cible. Touché : 10 (3d6) dégâts nécrotiques.\n**Détection orthographique.** La draconienne lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 12):\n- 1/jour chacun : Agrandissement/Rapetissement, Invisibilité, Nuage nauséabond",
+ "attacks": [
+  {
+   "name": "Trident",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Rayon nécrotique",
+   "bonus": 4,
+   "damage": "3d6",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/13b8768450_monstre-draconian-mage.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +2, SAG +2, CHA +4"
+}

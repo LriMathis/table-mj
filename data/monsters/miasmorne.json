@@ -1,0 +1,48 @@
+{
+ "id": "miasmorne",
+ "name": "Miasmorne",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 19,
+ "hp": 230,
+ "hpFormula": "20d12+100",
+ "vitesse": "6 m, creusement 6 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception des vibrations 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Attaques acides.** Si une créature prend dégâts d'acide du miasmorne et que cette créature porte une armure métallique non magique, cette armure est détruite.\n**Cuir acide.** Après une arme métallique non magique frappe le miasmorne qui fond et est détruit. De même, les munitions métalliques non magiques qui frappent le miasmorne sont détruites.",
+ "actionsText": "**Multiattaques.** Le miasmorne fait trois attaques en utilisant Bite, Flechette ou une combinaison des deux.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 22 (3d10 + 6) dégâts contondants plus 7 (2d6) dégâts d'acide. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 18). Le miasmorne ne peut pas faire d'attaques Bite alors qu'une créature est agrippé de cette façon.\n**Flechette.** Attaque d'arme à distance : +11 au toucher, portée 18/36 m., une cible. Touché : 16 (3d6 + 6) dégâts d'acide.\n**Vaporisateur Flechette (Recharge 5-6).** Le miasmorne lance des flechettes depuis ses nageoires dans un cône 27 m devant lui. Toutes les créatures dans le cône doivent faire un DD 19 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Secret acide (1/jour).** Le miasmorne sécrète une solution acide, puis la pulvérise autour de lui. Toutes les créatures dans une sphère 6 m -radius, centrée sur le miasmorne, doivent faire un DD 19 jet de sauvegarde de Dextérité. Les cibles prennent 26 (4d12) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Tous les métaux non magiques dans le rayon qui ne sont pas transportés, ainsi que les objets métalliques non magiques transportés ou portés par des créatures qui ont échoué au sauvetage, sont détruits.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "3d10+6",
+   "type": "contondant + acide"
+  },
+  {
+   "name": "Flechette",
+   "bonus": 11,
+   "damage": "3d6+6",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/de8ceb1d3d_monstre-miasmorne.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +11, CON +10",
+ "skills": "Arcanes +1, Athlétisme +16, Survie +5",
+ "immunities": "acide, feu, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "pétrifié"
+}

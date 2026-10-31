@@ -1,0 +1,43 @@
+{
+ "id": "manshoon",
+ "name": "Manshoon",
+ "type": "Humanoïde (humain, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 15,
+ "hp": 214,
+ "hpFormula": "33d8+66",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 23,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, draconique, infernal, commun des profondeurs",
+ "traits": "**Résistance magique.** Manshoon a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Manshoon fait trois attaques d'Arcane Burst. Il peut remplacer deux attaques par une utilisation de Spellcasting.\n**La Burst d'Arcane.** Jet d'attaque au corps à corps ou à distance : +11, allonge 1,50 m ou portée 36 m. Touché : 32 (4d12 + 6) dégâts de force.\n**Détection orthographique.** Manshoon lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Détection de la magie, Détection des pensées, Lumière, Éclair (version de niveau 4), Armure de mage (inclus dans CA), Main de mage, Prestidigitation\n- 1/jour chacun : Abrutissement, Clone, Doigt de mort, Esprit impénétrable (châssé avant le combat), Simulacre\n- 2/jour chacun : Scrutation, Communication à distance, Mur de force",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 11,
+   "damage": "4d12+6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/894bd80599_monstre-manshoon.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "saves": "INT +11, SAG +7",
+ "skills": "Arcanes +11, Histoire +11, Perspicacité +7",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé",
+ "bonusActions": "**Étape de misty.** Manshoon lance Foulée brumeuse, en utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Foulée brumeuse",
+ "reactions": "**Magie protectrice.** Manshoon lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Contresort, Bouclier"
+}

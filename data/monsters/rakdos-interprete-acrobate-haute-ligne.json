@@ -1,0 +1,40 @@
+{
+ "id": "rakdos-interprete-acrobate-haute-ligne",
+ "name": "Rakdos Performer, High-Wire Acrobat",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 17,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 15
+ },
+ "senses": "Perception passive 9",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Nimexe.** L'interprète peut prendre l'action Se désengager en action bonus sur chacun de ses tours.",
+ "actionsText": "**Multiattaques.** L'acrobate fait deux attaques avec son bâton barbelé.\n**Pôle barbé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants, et l'acrobat peut sauter jusqu'à 6 m. Ce mouvement ne provoque pas d'attaques d'opportunités.",
+ "attacks": [
+  {
+   "name": "Pôle barbé",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6fda64d38b_monstre-rakdos-interprete-acrobate-haute-ligne.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Rakdos interprète, acrobate haute ligne",
+ "saves": "DEX +5, CHA +4",
+ "skills": "Acrobaties +7, Représentation +4"
+}

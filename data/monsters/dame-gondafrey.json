@@ -1,0 +1,48 @@
+{
+ "id": "dame-gondafrey",
+ "name": "Lady Gondafrey",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 52,
+ "hpFormula": "7d8+21",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun",
+ "traits": "**Fausse apparence.** Bien que la gargouille reste immobile, elle est indistinguable d'une statue inanimée.",
+ "actionsText": "**Multiattaques.** La gargouille fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/3fe2b72381_monstre-dame-gondafrey.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "aka": "Dame Gondafrey",
+ "caNote": "armure naturelle",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, pétrifié, empoisonné"
+}

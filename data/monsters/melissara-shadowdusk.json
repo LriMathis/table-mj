@@ -1,0 +1,40 @@
+{
+ "id": "melissara-shadowdusk",
+ "name": "Melissara Shadowdusk",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 12,
+ "hp": 99,
+ "hpFormula": "18d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, profond, draconique, nain",
+ "traits": "**Résistance magique.** Melissara a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Détection orthographique.** Melissara est un spellcaster de niveau 18. Son caractéristique d'incantation est Intelligence (save spell DD 17, +9 au toucher avec attaques de sort). Melissara peut lancer Déguisement et Invisibilité à volonté et a les sorts d'assistant suivants préparés:\n- À volonté : Déguisement, Invisibilité\n- Sorts mineurs (à volonté) : Trait de feu, Lumière, Main de mage, Prestidigitation, Poigne électrique\n- Niveau 1 (4 emplacements) : Détection de la magie, Identification, Armure de mage *, Projectile magique\n- Niveau 2 (3 emplacements) : Détection des pensées, Image miroir, Foulée brumeuse\n- Niveau 3 (3 emplacements) : Contresort, Vol, Éclair\n- Niveau 4 (3 emplacements) : Porte dimensionnelle, Bouclier de feu, Peau de pierre *\n- Niveau 5 (3 emplacements) : Cône de froid, Scrutation, Mur de force\n- Niveau 6 (1 emplacements) : Globe d'invulnérabilité\n- Niveau 7 (1 emplacements) : Téléportation\n- Niveau 8 (1 emplacements) : Esprit impénétrable *\n- Niveau 9 (1 emplacements) : Arrêt du temps\n* Melissara jette ces sorts sur elle-même avant le combat.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 6,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/da964e2261_monstre-melissara-shadowdusk.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "saves": "INT +9, SAG +6",
+ "skills": "Arcanes +13, Histoire +13",
+ "resistances": "dégâts causés par des sorts, non magique contondant, perforant, tranchant (de la peau de pierres)"
+}

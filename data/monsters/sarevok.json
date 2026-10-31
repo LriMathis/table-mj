@@ -1,0 +1,43 @@
+{
+ "id": "sarevok",
+ "name": "Sarevok",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 21,
+ "hp": 190,
+ "hpFormula": "20d8+100",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 11,
+  "SAG": 18,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "abyssal, commun, infernal",
+ "traits": "**Résistance magique.** Sarevok a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Réjuvenance.** Si Sarevok est tué, il gagne un nouveau corps en 24 heures, récupérant tout son points de vie. Le nouveau corps apparaît sur l'autel du temple de Bhaal sous la porte de Baldur. Cette capacité cesse de fonctionner si un clerc de bon alignement jette Sanctification sur l'autel dans le temple de Bhaal.",
+ "actionsText": "**Multiattaques.** Sarevok fait trois attaques de Longsword. Il peut remplacer l'une des attaques par des Flames de Bhaal ou Spellcasting.\n**Mot long.** Attaque d'arme au corps à corps : +12 au toucher, atteindre 5 pieds, une cible. Touché : 10 (1d8 + 6) dégâts tranchants ou 11 (1d10 + 6) s'ils sont maniés en deux mains. La cible doit réussir sur un DD 18 jet de sauvegarde de Constitution ou être maudite par Bhaal, l'empêchant de récupérer points de vie. La malédiction dure jusqu'à ce qu'elle soit enlevée par le sort Délivrance des malédictions ou un effet similaire.\n**Flammes de Bhaal.** Sarevok provoque des flammes à engloutir une créature qu'il peut voir dans 18 m. La cible doit réussir sur un DD 18 jet de sauvegarde de Dextérité ou prendre 18 (4d8) dégâts nécrotiques. Ce dégâts ne peut être restauré que par un sort Restauration partielle ou un effet similaire.\n**Détection orthographique.** Sarevok lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Résistance, Thaumaturgie\n- 1/jour chacun : Animation des morts, Champ antimagie, Projection astrale, Barrière de lames, Injonction, Contagion, Dissipation de la magie, Divination, Forme éthérée, Tempête de feu, Contamination, Immobilisation de personne, Silence",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 12,
+   "damage": "1d8+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/7452928f82_monstre-sarevok.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure de plaque de Bhaal",
+ "saves": "CON +11, SAG +10",
+ "skills": "Histoire +6, Intimidation +14, Religion +6",
+ "immunities": "acide, nécrotique, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, sarevok peut entreprendre l'une des actions ci-après.\n**Couper.** Sarevok fait une attaque par Longsword.\n**Flamme impie.** Sarevok utilise des Flames de Bhaal.\n**La haine de Channel Bhaal (coûts 2 actions).** Sarevok libère le pouvoir de Bhaal. Les créatures de 9 m de Sarevok, y compris celles derrière les barrières et autour des coins, ne peuvent retrouver points de vie qu'à la fin du prochain virage de Sarevok."
+}

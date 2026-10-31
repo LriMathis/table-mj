@@ -1,0 +1,39 @@
+{
+ "id": "rat-corrompu",
+ "name": "Corrupted Rat",
+ "type": "Monstruosité",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 11,
+  "CON": 9,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Agile.** Le rat ne provoque pas d'Attaques d'Occasion quand il sort de la portée d'un ennemi.\n**Burst de mort.** Le rat explose quand il meurt. Jet de sauvegarde de Constitution : DD 9, chaque créature dans une émanation 1,50 m provenant du rat. Échec : 1 dégâts d'acide.",
+ "actionsText": "**Morceau.** Jet d'attaque au corps à corps : +2, allonge 1,50 m. Touché : 1 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 2,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/40d4da28f0_monstre-rat-corrompu.webp",
+ "notes": "",
+ "source": "Stranger Things: Welcome to the Hellfire Club (5e.tools, traduction automatique)",
+ "aka": "Rat corrompu",
+ "skills": "Perception +2, Discrétion +2"
+}

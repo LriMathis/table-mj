@@ -1,0 +1,50 @@
+{
+ "id": "capitaine-vampirate",
+ "name": "Vampirate Captain",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 85,
+ "hpFormula": "10d8+40",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Exploser.** Lorsque le capitaine est réduit à 0 points de vie, il explose dans un nuage de cendres. Toute créature de 1,50 m doit réussir sur un DD 15 jet de sauvegarde de Constitution ou prendre 16 (3d10) dégâts nécrotiques.\n**Escalade des araignées.** Le capitaine peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Nature inhabituelle.** Le capitaine n'a pas besoin d'air ni de boisson.",
+ "actionsText": "**Évacuation d'énergie.** Attaque de sort au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 9 m, une créature. Touché : 22 (4d10) dégâts nécrotiques. Un Humanoïde réduit à 0 points de vie par cette attaque meurt et se transforme instantanément en une ombre libre ou vampire (le choix du capitaine) sous le contrôle de le MD 's.\n**Grosse arbalète.** Attaque d'arme à distance : +6 au toucher, portée 30/120 m., une cible. Touché : 19 (3d10 + 3) dégâts perforants.\n**Invisibilité du navire (recharge après un repos court ou long).** Un navire sur lequel se tient le capitaine, ainsi que toutes les créatures et tous les objets à bord, devient invisible à des créatures qui ne sont pas à bord du navire. Le capitaine doit se concentrer sur cet effet magique pour le maintenir (comme si concentrating sur un sort), et il dure jusqu'à 1 heure. L'effet se termine si le capitaine quitte le navire.",
+ "attacks": [
+  {
+   "name": "Évacuation d'énergie",
+   "bonus": 6,
+   "damage": "4d10",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 6,
+   "damage": "3d10+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f76d9f9019_monstre-capitaine-vampirate.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Capitaine Vampirate",
+ "caNote": "armure naturelle",
+ "saves": "CON +7, SAG +4, CHA +6",
+ "vulnerabilities": "radiant",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, empoisonné",
+ "reactions": "**Uncanny Dodge.** Le capitaine réduit de moitié les dégâts qu'il prend d'une attaque qui le frappe. Le capitaine doit pouvoir voir l'agresseur."
+}

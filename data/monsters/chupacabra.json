@@ -1,0 +1,47 @@
+{
+ "id": "chupacabra",
+ "name": "Chupacabra",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 13,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Sensibilité à la lumière du soleil.** En plein soleil, le chupacabra présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre.\n**Égoutter le sang.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature qui est à terre, neutralisé ou entravé. Touché : 5 (1d6 + 2) dégâts nécrotiques. La cible doit réussir sur une DD 13 jet de sauvegarde de Constitution ou sa maximum de points de vie est réduite d'un montant égal aux dégâts subis, et la chupacabra récupère points de vie égal à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Égoutter le sang",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/f7d9dd3efe_monstre-chupacabra.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3, Discrétion +4",
+ "resistances": "contondant, perforant, tranchant des armes non magiques",
+ "reactions": "**Épingle.** Si une créature de 1,50 m du chupacabra se dresse, le chupacabra peut utiliser sa réaction pour faire une attaque de morsure."
+}

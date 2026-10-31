@@ -1,0 +1,40 @@
+{
+ "id": "fanatique-de-secte",
+ "name": "Fanatique de secte",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "saves": "SAG +4",
+ "skills": "Persuasion +3, Religion +2, Tromperie +3",
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Lame de pacte.** Corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts tranchants plus 7 (2d6) dégâts nécrotiques.\n**Incantation.** Le sectateur lance l’un des sorts suivants, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde 12, +4 pour toucher) :\n- À volonté : *lumière*, *thaumaturgie*\n- 2/jour : *injonction*\n- 1/jour : *immobilisation de personne*",
+ "bonusActions": "**Arme spirituelle (2/jour).** Le sectateur lance le sort *arme spirituelle* avec la même caractéristique d’incantation que pour Incantation.",
+ "attacks": [
+  {
+   "name": "Lame de pacte",
+   "bonus": 4,
+   "damage": "1d8+2+2d6",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/bdd0786c5d_monstre-fanatique-de-secte.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 347"
+}

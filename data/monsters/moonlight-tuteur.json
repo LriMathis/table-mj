@@ -1,0 +1,42 @@
+{
+ "id": "moonlight-tuteur",
+ "name": "Moonlight Guardian",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 16,
+ "hp": 105,
+ "hpFormula": "14d8+42",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 9,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 11",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Formulaire immuable.** Le tuteur est à l'abri de tout sort ou autre effet qui modifierait sa forme.\n**Résistance magique.** Le gardien a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**radiant absorption.** Chaque fois que le gardien est soumis à dégâts radiants, il ne prend aucun dégâts et récupère plutôt un nombre de points de vie égal à dégâts radiants.",
+ "actionsText": "**Multiattaques.** Le gardien fait deux attaques de Lunelight Slam.\n**Clameur au clair de lune.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants plus 4 (1d8) dégâts radiants.\n**Blast de lumière de la lune (Recharge 5-6).** Le gardien déclenche un souffle magique du clair de lune dans une ligne 18 m longue et 1,50 m large. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Dextérité. Les créatures qui ne sont pas dans leur forme réelle ont un désavantage sur l'épargne. Sur une sauvegarde ratée, une créature prend 22 (5d8) dégâts radiants, et si elle n'est pas dans sa forme réelle, elle est forcée dans sa forme réelle et ne peut changer de forme avant la fin du prochain tour du gardien. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Clameur au clair de lune",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/11056bf988_monstre-moonlight-tuteur.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Moonlight tuteur",
+ "caNote": "armure naturelle",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison, radiant",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

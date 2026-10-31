@@ -1,0 +1,42 @@
+{
+ "id": "kraken",
+ "name": "Kraken",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvaise",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 18,
+ "hp": 481,
+ "hpFormula": "26d20+208",
+ "vitesse": "9 m, nage 36 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 11,
+  "CON": 26,
+  "INT": 22,
+  "SAG": 18,
+  "CHA": 20
+ },
+ "saves": "FOR +17, DEX +7, CON +15, SAG +11",
+ "skills": "Histoire +13, Perception +11",
+ "immunities": "foudre, froid",
+ "conditionImmunities": "agrippé, effrayé, entravé, paralysé",
+ "senses": "Vision véritable 36 m, Perception passive 21",
+ "languages": "comprend l’abyssal, le céleste, l’infernal et le primordial mais ne peut pas parler, télépathie 36 m",
+ "traits": "**Amphibie.** Le kraken peut respirer sous l’eau comme à l’air libre.\n**Monstre de siège.** Le kraken inflige des dégâts doublés aux objets et aux structures.\n**Résistance légendaire (4/jour, ou 5/jour dans son antre).** Si le kraken rate un jet de sauvegarde, il peut décider de le réussir tout de même.",
+ "actionsText": "**Attaques multiples.** Le kraken effectue deux attaques de Tentacule et recourt à Engloutissement, Projection ou Trait de foudre.\n**Tentacule.** Corps à corps : +17, allonge 9 m. Touché : 24 (4d6 + 10) dégâts contondants. La cible subit l’état Agrippé (évasion DD 20) par l’un des dix tentacules, ainsi que l’état Entravé tant qu’elle est Agrippée.\n**Engloutissement.** JS Dextérité : DD 25, une créature Agrippée par le kraken (il peut avoir jusqu’à quatre créatures englouties à la fois). Échec : 23 (3d8 + 10) dégâts perforants. Si la cible est de taille G ou inférieure, elle est engloutie et n’est plus Agrippée. Une créature ainsi engloutie subit l’état Entravé, bénéficie d’un Abri total contre les attaques et autres effets émanant de l’extérieur du kraken et subit 24 (7d6) dégâts d’acide au début de chacun de ses propres tours.\nSi le kraken subit 50 dégâts ou plus lors d’un même tour de la part d’une créature engloutie, il doit réussir un jet de sauvegarde de Constitution DD 25 à la fin du tour concerné sous peine de régurgiter toutes les créatures englouties, chacune se retrouvant À terre dans un espace situé à 3 m ou moins de lui. Si le kraken meurt, les créatures englouties ne subissent plus l’état Entravé et peuvent s’extraire du cadavre en dépensant 4,50 m de déplacement, pour se retrouver avec l’état À terre.\n**Projection.** Le kraken projette une créature de taille G ou inférieure Agrippée par lui en un espace inoccupé qui n’est pas en l’air et qu’il voit dans un rayon de 18 m. JS Dextérité : DD 25, la créature projetée et chaque créature dans l’espace de destination. Échec : 18 (4d8) dégâts contondants, et la cible subit l’état À terre. Réussite : demi-dégâts uniquement.\n**Trait de foudre.** JS Dextérité : DD 23, une créature que le kraken voit dans un rayon de 36 m. Échec : 33 (6d10) dégâts de foudre. Réussite : demi-dégâts.",
+ "legendary": "**Utilisations d'action Légendaire : 3 (4 dans son antre).** Aussitôt après le tour d'une autre créature, le kraken peut dépenser une utilisation pour entreprendre l'une des actions ci-après. Le kraken récupère toutes ses utilisations dépensées au début de chacun de ses tours.\n**Encre toxique.** JS Constitution : DD 23, chaque créature dans une Émanation de 4,50 m centrée sur le kraken alors qu’il est sous l’eau. Échec : la cible subit les états Aveuglé et Empoisonné jusqu’à la fin du tour suivant du kraken. Le kraken se déplace ensuite dans les limites de sa Vitesse. Échec ou réussite : le kraken ne peut plus entreprendre cette action jusqu’au début de son tour suivant.\n**Trait d’orage.** Le kraken recourt à Trait de foudre.",
+ "attacks": [
+  {
+   "name": "Tentacule",
+   "bonus": 17,
+   "damage": "4d6+10",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/df148e4052_monstre-kraken.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

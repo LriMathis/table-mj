@@ -1,0 +1,42 @@
+{
+ "id": "oriq-recruiter",
+ "name": "Oriq Recruiter",
+ "type": "Humanoïde (occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 55,
+ "hpFormula": "10d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Perception passive 12",
+ "languages": "Commun plus deux langues",
+ "traits": "**Défaut de diriger la défense.** Le CA du recruteur comprend son modificateur Charisme alors qu'il ne porte pas d'armure ou qu'il dispose d'un bouclier.\n**Masque Oriq.** Le recruteur porte un masque Oriq. En portant le masque, le recruteur ne peut être ciblé par aucune magie de divination ou perçu par des capteurs magiques, et il ajoute son bonus de maîtrise double à tests de Charisme (Tromperie) (inclus ci-dessus).",
+ "actionsText": "**Multiattaques.** Le recruteur fait deux attaques de couteau psychique. Il peut utiliser Spellcasting à la place d'une des attaques.\n**Couteau psychique.** Attaque de sort au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 9 m, une créature. Touché : 21 (5d6 + 4) dégâts psychiques.\n**Détection orthographique.** Le recruteur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Déguisement, Image silencieuse\n- 1/jour : Suggestion\n- 2/jour : Charme-personne",
+ "attacks": [
+  {
+   "name": "Couteau psychique",
+   "bonus": 6,
+   "damage": "5d6+4",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/6804f8b9fd_monstre-oriq-recruiter.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "la mauvaise orientation de la défense",
+ "saves": "INT +5, SAG +4, CHA +6",
+ "skills": "Arcanes +5, Tromperie +8, Perspicacité +4, Persuasion +6",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé, effrayé"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "aeorian-reverser",
+ "name": "Aeorian Reverser",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 133,
+ "hpFormula": "14d10+56",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "comprend Draconic mais ne peut pas parler",
+ "traits": "**Résistance magique.** L'inverseur a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'inverseur fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, portée 1,50 m, une créature. Touché : 11 (1d12 + 5) dégâts perforants plus 6 (1d12) dégâts de force.\n**Griffes.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts tranchants plus 7 (2d6) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "1d12+5",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 8,
+   "damage": "1d6+5",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/4249263fa8_monstre-aeorian-reverser.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "SAG +5, CHA +2",
+ "skills": "Perception +5, Discrétion +6, Survie +5",
+ "immunities": "nécrotique, radiant",
+ "reactions": "**Réversifs.** Lorsqu'une créature que l'inverseur peut voir à l'intérieur de 9 m reprend points de vie, l'inverseur réduit le nombre de points de vie récupéré à 0, et l'inverseur traite 13 (3d8) dégâts de force à la créature."
+}

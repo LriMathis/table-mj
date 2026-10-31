@@ -1,0 +1,38 @@
+{
+ "id": "hellwasp-grub",
+ "name": "Hellwasp Grub",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 4,
+ "hpFormula": "1d6+1",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 5,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 8",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d4 + 2) dégâts perforants, et la cible doit réussir sur un DD 11 jet de sauvegarde de Constitution ou prendre 10 (3d6) dégâts de poison. Si le dégâts de poison réduit la cible à 0 points de vie, la cible est stable mais empoisonné pendant 1 heure, même après avoir récupéré points de vie, et est paralysé alors qu'empoisonné de cette façon.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/1a3e0a50f4_monstre-hellwasp-grub.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

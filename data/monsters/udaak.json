@@ -1,0 +1,48 @@
+{
+ "id": "udaak",
+ "name": "Udaak",
+ "type": "Fiélon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 18,
+ "hp": 165,
+ "hpFormula": "10d20+60",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 14,
+  "CON": 22,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Frais.** Si l'udaak se déplace au moins 6 m droit vers une cible et la frappe avec une attaque de claquement au même tour, la cible prend un 27 (6d8) dégâts contondants supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 21 jet de sauvegarde de Force ou être poussée jusqu'à 6 m loin de l'udaak et à terre.\n**Monstre de siège.** L'udaak inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** L'udaak fait trois attaques : une avec sa morsure et deux avec son clam.\n**Morceau.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une créature. Touché : 21 (2d12 + 8) dégâts perforants, et la cible est agrippé (évasion DD 21). Jusqu'à ce que ce grappin se termine, la cible est entravé, et l'udaak ne peut pas mordre une autre cible.\n**Clamer.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts contondants.\n**Avalez.** L'udaak fait une attaque de morsure contre une cible grande ou plus petite qu'il est en difficulté. Si l'attaque frappe, la cible est aussi avalée, et le grappin se termine. Une créature avalée est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors de l'udaak, et il prend 21 (6d6) dégâts d'acide au début de chacun des tours de l'udaak.\nSi l'udaak prend 30 dégâts ou plus sur un seul tour d'une créature à l'intérieur, l'udaak doit réussir sur un DD 21 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m de l'udaak. Si l'udaak meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 6 m de mouvement, sortant d'à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 13,
+   "damage": "2d12+8",
+   "type": "perforant"
+  },
+  {
+   "name": "Clamer",
+   "bonus": 13,
+   "damage": "3d8+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/646381fdf4_monstre-udaak.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +13, CON +11",
+ "vulnerabilities": "tonnerre",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "effrayé, agrippé, empoisonné, entravé"
+}

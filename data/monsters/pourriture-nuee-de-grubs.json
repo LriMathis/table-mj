@@ -1,0 +1,41 @@
+{
+ "id": "pourriture-nuee-de-grubs",
+ "name": "Swarm of Rot Grubs",
+ "type": "Nuée de taille très petite (Bête)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 8,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "1,50 m, escalade 1,50 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 7,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 2,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 6",
+ "languages": "—",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un asticot minuscule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Morceaux.** Attaque d'arme au corps à corps : +0 au toucher, allonge 0 m, une créature dans l'espace de l'essaim. Touché : 7 (2d6) dégâts perforants, et la cible doit réussir sur un DD 10 jet de sauvegarde de Constitution ou être empoisonné. À la fin de chaque tour de la cible empoisonné, la cible prend 3 (1d6) dégâts de poison. Chaque fois que la cible empoisonné prend dégâts de feu, la cible peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès. Si la cible empoisonné termine son tour avec 0 points de vie, elle meurt.",
+ "attacks": [
+  {
+   "name": "Morceaux",
+   "bonus": 0,
+   "damage": "2d6",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/66ce6b3ac7_monstre-pourriture-nuee-de-grubs.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Pourriture nuée de Grubs",
+ "vulnerabilities": "feu",
+ "resistances": "perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "dankwood-duergar",
+ "name": "Dankwood Duergar",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "grognon légal",
+ "cr": "2",
+ "xp": 450,
+ "ca": 18,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Résilience des duers.** Le duo de Dankwood a avantage sur jet de sauvegarde contre le poison, les sorts et les illusions, ainsi que de résister à être charmé ou paralysé.\n**Sensibilité à la lumière du soleil.** En plein soleil, le duergar de Dankwood a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Jabe verbal.** Le duergar déchaîne une série d'insultes laquées de subtils enchantements sur une créature qu'ils peuvent voir dans 18 m. Si la créature peut les entendre (il n'est pas nécessaire de les comprendre), elle doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou prendre 1d4 dégâts psychiques et avoir un désavantage sur le jet d'attaque suivant qu'elle effectue avant la fin de son prochain tour.\n**Fauconnier.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d6 + 6) dégâts contondants. Si le duergar est agrandi, augmentez leurs dégâts à 10 (2d6 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Fauconnier",
+   "bonus": 5,
+   "damage": "1d6+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f6fc059f51_monstre-dankwood-duergar.webp",
+ "notes": "",
+ "source": "Muk's Guide to Everything He Learned From Tasha (5e.tools, traduction automatique)",
+ "caNote": "Plaques postales",
+ "resistances": "poison"
+}

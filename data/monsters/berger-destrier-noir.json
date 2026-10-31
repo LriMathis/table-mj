@@ -1,0 +1,50 @@
+{
+ "id": "berger-destrier-noir",
+ "name": "Nightmare Shepherd",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 133,
+ "hpFormula": "14d10+56",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 17,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "abyssal, commun, infernal",
+ "traits": "**Aura des cauchemars.** Les créatures mortes dans 9 m du berger gagnent un bonus de +5 pour attaquer et jets de dégâts. Lorsque toute autre créature qui n'est pas morte ou une construction commence son tour dans 9 m du berger, cette créature doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou prendre 11 (2d10) dégâts psychiques.\n**Résistance magique.** Le berger a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** Le caractéristique d'incantation du berger est Charisme (Spel save DD 17). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Confusion, Dissipation de la magie, Immobilisation de personne, Suggestion",
+ "actionsText": "**Multiattaques.** Le berger fait deux attaques: une avec ses griffes et une avec son bâton.\n**Griffes.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants plus 16 (3d10) dégâts nécrotiques.\n**Personnel.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants, ou 13 (2d8 + 4) dégâts contondants si utilisé avec deux mains, plus 26 (4d12) dégâts psychiques.\n**Herd the Underworld (Recharge après un repos court ou long).** Le berger tire des âmes tordues du monde souterrain; Les ombres 1d6 (sans faible luminosité du soleil) apparaissent dans des espaces inoccupés au sein de 6 m du berger. Les ombres agissent juste après le berger sur la même initiative comptent et se battent jusqu'à ce qu'ils soient détruits. Ils disparaissent quand le berger meurt.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Personnel",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/04e52b247d_monstre-berger-destrier-noir.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Berger destrier noir",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, SAG +7",
+ "skills": "Arcanes +6, Tromperie +9, Perception +7, Persuasion +9",
+ "resistances": "froid, nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

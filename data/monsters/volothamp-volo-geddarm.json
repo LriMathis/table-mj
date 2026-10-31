@@ -1,0 +1,39 @@
+{
+ "id": "volothamp-volo-geddarm",
+ "name": "Volothamp \"Volo\" Geddarm",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 31,
+ "hpFormula": "7d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 15,
+  "SAG": 11,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, nain, elfique",
+ "traits": "**Détection orthographique.** Volo est un épeautre de niveau 1. Son caractéristique d'incantation est Intelligence (save spell DD 12, +4 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Amis, Réparation, Prestidigitation\n- Niveau 1 (2 emplacements) : Compréhension des langues, Détection de la magie, Déguisement",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9ce6c40f4e_monstre-volothamp-volo-geddarm.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "saves": "CON +2, SAG +2",
+ "skills": "Dressage +4, Arcanes +4, Tromperie +5, Histoire +4, Perspicacité +2, Investigation +4, Perception +2, Représentation +7, Persuasion +7, Escamotage +3, Survie +2"
+}

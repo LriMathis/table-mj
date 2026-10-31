@@ -1,0 +1,41 @@
+{
+ "id": "feu-tuteur",
+ "name": "Fire Guardian",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 102,
+ "hpFormula": "12d10+36",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "igné",
+ "traits": "**Formulaire feu.** Le gardien du feu peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer. Une créature qui touche le gardien du feu ou la frappe avec une attaque de mêlée alors qu'à l'intérieur de 1,50 m il prend 5 (1d10) dégâts de feu. En outre, le gardien du feu peut entrer dans l'espace d'une créature hostile et s'arrêter là. La première fois qu'il entre dans l'espace d'une créature sur un tour, cette créature prend 5 (1d10) dégâts de feu et prend feu; jusqu'à ce que quelqu'un prenne une action pour faire tourner le feu, la créature prend 5 (1d10) dégâts de feu au début de chacun de ses tours.\n**Éclairage.** Le gardien du feu apporte une lumière lumineuse dans un rayon de 9 m et une lumière faible dans un 9 m supplémentaire.\n**Susceptibilité à l'eau.** Pour chaque 1,50 m le gardien du feu se déplace dans l'eau, ou pour chaque gallon d'eau éclaboussée sur elle, il prend 1 dégâts de froid.",
+ "actionsText": "**Multiattaques.** Le gardien du feu fait deux attaques.\n**Toucher.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts de feu. Si la cible est une créature ou un objet inflammable, elle s'enflamme. Jusqu'à ce qu'une créature prenne une action pour éteindre le feu, la cible prend 5 (1d10) dégâts de feu au début de chacun de ses tours.",
+ "attacks": [
+  {
+   "name": "Toucher",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/c9837d634c_monstre-feu-tuteur.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "aka": "Feu tuteur",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu, poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient"
+}

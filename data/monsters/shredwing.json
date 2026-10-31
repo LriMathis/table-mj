@@ -1,0 +1,43 @@
+{
+ "id": "shredwing",
+ "name": "Shredwing",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 21,
+ "hp": 170,
+ "hpFormula": "20d8+80",
+ "vitesse": "0 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 11,
+  "DEX": 19,
+  "CON": 19,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 21",
+ "languages": "—",
+ "traits": "**Fusionné.** Après avoir utilisé la capacité de Burrow, si le déchiquetage est fusionné avec une autre créature, tout dégâts causé au déchiquetage est partagé uniformément entre elle et la créature fusionnée.",
+ "actionsText": "**Multiattaques.** Le déchiquetage fait trois attaques de Talon.\n**Talon.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants plus 7 (2d6) dégâts de poison.\n**Burrow (Recharge 5-6).** Sur un coup, la créature prend un 32 (5d12) dégâts tranchants supplémentaire que les ailes fusionnent avec elle. Pendant la fusion, la créature se déplace avec le déchiquetage, prend 19 (3d12) dégâts nécrotiques au début de chaque tour, et a l'état agrippé. Le déchiquetage peut se démerder à tout moment, laissant la créature et la laissant tomber si elle est aéroportée. La seule autre façon de mettre fin à la fusion est de tuer le déchiquetage.\nSi la créature fusionnée meurt pendant sa fusion, la déchiquetage prend définitivement le dessus sur son corps. Il gagne le dés de vie de la créature fusionnée, l'armure naturelle, les possessions et les langues. Si l'une des statistiques de la créature fusionnée est plus élevée que le déchiquetage, elle hérite aussi de ces statistiques. Une créature fusionnée en permanence par le déchiquetage ne peut être ressuscitée que par un sort Souhait ou similaire.",
+ "attacks": [
+  {
+   "name": "Talon",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/c24f9941dd_monstre-shredwing.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +8",
+ "skills": "Acrobaties +8, Athlétisme +4, Perception +11, Survie +7",
+ "resistances": "froid, feu, poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "conditionImmunities": "aveuglé, charmé, empoisonné",
+ "bonusActions": "**Agressifs.** Le déchiquetage peut aller jusqu'à sa vitesse vers une créature hostile qu'elle peut voir."
+}

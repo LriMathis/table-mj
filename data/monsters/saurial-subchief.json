@@ -1,0 +1,41 @@
+{
+ "id": "saurial-subchief",
+ "name": "Lizardfolk Subchief",
+ "type": "Humanoïde (homme-lézard)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "senses": "Perception passive 15",
+ "languages": "draconique",
+ "traits": "**Maintenez votre souffle.** Le sous-chef peut retenir son souffle pendant 15 minutes.\n**Détection orthographique.** Le sous-chef est un orthographe de niveau 5. Son caractéristique d'incantation est Sagesse (save spell DD 13, +5 au toucher avec attaques de sort). Il a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Lumière, Flamme sacrée, Stabilisation, Thaumaturgie\n- Niveau 1 (4 emplacements) : Injonction, Éclair traçant, Purification de nourriture et d'eau\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Restauration partielle, Silence\n- Niveau 3 (2 emplacements) : Malédiction, Dissipation de la magie",
+ "actionsText": "**Dague de dents.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Jaws de Semuanya (Recharge 5-6).** Le sous-chef invoque la magie primaire de Semuanya, en invoquant une mache spectrale autour d'une cible qu'il peut voir à l'intérieur de 18 m de lui. La cible doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 22 (5d8) dégâts perforants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature qui échoue ce jet de sauvegarde est également effrayé jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Dague de dents",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ec30359749_monstre-saurial-subchief.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Saurial Subchief",
+ "caNote": "armure naturelle",
+ "saves": "SAG +5",
+ "skills": "Athlétisme +4, Perception +5, Survie +5"
+}

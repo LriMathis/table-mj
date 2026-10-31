@@ -1,0 +1,42 @@
+{
+ "id": "hollyphant",
+ "name": "Hollyphant",
+ "type": "Céleste",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 36,
+ "hpFormula": "8d6+8",
+ "vitesse": "6 m, vol 36 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 16,
+  "SAG": 19,
+  "CHA": 16
+ },
+ "senses": "Perception passive 14",
+ "languages": "céleste, télépathie 36 m",
+ "traits": "**Aura d'invulnérabilité.** Une aura invisible forme une sphère 3 m -radius autour de l'hollyphant aussi longtemps qu'elle vit. Tout sort de de niveau 5 ou de coulée inférieure de l'extérieur de la barrière ne peut pas affecter les créatures ou les objets à l'intérieur, même si le sort est lancé en utilisant un niveau supérieur d'emplacement de sort. Un tel sort peut cibler des créatures et des objets à l'intérieur de la barrière, mais le sort n'a aucun effet sur eux. De même, la zone située à l'intérieur de la barrière est exclue des zones touchées par de tels sorts. Le hollyphant peut utiliser une action pour supprimer ce trait jusqu'à ce que son concentration se termine (comme si concentrating sur un sort).\n**Armes magiques.** Les attaques d'armes du Hollyphant sont magiques.\n**Découpe intérieure.** Le caractéristique d'incantation inné du hollyphant est Sagesse (spell save DD 15). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumière\n- 1/jour chacun : Bannissement, Guérison, Rappel à la vie, Changement de forme (dans une Mammouth dorée avec des ailes à plumes et une vitesse de vol de 36 m), Téléportation (sans risque d'erreur)\n- 2/jour chacun : Bénédiction, Soins, Protection contre le mal et le bien",
+ "actionsText": "**Tustes.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts perforants.\n**Trompette (3/jour).** Le hollyphant souffle de l'air à travers son tronc, créant un son de trompette qui peut être entendu à une gamme de 180 m. La trompette crée également un cône d'énergie 9 m qui a l'un des effets suivants, choisi par le hollyphant:\n**Trompette de Balling.** Chaque créature dans le cône doit faire un DD 14 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 17 (5d6) dégâts de tonnerre et est assourdi pendant 1 minute. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas assourdi. Les objets non magiques dans le cône qui ne sont pas retenus ou portés prennent 35 (10d6) dégâts de tonnerre.\n**Trompette de Sparkles.** Les créatures dans le cône doivent faire un DD 14 jet de sauvegarde de Constitution, en prenant 22 (4d8 + 4) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Les créatures maléfiques ont un désavantage sur le jet de sauvegarde. Les bonnes créatures dans le cône ne prennent aucun dégâts.",
+ "attacks": [
+  {
+   "name": "Tustes",
+   "bonus": 3,
+   "damage": "1d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/756b2e6368_monstre-hollyphant.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +3, CON +4, CHA +6",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

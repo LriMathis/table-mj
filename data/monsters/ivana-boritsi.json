@@ -1,0 +1,43 @@
+{
+ "id": "ivana-boritsi",
+ "name": "Ivana Boritsi",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun",
+ "traits": "**Restauration de lord noir.** Si Ivana meurt, elle ressuscite avec tout son points de vie en 1d10 semaines quelque part à Borca.\n**Résistance légendaire (2/jour, ou 3/jour dans le domaine).** Si Ivana échoue à un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Ivana fait deux attaques Toxic Touch.\n**Touche toxique.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts de poison. Un humanoïde réduit à 0 points de vie par ce dégâts augmente 24 heures plus tard comme une lumière de la vigne sous le contrôle d'Ivana à moins que l'humanoïde soit rétabli à la vie ou son corps est détruit.\n**Parfum étouffant (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 15, chaque créature dans une Emanation 9 m originaire d'Ivana. Échec : 13 (3d8) dégâts de poison, et la cible a l'état à terre. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Touche toxique",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/25fb250f1c_monstre-ivana-boritsi.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "DEX +6, CON +5",
+ "skills": "Tromperie +8, Nature +7, Perception +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Essence d'arbres.** Si au sein de 1,50 m d'une grande ou plus grande plante inanimée, Ivana se téléporte dans un espace inoccupé au sein de 1,50 m d'une seconde grande ou plus grande plante inanimée qui se trouve au sein de 18 m de la plante précédente.\n**Charm (Recharge 5-6).** Ivana lance Charme-personne, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15), et la durée est de 24 heures.\n- 5/recharge : Charme-personne",
+ "legendary": "**Actions légendaires (2/round).** Aussitôt après le tour d'une autre créature, ivana boritsi peut entreprendre l'une des actions ci-après.\n**Réplique.** Ivana fait une attaque Toxic Touch.\n**Vague à toxines.** Jet de sauvegarde de Dextérité : DD 15, chaque créature dans un cône 4,50 m. Échec : La cible a l'état empoisonné jusqu'à la fin de son prochain tour. Alors qu'empoisonné, la cible soustrait 1d6 de son jets de dégâts. Échec ou réussite : Ivana ne peut pas reprendre cette action avant le début de son prochain tour."
+}

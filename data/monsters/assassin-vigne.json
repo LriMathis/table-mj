@@ -1,0 +1,41 @@
+{
+ "id": "assassin-vigne",
+ "name": "Assassin Vine",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "1,50 m, escalade 1,50 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Alors que la vigne assassine reste immobile, elle est indistinguable d'une plante normale.",
+ "actionsText": "**Constriction.** Attaque d'arme au corps à corps : +6 au toucher, allonge 6 m, une créature. Touché : La cible prend 11 (2d6 + 4) dégâts contondants, et c'est agrippé (évasion DD 14). Jusqu'à ce que ce grappin se termine, la cible est entravé, et il prend 21 (6d6) dégâts de poison au début de chacun de ses tours. La vigne ne peut constricter qu'une cible à la fois.\n**Vignes enveloppantes.** La vigne assassine peut animer des vignes et des racines normales sur le sol dans un carré 4,50 m à l'intérieur de 9 m. Ces plantes transforment le sol dans cette zone en 3. Une créature dans cette zone lorsque l'effet commence doit réussir sur un DD 13 jet de sauvegarde de Force ou être entravé par enchevêtrement de vignes et de racines. Une créature entravé par les plantes peut utiliser son action pour faire un DD 13 test de Force (Athlétisme), se libérant sur un contrôle réussi. L'effet se termine après 1 minute ou lorsque la vigne assassine meurt ou utilise à nouveau des Vins enchevêtrés.",
+ "attacks": [
+  {
+   "name": "Constriction",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "contondant + poison"
+  }
+ ],
+ "portrait": "/data/images/a8081bed04_monstre-assassin-vigne.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Assassin vigne",
+ "caNote": "armure naturelle",
+ "resistances": "froid, feu",
+ "conditionImmunities": "aveuglé, assourdi, épuisement, à terre"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "incarnation-de-vibrance",
+ "name": "Incarnation of Vibrance",
+ "type": "Fée",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 14,
+ "hp": 230,
+ "hpFormula": "20d12+100",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 17,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 21
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "Sylvan; télépathie 36 m.",
+ "traits": "**Résistance magique.** L'incarnation a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'incarnation fait deux attaques de vigne et utilise radiant Blast. Il peut remplacer une attaque de vigne par une utilisation de Spellcasting pour lancer Cécité/Surdité si disponible.\n**Vin.** Jet d'attaque au corps à corps : +9, allonge 6 m. Touché : 18 (3d8 + 5) dégâts contondants. Si la cible est la taille de l'incarnation ou plus petite, elle a l'état agrippé (évasion DD 15) de l'une des deux vignes.\n**Blast radiant.** Jet de sauvegarde de Constitution : DD 17, chaque créature du choix de l'incarnation dans une Emanation 6 m provenant de l'incarnation. Échec : La créature prend 14 (2d8 + 5) dégâts radiants. Réussite : Demi-dégâts.\n**Détection orthographique.** L'incarnation lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Charisme comme caractéristique d'incantation :\n- À volonté : Lumière du jour, Druidisme, Croissance végétale\n- 1/jour : Cécité/Surdité",
+ "attacks": [
+  {
+   "name": "Vin",
+   "bonus": 9,
+   "damage": "3d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/40df664668_monstre-incarnation-de-vibrance.webp",
+ "notes": "",
+ "source": "Lorwyn: First Light (5e.tools, traduction automatique)",
+ "aka": "Incarnation de Vibrance",
+ "saves": "CON +9, CHA +9",
+ "resistances": "radiant",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé",
+ "bonusActions": "**Forme-filtre.** L'incarnation change sa taille en Medium, Large, ou Énorme.\n**Téléportation.** L'incarnation téléporte jusqu'à 18 m dans un espace inoccupé qu'elle peut voir. L'incarnation ne peut pas se téléporter alors qu'elle a une créature agrippé."
+}

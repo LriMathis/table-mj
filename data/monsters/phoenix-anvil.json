@@ -1,0 +1,39 @@
+{
+ "id": "phoenix-anvil",
+ "name": "Phoenix Anvil",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 18,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, elfique",
+ "traits": "**Affichage divin (1/jour).** En action bonus, Phoenix fait éclater son bouclier avec la lumière divine. Chaque créature de son choix au sein de 9 m de lui doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être aveuglé pendant 1 minute. Une créature peut répéter l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même avec un succès.\n**Détection orthographique.** Phoenix est un épeautre de niveau 4. Son caractéristique d'incantation est Sagesse (save spell DD 13, +5 au toucher avec attaques de sort). Il a préparé les sorts clercs suivants:\n- Sorts mineurs (à volonté) : Assistance, Lumière, Réparation, Flamme sacrée\n- Niveau 1 (4 emplacements) : Fléau, Soins, Éclair traçant\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Arme spirituelle",
+ "actionsText": "**Multiattaques.** Phoenix fait deux attaques à la mêlée.\n**Marteau de guerre.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts contondants, et la cible doit réussir sur un DD 12 jet de sauvegarde de Force ou être poussée 1,50 m.",
+ "attacks": [
+  {
+   "name": "Marteau de guerre",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3046d4e2d1_monstre-phoenix-anvil.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne, Bouclier",
+ "skills": "Athlétisme +4, Représentation +3, Persuasion +3, Religion +3"
+}

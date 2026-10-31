@@ -1,0 +1,39 @@
+{
+ "id": "phaerimm-hatchling",
+ "name": "Phaerimm Hatchling",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 13,
+ "hpFormula": "3d6+3",
+ "vitesse": "3 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 15",
+ "languages": "télépathie 9 m understands Common and Deep Speech but can't speak",
+ "traits": "**Résistance magique.** Le phaerimm a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le Phaerimm fait deux attaques Stinger.\n**Aiguille.** Jet d'attaque au corps à corps : +3, allonge 1,50 m. Touché : 3 (1d4 + 1) dégâts perforants.\n**Détection orthographique.** Le phaerimm lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Détection des pensées, Main de mage",
+ "attacks": [
+  {
+   "name": "Aiguille",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6b52164e68_monstre-phaerimm-hatchling.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "skills": "Perception +5",
+ "conditionImmunities": "charmé"
+}

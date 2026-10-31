@@ -1,0 +1,49 @@
+{
+ "id": "hertilod",
+ "name": "Hertilod",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 14,
+ "hp": 241,
+ "hpFormula": "21d12+105",
+ "vitesse": "15 m, escalade 15 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 18,
+  "CON": 20,
+  "INT": 3,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 9 m, Perception des vibrations 18 m, Perception passive 18",
+ "languages": "—",
+ "traits": "**Résistances légendaires (3/jour).** Si l'hertilode échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** L'hertilode a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Susceptibilité aux chocs.** Si l'hertilode prend dégâts de foudre, sa vitesse est réduite de moitié jusqu'à la fin de son prochain tour, et il doit réussir sur un DD 15 jet de sauvegarde de Constitution ou immédiatement régurgiter toutes les créatures avalées, qui atterrissent dans un espace dans 3 m de l'hertilode et a l'état à terre.\n**Escalade des araignées.** L'hertilode peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** L'hertilode fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 15 (2d8 + 6) dégâts perforants plus 13 (2d12) dégâts de poison. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 20 jet de sauvegarde de Force ou être avalée par l'hertilo. Une créature avalée a les conditions aveuglé et entravé, et elle a 3 contre les attaques et autres effets en dehors de l'hertilode. Au début de chacun des tours de l'hertilode, chaque créature avalée prend 13 (2d12) dégâts de poison de la sécrétion toxique dans le goéland de l'hertilode.\nLe goéland de l'hertilode peut contenir deux créatures à la fois. Si l'hertilode prend 40 dégâts ou plus sur un seul tour d'une créature avalée, l'hertilode doit réussir sur un DD 15 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui atterrissent dans un espace à l'intérieur de 3 m de l'hertilode et a l'état à terre. Si l'hertilode meurt, une créature avalée n'est plus entravé et peut s'échapper du corps en utilisant 3 m de mouvement, sortant avec l'état à terre.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d10 + 6) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d8+6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "2d10+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/826ee9d8c3_monstre-hertilod.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "saves": "FOR +12, DEX +10",
+ "skills": "Perception +8",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, hertilod peut entreprendre l'une des actions ci-après.\n**Sprint.** L'hertilode se déplace à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités.\n**Aliments pour animaux (coûts 2 actions).** L'hertilode draine la vie des créatures dans son goéland pour se renforcer. Chaque créature dans le goéland de l'hertilode prend 10 (3d6) dégâts nécrotiques, et l'hertilode retrouve un nombre de points de vie égal aux dégâts."
+}

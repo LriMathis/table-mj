@@ -1,0 +1,42 @@
+{
+ "id": "dragon-vert-venerable",
+ "name": "Dragon vert vénérable",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 21,
+ "hp": 402,
+ "hpFormula": "23d20+161",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 12,
+  "CON": 25,
+  "INT": 20,
+  "SAG": 17,
+  "CHA": 22
+ },
+ "saves": "DEX +8, SAG +10",
+ "skills": "Discrétion +8, Perception +17, Persuasion +13, Tromperie +13",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 27",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer sous l’eau comme à l’air libre.\n**Résistance légendaire (4/jour, ou 5/jour dans son antre).** Si le dragon rate un jet de sauvegarde, il peut décider de le réussir tout de même.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée. Il peut remplacer l’une de ces attaques par une utilisation d’Incantation pour lancer *épine mentale* (au 5e niveau).\n**Saignée.** Corps à corps : +15, allonge 4,50 m. Touché : 17 (2d8 + 8) dégâts tranchants plus 10 (3d6) dégâts de poison.\n**Incantation.** Le dragon lance l’un des sorts suivants sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 21) :\n- À volonté : *détection de la magie*, *épine mentale* (au 5e niveau)\n- 1/jour chacun : *modification de mémoire*, *quête*\n**Souffle empoisonné (recharge 5–6).** JS Constitution : DD 22, chaque créature dans un Cône de 27 m. Échec : 77 (22d6) dégâts de poison. Réussite : demi-dégâts.",
+ "legendary": "**Utilisations d'action Légendaire : 3 (4 dans son antre).** Aussitôt après le tour d'une autre créature, le dragon peut dépenser une utilisation pour entreprendre l'une des actions ci-après. Le dragon récupère toutes ses utilisations dépensées au début de chacun de ses tours.\n**Assaut incisif.** Le dragon se déplace à concurrence de la moitié de sa Vitesse et effectue une attaque de Saignée.\n**Invasion mentale.** Le dragon recourt à Incantation pour lancer *épine mentale* (au 5e niveau).\n**Miasmes nocifs.** JS Constitution : DD 21, chaque créature dans une Sphère de 9 m de rayon centrée sur un point que le dragon voit dans un rayon de 27 m. Échec : 17 (5d6) dégâts de poison, et la cible subit un malus de −2 à la CA jusqu’à la fin de son tour suivant. Échec ou réussite : le dragon ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 15,
+   "damage": "2d8+8+3d6",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/f38bfe03d2_monstre-dragon-vert-venerable.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 95"
+}

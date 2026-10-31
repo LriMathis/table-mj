@@ -1,0 +1,37 @@
+{
+ "id": "lucan-croupier",
+ "name": "Lucan de Morvaine, le Croupier",
+ "type": "Humanoïde (humain) ✎",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 20,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "attacks": [
+  {
+   "name": "Lame du Croupier (36 m)",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "force"
+  },
+  {
+   "name": "Canne-épée",
+   "bonus": 7,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Trois lames du Croupier.\n**Incantation (Int, DD 17, +9).** À volonté : *main du mage*, *image silencieuse*. 2/jour chacun : *contresort*, *porte dimensionnelle*, *immobilisation de monstre*, *mur de force*, *bannissement*. 1/jour chacun : *globe d'invulnérabilité*, *image projetée*.\n**Résistance légendaire (3/jour).**\n**✎ Je compte les cartes.** Il ne peut pas être surpris, et l'invisibilité ne donne pas l'avantage contre lui.\n**Actions légendaires (3/round).** *Couper* (1) : il se téléporte de 9 m. *Distribuer* (1) : une lame du Croupier. *Forcer la main* (2) : une créature à 18 m réussit un JS de Sagesse DD 17 ou utilise sa réaction pour se déplacer ou attaquer comme il l'ordonne.\n**Porteur du Néant.** Il a toujours froid ; son reflet a un instant de retard.\n**Parole.** Il préfère parler que combattre. Voir les fins.",
+ "portrait": "/data/images/29be003705_monstre-mage.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

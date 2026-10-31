@@ -1,0 +1,47 @@
+{
+ "id": "gulthias-fletrissement",
+ "name": "Gulthias Blight",
+ "type": "Plante",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 20,
+ "hp": 264,
+ "hpFormula": "16d20+96",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 10,
+  "SAG": 18,
+  "CHA": 12
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 19",
+ "languages": "commun, druidique",
+ "traits": "**Graines légères.** Lorsqu'il termine un repos long, la brûlure expulse les graines de 1d6 dans des espaces inoccupés sur le sol à l'intérieur de 9 m. Après 24 heures, les graines deviennent des créatures sous le contrôle de la brûlure. Rouleau 1d8 pour chaque graine pour déterminer la créature qu'elle devient : sur 1-4, Nielleux ; sur 5-6, Résinieux ; sur 7-8, Lierreux.",
+ "actionsText": "**Multiattaques.** La brûlure fait deux attaques, en utilisant Slam ou Thorn Volley dans n'importe quelle combinaison. Il utilise également la racine de drainage de la vie.\n**Clamer.** Jet d'attaque au corps à corps : +12, allonge 3 m. Touché : 25 (4d8 + 7) dégâts contondants.\n**Volley des épines.** Jet d'attaque à distance : +12, portée 18/54 m. Touché : 20 (3d8 + 7) dégâts perforants.\n**Racine drainante.** Jet de sauvegarde de Constitution : DD 20, une créature énorme ou plus petite que la brûlure peut voir dans 9 m. Échec : 14 (2d6 + 7) dégâts nécrotiques, et la cible a l'état agrippé (évasion DD 17) de l'une des six racines. Jusqu'à la fin du grappin, la cible a l'état entravé et prend 14 (4d6) dégâts nécrotiques au début de chacun de ses tours. Le maximum de points de vie de la cible diminue d'un montant égal au dégâts nécrotiques pris, et la brûlure reprend points de vie égal à ce montant.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 12,
+   "damage": "4d8+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Volley des épines",
+   "bonus": 12,
+   "damage": "3d8+7",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/383791f307_monstre-gulthias-fletrissement.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Gulthias flétrissement",
+ "skills": "Perception +9",
+ "resistances": "feu, nécrotique",
+ "conditionImmunities": "assourdi"
+}

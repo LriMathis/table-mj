@@ -1,0 +1,41 @@
+{
+ "id": "rose-noire-bearer",
+ "name": "Black Rose Bearer",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 11,
+ "hp": 110,
+ "hpFormula": "13d8+52",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 6,
+  "CON": 18,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "**Berserk.** Chaque fois que le porteur prend des dégâts ou fait un Force ou jet de sauvegarde de Dextérité, roulez un d6. Sur un 5 ou 6, le porteur devient berker. Sur chacun de ses virages tandis que berserk, le porteur a avantage sur melee jets d'attaque, il peut Foncer comme un action bonus, et il doit attaquer la créature la plus proche qu'il puisse voir. Si aucune créature n'est assez proche pour se déplacer et attaquer, le porteur attaque un objet, avec la préférence pour un objet plus petit qu'elle-même. Une fois que le porteur devient berserque, il reste berserque jusqu'à ce qu'il soit détruit ou que son créateur lui donne une rose noire vierge.\n**Fortitude non-morte.** Si le dégâts réduit le porteur à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 plus le dégâts pris, à moins que le dégâts soit radieux ou d'un coup critique. Sur une sauvegarde réussie, le porteur tombe à 1 points de vie.",
+ "actionsText": "**Multiattaques.** Le porteur fait deux attaques de Slam.\n**Clamer.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts contondants plus 11 (2d10) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/dd84d4027f_monstre-rose-noire-bearer.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Rose noire Bearer",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné"
+}

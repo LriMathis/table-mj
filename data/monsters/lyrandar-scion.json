@@ -1,0 +1,42 @@
+{
+ "id": "lyrandar-scion",
+ "name": "Lyrandar Scion",
+ "type": "Humanoïde (khoravar)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 60,
+ "hpFormula": "11d8+11",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, elfique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le scion fait deux attaques Thunderbolt et utilise Spellcasting.\n**Bouton de tonnerre.** Jet d'attaque au corps à corps ou à distance : +6, allonge 1,50 m ou portée 9 m. Touché : 11 (2d6 + 4) dégâts de foudre plus 9 (2d8) dégâts de tonnerre. Critical Touché : La créature a également l'état assourdi pendant 1 minute.\n**Détection orthographique.** La scion lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Élémentalisme, Bourrasque, Vague tonnante",
+ "attacks": [
+  {
+   "name": "Bouton de tonnerre",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "foudre + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/db1ab4b190_monstre-lyrandar-scion.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "saves": "FOR +3, DEX +5",
+ "skills": "Acrobaties +5, Perception +4",
+ "resistances": "foudre, tonnerre",
+ "bonusActions": "**Saut (2/jour).** Le scion lance Saut, ne nécessitant aucun composant de sort et utilisant le même caractéristique d'incantation que Spellcasting.\n- 2/jour : Saut",
+ "reactions": "**Chute de plumes (2/jour).** Le scion lance Feuille morte en réponse au déclencheur de ce sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 2/jour : Feuille morte"
+}

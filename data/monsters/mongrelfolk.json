@@ -1,0 +1,51 @@
+{
+ "id": "mongrelfolk",
+ "name": "Mongrelfolk",
+ "type": "Humanoïde (Mongrelfolk)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 9,
+  "CON": 15,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "**Caractéristiques extraordinaires.** Le mongrelfolk possède l'une des caractéristiques extraordinaires suivantes, déterminées au hasard en roulant un d20 ou choisies par le MD :\n1–3: Amphibie. Le mongrelfolk peut respirer l'air et l'eau.\n4–9: La vision obscure. Le mongrelfolk a une vision sombre sur une gamme de 18 m.\n10: Vol. Le mongrelfolk a des ailes en cuir et une vitesse de vol de 12 m.\n11–15: L'ouïe et l'odeur. Le mongrelfolk a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou l'odeur.\n16–17: Escalade d'araignée. Le mongrelfolk peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n18–19: Leap debout. Le long saut du mongrelfolk est jusqu'à 6 m et son saut haut jusqu'à 3 m, avec ou sans démarrage.\n20: Deux têtes. Le mongrelfolk a un avantage sur tests de Sagesse (Perception) et sur jet de sauvegarde contre aveuglé, charmé, assourdi, effrayé, étourdi, inconscient.\n**Mimétisme.** Le mongrelfolk peut imiter tous les sons qu'il a entendus, y compris les voix. Une créature qui entend les sons peut dire qu'ils sont des imitations avec un succès DD 12 test de Sagesse (Perspicacité).",
+ "actionsText": "**Multiattaques.** Le mongrelfolk fait deux attaques : une avec sa morsure et une avec sa griffe ou sa dague.\n**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts tranchants.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6d78806b4c_monstre-mongrelfolk.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +2, Perception +2, Discrétion +3"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "witchlight-main-moyenne",
+ "name": "Witchlight Hand (Medium)",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Perception passive 11",
+ "languages": "Commun plus une langue",
+ "traits": "**Expertise secrète.** La main possède l'une de ces compétences supplémentaires: Acrobaties acrobaties 6, Dressage animal_handling 5, Arcanes arcana 5, Athlétisme athlétisme 4, Médecine médecine 5, ou performance Représentation 5.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Poussière de Pixie (1/jour).** La main saupoudre une pincée de poussière de pixie sur elle-même ou une autre créature qu'elle peut voir dans 1,50 m de lui. Le destinataire gagne une vitesse de vol de 9 m pendant 1 minute. Si la créature est aéroportée quand cet effet se termine, elle tombe en toute sécurité au sol, ne prend aucun dégâts et atterrit sur ses pieds.\n**Détection orthographique.** La main lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation :\n- À volonté : Lumières dansantes, Message, Prestidigitation",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/87451b1bdf_monstre-witchlight-main-moyenne.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Witchlight main (moyenne)",
+ "skills": "Escamotage +6"
+}

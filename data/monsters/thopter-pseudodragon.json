@@ -1,0 +1,46 @@
+{
+ "id": "thopter-pseudodragon",
+ "name": "Thopter (Pseudodragon)",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 7,
+ "hpFormula": "2d4+2",
+ "vitesse": "4,50 m, vol 18 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 15,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 13",
+ "languages": "comprend le commun et le draconien mais ne peut pas parler",
+ "traits": "**Sensées de Keen.** Le thoptère a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue, de l'ouïe ou de l'odeur.\n**Résistance magique.** Le thoptère a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Télépathie limitée.** Le thoptère peut communiquer par magie des idées, des émotions et des images simples télépathiquement avec toute créature de 30 m qui peut comprendre un langage.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Sting.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d4 + 2) dégâts perforants, et la cible doit réussir sur un DD 11 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 heure. Si le jet de sauvegarde échoue de 5 ou plus, la cible tombe d'inconscient pour la même durée, ou jusqu'à ce qu'il prenne des dégâts ou qu'une autre créature utilise une action pour le secouer éveillé.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Sting",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ddd1ff4629_monstre-thopter-pseudodragon.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

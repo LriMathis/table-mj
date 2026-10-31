@@ -1,0 +1,54 @@
+{
+ "id": "serpent-de-mer-jeune",
+ "name": "Young Sea Serpent",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 123,
+ "hpFormula": "13d12+39",
+ "vitesse": "3 m, nage 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Le serpent marin peut respirer de l'air et de l'eau.\n**Monstre de siège.** Le serpent de mer inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le serpent de mer fait une attaque Bite et une attaque Constrict ou Tail.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants plus 5 (1d10) dégâts de froid.\n**Constriction.** Attaque d'arme au corps à corps : +7 au toucher, allonge 6 m, une créature. Touché : 22 (4d8 + 4) dégâts contondants. Si la cible est grande ou plus petite, elle est agrippé (évasion DD 15). Jusqu'à ce que ce grappin se termine, la cible est entravé, et le serpent de mer ne peut pas constricter une autre cible.\n**Queue.** Attaque d'arme au corps à corps : +7 au toucher, allonge 4,50 m, une cible. Touché : 9 (1d10 + 4) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou être poussée jusqu'à 6 m et à terre.\n**Respiration de l'anneau (Recharge 5-6).** Le serpent de mer expire un cône 9 m de froid. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Constitution, en prenant 38 (7d10) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 7,
+   "damage": "4d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2a988efb23_monstre-serpent-de-mer-jeune.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Serpent de mer jeune",
+ "caNote": "armure naturelle",
+ "saves": "FOR +7, CON +6",
+ "skills": "Perception +4, Discrétion +4",
+ "immunities": "froid"
+}

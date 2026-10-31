@@ -1,0 +1,46 @@
+{
+ "id": "chef-de-guerre-orc",
+ "name": "Chef de guerre orc",
+ "type": "Humanoïde (orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "caNote": "cotte de mailles",
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 16
+ },
+ "saves": "FOR +6, CON +6, SAG +2",
+ "skills": "Intimidation +5",
+ "senses": "vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, orc",
+ "traits": "**Agressif.** Par une action bonus, l'orc peut se déplacer d'une distance maximale égale à sa vitesse vers une créature hostile dans son champ de vision.\n**Fureur de Gruumsh.** L'orc inflige 4 (1d8) dégâts supplémentaires quand il touche avec une attaque d'arme (déjà compris dans l'attaque).",
+ "actionsText": "**Attaques multiples.** L'orc effectue deux attaques avec sa grande hache ou sa lance.\n**Grande hache.** *Attaque d'arme au corps à corps :* +6 pour toucher, allonge 1,50 m, une cible. *Touché :* 15 (1d12+4 plus 1d8) dégâts tranchants.\n**Lance.** *Attaque d'arme au corps à corps ou à distance :* +6 pour toucher, allonge 1,50 m ou portée 6/18 m, une cible. *Touché :* 12 (1d6+4 plus 1d8) dégâts perforants ou 13 (2d8+4) dégâts perforants si l'orc l'utilise à deux mains au corps à corps.\n**Cri de guerre (1/jour).** Chaque créature choisie par le chef de guerre, se situant dans un rayon de 9 mètres autour de lui, à même de l'entendre et qui n'est pas encore affectée par le cri de guerre est avantagée lors de ses jets d'attaque jusqu'au début du prochain tour du chef de guerre. Ce dernier peut ensuite faire une attaque par une action bonus.",
+ "portrait": "/data/images/5ae92f5da5_monstre-chef-de-guerre-orc.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 246 · image : Manuel des monstres p. 245",
+ "attacks": [
+  {
+   "name": "Grande hache",
+   "bonus": 6,
+   "damage": "1d12+4+1d8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Lance",
+   "bonus": 6,
+   "damage": "1d6+4+1d8",
+   "type": "perforant"
+  }
+ ]
+}

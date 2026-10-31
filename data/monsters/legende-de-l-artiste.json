@@ -1,0 +1,41 @@
+{
+ "id": "legende-de-l-artiste",
+ "name": "Performer Legend",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 20,
+ "hp": 162,
+ "hpFormula": "25d8+50",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 20,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 20
+ },
+ "senses": "Perception passive 17",
+ "languages": "Commun plus deux autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'interprète fait trois attaques de Baton Bejeweled.\n**Baton astreint.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 10 (2d4 + 5) dégâts contondants plus 10 (3d6) dégâts psychiques.\n**Chanson majestueuse.** Jet de sauvegarde de Sagesse : DD 17, chaque créature dans un 6 m -radius Sphere centré sur un point à l'intérieur de 36 m. Échec : 22 (4d8 + 4) dégâts psychiques, et la cible a l'état charmé ou effrayé (le choix du performeur) jusqu'à la fin du prochain tour de l'interprète. Réussite : Demi-dégâts seulement.\n**Détection orthographique.** L'interprète lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Main de mage, Illusion mineure, Prestidigitation\n- 1/jour chacun : Image majeure, Projection d'image",
+ "attacks": [
+  {
+   "name": "Baton astreint",
+   "bonus": 9,
+   "damage": "2d4+5",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/8bdb7e1cc3_monstre-legende-de-l-artiste.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Légende de l'artiste",
+ "saves": "DEX +9, INT +6, SAG +7, CHA +9",
+ "skills": "Acrobaties +13, Athlétisme +5, Perception +7, Représentation +13, Discrétion +9",
+ "reactions": "**Charm Warding.** Déclencheur : Une créature frappe l'interprète avec un jet d'attaque. Réponse : Jet de sauvegarde de Sagesse : DD 17, la créature qui déclenche. Échec : Le jet d'attaque manque à l'interprète, et la cible a l'état charmé jusqu'à la fin du prochain tour de l'interprète."
+}

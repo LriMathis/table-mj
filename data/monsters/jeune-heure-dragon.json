@@ -1,0 +1,41 @@
+{
+ "id": "jeune-heure-dragon",
+ "name": "Young Time Dragon",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 18,
+ "hp": 210,
+ "hpFormula": "20d10+100",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 20,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 20",
+ "languages": "Draconique plus quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le dragon fait trois attaques Rend.\n**Rend.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants plus 7 (2d6) dégâts de force.\n**Temps Respiration (Recharge 5-6).** Le dragon exhale une vague de lumière chatoyante dans un cône 9 m. Des objets non magiques et de la végétation dans cette zone qui ne sont pas portés ou transportés s'écroulent à la poussière. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 31 (7d8) dégâts de force et est magiquement affaiblie car elle est déssynchronisée à partir du flux temporel. Alors que la créature est dans cet état, jets d'attaque contre elle ont avantage. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement. Une créature affaiblie peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même après qu'il ait réussi sur deux de ces sauvegardes.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/57d935fbdf_monstre-jeune-heure-dragon.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Jeune heure dragon",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +9, SAG +6, CHA +7",
+ "skills": "Arcanes +9, Histoire +13, Perception +10, Discrétion +9"
+}

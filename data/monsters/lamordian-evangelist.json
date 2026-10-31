@@ -1,0 +1,40 @@
+{
+ "id": "lamordian-evangelist",
+ "name": "Lamordian Evangelist",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "None",
+ "xp": 0,
+ "ca": 11,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 9,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 9,
+  "CHA": 13
+ },
+ "senses": "Perception passive 9",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Quarter staff.** Jet d'attaque au corps à corps : +3, allonge 1,50 m. Touché : 4 (1d6 + 1) dégâts contondants, ou 5 (1d8 + 1) dégâts contondants si utilisé avec les deux mains.\n**Loop de rétroaction.** Jet de sauvegarde de Constitution : DD 11, une créature dans 18 m. Échec : 4 (1d8) dégâts de tonnerre, et la cible a l'état assourdi jusqu'à la fin de son prochain tour.\n**Détection orthographique.** L'évangéliste lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation :\n- À volonté : Assistance\n- 2/jour : Soins",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3b49de2675_monstre-lamordian-evangelist.webp",
+ "notes": "",
+ "source": "Project_Lamordia (5e.tools, traduction automatique)",
+ "caNote": "Bouclier (sous forme de plaquette métallique)",
+ "saves": "CHA +3",
+ "skills": "Persuasion +3, Religion +2"
+}

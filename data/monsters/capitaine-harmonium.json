@@ -1,0 +1,42 @@
+{
+ "id": "capitaine-harmonium",
+ "name": "Harmonium Captain",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 20,
+ "hp": 110,
+ "hpFormula": "17d8+34",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "Commun plus une langue de plus",
+ "traits": "**Aura de commandement.** Les alliés de 9 m du capitaine sont immunisés contre les conditions charmé et effrayé. Cette aura est supprimée alors que le capitaine a l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Le capitaine fait trois attaques de la lame d'harmonium. Le capitaine peut également utiliser Dictate si disponible.\n**Lame d'harmonium.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d10 + 4) dégâts perforants plus 10 (3d6) dégâts de foudre.\n**Dictate (Recharge 5-6).** Le capitaine commande verbalement jusqu'à trois créatures qu'il peut voir en lui-même. Ce commandement magique doit être d'entreprendre une action ou de s'abstenir d'agir (par exemple, « Déposez vos armes »).\nUne cible doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou avoir l'état charmé pendant 1 minute, pendant laquelle elle suit la commande du capitaine. L'effet se termine tôt si la cible prend des dégâts ou si elle termine avec succès la commande. Une cible réussit automatiquement sur son jet de sauvegarde si la commande est directement nuisible pour elle-même, comme la commande de marcher dans le feu.\nUne créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un salut réussi.",
+ "attacks": [
+  {
+   "name": "Lame d'harmonium",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "perforant + foudre"
+  }
+ ],
+ "portrait": "/data/images/19c8b074be_monstre-capitaine-harmonium.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Capitaine Harmonium",
+ "caNote": "Armure de plaque, Bouclier",
+ "saves": "FOR +7, SAG +6",
+ "skills": "Perception +6",
+ "conditionImmunities": "charmé, effrayé"
+}

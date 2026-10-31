@@ -1,0 +1,31 @@
+{
+ "id": "pixie",
+ "name": "Pixie",
+ "type": "Fée",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "3 m, vol 9 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 20,
+  "CON": 8,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "skills": "Discrétion +7, Perception +4",
+ "senses": "Perception passive 14",
+ "languages": "sylvestre",
+ "traits": "**Incantation innée.** La pixie utilise le Charisme comme caractéristique d'incantation innée (DD des jets de sauvegarde : 12). Elle peut lancer les sorts suivants de façon innée, en utilisant seulement sa poussière de pixie comme composante.\n- À volonté : *druidisme*\n- 1/jour chacun : *confusion, détection des pensées, détection du mal et du bien, dissipation de la magie, enchevêtrement, force fantasmagorique, lumières dansantes, métamorphose, sommeil, vol*\n**Résistance à la magie.** La pixie est avantagée lors de ses jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Invisibilité supérieure.** La pixie recourt à sa magie pour se rendre invisible jusqu'à ce qu'elle cesse de se concentrer (comme si elle se concentrait sur un sort). Tout l'équipement qu'elle porte ou transporte devient aussi invisible qu'elle.",
+ "portrait": "/data/images/2d01240998_monstre-pixie.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 253 · image : Manuel des monstres p. 252",
+ "attacks": []
+}

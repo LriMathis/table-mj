@@ -1,0 +1,40 @@
+{
+ "id": "elementaire-du-feu",
+ "name": "Élémentaire du feu",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "resistances": "contondants, perforants, tranchants",
+ "immunities": "feu, poison",
+ "conditionImmunities": "à terre, agrippé, empoisonné, entravé, épuisement, inconscient, paralysé, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "primordial (igné)",
+ "traits": "**Aura de feu.** À la fin de chacun des tours de l’élémentaire, chaque créature dans une Émanation de 3 m centrée sur lui subit 5 (1d10) dégâts de feu. Les créatures et objets inflammables dans l’Émanation s’embrasent.\n**Corps de feu.** L’élémentaire peut se déplacer dans un espace étroit d’une largeur minimale de 2,5 cm sans dépense supplémentaire en déplacement, et il peut entrer dans l’espace d’une créature et s’y arrêter. La première fois d’un tour qu’il entre dans l’espace d’une créature donnée, celle-ci subit 5 (1d10) dégâts de feu.\n**Illumination.** L’élémentaire émet une Lumière vive sur un rayon de 9 m et une Lumière faible sur 9 m de plus.\n**Vulnérabilité à l’eau.** L’élémentaire subit 3 (1d6) dégâts de froid par tranche de 1,50 m qu’il parcourt dans l’eau, ainsi que par tranche de 4 litres d’eau dont on l’asperge.",
+ "actionsText": "**Attaques multiples.** L’élémentaire effectue deux attaques de Brûlure.\n**Brûlure.** Corps à corps : +6, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts de feu. Si la cible est une créature ou un objet inflammable, elle s’embrase.",
+ "attacks": [
+  {
+   "name": "Brûlure",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/8a18c897a3_monstre-elementaire-du-feu.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 121"
+}

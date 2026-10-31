@@ -1,0 +1,40 @@
+{
+ "id": "encephalon-gemmule",
+ "name": "Encephalon Gemmule",
+ "type": "Aberration",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 54,
+ "hpFormula": "12d4+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 1,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision aveugle 9 m (can't see beyond this radius), Perception passive 11",
+ "languages": "—",
+ "traits": "**Progéniture d'encéphalon.** La gemmule se transforme en encéphalon si elle n'est pas tuée dans les 30 (4d12 + 4) jours de sa création.\n**Résistance magique.** La gemme a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**psychique Slam.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 16 (3d10) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "psychique Slam",
+   "bonus": 6,
+   "damage": "3d10",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/d00815fe0f_monstre-encephalon-gemmule.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "resistances": "psychique",
+ "conditionImmunities": "aveuglé",
+ "bonusActions": "**Feutre.** La gemme cible une créature en lui-même 1,50 m et force la cible à faire un DD 14 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, la gemmule entre dans l'espace de la cible et se fixe à la cible. Pendant que la gemmule est attachée, la cible prend 7 (3d4) dégâts perforants au début de chacun de ses tours, et la gemmule ne peut plus utiliser Leech tant qu'elle ne se détache pas. Il peut se détacher en dépensant 1,50 m de son mouvement. En action, la cible ou une créature dans 1,50 m de la cible peut détacher la gemmule en réussissant sur une DD 15 test de Force."
+}

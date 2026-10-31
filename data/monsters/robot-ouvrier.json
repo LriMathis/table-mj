@@ -1,0 +1,43 @@
+{
+ "id": "robot-ouvrier",
+ "name": "Worker Robot",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 9,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "Commune plus les langues parlées par son créateur",
+ "traits": "**Surcharge de foudre.** Lorsque le robot prend dégâts de foudre, il doit réussir sur un DD 10 jet de sauvegarde de Constitution ou avoir l'état étourdi jusqu'au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Le robot fait deux attaques du Cargo Tentacle.\n**Tentacle de cargaison.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 9 (1d8 + 5) dégâts contondants. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 15). Le robot dispose de deux tentacules de chargement, chacun d'entre eux pouvant battre une cible.\n**Tracteur de faisceau.** Le robot lance Télékinésie, ciblant uniquement des créatures avec l'état neutralisé ou des objets. Il ne nécessite aucun composant de sort et utilise Sagesse comme caractéristique d'incantation.",
+ "attacks": [
+  {
+   "name": "Tentacle de cargaison",
+   "bonus": 7,
+   "damage": "1d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/a9a559b7b4_monstre-robot-ouvrier.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Robot ouvrier",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +9",
+ "resistances": "acide, feu",
+ "immunities": "froid, poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

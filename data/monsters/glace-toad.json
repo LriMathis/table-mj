@@ -1,0 +1,41 @@
+{
+ "id": "glace-toad",
+ "name": "Ice Toad",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "Crapaud glacé",
+ "traits": "**Amphibie.** Le crapaud peut respirer de l'air ou de l'eau.\n**froid Aura.** Toute créature qui commence son tour dans 1,50 m du crapaud prend 3 (1d6) dégâts de froid.\n**Leap debout.** Le long saut du crapaud est jusqu'à 6 m et son saut en hauteur est jusqu'à 3 m, avec ou sans démarrage.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d8) dégâts de froid. Si la cible est une créature moyenne ou plus petite, elle est agrippé (évasion DD 11). Jusqu'à ce que ce grappin finisse, le crapaud ne peut pas mordre une autre cible.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d8",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/0f88015336_monstre-glace-toad.webp",
+ "notes": "",
+ "source": "Rise of Tiamat (5e.tools, traduction automatique)",
+ "aka": "Glace Toad",
+ "caNote": "armure naturelle",
+ "skills": "Perception +2",
+ "immunities": "froid"
+}

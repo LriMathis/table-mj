@@ -1,0 +1,39 @@
+{
+ "id": "arbre-eveille",
+ "name": "Arbre éveillé",
+ "type": "Plante",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 59,
+ "hpFormula": "7d12+14",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 6,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "vulnerabilities": "feu",
+ "resistances": "contondants, perforants",
+ "senses": "Perception passive 10",
+ "languages": "commun et une autre langue",
+ "traits": "",
+ "actionsText": "**Coup.** Corps à corps : +6, allonge 3 m. Touché : 14 (3d6 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 6,
+   "damage": "3d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/150154e217_monstre-arbre-eveille.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

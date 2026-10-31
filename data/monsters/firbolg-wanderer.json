@@ -1,0 +1,47 @@
+{
+ "id": "firbolg-wanderer",
+ "name": "Firbolg Wanderer",
+ "type": "Humanoïde (clerc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 17,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le firbolg fait deux attaques en utilisant Longsword, Bewitching Bolt, ou une combinaison d'entre eux.\n**Mot long.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains, plus 9 (2d8) dégâts psychiques.\n**Ensorceleur Bolt.** Attaque de sort à distance : +6 au toucher, portée 18 m, une créature. Touché : 10 (2d6 + 3) dégâts psychiques, et la cible doit réussir sur un DD 14 jet de sauvegarde de Charisme ou avoir l'état charmé jusqu'au prochain tour de la cible.\n**Détection orthographique.** Le firbolg lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Main de mage, Illusion mineure, Fou rire de Tasha\n- 1/jour chacun : Détection de la magie, Déguisement, Dissipation de la magie, Métamorphose",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "tranchant + psychique"
+  },
+  {
+   "name": "Ensorceleur Bolt",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/0b518bb9c6_monstre-firbolg-wanderer.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "saves": "DEX +5, CHA +6",
+ "skills": "Perception +6, Persuasion +6, Discrétion +5",
+ "bonusActions": "**Mouvement duplicité (1/jour).** Le firbolg projette un duplicata illusoire de lui-même dans un espace inoccupé qu'il peut voir en 9 m de lui-même. Le sapin peut alors échanger des places avec l'illusion. L'illusion disparaît après 1 minute, si le firbolg est neutralisé, ou si l'illusion est plus que 36 m du firbolg.\nComme un action bonus sur les tours plus tard, le firbolg peut déplacer l'illusion jusqu'à 9 m et peut alors échanger des places avec elle."
+}

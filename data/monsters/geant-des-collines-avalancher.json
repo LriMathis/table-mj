@@ -1,0 +1,42 @@
+{
+ "id": "geant-des-collines-avalancher",
+ "name": "Hill Giant Avalancher",
+ "type": "Géant (druide)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "tout alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 15,
+ "hp": 220,
+ "hpFormula": "21d12+84",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 8,
+  "CON": 19,
+  "INT": 9,
+  "SAG": 18,
+  "CHA": 10
+ },
+ "senses": "Perception passive 18",
+ "languages": "commun, géant",
+ "traits": "**Rune de la colline.** Le géant a une rune de colline inscrite sur un rocher ou un autre objet en sa possession. Tout en tenant ou en portant l'objet portant la rune, le géant peut utiliser son action Stone Avalanche et sa réaction Hill Rebuff.\nL'objet portant la rune a CA 15; 20 points de vie ; et l'immunité à la nécrose, poison, et dégâts psychiques. L'objet retrouve tout son points de vie à la fin de chaque tour, mais il se transforme en poussière si réduit à 0 points de vie ou quand le géant meurt. Si la rune est détruite, le géant peut inscrire une rune de colline sur un objet en sa possession lorsqu'il termine un repos court ou long.\n**Résistance légendaire (3/jour).** Si le géant échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le géant fait une attaque de Greatclub et utilise Stone Bolas.\n**Grand club.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 18 (3d8 + 5) dégâts contondants plus 9 (2d8) dégâts de tonnerre.\n**Bolas de pierre.** Le géant conjure trois boules de pierre reliées par des lignes de force magique et les jette à une créature il peut voir en 18 m de lui-même. La cible doit faire un DD 16 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, la cible a l'état entravé jusqu'au prochain virage du géant, et les pierres éclatent dans une explosion d'énergie tonnerre qui distribue 14 (4d6) dégâts de tonnerre à la cible et à chaque créature dans 3 m de la cible. Sur une sauvegarde réussie, les pierres disparaissent sans éclater.\n**Avalanche de pierre (nécessite une rune de colline).** Le géant évoque une grêle de roches dans un 6 m -radius, 12 m -haut cylindre centré sur un point sur le sol qu'il peut voir dans 36 m de lui-même. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 28 (8d6) dégâts contondants et a l'état à terre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.\nLes rochers transforment le sol dans cette zone en terrain difficile jusqu'au début du prochain virage du géant, lorsque les rochers disparaissent.\n**Détection orthographique.** Le géant lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Druidisme, Assistance\n- 1/jour chacun : Façonnage de la pierre, Mur de pierre",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 9,
+   "damage": "3d8+5",
+   "type": "contondant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/ee0c589558_monstre-geant-des-collines-avalancher.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant des collines Avalancher",
+ "caNote": "armure naturelle",
+ "saves": "FOR +9, CON +8, SAG +8",
+ "skills": "Nature +7, Perception +8",
+ "reactions": "**Rebuff Hill (requiert la rune Hill).** Immédiatement après que le géant a pris des dégâts à une créature qu'il peut voir en 3 m de lui-même, cette créature doit réussir sur un DD 16 jet de sauvegarde de Constitution ou prendre 10 (3d6) dégâts de force et être poussé horizontalement 3 m loin du géant."
+}

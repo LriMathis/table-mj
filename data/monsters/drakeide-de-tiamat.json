@@ -1,0 +1,42 @@
+{
+ "id": "drakeide-de-tiamat",
+ "name": "Dragonborn of Tiamat",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 18,
+ "hp": 85,
+ "hpFormula": "10d8+40",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (1/jour).** Si le dragonborn échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon-né fait deux attaques de Greataxe.\n**Grandaxe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (1d12 + 5) dégâts tranchants plus 13 (3d8) dégâts nécrotiques.\n**nécrotique Respiration (Recharge 6).** Le dragon-né exhale un feu d'ombre dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature prend 36 (8d8) dégâts nécrotiques et est effrayé du dragon né pendant 1 minute. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas effrayé. Une créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 8,
+   "damage": "1d12+5",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/13debd2af8_monstre-drakeide-de-tiamat.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Drakéide de Tiamat",
+ "caNote": "plaque",
+ "saves": "FOR +8, CON +7, SAG +4, CHA +6",
+ "skills": "Athlétisme +8, Intimidation +6, Perception +4",
+ "conditionImmunities": "effrayé"
+}

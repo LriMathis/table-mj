@@ -1,0 +1,42 @@
+{
+ "id": "azer-pyromancer",
+ "name": "Azer Pyromancer",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 18,
+ "hp": 97,
+ "hpFormula": "13d8+39",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 18,
+  "CHA": 13
+ },
+ "senses": "Perception passive 17",
+ "languages": "Primordial (Ignan)",
+ "traits": "**feu Aura.** À la fin de chaque tour de l'azer, chaque créature du choix de l'azer dans une émanation 1,50 m provenant de l'azer prend 11 (2d10) dégâts de feu à moins que l'azer ait l'état neutralisé.\n**Éclairage.** L'azer met la lumière lumineuse dans un rayon de 3 m et la lumière Dim pour un 3 m supplémentaire.",
+ "actionsText": "**Multiattaques.** L'azer fait deux attaques de Flame Burst.\n**Brûlure de flamme.** Jet d'attaque au corps à corps ou à distance : +7, allonge 1,50 m ou portée 36 m. Touché : 15 (2d10 + 4) dégâts de feu.\n**Détection orthographique.** L'azer lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Élémentalisme, Main de mage\n- 1/jour : Boule de feu",
+ "attacks": [
+  {
+   "name": "Brûlure de flamme",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/124be4801a_monstre-azer-pyromancer.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "saves": "CON +6, SAG +7",
+ "skills": "Arcanes +4, Perception +7",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "reactions": "**Réplique hellish (2/jour).** L'azer lance Représailles infernales en réponse au déclencheur de ce sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 2/jour : Représailles infernales"
+}

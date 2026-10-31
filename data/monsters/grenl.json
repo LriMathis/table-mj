@@ -1,0 +1,45 @@
+{
+ "id": "grenl",
+ "name": "Grenl",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 10,
+ "hpFormula": "3d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, gobelin",
+ "traits": "**Échappement de Nimble.** Le goblin peut prendre l'action Se désengager ou Se cacher en action bonus sur chacun de ses tours.\n**Détection orthographique.** Grenl est un spellcaster de niveau 1. Son caractéristique d'incantation est Sagesse (save spell DD 11, +3 au toucher avec attaques de sort). Elle a préparé les sorts clercs suivants :\n- Sorts mineurs (à volonté) : Bouffée de poison, Thaumaturgie\n- Niveau 1 (2 emplacements) : Fléau, Blessure",
+ "actionsText": "**Scimitar.** Attaque d'arme au corps à corps : +4, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Saubèche.** Attaque d'arme à distance : +4, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c3873ad37b_monstre-grenl.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir, Bouclier",
+ "skills": "Discrétion +6"
+}

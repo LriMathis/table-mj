@@ -1,0 +1,38 @@
+{
+ "id": "lion",
+ "name": "Lion",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "4d10",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "skills": "Discrétion +4, Perception +3",
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "aucune",
+ "traits": "**Saut avec élan.** Avec une prise d’élan de 3 m, le lion peut franchir jusqu’à 7,50 m d’un saut en longueur.\n**Tactique de meute.** Quand au moins un de ses alliés non Neutralisés se situe dans un rayon de 1,50 m de la créature qu’il cible, le lion a l’Avantage au jet d’attaque correspondant.",
+ "actionsText": "**Attaques multiples.** Le lion effectue deux attaques de Saignée. Il peut remplacer l’une de ces attaques par une utilisation de Rugissement.\n**Saignée.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts tranchants.\n**Rugissement.** JS Sagesse : DD 11, une créature dans un rayon de 4,50 m. Échec : la cible subit l’état Effrayé jusqu’au début du tour suivant du lion.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/3806236374_monstre-lion.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

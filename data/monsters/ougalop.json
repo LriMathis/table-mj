@@ -1,0 +1,52 @@
+{
+ "id": "ougalop",
+ "name": "Ougalop",
+ "type": "Humanoïde (kuo-toa)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 18,
+ "hpFormula": "4d8",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 10,
+  "CON": 11,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "commun des profondeurs",
+ "traits": "**Amphibie.** Ougalop peut respirer l'air et l'eau.\n**Perception d'autres mondes.** Ougalop peut sentir la présence de toute créature dans 9 m qui est invisible ou sur le plan éthéré. Il peut identifier une telle créature qui bouge.\n**Slipperie.** Ougalop a avantage sur tests de caractéristique et jet de sauvegarde pour échapper à un grappin.\n**Sensibilité à la lumière du soleil.** En plein soleil, Ougalop a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d6 + 1) dégâts perforants, ou 5 (1d8 + 1) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.\n**Montant net.** Attaque d'arme à distance : +3 au toucher, portée 1,50/4,50 m., une créature grande ou plus petite. Touché : La cible est entravé. Une créature peut utiliser son action pour faire un DD 10 test de Force pour se libérer ou une autre créature dans un filet, mettant fin à l'effet sur un succès. Le fait de traiter 5 dégâts tranchants sur le réseau (CA 10) libère la cible sans la blesser et détruit le réseau.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Montant net",
+   "bonus": 3,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/2ffefc8764_monstre-ougalop.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle, Bouclier",
+ "skills": "Perception +4",
+ "reactions": "**Bouclier adhésif.** Quand une créature manque Ougalop avec une attaque d'arme à la mêlée, Ougalop utilise son bouclier collant pour attraper l'arme. L'attaquant doit réussir sur un DD 11 jet de sauvegarde de Force, ou l'arme devient collée au bouclier d'Ougalop. Si le wielder de l'arme ne peut pas ou ne veut pas lâcher l'arme, le wielder est agrippé pendant que l'arme est coincée. Pendant qu'elle est coincée, l'arme ne peut pas être utilisée. Une créature peut tirer l'arme libre en prenant une action pour faire un DD 11 test de Force et réussir."
+}

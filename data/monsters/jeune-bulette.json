@@ -1,0 +1,39 @@
+{
+ "id": "jeune-bulette",
+ "name": "Young Bulette",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 8,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "**Frais.** Si la bouette se déplace au moins 6 m droit vers une cible et la frappe avec une attaque gore au même tour, la cible prend un 9 (2d8) dégâts contondants supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou être à terre.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d8+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c5ec156070_monstre-jeune-bulette.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Jeune bulette",
+ "caNote": "armure naturelle"
+}

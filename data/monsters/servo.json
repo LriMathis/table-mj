@@ -1,0 +1,40 @@
+{
+ "id": "servo",
+ "name": "Servo",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 10,
+ "hpFormula": "3d4+3",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Griffe.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/f922aa446d_monstre-servo.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "squelette-guerrier",
+ "name": "Skeleton Warrior",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "toutes les langues qu'il connaissait dans la vie",
+ "traits": "**Résistance magique.** Le guerrier squelette a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes du guerrier squelette sont magiques et gagnent un bonus de +1 à l'attaque et jets de dégâts (inclus dans l'attaque).",
+ "actionsText": "**Multiattaques.** Le guerrier squelette fait deux attaques de Grande-épée.\n**Grande épée.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/792937ec9a_monstre-squelette-guerrier.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "aka": "Squelette guerrier",
+ "caNote": "plaque",
+ "vulnerabilities": "contondant des attaques magiques",
+ "resistances": "froid, nécrotique",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné"
+}

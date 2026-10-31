@@ -1,0 +1,40 @@
+{
+ "id": "pirate-premier-conjoint",
+ "name": "Pirate First Mate",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Jambes de mer.** Le premier partenaire a l'avantage sur tests de caractéristique et jet de sauvegarde de résister à être à terre.",
+ "actionsText": "**Multiattaques.** Le premier compagnon fait deux attaques avec sa longue épée.\n**Mot long.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants, ou 7 (1d10 + 2) dégâts tranchants si utilisé avec deux mains. Si la cible est une créature, le premier conjoint peut choisir de ne pas causer de dégâts avec l'attaque pour désarmer la cible. La cible doit réussir sur un DD 14 jet de sauvegarde de Force ou laisser tomber un élément qu'elle tient au sol.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a2a11e3e43_monstre-pirate-premier-conjoint.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Pirate premier conjoint",
+ "caNote": "Courrier en chaîne",
+ "skills": "Athlétisme +4, Intimidation +3"
+}

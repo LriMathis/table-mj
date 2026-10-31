@@ -1,0 +1,55 @@
+{
+ "id": "borborygmos",
+ "name": "Borborygmos",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique neutre",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 14,
+ "hp": 270,
+ "hpFormula": "20d12+140",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 11,
+  "CON": 24,
+  "INT": 8,
+  "SAG": 17,
+  "CHA": 16
+ },
+ "senses": "Perception des vibrations 18 m, Perception passive 13",
+ "languages": "commun, géant",
+ "traits": "**Résistance légendaire (3/jour).** Si Borborygmos échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Mauvaise perception de la profondeur.** Borborygmos a un désavantage sur n'importe quel jet d'attaque contre une cible plus que 9 m à l'extérieur.\n**Monstre de siège.** Borborygmos inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Borborygmos peut utiliser sa présence effrayante. Il fait aussi deux attaques : une avec son maul et une avec son stomp.\n**Maul.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 28 (6d6 + 7) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 21 jet de sauvegarde de Force ou être à terre.\n**Stompe.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 18 (2d10 + 7) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +13 au toucher, portée 9/36 m., une cible. Touché : 29 (4d10 + 7) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix de Borborygmos qui est dans 18 m de lui et peut le voir ou l'entendre doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou devenir effrayé de lui pendant 1 minute. La créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est un succès ou si l'effet se termine pour elle, la créature est immunisée contre la présence effrayante de Borborygmos pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 13,
+   "damage": "6d6+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Stompe",
+   "bonus": 13,
+   "damage": "2d10+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 13,
+   "damage": "4d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e53ffe3564_monstre-borborygmos.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +13, CON +13, SAG +9",
+ "skills": "Athlétisme +13, Perspicacité +9, Survie +9",
+ "resistances": "poison, psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, borborygmos peut entreprendre l'une des actions ci-après.\n**Attaque.** Borborygmos fait une attaque d'arme.\n**Bellow (coûts 2 actions).** Borborygmos crie menaçantement sur une créature il peut voir dans 18 m de lui. Cette créature doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou devenir effrayé de lui pendant 1 minute. Si la créature est déjà effrayé, elle devient étourdi. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre le Bellow de Borborygmos pour les prochaines 24 heures.\n**Large Berth (coûts 3 actions).** Borborygmos se déplace jusqu'à la moitié de sa vitesse et peut se déplacer dans l'espace de n'importe quelle créature plus petite que Huge. La première fois que Borborygmos entre dans l'espace d'une créature pendant ce mouvement, la créature doit faire un DD 21 jet de sauvegarde de Dextérité. Si le jet de sauvegarde réussit, la créature est poussé 1,50 m loin de Borborygmos. Si la jet de sauvegarde échoue, cette créature est à terre, et Borborygmos peut faire une attaque de stomp contre elle."
+}

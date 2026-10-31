@@ -1,0 +1,46 @@
+{
+ "id": "exul",
+ "name": "Exul",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 200,
+ "hpFormula": "16d10+112",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 12,
+  "CON": 24,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "commun, igné, terreux",
+ "traits": "**Suppression élémentaire.** Si Exul meurt, son corps se désintègre dans un éclair de feu et de fumée, laissant derrière lui seulement l'équipement qu'il portait ou portait.\n**Découpe intérieure.** Le caractéristique d'incantation inné d'Exul est le Charisme (save spell DD 15, +7 au toucher avec attaques de sort). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie\n- 1/jour chacun : Invocation d'élémentaire (terre ou feu élémentaire seulement), Invisibilité, Image majeure, Changement de plan, Mur de feu\n- 3/jour chacun : Compréhension des langues, Don des langues",
+ "actionsText": "**Multiattaques.** Exul fait deux attaques handaxe ou utilise sa flamme Hurl deux fois.\n**Handaxe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants plus 3 (1d6) dégâts de feu.\n**Feu de hurl.** Attaque de sort à distance : +7 au toucher, portée 36 m, une cible. Touché : 17 (5d6) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Handaxe",
+   "bonus": 10,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "Feu de hurl",
+   "bonus": 7,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/9b5a48e932_monstre-exul.webp",
+ "notes": "",
+ "source": "Adventures in the Forgotten Realms: In Scarlet Flames (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +7, CHA +7",
+ "immunities": "feu"
+}

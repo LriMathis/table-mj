@@ -1,0 +1,42 @@
+{
+ "id": "strahd-squelette",
+ "name": "Strahd Skeleton",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Fortitude non-morte.** Si les dégâts réduisent le squelette à 0 points de vie, il fait un jet de sauvegarde de Constitution (DD 5 plus les dégâts pris) à moins que les dégâts soient radiant ou d'un Hit critique. Sur une sauvegarde réussie, le squelette tombe à 1 points de vie.",
+ "actionsText": "**Multiattaques.** Le squelette fait deux attaques Vampiric Longsword. Il peut remplacer une attaque par une utilisation de Shield Bash.\n**Une longue épée de vampire.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts tranchants plus 7 (2d6) dégâts nécrotiques. La maximum de points de vie de la cible diminue d'un montant égal à la dégâts nécrotiques prise.\n**Bouclier.** Jet de sauvegarde de Force : DD 13, une créature dans 1,50 m que le squelette peut voir. Échec : 10 (2d6 + 3) dégâts contondants. Si la cible est une créature moyenne ou plus petite, elle a l'état à terre.",
+ "attacks": [
+  {
+   "name": "Une longue épée de vampire",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/fe3d09453e_monstre-strahd-squelette.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Strahd squelette",
+ "saves": "FOR +5",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, effrayé, empoisonné"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "pharblex-spattergoo",
+ "name": "Pharblex Spattergoo",
+ "type": "Humanoïde (outrance)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 59,
+ "hpFormula": "7d8+28",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 7
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, C'est vrai, c'est vrai.",
+ "traits": "**Amphibie.** Le pharblex peut respirer l'air et l'eau.\n**Grève poison (3/jour).** Une fois par tour, lorsque Pharblex frappe avec une attaque de melee, il peut dépenser une utilisation de ce trait pour traiter un 9 (2d8) dégâts de poison supplémentaire.\n**Leap debout.** Dans le cadre de son mouvement et sans démarrage en course, Pharblex peut long sauter jusqu'à 6 m et sauter haut jusqu'à 3 m.\n**Camouflage de swamp.** Pharblex a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans un terrain marécageux.\n**Détection orthographique.** Pharblex est un spellcaster de niveau 6 qui utilise Sagesse comme son caractéristique d'incantation (save spell DD 13, +5 au toucher avec attaques de sort). Pharblex a les sorts suivants préparés à partir de la liste des sorts druides:\n- Sorts mineurs (à volonté) : Druidisme, Assistance, Bouffée de poison\n- Niveau 1 (4 emplacements) : Soins, Enchevêtrement, Mot de guérison, Vague tonnante\n- Niveau 2 (3 emplacements) : Peau d'écorce, Sens animal, Croissance d'épines\n- Niveau 3 (3 emplacements) : Croissance végétale, Marche sur l'eau",
+ "actionsText": "**Multiattaques.** Pharblex attaque deux fois. Une fois avec sa morsure et une fois avec sa lance.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +5 au toucher. allonge 1,50 m ou 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/88628f045c_monstre-pharblex-spattergoo.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus, Bouclier",
+ "saves": "FOR +4, CON +6",
+ "skills": "Perception +5, Religion +2, Discrétion +3"
+}

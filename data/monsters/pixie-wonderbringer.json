@@ -1,0 +1,39 @@
+{
+ "id": "pixie-wonderbringer",
+ "name": "Pixie Wonderbringer",
+ "type": "Fée",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 60,
+ "hpFormula": "24d4",
+ "vitesse": "3 m, vol 9 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 20,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Résistance magique.** Le pixie a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le pixie fait deux attaques de poussière de Faïerie.\n**Poussière de faïence.** Jet d'attaque au corps à corps ou à distance : +7, allonge 1,50 m ou portée 18 m. Touché : 15 (2d10 + 4) dégâts radiants, et la cible a l'état charmé ou empoisonné (le choix de pixels) jusqu'au début du prochain tour de pixels.\n**Détection orthographique.** Le pixie lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Lumières dansantes, Druidisme, Invisibilité (autoseulement)\n- 1/jour chacun : Détection des pensées, Vol, Image majeure",
+ "attacks": [
+  {
+   "name": "Poussière de faïence",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/6cc590ee0d_monstre-pixie-wonderbringer.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "skills": "Arcanes +3, Perception +5, Discrétion +8",
+ "bonusActions": "**Burst of Wonder (Recharge 5-6).** Les pixie castes Enchevêtrement, Métamorphose ou Fou rire de Tasha, ne nécessitant aucun composant Matériau et utilisant le même caractéristique d'incantation que Spellcasting.\n- 5/recharge : Enchevêtrement, Métamorphose, Fou rire de Tasha"
+}

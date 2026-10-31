@@ -1,0 +1,47 @@
+{
+ "id": "fluxcharger",
+ "name": "Fluxcharger",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 60,
+ "hpFormula": "8d10+16",
+ "vitesse": "0 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "draconique",
+ "traits": "**Amplifier foudre.** Chaque fois qu'un sort qui traite dégâts de foudre inclut un ou plusieurs fluxchargeurs dans sa zone, le sort traite un 9 (2d8) dégâts de foudre supplémentaire.",
+ "actionsText": "**Multiattaques.** Le chargeur de flux fait deux attaques de slam ou utilise Arc foudre deux fois.\n**Clamer.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants plus 10 (3d6) dégâts de feu.\n**Arc foudre.** Attaque de sort à distance : +7 au toucher, portée 9 m, une cible. Touché : 16 (3d10) dégâts de foudre, et la foudre saute de la cible à une créature du choix du chargeur de flux qu'il peut voir dans 9 m de la cible. Cette deuxième créature doit réussir sur un DD 15 jet de sauvegarde de Dextérité ou prendre 13 (3d8) dégâts de foudre. Touché ou raté : Le chargeur de flux prend 5 (1d10) dégâts de force après avoir résolu l'attaque.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant + feu"
+  },
+  {
+   "name": "Arc foudre",
+   "bonus": 7,
+   "damage": "3d10",
+   "type": "foudre + force"
+  }
+ ],
+ "portrait": "/data/images/8dbda9f9a8_monstre-fluxcharger.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient"
+}

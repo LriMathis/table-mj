@@ -1,0 +1,41 @@
+{
+ "id": "ontharr-frume",
+ "name": "Ontharr Frume",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 117,
+ "hpFormula": "18d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 17,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun",
+ "traits": "**Note sur les 5outils.** Ontharr Frume est présenté dans Hoard de la Reine du Dragon et la montée de Tiamat comme un bien légitime, paladin humain de Torm. Le bloc de statistiques Guerre ecclésiastique du Guide des monstres de Volo a été fourni ici pour faciliter l'utilisation.\n**Détection orthographique.** Le prêtre est un épeautre de niveau 9. Son caractéristique d'incantation est Sagesse (save spell DD 15, +7 au toucher avec attaques de sort). Il a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Lumière, Réparation, Flamme sacrée, Stabilisation\n- Niveau 1 (4 emplacements) : Faveur divine, Éclair traçant, Mot de guérison, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Restauration partielle, Arme magique, Prière de guérison, Silence, Arme spirituelle\n- Niveau 3 (3 emplacements) : Lueur d'espoir, Aura du croisé, Dissipation de la magie, Retour à la vie, Esprits gardiens, Marche sur l'eau\n- Niveau 4 (3 emplacements) : Bannissement, Liberté de mouvement, Gardien de la foi, Peau de pierre\n- Niveau 5 (1 emplacements) : Colonne de flamme, Soins de groupe, Immobilisation de monstre",
+ "actionsText": "**Multiattaques.** Le prêtre fait deux attaques à la mêlée.\n**Maul.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 7,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0917687adc_monstre-ontharr-frume.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "CON +6, SAG +7",
+ "skills": "Intimidation +5, Religion +4",
+ "reactions": "**Grève guidée (recharge après une repos court ou long).** Le prêtre accorde un bonus de +10 à un jet d'attaque fait par lui-même ou une autre créature dans 9 m de lui. Le prêtre peut faire ce choix une fois le rouleau fait, mais avant qu'il ne frappe ou ne manque."
+}

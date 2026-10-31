@@ -1,0 +1,31 @@
+{
+ "id": "otherworldly-steed",
+ "name": "Otherworldly Steed",
+ "type": "Céleste ou Fée ou Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "18 m, vol 18 m (Requiert un sort de niveau 4+)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Perception passive 11",
+ "languages": "télépathie 1 mile (works only with you)",
+ "traits": "**Obligation à vie.** Lorsque vous récupérez points de vie à partir d'un sort de niveau 1+, le pied reprend le même nombre de points de vie si vous en faites partie.",
+ "actionsText": "**Autre monde.** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d8 + summonSpellLevel de dégâts radiant (Céleste), psychique (Fey) ou nécrotique (Fidend).",
+ "attacks": [],
+ "portrait": "/data/images/becb04fef6_monstre-otherworldly-steed.webp",
+ "notes": "points de vie : 5 + 10 par niveau de sort (le pied a un nombre de dés de vie [d10s] égal au niveau du sort)",
+ "source": "Player's Handbook (2024) (5e.tools, traduction automatique)",
+ "bonusActions": "**Glare de fell (fin seulement); Recharges après un repos long).** Jet de sauvegarde de Sagesse : DD est égal à votre DD de sauvegarde des sorts, une créature dans 18 m que vous pouvez voir. Échec : La cible a l'état effrayé jusqu'à la fin de votre prochain tour.\n**Étape de la fièvre (Fey seulement); Recharges après un repos long).** Les téléports à pied, avec son cavalier, dans un espace inoccupé de votre choix jusqu'à 18 m loin de lui.\n**Touche de guérison (Céleste seulement); Recharges après un repos long).** une créature à l'intérieur de 1,50 m de l'attelé récupère un nombre de points de vie égal à 2d8 + summonSpellLevel."
+}

@@ -1,0 +1,42 @@
+{
+ "id": "buster-l-ours",
+ "name": "Buster the Bear",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun",
+ "traits": "**Attaque surprise.** Si Buster l'Ours surprend une créature et la frappe avec une attaque pendant la première ronde de combat, la cible prend un 7 (2d6) de plus de dégâts de l'attaque.",
+ "actionsText": "**Bashin' Banjo.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Bashin' Banjo",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2d79761775_monstre-buster-l-ours.webp",
+ "notes": "",
+ "source": "The Lost Dungeon of Rickedness: Big Rick Energy (5e.tools, traduction automatique)",
+ "aka": "Buster l'ours",
+ "caNote": "Cache l'armure, Bouclier",
+ "skills": "Discrétion +6, Survie +2",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

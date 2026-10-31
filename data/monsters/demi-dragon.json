@@ -1,0 +1,41 @@
+{
+ "id": "demi-dragon",
+ "name": "Demi-dragon",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 105,
+ "hpFormula": "14d8+42",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "saves": "DEX +5, SAG +5",
+ "skills": "Athlétisme +7, Discrétion +5, Perception +5",
+ "resistances": "type de dégâts choisi pour le trait origine draconique ci-après",
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun, draconique",
+ "traits": "**Origine draconique.** Le demi-dragon est lié à un type de dragon associé à l’un des types de dégâts suivants (au choix du MJ) : acide, feu, foudre, froid ou poison. Ce choix influe sur d’autres aspects du profil.",
+ "actionsText": "**Attaques multiples.** Le demi-dragon effectue deux attaques de Griffe.\n**Griffe.** Corps à corps : +7, allonge 3 m. Touché : 6 (1d4 + 4) dégâts tranchants plus 7 (2d6) dégâts du type choisi pour le trait Origine draconique.\n**Souffle du dragon (recharge 5–6).** JS Dextérité : DD 14, chaque créature dans un Cône de 9 m. Échec : 28 (8d6) dégâts du type choisi pour le trait Origine draconique. Réussite : demi-dégâts.",
+ "bonusActions": "**Bond.** Le demi-dragon effectue un saut d’un maximum de 9 m en dépensant 3 m de déplacement.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "1d4+4+2d6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/4437479060_monstre-demi-dragon.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

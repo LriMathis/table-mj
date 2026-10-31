@@ -1,0 +1,46 @@
+{
+ "id": "aartuk-ancien",
+ "name": "Aartuk Elder",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 75,
+ "hpFormula": "10d10+20",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "Aartuk",
+ "traits": "**Escalade des araignées.** L'aartuk peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** L'aartuk fait deux attaques de Branch, deux attaques de Pellet radiant ou l'une de chacune.\n**Branche.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.\n**Pellet radiant.** Attaque de sort à distance : +4 au toucher, portée 18 m, une cible. Touché : 10 (4d4) dégâts radiants.\n**Coulisse (Psioniques).** L'aartuk lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 12) :\n- 1/jour chacun : Apaisement des émotions, Détection de la magie, Communication à distance",
+ "attacks": [
+  {
+   "name": "Branche",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Pellet radiant",
+   "bonus": 4,
+   "damage": "4d4",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/b0569e15c4_monstre-aartuk-ancien.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Aartuk ancien",
+ "caNote": "armure naturelle",
+ "bonusActions": "**Langue (Recharge 6).** L'aartuk essaie d'utiliser sa langue gooy pour arracher une créature grande ou plus petite qu'il peut voir en 9 m de lui-même. La cible doit faire un DD 12 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la cible est agrippé par la langue (évasion DD 14) et a tiré jusqu'à 7,50 m vers l'aartuk. La langue peut battre une créature à la fois."
+}

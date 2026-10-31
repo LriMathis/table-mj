@@ -1,0 +1,48 @@
+{
+ "id": "hiver-eladrin",
+ "name": "Winter Eladrin",
+ "type": "Fée (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 19,
+ "hp": 165,
+ "hpFormula": "22d8+66",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 18,
+  "SAG": 17,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Résistance magique.** L'eladrin a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Présence douloureuse.** Toute créature non éladrine qui commence son tour à l'intérieur de 18 m de l'éladrine doit faire un DD 13 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature devient charmé par l'éladrin pendant 1 minute. Alors que charmé de cette façon, la créature a un désavantage sur tests de caractéristique et jet de sauvegarde. La créature charmé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre toute Présence Sorcieuse d'Eladrin pendant les 24 prochaines heures.\nChaque fois que l'éladrine inflige des dégâts à la créature charmé, la créature charmé peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès.",
+ "actionsText": "**Multiattaques.** L'eladrine fait deux attaques Longsword ou Longbow. Il peut remplacer une attaque par une utilisation de Spellcasting.\n**Mot long.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d8) dégâts tranchants, ou 5 (1d10) dégâts tranchants si utilisé avec deux mains, plus 13 (3d8) dégâts de froid.\n**Longbow.** Attaque d'arme à distance : +7 au toucher, portée 45/180 m., une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 13 (3d8) dégâts de froid.\n**Détection orthographique.** L'eladrin lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Nappe de brouillard, Bourrasque, Tempête de neige",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 4,
+   "damage": "1d8",
+   "type": "tranchant + froid"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 7,
+   "damage": "1d8+3",
+   "type": "perforant + froid"
+  }
+ ],
+ "portrait": "/data/images/006e380b46_monstre-hiver-eladrin.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Hiver Eladrin",
+ "caNote": "armure naturelle",
+ "resistances": "froid",
+ "bonusActions": "**Étape de Fey (Recharge 4-6).** Les téléports eladrins, ainsi que tout équipement qu'ils portent ou transportent, jusqu'à 9 m dans un espace inoccupé qu'ils peuvent voir.",
+ "reactions": "**Répudiation frigide.** Lorsque l'eladrine prend des dégâts d'une créature, l'eladrine peut voir dans 18 m de lui, l'eladrine peut forcer cette créature à faire un DD 16 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 11 (2d10) dégâts de froid."
+}

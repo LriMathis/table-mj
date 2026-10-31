@@ -1,0 +1,48 @@
+{
+ "id": "hellcat-bezekira",
+ "name": "Hellcat (Bezekira)",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 19,
+  "CON": 17,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 18 m, Perception passive 16",
+ "languages": "comprend Infernal, télépathie 36 m",
+ "traits": "**Habileté des ténèbres.** Les attaques contre un bézekira en lumière vive ou sombre ont un désavantage.\n**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure de la Bézekira.",
+ "actionsText": "**Multiattaques.** La Bézekira fait trois attaques de la griffe. Il peut remplacer une des attaques par une attaque Bite.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 15 (3d6 + 5) dégâts tranchants plus 7 (2d6) dégâts de feu. Le bézekira offre un 28 (8d6) dégâts de feu supplémentaire lorsqu'il frappe une cible avec une attaque et a un avantage sur le jet d'attaque.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d10 + 5) dégâts contondants, saisir la cible avec sa bouche. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 17). La Bézekira ne peut pas faire une attaque Bite alors qu'une créature est agrippé de cette façon.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "3d6+5",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8de46c91a8_monstre-hellcat-bezekira.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +7",
+ "skills": "Acrobaties +8, Athlétisme +9, Perception +6, Discrétion +12",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées, dégâts causés par des sorts",
+ "immunities": "feu"
+}

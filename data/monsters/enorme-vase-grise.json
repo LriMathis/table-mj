@@ -1,0 +1,41 @@
+{
+ "id": "enorme-vase-grise",
+ "name": "Huge Gray Ooze",
+ "type": "Vase",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 8,
+ "hp": 152,
+ "hpFormula": "16d12+48",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 6,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 2
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "**Amorphe.** L'ooze peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Corrode métal.** Toute arme non magique faite de métal qui frappe les corrodes. Après avoir causé des dégâts, l'arme prend une pénalité permanente et cumulative de −1 à jets de dégâts. Si sa peine tombe à −5, l'arme est détruite. Les munitions non magiques en métal qui frappent l'ooze sont détruites après avoir causé des dégâts.\nL'ooze peut manger dans un métal non magique de 2 pouces d'épaisseur en 1 tour.\n**Fausse apparence.** Bien que l'ooze reste immobile, il est indissociable d'une piscine huileuse ou d'une roche humide.",
+ "actionsText": "**Multiattaques.** En action, il peut faire deux attaques avec ses pseudopodes.\n**Pseudopod.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 21 (6d6) dégâts d'acide, ou 42 (12d6) dégâts d'acide alors que l'ooze est agrandi. Si la cible porte une armure métallique non magique, son armure est partiellement corrodée et prend une pénalité permanente et cumulative de −1 pour la CA qu'elle offre. L'armure est détruite si la pénalité réduit son CA à 10.\n**agrandir (recharges après un repos court ou long).** Pendant 1 minute, l'ooze augmente de façon magique en taille. Tout en agrandi, l'oze est Gargantuan, double ses dés de dégâts avec son attaque pseudopode, et rend tests de Force et jet de sauvegarde de Force avec avantage.\n**Invisibilité (Recharges après un repos court ou long).** L'ooze tourne magiquement invisible pendant jusqu'à 1 heure jusqu'à ce qu'il attaque, il utilise son agrandir, ou son concentration est cassé (comme si concentrating sur un sort).",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 7,
+   "damage": "6d6",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/0e641c52dd_monstre-enorme-vase-grise.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Énorme vase grise",
+ "skills": "Discrétion +2",
+ "resistances": "acide, froid, feu",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, à terre"
+}

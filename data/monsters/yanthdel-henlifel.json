@@ -1,0 +1,47 @@
+{
+ "id": "yanthdel-henlifel",
+ "name": "Yanthdel Henlifel",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Yanthdel a l'avantage sur jet de sauvegarde contre le charmé, et la magie ne peut pas endormir Yanthdel.\n**Sensibilité à la lumière du soleil.** Alors qu'au soleil, Yanthdel a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Découpe intérieure.** Le caractéristique d'incantation d'Yanthdel est Charisme (spell save DD 12). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques, Lévitation (autoseulement)",
+ "actionsText": "**Multiattaques.** Yanthdel fait deux attaques de mots courts.\n**Mot-clé.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Acrobatie des mains.** Attaque d'arme à distance : +7 au toucher, portée 9/36 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné pendant 1 heure. Si le jet de sauvegarde échoue par 5 ou plus, la cible est également inconscient alors qu'empoisonné de cette façon. La cible se réveille si elle prend des dégâts ou si une autre créature prend une action pour la secouer.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4a5fff637f_monstre-yanthdel-henlifel.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus, Bouclier",
+ "saves": "DEX +7, CON +5, SAG +4",
+ "skills": "Perception +4, Discrétion +10",
+ "reactions": "**Parry.** Yanthdel ajoute 3 à sa CA contre une attaque à la mêlée qui la frapperait. Pour ce faire, Yanthdel doit voir l'agresseur et manier une arme de mêlée."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "jacko",
+ "name": "Jacko",
+ "type": "Humanoïde (halfelin)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, halfelin",
+ "traits": "**Déguiser rapidement.** Jacko passe 1 minute pour se déguiser en un autre Humanoïde d'environ sa taille et son poids. Alors que Jacko est déguisé, une créature qui prend l'action Étudier pour inspecter l'apparence de Jacko peut faire un DD 13 test d'Intelligence (Investigation), discernant son déguisement sur un chèque réussi.",
+ "actionsText": "**Multiattaques.** Jacko fait deux attaques de poignard poison.\n**Dague poison.** Jet d'attaque au corps à corps ou à distance : +5, allonge 1,50 m ou portée 6/18 m. Touché : 5 (1d4 + 3) dégâts perforants plus 3 (1d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Dague poison",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/e56408fd89_monstre-jacko.webp",
+ "notes": "",
+ "source": "Heroes of the Borderlands (5e.tools, traduction automatique)",
+ "skills": "Perception +6, Discrétion +5",
+ "bonusActions": "**Action énergique.** Jacko prend l'action Foncer, Se désengager, ou Se cacher."
+}

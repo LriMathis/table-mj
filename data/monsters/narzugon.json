@@ -1,0 +1,43 @@
+{
+ "id": "narzugon",
+ "name": "Narzugon",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 20,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 22",
+ "languages": "commun, infernal, télépathie 36 m",
+ "traits": "**Tack infernal.** Le narzugon porte des éperons qui font partie d'Infernal Tack, ce qui lui permet d'appeler son compagnon Destrier noir comme action.\n**Résistance magique.** Le narzugon a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le narzugon fait trois attaques Hellfire Lance. Il utilise également le commandement infernal ou le commandement terrifiant.\n**Lance Hellfire.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 11 (1d12 + 5) dégâts perforants plus 16 (3d10) dégâts de feu. Si ce dégâts tue une créature avec une âme, l'âme se lève de la rivière Styx comme un Lémure à Avernus en 1d4 heures. Si la créature n'est pas ressuscitée avant, seul un sort Souhait ou tuer la lémure et jeter la vraie résurrection sur le corps original de la créature peut la restaurer à la vie. Les constructions et les démons sont à l'abri de cet effet.\n**Commandement infernal.** Chaque allié du narzugon à l'intérieur de 18 m ne peut être charmé ou effrayé qu'à la fin du prochain tour du narzugon.\n**Commande terrifiante.** Chaque créature au sein de 18 m du narzugon qui n'est pas un Fiend doit réussir sur un DD 17 jet de sauvegarde de Charisme ou devenir effrayé du narzugon pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Une créature qui fait un succès jet de sauvegarde est immunisée contre le commandement terrifiant de ce narzugon pendant 24 heures.\n**Guérison (1/jour).** Le narzugon, ou une créature qu'il touche, retrouve 100 points de vie.",
+ "attacks": [
+  {
+   "name": "Lance Hellfire",
+   "bonus": 10,
+   "damage": "1d12+5",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/0d68b574c9_monstre-narzugon.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque, Bouclier",
+ "saves": "DEX +5, CON +8, CHA +9",
+ "skills": "Perception +12",
+ "resistances": "acide, froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

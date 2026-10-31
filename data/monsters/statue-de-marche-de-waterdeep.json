@@ -1,0 +1,48 @@
+{
+ "id": "statue-de-marche-de-waterdeep",
+ "name": "Walking Statue of Waterdeep",
+ "type": "Créature artificielle",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 17,
+ "hp": 314,
+ "hpFormula": "17d20+136",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 8,
+  "CON": 27,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Crombissement de Colosses.** Lorsque la statue tombe à 0 points de vie, elle s'effondre et est détruite. Toute créature sur le sol à l'intérieur de 9 m de la statue d'effondrement doit faire un DD 22 jet de sauvegarde de Dextérité, en prenant 22 (4d10) dégâts contondants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Formulaire immuable.** La statue est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Résistance magique.** La statue a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** La statue inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** La statue fait deux attaques à la mêlée.\n**Clamer.** Attaque d'arme au corps à corps : +16 au toucher, allonge 1,50 m, une cible. Touché : 29 (3d12 + 10) dégâts contondants.\n**Pierre brisée.** Attaque d'arme à distance : +16 au toucher, portée 60/240 m., une cible. Touché : 43 (6d10 + 10) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 16,
+   "damage": "3d12+10",
+   "type": "contondant"
+  },
+  {
+   "name": "Pierre brisée",
+   "bonus": 16,
+   "damage": "6d10+10",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/a261f4e478_monstre-statue-de-marche-de-waterdeep.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "aka": "Statue de marche de Waterdeep",
+ "caNote": "armure naturelle",
+ "saves": "CON +14",
+ "immunities": "froid, feu, poison, psychique, contondant, perforant, tranchant d'attaques non magiques non faites avec des armes adamantines",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, étourdi"
+}

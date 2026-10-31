@@ -1,0 +1,41 @@
+{
+ "id": "vivant-serviteur-invisible",
+ "name": "Living Unseen Servant",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 4,
+ "hpFormula": "1d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 10,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 12",
+ "languages": "comprend une langue (habituellement commune) mais ne peut pas parler",
+ "traits": "**Invisibilité.** Le serviteur invisible est invisible.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 2,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/225b386774_monstre-vivant-serviteur-invisible.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Vivant serviteur invisible",
+ "skills": "Perception +2, Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, paralysé, pétrifié, empoisonné, inconscient"
+}

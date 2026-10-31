@@ -1,0 +1,38 @@
+{
+ "id": "almiraj",
+ "name": "Almiraj",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 3,
+ "hpFormula": "1d6",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 2,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 14",
+ "languages": "—",
+ "traits": "**Sensées de Keen.** L'almiraj a un avantage sur tests de Sagesse (Perception) qui se fie à l'ouïe ou à la vue.\n**Familiarisation.** Avec la permission de le MD, le sort Appel de familier peut appeler un almiraj.",
+ "actionsText": "**Corne.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Corne",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/440508925f_monstre-almiraj.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "skills": "Perception +4, Discrétion +5"
+}

@@ -1,0 +1,44 @@
+{
+ "id": "corruption-diable-paeliryon",
+ "name": "Corruption Devil (Paeliryon)",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 16,
+ "hp": 218,
+ "hpFormula": "19d10+114",
+ "vitesse": "6 m, creusement 6 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 21,
+  "DEX": 14,
+  "CON": 22,
+  "INT": 19,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 12",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**La vue du diable.** Les ténèbres magiques n'entravent pas la vision sombre du paéliryon.\n**Yeux keen.** Le paéliryon marque un succès critique sur un rouleau de 19 ou 20.\n**Résistance magique.** Le paeliryon a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le paéliryon fait trois attaques de Claw. Il peut remplacer l'une des attaques par Draining Grasp (si disponible).\n**Griffe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts tranchants plus 10 (3d6) dégâts de feu.\n**Drainage Grasp (Recharge 4-6).** Le paéliryon fait une attaque de la griffe. Lors d'un coup, le score Charisme de la cible est réduit de 2 (1d4). Cette réduction dure jusqu'à ce que la cible termine un repos court ou long. Une créature dont le Charisme est réduit à 3 ou moins en raison de cette capacité, a l'état étourdi pendant 1 minute.\n**Détection orthographique.** Le paéliryon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Malédiction, Injonction, Ténèbres, Immobilisation de monstre, Image majeure\n- 1/jour chacun : Coquille antivie, Nuage incendiaire, Scrutation, Ennemi subconscient",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "2d10+5",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/184157a454_monstre-corruption-diable-paeliryon.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Corruption diable ( Paeliryon )",
+ "caNote": "armure naturelle",
+ "saves": "CON +11, SAG +7",
+ "skills": "Arcanes +9, Tromperie +7, Perspicacité +7, Intimidation +7",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné, étourdi"
+}

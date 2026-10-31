@@ -1,0 +1,42 @@
+{
+ "id": "fractine",
+ "name": "Fractine",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 14,
+ "hp": 110,
+ "hpFormula": "13d10+39",
+ "vitesse": "0 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 18,
+  "SAG": 18,
+  "CHA": 11
+ },
+ "senses": "Vision aveugle 108 m (aveugle au-delà de ce rayon), Perception passive 18",
+ "languages": "—",
+ "traits": "**Résistance magique.** La fractine a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**L'objectif de l'analyse.** Un orthographe peut utiliser la fractine comme un focus de substitution lors de la coulée du sort Scrutation ou de magie similaire, à condition que l'orthographe et la fractine soient dans 1,50 m l'un de l'autre.\n**Deux dimensions.** La fractine peut occuper l'espace d'une autre créature et vice versa. Il peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile, mais il prend 5 (1d10) dégâts de force si elle termine son tour à l'intérieur d'un objet.\n**Nature inhabituelle.** La fractine ne nécessite pas d'air, de boisson ou de sommeil.",
+ "actionsText": "**Touche extradimensionnelle.** Attaque de sort au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 24 (8d6) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Touche extradimensionnelle",
+   "bonus": 5,
+   "damage": "8d6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/0546424f74_monstre-fractine.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 1: Spelljammer Creatures (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +8",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi",
+ "bonusActions": "**Emprisonnement.** La fractine cible une créature de sa taille ou plus petite dans son espace. La cible doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou être emprisonnée dans un demi-plan. Pendant que la créature est emprisonnée, une image déformée de celle-ci peut être vue sur la surface bidimensionnelle de la fractine.\nLe démiplan se déplace avec la fractine, a des murs indestructibles et opaques, et est seulement aussi grand qu'il doit être pour contenir la cible, qui ne souffre pas de faim ou de soif pendant qu'il est emprisonné. Aucune autre créature ne peut entrer dans le démiplan, et la fractine ne peut pas être blessée de l'intérieur du démiplan.\nLa fractine ne peut emprisonner qu'une créature à la fois et peut libérer cette créature sous forme d'action bonus. Si la fractine est réduite à 0 points de vie, toute créature dans le démiplan de la fractine est libérée instantanément. Une créature libérée réapparaît dans un espace inoccupé aussi près de la fractine (ou là où elle est morte) que possible. Une créature peut laisser le démiplane seule en utilisant la magie qui permet le voyage planaire, comme le sort Changement de plan.",
+ "reactions": "**Dégâts aux miroirs.** En réponse à être endommagé par une créature, il peut voir en 36 m de lui-même, la fractine force cette créature à faire un DD 16 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 24 (8d6) dégâts de force. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts.\n**Séparer.** Lorsqu'une grande fractine qui a au moins 10 points de vie restant prend du bludgung, du perçage, du slashing, ou dégâts de tonnerre de n'importe quelle source, elle se divise en deux fractines moyennes. Les nouvelles fractines occupent l'espace autrefois occupé par la fractine originale, et chaque nouvelle fractine a points de vie égal à la moitié de l'original, arrondi vers le bas. Si la fractine originale avait une créature piégée dans son demi-plan, cette créature est libérée lorsque la fractine se sépare, réapparaissant dans un espace inoccupé aussi près que possible des nouvelles fractines."
+}

@@ -1,0 +1,43 @@
+{
+ "id": "xazax-le-eyemonger",
+ "name": "Xazax the Eyemonger",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 180,
+ "hpFormula": "19d10+76",
+ "vitesse": "0 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 22",
+ "languages": "profond, commun des profondeurs",
+ "traits": "**Cône antimagique.** L'œil central de Xazax crée une zone d'antimagique, comme dans le sort Champ antimagie, dans un cône 45 m. Au début de chacun de ses tours, Xazax décide de la façon dont le cône se présente et si le cône est actif. La zone fonctionne contre les propres rayons oculaires de Xazax.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 14 (4d6) dégâts perforants.\n**Rayons oculaires.** Xazax tire trois des rayons oculaires magiques suivants au hasard (reroulement des duplicatas), en choisissant une ou trois cibles qu'il peut voir dans 36 m de lui:\n- **1. Rayon de charme** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être charmé par Xazax pendant 1 heure, ou jusqu'à ce que Xazax lui fasse du mal.\n- **2. Ray paralysant** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **3. Peur Ray** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **4. Rayon lent** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, la vitesse de la cible est réduite de moitié pendant 1 minute. En outre, la créature ne peut pas prendre de réactions, et elle peut prendre soit une action, soit une action bonus à son tour, pas les deux. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **5. Rayon d'énervation** La créature ciblée doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 36 (8d8) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **6. Rayon télékinétique** Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Force ou Xazax le déplace vers 9 m dans n'importe quelle direction. C'est entravé par la poignée télékinétique du rayon jusqu'au début du prochain tour de Xazax ou jusqu'à ce que Xazax soit neutralisé. Si la cible est un objet pesant 150 kg ou moins qui n'est pas porté ou transporté, elle est déplacée vers 9 m dans n'importe quelle direction. Xazax peut également exercer un contrôle fin sur les objets avec ce rayon, comme manipuler un outil simple ou ouvrir une porte ou un conteneur.\n- **7. Rayon de sommeil** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou s'endormir et rester inconscient pendant 1 minute. La cible se réveille si elle prend des dégâts ou si une autre créature prend une action pour la réveiller. Ce rayon n'a aucun effet sur les constructions et les morts-vivants.\n- **8. Rayon de pétrification** La créature ciblée doit faire un DD 16 jet de sauvegarde de Dextérité. Sur un sauvetage raté, la créature commence à se tourner vers la pierre et est entravé. Il doit répéter le jet de sauvegarde à la fin de son prochain tour. Sur un succès, l'effet se termine. En cas d'échec, la créature est pétrifié jusqu'à ce qu'elle soit libérée par le sort Restauration supérieure ou toute autre magie.\n- **9. Rayon de désintégration** Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 45 (10d8) dégâts de force. Si ce dégâts réduit la créature à 0 points de vie, son corps devient un tas de poussières grises fines. Si la cible est un objet non-magique ou plus petit ou une création de force magique, elle est désintégrée sans jet de sauvegarde. Si la cible est un objet énorme ou plus grand ou une création de force magique, ce rayon désintègre un cube de 3 m.\n- **10. Rayon de la mort** La créature ciblée doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 55 (10d10) dégâts nécrotiques. La cible meurt si le rayon la réduit à 0 points de vie.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "4d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/937ec54a7b_monstre-xazax-le-eyemonger.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Xazax le Eyemonger",
+ "caNote": "armure naturelle",
+ "saves": "INT +8, SAG +7, CHA +8",
+ "skills": "Perception +12",
+ "conditionImmunities": "à terre",
+ "legendary": "Xazax peut prendre 3 actions légendaires, en utilisant l'option Rayon Eye ci-dessous. Il ne peut prendre qu'une action légendaire à la fois et seulement à la fin du tour d'une autre créature. Xazax retrouve des actions légendaires au début de son tour.\n**Rayon oculaire.** Xazax utilise un rayon oculaire aléatoire."
+}

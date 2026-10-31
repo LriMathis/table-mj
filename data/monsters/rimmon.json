@@ -1,0 +1,49 @@
+{
+ "id": "rimmon",
+ "name": "Rimmon",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 17,
+ "hp": 262,
+ "hpFormula": "25d8+150",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 17,
+  "CON": 22,
+  "INT": 27,
+  "SAG": 25,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 23",
+ "languages": "céleste, commun, draconique, infernal, télépathie 36 m",
+ "traits": "**Obligés contractuellement.** Rimmon a l'avantage de frapper des créatures sous un contrat infernal et quand il frappe de telles créatures, il livre 9 (2d8) de plus de dégâts d'un type à laquelle la cible est la plus vulnérable. Une créature liée par un contrat infernal fait également tout jet de sauvegarde contre les effets provenant de Rimmon avec désavantage.\n**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure de Rimmon.\n**Résistance magique.** Rimmon a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Rimmon fait quatre attaques de langue aiguisée ou de jeu de mots.\n**Langue aiguisée.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 11 (3d4 + 4) dégâts tranchants.\n**Jeu de mots.** Attaque de sort à distance : +14 au toucher, portée 18 m, une cible. Touché : 35 (6d8 + 8) dégâts psychiques.\n**Clauses connectées (1/jour).** Rimmon émet une explosion d'énergie qui s'élève vers une créature qu'il peut voir au sein de 45 m de lui. Trois boulons passent ensuite de cette cible à trois autres cibles, dont chacune doit se situer à l'intérieur de 9 m de la première cible. Une cible doit faire un DD 22 jet de sauvegarde de Dextérité, en prenant 63 (14d8) dégâts en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Le type de dégâts infligé est du type auquel la première cible est la plus vulnérable.",
+ "attacks": [
+  {
+   "name": "Langue aiguisée",
+   "bonus": 10,
+   "damage": "3d4+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Jeu de mots",
+   "bonus": 14,
+   "damage": "6d8+8",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/6fbbc0e19b_monstre-rimmon.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, INT +14, SAG +13",
+ "skills": "Arcanes +20, Histoire +20, Investigation +14, Perception +13, Escamotage +9",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

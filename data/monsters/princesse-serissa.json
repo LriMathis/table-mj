@@ -1,0 +1,49 @@
+{
+ "id": "princesse-serissa",
+ "name": "Princess Serissa",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique bon",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 14,
+ "hp": 200,
+ "hpFormula": "20d12+100",
+ "vitesse": "15 m, nage 15 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Perception passive 19",
+ "languages": "commun, géant",
+ "traits": "**Amphibie.** Serissa peut respirer l'air et l'eau.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Serissa est Charisme (sorption sauvegardez DD 17). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection de la magie, Feuille morte, Lévitation, Lumière\n- 3/jour chacun : Contrôle du climat, Respiration aquatique",
+ "actionsText": "**Multiattaques.** Serissa fait deux attaques de maul.\n**Maul.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 30 (6d6 + 9) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +14 au toucher, portée 18/72 m., une cible. Touché : 35 (4d12 + 9) dégâts contondants.\n**foudre Strike (Recharge 5-6).** Serissa lance un éclair magique à un point qu'il peut voir dans 150 m de lui. Chaque créature dans 3 m de ce point doit faire un DD 17 jet de sauvegarde de Dextérité, en prenant 54 (12d8) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 14,
+   "damage": "6d6+9",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 14,
+   "damage": "4d12+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0dd2b920e6_monstre-princesse-serissa.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Princesse Serissa",
+ "caNote": "Cache l'armure",
+ "saves": "FOR +14, CON +10, SAG +9, CHA +9",
+ "skills": "Arcanes +8, Athlétisme +14, Histoire +8, Perception +9",
+ "resistances": "froid",
+ "immunities": "foudre, tonnerre"
+}

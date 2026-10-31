@@ -1,0 +1,46 @@
+{
+ "id": "ecclesiastique",
+ "name": "Ecclésiastique",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 13
+ },
+ "skills": "Médecine +7, Perception +5, Religion +5",
+ "senses": "Perception passive 15",
+ "languages": "commun et une autre langue",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le prêtre effectue deux attaques, réparties à sa guise entre Masse d’armes et Flamme radiante.\n**Masse d’armes.** Corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts contondants plus 5 (2d4) dégâts radiants.\n**Flamme radiante.** À distance : +5, portée 18 m. Touché : 11 (2d10) dégâts radiants.\n**Incantation.** Le prêtre lance l’un des sorts suivants, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde 13) :\n- À volonté : *lumière*, *thaumaturgie*\n- 1/jour : *esprits gardiens*",
+ "bonusActions": "**Soutien divin (3/jour).** Le prêtre lance *bénédiction*, *dissipation de la magie*, *mot de guérison* ou *restauration partielle*, avec la même caractéristique d’incantation que pour Incantation.",
+ "attacks": [
+  {
+   "name": "Masse d’armes",
+   "bonus": 5,
+   "damage": "1d6+3+2d4",
+   "type": "contondant + radiant"
+  },
+  {
+   "name": "Flamme radiante",
+   "bonus": 5,
+   "damage": "2d10",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/8ddc342ef3_monstre-ecclesiastique.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr",
+ "aka": "Prêtre (2024)"
+}

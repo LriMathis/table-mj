@@ -1,0 +1,45 @@
+{
+ "id": "ver-pourpre",
+ "name": "Ver pourpre",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "non alignée",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 247,
+ "hpFormula": "15d20+90",
+ "vitesse": "15 m, creusement 15 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 7,
+  "CON": 22,
+  "INT": 1,
+  "SAG": 8,
+  "CHA": 4
+ },
+ "saves": "CON +11, SAG +4",
+ "senses": "Vision aveugle 9 m, Perception des vibrations 18 m, Perception passive 9",
+ "languages": "aucune",
+ "traits": "**Fouisseur.** Le ver peut creuser à travers la roche à concurrence de la moitié de sa Vitesse de fouissement, en laissant un tunnel de 3 m de diamètre dans son sillage.",
+ "actionsText": "**Attaques multiples.** Le ver effectue une attaque de Dard caudal et une de Morsure.\n**Dard caudal.** Corps à corps : +14, allonge 3 m. Touché : 16 (2d6 + 9) dégâts perforants plus 35 (10d6) dégâts de poison.\n**Morsure.** Corps à corps : +14, allonge 3 m. Touché : 22 (3d8 + 9) dégâts perforants. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 19), ainsi que l’état Entravé tant qu’elle est Agrippée.",
+ "bonusActions": "**Engloutissement.** JS Force : DD 19, une créature de taille G ou inférieure Agrippée par le ver (qui peut contenir simultanément un maximum de trois créatures). Échec : la cible est engloutie par le ver, et l’état Agrippé prend fin. Une créature engloutie subit les états Aveuglé et Entravé, bénéficie d’un Abri total contre les attaques et effets émanant de l’extérieur du ver et subit 17 (5d6) dégâts d’acide au début de chacun des tours du ver.\nSi le ver subit 30 dégâts ou plus lors d’un même tour de la part d’une créature engloutie, il doit réussir un jet de sauvegarde de Constitution DD 21 à la fin de ce tour sous peine de régurgiter toutes les créatures englouties, chacune tombant dans un espace situé dans un rayon de 1,50 m du ver et subissant l’état À terre. Si le ver meurt, les créatures englouties ne subissent plus l’état Entravé et peuvent s’extraire du cadavre en dépensant 6 m de déplacement, pour se retrouver avec l’état À terre.",
+ "attacks": [
+  {
+   "name": "Dard caudal",
+   "bonus": 14,
+   "damage": "2d6+9+10d6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 14,
+   "damage": "3d8+9",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/984ffa2cec_monstre-ver-pourpre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 303"
+}

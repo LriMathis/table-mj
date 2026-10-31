@@ -1,0 +1,41 @@
+{
+ "id": "boue-hulk",
+ "name": "Mud Hulk",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 9,
+  "CHA": 6
+ },
+ "senses": "Perception passive 9",
+ "languages": "géant, terreux",
+ "traits": "**Amorphe.** La coque de boue peut se déplacer dans un espace aussi étroit que 1 pouce sans serrer.\n**Mouche collante.** Le sol à l'intérieur de 4,50 m de l'hulk de boue est un terrain difficile pour d'autres créatures.",
+ "actionsText": "**Envelopper Slam.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 9 (1d12 + 3) dégâts contondants. Si la cible est une créature grande ou plus petite, elle doit réussir sur une DD 13 jet de sauvegarde de Force ou être tirée dans l'espace de la boue et être engloutie par la boue. Bien qu'engouffrée, la cible ne peut pas respirer, a l'état entravé, et prend 6 (1d12) dégâts d'acide au début de chacun de ses tours. Quand la boue bouge, la cible engloutie se déplace avec elle. La coque de boue peut avoir seulement une cible engloutie à la fois. Alors qu'une créature est engloutie, la hulk de boue ne peut pas utiliser son caractère amorphe.\nUne cible engloutie peut répéter le jet de sauvegarde à la fin de chacun de ses tours. Sur une sauvegarde réussie, la cible s'échappe et pénètre dans l'espace inoccupé le plus proche.\n**Couche de boue.** La boue lobe une masse de boue qui éclabousse dans une sphère 3 m -radius centrée sur un point à l'intérieur de 9 m de la boue hulk. Chaque créature dans cette zone doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 10 (2d6 + 3) dégâts contondants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. La zone affectée est un terrain difficile jusqu'au prochain virage de la hulk de boue.",
+ "attacks": [
+  {
+   "name": "Envelopper Slam",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/017cf1688b_monstre-boue-hulk.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Boue Hulk",
+ "caNote": "armure naturelle",
+ "resistances": "acide",
+ "conditionImmunities": "épuisement, paralysé"
+}

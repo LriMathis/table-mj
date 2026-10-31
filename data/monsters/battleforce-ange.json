@@ -1,0 +1,43 @@
+{
+ "id": "battleforce-ange",
+ "name": "Battleforce Angel",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m, vol 27 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 36 m, Perception passive 16",
+ "languages": "tous",
+ "traits": "**Volée.** L'ange ne provoque pas une attaque d'opportunité quand il vole hors de la portée d'un ennemi.\n**Résistance magique.** L'ange a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'ange fait deux attaques à la mêlée. Il utilise également Battlefield Inspiration.\n**Mot long.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains, plus 18 (4d8) dégâts radiants. Si la cible se trouve à l'intérieur de 1,50 m de l'un des alliés de l'ange, la cible prend un 2 (1d4) dégâts radiants supplémentaire.\n**Inspiration du champ de bataille.** L'ange choisit jusqu'à trois créatures qu'il peut voir dans 9 m de lui. Jusqu'à la fin du prochain tour de l'ange, chaque cible peut ajouter un d4 à ses jets d'attaque et jet de sauvegarde.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/3d09c1343d_monstre-battleforce-ange.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Battleforce ange",
+ "caNote": "Armure de plaque",
+ "saves": "SAG +6, CHA +7",
+ "skills": "Investigation +3, Perception +6",
+ "resistances": "feu, radiant",
+ "conditionImmunities": "charmé, épuisement, effrayé"
+}

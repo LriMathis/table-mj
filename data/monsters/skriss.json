@@ -1,0 +1,45 @@
+{
+ "id": "skriss",
+ "name": "Skriss",
+ "type": "Humanoïde (Troglodyte)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "Troglodyte, nain, elfique, commun des profondeurs",
+ "traits": "**Peau de caméléon.** Skriss a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher.\n**Poignée.** Toute créature autre qu'un troglodyte qui commence son tour dans 1,50 m de Skriss doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné jusqu'au prochain tour de la créature. Sur un jet de sauvegarde réussi, la créature est immunisée contre la puanteur de tous les troglodytes pendant 1 heure.\n**Sensibilité à la lumière du soleil.** En plein soleil, Skriss a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Découpe intérieure.** Skriss peut lancer innéement peut lancer le sort Téléportation une fois par jour, mais la destination prévue doit être à l'intérieur de 9 m d'un autre 1. Cet effet de téléportation peut être perturbé (voir « 1 »), c'est ainsi que les membres de la société se retrouvent parfois dans des coins lointains de l'Underdark, séparés de leurs semblables.\n- 1/jour chacun : Téléportation",
+ "actionsText": "**Multiattaques.** Skriss fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/6609c335db_monstre-skriss.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +2"
+}

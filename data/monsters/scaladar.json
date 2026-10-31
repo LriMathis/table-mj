@@ -1,0 +1,47 @@
+{
+ "id": "scaladar",
+ "name": "Scaladar",
+ "type": "Créature artificielle",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 19,
+ "hp": 94,
+ "hpFormula": "7d12+49",
+ "vitesse": "9 m, escalade 6 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 25,
+  "INT": 1,
+  "SAG": 12,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**foudre absorption.** Chaque fois que le scaladar est soumis à dégâts de foudre, il ne prend aucun dégâts, et son piquement fournit un 11 (2d10) dégâts de foudre supplémentaire jusqu'à la fin de son prochain tour.\n**Lien Scaladar.** Le scaladar connaît l'emplacement d'autres scaladar dans 30 m de lui, et il peut sentir quand l'un d'eux prend des dégâts.",
+ "actionsText": "**Multiattaques.** Le scaladar fait trois attaques : deux avec ses griffes et une avec sa piqûre.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 10 (1d12 + 4) dégâts contondants, et la cible est agrippé (évasion DD 15). Le scaladar a deux griffes, chacune pouvant battre une cible.\n**Sting.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 9 (1d10 + 4) dégâts perforants plus 11 (2d10) dégâts de foudre.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "1d12+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Sting",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "perforant + foudre"
+  }
+ ],
+ "portrait": "/data/images/c7a3573e2e_monstre-scaladar.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "feu, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "force, foudre, poison",
+ "conditionImmunities": "charmé, paralysé, empoisonné"
+}

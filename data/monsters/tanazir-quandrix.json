@@ -1,0 +1,48 @@
+{
+ "id": "tanazir-quandrix",
+ "name": "Tanazir Quandrix",
+ "type": "Dragon (magicien)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal neutre",
+ "cr": "24",
+ "xp": 62000,
+ "ca": 21,
+ "hp": 444,
+ "hpFormula": "24d20+192",
+ "vitesse": "12 m, vol 24 m (vol stationnaire)",
+ "stats": {
+  "FOR": 28,
+  "DEX": 14,
+  "CON": 27,
+  "INT": 28,
+  "SAG": 18,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 28",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Tanazir échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Tanazir fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +16 au toucher, allonge 4,50 m, une cible. Touché : 14 (1d10 + 9) dégâts perforants plus 7 (2d6) dégâts de force.\n**Griffe.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 16 (2d6 + 9) dégâts tranchants. Si la cible est une créature, elle est ajoutée par des pensées récursives, réduisant sa vitesse à 0 jusqu'au début du prochain tour de Tanazir.\n**Diminution de la respiration (Recharge 5-6).** Tanazir exhale une équation d'affaiblissement dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 23 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, une créature prend 45 (13d6) dégâts de force et 45 (13d6) dégâts psychiques et est affaiblie jusqu'au prochain tour de Tanazir. Bien qu'affaibli, il a un désavantage sur les rouleaux suivants qui dépendent de Force : jets d'attaque, tests de caractéristique et jet de sauvegarde. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas affaiblie.\n**Téléportation.** Tanazir téléporte dans un espace inoccupé qu'elle peut voir au sein de 30 m d'elle-même.\n**Détection orthographique.** Tanazir lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 24) :\n- 1/jour chacun : Divination, Agrandissement/Rapetissement, Mirage (en tant qu'action), Métamorphose, Scrutation (en tant qu'action), Apparence trompeuse",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 16,
+   "damage": "1d10+9",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 16,
+   "damage": "2d6+9",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/cb8b631726_monstre-tanazir-quandrix.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +15, SAG +11, CHA +10",
+ "skills": "Arcanes +23, Investigation +23, Nature +16, Perception +18",
+ "immunities": "force, psychique",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, tanazir quandrix peut entreprendre l'une des actions ci-après.\n**Griffe.** Tanazir fait une attaque de griffe.\n**Espace pliable (coûts 2 actions).** Tanazir utilise Teleport, et chaque créature dans 6 m de l'espace qu'elle a quitté doit réussir sur un DD 24 jet de sauvegarde de Force ou être tiré vers 9 m plus près du centre de cet espace et prendre 16 (3d10) dégâts de force.\n**Réfraction fractale (coûts 3 actions).** Tanazir invoque magiquement des mascottes fractales 1d4 dans des espaces inoccupés qu'elle peut voir au sein de 36 m elle-même. Les fractales obéissent à ses ordres et se relaient immédiatement après les siennes. Alors que l'une de ces fractales reste, jets d'attaque fait contre Tanazir ont un désavantage. Une fractale appelée disparaît après 1 minute, quand elle ou Tanazir meurt, ou quand elle recourt à cette action."
+}

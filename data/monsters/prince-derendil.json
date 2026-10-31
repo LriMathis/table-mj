@@ -1,0 +1,41 @@
+{
+ "id": "prince-derendil",
+ "name": "Prince Derendil",
+ "type": "Humanoïde (Quaggot)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Fureur blessé.** Bien qu'il ait 10 points de vie ou moins, Prince Derendil a un avantage sur jets d'attaque. En outre, il inflige un 7 (2d6) de dégâts supplémentaires à toute cible qu'il frappe avec une attaque de mêlée.",
+ "actionsText": "**Multiattaques.** Le prince Derendil fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/861651f1ea_monstre-prince-derendil.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

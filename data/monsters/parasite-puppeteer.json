@@ -1,0 +1,45 @@
+{
+ "id": "parasite-puppeteer",
+ "name": "Puppeteer Parasite",
+ "type": "Aberration",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 71,
+ "hpFormula": "11d4+44",
+ "vitesse": "3 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 2,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 16,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "télépathie 9 m",
+ "traits": "**Nature inhabituelle.** Le parasite n'a pas besoin d'air ou de sommeil.",
+ "actionsText": "**Clings.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 12 (3d6 + 2) dégâts nécrotiques, et le parasite se fixe à la cible. Le parasite ne peut pas attaquer Cling. Le parasite peut se détacher en dépensant 1,50 m de son mouvement. En action, une créature à la portée du parasite peut essayer de la détacher, ce faisant avec un DD 14 test de Force réussi.\n**Consommer la vie.** Le parasite traite 12 (3d6 + 2) dégâts nécrotiques à une créature il est physiquement attaché à, à condition que la créature n'est pas un Construct ou un mort-vivant. Le parasite retrouve points de vie égal aux dégâts subis.",
+ "attacks": [
+  {
+   "name": "Clings",
+   "bonus": 4,
+   "damage": "3d6+2",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/7a8ce1ee56_monstre-parasite-puppeteer.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 1: Spelljammer Creatures (5e.tools, traduction automatique)",
+ "aka": "Parasite Puppeteer",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +6, SAG +2",
+ "skills": "Discrétion +4",
+ "vulnerabilities": "radiant",
+ "resistances": "feu, nécrotique, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "bonusActions": "**Suggestions (Psioniques); 1/Jour).** Le parasite lance le sort Suggestion, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 13)."
+}

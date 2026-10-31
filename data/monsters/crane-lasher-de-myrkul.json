@@ -1,0 +1,46 @@
+{
+ "id": "crane-lasher-de-myrkul",
+ "name": "Skull Lasher of Myrkul",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Perception passive 11",
+ "languages": "abyssal, commun, infernal",
+ "traits": "**Détection orthographique.** La lasher du crâne est un épeautre de niveau 3. Son caractéristique d'incantation est Sagesse (save spell DD 13, +5 au toucher avec attaques de sort). Il a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Main de mage, Message, Prestidigitation\n- Niveau 1 (4 emplacements) : Détection de la magie, Protection contre le mal et le bien, Rayon empoisonné (voir \"Actions\" ci-dessous), Bouclier\n- Niveau 2 (2 emplacements) : Ténèbres, Foulée brumeuse",
+ "actionsText": "**Multiattaques.** La lasher du crâne fait deux attaques avec son échec.\n**Crâne de fer.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d8) dégâts contondants plus 7 (2d6) dégâts nécrotiques, et la cible a un désavantage sur tous les jet de sauvegarde jusqu'à la fin du prochain tour du crâne de Lasher.\n**Rayon de maladie (de niveau 1 Spell; Nécessite un emplacement de sort).** Attaque de sort à distance : +5 au toucher, portée 18 m, une créature. Touché : 9 (2d8) dégâts de poison, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné jusqu'à la fin du prochain tour du crâne. Si le crâne laser jette ce sort en utilisant un emplacement de sort de niveau 2 ou plus, les dégâts augmentent de 1d8 pour chaque niveau d'emplacement au-delà du niveau 1.",
+ "attacks": [
+  {
+   "name": "Crâne de fer",
+   "bonus": 2,
+   "damage": "1d8",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Rayon de maladie (de niveau 1 Spell; Nécessite un emplacement de sort)",
+   "bonus": 5,
+   "damage": "2d8",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/b123997308_monstre-crane-lasher-de-myrkul.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Crâne Lasher de Myrkul",
+ "saves": "SAG +3",
+ "skills": "Arcanes +5, Religion +5"
+}

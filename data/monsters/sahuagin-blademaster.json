@@ -1,0 +1,52 @@
+{
+ "id": "sahuagin-blademaster",
+ "name": "Sahuagin Blademaster",
+ "type": "Humanoïde (sahuagine)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 20,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "9 m, nage 12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "sahuagin",
+ "traits": "**Frénésie sanguine.** Le maître de lame a avantage sur melee jets d'attaque contre toute créature qui n'a pas toute sa points de vie.\n**Amphibie limitée.** Le maître de la lame peut respirer de l'air et de l'eau, mais il doit être submergé au moins une fois toutes les 4 heures pour éviter l'étouffement.\n**Télépathie des requins.** Le maître de la lame peut par magie commander n'importe quel requin dans 36 m de lui, en utilisant une télépathie limitée.",
+ "actionsText": "**Multiattaques.** Le maître de lame fait trois attaques avec sa lame de coupe d'onde, ou une attaque avec sa morsure et deux avec ses griffes.\n**Lame de coupe-vagues.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts tranchants.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Lame de coupe-vagues",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d10+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d89032f6dd_monstre-sahuagin-blademaster.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque, Bouclier",
+ "saves": "FOR +6, CON +5",
+ "skills": "Athlétisme +6, Intimidation +4"
+}

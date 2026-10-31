@@ -1,0 +1,45 @@
+{
+ "id": "pretresse-sahuagine",
+ "name": "Prêtresse sahuagine",
+ "type": "Humanoïde (sahuagin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "caNote": "armure naturelle",
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m, nage 12 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "skills": "Perception +6, Religion +3",
+ "senses": "vision dans le noir 36 m, Perception passive 16",
+ "languages": "sahuagin",
+ "traits": "**Amphibie limitée.** La sahuagine peut respirer dans l'air et dans l'eau, mais elle a besoin de s'immerger au moins une fois toutes les 4 heures pour éviter de s'asphyxier.\n**Frénésie sanguinaire.** La sahuagine est avantagée lors des jets d'attaque effectués contre les créatures qui n'ont pas la totalité de leurs points de vie.\n**Incantation.** La sahuagine est une lanceuse de sorts de niveau 6 qui utilise la Sagesse comme caractéristique d'incantation (DD des jets de sauvegarde contre les sorts 12, +4 pour toucher avec une attaque de sort). Elle a préparé les sorts de prêtre suivants :\n- Tours de magie (à volonté) : *assistance, thaumaturgie*\n- Niveau 1 (4 emplacements) : *balisage, bénédiction, détection de la magie*\n- Niveau 2 (3 emplacements) : *arme spirituelle (trident), immobiliser un humanoïde*\n- Niveau 3 (3 emplacements) : *langues, mot de guérison de groupe*\n**Télépathie avec les requins.** Grâce à ce pouvoir de télépathie limitée, la sahuagine peut donner des ordres par magie à n'importe quel requin situé à 36 mètres ou moins d'elle.",
+ "actionsText": "**Attaques multiples.** La sahuagine effectue deux attaques au corps à corps : une avec sa morsure et une avec ses griffes.\n**Griffes.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 3 (1d4+1) dégâts tranchants.\n**Morsure.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 3 (1d4+1) dégâts perforants.",
+ "portrait": "/data/images/4254c0bd5e_monstre-pretresse-sahuagine.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 261 · image : Manuel des monstres p. 260",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morsure",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ]
+}

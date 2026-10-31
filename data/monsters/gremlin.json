@@ -1,0 +1,37 @@
+{
+ "id": "gremlin",
+ "name": "Gremlin",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 13,
+  "CON": 13,
+  "INT": 3,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Aether Scent.** Le gremlin peut identifier, par parfum, l'emplacement de l'éther raffiné ou non raffiné dans 9 m de celui-ci.",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants.\n**Siphon.** Le gremlin draine l'éther d'un dispositif alimenté par l'éther qu'il peut voir dans 1,50 m de celui-ci. Si l'objet n'est pas porté ou transporté, le toucher draine automatiquement l'éther. Si l'objet est porté ou porté par une créature, la créature doit réussir sur un DD 11 jet de sauvegarde de Dextérité pour le garder hors de portée du gremlin.\nSi l'appareil alimenté par l'éther accorde un bonus (à jets d'attaque, jets de dégâts, classe d'armure, etc.), ce bonus est réduit de 1. Si l'appareil a des charges, il perd 1 charge. Sinon, il cesse de fonctionner pendant 1 tour. A gauche sans entrave, un gremlin peut complètement détruire un appareil à l'éther.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8afd629c2d_monstre-gremlin.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)"
+}

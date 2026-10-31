@@ -1,0 +1,41 @@
+{
+ "id": "debut-du-comet",
+ "name": "Initiate of the Comet",
+ "type": "Humanoïde (occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Perception passive 11",
+ "languages": "Commun plus une langue",
+ "traits": "**Résistance magique.** L'initié a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'initié fait deux attaques Comet Strike.\n**Grève de la comète.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 14 (2d10 + 3) dégâts de force.\n**Détection orthographique.** L'initié lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Main de mage, Thaumaturgie\n- 1/jour chacun : Porte dimensionnelle, Divination, Discours captivant",
+ "attacks": [
+  {
+   "name": "Grève de la comète",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/e916b4f2fd_monstre-debut-du-comet.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Début du Comet",
+ "saves": "SAG +3, CHA +5",
+ "skills": "Arcanes +2",
+ "reactions": "**Moment de prospective (1/jour).** Lorsqu'il est frappé par un jet d'attaque, l'initié peut forcer l'attaquant à le rerouler et à utiliser le nouveau rouleau, ce qui peut faire passer l'attaque."
+}

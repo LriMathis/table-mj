@@ -1,0 +1,38 @@
+{
+ "id": "serpent-constricteur",
+ "name": "Serpent constricteur",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "2d10+2",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "skills": "Discrétion +4, Perception +2",
+ "senses": "Vision aveugle 3 m, Perception passive 12",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts perforants.\n**Constriction.** JS Force : DD 12, une créature de taille M ou inférieure que le serpent voit dans un rayon de 1,50 m. Échec : 7 (3d4) dégâts contondants, et la cible subit l’état Agrippé (évasion DD 12).",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ba7cc1c5df_monstre-serpent-constricteur.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

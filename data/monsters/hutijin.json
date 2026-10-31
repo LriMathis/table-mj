@@ -1,0 +1,63 @@
+{
+ "id": "hutijin",
+ "name": "Hutijin",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 19,
+ "hp": 200,
+ "hpFormula": "16d10+112",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 15,
+  "CON": 25,
+  "INT": 23,
+  "SAG": 19,
+  "CHA": 25
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Despair infernal.** Chaque créature dans 9 m de Hutijin qui n'est pas un diable fait jet de sauvegarde avec désavantage.\n**Résistance légendaire (3/jour).** Si Hutijin échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Hutijin a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** Hutijin retrouve 20 points de vie au début de son tour. S'il prend dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Hutijin meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Hutijin fait une attaque Bite, une attaque Claw, une attaque Mace, et une attaque Tail.\n**Morceau.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d6 + 8) dégâts de feu. La cible doit réussir sur un DD 22 jet de sauvegarde de Constitution ou devenir empoisonné. Alors qu'empoisonné de cette façon, la cible ne peut pas récupérer points de vie, et il prend 10 (3d6) dégâts de poison au début de chacun de ses tours. La cible empoisonné peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Griffe.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 17 (2d8 + 8) dégâts de froid.\n**Mace.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d6 + 8) dégâts de force.\n**Queue.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 19 (2d10 + 8) dégâts de tonnerre.\n**Téléportation.** Hutijin téléporte, avec tout équipement qu'il porte et transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.\n**Détection orthographique.** Hutijin lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 22) :\n- À volonté : Modification d'apparence (peut devenir moyen en changeant son apparence), Détection de la magie, Immobilisation de monstre, Invisibilité (autoseulement), Éclair, Suggestion, Mur de feu\n- 3/jour : Dissipation de la magie",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 15,
+   "damage": "2d6+8",
+   "type": "feu + poison"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 15,
+   "damage": "2d8+8",
+   "type": "froid"
+  },
+  {
+   "name": "Mace",
+   "bonus": 15,
+   "damage": "2d6+8",
+   "type": "force"
+  },
+  {
+   "name": "Queue",
+   "bonus": 15,
+   "damage": "2d10+8",
+   "type": "tonnerre"
+  }
+ ],
+ "portrait": "/data/images/acc4735386_monstre-hutijin.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +14, SAG +11",
+ "skills": "Intimidation +14, Perception +11",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "reactions": "**Voix craintive (Recharge 5-6).** En réponse à la prise de dégâts, Hutijin prononce une terrible parole de pouvoir. Chaque créature au sein de 9 m de lui qui n'est pas un diable doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou devenir effrayé de lui pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Une créature qui sauve contre cet effet est à l'abri de sa Voix craintive pendant 24 heures.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, hutijin peut entreprendre l'une des actions ci-après.\n**Attaque.** Hutijin fait une seule griffe, Mace, ou Tail attaque.\n**Téléportation.** Hutijin utilise Teleport.\n**Tempête de foudre (coûts 2 actions).** Hutijin libère la foudre dans un rayon de 9 m, bloqué seulement par 3. Toutes les autres créatures dans cette zone doivent chacune faire un DD 22 jet de sauvegarde de Dextérité, en prenant 18 (4d8) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

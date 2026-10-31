@@ -1,0 +1,48 @@
+{
+ "id": "championne",
+ "name": "Champion",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 143,
+ "hpFormula": "22d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Perception passive 16",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Indominable (2/jour).** Le champion rerolle un jet de sauvegarde raté.",
+ "actionsText": "**Multiattaques.** Le champion fait trois Grandes épées ou Shortbow attaques.\n**Grande épée.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants, plus 7 (2d6) dégâts tranchants si le champion a plus de la moitié de son points de vie total restant.\n**Saubèche.** Attaque d'arme à distance : +6 au toucher, portée 24/96 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, plus 7 (2d6) dégâts perforants si le champion a plus de la moitié de son points de vie total restant.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 6,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/be4eda2ebf_monstre-championne.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Championne",
+ "caNote": "plaque",
+ "saves": "FOR +9, CON +6",
+ "skills": "Athlétisme +9, Intimidation +5, Perception +6",
+ "bonusActions": "**Deuxième vent (recharge après un repos court ou long).** Le champion retrouve 20 points de vie."
+}

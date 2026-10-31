@@ -1,0 +1,50 @@
+{
+ "id": "affliction-diable-kocrachon",
+ "name": "Affliction Devil (Kocrachon)",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 20,
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "9 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 19,
+  "CON": 15,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure du kocrachon.\n**Rotule infernale.** Une créature affligée par ce maladie a l'état empoisonné jusqu'à ce que le maladie se termine. Bien que malade, les créatures ne bénéficient pas d'un repos long, gagnant épuisement si nécessaire. Si une créature meurt alors qu'elle souffre de la rotule infernale, son corps se transforme en kocrachon nouveau-né après 4 (1d8) jours.\n**Résistance magique.** Le kocrachon a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sadisme.** Le kocrachon gagne un bonus de +1 à l'attaque et jets de dégâts pour chaque créature différente qu'il a endommagé à son tour précédent.",
+ "actionsText": "**Multiattaques.** Le kocrachon fait trois attaques de la griffe. Il peut remplacer une des attaques par une attaque de Proboscis.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.\n**Proboscis.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 10 (1d12 + 4) dégâts perforants plus 14 (4d6) dégâts de poison. Les créatures endommagées par cette attaque doivent réussir sur une DD 16 jet de sauvegarde de Constitution ou subir la Rot Infernale maladie.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Proboscis",
+   "bonus": 8,
+   "damage": "1d12+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/9c5034e87b_monstre-affliction-diable-kocrachon.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Affliction diable ( Kocrachon )",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, INT +7",
+ "skills": "Tromperie +6, Intimidation +6, Perception +5, Discrétion +8",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "froid, feu, poison",
+ "conditionImmunities": "empoisonné"
+}

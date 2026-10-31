@@ -1,0 +1,40 @@
+{
+ "id": "servitor-thrull",
+ "name": "Servitor Thrull",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 22,
+ "hpFormula": "4d6+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 6,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/794628e867_monstre-servitor-thrull.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "reactions": "**Auto-sacrifice.** Lorsqu'une créature de 1,50 m de la thull est frappée par une attaque, la thull échange des places avec cette créature et est frappée à la place."
+}

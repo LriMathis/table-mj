@@ -1,0 +1,37 @@
+{
+ "id": "vesper-noirval",
+ "name": "Vesper Noirval",
+ "type": "Humanoïde (la Table) ✎",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "attacks": [
+  {
+   "name": "Rapière",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Lame-carte (6/18 m)",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "tranchant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux attaques (rapière ou lames-cartes).\n**Ruse.** Action bonus : Foncer, Se désengager ou Se cacher.\n**Esquive instinctive (réaction).** Divise par deux les dégâts d'une attaque qui la touche, si elle voit l'attaquant.\n**✎ Sortie de table.** Quand elle tombe à la moitié de ses PV ou moins, elle lance une carte fumigène (zone de 3 m de rayon, visibilité nulle) et se replie. Elle ne se bat jusqu'à la mort que si Lucan est menacé.\n**Bavarde.** Une provocation bien sentie (Tromperie ou Intimidation DD 14) lui fait perdre son action bonus au tour suivant.",
+ "portrait": "/data/images/45612e8d14_monstre-bouffon-pale.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

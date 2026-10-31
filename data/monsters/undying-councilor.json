@@ -1,0 +1,44 @@
+{
+ "id": "undying-councilor",
+ "name": "Undying Councilor",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 17,
+  "SAG": 21,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "commun, elfique",
+ "traits": "**Aura de rayonnement.** Le conseiller apporte magiquement une lumière lumineuse dans un rayon de 4,50 m et une lumière faible pour un 4,50 m supplémentaire. Le conseiller peut éteindre ou restaurer cette lumière sous forme d'action bonus. Si la lumière vive se chevauche avec une zone d'obscurité créée par un sort de de niveau 3 ou inférieur, le sort qui a créé cette obscurité est dissipé.\n**Résistance magique.** Le conseiller a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Détection orthographique.** Le conseiller est un épeautre de niveau 13. Son caractéristique d'incantation est Sagesse (save spell DD 17, +9 au toucher avec attaques de sort). Il a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Réparation, Flamme sacrée, Stabilisation, Thaumaturgie\n- Niveau 1 (4 emplacements) : Bénédiction, Injonction, Création ou destruction d'eau\n- Niveau 2 (3 emplacements) : Augure, Apaisement des émotions, Immobilisation de personne\n- Niveau 3 (3 emplacements) : Lumière du jour, Dissipation de la magie, Esprits gardiens\n- Niveau 4 (3 emplacements) : Bannissement, Divination, Gardien de la foi\n- Niveau 5 (2 emplacements) : Dissipation du mal et du bien, Colonne de flamme (voir \"Actions\" ci-dessous), Scrutation\n- Niveau 6 (1 emplacements) : Interdiction, Allié planaire\n- Niveau 7 (1 emplacements) : Changement de plan",
+ "actionsText": "**Multiattaques.** Le conseiller fait deux attaques radiant Touch.\n**Touche radiant.** Attaque de sort au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 15 (3d6 + 5) dégâts radiants.\n**Touche de guérison (3/jour).** Le conseiller touche une autre créature. La cible récupère magiquement 18 (3d8 + 5) points de vie et est libérée d'une malédiction qui l'afflige (le choix du conseiller).\n**Frappe de flamme (de niveau 5 Spell; Nécessite un emplacement de sort).** Le conseiller choisit un point qu'il peut voir à l'intérieur de 18 m. Chaque créature dans un 3 m -radius, 12 m -haut cylindre centré sur ce point doit faire un DD 17 jet de sauvegarde de Dextérité. Une créature prend 14 (4d6) dégâts de feu et 14 (4d6) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si le conseiller lance ce sort en utilisant un emplacement de sort de niveau 6 ou plus, le dégâts de feu ou le dégâts radiants (son choix) augmente de 1d6 pour chaque niveau d'emplacement au-delà du niveau 5.",
+ "attacks": [
+  {
+   "name": "Touche radiant",
+   "bonus": 9,
+   "damage": "3d6+5",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/9a564e4ec2_monstre-undying-councilor.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +6, INT +7, SAG +9",
+ "skills": "Arcanes +7, Histoire +11, Perspicacité +9, Perception +9, Religion +7",
+ "vulnerabilities": "nécrotique",
+ "immunities": "poison, radiant",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (2/round).** Aussitôt après le tour d'une autre créature, undying councilor peut entreprendre l'une des actions ci-après.\n**Toucher.** Le conseiller fait une attaque avec son radiant Touch.\n**Aura qui mijote (coûts 2 actions).** Le conseiller canalise l'énergie positive dans son Aura de Radiance. Jusqu'à la fin du prochain tour du conseiller, il apporte une lumière lumineuse dans un rayon de 9 m et une lumière faible pour un 9 m supplémentaire. Toute créature qui commence son tour dans la lumière vive doit réussir sur un DD 17 jet de sauvegarde de Constitution ou être aveuglé jusqu'à la fin du prochain tour du conseiller."
+}

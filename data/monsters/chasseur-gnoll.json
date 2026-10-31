@@ -1,0 +1,53 @@
+{
+ "id": "chasseur-gnoll",
+ "name": "Gnoll Hunter",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "gnoll",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La gonfle fait deux attaques Bite, Spear ou Longbow.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants lorsqu'il est utilisé avec deux mains pour faire une attaque de mêlée.\n**Longbow.** Attaque d'arme à distance : +4 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants, et la vitesse de la cible est réduite de 3 m jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d3399b1a69_monstre-chasseur-gnoll.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Chasseur gnoll",
+ "caNote": "Armure en cuir",
+ "skills": "Perception +3, Discrétion +4",
+ "bonusActions": "**Rampage.** Après que le gnoll réduit une créature à 0 points de vie avec une attaque à la mêlée sur son tour, le gnoll se déplace jusqu'à la moitié de sa vitesse et fait une attaque Bite."
+}

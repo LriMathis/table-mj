@@ -1,0 +1,43 @@
+{
+ "id": "seigneur-soth",
+ "name": "Lord Soth",
+ "type": "Mort-vivant (paladin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 18,
+ "hp": 228,
+ "hpFormula": "24d8+120",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 11,
+  "CON": 20,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "commun, infernal, Solamique",
+ "traits": "**Résistance légendaire (3/jour).** Si Soth échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Soth a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Le maréchal n'est pas mort.** À moins que Soth soit neutralisé, lui et les créatures non mortes de son choix au sein de 18 m de lui sont immunisés aux caractéristiques qui deviennent non mortes.\n**Nature inhabituelle.** Soth n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Soth fait trois attaques Forsaken Brand.\n**Marque abandonnée.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts contondants plus 18 (4d8) dégâts nécrotiques, et si la cible est une créature, il ne peut pas retrouver points de vie avant le début du prochain tour de Soth.\n**feu cataclysmique (1/jour).** Soth lance une boule de feu magique qui explose à un moment qu'il peut voir dans 36 m de lui-même. Chaque créature dans une sphère 6 m -radius centrée sur ce point doit faire un DD 19 jet de sauvegarde de Dextérité. Une créature prend 35 (10d6) dégâts de feu et 35 (10d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\nDe plus, tout humanoïde moyen ou plus petit tué par ces dégâts, ainsi que tous les cadavres d'une telle créature dans la sphère, devient un squelette (voir le Monster Manual) sous le contrôle de Soth. Le squelette agit sur l'initiative de Soth mais immédiatement après son tour. En l'absence de tout autre commandement, le squelette essaie de tuer toute créature non morte qu'il rencontre.\n**Mot de mort (1/jour).** Soth pointe à une créature qu'il peut voir en 18 m de lui-même et le commande magiquement de mourir. La cible doit faire un DD 19 jet de sauvegarde de Constitution, en prenant 100 dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si ces dégâts réduisent la cible à 0 points de vie, la cible meurt.\n**Détection orthographique.** Soth lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Injonction (châssé à de niveau 3)\n- 1/jour : Bannissement (châssé à de niveau 6)\n- 2/jour chacun : Dissipation de la magie, Immobilisation de personne (châssé à de niveau 3)",
+ "attacks": [
+  {
+   "name": "Marque abandonnée",
+   "bonus": 12,
+   "damage": "1d8+6",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/82516fb369_monstre-seigneur-soth.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Seigneur Soth",
+ "caNote": "plaque",
+ "saves": "DEX +6, SAG +9, CHA +11",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, seigneur soth peut entreprendre l'une des actions ci-après.\n**Manœuvre implacable.** Soth se déplace à sa vitesse ou commande une monture qu'il roule pour aller jusqu'à sa vitesse. Le mouvement de cette action ne provoque pas d'attaques d'opportunité. S'il ou sa monture se déplace dans 1,50 m d'une créature pendant ce mouvement, il peut forcer la créature à faire un DD 20 jet de sauvegarde de Force. La créature est à terre à moins qu'elle ne réussisse sur le jet de sauvegarde.\n**Grève (coûts 2 actions).** Soth fait une attaque de la marque Forsaken.\n**Lancer une éperole (coûts 3 actions).** Soth utilise Spellcasting."
+}

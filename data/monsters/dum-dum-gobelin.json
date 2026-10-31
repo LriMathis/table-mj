@@ -1,0 +1,44 @@
+{
+ "id": "dum-dum-gobelin",
+ "name": "Dum-Dum Goblin",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 7,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 8
+ },
+ "senses": "",
+ "languages": "—",
+ "traits": "**Échappement de Nimble.** Le goblin peut prendre l'action Se désengager ou Se cacher en action bonus sur chacun de ses tours.",
+ "actionsText": "**Attrapez-moi si vous pouvez !.** Dum-Dum Goblins choisira de courir et de se cacher avant de se battre ! Un DD 15 test de Dextérité doit être fabriqué avant qu'ils ne puissent être attaqués.\n**Scimitar.** Attaque d'arme au corps à corps : +4 au toucher, une cible. Touché : 3 (1d6 +2) dégâts tranchants.\n**Saubèche.** Attaque d'arme à distance : +4 au toucher, une cible. Touché : 6 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ab9240ad71_monstre-dum-dum-gobelin.webp",
+ "notes": "points de vie : 7",
+ "source": "Adventure with Muk (5e.tools, traduction automatique)",
+ "aka": "Dum - Dum gobelin"
+}

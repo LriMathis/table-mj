@@ -1,0 +1,44 @@
+{
+ "id": "nightveil-spectre",
+ "name": "Nightveil Specter",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 105,
+ "hpFormula": "14d8+42",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 19,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 17,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Montage.** Si le spectre n'est pas monté, il peut utiliser un action bonus pour se téléporter magiquement sur sa monture glamour, à condition que le spectre et le glamour soient sur le même plan d'existence. Lorsqu'il téléporte, le spectre apparaît à l'écart de la glamour avec tout équipement qu'il porte ou qu'il transporte. Bien que monté et non neutralisé, le spectre ne peut pas être surpris, et à la fois lui et son montage gagnent avantage sur jet de sauvegarde de Dextérité.",
+ "actionsText": "**Multiattaques.** Le spectre fait deux attaques de faux.\n**Scythe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants plus 13 (3d8) dégâts psychiques.\n**Twist mental (Recharge 5-6).** Le spectre émet magiquement de l'énergie psychique dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou prendre 22 (5d8) dégâts psychiques et être étourdi pendant 1 minute. La créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Mémoire de récupération (3/jour).** Le spectre touche une créature neutralisé et choisit 1 heure parmi les 24 dernières années. A moins que la créature ne réussisse sur un DD 15 jet de sauvegarde d'Intelligence, la créature perd tout souvenir de cette heure. La créature reprend la mémoire seulement si le spectre meurt dans les 24 heures à venir.",
+ "attacks": [
+  {
+   "name": "Scythe",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/68e73e5112_monstre-nightveil-spectre.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Nightveil spectre",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, SAG +7",
+ "skills": "Perspicacité +7, Perception +7, Discrétion +8",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné"
+}

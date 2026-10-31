@@ -1,0 +1,51 @@
+{
+ "id": "dragon-creux",
+ "name": "Hollow Dragon",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "tout alignement",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 19,
+ "hp": 241,
+ "hpFormula": "21d12+105",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 12,
+  "CON": 21,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 23",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (3/jour).** Si le dragon creux échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Reconstruction.** Lorsque le dragon creux est réduit à 0 points de vie, son corps se brise en neuf morceaux: deux bras, deux jambes, deux ailes, une queue, un torse et une tête. Chaque pièce est un objet grand avec CA 19, 27 points de vie, et l'immunité au psychique et dégâts de poison. Après 1d6 jours, si toutes les pièces sont toujours dans 9 km de l'autre, ils se téléportent tous à l'emplacement de la pièce de tête et fusionnent avec elle, après quoi le dragon creux retrouve tout son points de vie et devient actif à nouveau.",
+ "actionsText": "**Multiattaques.** Le dragon creux fait une attaque de Bite et deux attaques de griffe, et il peut utiliser Présence d'appât.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants plus 9 (2d8) dégâts radiants.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants.\n**Présence d'épingle.** Chaque créature du choix du dragon creux dans 18 m de lui doit faire un DD 19 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la vitesse de la créature est réduite de moitié et elle a un désavantage sur jets d'attaque jusqu'à la fin de son prochain tour. Sur un salut réussi, la créature est à l'abri de cette présence creuse de dragon pendant 24 heures.\n**radiant Respiration (Recharge 5-6).** Le dragon creux exhale des flammes rayonnantes dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 19 jet de sauvegarde de Dextérité, en prenant 54 (12d8) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d10+6",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c9adbe5c4b_monstre-dragon-creux.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon creux",
+ "caNote": "armure naturelle",
+ "saves": "CON +11, INT +9, SAG +7, CHA +11",
+ "skills": "Arcanes +9, Histoire +15, Perception +13",
+ "resistances": "nécrotique",
+ "immunities": "poison, radiant",
+ "conditionImmunities": "charmé, assourdi, épuisement, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon creux peut entreprendre l'une des actions ci-après.\n**Griffe.** Le dragon creux fait une attaque de griffe.\n**Reliure ghostly (coûts 2 actions).** Le dragon creux crée des liaisons éthérées autour d'une créature qu'il peut voir dans 18 m de lui. La cible doit réussir sur un DD 19 jet de sauvegarde de Force ou être entravé jusqu'à la fin du prochain tour du dragon.\n**Échelles de démarrage (coûts 3 actions).** Un bruit bruyant soudain, douloureusement intense, éclate du cadre creux du dragon. Chaque créature au sein de 3 m du dragon creux doit faire un DD 19 jet de sauvegarde de Constitution, en prenant 24 (7d6) dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

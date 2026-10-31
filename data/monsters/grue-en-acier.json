@@ -1,0 +1,49 @@
+{
+ "id": "grue-en-acier",
+ "name": "Steel Crane",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 76,
+ "hpFormula": "9d8+36",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 17,
+  "CHA": 14
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun",
+ "traits": "**Défense non armée.** Alors que Steel Crane ne porte pas d'armure et ne porte pas de bouclier, son CA inclut son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** La grue en acier fait trois attaques.\n**Grève de force.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts de force, et si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution ou être étourdi jusqu'au prochain tour de la Grue d'acier.\n**Whip.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 6 (1d4 + 4) dégâts tranchants ou, si la cible est une créature, Steel Crane peut à la place gripper la cible (évasion DD 15). La grue en acier ne peut pas faire d'attaques avec le fouet tout en l'utilisant pour battre une créature. À tout moment de son tour, il peut libérer une créature agrippé par le fouet (aucune action requise).\n**Auto-guérison (recharge après un repos long).** La grue en acier retrouve 2d8 + 4 points de vie et tous les niveaux d'épuisement se terminent sur lui.",
+ "attacks": [
+  {
+   "name": "Grève de force",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "force"
+  },
+  {
+   "name": "Whip",
+   "bonus": 7,
+   "damage": "1d4+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/dad72802e8_monstre-grue-en-acier.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Grue en acier",
+ "caNote": "Défense non armée",
+ "saves": "DEX +7, INT +4",
+ "skills": "Acrobaties +7, Tromperie +5, Perception +6, Discrétion +7",
+ "resistances": "poison, psychique",
+ "reactions": "**Missile défectueux.** En réponse à une attaque d'armes, Steel Crane détourne le missile. Les dégâts qu'il prend de l'attaque sont réduits de 1d10 + 10. Si les dégâts sont réduits à 0, la grue en acier capture le missile si elle est assez petite pour tenir dans une main et la grue en acier a une main libre.\n**Descente lente (3/jour).** Lorsque la Grue d'acier tombe, il peut ralentir sa descente, ne prenant aucun dégâts à partir de la chute."
+}

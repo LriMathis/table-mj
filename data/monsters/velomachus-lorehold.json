@@ -1,0 +1,48 @@
+{
+ "id": "velomachus-lorehold",
+ "name": "Velomachus Lorehold",
+ "type": "Dragon (magicien)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal neutre",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 21,
+ "hp": 487,
+ "hpFormula": "25d20+225",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 14,
+  "CON": 29,
+  "INT": 30,
+  "SAG": 20,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 23",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (3/jour).** Si Velomachus échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Velomachus fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +18 au toucher, allonge 4,50 m, une cible. Touché : 15 (1d10 + 10) dégâts perforants plus 6 (1d12) dégâts de tonnerre.\n**Griffe.** Attaque d'arme au corps à corps : +18 au toucher, allonge 3 m, une cible. Touché : 13 (1d6 + 10) dégâts tranchants. Si la cible est une créature Énorme ou plus petite, c'est à terre.\n**Respiration de l'extrémité de la bataille (Recharge 5-6).** Velomachus exhale un son tonnerre dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 25 jet de sauvegarde de Constitution. En cas d'échec, une créature prend 45 (7d12) dégâts de force et 45 (7d12) dégâts de tonnerre et est poussée vers 6 m dans une direction horizontale du choix de Velomachus. Sur un succès, la créature prend la moitié de ces dégâts et n'est pas poussée. Les objets qui ne sont pas portés ou transportés prennent les dégâts et sont poussés comme s'ils étaient des créatures qui ont échoué au jet de sauvegarde.\n**Détection orthographique.** Velomachus lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation :\n- 1/jour chacun : Contact avec un autre plan (comme action, en contactant un esprit mort-vivant), Divination, Terraformage, Mur de force",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 18,
+   "damage": "1d10+10",
+   "type": "perforant + tonnerre"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 18,
+   "damage": "1d6+10",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/353efbd919_monstre-velomachus-lorehold.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +10, CON +17, SAG +13, CHA +12",
+ "skills": "Arcanes +18, Histoire +18, Investigation +18, Perception +13",
+ "immunities": "tonnerre",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, velomachus lorehold peut entreprendre l'une des actions ci-après.\n**Griffe.** Velomachus fait une attaque de griffe.\n**Flux chaotique (coûts 2 actions).** Velomachus se déplace jusqu'à la moitié de sa vitesse de vol. Si une créature la frappe ou la rate avec une attaque d'opportunité pendant ce mouvement, l'agresseur prend 19 (3d12) dégâts de tonnerre.\n**Historique de répétition (coûts 3 actions).** Velomachus invoque magiquement des mascottes de statues 1d4 dans des espaces inoccupés qu'elle peut voir au sein de 18 m d'elle-même. Les statues spirituelles obéissent à ses commandements et prennent leur tour immédiatement après les siennes. Toute créature, autre qu'une statue spirituelle ou Velomachus, est entravé si elle commence son tour à l'intérieur de 1,50 m d'une ou plusieurs de ces statues spirituelles. Cette condition entravé dure jusqu'à la fin du tour de la créature. Ces statues spirituelles disparaissent après 10 minutes, quand Velomachus meurt, ou quand elle recourt à cette action."
+}

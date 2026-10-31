@@ -1,0 +1,50 @@
+{
+ "id": "berceau-du-pierre-scion",
+ "name": "Cradle of the Stone Scion",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 20,
+ "hp": 455,
+ "hpFormula": "26d20+182",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 15,
+  "CON": 24,
+  "INT": 11,
+  "SAG": 18,
+  "CHA": 10
+ },
+ "senses": "Perception des vibrations 36 m, Perception passive 14",
+ "languages": "géant, primordial",
+ "traits": "**L'éveil des Scion.** Le berceau est un conteneur pour le Scion de Skoraeus. Lorsque le berceau tombe à 0 points de vie, son corps s'écroule à la poussière. Le scion apparaît instantanément dans l'espace occupé par le berceau et utilise le nombre d'initiatives du berceau.\n**Résistance légendaire (5/jour).** Si le berceau échoue un jet de sauvegarde, il peut choisir de réussir.\n**Résistance magique.** Le berceau a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le berceau inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le berceau fait deux attaques Slam ou Spit Rock.\n**Clamer.** Attaque d'arme au corps à corps : +15 au toucher, allonge 6 m, une cible. Touché : 30 (4d10 + 8) dégâts contondants.\n**Roche à cracher.** Attaque d'arme à distance : +15 au toucher, portée 36 m, une cible. Touché : 24 (3d10 + 8) dégâts contondants, et la cible doit réussir sur un DD 23 jet de sauvegarde de Force ou avoir l'état à terre.\n**Rouleau de brouillage (Recharge 5-6).** Le berceau laisse sortir un rugissement douloureusement fort. Chaque créature dans 18 m du berceau doit faire un DD 23 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 33 (6d10) dégâts de tonnerre et a l'état neutralisé jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 15,
+   "damage": "4d10+8",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche à cracher",
+   "bonus": 15,
+   "damage": "3d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2b83997093_monstre-berceau-du-pierre-scion.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Berceau du pierre Scion",
+ "caNote": "armure naturelle",
+ "saves": "SAG +11, CHA +7",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, à terre",
+ "bonusActions": "**Feu de cristal.** Le berceau fait éclater les cristaux de son corps avec de la lumière. Chaque créature de 9 m du berceau doit réussir sur un DD 22 jet de sauvegarde de Constitution ou prendre 21 (6d6) dégâts radiants et avoir l'état aveuglé jusqu'à la fin du prochain tour du berceau.\n**Spikes de pierre.** Le berceau fait germer le sol dans un carré 6 m à l'intérieur de 27 m jusqu'au début de son prochain tour. La zone devient un terrain difficile pour la durée. Une créature prend 10 (3d6) dégâts perforants pour chaque 1,50 m qu'elle se déplace sur ce terrain."
+}

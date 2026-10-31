@@ -1,0 +1,47 @@
+{
+ "id": "chene-truestrike",
+ "name": "Oak Truestrike",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun",
+ "traits": "**Ancêtre fécale.** Oak a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas le mettre au lit.\n**Audition et vue.** Oak a un avantage sur tests de Sagesse (Perception) qui repose sur l'ouïe ou la vue.",
+ "actionsText": "**Multiattaques.** Oak fait trois attaques avec ses poignards hameçonnés ou son arbalète main.\n**Déclencheur crocheté.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants.\n**Acrobatie des mains.** Attaque d'arme à distance : +5 au toucher, portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur crocheté",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3046d4e2d1_monstre-chene-truestrike.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "aka": "Chêne Truestrike",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Nature +4, Perception +3, Représentation +2, Discrétion +5, Survie +3",
+ "reactions": "**Retourner le favori (3/jour).** Quand Oak prend des dégâts d'une attaque d'arme à la mêlée, il peut faire une attaque de poignard accroché."
+}

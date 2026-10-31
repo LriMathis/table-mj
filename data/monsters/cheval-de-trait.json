@@ -1,0 +1,37 @@
+{
+ "id": "cheval-de-trait",
+ "name": "Cheval de trait",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 10,
+ "hp": 15,
+ "hpFormula": "2d10+4",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Sabots.** Corps à corps : +6, allonge 1,50 m. Touché : 6 (1d4 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Sabots",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/582dbc6657_monstre-cheval-de-trait.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

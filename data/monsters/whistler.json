@@ -1,0 +1,43 @@
+{
+ "id": "whistler",
+ "name": "Whistler",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 15,
+ "hp": 180,
+ "hpFormula": "24d10+48",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 13",
+ "languages": "profond, télépathie 36 m",
+ "traits": "**Forme floue.** jets d'attaque contre le siffleur est fait avec un désavantage à moins que le siffleur soit neutralisé.\n**Nature inhabituelle.** Le siffleur n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le siffleur fait trois attaques psychique Swipe.\n**Swipe psychique.** Attaque de sort au corps à corps : +8 au toucher, allonge 3 m, une créature. Touché : 15 (2d10 + 4) dégâts psychiques.\n**Autre monde Melody (Recharge 5-6).** Le siffleur siffle télépathiquement une mélodie de l'autre monde dans l'esprit de jusqu'à deux créatures qu'il peut voir à portée de sa télépathie. Chaque cible doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou prendre 33 (6d10) dégâts psychiques et devenir effrayé de l'avertisseur pendant 1 minute. Une créature effrayé peut répéter cette jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Swipe psychique",
+   "bonus": 8,
+   "damage": "2d10+4",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/66a850f03a_monstre-whistler.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CHA +8",
+ "skills": "Discrétion +11",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "bonusActions": "**Étape surréaliste.** Le siffleur téléporte jusqu'à 6 m dans un espace inoccupé qu'il peut voir."
+}

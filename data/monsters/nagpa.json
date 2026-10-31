@@ -1,0 +1,47 @@
+{
+ "id": "nagpa",
+ "name": "Nagpa",
+ "type": "Monstruosité (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 19,
+ "hp": 203,
+ "hpFormula": "37d8+37",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 23,
+  "SAG": 18,
+  "CHA": 21
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 20",
+ "languages": "Commun plus jusqu'à cinq autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le nagpa fait trois attaques de l'état-major ou du Rayon de la mort. Il peut remplacer une attaque par une utilisation de Spellcasting.\n**Personnel.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts contondants plus 24 (7d6) dégâts nécrotiques.\n**Rayon de mort.** Attaque de sort à distance : +12 au toucher, portée 36 m, une cible. Touché : 30 (7d6 + 6) dégâts nécrotiques.\n**Détection orthographique.** Le nagpa lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Détection de la magie, Main de mage, Message, Illusion mineure\n- 1/jour chacun : Domination de personne, Forme éthérée, Esprit faible\n- 2/jour chacun : Boule de feu, Vol, Immobilisation de personne, Suggestion, Mur de feu",
+ "attacks": [
+  {
+   "name": "Personnel",
+   "bonus": 8,
+   "damage": "2d6+2",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Rayon de mort",
+   "bonus": 12,
+   "damage": "7d6+6",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/ac8f9afff9_monstre-nagpa.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +12, SAG +10, CHA +11",
+ "skills": "Arcanes +12, Tromperie +11, Histoire +12, Perspicacité +10, Perception +10",
+ "bonusActions": "**Corruption.** Le nagpa cible une créature il peut voir dans 27 m de lui. La cible doit faire un DD 20 jet de sauvegarde de Charisme. Une créature maléfique fait le sauveur avec désavantage. Lors d'une sauvegarde ratée, la cible est charmé par le nagpa jusqu'au début du prochain tour du nagpa. Lors d'une sauvegarde réussie, la cible devient immunisée contre la corruption du nagpa pendant les 24 prochaines heures.\n**Paralysie (Recharge 6).** Le nagpa force chaque créature de 9 m à faire un DD 20 jet de sauvegarde de Sagesse, à l'exclusion d'Undead et Construits. Lors d'une sauvegarde ratée, une cible est paralysé pendant 1 minute. Une cible paralysé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès."
+}

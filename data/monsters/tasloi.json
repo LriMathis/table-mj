@@ -1,0 +1,50 @@
+{
+ "id": "tasloi",
+ "name": "Tasloi",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 5,
+ "hpFormula": "2d6-2",
+ "vitesse": "7,50 m, escalade 7,50 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 8,
+  "INT": 12,
+  "SAG": 9,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, sylvestre, Tasloi",
+ "traits": "**Expert Javelin.** Tasloi peut utiliser leur Dextérité pour l'attaque et jets de dégâts avec un javelot, comme si le javelot avait la propriété finesse.\n**Échappement de Nimble.** Le tasloi peut prendre l'action Se désengager ou Se cacher en action bonus sur chacun de ses tours.",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Montant net.** Attaque d'arme à distance : +5 au toucher, portée 1,50/4,50 m., une créature grande ou plus petite. Touché : La cible a l'état entravé. Une créature peut utiliser son action pour faire un DD 10 test de Force pour se libérer ou une autre créature dans un filet, mettant fin à l'effet sur un succès. Le fait de traiter 5 dégâts tranchants sur le réseau (CA 10) libère la cible sans la blesser et détruit le réseau.\n**Javelin.** Attaque d'arme à distance : +5 au toucher, portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Montant net",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "Javelin",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4d24a552cf_monstre-tasloi.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "skills": "Discrétion +5, Perception +1"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "jarlaxle-baenre",
+ "name": "Jarlaxle Baenre",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 24,
+ "hp": 123,
+ "hpFormula": "19d8+38",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 22,
+  "CON": 14,
+  "INT": 20,
+  "SAG": 16,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "abyssal, commun, draconique, nain, elfique, commun des profondeurs",
+ "traits": "**Matériel spécial.** Jarlaxle porte +3 armure en cuir, un Chapeau de déguisement, un Bracer de vol Daggers, un Cape d'invisibilité, un Patch oculaire Knave's, et un Anneau de vérité disant. Il manie un rapier +3 et porte un Puits portable et un Baguette de toile d'araignée. Son chapeau est orné d'un Plumes de Diatryma Summoning.\n**Évasion.** S'il est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, Jarlaxle ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue. Il ne peut pas utiliser ce trait s'il est neutralisé.\n**Ancêtre fécale.** Jarlaxle a un avantage sur jet de sauvegarde contre charmé et la magie ne peut pas le mettre au lit.\n**Résistance légendaire (1/jour).** Si Jarlaxle échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Maître Attuner.** Jarlaxle peut s'accrocher à jusqu'à cinq objets magiques, et il peut s'accrocher à des objets magiques qui nécessitent normalement l'apaisement d'un sorcier, d'un sorcier ou d'un magicien.\n**Attaque d'éternuement (1/Turn).** Jarlaxle inflige un dégâts supplémentaire de 24 (7d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur la jet d'attaque, ou lorsque la cible est dans 1,50 m d'un allié de Jarlaxle qui n'est pas neutralisé et Jarlaxle n'a pas d'inconvénient sur la jet d'attaque.\n**Suivez la défense.** Alors que Jarlaxle porte une armure légère ou pas et n'a pas de bouclier, son CA inclut son modificateur Charisme.\n**Sensibilité à la lumière du soleil.** Lorsqu'il ne porte pas le patch oculaire de son knave, Jarlaxle a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Jarlaxle est Charisme (save spell DD 17, +9 au toucher avec attaques de sort) Il peut lancer innéement les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques, Lévitation (autoseulement)",
+ "actionsText": "**Multiattaques.** Jarlaxle fait trois attaques avec son +3 rapier ou deux attaques avec des poignards créés par son bras de poignard volant.\n**+3 Rapier.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 13 (1d8 + 9) dégâts perforants.\n**Déclencheur volant.** Attaque d'arme à distance : +11 au toucher, portée 6/18 m., une cible. Touché : 8 (1d4 + 6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "+3 Rapier",
+   "bonus": 14,
+   "damage": "1d8+9",
+   "type": "perforant"
+  },
+  {
+   "name": "Déclencheur volant",
+   "bonus": 11,
+   "damage": "1d4+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4eca623340_monstre-jarlaxle-baenre.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "+3 armure en cuir, Suivez la défense",
+ "saves": "DEX +11, SAG +8",
+ "skills": "Acrobaties +11, Athlétisme +6, Tromperie +14, Perception +8, Escamotage +11, Discrétion +16",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, jarlaxle baenre peut entreprendre l'une des actions ci-après.\n**Étape rapide.** Jarlaxle se déplace à sa vitesse sans provoquer d'attaques d'opportunités.\n**Attaque (coûts 2 actions).** Jarlaxle fait une attaque avec son +3 rapier ou deux attaques avec des poignards créés par son bras de poignard volant."
+}

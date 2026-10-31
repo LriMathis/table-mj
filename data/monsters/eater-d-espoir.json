@@ -1,0 +1,44 @@
+{
+ "id": "eater-d-espoir",
+ "name": "Eater of Hope",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "abyssal, commun, infernal",
+ "traits": "**L'avidité insatiable.** Le mangeur d'espoir peut sentir la présence de l'or en 300 m de lui-même. Il peut déterminer quel emplacement a la plus grande quantité d'or et peut sentir la direction vers ce site. Si l'or est déplacé, il connaît la direction du mouvement. Il ne peut pas localiser l'or si toute épaisseur d'argile ou de plomb, même une mince feuille, bloque un chemin direct entre elle et l'or.\n**Résistance magique.** Le mangeur d'espoir a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le mangeur d'espoir fait deux attaques avec ses griffes.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants plus 7 (2d6) dégâts nécrotiques.\n**Souffle de désespoir (Recharge 5-6).** Le mangeur d'espoir exhale un miasma de vents d'Inderworld dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Charisme. Lors d'une sauvegarde ratée, la cible prend 26 (4d12) dégâts nécrotiques et est maudite pendant 1 minute. Tout en maudit de cette façon, la cible prend un 6 (1d12) dégâts nécrotiques supplémentaire chaque fois que le mangeur d'espoir le frappe avec une attaque. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts et n'est pas maudite.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/6c16ccae97_monstre-eater-d-espoir.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Eater d'espoir",
+ "caNote": "armure naturelle",
+ "saves": "CON +5, CHA +6",
+ "skills": "Tromperie +6, Intimidation +6, Persuasion +6",
+ "resistances": "froid, nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

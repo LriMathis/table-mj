@@ -1,0 +1,40 @@
+{
+ "id": "satyre-revelmaster",
+ "name": "Satyr Revelmaster",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 82,
+ "hpFormula": "15d8+15",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Résistance magique.** Le satyr a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le satyre fait trois attaques de Prance.\n**Prance.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts contondants, et la cible a l'état charmé jusqu'au début du prochain tour de satyre.\n**Fey Melody (Recharge 4-6).** Le satyre évoque une chanson charmante ou effrayante. Jet de sauvegarde de Sagesse : DD 14, chaque ennemi dans une Emanation 18 m originaire du satyre. Échec : La cible est soumise à l'effet de la chanson :\n- **Charmant** La cible a l'état charmé pendant 1 minute. Alors que charmé, la cible a l'état neutralisé et utilise tout son mouvement pour danser en place. L'effet se termine sur la cible si elle prend des dégâts.\n- **Effroiement** 10 (2d6 + 3) dégâts psychiques, et la cible a l'état effrayé pendant 1 minute. Si la cible termine son tour hors de la ligne de vue de la satyre, la condition se termine sur elle.",
+ "attacks": [
+  {
+   "name": "Prance",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/863090236f_monstre-satyre-revelmaster.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Satyre Revelmaster",
+ "saves": "DEX +7, SAG +5",
+ "skills": "Acrobaties +7, Perception +5, Représentation +9"
+}

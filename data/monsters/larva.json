@@ -1,0 +1,37 @@
+{
+ "id": "larva",
+ "name": "Larva",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "0",
+ "xp": 10,
+ "ca": 9,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 9,
+  "CON": 10,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 2
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend Common plus une autre langue mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Morceau.** Jet d'attaque au corps à corps : +1, allonge 1,50 m. Touché : 1 (1d4 - 1) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 1,
+   "damage": "1d4-1",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/ae1b620355_monstre-larva.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)"
+}

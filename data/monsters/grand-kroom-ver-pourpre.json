@@ -1,0 +1,45 @@
+{
+ "id": "grand-kroom-ver-pourpre",
+ "name": "Great Kroom, Purple Worm",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "15 m, creusement 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "",
+ "languages": "—",
+ "traits": "**Tunneler.** Le ver peut s'enfoncer dans la roche à la moitié de sa vitesse de creusement et laisse un tunnel 3 m-diamètre dans son sillage.",
+ "actionsText": "**Multiattaques.** Le ver fait deux attaques :\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, une cible. Touché : 22 (3d8) dégâts perforants. La cible doit faire un DD 19 Dextérité sauver, ou être avalée par le ver!\n**Tail Stinger.** Attaque d'arme au corps à corps : +14 au toucher, une créature. Touché : 19 (3d6 + 9) dégâts perforants Target doit faire une sauvegarde DD 19 Constitution, ou prendre 42 (12d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "3d8",
+   "type": "perforant"
+  },
+  {
+   "name": "Tail Stinger",
+   "bonus": 14,
+   "damage": "3d6+9",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/1b79179c2d_monstre-grand-kroom-ver-pourpre.webp",
+ "notes": "points de vie : 247",
+ "source": "Adventure with Muk (5e.tools, traduction automatique)",
+ "aka": "Grand Kroom, ver pourpre",
+ "caNote": "armure naturelle"
+}

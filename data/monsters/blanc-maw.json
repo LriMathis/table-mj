@@ -1,0 +1,41 @@
+{
+ "id": "blanc-maw",
+ "name": "White Maw",
+ "type": "Vase",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 5,
+ "hp": 217,
+ "hpFormula": "14d20+70",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 1,
+  "CON": 20,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "télépathie 15 m",
+ "traits": "**Forme amorphe.** White Maw peut occuper l'espace d'une autre créature et vice versa.\n**Corrode métal.** Toute arme non magique en métal qui frappe les corrodes de White Maw. Après avoir causé des dégâts, l'arme prend une pénalité permanente et cumulative de −1 à jets de dégâts. si sa pénalité tombe à −5, l'arme est détruite. Les munitions non magiques en métal qui frappent White Maw sont détruites après avoir causé des dégâts.\nWhite Maw peut manger à travers 2 pouces de métal non magique en 1 tour.\n**Fausse apparence.** Bien que White Maw reste immobile, il est indissociable de la pierre blanche.\n**Réponse du tueur.** Toute créature qui commence son tour dans l'espace de White Maw est ciblée par une attaque pseudopode si White Maw n'est pas neutralisé.",
+ "actionsText": "**Pseudopod.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 22 (4d8 + 4) dégâts contondants plus 9 (2d8) dégâts d'acide. Si la cible porte une armure métallique non magique, son armure est partiellement corrodée et prend une pénalité permanente et cumulative de −1 pour la CA qu'elle offre. L'armure est détruite si la pénalité réduit son CA à 10.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 8,
+   "damage": "4d8+4",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/050bdbd3f0_monstre-blanc-maw.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Blanc Maw",
+ "resistances": "acide, froid, feu",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, empoisonné, à terre"
+}

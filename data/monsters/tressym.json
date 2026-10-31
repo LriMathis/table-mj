@@ -1,0 +1,40 @@
+{
+ "id": "tressym",
+ "name": "Tressym",
+ "type": "Monstruosité",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "tout alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 5,
+ "hpFormula": "2d4",
+ "vitesse": "12 m, escalade 9 m, vol 12 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Détecter l'invisibilité.** Au sein de 18 m du tressym, l'invisibilité magique ne cache rien de la vue du tressym.\n**Sensation de Keen.** Le tressym a l'avantage sur tests de Sagesse (Perception) qui dépendent de l'odeur.\n**Sens de poison.** Le tréssym peut détecter si une substance est toxique par le goût, le toucher ou l'odeur.\n**Familiarisation.** Avec la permission de le MD, une personne qui lance le sort Appel de familier peut choisir de conjurer un tréssym au lieu d'un chat normal.",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/dd110eab6d_monstre-tressym.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "skills": "Perception +5, Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

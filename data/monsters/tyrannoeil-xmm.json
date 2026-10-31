@@ -1,0 +1,43 @@
+{
+ "id": "tyrannoeil-xmm",
+ "name": "Beholder",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 190,
+ "hpFormula": "20d10+80",
+ "vitesse": "1,50 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 22",
+ "languages": "profond, commun des profondeurs",
+ "traits": "**Résistance légendaire (3/jour, ou 4/jour à Lair).** Si le titulaire échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le porteur utilise des Rayons Eyeux trois fois.\n**Morceau.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 13 (3d6 + 3) dégâts perforants.\n**Rayons oculaires.** Le bholder tire au hasard l'un des rayons magiques suivants à une cible qu'il peut voir en 36 m de lui-même (roule 1d10 ; reroule si le bholder a déjà utilisé ce rayon pendant ce tour) :\n- **1: Rayon de charme** Jet de sauvegarde de Sagesse : DD 16. Échec : 13 (3d8) dégâts psychiques, et la cible a l'état charmé pendant 1 heure ou jusqu'à ce qu'il prenne des dégâts. Réussite : Demi-dégâts seulement.\n- **2: Ray paralysant** Jet de sauvegarde de Constitution : DD 16. Échec : La cible a l'état paralysé et répète l'enregistrement à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Après 1 minute, il réussit automatiquement.\n- **3: Peur Ray** Jet de sauvegarde de Sagesse : DD 16. Échec : 14 (4d6) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour. Réussite : Demi-dégâts seulement.\n- **4: Rayon lent** Jet de sauvegarde de Constitution : DD 16. Échec : 18 (4d8) dégâts nécrotiques. Jusqu'à la fin du prochain tour de la cible, la vitesse de la cible est réduite de moitié; la cible ne peut pas prendre de Réactions; et elle peut prendre une action ou un action bonus à son tour, pas les deux. Réussite : Demi-dégâts seulement.\n- **5: Rayon d'énervation** Jet de sauvegarde de Constitution : DD 16. Échec : 13 (3d8) dégâts de poison, et la cible a l'état empoisonné jusqu'à la fin de son prochain tour. Alors qu'empoisonné, la cible ne peut pas récupérer points de vie. Réussite : Demi-dégâts seulement.\n- **6: Rayon télékinétique** Jet de sauvegarde de Force : DD 16 (la cible réussit automatiquement si c'est Gargantuan). Échec : Le porte-bûcher déplace la cible jusqu'à 9 m dans n'importe quelle direction. La cible a l'état entravé jusqu'au début du prochain tour du titulaire ou jusqu'à ce que le titulaire ait l'état neutralisé. Le support peut également exercer un contrôle fin sur les objets avec ce rayon, comme la manipulation d'un outil ou l'ouverture d'une porte ou d'un conteneur.\n- **7: Rayon de sommeil** Jet de sauvegarde de Sagesse : DD 16 (la cible réussit automatiquement si c'est un Construct ou un Undead). Échec : La cible a l'état inconscient pendant 1 minute. L'état se termine si la cible prend des dégâts ou une créature dans 1,50 m il prend une action pour le réveiller.\n- **8: Rayon de pétrification** Jet de sauvegarde de Constitution : DD 16. Échec de 1 ou plus : La cible a l'état entravé et répète l'enregistrement à la fin de son prochain tour si elle est toujours entravé, mettant fin à l'effet sur elle-même sur un succès. Échec de 2 ou plus : La cible a l'état pétrifié au lieu de l'état entravé.\n- **9: Rayon de désintégration** Jet de sauvegarde de Dextérité : DD 16. Échec : 36 (8d8) dégâts de force. Si la cible est un objet non magique ou une création de force magique, un cube 3 m de celui-ci se désintègre en poussière. Réussite : Demi-dégâts. Échec ou réussite : Si la cible est une créature et que ce dégâts la réduit à 0 points de vie, elle se désintègre dans la poussière.\n- **10: Rayon de la mort** Jet de sauvegarde de Dextérité : DD 16. Échec : 55 (10d10) dégâts nécrotiques. Réussite : Demi-dégâts. Échec ou réussite : La cible meurt si le rayon la réduit à 0 points de vie.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "3d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b529d048ee_monstre-tyrannoeil-xmm.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Tyrannoeil",
+ "saves": "CON +9, SAG +7",
+ "skills": "Perception +12",
+ "conditionImmunities": "à terre",
+ "bonusActions": "**Cône antimagique.** L'œil central du porte-beille émet une onde antimagique dans un cône 45 m. Jusqu'au début du prochain tour du titulaire, cette zone agit comme un sort Champ antimagie, et cette zone fonctionne contre les propres Rayons Eyes du titulaire.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, tyrannoeil peut entreprendre l'une des actions ci-après.\n**Chomp.** Le beholer fait deux attaques Bite.\n**Éblouissement.** Le beholder utilise des Rayons Eyeux."
+}

@@ -1,0 +1,43 @@
+{
+ "id": "veteran",
+ "name": "Vétéran (gros bras de la Main Pleine)",
+ "type": "Humanoïde",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "attacks": [
+  {
+   "name": "Épée longue",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Épée courte",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Arbalète lourde (30/120 m)",
+   "bonus": 3,
+   "damage": "1d10+1",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux attaques d'épée longue ; s'il a son épée courte en main, il peut aussi attaquer avec elle.\nStatistiques officielles (MM). Sert aussi pour Aude Fermier en combat.",
+ "portrait": "/data/images/ad45a4c918_monstre-chef-bandit.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

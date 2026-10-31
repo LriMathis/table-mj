@@ -1,0 +1,42 @@
+{
+ "id": "dybbuk",
+ "name": "Dybbuk",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 37,
+ "hpFormula": "5d8+15",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 19,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "abyssal, commun, télépathie 36 m",
+ "traits": "**Mouvement intégré.** Le dybbuk peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance magique.** Le dybbuk a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Tentacle.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts nécrotiques. Si la cible est une créature, son maximum de points de vie est également réduit de 3 (1d6). Cette réduction dure jusqu'à ce que la cible termine un repos court ou long. La cible meurt si son maximum de points de vie est réduit à 0.\n**Corps des possesses (Recharge 6).** Le dybbuk disparaît dans un cadavre intact à l'intérieur de 1,50 m qui appartenait à une Bête ou Humanoïde grande ou plus petite. Le dybbuk gagne 20 points de vie temporaires. Tout en possédant le corps, le dybbuk adopte la taille du corps et ne peut pas utiliser le Mouvement Incorporé. Ses statistiques de jeu restent autrement les mêmes. La possession dure jusqu'à ce que le points de vie temporaires soit perdu ou que le dybbuk le termine comme un action bonus. Lorsque la possession prend fin, le dybbuk apparaît dans un espace inoccupé à l'intérieur de 1,50 m du corps.\n**Détection orthographique.** Le dybbuk lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Porte dimensionnelle\n- 3/jour : Force fantasmagorique",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/0b42b0ebf7_monstre-dybbuk.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "skills": "Tromperie +6, Intimidation +4, Perception +4",
+ "resistances": "acide, froid, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "bonusActions": "**Corps de contrôle.** Alors que Posss Corpse est actif, le dybbuk fait faire quelque chose de contre nature, comme vomir du sang, tordre sa tête tout autour, ou faire bouger un quadrupède comme un bipède. Toute Bête ou Humanoïde qui voit ce comportement doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou devenir effrayé du dybbuk pendant 1 minute. La créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Une créature qui réussit sur un jet de sauvegarde contre cette capacité est immunisée contre le Corps de Contrôle pendant 24 heures."
+}

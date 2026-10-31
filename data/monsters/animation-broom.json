@@ -1,0 +1,40 @@
+{
+ "id": "animation-broom",
+ "name": "Animated Broom",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 14,
+ "hpFormula": "4d6",
+ "vitesse": "1,50 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 5,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 7",
+ "languages": "—",
+ "traits": "**Volée.** Le balai ne provoque pas un Opportunity Attack quand il vole hors de la portée de l'ennemi.",
+ "actionsText": "**Clamer.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f6dd11b8a9_monstre-animation-broom.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Animation Broom",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

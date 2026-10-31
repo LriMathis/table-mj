@@ -1,0 +1,46 @@
+{
+ "id": "mercion",
+ "name": "Mercion",
+ "type": "Humanoïde (clerc, humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 19,
+ "hp": 31,
+ "hpFormula": "9d8-9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 9,
+  "INT": 12,
+  "SAG": 17,
+  "CHA": 17
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, nain",
+ "traits": "**Matériel spécial.** Mercion dispose d'un quart de personnel.",
+ "actionsText": "**Multiattaques.** Mercion fait une attaque de Radiance Divine et une attaque de quart +1. Elle peut remplacer l'une de ces attaques par un recours à Spellcasting.\n**Radiance divine.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 13 (3d8) dégâts radiants.\n**+1 Quarter staff.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants, ou 7 (1d8 + 3) dégâts contondants lorsqu'il est utilisé à deux mains.\n**radiant feu (Recharge 5-6).** Mercion crée une explosion magique de l'éclat ardent centré sur un point qu'elle peut voir au sein de 36 m d'elle. Chaque créature dans une sphère 6 m -radius centrée sur ce point doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 28 (8d6) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Mercion lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumière, Stabilisation\n- 1/jour : Protection contre la mort\n- 2/jour chacun : Injonction, Création de nourriture et d'eau, Soins, Lueurs féeriques, Immobilisation de personne, Retour à la vie",
+ "attacks": [
+  {
+   "name": "Radiance divine",
+   "bonus": 5,
+   "damage": "3d8",
+   "type": "radiant"
+  },
+  {
+   "name": "+1 Quarter staff",
+   "bonus": 4,
+   "damage": "1d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4dcdb7ce6b_monstre-mercion.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "SAG +5, CHA +5",
+ "skills": "Perspicacité +5, Médecine +5"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "superieur-a-zombi",
+ "name": "Greater Zombie",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 97,
+ "hpFormula": "13d8+39",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 4,
+  "SAG": 6,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "comprend les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "**Résistance au virage.** Le zombie a un avantage sur jet de sauvegarde contre tout effet qui devient mort-vivant.\n**Fortitude non-morte.** Si les dégâts réduisent le zombie à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + les dégâts pris, à moins que les dégâts soient radieux ou d'un coup critique. Sur un succès, le zombie tombe à 1 points de vie à la place.",
+ "actionsText": "**Multiattaques.** Le zombie fait deux attaques de mêlée.\n**Détachement motorisé.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants et 7 (2d6) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Détachement motorisé",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/79b0a3a4d3_monstre-superieur-a-zombi.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Supérieur à zombi",
+ "caNote": "armure naturelle",
+ "saves": "SAG +1",
+ "resistances": "froid, nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "menace-reduite-horreur-crochue",
+ "name": "Reduced-Threat Hook Horror",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 75,
+ "hpFormula": "10d10+20",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 13",
+ "languages": "Horreur de crochet",
+ "traits": "**Écholocation.** L'horreur du crochet ne peut pas utiliser sa vue aveugle pendant qu'assourdi.\n**Audience Keen.** L'horreur du crochet a un avantage sur tests de Sagesse (Perception) qui repose sur l'audition.",
+ "actionsText": "**Multiattaques.** L'horreur du crochet fait deux attaques du crochet.\n**Crochet.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Crochet",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/fc2fe646a3_monstre-menace-reduite-horreur-crochue.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Menace réduite horreur crochue",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3"
+}

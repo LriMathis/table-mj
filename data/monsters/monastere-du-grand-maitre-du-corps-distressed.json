@@ -1,0 +1,50 @@
+{
+ "id": "monastere-du-grand-maitre-du-corps-distressed",
+ "name": "Monastery of the Distressed Body Grand Master",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 19,
+ "hp": 142,
+ "hpFormula": "15d10+60",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**Griffes du Vorpal.** Les chevrons d'un Épée vorpale une fois brisés contre le diable remplacent ses griffes. Un DD 12 Intelligence (Arcanes) ou test de Sagesse (Perception) les identifie comme tels. Lorsque le diable roule un 20 sur un jet d'attaque avec une griffe, la cible est décapité. (À votre choix, l'attaque peut plutôt fournir un 6d8 dégâts tranchants supplémentaire.)Une cible est immunisée à cet effet si elle est immunisée contre dégâts tranchants, a des actions légendaires, n'a pas ou besoin d'une tête, ou si vous décidez que la cible est trop grande pour que sa tête soit coupée par les griffes du diable. S'ils sont enlevés, les durs perdent leurs pouvoirs magiques.\n**Bracelets de téléportation.** Des bracelets locaux de téléportation encerclent les bras et la queue du diable. Ces dispositifs permettent au Grand Maître de faire ses attaques de griffe et de piquer à distance, bien que toujours au tour du diable et en utilisant ses actions.\n**La vue du diable.** Les ténèbres magiques n'entravent pas la vision obscure du Grand Maître.\n**Résistance magique.** Le Grand Maître a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le Grand Maître fait trois attaques : deux avec ses griffes et une avec sa piqûre.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants.\n**Sting.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts perforants plus 17 (5d6) dégâts de poison, et la cible doit réussir sur un DD 14 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Sting",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/56a1e86f98_monstre-monastere-du-grand-maitre-du-corps-distressed.webp",
+ "notes": "",
+ "source": "Lost Laboratory of Kwalish (5e.tools, traduction automatique)",
+ "aka": "Monastère du grand maître du corps Distressed",
+ "caNote": "armure naturelle",
+ "saves": "INT +5, SAG +6, CHA +7",
+ "skills": "Tromperie +7, Perspicacité +6",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

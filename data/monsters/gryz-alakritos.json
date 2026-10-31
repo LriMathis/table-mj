@@ -1,0 +1,45 @@
+{
+ "id": "gryz-alakritos",
+ "name": "Gryz Alakritos",
+ "type": "Humanoïde (goblin, magicien)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 82,
+ "hpFormula": "15d8+15",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Perception passive 16",
+ "languages": "Commun plus trois autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Gryz fait deux Arcane Shock ou Dagger des attaques empoisonné Mind.\n**Choc d'Arcane.** Attaque de sort au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 26 (4d10 + 4) dégâts de foudre. Si la cible est une créature, elle ne peut pas prendre de réactions avant le début de son prochain tour.\n**Dagueur de l'esprit empoisonné.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d4 + 4) dégâts perforants plus 10 (3d6) dégâts psychiques. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou être effrayé jusqu'à la fin de son prochain tour.\n**Détection orthographique.** Gryz lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Modification d'apparence, Lumière, Main de mage\n- 1/jour chacun : Compréhension des langues, Armure de mage, Zone de vérité",
+ "attacks": [
+  {
+   "name": "Choc d'Arcane",
+   "bonus": 7,
+   "damage": "4d10+4",
+   "type": "foudre"
+  },
+  {
+   "name": "Dagueur de l'esprit empoisonné",
+   "bonus": 7,
+   "damage": "1d4+4",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/30f343cf08_monstre-gryz-alakritos.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "saves": "INT +7, SAG +6",
+ "skills": "Arcanes +7, Histoire +7, Perspicacité +6, Perception +6"
+}

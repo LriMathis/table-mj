@@ -1,0 +1,39 @@
+{
+ "id": "crabe-folk",
+ "name": "Crab Folk",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "12 m, nage 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 7,
+  "SAG": 9,
+  "CHA": 9
+ },
+ "senses": "Perception passive 9",
+ "languages": "commun, géant",
+ "traits": "**Amphibie limitée.** Les crabes peuvent respirer de l'air et de l'eau, mais il faut les submerger une fois toutes les 24 heures pour éviter l'étouffement.",
+ "actionsText": "**Multiattaques.** Les gens du crabe font deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants et la cible est agrippé (évasion DD 14). Jusqu'à ce que ce grappin se termine, les gens du crabe peuvent automatiquement frapper la cible avec sa griffe, et les gens du crabe ne peuvent pas faire d'attaques avec cette griffe contre d'autres cibles. Les gens du crabe ont deux griffes, chacune ne pouvant battre qu'une cible.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/7a1a1a2e58_monstre-crabe-folk.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "aka": "Crabe folk",
+ "caNote": "armure naturelle"
+}

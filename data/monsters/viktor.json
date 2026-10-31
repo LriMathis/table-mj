@@ -1,0 +1,46 @@
+{
+ "id": "viktor",
+ "name": "Viktor",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 20,
+ "hp": 178,
+ "hpFormula": "21d8+84",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 16
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Brave.** Viktor a un avantage sur jet de sauvegarde contre effrayé.\n**Compagnon de Dragon d'ombre.** Viktor a un jeune dragon d'ombre en or qui l'accompagne en tout temps. Si Viktor meurt, le jeune dragon de l'ombre d'or revient à l'Ombrefell.\n**Blade solaire.** Viktor manie une lame solaire. Viktor gagne un bonus de +2 à l'attaque et jets de dégâts fait avec cette arme, qui traite dégâts radiants au lieu de dégâts tranchants (c'est déjà pris en compte dans le bloc de statistiques de Viktor). Lorsque Viktor frappe une créature morte avec cette épée, cette cible prend un 4 (1d8) dégâts radiants supplémentaire. La lame lumineuse de l'épée émet une lumière lumineuse dans un rayon 4,50 m et une lumière dim pour un 4,50 m supplémentaire. La lumière est la lumière du soleil.",
+ "actionsText": "**Multiattaques.** Viktor fait deux attaques Sun Blade et une attaque de Raven.\n**Blade solaire.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts radiants ou 11 (1d10 + 6) dégâts radiants si utilisé avec deux mains.\n**Le griffon de Raven.** Attaque de sort à distance : +7 au toucher, portée 18 m, une cible. Touché : 22 (4d10 + 3) dégâts radiants.\n**Détection orthographique.** Viktor lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Bénédiction, Bouclier de la foi, Châtiment tonitruant\n- 1/jour chacun : Bannissement, Châtiment aveuglant, Protection contre la mort, Retour à la vie\n- 2/jour chacun : Aide, Châtiment révélateur, Restauration partielle",
+ "attacks": [
+  {
+   "name": "Blade solaire",
+   "bonus": 10,
+   "damage": "1d8+6",
+   "type": "radiant"
+  },
+  {
+   "name": "Le griffon de Raven",
+   "bonus": 7,
+   "damage": "4d10+3",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/0f9ee4f598_monstre-viktor.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "plaque, Bouclier",
+ "saves": "CON +8, SAG +4",
+ "skills": "Persuasion +7, Religion +4"
+}

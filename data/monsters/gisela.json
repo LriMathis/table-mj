@@ -1,0 +1,42 @@
+{
+ "id": "gisela",
+ "name": "Gisela",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal bon",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 19,
+ "hp": 200,
+ "hpFormula": "16d10+112",
+ "vitesse": "12 m, vol 36 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 20,
+  "CON": 24,
+  "INT": 19,
+  "SAG": 22,
+  "CHA": 25
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Armes anges.** Les attaques d'armes de Gisela sont magiques. Lorsque la Gisela frappe avec n'importe quelle arme, l'arme offre un 5d8 dégâts radiants supplémentaire (inclus dans l'attaque).\n**La conscience divine.** La Gisela sait si elle entend un mensonge.\n**Résistance magique.** La Gisela a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Menace de nuit dorée.** Comme action, un ange de Vol Goldnight peut frapper la peur dans le cœur de ses ennemis. Chaque créature du choix de l'ange qui est à l'intérieur de 36 m de lui et est conscient de lui doit réussir sur un jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Le DD pour ce jet de sauvegarde est le même que pour le caractère de spellcasting inné de l'ange. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Menace de la nuit d'or de cet ange pour les prochaines 24 heures.\n**Découpe intérieure.** Le caractéristique d'incantation de Gisela est Charisme (sorption sauvegardez DD 20). La Gisela peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection du mal et du bien, Invisibilité (autoseulement)\n- 1/jour chacun : Communion, Contrôle du climat, Fléau d'insectes\n- 3/jour chacun : Barrière de lames, Dissipation du mal et du bien, Colonne de flamme, Rappel à la vie",
+ "actionsText": "**Multiattaques.** La Gisela fait deux attaques à la mêlée.\n**Grande épée.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 21 (4d6 + 7) dégâts tranchants plus 22 (5d8) dégâts radiants.\n**Touche de guérison (4 jours).** La Gisela touche une autre créature. La cible récupère magiquement 30 (6d8 + 3) points de vie et est libérée de toute malédiction, maladie, poison, cécité, ou surdité.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 12,
+   "damage": "4d6+7",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/409792f1b1_monstre-gisela.webp",
+ "notes": "",
+ "source": "PSI (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, SAG +11, CHA +12",
+ "skills": "Perception +11",
+ "resistances": "radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé"
+}

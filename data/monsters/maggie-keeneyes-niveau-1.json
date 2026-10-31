@@ -1,0 +1,47 @@
+{
+ "id": "maggie-keeneyes-niveau-1",
+ "name": "Maggie Keeneyes (Tier 1)",
+ "type": "Géant (ogre)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, géant",
+ "traits": "**Préparation tactique.** Maggie et ses alliés au sein de 9 m ont l'avantage sur les rouleaux d'initiative, tant que Maggie n'est pas neutralisé.",
+ "actionsText": "**Maul géant.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants, et si la cible est une créature, Maggie peut la forcer à faire un DD 14 jet de sauvegarde de Force ; sur une sauvegarde ratée, la cible est poussé 1,50 m loin de Maggie et à terre.\n**Marteau.** Attaque d'arme à distance : +6 au toucher, portée 6/18 m., une cible. Touché : 9 (2d4 + 4) dégâts contondants, et si la cible est une créature, Maggie peut la forcer à faire un DD 14 jet de sauvegarde de Force ; sur une sauvegarde ratée, la cible est poussé 1,50 m loin de Maggie et à terre.",
+ "attacks": [
+  {
+   "name": "Maul géant",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Marteau",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8927b62ba2_monstre-maggie-keeneyes-niveau-1.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Maggie Keeneyes (niveau 1)",
+ "caNote": "Armure en cuir",
+ "saves": "FOR +6, CON +5",
+ "skills": "Athlétisme +6, Perspicacité +4, Perception +4, Persuasion +3"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "dragon-cristal-jeune",
+ "name": "Young Crystal Dragon",
+ "type": "Dragon (gemme)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 95,
+ "hpFormula": "10d10+40",
+ "vitesse": "12 m, creusement 6 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 18",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 14 (2d10 + 3) dégâts perforants plus 4 (1d8) dégâts radiants.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Scintillation du souffle (Recharge 5-6).** Le dragon exhale un éclat brillant dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 27 (6d8) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Le dragon gagne alors 10 points de vie temporaires en absorbant une partie de l'énergie radieuse.\n**Coulisse (Psioniques).** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Lumières dansantes, Assistance\n- 1/jour chacun : Motif hypnotique, Restauration partielle",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d10+3",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/01185e7ede_monstre-dragon-cristal-jeune.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon cristal jeune",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +7, SAG +5, CHA +6",
+ "skills": "Perception +8, Discrétion +7, Survie +5",
+ "resistances": "froid, radiant"
+}

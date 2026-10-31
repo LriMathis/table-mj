@@ -1,0 +1,42 @@
+{
+ "id": "touche-squelette",
+ "name": "Skeleton Key",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend toutes les langues qu'il parlait dans la vie mais ne peut pas parler",
+ "traits": "**Escalade des araignées.** Le squelette peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Le squelette fait deux attaques de poignard.\n**Déclencheur.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/11baf5e0d7_monstre-touche-squelette.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Touche squelette",
+ "caNote": "déchets d'armures",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

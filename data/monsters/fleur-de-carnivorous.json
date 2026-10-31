@@ -1,0 +1,46 @@
+{
+ "id": "fleur-de-carnivorous",
+ "name": "Carnivorous Flower",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "0 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 19,
+  "INT": 6,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "Otyugh",
+ "traits": "**Télépathie limitée.** La plante peut transmettre par magie des messages et des images simples à toute créature de 36 m qui peut comprendre une langue. Cette forme de télépathie ne permet pas à la créature réceptrice de répondre par télépathie.",
+ "actionsText": "**Multiattaques.** La plante fait trois attaques : une avec sa morsure et deux avec ses tentacules.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution contre maladie ou devenir empoisonné jusqu'à ce que le maladie soit guéri. Toutes les 24 heures qui s'écoulent, la cible doit répéter le jet de sauvegarde, réduisant son maximum de points de vie de 5 (1d10) en cas de défaillance. La maladie est guérie sur un succès. La cible meurt si la maladie réduit sa maximum de points de vie à 0. Cette réduction par rapport au maximum de points de vie de la cible dure jusqu'à ce que le maladie soit guéri.\n**Tentacle.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants plus 4 (1d8) dégâts perforants. Si la cible est moyenne ou plus petite, elle est agrippé (évasion DD 13) et entravé jusqu'à ce que le grappin se termine. L'usine a deux tentacules, chacun d'entre eux pouvant gripper une cible.\n**Clam du Tentacle.** La plante claque les créatures agrippé par elle dans l'autre ou une surface solide. Chaque créature doit réussir sur un DD 14 jet de sauvegarde de Constitution ou prendre 10 (2d6 + 3) dégâts contondants et être étourdi jusqu'à la fin du prochain tour de l'usine. Lors d'une sauvegarde réussie, la cible prend la moitié du dégâts contondants et n'est pas étourdi.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "contondant + perforant"
+  }
+ ],
+ "portrait": "/data/images/5a8b4fa880_monstre-fleur-de-carnivorous.webp",
+ "notes": "",
+ "source": "Rise of Tiamat (5e.tools, traduction automatique)",
+ "aka": "Fleur de Carnivorous",
+ "caNote": "armure naturelle",
+ "saves": "CON +7"
+}

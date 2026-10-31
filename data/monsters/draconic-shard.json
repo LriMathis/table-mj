@@ -1,0 +1,44 @@
+{
+ "id": "draconic-shard",
+ "name": "Draconic Shard",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 17,
+ "hp": 168,
+ "hpFormula": "16d12+64",
+ "vitesse": "0 m, vol 24 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 22,
+  "SAG": 18,
+  "CHA": 22
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 26",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Déflection.** Le CA du shard comprend son modificateur Intelligence.\n**Mouvement intégré.** Le dard peut se déplacer à travers des créatures et des objets comme s'ils étaient 3. Si elle termine son tour à l'intérieur d'un objet, elle prend 5 (1d10) dégâts de force.\n**Résistance légendaire (3/jour).** Si le shard échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Réjuvenance.** Lorsqu'il tombe à 0 points de vie, le dard disparaît et laisse une petite pierre gemme fissurée dans son espace. La pierre de gemme correspond au genre de dragon gemme qu'il était dans la vie et a CA 20, 15 points de vie, et l'immunité à tous les dégâts sauf la force. À moins que la pierre gemme ne soit détruite, après les jours 1d20, la pierre gemme se dissipe et la pierre ardue se reforme, récupérant toute sa points de vie et apparaissant à la place la pierre gemme une fois occupée ou dans l'espace inoccupé le plus proche.\n**Nature inhabituelle.** Le shard ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le shard fait deux attaques Telekinetic Rend.\n**Rend télékinétique.** Attaque de sort au corps à corps ou à distance : +12 au toucher, allonge 3 m ou portée 36 m, une cible. Touché : 15 (2d8 + 6) dégâts de force.\n**Objet inhabité.** Le dard disparaît alors qu'il déverse son essence psychique dans un objet non sensible moyen ou plus petit qu'il peut voir à l'intérieur de 9 m de celui-ci, le possédant par magie. L'objet utilise le CA du shard, et tout dégâts causé à l'objet s'applique au points de vie du shard. Le shard habite l'objet jusqu'à ce qu'il utilise une action pour partir ; jusqu'à ce qu'il soit tourné ; jusqu'à ce qu'il soit réduit à 0 points de vie ; ou jusqu'à ce qu'un effet qui met fin à la possession, tel qu'un sort Dissipation du mal et du bien, y soit utilisé. Quand il quitte l'objet, il réapparaît dans l'espace inoccupé le plus proche.\nTandis qu'habité, l'objet devient un objet magique s'il n'était pas déjà, et une petite pierre fissurée correspondant au genre de dragon gemme que le dragon était dans la vie apparaît quelque part sur l'objet. Le shard peut faire voler l'objet en utilisant sa propre vitesse de vol, utiliser ses sens, parler verbalement ou télépathiquement, lancer des sorts et utiliser ses actions légendaires.\nSi une créature porte ou porte l'objet habité, le dard peut lui accorder les avantages suivants:\nChacune des attaques de la créature offre un 1d8 dégâts de force supplémentaire sur un coup.\nLa créature gagne la résistance à dégâts psychiques.\n**Crush psychique (Recharge 5-6).** Le dard libère un pouls de puissance psychique. Chaque créature du choix du shard dans une sphère 18 m -radius centrée sur elle doit faire un DD 20 jet de sauvegarde d'Intelligence. Sur une sauvegarde ratée, la créature prend 55 (10d10) dégâts psychiques et est étourdi jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas étourdi.\n**Coulisse (Psioniques).** Le shard lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Détection des pensées, Invisibilité, Télékinésie",
+ "attacks": [
+  {
+   "name": "Rend télékinétique",
+   "bonus": 12,
+   "damage": "2d8+6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/3d3fee1474_monstre-draconic-shard.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "caNote": "Déflexion",
+ "saves": "DEX +7, INT +12, SAG +10, CHA +12",
+ "skills": "Arcanes +12, Histoire +12, Perception +16, Discrétion +7",
+ "resistances": "acide, feu, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, draconic shard peut entreprendre l'une des actions ci-après.\n**Rend.** Le shard fait une attaque Telekinetic Rend.\n**Lancer un sort (coûts 2 actions).** Le shard utilise le Spellcasting.\n**Commande de la pensée (coûts 2 actions).** Le shard cible une créature qu'il peut voir à l'intérieur de 9 m. La cible doit réussir sur un DD 20 jet de sauvegarde de Sagesse ou être charmé jusqu'à la fin de son prochain tour. Alors que charmé de cette façon, la cible devient la marionnette du shard, agissant et se déplaçant conformément à ses commandes télépathiques. Sous le contrôle du shard, la cible ne peut prendre que l'Attaque (le shard choisit la cible) ou l'action Foncer à son tour."
+}

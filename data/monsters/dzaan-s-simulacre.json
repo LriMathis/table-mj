@@ -1,0 +1,40 @@
+{
+ "id": "dzaan-s-simulacre",
+ "name": "Dzaan's Simulacrum",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 10,
+ "hp": 24,
+ "hpFormula": "9d8+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Perception passive 11",
+ "languages": "abyssal, commun, géant, infernal",
+ "traits": "**Détection orthographique.** Le simulacrum est un spellcaster de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 13, +5 au toucher avec attaques de sort). Il a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Aspersion d'acide *, Lumière, Illusion mineure, Poigne électrique *\n- Niveau 1 (2 emplacements) : Détection de la magie, Déguisement, Projectile magique *\n- Niveau 2 (2 emplacements) : Invisibilité, Lévitation, Force fantasmagorique\n*Voir \"Actions\" ci-dessous.",
+ "actionsText": "**Gras de scoop (sort mineur).** Attaque de sort au corps à corps : +5 au toucher, allonge 1,50 m, une créature (la jet d'attaque a un avantage si la cible porte une armure en métal). Touché : 9 (2d8) dégâts de foudre, et la cible ne peut pas prendre de réactions avant le début de son prochain tour.\n**acide Splash (sort mineur).** Le simulacrum lance une bulle d'acide à une créature qu'il peut voir à l'intérieur de 18 m de lui, ou à deux de ces créatures qui sont à l'intérieur de 1,50 m de l'autre. Une cible doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou prendre 7 (2d6) dégâts d'acide.\n**Missile magique (de niveau 1 Spell; Nécessite un emplacement de sort).** Le simulacrum crée trois fléchettes de force magique. Chaque fléchette frappe de manière ardue une créature le simulacrum peut voir dans 36 m de celui-ci, en traitant 3 (1d4 + 1) dégâts de force. Si le simulacrum lance ce sort en utilisant un emplacement de sort de niveau 2, il crée une fléchette de plus.",
+ "attacks": [
+  {
+   "name": "Gras de scoop (sort mineur)",
+   "bonus": 5,
+   "damage": "2d8",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/dc1f022f7a_monstre-dzaan-s-simulacre.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Dzaan's simulacre",
+ "saves": "INT +5, SAG +3",
+ "skills": "Arcanes +5, Tromperie +4, Histoire +5"
+}

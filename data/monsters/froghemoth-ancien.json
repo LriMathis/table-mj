@@ -1,0 +1,49 @@
+{
+ "id": "froghemoth-ancien",
+ "name": "Froghemoth Elder",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 14,
+ "hp": 207,
+ "hpFormula": "18d12+90",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 13,
+  "CON": 20,
+  "INT": 2,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 22",
+ "languages": "—",
+ "traits": "**Amphibie.** La grenouille-hémoth peut respirer l'air et l'eau.\n**Résistance légendaire (3/jour).** Si la grenouille-hémoth échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Susceptibilité aux chocs.** Si la grenouille-hémoth prend dégâts de foudre, elle subit deux effets jusqu'à la fin de son prochain tour : sa vitesse est réduite de moitié, et elle a un désavantage sur jet de sauvegarde de Dextérité.",
+ "actionsText": "**Multiattaques.** La grenouille-hémoth fait une attaque Bite et deux attaques Tentacle, et elle peut utiliser la langue.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 23 (3d10 + 7) dégâts perforants, et la cible est avalée s'il s'agit d'une créature moyenne ou plus petite. Une créature avalée a les conditions aveuglé et entravé, a 3 contre les attaques et autres effets en dehors de la grenouillehemoth, et prend 10 (3d6) dégâts d'acide au début de chacun des tours de la grenouillehemoth.\nLe goéland de la grenouille-hémoth peut contenir jusqu'à trois créatures à la fois. Si la grenouille-hémoth prend 25 dégâts ou plus sur un seul tour d'une créature à l'intérieur, la grenouille-hémoth doit réussir sur une DD 20 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, chacune d'entre elles atterrissant dans un espace à l'intérieur de 3 m de la grenouille-hémoth et a l'état à terre. Si la grenouille-hémoth meurt, toute créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 3 m de mouvement, sortant avec l'état à terre.\n**Tentacle.** Attaque d'arme au corps à corps : +12 au toucher, allonge 6 m, une cible. Touché : 20 (3d8 + 7) dégâts contondants, et la cible a l'état agrippé (évasion DD 20). Jusqu'à ce que ce grappin se termine, le grenouille-hémoth ne peut pas utiliser cette tente sur une autre cible. La grenouille-hémoth a quatre tentacules.\n**Langue.** La grenouille-hémoth cible une créature grande ou plus petite qu'elle peut voir à l'intérieur de 7,50 m. La cible doit faire un DD 20 jet de sauvegarde de Force. Lors d'une sauvegarde ratée, la cible est tirée dans un espace inoccupé à l'intérieur de 1,50 m de la grenouillehemoth.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "3d10+7",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 12,
+   "damage": "3d8+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/48cda48fc1_monstre-froghemoth-ancien.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Froghemoth ancien",
+ "caNote": "armure naturelle",
+ "saves": "FOR +12, CON +10, SAG +7",
+ "skills": "Perception +12, Discrétion +6",
+ "resistances": "feu, foudre",
+ "reactions": "**Alien Gaze.** Lorsqu'une créature peut voir la grenouille-hémoth endommage, la grenouille-hémoth pivote les yeux vers la créature et perce son esprit avec son regard de l'autre monde. Cette créature doit faire un DD 18 jet de sauvegarde d'Intelligence, en prenant 7 (2d6) dégâts psychiques sur un sauvegarde raté ou la moitié de ces dégâts sur un succès.\n**Naissance.** Immédiatement après qu'une créature puisse voir son tour, la grenouille saute jusqu'à la moitié de sa vitesse. Chaque créature au sein de 1,50 m de la grenouillehemoth quand elle atterrit doit réussir sur un DD 20 jet de sauvegarde de Force ou avoir l'état à terre."
+}

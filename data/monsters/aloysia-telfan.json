@@ -1,0 +1,38 @@
+{
+ "id": "aloysia-telfan",
+ "name": "Aloysia Telfan",
+ "type": "Humanoïde (elfe, ensorceleur)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "Commun plus une autre langue",
+ "traits": "",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants plus 7 (2d6) dégâts psychiques.\n**Arcane Blast (Recharge 5-6).** Aloysia crée une explosion de force magique dans une sphère 6 m -radius centrée sur un point qu'elle peut voir en elle-même. Chaque créature dans cette zone doit faire un DD 13 jet de sauvegarde de Dextérité. Sur un jet de sauvegarde raté, la créature prend 10 (3d6) dégâts de force et est poussé 3 m loin du centre de la zone. Sur une sauvegarde réussie, il prend la moitié de ces dégâts et n'est pas poussé.\n**Détection orthographique.** Aloysia lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumière, Main de mage\n- 1/jour chacun : Détection de la magie, Lévitation",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/ba8ac4e537_monstre-aloysia-telfan.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "skills": "Arcanes +6, Tromperie +5, Histoire +4, Perception +2"
+}

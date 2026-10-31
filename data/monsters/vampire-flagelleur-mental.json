@@ -1,0 +1,49 @@
+{
+ "id": "vampire-flagelleur-mental",
+ "name": "Vampire Mind Flayer",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 85,
+ "hpFormula": "10d8+40",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 5,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "Ça comprend le discours profond mais ne peut pas parler",
+ "traits": "**Escalade des araignées.** La couche mentale peut grimper des surfaces difficiles, y compris le long des plafonds, sans avoir besoin de faire un test de caractéristique.\n**Hypersensibilité à la lumière du soleil.** La tueuse mentale prend 20 dégâts radiants si elle commence son tour dans la lumière du soleil. En plein soleil, il présente un désavantage sur jets d'attaque et tests de caractéristique.",
+ "actionsText": "**Multiattaques.** La tueuse mentale fait deux attaques de Griffe, ou une attaque de Griffe et une attaque de Tentacles, et utilise Mind Burst si disponible.\n**Griffe.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts tranchants plus 10 (3d6) dégâts nécrotiques.\n**Tentacules.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts perforants. Si la cible est une créature moyenne ou plus petite, elle a l'état agrippé (évasion DD 14).\n**Buvez de la sapience.** Jet de sauvegarde de Sagesse : DD 15, une créature la couche mentale a agrippé. Échec : 21 (6d6) dégâts psychiques, et la créature gagne 1 niveau épuisement. La maximum de points de vie de la cible diminue d'un montant égal à la dégâts psychiques prise, et la flayer mentale retrouve la points de vie égale à ce montant.\n**L'esprit s'éteint (Recharge 5-6).** Jet de sauvegarde d'Intelligence : DD 15, chaque créature dans une Emanation 9 m provenant de la couche mentale. Échec : La cible a l'état neutralisé et répète l'enregistrement à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Après 1 minute, il réussit automatiquement.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Tentacules",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f54aee8362_monstre-vampire-flagelleur-mental.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Vampire flagelleur mental",
+ "saves": "DEX +7, SAG +5, CHA +7",
+ "skills": "Perception +5, Discrétion +7",
+ "resistances": "nécrotique, psychique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné"
+}

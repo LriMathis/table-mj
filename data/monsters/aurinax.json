@@ -1,0 +1,54 @@
+{
+ "id": "aurinax",
+ "name": "Aurinax",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal bon",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 19,
+ "hp": 256,
+ "hpFormula": "19d12+133",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 25,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 24
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 24",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Aurinax peut respirer l'air et l'eau.\n**Résistance légendaire (3/jour).** Si Aurinax échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Aurinax peut utiliser sa présence effrayante. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 19 (2d10 + 8) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d6 + 8) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +14 au toucher, allonge 4,50 m, une cible. Touché : 17 (2d8 + 8) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix d'Aurinax qui se trouve à l'intérieur de 36 m d'Aurinax et consciente de lui doit réussir sur un DD 21 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante d'Aurinax pour les prochaines 24 heures.\n**Armes respiratoires (Recharge 5-6).** Aurinax utilise l'une des armes suivantes.\n- **feu Respiration** Aurinax exhale le feu dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 21 jet de sauvegarde de Dextérité, en prenant 66 (12d10) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **Respiration faible** Aurinax exhale du gaz dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 21 jet de sauvegarde de Force ou avoir un désavantage sur Force -basé jets d'attaque, tests de Force, et jet de sauvegarde de Force pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Modifier la forme.** Aurinax se polymorphe magiquement en un humanoïde ou une bête qui n'a pas de cote de défi supérieure à la sienne, ou de nouveau dans sa forme réelle. Il revient à sa vraie forme s'il meurt. Tout équipement qu'il porte ou qu'il transporte est absorbé ou porté par la nouvelle forme (le choix d'Aurinax).\nDans une nouvelle forme, Aurinax conserve son alignement, points de vie, dés de vie, la capacité de parler, les compétences, la résistance légendaire, les actions de lair, et les scores Intelligence, Sagesse et Charisme, ainsi que cette action. Ses statistiques et ses capacités sont autrement remplacées par celles du nouveau formulaire, à l'exception de toutes les caractéristiques de classe ou des actions légendaires de ce formulaire.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "2d10+8",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 14,
+   "damage": "2d6+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 14,
+   "damage": "2d8+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4946c88445_monstre-aurinax.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +13, SAG +8, CHA +13",
+ "skills": "Perspicacité +8, Perception +14, Persuasion +13, Discrétion +8",
+ "immunities": "feu",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, aurinax peut entreprendre l'une des actions ci-après.\n**Détecter.** Aurinax fait un test de Sagesse (Perception).\n**Attaque de queue.** Aurinax fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** Aurinax bat ses ailes. Chaque créature au sein de 3 m d'Aurinax doit réussir sur un DD 22 jet de sauvegarde de Dextérité ou prendre 15 (2d6 + 8) dégâts contondants et être à terre. Aurinax peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

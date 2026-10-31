@@ -1,0 +1,47 @@
+{
+ "id": "cambion",
+ "name": "Cambion",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 19,
+ "caNote": "armure d'écailles",
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "saves": "FOR +7, CON +6, INT +5, CHA +6",
+ "skills": "Discrétion +7, Intimidation +6, Perception +4, Tromperie +6",
+ "resistances": "feu, foudre, froid, poison ; contondants, perforants et tranchants infligés par des attaques non-magiques",
+ "senses": "vision dans le noir 18 m, Perception passive 14",
+ "languages": "abyssal, commun, infernal",
+ "traits": "**Incantation innée.** La caractéristique d'incantation du cambion est le Charisme (DD du jet de sauvegarde contre les sorts 14). Le cambion peut lancer les sorts suivants de manière innée, en se passant des éventuelles composantes matérielles :\n- 3/jour chacun : *détection de la magie, injonction, modifier son apparence*\n- 1/jour chacun : *changement de plan (soi-même uniquement)*\n**Protection fiélone.** Le bonus de Charisme du cambion est inclus dans sa CA.",
+ "actionsText": "**Attaques multiples.** Le cambion effectue deux attaques au corps à corps ou utilise deux fois son rayon de feu.\n**Charme fiélon.** Un humanoïde situé dans le champ de vision du cambion et à 9 mètres ou moins de lui doit réussir un jet de sauvegarde de Sagesse DD 14, sans quoi il est charmé par magie pendant 1 jour. La cible charmée obéit aux ordres du cambion. Si une autre créature ou le cambion lui fait du mal ou si elle reçoit un ordre suicidaire de la part du cambion, elle peut retenter le jet de sauvegarde. Si elle le réussit, elle met fin à l'effet dont elle était victime. Si une cible réussit son jet de sauvegarde ou si l'effet dont elle est victime prend fin, elle est immunisée contre le charme fiélon du cambion pendant les 24 prochaines heures.\n**Lance.** *Attaque d'arme au corps à corps ou à distance :* +7 pour toucher, allonge 1,50 m ou portée 6/18 m, une cible. *Touché :* 7 (1d6+4) dégâts perforants ou 8 (1d8+4) dégâts perforants si elle est maniée à deux mains en attaquant au corps à corps, plus 3 (1d6) dégâts de feu.\n**Rayon de feu.** *Attaque de sort à distance :* +7 pour toucher, portée 36 m, une cible. *Touché :* 10 (3d6) dégâts de feu.",
+ "portrait": "/data/images/e2d757eee0_monstre-cambion.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 30 · image : Manuel des monstres p. 29",
+ "attacks": [
+  {
+   "name": "Lance",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Rayon de feu",
+   "bonus": 7,
+   "damage": "3d6",
+   "type": "feu"
+  }
+ ]
+}

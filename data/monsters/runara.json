@@ -1,0 +1,47 @@
+{
+ "id": "runara",
+ "name": "Runara",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal bon",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 19,
+ "hp": 212,
+ "hpFormula": "17d12+102",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 23,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 22",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Runara peut respirer l'air et l'eau.\n**Résistance légendaire (3/jour).** Si Runara échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Runara peut utiliser sa présence effrayante. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 18 (2d10 + 7) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d6 + 7) dégâts tranchants.\n**Présence effrayante.** Chaque créature du choix de Runara qui est dans 36 m de Runara et consciente de lui doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante de Runara pour les 24 prochaines heures.\n**Armes respiratoires (Recharge 5-6).** Runara utilise l'une des armes suivantes.\n- **foudre Respiration** Runara exhale la foudre dans une ligne 27 m qui est large. Chaque créature dans cette ligne doit faire un DD 19 jet de sauvegarde de Dextérité, en prenant 66 (12d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **Respiration** Runara exhale l'énergie de répulsion dans un cône 9 m. Chaque créature dans cette zone doit réussir sur un DD 19 jet de sauvegarde de Force. Lors d'un sauvetage raté, la créature est poussée 18 m loin de Runara.\n**Modifier la forme.** Runara se transforme magiquement en Humanoïde ou Bête moyenne ou petite, tout en conservant ses statistiques de jeu (autre que sa taille). Cette transformation se termine si Runara est réduit à 0 points de vie ou utilise un action bonus pour y mettre fin.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d10+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "2d6+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d7213968fb_monstre-runara.webp",
+ "notes": "",
+ "source": "Dragons of Stormwreck Isle (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, CON +11, SAG +7, CHA +9",
+ "skills": "Perspicacité +7, Perception +12, Discrétion +5",
+ "immunities": "foudre"
+}

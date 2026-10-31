@@ -1,0 +1,48 @@
+{
+ "id": "aurumach-rilmani",
+ "name": "Aurumach Rilmani",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 18,
+ "hp": 285,
+ "hpFormula": "30d10+120",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 21,
+  "CON": 18,
+  "INT": 21,
+  "SAG": 18,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 20",
+ "languages": "tous, télépathie 36 m",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'aurumach fait trois attaques de Blade ou de Ray Gleaming.\n**Blade manifeste.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 23 (4d8 + 5) dégâts de force.\n**Rayon de sang-froid.** Attaque de sort à distance : +11 au toucher, portée 36 m, une cible. Touché : 24 (3d12 + 5) dégâts de force.\n**Détection orthographique.** L'aurumach lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Détection de la magie, Détection des pensées\n- 1/jour chacun : Vol, Quête (en tant qu'action), Lenteur, Suggestion",
+ "attacks": [
+  {
+   "name": "Blade manifeste",
+   "bonus": 11,
+   "damage": "4d8+5",
+   "type": "force"
+  },
+  {
+   "name": "Rayon de sang-froid",
+   "bonus": 11,
+   "damage": "3d12+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/6f75c2de54_monstre-aurumach-rilmani.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +11, INT +11",
+ "skills": "Arcanes +11, Histoire +11, Perception +10",
+ "resistances": "psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "bonusActions": "**Aura de lames.** L'aurumach manifeste une aura spectrale dorée de lames autour de lui. Pendant que cette aura se manifeste, chaque créature qui commence son tour à l'intérieur de 3 m de l'aurumach doit faire un DD 19 jet de sauvegarde de Dextérité, en prenant 16 (3d10) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite. L'aura disparaît après 1 minute, lorsque l'aurumach a l'état neutralisé ou meurt, ou lorsque l'aurumach utilise un action bonus pour y mettre fin.\n**Invocation Faiblesse (Recharge 5-6).** L'aurumach tente d'utiliser sa magie pour affaiblir les défenses d'une créature qu'elle peut voir en elle-même. La cible doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou être maudite jusqu'à la fin du prochain tour de l'aurumach. La prochaine fois que l'aurumach frappe la cible maudite avec une Blade manifeste ou une attaque de Gleaming Ray, la cible prend un 27 (6d8) dégâts de force supplémentaire."
+}

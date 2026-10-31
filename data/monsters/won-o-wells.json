@@ -1,0 +1,41 @@
+{
+ "id": "won-o-wells",
+ "name": "Will-o'-Wells",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 19,
+ "hp": 22,
+ "hpFormula": "9d4",
+ "vitesse": "0 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 28,
+  "CON": 10,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Consommer la vie.** En tant qu'action bonus, le will-o'-wells peut cibler une créature il peut voir à l'intérieur de 1,50 m qui a 0 points de vie et est toujours en vie. La cible doit réussir sur un DD 10 jet de sauvegarde de Constitution contre cette magie ou mourir. Si la cible meurt, le will-o'-wells reprend 10 (3d6) points de vie.\n**Éphémère.** Les puits de volonté ne peuvent rien porter.\n**Mouvement intégré.** Le testament-o'-wells peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Éclairage variable.** Le will-o'-wells apporte une lumière lumineuse dans un rayon de 5 à 6 m et une lumière faible pour un nombre supplémentaire de pieds égal au rayon choisi. Les puits will-o' peuvent modifier le rayon comme un action bonus.",
+ "actionsText": "**Choc.** Attaque de sort au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 9 (2d8) dégâts de foudre.\n**Invisibilité.** Le will-o'-wells et sa lumière deviennent magiquement invisible jusqu'à ce qu'il attaque ou utilise sa vie Consume, ou jusqu'à ce que sa concentration se termine (comme si concentrating sur un sort).\n**Boon magique (recharge après un repos long).** Le will-o'-wells accorde une prime à une créature il peut voir dans 1,50 m de lui qui n'est pas un mort-vivant. Le bénéficiaire du boon gagne un d4 et peut, à tout moment dans les 24 heures suivantes, rouler ce jeu et ajouter le nombre roulé à un test de caractéristique, jet d'attaque, ou jet de sauvegarde fait par lui. Aucune créature ne peut avoir plus d'un de ces boons magiques à la fois.",
+ "attacks": [
+  {
+   "name": "Choc",
+   "bonus": 4,
+   "damage": "2d8",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/c07d8baccf_monstre-won-o-wells.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Won-o'- Wells",
+ "resistances": "acide, froid, feu, nécrotique, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, empoisonné, à terre, entravé, inconscient"
+}

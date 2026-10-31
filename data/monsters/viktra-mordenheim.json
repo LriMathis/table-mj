@@ -1,0 +1,42 @@
+{
+ "id": "viktra-mordenheim",
+ "name": "Viktra Mordenheim",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 123,
+ "hpFormula": "19d8+38",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 21,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, draconique, nain, elfique, gobelin, halfelin",
+ "traits": "**Inventions de bolster.** A la fin de chaque tour de Viktra, chacun de ses alliés de Construction dans une Emanation 1,50 m originaire de Viktra gagne 5 points de vie temporaires. Ce trait ne fonctionne pas si Viktra a l'état neutralisé.\n**Restauration de lord noir.** Si Viktra meurt, elle ressuscite avec tout son points de vie en 1d10 semaines quelque part à Lamordia.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Viktra échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Viktra fait deux attaques foudre Rod. Elle peut remplacer une attaque par une utilisation de Syringe.\n**Barre foudre.** Jet d'attaque au corps à corps ou à distance : +6, allonge 1,50 m ou portée 27 m. Touché : 12 (2d8 + 3) dégâts de foudre, et la cible ne peut pas prendre Réactions avant le début de son prochain tour.\n**Syringe.** Jet de sauvegarde de Constitution : DD 16, une créature Viktra peut voir dans 1,50 m. Échec : La cible a l'état empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, la cible subit l'un des effets suivants (le choix de Viktra). La cible répète l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. La cible réussit automatiquement après 1 minute :\n- **Sérum corrosif** La cible prend 10 (4d4) dégâts d'acide au début de chacun de ses tours, et sa vitesse diminue de 3 m.\n- **Sérum mort** La cible prend 11 (2d10) dégâts nécrotiques au début de chacun de ses tours, et elle ne peut pas récupérer points de vie.\n- **Sérum alternant mental** La cible prend 10 (3d6) dégâts psychiques au début de chacun de ses tours, et il a Désavantage sur jet de sauvegarde pour maintenir concentration.",
+ "attacks": [
+  {
+   "name": "Barre foudre",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/a808367ca2_monstre-viktra-mordenheim.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "CON +5, CHA +3",
+ "skills": "Arcanes +8, Investigation +8, Médecine +6",
+ "bonusActions": "**Activer les constructions (1/jour).** Viktra lance Animation d'objets, en utilisant Intelligence comme caractéristique d'incantation.\n- 1/jour : Animation d'objets",
+ "reactions": "**Réorienter l'attaque.** Déclencheur : Une créature Viktra peut voir fait un jet d'attaque contre elle. Réponse : Viktra choisit un allié petit ou moyen au sein de 1,50 m d'elle-même. Viktra et cet allié échangent des places, et l'allié devient la cible de l'attaque à la place.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, viktra mordenheim peut entreprendre l'une des actions ci-après.\n**Prod de choc.** Viktra monte à la moitié de sa vitesse et fait une attaque foudre Rod. Viktra ne peut pas recommencer avant le début de son prochain tour.\n**Explosion statique.** Jet de sauvegarde de Dextérité : DD 16, chaque créature dans une Sphère 3 m -radius centrée sur un point Viktra peut voir dans 27 m. Échec : 5 (2d4) dégâts de foudre. Réussite : Demi-dégâts."
+}

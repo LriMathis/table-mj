@@ -1,0 +1,48 @@
+{
+ "id": "montaron-et-le-crane-riant",
+ "name": "Montaron and the Laughing Skull",
+ "type": "Humanoïde (halfelin)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 149,
+ "hpFormula": "23d6+69",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 20,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, halfelin, argot des voleurs",
+ "traits": "**Assassinat.** Lors de son premier tour, Montaron a l'avantage sur jets d'attaque contre toute créature qui n'a pas pris de tour. Tout coup de Montaron contre une créature surprise est un coup critique.\n**Évasion.** Si Montaron est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, Montaron ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue.\n**Nimexe.** Montaron peut se déplacer dans l'espace de toute créature d'une taille plus grande que la sienne.\n**Attaque d'éternuement (1/Turn).** Montaron inflige 21 (6d6) de plus de dégâts lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur la jet d'attaque, ou lorsque la cible est dans la 1,50 m d'un allié de Montaron qui n'est pas neutralisé et Montaron n'a pas de désavantage sur la jet d'attaque.\n**Matériel spécial.** Montaron possède un Sac sans fond. Il garde le Demi-liche, Xzar, dans le sac. Il possède également un Puits portable, qu'il utilise pour aider aux vols. En tant qu'action bonus, Montaron peut placer son Puits portable dans son Sac sans fond. Cela détruit instantanément les deux objets et ouvre une porte à l'Aviation Astral. Montaron et n'importe quelle créature dans 3 m de lui est aspiré par la porte à un endroit aléatoire sur l'Aplan Astral. La porte se ferme alors.",
+ "actionsText": "**Multiattaques.** Montaron fait trois attaques Shortsword et utilise la capacité de libérer le Demilich si disponible.\n**Mot-clé.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts perforants, et la cible doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 24 (7d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Acrobatie légère.** Attaque d'arme à distance : +9 au toucher, portée 24/96 m., une cible. Touché : 9 (1d8 + 5) dégâts perforants.\n**Libérer le Demilich (1/jour).** Montaron atteint dans son sac de détention et libère Xzar. Xzar est un Demi-liche qui apparaît dans 1,50 m de Montaron. Xzar se lance pour sa propre initiative. Xzar ne peut pas utiliser des actions de tanière ou des actions légendaires. Il a un CR de 14.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 9,
+   "damage": "1d8+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d3d014ee8b_monstre-montaron-et-le-crane-riant.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "aka": "Montaron et le crâne riant",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +9, INT +5",
+ "skills": "Acrobaties +9, Tromperie +4, Perception +4, Discrétion +13",
+ "resistances": "poison"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "menace-reduite-aboleth",
+ "name": "Reduced-Threat Aboleth",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 135,
+ "hpFormula": "18d10+36",
+ "vitesse": "3 m, nage 12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 9,
+  "CON": 15,
+  "INT": 18,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 20",
+ "languages": "profond, télépathie 36 m",
+ "traits": "**Amphibie.** L'abolent peut respirer de l'air et de l'eau.\n**Nuage de muqueuses.** Sous l'eau, l'abolent est entouré de mucus transformatifs. Une créature qui touche l'abole ou qui la frappe avec une attaque de mêlée alors que dans 1,50 m de lui doit faire un DD 14 jet de sauvegarde de Constitution. En cas d'échec, la créature est malade pendant 2 heures. La créature malade ne peut respirer que sous l'eau.\n**Télépathie probante.** Si une créature communique télépathiquement avec l'abole, l'abole apprend les plus grands désirs de la créature si l'abole peut voir la créature.",
+ "actionsText": "**Multiattaques.** L'abole fait trois attaques de tentacules.\n**Tentacle.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Constitution ou devenir malade. Le maladie n'a pas d'effet pendant 1 minute et peut être supprimé par n'importe quelle magie qui guérit maladie. Après 1 minute, la peau de la créature malade devient translucide et visqueuse, la créature ne peut retrouver points de vie que si elle est sous l'eau, et la maladie ne peut être enlevée que par Guérison ou un autre sort de maladie ou plus. Lorsque la créature est à l'extérieur d'un plan d'eau, elle prend 6 (1d12) dégâts d'acide toutes les 10 minutes, à moins que l'humidité ne soit appliquée sur la peau avant que 10 minutes ne soient passées.\n**Queue.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 15 (3d6 + 5) dégâts contondants.\n**Esclave (3/jour).** L'abolent vise une créature qu'il peut voir dans 9 m de lui. La cible doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être magiquement charmé par l'abolon jusqu'à ce que l'abolon meurt ou jusqu'à ce qu'il soit sur un autre plan d'existence que la cible. La cible charmé est sous le contrôle de l'aboleth et ne peut pas prendre de réactions, et l'aboleth et la cible peuvent communiquer télépathiquement l'un avec l'autre sur n'importe quelle distance.\nChaque fois que la cible charmé prend des dégâts, la cible peut répéter la jet de sauvegarde. Sur un succès, l'effet se termine. Pas plus d'une fois toutes les 24 heures, la cible peut également répéter le jet de sauvegarde lorsqu'il est au moins 1,5 km loin de l'abolon.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "contondant + acide"
+  },
+  {
+   "name": "Queue",
+   "bonus": 9,
+   "damage": "3d6+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/758dd567d1_monstre-menace-reduite-aboleth.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Menace réduite aboleth",
+ "caNote": "armure naturelle",
+ "saves": "CON +6, INT +8, SAG +6",
+ "skills": "Histoire +12, Perception +10",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, menace réduite aboleth peut entreprendre l'une des actions ci-après.\n**Détecter.** L'aboteth fait un test de Sagesse (Perception).\n**Raquette de queue.** L'abole fait une attaque de queue.\n**Évacuation de psychique (coûts 2 actions).** une créature charmé par l'aboleth prend 10 (3d6) dégâts psychiques, et l'aboleth récupère points de vie égal aux dégâts que la créature prend."
+}

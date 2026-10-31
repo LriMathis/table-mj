@@ -1,0 +1,40 @@
+{
+ "id": "jeune-dragon-de-cuivre",
+ "name": "Jeune dragon de cuivre",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique bon",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 119,
+ "hpFormula": "14d10+42",
+ "vitesse": "12 m, escalade 12 m, vol 24 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "saves": "DEX +4, SAG +4",
+ "skills": "Discrétion +4, Perception +7, Tromperie +5",
+ "immunities": "acide",
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 17",
+ "languages": "commun, draconique",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée. Il peut remplacer l’une de ces attaques par une utilisation de Souffle ralentissant.\n**Saignée.** Corps à corps : +7, allonge 3 m. Touché : 15 (2d10 + 4) dégâts tranchants.\n**Souffle d'acide (recharge 5–6).** JS Dextérité : DD 14, chaque créature dans une Ligne de 12 m de long sur 1,50 m de large. Échec : 40 (9d8) dégâts d'acide. Réussite : demi-dégâts.\n**Souffle ralentissant.** JS Constitution : DD 14, chaque créature dans un Cône de 9 m. Échec : la cible voit sa Vitesse réduite de moitié, ne peut pas jouer de Réaction et peut entreprendre une action ou une action Bonus à son tour, mais pas les deux. L'effet persiste jusqu'à la fin de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c99eae3799_monstre-jeune-dragon-de-cuivre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 108"
+}

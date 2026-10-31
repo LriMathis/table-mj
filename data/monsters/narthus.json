@@ -1,0 +1,44 @@
+{
+ "id": "narthus",
+ "name": "Narthus",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Narthus fait deux attaques en utilisant Vile Mace ou Fateful Bolt dans n'importe quelle combinaison.\n**C'est une vile Mace.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts contondants plus 3 (1d6) dégâts nécrotiques.\n**Un bol de gloire.** Jet d'attaque à distance : +4, portée 36 m. Touché : 8 (1d12 + 2) dégâts nécrotiques, et la prochaine jet d'attaque faite contre la cible avant la fin du prochain tour de Narthus a Avantage.",
+ "attacks": [
+  {
+   "name": "C'est une vile Mace",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Un bol de gloire",
+   "bonus": 4,
+   "damage": "1d12+2",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/0bf51447c3_monstre-narthus.webp",
+ "notes": "",
+ "source": "Heroes of the Borderlands (5e.tools, traduction automatique)",
+ "skills": "Médecine +4, Religion +2"
+}

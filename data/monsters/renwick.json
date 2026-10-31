@@ -1,0 +1,44 @@
+{
+ "id": "renwick",
+ "name": "Renwick",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 17,
+ "hp": 135,
+ "hpFormula": "18d8+54",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 20,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 19",
+ "languages": "Commun plus jusqu'à cinq autres langues",
+ "traits": "**Résistance légendaire (3/jour).** Si Renwick échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Réjuvenance.** S'il a une phylatine, un lich détruit gagne un nouveau corps en 1d10 jours, récupérant tout son points de vie et redevenant actif. Le nouveau corps apparaît à l'intérieur de 1,50 m de la phylacery.\n**Résistance au virage.** Renwick a un avantage sur jet de sauvegarde contre tout effet qui devient mort-vivant.\n**Détection orthographique.** Renwick est un épeautre de niveau 18. Son caractéristique d'incantation est Intelligence (save spell DD 20, +12 au toucher avec attaques de sort). Renwick a préparé les sorts d'assistant suivants :\n- Sorts mineurs (à volonté) : Main de mage, Prestidigitation, Rayon de givre\n- Niveau 1 (4 emplacements) : Détection de la magie, Projectile magique, Bouclier, Vague tonnante\n- Niveau 2 (3 emplacements) : Détection des pensées, Invisibilité, Flèche acide de Melf, Image miroir\n- Niveau 3 (3 emplacements) : Animation des morts, Contresort, Dissipation de la magie, Boule de feu\n- Niveau 4 (3 emplacements) : Flétrissement, Porte dimensionnelle\n- Niveau 5 (3 emplacements) : Brume mortelle, Scrutation\n- Niveau 6 (1 emplacements) : Désintégration, Globe d'invulnérabilité\n- Niveau 7 (1 emplacements) : Doigt de mort, Changement de plan\n- Niveau 8 (1 emplacements) : Domination de monstre, Mot de pouvoir étourdissant\n- Niveau 9 (1 emplacements) : Arrêt du temps",
+ "actionsText": "**Touche paralysante.** Attaque de sort au corps à corps : +12 au toucher, allonge 1,50 m, une créature. Touché : 10 (3d6) dégâts de froid. La cible doit réussir sur un DD 18 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Touche paralysante",
+   "bonus": 12,
+   "damage": "3d6",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/a4ed7b82ba_monstre-renwick.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, INT +12, SAG +9",
+ "skills": "Arcanes +19, Histoire +12, Perspicacité +9, Perception +9",
+ "resistances": "froid, foudre, nécrotique",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, renwick peut entreprendre l'une des actions ci-après.\n**sort mineur.** Renwick lance un sort mineur.\n**Paralysant Touch (coûts 2 actions).** Renwick utilise sa touche paralysante.\n**Gaz effroyable (coûts 2 actions).** Renwick fixe son regard sur une créature il peut voir dans 3 m de lui. La cible doit réussir sur un DD 18 jet de sauvegarde de Sagesse contre cette magie ou devenir effrayé pendant 1 minute. La cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une cible est réussi ou si l'effet se termine, la cible est à l'abri du regard de Renwick pendant les 24 prochaines heures.\n**Perturbation de la vie (coûts 3 actions).** Chaque créature non morte au sein de 6 m de Renwick doit faire un DD 18 jet de sauvegarde de Constitution contre cette magie, en prenant 21 (6d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

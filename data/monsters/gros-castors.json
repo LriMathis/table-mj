@@ -1,0 +1,42 @@
+{
+ "id": "gros-castors",
+ "name": "Billy Beaver",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 34,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun",
+ "traits": "**La vue et l'odeur de Keen.** Billy Beaver a un avantage sur tests de Sagesse (Perception) qui repose sur la vue ou l'odeur.",
+ "actionsText": "**Bec.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 10 (1d10 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 7,
+   "damage": "1d10+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8fba09bae4_monstre-gros-castors.webp",
+ "notes": "",
+ "source": "The Lost Dungeon of Rickedness: Big Rick Energy (5e.tools, traduction automatique)",
+ "aka": "Gros castors",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

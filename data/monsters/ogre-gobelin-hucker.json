@@ -1,0 +1,51 @@
+{
+ "id": "ogre-gobelin-hucker",
+ "name": "Ogre Goblin Hucker",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Grand club.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 11 (2d6 + 4) dégâts perforants.\n**Projectile Goblin.** Attaque d'arme à distance : +3 au toucher, portée 45/180 m. (ne peut pas atteindre des cibles dans 9 m du hucker), une cible. Affichage : 5 (2d4) dégâts contondants, ou 10 (4d4) dégâts perforants si le projectile porte un casque à pointes. Touché ou raté : Le projectile de goblin prend 1d6 dégâts contondants par 3 m il voyage à travers les airs (maximum 20d6).",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Projectile Goblin",
+   "bonus": 3,
+   "damage": "2d4",
+   "type": "contondant + perforant"
+  }
+ ],
+ "portrait": "/data/images/6debfd5d6c_monstre-ogre-gobelin-hucker.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Ogre gobelin Hucker",
+ "caNote": "Cache l'armure"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "lamie",
+ "name": "Lamie",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 97,
+ "hpFormula": "13d10+26",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "skills": "Discrétion +5, Intuition +4, Tromperie +7",
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "abyssal, commun",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** La lamie effectue deux attaques de Griffe. Elle peut remplacer l’une de ces attaques par une utilisation de Contact corrupteur.\n**Griffe.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts tranchants plus 7 (2d6) dégâts psychiques.\n**Contact corrupteur.** JS Sagesse : DD 13, une créature que la lamie voit dans un rayon de 1,50 m. Échec : 13 (3d8) dégâts psychiques, et la cible est maudite pendant 1 heure. Tant que persiste la malédiction, la cible subit les états Charmé et Empoisonné.\n**Incantation.** La lamie lance l’un des sorts suivants sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 13) :\n- À volonté : *déguisement* (comme bipède de taille M ou G), *illusion mineure*\n- 1/jour chacun : *image majeure*, *quête*, *scrutation*",
+ "bonusActions": "**Bond.** La lamie effectue un saut d’un maximum de 9 m en dépensant 3 m de déplacement.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d8+3+2d6",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/95cb65163b_monstre-lamie.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 199"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "githyanki-dracomancer",
+ "name": "Githyanki Dracomancer",
+ "type": "Aberration (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 18,
+ "hp": 255,
+ "hpFormula": "30d8+120",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 20,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 18",
+ "languages": "commun, draconique, gith",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le githyanki fait trois attaques de grève draconienne.\n**Grève draconienne.** Jet d'attaque au corps à corps ou à distance : +10, allonge 3 m ou portée 36 m. Touché : 12 (2d6 + 5) dégâts tranchants plus 17 (5d6) dégâts de feu, et la cible a l'état effrayé jusqu'au début du prochain tour de la githyanki.\n**Respiration de Dragon Conjurée (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 18, chaque créature dans un cône 27 m. Échec : 27 (6d8) dégâts de feu plus 27 (6d8) dégâts de force. Réussite : Demi-dégâts.\n**Détection orthographique.** Le githyanki lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 18, +10 au toucher with attaques de sort) :\n- À volonté : Main de mage (la main est invisible)\n- 2/jour chacun : Antidétection (autoseulement), Changement de plan, Don des langues",
+ "attacks": [
+  {
+   "name": "Grève draconienne",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/4f43b3c5d0_monstre-githyanki-dracomancer.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "saves": "DEX +8, CON +9, INT +10, SAG +8",
+ "skills": "Arcanes +10, Perception +8",
+ "bonusActions": "**Étape de la misty (3/jour).** Le githyanki lance Foulée brumeuse, ne nécessitant aucun composant de sort et utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Foulée brumeuse"
+}

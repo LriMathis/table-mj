@@ -1,0 +1,39 @@
+{
+ "id": "tigre",
+ "name": "Tigre",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 30,
+ "hpFormula": "4d10+8",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "skills": "Discrétion +7, Perception +3",
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Saignée.** Corps à corps : +5, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts tranchants. Si la cible est une créature de taille G ou inférieure, elle subit l’état À terre.",
+ "bonusActions": "**Fuite agile.** Le tigre entreprend l’action Désengagement ou Furtivité.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/2944c92970_monstre-tigre.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

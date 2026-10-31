@@ -1,0 +1,46 @@
+{
+ "id": "haut-parleur-xvart",
+ "name": "Xvart Speaker",
+ "type": "Humanoïde (xvart)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 13,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 13,
+  "SAG": 7,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 8",
+ "languages": "Abyssal et une langue supplémentaire (habituellement commune ou goblin)",
+ "traits": "**Faible cintrage.** Le xvart peut prendre l'action Se désengager en action bonus à chacun de ses tours.\n**Emballage surplaqué.** Le xvart a l'avantage sur tests de Force (Athlétisme) de pousser une créature si au moins l'un des alliés du xvart est dans 1,50 m de la cible et l'allié n'est pas neutralisé.\n**La langue de Raxivort.** Le xvart peut communiquer avec des chauves-souris et des rats ordinaires, ainsi qu'avec des chauves-souris et des rats géants.",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Écharpe.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/27cc161930_monstre-haut-parleur-xvart.webp",
+ "notes": "",
+ "source": "Volo's Guide to Monsters (5e.tools, traduction automatique)",
+ "aka": "Haut-parleur Xvart",
+ "caNote": "Armure en cuir",
+ "skills": "Discrétion +4"
+}

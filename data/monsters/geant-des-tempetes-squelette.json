@@ -1,0 +1,51 @@
+{
+ "id": "geant-des-tempetes-squelette",
+ "name": "Storm Giant Skeleton",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 13,
+ "hp": 204,
+ "hpFormula": "24d12+48",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 8,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques avec sa grande épée ou lance deux rochers.\n**Grande épée.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 30 (6d6 + 9) dégâts tranchants plus 18 (4d8) dégâts nécrotiques.\n**Roche.** Attaque d'arme à distance : +14 au toucher, allonge 18/72 m., une cible. Touché : 35 (4d12 + 9) dégâts contondants.\n**foudre Strike (Recharge 5-6).** Le géant lance un éclair magique à un point qu'il peut voir à l'intérieur de 150 m. Chaque créature dans 3 m de ce point doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 54 (12d8) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 14,
+   "damage": "6d6+9",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Roche",
+   "bonus": 14,
+   "damage": "4d12+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f1ef383d22_monstre-geant-des-tempetes-squelette.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Géant des tempêtes squelette",
+ "caNote": "déchets d'armures",
+ "saves": "FOR +14, CON +7",
+ "skills": "Perception +4",
+ "vulnerabilities": "contondant",
+ "resistances": "froid",
+ "immunities": "foudre, poison, tonnerre",
+ "conditionImmunities": "épuisement, empoisonné"
+}

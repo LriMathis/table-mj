@@ -1,0 +1,44 @@
+{
+ "id": "ceratops",
+ "name": "Ceratops",
+ "type": "Monstruosité (dinosaure)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 139,
+ "hpFormula": "9d20+45",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 8,
+  "CON": 21,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Résistance magique.** Les cératops ont un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Les cératops font une attaque de Gore et une attaque de Stomp.\n**Gore.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 29 (4d10 + 7) dégâts perforants. Si les cératops ont déplacé au moins 6 m en ligne droite vers la cible immédiatement avant le coup, la cible prend un 11 (2d10) dégâts perforants supplémentaire ; si la cible est une créature, elle doit également réussir sur un DD 19 jet de sauvegarde de Force ou être poussée jusqu'à 6 m à partir des cératops et avoir l'état à terre.\n**Stompe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 29 (4d10 + 7) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 11,
+   "damage": "4d10+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Stompe",
+   "bonus": 11,
+   "damage": "4d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/7eb1ac56ae_monstre-ceratops.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

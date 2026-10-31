@@ -1,0 +1,40 @@
+{
+ "id": "dragonclaw",
+ "name": "Dragonclaw",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, draconique",
+ "traits": "**Dragon fanatique.** La griffe libellule a un avantage sur jet de sauvegarde contre charmé ou effrayé. Tandis que la griffe libellule peut voir un dragon ou un Culte supérieur du culte dragon amical à elle, la griffe libellule ignore les effets d'être charmé ou effrayé.\n**Avantage fanatique.** Une fois par tour, si la libellule fait une attaque d'arme avec avantage sur la jet d'attaque et frappe, elle inflige un dégâts supplémentaire 7 (2d6).\n**Tactiques de conditionnement.** La griffe libellule a avantage sur une jet d'attaque contre une créature si au moins un des alliés de la griffe libellule est dans 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** La libellule attaque deux fois avec son scimitar.\n**Scimitar.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/9ff46be5ef_monstre-dragonclaw.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "SAG +2",
+ "skills": "Tromperie +3, Discrétion +5"
+}

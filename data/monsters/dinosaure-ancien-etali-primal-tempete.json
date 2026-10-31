@@ -1,0 +1,49 @@
+{
+ "id": "dinosaure-ancien-etali-primal-tempete",
+ "name": "Elder Dinosaur (Etali, Primal Storm)",
+ "type": "Monstruosité (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "30",
+ "xp": 155000,
+ "ca": 25,
+ "hp": 676,
+ "hpFormula": "33d20+330",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 11,
+  "CON": 30,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 11
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Résistance légendaire (3/jour).** Si le dinosaure aîné échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le dinosaure aîné a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le dinosaure aîné inflige deux dégâts aux objets et aux structures.\n**Unicité.** Ces statistiques sont partagées par les six dinosaures âgés : Etali, Primal Storm, Ghalta, Primal Hunger, Nezahal, Primal Tide, Tetzimoc, Primal Death, Zacama, Primal Calamity, Zetalpa, Primal Dawn\n**Tempête de foudre.** Le dinosaure aîné est toujours accompagné d'un orage brûlant semblable à l'effet d'un sort Appel de la foudre. Un nuage d'orage en forme de cylindre qui est haut 3 m avec un rayon 18 m forme instantanément 30 m dans l'air au-dessus du dinosaure aîné quand il est en colère ou devient violent, tant qu'il est à l'extérieur. À chacun de ses tours, en action, le dinosaure aîné peut choisir un point qu'il peut voir dans 36 m de lui. Un éclair s'allume depuis le nuage jusqu'à ce point. Chaque créature à l'intérieur de 3 m de ce point doit faire un DD 20 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "actionsText": "**Présence effrayante.** Chaque créature du choix du dinosaure aîné au sein de 36 m et conscient de lui doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, avec un désavantage si le dinosaure aîné est dans la ligne de vue, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la présence effrayante du dinosaure aîné pendant les 24 prochaines heures.\n**Avalez.** Le dinosaure aîné fait une attaque de morsure contre une créature grande ou plus petite, il est en difficulté. Si l'attaque frappe, cette créature prend les dégâts de la morsure, la cible est avalée, et le grappin se termine. En avalant, la créature est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors du dinosaure aîné, et il prend 56 (16d6) dégâts d'acide au début de chacun des tours du dinosaure aîné. Si le dinosaure aîné prend 60 dégâts ou plus sur un seul tour d'une créature à l'intérieur, il doit réussir sur un DD 20 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m. Si le dinosaure aîné meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 6 m de mouvement, sortant d'à terre.\n**Multiattaques.** Le dinosaure aîné peut utiliser sa Présence effrayante et appeler à la baisse deux frappes éclair de sa tempête foudre. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +19 au toucher, allonge 3 m, une cible. Touché : 36 (4d12 + 10) dégâts perforants. Si la cible est une créature, c'est agrippé (évasion DD 20). Jusqu'à ce que ce grappin se termine, la cible est entravé, et le dinosaure aîné ne peut pas mordre une autre cible.\n**Griffe.** Attaque d'arme au corps à corps : +19 au toucher, allonge 4,50 m, une cible. Touché : 28 (4d8 + 10) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 19,
+   "damage": "4d12+10",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 19,
+   "damage": "4d8+10",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/4b73aa86c5_monstre-dinosaure-ancien-etali-primal-tempete.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "aka": "Dinosaure ancien ( Etali, Primal tempête )",
+ "caNote": "armure naturelle",
+ "saves": "INT +5, SAG +9, CHA +9",
+ "immunities": "feu, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dinosaure ancien ( etali, primal tempête ) peut entreprendre l'une des actions ci-après.\n**Attaque.** Le dinosaure aîné fait une attaque de griffe, une attaque de queue, une attaque d'aile ou une attaque de palme.\n**Bouge.** Le dinosaure ancien se déplace jusqu'à la moitié de sa vitesse.\n**Chompe (coûts 2 actions).** Le dinosaure aîné fait une attaque de morsure ou utilise son hirondelle."
+}

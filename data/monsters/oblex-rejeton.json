@@ -1,0 +1,40 @@
+{
+ "id": "oblex-rejeton",
+ "name": "Oblex Spawn",
+ "type": "Vase",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "loyal mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 18,
+ "hpFormula": "4d4+8",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 12",
+ "languages": "—",
+ "traits": "**Amorphe.** L'oblex peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Aversion pour feu.** Si l'oblex prend dégâts de feu, il a un désavantage sur jets d'attaque et tests de caractéristique jusqu'à la fin de son prochain tour.\n**Nature inhabituelle.** L'oblex n'a pas besoin de dormir.",
+ "actionsText": "**Pseudopod.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts contondants plus 2 (1d4) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/6cbc348514_monstre-oblex-rejeton.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Oblex rejeton",
+ "saves": "INT +4, CHA +2",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, à terre"
+}

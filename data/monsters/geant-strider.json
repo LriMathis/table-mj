@@ -1,0 +1,40 @@
+{
+ "id": "geant-strider",
+ "name": "Giant Strider",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 22,
+ "hpFormula": "3d10+6",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "**feu absorption.** Chaque fois que le strider géant est soumis à dégâts de feu, il ne prend aucun dégâts et récupère un nombre de points de vie égal à la moitié de la dégâts de feu distribuée.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants.\n**feu Burst (Recharge 5-6).** Le géant strider lance une goutte de flamme à un point qu'il peut voir à l'intérieur de 18 m de lui. Chaque créature dans une sphère 3 m -radius centrée sur ce point doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 14 (4d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Le feu s'étend autour des coins, et il enflamme des objets inflammables dans cette zone qui ne sont pas portés ou transportés",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5b24d47772_monstre-geant-strider.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Géant Strider",
+ "caNote": "armure naturelle",
+ "immunities": "feu"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "asmodeus",
+ "name": "Asmodeus",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "30",
+ "xp": 155000,
+ "ca": 22,
+ "hp": 725,
+ "hpFormula": "50d10+450",
+ "vitesse": "9 m, vol 36 m (vol stationnaire)",
+ "stats": {
+  "FOR": 30,
+  "DEX": 21,
+  "CON": 28,
+  "INT": 25,
+  "SAG": 30,
+  "CHA": 30
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 18 m, Perception passive 29",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Aura antimagique.** Asmodeus a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques. Les sorts de niveau 4 ou inférieur ne peuvent pas endommager Asmodeus.\n**Régénération fidendoise.** Asmodeus retrouve 40 points de vie au début de son tour. S'il prend dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Asmodeus meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas. Si Asmodeus meurt, son corps se régénère, revenant à la vie 13 jours plus tard (2d12).\n**Résistance légendaire (3/jour).** Si Asmodeus échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Soumission Aura.** Lorsqu'une créature se déplace pour être dans 36 m d'Asmodeus, elle doit réussir sur un DD 24 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'à ce qu'elle quitte l'aura. Alors qu'effrayé, les créatures s'agenouillent devant Asmodeus, ne prenant aucune action à moins qu'il n'en commande autrement. Si Asmodeus inflige des dégâts à une créature agenouillée, l'état effrayé de la créature se termine. Une créature qui réussit le jet de sauvegarde est immunisée contre cet effet pendant 1 heure.",
+ "actionsText": "**Multiattaques.** Asmodeus fait quatre attaques en utilisant Ruby Rod, Chilling Gaze, ou une combinaison des deux. Il peut remplacer une des attaques par Hellish Smite.\n**Ruby Rod.** Attaque d'arme au corps à corps : +21 au toucher, allonge 1,50 m, une cible. Touché : 21 (2d8 + 12) dégâts nécrotiques, ce qui réduit également le maximum de points de vie de la cible par les dégâts causés. Ce dégâts ne peut pas réduire le maximum de points de vie d'une cible en dessous de 1. Tout effet qui supprime un maladie permet au maximum de points de vie d'une créature de revenir à la normale.\n**Gaz de refroidissement.** Attaque de sort à distance : +16 au toucher, portée 18 m, une cible. Touché : 18 (2d10 + 7) dégâts de froid, et la cible a une pénalité de 1 pour tous les jets d'attaque qu'ils font jusqu'à la fin de leur prochain tour. Cette pénalité peut empiler.\n**Le Smite de l'enfer.** Asmodeus cible une créature qu'il peut voir dans 90 m de lui, appelant un éclair infernal. La cible doit faire un DD 24 jet de sauvegarde de Dextérité, en prenant 14 (4d6) dégâts de foudre plus 14 (4d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Mot infernal : Étouffé (Recharge 4-6).** Asmodeus cible une créature qu'il peut voir au sein de 36 m de lui. La cible doit faire un DD 24 jet de sauvegarde d'Intelligence, en prenant 45 (10d8) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature qui a échoué le sauvetage est étourdi pendant jusqu'à 1 minute. La créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès, mais prenant à nouveau les dégâts sur un échec de sauvegarde.\n**Suggestion du Seigneur de l'enfer (Recharge 5-6).** Asmodeus cible une créature qu'il peut voir au sein de 36 m de lui. La cible doit faire un DD 24 jet de sauvegarde de Charisme, en prenant 44 (8d10) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature qui a échoué l'enregistrement a l'état charmé pendant jusqu'à 1 minute. Tandis que charmé, une créature est contrôlée par Asmodeus, n'exécutant que des actions qu'il suggère. Une créature charmé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès, mais prenant à nouveau les dégâts sur un échec de sauvegarde.\n**Feu des Neuf Enfers (Recharge 5-6).** Asmodeus choisit un point qu'il peut voir au sein de 150 m de lui, qui explose dans un inferno rugissant. Toutes les créatures dans une sphère 18 m -radius centrée sur ce point doivent faire un DD 24 jet de sauvegarde de Dextérité, en prenant 70 (20d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Asmodeus lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 27) :\n- À volonté : Fléau, Malédiction, Injonction, Soins, Ténèbres, Restauration partielle, Délivrance des malédictions\n- 1/jour chacun : Champ antimagie, Tremblement de terre, Colonne de flamme, Portail, Guérison, Guérison de groupe, Souhait",
+ "attacks": [
+  {
+   "name": "Ruby Rod",
+   "bonus": 21,
+   "damage": "2d8+12",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Gaz de refroidissement",
+   "bonus": 16,
+   "damage": "2d10+7",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/d7d623387d_monstre-asmodeus.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +19, CON +18, INT +16, CHA +19",
+ "skills": "Arcanes +16, Tromperie +28, Perspicacité +28, Intimidation +19, Perception +19, Persuasion +19, Religion +16",
+ "resistances": "froid",
+ "immunities": "feu, poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "conditionImmunities": "aveuglé, charmé, effrayé, paralysé, empoisonné, étourdi",
+ "reactions": "**Absorption rubis.** En réaction à être la seule cible d'un sort, Asmodeus peut tenter d'absorber le sort dans le Ruby Rod.\nLes rouleaux Asmodeus (1d20 + 2) et si le résultat est supérieur à (10 + niveau de sort), le sort est absorbé dans la tige et n'a aucun effet.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, asmodeus peut entreprendre l'une des actions ci-après.\n**Chaîne Ruby Rod.** Le Ruby Rod a 66 charges. Asmodeus peut dépenser ses charges pour en jeter un des sorts suivants, avec un DD de sauvegarde des sorts de 20: Restauration partielle (3 frais), Mur de force (7 frais), Restauration supérieure (12 frais), Chaîne d'éclairs (15 frais), Rayons prismatiques (23 frais), Globe d'invulnérabilité (33 frais)\n**Grève (coûts 2 actions).** Asmodeus fait une attaque rubis.\n**Appel d'offres (coûts 3 actions).** Asmodeus convoque un Diantrefosse allié dans un espace inoccupé qu'il peut voir."
+}

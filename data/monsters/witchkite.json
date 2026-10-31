@@ -1,0 +1,42 @@
+{
+ "id": "witchkite",
+ "name": "Witchkite",
+ "type": "Dragon (occultiste)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 16,
+ "hp": 220,
+ "hpFormula": "21d12+84",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 15,
+  "SAG": 17,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "draconique",
+ "traits": "**Résistance légendaire (3/jour).** Si la sorcellerie échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** La sorcière fait deux attaques Rend et utilise Malevolent Flare une fois.\n**Rend.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 16 (3d6 + 6) dégâts tranchants.\n**Flamme malveillance.** La sorcière crache une flamme magique et verte à une créature qu'elle peut voir à l'intérieur de 18 m. La cible doit faire un DD 17 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la cible prend 22 (5d8) dégâts de feu et subit l'un des effets suivants du choix de la sorcière :\n- La cible doit utiliser sa réaction pour faire une attaque de mêlée contre une autre créature du choix de la sorcière qui est à la portée de la cible.\n- La cible prend 13 (2d12) dégâts psychiques.\nSur une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement.\n**Détection orthographique.** La sorcellerie lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 17):\n- À volonté : Détection de la magie, Illusion mineure, Communication avec les morts\n- 1/jour chacun : Détection des pensées, Porte dimensionnelle, Immobilisation de monstre",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 11,
+   "damage": "3d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/543bee7966_monstre-witchkite.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, SAG +8, CHA +9",
+ "skills": "Arcanes +7, Perception +8, Discrétion +5",
+ "resistances": "feu, psychique",
+ "reactions": "**Enchanteur Gaze.** Lorsqu'une créature peut voir des mouvements dans 3 m, la sorcellerie émet un regard enchanteur sur la créature. La créature doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou prendre 10 (3d6) dégâts psychiques et avoir l'état charmé jusqu'à la fin de son prochain tour.\n**Montant des cotisations.** Immédiatement après avoir pris des dégâts à la suite d'une attaque de mêlée, la sorcière fait une attaque de Rend contre l'agresseur."
+}

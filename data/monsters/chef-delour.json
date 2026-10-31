@@ -1,0 +1,53 @@
+{
+ "id": "chef-delour",
+ "name": "Boss Delour",
+ "type": "Monstruosité",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 14,
+ "hp": 110,
+ "hpFormula": "20d6+40",
+ "vitesse": "9 m (sous forme de rat ou d'hybride)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 20",
+ "languages": "commun, Les voleurs ne peuvent pas (ne peuvent pas parler en rat)",
+ "traits": "**Évasion.** Si Delour est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde et seulement la moitié des dégâts s'il échoue, à condition qu'il n'ait pas l'état neutralisé.\n**Nimexe.** Le déleur peut se déplacer dans l'espace d'une créature moyenne ou plus grande.\n**Régénération.** Delour retrouve 10 points de vie au début de son tour. S'il prend des dégâts sur une arme d'argent, ce trait ne fonctionne pas au début de son prochain tour. Delour meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Delour fait n'importe quelle combinaison de trois Bite, Shortsword, ou Hand Acrossbow attaques.\n**Bite (forme rat ou hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 26 (5d8 + 4) dégâts perforants. Si la cible est un humanoïde, elle doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie. Bien que maudite de cette façon, la cible conserve son alignement, ses langues et son équipement, mais utilise le bloc de stat wasrat, à l'exclusion des actions qui nécessitent un équipement que la cible n'a pas. Pendant n'importe quelle nuit où il y a une pleine lune dans le ciel, la cible devient un NPC sous le contrôle de le MD et le reste jusqu'à la fin de la nuit. Un sort Délivrance des malédictions ou une magie similaire met fin à cette malédiction.\n**Mot court (forme humaine ou hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Acrobatie des mains (forme humaine ou hybride seulement).** Attaque d'arme à distance : +8 au toucher, portée 9/36 m., une cible. Touché : 11 (2d6 + 4) dégâts perforants plus 10 (3d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Bite (forme rat ou hybride seulement)",
+   "bonus": 8,
+   "damage": "5d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Mot court (forme humaine ou hybride seulement)",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Acrobatie des mains (forme humaine ou hybride seulement)",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/58c6624292_monstre-chef-delour.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Chef Delour",
+ "saves": "DEX +8, INT +7",
+ "skills": "Tromperie +11, Perception +10, Escamotage +8, Discrétion +8",
+ "bonusActions": "**Modifier la forme.** Deleur polymorphe en un hybride rat-humanoïde, un rat géant moyen, ou sa forme humanoïde. Ses statistiques, autres que sa taille et sa vitesse, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa forme humanoïde s'il meurt.\n**Action énergique.** Delour prend l'action Foncer, Se désengager, ou Se cacher."
+}

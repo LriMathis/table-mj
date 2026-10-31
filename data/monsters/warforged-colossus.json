@@ -1,0 +1,47 @@
+{
+ "id": "warforged-colossus",
+ "name": "Warforged Colossus",
+ "type": "Créature artificielle",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 23,
+ "hp": 410,
+ "hpFormula": "20d20+200",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 11,
+  "CON": 30,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Vision parfaite 45 m, Perception passive 10",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Formulaire immuable.** Le colosse est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Résistance légendaire (3/jour).** Si le colosse échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le colosse a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le colosse cause deux dégâts aux objets et aux structures.\n**Détruire la terreur.** Tout ennemi en dehors du colosse qui commence son tour à l'intérieur de 9 m doit réussir sur un DD 26 jet de sauvegarde de Sagesse ou être effrayé jusqu'au début du prochain tour de l'ennemi. Si le jet de sauvegarde de l'ennemi est un succès, il est à l'abri de la terreur de ce colosse pendant les 24 prochaines heures.",
+ "actionsText": "**Multiattaques.** Le colosse fait trois attaques – une avec son clam et deux avec ses tourelles eldritch – puis utilise Stomp.\n**Clamer.** Attaque d'arme au corps à corps : +18 au toucher, allonge 6 m, une cible. Touché : 29 (3d12 + 10) dégâts contondants, et le colosse peut pousser la cible jusqu'à 6 m loin de lui.\n**Turret d'Eldritch.** Attaque de sort à distance : +18 au toucher, portée 90 m, une cible. Touché : 18 (4d8) dégâts de force, et si la cible est une créature, c'est à terre.\n**Stompe.** Le colosse s'empare d'un de ses pieds en un point du sol à l'intérieur de 6 m. Toute créature dans un 6 m -radius, 6 m -haut cylindre centré sur ce point doit réussir sur un DD 26 jet de sauvegarde de Dextérité ou prendre 33 (6d10) dégâts contondants et chute à terre. Jusqu'à ce que le colosse utilise à nouveau sa Stomp ou bouge, la créature est entravé. Alors qu'entravé de cette façon, la créature (ou une autre créature dans 1,50 m de lui) peut utiliser son action pour faire un DD 26 test de Force. Sur un succès, la créature se déplace dans un espace inoccupé de son choix au sein de 1,50 m du colosse et n'est plus entravé.\nLes structures, ainsi que les objets non magiques qui ne sont ni portés ni transportés, prennent la même quantité de dégâts s'ils sont dans le cylindre (pas d'économie).\n**Faisceau incinérateur (Recharge 5-6).** Le colosse allume un faisceau de lumière dans une ligne 45 m large. Chaque créature dans la ligne doit faire un DD 26 jet de sauvegarde de Dextérité, en prenant 60 (11d10) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature réduite à 0 points de vie par ce faisceau est désintégrée, laissant derrière tout ce qu'elle portait ou transportait.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 18,
+   "damage": "3d12+10",
+   "type": "contondant"
+  },
+  {
+   "name": "Turret d'Eldritch",
+   "bonus": 18,
+   "damage": "4d8",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/0a16e4cd6b_monstre-warforged-colossus.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +4, SAG +8, CHA +7",
+ "immunities": "nécrotique, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, neutralisé, paralysé, pétrifié, empoisonné, étourdi"
+}

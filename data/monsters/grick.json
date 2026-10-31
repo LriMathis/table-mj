@@ -1,0 +1,44 @@
+{
+ "id": "grick",
+ "name": "Grick",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 54,
+ "hpFormula": "12d8",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 5
+ },
+ "skills": "Discrétion +4",
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le grick effectue une attaque de Bec et une de Tentacules.\n**Bec.** Corps à corps : +4, allonge 1,50 m. Touché : 9 (2d6 + 2) dégâts perforants.\n**Tentacules.** Corps à corps : +4, allonge 1,50 m. Touché : 7 (1d10 + 2) dégâts tranchants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 12) par les quatre tentacules.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacules",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/6bcdac9f02_monstre-grick.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 173"
+}

@@ -1,0 +1,32 @@
+{
+ "id": "alcool-aberrant",
+ "name": "Aberrant Spirit",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m, vol 9 m (vol stationnaire) (Soin uniquement)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 16,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "profond, comprend les langues que vous connaissez",
+ "traits": "**Régénération (Slaad seulement).** L'esprit retrouve 5 points de vie au début de son tour s'il a au moins 1 points de vie.\n**Aura sifflement (coucheur de cerveau seulement).** Au début de chaque tour de l'esprit, l'esprit émet de l'énergie psionique s'il n'a pas l'état neutralisé. Jet de sauvegarde de Sagesse : DD est égal à votre DD de sauvegarde des sorts, chaque créature (autre que vous) dans 1,50 m de l'esprit. Échec : 2d6 dégâts psychiques.",
+ "actionsText": "**Multiattaques.** L'esprit fait un nombre d'attaques égal à la moitié du niveau de ce sort (ronde vers le bas).\n**Griffe (Slaad seulement).** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d10 + 3 + summonSpellLevel dégâts tranchants, et la cible ne peut pas retrouver points de vie avant le début du prochain tour de l'esprit.\n**Rayon des yeux (Peau de porte seulement).** Jet d'attaque à distance : votre bonus d'attaque de sort, portée 45 m. Touché : 1d8 + 3 + summonSpellLevel dégâts psychiques.\n**psychique Slam (pulvérisateur de cerveau seulement).** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d8 + 3 + summonSpellLevel dégâts psychiques.",
+ "attacks": [],
+ "portrait": "/data/images/27eeecc6bc_monstre-alcool-aberrant.webp",
+ "notes": "points de vie : 40 + 10 pour chaque niveau de sort supérieur à 4",
+ "source": "Player's Handbook (2024) (5e.tools, traduction automatique)",
+ "aka": "Alcool Aberrant",
+ "immunities": "psychique"
+}

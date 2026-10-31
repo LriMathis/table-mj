@@ -1,0 +1,48 @@
+{
+ "id": "forge-fitzwilliam",
+ "name": "Forge Fitzwilliam",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 110,
+ "hpFormula": "20d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 15,
+  "SAG": 17,
+  "CHA": 20
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, argot des voleurs",
+ "traits": "**Désarmer le charme.** Bien que Forge ne porte pas d'armure, son CA inclut son modificateur Charisme.\n**Double-croûte.** Si Forge frappe une créature amicale avec un jet d'attaque, l'attaque est automatiquement un coup critique.\n**Évasion.** Si Forge est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité à prendre seulement la moitié des dégâts, il ne prend aucun dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue, à condition qu'il n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Forge fait deux attaques Dagger, deux attaques Heavy Crossbow, ou l'une de chacune.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants plus 24 (7d6) dégâts de poison, et la cible est empoisonné jusqu'à la fin de son prochain tour.\n**Grosse arbalète.** Attaque d'arme à distance : +5 au toucher, portée 30/120 m., une cible. Touché : 7 (1d10 + 2) dégâts perforants plus 24 (7d6) dégâts de poison. Touché ou raté : Si la cible est une créature, elle a un désavantage sur la prochaine jet d'attaque qu'elle fait avant le début du prochain tour de Forge.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 5,
+   "damage": "1d10+2",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/c92b279c45_monstre-forge-fitzwilliam.webp",
+ "notes": "",
+ "source": "Thieves' Gallery (5e.tools, traduction automatique)",
+ "caNote": "désarmer charme",
+ "saves": "DEX +5, INT +5",
+ "skills": "Acrobaties +5, Tromperie +11, Investigation +8, Persuasion +11, Escamotage +5, Discrétion +8",
+ "bonusActions": "**Cunning.** Forge prend l'action Foncer, Se désengager ou Se cacher, ou il se donne avantage sur la prochaine jet d'attaque qu'il fait avant la fin de ce tour.",
+ "reactions": "**Uncanny Dodge.** Forge réduit de moitié les dégâts qu'il prend lors d'une attaque qui le frappe. Il doit pouvoir voir l'agresseur."
+}

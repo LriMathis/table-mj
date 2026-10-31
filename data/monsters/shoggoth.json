@@ -1,0 +1,42 @@
+{
+ "id": "shoggoth",
+ "name": "Shoggoth",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 172,
+ "hpFormula": "15d12+75",
+ "vitesse": "9 m, escalade 9 m, nage 9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 16,
+  "CON": 21,
+  "INT": 20,
+  "SAG": 17,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "Discours profond; télépathie 18 m.",
+ "traits": "**Amphibie.** Le shoggoth peut respirer de l'air et de l'eau.\n**Mimétisme.** Le shoggoth peut imiter des voix et des sons animaux. Une créature qui entend cet imitation peut dire qu'il est une imitation seulement avec un succès DD 13 test de Sagesse (Perspicacité).\n**Sensible au charme.** Le shoggoth a un désavantage sur jet de sauvegarde pour éviter ou terminer l'état charmé.",
+ "actionsText": "**Multiattaques.** Le shoggoth fait trois attaques de Pseudopod. Il peut remplacer une attaque par une utilisation de Supction Burst si disponible.\n**Pseudopod.** Jet d'attaque au corps à corps : +10, allonge 4,50 m. Touché : 15 (2d8 + 6) dégâts contondants plus 11 (2d10) dégâts de tonnerre, et la créature a l'état agrippé (évasion DD 16) d'un des quatre pseudopodes.\n**Brûlure d'aspiration (Recharge 4-6).** Jet de sauvegarde de Force : DD 18, une créature agrippé par le shoggoth. Échec : 22 (4d10) dégâts de tonnerre, et la cible est repoussée du shoggoth. La cible n'a plus l'état agrippé, est poussée jusqu'à 9 m tout de suite du shoggoth, et a les conditions assourdi et étourdi jusqu'à la fin de son prochain tour. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 10,
+   "damage": "2d8+6",
+   "type": "contondant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/fa01d33d6c_monstre-shoggoth.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "DEX +7, CON +9",
+ "resistances": "contondant, perforant, tranchant",
+ "immunities": "froid",
+ "conditionImmunities": "agrippé, à terre, entravé",
+ "reactions": "**Sprint froid.** Déclencheur : Le shoggoth est soumis à dégâts de froid. Réponse : Le shoggoth se déplace jusqu'à sa vitesse et peut faire une attaque de Pseudopod avec Avantage."
+}

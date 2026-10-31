@@ -1,0 +1,47 @@
+{
+ "id": "geant-des-tempetes",
+ "name": "Géant des tempêtes",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique bon",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 16,
+ "hp": 230,
+ "hpFormula": "20d12+100",
+ "vitesse": "15 m, vol 7,5 m (vol stationnaire), nage 15 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 20,
+  "CHA": 18
+ },
+ "saves": "FOR +14, CON +10, SAG +10, CHA +9",
+ "skills": "Arcanes +8, Athlétisme +14, Histoire +8, Perception +10",
+ "resistances": "froid",
+ "immunities": "foudre, tonnerre",
+ "senses": "Vision dans le noir 36 m, Vision véritable 9 m, Perception passive 20",
+ "languages": "commun, gigant",
+ "traits": "**Amphibie.** Le géant peut respirer sous l’eau comme à l’air libre.",
+ "actionsText": "**Attaques multiples.** Le géant effectue deux attaques, réparties à sa guise entre Épée des orages et Foudroiement.\n**Épée des orages.** Corps à corps : +14, allonge 3 m. Touché : 23 (4d6 + 9) dégâts tranchants plus 13 (3d8) dégâts de foudre.\n**Foudroiement.** À distance : +14, portée 150 m. Touché : 22 (2d12 + 9) dégâts de foudre, et la cible subit les états Assourdi et Aveuglé jusqu’au début du tour suivant du géant.\n**Incantation.** Le géant lance l’un des sorts suivants, sans composantes matérielles, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde 18) :\n- À volonté : *détection de la magie*, *lumière*\n- 1/jour : *contrôle du climat*\n**Tempête foudroyante (recharge 5–6).** JS Dextérité : DD 18, chaque créature dans un Cylindre de 3 m de rayon et 12 m de haut émanant d’un point que le géant voit dans un rayon de 150 m. Échec : 55 (10d10) dégâts de foudre. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Épée des orages",
+   "bonus": 14,
+   "damage": "4d6+9+3d8",
+   "type": "tranchant + foudre"
+  },
+  {
+   "name": "Foudroiement",
+   "bonus": 14,
+   "damage": "2d12+9",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/d3fbc3c25e_monstre-geant-des-tempetes.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 155"
+}

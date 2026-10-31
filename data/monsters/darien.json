@@ -1,0 +1,48 @@
+{
+ "id": "darien",
+ "name": "Darien",
+ "type": "Géant (ogre)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 12,
+ "hp": 161,
+ "hpFormula": "19d10+57",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "aquatique, aérien, commun, elfique, géant, télépathie 9 m",
+ "traits": "**La vue du diable.** Darien peut voir normalement dans l'obscurité, à la fois magique et non magique, à une distance de 36 m\n**Esprit déchiqueté.** Darien a l'avantage sur jet de sauvegarde de Constitution qu'elle fait pour maintenir concentration sur un sort.",
+ "actionsText": "**Multiattaques.** Darien fait deux attaques de guerre.\n**Choix de guerre.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts perforants plus 4 dégâts nécrotiques.\n**Blast d'Eldritch.** Attaque de sort à distance : +8 au toucher, portée 90 m, trois cibles. Touché : 9 (1d10 + 4) dégâts de force.\n**Créer Thrall.** Darien touche un humanoïde neutralisé. Cette créature est alors charmé par elle jusqu'à ce qu'un sort Délivrance des malédictions y soit jeté, l'état charmé y est retiré, ou elle utilise à nouveau cette fonctionnalité. Darien peut communiquer télépathiquement avec la créature charmé tant que les deux sont sur le même plan d'existence.\n**Invoquer le choix de guerre.** Darien crée un choix de guerre magique dans sa main vide. Le choix de guerre compte comme magique pour surmonter la résistance et l'immunité aux attaques et aux dégâts non magiques. Le choix de guerre a un bonus de +1 pour l'attaque et les dégâts (déjà pris en compte dans les attaques de Darien).\n**Découpe intérieure.** Darien lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 16, +8 au toucher with attaques de sort) :\n- À volonté : Modification d'apparence, Protection contre les armes, Contact glacial, Déguisement, Simulacre de vie, Invisibilité, Armure de mage (autoseulement), Image silencieuse\n- 1/jour chacun : Songe, Esprit faible, Suggestion de groupe, Projection d'image\n- 2/jour chacun : Armure d'Agathys, Cône de froid, Ténèbres, Peur, Terrain hallucinatoire, Immobilisation de personne, Motif hypnotique, Image majeure, Image miroir, Double illusoire, Tempête de neige",
+ "attacks": [
+  {
+   "name": "Choix de guerre",
+   "bonus": 10,
+   "damage": "1d8+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Blast d'Eldritch",
+   "bonus": 8,
+   "damage": "1d10+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/3218e8bc67_monstre-darien.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "saves": "SAG +4, CHA +8",
+ "skills": "Arcanes +8, Tromperie +8, Persuasion +8",
+ "resistances": "psychique",
+ "immunities": "froid",
+ "reactions": "**Bouclier de Cryonax (1/jour).** Quand Darien prend des dégâts, elle peut s'encombrer dans la glace, qui fond à la fin de son prochain tour. Elle gagne 150 points de vie temporaires, ce qui prend autant de dégâts déclencheurs que possible. Immédiatement après avoir pris les dégâts, elle devient vulnérable à dégâts de feu, sa vitesse est réduite à 0, et elle est neutralisé. Ces effets, y compris tout points de vie temporaires restant, se terminent lorsque la glace fond."
+}

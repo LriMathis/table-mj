@@ -1,0 +1,42 @@
+{
+ "id": "icewind-kobold-zombi",
+ "name": "Icewind Kobold Zombie",
+ "type": "Mort-vivant",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 9,
+ "hp": 19,
+ "hpFormula": "3d6+9",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 6,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 6,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "comprend le commun et le draconien mais ne peut pas parler",
+ "traits": "**Fortitude non-morte.** Si les dégâts réduisent le zombie à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + les dégâts pris, à moins que les dégâts soient radieux ou d'un coup critique. Sur un succès, le zombie tombe à 1 points de vie à la place.\n**Nature inhabituelle.** Le zombie n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Javelin.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d6 - 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Javelin",
+   "bonus": 1,
+   "damage": "1d6-1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/77d3f17389_monstre-icewind-kobold-zombi.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Icewind kobold zombi",
+ "caNote": "déchets d'armure de cuir",
+ "saves": "SAG +0",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "leedara",
+ "name": "Leedara",
+ "type": "Mort-vivant (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 11,
+ "hp": 45,
+ "hpFormula": "10d8",
+ "vitesse": "0 m, vol 12 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 13,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "Toutes les langues qu'elle connaissait dans la vie",
+ "traits": "**Vue éthérée.** Leedara peut voir 18 m dans l'avion éthéré quand elle est sur l'avion matériel, et vice versa.\n**Mouvement intégré.** Leedara peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Elle prend 5 (1d10) dégâts de force si elle termine son tour à l'intérieur d'un objet.",
+ "actionsText": "**Touche de flétrissement.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 17 (4d6 + 3) dégâts nécrotiques.\n**Éthérité.** Leedara entre dans l'avion éthéré de l'avion matériel, ou vice versa. Elle est visible sur l'avion matériel pendant qu'elle est à la frontière éthéré, et vice versa, mais elle ne peut pas affecter ou être affectée par rien sur l'autre avion.\n**Visage horrifiant.** Chaque créature non morte au sein de 18 m de Leedara qui peut la voir doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. Si l'épargne échoue de 5 ans ou plus, la cible vieillit aussi de 1d4 × 10 ans. Une cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'état effrayé sur elle-même sur un succès. Si le jet de sauvegarde d'une cible est réussi ou si l'effet se termine pour elle, la cible est immunisée contre le Visage Horrifiant de Leedara pendant les 24 prochaines heures. L'effet de vieillissement peut être inversé avec un sort Restauration supérieure, mais seulement dans les 24 heures qui suivent son apparition.\n**Possession (Recharge 6).** Un humanoïde que le fantôme peut voir à l'intérieur de 1,50 m doit réussir sur un DD 13 jet de sauvegarde de Charisme ou être possédé par Leedara; Leedara disparaît alors, et la cible est neutralisé et perd le contrôle de son corps. Leedara contrôle maintenant le corps mais ne prive pas la cible de la conscience. Leedara ne peut être ciblé par aucune attaque, sort, ou autre effet, sauf ceux qui deviennent morts-vivants, et elle conserve son alignement, Intelligence, Sagesse, Charisme, et l'immunité à être charmé et effrayé. Sinon, elle utilise les statistiques de la cible possédée, mais n'a pas accès aux connaissances de la cible, aux caractéristiques de classe ou aux compétences.\nLa possession dure jusqu'à ce que le corps tombe à 0 points de vie, Leedara la termine comme un action bonus, ou Leedara est tourné ou forcé par un effet comme le sort Dissipation du mal et du bien. Lorsque la possession prend fin, Leedara réapparaît dans un espace inoccupé à l'intérieur de 1,50 m du corps. La cible est à l'abri de la possession de Leedara pendant 24 heures après avoir réussi sur le jet de sauvegarde ou après la fin de la possession.\n**Modifier la forme.** Leedara suppose magiquement l'apparence qu'elle avait dans la vie, et son type de créature change à Humanoid, tout en conservant ses autres statistiques de jeu. Cette transformation se termine si Leedara est réduit à 0 points de vie ou utilise une action pour y mettre fin.",
+ "attacks": [
+  {
+   "name": "Touche de flétrissement",
+   "bonus": 5,
+   "damage": "4d6+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/41c6d78380_monstre-leedara.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "resistances": "acide, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

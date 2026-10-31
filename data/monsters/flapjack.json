@@ -1,0 +1,39 @@
+{
+ "id": "flapjack",
+ "name": "Flapjack",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "1,50 m, vol 9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "comprend Undercommon mais ne peut pas parler, télépathie 18 m",
+ "traits": "**Télépathie avancée.** Flapjack peut percevoir le contenu de toute communication télépathique utilisée dans 18 m de lui, et il ne peut pas être surpris par des créatures avec n'importe quelle forme de télépathie.\n**à terre Déficience.** Si Flapjack est à terre, lancez une mort. Sur un résultat étrange, Flapjack atterrit à l'envers et est neutralisé. À la fin de chacun de ses tours, Flapjack peut faire un DD 10 jet de sauvegarde de Dextérité, se redresser et terminer l'état neutralisé si elle réussit.\n**Chouette télépathique.** Flapjack est à l'abri de tout effet qui sentirait ses émotions ou lire ses pensées, ainsi que tous les sorts de divination.",
+ "actionsText": "**Tendrilles.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d4 + 2) dégâts perforants plus 2 (1d4) dégâts d'acide. À la fin de chacun de ses tours, la cible doit faire un DD 10 jet de sauvegarde de Constitution, en prenant 2 (1d4) dégâts d'acide sur un échec ou en mettant fin au dégâts d'acide récurrent sur un succès. Un sort Restauration partielle lancé sur la cible termine également le dégâts d'acide récurrent.\n**Vaporisateur à stencelles (1/jour).** Chaque créature d'un cône 4,50 m provenant de Flapjack doit réussir sur un DD 10 jet de sauvegarde de Dextérité ou être enduite dans un liquide de fusion. Une créature enduite dégage une odeur horrible pendant des heures de 1d4. La créature enduite est empoisonné aussi longtemps que la puanteur dure, et d'autres créatures sont empoisonné alors qu'avec 1,50 m de la créature enduite. Une créature peut enlever la puanteur sur elle-même en utilisant un repos court pour se baigner dans l'eau, l'alcool ou le vinaigre.\n**Détection orthographique.** Flapjack lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Main de mage, Illusion mineure\n- 1/jour chacun : Projectile magique, Serviteur invisible",
+ "attacks": [
+  {
+   "name": "Tendrilles",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/c62ff70a6d_monstre-flapjack.webp",
+ "notes": "",
+ "source": "Light of Xaryxis (5e.tools, traduction automatique)",
+ "skills": "Arcanes +4, Histoire +4, Religion +4",
+ "vulnerabilities": "psychique"
+}

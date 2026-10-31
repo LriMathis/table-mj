@@ -1,0 +1,47 @@
+{
+ "id": "chasseur-locathah",
+ "name": "Locathah Hunter",
+ "type": "Humanoïde (locathé)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 14",
+ "languages": "aquatique, commun",
+ "traits": "**Léviathan Will.** Le chasseur a un avantage sur jet de sauvegarde contre les sorts et effets qui contrôlent ses actions.\n**Amphibie limitée.** Le chasseur peut respirer de l'air et de l'eau, mais il doit être submergé au moins une fois toutes les 4 heures pour éviter l'étouffement.",
+ "actionsText": "**Multiattaques.** Le chasseur fait deux attaques avec son arbalète envoûté.\n**Acrobate envenomée.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 11 (2d8 + 2) dégâts perforants, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné jusqu'à la fin de son prochain tour.\n**Club.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Acrobate envenomée",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Club",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b0793b7a03_monstre-chasseur-locathah.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Chasseur Locathah",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, SAG +4",
+ "skills": "Athlétisme +3, Perception +4"
+}

@@ -1,0 +1,55 @@
+{
+ "id": "nurvureem-le-noir-dame",
+ "name": "Nurvureem, The Dark Lady",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 19,
+ "hp": 195,
+ "hpFormula": "17d12+85",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 14,
+  "CON": 21,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 21",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Nurvureem peut respirer l'air et l'eau.\n**Résistance légendaire (3/jour).** Si Nurvureem échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Nurvureem peut utiliser sa présence effrayante. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants plus 4 (1d8) dégâts d'acide.\n**Griffe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +11 au toucher, allonge 4,50 m, une cible. Touché : 15 (2d8 + 6) dégâts contondants.\n**Présence effrayante.** Chaque créature du choix de Nurvureem qui est dans 36 m de Nurvureem et consciente de lui doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante de Nurvureem pour les prochaines 24 heures.\n**acide Respiration (Recharge 5-6).** Nurvureem exhale l'acide dans une ligne 18 m large. Chaque créature dans cette ligne doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 54 (12d8) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "2d10+6",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 11,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 11,
+   "damage": "2d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b53490815d_monstre-nurvureem-le-noir-dame.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Nurvureem, le noir dame",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +10, SAG +6, CHA +8",
+ "skills": "Perception +11, Discrétion +7",
+ "immunities": "acide",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, nurvureem, le noir dame peut entreprendre l'une des actions ci-après.\n**Détecter.** Nurvureem fait un test de Sagesse (Perception).\n**Attaque de queue.** Nurvureem fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** Nurvureem bat ses ailes. Chaque créature dans 3 m de Nurvureem doit réussir sur un DD 19 jet de sauvegarde de Dextérité ou prendre 13 (2d6 + 6) dégâts contondants et être à terre. Nurvureem peut alors voler jusqu'à la moitié de sa vitesse de vol."
+}

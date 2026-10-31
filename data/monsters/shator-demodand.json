@@ -1,0 +1,49 @@
+{
+ "id": "shator-demodand",
+ "name": "Shator Demodand",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 19,
+ "hp": 195,
+ "hpFormula": "23d10+69",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 15,
+  "CON": 17,
+  "INT": 21,
+  "SAG": 16,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 23",
+ "languages": "abyssal, commun, Démodand, infernal, télépathie 36 m",
+ "traits": "**Mouvement sans frontières.** Le shator ignore le terrain difficile, et les effets magiques ne peuvent pas réduire sa vitesse. Il peut dépenser 1,50 m de mouvement pour supprimer automatiquement l'état agrippé de lui-même.\n**Jalonnier (1/jour).** Le shator peut lancer le sort Emprisonnement, ne nécessitant aucun composant matériel et en utilisant Intelligence comme le caractéristique d'incantation (effet chaîne seulement ; sort sauvegardez DD 18).\n**Liquéfaction Rituel.** Le shator peut effectuer un rituel d'une minute qui transforme tous les farastes et kélubars de son choix en 18 m en une forme liquide vivante. Chaque démodand liquéfié devient assez liquide pour remplir une fiole. La liquéfaction d'un démodand dure jusqu'à ce qu'un shator utilise une action pour l'en finir ou qu'une créature ouvre un conteneur qui tient le liquide. Bien qu'il soit liquéfié de cette façon, un demodand possède l'état paralysé malgré toute immunité à cette condition, il a l'immunité à tous les dégâts, et toute malédiction qui l'affecte est suspendue.\n**Résistance magique.** Le shator a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sécrétions de numération.** Une créature qui touche le shator ou qui la frappe avec une attaque à la mêlée alors que dans 1,50 m il doit réussir sur un DD 17 jet de sauvegarde de Dextérité ou avoir un désavantage sur jets d'attaque et sa vitesse a diminué de moitié jusqu'à la fin de son prochain tour.",
+ "actionsText": "**Multiattaques.** Le shator fait une attaque de Bite et deux attaques de Trident Enervating.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 17 (3d6 + 7) dégâts perforants plus 26 (4d12) dégâts d'acide. Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Constitution ou avoir l'état paralysé jusqu'au prochain tour du shator.\n**Trident énervant.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 18 (2d10 + 7) dégâts nécrotiques.\n**Vaporisateur inhibiteur (Recharge 5-6).** Le shator exhale un spray de slime dans une ligne 30 m longue et 1,50 m large. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 40 (9d8) dégâts d'acide et a l'état paralysé pendant 1 minute. La créature répète le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.\n**Invoquer la démodand (1/jour).** Le shator a une chance de 50 pour cent de convoquer son choix de 1d4 farastu démodands, 1d2 klubar démodands, ou 1 shator démodand. Un demodand convoqué apparaît dans un espace inoccupé au sein de 18 m du shator, agit comme un allié du shator, et ne peut pas convoquer d'autres demodands. Il reste 1 minute, jusqu'à ce qu'il ou le shator meurt, ou jusqu'à ce que le shator le rejette comme une action.\n**Détection orthographique.** Le shator lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 18, +10 au toucher with attaques de sort) :\n- À volonté : Invisibilité (autoseulement), Suggestion\n- 1/jour chacun : Dissipation de la magie, Changement de plan (à Carceri seulement), Scrutation (en tant qu'action)",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "3d6+7",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Trident énervant",
+   "bonus": 12,
+   "damage": "2d10+7",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/c592c3c9f6_monstre-shator-demodand.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, SAG +8",
+ "skills": "Perception +13, Discrétion +7",
+ "resistances": "froid, feu",
+ "immunities": "acide, poison",
+ "conditionImmunities": "charmé, effrayé, paralysé, empoisonné, entravé"
+}

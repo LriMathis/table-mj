@@ -1,0 +1,47 @@
+{
+ "id": "berbalang",
+ "name": "Berbalang",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 49,
+ "hpFormula": "14d8-14",
+ "vitesse": "9 m, vol 12 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 16,
+  "CON": 9,
+  "INT": 17,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 12",
+ "languages": "tous",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le bergalang fait une attaque Bite et une\nUne attaque de griffes.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants plus 4 (1d8) dégâts psychiques.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (2d4 + 3) dégâts tranchants.\n**Détection orthographique.** Le bergalang lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation :\n- À volonté : Communication avec les morts\n- 1/jour : Changement de plan (autoseulement)",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant + psychique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/de3554c6ba_monstre-berbalang.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, INT +5",
+ "skills": "Arcanes +5, Histoire +5, Perspicacité +2, Perception +2, Religion +5",
+ "bonusActions": "**Dupliquer spectrale (Recharges après un repos court ou long).** Le berbalang crée un duplicata spectral de lui-même dans un espace inoccupé qu'il peut voir dans 18 m de lui. Bien que le duplicata existe, le bergalang est inconscient. Un bergalang ne peut avoir qu'un seul double à la fois. Le duplicata disparaît quand il ou le berbalang tombe à 0 points de vie ou quand le berbalang le rejette (aucune action n'est requise).\nLe duplicata a les mêmes statistiques et connaissances que le berbalang, et tout ce qu'il a vécu est connu du berbalang. Tous les dégâts infligés par les attaques du duplicata sont dégâts psychiques."
+}

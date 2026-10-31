@@ -1,0 +1,57 @@
+{
+ "id": "scion-de-stronmaus",
+ "name": "Scion of Stronmaus",
+ "type": "Géant (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique bon",
+ "cr": "27",
+ "xp": 105000,
+ "ca": 20,
+ "hp": 656,
+ "hpFormula": "32d20+320",
+ "vitesse": "18 m, vol 24 m (vol stationnaire), nage 24 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 20,
+  "CON": 30,
+  "INT": 26,
+  "SAG": 28,
+  "CHA": 24
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 27",
+ "languages": "géant, primordial",
+ "traits": "**Volée.** Le scion ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.\n**Résistance légendaire (6/jour).** Si le scion échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le scion a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le scion inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le scion fait une attaque en utilisant foudre Sword ou Hailstone, ainsi que deux attaques Slam.\n**Épée foudre.** Attaque d'arme au corps à corps : +18 au toucher, allonge 9 m, une cible. Touché : 36 (4d12 + 10) dégâts de force plus 22 (4d10) dégâts de foudre.\n**Grêle.** Attaque d'arme à distance : +18 au toucher, portée 36/144 m., une cible. Touché : 32 (4d10 + 10) dégâts contondants plus 18 (4d8) dégâts de froid, et la cible doit réussir sur un DD 26 jet de sauvegarde de Force ou avoir l'état à terre.\n**Clamer.** Attaque d'arme au corps à corps : +18 au toucher, allonge 6 m, une cible. Touché : 36 (4d12 + 10) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Épée foudre",
+   "bonus": 18,
+   "damage": "4d12+10",
+   "type": "force + foudre"
+  },
+  {
+   "name": "Grêle",
+   "bonus": 18,
+   "damage": "4d10+10",
+   "type": "contondant + froid"
+  },
+  {
+   "name": "Clamer",
+   "bonus": 18,
+   "damage": "4d12+10",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/2a5315cea4_monstre-scion-de-stronmaus.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Scion de Stronmaus",
+ "caNote": "armure naturelle",
+ "saves": "DEX +13, INT +16",
+ "skills": "Arcanes +16, Histoire +16, Perception +17",
+ "resistances": "froid, feu, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, tonnerre",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, à terre",
+ "bonusActions": "**Tempête vaine (Recharge 6).** Le scion évoque un nuage orageux dans un cylindre 9 m -radius, 3 m -tout centré sur un point au sein de 36 m de lui-même. La zone du nuage est 2. Le nuage dure 1 minute, jusqu'à ce que le scion meurt, ou lorsque le scion utilise à nouveau ce action bonus.\nLorsque le nuage apparaît, et comme un action bonus sur des tours plus tard, le scion peut déplacer le nuage vers 9 m et causer l'un des effets suivants dans un 9 m -radius, 36 m -haut cylindre directement au-dessous de lui; le scion ne peut pas choisir le même effet deux tours dans une rangée:\n**acide Pluie.** Le nuage pleut de l'acide. Chaque créature dans le cylindre doit réussir sur un DD 25 jet de sauvegarde de Constitution ou être recouverte d'acide pendant 1 minute ou jusqu'à ce qu'une créature utilise son action pour enlever l'acide de lui-même ou d'une autre créature. Une créature couverte dans l'acide prend 26 (4d12) dégâts d'acide au début de chacun de ses tours.\n**Tempête de congélation.** Des chevreuils de la couche de glace et du vent glacial remplissent la zone. Chaque créature du cylindre doit réussir sur un DD 25 jet de sauvegarde de Dextérité ou prendre 28 (8d6) dégâts de froid et être entravée par des formations de glace pendant 1 minute ou jusqu'à ce qu'elle ou une autre créature à sa portée utilise une action pour briser la glace. Une créature entravée par la glace a sa vitesse réduite à 0.\n**foudre boulons.** Des éclairs s'abattent. Chaque créature du cylindre doit réussir sur DD 25 jet de sauvegarde de Dextérité ou prendre 18 (4d8) dégâts de foudre et avoir l'état étourdi jusqu'à la fin de son prochain tour."
+}

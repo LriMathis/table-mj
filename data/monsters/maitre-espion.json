@@ -1,0 +1,47 @@
+{
+ "id": "maitre-espion",
+ "name": "Spy Master",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 19,
+ "hp": 137,
+ "hpFormula": "25d8+25",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 20,
+  "CON": 12,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 21",
+ "languages": "Commun plus deux autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'espion fait trois attaques, en utilisant Rapier ou Hand Crossbow dans n'importe quelle combinaison.\n**Violeur.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Acrobatie des mains.** Jet d'attaque à distance : +9, portée 9/36 m. Touché : 12 (2d6 + 5) dégâts perforants plus 9 (2d8) dégâts de poison.\n**Bombe à fumée (1/jour).** L'espion jette une bombe à un point qu'il peut voir en lui-même. Jet de sauvegarde de Constitution : DD 16, chaque créature dans un 6 m -radius Sphere centré sur ce point. Échec : 28 (8d6) dégâts de poison, et la cible a l'état aveuglé jusqu'à la fin du prochain tour de l'espion. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/3c8a54a8f2_monstre-maitre-espion.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Maître espion",
+ "saves": "DEX +9, CON +5, INT +8, SAG +7",
+ "skills": "Tromperie +7, Perspicacité +7, Investigation +8, Perception +11, Escamotage +9, Discrétion +13",
+ "bonusActions": "**Action énergique.** L'espion prend l'action Foncer, Se désengager ou Se cacher."
+}

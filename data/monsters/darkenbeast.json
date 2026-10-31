@@ -1,0 +1,40 @@
+{
+ "id": "darkenbeast",
+ "name": "Darkenbeast",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "6 m, vol 12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Impression orthographique.** Dans le cadre de la création de la darkenbeast, son créateur peut jeter un sort de niveau 5 ou inférieur avec un temps de coulée d'une action. Le sort n'a pas d'effet mais est stocké dans l'omble obscur. Pendant qu'au sein de 9 m de la darkenbeast, le créateur de la darkenbeast peut lancer le sort stocké, ne nécessitant aucun composant de sort et en utilisant le caractéristique d'incantation de la roulette. Lorsque le sort est jeté de cette façon, ses effets proviennent de la darkenbeast (comme si la darkenbeast était la darkenbeast), et immédiatement après le sort est jeté, la darkenbeast meurt dans un éclair de flamme pourpre.\n**Sensibilité à la lumière du soleil.** En plein soleil, l'omble foncé présente un désavantage sur tests de caractéristique et jets d'attaque.",
+ "actionsText": "**Multiattaques.** La bête noire fait trois attaques de Rend.\n**Rend.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 12 (2d8 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a42926956b_monstre-darkenbeast.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "skills": "Perception +2, Discrétion +4",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Ombre Stalker.** En Dim Light ou Darkness, la bête noire prend l'action Se désengager ou Se cacher."
+}

@@ -1,0 +1,44 @@
+{
+ "id": "oinoloth",
+ "name": "Oinoloth",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 119,
+ "hpFormula": "14d8+56",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 17,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 16,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 18 m, Perception passive 17",
+ "languages": "abyssal, infernal, télépathie 18 m",
+ "traits": "**Résistance magique.** L'oinoloth a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'oinoloth fait deux attaques de griffe, et il utilise Spellcasting ou Teleport.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 14 (3d6 + 4) dégâts tranchants plus 22 (4d10) dégâts nécrotiques.\n**La guérison corrompue (Recharge 6).** L'oinoloth touche une créature volontaire au sein de 1,50 m. La cible retrouve tout son points de vie. En outre, l'oinoloth peut mettre fin à un maladie sur la cible ou en retirer une des conditions suivantes : aveuglé, assourdi, paralysé ou empoisonné. L'objectif gagne alors 1 niveau d'épuisement et son maximum de points de vie est réduit de 7 (2d6). Cette réduction ne peut être supprimée que par un sort Souhait ou par la coulée de Restauration supérieure sur la cible trois fois dans la même heure. La cible meurt si son maximum de points de vie est réduit à 0.\n**Téléportation.** Les téléportations oinoloth, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 18 m dans un espace inoccupé qu'il peut voir.\n**Détection orthographique.** L'oinoloth lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Ténèbres, Détection de la magie, Dissipation de la magie, Immobilisation de monstre, Invisibilité (autoseulement)\n- 1/jour chacun : Esprit faible, Globe d'invulnérabilité",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "3d6+4",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/e159a70c42_monstre-oinoloth.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, SAG +7",
+ "skills": "Tromperie +8, Intimidation +8, Perception +7",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Porteur de Plagues (Recharge 5-6).** L'oinoloth éclaire la région dans une sphère 9 m -radius centrée sur elle-même. La brûlure dure 24 heures. Pendant que la zone est enflammée, toutes les plantes normales s'y flétrissent et meurent.\nDe plus, lorsqu'une créature se déplace dans la zone braquée ou commence son tour là-bas, cette créature doit faire un DD 16 jet de sauvegarde de Constitution. Sur une sauvegarde échouée, la créature prend 14 (4d6) dégâts de poison et est empoisonné. Sur une sauvegarde réussie, la créature est à l'abri de l'oinoloth's Bringer of Plagues pour les 24 prochaines heures.\nLa créature empoisonné ne peut pas récupérer points de vie. Après toutes les 24 heures qui s'écoulent, la créature empoisonné peut répéter la jet de sauvegarde. Lors d'une sauvegarde ratée, le maximum de points de vie de la créature est réduit de 5 (1d10). Cette réduction dure jusqu'à la fin du poison, et la cible meurt si son maximum de points de vie est réduit à 0. Le poison se termine après que la créature ait réussi à sauver contre elle trois fois."
+}

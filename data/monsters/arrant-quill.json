@@ -1,0 +1,39 @@
+{
+ "id": "arrant-quill",
+ "name": "Arrant Quill",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 14,
+ "hp": 135,
+ "hpFormula": "18d8+54",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 20
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, draconique, elfique, commun des profondeurs",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Quill fait deux attaques avec son poignard et utilise Supreme Mockery.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d4 + 4) dégâts perforants.\n**Quill's Fable (Recharge 6).** Quill prononce une courte fable tout en ciblant jusqu'à cinq créatures au sein de 9 m de lui qu'il peut voir. Chaque cible qui peut entendre la fable magique de Quill doit faire un DD 17 jet de sauvegarde de Sagesse, en prenant 36 (8d8) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Le souverain Mockery.** Quill lance une série d'insultes laquées d'enchantements sur une créature qu'il peut voir au sein de 18 m de lui. Si la créature peut entendre Quill (bien qu'elle n'ait pas besoin de le comprendre), elle doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou prendre 66 (12d10) dégâts psychiques et avoir un désavantage sur le jet d'attaque suivant qu'elle effectue avant la fin de son prochain tour.\n**Détection orthographique.** Quill lance l'un des sorts suivants en utilisant Charisme comme caractéristique d'incantation (enregistrer DD 17) :\n- À volonté : Lumière, Main de mage, Prestidigitation\n- 1/jour chacun : Esprit impénétrable, Téléportation\n- 3/jour chacun : Détection de la magie, Dissipation de la magie, Lueurs féeriques, Immobilisation de monstre",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 8,
+   "damage": "1d4+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c75afd551b_monstre-arrant-quill.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "saves": "INT +7, SAG +6, CHA +9",
+ "skills": "Arcanes +11, Tromperie +9, Histoire +7, Représentation +13"
+}

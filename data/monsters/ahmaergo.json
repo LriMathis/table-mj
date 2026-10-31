@@ -1,0 +1,47 @@
+{
+ "id": "ahmaergo",
+ "name": "Ahmaergo",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 143,
+ "hpFormula": "22d8+44",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun, nain, commun des profondeurs",
+ "traits": "**Résilience des nains.** Ahmaergo a un avantage sur jet de sauvegarde contre empoisonné.\n**Indominable (2/jour).** Ahmaergo peut reroller un jet de sauvegarde qu'il échoue. Il doit utiliser le nouveau rouleau.\n**Deuxième vent (recharge après un repos court ou long).** En tant qu'action bonus, Ahmaergo peut retrouver 20 points de vie.",
+ "actionsText": "**Multiattaques.** Ahmaergo fait trois attaques avec sa grandeaxe.\n**Grandaxe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 11 (1d12 + 5) dégâts tranchants, plus 7 (2d6) dégâts tranchants si Ahmaergo a plus de la moitié de son points de vie restant.\n**Grosse arbalète.** Attaque d'arme à distance : +6 au toucher, portée 30/120 m., une cible. Touché : 7 (1d10 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 9,
+   "damage": "1d12+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 6,
+   "damage": "1d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/083e6f3ff8_monstre-ahmaergo.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "plaque",
+ "saves": "FOR +9, CON +6",
+ "skills": "Athlétisme +9, Intimidation +5, Perception +6",
+ "resistances": "poison"
+}

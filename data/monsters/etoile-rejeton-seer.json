@@ -1,0 +1,51 @@
+{
+ "id": "etoile-rejeton-seer",
+ "name": "Star Spawn Seer",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 17,
+ "hp": 153,
+ "hpFormula": "18d8+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 22,
+  "SAG": 19,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 19",
+ "languages": "commun, profond, commun des profondeurs",
+ "traits": "**Mouvement hors phase.** Le voyant peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3, et son mouvement ne provoque pas opportunity attacks.\nChaque créature qu'elle traverse prend 5 (1d10) dégâts psychiques ; aucune créature ne peut prendre ce dégâts plus d'une fois par tour.\nLe seer prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.",
+ "actionsText": "**Multiattaques.** Le voyant fait deux attaques Comet Staff ou psychique Orb.\n**Personnel de la comète.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts contondants plus 18 (4d8) dégâts psychiques, et si la cible est une créature, elle doit réussir sur un DD 19 jet de sauvegarde de Constitution ou être neutralisé jusqu'à la fin de son prochain tour.\n**psychique Orbe.** Attaque de sort à distance : +11 au toucher, portée 36 m, une créature. Touché : 27 (5d10) dégâts psychiques.\n**Distance d'effondrement (Recharge 6).** L'espace de distorsion de voir autour d'une créature il peut voir dans 9 m de lui. Cette créature doit faire un DD 19 jet de sauvegarde de Sagesse. Lors d'une sauvegarde ratée, la cible, avec tout équipement qu'elle porte ou transporte, est téléportée jusqu'à 18 m dans un espace inoccupé que le voyant peut voir, et ensuite chaque créature dans 3 m de l'espace original de la cible prend 39 (6d12) dégâts psychiques. Sur une sauvegarde réussie, la cible prend 19 (3d12) dégâts psychiques et n'est pas téléportée.",
+ "attacks": [
+  {
+   "name": "Personnel de la comète",
+   "bonus": 11,
+   "damage": "1d8+6",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "psychique Orbe",
+   "bonus": 11,
+   "damage": "5d10",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/0cacc276b3_monstre-etoile-rejeton-seer.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Étoile rejeton Seer",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, INT +11, SAG +9, CHA +8",
+ "skills": "Perception +9",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Espace de courbure.** Lorsque le voyant serait frappé par un jet d'attaque, il téléporte, avec tout équipement qu'il porte ou transporte, échangeant des positions avec une autre étoile frayer qu'il peut voir dans 18 m de lui. L'autre frayère est frappée par l'attaque à la place."
+}

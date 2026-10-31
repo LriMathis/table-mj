@@ -1,0 +1,48 @@
+{
+ "id": "skittering-horreur",
+ "name": "Skittering Horror",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 17,
+ "hp": 228,
+ "hpFormula": "24d12+72",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "—",
+ "traits": "**Escalade des araignées.** L'horreur peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sensibilité à la lumière du soleil.** En plein soleil, l'horreur a un désavantage sur jets d'attaque et sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** L'horreur peut utiliser sa Présence Maddening et faire trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 28 (4d10 + 6) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 24 (4d8 + 6) dégâts tranchants.\n**Présence en état d'ébriété.** L'horreur cible une créature il peut voir dans 9 m de lui. Si la cible peut voir ou entendre l'horreur, la cible doit faire un DD 17 jet de sauvegarde de Sagesse. Sur un jet de sauvegarde échoué, la cible devient paralysé jusqu'à la fin de son prochain tour. Si le jet de sauvegarde d'une créature est réussi, la créature est à l'abri de la présence de l'horreur pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "4d10+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 11,
+   "damage": "4d8+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b2880f9940_monstre-skittering-horreur.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Skittering horreur",
+ "caNote": "armure naturelle",
+ "skills": "Perception +7, Discrétion +8",
+ "vulnerabilities": "radiant",
+ "conditionImmunities": "effrayé"
+}

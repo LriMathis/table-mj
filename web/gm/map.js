@@ -2,6 +2,7 @@
 'use strict';
 
 let MV = null, mapTool = 'move', selTok = null, fogBrush = 1;
+let MAPMQ = '';   // search in the bestiary of the side panel
 const curMap = () => S.camp.maps.find(m => m.id === S.camp.currentMap) || null;
 const saveMap = () => saveCamp();
 
@@ -55,17 +56,20 @@ function renderMap(main) {
   MV && MV.destroy();
   MV = new MapView($('#map-vp'), {
     emptyText: t('Drop a JPEG/PNG image here to create a battle map'),
-    panOnLeft: e => mapTool === 'move' && !e.target.closest('.token'),
+    panOnLeft: e => mapTool === 'move' && !e.target.closest('.token, [data-pin], [data-halt], [data-rpt]'),
     selected: () => selTok,
     onView: () => debounce('mapview', saveMap, 1200),
     onDims: () => saveMap(),
+    world: () => ({ sel: WM.sel, drawing: WM.drawing ? wRoute(curMap(), WM.drawing) : null, hover: WM.hover }),
+    topInset: () => { const h = $('#w-head'); return h && !h.classList.contains('hidden') ? h.offsetHeight : 0; },
   });
+  if (!WORLD.ready) { WORLD.ready = true; worldSync(S.camp, { first: true }); }
   MV.setMap(curMap());
   // HUD
-  MV.vp.insertAdjacentHTML('beforeend', `<div class="map-title hidden" id="map-title"></div><div class="map-hud"><button id="mh-out" title="${t('Zoom out')}">－</button><span class="zl"></span><button id="mh-in" title="${t('Zoom in')}">＋</button><button id="mh-fit" title="${t('Fit to screen')}">⤢</button></div><div id="map-lbl"></div>`);
+  MV.vp.insertAdjacentHTML('beforeend', `<div class="w-head map-ui hidden" id="w-head"></div><div class="map-title hidden" id="map-title"></div><div class="map-hud map-ui"><button id="mh-out" title="${t('Zoom out')}">－</button><span class="zl"></span><button id="mh-in" title="${t('Zoom in')}">＋</button><button id="mh-fit" title="${t('Fit to screen')}">⤢</button></div><div id="map-lbl"></div>`);
   MV.applyView();
   $('#mh-in').onclick = () => MV.zoom(1.25); $('#mh-out').onclick = () => MV.zoom(0.8); $('#mh-fit').onclick = () => MV.fit();
-  bindMapVP(MV.vp);
+  bindMapVP(MV.vp); bindWorldVP(MV.vp);
   drawMapSide();
 }
 function drawMapSide() {
@@ -76,15 +80,21 @@ function drawMapSide() {
   const pcs = charList(), cbs = CB().list.filter(x => x.kind !== 'pc');
   const onMap = ref => m && m.tokens.some(x => x.ref && x.ref.kind === ref.kind && x.ref.id === ref.id);
   const info = S.info || {};
-  const tools = [['move', 'hand', t('Move')], ['ruler', 'ruler', t('Ruler')], ['reveal', 'torch', t('Reveal')], ['hide', 'fog', t('Hide')], ['calib', 'set-square', t('Calibrate')]];
-  const toolHelp = { move: t('Drag the tokens. Drag the background = move the view. Wheel = zoom.'), ruler: t('Drag to measure (diagonal = 1 square).'), reveal: t('Paint to reveal the fog.'), hide: t('Paint to put the fog back.'), calib: t('Draw a rectangle on ONE square of the map to align the grid.') };
+  const world = isWorld(m);
+  const tools = world ? WORLD_TOOLS.map(([k, ic, l]) => [k, ic, t(l)])
+    : [['move', 'hand', t('Move')], ['ruler', 'ruler', t('Ruler')], ['reveal', 'torch', t('Reveal')], ['hide', 'fog', t('Hide')], ['calib', 'set-square', t('Calibrate')]];
+  if (!tools.some(x => x[0] === mapTool)) mapTool = 'move';
+  const toolHelp = { move: t(world ? 'Drag the pins, halts and route points. Drag the background = move the view. Wheel = zoom.' : 'Drag the tokens. Drag the background = move the view. Wheel = zoom.'),
+    ruler: t(world ? 'Drag to measure the distance (km and days on foot).' : 'Drag to measure (diagonal = 1 square).'), reveal: t('Paint to reveal the fog.'), hide: t('Paint to put the fog back.'),
+    calib: t('Draw a rectangle on ONE square of the map to align the grid.'), ...Object.fromEntries(Object.entries(WORLD_HELP).map(([k, v]) => [k, t(v)])) };
   const sizes = [[0.5, t('Tiny (½)')], [1, t('Small / Medium (1 square)')], [2, t('Large (2×2)')], [3, t('Huge (3×3)')], [4, t('Gargantuan (4×4)')]];
   el.innerHTML = `
   <div class="sec"><h4><i class="ico i-map"></i> ${t('Maps')}</h4>
     <select id="mp-sel"><option value="">— ${t('none')} —</option>${S.camp.maps.map(x => `<option value="${x.id}" ${x.id === S.camp.currentMap ? 'selected' : ''}>${esc(x.name)}${x.id === S.camp.playerMap ? ` (${t('player view')})` : ''}</option>`).join('')}</select>
     ${m ? `<div class="row"><button class="small" id="mp-ren">${t('Rename')}</button><button class="small" id="mp-img">${t('Change image')}</button><button class="small danger" id="mp-del" title="${t('Delete')}"><i class="ico i-trash"></i></button></div>
       <button id="mp-show" class="${S.camp.playerMap === m.id ? 'on' : ''}" title="${t('Map shown in the player view')}"><i class="ico i-eye"></i> ${S.camp.playerMap === m.id ? t('Shown to players') : t('Show to players')}</button>
-      <button class="small" id="mp-focus" title="${t('Centers the player view on what you see')}"><i class="ico i-target"></i> ${t('Send my view to players')}</button>` : ''}
+      <button class="small" id="mp-focus" title="${t('Centers the player view on what you see')}"><i class="ico i-target"></i> ${t('Send my view to players')}</button>
+      <label class="chk small"><input type="checkbox" id="mp-world" ${world ? 'checked' : ''}> ${t('World map (travel, no grid)')}</label>` : ''}
     <div class="dropzone" id="mp-drop"><i class="ico i-import"></i> ${t('Drop a JPEG here<br>for a <b>new map</b>')}<br><span class="small">(${t('or click')})</span></div>
   </div>
   <div class="sec"><h4><i class="ico i-party"></i> ${t('Connected players')}</h4>
@@ -98,6 +108,7 @@ function drawMapSide() {
     <label class="field"><span>${t('Attacks and spells cast by players')}</span><select id="pl-act">
       ${[['turn', t('on their turn (in combat), free out of combat')], ['always', t('at any time')], ['off', t('disabled (the GM rolls)')]].map(([v, l]) => `<option value="${v}" ${(S.camp.settings?.playerActions || 'turn') === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
     <label class="chk small"><input type="checkbox" id="pl-lvl" ${S.camp.settings?.playerLevelUp ? 'checked' : ''}> ${t('players level up their characters themselves')}</label>
+    <label class="row small">${t('Spell rules')} <select id="pl-rules"><option value="2024" ${S.camp.settings?.rules !== '2014' ? 'selected' : ''}>D&D 2024</option><option value="2014" ${S.camp.settings?.rules === '2014' ? 'selected' : ''}>D&D 2014</option></select></label>
     <button class="small" id="pl-msg"><i class="ico i-announce"></i> ${t('Show a message / an image')}</button>
     <span class="muted small">${t('Alt + click on the map = ping visible to everyone (players: long press).')}</span>
   </div>
@@ -109,7 +120,7 @@ function drawMapSide() {
     ${m.fog.on ? `<div class="row"><span class="small">${t('Brush')}</span><input type="range" id="fog-br" min="0" max="5" value="${fogBrush}" style="flex:1"><span class="small">${fogBrush * 2 + 1}×${fogBrush * 2 + 1}</span></div>
       <div class="row"><button class="small" id="fog-all">${t('Reveal all')}</button><button class="small" id="fog-none">${t('Hide all')}</button></div>` : ''}
   </div>
-  <div class="sec"><h4><i class="ico i-set-square"></i> ${t('Grid')}</h4>
+  ${world ? worldSideHTML(m) : `<div class="sec"><h4><i class="ico i-set-square"></i> ${t('Grid')}</h4>
     <div class="row"><label class="chk"><input type="checkbox" id="g-show" ${g.show ? 'checked' : ''}> ${t('show')}</label><label class="chk"><input type="checkbox" id="g-snap" ${g.snap ? 'checked' : ''}> ${t('snap')}</label></div>
     <div class="row"><span class="small" style="width:56px">${t('Size')}</span><input type="range" id="g-size" min="10" max="300" step="0.5" value="${g.size}" style="flex:1"><input id="g-sizen" type="number" step="0.5" value="${g.size}" style="width:58px"></div>
     <div class="row"><span class="small" style="width:56px">${t('Offset')}</span><input id="g-ox" type="number" value="${g.ox}" style="width:58px" title="X"><input id="g-oy" type="number" value="${g.oy}" style="width:58px" title="Y"></div>
@@ -122,8 +133,10 @@ function drawMapSide() {
     <b class="small">${t('Characters')}</b>
     ${pcs.map(c => `<div class="tok-src ${onMap({ kind: 'pc', id: c.id }) ? 'placed' : ''}" draggable="true" data-ref='{"kind":"pc","id":"${c.id}"}'>${avatarHTML(c)}<span>${esc(c.name)}</span></div>`).join('')}
     ${cbs.length ? `<b class="small">${t('Combat')}</b>${cbs.map(cb => `<div class="tok-src ${onMap({ kind: 'cb', id: cb.uid }) ? 'placed' : ''}" draggable="true" data-ref='{"kind":"cb","id":"${cb.uid}"}'>${avatarHTML({ name: cb.name, portrait: cbPortrait(cb), color: cb.kind === 'npc' ? '#7a6a20' : '#7a2a2a' })}<span>${esc(cb.name)}</span>${cb.hp <= 0 ? ' <i class="ico i-skull"></i>' : ''}</div>`).join('')}` : ''}
-    <details><summary class="small"><b>${t('Bestiary')}</b></summary>${monList().map(mo => `<div class="tok-src" draggable="true" data-ref='{"kind":"mon","id":"${mo.id}"}'>${avatarHTML({ name: mo.name, portrait: mo.portrait, color: '#7a2a2a' })}<span>${esc(mo.name)}</span></div>`).join('')}</details>
-  </div>
+    <b class="small">${t('Bestiary')}</b>
+    <input id="tk-mq" value="${esc(MAPMQ)}" placeholder="Chercher un monstre (nom, type, « fp 3 »)…" autocomplete="off">
+    <div id="tk-mons" class="tok-mons"></div>
+  </div>`}
   ${tk ? `<div class="sec"><h4><i class="ico i-target"></i> ${t('Token')}: ${esc(ti.name)}</h4>
     ${!tk.ref || tk.ref.kind === 'mon' ? `<input id="tk-name" value="${esc(tk.name)}" placeholder="${t('Name')}">` : ''}
     ${ti.hp != null ? `<div>${ti.hp}/${ti.hpMax} ${t('HP')}</div><div class="row"><input id="tk-amt" type="number" style="width:60px"><button class="small danger" id="tk-dmg">${t('Damage')}</button><button class="small ok" id="tk-heal">${t('Heal')}</button></div>` : ''}
@@ -134,6 +147,7 @@ function drawMapSide() {
       <button class="small danger" id="tk-del">${t('Remove (Del)')}</button></div>
   </div>` : ''}` : ''}`;
   bindMapSide(el, m, tk);
+  drawWorldHead();
 }
 function bindMapSide(el, m, tk) {
   const redraw = () => { saveMap(); MV.drawAll(); drawMapSide(); };
@@ -148,7 +162,18 @@ function bindMapSide(el, m, tk) {
   $('#pl-msg', el).onclick = () => handoutModal();
   $('#pl-copy', el) && ($('#pl-copy', el).onclick = () => navigator.clipboard.writeText(S.info.public).then(() => toast(t('Address copied.')), () => toast(t('Could not copy: select the address.'))));
   $('#pl-lvl', el).onchange = e => { S.camp.settings ??= {}; S.camp.settings.playerLevelUp = e.target.checked; saveMap(); };
+  $('#pl-rules', el).onchange = e => { S.camp.settings ??= {}; S.camp.settings.rules = e.target.value; saveMap(); };
   $$('.tok-src', el).forEach(s => s.addEventListener('dragstart', e => e.dataTransfer.setData('text/x-gt-ref', s.dataset.ref)));
+  // bestiary: search, then drag the monster onto the map
+  const drawMons = () => {
+    const box = $('#tk-mons', el); if (!box) return;
+    const L = MAPMQ.trim() ? monSearch(MAPMQ, 60) : [];
+    box.innerHTML = MAPMQ.trim() ? L.map(mo => `<div class="tok-src" draggable="true" data-ref='{"kind":"mon","id":"${mo.id}"}'>${avatarHTML({ name: mo.name, portrait: mo.portrait, color: '#7a2a2a' })}<span>${esc(mo.name)}</span><span class="muted small right">${t('CR')} ${esc(mo.cr)}</span></div>`).join('') || `<span class="muted small">${t('No results.')}</span>`
+      : `<span class="muted small">${monList().length} monstres : tapez un nom pour les trouver, puis glissez-le sur la carte.</span>`;
+    $$('.tok-src', box).forEach(s => s.addEventListener('dragstart', e => e.dataTransfer.setData('text/x-gt-ref', s.dataset.ref)));
+  };
+  $('#tk-mq', el) && ($('#tk-mq', el).oninput = e => { MAPMQ = e.target.value; drawMons(); });
+  drawMons();
   if (!m) return;
   $('#mp-ren', el).onclick = () => ask(t('Rename the map'), [{ k: 'n', label: t('Name'), value: m.name }], o => { m.name = o.n || m.name; redraw(); });
   $('#mp-img', el).onclick = () => pickImage(r => { m.url = r.url; m.w = 0; saveMap(); MV.setMap(m, { fit: true }); });
@@ -171,6 +196,14 @@ function bindMapSide(el, m, tk) {
     redraw();
   });
   $('#fog-none', el) && ($('#fog-none', el).onclick = () => { m.fog.rev = {}; redraw(); });
+  $('#mp-world', el).onchange = e => { makeWorld(m, e.target.checked); MV.vp.className = 'map-vp tool-move'; redraw(); };
+  if (isWorld(m)) bindWorldSide(el, m);
+  else bindGridSide(el, m);
+  if (!tk) return;
+  bindTokenSide(el, m, tk, redraw);
+}
+function bindGridSide(el, m) {
+  const redraw = () => { saveMap(); MV.drawAll(); drawMapSide(); };
   const g = m.grid, gset = (k, v) => { g[k] = v; saveMap(); MV.drawAll(); };
   $('#g-show', el).onchange = e => gset('show', e.target.checked);
   $('#g-snap', el).onchange = e => gset('snap', e.target.checked);
@@ -186,7 +219,8 @@ function bindMapSide(el, m, tk) {
   $('#tk-new', el).onclick = () => ask(t('New token'), [{ k: 'name', label: t('Name') }, { k: 'kind', label: t('Type'), type: 'select', value: 'npc', options: [['npc', t('NPC / object')], ['mon', t('Opponent')], ['pc', t('Ally')]] }], o => {
     const c = viewCenterCell(), p = freeCell(m, c.x, c.y); placeToken(m, null, p.x, p.y, { name: o.name, kind: o.kind }); redraw();
   });
-  if (!tk) return;
+}
+function bindTokenSide(el, m, tk, redraw) {
   $('#tk-name', el) && ($('#tk-name', el).onchange = e => { tk.name = e.target.value; redraw(); });
   const linked = () => { if (tk.ref?.kind === 'pc') return { e: S.chars[tk.ref.id], n: S.chars[tk.ref.id]?.name, s: () => saveChar(S.chars[tk.ref.id]) }; const cb = tk.ref?.kind === 'cb' && CB().list.find(x => x.uid === tk.ref.id); return cb ? { e: ent(cb), n: cbName(cb), s: () => cbSave(cb) } : null; };
   $('#tk-dmg', el) && ($('#tk-dmg', el).onclick = () => { const l = linked(); if (l) { dealDamage(l.e, num($('#tk-amt', el).value), l.n); l.s(); redraw(); } });
@@ -203,8 +237,9 @@ function bindMapVP(vp) {
   const lbl = (html, x, y) => { let l = $('#map-lbl'); l.className = html ? 'ruler-lbl' : 'hidden'; l.innerHTML = html; const r = vp.getBoundingClientRect(); l.style.left = (x - r.left + 14) + 'px'; l.style.top = (y - r.top + 10) + 'px'; };
   const distLbl = d => `${fmtDist(d.m)} <span class="muted">(${t(d.cells === 1 ? '{n} square' : '{n} squares', { n: d.cells })})</span>`;
   vp.addEventListener('pointerdown', e => {
-    const m = curMap(); if (!m || e.button !== 0 || MV.spaceDown) return;
+    const m = curMap(); if (!m || e.button !== 0 || MV.spaceDown || e.target.closest('.map-ui')) return;
     if (e.altKey) { e.preventDefault(); e.stopPropagation(); const w = MV.toWorld(e.clientX, e.clientY); api('POST', '/api/ping', { map: m.id, x: w.x, y: w.y, color: '#ff5a3c' }).catch(() => { }); return; }
+    if (isWorld(m) && worldPointerDown(e, m)) return;
     const tokEl = e.target.closest('.token'), w0 = MV.toWorld(e.clientX, e.clientY), c0 = MV.toCell(w0.x, w0.y), g = m.grid;
     if (mapTool === 'move' && tokEl) {
       e.preventDefault(); e.stopPropagation();
@@ -241,7 +276,10 @@ function bindMapVP(vp) {
         const d = gridDist({ cx: Math.floor(a.cx), cy: Math.floor(a.cy) }, { cx: Math.floor(b.cx), cy: Math.floor(b.cy) }, g.meters);
         const ax = g.ox + a.cx * g.size, ay = g.oy + a.cy * g.size;
         ovl.innerHTML = `<svg style="position:absolute;left:0;top:0;overflow:visible;pointer-events:none" width="1" height="1"><line x1="${ax}" y1="${ay}" x2="${w.x}" y2="${w.y}" stroke="#000a" stroke-width="${7 / MV.view.z}" stroke-linecap="round"/><line x1="${ax}" y1="${ay}" x2="${w.x}" y2="${w.y}" stroke="#ffd38a" stroke-width="${3 / MV.view.z}" stroke-dasharray="${12 / MV.view.z} ${7 / MV.view.z}" stroke-linecap="round"/><circle cx="${ax}" cy="${ay}" r="${6 / MV.view.z}" fill="#ffd38a" stroke="#000a" stroke-width="${2 / MV.view.z}"/><circle cx="${w.x}" cy="${w.y}" r="${6 / MV.view.z}" fill="none" stroke="#ffd38a" stroke-width="${2.5 / MV.view.z}"/></svg>`;
-        lbl(`<i class="ico i-ruler"></i> ${distLbl(d)}`, ev.clientX, ev.clientY);
+        if (isWorld(m)) {
+          const px = Math.hypot(w.x - ax, w.y - ay), km = pxKm(m, px);
+          lbl(`<i class="ico i-ruler"></i> ${km == null ? t('set the scale first') : `${fmtKm(km)} <span class="muted">(${t('{d} on foot', { d: fmtDays(km / TRAVEL_MODES.foot.kmDay) })})</span>`}`, ev.clientX, ev.clientY);
+        } else lbl(`<i class="ico i-ruler"></i> ${distLbl(d)}`, ev.clientX, ev.clientY);
       };
       const up = () => { vp.removeEventListener('pointermove', mv); vp.removeEventListener('pointerup', up); ovl.innerHTML = ''; lbl(''); };
       vp.addEventListener('pointermove', mv); vp.addEventListener('pointerup', up);
@@ -305,8 +343,9 @@ function bindMapVP(vp) {
 }
 function onPings(list) { if (MV && S.tab === 'map') MV.showPings(list); }
 TABS.map = {
-  full: true, render: renderMap, refresh: () => { if (!MV) return go('map'); MV.setMap(curMap()); drawMapSide(); }, leave: () => { MV && MV.destroy(); MV = null; },
+  full: true, render: renderMap, refresh: () => { if (!MV) return go('map'); MV.setMap(curMap()); drawMapSide(); }, leave: () => { MV && MV.destroy(); MV = null; worldLayout(false); },
   key: e => {
+    if (worldKey(e)) return;
     const m = curMap(), tk = m?.tokens.find(x => x.id === selTok); if (!tk) return;
     const mv = { ArrowLeft: [-1, 0], ArrowRight: [1, 0], ArrowUp: [0, -1], ArrowDown: [0, 1] }[e.key];
     if (mv) { e.preventDefault(); tk.x += mv[0]; tk.y += mv[1]; saveMap(); MV.drawTokens(); }

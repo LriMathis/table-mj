@@ -1,0 +1,41 @@
+{
+ "id": "quaggoth",
+ "name": "Quaggoth",
+ "type": "Humanoïde (quaggoth)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "caNote": "armure naturelle",
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "skills": "Athlétisme +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision dans le noir 36 m, Perception passive 11",
+ "languages": "commun des profondeurs",
+ "traits": "**Fureur des blessés.** Quand le quaggoth n'a plus que 10 points de vie ou moins, il est avantagé sur les jets d'attaque. De plus, il inflige 7 (2d6) dégâts de plus à toute cible qu'il touche avec une attaque de corps à corps.\n**Variante : quaggoth thonot.** Le quaggoth thonot est un quaggoth ordinaire avec un FP de 3 (700 PX) et le trait supplémentaire suivant. *Incantation innée (psionique).* Le quaggoth utilise la Sagesse comme caractéristique d'incantation innée (DD des jets de sauvegarde : 11). Il peut lancer les sorts suivants de façon innée, il n'a pas besoin de composantes. À volonté : *léger comme une plume, main du mage* (la main est invisible) ; 1/jour chacun : *agrandir/rétrécir, image miroir, métal brûlant, soins des blessures*.",
+ "actionsText": "**Attaques multiples.** Le quaggoth effectue deux attaques de griffe.\n**Griffe.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d6+3) dégâts tranchants.",
+ "portrait": "/data/images/32fedf5029_monstre-quaggoth.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 255 · image : Manuel des monstres p. 254",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ]
+}

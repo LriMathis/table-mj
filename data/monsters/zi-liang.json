@@ -1,0 +1,44 @@
+{
+ "id": "zi-liang",
+ "name": "Zi Liang",
+ "type": "Humanoïde (Cou des humains)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 15,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, elfique, gobelin",
+ "traits": "**Défense non armée.** Alors que Zi ne porte pas d'armure et n'a pas de bouclier, son CA inclut son modificateur Sagesse.\n**Information sur le jeu de rôles.** Zi Liang est un fervent adorateur de Chauntea, la Mère de la Terre. Elle a beaucoup moins confiance en les défenseurs de Goldenfields, donc elle patrouille la ferme du temple pendant ses heures de repos.\nIdéal: \"Si nous prenons fidèlement soin de nos jardins et de nos champs, Chauntea nous sourira.\"\nObligation : \"Les champs d'or sont le panier de pain du Nord. Les gens dépendent de leur sécurité et de leur prospérité, et je ferai ce qu'il faut pour la protéger. »\nFaux : \"Je ne fais pas confiance à l'autorité. Je fais ce que mon cœur dit est juste.\"",
+ "actionsText": "**Multiattaques.** Zi fait deux attaques à la mêlée.\n**Quarter staff.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants, ou 5 (1d8 + 1) dégâts contondants si utilisé avec les deux mains.\n**Écharpe.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 4 (1d4 + 2) dégâts contondants. Zi porte vingt pierres de fronde.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5bab69cedb_monstre-zi-liang.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "skills": "Acrobaties +4, Athlétisme +3, Perception +5, Discrétion +4"
+}

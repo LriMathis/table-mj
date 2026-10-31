@@ -1,0 +1,40 @@
+{
+ "id": "verbeeg-marauder",
+ "name": "Verbeeg Marauder",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, géant",
+ "traits": "**Wielder d'armes simples.** Une simple arme inflige une mort supplémentaire de ses dégâts lorsque le verbeeg frappe avec elle (inclus dans l'attaque).",
+ "actionsText": "**Multiattaques.** Le verbeeg fait deux attaques à la mêlée.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 14 (3d6 + 4) dégâts perforants, ou 17 (3d8 + 4) dégâts perforants si utilisé pour faire une attaque à distance ou utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 6,
+   "damage": "3d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/453acd7a2a_monstre-verbeeg-marauder.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure, Bouclier",
+ "saves": "DEX +2, CON +5",
+ "skills": "Dressage +2, Athlétisme +6, Discrétion +2"
+}

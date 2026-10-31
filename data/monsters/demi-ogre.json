@@ -1,0 +1,44 @@
+{
+ "id": "demi-ogre",
+ "name": "Demi-ogre",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "tout alignement chaotique",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "caNote": "armure de peau",
+ "hp": 30,
+ "hpFormula": "4d10+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 7,
+  "SAG": 9,
+  "CHA": 10
+ },
+ "senses": "vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Hache d'armes.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 12 (2d8+3) dégâts tranchants ou 14 (2d10+3) dégâts tranchants si utilisée à deux mains.\n**Javeline.** *Attaque d'arme au corps à corps ou à distance :* +5 pour toucher, allonge 1,50 m ou portée 9/36 m, une cible. *Touché :* 10 (2d6+3) dégâts perforants.",
+ "portrait": "/data/images/9f856daffb_monstre-demi-ogre.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 241 · image : Manuel des monstres p. 240",
+ "attacks": [
+  {
+   "name": "Hache d'armes",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javeline",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ]
+}

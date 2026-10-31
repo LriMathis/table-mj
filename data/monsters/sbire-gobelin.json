@@ -1,0 +1,39 @@
+{
+ "id": "sbire-gobelin",
+ "name": "Sbire gobelin",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 8
+ },
+ "skills": "Discrétion +6",
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, gobelin",
+ "traits": "",
+ "actionsText": "**Dague.** Corps à corps ou à distance : +4, allonge 1,50 m ou portée 6/18 m. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "bonusActions": "**Fuite agile.** Le gobelin entreprend l’action Désengagement ou Furtivité.",
+ "attacks": [
+  {
+   "name": "Dague",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/323c6e2ab4_monstre-sbire-gobelin.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

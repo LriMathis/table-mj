@@ -1,0 +1,40 @@
+{
+ "id": "medani-inquisitive",
+ "name": "Medani Inquisitive",
+ "type": "Humanoïde (khoravar)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, elfique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'inquisitif fait trois attaques de l'état-major corrompu. Il peut remplacer une attaque par une utilisation de l'œil curieux.\n**Personnel escroqué.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts contondants. Si la cible est une créature moyenne ou plus petite, elle a l'état à terre. Si la cible a déjà l'état à terre, l'attaque offre un 7 (2d6) dégâts radiants supplémentaire.\n**Oeil curieux.** Jet de sauvegarde de Sagesse : DD 13, une créature l'inquisitif peut voir à l'intérieur de 18 m. Échec : 10 (3d6) dégâts psychiques, et la cible est marquée. L'inquisitif a Avantage sur jets d'attaque contre une cible qu'il a marquée. Bien que marquée, la cible ne peut pas se cacher de l'inquisitif, et si elle a l'état invisible, elle ne profite pas de cette condition contre l'inquisitif. La marque disparaît après 1 minute ou lorsque l'inquisitif recourt à cette action. Réussite : Demi-dégâts seulement.\n**Détection orthographique.** L'inquisitif lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Assistance\n- 1/jour chacun : Détection des pensées, Voir l'invisible",
+ "attacks": [
+  {
+   "name": "Personnel escroqué",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/abe6209217_monstre-medani-inquisitive.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "saves": "CON +4, SAG +5",
+ "skills": "Perspicacité +5, Investigation +4",
+ "reactions": "**Barrière spontanée (Recharge 4-6).** Déclencheur : L'inquisitif ou un allié qu'il peut voir est frappé avec un jet d'attaque. Réponse : L'inquisitif ajoute 2 à son ou son allié CA contre cette attaque, ce qui peut le faire manquer."
+}

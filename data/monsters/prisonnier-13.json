@@ -1,0 +1,45 @@
+{
+ "id": "prisonnier-13",
+ "name": "Prisoner 13",
+ "type": "Humanoïde (nain, moine)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 102,
+ "hpFormula": "12d8+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 17,
+  "CON": 18,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun, nain, elfique, argot des voleurs, commun des profondeurs",
+ "traits": "**Susceptibilité antimagique.** Dans un domaine antimagique, les tatouages et les réactions du Prisonnier 13 ne fonctionnent pas, et elle subit les modifications suivantes à ses statistiques : son CA devient 13, elle perd son immunité contre dégâts psychiques et l'état charmé, et son Tattooed Strike devient une attaque mêlée qui traite 7 (1d8 + 3) dégâts contondants sur un coup.\n**Tatouages Mindlink.** Prisonnier 13 a des liens télépathiques avec des dizaines d'agents opérant dans tout le pays. Ces liens permettent au prisonnier 13 de communiquer télépathiquement avec chacun de ces agents alors qu'ils sont tous deux sur le même plan d'existence.\n**Tatouage en montagne.** CA du prisonnier 13 comprend son modificateur Constitution.\n**Tatouage à limon.** Prisonnier 13 ne peut pas être visé par des sorts de divination ou n'importe quelle fonctionnalité qui lirait ses pensées, et elle ne peut pas être perçue par des détecteurs magiques. On ne peut pas la contacter par télépathie à moins qu'elle autorise un tel contact.",
+ "actionsText": "**Multiattaques.** Prisonnier 13 fait deux attaques Tatouées.\n**Grève tatouée.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 12 (2d8 + 3) dégâts de force.\n**Tatouage d'incendie (Recharge 5-6).** Prisonnier 13 déchaîne magiquement la flamme du tatouage sur son dos, remplissant une sphère 6 m -radius centrée sur elle. Chaque autre créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la créature prend 13 (3d8) dégâts de feu et est à terre. Sur une sauvegarde réussie, il prend la moitié de ces dégâts et n'est pas à terre.\n**Tatouage fluvial.** Prisonnier 13 met fin par magie à tous les effets causant les conditions agrippé ou entravé sur elle-même. Si elle est liée par des contraintes non magiques, elle s'en écarte.",
+ "attacks": [
+  {
+   "name": "Grève tatouée",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/b70edccbf9_monstre-prisonnier-13.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "aka": "Prisonnier 13",
+ "caNote": "tatouage de montagne",
+ "saves": "CON +7, SAG +5",
+ "skills": "Athlétisme +5, Tromperie +9, Perspicacité +5, Perception +5, Discrétion +6",
+ "resistances": "poison",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé",
+ "reactions": "**État de préparation.** Quand une créature Prisonnière 13 peut voir dans 18 m elle-même termine son tour, Prisonnière 13 fait une attaque de frappe tatouée ou utilise River Tattoo. Elle peut alors passer à sa vitesse sans provoquer d'attaques d'opportunités."
+}

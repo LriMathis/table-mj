@@ -1,0 +1,46 @@
+{
+ "id": "pilote-griffon-cavalry",
+ "name": "Griffon Cavalry Rider",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 17,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Lance.** Attaque d'arme au corps à corps : +4 au toucher (avec un désavantage par rapport à une cible au sein de 1,50 m), allonge 3 m, une cible. Touché : 8 (1d12 + 2) dégâts perforants, ou 11 (1d12 + 5) dégâts perforants en montage.\n**Déclencheur.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants. Ou attaque d'armes rangées : +4 au toucher, portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Chute de plumes.** Le cavalier porte une bague magique avec laquelle il peut lancer le sort Feuille morte sur lui-même une fois comme une réaction à la chute. Une fois le sort lancé, l'anneau devient non magique.",
+ "attacks": [
+  {
+   "name": "Lance",
+   "bonus": 4,
+   "damage": "1d12+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a425962905_monstre-pilote-griffon-cavalry.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "aka": "Pilote griffon Cavalry",
+ "caNote": "Armure demi-plate",
+ "skills": "Dressage +3, Athlétisme +4, Perception +3"
+}

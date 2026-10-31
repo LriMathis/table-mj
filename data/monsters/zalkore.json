@@ -1,0 +1,51 @@
+{
+ "id": "zalkore",
+ "name": "Zalkoré",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 127,
+ "hpFormula": "17d8+51",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun",
+ "traits": "**Gaz pétrifiant.** Quand une créature qui peut voir les yeux de Zalkoré commence son tour au sein de 9 m de Zalkoré, Zalkoré peut la forcer à faire un DD 14 jet de sauvegarde de Constitution si Zalkoré n'est pas neutralisé et peut voir la créature. Si le jet de sauvegarde échoue par 5 ou plus, la créature est instantanément pétrifié. Sinon, une créature qui échoue au save commence à se tourner vers la pierre et est entravé. La créature entravé doit répéter la jet de sauvegarde à la fin de son prochain tour, devenant pétrifié sur un échec ou mettant fin à l'effet sur un succès. La pétrification dure jusqu'à ce que la créature soit libérée par le sort Restauration supérieure ou toute autre magie.\nSauf si surpris, une créature peut ouvrir les yeux pour éviter le jet de sauvegarde au début de son tour. Si la créature le fait, elle ne peut voir Zalkoré qu'au début de son prochain tour, quand elle peut à nouveau détourner ses yeux. Si la créature regarde Zalkoré en attendant, elle doit immédiatement faire le sauvetage.\nSi Zalkoré se voit réfléchi sur une surface polie à l'intérieur de 9 m et dans une zone de lumière vive, Zalkoré est, en raison de sa malédiction, affecté par son propre regard.",
+ "actionsText": "**Multiattaques.** Zalkoré fait soit trois attaques à la mêlée – une avec ses cheveux de serpent et deux avec son mot court – soit deux attaques à portée de main avec sa longbow.\n**Poil de serpent.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d4 + 2) dégâts perforants plus 14 (4d6) dégâts de poison.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Longbow.** Attaque d'arme à distance : +5 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants plus 7 (2d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Poil de serpent",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 5,
+   "damage": "1d8+2",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/dad7fe9b6a_monstre-zalkore.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +5, Perspicacité +4, Perception +4, Discrétion +5"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "redtooth-werefox",
+ "name": "Redtooth Werefox",
+ "type": "Monstruosité (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 60,
+ "hpFormula": "11d8+11",
+ "vitesse": "9 m (sous forme elfe; 12 m en forme de renard et hybride)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 17,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "commun, Elvish (ne peut pas parler sous forme de renard)",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le worefox fait deux attaques Bite, deux attaques Lance, ou une attaque Bite et une attaque Lance.\n**Bite (Forme en fibre de verre ou hybride seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants. Si le werefox a déplacé au moins 6 m directement vers la cible immédiatement avant le coup et que la cible est une créature moyenne ou plus petite, la cible doit réussir sur un DD 13 jet de sauvegarde de Force ou avoir l'état à terre.\n**Lance (Forme Elf ou hybride seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 9 (1d12 + 3) dégâts perforants.\n**Flèche enveloppante (Forme basse ou hybride seulement).** Attaque d'arme à distance : +5 au toucher, portée 45/180 m., une cible. Touché : 10 (2d6 + 3) dégâts perforants, et la cible doit réussir sur un DD 11 jet de sauvegarde de Dextérité ou avoir l'état entravé jusqu'au début du prochain tour de werefox.",
+ "attacks": [
+  {
+   "name": "Bite (Forme en fibre de verre ou hybride seulement)",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Lance (Forme Elf ou hybride seulement)",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Flèche enveloppante (Forme basse ou hybride seulement)",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d6eb9001b5_monstre-redtooth-werefox.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "skills": "Acrobaties +5, Perception +5, Survie +3",
+ "bonusActions": "**Modifier la forme.** Les polymorphes de l'élfoxe en un hybride renard-elf, en un renard, ou de nouveau dans sa forme elfe. Ses statistiques de jeu, autres que sa vitesse, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa forme elfe s'il meurt.\n**Nimbéité de la vulpine (forme de la fibre ou de l'hybride seulement).** Le weefox prend l'action Foncer ou Se désengager."
+}

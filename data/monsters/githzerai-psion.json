@@ -1,0 +1,40 @@
+{
+ "id": "githzerai-psion",
+ "name": "Githzerai Psion",
+ "type": "Aberration (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 169,
+ "hpFormula": "26d8+52",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 19,
+  "SAG": 18,
+  "CHA": 14
+ },
+ "senses": "Perception passive 18",
+ "languages": "commun, gith",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le githzerai fait trois attaques de Warp psychique.\n**La chaîne psychique.** Jet d'attaque au corps à corps ou à distance : +8, allonge 1,50 m ou portée 36 m. Touché : 26 (4d10 + 4) dégâts psychiques, et la cible a le choix du githzerai de (A) l'état charmé jusqu'au début du prochain tour du githzerai ou (B) l'état à terre, à condition que la cible soit une créature grande ou plus petite.\n**Détection orthographique.** Le githzerai lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Main de mage (la main est invisible)\n- 1/jour chacun : Changement de plan, Voir l'invisible",
+ "attacks": [
+  {
+   "name": "La chaîne psychique",
+   "bonus": 8,
+   "damage": "4d10+4",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/4cf7fea75b_monstre-githzerai-psion.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "saves": "FOR +5, DEX +8, INT +8, SAG +8",
+ "skills": "Arcanes +8, Perspicacité +8, Perception +8",
+ "reactions": "**Défense psionique.** Le githzerai lance Feuille morte ou Bouclier en réponse au déclencheur du sort, ne nécessitant aucun composant du sort et utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Feuille morte, Bouclier"
+}

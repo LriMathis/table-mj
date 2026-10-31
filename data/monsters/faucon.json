@@ -1,0 +1,38 @@
+{
+ "id": "faucon",
+ "name": "Faucon",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 1,
+ "hpFormula": "1d4–1",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 5,
+  "DEX": 16,
+  "CON": 8,
+  "INT": 2,
+  "SAG": 14,
+  "CHA": 6
+ },
+ "skills": "Perception +6",
+ "senses": "Perception passive 16",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Serres.** Corps à corps : +5, allonge 1,50 m. Touché : 1 dégât tranchant.",
+ "attacks": [
+  {
+   "name": "Serres",
+   "bonus": 5,
+   "damage": "1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/0bf87c7ccb_monstre-faucon.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 327"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "spectateur",
+ "name": "Spectateur",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "caNote": "armure naturelle",
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "skills": "Perception +6",
+ "conditionImmunities": "à terre",
+ "senses": "vision dans le noir 36 m, Perception passive 16",
+ "languages": "commun des profondeurs, profond, télépathie 36 m",
+ "traits": "",
+ "actionsText": "**Morsure.** *Attaque d'arme au corps à corps :* +1 pour toucher, allonge 1,50 m, une cible. *Touché :* 2 (1d6-1) dégâts perforants.\n**Rayons oculaires.** Le spectateur tire jusqu'à deux des rayons oculaires magiques suivants, sur une ou deux créatures situées à 27 mètres ou moins de lui dans son champ de vision. Il ne peut utiliser chaque rayon qu'une seule fois par tour.\n- *1. Rayon de confusion.* La cible doit effectuer un jet de sauvegarde de Sagesse DD 13. En cas d'échec, elle ne peut plus effectuer de réactions jusqu'à la fin de son prochain tour. À son tour, elle ne peut pas se déplacer et elle utilise son action pour effectuer une attaque au corps à corps ou à distance contre une créature déterminée aléatoirement et à portée. Si la cible ne peut pas attaquer, elle ne fait rien pendant son tour.\n- *2. Rayon de paralysie.* La créature visée doit réussir un jet de sauvegarde de Constitution DD 13 pour ne pas être paralysée pendant 1 minute. La cible peut retenter le jet de sauvegarde à la fin de chacun de ses tours et met fin à l'effet dont elle est victime en cas de réussite.\n- *3. Rayon de terreur.* La créature ciblée doit réussir un jet de sauvegarde de Sagesse DD 13 pour ne pas être terrorisée pendant 1 minute. La cible peut retenter le jet de sauvegarde à la fin de chacun de ses tours (elle est désavantagée lors de ce jet si le spectateur est dans son champ de vision) et met fin à l'effet dont elle est victime en cas de réussite.\n- *4. Rayon de blessure.* La cible doit effectuer un jet de sauvegarde de Constitution DD 13. Si elle échoue, elle subit 16 (3d10) dégâts nécrotiques, sinon la moitié seulement.\n**Création de nourriture et d'eau.** Le spectateur crée par magie suffisamment de nourriture et d'eau pour se sustenter pendant 24 heures.",
+ "reactions": "**Renvoi de sort.** Si le spectateur réussit un jet de sauvegarde contre un sort ou si une attaque de sort le rate, il peut désigner une autre créature (y compris le lanceur du sort) située à 9 mètres ou moins de lui et dans son champ de vision. Le sort prend pour cible la créature désignée au lieu du spectateur. Si le sort autorise un jet de sauvegarde, la créature désignée effectue le sien. Si le sort était une attaque, il faut refaire le jet d'attaque contre la créature désignée.",
+ "portrait": "/data/images/9c03f46e95_monstre-spectateur.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 292 · image : Manuel des monstres p. 291",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 1,
+   "damage": "1d6-1",
+   "type": "perforant"
+  }
+ ]
+}

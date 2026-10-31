@@ -1,0 +1,41 @@
+{
+ "id": "conjurer-magicien",
+ "name": "Conjurer Wizard",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 58,
+ "hpFormula": "13d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le conjureur fait trois attaques d'Arcane Burst.\n**La Burst d'Arcane.** Attaque de sort au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 19 (3d10 + 3) dégâts de force.\n**Détection orthographique.** Le conjureur lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Lumières dansantes, Main de mage, Prestidigitation\n- 1/jour chacun : Vol, Nuage nauséabond, Toile d'araignée\n- 2/jour chacun : Boule de feu, Armure de mage, Serviteur invisible",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 8,
+   "damage": "3d10+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/4e7cac0ee8_monstre-conjurer-magicien.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Conjurer magicien",
+ "saves": "INT +6, SAG +4",
+ "skills": "Arcanes +6, Histoire +6",
+ "bonusActions": "**Transports bénins (Recharge 4-6).** Les téléportateurs de conjureurs, ainsi que tout équipement qu'ils portent ou transportent, jusqu'à 9 m dans un espace inoccupé qu'ils peuvent voir. S'il choisit plutôt un espace à portée qui est occupé par une créature petite ou moyenne consentante, ils téléportent tous les deux, échangeant des lieux.\n**Invocation élémentaire (1/jour).** Le conjureur invoque magiquement un Élémentaire de l'air, un Élémentaire de la terre, un Élémentaire du feu ou un Élémentaire de l'eau. L'élémental apparaît dans un espace inoccupé au sein de 18 m du conjureur, qu'il obéit. Il prend son tour immédiatement après le conjureur. Il dure 1 heure, jusqu'à ce que le conjureur ou le conjureur meurt, ou jusqu'à ce que le conjureur le rejette comme un action bonus."
+}

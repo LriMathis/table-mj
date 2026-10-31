@@ -1,0 +1,42 @@
+{
+ "id": "drow-inquisitor",
+ "name": "Drow Inquisitor",
+ "type": "Humanoïde (clerc, Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 16,
+ "hp": 149,
+ "hpFormula": "23d8+46",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 21,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 20",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Discriminer le mensonge.** Le drow discerne quand une créature dans le shot d'oreille parle un mensonge dans une langue que le drow connaît.\n**Ancêtre fécale.** Le drow a l'avantage sur jet de sauvegarde contre le charmé, et la magie ne peut pas mettre le drow à dormir.\n**Sensibilité à la lumière du soleil.** En plein soleil, le drow présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le drow fait trois attaques de la Lance de la Mort.\n**Lance de la mort.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts perforants plus 18 (4d8) dégâts nécrotiques. La maximum de points de vie de la cible est réduite d'un montant égal à la dégâts nécrotiques prise. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0.\n**Détection orthographique.** Le sillon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Lumières dansantes, Détection de la magie, Message, Thaumaturgie\n- 1/jour chacun : Clairvoyance, Ténèbres, Détection des pensées, Dissipation de la magie, Lueurs féeriques, Lévitation (autoseulement), Silence, Suggestion, Vision suprême",
+ "attacks": [
+  {
+   "name": "Lance de la mort",
+   "bonus": 10,
+   "damage": "1d6+5",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/2024893188_monstre-drow-inquisitor.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "saves": "CON +7, SAG +10, CHA +10",
+ "skills": "Perspicacité +10, Perception +10, Religion +8, Discrétion +7",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Dague spectrale (recharge après un repos court ou long).** Le drow conjure un poignard spectral flottant à l'intérieur de 18 m lui-même. Le drow peut faire une melee attaque de sort (+10 au toucher) contre une créature dans 1,50 m de la dague. Sur un coup, la cible prend 9 (1d8 + 5) dégâts de force.\nLa dague dure 1 minute. Comme un action bonus à des tours ultérieurs, le sillon peut déplacer le dague jusqu'à 6 m et répéter l'attaque contre une créature dans 1,50 m du dague."
+}

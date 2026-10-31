@@ -1,0 +1,39 @@
+{
+ "id": "xill",
+ "name": "Xill",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 18,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun",
+ "traits": "**Ethérée Jaunth.** Comme un action bonus, un xill peut magiquement passer de l'avion matériel à l'avion éthéré, ou vice versa.\n**poison Stinger.** Le xill injecte du poison dans l'une créature qu'il a frappé avec ses griffes ce tour. La créature choisie doit faire un DD 11 jet de sauvegarde de Constitution avec un désavantage si le xill le frappe plus d'une fois ce tour, en prenant 14 (4d6) dégâts de poison sur une sauvegarde ratée, ou la moitié autant sur un succès. Si le dégâts de poison réduit la cible à 0 points de vie, la cible est stable mais empoisonné pendant 1 heure, même après avoir récupéré points de vie, et est paralysé alors qu'empoisonné de cette façon.",
+ "actionsText": "**Multiattaques.** Le xill fait quatre attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/75170ce32d_monstre-xill.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Acrobaties +6, Athlétisme +4, Perception +4"
+}

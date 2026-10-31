@@ -1,0 +1,39 @@
+{
+ "id": "reaper-de-bhaal",
+ "name": "Reaper of Bhaal",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 20,
+  "CON": 13,
+  "INT": 15,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun",
+ "traits": "**Aura de meurtre.** Tant que le moissonneur n'est pas neutralisé, les créatures hostiles au sein de 1,50 m de celui-ci deviennent vulnérables à dégâts perforants à moins qu'elles n'aient une résistance ou une immunité à de tels dégâts.\n**Découpe intérieure.** Le caractéristique d'incantation inné de la moissonneuse est Charisme (spell save DD 13). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Charme-personne, Déguisement, Sanctuaire",
+ "actionsText": "**Multiattaques.** Le moissonneur fait deux attaques de poignard et utilise Shroud Self.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d4 + 5) dégâts perforants.\n**Soi-même.** La moissonneuse tourne magiquement invisible jusqu'au début de son prochain tour. Cette invisibilité se termine si le moissonneur fait un jet d'attaque, fait un jet de dégâts ou jette un sort.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 7,
+   "damage": "1d4+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a0918fdf0c_monstre-reaper-de-bhaal.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Reaper de Bhaal",
+ "skills": "Intimidation +5, Perception +3, Persuasion +5, Discrétion +9"
+}

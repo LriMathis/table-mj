@@ -1,0 +1,38 @@
+{
+ "id": "grande-eau-slurpent",
+ "name": "Big Water Slurpent",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "0 m, nage 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "",
+ "languages": "—",
+ "traits": "**invisible dans l'eau.** Le grand lisier d'eau est invisible tout en étant complètement immergé dans l'eau.\n**Bound d'eau.** La grande eau slurpent meurt si elle laisse l'eau à laquelle elle est liée ou si cette eau est détruite.",
+ "actionsText": "**Constriction.** Attaque d'arme au corps à corps : +5 au toucher, une cible. Touché : 13 (3d6+3) dégâts contondants. Si la cible est moyenne ou plus petite, c'est agrippé (évasion DD 13) et a tiré 1,50 m vers le lisier de grande eau. Jusqu'à ce que ce grapple se termine, la cible est entravé, le lisier de grande eau essaie de le noyer, et le lisier de grande eau ne peut pas constricter une autre cible.",
+ "attacks": [
+  {
+   "name": "Constriction",
+   "bonus": 5,
+   "damage": "3d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4ac6cf6760_monstre-grande-eau-slurpent.webp",
+ "notes": "points de vie : 58",
+ "source": "Adventure with Muk (5e.tools, traduction automatique)",
+ "aka": "Grande eau Slurpent"
+}

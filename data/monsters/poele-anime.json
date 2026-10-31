@@ -1,0 +1,38 @@
+{
+ "id": "poele-anime",
+ "name": "Animated Stove",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 50,
+ "hpFormula": "50d1",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 6",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d8 + 2) dégâts contondants.\n**Belch feu (Recharge 4-6).** Le poêle embrase le feu dans un cône 4,50 m. Chaque créature de la zone doit faire un DD 10 jet de sauvegarde de Dextérité, en prenant 22 (4d10) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 6,
+   "damage": "2d8+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/af6de1a128_monstre-poele-anime.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Poêle animé"
+}

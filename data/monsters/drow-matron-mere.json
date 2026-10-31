@@ -1,0 +1,50 @@
+{
+ "id": "drow-matron-mere",
+ "name": "Drow Matron Mother",
+ "type": "Humanoïde (clerc, Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 17,
+ "hp": 247,
+ "hpFormula": "33d8+99",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 17,
+  "SAG": 21,
+  "CHA": 22
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 21",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Le drow a l'avantage sur jet de sauvegarde contre le charmé, et la magie ne peut pas mettre le drow à dormir.\n**Matériel spécial.** Le drow manie un Sceptre tentacule.\n**Sensibilité à la lumière du soleil.** En plein soleil, le drow présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le drow fait deux attaques de l'état-major Démon ou une attaque de l'état-major Démon et trois attaques du Tente Rod.\n**Personnel démon.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants, ou 8 (1d8 + 4) dégâts contondants si utilisé avec deux mains, plus 14 (4d6) dégâts psychiques. La cible doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou devenir effrayé du srow pendant 1 minute. La cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Tige de traction.** Attaque d'arme au corps à corps : +9 au toucher, allonge 4,50 m, une créature. Touché : 3 (1d6) dégâts contondants. Si la cible est touchée trois fois par la tige à un tour, la cible doit réussir sur un DD 15 jet de sauvegarde de Constitution ou subir les effets suivants pendant 1 minute : la vitesse de la cible est réduite de moitié, elle a un désavantage sur jet de sauvegarde de Dextérité et elle ne peut pas utiliser de réactions. De plus, à chacun de ses tours, il peut prendre une action ou une action bonus, mais pas les deux. A la fin de chacun de ses tours, il peut répéter le jet de sauvegarde, mettant fin à l'effet sur lui-même sur un succès.\n**Flamme divine (2/jour).** Une colonne 3 m -radius, 12 m -haute du feu divin pousse dans une zone allant jusqu'à 36 m loin du sillon. Chaque créature dans la colonne doit faire un DD 20 jet de sauvegarde de Dextérité, en prenant 14 (4d6) dégâts de feu et 14 (4d6) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Le sillon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Injonction, Lumières dansantes, Détection de la magie, Thaumaturgie\n- 1/jour chacun : Clairvoyance, Ténèbres, Détection des pensées, Dissipation de la magie, Lueurs féeriques, Portail, Lévitation (autoseulement), Suggestion\n- 2/jour chacun : Bannissement, Barrière de lames, Soins, Immobilisation de personne, Changement de plan, Silence",
+ "attacks": [
+  {
+   "name": "Personnel démon",
+   "bonus": 10,
+   "damage": "1d6+4",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "Tige de traction",
+   "bonus": 9,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c3ddcc9f37_monstre-drow-matron-mere.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Drow Matron mère",
+ "caNote": "demi-plaque",
+ "saves": "CON +9, SAG +11, CHA +12",
+ "skills": "Perspicacité +11, Perception +11, Religion +9, Discrétion +10",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "bonusActions": "**La faveur de Lolth Fickle.** Le drow accorde la bénédiction de la Reine des araignées à un allié qu'elle peut voir au sein de 9 m d'elle. L'allié prend 7 (2d6) dégâts psychiques mais a avantage sur le prochain jet d'attaque qu'il fait avant la fin de son prochain tour.\n**Invoquer le fonctionnaire (1/jour).** Le drow appelle magiquement un Glabrezu ou un Yochlol. La créature appelée apparaît dans un espace inoccupé au sein de 18 m de son convocateur, agit comme un allié de son convocateur, et ne peut pas convoquer d'autres démons. Il reste 10 minutes, jusqu'à ce qu'il ou son convocateur décède, ou jusqu'à ce que son convocateur le rejette comme une action.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, drow matron mère peut entreprendre l'une des actions ci-après.\n**Démon compel.** Un démon allié au sein de 9 m du drow utilise sa réaction pour faire une attaque contre une cible du choix du drow qu'elle peut voir.\n**Personnel démon.** Le drow fait une attaque de l'état-major démon.\n**Lancer un sort (coûts 2 actions).** Le drow utilise Spellcasting."
+}

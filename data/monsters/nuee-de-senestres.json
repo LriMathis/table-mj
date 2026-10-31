@@ -1,0 +1,40 @@
+{
+ "id": "nuee-de-senestres",
+ "name": "Nuée de sénestres",
+ "type": "Nuée (bêtes de taille TP)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvaise",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 49,
+ "hpFormula": "11d8",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "resistances": "contondants, perforants, tranchants",
+ "immunities": "nécrotiques, poison",
+ "conditionImmunities": "à terre, agrippé, charmé, effrayé, empoisonné, entravé, épuisement, neutralisé, étourdi, paralysé, pétrifié",
+ "senses": "Vision aveugle 9 m, Perception passive 10",
+ "languages": "comprend le commun mais ne peut pas parler",
+ "traits": "**Nuée.** La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut se déplacer par toute ouverture assez large pour une créature de taille TP. La nuée ne peut ni récupérer de points de vie ni recevoir de points de vie temporaires.",
+ "actionsText": "**Nuée de sénestres.** Corps à corps : +4, allonge 1,50 m. Touché : 20 (4d8 + 2) dégâts nécrotiques, ou 11 (2d8 + 2) dégâts nécrotiques si la nuée est En péril. Si la cible est une créature de taille M ou inférieure, elle subit l’état À terre.",
+ "attacks": [
+  {
+   "name": "Nuée de sénestres",
+   "bonus": 4,
+   "damage": "4d8+2",
+   "type": "nécrotique (+2d8+2 nécrotique sous condition)"
+  }
+ ],
+ "portrait": "/data/images/a9a206a73f_monstre-nuee-de-senestres.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

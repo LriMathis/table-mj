@@ -1,0 +1,38 @@
+{
+ "id": "espace-guppy",
+ "name": "Space Guppy",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 3,
+ "hpFormula": "1d6",
+ "vitesse": "0 m, vol 9 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Enveloppe d'air.** Si elle a au moins 1 points de vie, le guppy peut générer une enveloppe d'air autour de lui lorsqu'il est sous vide. Cette enveloppe d'air peut soutenir indéfiniment le chiot et une autre créature minuscule dans son espace.\n**Volée.** Le chiot ne provoque pas d'attaques d'opportunité quand il vole hors de la portée d'un ennemi.",
+ "actionsText": "**Témoin de queue.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Témoin de queue",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/0af4a6199c_monstre-espace-guppy.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Espace Guppy"
+}

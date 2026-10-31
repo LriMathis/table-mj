@@ -1,0 +1,48 @@
+{
+ "id": "nycaloth",
+ "name": "Nycaloth",
+ "type": "Fiélon (yugoloth)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "caNote": "armure naturelle",
+ "hp": 123,
+ "hpFormula": "13d10+52",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 11,
+  "CON": 19,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 15
+ },
+ "skills": "Discrétion +4, Intimidation +6, Perception +4",
+ "resistances": "froid, feu, foudre ; contondants, perforants et tranchants émanant d'attaques non magiques",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision parfaite 18 m, vision nocturne 18 m, Perception passive 14",
+ "languages": "abyssal, infernal, télépathie 18 m",
+ "traits": "**Armes magiques.** Les attaques d'arme d'un nycaloth sont de nature magique.\n**Incantation innée.** Le nycaloth utilise le Charisme comme caractéristique d'incantation innée (DD du jet de sauvegarde contre ses sorts : 11). Il peut lancer les sorts suivants de façon innée, sans dépenser de composantes matérielles.\n- À volonté : *détection de la magie, dissipation de la magie, image miroir, invisibilité* (sur soi uniquement), *ténèbres*\n**Résistance à la magie.** Le nycaloth est avantagé lors des jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le nycaloth peut effectuer deux attaques ou une seule avec une téléportation avant ou après.\n**Griffe.** *Attaque d'arme au corps à corps :* +9 pour toucher, allonge 1,50 m, une cible. *Touché :* 12 (2d6+5) dégâts tranchants. Si la cible est une créature, elle doit réussir un jet de sauvegarde de Constitution DD 16, sans quoi elle subit 5 (2d4) dégâts tranchants au début de chacun de ses tours à cause de cette blessure fiélone. Les dégâts que cause cette plaie augmentent de 5 (2d4) à chaque fois que le nycaloth touche la cible blessée avec cette attaque. N'importe quelle créature peut dépenser une action pour panser la plaie avec un test de Sagesse (Médecine) DD 13. La blessure se referme également si la cible reçoit des soins magiques.\n**Hache à deux mains.** *Attaque d'arme au corps à corps :* +9 pour toucher, allonge 1,50 m, une cible. *Touché :* 18 (2d12+5) dégâts tranchants.\n**Téléportation.** Le nycaloth se téléporte par magie, avec tout l'équipement qu'il porte et transporte, jusqu'à un emplacement inoccupé situé dans son champ de vision et dans un rayon maximum de 18 mètres.",
+ "portrait": "/data/images/f5cdec32bb_monstre-nycaloth.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 315 · image : internet",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Hache à deux mains",
+   "bonus": 9,
+   "damage": "2d12+5",
+   "type": "tranchant"
+  }
+ ]
+}

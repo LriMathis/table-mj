@@ -1,0 +1,47 @@
+{
+ "id": "edgin-darvis",
+ "name": "Edgin Darvis",
+ "type": "Humanoïde (barde)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 110,
+ "hpFormula": "17d8+34",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Edgin fait deux attaques Lute ou Shortsword renforcées.\n**Luth renforcé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts contondants plus 11 (2d10) dégâts de tonnerre.\n**Mot-clé.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 11 (2d10) dégâts de tonnerre.\n**Mots désorientants.** Edgin se moque magiquement de trois créatures qu'il peut voir en lui-même. Chaque créature doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou prendre 10 (3d6) dégâts psychiques et avoir un désavantage sur le jet d'attaque suivant qu'elle fait avant le début du prochain tour d'Edgin.\n**Détection orthographique.** Edgin lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Amis, Message\n- 1/jour : Suggestion\n- 3/jour chacun : Charme-personne, Déguisement",
+ "attacks": [
+  {
+   "name": "Luth renforcé",
+   "bonus": 5,
+   "damage": "1d8+2",
+   "type": "contondant + tonnerre"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "perforant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/cf32090552_monstre-edgin-darvis.webp",
+ "notes": "",
+ "source": "Thieves' Gallery (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +6, CHA +7",
+ "skills": "Tromperie +7, Représentation +10, Persuasion +10, Escamotage +6",
+ "reactions": "**Mots inspirants (3/jour).** Lorsqu'une créature Edgin peut voir dans 18 m de lui-même échoue un test de caractéristique, un jet d'attaque, ou un jet de sauvegarde, Edgin accorde à la créature un encouragement magique. La créature peut rouler un d8 et ajouter le nombre roulé au total, potentiellement transformer l'échec en un succès."
+}

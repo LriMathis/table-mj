@@ -1,0 +1,45 @@
+{
+ "id": "shalvus-martholio",
+ "name": "Shalvus Martholio",
+ "type": "Humanoïde (Turami humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, elfique",
+ "traits": "**Attaque d'éternuement (1/Turn).** Shalvus inflige un dégâts supplémentaire de 7 (2d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur la jet d'attaque, ou lorsque la cible est dans 1,50 m d'un allié de Shalvus qui n'est pas neutralisé et Shalvus n'a pas d'inconvénient sur la jet d'attaque.\n**Information sur le jeu de rôles.** Nalaskur Thaelond de Bargewright Inn a confié au berger Shalvus une mission importante: trouver la meilleure façon de ramener les champs d'or sous le contrôle du Réseau Noir. Shalvus pense que le succès assurera sa montée rapide dans les rangs de Zhentarim.\nIdéal: \"Je ferai ce qu'il faut pour me prouver au Zhentarim.\"\nObligation : \"J'aime les animaux, et je les protège.\"\nFaux : \"Je ne peux pas résister à prendre des risques pour nourrir mes ambitions.\"",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants, ou 4 (1d8) dégâts contondants si utilisé avec les deux mains.\n**Acrobatie des mains.** Attaque d'arme à distance : +2 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants. Shalvus porte dix boulons arbalètes.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "contondant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 2,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d78ce82f2d_monstre-shalvus-martholio.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Tromperie +4, Perspicacité +4, Investigation +3, Perception +4, Escamotage +4, Discrétion +4"
+}

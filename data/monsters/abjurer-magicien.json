@@ -1,0 +1,41 @@
+{
+ "id": "abjurer-magicien",
+ "name": "Abjurer Wizard",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 12,
+ "hp": 104,
+ "hpFormula": "16d8+32",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'abjureur fait trois attaques d'Arcane Burst.\n**La Burst d'Arcane.** Attaque de sort au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 20 (3d10 + 4) dégâts de force.\n**Blast force.** Chaque créature dans un cube 6 m originaire de l'abjureur doit faire un DD 16 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 36 (8d8) dégâts de force et est poussée jusqu'à 3 m loin de l'abjureur. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas poussée.\n**Détection orthographique.** L'abjureur lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Lumières dansantes, Main de mage, Message, Prestidigitation\n- 1/jour chacun : Verrou magique, Bannissement, Globe d'invulnérabilité, Invisibilité, Mur de force\n- 2/jour chacun : Dissipation de la magie, Éclair, Armure de mage",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 8,
+   "damage": "3d10+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/6ef013d5c1_monstre-abjurer-magicien.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Abjurer magicien",
+ "saves": "INT +8, SAG +5",
+ "skills": "Arcanes +8, Histoire +8",
+ "reactions": "**Arcane Ward (Recharge 4-6).** Lorsque le blaireau ou une créature qu'il peut voir dans 9 m prend des dégâts, le blaireau crée magiquement une barrière protectrice autour de lui ou de l'autre créature. La barrière réduit les dégâts à la créature protégée de 26 (4d10 + 4), à un minimum de 0, puis disparaît."
+}

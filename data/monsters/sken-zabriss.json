@@ -1,0 +1,39 @@
+{
+ "id": "sken-zabriss",
+ "name": "Sken Zabriss",
+ "type": "Humanoïde (goliath)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 13,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, draconique, géant",
+ "traits": "**Construction puissante.** Sken compte comme une taille plus grande pour déterminer sa capacité de charge et le poids qu'elle peut pousser, traîner ou soulever.\n**Matériel spécial.** Sken porte un Anneau d'Obscuring. Avec elle, elle peut lancer le sort Nappe de brouillard centré sur elle-même trois fois par jour. Le nuage dure 1 minute (pas de concentration requis).",
+ "actionsText": "**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants lorsqu'il est utilisé à deux mains.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/39753e1f66_monstre-sken-zabriss.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "Breastplate, Bouclier",
+ "reactions": "**Endurance de Stone (recharge après un repos court ou long).** Lorsque Sken prend des dégâts, elle peut utiliser sa réaction pour réduire les dégâts pris de 8 (1d12 + 2)."
+}

@@ -1,0 +1,47 @@
+{
+ "id": "verbeeg-grande-foulee",
+ "name": "Verbeeg Longstrider",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 119,
+ "hpFormula": "14d10+42",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, géant",
+ "traits": "**Wielder d'armes simples.** Une simple arme inflige une mort supplémentaire de ses dégâts lorsque le verbeeg frappe avec elle (inclus dans l'attaque).\n**Découpe intérieure.** caractéristique d'incantation innate du verbe est Sagesse. Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- 1/jour chacun : Messager animal, Nappe de brouillard, Liberté de mouvement, Passage sans trace, Silence, Marche sur l'eau",
+ "actionsText": "**Multiattaques.** Le verbeeg fait deux attaques à la mêlée.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 14 (3d6 + 4) dégâts perforants, ou 17 (3d8 + 4) dégâts perforants si utilisé pour faire une attaque à distance ou utilisé avec deux mains pour faire une attaque de melee.\n**Écharpe.** Attaque d'arme à distance : +5 au toucher, portée 9/36 m., une cible. Touché : 9 (3d4 + 2) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 7,
+   "damage": "3d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 5,
+   "damage": "3d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b57e585641_monstre-verbeeg-grande-foulee.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Verbeeg grande foulée",
+ "caNote": "Cache l'armure",
+ "saves": "DEX +5, CON +6, SAG +5",
+ "skills": "Dressage +5, Athlétisme +7, Discrétion +5"
+}

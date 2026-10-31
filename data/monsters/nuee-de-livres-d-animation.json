@@ -1,0 +1,42 @@
+{
+ "id": "nuee-de-livres-d-animation",
+ "name": "Swarm of Animated Books",
+ "type": "Nuée de taille très petite (Créature artificielle)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "**Faux objets.** Si l'essaim est immobile au début du combat, il a avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'action de l'essaim, cette créature doit réussir sur un DD 15 test de Sagesse (Perception) pour discerner que l'essaim est animé.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un objet de 8 pouces de large de 0,30 m et de 2 pouces d'épaisseur. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Club des livres.** Attaque d'arme au corps à corps : +3 au toucher, allonge 0 m, une cible dans l'espace de l'essaim. Touché : 6 (2d4 + 1) dégâts contondants, ou 3 (1d4 + 1) dégâts contondants si l'essaim a la moitié de son points de vie ou moins.",
+ "attacks": [
+  {
+   "name": "Club des livres",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f84f21100d_monstre-nuee-de-livres-d-animation.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Nuée de livres d'animation",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "feu",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi"
+}

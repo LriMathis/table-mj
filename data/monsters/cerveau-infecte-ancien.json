@@ -1,0 +1,41 @@
+{
+ "id": "cerveau-infecte-ancien",
+ "name": "Infected Elder Brain",
+ "type": "Aberration (flagelleur mental)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 10,
+ "hp": 189,
+ "hpFormula": "18d10+90",
+ "vitesse": "1,50 m, nage 3 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 21,
+  "SAG": 19,
+  "CHA": 20
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 14",
+ "languages": "télépathie 1 mile; understands Common, profond, et Undercommon mais ne peut pas parler",
+ "traits": "**Sens de la créature.** Le cerveau aîné est conscient des créatures au sein de 1,5 km de lui-même qui ont un score Intelligence de 4 ou plus. Il connaît la distance et la direction de chaque créature, ainsi que le score Intelligence de chacun, mais ne peut rien sentir d'autre à ce sujet. Une créature protégée par un sort Esprit impénétrable, un sort Antidétection ou une magie similaire ne peut pas être perçue de cette manière.\n**Résistance magique.** Le cerveau aîné a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Hub télépathique.** Le cerveau aîné peut utiliser sa télépathie pour initier et entretenir des conversations télépathiques avec jusqu'à dix créatures à la fois. Le cerveau aîné peut permettre à ces créatures de s'entendre télépathiquement tout en étant connectées de cette façon.",
+ "actionsText": "**Multiattaques.** Le cerveau aîné fait deux attaques du Tentacle.\n**Tentacle.** Attaque d'arme au corps à corps : +6 au toucher, allonge 9 m, une cible. Touché : 15 (3d8 + 2) dégâts contondants. Si la cible est une créature Énorme ou plus petite, elle a l'état agrippé (évasion DD 14) et prend 9 (1d8 + 5) dégâts psychiques au début de chacun de ses tours jusqu'à la fin du grappin. Le cerveau aîné peut avoir jusqu'à quatre cibles agrippé à la fois.\n**Boussole mentale (Recharge 5-6).** Les créatures du choix du cerveau aîné au sein de 18 m doivent réussir sur un DD 17 jet de sauvegarde d'Intelligence ou prendre 32 (5d10 + 5) dégâts psychiques et avoir l'état étourdi pendant 1 minute. Une créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Coulisse (Psioniques).** Le cerveau aîné lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection des pensées, Lévitation",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 6,
+   "damage": "3d8+2",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/0dfe8a641b_monstre-cerveau-infecte-ancien.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Cerveau infecté ancien",
+ "saves": "INT +9, SAG +8, CHA +9",
+ "skills": "Arcanes +9, Perspicacité +12",
+ "bonusActions": "**Lien psychique.** Le cerveau aîné cible une créature avec l'état neutralisé que le cerveau aîné sent avec son caractère Creature Sense et établit un lien psychique avec la cible. Jusqu'à ce que le lien se termine, le cerveau aîné peut percevoir tout ce que la cible sens. La cible prend conscience que quelque chose est lié à son esprit une fois qu'elle n'a plus l'état neutralisé, et le cerveau aîné peut mettre fin au lien à tout moment (aucune action requise). La cible peut utiliser une action à son tour pour essayer de briser le lien, ce faisant avec un succès DD 17 test de Charisme. Si la cible casse le lien de cette façon, la cible prend 10 (3d6) dégâts psychiques. Le lien se termine également si la cible et le cerveau aîné sont plus que 1,5 km séparés. Le cerveau aîné peut former des liens psychiques avec jusqu'à dix créatures à la fois."
+}

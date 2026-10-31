@@ -1,0 +1,40 @@
+{
+ "id": "gadabout",
+ "name": "Gadabout",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 11,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "3 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 3 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "**Enveloppe d'air.** S'il a au moins 1 points de vie, le gadabout peut générer une enveloppe d'air autour de lui lorsqu'il est sous vide. Cette enveloppe d'air peut soutenir indéfiniment le gadotour et une autre créature dans son espace.\n**Nature inhabituelle.** Le gadobout n'a pas besoin de nourriture ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le gadabout fait deux attaques de Branch.\n**Branche.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts tranchants.\n**Enveloppe.** Le gadabout entre dans l'espace d'une créature volontaire Medium ou Small en 1,50 m de lui-même et enveloppe doucement ses branches autour de la cible. La cible est agrippé (évasion DD 0). Toute tentative de la cible d'échapper au grappin provoque l'utilisation de sa réaction pour se déplacer dans l'espace inoccupé le plus proche. Tandis qu'agrippé par le gadabout, la cible détermine où le gadabout se déplace sur les virages du gadabout et accompagne le gadabout où qu'il aille.",
+ "attacks": [
+  {
+   "name": "Branche",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8627defa0e_monstre-gadabout.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 1: Spelljammer Creatures (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "feu",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié"
+}

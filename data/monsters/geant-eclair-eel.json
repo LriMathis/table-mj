@@ -1,0 +1,39 @@
+{
+ "id": "geant-eclair-eel",
+ "name": "Giant Lightning Eel",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 42,
+ "hpFormula": "5d10+15",
+ "vitesse": "1,50 m, nage 9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Respiration d'eau.** L'anguille ne peut respirer que sous l'eau.",
+ "actionsText": "**Multiattaques.** L'anguille fait deux attaques de morsure.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants plus 4 (1d8) dégâts de foudre.\n**foudre Jolt (Recharge 5-6).** une créature l'anguille touche à l'intérieur de 1,50 m de l'eau extérieure, ou chaque créature à l'intérieur de 4,50 m dans un plan d'eau, doit faire un DD 12 jet de sauvegarde de Constitution. En cas d'échec de l'enregistrement, une cible prend 13 (3d8) dégâts de foudre. Si la cible prend l'un de ces dégâts, la cible est étourdi jusqu'à la fin du prochain tour de l'anguille. Sur une sauvegarde réussie, une cible prend la moitié de ces dégâts et n'est pas étourdi.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant + foudre"
+  }
+ ],
+ "portrait": "/data/images/1058522f32_monstre-geant-eclair-eel.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Géant éclair Eel",
+ "resistances": "foudre"
+}

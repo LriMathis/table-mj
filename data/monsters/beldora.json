@@ -1,0 +1,45 @@
+{
+ "id": "beldora",
+ "name": "Beldora",
+ "type": "Humanoïde (Illuskan humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 18,
+ "hpFormula": "4d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 16,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, draconique, nain, halfelin",
+ "traits": "**Information sur le jeu de rôles.** Beldora est membre des harpistes qui survivent en utilisant son esprit et ses ruses. Elle ressemble à une sans-abri, mais c'est une survivante qui s'éloigne de la richesse matérielle.\nIdéal: \"Nous devrions tous nous efforcer de nous aider les uns les autres\"\nObligation : \"Je risquerai ma vie pour protéger les impuissants.\"\nFaux : \"J'aime mentir aux gens. Ça rend la vie plus intéressante, non ?\"",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.\n**Acrobatie des mains.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants. Beldora porte dix boulons arbalètes.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ea99ae8a34_monstre-beldora.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Perspicacité +3, Investigation +5, Perception +5, Persuasion +5",
+ "reactions": "**Canard et couverture.** Beldora ajoute 2 à sa CA contre une attaque qui la frapperait. Pour ce faire, Beldora doit voir l'attaquant et ne peut pas être agrippé ou entravé."
+}

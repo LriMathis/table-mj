@@ -1,0 +1,42 @@
+{
+ "id": "vol-trident",
+ "name": "Flying Trident",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 17,
+ "hp": 17,
+ "hpFormula": "5d6",
+ "vitesse": "0 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 5,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 7",
+ "languages": "—",
+ "traits": "**Susceptibilité antimagique.** Le trident est neutralisé alors qu'il est dans la zone d'un Champ antimagie. Si la cible est Dissipation de la magie, le trident doit réussir sur un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur ou tomber inconscient pendant 1 minute.\n**Fausse apparence.** Bien que le trident reste immobile et ne vole pas, il est indistinctible d'un trident normal.",
+ "actionsText": "**Trident.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Trident",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/7a080d255e_monstre-vol-trident.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Vol Trident",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, paralysé, pétrifié, empoisonné"
+}

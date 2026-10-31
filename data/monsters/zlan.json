@@ -1,0 +1,50 @@
+{
+ "id": "zlan",
+ "name": "Zlan",
+ "type": "Mort-vivant (magicien)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 18,
+ "hp": 199,
+ "hpFormula": "19d12+76",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 19,
+  "INT": 21,
+  "SAG": 18,
+  "CHA": 14
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 20",
+ "languages": "tous",
+ "traits": "**Chardalyn Sense.** Zlan sent les émotions de quiconque touchant un morceau de chardalyn en lui-même.\n**Résistance légendaire (3/jour).** Si Zlan échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Zlan a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Prochaine des sept (6/année).** Si Zlan meurt à l'intérieur de 150 km d'un morceau de chardalyn d'au moins 4 pouces de long, il se reforme de ce morceau de chardalyn en 1d10 jours, récupérant tout son points de vie. Le nouveau corps apparaît dans l'espace inoccupé le plus proche du morceau de chardalyn, et l'esprit d'un autre lich dans le corps saisit le contrôle psychique du corps.",
+ "actionsText": "**Multiattaques.** Zlan fait trois attaques, en utilisant Slam ou Bewildering Bolt dans n'importe quelle combinaison. Il peut remplacer deux attaques par une utilisation de Spellcasting.\n**Clamer.** Jet d'attaque au corps à corps : +11, allonge 3 m. Touché : 12 (3d4 + 5) dégâts contondants plus 22 (4d10) dégâts nécrotiques.\n**Bouillon perturbateur.** Jet d'attaque à distance : +11, portée 36 m. Touché : 27 (4d10 + 5) dégâts psychiques, et la cible a l'état charmé jusqu'à la fin de son prochain tour.\n**Détection orthographique.** Zlan lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Détection de la magie, Détection des pensées, Dissipation de la magie, Main de mage, Message\n- 1/jour chacun : Abrutissement, Désintégration\n- 2/jour chacun : Porte dimensionnelle, Vol, Scrutation",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 11,
+   "damage": "3d4+5",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Bouillon perturbateur",
+   "bonus": 11,
+   "damage": "4d10+5",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/02faecbc57_monstre-zlan.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "saves": "DEX +7, CON +10, INT +11, SAG +10",
+ "skills": "Arcanes +17, Histoire +11, Perception +10",
+ "resistances": "foudre, nécrotique",
+ "immunities": "froid, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "reactions": "**Contre-orpilleurs.** Zlan lance Contresort en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Contresort",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, zlan peut entreprendre l'une des actions ci-après.\n**Rétorsion.** Zlan fait une attaque de Slam ou de Bolt.\n**Stoke Paranoïa.** Jet de sauvegarde de Sagesse : DD 19, une créature Zlan peut voir à l'intérieur de 9 m (avec Désavantage si la cible tient ou porte de la chardalyn). Échec : 27 (6d8) dégâts psychiques et la cible a l'état charmé pendant 1 minute ou jusqu'à ce que Zlan meurt. Tandis que charmé, la cible n'agit pas comme un allié à aucune créature. Réussite : Demi-dégâts seulement. Échec ou réussite : Zlan ne peut pas reprendre cette action avant le début de son prochain tour."
+}

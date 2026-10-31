@@ -1,0 +1,38 @@
+{
+ "id": "grum-shar",
+ "name": "Grum'shar",
+ "type": "Humanoïde (demi-orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 10,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, orc",
+ "traits": "**Endurance sans relâche.** Quand elle est réduite à 0 points de vie, Grum'shar tombe à 1 points de vie. Il ne peut le faire qu'une seule fois par repos long.\n**Détection orthographique.** Grum'shar est un spellcaster de niveau 1. Son caractéristique d'incantation est Intelligence. Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Trait de feu, Réparation, Prestidigitation\n- Niveau 1 (2 emplacements) : Mains brûlantes, Déguisement, Bouclier",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts perforants. Ou attaque d'armes rangées : +2 au toucher, portée 6/18 m., une cible. Touché : 2 (1d4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ac140ea752_monstre-grum-shar.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "skills": "Arcanes +4, Histoire +4"
+}

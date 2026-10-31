@@ -1,0 +1,42 @@
+{
+ "id": "haut-fae-impostor",
+ "name": "High Fae Impostor",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 149,
+ "hpFormula": "23d8+46",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 13,
+  "DEX": 21,
+  "CON": 15,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 23
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, sylvestre",
+ "traits": "**Résistance magique.** La haute fae a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le fae élevé fait deux attaques Fae Blade et utilise Vexing Prank une fois.\n**Blade des Fae.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 18 (3d8 + 5) dégâts de force.\n**Une farce de vacanciers.** Le haut fae cible une créature il peut voir en lui-même 18 m avec un tour magique. La cible doit faire un DD 18 jet de sauvegarde de Sagesse. Lors d'une sauvegarde ratée, la cible prend 21 (6d6) dégâts psychiques et a l'état effrayé jusqu'au prochain tour du fae. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement.\n**Détection orthographique.** La haute fae lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Amis, Illusion mineure\n- 1/jour chacun : Discours captivant, Aura magique de Nystul",
+ "attacks": [
+  {
+   "name": "Blade des Fae",
+   "bonus": 9,
+   "damage": "3d8+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/b0093e1ac4_monstre-haut-fae-impostor.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Haut Fae Impostor",
+ "saves": "DEX +9, SAG +7",
+ "skills": "Tromperie +14, Représentation +10, Discrétion +13",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "bonusActions": "**L'apparence du butin.** La fée élevée se transforme magiquement en un duplicata d'une créature petite ou moyenne qu'elle peut voir. Tout en se transformant, la haute fae conserve ses statistiques de jeu (autre que sa taille) mais obtient l'accès à suffisamment d'informations générales sur la créature imitée, comme le fond et la personnalité, pour se passer raisonnablement comme la créature. Cette transformation se termine si la fée élevée est réduite à 0 points de vie, utilise à nouveau cette action bonus ou utilise une action bonus pour revenir à sa forme réelle."
+}

@@ -1,0 +1,48 @@
+{
+ "id": "agdon-longscarf",
+ "name": "Agdon Longscarf",
+ "type": "Fée (Harengon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 19,
+ "hp": 36,
+ "hpFormula": "8d8",
+ "vitesse": "10,50 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 20,
+  "CON": 11,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, sylvestre",
+ "traits": "**Évasion.** Si Agdon est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, il ne prend plutôt aucun dégâts s'il réussit sur le jet de sauvegarde et seulement la moitié des dégâts s'il échoue, à condition qu'il ne soit pas neutralisé.\n**Leap debout.** Le long saut d'Agdon est jusqu'à 6 m et son saut haut est jusqu'à 3 m, avec ou sans démarrage.",
+ "actionsText": "**Multiattaques.** Agdon fait deux attaques de Branding Iron ou Dagger.\n**Marquer le fer.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 10 (3d6) dégâts de feu, et la cible est magiquement marquée. Agdon est invisible pour les créatures de cette façon. La marque disparaît après 24 heures, ou elle peut être retirée d'une créature ou d'un objet par tout sort qui met fin à une malédiction.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d4 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Marquer le fer",
+   "bonus": 7,
+   "damage": "3d6",
+   "type": "feu"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 7,
+   "damage": "1d4+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9580d4e2ee_monstre-agdon-longscarf.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus, Bouclier",
+ "saves": "DEX +7, SAG +4",
+ "skills": "Acrobaties +7, Perception +6, Escamotage +7, Discrétion +7",
+ "bonusActions": "**Doigts rapides.** Agdon cible une créature dans 1,50 m de lui qu'il peut voir et fait un test de Dextérité (Escamotage), avec un DD égal à 1 + le score passif de la cible Sagesse (Perception). Lors d'une vérification réussie, Agdon pilonne un objet pesant 0,5 kg ou moins que la cible a en sa possession mais pas à sa portée, sans que la cible remarque le vol.",
+ "reactions": "**Uncanny Dodge.** Agdon réduit de moitié les dégâts qu'il prend lors d'une attaque qui le frappe. Il doit pouvoir voir l'agresseur."
+}

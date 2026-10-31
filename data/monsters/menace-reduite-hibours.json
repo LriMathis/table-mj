@@ -1,0 +1,46 @@
+{
+ "id": "menace-reduite-hibours",
+ "name": "Reduced-Threat Owlbear",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**La vue et l'odeur de Keen.** Le hibou a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue ou de l'odeur.",
+ "actionsText": "**Multiattaques.** Le hibou fait deux attaques : une avec son bec et une avec ses griffes.\n**Bec.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 10 (1d10 + 5) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 7,
+   "damage": "1d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/cdba6bfdab_monstre-menace-reduite-hibours.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Menace réduite hibours",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3"
+}

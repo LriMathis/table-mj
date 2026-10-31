@@ -1,0 +1,38 @@
+{
+ "id": "plesiosaure",
+ "name": "Plésiosaure",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non aligné",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "skills": "Perception +3, Discrétion +4",
+ "senses": "Perception passive 13",
+ "languages": "aucune",
+ "traits": "**Apnée.** Le plésiosaure peut retenir son souffle pendant 1 heure.",
+ "actionsText": "**Morsure.** Corps à corps : +6, allonge 3 m. Touché : 11 (2d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/7c16239d87_monstre-plesiosaure.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 76"
+}

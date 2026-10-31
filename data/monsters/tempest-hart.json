@@ -1,0 +1,49 @@
+{
+ "id": "tempest-hart",
+ "name": "Tempest Hart",
+ "type": "Élémentaire",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 13,
+ "hp": 147,
+ "hpFormula": "14d12+56",
+ "vitesse": "15 m, vol 15 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 17,
+  "CON": 18,
+  "INT": 3,
+  "SAG": 18,
+  "CHA": 14
+ },
+ "senses": "Perception passive 22",
+ "languages": "—",
+ "traits": "**Résistance légendaire (3/jour).** Si le hart échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le hart fait une attaque foudre Antlers et une attaque tonnerre Hooves.\n**foudre Antiers.** Attaque d'arme au corps à corps : +9 au toucher, allonge 4,50 m, une cible. Touché : 16 (2d10 + 5) dégâts de foudre. Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Constitution ou avoir l'état étourdi jusqu'au début du prochain tour du hart.\n**tonnerre Hooves.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts de tonnerre.",
+ "attacks": [
+  {
+   "name": "foudre Antiers",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "foudre"
+  },
+  {
+   "name": "tonnerre Hooves",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "tonnerre"
+  }
+ ],
+ "portrait": "/data/images/52d01e497d_monstre-tempest-hart.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "saves": "DEX +7, SAG +8",
+ "skills": "Perception +12",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, tonnerre",
+ "conditionImmunities": "épuisement",
+ "reactions": "**Croissance enchevêtrée.** Immédiatement après qu'une créature puisse voir en 36 m elle-même la frapper avec un jet d'attaque, le hart réduit de moitié les dégâts. L'attaquant doit immédiatement faire un DD 16 jet de sauvegarde de Force en bobine de haricots autour de lui dans son espace. Sur une sauvegarde ratée, la créature a l'état agrippé (évasion DD 16) et a l'état entravé tant qu'elle est agrippé. Les fèves disparaissent après 1 minute, si le hart a l'état neutralisé, ou quand le hart meurt.\n**Appel foudre.** En réponse à la création d'un jet de sauvegarde, le chasseur appelle un éclair qui cible une créature qu'il peut voir en 36 m de lui-même. La cible doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 19 (3d12) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

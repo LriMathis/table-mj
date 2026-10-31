@@ -1,0 +1,38 @@
+{
+ "id": "ogre-howdah",
+ "name": "Ogre Howdah",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "commun, géant",
+ "traits": "**Commentdah.** L'ogre porte un fort compact sur le dos. Jusqu'à quatre Petites créatures peuvent monter dans le fort sans serrer. Pour faire une attaque de mêlée contre une cible dans 1,50 m de l'ogre, ils doivent utiliser des lances ou des armes avec portée. Les créatures du fort ont 3 contre les attaques et les effets de l'extérieur. Si l'ogre meurt, les créatures du fort sont placées dans des espaces inoccupés à l'intérieur de 1,50 m de l'ogre.",
+ "actionsText": "**Mace.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d35af304c6_monstre-ogre-howdah.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Breastplate, Bouclier"
+}

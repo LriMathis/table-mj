@@ -1,0 +1,48 @@
+{
+ "id": "merregon",
+ "name": "Merregon",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "comprend Infernal mais ne peut pas parler, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir du merregon.\n**Résistance magique.** Le merregon a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le merregon fait trois attaques Halberd.\n**Halbère.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 9 (1d10 + 4) dégâts tranchants.\n**Grosse arbalète.** Attaque d'arme à distance : +4 au toucher, portée 30/120 m., une cible. Touché : 7 (1d10 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Halbère",
+   "bonus": 6,
+   "damage": "1d10+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/683925b71f_monstre-merregon.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "effrayé, empoisonné",
+ "reactions": "**Garde du corps fidèle.** Quand un autre Fiend dans 1,50 m du merregon est frappé par un jet d'attaque, le merregon se fait frapper à la place."
+}

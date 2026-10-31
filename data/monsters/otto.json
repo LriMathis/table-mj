@@ -1,0 +1,38 @@
+{
+ "id": "otto",
+ "name": "Otto",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 104,
+ "hpFormula": "16d10+16",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 20,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "draconique, sylvestre",
+ "traits": "**Les couleurs de l'âge.** Les écailles d'un dragon de féerie changent de teinte à mesure qu'il vieillit, en se déplaçant à travers toutes les couleurs de l'arc-en-ciel. Tous les dragons de la féerie ont inné caractéristique d'incantation, gagnant de nouveaux sorts à mesure qu'ils mûrissent.\nRouge—5 ans ou moins\nOrange—6–10 ans\nJaune—11-20 ans\nVert—21-30 ans\nBleu—31–40 ans\nIndigo—41-50 ans\nViolet—51 ans ou plus\nUn vert ou plus vieux faie de la CR de dragon augmente à 2.\n**Invisibilité supérieure.** Comme un action bonus, le dragon peut par magie tourner invisible jusqu'à ce que son concentration se termine (comme si concentrating sur un sort). Tout équipement que le dragon porte ou porte est invisible.\n**Télépathie limitée.** À l'aide de la télépathie, le dragon peut par magie communiquer avec n'importe quel autre dragon de féerie au sein de 18 m de celui-ci.\n**Résistance magique.** Le dragon de féerie a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** L'innée du dragon caractéristique d'incantation est Charisme (spell save DD 13). Il peut innéalement lancer un certain nombre de sorts, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Couleurs dansantes, Lumières dansantes, Terrain hallucinatoire, Main de mage, Image majeure, Illusion mineure, Image miroir, Métamorphose, Suggestion",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 2d6 + 4 dégâts perforants.\n**Euphorie Respiration (Recharge 5-6).** Le dragon exhale une bouffée d'euphorie à une créature à l'intérieur de 1,50 m. La cible doit réussir sur un DD 11 jet de sauvegarde de Sagesse, ou pendant 1 minute, la cible ne peut pas prendre de réactions et doit rouler un d6 au début de chacun de ses tours pour déterminer son comportement pendant le tour:\n1–4. La cible ne prend aucune action ou action bonus et utilise tout son mouvement pour se déplacer dans une direction aléatoire.\n5–6. La cible ne bouge pas, et la seule chose qu'elle peut faire à son tour est de faire un DD 11 jet de sauvegarde de Sagesse, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5e4aeb3679_monstre-otto.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "skills": "Arcanes +4, Perception +3, Discrétion +7"
+}

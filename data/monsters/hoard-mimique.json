@@ -1,0 +1,48 @@
+{
+ "id": "hoard-mimique",
+ "name": "Hoard Mimic",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 123,
+ "hpFormula": "13d12+39",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, draconique, télépathie 36 m",
+ "traits": "**Fausse apparence (Formulaire de réserve seulement).** Si l'imitation est immobile au début du combat, elle a un avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte imitatif, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que l'imitateur est animé.",
+ "actionsText": "**Multiattaques.** L'imite fait une attaque Bite et deux attaques de Pseudopod.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 16 (2d10 + 5) dégâts perforants plus 7 (2d6) dégâts d'acide.\n**Pseudopod.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants, et l'imit adhère à la cible. Une créature a adhéré à l'imitation est également agrippé par elle (évasion DD 16). Jusqu'à ce que ce grappin se termine, la cible est entravé. tests de caractéristique fait pour échapper à ce grappin ont désavantage.\n**Mist caustique (Recharge 5-6).** L'imitateur pulvérise une fine brume d'acide dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la créature prend 27 (6d8) dégâts d'acide et est aveuglé jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas aveuglé.\n**Changeur de forme.** L'imite se transforme en un archet ou en une forme amorphe. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Pseudopod",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b00e6113f6_monstre-hoard-mimique.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Hoard mimique",
+ "caNote": "armure naturelle",
+ "saves": "CON +6, SAG +6",
+ "skills": "Persuasion +3, Discrétion +6",
+ "conditionImmunities": "à terre"
+}

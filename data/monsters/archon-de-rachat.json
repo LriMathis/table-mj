@@ -1,0 +1,49 @@
+{
+ "id": "archon-de-rachat",
+ "name": "Archon of Redemption",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m, vol 27 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 20,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Armes anges.** Les attaques d'armes de l'archon sont magiques. Lorsque l'archen frappe avec n'importe quelle arme, l'arme offre un 3d8 dégâts radiants supplémentaire (inclus dans l'attaque).\n**Esprit axiomatique.** L'archon ne peut être contraint d'agir d'une manière contraire à sa nature ou à sa compréhension de la justice.\n**Résistance magique.** L'archon a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Un être.** Bien qu'il apparaisse comme une créature humanoïde sur une montagne, un arcon est un être unique. Le \"rideau\" ne peut pas être démonté, et aucun autre moyen ne peut séparer les deux parties de l'archon étant à court de sa mort.\n**Découpe intérieure.** caractéristique d'incantation inné de l'archon est Charisme (spell save DD 17). L'archon peut innéement lancer les sorts suivants, ne nécessitant que des composants verbaux:\n- À volonté : Détection du mal et du bien\n- 1/jour chacun : Vague destructrice, Quête",
+ "actionsText": "**Multiattaques.** L'archen fait deux attaques: une avec son épée et une avec ses griffes.\n**Épée.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants plus 13 (3d8) dégâts radiants.\n**Griffes.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants plus 13 (3d8) dégâts radiants.",
+ "attacks": [
+  {
+   "name": "Épée",
+   "bonus": 8,
+   "damage": "1d8+4",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/5a8afa22ad_monstre-archon-de-rachat.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "aka": "Archon de rachat",
+ "caNote": "armure naturelle",
+ "saves": "SAG +9, CHA +9",
+ "skills": "Perspicacité +9, Perception +9",
+ "resistances": "radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé"
+}

@@ -1,0 +1,49 @@
+{
+ "id": "hound-archon",
+ "name": "Hound Archon",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "tous",
+ "traits": "**Aura de la Menace.** Tant que l'archen n'a pas l'état neutralisé, chaque créature du choix de l'archen qui commence son tour dans 6 m de l'archen doit faire un DD 12 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature a l'état effrayé jusqu'au début de son prochain tour. Sur un salut réussi, la créature est immunisée contre l'aura de la Menace de tous les arqués pendant 24 heures.",
+ "actionsText": "**Multiattaques.** L'archon fait deux attaques Bite. Il peut remplacer une des attaques par une attaque de la lame brillante.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 14 jet de sauvegarde de Force ou avoir l'état à terre.\n**Lame brillante (forme réelle seulement).** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts radiants.\n**Téléportation.** Les téléports arqués, ainsi que tout équipement qu'ils portent ou transportent, se trouvent dans un espace inoccupé qu'ils peuvent voir à l'intérieur de 36 m.\n**Détection orthographique.** L'archon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation :\n- À volonté : Détection du mal et du bien\n- 1/jour chacun : Aide, Flamme éternelle",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Lame brillante (forme réelle seulement)",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/935ef20da7_monstre-hound-archon.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +2, SAG +4",
+ "skills": "Perspicacité +4, Perception +6, Discrétion +3",
+ "immunities": "foudre",
+ "conditionImmunities": "épuisement, paralysé",
+ "bonusActions": "**Modifier la forme.** L'archon se transforme magiquement en un chien ou un loup moyen ou grand tout en conservant ses statistiques de jeu (autre que sa taille et en perdant son attaque de la lame Shining). L'arceau revient à sa forme réelle s'il est réduit à 0 points de vie ou s'il utilise un action bonus pour le faire."
+}

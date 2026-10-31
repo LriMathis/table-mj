@@ -1,6 +1,7 @@
 """Entry point: python3 main.py [--lan] [--remote] [--port 8765] [--no-browser]."""
 import argparse
 import os
+import secrets
 import socket
 import sys
 import threading
@@ -47,6 +48,23 @@ def already_running(port):
         return False
 
 
+def gm_key():
+    """Secret of the GM link for other computers, kept in data/gm-key.txt so the link survives restarts."""
+    path = os.path.join(config.PATHS["data"], "gm-key.txt")
+    try:
+        with open(path, encoding="utf-8") as f:
+            key = f.read().strip()
+        if len(key) >= 20:
+            return key
+    except OSError:
+        pass
+    key = secrets.token_urlsafe(24)
+    os.makedirs(config.PATHS["data"], exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(key)
+    return key
+
+
 def prepare_data():
     """First run: creates a campaign and imports the character sheets."""
     if storage.campaign_ids():
@@ -78,6 +96,7 @@ def main():
     ap.add_argument("--port", type=int, default=8765)
     ap.add_argument("--lan", action="store_true", help="open the player view to other devices on the local network")
     ap.add_argument("--remote", action="store_true", help="remote play: public HTTPS address for players (tunnel)")
+    ap.add_argument("--gm-lan", action="store_true", help="GM interface also on another computer of the local network (secret link)")
     ap.add_argument("--data", default=config.PATHS["data"], help="data folder (default: ./data)")
     ap.add_argument("--sheets", default=config.PATHS["sheets"], help="folder of text character sheets to import (default: ./sheets)")
     ap.add_argument("--no-browser", action="store_true", help="do not open the browser")
@@ -88,7 +107,9 @@ def main():
     config.PATHS["sheets"] = os.path.abspath(a.sheets)
     os.makedirs(config.PATHS["sheets"], exist_ok=True)
 
-    host = "0.0.0.0" if a.lan else "127.0.0.1"
+    if a.gm_lan:
+        config.GM_KEY = gm_key()
+    host = "0.0.0.0" if a.lan or a.gm_lan else "127.0.0.1"
     try:
         srv = ThreadingHTTPServer((host, a.port), Handler)
     except OSError:
@@ -128,6 +149,10 @@ def main():
         print(f"   (if it does not respond: sudo ufw allow {port}/tcp)")
     elif not a.remote:
         print(f"Local player view: {url}player   (use start-lan.sh or start-remote.sh for other devices)")
+    if a.gm_lan:
+        print("GM interface on another computer (same network) — open this link once, keep it private:")
+        for ip in lan_ips() or ["<this-computer-ip>"]:
+            print(f"    http://{ip}:{port}/?gm={config.GM_KEY}")
     if a.remote:
         print("Remote play: opening the tunnel… the player address will appear here (and in the Map tab).")
     print(f"Data: {config.PATHS['data']}  —  Ctrl+C to quit")

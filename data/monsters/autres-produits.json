@@ -1,0 +1,46 @@
+{
+ "id": "autres-produits",
+ "name": "Ooze-Folk",
+ "type": "Vase",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 10,
+ "hp": 19,
+ "hpFormula": "2d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 3,
+  "CON": 20,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Transparent.** Même lorsqu'un ooze-folk est en vue, il faut un DD 12 test de Sagesse (Perception) pour repérer un ooze-folk qui n'a ni déplacé ni attaqué. Une créature qui tente d'entrer dans l'espace du peuple ooze tout en ignorant le peuple ooze est surpris par le peuple ooze.\n**Ossements fragiles.** Pour chacun des 5 dégâts qu'il faut, la vitesse de marche de l'ooze-folk est réduite par 1,50 m.",
+ "actionsText": "**Multiattaques.** Le folk ooze fait une attaque de verre et un pseudopod.\n**Épée longue en verre.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 6 (1d8 + 2) dégâts tranchants. Si un 1 est roulé sur un jet d'attaque avec une épée longue en verre, il se brise et ne peut plus être utilisé.\n**Pseudopod.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d6 + 2) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Épée longue en verre",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Pseudopod",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/15505f630c_monstre-autres-produits.webp",
+ "notes": "",
+ "source": "Lost Laboratory of Kwalish (5e.tools, traduction automatique)",
+ "aka": "Autres produits",
+ "caNote": "armure naturelle",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, à terre"
+}

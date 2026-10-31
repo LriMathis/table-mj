@@ -1,0 +1,53 @@
+{
+ "id": "sahuagin-plongeur-profond",
+ "name": "Sahuagin Deep Diver",
+ "type": "Humanoïde (sahuagine)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 91,
+ "hpFormula": "14d8+28",
+ "vitesse": "9 m, nage 12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "sahuagin",
+ "traits": "**Frénésie sanguine.** Le plongeur profond a avantage sur melee jets d'attaque contre toute créature qui n'a pas toute sa points de vie.\n**Brine Lurker.** Le plongeur profond a un avantage sur tests de Dextérité (Discrétion) réalisé en plongée dans l'eau.\n**Amphibie limitée.** Le plongeur profond peut respirer de l'air et de l'eau, mais il doit être submergé au moins une fois toutes les 4 heures pour éviter l'étouffement.\n**Leur.** Le plongeur profond peut faire s'éclairer son attrait ou noircir à volonté. Pendant que le luth est allumé, le plongeur profond apporte une lumière lumineuse dans un rayon 9 m centré sur lui-même et une lumière dim pour un 6 m supplémentaire.\n**Télépathie des requins.** Le plongeur profond peut par magie commander n'importe quel requin à l'intérieur de 36 m, en utilisant une télépathie limitée.",
+ "actionsText": "**Multiattaques.** Le plongeur profond fait deux attaques avec son glaive, ou une attaque avec sa morsure et deux avec ses griffes.\n**Glaive.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 13 (2d10 + 2) dégâts tranchants.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d10 + 2) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants.\n**Lumière de Sekolah.** Le plongeur profond pousse la lumière magique de son attrait. Toute créature au sein de 9 m du plongeur profond qui peut voir la lumière doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou être charmé jusqu'à la fin de son prochain tour. Une créature charmé de cette façon est neutralisé alors qu'elle regarde la lumière.",
+ "attacks": [
+  {
+   "name": "Glaive",
+   "bonus": 4,
+   "damage": "2d10+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/cd207bd4eb_monstre-sahuagin-plongeur-profond.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Sahuagin plongeur profond",
+ "caNote": "armure naturelle",
+ "saves": "CON +4, SAG +3",
+ "skills": "Perception +5, Discrétion +5"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "nuee-d-insectes",
+ "name": "Nuée d'insectes",
+ "type": "Nuée (bêtes de taille TP)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 19,
+ "hpFormula": "3d8+6",
+ "vitesse": "6 m, vol 6 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 1
+ },
+ "resistances": "contondants, perforants, tranchants",
+ "conditionImmunities": "à terre, agrippé, charmé, effrayé, entravé, étourdi, paralysé, pétrifié",
+ "senses": "Vision aveugle 9 m, Perception passive 8",
+ "languages": "aucune",
+ "traits": "**Nuée.** La nuée peut occuper l’espace d’une autre créature et réciproquement, et elle peut se déplacer par toute ouverture assez large pour un insecte de taille TP. La nuée ne peut ni récupérer de points de vie ni recevoir de points de vie temporaires.\n**Pattes d’araignée.** Si la nuée dispose d’une Vitesse d’escalade, la nuée peut parcourir les parois les plus difficiles à escalader, y compris les plafonds, sans passer par un test de caractéristique.",
+ "actionsText": "**Morsures.** Corps à corps : +3, allonge 1,50 m. Touché : 6 (2d4 + 1) dégâts de poison, ou 3 (1d4 + 1) dégâts de poison si la nuée est En péril.",
+ "attacks": [
+  {
+   "name": "Morsures",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "poison (+1d4+1 poison sous condition)"
+  }
+ ],
+ "portrait": "/data/images/908d3d56a6_monstre-nuee-d-insectes.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

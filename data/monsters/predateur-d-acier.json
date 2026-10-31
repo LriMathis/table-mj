@@ -1,0 +1,49 @@
+{
+ "id": "predateur-d-acier",
+ "name": "Steel Predator",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 20,
+ "hp": 207,
+ "hpFormula": "18d10+108",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 17,
+  "CON": 22,
+  "INT": 4,
+  "SAG": 14,
+  "CHA": 6
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 18 m, Perception passive 17",
+ "languages": "comprend Modron et la langue de son propriétaire mais ne peut pas parler",
+ "traits": "**Résistance magique.** Le prédateur d'acier a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** Le prédateur d'acier n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le prédateur d'acier fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 18 (2d10 + 7) dégâts de foudre.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d8 + 7) dégâts de force.\n**Éblouissante Roar (Recharge 5-6).** Le prédateur d'acier émet un rugissement dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 19 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 33 (6d10) dégâts de tonnerre, lâche tout ce qu'elle tient, et est étourdi pendant 1 minute. La créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas étourdi.\n**Détection orthographique.** Le prédateur d'acier jette l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation :\n- 3/jour chacun : Porte dimensionnelle (autoseulement), Changement de plan (autoseulement)",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d10+7",
+   "type": "foudre"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "2d8+7",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/0a96cfcdef_monstre-predateur-d-acier.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Prédateur d'acier",
+ "caNote": "armure naturelle",
+ "skills": "Perception +7, Discrétion +8, Survie +7",
+ "resistances": "froid, foudre, nécrotique, tonnerre",
+ "immunities": "poison, psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, étourdi"
+}

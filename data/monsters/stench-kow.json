@@ -1,0 +1,38 @@
+{
+ "id": "stench-kow",
+ "name": "Stench Kow",
+ "type": "Fiélon (bovins)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 10,
+ "hp": 15,
+ "hpFormula": "2d10+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Poignée.** Toute créature autre qu'un kow puant qui commence son tour à l'intérieur de 1,50 m du kow puant doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné jusqu'au prochain tour de la créature. Sur un jet de sauvegarde réussi, la créature est immunisée contre le stench de tous les stench kows pendant 1 heure.",
+ "actionsText": "**Gore.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants. Si le kow puant a déplacé au moins 6 m droit vers la cible immédiatement avant le coup, la cible prend un 7 (2d6) dégâts perforants supplémentaire.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e5d8ae1bc2_monstre-stench-kow.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "resistances": "froid, feu, poison"
+}

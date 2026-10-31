@@ -1,0 +1,47 @@
+{
+ "id": "amidor-le-dandelion",
+ "name": "Amidor the Dandelion",
+ "type": "Plante",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 28,
+ "hpFormula": "8d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, sylvestre",
+ "traits": "**Parlez avec les bêtes et les plantes.** Amidor peut communiquer avec les Bêtes et les Plantes comme s'il partageait une langue avec eux.",
+ "actionsText": "**Violeur.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.\n**Sling de semences.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Violeur",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Sling de semences",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/8ab7de87f3_monstre-amidor-le-dandelion.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Amidor le Dandelion",
+ "saves": "FOR +0, DEX +4, CON +2, SAG +3",
+ "skills": "Perception +3, Persuasion +5, Discrétion +4",
+ "reactions": "**Parry.** Amidor ajoute 2 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, Amidor doit voir l'agresseur et manier une arme de mêlée."
+}

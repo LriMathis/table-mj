@@ -1,0 +1,46 @@
+{
+ "id": "tortle-druide",
+ "name": "Tortle Druid",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 17,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 15,
+  "CHA": 12
+ },
+ "senses": "Perception passive 12",
+ "languages": "aquatique, commun",
+ "traits": "**Maintenez votre souffle.** La torche peut retenir son souffle pendant 1 heure.",
+ "actionsText": "**Multiattaques.** La torche fait quatre attaques de la Griffe ou deux attaques de la Nature.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.\n**La colère de la nature.** Attaque de sort à distance : +4 au toucher, portée 27 m, une cible. Touché : 9 (2d6 + 2) dégâts d'un type choisi par la torche: froid, feu, foudre, ou tonnerre.\n**Défense de la coquille.** La torche se retire dans sa coquille. Jusqu'à ce qu'il émerge, il gagne un bonus de +4 à CA et a un avantage sur Force et jet de sauvegarde de Constitution. Alors que dans sa coque, la torche est à terre, sa vitesse est 0 et ne peut pas augmenter, il a un désavantage sur jet de sauvegarde de Dextérité, il ne peut pas prendre de réactions, et la seule action qu'il peut prendre est un action bonus à émerger.\n**Détection orthographique.** La torche lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Druidisme, Assistance\n- 2/jour chacun : Soins, Immobilisation de personne, Communication avec les animaux, Vague tonnante",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "La colère de la nature",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/d5c4121323_monstre-tortle-druide.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Tortle druide",
+ "caNote": "armure naturelle",
+ "skills": "Dressage +4, Nature +2, Survie +4"
+}

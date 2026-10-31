@@ -1,0 +1,38 @@
+{
+ "id": "grenouille",
+ "name": "Grenouille",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 1,
+ "hpFormula": "1d4–1",
+ "vitesse": "6 m, nage 6 m",
+ "stats": {
+  "FOR": 1,
+  "DEX": 13,
+  "CON": 8,
+  "INT": 1,
+  "SAG": 8,
+  "CHA": 3
+ },
+ "skills": "Discrétion +3, Perception +1",
+ "senses": "Vision dans le noir 9 m, Perception passive 11",
+ "languages": "aucune",
+ "traits": "**Amphibie.** La grenouille peut respirer sous l’eau comme à l’air libre.\n**Saut sans élan.** Les sauts en longueur de la grenouille peuvent atteindre 3 m et ses sauts en hauteur 1,50 m, avec ou sans élan.",
+ "actionsText": "**Morsure.** Corps à corps : +3, allonge 1,50 m. Touché : 1 dégât perforant.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 3,
+   "damage": "1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6ea59b865c_monstre-grenouille.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

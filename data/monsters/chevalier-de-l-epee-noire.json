@@ -1,0 +1,40 @@
+{
+ "id": "chevalier-de-l-epee-noire",
+ "name": "Knight of the Black Sword",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, infernal",
+ "traits": "**Dévotion sombre.** Le fanatique a un avantage sur jet de sauvegarde contre charmé ou effrayé.\n**C'est la fin de l'histoire.** Quand le culte meurt, son cadavre gèle pendant 9 jours, pendant lesquels il ne peut pas être décongelé, blessé par le feu, animé, ou ressuscité d'entre les morts.\n**Détection orthographique.** Le fanatique est un spellcaster de niveau 4. Son caractéristique d'incantation est Sagesse (save spell DD 11, +3 au toucher avec attaques de sort). Le fanatique a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Lumière, Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Injonction, Blessure, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Arme spirituelle",
+ "actionsText": "**Multiattaques.** Le fanatique fait deux attaques à la mêlée.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une créature. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a14064d705_monstre-chevalier-de-l-epee-noire.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Chevalier de l'épée noire",
+ "caNote": "Armure en cuir",
+ "skills": "Tromperie +4, Persuasion +4, Religion +2"
+}

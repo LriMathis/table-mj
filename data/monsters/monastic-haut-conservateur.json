@@ -1,0 +1,43 @@
+{
+ "id": "monastic-haut-conservateur",
+ "name": "Monastic High Curator",
+ "type": "Humanoïde (moine, magicien)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 19,
+ "hp": 130,
+ "hpFormula": "20d8+40",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 22,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 20",
+ "languages": "Commun plus quatre autres langues",
+ "traits": "**Défense non armée.** Alors que le haut conservateur ne porte pas d'armure et n'a pas de bouclier, son CA inclut son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Le haut conservateur fait trois attaques force Strike et utilise Brain Burn (si disponible).\n**Grève de force.** Attaque de sort au corps à corps ou à distance : +10 au toucher, allonge 1,50 m ou portée 3 m, une cible. Touché : 17 (2d10 + 6) dégâts de force.\n**Brûlure cérébrale (Recharge 4-6).** Le haut conservateur cible jusqu'à deux créatures qu'il peut voir en lui-même. Chaque cible doit faire un DD 18 jet de sauvegarde de Constitution. Sur un jet de sauvegarde raté, la cible prend 28 (8d6) dégâts psychiques et ne peut pas prendre de réactions avant le début de son prochain tour. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts et ne subit aucun autre effet.\n**Détection orthographique.** Le haut conservateur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection de la magie\n- 2/jour chacun : Détection des pensées, Identification (en tant qu'action), Scrutation (en tant qu'action)",
+ "attacks": [
+  {
+   "name": "Grève de force",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/f744caf9e7_monstre-monastic-haut-conservateur.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Monastic haut conservateur",
+ "caNote": "Défense non armée",
+ "saves": "DEX +7, SAG +10",
+ "skills": "Arcanes +8, Histoire +8, Investigation +8, Perception +10",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé"
+}

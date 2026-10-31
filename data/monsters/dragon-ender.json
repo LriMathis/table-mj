@@ -1,0 +1,44 @@
+{
+ "id": "dragon-ender",
+ "name": "Ender Dragon",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 22,
+ "hp": 350,
+ "hpFormula": "20d20+140",
+ "vitesse": "9 m, vol 36 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 25,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 72 m, Perception passive 24",
+ "languages": "draconique",
+ "traits": "**Oeufs de dragon.** Lorsque le Dragon d'Ender tombe à 0 points de vie, il rayonne des faisceaux de lumière pourpre et disparaît, laissant derrière lui un œuf de dragon noir-jet inerte d'une valeur de 5 000 gp.\n**Résistance légendaire (4/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque Bite et utilise Beating Wings.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher ; allonge 4,50 m, une cible. Touché : 18 (3d6 + 8) dégâts perforants plus 7 (2d6) dégâts nécrotiques.\n**Battre des ailes.** Le dragon bat ses grandes ailes. Chaque créature au sein de 4,50 m du dragon doit réussir sur un DD 21 jet de sauvegarde de Dextérité ou prendre 10 (1d4 + 8) dégâts contondants, être poussé 3 m loin du dragon, et avoir l'état à terre.\n**Respiration nocive (Recharge 5-6).** Le dragon exhale du gaz putride dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 21 jet de sauvegarde de Constitution, en prenant 52 (15d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Le dragon choisit alors un point qu'il peut voir où le cône fait contact avec le sol. Ce point devient le centre d'un cylindre 3 m -high, 3 m -radius de gaz persistant qui disparaît au début du prochain tour du dragon. Toute créature qui commence son tour dans le cylindre prend 10 (3d6) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "3d6+8",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/709ad9d499_monstre-dragon-ender.webp",
+ "notes": "",
+ "source": "MCV3MC (5e.tools, traduction automatique)",
+ "aka": "Dragon Ender",
+ "caNote": "armure naturelle",
+ "saves": "CON +13, INT +6, SAG +8",
+ "skills": "Perception +14, Discrétion +8",
+ "resistances": "feu",
+ "immunities": "nécrotique",
+ "conditionImmunities": "charmé, effrayé"
+}

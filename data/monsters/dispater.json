@@ -1,0 +1,50 @@
+{
+ "id": "dispater",
+ "name": "Dispater",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "27",
+ "xp": 105000,
+ "ca": 21,
+ "hp": 412,
+ "hpFormula": "33d10+231",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 17,
+  "CON": 25,
+  "INT": 25,
+  "SAG": 22,
+  "CHA": 24
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 24",
+ "languages": "céleste, commun, draconique, infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas la vision sombre de Dispater.\n**Peur Aura.** Quand une créature commence son tour dans 36 m de Dispater, elle doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'à ce qu'elle quitte l'aura. Une créature qui réussit sur le jet de sauvegarde est immunisée contre cet effet pendant 1 heure.\n**Régénération fidendoise.** Dispater retrouve 20 points de vie au début de son tour. S'il prend dégâts radiants ce trait ne fonctionne pas au début de son prochain tour. Dispater meurt seulement s'il commence son tour avec 0 points de vie et est incapable de se régénérer.\n**Résistance légendaire (3/jour).** Si Dispater échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Dispater a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Rouille métal.** Toute arme non magique ou munitions en métal qui frappe des corrodes de Dispater. Après le coup, l'arme ou les munitions sont détruites.",
+ "actionsText": "**Multiattaques.** Dispater fait quatre attaques en utilisant sa tour de fer, colonne de fer, ou une combinaison des deux. Il peut remplacer une des attaques par Superheat Metal (si disponible).\n**Tour en fer brut.** Attaque d'arme au corps à corps : +20 au toucher, allonge 3 m, une cible. Touché : 21 (2d8 + 12) dégâts contondants plus 7 (2d6) dégâts de feu. Dispater peut remplacer le dégâts contondants par des dégâts d'un type auquel la cible est vulnérable.\n**Colonne de fer.** Attaque de sort à distance : +15 au toucher, portée 18 m, une cible. Touché : 21 (2d8 + 12) dégâts contondants plus 7 (2d6) dégâts de feu. Dispater peut remplacer le dégâts contondants par des dégâts d'un type auquel la cible est vulnérable.\n**Superchauffe métal (Recharge 4-6).** Dispater cible un objet métallique qu'il peut voir au sein de 27 m de lui. Le métal brille à la chaleur blanche, brûlant tout ce qui le touche. Si l'objet était détenu par une créature, la créature doit réussir sur un DD 23 jet de sauvegarde de Dextérité pour laisser tomber l'objet ou prendre 45 (10d8) dégâts de feu. Si l'objet est attaché à une créature, ou qu'ils ne peuvent pas le laisser tomber, ils échouent automatiquement le save. L'objet retourne à la température ambiante à la fin du tour de Dispater.\n**Vaporisateur à ongles (2/jour).** Le dispatteur conjure une tempête d'ongles de fer et les lance vers l'avant dans une ligne large de 27 m -long. Toutes les créatures dans la ligne doivent faire un DD 23 jet de sauvegarde de Dextérité, en prenant 40 (16d4) dégâts perforants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Les ongles lancés à partir de cette capacité s'enfoncent dans des surfaces douces ou tombent au sol après la fin de l'attaque.",
+ "attacks": [
+  {
+   "name": "Tour en fer brut",
+   "bonus": 20,
+   "damage": "2d8+12",
+   "type": "contondant + feu"
+  },
+  {
+   "name": "Colonne de fer",
+   "bonus": 15,
+   "damage": "2d8+12",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/ad8d87992e_monstre-dispater.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle, Tour en fer forgé",
+ "saves": "FOR +17, DEX +11, CON +15, INT +15",
+ "skills": "Arcanes +23, Perspicacité +22, Intimidation +15, Perception +14, Persuasion +15, Discrétion +11",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dispater peut entreprendre l'une des actions ci-après.\n**Personnel.** Dispater fait une attaque de la Tour de l'Iron.\n**La chair au fer (coûts 2 actions).** Attaque de sort au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 40 (6d10 + 7) dégâts de force, et la cible doit faire un DD 23 jet de sauvegarde de Constitution. Sur un sauvetage raté, la chair de la cible commence à durcir, et la vitesse de mouvement de la créature est réduite de moitié pendant 1 minute. Si la créature est à nouveau blessée par Flesh à Fer, alors qu'elle est encore en partie en fer, le reste de la créature se tourne aussi vers le fer, les tuant.\n**Appel d'offres (coûts 3 actions).** Le dispatteur convoque un Érinye allié dans un espace inoccupé qu'il peut voir."
+}

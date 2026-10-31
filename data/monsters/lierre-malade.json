@@ -1,0 +1,40 @@
+{
+ "id": "lierre-malade",
+ "name": "Lierre malade",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "caNote": "armure naturelle",
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 8,
+  "CON": 14,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "skills": "Discrétion +1",
+ "conditionImmunities": "assourdi, aveuglé",
+ "senses": "vision aveugle 18 m (aveugle au-delà de cette distance), Perception passive 10",
+ "languages": "commun",
+ "traits": "**Faux-semblant.** Aussi longtemps que le lierre malade reste immobile, il est impossible de le distinguer d'un tapis naturel de lierre.",
+ "actionsText": "**Comprimer.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 3 m, une cible. *Touché :* 9 (2d6+2) dégâts contondants, et une créature de Grande taille ou plus petite est empoignée (évasion DD 12). Jusqu'au terme de l'empoignade, la cible est entravée et le lierre malade ne peut pas comprimer une autre cible.\n**Plantes agrippeuses (recharge 5-6).** Des racines et des tiges rampantes poussent dans un rayon de 4,50 mètres autour du lierre malade et se flétrissent au bout d'une minute. Pendant cette minute, la zone est un terrain difficile pour toutes les créatures, à l'exception des plantes. De plus, les créatures choisies par le lierre et présentes dans la zone quand les plantes apparaissent doivent réussir un jet de sauvegarde de Force DD 12 pour ne pas être entravées. Une créature peut utiliser son action pour effectuer un test de Force DD 12 et parvient à se libérer de l'étreinte des plantes ou à libérer une autre créature enchevêtrée à portée de son allonge en cas de réussite.",
+ "portrait": "/data/images/895aa33c4c_monstre-lierre-malade.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 302 · image : Manuel des monstres p. 301",
+ "attacks": [
+  {
+   "name": "Comprimer",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "contondant"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "kaarghaz",
+ "name": "Kaarghaz",
+ "type": "Humanoïde (Troglodyte)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "draconique, Troglodyte",
+ "traits": "**Peau de caméléon.** Le troglodyte a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher.\n**Poignée.** Toute créature autre qu'un troglodyte qui commence son tour à l'intérieur de 1,50 m du troglodyte doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné jusqu'au prochain tour de la créature. Sur un jet de sauvegarde réussi, la créature est immunisée contre la puanteur de tous les troglodytes pendant 1 heure.\n**Sensibilité à la lumière du soleil.** En plein soleil, le troglodyte présente un désavantage sur jets d'attaque ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Détection orthographique.** Kaarghaz est un spellcaster de niveau 4. Son caractéristique d'incantation est Charisme (save spell DD 12, +4 au toucher avec attaques de sort). Il connaît les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Trait de feu, Main de mage, Bouffée de poison, Prestidigitation, Rayon de givre\n- Niveau 1 (6 emplacements) : Mains brûlantes, Bouclier, Sommeil\n- Niveau 2 (3 emplacements) : Invisibilité, Rayon ardent",
+ "actionsText": "**Multiattaques.** Le troglodyte fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/9aef702e3d_monstre-kaarghaz.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +2"
+}

@@ -1,0 +1,56 @@
+{
+ "id": "goliath-ours-garou",
+ "name": "Goliath Werebear",
+ "type": "Humanoïde (goliath, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 10,
+ "hp": 161,
+ "hpFormula": "19d8+76",
+ "vitesse": "9 m (12 m nage 9 m en ours ou en hybride)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Perception passive 18",
+ "languages": "commun, Géant (ne peut pas parler en forme d'ours)",
+ "traits": "**Sensation de Keen.** Le wasbear présente un avantage sur tests de Sagesse (Perception) qui se fie à l'odeur.\n**Né en montagne.** L'ours-garou est acclimé à haute altitude, y compris des altitudes au-dessus de 6000 m.\n**Construction puissante (forme humaine seulement).** L'ours-garou compte comme une taille plus grande lorsqu'il détermine sa capacité de charge et le poids qu'il peut pousser, traîner ou soulever.\n**Changeur de forme.** Le wasbear peut utiliser son action pour se polymorphiser en un hybride grand ours-humanoïde ou en un grand ours polaire, ou revenir dans sa forme goliath. Ses statistiques, autres que sa taille et CA, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.",
+ "actionsText": "**Multiattaques.** L'ours-garou fait deux attaques à la mêlée.\n**Bite (forme épineuse ou hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 16 (2d10 + 5) dégâts perforants. Si la cible est un humanoïde, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie de werebear, comme décrit dans le Monster Manual.\n**Griffe (forme épineuse ou hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts tranchants.\n**Greataxe (forme humaine ou hybride seulement).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (1d12 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bite (forme épineuse ou hybride seulement)",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe (forme épineuse ou hybride seulement)",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Greataxe (forme humaine ou hybride seulement)",
+   "bonus": 8,
+   "damage": "1d12+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d8bb559139_monstre-goliath-ours-garou.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Goliath ours-garou",
+ "caNote": "sous forme humanoïde",
+ "skills": "Athlétisme +8, Perception +8, Survie +5",
+ "vulnerabilities": "feu",
+ "resistances": "froid",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "reactions": "**Endurance de Stone (recharge après un repos court ou long).** Lorsque l'ours-garou prend des dégâts, il réduit les dégâts pris de 10 (1d12 + 4)."
+}

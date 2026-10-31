@@ -1,0 +1,38 @@
+{
+ "id": "eblis",
+ "name": "Eblis",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 26,
+ "hpFormula": "4d10+4",
+ "vitesse": "9 m, vol 12 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 14",
+ "languages": "aérien, commun",
+ "traits": "**Découpe intérieure.** Le caractéristique d'incantation inné de l'eblis est Intelligence (spell save DD 11). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Flou, Motif hypnotique, Illusion mineure",
+ "actionsText": "**Multiattaques.** L'Eblis attaque deux fois avec son bec.\n**Bec.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/63a4b60e90_monstre-eblis.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "skills": "Perception +4"
+}

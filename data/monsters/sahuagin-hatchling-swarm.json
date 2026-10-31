@@ -1,0 +1,39 @@
+{
+ "id": "sahuagin-hatchling-swarm",
+ "name": "Sahuagin Hatchling Swarm",
+ "type": "Nuée de taille très petite (Bête)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "8d10+8",
+ "vitesse": "0 m, nage 12 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Frénésie sanguine.** L'essaim a avantage sur melee jets d'attaque contre toute créature qui n'a pas tout son points de vie.\n**Seething.** Une fois qu'il entre au combat, l'essaim se traite lui-même 10 dégâts tranchants à la fin de son tour s'il n'a pas fait une attaque sur ce tour. Ce dégâts ignore la résistance, et il ne peut pas réduire l'essaim à 0 points de vie.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et il peut se déplacer à travers n'importe quelle ouverture assez grande pour une créature minuscule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.\n**Respiration d'eau.** L'essaim ne peut respirer que sous l'eau.",
+ "actionsText": "**Morceaux.** Attaque d'arme au corps à corps : +6 au toucher, allonge 0 m, une créature dans l'espace de l'essaim. Touché : 14 (4d6) dégâts perforants, ou 7 (2d6) dégâts perforants si l'essaim a la moitié de son points de vie ou moins.",
+ "attacks": [
+  {
+   "name": "Morceaux",
+   "bonus": 6,
+   "damage": "4d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c4867978b7_monstre-sahuagin-hatchling-swarm.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

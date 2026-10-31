@@ -1,0 +1,49 @@
+{
+ "id": "aurnozci",
+ "name": "Aurnozci",
+ "type": "Fiélon (démon)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 16,
+ "hp": 370,
+ "hpFormula": "20d20+160",
+ "vitesse": "15 m, creusement 9 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 20,
+  "CON": 26,
+  "INT": 6,
+  "SAG": 21,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 15",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Régénération thermique.** Si la température autour est de 100 degrés Fahrenheit ou plus, Aurnozci reprend 15 points de vie au début de son tour. S'il prend froid ou dégâts radiants, ce trait ne fonctionne pas au début de son tour suivant. Aurnozci meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Résistance légendaire (3/jour).** Si Aurnozci échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Aurnozci a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Aurnozci fait une attaque Bite et deux attaques Tail.\n**Morceau.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 21 (2d12 + 8) dégâts tranchants plus 9 (2d8) dégâts de feu.\n**Queue.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 17 (2d8 + 8) dégâts contondants.\n**Vaporisateur de mucus (Recharge 5-6).** Aurnozci vaporise le mucus dans un cône 18 m. Chaque créature dans ce cône doit faire un DD 20 jet de sauvegarde de Dextérité, en prenant 42 (12d6) dégâts d'acide en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Aurnozci lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 20):\n- À volonté : Détection de la magie, Métal brûlant (version de niveau 7)\n- 2/jour chacun : Ténèbres, Dissipation de la magie, Immobilisation de personne",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 15,
+   "damage": "2d12+8",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Queue",
+   "bonus": 15,
+   "damage": "2d8+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/edad6567fa_monstre-aurnozci.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +15, CON +15",
+ "resistances": "froid, foudre",
+ "immunities": "acide, feu, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, aurnozci peut entreprendre l'une des actions ci-après.\n**Bouge.** Aurnozci se déplace à sa vitesse.\n**Queue.** Aurnozci fait une attaque Tail.\n**Lancer un sort (coûts 2 actions).** Aurnozci utilise le spellcasting.\n**Conflagration (coûts 2 actions).** Les flammes entourent momentanément Aurnozci. Chaque créature dans 4,50 m d'Aurnozci doit faire un DD 20 jet de sauvegarde de Dextérité, en prenant 18 (4d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

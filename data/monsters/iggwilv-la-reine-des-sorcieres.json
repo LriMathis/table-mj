@@ -1,0 +1,45 @@
+{
+ "id": "iggwilv-la-reine-des-sorcieres",
+ "name": "Iggwilv the Witch Queen",
+ "type": "Fée (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 19,
+ "hp": 255,
+ "hpFormula": "30d8+120",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 27,
+  "SAG": 12,
+  "CHA": 23
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 11",
+ "languages": "abyssal, céleste, commun, draconique, elfique, infernal, sylvestre",
+ "traits": "**Bout de l'immortalité.** Iggwilv est à l'abri de tout effet qui l'aurait vieillie, et elle ne peut pas mourir de vieillesse.\n**Résistance légendaire (3/jour).** Si Iggwilv échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Iggwilv a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques. (Ce trait est conféré par sa robe de l'archimagi.)\n**Matériel spécial.** Iggwilv porte un Amulette des plans et un Robe de l'archimage.",
+ "actionsText": "**Multiattaques.** Iggwilv fait deux attaques ensorcelant Bolt.\n**Ensorceleur Bolt.** Attaque de sort au corps à corps ou à distance : +16 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 25 (5d6 + 8) dégâts de foudre, et si la cible est une créature, elle doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou être charmé par Iggwilv jusqu'au début de son prochain tour.\n**Rift abyssal (Recharge 5-6).** Iggwilv ouvre une faille momentanée de l'abyssale au sein de 36 m d'elle. La faille est une sphère 6 m -radius. Chaque créature dans cette zone doit faire un DD 22 jet de sauvegarde de Constitution, en prenant 40 (9d8) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. De plus, il y a une chance de 50 pour cent que 3 hezrous apparaissent alors dans des espaces inoccupés dans la sphère. Ils agissent comme alliés d'Iggwilv, prennent leur tour immédiatement après le sien, et ne peuvent pas appeler d'autres démons. Ils restent jusqu'à ce qu'ils meurent ou jusqu'à ce qu'Iggwilv les rejette comme une action.\n**Détection orthographique.** Iggwilv lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Intelligence comme caractéristique d'incantation (spell save DD 24, +16 au toucher with attaques de sort) :\n- À volonté : Détection de la magie, Déguisement, Invisibilité, Lumière, Main de mage, Message, Prestidigitation, Fou rire de Tasha\n- 1/jour chacun : Dédale, Télékinésie, Téléportation, Souhait\n- 3/jour chacun : Dissipation de la magie, Vol, Métamorphose",
+ "attacks": [
+  {
+   "name": "Ensorceleur Bolt",
+   "bonus": 16,
+   "damage": "5d6+8",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/278f42caa8_monstre-iggwilv-la-reine-des-sorcieres.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Iggwilv la reine des sorcières",
+ "caNote": "Robe de l'archimage",
+ "saves": "INT +14, SAG +7, CHA +12",
+ "skills": "Arcanes +20, Histoire +14, Nature +14",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Étape de la fièvre.** Les téléportations Iggwilv, ainsi que tout équipement qu'elle porte ou qu'elle transporte, dans un espace inoccupé qu'elle peut voir à l'intérieur de 9 m d'elle.",
+ "reactions": "**Oreille de négate (2/jour).** Quand Iggwilv voit une créature dans 18 m de son sort, elle essaie de l'interrompre. Si la créature lance un sort en utilisant un emplacement de sort de niveau 8 ou moins, son sort échoue et n'a aucun effet. S'il lance un sort de niveau 9, il doit réussir sur un DD 22 jet de sauvegarde d'Intelligence, ou les sorts échouent et n'ont aucun effet.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, iggwilv la reine des sorcières peut entreprendre l'une des actions ci-après.\n**Sorcière.** Iggwilv utilise Spellcasting ou Fey Step.\n**Discours sombre (coûts 2 actions).** Iggwilv prononce une phrase dans une langue interdite et cible une ou deux créatures qu'elle peut voir dans 18 m d'elle. Chaque cible doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou prendre 11 (2d10) dégâts psychiques et être effrayé d'Iggwilv pendant 1 minute. Une cible peut répéter l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès et devenant ainsi immunisé contre le discours sombre d'Iggwilv pendant 24 heures.\n**Fièvre Beguilement (coûts 3 actions).** Iggwilv cible une créature qu'elle peut voir dans 18 m d'elle. La cible doit réussir sur un DD 22 jet de sauvegarde de Charisme ou être possédée par un esprit de fee. Tout en étant possédé, la cible doit obéir aux ordres d'Iggwilv. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, bannir l'esprit de fee et mettre fin à l'effet sur elle-même sur un succès."
+}

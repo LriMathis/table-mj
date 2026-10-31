@@ -1,0 +1,48 @@
+{
+ "id": "shadrix-silverquill",
+ "name": "Shadrix Silverquill",
+ "type": "Dragon (barde)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 21,
+ "hp": 363,
+ "hpFormula": "22d20+132",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 14,
+  "CON": 23,
+  "INT": 18,
+  "SAG": 18,
+  "CHA": 26
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 21",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (3/jour).** Si Shadrix échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Shadrix fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 4,50 m, une cible. Touché : 12 (1d10 + 7) dégâts perforants plus 4 (1d8) dégâts radiants.\n**Griffe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 10 (1d6 + 7) dégâts tranchants. Si la cible est une créature, elle est frappée de désespoir et a un désavantage sur jets d'attaque jusqu'à la fin de son prochain tour.\n**Illuminant Shadow Breath (Recharge 5-6).** Shadrix exhale un éclat entrelacé d'éclat aveuglant et d'ombre dénervante dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 21 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, une créature prend 31 (7d8) dégâts radiants et 31 (7d8) dégâts psychiques et est aveuglé jusqu'au prochain tour de Shadrix. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas aveuglé.\n**Détection orthographique.** Shadrix lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 23) :\n- 1/jour chacun : Ténèbres, Lumière du jour, Motif hypnotique, Communication à distance, Suggestion",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "1d10+7",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 14,
+   "damage": "1d6+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/aac302ef35_monstre-shadrix-silverquill.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +13, SAG +11, CHA +15",
+ "skills": "Arcanes +18, Tromperie +15, Perception +11, Persuasion +15",
+ "immunities": "psychique, radiant",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, shadrix silverquill peut entreprendre l'une des actions ci-après.\n**Griffe.** Shadrix fait une attaque de griffe.\n**Slip d'ombre (coûts 2 actions).** Shadrix devient un nuage d'ombre ensanglanté et peut se déplacer jusqu'à la moitié de sa vitesse de vol sans provoquer d'attaques d'opportunités, puis reprend sa vraie forme. Pendant ce mouvement, il peut se déplacer à travers des créatures et des objets comme s'ils étaient 3. S'il se déplace à travers une créature, il doit réussir sur un DD 21 jet de sauvegarde de Constitution ou devenir aveuglé jusqu'à la fin de son prochain tour. Si Shadrix termine ce déplacement à l'intérieur d'un objet, il prend 5 (1d10) dégâts de force et est dévié vers l'espace inoccupé le plus proche.\n**Flash d'inspiration (coûts 3 actions).** Shadrix convoque magiquement des mascottes encreuses 1d4 dans des espaces inoccupés qu'il peut voir en lui-même. Les entrailles obéissent à ses ordres et se relaient immédiatement après les siennes. Tandis que l'un de ces encreurs vit, Shadrix a un avantage sur jets d'attaque et jet de sauvegarde. Ces encres disparaissent après 10 minutes, quand Shadrix meurt, ou quand il recourt à cette action."
+}

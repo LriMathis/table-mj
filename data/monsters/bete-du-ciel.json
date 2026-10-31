@@ -1,0 +1,31 @@
+{
+ "id": "bete-du-ciel",
+ "name": "Beast of the Sky",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 8,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "comprend les langues que vous connaissez",
+ "traits": "**Volée.** La bête ne provoque pas Opportunity Attacks quand elle vole hors de la portée de l'ennemi.\n**Obligations primaires.** Ajoutez votre bonus de maîtrise à n'importe quel test de caractéristique ou jet de sauvegarde que la bête fabrique.",
+ "actionsText": "**La grève de la bête.** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d4 + 3 plus votre modificateur Sagesse dégâts tranchants.",
+ "attacks": [],
+ "portrait": "/data/images/ea7245b3db_monstre-bete-du-ciel.webp",
+ "notes": "points de vie : 4 plus quatre fois votre niveau rôdeur (la bête a un nombre de dés de vie [d6s] égal à votre niveau rôdeur)",
+ "source": "Player's Handbook (2024) (5e.tools, traduction automatique)",
+ "aka": "Bête du ciel"
+}

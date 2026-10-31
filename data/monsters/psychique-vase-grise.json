@@ -1,0 +1,42 @@
+{
+ "id": "psychique-vase-grise",
+ "name": "Psychic Gray Ooze",
+ "type": "Vase",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 9,
+ "hp": 37,
+ "hpFormula": "5d8+15",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 6,
+  "CHA": 2
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Amorphe.** L'ooze peut se déplacer dans un espace aussi étroit que 1 pouce sans dépenser de mouvement supplémentaire pour le faire.",
+ "actionsText": "**Pseudopod.** Jet d'attaque au corps à corps : +3, allonge 1,50 m. Touché : 11 (3d6 + 1) dégâts d'acide, et la cible a Désavantage sur jet de sauvegarde d'Intelligence jusqu'à la fin du prochain tour de l'ooze.\n**Crush psychique.** Jet de sauvegarde d'Intelligence : DD 10, une créature l'ooze peut voir dans 18 m. Échec : 13 (3d8) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 3,
+   "damage": "3d6+1",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/feb24c5e97_monstre-psychique-vase-grise.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Psychique vase grise",
+ "skills": "Discrétion +3",
+ "resistances": "acide, froid, feu, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, agrippé, à terre, entravé",
+ "reactions": "**Corrosion mentale.** Déclencheur : L'ooze échoue un jet de sauvegarde contre un sort ou un autre effet magique créé par une créature. Réponse : La créature qui déclenche prend 3 (1d6) dégâts psychiques."
+}

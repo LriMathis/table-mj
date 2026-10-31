@@ -1,0 +1,39 @@
+{
+ "id": "tique-geant",
+ "name": "Giant Tick",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "7d8+21",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 2
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Proboscis.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 10 (2d6 + 3) dégâts perforants, et la tique se fixe à la cible. Bien qu'attachée, la tique ne peut pas faire d'attaques Proboscis. La tique peut se détacher en dépensant 1,50 m de son mouvement. En action, une créature à la portée de la tique peut essayer de détacher la tique, ce faisant avec un succès DD 13 test de Force.\n**Égoutter le sang.** La tique traite 10 (2d6 + 3) dégâts nécrotiques à une créature il est physiquement attaché à, à condition que la créature n'est pas un Construct ou un mort-vivant, ou 17 (4d6 + 3) dégâts nécrotiques si la créature est un géant. La tique récupère points de vie égal aux dégâts infligés.",
+ "attacks": [
+  {
+   "name": "Proboscis",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5cc47bcc7c_monstre-tique-geant.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Tique géant",
+ "caNote": "armure naturelle"
+}

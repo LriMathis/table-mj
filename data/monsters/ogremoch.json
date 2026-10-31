@@ -1,0 +1,49 @@
+{
+ "id": "ogremoch",
+ "name": "Ogrémoch",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre mauvais",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 20,
+ "hp": 526,
+ "hpFormula": "27d20+243",
+ "vitesse": "15 m, creusement 15 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 11,
+  "CON": 28,
+  "INT": 11,
+  "SAG": 15,
+  "CHA": 22
+ },
+ "senses": "Vision aveugle 36 m, Perception des vibrations 36 m, Perception passive 12",
+ "languages": "commun, terreux",
+ "traits": "**Attaques motorisées.** Les attaques de slam d'Ogrémoch sont traitées comme magiques et adamantines dans le but de contourner la résistance et l'immunité aux attaques non magiques.\n**Résistance légendaire (3/jour).** Si Ogrémoch échoue un jet de sauvegarde, il peut choisir de réussir.\n**Résistance magique.** Ogrémoch a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Ogrémoch inflige des dégâts doubles aux objets et aux structures avec sa mêlée et ses attaques d'armes variées.\n**Découpe intérieure.** Le caractéristique d'incantation inné d'Ogremoch est Charisme (save spell DD 20, +12 au toucher avec attaques de sort). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Fusion dans la pierre, Terraformage, Mur de pierre",
+ "actionsText": "**Multiattaques.** Ogrémoch fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +14 au toucher, allonge 4,50 m, une cible. Touché : 30 (4d10 + 8) dégâts contondants.\n**Découpe.** Attaque d'arme à distance : +6 au toucher, portée 150 m, une cible. Touché : 46 (7d10 + 8) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 23 jet de sauvegarde de Force ou être à terre.\n**Invoquer les éléments (1/jour).** Ogrémoch convoque jusqu'à trois éléments terrestres et perd 30 points de vie pour chaque élément qu'il convoque. Les éléments cités ont un maximum de points de vie, apparaissent dans 30 m d'Ogrémoch et disparaissent si Ogrémoch est réduit à 0 points de vie.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 14,
+   "damage": "4d10+8",
+   "type": "contondant"
+  },
+  {
+   "name": "Découpe",
+   "bonus": 6,
+   "damage": "7d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/37675d07f9_monstre-ogremoch.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +14, CON +15, SAG +8",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, paralysé, pétrifié, empoisonné, à terre",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, ogrémoch peut entreprendre l'une des actions ci-après.\n**Cristaux éclairants.** L'éruption des protrusions cristallines d'Ogremoch. Chaque créature de 9 m d'Ogrémoch est décrite dans la lumière orange, éclipsant la lumière dans un rayon de 3 m. N'importe quel jet d'attaque contre une créature affectée a un avantage si l'attaquant peut le voir, et la créature affectée ne peut pas bénéficier d'être invisible.\n**Stompe (coûts 2 actions).** Ogrémoch écrase le sol, créant un tremblement de terre qui s'étend dans un rayon de 9 m. D'autres créatures se tenant au sol dans ce rayon doivent réussir sur un DD 23 jet de sauvegarde de Dextérité ou une chute à terre.\n**Créer Gargoyle (coûts 3 actions).** Le points de vie d'Ogrémoch est réduit de 50 alors qu'il casse un morceau de son corps et le place sur le sol dans un espace inoccupé au sein de 4,50 m de lui. Le morceau de roche se transforme instantanément en Gargouille et agit sur la même initiative qu'Ogrémoch. Ogrémoch ne peut pas utiliser cette action s'il a 50 points de vie ou moins. La gargouille obéit aux ordres d'Ogrémoch et se bat jusqu'à sa destruction."
+}

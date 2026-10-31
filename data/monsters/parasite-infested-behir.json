@@ -1,0 +1,46 @@
+{
+ "id": "parasite-infested-behir",
+ "name": "Parasite-infested Behir",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 168,
+ "hpFormula": "16d12+64",
+ "vitesse": "15 m, escalade 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 27 m, Perception passive 16",
+ "languages": "draconique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le béhir fait deux attaques : une avec sa morsure et une pour constriction.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 22 (3d10 + 6) dégâts perforants.\n**Constriction.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une créature grande ou plus petite. Touché : 17 (2d10 + 6) dégâts contondants plus 17 (2d10 + 6) dégâts tranchants. La cible est agrippé (évasion DD 16) si le béhir ne constricte pas déjà une créature, et la cible est entravé jusqu'à ce que ce grappin se termine.\n**foudre Respiration (Recharge 5-6).** Le béhir exhale une ligne de foudre qui est longue 6 m et large 1,50 m. Chaque créature dans cette ligne doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 66 (12d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Avalez.** Le béhir fait une attaque de morsure contre une cible moyenne ou plus petite qu'il lutte. Si l'attaque frappe, la cible est aussi avalée, et le grappin se termine. En avalé, la cible est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors du béhir, et il prend 21 (6d6) dégâts d'acide au début de chacun des tours du béhir. Un béhir peut avoir seulement une créature avalé à la fois.\nToute créature avalée par un béhir infesté par un parasite doit réussir sur un DD 19 jet de sauvegarde de Constitution au début de chacun des tours du béhir ou être festive par des parasites sanguins, en prenant 36 (8d8) dégâts nécrotiques sur une sauvegarde ratée, ou la moitié de ces dégâts sur une sauvegarde réussie. Ces dégâts s'ajoutent aux dégâts causés par les acides digestifs du béhir.\nSi le béhir prend 30 dégâts ou plus sur un seul tour de la créature avalée, le béhir doit réussir sur un DD 14 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter la créature, qui tombe à terre dans un espace à l'intérieur de 3 m du béhir. Si le béhir meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 4,50 m de mouvement, sortant d'à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "3d10+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "contondant + tranchant"
+  }
+ ],
+ "portrait": "/data/images/03b5cc9578_monstre-parasite-infested-behir.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6, Discrétion +7",
+ "immunities": "foudre"
+}

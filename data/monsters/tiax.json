@@ -1,0 +1,40 @@
+{
+ "id": "tiax",
+ "name": "Tiax",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 13,
+ "hp": 110,
+ "hpFormula": "20d6+40",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 19,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "céleste, commun, gnome",
+ "traits": "**Gnome Cunning.** Tiax a un avantage sur Intelligence, Sagesse et jet de sauvegarde de Charisme contre la magie.\n**Matériel spécial.** Tiax porte un Anneau de résistance qui lui confère une résistance à dégâts radiants.",
+ "actionsText": "**Touche de décay.** Attaque de sort au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 37 (6d10 + 4) dégâts nécrotiques.\n**Bouillon de feu impie.** Tiax fait éclater un feu impie dans l'espace d'une créature à l'intérieur de 18 m de lui. La cible doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 18 (4d8) dégâts nécrotiques plus 18 (4d8) dégâts de poison.\n**Détection orthographique.** Tiax lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Fléau, Déguisement, Dissipation de la magie, Armure de mage, Image miroir, Thaumaturgie\n- 1/jour chacun : Malédiction, Cécité/Surdité, Clignotement, Charme-personne, Contagion, Porte dimensionnelle, Domination de personne, Immobilisation de personne, Passage sans trace, Métamorphose, Téléportation",
+ "attacks": [
+  {
+   "name": "Touche de décay",
+   "bonus": 8,
+   "damage": "6d10+4",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/6ebd613cf8_monstre-tiax.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "saves": "SAG +8, CHA +8",
+ "skills": "Tromperie +8, Perspicacité +8, Représentation +8, Persuasion +8",
+ "bonusActions": "**Guérison (2/jour).** Tiax guérit 70 points de vie."
+}

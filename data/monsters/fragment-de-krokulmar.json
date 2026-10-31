@@ -1,0 +1,33 @@
+{
+ "id": "fragment-de-krokulmar",
+ "name": "Fragment of Krokulmar",
+ "type": "Aberration",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 10,
+ "hpFormula": "3d4+3",
+ "vitesse": "0 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 16,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "profond, télépathie 18 m",
+ "traits": "",
+ "actionsText": "**Revitalisation psionique.** Le fragment touche une créature qui a 0 points de vie dans l'espace du fragment. La cible récupère 10 points de vie et chaque créature dans 3 m de la créature guérie prend 3 (1d6) dégâts psychiques.\n**Évacuation de la digue.** Jusqu'au début du prochain tour du fragment, tout jet d'attaque fabriqué contre le fragment a un désavantage, et le fragment fait jet de sauvegarde avec avantage.",
+ "attacks": [],
+ "portrait": "/data/images/079fbe5814_monstre-fragment-de-krokulmar.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "aka": "Fragment de Krokulmar",
+ "skills": "Arcanes +7, Histoire +7, Persuasion +7, Discrétion +7",
+ "immunities": "psychique"
+}

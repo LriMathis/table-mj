@@ -1,0 +1,45 @@
+{
+ "id": "devkarin-liche",
+ "name": "Devkarin Lich",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 14,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 18",
+ "languages": "commun, elfique, Kraul",
+ "traits": "**Résistance légendaire (3/jour).** Si le lich échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Régénération.** Le lich retrouve 10 points de vie au début de son tour. Si le lich prend feu ou dégâts radiants, ce trait ne fonctionne pas au début du tour suivant du lich. Le lich meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Résistance au virage.** Le lich a un avantage sur jet de sauvegarde contre tout effet qui devient mort-vivant.\n**Fortitude non-morte.** Si le dégâts réduit le lich à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + le dégâts pris, à moins que le dégâts soit radieux ou d'un coup critique. Sur un succès, le lich tombe à 1 points de vie.\n**Détection orthographique.** Le lich est un spellcaster de niveau 14 Golgari. Son caractéristique d'incantation est Intelligence (save spell DD 17, +9 au toucher avec attaques de sort). Le lich a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Aspersion d'acide, Contact glacial, Main de mage, Bouffée de poison, Prestidigitation\n- Niveau 1 (4 emplacements) : Orbe chromatique, Projectile magique, Rayon empoisonné\n- Niveau 2 (3 emplacements) : Flèche acide de Melf, Rayon affaiblissant, Pattes d'araignée, Toile d'araignée\n- Niveau 3 (3 emplacements) : Animation des morts, Malédiction, Peur, Toucher du vampire\n- Niveau 4 (3 emplacements) : Flétrissement, Tentacules noirs d'Evard\n- Niveau 5 (2 emplacements) : Brume mortelle, Fléau d'insectes\n- Niveau 6 (1 emplacements) : Cercle de mort, Création de mort-vivant\n- Niveau 7 (1 emplacements) : Doigt de mort",
+ "actionsText": "**Touche nuisible.** Attaque de sort au corps à corps : +9 au toucher, allonge 1,50 m, une créature. Touché : 14 (4d6) dégâts de poison, et la cible doit réussir sur un DD 17 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. La cible empoisonné peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Touche nuisible",
+   "bonus": 9,
+   "damage": "4d6",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/184fb7b620_monstre-devkarin-liche.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Devkarin liche",
+ "caNote": "armure naturelle",
+ "saves": "CON +7, INT +9, SAG +8",
+ "skills": "Arcanes +14, Perspicacité +8, Perception +8",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, devkarin liche peut entreprendre l'une des actions ci-après.\n**sort mineur.** Le lich lance un de ses sorts mineurs.\n**Touche nocive (coûts 2 actions).** Le lich utilise Noxious Touch.\n**Perturbation de la vie (coûts 3 actions).** Chaque créature dans 9 m de la lich doit faire un DD 17 jet de sauvegarde de Constitution, en prenant 21 (6d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

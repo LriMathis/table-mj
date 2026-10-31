@@ -1,0 +1,42 @@
+{
+ "id": "fraternity-de-la-loi-sur-l-ordre-bender",
+ "name": "Fraternity of Order Law Bender",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 12,
+ "hp": 137,
+ "hpFormula": "25d8+25",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Perception passive 17",
+ "languages": "Commun plus trois autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La loi bender fait trois attaques Arcane Burst et utilise le pouvoir de l'autorité ou de la diffusion.\n**La Burst d'Arcane.** Attaque de sort au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 27 m, une cible. Touché : 17 (2d12 + 4) dégâts de force.\n**Pouvoir d'autorité.** La loi cible une créature qu'elle peut voir en elle-même. La cible doit réussir sur un DD 16 jet de sauvegarde d'Intelligence ou prendre 10 (3d6) dégâts psychiques et avoir l'état neutralisé pendant 1 minute. À la fin de chacun des virages de la cible, elle peut répéter le jet de sauvegarde, mettant fin au l'état neutralisé sur elle-même en cas de succès. Une cible qui réussit sur le jet de sauvegarde devient immunisée contre le pouvoir d'autorité de cette loi pendant 24 heures.\n**Détection orthographique.** La loi bender lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation :\n- À volonté : Dissipation de la magie, Vol, Armure de mage, Main de mage, Prestidigitation",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 8,
+   "damage": "2d12+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/37ef57d11e_monstre-fraternity-de-la-loi-sur-l-ordre-bender.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Fraternity de la loi sur l'ordre Bender",
+ "saves": "CON +5, SAG +7",
+ "skills": "Perspicacité +7, Perception +7",
+ "bonusActions": "**Trou de boucle spatiale.** La loi bender téléporte, avec tout équipement qu'elle porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'elle peut voir.",
+ "reactions": "**Trou de boucle de probabilité (3/jour).** Lorsque le bender de loi ou une créature qu'il peut voir fait un jet d'attaque, un jet de sauvegarde, ou un test de caractéristique, le bender de loi peut faire le rouleau avec l'avantage ou l'inconvénient."
+}

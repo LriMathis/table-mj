@@ -1,0 +1,51 @@
+{
+ "id": "aranea",
+ "name": "Aranea",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m, escalade 9 m (araignée ou forme hybride seulement)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun",
+ "traits": "**Escalade d'araignées (forme hybride ou araignée seulement).** L'aranée peut monter des surfaces difficiles, y compris le long des plafonds, sans avoir besoin de faire un test de caractéristique.\n**Web Walker.** L'aranée ignore les restrictions de mouvement causées par les réseaux, et elle connaît l'emplacement de toute autre créature en contact avec le même réseau.",
+ "actionsText": "**Multiattaques.** L'aranée fait deux attaques, en utilisant Bite, Slam, ou Sling dans n'importe quelle combinaison.\n**Bite (Hybride ou forme d'araignée seulement).** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts perforants plus 2 (1d4) dégâts de poison.\n**Clamer.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts contondants.\n**Sling (forme humaine ou hybride seulement).** Jet d'attaque à distance : +5, portée 9/36 m. Touché : 8 (2d4 + 3) dégâts contondants.\n**Détection orthographique.** L'aranea lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Amis, Image silencieuse\n- 1/jour : Immobilisation de personne",
+ "attacks": [
+  {
+   "name": "Bite (Hybride ou forme d'araignée seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Sling (forme humaine ou hybride seulement)",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/7608b66b2f_monstre-aranea.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "skills": "Perception +2, Discrétion +5",
+ "bonusActions": "**Forme-filtre.** La forme aranée se transforme en forme humanoïde, en forme hybride humanoïde-spider, ou encore en forme d'araignée. Ses statistiques de jeu sont les mêmes dans chaque forme, sauf s'il est noté. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé."
+}

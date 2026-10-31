@@ -1,0 +1,45 @@
+{
+ "id": "ogre-squelette",
+ "name": "Ogre Skeleton",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Grand club.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 11 (2d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d71763daf7_monstre-ogre-squelette.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Ogre squelette",
+ "caNote": "Cache l'armure"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "ombre-molosse",
+ "name": "Shadow Mastiff",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**Sensibilisation éthérée.** Le mastic d'ombre peut voir des créatures et des objets éthérés.\n**Faiblesse de la lumière du soleil.** Alors que dans la lumière lumineuse créée par le soleil, le mastic d'ombre a désavantage sur jets d'attaque, tests de caractéristique, et jet de sauvegarde.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ce7083ecf6_monstre-ombre-molosse.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Ombre molosse",
+ "skills": "Perception +5, Discrétion +6",
+ "resistances": "contondant, perforant, tranchant des attaques non magiques alors que dans la lumière sombre ou l'obscurité",
+ "bonusActions": "**Mélange d'ombres.** Alors que dans la lumière sombre ou sombre, le mastic d'ombre devient invisible, avec tout ce qu'il porte ou porte. L'invisibilité dure jusqu'à ce que le mastic d'ombre utilise un action bonus pour y mettre fin ou jusqu'à ce que le mastic d'ombre attaque, soit en lumière vive, soit en neutralisé."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "irda-seeker",
+ "name": "Irda Seeker",
+ "type": "Géant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Vision parfaite 1,50 m, Perception passive 16",
+ "languages": "commun, géant, sylvestre",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le chercheur utilise l'Augment Physicality, si disponible, et fait deux attaques de la lame de cristal.\n**Lame de cristal.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts de force, plus 7 (2d6) dégâts de force si le chercheur est grand.\n**Augmentation de la physicalité (1/jour).** Pendant 1 minute, le chercheur augmente sa capacité physique et augmente sa taille, avec tout ce qu'il porte ou porte. Bien qu'augmenté, le chercheur est grand, et rend Force et jet de sauvegarde de Dextérité avec avantage. Si le chercheur n'a pas la salle pour devenir grand, il atteint la taille maximale possible dans l'espace disponible.\n**Changement de forme (1/jour).** Le chercheur se transforme magiquement pour ressembler à un humanoïde moyen qu'il a vu. Tout équipement que le chercheur porte ou qu'il transporte n'est pas transformé, et les statistiques du chercheur ne changent pas. Le demandeur retourne à sa forme réelle si le demandeur est réduit à 0 points de vie ou si le demandeur utilise une action pour mettre fin à la transformation.",
+ "attacks": [
+  {
+   "name": "Lame de cristal",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/31d64bd8c3_monstre-irda-seeker.webp",
+ "notes": "",
+ "source": "MCV2DC (5e.tools, traduction automatique)",
+ "saves": "DEX +4, CHA +5",
+ "skills": "Perspicacité +6, Perception +6, Discrétion +4",
+ "bonusActions": "**Marche à voile (Recharge 4-6).** Le chercheur, avec tout équipement qu'il porte ou qu'il transporte, fait tourner invisible et téléporte vers un espace inoccupé qu'il peut voir en lui-même. Le chercheur reste invisible jusqu'au début de son prochain tour ou jusqu'à ce qu'il fasse un jet d'attaque immédiatement après, selon le premier."
+}

@@ -1,0 +1,46 @@
+{
+ "id": "adulte-kruthik",
+ "name": "Adult Kruthik",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 18,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "12 m, creusement 6 m, escalade 12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 7,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 15",
+ "languages": "Kruthik",
+ "traits": "**Tactiques de conditionnement.** Le kruthik a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du kruthik est dans le 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Tunneler.** Le kruthik peut creuser à la moitié de sa vitesse de creusement dans une roche solide et laisser un tunnel 1,50 m-diamètre dans son sillage.",
+ "actionsText": "**Multiattaques.** Le kruthik fait deux attaques Stab ou Spike.\n**Stab.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Spike.** Attaque d'arme à distance : +5 au toucher, portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Stab",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Spike",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ff1f05db84_monstre-adulte-kruthik.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Adulte Kruthik",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5"
+}

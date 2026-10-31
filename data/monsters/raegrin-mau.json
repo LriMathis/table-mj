@@ -1,0 +1,39 @@
+{
+ "id": "raegrin-mau",
+ "name": "Raegrin Mau",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement non bon",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Dévotion sombre.** Raegrin a un avantage sur jet de sauvegarde contre charmé ou effrayé.",
+ "actionsText": "**Scimitar.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une créature. Touché : 4 (1d6 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/91b04f6f1b_monstre-raegrin-mau.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Tromperie +2, Religion +2"
+}

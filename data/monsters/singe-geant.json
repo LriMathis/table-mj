@@ -1,0 +1,39 @@
+{
+ "id": "singe-geant",
+ "name": "Singe géant",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "non aligné",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 168,
+ "hpFormula": "16d12+64",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "skills": "Athlétisme +9, Perception +4, Survie +4",
+ "senses": "Perception passive 14",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le singe effectue deux attaques de Poing.\n**Poing.** Corps à corps : +9, allonge 3 m. Touché : 22 (3d10 + 6) dégâts contondants.\n**Lancer de rocher (recharge 6).** Le singe lance un rocher vers un point qu’il voit dans un rayon de 27 m. JS Dextérité : DD 17, chaque créature dans une Sphère de 1,50 m de rayon centrée sur ce point. Échec : 24 (7d6) dégâts contondants. Si la cible est une créature de taille G ou inférieure, elle subit l’état À terre. Réussite : demi-dégâts uniquement.",
+ "bonusActions": "**Bond.** Le singe effectue un saut d’un maximum de 9 m en dépensant 3 m de déplacement.",
+ "attacks": [
+  {
+   "name": "Poing",
+   "bonus": 9,
+   "damage": "3d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/a76d9d88b0_monstre-singe-geant.png",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet"
+}

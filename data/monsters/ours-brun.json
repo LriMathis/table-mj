@@ -2,36 +2,43 @@
  "id": "ours-brun",
  "name": "Ours brun",
  "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
  "cr": "1",
  "xp": 200,
  "ca": 11,
- "hp": 34,
- "hpFormula": "4d10+12",
+ "hp": 22,
+ "hpFormula": "3d10+6",
  "vitesse": "12 m, escalade 9 m",
- "size": 2,
  "stats": {
-  "FOR": 19,
-  "DEX": 10,
-  "CON": 16,
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 15,
   "INT": 2,
   "SAG": 13,
   "CHA": 7
  },
+ "skills": "Perception +3",
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** L’ours effectue une attaque de Griffe et une de Morsure.\n**Griffe.** Corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts tranchants. Si la cible est une créature de taille G ou inférieure, elle subit l’état À terre.\n**Morsure.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts perforants.",
  "attacks": [
   {
-   "name": "Morsure",
-   "bonus": 6,
-   "damage": "1d8+4",
-   "type": "perforant"
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "tranchant"
   },
   {
-   "name": "Griffes",
-   "bonus": 6,
-   "damage": "2d6+4",
-   "type": "tranchant"
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
   }
  ],
- "traits": "**Attaques multiples.** Une morsure et une attaque de griffes.",
- "portrait": "/data/images/df9401b446_monstre-ours-brun.svg",
- "notes": ""
+ "portrait": "/data/images/226f0ca9ab_monstre-ours-brun.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
 }

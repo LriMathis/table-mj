@@ -1,0 +1,52 @@
+{
+ "id": "betrayer",
+ "name": "Kas the Betrayer",
+ "type": "Mort-vivant (vampire)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 18,
+ "hp": 315,
+ "hpFormula": "30d8+180",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 20,
+  "CON": 22,
+  "INT": 24,
+  "SAG": 19,
+  "CHA": 26
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 21",
+ "languages": "abyssal, commun, draconique, infernal",
+ "traits": "**Traître d'ail.** Kas ajoute 1d10 à ses rouleaux d'initiative. Il a un avantage sur jets d'attaque contre toute créature qui a l'état effrayé.\n**Résistance légendaire (3/jour).** Si Kas échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Régénération.** Kas retrouve 20 points de vie au début de son tour s'il a au moins 1 points de vie. S'il prend dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour.\n**Matériel spécial.** Kas porte le Couronne de mensonges (voir l'introduction de Vecna: Ève de Ruin).\n**Escalade des araignées.** Kas peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Force de la nuit.** Kas n'a pas besoin d'un cercueil, et il boit du sang pour semer la terreur plutôt que pour se nourrir. S'il est détruit, Kas ressuscite en 1d100 nuits dans un espace inoccupé à Tovag, son Domaine de Dread. Il ne peut être détruit en permanence qu'en ayant un pieu poussé à travers son cœur et en étant décapité. L'enjeu doit être coupé d'un arbre qui pousse dans le sol d'Oerth, le monde de Kas.\n**Hypersensibilité à la lumière du soleil.** Alors qu'au soleil, Kas prend 20 dégâts radiants au début de son tour, a un désavantage sur jets d'attaque et tests de caractéristique, et ne peut pas utiliser son changement de forme action bonus.",
+ "actionsText": "**Multiattaques.** Kas fait trois attaques Vengeful Sword. Il peut remplacer une de ces attaques par une attaque Bite.\n**Épée vengeur.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 20 (2d8 + 11) dégâts tranchants. L'épée marque un coup critique sur un rouleau de 19 ou 20.\n**Morceau.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une créature. Touché : 11 (1d6 + 8) dégâts perforants plus 10 (3d6) dégâts nécrotiques. Le maximum de points de vie de la cible est réduit d'un montant égal au dégâts nécrotiques pris, et Kas récupère un nombre de points de vie égal à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si son maximum de points de vie est réduit à 0. Un humanoïde tué de cette façon puis enterré se lève la nuit suivante comme un vampire frayer sous le contrôle de Kas.",
+ "attacks": [
+  {
+   "name": "Épée vengeur",
+   "bonus": 15,
+   "damage": "2d8+11",
+   "type": "tranchant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 15,
+   "damage": "1d6+8",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/ba072d283c_monstre-betrayer.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Betrayer",
+ "caNote": "plaque",
+ "saves": "CON +13, SAG +11, CHA +15",
+ "skills": "Arcanes +14, Tromperie +22, Perception +11, Discrétion +12",
+ "immunities": "nécrotique, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "bonusActions": "**Modifier la forme.** Kas se transforme en un nuage de brouillard moyen. Alors que dans cette forme, Kas a une vitesse de vol de 6 m, peut planer, et peut entrer dans l'espace d'une créature hostile et s'arrêter là. Alors que sous forme de brouillard, Kas peut passer dans un espace sans presser tant que l'air peut passer dans cet espace, mais il ne peut pas passer à travers l'eau. Kas a un avantage sur Force, Dextérité et jet de sauvegarde de Constitution, et il est à l'abri de tous les dégâts non magiques sauf les dégâts qu'il prend dans le cadre de son caractère Vampire Weaknesses. Alors que sous forme de brouillard, Kas ne peut pas prendre d'actions, parler ou manipuler des objets.\n**Éblouissement menaçant.** Kas cible une créature il peut voir en lui-même 18 m. La cible doit réussir sur un DD 23 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'au prochain tour de Kas.",
+ "reactions": "**Parrying Riposte.** Kas ajoute 3 à sa CA contre une melee jet d'attaque qui le frapperait. Il fait alors une attaque Vengeful Sword contre l'agresseur si elle est à sa portée. Sur un coup, la cible prend un 9 (2d8) dégâts tranchants supplémentaire.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, betrayer peut entreprendre l'une des actions ci-après.\n**Bouge.** Kas passe à sa vitesse sans provoquer d'attaques d'opportunités.\n**Épée (coûts 2 actions).** Kas fait une attaque Vengeful Sword.\n**Lève-toi, soldat tombé (coûts 3 actions).** Kas appelle un spectre magique. Le spectre apparaît dans un espace inoccupé à l'intérieur de 9 m de Kas, qu'il obéit. Le spectre prend son tour immédiatement après Kas. Il dure 1 heure, jusqu'à ce que Kas meurt, ou jusqu'à ce que Kas le rejette comme un action bonus. Kas ne peut pas avoir plus de deux spectateurs convoqués à la fois."
+}

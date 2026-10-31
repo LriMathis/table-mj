@@ -1,0 +1,41 @@
+{
+ "id": "githzerai-traveler",
+ "name": "Githzerai Traveler",
+ "type": "Aberration (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, gith",
+ "traits": "**psychique Défense.** Alors que le githzerai ne porte pas d'armure et ne porte pas de bouclier, son CA comprend son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Le githzerai fait trois attaques frappe à mains nues.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts contondants plus 4 (1d8) dégâts psychiques.\n**Coulisse (Psioniques).** Le githzerai lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Main de mage (la main est invisible)\n- 1/jour chacun : Saut, Changement de plan (autoseulement), Voir l'invisible",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/e4d6976700_monstre-githzerai-traveler.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "défense psychique",
+ "saves": "FOR +3, DEX +4, INT +4, SAG +5",
+ "skills": "Perception +5, Survie +5",
+ "bonusActions": "**Manipulation des matières (Recharge 4-6).** Le githzerai manipule l'énergie du plan d'existence sur lequel il est destiné à produire l'un des effets suivants (choisir un ou rouler un d6) :\n- **1-2: Étape astrale** Le githzerai peut se téléporter, avec tout équipement qu'il porte ou transporte, jusqu'à 12 m dans un espace inoccupé qu'il peut voir. En outre, sa vitesse de marche augmente jusqu'à 12 m jusqu'au début de son prochain virage.\n- **3-4: Croissance** Les fleurs et les vignes poussent autour du githzerai jusqu'au début de son prochain tour, puis disparaissent; le sol au sein de 4,50 m du githzerai est un terrain difficile pour d'autres créatures pendant que les fleurs et les vignes sont présentes.\n- **5-6: Lumière de rétorsion** Des lumières multicolores entourent le githzerai jusqu'au début de son prochain tour. Pour la durée de l'effet, chaque fois qu'une créature dans 1,50 m du githzerai la frappe avec une melee jet d'attaque, cette créature prend 3 (1d6) dégâts de force, comme des cils magiques dans la punition."
+}

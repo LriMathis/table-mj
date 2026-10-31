@@ -1,0 +1,39 @@
+{
+ "id": "skaab",
+ "name": "Skaab",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 9,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 9,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Berserk.** Chaque fois que le skaab commence son tour avec 40 points de vie ou moins, roulez un d6. Sur un 6, le skaab devient berker. Sur chacun de ses virages tandis que le berker, le skaab attaque la créature la plus proche qu'il puisse voir. Si aucune créature n'est assez proche pour se déplacer et attaquer, le skaab attaque un objet, avec la préférence pour un objet plus petit que lui-même. Une fois que le skaab devient berker, il continue à le faire jusqu'à ce qu'il soit détruit ou retrouve tout son points de vie.\nLe créateur du skaab, si dans 18 m du skaab berserk, peut essayer de le calmer en parlant fermement et avec persuasion. Le skaab doit être en mesure d'entendre son créateur, qui doit prendre une action pour faire un DD 15 test de Charisme (Persuasion). Si la vérification réussit, le skaab cesse d'être en colère. S'il prend des dégâts alors qu'il est toujours à 40 points de vie ou moins, le skaab pourrait à nouveau être berkerk.\n**Aversion de feu.** Si le skaab prend dégâts de feu, il a un désavantage sur jets d'attaque et tests de caractéristique jusqu'à la fin de son prochain tour.\n**Formulaire immuable.** Le skaab est à l'abri de tout sort ou effet qui modifierait sa forme.\n**foudre absorption.** Chaque fois que le skaab est soumis à dégâts de foudre, il ne prend aucun dégâts et récupère plutôt un nombre de points de vie égal à la dégâts de foudre traitée.\n**Résistance magique.** Le skaab a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes du skaab sont magiques.",
+ "actionsText": "**Multiattaques.** Le skaab fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3d266220cf_monstre-skaab.webp",
+ "notes": "",
+ "source": "PSI (5e.tools, traduction automatique)",
+ "immunities": "foudre, poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

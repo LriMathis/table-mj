@@ -1,0 +1,39 @@
+{
+ "id": "choker",
+ "name": "Choker",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 13,
+ "hpFormula": "3d6+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "profond",
+ "traits": "**Aberrant (recharge après un repos court ou long).** Le choker peut prendre une action supplémentaire à son tour.\n**Sans os.** Le choker peut se déplacer à travers et occuper un espace aussi étroit que 4 pouces de large sans serrer.\n**Escalade des araignées.** Le choker peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** Le choker fait deux attaques du Tentacle.\n**Tentacle.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants. Si la cible est une créature grande ou plus petite, c'est agrippé (évasion DD 15). Jusqu'à ce que ce grappin se termine, la cible est entravé, et le choker ne peut pas utiliser cette tente sur une autre cible. Le choker a deux tentacules. Si cette attaque est un coup critique, la cible ne peut pas non plus respirer ou parler jusqu'à ce que le grappin se termine.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/20ebaead9b_monstre-choker.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +6"
+}

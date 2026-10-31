@@ -1,0 +1,42 @@
+{
+ "id": "phoenix-arclight",
+ "name": "Arclight Phoenix",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 16,
+ "hp": 142,
+ "hpFormula": "19d8+57",
+ "vitesse": "0 m, vol 36 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 22,
+  "CON": 17,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Volée.** Le phénix arc-en-ciel ne provoque pas d'attaque d'opportunité quand il vole hors de la portée d'un ennemi.\n**foudre échoué.** La première fois sur un virage que le phoenix arclight touche le sol, il prend 11 (2d10) dégâts de force.\n**Éclairage.** Le phénix arclight apporte une lumière lumineuse dans un rayon de 4,50 m et une lumière dim pour un 4,50 m supplémentaire.\n**Formulaire foudre.** Le phénix arclight peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer. Une créature qui touche le phoenix ou le frappe avec une attaque de mêlée alors que dans 1,50 m il prend 9 (2d8) dégâts de foudre. De plus, le phénix arc-en-ciel peut pénétrer dans l'espace d'une créature hostile et s'arrêter là. La première fois qu'il entre dans l'espace d'une créature sur un tour, cette créature prend 9 (2d8) dégâts de foudre.\n**La mort crasseuse.** Quand le phénix est mort, il explose. Chaque créature de 9 m doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 36 (8d8) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite. L'explosion détruit le phénix, mais laisse derrière lui un œuf tiède et chaud avec une coquille de mizzium. L'œuf contient l'embryon d'un nouveau phénix à arc clair. Il éclos quand il est dans la zone d'un sort qui traite dégâts de foudre, ou si une créature touche l'oeuf et dépense emplacements de sort dont les niveaux combinés sont égaux à 13 ou plus. Lorsqu'il éclos, l'œuf libère un nouveau phénix de lumière d'arc qui apparaît dans l'espace de l'œuf.",
+ "actionsText": "**Touche d'arc clair.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 27 (6d8) dégâts de foudre, et la foudre saute de la cible à une créature du choix du phénix qu'il peut voir dans 9 m de la cible. Cette deuxième créature doit réussir sur un DD 18 jet de sauvegarde de Dextérité ou prendre 27 (6d8) dégâts de foudre.",
+ "attacks": [
+  {
+   "name": "Touche d'arc clair",
+   "bonus": 10,
+   "damage": "6d8",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/7304833b81_monstre-phoenix-arclight.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Phoenix Arclight",
+ "saves": "DEX +10",
+ "resistances": "tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, entravé, inconscient"
+}

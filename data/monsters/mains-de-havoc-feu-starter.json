@@ -1,0 +1,47 @@
+{
+ "id": "mains-de-havoc-feu-starter",
+ "name": "Hands of Havoc Fire Starter",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "senses": "Perception passive 13",
+ "languages": "Commun plus une langue de plus",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le démarreur de feu fait deux Havoc Hammer ou Havoc Flask attaques.\n**Havoc Hammer.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants plus 9 (2d8) dégâts de feu. Si la cible est une créature, des flammes magiques s'y accrochent, ce qui lui fait prendre 3 (1d6) dégâts de feu au début de chacun de ses tours. Immédiatement après avoir pris ce dégâts à son tour, la cible peut faire un DD 13 jet de sauvegarde de Dextérité, mettant fin à l'effet sur elle-même sur un succès de sauvegarde.\n**Havoc Flask.** Attaque d'arme à distance : +4 au toucher, portée 9/27 m., une cible. Touché : 13 (2d12) dégâts de feu. Si la cible est une créature, des flammes magiques s'y accrochent, ce qui lui fait prendre 3 (1d6) dégâts de feu au début de chacun de ses tours. Immédiatement après avoir pris ces dégâts à son tour, la cible peut faire un DD 13 jet de sauvegarde de Dextérité, mettant fin à l'effet sur elle-même sur un succès de sauvegarde.\nAprès que le démarreur lance le flacon, roulez un d6 ; sur un 3 ou moins, le démarreur n'a plus de flacons à lancer.",
+ "attacks": [
+  {
+   "name": "Havoc Hammer",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant + feu"
+  },
+  {
+   "name": "Havoc Flask",
+   "bonus": 4,
+   "damage": "2d12",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/8be8cb1b08_monstre-mains-de-havoc-feu-starter.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Mains de Havoc feu Starter",
+ "caNote": "Breastplate",
+ "saves": "FOR +5, CON +4",
+ "resistances": "feu"
+}

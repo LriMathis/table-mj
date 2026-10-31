@@ -1,0 +1,41 @@
+{
+ "id": "servante-de-spores-chuul",
+ "name": "Chuul Spore Servant",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le serviteur de spores fait deux attaques de pincer.\n**Pincer.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants. La cible est agrippé (Escape DD 14) si c'est une créature grande ou plus petite et que le serviteur de spores n'a pas deux autres créatures agrippé.",
+ "attacks": [
+  {
+   "name": "Pincer",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/267b36383a_monstre-servante-de-spores-chuul.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Servante de spores chuul",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, effrayé, paralysé, empoisonné"
+}

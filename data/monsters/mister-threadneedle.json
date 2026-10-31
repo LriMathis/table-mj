@@ -1,0 +1,41 @@
+{
+ "id": "mister-threadneedle",
+ "name": "Mister Threadneedle",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 36,
+ "hpFormula": "8d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 13,
+  "CON": 11,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Fausse apparence.** Alors que M. Threadneedle reste immobile, il est indiscrète d'un épouvantail ordinaire et inanimé.",
+ "actionsText": "**Multiattaques.** Monsieur Threadneedle fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 6 (2d4 + 1) dégâts tranchants. Si la cible est une créature, elle doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou être effrayé jusqu'à la fin du prochain tour de Mister Threadneedle.\n**Glare terrifiant.** Monsieur Threadneedle cible une créature il peut voir dans 9 m de lui. Si la cible peut voir Mister Threadneedle, la cible doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou être magiquement effrayé jusqu'à la fin du prochain tour de Mister Threadneedle. La cible effrayé est paralysé.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/bd6926fd34_monstre-mister-threadneedle.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, inconscient"
+}

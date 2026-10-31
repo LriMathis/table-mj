@@ -1,0 +1,41 @@
+{
+ "id": "servante-de-spores-horreur-crochue",
+ "name": "Hook Horror Spore Servant",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 75,
+ "hpFormula": "10d10+10",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le sporiste fait deux attaques au crochet.\n**Crochet.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Crochet",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8acca867bb_monstre-servante-de-spores-horreur-crochue.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Servante de spores horreur crochue",
+ "caNote": "armure naturelle",
+ "resistances": "poison",
+ "conditionImmunities": "aveuglé, charmé, effrayé, paralysé"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "sporule-servante-pieuvre",
+ "name": "Spore Servant Octopus",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 52,
+ "hpFormula": "8d10+8",
+ "vitesse": "1,50 m, nage 15 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 13,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "**Maintenez votre souffle.** En dehors de l'eau, la pieuvre peut retenir son souffle pendant 1 heure.\n**Respiration d'eau.** La pieuvre ne peut respirer que sous l'eau.",
+ "actionsText": "**Tentacules.** Attaque d'arme au corps à corps : +5 au toucher, allonge 4,50 m, une cible Touché : 7 (1d8 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/fec7e0b619_monstre-sporule-servante-pieuvre.webp",
+ "notes": "",
+ "source": "Dragons of Stormwreck Isle (5e.tools, traduction automatique)",
+ "aka": "Sporule servante pieuvre",
+ "conditionImmunities": "aveuglé, charmé, effrayé, paralysé"
+}

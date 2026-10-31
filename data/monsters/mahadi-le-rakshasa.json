@@ -1,0 +1,43 @@
+{
+ "id": "mahadi-le-rakshasa",
+ "name": "Mahadi the Rakshasa",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 17,
+ "hp": 195,
+ "hpFormula": "23d8+92",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 18,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "tous (peut lire seulement), commun, infernal",
+ "traits": "**Immunité magique limitée.** Mahadi ne peut pas être affecté ou détecté par des sorts de de niveau 6 ou plus bas à moins qu'il ne le veuille. Il a un avantage sur jet de sauvegarde contre tous les autres sorts et effets magiques.\n**Armes magiques.** Les attaques d'armes de Mahadi sont magiques.\n**Découpe intérieure.** L'innate de Mahadi caractéristique d'incantation est Charisme (spell save DD 18, +9 au toucher with attaques de sort). Il peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Détection des pensées, Déguisement, Main de mage, Illusion mineure\n- 1/jour chacun : Bannissement, Demi-plan, Domination de personne, Vol, Cage de force, Quête, Changement de plan, Vision suprême\n- 3/jour chacun : Charme-personne, Détection de la magie, Dissipation de la magie, Représailles infernales, Invisibilité, Image majeure, Communication avec les morts, Suggestion",
+ "actionsText": "**Multiattaques.** Mahadi fait quatre attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts tranchants, et la cible est maudite si c'est une créature. La malédiction prend effet chaque fois que la cible prend un repos court ou long, remplissant les pensées de la cible d'images et de rêves horribles. La cible maudite ne profite pas de la finition d'un repos court ou long. La malédiction dure jusqu'à ce qu'elle soit levée par un sort Délivrance des malédictions ou une magie similaire.\n**Invoquer Erinyes (1/jour).** Mahadi convoque Ilzabet, un érinyes lié à lui par un contrat infernal. L'érinyes apparaît dans un espace inoccupé au sein de 18 m de lui, agit comme son allié, et ne peut pas appeler d'autres démons. L'érinyes reste pendant 10 minutes ou jusqu'à ce que Mahadi le rejette comme une action. Si l'Erinyes meurt, Mahadi perd cette option d'action.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "2d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c884001302_monstre-mahadi-le-rakshasa.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Mahadi le rakshasa",
+ "caNote": "armure naturelle",
+ "saves": "SAG +9, CHA +10",
+ "skills": "Arcanes +7, Tromperie +10, Perspicacité +9, Perception +9",
+ "vulnerabilities": "perforant des armes magiques maniées par de bonnes créatures",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques"
+}

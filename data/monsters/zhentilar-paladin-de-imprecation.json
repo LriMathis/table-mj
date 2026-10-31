@@ -1,0 +1,46 @@
+{
+ "id": "zhentilar-paladin-de-imprecation",
+ "name": "Zhentilar Paladin of Bane",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 18,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun",
+ "traits": "**Aura de dread.** Les créatures dans une émanation 3 m provenant du Zhentilar ont leurs vitesses réduites de moitié pendant l'émanation. Le Zhentilar peut désigner des créatures qui ne seront pas affectées par l'aura.",
+ "actionsText": "**Multiattaques.** Le Zhentilar fait trois attaques, en utilisant la lame de doom ou le rayon oppressif dans n'importe quelle combinaison. Il peut remplacer une attaque par une utilisation de Spellcasting.\n**Lame de deuil.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts contondants plus 7 (2d6) dégâts nécrotiques.\n**Rayon oppressif.** Jet d'attaque à distance : +5, portée 27 m. Touché : 16 (3d10) dégâts psychiques.\n**Détection orthographique.** Le Zhentilar lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- 1/jour chacun : Injonction, Peur",
+ "attacks": [
+  {
+   "name": "Lame de deuil",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Rayon oppressif",
+   "bonus": 5,
+   "damage": "3d10",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/8d26831f7e_monstre-zhentilar-paladin-de-imprecation.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Zhentilar paladin de imprécation",
+ "saves": "FOR +5, CHA +5",
+ "skills": "Athlétisme +5, Intimidation +5, Religion +3"
+}

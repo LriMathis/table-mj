@@ -1,0 +1,42 @@
+{
+ "id": "lance-etoiles",
+ "name": "Star Lancer",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 60,
+ "hpFormula": "8d10+16",
+ "vitesse": "0 m, vol 15 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Perception passive 13",
+ "languages": "céleste, télépathie 36 m",
+ "traits": "**Volée.** Le lanceur d'étoiles ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.",
+ "actionsText": "**Corne.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants. Si le lance-étoiles a déplacé au moins 6 m droit vers la cible immédiatement avant le coup, la cible prend un 10 (3d6) dégâts perforants supplémentaire.\n**Cloque d'invisibilité (3/jour).** Le lanceur star et une créature qui le chevauchent (choisi par le lanceur star) tournent magiquement invisible. Cet effet dure jusqu'à ce que l'étoile lance ou une créature l'attaque ou jette un sort, ou jusqu'à ce que le concentration de l'étoile lance (comme si concentrating sur un sort). Tout équipement porté ou porté par les créatures invisible est également invisible pour la durée de la Cloque d'Invisibilité.",
+ "attacks": [
+  {
+   "name": "Corne",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/03004df709_monstre-lance-etoiles.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 1: Spelljammer Creatures (5e.tools, traduction automatique)",
+ "aka": "Lance-étoiles",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +4",
+ "skills": "Perception +3, Discrétion +4",
+ "resistances": "radiant"
+}

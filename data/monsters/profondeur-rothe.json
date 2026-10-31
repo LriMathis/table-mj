@@ -1,0 +1,38 @@
+{
+ "id": "profondeur-rothe",
+ "name": "Deep Rothé",
+ "type": "Bête (bovins)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 10,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Bête de la charge.** Le rothé est considéré comme une taille plus grande pour déterminer sa capacité de charge.",
+ "actionsText": "**Gore.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants. Si le rothé a déplacé au moins 6 m droit vers la cible immédiatement avant le coup, la cible prend un 7 (2d6) dégâts perforants supplémentaire.\n**Lumières dansantes.** Le rothé lance Lumières dansantes, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation.\n- À volonté : Lumières dansantes",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ced91e32aa_monstre-profondeur-rothe.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Profondeur Rothé"
+}

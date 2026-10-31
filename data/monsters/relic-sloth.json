@@ -1,0 +1,40 @@
+{
+ "id": "relic-sloth",
+ "name": "Relic Sloth",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 76,
+ "hpFormula": "8d12+24",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 9,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 14 (2d8 + 5) dégâts tranchants, et la cible est agrippé (évasion DD 15). La paresse relique ne peut pas atteindre plus de deux cibles à la fois.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/23584905ab_monstre-relic-sloth.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3",
+ "reactions": "**Lent mais robuste.** Lorsque le paresseux relique est soumis à un effet qui le déplacerait de son espace actuel ou le frapperait à terre, il n'est ni déplacé ni à terre."
+}

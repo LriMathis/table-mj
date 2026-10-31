@@ -1,0 +1,43 @@
+{
+ "id": "daemogoth-titan",
+ "name": "Daemogoth Titan",
+ "type": "Fiélon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 17,
+ "hp": 203,
+ "hpFormula": "11d20+88",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 10,
+  "CON": 26,
+  "INT": 24,
+  "SAG": 18,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 19",
+ "languages": "abyssal, infernal, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si le titan échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Pacte de souffrance.** En utilisant un rituel de 10 minutes, le titan peut forger un lien magique avec une créature volontaire qu'il touche tout au long du rituel. La créature devient liée par le pacte jusqu'à sa mort, le titan meurt, ou le pacte est brisé par un sort Souhait.\nLe titan choisit un sort à partir du niveau=0;1;2;3;4;5;6;7;8. La créature liée peut lancer ce sort en utilisant ce pacte, ne nécessitant aucun composant matériel et en utilisant Intelligence comme caractéristique d'incantation. Lorsqu'il lance le sort, la créature prend 21 (6d6) dégâts psychiques, qui ne peut pas briser le concentration de la créature sur un sort. Une fois que la créature liée jette le sort de cette façon, il ne peut pas le faire à nouveau jusqu'à ce qu'il termine un repos long.",
+ "actionsText": "**Multiattaques.** Le titan fait deux attaques de Burst.\n**Une crise d'angoisse.** Attaque de sort au corps à corps ou à distance : +12 au toucher, allonge 4,50 m ou portée 36 m, une cible. Touché : 17 (3d6 + 7) dégâts de force. Si la cible est une créature, le titan retrouve 5 points de vie.\n**Téléportation.** Le titan se téléporte dans un espace inoccupé qu'il peut voir en lui-même en 36 m.",
+ "attacks": [
+  {
+   "name": "Une crise d'angoisse",
+   "bonus": 12,
+   "damage": "3d6+7",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/7d74affd18_monstre-daemogoth-titan.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +12, SAG +9, CHA +10",
+ "skills": "Arcanes +17, Tromperie +15, Histoire +12, Perception +9",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, daemogoth titan peut entreprendre l'une des actions ci-après.\n**Attaque.** Le titan fait une attaque agonisante.\n**Traîner le cauchemar (coûts 2 actions).** Le titan utilise Teleport, après quoi il peut cibler une créature en 6 m de lui-même qu'il peut voir. La cible doit faire un DD 20 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la cible prend 22 (4d10) dégâts nécrotiques, et le titan retrouve 10 points de vie. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts et le titan ne guérit pas.\n**Terroriser (coûts 3 actions).** Le titan cible une créature il peut voir en lui-même 36 m. La cible doit faire un DD 20 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la cible prend 38 (7d10) dégâts psychiques et est effrayé du titan jusqu'à la fin du prochain tour de la cible, et le titan reprend 15 points de vie. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts et n'est pas effrayé, et le titan ne guérit pas."
+}

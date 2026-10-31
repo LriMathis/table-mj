@@ -1,0 +1,40 @@
+{
+ "id": "naga-osseux",
+ "name": "Naga osseux",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 58,
+ "hpFormula": "9d10+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 15,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisé, paralysé, empoisonné",
+ "senses": "vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun et une autre langue",
+ "traits": "**Incantation.** Ce naga est un lanceur de sorts de niveau 5 (DD du jet de sauvegarde contre les sorts 12, +4 pour toucher avec les attaques de sort) qui a seulement besoin de composantes verbales pour lancer ses sorts. S'il était un naga gardien de son vivant, il utilise la Sagesse comme caractéristique d'incantation et a préparé les sorts de prêtre suivants :\n- Tours de magie (à volonté) : *flamme sacrée, réparation, thaumaturgie*\n- Niveau 1 (4 emplacements) : *bouclier de la foi, injonction*\n- Niveau 2 (3 emplacements) : *apaisement des émotions, immobiliser un humanoïde*\n- Niveau 3 (2 emplacements) : *malédiction*\nSi, de son vivant, il était un naga corrupteur, il utilise l'Intelligence comme caractéristique d'incantation et a préparé les sorts de magicien suivants :\n- Tours de magie (à volonté) : *illusion mineure, main du mage, rayon de givre*\n- Niveau 1 (4 emplacements) : *charme-personne, sommeil*\n- Niveau 2 (3 emplacements) : *détection des pensées, immobiliser un humanoïde*\n- Niveau 3 (2 emplacements) : *éclair*",
+ "actionsText": "**Morsure.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 3 m, une créature. *Touché :* 10 (2d6+3) dégâts perforants plus 10 (3d6) dégâts de poison.",
+ "portrait": "/data/images/2cf4487170_monstre-naga-osseux.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 235 · image : Manuel des monstres p. 234",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "2d6+3+3d6",
+   "type": "perforant + poison"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "conduit-de-commande-transcendent",
+ "name": "Transcendent Order Conduit",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 19,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 18,
+  "CHA": 12
+ },
+ "senses": "Perception passive 17",
+ "languages": "Commun plus une langue de plus",
+ "traits": "**Réflexes instinctifs.** Le conduit a un avantage sur les rouleaux d'initiative, et il ne peut pas avoir de désavantage sur jets d'attaque.\n**Défense non armée.** Bien que le conduit ne porte pas d'armure et ne porte pas de bouclier, son CA comprend son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Le conduit fait trois attaques frappe à mains nues.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants. Si la cible est une créature, le conduit peut choisir l'un des effets supplémentaires suivants (jusqu'à une fois par tour chacun):\n- **Incapacité** La cible doit réussir sur un DD 15 jet de sauvegarde de Constitution ou avoir l'état neutralisé jusqu'à la fin du prochain tour du conduit.\n- **Poussez** La cible est poussée jusqu'à 3 m horizontalement loin du conduit.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/96468a458a_monstre-conduit-de-commande-transcendent.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Conduit de commande Transcendent",
+ "caNote": "Défense non armée",
+ "saves": "SAG +7, CHA +4",
+ "skills": "Acrobaties +7, Perception +7, Représentation +4",
+ "reactions": "**Défendre l'attaque.** En réponse à un choc par un jet d'attaque, le conduit dévie partiellement le coup. Les dégâts que le conduit prend de l'attaque sont réduits de 1d10.\n**Ne soyez pas là..** Lorsque le conduit doit faire un jet de sauvegarde, il peut avancer jusqu'à la moitié de sa vitesse sans provoquer des attaques d'opportunité. Si sa nouvelle position la déplace hors de portée ou rend impossible d'être ciblée par l'effet, le conduit évite complètement l'effet."
+}

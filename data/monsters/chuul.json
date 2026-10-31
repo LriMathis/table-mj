@@ -1,0 +1,41 @@
+{
+ "id": "chuul",
+ "name": "Chuul",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvaise",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 76,
+ "hpFormula": "9d10+27",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 11,
+  "CHA": 5
+ },
+ "skills": "Perception +4",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "comprend le profond mais ne peut pas parler",
+ "traits": "**Amphibie.** Le cthuul peut respirer sous l’eau comme à l’air libre.\n**Perception de la magie.** Le cthuul perçoit la magie dans un rayon de 36 m. Ce trait fonctionne pour le reste comme le sort *détection de la magie*, même s’il n’est pas magique en lui-même.",
+ "actionsText": "**Attaques multiples.** Le cthuul effectue deux attaques de Pince et recourt à Tentacules paralysants.\n**Pince.** Corps à corps : +6, allonge 3 m. Touché : 9 (1d10 + 4) dégâts contondants. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 14) par l’une des deux pinces.\n**Tentacules paralysants.** JS Constitution : DD 13, une créature Agrippée par le cthuul. Échec : la cible subit l’état Empoisonné et réitère le JS à la fin de chacun de ses tours ; elle met un terme à l’effet sur elle-même en cas de réussite. Au bout de 1 minute, elle réussit automatiquement ce JS. Tant qu’elle est ainsi Empoisonnée, la cible subit l’état Paralysé.",
+ "attacks": [
+  {
+   "name": "Pince",
+   "bonus": 6,
+   "damage": "1d10+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c9934847fb_monstre-chuul.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 36",
+ "aka": "Cthuul (2024)"
+}

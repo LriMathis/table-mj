@@ -1,0 +1,51 @@
+{
+ "id": "dragon-styx",
+ "name": "Styx Dragon",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 17,
+ "hp": 296,
+ "hpFormula": "16d20+128",
+ "vitesse": "9 m, creusement 6 m, nage 18 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 26,
+  "INT": 19,
+  "SAG": 20,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 21",
+ "languages": "draconique, infernal",
+ "traits": "**Amphibie.** Le dragon peut respirer l'air et l'eau.\n**Gaspillage Stygien.** Les créatures affligées de ce maladie sont incapables de récupérer points de vie de quelque manière que ce soit jusqu'à ce que le maladie soit guéri. De plus, alors que leur chair commence à pourrir, une créature avec ce maladie prend 36 (8d8) dégâts nécrotiques après chaque repos long qu'elle termine.\n**Édifice Styx.** Le dragon est à l'abri de tous les effets négatifs du Styx.",
+ "actionsText": "**Multiattaques.** Le dragon peut utiliser sa présence effrayante. Il fait ensuite trois attaques en utilisant sa Bite, Tail, ou une combinaison des deux. Il peut remplacer une des attaques par Constrict.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 1,50 m, une cible. Touché : 19 (2d10 + 8) dégâts perforants plus 7 (2d6) dégâts de poison, et la cible doit faire un DD 19 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la cible contracte Stygian Wasting.\n**Queue.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 15 (2d6 + 8) dégâts contondants. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 22). Le dragon ne peut pas faire une attaque Tail alors qu'une créature est agrippé de cette façon.\n**Constriction.** Le dragon resserre son emprise sur une créature agrippé par sa queue. La créature prend 27 (3d12 + 8) dégâts contondants, a l'état entravé jusqu'au début du prochain tour du dragon, et doit faire un DD 19 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la cible contracte Stygian Wasting.\n**Présence effrayante.** Chaque créature du choix du dragon qui se trouve à l'intérieur de 36 m du dragon doit réussir sur un DD 18 jet de sauvegarde de Sagesse ou avoir l'état effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante du dragon pour les prochaines 24 heures.\n**Souffle de Stygien (Recharge 5-6).** Le dragon exhale de l'eau styx venimeuse dans une ligne large 18 m -long. Chaque créature dans cette ligne doit faire un DD 19 jet de sauvegarde de Dextérité, en prenant 54 (12d8) dégâts de poison sur un sauvegarde échoué, ou la moitié de plus sur un succès. Des créatures qui échouent au contrat de sauvetage Stygian Wasting.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "2d10+8",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Queue",
+   "bonus": 14,
+   "damage": "2d6+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/7197f9c09f_monstre-dragon-styx.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Dragon Styx",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +14, SAG +11, CHA +10",
+ "skills": "Athlétisme +21, Perspicacité +11, Perception +11, Survie +17",
+ "resistances": "dégâts causés par des sorts",
+ "immunities": "froid, poison",
+ "conditionImmunities": "aveuglé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon styx peut entreprendre l'une des actions ci-après.\n**Détecter.** Le dragon fait un test de Sagesse (Perception).\n**Attaque de queue.** Le dragon fait une attaque à la queue. Si une créature est déjà agrippé, le dragon peut utiliser Constrict à la place.\n**Lancement de la mort (coûts 3 actions).** Si le dragon a réussi entravé une créature avec la capacité Constrict, il peut les jeter à 30 m. Quand il atterrit, la créature prend 21 (6d6) dégâts contondants et doit faire un DD 18 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la créature a l'état inconscient pendant 10 minutes."
+}

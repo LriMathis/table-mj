@@ -1,0 +1,40 @@
+{
+ "id": "geant-dragonfly",
+ "name": "Giant Dragonfly",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 16,
+ "hp": 22,
+ "hpFormula": "4d10",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 18,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Drone.** Lorsqu'elle bat ses ailes, la libellule émet un son fort qui peut être entendu sur une gamme de 36 m.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b19223b25f_monstre-geant-dragonfly.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Géant Dragonfly",
+ "caNote": "armure naturelle",
+ "reactions": "**Uncanny Dodge.** La libellule réduit de moitié les dégâts qu'elle prend lors d'une attaque effectuée contre elle, à condition qu'elle puisse voir l'attaquant."
+}

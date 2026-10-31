@@ -1,0 +1,45 @@
+{
+ "id": "duke-thalamra-vanthampur",
+ "name": "Duke Thalamra Vanthampur",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 10,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m (see devil's sight below), Perception passive 13",
+ "languages": "commun, infernal",
+ "traits": "**Dévotion sombre.** Thalamra a un avantage sur jet de sauvegarde contre charmé ou effrayé.\n**La vue du diable.** Thalamra peut voir normalement dans l'obscurité, à la fois magique et non magique, à une distance de 36 m.",
+ "actionsText": "**Multiattaques.** Thalamra utilise l'explosion d'Eldritch deux fois ou fait deux frappes à mains nues.\n**Blast d'Eldritch (sort mineur).** Attaque de sort à distance : +6 au toucher, portée 36 m, une créature. Touché : 9 (1d10 + 4) dégâts de force.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 4 dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Blast d'Eldritch (sort mineur)",
+   "bonus": 6,
+   "damage": "1d10+4",
+   "type": "force"
+  },
+  {
+   "name": "frappe à mains nues",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/4d79cd081d_monstre-duke-thalamra-vanthampur.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "skills": "Tromperie +6, Perspicacité +5, Intimidation +6, Religion +3",
+ "reactions": "**Réplique hellish (de niveau 1 Spell; 2/Jour).** Quand Thalamra est endommagée par une créature au sein de 18 m d'elle qu'elle peut voir, la créature qui l'a endommagée est engloutie dans des flammes infernales et doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 16 (3d10) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

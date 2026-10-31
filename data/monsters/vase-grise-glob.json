@@ -1,0 +1,41 @@
+{
+ "id": "vase-grise-glob",
+ "name": "Gray Ooze Glob",
+ "type": "Vase",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 9,
+ "hp": 19,
+ "hpFormula": "3d6+9",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 6,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 6,
+  "CHA": 2
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Amorphe.** L'ooze peut se déplacer dans un espace aussi étroit que 1 pouce sans dépenser de mouvement supplémentaire pour le faire.\n**Forme corrosive.** Chaque fois qu'une créature frappe le trou avec une attaque de mêlée, cette créature prend 2 dégâts d'acide.",
+ "actionsText": "**Pseudopod.** Jet d'attaque au corps à corps : +3, allonge 1,50 m. Touché : 10 (2d8 + 1) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 3,
+   "damage": "2d8+1",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/368fc2b558_monstre-vase-grise-glob.webp",
+ "notes": "",
+ "source": "Heroes of the Borderlands (5e.tools, traduction automatique)",
+ "aka": "Vase grise Glob",
+ "skills": "Discrétion +2",
+ "resistances": "acide, froid, feu",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, agrippé, à terre, entravé"
+}

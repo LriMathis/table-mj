@@ -1,0 +1,47 @@
+{
+ "id": "meurtre-comet",
+ "name": "Murder Comet",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 19,
+ "hp": 66,
+ "hpFormula": "7d8+35",
+ "vitesse": "0 m, vol 36 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 72 m, Perception passive 10",
+ "languages": "igné, terreux",
+ "traits": "**Exploser.** Lorsque la comète tombe à 0 points de vie, elle explose dans une sphère 6 m -radius centrée sur elle-même. Chaque créature dans la sphère doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 28 (8d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Volée.** La comète ne provoque pas d'attaques d'opportunités quand elle vole hors de la portée d'un ennemi.\n**Éclairage.** La comète apporte une lumière lumineuse dans un rayon de 9 m et une lumière dim pour un 9 m supplémentaire.\n**Monstre de siège.** La comète inflige deux dégâts aux objets et aux structures.\n**Nature inhabituelle.** La comète n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** La comète fait une attaque de Slam et une attaque de Spit feu.\n**Clamer.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts contondants plus 7 (2d6) dégâts de feu.\n**Craquage feu.** Attaque d'arme à distance : +5 au toucher, portée 18 m, une cible. Touché : 13 (2d10 + 2) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "1d8+2",
+   "type": "contondant + feu"
+  },
+  {
+   "name": "Craquage feu",
+   "bonus": 5,
+   "damage": "2d10+2",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/9c3317a538_monstre-meurtre-comet.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Meurtre Comet",
+ "caNote": "armure naturelle",
+ "immunities": "feu, poison",
+ "conditionImmunities": "épuisement, paralysé, pétrifié, empoisonné, à terre, inconscient"
+}

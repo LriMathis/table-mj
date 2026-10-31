@@ -1,0 +1,46 @@
+{
+ "id": "reigar",
+ "name": "Reigar",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 19,
+ "hp": 82,
+ "hpFormula": "15d8+15",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 24
+ },
+ "senses": "Perception passive 13",
+ "languages": "céleste, commun, profond, draconique",
+ "traits": "**Gloire.** Le classe d'armure du reigar inclut son modificateur Charisme.\n**Maintenez votre souffle.** Le reigar peut retenir son souffle pendant 1 heure.\n**Matériel spécial.** Le reigar porte un Talarith.",
+ "actionsText": "**Multiattaques.** Le reigar fait deux attaques Trident.\n**Trident.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants, ou 8 (1d8 + 4) dégâts perforants si utilisé à deux mains pour faire une attaque de mêlée, plus 3 (1d6) dégâts de force si le reigar porte son talarith.\n**Bolt chromatique.** Attaque de sort à distance : +10 au toucher, portée 27 m, une cible. Touché : 22 (5d8) dégâts d'un type choisi par le reigar de la liste suivante: froid, feu, foudre, ou rayonnant.\n**Invoquer le duplicata (Recharges après un repos court ou long).** À l'aide de son talarith, le reigar invoque un duplicata de lui-même. Le duplicata obéit aux commandes du reigar et utilise les statistiques du reigar, sauf qu'il s'agit d'un Construction non aligné qui n'a pas de talarith propre. Le duplicata prend son tour immédiatement après le reigar. Il disparaît après 1 heure ou quand il est réduit à 0 points de vie.\n**Coulisse (Psioniques).** Le reigar lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Lumière, Main de mage, Prestidigitation\n- 1/jour chacun : Suggestion de groupe, Communication à distance\n- 2/jour chacun : Porte dimensionnelle, Force fantasmagorique",
+ "attacks": [
+  {
+   "name": "Trident",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Bolt chromatique",
+   "bonus": 10,
+   "damage": "5d8",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/6f9774c884_monstre-reigar.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "gloire",
+ "saves": "DEX +5, CON +4, SAG +6, CHA +10",
+ "skills": "Arcanes +7, Histoire +7, Représentation +10, Persuasion +10"
+}

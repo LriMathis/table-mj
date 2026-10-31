@@ -1,0 +1,41 @@
+{
+ "id": "zombi-tyrannoeil-xmm",
+ "name": "Beholder Zombie",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "1,50 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 14,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend le discours profond et le sous-commun mais ne peut pas parler",
+ "traits": "**Fortitude non-morte.** Si les dégâts réduisent le zombie à 0 points de vie, il fait un jet de sauvegarde de Constitution (DD 5 plus les dégâts pris) à moins que les dégâts soient radiant ou à partir d'un Hit critique. Sur une sauvegarde réussie, le zombie tombe à 1 points de vie à la place.",
+ "actionsText": "**Multiattaques.** Le zombie utilise des Rayons Eyeux deux fois.\n**Morceau.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 16 (4d6 + 2) dégâts perforants.\n**Rayons oculaires.** Le zombie tire au hasard l'un des rayons magiques suivants à une cible qu'il peut voir en 36 m de lui-même (roulez 1d4 ; reroulez si le zombie a déjà utilisé ce rayon pendant ce tour):\n- **1: Ray paralysant** Jet de sauvegarde de Constitution : DD 14. Échec : La cible a l'état paralysé et répète l'enregistrement à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Après 1 minute, il réussit automatiquement.\n- **2: Peur Ray** Jet de sauvegarde de Sagesse : DD 14. Échec : 13 (3d8) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour.\n- **3: Rayon d'énervation** Jet de sauvegarde de Constitution : DD 14. Échec : 10 (3d6) dégâts nécrotiques, et la cible a l'état empoisonné jusqu'à la fin de son prochain tour. Alors qu'empoisonné, la cible ne peut pas récupérer points de vie. Réussite : Demi-dégâts seulement.\n- **4: Rayon de désintégration** Jet de sauvegarde de Dextérité : DD 14. Échec : 27 (5d10) dégâts de force. Si la cible est un objet non magique ou une création de force magique, un cube 3 m de celui-ci se désintègre en poussière. Réussite : Demi-dégâts. Échec ou réussite : Si la cible est une créature et que ce dégâts la réduit à 0 points de vie, elle se désintègre dans la poussière.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "4d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e2e609ea62_monstre-zombi-tyrannoeil-xmm.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Zombi tyrannoeil",
+ "saves": "SAG +2",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné, à terre"
+}

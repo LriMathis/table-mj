@@ -1,0 +1,53 @@
+{
+ "id": "othokent",
+ "name": "Othokent",
+ "type": "Humanoïde (homme-lézard)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, abyssal, draconique",
+ "traits": "**Maintenez votre souffle.** Othokent peut retenir son souffle pendant 15 minutes.\n**Écrous.** Une fois par tour, quand Othokent fait une attaque de mêlée avec son trident et frappe, la cible prend un 10 (3d6) de plus de dégâts, et Othokent gagne points de vie temporaires égal au dégâts supplémentaire infligé.",
+ "actionsText": "**Multiattaques.** Othokent fait deux attaques: une avec sa morsure et une avec ses griffes ou trident ou deux attaques de mêlée avec son trident.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts tranchants.\n**Trident.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants, ou 7 (1d8 + 3) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Trident",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/832bf370b6_monstre-othokent.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +4, SAG +2",
+ "skills": "Perception +4, Discrétion +5, Survie +4",
+ "conditionImmunities": "effrayé"
+}

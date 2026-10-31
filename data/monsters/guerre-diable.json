@@ -1,0 +1,50 @@
+{
+ "id": "guerre-diable",
+ "name": "War Devil",
+ "type": "Fiélon (diable)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 11,
+ "hp": 237,
+ "hpFormula": "19d12+114",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 9,
+  "CON": 23,
+  "INT": 7,
+  "SAG": 13,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** Les ténèbres magiques n'entravent pas la vision sombre du diable de guerre.\n**Peur Aura.** Toute créature hostile qui commence son tour au sein de 6 m du diable de guerre doit réussir sur un DD 18 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'au prochain tour de la créature. Si le jet de sauvegarde d'une créature est réussi, la créature est immunisée contre la peur du diable de guerre Aura pendant les 24 prochaines heures. Cette capacité ne fonctionne pas si le diable de guerre est inconscient.\n**Résistance magique.** Le diable de guerre a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le diable de guerre fait deux attaques en utilisant son froid - Iron Ranseur, Claws, ou une combinaison des deux.\n**froid -Iron Ranseur.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 23 (3d10 + 7) dégâts de force plus 14 (4d6) dégâts de froid.\n**Griffes.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 20 (3d8 + 7) dégâts tranchants. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 20). Alors qu'une créature est agrippé, le diable de guerre ne peut pas faire d'attaques aux griffes.",
+ "attacks": [
+  {
+   "name": "froid -Iron Ranseur",
+   "bonus": 12,
+   "damage": "3d10+7",
+   "type": "force + froid"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 12,
+   "damage": "3d8+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1b9bde8027_monstre-guerre-diable.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Guerre diable",
+ "caNote": "armure naturelle",
+ "saves": "FOR +12, CON +11",
+ "skills": "Athlétisme +12, Perspicacité +6, Intimidation +4, Perception +6",
+ "resistances": "froid",
+ "immunities": "feu, poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "conditionImmunities": "effrayé, empoisonné"
+}

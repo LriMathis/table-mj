@@ -1,0 +1,40 @@
+{
+ "id": "cree",
+ "name": "Created",
+ "type": "Créature artificielle",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 9,
+ "hp": 127,
+ "hpFormula": "15d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 9,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun",
+ "traits": "**Berserk.** Chaque fois que la création démarre son tour en sang, roulez 1d6. Sur un 6, la création va berserk. Sur chacun de ses virages tandis que berserk, le créé attaque la créature la plus proche qu'il puisse voir. Si aucune créature n'est assez proche pour se déplacer et attaquer, le créé attaque un objet. Une fois que le créé va berserk, il le reste jusqu'à ce qu'il soit détruit ou qu'il ne soit plus en sang.\nLe créateur du créé, si au sein de 18 m du berserk créé, peut essayer de le calmer en prenant une action pour faire un DD 15 test de Charisme (Persuasion) ; le créé doit pouvoir entendre son créateur. Si ce contrôle réussit, le créé cesse d'être berserk jusqu'au début de son prochain tour, auquel moment il reprend le roulement pour le trait Berserk s'il est toujours en sang.\n**Formulaire immuable.** La création ne peut pas changer de forme.\n**foudre absorption.** Chaque fois que la création est soumise à dégâts de foudre, elle récupère un nombre de points de vie égal à la dégâts de foudre distribuée.\n**Résistance magique.** Le créé a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le créé fait deux attaques de Slam.\n**Clamer.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts contondants plus 4 (1d8) dégâts de foudre.\n**Défaut de fonctionnement (Recharge 6).** La création aléatoire crée l'un des effets suivants (roll 1d4) :\n- **1: Insecte Vive** Jet de sauvegarde de Constitution : DD 15, chaque créature dans 3 m. Échec : La créature prend 13 (3d8) dégâts de poison et a l'état empoisonné jusqu'au début de son prochain tour.\n- **2: Moulage du plastique** Jet de sauvegarde de Dextérité : DD 15, chaque créature dans un cône 4,50 m. Échec : 13 (3d8) dégâts de feu. Jusqu'à la fin du prochain tour de la cible, la vitesse de la cible est réduite de moitié; la cible ne peut pas prendre de réactions; et la cible peut prendre une action ou action bonus à son tour, pas les deux. Réussite : Demi-dégâts seulement\n- **3: Décharge électrique** Jet de sauvegarde de Dextérité : DD 15, chaque créature dans 3 m. Échec : 18 (4d8) dégâts de foudre. Réussite : moitié des dégâts\n- **4: Fils de foin** Le créé fait deux attaques de Slam et va berserk. Il roule pour le trait Berserk chaque tour, qu'il soit ou non en sang, pendant 1 minute.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant + foudre"
+  }
+ ],
+ "portrait": "/data/images/a98a71ac7b_monstre-cree.webp",
+ "notes": "",
+ "source": "Project_Lamordia (5e.tools, traduction automatique)",
+ "aka": "Créé",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

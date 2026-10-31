@@ -1,0 +1,38 @@
+{
+ "id": "pendragon-beestinger",
+ "name": "Pendragon Beestinger",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, draconique, elfique, halfelin",
+ "traits": "**Echo Spell (1/jour).** Pendragon peut jeter le sort qu'il a lancé à son dernier tour, dont le temps de coulée devient 1 action bonus. Ce casting bonus utilise un emplacement de sort comme normal.\n**Détection orthographique.** Pendragon est un speller de niveau 4. Son caractéristique d'incantation est Intelligence (save spell DD 13, +5 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Aspersion d'acide, Lumière, Main de mage, Bouffée de poison, Poigne électrique\n- Niveau 1 (4 emplacements) : Détection de la magie, Armure de mage, Projectile magique, Sommeil\n- Niveau 2 (3 emplacements) : Cécité/Surdité, Nuée de dagues, Rayon ardent",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3046d4e2d1_monstre-pendragon-beestinger.webp",
+ "notes": "",
+ "source": "Acquisitions Incorporated (5e.tools, traduction automatique)",
+ "skills": "Arcanes +5, Investigation +5, Représentation +2"
+}

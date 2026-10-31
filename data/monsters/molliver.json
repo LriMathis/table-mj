@@ -1,0 +1,47 @@
+{
+ "id": "molliver",
+ "name": "Molliver",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 9,
+  "CHA": 16
+ },
+ "senses": "Perception passive 9",
+ "languages": "commun",
+ "traits": "**Évasion.** Lorsqu'il est soumis à un effet qui permet à un jet de sauvegarde de Dextérité de ne prendre que la moitié des dégâts, Molliver ne prend aucun dégâts sur un sauvegarde réussi ou la moitié des dégâts sur un échec, à condition que Molliver n'est pas neutralisé.\n**Matériel spécial.** Molliver porte +1 armure en cuir et Bottes de lévitation.",
+ "actionsText": "**Multiattaques.** Molliver fait deux attaques Dagger ou Shortsword, ou l'une de chacune.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants. L'attaque fournit un 7 (2d6) dégâts perforants supplémentaire si Molliver a un avantage sur le jet d'attaque ou si la cible est dans 1,50 m de l'un des alliés de Molliver.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 6 (1d6 + 3) dégâts perforants. L'attaque fournit un 7 (2d6) dégâts perforants supplémentaire si Molliver a un avantage sur le jet d'attaque ou si la cible est dans 1,50 m de l'un des alliés de Molliver.\n**Lévitat.** Tout en portant des bottes de lévitation, Molliver lance Lévitation (seul).",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/241e6deb29_monstre-molliver.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "+1 armure en cuir",
+ "saves": "DEX +5, INT +2",
+ "skills": "Acrobaties +7, Escamotage +7, Discrétion +7",
+ "reactions": "**Uncanny Dodge.** Molliver réduit de moitié les dégâts qu'ils prennent lors d'une attaque faite contre eux, à condition qu'ils puissent voir l'agresseur."
+}

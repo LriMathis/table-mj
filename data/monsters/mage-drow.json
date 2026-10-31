@@ -1,0 +1,39 @@
+{
+ "id": "mage-drow",
+ "name": "Mage drow",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "caNote": "15 avec armure du mage",
+ "hp": 45,
+ "hpFormula": "10d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 17,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "skills": "Arcanes +6, Discrétion +5, Perception +4, Supercherie +5",
+ "senses": "vision dans le noir 36 m, Perception passive 14",
+ "languages": "commun des profondeurs, elfique",
+ "traits": "**Ascendance féerique.** Le drow est avantagé lors des jets de sauvegarde contre l'état charmé et la magie ne peut pas l'endormir.\n**Incantation.** Le drow est un lanceur de sorts de niveau 10. Sa caractéristique d'incantation est l'Intelligence (DD du jet de sauvegarde contre les sorts 14, +6 pour toucher avec les attaques de sort). Voici la liste des sorts de magicien préparés par le drow :\n- Tours de magie (à volonté) : *bouffée de poison, illusion mineure, main du mage, rayon de givre*\n- Niveau 1 (4 emplacements) : *armure du mage, bouclier, carreau ensorcelé, projectile magique*\n- Niveau 2 (3 emplacements) : *modifier son apparence, pas brumeux, toile d'araignée*\n- Niveau 3 (3 emplacements) : *éclair, vol*\n- Niveau 4 (3 emplacements) : *invisibilité supérieure, tentacules noirs d'Évard*\n- Niveau 5 (2 emplacements) : *nuage mortel*\n**Incantation innée.** La caractéristique d'incantation du drow est le Charisme (DD du jet de sauvegarde contre les sorts 12). Le drow peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *lumières dansantes*\n- 1/jour chacun : *lévitation* (soi-même uniquement), *lueurs féeriques, ténèbres*\n**Sensibilité à la lumière du soleil.** Le drow est désavantagé lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à la lumière du soleil.",
+ "actionsText": "**Bâton.** *Attaque d'arme au corps à corps :* +2 pour toucher, allonge 1,50 m, une cible. *Touché :* 2 (1d6-1) dégâts contondants, ou 3 (1d8-1) dégâts contondants s'il est manié à deux mains, plus 3 (1d6) dégâts de poison.\n**Convocation de démon (1/jour).** Le drow convoque par magie un quasit ou tente de convoquer un démon des ombres avec 50 % de chances de réussite. Le démon convoqué apparaît dans un emplacement inoccupé situé à 18 mètres ou moins de son invocateur, se comporte comme son allié et ne peut convoquer d'autres démons. Il reste pendant 10 minutes, jusqu'à ce que lui ou son invocateur meure ou jusqu'à ce que son invocateur le renvoie par une action.",
+ "portrait": "/data/images/eda6eeead2_monstre-mage-drow.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 126 · image : internet",
+ "attacks": [
+  {
+   "name": "Bâton",
+   "bonus": 2,
+   "damage": "1d6-1",
+   "type": "contondant"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "rictavio",
+ "name": "Rictavio",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 77,
+ "hpFormula": "14d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "abyssal, commun, elfique, infernal",
+ "traits": "**Matériel spécial.** En plus de sa canne à épée, Rictavio porte un Chapeau de déguisement et un Anneau de barrière mentale, et il porte un rouleau de sort de Rappel à la vie.\n**Tueuse non morte.** Lorsque Rictavio frappe un non-mort avec une attaque d'arme, le non-mort prend un 10 (3d6) de plus de dégâts du type d'arme.\n**Détection orthographique.** Rictavio est un spellcaster de niveau 9. Son caractéristique d'incantation est Sagesse (save spell DD 15, +7 au toucher avec attaques de sort). Rictavio a les sorts clerc suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Lumière, Réparation, Thaumaturgie\n- Niveau 1 (4 emplacements) : Soins, Détection du mal et du bien, Protection contre le mal et le bien, Sanctuaire\n- Niveau 2 (3 emplacements) : Augure, Restauration partielle, Protection contre le poison\n- Niveau 3 (3 emplacements) : Cercle magique, Délivrance des malédictions, Communication avec les morts\n- Niveau 4 (3 emplacements) : Protection contre la mort, Liberté de mouvement\n- Niveau 5 (1 emplacements) : Dissipation du mal et du bien",
+ "actionsText": "**Multiattaques.** Rictavio fait deux attaques avec sa canne à épée.\n**Canne d'épée.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants (cane de bois) ou dégâts perforants (épée argentée).",
+ "attacks": [
+  {
+   "name": "Canne d'épée",
+   "bonus": 4,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/cee053811c_monstre-rictavio.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "CON +4, SAG +7",
+ "skills": "Arcanes +9, Perspicacité +7, Médecine +7, Perception +7, Religion +6, Escamotage +4"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "vond",
+ "name": "Vond",
+ "type": "Humanoïde (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 84,
+ "hpFormula": "13d8+26",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 18,
+  "CON": 15,
+  "INT": 16,
+  "SAG": 17,
+  "CHA": 12
+ },
+ "senses": "Perception passive 16",
+ "languages": "gith",
+ "traits": "**psychique Défense.** Alors que Vond ne porte pas d'armure et n'a pas de bouclier, son CA inclut son modificateur Sagesse.\n**La diffusion de l'orthographe innée (Psioniques).** Le caractéristique d'incantation inné de Vond est Sagesse. Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Main de mage (la main est invisible)\n- 1/jour chacun : Assassin imaginaire, Changement de plan\n- 3/jour chacun : Feuille morte, Saut, Voir l'invisible, Bouclier",
+ "actionsText": "**Multiattaques.** Vond fait deux frappes à mains nues.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants plus 13 (3d8) dégâts psychiques. C'est une attaque d'arme magique.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/7d6641ea16_monstre-vond.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "saves": "FOR +4, DEX +7, INT +6, SAG +6",
+ "skills": "Arcanes +6, Perspicacité +6, Perception +6"
+}

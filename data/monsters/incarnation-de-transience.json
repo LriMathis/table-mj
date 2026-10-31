@@ -1,0 +1,47 @@
+{
+ "id": "incarnation-de-transience",
+ "name": "Incarnation of Transience",
+ "type": "Fée",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 142,
+ "hpFormula": "15d12+45",
+ "vitesse": "12 m, nage 12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 20,
+  "CON": 17,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "Sylvan; télépathie 36 m.",
+ "traits": "**Mouvement éphémère.** L'incarnation peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile, et son mouvement ne provoque pas Opportunity Attacks. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance magique.** L'incarnation a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'incarnation fait trois attaques, en utilisant Bite ou Miasmic Globule dans n'importe quelle combinaison.\n**Morceau.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts perforants.\n**Globule Miasmique.** Jet d'attaque à distance : +8, portée 18/36 m. Touché : 15 (6d4) dégâts d'acide, et la vitesse de la cible est réduite de 3 m jusqu'à la fin du prochain tour de l'incarnation.\n**Spectral Stampede.** L'incarnation monte à 24 m en ligne droite. Chaque créature dont l'espace entre dans l'incarnation est ciblé une fois par l'effet suivant. Jet de sauvegarde de Dextérité : DD 16. Échec : 18 (4d8) dégâts de force. Si la cible est la taille de l'incarnation ou plus petite, elle a l'état à terre. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Globule Miasmique",
+   "bonus": 8,
+   "damage": "6d4",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/fb38db9815_monstre-incarnation-de-transience.webp",
+ "notes": "",
+ "source": "Lorwyn: First Light (5e.tools, traduction automatique)",
+ "aka": "Incarnation de Transience",
+ "saves": "DEX +8, CON +6",
+ "conditionImmunities": "agrippé, paralysé, pétrifié, à terre, entravé",
+ "bonusActions": "**Forme-filtre.** L'incarnation change sa taille en Medium, Large, ou Énorme."
+}

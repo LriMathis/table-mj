@@ -1,0 +1,53 @@
+{
+ "id": "profondeur-scion",
+ "name": "Deep Scion",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 11,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m (6 m et nager 12 m sous forme hybride)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "aquatique, commun, argot des voleurs",
+ "traits": "**Amphibie (forme hybride seulement).** Le scion profond peut respirer de l'air et de l'eau.",
+ "actionsText": "**Multiattaques.** Le scion profond fait deux attaques Battleaxe, ou il fait une attaque Bite et deux attaques Claw.\n**Bataille.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains.\n**Bite (forme hybride seulement).** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 6 (1d4 + 4) dégâts perforants.\n**Griffe (formulaire hybride seulement).** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.\n**psychique Screech (Forme hybride seulement); Recharges après un repos court ou long).** Le scion profond émet un cri terrible audible dans 90 m. Les créatures à l'intérieur de 9 m du scion profond doivent réussir sur un DD 13 jet de sauvegarde de Sagesse ou être étourdi jusqu'à la fin du tour suivant du scion profond. Dans l'eau, l'échafaudage psychique transmet aussi télépathiquement les souvenirs de l'échafaudage profond des dernières 24 heures à son maître, indépendamment de la distance, tant qu'il et son maître sont dans le même plan d'eau.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Bite (forme hybride seulement)",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe (formulaire hybride seulement)",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1d1c9a4526_monstre-profondeur-scion.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Profondeur Scion",
+ "saves": "SAG +3, CHA +4",
+ "skills": "Tromperie +6, Perspicacité +3, Escamotage +3, Discrétion +3",
+ "bonusActions": "**Modifier la forme.** Le scion profond se transforme en une forme hybride (humanoïde-piscine) ou en sa forme véritable, qui est semblable à l'homme. Ses statistiques, autres que sa vitesse, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Le scion profond revient à sa vraie forme s'il meurt."
+}

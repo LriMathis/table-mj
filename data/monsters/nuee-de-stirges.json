@@ -1,0 +1,40 @@
+{
+ "id": "nuee-de-stirges",
+ "name": "Swarm of Stirges",
+ "type": "Nuée de taille très petite (Monstruosité)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 36,
+ "hpFormula": "8d8",
+ "vitesse": "3 m, vol 12 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 8,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour une créature minuscule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Swarm de Proboscies.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 14 (2d10 + 3) dégâts perforants ou 8 (1d10 + 3) dégâts perforants si l'essaim est en sang. Si la cible est une créature moyenne ou plus petite dans l'espace de l'essaim, la cible a l'état agrippé (évasion DD 13). Jusqu'à ce que le grappin se termine, la cible prend 7 (2d6) dégâts nécrotiques à la fin de chacun de ses tours.",
+ "attacks": [
+  {
+   "name": "Swarm de Proboscies",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/070a8cee96_monstre-nuee-de-stirges.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Nuée de Stirges",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

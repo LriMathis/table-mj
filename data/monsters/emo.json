@@ -1,0 +1,42 @@
+{
+ "id": "emo",
+ "name": "Emo",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 180,
+ "hpFormula": "19d10+76",
+ "vitesse": "0 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 22",
+ "languages": "profond, commun des profondeurs",
+ "traits": "**Cône antimagique.** L'œil central d'Emo crée une zone d'antimagique, comme dans le sort Champ antimagie, dans un cône 45 m. Au début de chacun de ses virages, Emo décide de la façon dont le cône se présente et si le cône est actif. La zone fonctionne contre les propres rayons oculaires d'Emo.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 14 (4d6) dégâts perforants.\n**Rayons oculaires.** Emo tire trois des rayons oculaires magiques suivants au hasard (reroulement des duplicatas), en choisissant une à trois cibles qu'il peut voir dans 36 m de lui:\n- **1. Le bonheur Ray** La créature ciblée doit réussir sur une DD 14 jet de sauvegarde de Sagesse ou la chute à terre avec le rire, devenir neutralisé et incapable de se lever pendant 1 minute ou jusqu'à ce qu'Emo blesse la créature. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **2. La tristesse Ray** La créature ciblée doit réussir sur un DD 15 jet de sauvegarde d'Intelligence. Sur une sauvegarde ratée, la cible est surmontée par la douleur et prend 3d6 dégâts psychiques, et il ne peut pas prendre une réaction jusqu'à la fin de son prochain tour. À son tour suivant, il peut utiliser soit une action, soit une action bonus, pas les deux. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts et ne subit aucun des autres effets.\n- **3. Rayon de colère** La créature ciblée doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être obligée de duel avec Emo pendant 1 minute. La cible a un désavantage sur jets d'attaque contre des créatures autres qu'Emo et doit faire un jet de sauvegarde de Sagesse chaque fois qu'elle tente de déplacer plus de 9 m loin d'Emo.\n- **4. Rayon d'anxiété** La créature ciblée doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou perdre la capacité de distinguer l'ami de l'ennemi, par rapport à toutes les créatures qu'elle peut voir comme des ennemis pendant 1 minute. Chaque fois que la cible prend des dégâts, elle peut répéter le jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès. Chaque fois que la créature touchée cible une autre créature avec une attaque, un sort, ou une autre capacité, elle doit choisir la cible au hasard parmi les créatures qu'elle peut voir dans la portée de l'attaque, du sort, ou d'autres capacités qu'elle utilise. Si un ennemi provoque une attaque de la créature touchée, la créature doit faire cette attaque si elle est capable.\n- **5. Peur Ray** La créature ciblée doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **6. Rayon de désolation** La créature ciblée doit réussir sur un DD 14 jet de sauvegarde d'Intelligence. Lors d'une sauvegarde réussie, la cible prend 5d10 dégâts psychiques, et le sort se termine. Sur une sauvegarde ratée, la cible prend 5d10 dégâts psychiques et se perçoit comme confinée dans une cellule de pierre illusoire pendant 1 minute. La cible ne peut rien voir ou entendre au-delà de la cellule et est entravé.\n- **7. Jaloux Ray** La créature ciblée doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou devenir charmé pendant 1 minute. Alors que la cible est charmé de cette façon, il doit utiliser son action avant de se déplacer sur chacun de ses tours pour faire une attaque de mêlée contre une créature qu'Emo choisit. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **8. Rayon dégoûtant** La créature ciblée doit réussir sur un DD 15 jet de sauvegarde de Constitution contre le poison. Sur une sauvegarde ratée, la cible est enveloppée dans une sphère de gaz jaune, nauséabonde, et dépense son action sur son prochain tour en remuant et en secouant.\n- **9. Ray Surprise** La créature ciblée doit réussir sur une DD 15 jet de sauvegarde de Dextérité ou être aveuglé par un vaporisateur de couleur jusqu'à la fin de son prochain tour.\n- **10. Faites confiance à Ray** La créature ciblée doit réussir sur une DD 16 jet de sauvegarde de Sagesse ou être charmé par Emo pendant 1 heure ou jusqu'à ce qu'Emo blesse la créature.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "4d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/52c27ad10d_monstre-emo.webp",
+ "notes": "",
+ "source": "NERDS Restoring Harmony: Adventure Together (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +8, SAG +7, CHA +8",
+ "skills": "Perception +12",
+ "conditionImmunities": "à terre",
+ "legendary": "Emo peut prendre 3 actions légendaires, en utilisant l'option Eye Ray ci-dessous. Il ne peut prendre qu'une action légendaire à la fois et seulement à la fin du tour d'une autre créature. Emo reprend les actions légendaires passées au début de son tour.\n**Rayon oculaire.** Emo utilise un rayon oculaire aléatoire."
+}

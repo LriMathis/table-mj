@@ -1,0 +1,41 @@
+{
+ "id": "statue-animee-drow",
+ "name": "Animated Drow Statue",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 18,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 13,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 6",
+ "languages": "—",
+ "traits": "**Susceptibilité antimagique.** La statue est neutralisé alors que dans la zone d'un Champ antimagie. Si elle est ciblée par Dissipation de la magie, la statue doit réussir sur un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur ou tomber inconscient pendant 1 minute.\n**Fausse apparence.** Bien que la statue reste immobile, elle est indissociable d'une statue normale.",
+ "actionsText": "**Multiattaques.** La statue fait deux attaques à la mêlée.\n**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/fc56299bd8_monstre-statue-animee-drow.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Statue animée drow",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

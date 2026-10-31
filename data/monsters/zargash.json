@@ -1,0 +1,47 @@
+{
+ "id": "zargash",
+ "name": "Zargash",
+ "type": "Humanoïde (clerc, humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun",
+ "traits": "**Cling to Life (Recharges après un repos long).** La première fois que Zargash tomberait à 0 points de vie à la suite de la prise de dégâts, il tombe plutôt à 1 points de vie.\n**Matériel spécial.** Zargash porte une amulette en forme de chauve-souris qui a les propriétés d'un Anneau de feuille morte.",
+ "actionsText": "**Marteau de guerre.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts contondants, ou 7 (1d10 + 2) dégâts contondants lorsqu'il est utilisé à deux mains.\n**Rayon de mort.** Attaque de sort à distance : +5 au toucher, portée 18 m, une créature. Touché : 25 (4d10 + 3) dégâts nécrotiques.\n**Détection orthographique.** Zargash lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumière, Thaumaturgie\n- 1/jour chacun : Injonction, Forme gazeuse, Immobilisation de personne, Silence, Communication avec les morts",
+ "attacks": [
+  {
+   "name": "Marteau de guerre",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "contondant"
+  },
+  {
+   "name": "Rayon de mort",
+   "bonus": 5,
+   "damage": "4d10+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/8294007949_monstre-zargash.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne",
+ "saves": "SAG +5, CHA +4",
+ "skills": "Tromperie +6, Perspicacité +5",
+ "bonusActions": "**Corps d'animation (1/jour).** Zargash vise le cadavre sans vie d'un humanoïde qu'il peut voir au sein de 9 m de lui et l'ordonne de se lever, le transformant en zombie sous son contrôle. Le zombie prend son tour immédiatement après Zargash. Animer le zombie nécessite concentration de ZARGash (comme si concentrating sur un sort). Le zombie revient à un cadavre inanimé après 10 minutes, quand il tombe à 0 points de vie, ou quand concentration de Zargosh se termine."
+}

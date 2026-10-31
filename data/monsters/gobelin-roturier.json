@@ -1,0 +1,38 @@
+{
+ "id": "gobelin-roturier",
+ "name": "Goblin Commoner",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 3,
+ "hpFormula": "1d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Club.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une cible. Touché : 1 (1d4 - 1) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 1,
+   "damage": "1d4-1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2c0d8164a9_monstre-gobelin-roturier.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Gobelin roturier"
+}

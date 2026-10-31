@@ -1,0 +1,42 @@
+{
+ "id": "mere-lorinda",
+ "name": "Mother Lorinda",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 105,
+ "hpFormula": "14d8+42",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 17,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Amphibie.** Lorinda peut respirer de l'air et de l'eau.\n**Restauration de lord noir.** Si Lorinda meurt, elle ressuscite avec tout son points de vie en 1d10 semaines quelque part à Tepest.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Lorinda échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Mimétisme.** Lorina peut imiter les bruits et les bruits d'animaux. Une créature qui entend l'imitation peut dire qu'il est une imitation seulement avec un succès DD 15 test de Sagesse (Perspicacité).\n**Présence excessive.** Lorinda lance Lenteur, en utilisant le même caractéristique d'incantation que Spellcasting. Lorinda ne pourra pas recommencer jusqu'au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Lorinda fait deux attaques de la marque mère.\n**Marque de la mère.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts contondants plus 5 (1d10) dégâts de feu.\n**Détection orthographique.** Lorinda lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 14, +6 au toucher with attaques de sort) :\n- À volonté : Charme-personne, Lumières dansantes, Déguisement durée de 24 heures, Invisibilité (seul, et Lorinda ne laisse aucune trace pendant qu'invisible), Illusion mineure, Rayon empoisonné (version de niveau 3)\n- 1/jour chacun : Augure, Flétrissement, Croissance végétale, Scrutation, Serviteur invisible",
+ "attacks": [
+  {
+   "name": "Marque de la mère",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/bd867ed693_monstre-mere-lorinda.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Mère Lorinda",
+ "saves": "FOR +7, DEX +4, CON +6, SAG +6",
+ "skills": "Arcanes +7, Tromperie +5, Perception +6, Discrétion +4",
+ "bonusActions": "**Visage de la mère (1/jour).** Lorinda se transforme en Mère, une divinité vénérée par les gens de Tepest, pendant 8 heures. Ses statistiques de jeu sont les mêmes dans chaque forme. Tout équipement qu'elle porte ou qu'elle transporte n'est pas transformé.\nAlors que sous la forme de Mère, Lorinda peut utiliser Spellcasting pour lancer Charme-personne comme action bonus.\nLorinda revient à sa forme réelle si elle tombe à 50 points de vie ou moins.\nLorsque Lorinda revient à sa vraie forme, chaque créature dans une Emanation 9 m originaire de Lorinda est soumise à l'effet suivant. Jet de sauvegarde de Sagesse : DD 14 (la cible réussit automatiquement si c'est un Construct ou un Undead). Échec : La cible a l'état effrayé pendant 1 minute. Alors qu'effrayé, la cible a un désavantage sur jet de sauvegarde.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, mère lorinda peut entreprendre l'une des actions ci-après.\n**Marque.** Lorinda se téléporte dans un espace inoccupé qu'elle peut voir au sein de 9 m et peut faire une attaque de la marque mère."
+}

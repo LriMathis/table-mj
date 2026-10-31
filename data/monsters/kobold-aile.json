@@ -1,0 +1,43 @@
+{
+ "id": "kobold-aile",
+ "name": "Kobold ailé",
+ "type": "Humanoïde (kobold)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 7,
+ "hpFormula": "3d6-3",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 16,
+  "CON": 9,
+  "INT": 8,
+  "SAG": 7,
+  "CHA": 8
+ },
+ "senses": "vision dans le noir 18 m, Perception passive 8",
+ "languages": "commun, draconique",
+ "traits": "**Sensibilité à la lumière du soleil.** Le kobold est désavantagé lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à la lumière du soleil.\n**Tactique de groupe.** Le kobold est avantagé lors d'un jet d'attaque effectué contre une créature si au moins un des alliés du kobold, qui n'est pas neutralisé, se trouve à 1,50 mètre ou moins de la créature qu'il attaque.",
+ "actionsText": "**Dague.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 4 (1d4+3) dégâts perforants.\n**Lâcher de rocher.** *Attaque d'arme à distance :* +5 pour toucher, une cible située directement en dessous du kobold. *Touché :* 6 (1d6+3) dégâts contondants.",
+ "portrait": "/data/images/fa063af995_monstre-kobold-aile.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 194 · image : internet",
+ "attacks": [
+  {
+   "name": "Dague",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Lâcher de rocher",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  }
+ ]
+}

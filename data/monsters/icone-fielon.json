@@ -1,0 +1,41 @@
+{
+ "id": "icone-fielon",
+ "name": "Fiendish Icon",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "5d6+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 60, Perception passive 10",
+ "languages": "comprend commun et infernal mais ne peut pas parler",
+ "traits": "**Résistance magique.** L'icône a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'icône fait deux attaques Slam et utilise Fiery Eruption.\n**Clamer.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 4 (1d4 + 2) dégâts contondants.\n**Éruption de feu.** Jet de sauvegarde de Dextérité : DD 11, chaque créature dans une Emanation 1,50 m originaire de l'icône. Échec : 7 (2d6) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/36f69cb8dc_monstre-icone-fielon.webp",
+ "notes": "",
+ "source": "Astarion's Book of Hungers (5e.tools, traduction automatique)",
+ "aka": "Icône fiélon",
+ "skills": "Discrétion +5",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

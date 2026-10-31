@@ -1,0 +1,45 @@
+{
+ "id": "croc-de-yeenoghu-gnoll",
+ "name": "Croc de Yeenoghu gnoll",
+ "type": "Humanoïde (gnoll)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "caNote": "armure de peau",
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "saves": "CON +4, SAG +2, CHA +3",
+ "senses": "vision dans le noir 18 m, Perception passive 10",
+ "languages": "abyssal, gnoll",
+ "traits": "**Déchaîné.** Quand le gnoll réduit les points de vie d'une créature à 0 suite à une attaque au corps à corps lors de son tour, il peut effectuer une action bonus pour se déplacer sur une distance maximale égale à la moitié de sa vitesse et effectuer une attaque de morsure.",
+ "actionsText": "**Attaques multiples.** Le gnoll effectue trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morsure.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une créature. *Touché :* 6 (1d6+3) dégâts perforants, et la cible doit réussir un jet de sauvegarde de Constitution DD 12 pour ne pas subir 7 (2d6) dégâts de poison.\n**Griffe.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 7 (1d8+3) dégâts tranchants.",
+ "portrait": "/data/images/75c1a1bb04_monstre-croc-de-yeenoghu-gnoll.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 162 · image : Manuel des monstres p. 161",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "id": "dragon-jeune-moonstone",
+ "name": "Young Moonstone Dragon",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 144,
+ "hpFormula": "17d10+51",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 18,
+  "SAG": 17,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 16",
+ "languages": "commun, draconique, sylvestre",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants plus 5 (1d10) dégâts radiants.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.\n**Arme respiratoire (Recharge 5-6).** Le dragon utilise l'une des armes suivantes :\n- **Respiration de rêve** Le dragon expire la brume dans un cône 27 m. Chaque créature dans cette zone doit réussir sur un DD 14 jet de sauvegarde de Constitution ou tomber inconscient pendant 10 minutes. Cet effet se termine pour une créature si la créature prend des dégâts ou si quelqu'un utilise une action pour la réveiller.\n- **Respiration au clair de lune** Le dragon exhale un faisceau de clair de lune dans une ligne 18 m large. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 38 (7d10) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 15):\n- 1/jour chacun : Apaisement des émotions, Lueurs féeriques",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1389c698d4_monstre-dragon-jeune-moonstone.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon jeune Moonstone",
+ "caNote": "armure naturelle",
+ "saves": "CON +6, INT +7, SAG +6, CHA +7",
+ "skills": "Perception +6, Persuasion +7, Discrétion +6",
+ "conditionImmunities": "charmé"
+}

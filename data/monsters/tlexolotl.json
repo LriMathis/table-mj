@@ -1,0 +1,46 @@
+{
+ "id": "tlexolotl",
+ "name": "Tlexolotl",
+ "type": "Élémentaire",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 104,
+ "hpFormula": "11d12+33",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 7,
+  "SAG": 13,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception des vibrations 36 m, Perception passive 11",
+ "languages": "igné",
+ "traits": "**feu Aura.** Au début de chacun des virages du tlexolotl, chaque créature de 3 m prend 7 (2d6) dégâts de feu et des objets inflammables dans cette aura qui ne sont pas portés ou transportés en feu. Une créature qui touche le tlexolotl ou la frappe avec une attaque de mêlée alors que dans 1,50 m il prend 7 (2d6) dégâts de feu.\n**Éclairage.** Le tlexolotl apporte une lumière lumineuse dans un rayon de 9 m et une lumière dim pour un 9 m supplémentaire.\n**Régénération.** Le tlexolotl retrouve 10 points de vie au début de son tour. Si le tlexolotl prend dégâts de froid ou est immergé dans l'eau, ce trait ne fonctionne pas au début du tour suivant du tlexolotl. Le tlexolotl meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Le tlexolotl fait une attaque Bite et une attaque Tail.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 12 (1d10 + 7) dégâts perforants plus 18 (4d8) dégâts de feu.\n**Queue.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 11 (1d8 + 7) dégâts contondants plus 14 (4d6) dégâts de feu. Si la cible est une créature grande ou plus petite, elle doit réussir sur une DD 19 jet de sauvegarde de Force ou être poussée jusqu'à 3 m loin du tlexolotl et à terre.\n**Pyroclasme (Recharge 5-6).** Des gouttes de lave fondue jaillissent du corps du tlexolotl. Chaque créature dans une sphère 9 m -radius centrée sur le tlexolotl doit faire un DD 15 jet de sauvegarde de Dextérité. Sur un jet de sauvegarde échoué, une créature prend 21 (6d6) dégâts de feu et 21 (6d6) dégâts contondants. Sur un jet de sauvegarde réussi, une créature prend la moitié de ces dégâts.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "1d10+7",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Queue",
+   "bonus": 11,
+   "damage": "1d8+7",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/8651ef34ac_monstre-tlexolotl.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "feu, poison",
+ "conditionImmunities": "paralysé, pétrifié, empoisonné"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "commandant-de-guerrier",
+ "name": "Warrior Commander",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 161,
+ "hpFormula": "19d8+76",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 20,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Perception passive 17",
+ "languages": "Commun plus une autre langue",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le guerrier fait trois attaques, en utilisant Greatsword ou Longbow dans n'importe quelle combinaison.\n**Grande épée.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 19 (4d6 + 5) dégâts tranchants. Le guerrier crée également l'un des effets suivants :\n- **Sap** La cible a un désavantage sur son prochain jet d'attaque avant le début du prochain tour du guerrier.\n- **Manutention** Un allié qui peut voir ou entendre le guerrier peut prendre une Réaction pour avancer jusqu'à la moitié de la Vitesse de l'allié sans provoquer Opportunity Attacks.\n**Longbow.** Jet d'attaque à distance : +9, portée 45/180 m. Touché : 18 (3d8 + 5) dégâts perforants, et la vitesse de la cible diminue par 3 m jusqu'à la fin du prochain tour de la cible.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 9,
+   "damage": "4d6+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 9,
+   "damage": "3d8+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/783e22202f_monstre-commandant-de-guerrier.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Commandant de guerrier",
+ "saves": "FOR +9, DEX +9, CON +8, SAG +7",
+ "skills": "Athlétisme +9, Perspicacité +7, Perception +7",
+ "bonusActions": "**Charge tactique.** Le guerrier se déplace jusqu'à la moitié de sa vitesse droite vers un ennemi qu'il peut voir sans provoquer Opportunity Attacks.",
+ "reactions": "**Contre-attaque.** Déclencheur : Le guerrier est frappé par un jet d'attaque. Réponse : Le guerrier ajoute 4 à son CA contre cette attaque, ce qui peut le faire manquer. Sur un miss, le guerrier peut faire une Grande épée ou Longbow attaque contre l'attaquant."
+}

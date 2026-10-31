@@ -1,0 +1,56 @@
+{
+ "id": "baphomet",
+ "name": "Baphomet",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 22,
+ "hp": 319,
+ "hpFormula": "22d12+176",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 14,
+  "CON": 26,
+  "INT": 18,
+  "SAG": 24,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 24",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Rappel de Labyrinthine.** Baphomet peut parfaitement se rappeler n'importe quel chemin qu'il a parcouru, et il est à l'abri du sort Dédale.\n**Résistance légendaire (3/jour).** Si Baphomet échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Baphomet a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Baphomet fait une attaque Bite, une attaque Gore, et une attaque Heartcleaver. Il utilise aussi la Présence effrayante.\n**Morceau.** Attaque d'arme au corps à corps : +17 au toucher, allonge 3 m, une cible. Touché : 19 (2d8 + 10) dégâts perforants.\n**Gore.** Attaque d'arme au corps à corps : +17 au toucher, allonge 3 m, une cible. Touché : 17 (2d6 + 10) dégâts perforants. Si Baphomet a déplacé au moins 3 m droit vers la cible immédiatement avant le coup, la cible prend un 16 (3d10) dégâts perforants supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 25 jet de sauvegarde de Force ou être poussée jusqu'à 3 m et à terre.\n**Couloir cardiaque.** Attaque d'arme au corps à corps : +17 au toucher, allonge 4,50 m, une cible. Touché : 21 (2d10 + 10) dégâts de force.\n**Présence effrayante.** Chaque créature du choix de Baphomet au sein de 36 m de lui et conscient de lui doit réussir sur un DD 18 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Ces sauvegardes plus tard ont un désavantage si Baphomet est à l'intérieur de la ligne de vue de la créature.\nSi une créature réussit sur l'un de ces arrêts ou si l'effet s'arrête sur elle, la créature est immunisée contre la Présence effrayante de Baphomet pendant les 24 prochaines heures.\n**Détection orthographique.** Baphomet lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 18) :\n- 1/jour : Téléportation\n- 3/jour chacun : Dissipation de la magie, Domination de bête, Dédale, Mur de pierre",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 17,
+   "damage": "2d8+10",
+   "type": "perforant"
+  },
+  {
+   "name": "Gore",
+   "bonus": 17,
+   "damage": "2d6+10",
+   "type": "perforant"
+  },
+  {
+   "name": "Couloir cardiaque",
+   "bonus": 17,
+   "damage": "2d10+10",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/ae351fc5e2_monstre-baphomet.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +15, SAG +14",
+ "skills": "Intimidation +17, Perception +14",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison, contondant, perforant, tranchant qui est non magique",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, baphomet peut entreprendre l'une des actions ci-après.\n**Attaque du coeur.** Baphomet fait une attaque Heartcleaver.\n**Charge (coûts 2 actions).** Baphomet se déplace à sa vitesse sans provoquer opportunity attacks, puis fait une attaque de Gore."
+}

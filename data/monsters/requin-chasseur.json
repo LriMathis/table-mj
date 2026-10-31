@@ -1,0 +1,39 @@
+{
+ "id": "requin-chasseur",
+ "name": "Requin-chasseur",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "1,5 m, nage 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "skills": "Perception +2",
+ "senses": "Vision aveugle 18 m, Perception passive 12",
+ "languages": "aucune",
+ "traits": "**Respiration aquatique.** Le requin ne peut respirer que sous l’eau.",
+ "actionsText": "**Morsure.** Corps à corps : +6 (avec Avantage si la cible n’a pas tous ses points de vie), allonge 1,50 m. Touché : 14 (3d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 6,
+   "damage": "3d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3867a64195_monstre-requin-chasseur.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr",
+ "aka": "Requin chasseur (2024)"
+}

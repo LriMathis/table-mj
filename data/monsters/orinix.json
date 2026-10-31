@@ -1,0 +1,55 @@
+{
+ "id": "orinix",
+ "name": "Orinix",
+ "type": "Dragon",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 17,
+ "hp": 172,
+ "hpFormula": "15d12+75",
+ "vitesse": "12 m, creusement 6 m, vol 24 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 12,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 72 m, Perception passive 21",
+ "languages": "draconique",
+ "traits": "**Résistance légendaire (2/jour).** Si Orinix échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Tunneler.** Orinix peut creuser à la moitié de sa vitesse de creusement et laisser un tunnel 4,50 m dans son sillage.\n**Nature inhabituelle.** Orinix ne demande pas d'air.",
+ "actionsText": "**Multiattaques.** Orinix fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 13 (2d6 + 6) dégâts perforants plus 3 (1d6) dégâts de froid.\n**Griffe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +11 au toucher, allonge 4,50 m, une cible. Touché : 13 (2d6 + 6) dégâts contondants.\n**froid Respiration (Recharge 5-6).** Orinix exhale une explosion de gel dans un cône 18 m. Chaque créature dans le cône doit faire un DD 18 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la créature prend 36 (8d8) dégâts de froid, et sa vitesse est réduite à 0 jusqu'à la fin de son prochain tour. Lors d'une sauvegarde réussie, la créature prend la moitié de ces dégâts, et sa vitesse n'est pas réduite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "2d6+6",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 11,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 11,
+   "damage": "2d6+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/cc0ac4e367_monstre-orinix.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, SAG +6",
+ "skills": "Perception +11, Discrétion +11",
+ "immunities": "froid",
+ "bonusActions": "**Phase (3/jour).** Orinix devient partiellement incorporé tant qu'il maintient concentration sur l'effet (comme si concentrating sur un sort). Bien qu'en partie incorporel, Orinix a une résistance au bludgeoning, au perçage et au dégâts tranchants.",
+ "legendary": "**Actions légendaires (2/round).** Aussitôt après le tour d'une autre créature, orinix peut entreprendre l'une des actions ci-après.\n**Attaque de queue.** Orinix fait une attaque Tail.\n**Glace infernale.** La glace magique couvre le sol dans un rayon de 6 m centré sur un point qu'Orinix peut voir en lui-même. La glace, qui est un terrain difficile pour toutes les créatures, sauf les dragons lunaires, dure 10 minutes ou jusqu'à ce qu'Orinix utilise à nouveau cette action légendaire."
+}

@@ -1,0 +1,45 @@
+{
+ "id": "sorcellerie-barovian",
+ "name": "Barovian Witch",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 10,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 11,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun",
+ "traits": "**Détection orthographique.** La sorcière est un sorcier de niveau 3. Son caractéristique d'incantation est Intelligence (save spell DD 12, +4 au toucher avec attaques de sort). La sorcière a préparé les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Main de mage, Prestidigitation, Rayon de givre\n- Niveau 1 (4 emplacements) : Rayon empoisonné, Sommeil, Fou rire de Tasha\n- Niveau 2 (2 emplacements) : Modification d'apparence, Invisibilité",
+ "actionsText": "**Les griffes (nécessite un alter Self).** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts tranchants. Cette attaque est magique.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +2 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 2 (1d4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Les griffes (nécessite un alter Self)",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/bdf912e991_monstre-sorcellerie-barovian.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Sorcellerie Barovian",
+ "skills": "Arcanes +4, Perception +2"
+}

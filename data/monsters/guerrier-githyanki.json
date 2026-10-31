@@ -1,0 +1,39 @@
+{
+ "id": "guerrier-githyanki",
+ "name": "Guerrier githyanki",
+ "type": "Humanoïde (gith)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "caNote": "demi-plate",
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "saves": "CON +3, INT +3, SAG +3",
+ "senses": "Perception passive 11",
+ "languages": "gith",
+ "traits": "**Incantation innée (psionique).** La caractéristique d'incantation innée du githyanki est l'Intelligence. Il peut lancer les sorts suivants de manière innée sans aucune composante matérielle :\n- À volonté : *main du mage* (la main est invisible)\n- 3/jour chacun : *non-détection* (sur lui uniquement), *pas brumeux, saut*",
+ "actionsText": "**Attaques multiples.** Le githyanki effectue deux attaques avec son épée à deux mains.\n**Épée à deux mains.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 9 (2d6+2) dégâts tranchants plus 7 (2d6) dégâts psychiques.",
+ "portrait": "/data/images/f9b2e8e728_monstre-guerrier-githyanki.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 159 · image : Manuel des monstres p. 158",
+ "attacks": [
+  {
+   "name": "Épée à deux mains",
+   "bonus": 4,
+   "damage": "2d6+2+2d6",
+   "type": "tranchant + psychique"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "haut-parleur-dragon",
+ "name": "Dragon Speaker",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 36,
+ "hpFormula": "8d6+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 11,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, draconique, et deux langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'orateur fait deux attaques tonnerre Bolt.\n**tonnerre Bolt.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 13 (3d8) dégâts de tonnerre, et la cible est poussée horizontalement jusqu'à 3 m loin de l'enceinte.\n**Détection orthographique.** L'enceinte lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumières dansantes\n- 1/jour chacun : Apaisement des émotions, Charme-personne, Injonction, Compréhension des langues",
+ "attacks": [
+  {
+   "name": "tonnerre Bolt",
+   "bonus": 5,
+   "damage": "3d8",
+   "type": "tonnerre"
+  }
+ ],
+ "portrait": "/data/images/3477b64c2c_monstre-haut-parleur-dragon.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Haut-parleur dragon",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +4, CHA +5",
+ "skills": "Persuasion +5, Religion +3",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Mots désarmants (3/jour).** Lorsqu'une créature que l'enceinte peut voir à l'intérieur de 18 m fait un jet de dégâts, l'enceinte peut rouler un d6 et soustraire le nombre roulé de ce jet de dégâts."
+}

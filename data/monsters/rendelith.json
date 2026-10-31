@@ -1,0 +1,42 @@
+{
+ "id": "rendelith",
+ "name": "Rendelith",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 20,
+ "hp": 294,
+ "hpFormula": "31d10+124",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 12,
+  "CON": 19,
+  "INT": 20,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Perception passive 19",
+ "languages": "Abyssal; télépathie 36 m.",
+ "traits": "**Restauration démoniaque.** Si le rendelith meurt en dehors de l'abîme, son corps se dissout en gravier, et il gagne un nouveau corps instantanément, en ressuscitant avec toute sa points de vie quelque part dans l'abîme.\n**Résistance magique.** Le rendez-vous a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le rendez-vous inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le rendelith fait deux attaques Stone Hammer et utilise Spellcasting pour lancer Fracassement (version de niveau 6).\n**Marteau de pierre.** Jet d'attaque au corps à corps ou à distance : +13, allonge 3 m ou portée 36 m. Touché : 21 (4d6 + 7) dégâts contondants. Si la cible est une créature grande ou plus petite, elle a l'état à terre. Si la cible a déjà l'état à terre, elle prend plutôt un 7 (2d6) dégâts contondants supplémentaire. Touché ou raté : Le marteau revient magiquement à la main du rendez-vous immédiatement après une attaque étendue.\n**Détection orthographique.** Le rendu lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Terraformage, Passe-muraille, Fracassement (version de niveau 6), Mur de pierre",
+ "attacks": [
+  {
+   "name": "Marteau de pierre",
+   "bonus": 13,
+   "damage": "4d6+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/12d502bd63_monstre-rendelith.webp",
+ "notes": "",
+ "source": "Arcana Unleashed: Deadfall (5e.tools, traduction automatique)",
+ "saves": "FOR +13, DEX +7, CON +10, SAG +9",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Fortifications rapides (Recharge 5-6).** Le rendu utilise Spellcasting pour lancer Terraformage ou Mur de pierre."
+}

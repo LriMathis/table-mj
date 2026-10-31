@@ -1,0 +1,50 @@
+{
+ "id": "thri-kreen-gladiateur",
+ "name": "Thri-kreen Gladiator",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 142,
+ "hpFormula": "19d8+57",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "télépathie 18 m, Thri-kreen",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le thri-kreen fait deux attaques Gythka et une attaque Chatkcha.\n**Gythka.** Attaque d'arme au corps à corps : +7 au toucher (avec avantage si la thri-kreen manque de points de vie), allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Chatkcha.** Attaque d'arme à distance : +7 au toucher (avec avantage si le thri-kreen manque n'importe quel points de vie), portée 9/36 m., une cible. Touché : 7 (1d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Gythka",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Chatkcha",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f27a71d704_monstre-thri-kreen-gladiateur.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Thri-kreen gladiateur",
+ "caNote": "armure naturelle",
+ "saves": "FOR +7, DEX +7, SAG +5",
+ "skills": "Acrobaties +7, Athlétisme +7, Perception +5",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Naissance.** Le thri-kreen saute jusqu'à 6 m dans n'importe quelle direction, à condition que sa vitesse ne soit pas 0.",
+ "reactions": "**Parry.** Le thri-kreen ajoute 3 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, le thri-kreen doit voir l'attaquant et manier une arme de mêlée."
+}

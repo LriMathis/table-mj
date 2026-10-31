@@ -1,0 +1,41 @@
+{
+ "id": "lamordian-infiltrator",
+ "name": "Lamordian Infiltrator",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "None",
+ "xp": 0,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d6+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Déclencheur.** Jet d'attaque au corps à corps ou à distance : +3, allonge 1,50 m ou portée 6/18 m. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0c776d2d8d_monstre-lamordian-infiltrator.webp",
+ "notes": "",
+ "source": "Project_Lamordia (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +3",
+ "skills": "Escamotage +3, Discrétion +3",
+ "bonusActions": "**Désengagement.** L'infiltrateur prend l'action Se désengager."
+}

@@ -1,0 +1,42 @@
+{
+ "id": "sir-jared",
+ "name": "Sir Jared",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 20,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, halfelin",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Jared fait trois attaques de Longsword.\n**Mot long.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants plus 4 (1d8) dégâts radiants. Sur un rouleau de 19 ou 20, Jared marque un succès critique.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/93d81a3ddd_monstre-sir-jared.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque, Bouclier",
+ "saves": "FOR +7, CON +6",
+ "skills": "Arcanes +4, Athlétisme +7, Persuasion +6, Survie +5",
+ "conditionImmunities": "aveuglé, charmé, effrayé",
+ "reactions": "**Protéger l'allié.** Lorsqu'une créature Jared peut voir des attaques contre une cible autre que Jared qui est dans 1,50 m de lui, Jared impose un désavantage sur la jet d'attaque."
+}

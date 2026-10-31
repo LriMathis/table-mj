@@ -1,0 +1,45 @@
+{
+ "id": "b-rohg",
+ "name": "B'rohg",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "tout alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 92,
+ "hpFormula": "8d12+40",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 14,
+  "CON": 21,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le b'rohg fait quatre attaques Fist ou deux attaques Rock.\n**Fist.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +5 au toucher, portée 18/72 m., une cible. Touché : 23 (4d8 + 5) dégâts contondants.\n**Rend hideuse.** Le b'rohg utilise les quatre de ses mains pour cibler une créature grande ou plus petite qu'il peut voir en lui-même. La cible doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou être agrippé (évasion DD 16). Jusqu'à ce que ce grappin se termine, le b'rohg ne peut pas faire d'attaques Fist ou Rock, et la cible prend 49 (8d10 + 5) dégâts contondants au début de chacun de ses tours. Une créature réduite à 0 points de vie par ce dégâts est déchirée en quatre morceaux.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 5,
+   "damage": "4d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/26dc793d97_monstre-b-rohg.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +8, Survie +6"
+}

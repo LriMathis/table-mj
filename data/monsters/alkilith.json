@@ -1,0 +1,43 @@
+{
+ "id": "alkilith",
+ "name": "Alkilith",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 168,
+ "hpFormula": "16d8+96",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 19,
+  "CON": 22,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "comprend Abyssal mais ne peut pas parler",
+ "traits": "**Rift abyssal.** Si l'alcilite entoure une porte, une fenêtre ou une ouverture similaire en continu pendant 6d6 jours, l'ouverture devient un portail permanent vers une couche aléatoire de l'abîme.\n**Amorphe.** L'alkilith peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Fausse apparence.** Si l'alkilith est immobile au début du combat, il a l'avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'action de l'alkilite, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que l'alkilite n'est pas une slime ou un champignon ordinaire.\n**Confusion de fomento.** Toute créature qui n'est pas un démon qui commence son tour à l'intérieur de 9 m de l'alkilite doit réussir sur un DD 18 jet de sauvegarde de Sagesse, ou il entend un bourdonnement faible dans sa tête pendant un moment et a un désavantage sur son prochain jet d'attaque, jet de sauvegarde ou test de caractéristique.\nSi la jet de sauvegarde contre la confusion fomentale échoue de 5 ou plus, la créature est plutôt soumise au sort Confusion pendant 1 minute (pas de concentration requis par l'alkilith). Alors que sous l'effet de cette confusion, la créature est à l'abri de la confusion du Foment.\n**Résistance magique.** L'alkilith a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Escalade des araignées.** L'alkilite peut monter des surfaces difficiles, comme à l'envers sur les plafonds, sans faire de test de caractéristique.\n**Nature inhabituelle.** L'alcilite ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** L'alcilite fait trois attaques du Tentacle.\n**Tentacle.** Attaque d'arme au corps à corps : +8 au toucher, allonge 4,50 m, une cible. Touché : 18 (4d6 + 4) dégâts d'acide.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 8,
+   "damage": "4d6+4",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/141f5cc17d_monstre-alkilith.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +10",
+ "skills": "Discrétion +8",
+ "resistances": "acide, froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "burnished-hart",
+ "name": "Burnished Hart",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 15,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "comprend une langue de son créateur mais ne peut pas parler",
+ "traits": "**Frais.** Si le hart se déplace au moins 6 m droit vers une cible et la frappe avec une attaque des bois au même tour, la cible prend un 7 (2d6) dégâts de feu supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre.\n**Corps chauffé.** Une créature qui touche le haart ou le frappe avec une attaque de mêlée alors qu'à l'intérieur de 1,50 m il prend 5 (1d10) dégâts de feu.\n**C'est sûr..** Le hart a un avantage sur Force et jet de sauvegarde de Dextérité fait contre les effets qui le frapperaient à terre.",
+ "actionsText": "**Multiattaques.** Le nain fait deux attaques : une avec ses bois et une avec ses sabots.\n**Fourmis.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants.\n**Des voyous.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts contondants plus 2 (1d4) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Fourmis",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Des voyous",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/df5cdeaed4_monstre-burnished-hart.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, paralysé, pétrifié, empoisonné"
+}

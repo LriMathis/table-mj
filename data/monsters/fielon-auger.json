@@ -1,0 +1,42 @@
+{
+ "id": "fielon-auger",
+ "name": "Fiendish Auger",
+ "type": "Créature artificielle",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 85,
+ "hpFormula": "9d12+27",
+ "vitesse": "12 m, creusement 9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 18 m (can't see beyond this radius), Perception passive 11",
+ "languages": "—",
+ "traits": "**Monstre de siège.** L'auger inflige deux dégâts aux objets et aux structures.\n**Tunneler.** L'auger peut creuser à la moitié de la vitesse du terrier à travers la roche solide et laisse un tunnel 3 m-diamètre dans son sillage.",
+ "actionsText": "**Perceuse à flammes.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants plus 7 (2d6) dégâts de feu. Si l'auger se déplace au moins 6 m en ligne droite vers la cible immédiatement avant le coup, la cible prend un 11 (2d10) dégâts perforants supplémentaire, et si la cible est une créature, elle doit réussir sur un DD 17 jet de sauvegarde de Force ou avoir l'état à terre.",
+ "attacks": [
+  {
+   "name": "Perceuse à flammes",
+   "bonus": 9,
+   "damage": "2d10+6",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/58129347ac_monstre-fielon-auger.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Fiélon Auger",
+ "caNote": "armure naturelle",
+ "immunities": "feu, poison",
+ "conditionImmunities": "aveuglé, charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, inconscient",
+ "bonusActions": "**Eruption de chaleur (Recharge 5-6).** L'auger libère une explosion de chaleur intense dans une sphère 9 m -radius centrée sur elle-même. Cette chaleur s'étend autour des coins. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Constitution, en prenant 13 (3d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

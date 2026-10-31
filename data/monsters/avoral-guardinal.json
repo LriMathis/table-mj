@@ -1,0 +1,42 @@
+{
+ "id": "avoral-guardinal",
+ "name": "Avoral Guardinal",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 172,
+ "hpFormula": "23d8+69",
+ "vitesse": "9 m, vol 15 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 19,
+  "CON": 17,
+  "INT": 16,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 21",
+ "languages": "céleste, commun",
+ "traits": "**Attaque de plongée.** Si l'avoral vole, plonge au moins 9 m en ligne droite vers une créature moyenne ou plus petite, et se termine à l'intérieur de 1,50 m, cette créature doit réussir sur une DD 15 jet de sauvegarde de Force ou prendre 14 (4d6) dégâts perforants et avoir l'état à terre.\n**Volée.** L'avoral ne provoque pas une attaque d'opportunité quand il vole hors de la portée d'un ennemi.",
+ "actionsText": "**Multiattaques.** L'avoral fait deux attaques de Talon. Il peut remplacer une attaque par une utilisation de Spellcasting.\n**Talon.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants plus 13 (2d12) dégâts radiants.\n**Détection orthographique.** L'avoral lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- 1/jour chacun : Injonction, Immobilisation de personne",
+ "attacks": [
+  {
+   "name": "Talon",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/9bed764cb4_monstre-avoral-guardinal.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CHA +8",
+ "skills": "Perception +11, Religion +7",
+ "resistances": "radiant",
+ "conditionImmunities": "effrayé"
+}

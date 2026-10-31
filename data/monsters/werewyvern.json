@@ -1,0 +1,52 @@
+{
+ "id": "werewyvern",
+ "name": "Werewyvern",
+ "type": "Dragon (Lycanthrope)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 152,
+ "hpFormula": "16d8+80",
+ "vitesse": "9 m, vol 12 m (wyvern ou forme hybride seulement)",
+ "stats": {
+  "FOR": 19,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "commun, Draconique (ne peut pas parler en wyvern)",
+ "traits": "**Flyby (Wyvern ou formulaire hybride seulement).** Le wewyvern ne provoque pas une action Opportunity Attack quand il vole hors de la portée d'un ennemi.",
+ "actionsText": "**Multiattaques.** Le wawyvern fait trois attaques, en utilisant Javelin ou Rend dans n'importe quelle combinaison. Il peut remplacer une de ces attaques par une attaque Stinger.\n**Javelin (forme humaine ou hybride seulement).** Jet d'attaque au corps à corps ou à distance : +7, allonge 1,50 m ou portée 9/36 m. Touché : 18 (4d6 + 4) dégâts perforants.\n**Rend.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 18 (4d6 + 4) dégâts tranchants.\n**Stinger (Wyvern ou forme hybride seulement).** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 7 (1d6 + 4) dégâts perforants plus 16 (3d10) dégâts de poison, et la cible a l'état empoisonné jusqu'au début du prochain tour de wearwyvern. Si la cible est un humanoïde, elle est soumise à l'effet suivant. Jet de sauvegarde de Constitution : DD 16. Échec : La cible est maudite. Si la cible maudite tombe à 0 points de vie, il devient plutôt un Werewyvern sous le contrôle de le MD et a 20 points de vie. Réussite : La cible est à l'abri de cette malédiction de Wayvern pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "Javelin (forme humaine ou hybride seulement)",
+   "bonus": 7,
+   "damage": "4d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Rend",
+   "bonus": 7,
+   "damage": "4d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Stinger (Wyvern ou forme hybride seulement)",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/851b72d16a_monstre-werewyvern.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "saves": "DEX +5, SAG +4",
+ "skills": "Perception +4, Discrétion +5",
+ "bonusActions": "**Forme-filtre.** La forme de wyvern se transforme en hybride wyvern-humanoïde moyen ou en grand wyvern, ou elle revient à sa forme humanoïde véritable. Ses statistiques de jeu, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé."
+}

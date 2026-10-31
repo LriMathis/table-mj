@@ -1,0 +1,46 @@
+{
+ "id": "deux-tetes-hibours",
+ "name": "Two-Headed Owlbear",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 60, Perception passive 13",
+ "languages": "—",
+ "traits": "**Deux chefs.** La chouette à deux têtes a avantage sur tests de Sagesse (Perception) et sur jet de sauvegarde contre aveuglé, charmé, assourdi, effrayé, étourdi et inconscient.\n**Réveille-toi.** Quand l'une des têtes du hibou dort, l'autre est réveillée.",
+ "actionsText": "**Multiattaques.** Le hibou à deux têtes fait trois attaques : deux avec ses becs et une avec ses griffes.\n**Bec.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d10 + 5) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d8 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 7,
+   "damage": "1d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d8+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c4b9eb9e44_monstre-deux-tetes-hibours.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "aka": "Deux têtes hibours",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3"
+}

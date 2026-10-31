@@ -1,0 +1,40 @@
+{
+ "id": "homoncule",
+ "name": "Homoncule",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 4,
+ "hpFormula": "1d4+2",
+ "vitesse": "6 m, vol 12 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "saves": "SAG +2, CHA +0",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend le commun et une autre langue mais ne peut pas parler",
+ "traits": "**Lien télépathique.** Tant que l’homoncule et son maître se trouvent sur le même plan d’existence, ils peuvent communiquer entre eux par télépathie.",
+ "actionsText": "**Morsure.** Corps à corps : +4, allonge 1,50 m. Touché : 1 dégât perforant, et la cible est soumise à l’effet suivant. JS Constitution : DD 12. Échec : la cible subit l’état Empoisonné jusqu’à la fin du tour suivant de l’homoncule. Échec de 5 ou plus : La cible subit l’état Empoisonné pendant 1 minute. Ainsi Empoisonnée, la cible subit en outre l’état Inconscient, qui prend fin prématurément si la cible subit des dégâts.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6f9f94a285_monstre-homoncule.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 188"
+}

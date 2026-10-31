@@ -1,0 +1,53 @@
+{
+ "id": "gloomstalker",
+ "name": "Gloomstalker",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 5,
+  "SAG": 17,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 72 m, Perception passive 16",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Étape de l'ombre.** En tant qu'action bonus, le gloomstalker peut téléporter jusqu'à 12 m vers un espace inoccupé qu'il peut voir.\n**Sensibilité à la lumière du soleil.** En plein soleil, le blason a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le blason fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature. Touché : 15 (2d8 + 6) dégâts perforants plus 7 (2d6) dégâts nécrotiques.\n**Griffes.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants plus 7 (2d6) dégâts nécrotiques.\n**Snatch.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature moyenne ou plus petite. Touché : 13 (2d6 + 6) dégâts tranchants plus 7 (2d6) dégâts nécrotiques, et la cible est agrippé (évasion DD 17). Alors qu'agrippé de cette façon, la cible est entravé.\n**Shrek (Recharge 6).** L'ombre émet un terrible shriek. Chaque ennemi au sein de 18 m de l'ombreur qui peut l'entendre doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être paralysé jusqu'à la fin du prochain tour de l'ennemi.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d8+6",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 9,
+   "damage": "2d6+6",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Snatch",
+   "bonus": 9,
+   "damage": "2d6+6",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/56a778bd1a_monstre-gloomstalker.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +9, DEX +6",
+ "skills": "Athlétisme +9, Intimidation +5, Perception +6, Discrétion +6",
+ "vulnerabilities": "radiant"
+}

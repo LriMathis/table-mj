@@ -1,0 +1,50 @@
+{
+ "id": "fraz-urb-luu",
+ "name": "Fraz-Urb'luu",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 18,
+ "hp": 337,
+ "hpFormula": "27d10+189",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 12,
+  "CON": 25,
+  "INT": 26,
+  "SAG": 24,
+  "CHA": 26
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 24",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Fraz-Urb'luu échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Fraz-Urb'luu a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Indétectable.** Fraz-Urb'luu ne peut pas être ciblé par la magie de divination, perçu par des capteurs magiques de brouillage, ou détecté par des capacités qui sensent des démons ou des Fiends.",
+ "actionsText": "**Multiattaques.** Fraz-Urb'luu fait une attaque Bite et deux attaques Fist, et il utilise Phantasmal Terror.\n**Morceau.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 19 (3d6 + 9) dégâts de force.\n**Fist.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 22 (3d8 + 9) dégâts de force.\n**Terrorisation fantôme.** Fraz-Urb'luu cible une créature qu'il peut voir dans 36 m de lui. La cible doit réussir sur un DD 23 jet de sauvegarde de Sagesse, ou elle prend 16 (3d10) dégâts psychiques et est effrayé de Fraz-Urb'luu jusqu'à la fin de son prochain tour.\n**Détection orthographique.** Fraz-Urb'luu lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (Spell save DD 23):\n- À volonté : Modification d'apparence (peut devenir moyen en changeant son apparence), Détection de la magie, Dissipation de la magie, Force fantasmagorique\n- 1/jour chacun : Modification de mémoire, Projection d'image\n- 3/jour chacun : Double illusoire, Illusion programmée, Apparence trompeuse",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 16,
+   "damage": "3d6+9",
+   "type": "force"
+  },
+  {
+   "name": "Fist",
+   "bonus": 16,
+   "damage": "3d8+9",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/f7d85d25c7_monstre-fraz-urb-luu.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +14, INT +15, SAG +14",
+ "skills": "Tromperie +15, Perception +14, Discrétion +8",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison, contondant, perforant, tranchant qui est non magique",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, fraz - urb'luu peut entreprendre l'une des actions ci-après.\n**Queue.** Attaque d'arme au corps à corps : +16 au toucher, allonge 4,50 m, une cible. Touché : 20 (2d10 + 9) dégâts de force. Si la cible est une créature grande ou plus petite, elle est également agrippé (évasion DD 24), et elle est entravé jusqu'à la fin du grappin. Fraz-Urb'luu ne peut battre qu'une créature avec sa queue à la fois.\n**Terrorisation (coûts 2 actions).** Fraz-Urb'luu utilise la terreur fantôme."
+}

@@ -1,0 +1,37 @@
+{
+ "id": "ragnar-brise-lame",
+ "name": "Ragnar Brise-Lame (chef gobelours)",
+ "type": "Humanoïde (gobelinoïde)",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "size": 1,
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "attacks": [
+  {
+   "name": "Morgenstern",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Javeline (9/36 m)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "traits": "**Attaques multiples.** Deux attaques de morgenstern.\n**Brute.** Ses armes de corps à corps infligent un dé de dégâts supplémentaire (inclus).\n**Cœur de Hruggek.** Avantage aux JS contre les états charmé, effrayé, paralysé, empoisonné, étourdi, et contre le sommeil magique.\n**Attaque surprise.** +2d6 dégâts contre une créature surprise au premier round.\n**✎ Empreinte des Serres.** Tant qu'il porte la carte, les objets magiques à 3 m de lui cessent de fonctionner (ils ne sont pas détruits).\n**Négociable.** Il veut une vallée pour sa tribu (voir l'Acte II).\nBase : chef gobelours (MM).",
+ "portrait": "/data/images/9dff608619_monstre-gobelours.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

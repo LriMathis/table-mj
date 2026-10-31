@@ -1,0 +1,50 @@
+{
+ "id": "giff",
+ "name": "Giff",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun",
+ "traits": "**Connaissance des armes à feu.** La maîtrise de ses armes par le giff lui permet d'ignorer les propriétés de chargement des mousquets et des pistolets.\n**Première charge.** Le giff peut essayer de frapper une créature ; si le giff déplace au moins 6 m en ligne droite et se termine à l'intérieur de 1,50 m d'une créature grande ou plus petite, cette créature doit réussir sur un DD 14 jet de sauvegarde de Force ou prendre 7 (2d6) dégâts contondants et être à terre.",
+ "actionsText": "**Multiattaques.** Le giff fait deux Longsword, Musket, ou Pistol attaques.\n**Mot long.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains.\n**Mousquet.** Attaque d'arme à distance : +4 au toucher, portée 12/36 m., une cible. Touché : 8 (1d12 + 2) dégâts perforants.\n**Pistol.** Attaque d'arme à distance : +4 au toucher, portée 9/27 m., une cible. Touché : 7 (1d10 + 2) dégâts perforants.\n**Grenade de fragmentation (1/jour).** Le giff lance une grenade jusqu'à 18 m, et la grenade explose dans une sphère 6 m -radius. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 17 (5d6) dégâts perforants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Mousquet",
+   "bonus": 4,
+   "damage": "1d12+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Pistol",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/a2cbaa829d_monstre-giff.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Breastplate"
+}

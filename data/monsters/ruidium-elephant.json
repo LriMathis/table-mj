@@ -1,0 +1,45 @@
+{
+ "id": "ruidium-elephant",
+ "name": "Ruidium Elephant",
+ "type": "Créature artificielle",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 138,
+ "hpFormula": "12d12+60",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 9,
+  "CON": 21,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Frais de chargement.** Si l'éléphant se déplace au moins 6 m droit vers une créature et la frappe avec une attaque Gore au même tour, cette cible doit réussir sur un DD 16 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, l'éléphant peut faire une attaque Stomp contre elle en tant qu'action bonus.",
+ "actionsText": "**Gore.** Attaque d'arme au corps à corps : +10 au toucher (avec avantage si la cible est une créature manquante points de vie), allonge 3 m, une cible. Touché : 25 (4d8 + 7) dégâts perforants plus 7 (2d6) dégâts psychiques.\n**Stompe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une créature à terre. Touché : 29 (4d10 + 7) dégâts contondants plus 7 (2d6) dégâts psychiques.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 10,
+   "damage": "4d8+7",
+   "type": "perforant + psychique"
+  },
+  {
+   "name": "Stompe",
+   "bonus": 10,
+   "damage": "4d10+7",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/03d5f66d28_monstre-ruidium-elephant.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "conditionImmunities": "charmé, effrayé"
+}

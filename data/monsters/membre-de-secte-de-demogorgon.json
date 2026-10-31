@@ -1,0 +1,40 @@
+{
+ "id": "membre-de-secte-de-demogorgon",
+ "name": "Cultist of Demogorgon",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Divorce rituelle.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 1d4 + 2 dégâts tranchants plus 1 dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Divorce rituelle",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a44b001db4_monstre-membre-de-secte-de-demogorgon.webp",
+ "notes": "",
+ "source": "Stranger Things: Welcome to the Hellfire Club (5e.tools, traduction automatique)",
+ "aka": "Membre de secte de Demogorgon",
+ "saves": "SAG +2",
+ "skills": "Tromperie +2, Religion +2"
+}

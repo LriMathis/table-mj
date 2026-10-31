@@ -1,0 +1,45 @@
+{
+ "id": "belial",
+ "name": "Belial",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 21,
+ "hp": 420,
+ "hpFormula": "40d8+240",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 17,
+  "CON": 22,
+  "INT": 22,
+  "SAG": 22,
+  "CHA": 29
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 24",
+ "languages": "céleste, commun, draconique, infernal, télépathie 36 m",
+ "traits": "**Blessures profondes.** Tous les dégâts infligés par Belial ne peuvent être restaurés que par des moyens magiques.\n**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure de Belial.\n**Peur Aura.** Quand une créature commence son tour dans 36 m de Belial, elle doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'à ce qu'elle quitte l'aura. Une créature qui réussit sur le jet de sauvegarde est immunisée contre cet effet pendant 1 heure.\n**Régénération fidendoise.** Belial retrouve 20 points de vie au début de son tour. S'il prend dégâts radiants ce trait ne fonctionne pas au début de son prochain tour. Belial meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Résistance légendaire (3/jour).** Si Belial échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Belial a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Belial fait trois attaques avec son Ranseur de Torture.\n**Ranseur de la torture.** Attaque d'arme au corps à corps : +18 au toucher, allonge 3 m, une cible. Touché : 21 (2d10 + 10) dégâts perforants plus 5 (1d10) dégâts nécrotiques, et la cible doit faire un DD 23 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la vitesse de déplacement de la cible est réduite de 1,50 m jusqu'à la fin de leur prochain tour. Cette pénalité peut empiler.\n**Murs de Phlegethos.** Belial crée un mur de feu sur une surface solide dans 36 m de lui. Le mur est haut 6 m et épais 0,30 m, et Belial peut faire le mur jusqu'à 18 m long ou créer un mur annelé jusqu'à 6 m de diamètre. Le mur est opaque et dure jusqu'à ce que Belial le rejette. Lorsque le mur apparaît, chaque créature dans sa zone doit faire un DD 25 jet de sauvegarde de Dextérité, en prenant 36 (8d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature qui termine son virage à l'intérieur du mur, ou à l'intérieur de 1,50 m, doit répéter le save.\n**Symbole de la folie (Recharge 4-6).** Belial dessine un symbole magique à un point qu'il peut voir au sein de 36 m de lui. Toutes les créatures dans une sphère 6 m -radius centrée sur le symbole doivent faire un DD 25 jet de sauvegarde d'Intelligence. Les cibles prennent 45 (10d8) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Les créatures qui échouent au save utilisent immédiatement leur réaction pour faire une attaque de mêlée contre une créature aléatoire à leur portée, puis déplacer leur plein mouvement dans une direction aléatoire.",
+ "attacks": [
+  {
+   "name": "Ranseur de la torture",
+   "bonus": 18,
+   "damage": "2d10+10",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/45b6272f4a_monstre-belial.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +15, DEX +11, CON +14, SAG +14",
+ "skills": "Athlétisme +15, Tromperie +25, Perspicacité +14, Intimidation +17, Perception +14, Persuasion +25",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "reactions": "**Plaisir dans la douleur.** En réaction à la prise de dégâts, Belial régénère immédiatement la moitié des dégâts qu'il a subis.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, belial peut entreprendre l'une des actions ci-après.\n**Ranseur.** Belial fait une attaque de Ranseur de Torture.\n**Éruption (coûts 2 actions).** Belial fait éclater la pierre fondue d'un point qu'il peut voir au sein de 27 m de lui. Toutes les créatures dans une sphère 6 m -radius centrée sur ce point doivent faire un DD 23 jet de sauvegarde de Dextérité. Les cibles prennent 28 (8d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Appel d'offres (coûts 3 actions).** Belial convoque un Diable cornu allié dans un espace inoccupé qu'il peut voir."
+}

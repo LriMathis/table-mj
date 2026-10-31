@@ -1,0 +1,45 @@
+{
+ "id": "necromite-de-myrkul",
+ "name": "Necromite of Myrkul",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 16,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "abyssal, commun, infernal",
+ "traits": "",
+ "actionsText": "**Crâne.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d8) dégâts contondants.\n**Les griffes de la tombe.** Attaque de sort à distance : +5 au toucher, portée 27 m, une cible. Touché : 8 (2d4 + 3) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Crâne",
+   "bonus": 2,
+   "damage": "1d8",
+   "type": "contondant"
+  },
+  {
+   "name": "Les griffes de la tombe",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/a0918fdf0c_monstre-necromite-de-myrkul.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Necromite de Myrkul",
+ "skills": "Arcanes +5, Religion +5"
+}

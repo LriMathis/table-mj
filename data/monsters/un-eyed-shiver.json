@@ -1,0 +1,40 @@
+{
+ "id": "un-eyed-shiver",
+ "name": "One-Eyed Shiver",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun",
+ "traits": "**Brillante brume.** Alors qu'il est vivant, le frisson à un yeux projette une aura de brouillard froid dans 3 m de lui-même. Si le frisson à un oeil inflige des dégâts à une créature dans cette zone, la créature prend également 5 (1d10) dégâts de froid.\n**Détection orthographique.** Le frisson à un yeux est un spellcaster de niveau 5. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Il connaît les sorts de sorciers suivants:\n- Sorts mineurs (à volonté) : Contact glacial, Main de mage\n- Niveau 1 (4 emplacements) : Nappe de brouillard, Armure de mage, Vague tonnante\n- Niveau 2 (3 emplacements) : Image miroir, Foulée brumeuse\n- Niveau 3 (2 emplacements) : Peur",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Oeil de givre.** Le vibrateur à un yeux jette Rayon de givre de son œil manquant. Si elle frappe, la cible est également entravé. Une cible entravé de cette manière peut mettre fin à la condition en utilisant une action, en réussissant sur une DD 13 test de Force.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/55afb9f5de_monstre-un-eyed-shiver.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Un- Eyed Shiver",
+ "skills": "Arcanes +3, Perception +3, Intimidation +5",
+ "immunities": "froid"
+}

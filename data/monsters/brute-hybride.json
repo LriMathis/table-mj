@@ -1,0 +1,39 @@
+{
+ "id": "brute-hybride",
+ "name": "Hybrid Brute",
+ "type": "Humanoïde (hybride simique)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 18,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Perception passive 10",
+ "languages": "Commun plus une langue",
+ "traits": "**Amphibie.** L'hybride peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** L'hybride fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ab3b5918be_monstre-brute-hybride.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Brute hybride",
+ "caNote": "armure naturelle"
+}

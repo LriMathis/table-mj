@@ -1,0 +1,51 @@
+{
+ "id": "bak-mei",
+ "name": "Bak Mei",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 17,
+ "hp": 102,
+ "hpFormula": "12d8+48",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 17,
+  "CHA": 16
+ },
+ "senses": "Perception passive 13",
+ "languages": "aérien, commun",
+ "traits": "**Résistance légendaire (2/jour).** Si Bak Mei échoue à un jet de sauvegarde, il peut choisir de réussir à la place.\n**Matériel spécial.** Bak Mei porte un Bâton percussif avec 10 charges.\n**Défense non armée.** Bien que Bak Mei ne porte pas d'armure et n'ait aucun bouclier, son CA inclut son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Bak Mei attaque trois fois : deux fois avec tonnerre Strike et une fois avec son personnel de frappe.\n**Grève de tonnerre.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts de tonnerre, et si la cible est une créature, elle doit réussir sur un DD 17 jet de sauvegarde de Constitution ou être assourdi et étourdi jusqu'au début du prochain tour de Bak Mei.\n**Le personnel de Striking.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants, ou 4 (1d8) dégâts contondants lorsqu'il est utilisé avec deux mains, et Bak Mei peut dépenser jusqu'à 3 des charges du personnel. Pour chaque charge dépensée, la cible prend un 1d6 dégâts de force supplémentaire.\n**Auto-guérison (recharge après un repos long).** Bak Mei retrouve 2d8 + 4 points de vie, et tous les niveaux d'épuisement se terminent sur lui.",
+ "attacks": [
+  {
+   "name": "Grève de tonnerre",
+   "bonus": 9,
+   "damage": "2d10+4",
+   "type": "tonnerre"
+  },
+  {
+   "name": "Le personnel de Striking",
+   "bonus": 9,
+   "damage": "1d6",
+   "type": "contondant + force"
+  }
+ ],
+ "portrait": "/data/images/15e9896e30_monstre-bak-mei.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "caNote": "Défense non armée",
+ "saves": "FOR +5, DEX +9, CON +9, INT +6, SAG +8, CHA +8",
+ "skills": "Acrobaties +9, Athlétisme +5, Médecine +8, Religion +6, Discrétion +9",
+ "resistances": "poison, tonnerre",
+ "conditionImmunities": "charmé, effrayé, paralysé",
+ "bonusActions": "**Échappement de Nimble.** Bak Mei prend l'action Se désengager ou Se cacher.",
+ "reactions": "**Missile défectueux.** En réponse à une attaque d'armes, Bak Mei détourne le missile. Les dégâts qu'il prend de l'attaque sont réduits de 1d10 + 12. Si les dégâts sont réduits à 0, Bak Mei prend le missile s'il est assez petit pour tenir dans une main et Bak Mei a une main libre.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, bak mei peut entreprendre l'une des actions ci-après.\n**Danse de grue.** Bak Mei se déplace jusqu'à 6 m. Ce mouvement ne provoque pas d'attaques d'opportunités.\n**tonnerre grève (coûts 2 actions).** Bak Mei utilise tonnerre Strike."
+}

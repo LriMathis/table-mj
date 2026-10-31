@@ -1,0 +1,39 @@
+{
+ "id": "kalka-kylla",
+ "name": "Kalka-Kylla",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 85,
+ "hpFormula": "10d10+30",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 13",
+ "languages": "La Commission européenne",
+ "traits": "**Amphibie.** Kalka-Kylla peut respirer l'air et l'eau.\n**Fausse apparence.** Alors que Kalka-Kylla reste immobile et cachée dans sa coquille, elle est indistinctible d'un rocher poli.\n**Coque.** Kalka-Kylla peut utiliser un action bonus pour se rétracter ou sortir de sa coque. En rétracté, Kalka-Kylla gagne un bonus de +4 à CA, et il a une vitesse de 0 et ne peut pas bénéficier de bonus à la vitesse.",
+ "actionsText": "**Multiattaques.** Kalka-Kylla fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants, et si la cible est une créature moyenne ou plus petite, c'est agrippé (évasion DD 13). Jusqu'à ce que ce grappin se termine, la cible est entravé. Kalka-Kylla a deux griffes, dont chacune ne peut battre qu'une cible.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5f17e1c051_monstre-kalka-kylla.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +3, Perspicacité +5, Discrétion +3"
+}

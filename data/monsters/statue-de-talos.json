@@ -1,0 +1,50 @@
+{
+ "id": "statue-de-talos",
+ "name": "Statue of Talos",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 147,
+ "hpFormula": "14d10+70",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 20,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "terreux",
+ "traits": "**Fausse apparence.** Bien que la statue reste immobile, elle est indissociable d'une statue inanimée.",
+ "actionsText": "**Multiattaques.** La statue fait cinq attaques: une avec son culot et quatre avec ses lames de boulons d'éclair.\n**Tête de cul.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants.\n**Lames de boulons foudre.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d4 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Tête de cul",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Lames de boulons foudre",
+   "bonus": 8,
+   "damage": "2d4+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d7f696516e_monstre-statue-de-talos.webp",
+ "notes": "",
+ "source": "Essentials Kit: Storm Lord's Wrath (5e.tools, traduction automatique)",
+ "aka": "Statue de Talos",
+ "caNote": "armure naturelle",
+ "saves": "SAG +4",
+ "skills": "Perception +4",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, pétrifié, empoisonné"
+}

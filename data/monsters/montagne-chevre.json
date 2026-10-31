@@ -1,0 +1,38 @@
+{
+ "id": "montagne-chevre",
+ "name": "Mountain Goat",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 11,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Frais.** Si la chèvre se déplace au moins 6 m droit vers une cible et la frappe avec une attaque de bélier au même tour, la cible prend un 3 (1d6) dégâts contondants supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 12 jet de sauvegarde de Force ou être à terre.\n**C'est sûr..** La chèvre a un avantage sur Force et jet de sauvegarde de Dextérité fait contre les effets qui lui frapperaient à terre.",
+ "actionsText": "**Ram.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Ram",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4b9d383e60_monstre-montagne-chevre.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Montagne chèvre"
+}

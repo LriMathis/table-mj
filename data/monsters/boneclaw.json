@@ -1,0 +1,44 @@
+{
+ "id": "boneclaw",
+ "name": "Boneclaw",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 16,
+ "hp": 150,
+ "hpFormula": "20d10+40",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 13,
+  "SAG": 15,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "Commun plus une langue parlée par son maître",
+ "traits": "**Réjuvenance.** Alors que son maître vit, une griffe osseuse détruite gagne un nouveau corps en 1d10 heures, avec tout son points de vie. Le nouveau corps apparaît dans 1,5 km du maître de la griffe osseuse.\n**Nature inhabituelle.** La griffe osseuse ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** La griffe osseuse fait deux attaques de griffe perforant.\n**Griffe perforant.** Attaque d'arme au corps à corps : +8 au toucher, allonge 4,50 m, une cible. Touché : 20 (3d10 + 4) dégâts perforants plus 11 (2d10) dégâts nécrotiques. Si la cible est une créature, la griffe osseuse peut tirer la cible jusqu'à 3 m vers elle-même, et la cible est agrippé (évasion DD 14). La pince a deux griffes. Alors qu'une griffe frappe une cible, la griffe ne peut attaquer que cette cible.\n**Saut d'ombre (Recharge 5-6).** Si la griffe osseuse est dans la lumière ou l'obscurité, chaque créature du choix de la griffe osseuse dans 4,50 m doit réussir sur un DD 14 jet de sauvegarde de Constitution ou prendre 34 (5d12 + 2) dégâts nécrotiques.\nLa griffe osseuse se téléporte ensuite jusqu'à 18 m dans un espace inoccupé qu'elle peut voir. Il peut apporter une créature il est en difficulté, téléportant cette créature dans un espace inoccupé qu'il peut voir à l'intérieur de 1,50 m de sa destination. Les espaces de destination de cette téléportation doivent être dans la lumière sombre ou sombre.",
+ "attacks": [
+  {
+   "name": "Griffe perforant",
+   "bonus": 8,
+   "damage": "3d10+4",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/de955d8b20_monstre-boneclaw.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +6, SAG +6",
+ "skills": "Perception +6, Discrétion +7",
+ "resistances": "froid, nécrotique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "bonusActions": "**Vols d'ombre.** Alors que dans la lumière ou l'obscurité, la griffe osseuse prend l'action Se cacher.",
+ "reactions": "**Atteinte fatale.** En réponse à une créature entrant dans un espace de 4,50 m de lui, la griffe osseuse fait une attaque de la griffe perforant contre cette créature."
+}

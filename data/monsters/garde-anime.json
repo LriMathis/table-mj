@@ -1,0 +1,40 @@
+{
+ "id": "garde-anime",
+ "name": "Garde animé",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non aligné",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 142,
+ "hpFormula": "15d10+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 8,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné, épuisement, paralysé, pétrifié",
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les ordres donnés dans n’importe quelle langue mais ne peut pas parler",
+ "traits": "**Pacte magique.** Le garde animé est magiquement lié à une amulette. Tant que le garde et son amulette sont sur le même plan d’existence, le porteur de l’amulette peut ordonner télépathiquement au garde de se rendre auprès de l’objet, l’Artificiel ayant une notion précise de la distance qui le sépare de l’amulette et de sa direction. Si le garde se trouve dans un rayon de 18 m du porteur (arrondis au supérieur) sont en fait transférés sur le garde.\n**Régénération.** Le garde animé récupère 10 points de vie au début de chacun de ses tours s’il lui reste au moins 1 point de vie.\n**Stockage de sort.** Un incantateur qui porte l’amulette du garde animé peut stocker un sort du 4e niveau ou inférieur dans l’Artificiel. Pour ce faire, le porteur doit lancer le sort sur le garde animé en étant à 1,50 m ou moins de lui. Le sort n’a aucun effet immédiat ; il est stocké dans le garde. Tout sort précédemment stocké est perdu quand on en stocke un nouveau. Le garde animé peut lancer le sort stocké avec tous les paramètres choisis par l’incantateur de départ, sans composantes de sort et en prenant la caractéristique d’incantation de cet incantateur. Le sort stocké est alors perdu.",
+ "actionsText": "**Attaques multiples.** Le garde animé effectue deux attaques de Poing.\n**Poing.** Corps à corps : +7, allonge 3 m. Touché : 11 (2d6 + 4) dégâts contondants plus 7 (2d6) dégâts de force.",
+ "reactions": "**Protection.** Déclencheur : un jet d’attaque touche le porteur de l’amulette du garde animé alors qu’ils sont dans un rayon de 1,50 m l’un de l’autre. Conséquences : le porteur reçoit un bonus de +5 à la CA, y compris contre l’attaque correspondante (ce qui peut la faire rater), jusqu’au début du tour suivant du garde animé.",
+ "attacks": [
+  {
+   "name": "Poing",
+   "bonus": 7,
+   "damage": "2d6+4+2d6",
+   "type": "contondant + force"
+  }
+ ],
+ "portrait": "/data/images/432b305139_monstre-garde-anime.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 139"
+}

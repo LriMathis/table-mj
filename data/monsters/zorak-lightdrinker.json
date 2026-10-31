@@ -1,0 +1,54 @@
+{
+ "id": "zorak-lightdrinker",
+ "name": "Zorak Lightdrinker",
+ "type": "Mort-vivant (métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 18,
+ "hp": 144,
+ "hpFormula": "17d8+68",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "commun, nain",
+ "traits": "**Résilience des nains.** Zorak a un avantage sur jet de sauvegarde contre le poison, et a une résistance contre dégâts de poison.\n**Changeur de forme.** Si Zorak n'est pas dans la lumière du soleil ou l'eau courante, il peut utiliser son action pour se polymorphiser en une petite chauve-souris ou un nuage moyen de brouillard, ou revenir dans sa forme réelle.\nAlors que sous forme de chauve-souris, Zorak ne peut pas parler, sa vitesse de marche est 1,50 m, et il a une vitesse de vol de 9 m. Ses statistiques, autres que sa taille et sa vitesse, sont inchangées. Tout ce qu'il porte se transforme avec, mais rien de ce qu'il porte ne le fait. Il revient à sa vraie forme s'il meurt.\nAlors que sous forme de brouillard, Zorak ne peut pas prendre d'actions, parler ou manipuler des objets. Il est sans poids, a une vitesse de vol de 6 m, peut planer, et peut entrer dans l'espace d'une créature hostile et s'arrêter là. De plus, si l'air peut passer dans un espace, la brume peut le faire sans serrer, et il ne peut pas passer dans l'eau. Il a un avantage sur Force, Dextérité et jet de sauvegarde de Constitution, et il est à l'abri de tous les dégâts non magiques, sauf les dégâts qu'il prend du soleil.\n**Résistance légendaire (3/jour).** Si Zorak échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Échappement de la fausseté.** Quand il tombe à 0 points de vie en dehors de son lieu de repos, Zorak se transforme en un nuage de brouillard (comme dans le trait Shapechanger) au lieu de tomber inconscient, à condition qu'il ne soit pas dans la lumière du soleil ou l'eau courante. S'il ne peut pas se transformer, il est détruit.\nBien qu'il ait 0 points de vie sous forme de brouillard, il ne peut pas revenir à sa forme de vampire, et il doit atteindre son lieu de repos dans les 2 heures ou être détruit. Une fois dans son lieu de repos, il revient à sa forme vampire. Il est alors paralysé jusqu'à ce qu'il retrouve au moins 1 points de vie. Après avoir passé 1 heure dans son lieu de repos avec 0 points de vie, il retrouve 1 points de vie.\n**Régénération.** Zorak retrouve 20 points de vie au début de son tour s'il a au moins 1 points de vie et qu'il n'est pas en plein soleil ou en eau courante. Si Zorak prend dégâts radiants ou endommage l'eau bénite, ce trait ne fonctionne pas au début du prochain tour de Zorak.\n**Escalade des araignées.** Zorak peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Faiblesses du vampire.** Zorak présente les défauts suivants:\n- **Interdiction** Zorak ne peut entrer dans une résidence sans une invitation de l'un des occupants.\n- **Harcelé par l'eau courante** Zorak prend 20 dégâts d'acide s'il finit son tour dans l'eau courante.\n- **Attrapez le cœur** Si une arme perçante en bois est poussée dans le cœur de Zorak alors que Zorak est neutralisé dans son lieu de repos, Zorak est paralysé jusqu'à ce que le pieu soit enlevé.\n- **Hypersensibilité à la lumière du soleil** Zorak prend 20 dégâts radiants quand il commence son tour en plein soleil. En plein soleil, il a un désavantage sur jets d'attaque et tests de caractéristique",
+ "actionsText": "**Multiattaques.** Zorak fait deux attaques avec son Marteau de lancer nain, dont une seule peut être une attaque variée.\n**Lanceur de nains.** Attaque d'arme au corps à corps ou à distance : +12 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 11 (1d8 + 7) dégâts contondants, ou 12 (1d10 + 7) dégâts contondants lorsqu'il est utilisé à deux mains pour faire une attaque de melee. Sur une attaque variée qui frappe, le marteau offre un 1d8 dégâts contondants supplémentaire (2d8 si la cible est un géant). Touché ou raté : Si elle est lancée, l'arme retourne à la main de Zorak après l'attaque.\n**Multiattaque (formulaire de vampire seulement).** Zorak fait deux attaques, dont une seule peut être une attaque mordue.\n**frappe à mains nues (formulaire de vampire seulement).** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature. Touché : 8 (1d8 + 4) dégâts contondants. Au lieu d'infliger des dégâts, Zorak peut grappiller la cible (évasion DD 18).\n**Bite (Forme de base ou de vampire seulement).** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature volontaire, ou une créature qui est agrippé par Zorak, neutralisé, ou entravé. Touché : 7 (1d6 + 4) dégâts perforants plus 10 (3d6) dégâts nécrotiques. maximum de points de vie de la cible est réduit d'un montant égal à la dégâts nécrotiques prise, et Zorak récupère points de vie égal à ce montant. La réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0. Un humanoïde tué de cette manière puis enterré dans le sol monte la nuit suivante sous le contrôle de Zorak.\n**Charme.** Zorak cible un humanoïde qu'il peut voir au sein de 9 m. Si la cible peut voir Zorak, la cible doit réussir sur un DD 17 jet de sauvegarde de Sagesse contre cette magie ou être charmé par Zorak. La cible charmé considère Zorak comme un ami de confiance pour être écouté et protégé. Bien que la cible ne soit pas sous le contrôle de Zorak, elle prend les demandes ou les actions de Zorak de la manière la plus favorable qu'elle puisse, et elle est une cible volontaire pour l'attaque de morsure de Zorak.\nChaque fois que les compagnons de Zorak ou Zorak font n'importe quoi qui nuit à la cible, il peut répéter la jet de sauvegarde, mettant fin à l'effet sur lui-même sur un succès. Sinon, l'effet dure 24 heures ou jusqu'à ce que Zorak soit détruit, soit sur un plan d'existence différent de la cible, soit prend un action bonus pour mettre fin à l'effet.\n**Enfants de la nuit (1/jour).** Zorak appelle magiquement des essaims 2d4 de chauves-souris ou de rats, à condition que le soleil ne soit pas levé. En plein air, Zorak peut appeler les loups 3d6. Les créatures appelées arrivent en 1d4, agissant comme alliés de Zorak et obéissant à ses commandements parlés. Les bêtes restent pendant 1 heure, jusqu'à ce que Zorak meurt, ou jusqu'à ce que Zorak les rejette comme un action bonus.",
+ "attacks": [
+  {
+   "name": "Lanceur de nains",
+   "bonus": 12,
+   "damage": "1d8+7",
+   "type": "contondant"
+  },
+  {
+   "name": "frappe à mains nues (formulaire de vampire seulement)",
+   "bonus": 9,
+   "damage": "1d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Bite (Forme de base ou de vampire seulement)",
+   "bonus": 9,
+   "damage": "1d6+4",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/90694770ad_monstre-zorak-lightdrinker.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "armure de plaque",
+ "saves": "DEX +9, SAG +7, CHA +9",
+ "skills": "Perception +7, Discrétion +9",
+ "resistances": "nécrotique, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, zorak lightdrinker peut entreprendre l'une des actions ci-après.\n**Bouge.** Zorak se met à sa vitesse sans provoquer d'attaques d'opportunités.\n**frappe à mains nues.** Zorak fait un frappe à mains nues.\n**Bite (coûts 2 actions).** Zorak fait une attaque à une bouchée."
+}

@@ -1,0 +1,50 @@
+{
+ "id": "berceau-du-nuage-scion",
+ "name": "Cradle of the Cloud Scion",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique neutre",
+ "cr": "26",
+ "xp": 90000,
+ "ca": 19,
+ "hp": 624,
+ "hpFormula": "32d20+288",
+ "vitesse": "0 m, vol 27 m (vol stationnaire)",
+ "stats": {
+  "FOR": 29,
+  "DEX": 21,
+  "CON": 28,
+  "INT": 14,
+  "SAG": 22,
+  "CHA": 19
+ },
+ "senses": "Perception passive 16",
+ "languages": "géant, primordial",
+ "traits": "**L'éveil des Scion.** Le berceau est un conteneur pour le Scion de Memnor. Lorsque le berceau tombe à 0 points de vie, son corps se dissipe dans les nuages. Le scion apparaît instantanément dans l'espace occupé par le berceau et utilise le nombre d'initiatives du berceau.\n**Volée.** Le berceau ne provoque pas d'attaques d'opportunité quand il vole hors de la portée d'un ennemi.\n**Résistance légendaire (5/jour).** Si le berceau échoue un jet de sauvegarde, il peut choisir de réussir.\n**Résistance magique.** Le berceau a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le berceau inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le berceau fait trois attaques Slam ou Wind Javelin dans n'importe quelle combinaison.\n**Clamer.** Attaque d'arme au corps à corps : +17 au toucher, allonge 6 m, une cible. Touché : 31 (4d10 + 9) dégâts contondants plus 19 (3d12) dégâts de tonnerre.\n**Javelin du vent.** Attaque d'arme à distance : +17 au toucher, portée 36 m, une cible. Touché : 27 (4d8 + 9) dégâts contondants plus 10 (3d6) dégâts de tonnerre, et la cible doit réussir sur un DD 25 jet de sauvegarde de Force ou avoir l'état à terre.\n**Vortex (Recharge 5-6).** Le berceau évoque un vortex de vent à un point qu'il peut voir en 27 m de lui-même. Le vortex du vent est un 9 m -radius, 30 m -haut cylindre centré sur ce point. Chaque créature autre que le berceau dans cette zone doit faire un DD 25 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 71 (11d12) dégâts contondants et a l'état entravé dans le vortex. Lors d'une sauvegarde réussie, une créature prend la moitié de ces dégâts et est poussée à l'espace inoccupé le plus proche à l'extérieur du cylindre. Le vortex dure jusqu'au prochain virage du berceau. Une créature avec l'état entravé tombe à terre quand le vortex se termine.\nUne créature avec l'état entravé peut utiliser son action pour essayer d'échapper au vortex. La créature fait un DD 19 Force (Athlétisme) ou test de Dextérité (Acrobaties). Sur un contrôle réussi, la créature s'échappe et déplace 3d6 × 10 pieds loin du vortex dans une direction aléatoire.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 17,
+   "damage": "4d10+9",
+   "type": "contondant + tonnerre"
+  },
+  {
+   "name": "Javelin du vent",
+   "bonus": 17,
+   "damage": "4d8+9",
+   "type": "contondant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/8f817c5947_monstre-berceau-du-nuage-scion.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Berceau du nuage Scion",
+ "caNote": "armure naturelle",
+ "saves": "INT +10, CHA +12",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison, tonnerre",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi",
+ "reactions": "**Tonnerre.** Immédiatement après avoir subi des dégâts, le berceau déclenche un coup de tonnerre dans une sphère 9 m -radius centrée sur lui-même. Toutes les autres créatures dans cette zone doivent réussir sur un DD 25 jet de sauvegarde de Constitution ou prendre 18 (4d8) dégâts de tonnerre et avoir l'état assourdi pendant 1 minute."
+}

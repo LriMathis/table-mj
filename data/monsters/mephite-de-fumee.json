@@ -1,0 +1,40 @@
+{
+ "id": "mephite-de-fumee",
+ "name": "Méphite de fumée",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d6+5",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "skills": "Discrétion +4, Perception +2",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "vision dans le noir 18 m, Perception passive 12",
+ "languages": "aérien, igné",
+ "traits": "**Explosion finale.** Quand le méphite meurt, il laisse derrière lui un nuage de fumée qui emplit une sphère d'un rayon de 1,50 mètre centrée sur l'emplacement qu'il occupait. Dans cette sphère, la visibilité est nulle. Le nuage se disperse au bout d'une minute ou si le vent souffle.\n**Incantation innée (1/jour).** Le méphite peut lancer *lumières dansantes* de manière innée sans aucune composante matérielle. La caractéristique de son pouvoir d'incantation innée est le Charisme.",
+ "actionsText": "**Griffes.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une créature. *Touché :* 4 (1d4+2) dégâts tranchants.\n**Souffle de scories (recharge 6).** Le méphite souffle un cône de cendres ardentes de 4,50 mètres. Les créatures dans cette zone doivent réussir un jet de sauvegarde de Dextérité DD 10, sans quoi elles sont aveuglées jusqu'à la fin du prochain tour du méphite.",
+ "portrait": "/data/images/7bf515c0db_monstre-mephite-de-fumee.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 218 · image : Manuel des monstres p. 217",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ]
+}

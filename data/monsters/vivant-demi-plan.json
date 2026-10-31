@@ -1,0 +1,33 @@
+{
+ "id": "vivant-demi-plan",
+ "name": "Living Demiplane",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 31,
+ "hpFormula": "7d8",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 1,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Forme dimensionnelle.** Le sort vivant peut entrer dans l'espace d'une autre créature et vice versa, et il peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer. Le sort vivant ne peut pas se détacher d'une surface solide, comme un mur, un plafond ou un plancher. S'il n'a pas de surface à attacher, le sort vivant est détruit (voir «Destruction Planaire» ci-dessous).\n**Chambre extra-dimensionnelle.** Lorsque le sort vivant entre dans l'espace d'une autre créature (ou vice versa) pour la première fois sur un tour, l'autre créature doit réussir sur un DD 10 jet de sauvegarde de Dextérité ou être tiré dans l'espace extradimensionnel du sort vivant, une chambre de pierre non meublée 9 m dans toutes les dimensions. Une créature trop grande pour s'intégrer dans cet espace réussit automatiquement sur le jet de sauvegarde. Les créatures dans la chambre ne sont jamais à court d'air respirant. La magie qui permet le transit entre les avions, comme le décalage de l'avion, peut être utilisée pour échapper à la chambre, qui n'a pas de sortie autrement. Les créatures piégées à l'intérieur de la chambre extradimensionnelle ne peuvent pas voir, cibler ou causer des dégâts au sort vivant; cependant, elles peuvent endommager la pièce qui les entoure. Chaque section de plafond, mur et plancher de 1,50 m-carré dans la chambre a CA 17, 50 points de vie, l'immunité au poison et dégâts psychiques, et l'immunité au bludgeoning, piercing, et dégâts tranchants qui est non magique. Si une section est réduite à 0 points de vie, le sort vivant et sa chambre sont détruits (voir \"Destruction Planaire\" ci-dessous).\n**Résistance magique.** Le sort vivant a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Destruction plane.** Le sort vivant est détruit lorsqu'il ou une section 1,50 m carré de sa chambre extradimensionnelle est réduite à 0 points de vie ou lorsque le sort vivant n'a pas de surface à fixer. Lorsque le sort vivant est détruit, le contenu de sa chambre extradimensionnelle est expulsé, apparaissant aussi près que possible de l'emplacement précédent du sort vivant. Chaque créature expulsée apparaît dans un espace inoccupé déterminé au hasard, avec tout ce qu'elle porte ou porte.\n**Nature inhabituelle.** Le sort vivant ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/571c991266_monstre-vivant-demi-plan.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Vivant demi-plan",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi, inconscient"
+}

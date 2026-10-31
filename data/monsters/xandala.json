@@ -1,0 +1,40 @@
+{
+ "id": "xandala",
+ "name": "Xandala",
+ "type": "Humanoïde (demi-elf)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 13,
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, draconique, nain, elfique, halfelin",
+ "traits": "**Oreille accélérée (3/jour).** Quand elle lance un sort qui a un temps de coulée de 1 action, Xandala change le temps de coulée à 1 action bonus pour ce casting.\n**Détection orthographique.** Xandala est un spellcaster de niveau 9. Son caractéristique d'incantation est Charisme (save spell DD 15, +7 au toucher avec attaques de sort). Xandala a les sorts sorciers suivants préparés:\n- Sorts mineurs (à volonté) : Aspersion d'acide, Trait de feu, Lumière, Main de mage, Rayon de givre\n- Niveau 1 (4 emplacements) : Orbe chromatique, Feuille morte, Bouclier\n- Niveau 2 (4 emplacements) : Invisibilité, Foulée brumeuse\n- Niveau 3 (3 emplacements) : Boule de feu, Vol\n- Niveau 4 (3 emplacements) : Tempête de grêle, Métamorphose\n- Niveau 5 (1 emplacements) : Domination de personne",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants, ou 4 (1d8) dégâts contondants lorsqu'il est utilisé à deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 3,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/bd7d3394ea_monstre-xandala.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +7, SAG +6",
+ "skills": "Arcanes +7, Tromperie +10, Histoire +7, Perspicacité +6, Survie +6"
+}

@@ -1,0 +1,32 @@
+{
+ "id": "combat-familier",
+ "name": "Battle Familiar",
+ "type": "Céleste ou Fée ou Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "12 m, vol 9 m (vol stationnaire) (Flyer seulement), nage 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "comprend les langues que vous connaissez",
+ "traits": "**Flyby (Flyer seulement).** Le familier ne provoque pas Opportunity Attacks quand il vole hors de la portée d'un ennemi.\n**Talents.** Ajoutez la moitié du niveau du sort (arrondi) à n'importe quel test de caractéristique ou jet de sauvegarde que vous connaissez.",
+ "actionsText": "**Multiattaques.** Le familier fait un certain nombre d'attaques Rend égal à la moitié du niveau de ce sort (ronde vers le bas). Le familier peut remplacer l'une de ces attaques par Prowl si disponible.\n**Rend.** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d8 + 3 + summonSpellLevel dégâts de force.\n**Prowl (Stalker seulement).** Le familier se déplace jusqu'à la moitié de sa vitesse sans provoquer Opportunity Attacks. À la fin de ce mouvement, le familier peut prendre l'action Se cacher.",
+ "attacks": [],
+ "portrait": "/data/images/12e98241da_monstre-combat-familier.webp",
+ "notes": "points de vie : 30 (Brute seulement) ou 20 (Flyer ou Stalker seulement) + 5 pour chaque niveau de sort supérieur à 2",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "aka": "Combat familier",
+ "conditionImmunities": "charmé, effrayé"
+}

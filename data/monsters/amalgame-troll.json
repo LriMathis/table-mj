@@ -1,0 +1,44 @@
+{
+ "id": "amalgame-troll",
+ "name": "Troll Amalgam",
+ "type": "Géant",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 15,
+ "hp": 217,
+ "hpFormula": "14d20+70",
+ "vitesse": "18 m, escalade 18 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 14,
+  "CON": 21,
+  "INT": 9,
+  "SAG": 16,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "géant, commun des profondeurs",
+ "traits": "**Résistance légendaire (3/jour).** Si l'amalgame échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** L'amalgame a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** L'amalgame reprend 15 points de vie au début de son tour. Si l'amalgame prend de l'acide ou du dégâts de feu, il ne retrouve que 5 points de vie au début de son prochain tour. L'amalgame ne meurt que s'il prend 20 ou plus d'acide ou dégâts de feu alors qu'il a 0 points de vie.",
+ "actionsText": "**Multiattaques.** L'amalgame fait trois attaques de Rend.\n**Rend.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 25 (4d8 + 7) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 13,
+   "damage": "4d8+7",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/5d12cf6a4e_monstre-amalgame-troll.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Amalgame troll",
+ "caNote": "armure naturelle",
+ "saves": "CON +11, SAG +9",
+ "skills": "Perception +9",
+ "resistances": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "bonusActions": "**Limbe de vol (3/jour).** Attaque d'arme à distance : +13 au toucher, portée 18/72 m., une cible. Touché : 11 (1d8 + 7) dégâts contondants. Si le membre frappe une créature moyenne ou plus petite, cette créature a l'état agrippé (évasion DD 17). Le membre a les statistiques d'un amalgame de troll, sauf pour ce qui suit : il est moyen, il a 45 points de vie, sa vitesse est 9 m, il n'a pas de cote de défi ou résistance légendaire, et la seule action qu'il peut prendre est l'action Attack, qu'il peut utiliser uniquement pour faire du grippe.\nJusqu'à ce que ce grappin se termine, la cible a l'état entravé et prend 25 (4d8 + 7) dégâts tranchants au début de chacun de ses tours. Si le membre n'est pas détruit dans les 24 heures qui suivent son écoulement, rouler un d12 ; sur un rouleau de 12, le membre se régénère en troll (voir le Monster Manual). Sinon, le membre se fane."
+}

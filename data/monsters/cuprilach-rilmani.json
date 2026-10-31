@@ -1,0 +1,49 @@
+{
+ "id": "cuprilach-rilmani",
+ "name": "Cuprilach Rilmani",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 16,
+ "hp": 202,
+ "hpFormula": "27d8+81",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 20,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 16",
+ "languages": "télépathie 36 m, quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La cuprilach fait trois attaques de lame brûlée ou de bolt.\n**Lame brûlée.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts perforants plus 13 (2d12) dégâts psychiques.\n**Bolt.** Attaque d'arme à distance : +9 au toucher, portée 6/18 m., une cible. Touché : 7 (1d4 + 5) dégâts perforants plus 13 (2d12) dégâts psychiques.\n**Détection orthographique.** La cuprilach lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection de la magie, Déguisement\n- 1/jour chacun : Modification d'apparence, Nappe de brouillard, Silence",
+ "attacks": [
+  {
+   "name": "Lame brûlée",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "perforant + psychique"
+  },
+  {
+   "name": "Bolt",
+   "bonus": 9,
+   "damage": "1d4+5",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/7fe1597665_monstre-cuprilach-rilmani.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CHA +6",
+ "skills": "Perception +6, Discrétion +13",
+ "resistances": "psychique",
+ "bonusActions": "**Assassiner l'agilité.** La cuprilach prend l'action Foncer ou Se désengager, ou elle fait une attaque Burnished Blade.",
+ "reactions": "**Uncanny Dodge.** La cuprilach réduit de moitié les dégâts qu'elle prend lors d'une attaque qui la frappe, à condition qu'elle puisse voir l'attaquant."
+}

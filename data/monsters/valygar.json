@@ -1,0 +1,48 @@
+{
+ "id": "valygar",
+ "name": "Valygar",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 17,
+ "hp": 187,
+ "hpFormula": "25d8+75",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, draconique, primordial",
+ "traits": "**Résistance magique.** Valygar a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Mage Slaying.** Lorsque Valygar inflige des dégâts à une créature qui est concentrating sur un sort, cette créature a un désavantage sur la jet de sauvegarde qu'elle fait pour maintenir sa concentration.",
+ "actionsText": "**Multiattaques.** Valygar fait deux attaques Katana et une attaque Hand Crossbow ou il fait deux attaques Hand Crossbow.\n**Katana.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains plus 13 (3d8) dégâts de poison.\n**Acrobatie des mains.** Attaque d'arme à distance : +8 au toucher, portée 9/36 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Katana",
+   "bonus": 8,
+   "damage": "1d8+4",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d575cd4e7e_monstre-valygar.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "demi-plaque",
+ "saves": "FOR +6, DEX +8",
+ "skills": "Arcanes +4, Histoire +4, Perception +4",
+ "bonusActions": "**Vols d'ombre.** Dans la lumière sombre ou sombre, Valygar peut prendre l'action Se cacher comme action bonus.",
+ "reactions": "**Percez l'orthographe.** Lorsqu'une créature de 1,50 m de Valygar jette un sort, il peut utiliser sa réaction pour faire une attaque d'arme contre cette créature."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "serviteur-des-spores-quaggoth",
+ "name": "Serviteur des spores quaggoth",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non-aligné",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "caNote": "armure naturelle",
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, terrorisé, paralysé, empoisonné",
+ "senses": "vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 8",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le serviteur des spores porte deux attaques de griffe.\n**Griffe.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d6+3) dégâts tranchants.",
+ "portrait": "/data/images/bd895e8521_monstre-serviteur-des-spores-quaggoth.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 230 · image : internet",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ]
+}

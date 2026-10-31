@@ -1,0 +1,43 @@
+{
+ "id": "baiser-de-mort",
+ "name": "Death Kiss",
+ "type": "Aberration (tyrannoeil)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 142,
+ "hpFormula": "15d10+60",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "profond, commun des profondeurs",
+ "traits": "**foudre Sang.** Une créature au sein de 1,50 m du baiser de mort prend 5 (1d10) dégâts de foudre chaque fois qu'il frappe le baiser de mort avec une attaque de mêlée qui traite piercing ou dégâts tranchants.",
+ "actionsText": "**Multiattaques.** Le baiser de la mort fait trois attaques du Tentacle. Jusqu'à trois de ces attaques peuvent être remplacées par le sang drain, un remplacement par tentacule grippant une créature.\n**Tentacle.** Attaque d'arme au corps à corps : +8 au toucher, allonge 6 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants, et la cible est agrippé (évasion DD 14) s'il s'agit d'une créature énorme ou plus petite. Jusqu'à ce que ce grappin se termine, la cible est entravé, et le baiser de mort ne peut pas utiliser le même tentacule sur une autre cible. Le baiser de la mort a dix tentacules.\n**Égoutter le sang.** une créature agrippé par un tentacule du baiser de mort doit faire un DD 16 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la cible prend 22 (4d10) dégâts de foudre, et le baiser de la mort récupère la moitié de points de vie.",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f45f9e9c0b_monstre-baiser-de-mort.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Baiser de mort",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, SAG +5",
+ "skills": "Perception +5",
+ "immunities": "foudre",
+ "conditionImmunities": "à terre"
+}

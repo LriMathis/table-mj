@@ -1,0 +1,51 @@
+{
+ "id": "mr-honeycutt",
+ "name": "Mr. Honeycutt",
+ "type": "Humanoïde (humain, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m (rat form only), Perception passive 12",
+ "languages": "Fréquent (ne peut pas parler sous forme de rat)",
+ "traits": "**Changeur de forme.** Monsieur le Président. Honeycutt peut utiliser son action pour se polymorphiser en un hybride rat-humanoïde ou en un rat géant, ou de nouveau dans sa forme véritable, qui est humanoïde. Ses statistiques, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**Sensation de Keen.** Monsieur le Président. Honeycutt a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.",
+ "actionsText": "**Multiattaque (forme humaine ou hybride seulement).** Monsieur le Président. Honeycutt fait deux attaques, dont une seule peut être une morsure.\n**Bite (forme rat ou hybride seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants. Si la cible est un humanoïde, elle doit réussir sur un DD 11 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie de wedrat.\n**Mot court (forme humaine ou hybride seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Acrobatie des mains (forme humaine ou hybride seulement).** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bite (forme rat ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Mot court (forme humaine ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains (forme humaine ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b9b4740e6b_monstre-mr-honeycutt.webp",
+ "notes": "",
+ "source": "NERDS Restoring Harmony: The Candy Mountain Caper (5e.tools, traduction automatique)",
+ "skills": "Perception +2, Discrétion +4",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées"
+}

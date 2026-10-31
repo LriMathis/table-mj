@@ -1,0 +1,49 @@
+{
+ "id": "dragon-jeune-solar",
+ "name": "Young Solar Dragon",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 178,
+ "hpFormula": "17d10+85",
+ "vitesse": "6 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 20",
+ "languages": "draconique",
+ "traits": "**Volée.** Le dragon ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.\n**Nature inhabituelle.** Le dragon n'a pas besoin d'air.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque Bite et une attaque Tail.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants plus 7 (2d6) dégâts radiants.\n**Queue.** Attaque d'arme au corps à corps : +9 au toucher, allonge 4,50 m, une cible. Touché : 8 (1d6 + 5) dégâts contondants.\n**Respiration photonique (Recharge 5-6).** Le dragon exhale un mot clignotant d'énergie radieuse qui voyage jusqu'à un point que le dragon peut voir en lui-même en 36 m, puis s'épanouit dans une sphère 6 m -radius centrée sur ce point. Chaque créature dans la sphère doit faire un DD 17 jet de sauvegarde de Constitution, en prenant 44 (8d10) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/9c33d2b617_monstre-dragon-jeune-solar.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Dragon jeune solar",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CON +9, SAG +6, CHA +5",
+ "skills": "Perception +10, Discrétion +6",
+ "immunities": "radiant",
+ "conditionImmunities": "aveuglé"
+}

@@ -1,0 +1,49 @@
+{
+ "id": "aberrant-zealot-tentacled",
+ "name": "Aberrant Zealot (Tentacled)",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 93,
+ "hpFormula": "17d8+17",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 8,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 18 m, Vision parfaite 3 m, Perception passive 15",
+ "languages": "commun, profond",
+ "traits": "**Formulaire Aberrant.** Le zéléot exsout le chaos du Far Realm. Toute créature non-Aberration qui commence son tour à l'intérieur de 1,50 m du zéléot doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou prendre 7 (2d6) dégâts psychiques.\n**Bizarrement pliable.** Le zéléot, ainsi que tout équipement qu'il porte ou qu'il transporte, est naturellement souple. Le zéléot peut se déplacer dans n'importe quel espace aussi étroit que 1 pouce sans serrer.",
+ "actionsText": "**Multiattaques.** Le zéléot fait une attaque psychique Rend et deux attaques Shortsword.\n**psychique Rend.** Attaque de sort au corps à corps ou à distance : +7 au toucher, allonge 4,50 m ou portée 36 m, une cible. Touché : 14 (3d6 + 4) dégâts psychiques, et la cible doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou avoir l'état étourdi jusqu'au début du prochain tour du zéléot.\n**Mot-clé.** Attaque d'arme au corps à corps : +7 au toucher, allonge 4,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 7 (2d6) dégâts psychiques.\n**Boussole mentale (Recharge 5-6).** Le zéléot émet magiquement de l'énergie psychique dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou prendre 22 (4d8 + 4) dégâts psychiques et avoir l'état étourdi pendant 1 minute. Une cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin au l'état étourdi sur elle-même en cas de succès.\n**Coulisse (Psioniques).** Le zéléot lance l'un des sorts suivants, ne nécessitant aucun composant et utilisant Charisme comme caractéristique d'incantation (spell save DD 15):\n- À volonté : Détection des pensées, Illusion mineure\n- 1/jour chacun : Portail magique, Voracité de Hadar",
+ "attacks": [
+  {
+   "name": "psychique Rend",
+   "bonus": 7,
+   "damage": "3d6+4",
+   "type": "psychique"
+  },
+  {
+   "name": "Mot-clé",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/4194c8de74_monstre-aberrant-zealot-tentacled.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir Studded",
+ "saves": "DEX +7, CHA +7",
+ "skills": "Perception +5",
+ "resistances": "psychique",
+ "conditionImmunities": "aveuglé, charmé, effrayé, agrippé, entravé",
+ "bonusActions": "**Convertisseur de vapeur (Recharge 5-6).** Les téléportations zéléotes, avec tout équipement qu'elle porte ou transporte, dans un espace inoccupé qu'elle peut voir en 36 m elle-même, laissant un vide criant dans l'espace qu'elle a laissé. Immédiatement après qu'il téléporte, chaque créature dans 9 m du vide autre que le zéléot doit faire un DD 15 jet de sauvegarde de Force. Lors d'une sauvegarde ratée, une créature prend 18 (4d8) dégâts de force et est tirée dans l'espace inoccupé le plus proche du vide. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement. Le vide disparaît alors."
+}

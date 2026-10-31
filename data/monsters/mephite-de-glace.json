@@ -1,0 +1,42 @@
+{
+ "id": "mephite-de-glace",
+ "name": "Méphite de glace",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 21,
+ "hpFormula": "6d6",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 13,
+  "CON": 10,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "skills": "Discrétion +3, Perception +2",
+ "vulnerabilities": "feu",
+ "immunities": "froid, poison",
+ "conditionImmunities": "empoisonné, épuisement",
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "primordial (aquatique, aérien)",
+ "traits": "**Explosion finale.** Le méphite explose quand il meurt. JS Constitution : DD 10, chaque créature dans une Émanation de 1,50 m centrée sur le méphite. Échec : 5 (2d4) dégâts de froid. Réussite : demi-dégâts.",
+ "actionsText": "**Griffe.** Corps à corps : +3, allonge 1,50 m. Touché : 3 (1d4 + 1) dégâts tranchants plus 2 (1d4) dégâts de froid.\n**Nappe de brouillard (1/jour).** Le méphite lance *nappe de brouillard*, sans aucune composante, le Charisme étant sa caractéristique d’incantation.\n**Souffle de givre (recharge 6).** JS Constitution : DD 10, chaque créature dans un Cône de 4,50 m. Échec : 7 (3d4) dégâts de froid. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "1d4+1+1d4",
+   "type": "tranchant + froid"
+  }
+ ],
+ "portrait": "/data/images/b3aba1facc_monstre-mephite-de-glace.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 218",
+ "aka": "Méphite gelé (2024)"
+}

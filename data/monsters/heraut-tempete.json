@@ -1,0 +1,56 @@
+{
+ "id": "heraut-tempete",
+ "name": "Storm Herald",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 16,
+ "hp": 287,
+ "hpFormula": "23d12+138",
+ "vitesse": "15 m, nage 30 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 22,
+  "INT": 24,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 20",
+ "languages": "commun, géant, télépathie 36 m",
+ "traits": "**Amphibie.** Le héraut peut respirer l'air et l'eau.\n**Résistance magique.** Le héraut a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le héraut fait une attaque de la griffe, une attaque des Tentacles et une attaque du Trident.\n**Griffe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 18 (3d6 + 8) dégâts tranchants.\n**Tentacules.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts contondants. Si la cible est une créature grande ou plus petite, elle a l'état agrippé (évasion DD 18). Il a également l'état entravé et prend 16 (3d10) dégâts psychiques au début de chacun de ses tours jusqu'à ce que ce grappin se termine. Le héraut peut avoir seulement une créature agrippé de cette façon à la fois.\n**Trident.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 18 (3d6 + 8) dégâts perforants ou 21 (3d8 + 8) dégâts perforants si utilisé avec deux mains, plus 13 (3d8) dégâts de foudre.\n**psychique Wave (Recharge 6).** Le héraut libère une explosion d'énergie psionique dans l'esprit de jusqu'à trois créatures qu'il peut voir en 27 m de lui-même. Chaque cible doit faire un DD 21 jet de sauvegarde d'Intelligence. Lors d'une sauvegarde ratée, une cible prend 23 (3d10 + 7) dégâts psychiques et a l'état étourdi pendant 1 minute. Sur une sauvegarde réussie, une cible prend la moitié de ces dégâts seulement. Une créature affectée peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\nSi une créature est réduite à 0 points de vie par cette dégâts psychiques, elle meurt et sa tête explose si elle en a une.\n**Coulisse (Psioniques).** Le héraut lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 21) :\n- À volonté : Détection de la magie, Détection des pensées, Main de mage (la main est invisible)\n- 1/jour chacun : Contrôle de l'eau, Contrôle du climat (en tant qu'action), Communication à distance",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 14,
+   "damage": "3d6+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Tentacules",
+   "bonus": 14,
+   "damage": "3d8+8",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "Trident",
+   "bonus": 14,
+   "damage": "3d6+8",
+   "type": "perforant + foudre"
+  }
+ ],
+ "portrait": "/data/images/0569d7f3f2_monstre-heraut-tempete.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Héraut tempête",
+ "caNote": "armure naturelle",
+ "saves": "SAG +10, CHA +10",
+ "skills": "Arcanes +13, Tromperie +10, Perception +10",
+ "resistances": "froid, psychique",
+ "immunities": "foudre, tonnerre",
+ "conditionImmunities": "charmé, effrayé"
+}

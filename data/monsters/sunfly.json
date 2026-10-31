@@ -1,0 +1,38 @@
+{
+ "id": "sunfly",
+ "name": "Sunfly",
+ "type": "Céleste",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "3 m, vol 12 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 17,
+  "CON": 10,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Perception passive 10",
+ "languages": "Céleste, mais ne peut pas parler.",
+ "traits": "",
+ "actionsText": "**Sting.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts perforants. De plus, si la mouche solaire est sur un plan extérieur, elle injecte la cible avec une toxine dont l'effet est déterminé par l'emplacement de la mouche solaire:\n**Plan supérieur.** La cible apporte une lumière vive dans un rayon de 1,50 m jusqu'à la fin de son prochain virage.\n**Avion neutre.** Si la cible est concentrating sur un sort ou un effet similaire, il rend le jet de sauvegarde de Constitution avec un inconvénient de maintenir son concentration.\n**Avion inférieur.** La vitesse de la cible est réduite de 1,50 m jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Sting",
+   "bonus": 5,
+   "damage": "1d4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/23def0ab51_monstre-sunfly.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "bonusActions": "**Éclairage.** La lueur de soleil est lumineuse dans un rayon de 1,50 m et dim lumière pour un 1,50 m supplémentaire, ou elle utilise un action bonus pour éteindre la lumière."
+}

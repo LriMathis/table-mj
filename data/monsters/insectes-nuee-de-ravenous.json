@@ -1,0 +1,40 @@
+{
+ "id": "insectes-nuee-de-ravenous",
+ "name": "Swarm of Ravenous Insects",
+ "type": "Nuée de taille très petite (Bête)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m, creusement 9 m, escalade 9 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 1,
+  "SAG": 12,
+  "CHA": 1
+ },
+ "senses": "Perception des vibrations 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Squelettenize.** Si l'essaim commence son tour dans le même espace qu'un corps grand ou plus petit, le corps est détruit, ne laissant derrière lui que ce qu'il portait ou portait.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour une créature minuscule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Morceaux cornéens.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 20 (4d8 + 2) dégâts perforants, ou 11 (2d8 + 2) dégâts perforants si l'essaim est en sang, et la cible a l'état empoisonné pendant 1 minute comme des insectes se jettent à l'intérieur. La condition se termine tôt si un sort ou un effet restaure points de vie à la cible. Alors qu'empoisonné, la cible prend 4 (1d8) dégâts perforants au début de chacun de ses tours. Une créature réduite à 0 points de vie par ce dégâts meurt.",
+ "attacks": [
+  {
+   "name": "Morceaux cornéens",
+   "bonus": 4,
+   "damage": "4d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d4d8271496_monstre-insectes-nuee-de-ravenous.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Insectes nuée de Ravenous",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

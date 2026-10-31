@@ -1,0 +1,31 @@
+{
+ "id": "objet-anime",
+ "name": "Animated Object",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite ou Petite ou Moyenne ou Grande ou Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 15,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 6",
+ "languages": "comprend les langues que vous connaissez",
+ "traits": "",
+ "actionsText": "**Clamer.** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : dégâts de force égal à (summonSpellLevel - 4)d4 + 3, (summonSpellLevel - 3)d6 + 3 + votre modificateur caractéristique d'incantation (Grand), ou (summonSpellLevel - 3)d12 + 3 + votre modificateur caractéristique d'incantation (Huge).",
+ "attacks": [],
+ "portrait": "/data/images/c2c820620b_monstre-objet-anime.webp",
+ "notes": "points de vie : 10 (Moyen ou plus petit), 20 (Grand), 40 (Grand)",
+ "source": "Player's Handbook (2024) (5e.tools, traduction automatique)",
+ "aka": "Objet animé"
+}

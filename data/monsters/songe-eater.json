@@ -1,0 +1,42 @@
+{
+ "id": "songe-eater",
+ "name": "Dream Eater",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 77,
+ "hpFormula": "14d8+14",
+ "vitesse": "0 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 15,
+  "DEX": 20,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 36 m (aveugle au-delà de ce rayon), Perception passive 13",
+ "languages": "profond, télépathie 36 m",
+ "traits": "**Les visions effrontées.** Chaque créature qui commence son tour dans 9 m du mangeur de rêve doit faire un DD 16 jet de sauvegarde de Sagesse. Sur un sauvetage raté, la créature est effrayé du mangeur de rêve jusqu'au début du prochain tour de la créature. Si le jet de sauvegarde d'une créature est un succès, la créature est immunisée contre le caractère de Ghastly Visions de ce mangeur de rêve pour les 24 prochaines heures.\n**Mouvement intégré.** Le mangeur de rêve peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance magique.** Le mangeur de rêve a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le mangeur de rêve fait deux attaques de Shriek Ensnaring.\n**Ensaring Shriek.** Attaque de sort au corps à corps ou à distance : +8 au toucher, allonge 4,50 m ou portée 18 m, une cible. Touché : 12 (2d6 + 5) dégâts psychiques, et si la cible est une créature moyenne ou plus petite, la cible doit réussir sur une DD 16 jet de sauvegarde de Charisme ou être tiré jusqu'à 4,50 m vers le mangeur de rêve.",
+ "attacks": [
+  {
+   "name": "Ensaring Shriek",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/78bd686da7_monstre-songe-eater.webp",
+ "notes": "",
+ "source": "MCV2DC (5e.tools, traduction automatique)",
+ "aka": "Songe Eater",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "psychique",
+ "conditionImmunities": "aveuglé, charmé, effrayé, agrippé, paralysé, pétrifié, entravé",
+ "bonusActions": "**Engloutissant des cauchemars.** Le mangeur de rêve cible une créature en lui-même 1,50 m. La cible doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être engloutie par le mangeur de rêve, tandis que le mangeur de rêve enveloppe la créature dans un miasma de ses pires peurs.\nLorsque le mangeur de rêve engloutit une cible, le mangeur de rêve entre dans son espace, et la cible prend immédiatement 10 (3d6) dégâts psychiques. Une cible engloutie est entravé et aveuglé, et il faut un 10 (3d6) dégâts psychiques supplémentaire au début de chacun des tours du mangeur de rêve. Quand le mangeur de rêve bouge, la cible engloutie se déplace avec.\nLe mangeur de rêve ne peut avoir qu'une cible englouti à la fois. Une cible engloutie s'échappe au début de son tour en faisant un DD 16 jet de sauvegarde de Sagesse. Sur une sauvegarde réussie, la cible s'échappe; la cible n'est plus engloutie, et elle entre dans un espace de son choix au sein de 1,50 m du mangeur de rêve. Une créature au sein de 4,50 m du mangeur de rêve peut également utiliser son action pour tenter de libérer une cible engloutie. Pour ce faire, il faut que la créature utilise son action pour faire un DD 16 test de Charisme (Persuasion) pour convaincre la cible engloutie que le cauchemar n'est pas réel, la cible s'échappant d'un succès. La créature qui effectue le contrôle prend 10 (3d6) dégâts psychiques, quel que soit le succès ou l'échec du contrôle, comme son esprit se brosse contre le cauchemar."
+}

@@ -1,0 +1,43 @@
+{
+ "id": "dreaming-noir-mindkiller",
+ "name": "Dreaming Dark Mindkiller",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 19,
+ "hp": 180,
+ "hpFormula": "24d8+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 19,
+  "CON": 16,
+  "INT": 21,
+  "SAG": 18,
+  "CHA": 17
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 18",
+ "languages": "commun, Quori; télépathie 36 m.",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le tueur à l'esprit fait deux attaques de Nightmare Whisper.\n**Whisper de cauchemar.** Jet d'attaque au corps à corps ou à distance : +9, allonge 1,50 m ou portée 9 m. Touché : 27 (5d8 + 5) dégâts psychiques, et la cible a l'état effrayé jusqu'au prochain tour du mindkiller. Si la cible est déjà effrayé, il prend plutôt un 10 (3d6) dégâts psychiques supplémentaire.\n**Peur primaire (1/jour).** Jet de sauvegarde de Sagesse : DD 17, chaque créature dans un 9 m -radius Sphere centré sur un point que le tueur mental peut voir dans 36 m. Échec : 35 (10d6) dégâts psychiques, et la cible a l'état effrayé jusqu'au début du prochain tour de la tueuse mentale. Alors qu'effrayé de cette façon, la cible ne peut faire qu'un seul des suivants à chacun de ses tours: déplacer, prendre une action, ou prendre une action bonus. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Whisper de cauchemar",
+   "bonus": 9,
+   "damage": "5d8+5",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/69dbe88e90_monstre-dreaming-noir-mindkiller.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "aka": "Dreaming noir Mindkiller",
+ "saves": "DEX +8, INT +9, SAG +8, CHA +7",
+ "skills": "Tromperie +7, Perspicacité +8, Perception +8, Discrétion +8",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "bonusActions": "**Marionnette de Tueuse (1/jour).** Le mindkiller lance Domination de personne, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17).\n- 1/jour : Domination de personne"
+}

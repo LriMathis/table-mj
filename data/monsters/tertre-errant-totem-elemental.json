@@ -1,0 +1,43 @@
+{
+ "id": "tertre-errant-totem-elemental",
+ "name": "Shambling Mound Totem Elemental",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "6 m, nage 6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "**foudre absorption.** Chaque fois que le totem du monticule est soumis à dégâts de foudre, il ne prend aucun dégâts et récupère un nombre de points de vie égal à la dégâts de foudre distribuée.",
+ "actionsText": "**Multiattaques.** Le totem de monticules entassés fait deux attaques de clams. Si les deux attaques touchent une cible moyenne ou plus petite, la cible est agrippé (évasion DD 14), et le totem de monticule entaché utilise son Englout.\n**Clamer.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants.\n**Engloutissement.** Le totem engouffrant engloutit une créature moyenne ou plus petite agrippé par elle. La cible engloutie est aveuglé, entravé, et incapable de respirer, et elle doit réussir sur un DD 14 jet de sauvegarde de Constitution au début de chaque tour du monticule ou prendre 13 (2d8 + 4) dégâts contondants. Si le monticule bouge, la cible engloutie se déplace avec. Le monticule ne peut avoir qu'une créature englouti à la fois.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/755b71f408_monstre-tertre-errant-totem-elemental.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "aka": "Tertre errant Totem Elemental",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +2",
+ "resistances": "froid, feu",
+ "immunities": "foudre",
+ "conditionImmunities": "aveuglé, assourdi, épuisement"
+}

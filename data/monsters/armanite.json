@@ -1,0 +1,53 @@
+{
+ "id": "armanite",
+ "name": "Armanite",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 94,
+ "hpFormula": "9d10+45",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 18,
+  "CON": 21,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Résistance magique.** L'armanite a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'armanite fait une attaque de griffe, une attaque de Hooves et une attaque de queue déraillée.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d4 + 5) dégâts tranchants plus 9 (2d8) dégâts de foudre.\n**Des voyous.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 16 jet de sauvegarde de Force ou être à terre.\n**Tail déraillé.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts tranchants.\n**foudre Lance (Recharge 5-6).** L'armanite lâche un boulon de foudre dans une ligne qui est longue 18 m et large 3 m. Chaque créature dans la ligne doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 36 (8d8) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d4+5",
+   "type": "tranchant + foudre"
+  },
+  {
+   "name": "Des voyous",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Tail déraillé",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/fbaa1dfb29_monstre-armanite.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

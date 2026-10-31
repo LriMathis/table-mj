@@ -1,0 +1,38 @@
+{
+ "id": "scelle",
+ "name": "Seal",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "6 m, nage 12 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Maintenez votre souffle.** Le sceau peut retenir son souffle pendant 15 minutes.\n**Sensation de Keen.** Le sceau a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 2,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/a8f603a796_monstre-scelle.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Scellé"
+}

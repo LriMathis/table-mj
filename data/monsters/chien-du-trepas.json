@@ -1,0 +1,39 @@
+{
+ "id": "chien-du-trepas",
+ "name": "Chien du trépas",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvaise",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "skills": "Discrétion +4, Perception +5",
+ "conditionImmunities": "assourdi, aveuglé, charmé, effrayé, étourdi, inconscient",
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le chien du trépas effectue deux attaques de Morsure.\n**Morsure.** Corps à corps : +4, allonge 1,50 m. Touché : 4 (1d4 + 2) dégâts perforants. Si la cible est une créature, elle est soumise à l’effet suivant. JS Constitution : DD 12. Premier échec : la cible subit l’état Empoisonné. Tant que la cible est Empoisonnée, son maximum de points de vie ne revient pas à la normale quand elle termine un Repos long. La cible réitère le JS toutes les 24 heures et met un terme à l’effet sur elle-même en cas de réussite. Échecs suivants : le maximum de points de vie de la cible Empoisonnée diminue de 5 (1d10).",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8a3d475603_monstre-chien-du-trepas.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 323"
+}

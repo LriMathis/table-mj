@@ -1,0 +1,39 @@
+{
+ "id": "trilobite",
+ "name": "Trilobite",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "6 m, nage 6 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 11,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 8,
+  "CHA": 2
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Amphibie.** La trilobite peut respirer l'air et l'eau.",
+ "actionsText": "**Griffe.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/4649418363_monstre-trilobite.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +2"
+}

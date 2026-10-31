@@ -1,0 +1,41 @@
+{
+ "id": "zindar",
+ "name": "Zindar",
+ "type": "Humanoïde (demi-dragon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 13,
+ "hp": 110,
+ "hpFormula": "17d8+34",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, draconique, nain, primordial",
+ "traits": "**Ailes de Dragon.** Comme un action bonus à son tour, Zindar peut germer une paire d'ailes de dragon de son dos, gagnant une vitesse de vol de 9 m jusqu'à ce qu'il les rejette comme un action bonus.\n**Détection orthographique.** Zindar est un spellcaster de niveau 14. Son caractéristique d'incantation est Charisme (save spell DD 15, +7 au toucher avec attaques de sort). Zindar connaît les sorts suivants :\n- Sorts mineurs (à volonté) : Trait de feu, Amis, Lumière, Main de mage, Réparation, Message\n- Niveau 1 (6 emplacements) : Projectile magique, Bouclier, Sommeil\n- Niveau 2 (4 emplacements) : Détection des pensées, Déblocage\n- Niveau 3 (3 emplacements) : Clairvoyance, Don des langues\n- Niveau 4 (3 emplacements) : Domination de bête, Peau de pierre\n- Niveau 5 (3 emplacements) : Immobilisation de monstre, Télékinésie\n- Niveau 6 (1 emplacements) : Vision suprême\n- Niveau 7 (1 emplacements) : Tempête de feu",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants, ou 6 (1d8 + 2) dégâts contondants lorsqu'il est utilisé à deux mains.\n**Arme respiratoire (Recharge 5-6).** Zindar utilise l'une des options suivantes:\n**feu Respiration.** Zindar expire le feu dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 22 (4d10) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Respiration faible.** Zindar exhale du gaz dans un cône 4,50 m. Chaque créature dans cette zone doit réussir sur un DD 15 jet de sauvegarde de Force ou avoir un désavantage sur Force -basé jets d'attaque, tests de Force, et jet de sauvegarde de Force pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/78a71ea8cc_monstre-zindar.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +5, SAG +5",
+ "skills": "Arcanes +6, Histoire +9, Perspicacité +5, Investigation +9",
+ "resistances": "feu"
+}

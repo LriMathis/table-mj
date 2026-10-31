@@ -1,0 +1,53 @@
+{
+ "id": "gishath-sun-s-avatar",
+ "name": "Gishath, Sun's Avatar",
+ "type": "Bête",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 203,
+ "hpFormula": "14d20+56",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 6
+ },
+ "senses": "Perception passive 17",
+ "languages": "—",
+ "traits": "**Résistance légendaire (3/jour).** Si Gishath échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Gishath fait deux attaques : une avec sa morsure et une avec sa queue ou son stomp. Il ne peut pas faire les deux attaques contre la même cible.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 4,50 m, une cible. Touché : 39 (5d12 + 7) dégâts perforants. Si la cible est une créature grande ou plus petite, elle doit réussir sur une DD 19 jet de sauvegarde de Dextérité ou sur une agrippé (évasion DD 19). Jusqu'à ce que ce grappin se termine, la cible est entravé, et Gishath ne peut pas mordre une autre cible.\n**Avalez.** Gishath fait une attaque de morsure contre une créature grande ou plus petite qu'elle est en train de combattre. Si l'attaque frappe, cette créature prend les dégâts de la morsure et est avalée, et le grappin se termine. En avalant, la créature est aveuglé et entravé, elle a 3 contre les attaques et autres effets en dehors de Gishath, et elle prend 21 (6d6) dégâts d'acide au début de chacun des tours de Gishath.\nSi Gishath prend 30 dégâts ou plus sur un seul tour d'une créature à l'intérieur, il doit réussir sur un DD 18 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m. Si Gishath meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 6 m de mouvement, sortant d'à terre.\n**Stompe.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 29 (5d8 + 7) dégâts contondants, et la cible doit réussir sur un DD 19 jet de sauvegarde de Force ou être à terre.\n**Queue.** Attaque d'arme au corps à corps : +11 au toucher, allonge 4,50 m, une cible. Touché : 25 (4d8 + 7) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "5d12+7",
+   "type": "perforant"
+  },
+  {
+   "name": "Stompe",
+   "bonus": 11,
+   "damage": "5d8+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 11,
+   "damage": "4d8+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e26b530499_monstre-gishath-sun-s-avatar.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +11, CON +8, SAG +7, CHA +2",
+ "skills": "Perception +7",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, gishath, sun's avatar peut entreprendre l'une des actions ci-après.\n**Attaque.** Gishath fait une attaque de stomp ou de queue.\n**Roar (coûts 2 actions).** Chaque créature qui est dans 36 m de Gishath et peut l'entendre doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre le Roar de Gishath pendant les 24 prochaines heures."
+}

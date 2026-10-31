@@ -1,0 +1,45 @@
+{
+ "id": "grand-champion-de-bloodshed",
+ "name": "Grim Champion of Bloodshed",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 18,
+ "hp": 280,
+ "hpFormula": "33d8+132",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 17,
+  "CHA": 21
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 19",
+ "languages": "commun",
+ "traits": "**Résistance légendaire (3/jour).** Si le champion échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le champion fait quatre attaques Blazing Morningstar. Il peut remplacer une de ces attaques par Blade Storm, si disponible.\n**La star du matin.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d8 + 6) dégâts perforants plus 14 (4d6) dégâts de feu.\n**Tempête de la lame (Recharge 5-6).** Le champion évoque une tempête de lames spectrales qui remplit un cube 6 m centré sur un point qu'il peut voir en lui-même. La tempête dure jusqu'au prochain tour du champion. Bien que la tempête soit active, la zone de la tempête est un terrain difficile. Chaque fois qu'une créature entre dans la tempête pour la première fois sur un tour ou commence son tour là, elle doit faire un DD 19 jet de sauvegarde de Dextérité, en prenant 27 (6d8) dégâts tranchants sur un jet de sauvegarde, ou la moitié de ces dégâts sur un succès.",
+ "attacks": [
+  {
+   "name": "La star du matin",
+   "bonus": 12,
+   "damage": "1d8+6",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/075aba264e_monstre-grand-champion-de-bloodshed.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Grand champion de Bloodshed",
+ "caNote": "Armure de plaque",
+ "saves": "FOR +12, DEX +7, CON +10",
+ "skills": "Athlétisme +12, Intimidation +11, Perception +9",
+ "resistances": "froid, nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, empoisonné, étourdi, inconscient",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, grand champion de bloodshed peut entreprendre l'une des actions ci-après.\n**Furieux poursuite.** Le champion se déplace à sa vitesse ou commande sa monture à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités.\n**Induire la violence.** Le champion cible une créature il peut voir en lui-même 18 m. La cible doit réussir sur une DD 19 jet de sauvegarde de Sagesse ou immédiatement faire une attaque d'arme à la mêlée contre une autre créature du choix du champion qui est à la portée de la cible. Si aucune créature n'est dans la portée de la cible ou si la cible a l'état neutralisé, la cible prend plutôt 11 (2d10) dégâts psychiques.\n**Menace (coûts 2 actions).** Le champion choisit n'importe quel nombre de créatures qu'il peut voir en lui-même. Chaque cible doit réussir sur un DD 19 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'à la fin de son prochain tour."
+}

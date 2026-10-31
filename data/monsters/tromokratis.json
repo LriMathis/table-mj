@@ -1,0 +1,61 @@
+{
+ "id": "tromokratis",
+ "name": "Tromokratis",
+ "type": "Monstruosité (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "tout alignement",
+ "cr": "26",
+ "xp": 90000,
+ "ca": 22,
+ "hp": 409,
+ "hpFormula": "21d20+189",
+ "vitesse": "9 m, nage 24 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 11,
+  "CON": 29,
+  "INT": 22,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Amphibie.** Tromokratis peut respirer de l'air et de l'eau.\n**Cœurs du Kraken (Traitement Mythique; Recharges après un repos court ou long).** Lorsque Tromokratis est réduit à 0 points de vie, il ne meurt ni ne tombe inconscient. Au lieu de cela, les dégâts créent des fissures dans sa carapace, révélant ses cœurs. Tromokratis a quatre cœurs: deux sur sa poitrine, un sur son dos, et un à la base de sa queue. Un coeur a un CA de 22 et 100 points de vie. Il est immunisé contre les attaques non magiques et il est immunisé contre toutes les affections. S'il est forcé de faire un jet de sauvegarde, traitez ses scores de capacité comme 10 (+0). S'il termine un repos court ou long, la carapace guérit, tout cœur détruit se régénère, et les cœurs sont couverts à nouveau. Tromokratis meurt quand tous les cœurs sont détruits.\n**Résistance légendaire (3/jour).** Si Tromokratis échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Armes magiques.** Les attaques de Tromokratis sont magiques.\n**Monstre de siège.** Tromokratis inflige deux dégâts aux objets et aux structures.\n**Carapace résistant à l'orthographe.** Tromokratis a un avantage sur jet de sauvegarde contre les sorts, et toute créature qui fait un attaque de sort contre Tromokratis a un désavantage sur le jet d'attaque.",
+ "actionsText": "**Multiattaques.** Tromokratis fait trois attaques: une avec son pincer, une avec sa queue, et une avec sa poignée tentaculaire.\n**Pincer.** Attaque d'arme au corps à corps : +18 au toucher, allonge 6 m, une cible. Touché : 20 (3d6 + 10) dégâts contondants, et si la cible est une créature, c'est agrippé (évasion DD 26). Jusqu'à ce que le grappin se termine, la cible est entravé, et Tromokratis ne peut utiliser cette attaque sur personne d'autre.\n**Queue.** Attaque d'arme au corps à corps : +18 au toucher, allonge 6 m, une cible. Touché : 23 (3d8 + 10) dégâts contondants, et si la cible est une créature, c'est à terre.\n**Grasp du Tentacle.** Attaque d'arme au corps à corps : +18 au toucher, allonge 6 m, une créature. Touché : 20 (3d6 + 10) dégâts contondants, et la cible est agrippé (évasion DD 26). Si la cible ne s'échappe pas à la fin de son prochain tour, Tromokratis lance la cible jusqu'à 18 m en ligne droite. La cible atterrit sur à terre et prend 21 (6d6) dégâts contondants.\n**Morceau.** Attaque d'arme au corps à corps : +18 au toucher, allonge 1,50 m, une cible. Touché : 29 (3d12 + 10) dégâts perforants. Si la cible est une grande ou plus petite créature agrippé par Tromokratis, cette créature est avalée, et le grappin se termine. En avalant, la créature est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors de Tromokratis, et il prend 42 (12d6) dégâts d'acide au début de chaque tour de Tromokratis. Si Tromokratis prend 50 dégâts ou plus sur un seul tour d'une créature à l'intérieur, Tromokratis doit réussir sur un DD 20 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m de Tromokratis. Si Tromokratis meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 4,50 m de mouvement, sortant d'à terre.",
+ "attacks": [
+  {
+   "name": "Pincer",
+   "bonus": 18,
+   "damage": "3d6+10",
+   "type": "contondant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 18,
+   "damage": "3d8+10",
+   "type": "contondant"
+  },
+  {
+   "name": "Grasp du Tentacle",
+   "bonus": 18,
+   "damage": "3d6+10",
+   "type": "contondant"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 18,
+   "damage": "3d12+10",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/611b2b8614_monstre-tromokratis.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +14, SAG +8",
+ "resistances": "froid, foudre, tonnerre",
+ "immunities": "feu, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, effrayé, paralysé, entravé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, tromokratis peut entreprendre l'une des actions ci-après.\n**Bouge.** Tromokratis se déplace à la moitié de sa vitesse.\n**Queue.** Tromokratis fait une attaque de queue.\n**Bite (coûts 3 actions).** Tromokratis fait une attaque de morsure.\n**Actions mythiques.**\n**Rampage.** Tromokratis fait deux attaques : une avec sa queue et une avec sa poignée tentaculaire.\n**Croissance du corail (coûts 2 actions).** Chaque créature dans 3 m de Tromokratis doit faire un DD 25 jet de sauvegarde de Dextérité, en prenant 13 (3d8) dégâts tranchants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Jusqu'au début de son prochain tour, Tromokratis et ses cœurs gagnent un bonus de +2 à CA."
+}

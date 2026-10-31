@@ -1,0 +1,44 @@
+{
+ "id": "rezran-yeux-de-serpent-agrodro",
+ "name": "Rezran \"Snake Eyes\" Agrodro",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 195,
+ "hpFormula": "26d8+78",
+ "vitesse": "9 m, vol 12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 19
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "draconique, infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir de Rezran.\n**Résistance magique.** Rezran a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Rezran fait deux attaques de Griffe Fiendish, ou il fait une attaque de Griffe Fiendish et utilise Spellcasting.\n**Griffe folle.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts de force. Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Constitution ou prendre 16 (3d10) dégâts de poison et devenir empoisonné pendant 1 minute. La cible empoisonné peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Rezran lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Modification d'apparence, Image majeure\n- 1/jour chacun : Confusion, Domination de personne, Suggestion de groupe\n- 3/jour chacun : Charme-personne, Détection des pensées, Peur",
+ "attacks": [
+  {
+   "name": "Griffe folle",
+   "bonus": 8,
+   "damage": "2d8+3",
+   "type": "force + poison"
+  }
+ ],
+ "portrait": "/data/images/c8ad1fa228_monstre-rezran-yeux-de-serpent-agrodro.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Rezran \"yeux de serpent\" Agrodro",
+ "caNote": "armure naturelle",
+ "saves": "INT +8, CHA +9",
+ "skills": "Tromperie +9, Perspicacité +6, Perception +6, Persuasion +9",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "envie",
+ "name": "Envy",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 19,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, sylvestre",
+ "traits": "**Frais de chargement.** Si Envy déplace au moins 6 m droit vers une créature et la frappe avec une attaque de morsure au même tour, cette cible doit réussir sur un DD 16 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, Envy peut faire une attaque avec ses griffes contre elle en tant qu'action bonus.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 18 (2d12 + 5) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d10 + 5) dégâts contondants.\n**Respiration pétrifiante (Recharge 5-6).** Envy exhale du gaz pétrifiant dans un cône 9 m. Chaque créature dans cette zone doit réussir sur un DD 13 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une cible commence à tourner en pierre et est entravé. La cible entravé doit répéter la jet de sauvegarde à la fin de son prochain tour. Sur un succès, l'effet se termine sur la cible. En cas d'échec, la cible est pétrifié jusqu'à ce qu'elle soit libérée par le sort Restauration supérieure ou autre magie.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d12+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/4261e42bfa_monstre-envie.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Envie",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4",
+ "conditionImmunities": "pétrifié"
+}

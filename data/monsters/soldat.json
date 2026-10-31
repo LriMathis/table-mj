@@ -1,0 +1,40 @@
+{
+ "id": "soldat",
+ "name": "Soldier",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 18,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 11
+ },
+ "senses": "Perception passive 12",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Tactiques de formation.** Le soldat a l'avantage sur jet de sauvegarde contre charmé, effrayé, agrippé, ou entravé alors qu'il est à l'intérieur de 1,50 m d'au moins un allié.",
+ "actionsText": "**Multiattaques.** Le soldat fait deux attaques à la mêlée.\n**Mot long.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants, ou 7 (1d10 + 2) dégâts tranchants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 3,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/0841276529_monstre-soldat.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Soldat",
+ "caNote": "Courrier en chaîne, Bouclier",
+ "skills": "Perception +2, Athlétisme +3"
+}

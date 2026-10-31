@@ -1,0 +1,47 @@
+{
+ "id": "duergar-espion",
+ "name": "Duergar Spy",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Action énergique.** À chacun de ses tours, l'espion peut utiliser un action bonus pour prendre l'action Foncer, Se désengager ou Se cacher.\n**Résilience des duers.** L'espion a avantage sur jet de sauvegarde contre le poison, les sorts et les illusions, ainsi que de résister à être charmé ou paralysé.\n**Attaque d'escroquerie.** Une fois par tour, l'espion peut infliger un dégâts supplémentaire de 7 (2d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur la jet d'attaque, ou lorsque la cible est dans la 1,50 m d'un allié de l'espion qui n'est pas neutralisé et l'espion n'a pas de désavantage sur la jet d'attaque.\n**Sensibilité à la lumière du soleil.** Alors que dans la lumière du soleil, l'espion a désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui comptent sur la vue.",
+ "actionsText": "**Multiattaques.** L'espion fait deux attaques de mots courts.\n**agrandir (recharges après un repos court ou long).** Pendant 1 minute, l'espion augmente magiquement sa taille, avec tout ce qu'il porte ou porte. Bien qu'agrandi, l'espion est grand, double ses dés de dégâts sur les attaques d'armes à base de Force (inclus dans les attaques), et rend tests de Force et jet de sauvegarde de Force avec avantage. Si l'espion manque de la salle pour devenir grand, il atteint la taille maximale possible dans l'espace disponible.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants, ou 10 (2d6 + 3) dégâts perforants pendant l'agrandissement.\n**Acrobatie des mains.** Attaque d'arme à distance : +5 au toucher, portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Invisibilité (Recharges après un repos court ou long).** L'espion tourne magiquement invisible jusqu'à ce qu'il attaque, inflige des dégâts, jette un sort, ou utilise son Agrandir, ou jusqu'à ce que son concentration soit cassé, jusqu'à 1 heure (comme si concentrating sur un sort). Tout équipement que l'espion porte ou porte est invisible.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/79ff0d23b5_monstre-duergar-espion.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "aka": "Duergar espion",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Tromperie +5, Perspicacité +2, Investigation +5, Perception +4, Persuasion +3, Escamotage +5, Discrétion +7",
+ "resistances": "poison"
+}

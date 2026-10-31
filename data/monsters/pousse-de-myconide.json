@@ -1,0 +1,37 @@
+{
+ "id": "pousse-de-myconide",
+ "name": "Pousse de myconide",
+ "type": "Plante",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 5
+ },
+ "senses": "vision dans le noir 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Soleillite aiguë.** Quand le myconide est exposé à la lumière du soleil, il est désavantagé sur ses tests de caractéristique, ses jets d'attaque et ses jets de sauvegarde. Il périt s'il passe plus d'une heure sous la lumière directe du soleil.\n**Spores de détresse.** Quand le myconide subit des dégâts, tous les myconides situés dans un rayon de 72 mètres perçoivent sa douleur.",
+ "actionsText": "**Poing.** *Attaque d'arme au corps à corps :* +1 pour toucher, allonge 1,50 m, une cible. *Touché :* 1 (1d4-1) dégâts contondants plus 2 (1d4) dégâts de poison.\n**Spores de communication (3/jour).** Un nuage de spores de 3 mètres de rayon s'étend autour du myconide. Il contourne les angles et affecte uniquement les créatures dotées d'une Intelligence de 2 ou plus autres que les morts-vivants, les créatures artificielles et les élémentaires. Les créatures affectées sont alors capables de communiquer par télépathie tant qu'elles restent à 9 mètres ou moins les unes des autres. Cet effet dure 1 heure.",
+ "portrait": "/data/images/3a9911067a_monstre-pousse-de-myconide.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 230 · image : internet",
+ "attacks": [
+  {
+   "name": "Poing",
+   "bonus": 1,
+   "damage": "1d4-1+1d4",
+   "type": "contondant + poison"
+  }
+ ]
+}

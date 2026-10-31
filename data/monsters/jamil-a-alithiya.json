@@ -1,0 +1,42 @@
+{
+ "id": "jamil-a-alithiya",
+ "name": "Jamil A'alithiya",
+ "type": "Humanoïde (humain, moine, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 19,
+ "hp": 130,
+ "hpFormula": "20d8+40",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 22,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 20",
+ "languages": "Commun plus quatre autres langues",
+ "traits": "**Défense non armée.** Alors que Jamil ne porte pas d'armure et n'a pas de bouclier, sa CA inclut son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Jamil fait trois attaques force Strike et utilise Brain Burn (si disponible).\n**Grève de force.** Attaque de sort au corps à corps ou à distance : +10 au toucher, allonge 1,50 m ou portée 3 m, une cible. Touché : 17 (2d10 + 6) dégâts de force.\n**Brûlure cérébrale (Recharge 4-6).** Jamil cible jusqu'à deux créatures qu'il peut voir en lui-même. Chaque cible doit faire un DD 18 jet de sauvegarde de Constitution. Sur un jet de sauvegarde raté, la cible prend 28 (8d6) dégâts psychiques et ne peut pas prendre de réactions avant le début de son prochain tour. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts et ne subit aucun autre effet.\n**Détection orthographique.** Jamil lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Sagesse comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection de la magie\n- 2/jour chacun : Détection des pensées, Identification (en tant qu'action), Scrutation (en tant qu'action)",
+ "attacks": [
+  {
+   "name": "Grève de force",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/3a48da19f0_monstre-jamil-a-alithiya.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "caNote": "Défense non armée",
+ "saves": "DEX +7, SAG +10",
+ "skills": "Arcanes +8, Histoire +8, Investigation +8, Perception +10",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé"
+}

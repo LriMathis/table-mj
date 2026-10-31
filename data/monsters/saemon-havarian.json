@@ -1,0 +1,41 @@
+{
+ "id": "saemon-havarian",
+ "name": "Saemon Havarian",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 14,
+ "hp": 156,
+ "hpFormula": "24d8+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, infernal, commun des profondeurs",
+ "traits": "**Matériel spécial.** Saemon porte un Carquois d'Ehlonna (portant 40 handaxes).",
+ "actionsText": "**Multiattaques.** Saemon fait trois attaques de Handaxe.\n**Handaxe.** Attaque d'arme au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d6 + 4) dégâts tranchants plus 3 (1d6) dégâts de force.\n**Détection orthographique.** Saemon lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Trait de feu, Lumière, Main de mage, Prestidigitation\n- 1/jour chacun : Vol, Invisibilité supérieure, Tempête de grêle\n- 2/jour chacun : Contresort, Détection de la magie, Armure de mage, Projectile magique, Foulée brumeuse, Suggestion",
+ "attacks": [
+  {
+   "name": "Handaxe",
+   "bonus": 8,
+   "damage": "1d6+4",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/cbc9c2af0d_monstre-saemon-havarian.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "saves": "FOR +8, DEX +8, SAG +4",
+ "skills": "Athlétisme +8, Tromperie +6, Intimidation +6",
+ "reactions": "**Bouclier Arcane.** Saemon conjure une barrière jaune tourbillonnante et jusqu'au début de son prochain tour, il ajoute +5 à son CA, y compris contre l'attaque de déclenchement, et il ne prend aucun dégâts du missile magique.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, saemon havarian peut entreprendre l'une des actions ci-après.\n**Hurl.** Saemon fait une attaque de Handaxe.\n**Lancer un sort (coûts 2 actions).** Saemon utilise Spellcasting.\n**Objets animés (coûts 3 actions).** Saemon lance Animation d'objets, ciblant jusqu'à 10 handax qu'il a jetés contre des ennemis. S'il n'y a pas 10 handaxes disponibles, alors il fournit les handaxes restantes de son Carquois d'Ehlonna. Les handax sont des objets minuscules."
+}

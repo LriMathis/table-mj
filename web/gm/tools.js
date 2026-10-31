@@ -104,7 +104,8 @@ function renderJournal(main) {
         : `<div class="row"><h2 style="margin:0;flex:1">${deEmoji(esc(n.title))}</h2><button class="small" id="nt-show" title="${t('Show an excerpt on the players\' screens')}"><i class="ico i-announce"></i> ${t('Show')}</button><button class="small" id="nt-edit"><i class="ico i-quill"></i> ${t('Edit')}</button></div>
         <div class="md-view note-view">${richNote(n.body) || `<span class="muted">${t('Empty note.')}</span>`}</div>`}</div>
       <div class="col">
-        <div class="card"><h4><i class="ico i-target"></i> ${t('Quests')}</h4><div class="col">${J.quests.map((q, i) => `<div class="row" style="flex-wrap:nowrap;align-items:flex-start"><input type="checkbox" data-qd="${i}" ${q.done ? 'checked' : ''}><span class="grow small" style="${q.done ? 'text-decoration:line-through;opacity:.6' : ''}">${esc(q.t)}</span><button class="small icon ${q.pub ? 'on' : ''}" data-qp="${i}" title="${q.pub ? t('Visible to players') : t('Hidden from players')}">${q.pub ? '<i class="ico i-eye"></i>' : '<i class="ico i-hidden"></i>'}</button><button class="small icon" data-qx="${i}">✕</button></div>`).join('')}</div>
+        <div class="card"><h4><i class="ico i-target"></i> ${t('Quests')}</h4><div class="col">${J.quests.map((q, i) => `<div class="row" style="flex-wrap:nowrap;align-items:flex-start"><input type="checkbox" data-qd="${i}" ${q.done ? 'checked' : ''}><span class="grow small"><span style="${q.done ? 'text-decoration:line-through;opacity:.6' : ''}">${esc(q.t)}</span>${q.reward ? `<span class="q-rew ${q.reward.given ? 'given' : ''}"><i class="ico i-sparkle"></i> ${esc(rewardLine(q.reward))}${q.reward.given ? ' — <b>donnée</b>' : ` <a href="#" data-qg="${i}">donner</a>`}</span>` : ''}</span>
+          <button class="small icon ${q.reward ? 'on' : ''}" data-qr="${i}" title="Récompense de la quête (argent, XP, objets…)"><i class="ico i-sparkle"></i></button><button class="small icon ${q.pub ? 'on' : ''}" data-qp="${i}" title="${q.pub ? t('Visible to players') : t('Hidden from players')}">${q.pub ? '<i class="ico i-eye"></i>' : '<i class="ico i-hidden"></i>'}</button><button class="small icon" data-qx="${i}">✕</button></div>`).join('')}</div>
           <input id="q-new" placeholder="+ ${t('new quest (Enter)')}" style="width:100%;margin-top:6px"></div>
         <div class="card"><h4><i class="ico i-party"></i> ${t('NPCs')}</h4><div class="col">${J.npcs.map((p, i) => `<details><summary><b>${esc(p.name)}</b> <span class="muted small">${esc(p.role || '')}</span></summary>
           <textarea data-npc="${i}" rows="5" class="small">${esc(p.desc || '')}</textarea>
@@ -130,7 +131,12 @@ function renderJournal(main) {
     $('#nt-show').onclick = () => { const sel = String(getSelection() || '').trim(); handoutModal({ title: n.title, body: sel || '' }); };
   }
   $('#q-new').onkeydown = e => { if (e.key === 'Enter' && e.target.value.trim()) { J.quests.push({ t: e.target.value.trim(), done: false }); save(); rerender(); setTimeout(() => $('#q-new')?.focus()); } };
-  $$('[data-qd]').forEach(c => c.onchange = () => { J.quests[+c.dataset.qd].done = c.checked; save(); rerender(); });
+  $$('[data-qd]').forEach(c => c.onchange = () => {
+    const q = J.quests[+c.dataset.qd]; q.done = c.checked; save(); rerender();
+    if (q.done && q.reward && !q.reward.given) giveRewardModal(q, () => { save(); rerender(); });   // quest done: hand out its reward
+  });
+  $$('[data-qr]').forEach(b => b.onclick = () => { const q = J.quests[+b.dataset.qr]; rewardModal(q, r => { if (r) q.reward = r; else delete q.reward; save(); rerender(); }); });
+  $$('[data-qg]').forEach(a => a.onclick = e => { e.preventDefault(); const q = J.quests[+a.dataset.qg]; giveRewardModal(q, () => { q.done = true; save(); rerender(); }); });
   $$('[data-qx]').forEach(b => b.onclick = () => { J.quests.splice(+b.dataset.qx, 1); save(); rerender(); });
   $$('[data-qp]').forEach(b => b.onclick = () => { const q = J.quests[+b.dataset.qp]; q.pub = !q.pub; save(); rerender(); });
   $$('[data-npcp]').forEach(c => c.onchange = () => { J.npcs[+c.dataset.npcp].pub = c.checked; save(); rerender(); });

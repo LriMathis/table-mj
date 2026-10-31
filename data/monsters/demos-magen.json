@@ -1,0 +1,46 @@
+{
+ "id": "demos-magen",
+ "name": "Demos Magen",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 51,
+ "hpFormula": "6d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Fin de feu.** Si le mage meurt, son corps se désintègre dans un éclat inoffensif de feu et de fumée, laissant derrière lui tout ce qu'il portait ou portait.\n**Résistance magique.** Le magen a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** Le magen n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le Magen fait deux attaques de mêlée.\n**Grande épée.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts tranchants.\n**Acrobatie légère.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1e65737a82_monstre-demos-magen.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné"
+}

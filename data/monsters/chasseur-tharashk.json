@@ -1,0 +1,48 @@
+{
+ "id": "chasseur-tharashk",
+ "name": "Tharashk Hunter",
+ "type": "Humanoïde (humain, orc)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 16,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 19,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun, Orc plus une autre langue",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le chasseur fait trois attaques, en utilisant Shortsword ou Longbow dans n'importe quelle combinaison.\n**Mot-clé.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts perforants, et la cible a Désavantage sur jets d'attaque et tests de caractéristique jusqu'à la fin de son prochain tour.\n**Longbow.** Jet d'attaque à distance : +7, portée 45/180 m. Touché : 17 (3d8 + 4) dégâts perforants, et la vitesse de la cible est réduite de 3 m jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 7,
+   "damage": "3d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8798a604f9_monstre-chasseur-tharashk.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "aka": "Chasseur Tharashk",
+ "saves": "DEX +7, CON +5",
+ "skills": "Perception +6, Discrétion +7, Survie +6",
+ "bonusActions": "**Marque de Tharashk.** Le chasseur marque magiquement une créature il peut voir dans 45 m. La marque dure 1 heure, jusqu'à ce que la cible meurt, ou jusqu'à ce que le chasseur utilise à nouveau ce action bonus. Bien que la cible soit ainsi marquée, le chasseur a l'avantage sur jets d'attaque contre la cible, et la cible ne gagne aucun bénéfice de l'état invisible contre le chasseur.",
+ "reactions": "**Uncanny Dodge.** Déclencheur : Le chasseur est frappé par un jet d'attaque. Réponse : Le chasseur réduit de moitié les dégâts (arrondis) qu'il prend de cette attaque."
+}

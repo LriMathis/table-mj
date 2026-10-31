@@ -1,0 +1,43 @@
+{
+ "id": "erinye",
+ "name": "Érinye",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 178,
+ "hpFormula": "21d8+84",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "saves": "DEX +7, CON +8, CHA +8",
+ "skills": "Perception +6, Persuasion +8",
+ "resistances": "froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision véritable 36 m, Perception passive 16",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**Corde magique.** L’érinye possède une corde magique. Tant qu’elle la porte sur elle, elle peut recourir à l’action Rets implacables. La corde présente le profil suivant : CA 20, 90 pv, Immunité contre les dégâts psychiques et de poison. La corde est réduite en poussière si elle tombe à 0 point de vie, se trouve à 1,50 m ou plus de l’érinye pendant au moins 1 heure ou si l’érinye meurt. Si la corde subit des dégâts ou est détruite, l’érinye peut la restaurer entièrement en terminant un Repos court ou long.\n**Résistance à la magie.** L’érinye a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration diabolique.** Si l’érinye meurt hors des Neuf Enfers, son corps disparaît dans un nuage de fumée sulfureuse et elle en acquiert aussitôt un nouveau en revenant à la vie avec tous ses pv, quelque part dans les Neuf Enfers.",
+ "actionsText": "**Attaques multiples.** L’érinye effectue trois attaques d’Épée flétrissante et peut recourir à Rets implacables.\n**Épée flétrissante.** Corps à corps : +8, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts tranchants plus 11 (2d10) dégâts nécrotiques.\n**Rets implacables (corde magique requise).** JS Force : DD 16, une créature que l’érinye voit dans un rayon de 36 m. Échec : 14 (4d6) dégâts de force, et la cible subit l’état Entravé jusqu’à ce que la corde soit détruite, que l’érinye la libère par une action Bonus ou que l’érinye recoure de nouveau à Rets implacables.",
+ "reactions": "**Parade.** Déclencheur : l'érinye est touchée par un jet d'attaque de corps à corps alors qu'elle tient une arme. Conséquences : l'érinye ajoute 4 à sa CA contre cette attaque, ce qui peut la faire rater.",
+ "attacks": [
+  {
+   "name": "Épée flétrissante",
+   "bonus": 8,
+   "damage": "2d8+4+2d10",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/a2dfe30149_monstre-erinye.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 74"
+}

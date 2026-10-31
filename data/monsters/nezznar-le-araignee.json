@@ -1,0 +1,40 @@
+{
+ "id": "nezznar-le-araignee",
+ "name": "Nezznar the Spider",
+ "type": "Humanoïde (elfe, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 13,
+  "CON": 10,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "commun, elfique, commun des profondeurs",
+ "traits": "**Matériel spécial.** Le Nezznar a un Araignée bâton entièrement chargé (voir appendice B).\n**Ancêtre fécale.** Nezznar a l'avantage sur jet de sauvegarde d'éviter ou de mettre fin l'état charmé sur lui-même, et la magie ne peut pas le mettre au sommeil.\n**Sensibilité à la lumière du soleil.** Nezznar a un désavantage sur jets d'attaque alors que lui ou sa cible est dans le soleil.",
+ "actionsText": "**Multiattaques.** Nezznar fait deux attaques poison.\n**Blast poison.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 36 m, une créature. Touché : 9 (2d8) dégâts de poison.\n**Détection orthographique.** Nezznar lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell saving DD 13 sauf indication contraire):\n- À volonté : Lumières dansantes, Main de mage, Pattes d'araignée (du personnel d'araignée), Toile d'araignée (à partir de la portée de l'araignée; enregistrer DD 15)\n- 1/jour chacun : Ténèbres, Lueurs féeriques, Invisibilité, Armure de mage, Projectile magique, Suggestion",
+ "attacks": [
+  {
+   "name": "Blast poison",
+   "bonus": 5,
+   "damage": "2d8",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/293ee822ca_monstre-nezznar-le-araignee.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Nezznar le araignée",
+ "saves": "INT +5, SAG +4",
+ "skills": "Arcanes +5, Perception +4, Discrétion +3"
+}

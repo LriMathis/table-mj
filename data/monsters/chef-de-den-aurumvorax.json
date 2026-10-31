@@ -1,0 +1,48 @@
+{
+ "id": "chef-de-den-aurumvorax",
+ "name": "Aurumvorax Den Leader",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "12 m, creusement 6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Chef d'emballage.** Les alliés de l'aurumvorax ont un avantage sur jets d'attaque alors que dans 3 m de l'aurumvorax, à condition qu'il ne soit pas neutralisé.\n**Tunneler.** L'aurumvorax peut pénétrer dans la roche solide et le métal à la moitié de sa vitesse de creusement et laisse un tunnel 1,50 m-diamètre dans son sillage.",
+ "actionsText": "**Multiattaques.** L'aurumvorax fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts perforants. Si la cible est une créature portant une armure quelconque, l'aurumvorax gagne l'un des avantages suivants de son choix:\n**Frénésie.** L'aurumvorax a un avantage sur jets d'attaque jusqu'au début de son prochain tour.\n**Dynamiser.** L' aurumvorax retrouve 6 (1d8 + 2) points de vie.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants. Si la cible est une créature grande ou plus petite, c'est agrippé (évasion DD 14). Jusqu'à ce que ce grappin se termine, l'aurumvorax ne peut pas utiliser son attaque de la griffe sur une autre cible, et quand il bouge, il peut traîner la créature agrippé avec elle, sans que la vitesse de l'aurumvorax soit réduite de moitié.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d6fc1c71d6_monstre-chef-de-den-aurumvorax.webp",
+ "notes": "",
+ "source": "Journeys through the Radiant Citadel (5e.tools, traduction automatique)",
+ "aka": "Chef de den Aurumvorax",
+ "caNote": "armure naturelle",
+ "saves": "FOR +6, CON +4",
+ "skills": "Perception +3, Discrétion +4",
+ "conditionImmunities": "pétrifié"
+}

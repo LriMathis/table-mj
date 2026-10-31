@@ -1,0 +1,38 @@
+{
+ "id": "cranium-rat",
+ "name": "Cranium Rat",
+ "type": "Aberration",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 4,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "télépathie 9 m",
+ "traits": "**Chouette télépathique.** Le rat cranium est immunisé contre tout effet qui sentirait ses émotions ou lireait ses pensées, ainsi que tous les sorts de divination.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/17f337688c_monstre-cranium-rat.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "bonusActions": "**Éclairage.** Le rat cranium apporte une lumière faible de son cerveau exposé dans un rayon de 1,50 m ou éteint la lumière."
+}

@@ -1,0 +1,52 @@
+{
+ "id": "manticore-coeur-perforateur",
+ "name": "Manticore, Heart-Piercer",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le mantoire fait deux attaques, une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Aiguille.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants. La cible doit faire un DD 14 jet de sauvegarde de Constitution, en prenant 24 (7d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Aiguille",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/ec8262bae9_monstre-manticore-coeur-perforateur.webp",
+ "notes": "",
+ "source": "PSA (5e.tools, traduction automatique)",
+ "aka": "Manticore, coeur- perforateur",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "musharib",
+ "name": "Musharib",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 30,
+ "hpFormula": "4d8+12",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 13,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, nain",
+ "traits": "**Résilience des nains.** Musharib a un avantage sur jet de sauvegarde contre le poison.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Musharib est Sagesse. Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Marque du chasseur, Saut, Passage sans trace, Communication avec les animaux, Communication avec les plantes",
+ "actionsText": "**Handaxe.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d6 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Handaxe",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/0fd3621bd2_monstre-musharib.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "skills": "Perception +4, Discrétion +3, Survie +4",
+ "resistances": "poison"
+}

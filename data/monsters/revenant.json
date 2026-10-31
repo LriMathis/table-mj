@@ -1,0 +1,42 @@
+{
+ "id": "revenant",
+ "name": "Revenant",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "caNote": "armure de cuir",
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "saves": "FOR +7, CON +7, SAG +6, CHA +7",
+ "resistances": "nécrotiques, psychiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné, épuisé, étourdi, terrifié, paralysé",
+ "senses": "vision dans le noir 18 m, Perception passive 13",
+ "languages": "toutes les langues qu'il connaissait de son vivant",
+ "traits": "**Immunité contre le renvoi.** Le revenant est immunisé contre les effets qui renvoient les morts-vivants.\n**Reconstitution.** L'âme du revenant reste en ce monde même si son cadavre est détruit. Au bout de 24 heures, elle anime un nouveau corps situé sur le même plan d'existence et récupère tous ses points de vie. Tant que l'âme n'a pas réintégré un corps, on peut utiliser le sort *souhait* pour l'obliger à partir pour l'après-vie et l'empêcher de revenir.\n**Régénération.** Le revenant récupère 10 points de vie au début de son tour. S'il subit des dégâts radiants ou de feu, ce trait ne fonctionne pas au début de son prochain tour. Le corps du revenant est détruit uniquement s'il commence son tour avec 0 point de vie et ne se régénère pas.\n**Traqueur vindicatif.** Le revenant sait dans quelle direction et à quelle distance se trouvent toutes les créatures dont il souhaite se venger, même s'il se trouve sur un plan d'existence différent de celui de ses ennemis. Si la créature qu'il traque périt, il le sait.",
+ "actionsText": "**Attaques multiples.** Le revenant effectue deux attaques de poing.\n**Poing.** *Attaque d'arme au corps à corps :* +7 pour toucher, allonge 1,50 m, une cible. *Touché :* 11 (2d6+4) dégâts contondants. Si la cible est une créature dont le revenant a juré de se venger, elle subit 14 (4d6) dégâts contondants de plus. Le revenant peut renoncer à infliger des dégâts et, à la place, empoigner sa cible (DD 14 pour échapper à l'empoignade) à condition que celle-ci soit de Grande taille ou plus petite.\n**Regard vengeur.** Le revenant vise une créature située dans son champ de vision et contre laquelle il a juré de se venger. Elle doit faire un jet de sauvegarde de Sagesse DD 15. Si elle échoue, elle est paralysée jusqu'à ce que le revenant lui inflige des dégâts ou jusqu'à la fin du prochain tour du revenant. Une fois la paralysie terminée, la victime est terrorisée par le revenant pendant 1 minute. Une fois terrorisée, elle peut refaire le jet de sauvegarde à la fin de chacun de ses tours, sachant qu'elle est désavantagée tant qu'elle voit le revenant. Elle met fin à l'état terrorisé dès qu'elle réussit un jet.",
+ "portrait": "/data/images/b4a357c4c0_monstre-revenant.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 258 · image : Manuel des monstres p. 257",
+ "attacks": [
+  {
+   "name": "Poing",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  }
+ ]
+}

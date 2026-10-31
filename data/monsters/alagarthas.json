@@ -1,0 +1,38 @@
+{
+ "id": "alagarthas",
+ "name": "Alagarthas",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 10,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, elfique",
+ "traits": "**Brave.** Alagarthas a un avantage sur jet de sauvegarde contre effrayé.\n**Ancêtre fécale.** Alagarthas a un avantage sur jet de sauvegarde contre charmé et la magie ne peut pas le mettre au lit.",
+ "actionsText": "**Multiattaques.** Alagarthas fait deux attaques à la mêlée.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 4 dégâts contondants.\n**Leadership (Recharges après un repos court ou long).** Pendant 1 minute, Alagarthas peut émettre une commande spéciale ou un avertissement chaque fois qu'une créature non hostile qu'elle peut voir dans 9 m en fait un jet d'attaque ou un jet de sauvegarde. La créature peut ajouter un d4 à son rouleau à condition qu'elle puisse l'entendre et le comprendre. Une créature peut bénéficier d'un seul Leadership meurt à la fois. Cet effet se termine si Alagarthas est neutralisé.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/29e7abd9f5_monstre-alagarthas.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "saves": "CON +4, SAG +2"
+}

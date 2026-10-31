@@ -1,0 +1,45 @@
+{
+ "id": "yantha-coaxrock",
+ "name": "Yantha Coaxrock",
+ "type": "Humanoïde (gnome)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "hp": 16,
+ "hpFormula": "3d6+6",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "gnome, terreux, commun des profondeurs",
+ "traits": "**Camouflage en pierre.** Yantha a un avantage sur tests de Dextérité (Discrétion) fait pour se cacher dans un terrain rocheux.\n**Gnome Cunning.** Yantha a un avantage sur Intelligence, Sagesse et jet de sauvegarde de Charisme contre la magie.\n**Détection orthographique.** Yantha est un spellcaster de niveau 5. Son caractéristique d'incantation est Intelligence (save spell DD 13). Elle a préparé les sorts d'assistants suivants :\n- Sorts mineurs (à volonté) : Lumières dansantes, Amis, Réparation, Prestidigitation\n- Niveau 1 (4 emplacements) : Compréhension des langues, Détection de la magie, Disque flottant de Tenser\n- Niveau 2 (3 emplacements) : Détection des pensées, Immobilisation de personne\n- Niveau 3 (2 emplacements) : Communication à distance",
+ "actionsText": "**Choix de guerre.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.\n**empoisonné Dart.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une créature. Touché : 4 (1d4 + 2) dégâts perforants, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès",
+ "attacks": [
+  {
+   "name": "Choix de guerre",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "empoisonné Dart",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4ed6b6d61a_monstre-yantha-coaxrock.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne",
+ "skills": "Investigation +3, Perception +2, Discrétion +4"
+}

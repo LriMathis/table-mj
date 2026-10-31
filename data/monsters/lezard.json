@@ -1,0 +1,37 @@
+{
+ "id": "lezard",
+ "name": "Lézard",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 11,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 8,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 9",
+ "languages": "aucune",
+ "traits": "**Pattes d’araignée.** Le lézard peut parcourir les parois les plus difficiles à escalader, y compris les plafonds, sans passer par un test de caractéristique.",
+ "actionsText": "**Morsure.** Corps à corps : +2, allonge 1,50 m. Touché : 1 dégât perforant.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 2,
+   "damage": "1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6c7f6671e9_monstre-lezard.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

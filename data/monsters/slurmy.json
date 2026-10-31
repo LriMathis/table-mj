@@ -1,0 +1,39 @@
+{
+ "id": "slurmy",
+ "name": "Slurmy",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 14,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "**Échappement de Nimble.** Slurmy peut prendre l'action Se désengager ou Se cacher en action bonus à chacun de ses tours.",
+ "actionsText": "**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a596bf961e_monstre-slurmy.webp",
+ "notes": "",
+ "source": "NERDS Restoring Harmony: The Candy Mountain Caper (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4"
+}

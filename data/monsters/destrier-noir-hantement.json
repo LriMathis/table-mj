@@ -1,0 +1,41 @@
+{
+ "id": "destrier-noir-hantement",
+ "name": "Nightmare Haunt",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 9,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 36 m (can't see beyond this radius), Perception passive 11",
+ "languages": "profond, télépathie 36 m",
+ "traits": "**Résistance magique.** Le hant de cauchemar a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Somnophage.** Au début de son tour, le cauchemar hante gagne un nombre de points de vie temporaires égal à 5 fois le nombre de créatures inconscient dans 9 m de lui-même.",
+ "actionsText": "**Multiattaques.** Le hant de cauchemar fait deux attaques de Griffe.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants plus 9 (2d8) dégâts psychiques.\n**Tendrins de limon (Recharge 5-6).** Le hant du cauchemar crée des vrilles spectrales qui recouvrent le sol dans un carré 6 m qu'il peut voir à l'intérieur de 9 m pendant 1 minute ou jusqu'à ce qu'il utilise à nouveau cette action. Lorsqu'une créature autre que le hantement de cauchemar entre dans la zone affectée pour la première fois ou commence son tour là, la créature doit réussir sur un DD 14 jet de sauvegarde de Force ou prendre 11 (2d10) dégâts nécrotiques et avoir l'état entravé. Le terrain touché est également considéré comme un terrain difficile pour des créatures autres que le hantage du cauchemar pour la durée de son effet.\nUne créature qui commence son tour dans la zone et est déjà entravé par les vrilles doit répéter le jet de sauvegarde. Sur une sauvegarde échouée, il a l'état inconscient et au lieu de l'état entravé causé par les vrilles. Sur un salut réussi, l'effet se termine sur la créature. Une créature inconscient reste endormie jusqu'à ce qu'elle ne soit plus dans la zone avec des vrilles, qu'elle prenne des dégâts, ou qu'elle soit visée par un sort Délivrance des malédictions ou une magie similaire.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/b4f06165c2_monstre-destrier-noir-hantement.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Destrier noir hantement",
+ "immunities": "psychique",
+ "conditionImmunities": "aveuglé, charmé, épuisement, effrayé",
+ "bonusActions": "**Vols d'ombre.** Alors que dans la lumière sombre ou l'obscurité, le cauchemar hante prend l'action Se cacher."
+}

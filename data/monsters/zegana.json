@@ -1,0 +1,42 @@
+{
+ "id": "zegana",
+ "name": "Zegana",
+ "type": "Humanoïde (Merfolk)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 16,
+ "hp": 130,
+ "hpFormula": "20d8+40",
+ "vitesse": "9 m, nage 12 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 20,
+  "SAG": 18,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 19",
+ "languages": "commun, elfique, Merfolk",
+ "traits": "**Amphibie.** Zegana peut respirer l'air et l'eau.\n**Résistance légendaire (3/jour).** Si Zegana échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Zegana a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Détection orthographique.** Zegana est un spellcaster de niveau 15 Simic. Son caractéristique d'incantation est Intelligence (save spell DD 18, +10 au toucher avec attaques de sort). Elle a préparé les sorts d'assistants suivants :\n- Sorts mineurs (à volonté) : Aspersion d'acide, Druidisme, Rayon de givre, Façonnage de l'eau\n- Niveau 1 (4 emplacements) : Couleurs dansantes, Repli expéditif, Nappe de brouillard, Bouclier\n- Niveau 2 (3 emplacements) : Agrandissement/Rapetissement, Bourrasque\n- Niveau 3 (3 emplacements) : Contresort, Vol, Lenteur\n- Niveau 4 (3 emplacements) : Contrôle de l'eau, Tempête de grêle, Métamorphose\n- Niveau 5 (2 emplacements) : Invocation d'élémentaire, Création\n- Niveau 6 (1 emplacements) : Terraformage, Mur de glace\n- Niveau 7 (1 emplacements) : Rayons prismatiques, Téléportation\n- Niveau 8 (1 emplacements) : Contrôle du climat, Domination de monstre",
+ "actionsText": "**Trident du Premier Président.** Attaque d'arme au corps à corps ou à distance : +10 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 12 (2d6 + 5) dégâts perforants, et le trident émet un boom tonnerre. Chaque créature dans un cube 4,50 m provenant des griffes du trident doit faire un DD 18 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la créature prend 9 (2d8) dégâts de tonnerre et est poussée 3 m loin de Zegana. Si la créature est sous l'eau, les dégâts sont portés à 13 (3d8). Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas poussée.\n**Déluge (Recharge 4-6).** Zegana conjure une vague d'eau qui s'écrase sur une zone de 36 m d'elle. La zone peut être longue jusqu'à 9 m, large jusqu'à 3 m, et haute jusqu'à 3 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 18 (4d8) dégâts contondants et est à terre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas à terre. L'eau s'étend à travers le sol, éteignant les flammes non protégées, elle entre en contact avec, puis disparaît.",
+ "attacks": [
+  {
+   "name": "Trident du Premier Président",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "perforant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/316a649263_monstre-zegana.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +10, SAG +9",
+ "skills": "Perspicacité +9, Nature +10, Perception +9",
+ "resistances": "froid, poison",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, zegana peut entreprendre l'une des actions ci-après.\n**Peau adaptative.** Zegana gagne de la résistance à un type de dégâts de son choix-acide, feu, foudre, ou tonnerre-jusqu'au début de son prochain tour.\n**Trident.** Zegana fait une attaque avec le Trident du Premier Président.\n**agrandir (coûts 2 actions).** Zegana lance Agrandissement/Rapetissement sur elle-même, en utilisant l'option d'agrandissement, sans dépenser un emplacement de sort.\n**Déluge (coûts 3 actions).** Zegana utilise Deluge, si disponible."
+}

@@ -1,0 +1,44 @@
+{
+ "id": "mister-lumiere",
+ "name": "Mister Light",
+ "type": "Humanoïde (elfe, Shadar-kai)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 77,
+ "hpFormula": "14d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Ancêtre fécale.** La lumière a l'avantage sur jet de sauvegarde contre le fait d'être charmé, et la magie ne peut pas le mettre au sommeil.\n**Matériel spécial.** La lumière transporte et est adaptée à la Witchlight Vane. Dans les mains de la Lumière, la vane est une arme finesse.",
+ "actionsText": "**Multiattaques.** La lumière fait deux attaques Witchlight Vane.\n**Vane pour sorcières.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts contondants plus 4 (1d8) dégâts radiants.\n**Détection orthographique.** En portant la Witchlight Vane, Light lance l'un des sorts suivants, ne nécessitant aucun composant de sort et en utilisant Charisme comme caractéristique d'incantation (spell save DD 13, +5 au toucher with attaques de sort) :\n- À volonté : Lumières dansantes, Métamorphose (après coulée, rouler un d8 ; sur un rouleau de 3 ou 8, la lumière ne peut pas lancer le sort jusqu'à l'aube suivante), Rayon de givre",
+ "attacks": [
+  {
+   "name": "Vane pour sorcières",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/eb92609b8d_monstre-mister-lumiere.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Mister lumière",
+ "saves": "DEX +5, CHA +5",
+ "skills": "Perception +3, Représentation +5, Escamotage +5",
+ "vulnerabilities": "foudre",
+ "resistances": "nécrotique",
+ "conditionImmunities": "aveuglé, assourdi, pétrifié, étourdi",
+ "bonusActions": "**Bénédiction de la Reine du Corbeau (1/jour).** De légers téléportages magiques, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir. Jusqu'au début de son prochain tour, il apparaît fantômement et résiste à tous les dégâts."
+}

@@ -1,0 +1,40 @@
+{
+ "id": "daask-raider",
+ "name": "Daask Raider",
+ "type": "Humanoïde (gnoll)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, gnoll",
+ "traits": "**Tactiques de conditionnement.** Le raideur a avantage sur un jet d'attaque contre une créature si au moins un des alliés du raideur est dans le 1,50 m de la créature et l'allié n'a pas l'état neutralisé.",
+ "actionsText": "**Pummel.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Pummel",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/6e46a2914f_monstre-daask-raider.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "saves": "FOR +5",
+ "skills": "Athlétisme +5, Perception +2",
+ "reactions": "**Retour en arrière.** Déclencheur : Le raideur prend des dégâts d'une créature dans 1,50 m. Réponse : Le raideur fait une attaque de Pummel, visant la créature qui déclenche."
+}

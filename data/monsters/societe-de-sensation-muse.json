@@ -1,0 +1,42 @@
+{
+ "id": "societe-de-sensation-muse",
+ "name": "Society of Sensation Muse",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 15,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Perception passive 14",
+ "languages": "Commun plus deux autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La muse fait deux attaques de Résonance Beguiling.\n**Résonance en train de se faire comprendre.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 27 m, une cible. Touché : 9 (2d8) dégâts psychiques. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Charisme ou avoir un désavantage sur le jet d'attaque suivant qu'elle effectue jusqu'à la fin de son prochain tour.\n**Détection orthographique.** La muse lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Lumières dansantes\n- 1/jour chacun : Compréhension des langues, Motif hypnotique",
+ "attacks": [
+  {
+   "name": "Résonance en train de se faire comprendre",
+   "bonus": 5,
+   "damage": "2d8",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/71532c5d65_monstre-societe-de-sensation-muse.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Société de sensation Muse",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +5, CHA +5",
+ "skills": "Perspicacité +4, Perception +4, Représentation +7, Discrétion +5",
+ "bonusActions": "**Présence enchanteur.** Chaque créature de 9 m de la muse doit faire un DD 13 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature a l'état charmé pendant 1 minute. Sur un salut réussi, la créature devient immunisée contre la Présence Enchantante de toute muse pendant 24 heures.\nChaque fois que la muse inflige des dégâts à la créature charmé, la créature charmé peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès."
+}

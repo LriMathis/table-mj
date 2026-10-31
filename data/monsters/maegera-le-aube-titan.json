@@ -1,0 +1,43 @@
+{
+ "id": "maegera-le-aube-titan",
+ "name": "Maegera the Dawn Titan",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique neutre",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 16,
+ "hp": 341,
+ "hpFormula": "22d20+110",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 22,
+  "CON": 20,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 19
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 10",
+ "languages": "igné",
+ "traits": "**Attaques motorisées.** Les attaques de maegera sont traitées comme magiques pour surmonter la résistance et l'immunité aux dégâts causés par les attaques non magiques.\n**feu Aura.** Au début de chaque tour de Maegera, chaque créature de 9 m prend 35 (10d6) dégâts de feu, et les objets inflammables dans l'aura qui ne sont pas portés ou transportés en feu. Une créature prend également 35 (10d6) dégâts de feu de toucher Maegera ou de la frapper avec une attaque de melee pendant qu'elle est dans 3 m, et une créature prend ce dégâts la première fois sur un virage que Maegera se déplace dans son espace. Les armes non magiques qui ont frappé Maegera sont détruites par le feu immédiatement après lui avoir causé des dégâts.\n**Formulaire feu.** Maegera peut entrer dans l'espace d'une créature hostile et s'arrêter là. Il peut se déplacer à travers un espace aussi étroit que 1 pouce de large sans serrer si le feu pouvait passer à travers cet espace.\n**Éclairage.** Maegera apporte une lumière lumineuse dans un rayon 36 m et une lumière dim dans un 36 m supplémentaire.\n**Résistance magique.** Maegera a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Maegera fait trois attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +12 au toucher, allonge 4,50 m, une cible. Touché : 15 (3d6 + 5) dégâts contondants plus 35 (10d6) dégâts de feu,\n**Découpe intérieure.** Maegera lance Boule de feu (Spell save DD 19), ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 12,
+   "damage": "3d6+5",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/8e35493736_monstre-maegera-le-aube-titan.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Maegera le aube titan",
+ "saves": "CON +12, SAG +7, CHA +11",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, maegera le aube titan peut entreprendre l'une des actions ci-après.\n**Éteignez la magie.** Maegera cible une créature qu'il peut voir dans 18 m de lui. Toute résistance ou immunité à dégâts de feu que la cible gagne d'un sort ou d'un objet magique est supprimée. L'effet dure jusqu'à la fin du prochain tour de Maegera.\n**Nuage de fumée (coûts 2 actions).** Maegera exhale un nuage de fumée chaude et de braises qui remplit un cube 18 m. Chaque créature de la région prend 11 (2d10) dégâts de feu. Le nuage dure jusqu'à la fin du prochain tour de Maegera. Les créatures complètement dans le nuage sont aveuglé et ne peuvent pas être vues.\n**Création de feu Elémental (coûts 3 actions).** Le points de vie de Maegera est réduit de 50 dans le cadre de sa séparation et devient un Élémentaire du feu avec 102 points de vie. L'élément de feu apparaît dans un espace inoccupé au sein de 4,50 m de Maegera et agit sur le compte d'initiative de Maegera. Maegera ne peut pas utiliser cette action si elle a 50 points de vie ou moins. L'élément de feu obéit aux commandements de Maegera et se bat jusqu'à ce qu'il soit détruit."
+}

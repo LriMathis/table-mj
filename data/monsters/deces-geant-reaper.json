@@ -1,0 +1,50 @@
+{
+ "id": "deces-geant-reaper",
+ "name": "Death Giant Reaper",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "tout alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 172,
+ "hpFormula": "15d12+75",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques Scythe ou Soul Bolt.\n**Scythe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 4,50 m, une cible. Touché : 21 (3d8 + 8) dégâts tranchants plus 11 (2d10) dégâts nécrotiques.\n**Soul Bolt.** Attaque de sort à distance : +8 au toucher, portée 36 m, une créature. Touché : 26 (4d10 + 4) dégâts nécrotiques. Si la cible a l'état effrayé, le géant gagne points de vie temporaires égal aux dégâts infligés.",
+ "attacks": [
+  {
+   "name": "Scythe",
+   "bonus": 12,
+   "damage": "3d8+8",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Soul Bolt",
+   "bonus": 8,
+   "damage": "4d10+4",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/a0e6d4805f_monstre-deces-geant-reaper.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Décès géant Reaper",
+ "caNote": "plaque",
+ "saves": "CON +9, INT +8, SAG +7, CHA +7",
+ "skills": "Arcanes +8, Histoire +8, Perception +7, Discrétion +6",
+ "immunities": "nécrotique",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Épouvantable Téléport (Recharge 4-6).** Le géant téléporte magiquement, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 12 m dans un espace inoccupé qu'il peut voir. Chaque créature dans 3 m de l'emplacement le géant gauche doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'à la fin du prochain tour de la créature."
+}

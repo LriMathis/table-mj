@@ -1,0 +1,37 @@
+{
+ "id": "scorpion",
+ "name": "Scorpion",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non aligné",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 11,
+  "CON": 8,
+  "INT": 1,
+  "SAG": 8,
+  "CHA": 2
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 9",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Dard.** Corps à corps : +2, allonge 1,50 m. Touché : 1 dégât perforant plus 3 (1d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Dard",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/f046e31d28_monstre-scorpion.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : internet"
+}

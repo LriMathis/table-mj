@@ -1,0 +1,56 @@
+{
+ "id": "niv-mizzet",
+ "name": "Niv-Mizzet",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique neutre",
+ "cr": "26",
+ "xp": 90000,
+ "ca": 22,
+ "hp": 370,
+ "hpFormula": "19d20+171",
+ "vitesse": "12 m, escalade 9 m, vol 24 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 14,
+  "CON": 29,
+  "INT": 30,
+  "SAG": 17,
+  "CHA": 25
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 21",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (3/jour).** Si Niv-Mizzet échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Locus de la tête de feu.** Niv-Mizzet peut maintenir concentration sur deux sorts différents en même temps. En outre, il a l'avantage sur jet de sauvegarde de maintenir concentration sur les sorts.\n**Résistance magique.** Niv-Mizzet a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Maître Chimister.** Quand Niv-Mizzet jette un sort qui inflige des dégâts, il peut changer les dégâts du sort au froid, au feu, à la force, à la foudre ou au tonnerre.\n**Détection orthographique.** Niv-Mizzet est un épeautre de niveau 20. Son caractéristique d'incantation est Intelligence (save spell DD 26, +18 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Trait de feu, Lumière, Prestidigitation, Rayon de givre, Poigne électrique\n- Niveau 1 (4 emplacements) : Détection de la magie, Projectile magique, Bouclier, Vague tonnante, Serviteur invisible\n- Niveau 2 (3 emplacements) : Flou, Agrandissement/Rapetissement, Sphère de feu, Immobilisation de personne, Rayon ardent\n- Niveau 3 (3 emplacements) : Contresort, Boule de feu, Éclair, Lenteur\n- Niveau 4 (3 emplacements) : Confusion, Porte dimensionnelle, Fabrication\n- Niveau 5 (2 emplacements) : Invocation d'élémentaire, Métamorphose, Mur de feu, Mur de force\n- Niveau 6 (1 emplacements) : Chaîne d'éclairs, Désintégration, Vision suprême\n- Niveau 7 (1 emplacements) : Projection d'image, Inversion de la gravité, Téléportation\n- Niveau 8 (1 emplacements) : Contrôle du climat, Dédale, Mot de pouvoir étourdissant\n- Niveau 9 (1 emplacements) : Mur prismatique",
+ "actionsText": "**Multiattaques.** Niv-Mizzet fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +17 au toucher, allonge 4,50 m, une cible. Touché : 18 (2d8 + 9) dégâts perforants plus 14 (4d6) dégâts de feu.\n**Griffe.** Attaque d'arme au corps à corps : +17 au toucher, allonge 3 m, une cible. Touché : 14 (2d4 + 9) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +17 au toucher, allonge 6 m, une cible. Touché : 16 (2d6 + 9) dégâts contondants.\n**feu Respiration (Recharge 5-6).** Niv-Mizzet exhale le feu dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 25 jet de sauvegarde de Dextérité, en prenant 91 (26d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 17,
+   "damage": "2d8+9",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 17,
+   "damage": "2d4+9",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 17,
+   "damage": "2d6+9",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/126b8cd4dc_monstre-niv-mizzet.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +17, INT +18, SAG +11",
+ "skills": "Arcanes +18, Perspicacité +11, Perception +11",
+ "resistances": "froid, psychique, tonnerre",
+ "immunities": "feu, foudre",
+ "conditionImmunities": "charmé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, niv - mizzet peut entreprendre l'une des actions ci-après.\n**sort mineur.** Niv-Mizzet lance un de ses sorts mineurs.\n**Attaque de queue.** Niv-Mizzet fait une attaque de queue.\n**Attaque de l'escadre (coûts 2 actions).** Niv-Mizzet bat ses ailes. Chaque créature de 4,50 m de lui doit réussir sur un DD 25 jet de sauvegarde de Dextérité ou prendre 14 (2d4 + 9) dégâts contondants et être à terre. Niv-Mizzet peut alors voler jusqu'à la moitié de sa vitesse de vol.\n**Dracogenius (Costs 3 Actions).** Niv-Mizzet retrouve un emplacement de sort de niveau 3 ou moins."
+}

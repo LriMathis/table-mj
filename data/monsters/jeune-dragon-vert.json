@@ -1,0 +1,41 @@
+{
+ "id": "jeune-dragon-vert",
+ "name": "Jeune dragon vert",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 18,
+ "hp": 136,
+ "hpFormula": "16d10+48",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "saves": "DEX +4, SAG +4",
+ "skills": "Discrétion +4, Perception +7, Tromperie +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 17",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer sous l’eau comme à l’air libre.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée.\n**Saignée.** Corps à corps : +7, allonge 3 m. Touché : 11 (2d6 + 4) dégâts tranchants plus 7 (2d6) dégâts de poison.\n**Souffle empoisonné (recharge 5–6).** JS Constitution : DD 14, chaque créature dans un Cône de 9 m. Échec : 42 (12d6) dégâts de poison. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 7,
+   "damage": "2d6+4+2d6",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/f38bfe03d2_monstre-jeune-dragon-vert.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 95"
+}

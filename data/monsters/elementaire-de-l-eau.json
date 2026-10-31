@@ -1,0 +1,40 @@
+{
+ "id": "elementaire-de-l-eau",
+ "name": "Élémentaire de l'eau",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "9 m, nage 27 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "resistances": "acide, feu",
+ "immunities": "poison",
+ "conditionImmunities": "à terre, agrippé, empoisonné, entravé, épuisement, inconscient, paralysé, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "primordial (aquatique)",
+ "traits": "**Corps d’eau.** L’élémentaire peut pénétrer dans un espace occupé par un ennemi et s’y arrêter. Il peut se déplacer dans un espace étroit d’une largeur minimale de 2,5 cm sans dépense supplémentaire en déplacement.\n**Gel.** Si l’élémentaire subit des dégâts de froid, sa Vitesse est réduite de 6 m jusqu’à la fin de son tour suivant.",
+ "actionsText": "**Attaques multiples.** L’élémentaire effectue deux attaques de Coup.\n**Coup.** Corps à corps : +7, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts contondants. Si la cible est une créature de taille M ou inférieure, elle subit l’état À terre.\n**Déluge (recharge 4–6).** JS Force : DD 15, chaque créature dans l’espace de l’élémentaire. Échec : 22 (4d8 + 4) dégâts contondants. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 14). Tant qu’elle est Agrippée, la cible subit l’état Entravé, s’asphyxie à moins de pouvoir respirer dans l’eau, et subit 9 (2d8) dégâts contondants au début de chacun des tours de l’élémentaire. L’élémentaire peut ainsi maintenir une créature de taille G ou un maximum de deux créatures de taille M ou inférieure. Au prix d’une action, une créature dans un rayon de 1,50 m de l’élémentaire peut en extirper une créature en réussissant un test de Force (Athlétisme) DD 14. Réussite : demi-dégâts uniquement.",
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/6335379e14_monstre-elementaire-de-l-eau.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 120"
+}

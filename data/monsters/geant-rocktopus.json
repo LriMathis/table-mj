@@ -1,0 +1,39 @@
+{
+ "id": "geant-rocktopus",
+ "name": "Giant Rocktopus",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 52,
+ "hpFormula": "8d10+8",
+ "vitesse": "6 m, escalade 3 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 13,
+  "CON": 13,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "—",
+ "traits": "**Camouflage.** La pieuvre a un avantage sur tests de Dextérité (Discrétion).",
+ "actionsText": "**Tentacules.** Attaque d'arme au corps à corps : +5 au toucher, allonge 4,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants. Si la cible est une créature, c'est agrippé (évasion DD 16). Jusqu'à ce que ce grappin se termine, la cible est entravé et le pieuvre ne peut pas utiliser ses tentacules sur une autre cible.\n**Nuage d'encre (recharge après un repos court ou long).** Un nuage d'encre 6 m -radius s'étend tout autour de la pieuvre s'il est sous l'eau. La zone est de 2 pour 1 minute, bien qu'un courant important puisse disperser l'encre. Après la libération de l'encre, la pieuvre peut utiliser l'action Foncer comme un action bonus.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/01d0d8bc58_monstre-geant-rocktopus.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Géant Rocktopus",
+ "skills": "Perception +4, Discrétion +5"
+}

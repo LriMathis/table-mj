@@ -1,14 +1,16 @@
 {
  "id": "chef-bandit",
- "name": "Chef bandit",
+ "name": "Capitaine bandit",
  "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
  "cr": "2",
  "xp": 450,
  "ca": 15,
- "hp": 65,
- "hpFormula": "10d8+20",
+ "hp": 52,
+ "hpFormula": "8d8+16",
  "vitesse": "9 m",
- "size": 1,
  "stats": {
   "FOR": 15,
   "DEX": 16,
@@ -17,6 +19,13 @@
   "SAG": 11,
   "CHA": 14
  },
+ "saves": "FOR +4, DEX +5, SAG +2",
+ "skills": "Athlétisme +4, Tromperie +4",
+ "senses": "Perception passive 10",
+ "languages": "commun, argot des voleurs",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le bandit effectue deux attaques, réparties à sa guise entre Cimeterre et Pistolet.\n**Cimeterre.** Corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Pistolet.** À distance : +5, portée 9/27 m. Touché : 8 (1d10 + 3) dégâts perforants.",
+ "reactions": "**Parade.** Déclencheur : le bandit est touché par un jet d’attaque de corps à corps alors qu’il tient une arme. Conséquences : le bandit ajoute 2 à sa CA contre cette attaque, ce qui peut la faire rater.",
  "attacks": [
   {
    "name": "Cimeterre",
@@ -25,13 +34,14 @@
    "type": "tranchant"
   },
   {
-   "name": "Dague",
+   "name": "Pistolet",
    "bonus": 5,
-   "damage": "1d4+3",
+   "damage": "1d10+3",
    "type": "perforant"
   }
  ],
- "traits": "**Attaques multiples.** Deux cimeterres et une dague.\n**Parade (réaction).** +2 à la CA contre une attaque au corps à corps.",
- "portrait": "/data/images/ad45a4c918_monstre-chef-bandit.svg",
- "notes": ""
+ "portrait": "/data/images/d9096a21b1_monstre-chef-bandit.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 344",
+ "aka": "Chef de bande (2024)"
 }

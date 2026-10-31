@@ -1,0 +1,41 @@
+{
+ "id": "xzar-le-chaos-clone",
+ "name": "Xzar the Chaos Clone",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 121,
+ "hpFormula": "22d8+22",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "abyssal, commun, infernal, primordial, commun des profondeurs, télépathie 18 m",
+ "traits": "**Chaos Phage.** La perfusion de Xzar avec le Chaos Phage lui procure les avantages suivants:\n- Xzar retrouve 10 points de vie au début de son tour s'il a au moins 1 points de vie\n- Xzar a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques\n- Xzar a une résistance à l'acide, au froid, au feu, à la foudre, au tonnerre\n- Xzar a vision sombre et télépathie à 18 m\n**Récolte de Grim (1/Turn).** Lorsque Xzar tue une créature qui n'est ni un Construct ni undead avec un sort de de niveau 1 ou plus, Xzar retrouve points de vie égal au double du niveau du sort, ou trois fois si c'est un sort nécromancie.\n**Aucune âme.** Puisque Xzar n'a pas d'âme, la magie de la résurrection est capable de travailler sur lui, peu importe le temps passé. Par exemple, le sort Retour à la vie fonctionnerait sur Xzar même une semaine après sa mort. Cependant, des sorts comme la vraie résurrection et le désir sont incapables de ramener Xzar à la vie si aucun corps n'existe.",
+ "actionsText": "**Multiattaques.** Xzar fait deux attaques Deprive et utilise Spellcasting.\n**Dépréciation.** Attaque de sort au corps à corps ou à distance : +9 au toucher, allonge 1,50 m, ou portée 36 m, une cible. Touché : 27 (4d10 + 5) dégâts nécrotiques.\n**Éruption de la mort (1/jour).** L'énergie négative jaillit de Xzar, intensifiée par le Chaos Phage. Toute créature dans une sphère 18 m -radius autour de Xzar (mais sans Xzar inclus) doit faire un DD 17 jet de sauvegarde de Constitution. Une créature prend 36 (8d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Un humanoïde tué par cette capacité monte au début du prochain tour de Xzar en tant que zombie sous son commandement.\n**Détection orthographique.** Xzar lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17, +9 au toucher with attaques de sort) :\n- À volonté : Aspersion d'acide, Trait de feu, Main de mage\n- 1/jour chacun : Flétrissure épouvantable d'Abi-Dalzim *, Doigt de mort *\n- 2/jour chacun : Animation des morts *, Flétrissement *, Simulacre de vie *, Armure de mage, Rayon affaiblissant *, Rayon empoisonné *, Scrutation, Toucher du vampire *\n*Temps de necromance de de niveau 1 ou plus",
+ "attacks": [
+  {
+   "name": "Dépréciation",
+   "bonus": 9,
+   "damage": "4d10+5",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/614dc1e041_monstre-xzar-le-chaos-clone.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "aka": "Xzar le chaos clone",
+ "saves": "INT +9, SAG +4",
+ "skills": "Arcanes +13, Histoire +13",
+ "resistances": "acide, froid, feu, foudre, tonnerre"
+}

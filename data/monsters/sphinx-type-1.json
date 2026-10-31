@@ -1,0 +1,43 @@
+{
+ "id": "sphinx-type-1",
+ "name": "Sphinx (Type 1)",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 17,
+ "hp": 199,
+ "hpFormula": "19d10+95",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 23
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 20",
+ "languages": "commun, sphinx",
+ "traits": "**Inscrutable.** Le sphinx est à l'abri de tout effet qui sentirait ses émotions ou lireait ses pensées, ainsi que tout sort de divination qu'il refuserait. tests de Sagesse (Perspicacité) fait pour vérifier les intentions ou la sincérité du sphinx ont un désavantage.\n**Armes magiques.** Les attaques d'armes du sphinx sont magiques.\n**Détection orthographique.** Le sphinx est un épeautre de niveau 12. Son caractéristique d'incantation est Sagesse (save spell DD 18, +10 au toucher avec attaques de sort). Il ne nécessite aucun composant matériel pour lancer ses sorts. Le sphinx a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Flamme sacrée, Stabilisation, Thaumaturgie\n- Niveau 1 (4 emplacements) : Injonction, Détection du mal et du bien, Détection de la magie\n- Niveau 2 (3 emplacements) : Restauration partielle, Zone de vérité\n- Niveau 3 (3 emplacements) : Dissipation de la magie, Don des langues\n- Niveau 4 (3 emplacements) : Bannissement, Liberté de mouvement\n- Niveau 5 (2 emplacements) : Colonne de flamme, Restauration supérieure\n- Niveau 6 (1 emplacements) : Festin des héros",
+ "actionsText": "**Multiattaques.** Le sphinx fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d10 + 6) dégâts tranchants.\n**Roar (3/jour).** Le sphinx émet un rugissement magique. Chaque fois qu'il gronde avant de terminer un repos long, le rugissement est plus fort et l'effet est différent, comme indiqué ci-dessous. Chaque créature dans 150 m du sphinx et capable d'entendre le rugissement doit faire un jet de sauvegarde.\n- **Premier rugissement** Chaque créature qui échoue un DD 18 jet de sauvegarde de Sagesse est effrayé pendant 1 minute. Une créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **Deuxième ruée** Chaque créature qui échoue un DD 18 jet de sauvegarde de Sagesse est assourdi et effrayé pendant 1 minute. Une créature effrayé est paralysé et peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **Troisième ruée** Chaque créature fait un DD 18 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 44 (8d10) dégâts de tonnerre et est à terre. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas à terre.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 12,
+   "damage": "2d10+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/de02058cfd_monstre-sphinx-type-1.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CON +11, INT +9, SAG +10",
+ "skills": "Arcanes +9, Perception +10, Religion +15",
+ "immunities": "psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, sphinx (type 1) peut entreprendre l'une des actions ci-après.\n**Attaque de griffes.** Le sphinx fait une attaque de griffes.\n**Téléportation (coûts 2 actions).** Le sphinx téléporte magiquement, avec tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.\n**Lancer une éperole (coûts 3 actions).** Le sphinx jette un sort à partir de sa liste de sorts préparés, en utilisant un emplacement de sort comme normal."
+}

@@ -1,0 +1,48 @@
+{
+ "id": "geant-des-nuages-souriant-un",
+ "name": "Cloud Giant Smiling One",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique neutre",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 250,
+ "hpFormula": "20d12+120",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 26,
+  "DEX": 12,
+  "CON": 22,
+  "INT": 15,
+  "SAG": 16,
+  "CHA": 17
+ },
+ "senses": "Perception passive 21",
+ "languages": "commun, géant",
+ "traits": "**Température de contrôle (de niveau 8 Spell).** Le géant peut lancer le sort Contrôle du climat, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation.",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques de Slam ou deux attaques de grève télékinétique.\n**Clamer.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 21 (3d8 + 8) dégâts contondants plus 5 (1d10) dégâts psychiques.\n**Grève télékinétique.** Attaque de sort à distance : +7 au toucher, portée 72 m, une cible. Touché : 25 (4d10 + 3) dégâts de force.\n**Modifier la forme.** Le géant se transforme magiquement pour ressembler à une Bête ou à un Humanoïde qu'il a vu ou pour revenir à sa vraie forme. Tout équipement que le géant porte ou transporte est absorbé par la nouvelle forme. Ses statistiques, autres que sa taille, ne changent pas. Il revient à sa vraie forme s'il meurt.\n**Détection orthographique.** Le géant lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection de la magie, Nappe de brouillard, Lumière, Illusion mineure\n- 1/jour chacun : Forme gazeuse, Image majeure\n- 3/jour chacun : Invisibilité, Image silencieuse, Suggestion, Don des langues",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 12,
+   "damage": "3d8+8",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "Grève télékinétique",
+   "bonus": 7,
+   "damage": "4d10+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/f56ef76cfc_monstre-geant-des-nuages-souriant-un.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Géant des nuages souriant un",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, INT +6, CHA +7",
+ "skills": "Tromperie +11, Perspicacité +7, Perception +11, Escamotage +9",
+ "bonusActions": "**Étape nuage (Recharge 4-6).** Les téléportations géantes, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 18 m dans un espace inoccupé qu'il peut voir."
+}

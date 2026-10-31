@@ -1,0 +1,42 @@
+{
+ "id": "naes-inuus",
+ "name": "Naes Inuus",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 187,
+ "hpFormula": "25d8+75",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 20,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "céleste, commun, elfique",
+ "traits": "",
+ "actionsText": "**Mace.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants plus 14 (4d6) dégâts radiants.\n**Corona de la Beauté.** Naes active une aura de soleil qui dure 1 minute ou jusqu'à ce qu'il la rejette en utilisant une action. Il émet une lumière lumineuse dans un 18 m -radius et une lumière faible 9 m au-delà de cela. Ses ennemis dans la lumière vive ont désavantage sur jet de sauvegarde contre tout sort qui traite le feu ou dégâts radiants.\n**radiant Beauté de Sune (Recharge 4-6).** Naes dissipe toute obscurité magique au sein de 9 m de lui. De plus, chaque créature hostile dans 9 m de Naes qui n'a pas 3 doit faire un DD 18 jet de sauvegarde de Constitution, en prenant 60 dégâts radiants sur un jet de sauvegarde, la moitié de ces dégâts raté sur un succès. Une créature qui échoue le jet de sauvegarde a l'état aveuglé pendant 1 minute.\n**Détection orthographique.** Naes lance l'un des sorts suivants en utilisant Sagesse comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Restauration partielle, Lumière, Sanctuaire\n- 1/jour chacun : Parole divine, Guérison de groupe\n- 2/jour chacun : Coquille antivie, Barrière de lames",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 7,
+   "damage": "1d6+2",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/8752ba7da7_monstre-naes-inuus.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "Breastplate, Bouclier",
+ "saves": "CON +8, SAG +10",
+ "skills": "Perspicacité +10, Médecine +15, Persuasion +7, Religion +11",
+ "resistances": "nécrotique",
+ "reactions": "**Difficile à tuer (1/jour).** Si Naes tombe à 0 points de vie à la suite de la prise de dégâts, ou est soumis à un effet qui le tuerait instantanément sans endommager, Naes tombe à la place à 1 points de vie."
+}

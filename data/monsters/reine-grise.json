@@ -1,0 +1,31 @@
+{
+ "id": "reine-grise",
+ "name": "La Reine Grise (la Peste non-advenue)",
+ "type": "Mort-vivant (fléau) ✎",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 17,
+ "hp": 230,
+ "hpFormula": "20d12+100",
+ "vitesse": "9 m, vol 12 m",
+ "size": 3,
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 20
+ },
+ "attacks": [
+  {
+   "name": "Étreinte de cendre",
+   "bonus": 11,
+   "damage": "3d10+5",
+   "type": "nécrotique"
+  }
+ ],
+ "traits": "**Attaques multiples.** Trois étreintes de cendre.\n**Aura de la Peste.** Une créature qui commence son tour à 9 m ou moins d'elle fait un JS de Constitution DD 18 : échec, 3d10 nécrotique et empoisonnée jusqu'au début de son prochain tour ; réussite, moitié des dégâts.\n**Cent mille.** Au début de chaque round, 1d4 Échos non-advenus (des malades qui n'ont jamais existé) se lèvent de la cendre.\n**Résistance légendaire (3/jour).**\n**Immunités** nécrotique, poison ; charmé, effrayé, empoisonné, épuisé. **Vulnérable** au radiant.\n**Actions légendaires (3/round).** *Toux grise* (2) : cône de 9 m, JS de Constitution DD 18, 6d8 nécrotique, moitié en cas de réussite. *Pas de cendre* (1) : se déplace sans provoquer d'attaque d'opportunité. *Étreinte* (1).",
+ "portrait": "/data/images/41aaa34fff_monstre-premier-cadavre.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

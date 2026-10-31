@@ -1,0 +1,41 @@
+{
+ "id": "temps-dragon-dragonnet",
+ "name": "Time Dragon Wyrmling",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m, escalade 9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 17,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 36 m, Perception passive 17",
+ "languages": "Draconique plus deux langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le dragon fait trois attaques Rend.\n**Rend.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants plus 3 (1d6) dégâts de force.\n**Temps Respiration (Recharge 5-6).** Le dragon exhale une vague de lumière chatoyante dans un cône 4,50 m. Des objets non magiques et de la végétation dans cette zone qui ne sont pas portés ou transportés s'écroulent à la poussière. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 27 (6d8) dégâts de force et est magiquement affaiblie car elle est déssynchronisée à partir du flux temporel. Alors que la créature est dans cet état, jets d'attaque contre elle ont avantage. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement. Une créature affaiblie peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/4170ab1452_monstre-temps-dragon-dragonnet.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Temps dragon dragonnet",
+ "caNote": "armure naturelle",
+ "saves": "DEX +3, CON +6, SAG +4, CHA +6",
+ "skills": "Arcanes +6, Histoire +9, Perception +7, Discrétion +6"
+}

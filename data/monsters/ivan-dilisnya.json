@@ -1,0 +1,40 @@
+{
+ "id": "ivan-dilisnya",
+ "name": "Ivan Dilisnya",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 19,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun",
+ "traits": "**Restauration de lord noir.** Si Ivan meurt, il ressuscite avec tout son points de vie en 1d10 semaines quelque part à Borca.\n**Résistance légendaire (2/jour, ou 3/jour dans le domaine).** Si Ivan échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Ivan fait deux attaques de Foreleg. Il peut remplacer une attaque par une utilisation de Deadly Contraption.\n**Précédant.** Jet d'attaque au corps à corps : +7, allonge 3 m. Touché : 11 (2d6 + 4) dégâts perforants.\n**Contraption mortelle.** Jet de sauvegarde de Dextérité : DD 15, une créature Ivan peut voir dans 9 m. Échec : 13 (3d8) dégâts tranchants. Échec ou réussite : Une pièce d'horlogerie en panne se fixe à la cible jusqu'au début du prochain tour d'Ivan. Si la cible déplace volontairement 1,50 m ou plus avant, la cible prend 4 (1d8) dégâts tranchants.\nAu début du prochain tour d'Ivan, l'appareil s'effondre et disparaît.",
+ "attacks": [
+  {
+   "name": "Précédant",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/bbd0f9e51b_monstre-ivan-dilisnya.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "DEX +5, SAG +4",
+ "skills": "Histoire +7, Investigation +7, Perception +7",
+ "legendary": "**Actions légendaires (2/round).** Aussitôt après le tour d'une autre créature, ivan dilisnya peut entreprendre l'une des actions ci-après.\n**Réplique.** Ivan fait une attaque de Foreleg.\n**Terrain piégé.** Ivan étend des caltropes spéciaux pour couvrir une zone 6 m - carré dans 1,50 m de lui-même. Les caltropes se dissolvent à la fin du prochain tour d'Ivan. Ivan ne peut pas recommencer avant le début de son prochain tour.\nLorsque les caltropes apparaissent, chaque créature de la région est soumise à l'effet suivant; une créature qui entre dans les caltropes pour la première fois sur un tour ou termine son tour est également soumise à cet effet. Jet de sauvegarde de Dextérité : DD 15 (une créature ne fait que sauver une fois par tour). Échec : 9 (2d8) dégâts perforants, et sa vitesse est réduite à 0 jusqu'au début de son prochain tour."
+}

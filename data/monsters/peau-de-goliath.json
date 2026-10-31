@@ -1,0 +1,42 @@
+{
+ "id": "peau-de-goliath",
+ "name": "Goliath Giant-Kin",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 18,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le goliath fait deux attaques de Spear.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants, ou 8 (1d8 + 4) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e5d27df680_monstre-peau-de-goliath.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Peau de Goliath",
+ "caNote": "demi-plaque, Bouclier",
+ "skills": "Athlétisme +6, Perception +3, Survie +3",
+ "resistances": "froid",
+ "bonusActions": "**Les grèves de Giant (Recharge 5-6).** Jusqu'à la fin de son tour, la mêlée du goliath attaque chacun un autre 7 (2d6) de dégâts d'un type déterminé par la communauté géante du goliath : froid (gant de givre), feu (gant de feu), force (gant de pierre), éclair (gant de tempête), piercing (gant de colline), ou tonnerre (gant de nuage)."
+}

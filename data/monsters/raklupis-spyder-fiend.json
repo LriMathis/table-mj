@@ -1,0 +1,55 @@
+{
+ "id": "raklupis-spyder-fiend",
+ "name": "Raklupis Spyder-Fiend",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 19,
+ "hp": 210,
+ "hpFormula": "28d10+56",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 20,
+  "CON": 14,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 23
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 19",
+ "languages": "abyssal, commun, télépathie 36 m",
+ "traits": "**Résistance magique.** Le raklupis a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Escalade des araignées.** Les raklupis peuvent monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sens du Web.** Quand il est en contact avec un web, le raklupis connaît l'emplacement exact de toute autre créature en contact avec le même web.\n**Web Walker.** Les raklupis ignorent les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** Le raklupis fait une attaque Bite et deux attaques d'épées déraillées. Il peut utiliser Venom Globe à la place d'une de ces attaques.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants plus 18 (4d8) dégâts de poison. Si la cible est une créature, elle doit réussir sur un DD 20 jet de sauvegarde de Constitution ou avoir l'état empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, une créature a l'état neutralisé et ne peut pas récupérer points de vie. Une créature empoisonné peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Épée déraillée.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 19 (4d6 + 5) dégâts tranchants plus 18 (4d8) dégâts de poison.\n**Globe du venin.** Attaque d'arme à distance : +11 au toucher, portée 18/54 m., une cible. Touché : 45 (10d8) dégâts de poison.\n**Détection orthographique.** Le raklupis lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 20).\n- À volonté : Déguisement, Invisibilité (autoseulement), Main de mage, Illusion mineure\n- 2/jour chacun : Ténèbres, Domination de monstre, Suggestion de groupe, Télékinésie, Téléportation",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "2d10+5",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Épée déraillée",
+   "bonus": 11,
+   "damage": "4d6+5",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Globe du venin",
+   "bonus": 11,
+   "damage": "10d8",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/454eec877a_monstre-raklupis-spyder-fiend.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +11, CON +8, SAG +9",
+ "skills": "Perception +9, Discrétion +11",
+ "immunities": "froid, feu, foudre, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Fidélité de la demande.** Le raklupis met fin magiquement aux conditions charmé et effrayé sur lui-même et sur n'importe quel nombre d'alliés au sein de 18 m."
+}

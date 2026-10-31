@@ -1,0 +1,46 @@
+{
+ "id": "ecclesiastique-de-osybus",
+ "name": "Priest of Osybus",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 18,
+  "SAG": 17,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "Commun plus deux autres langues",
+ "traits": "**Tatouage d'Osybus.** Si les dégâts réduisent le prêtre à 0 points de vie, il reçoit un boon aléatoire. Roulez 1d6 pour déterminer le boon que le prêtre reçoit. Le prêtre reprend au début de son prochain tour avec la moitié de sa points de vie, et son type de créature est maintenant Undead.\n**1: C'est terrible Boon.** Une aura d'effroi remplit une Emanation 4,50 m originaire du prêtre. Jet de sauvegarde de Sagesse : DD 15, chaque créature non morte qui commence son tour dans l'Émanation. Échec : La cible a l'état effrayé jusqu'au début de son prochain tour\n**2: Boon ectoplasmique.** L'ectoplasme collant ralentit les créatures dans une émanation 4,50 m provenant du prêtre. Jet de sauvegarde de Force : DD 15, chaque créature qui commence son tour dans l'Émanation. Échec : La vitesse de la cible est réduite de 3 m jusqu'au début de son prochain tour.\n**3: Boon vampire.** Lorsque le prêtre livre dégâts nécrotiques à une créature, le prêtre gagne points de vie temporaires égal au dégâts infligé.\n**4: Boon de blason.** Le prêtre a une vitesse de vol de 9 m et l'immunité à dégâts de feu.\n**5: Boon spectral.** Le prêtre a la résistance à contondant, perforant et dégâts tranchants, et il a la vulnérabilité à dégâts radiants. De plus, le prêtre peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**6: Boon mortel.** Lorsque le prêtre ressuscite avec ce boon, tous les cadavres de petits ou moyens humanoïdes dans une émanation 9 m provenant du prêtre se lèvent sous le contrôle du prêtre. De plus, à la fin de chaque tour du prêtre, chaque créature non morte dans une Emanation 1,50 m originaire du prêtre prend 5 (1d10) dégâts nécrotiques.\nLe prêtre meurt et ce trait ne fonctionne pas si le prêtre reçoit un boon qu'il a déjà ou si le tatouage du prêtre d'Osybus est détruit. Le tatouage n'est détruit que si le prêtre prend 15 dégâts ou plus sur un seul tour alors que le prêtre a 0 points de vie.",
+ "actionsText": "**Multiattaques.** Le prêtre fait deux attaques, en utilisant Soul Blade ou nécrotique Bolt dans n'importe quelle combinaison.\n**Blade d'âme.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 9 (2d4 + 4) dégâts perforants. Si la cible est une créature, elle a l'état paralysé jusqu'au prochain tour du prêtre. Si ce dégâts réduit une créature moyenne ou plus petite à 0 points de vie, la créature meurt, et son âme devient piégée dans un tatouage d'âme sur le corps du prêtre. L'âme est libérée si le prêtre meurt.\n**nécrotique Bolt.** Jet d'attaque à distance : +7, portée 36 m. Touché : 30 (4d12 + 4) dégâts nécrotiques, et la cible ne peut pas retrouver points de vie avant le début du prochain tour du prêtre.",
+ "attacks": [
+  {
+   "name": "Blade d'âme",
+   "bonus": 7,
+   "damage": "2d4+4",
+   "type": "perforant"
+  },
+  {
+   "name": "nécrotique Bolt",
+   "bonus": 7,
+   "damage": "4d12+4",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/cf50b16b7b_monstre-ecclesiastique-de-osybus.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Ecclésiastique de Osybus",
+ "saves": "INT +7, SAG +6, CHA +3",
+ "bonusActions": "**Tatouage de l'âme (Recharge 5-6).** Le prêtre anime magiquement un tatouage d'âme sur son corps qui devient une Ombre dans un espace inoccupé au sein de 1,50 m du prêtre. L'ombre prend son tour immédiatement après le prêtre sur le même compte Initiative, et il obéit au prêtre. L'ombre reste animée jusqu'à ce qu'elle soit détruite, c'est plus que 36 m du prêtre, le prêtre meurt, ou le prêtre utilise encore ce action bonus."
+}

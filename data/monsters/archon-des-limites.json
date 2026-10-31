@@ -1,0 +1,50 @@
+{
+ "id": "archon-des-limites",
+ "name": "Archon of Boundaries",
+ "type": "Céleste",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal bon",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 17,
+ "hp": 195,
+ "hpFormula": "17d12+85",
+ "vitesse": "18 m, vol 27 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 17,
+  "CON": 20,
+  "INT": 14,
+  "SAG": 18,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "Céleste et commun mais ne peut pas parler",
+ "traits": "**Résistance légendaire (3/jour).** Si l'archon échoue un jet de sauvegarde, il peut choisir de réussir.\n**Résistance magique.** L'archon a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'archen fait une attaque Hooves et une attaque radiant Lance.\n**Des voyous.** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 20 (4d6 + 6) dégâts contondants plus 10 (3d6) dégâts radiants. Si la cible est une créature moyenne ou plus petite, elle doit réussir sur un DD 19 jet de sauvegarde de Force ou avoir l'état à terre.\n**radiant Lance.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 12 (1d12 + 6) dégâts perforants plus 28 (8d6) dégâts radiants, et la cible est marquée jusqu'au début du prochain tour de l'archon. Bien qu'il soit marqué, la cible a un désavantage sur jets d'attaque contre des créatures autres que l'archon.\n**Détection orthographique.** L'archon lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation :\n- 1/jour chacun : Lumière du jour, Restauration partielle",
+ "attacks": [
+  {
+   "name": "Des voyous",
+   "bonus": 11,
+   "damage": "4d6+6",
+   "type": "contondant + radiant"
+  },
+  {
+   "name": "radiant Lance",
+   "bonus": 11,
+   "damage": "1d12+6",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/4bdb59ecca_monstre-archon-des-limites.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Archon des limites",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, SAG +9",
+ "skills": "Perspicacité +9, Perception +9",
+ "resistances": "radiant",
+ "conditionImmunities": "épuisement",
+ "reactions": "**Poursuite d'Archon.** Lorsqu'une créature marquée par la lance radiant de l'archon termine son tour à l'intérieur de 36 m de l'archon, l'archon téléporte dans un espace inoccupé qu'il peut voir à l'intérieur de 1,50 m de la créature.\n**Rayonnement hantant.** Immédiatement après qu'une créature de 36 m de l'arceau l'oblige à faire un jet de sauvegarde, l'arcon répond par un éclat de lumière. La créature doit réussir sur un DD 17 jet de sauvegarde de Constitution ou avoir l'état aveuglé jusqu'à la fin du prochain tour de la créature.\n**Parry.** L'archon ajoute 5 à sa CA contre une attaque de mêlée qui la frapperait, à condition qu'il puisse voir l'agresseur."
+}

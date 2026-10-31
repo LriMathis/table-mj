@@ -1,0 +1,42 @@
+{
+ "id": "murgaxor",
+ "name": "Murgaxor",
+ "type": "Humanoïde (outrance, occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 127,
+ "hpFormula": "15d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 20,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Perception passive 11",
+ "languages": "Commun plus quatre langues",
+ "traits": "**Aegis sanguin.** Le CA de Murgaxor comprend son modificateur Constitution alors qu'il ne porte pas d'armure ou de bouclier.\n**Masque Oriq.** Murgaxor porte un masque Oriq. En portant le masque, Murgaxor ne peut être ciblé par aucune magie de divination ou perçu à l'aide de détecteurs magiques, et il ajoute son bonus de maîtrise double à tests de Charisme (Tromperie) (inclus ci-dessus).\n**Sanguine Sensée.** Si Murgaxor n'est pas aveuglé, il peut voir n'importe quelle créature qui n'est pas un mort-vivant ou un Construction en 18 m de lui-même, même à travers 3, 2 zones, invisibilité, ou tout autre phénomène qui empêcherait la vue.",
+ "actionsText": "**Multiattaques.** Murgaxor fait deux attaques de sang.\n**Laisse de sang.** Attaque de sort au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 21 (3d10 + 5) dégâts nécrotiques. Si la cible est une créature, elle ne peut retrouver points de vie qu'au début du prochain tour de Murgaxor.\n**Bouillir de sang (Recharge 4-6).** Murgaxor choisit un point au sein de 45 m de lui-même, et une sphère de rayon 6 m centrée sur ce point se remplit d'une explosion de brouillard rouge sang. Chaque créature du choix de Murgaxor qu'il peut voir dans cette zone doit faire un DD 17 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 38 (7d10) dégâts nécrotiques et est neutralisé jusqu'à la fin de son prochain tour. Sur un succès, une créature prend la moitié de ces dégâts et n'est pas neutralisé. Une créature meurt si elle est réduite à 0 points de vie par ce dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Laisse de sang",
+   "bonus": 9,
+   "damage": "3d10+5",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/996cda3ae1_monstre-murgaxor.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "l'égide du sang",
+ "saves": "CON +8, INT +9, SAG +5, CHA +5",
+ "skills": "Tromperie +9, Médecine +5, Survie +5",
+ "resistances": "nécrotique",
+ "conditionImmunities": "épuisement"
+}

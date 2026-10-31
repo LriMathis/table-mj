@@ -1,0 +1,46 @@
+{
+ "id": "harengon-brigand",
+ "name": "Harengon Brigand",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 14,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 17,
+  "CON": 11,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, sylvestre",
+ "traits": "**Tactiques de conditionnement.** Le harengon a avantage sur un jet d'attaque contre une créature si au moins un des alliés du harengon est dans 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Leap debout.** Le long saut du harengon est jusqu'à 6 m et son saut en hauteur est jusqu'à 3 m, avec ou sans démarrage.",
+ "actionsText": "**Club.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts contondants.\n**Écharpe.** Attaque d'arme à distance : +5 au toucher, portée 9/36 m., une cible. Touché : 5 (1d4 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/cb56a800df_monstre-harengon-brigand.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +5",
+ "skills": "Acrobaties +5, Perception +4"
+}

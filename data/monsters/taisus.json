@@ -1,0 +1,42 @@
+{
+ "id": "taisus",
+ "name": "Taisus",
+ "type": "Aberration",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique neutre",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 18,
+ "hp": 310,
+ "hpFormula": "27d12+135",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 18,
+  "CON": 20,
+  "INT": 25,
+  "SAG": 22,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 22",
+ "languages": "tous; télépathie 36 m.",
+ "traits": "**L'immortalité d'Arcane.** Si le taisus meurt, son corps s'écroule dans la poussière scintillante. Il gagne un nouveau corps après 1d10 jours, en revitalisant avec tous ses points de vie, à moins qu'un sort Souhait ne soit jeté sur ses restes pour empêcher les effets de ce caractère. Le nouveau corps apparaît dans un espace inoccupé à l'intérieur de 1,50 m d'un emplacement désigné par le taisus sur sa création.\n**Résistance légendaire (4/jour).** Si le taisus échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le taisus a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le taisus fait deux attaques de fuite de cerveau.\n**Égoutter le cerveau.** Jet d'attaque au corps à corps : +13, allonge 6 m. Touché : 20 (3d8 + 7) dégâts de force plus 16 (3d10) dégâts psychiques, et si la cible est une créature avec emplacements de sort, elle est soumise à l'effet suivant. Jet de sauvegarde de Constitution : DD 21. Échec : L'emplacement de sort non dépensé le plus haut niveau de la cible est dépensé.\n**Détection orthographique.** Le taisus lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 21) :\n- À volonté : Détection de la magie, Boule de feu (version de niveau 5), Invisibilité, Main de mage\n- 1/jour chacun : Abrutissement, Désintégration\n- 2/jour chacun : Tempête de radiance de Jallarzi, Changement de plan, Scrutation",
+ "attacks": [
+  {
+   "name": "Égoutter le cerveau",
+   "bonus": 13,
+   "damage": "3d8+7",
+   "type": "force + psychique"
+  }
+ ],
+ "portrait": "/data/images/68761b9962_monstre-taisus.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "skills": "Arcanes +19, Perspicacité +12, Perception +12",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, empoisonné, entravé",
+ "reactions": "**Magie protectrice.** Le taisus lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Contresort, Bouclier",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, taisus peut entreprendre l'une des actions ci-après.\n**Égoutter mortellement.** Le taisus fait une attaque de fuite de cerveau. Le taisus ne peut pas reprendre cette action avant le début de son prochain tour.\n**Téléportation.** Le taisus se téléporte lui-même ou une créature volontaire qu'il peut voir en 3 m jusqu'à 36 m dans un espace inoccupé que le taisus peut voir."
+}

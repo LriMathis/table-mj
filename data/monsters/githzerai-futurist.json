@@ -1,0 +1,47 @@
+{
+ "id": "githzerai-futurist",
+ "name": "Githzerai Futurist",
+ "type": "Aberration (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 149,
+ "hpFormula": "23d8+46",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 17,
+  "CON": 15,
+  "INT": 17,
+  "SAG": 17,
+  "CHA": 13
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 17",
+ "languages": "commun, gith",
+ "traits": "**psychique Défense.** Alors que le githzerai ne porte pas d'armure et ne porte pas de bouclier, son CA comprend son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Le githzerai fait trois attaques frappe à mains nues ou psychique Bolt.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts contondants plus 11 (2d10) dégâts psychiques.\n**psychique Bolt.** Attaque de sort à distance : +7 au toucher, portée 18 m, une créature. Touché : 21 (4d8 + 3) dégâts psychiques.\n**Coulisse (Psioniques).** Le githzerai lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Dissipation de la magie, Lévitation (autoseulement), Main de mage (la main est invisible), Voir l'invisible\n- 1/jour chacun : Changement de plan (autoseulement), Scrutation (en tant qu'action), Lenteur, Télékinésie",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 7,
+   "damage": "2d8+3",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "psychique Bolt",
+   "bonus": 7,
+   "damage": "4d8+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/3db2c59b44_monstre-githzerai-futurist.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "défense psychique",
+ "saves": "FOR +6, DEX +7, INT +7, SAG +7",
+ "skills": "Arcanes +7, Perspicacité +7, Perception +7",
+ "reactions": "**Perspectives d'avenir (3/jour).** Lorsque le githzerai ou une créature qu'il peut voir fait un jet d'attaque, un jet de sauvegarde ou un test de caractéristique, le githzerai peut faire le rouleau avec avantage ou désavantage."
+}

@@ -1,0 +1,38 @@
+{
+ "id": "thorn-slinger",
+ "name": "Thorn Slinger",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 32,
+ "hpFormula": "5d10+5",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "**Blossoms adhésifs.** L'épine s'accroche à tout ce qui la touche. Une créature moyenne ou plus petite qui adhère à l'épine est également agrippé par elle (évasion DD 11). tests de caractéristique fait pour échapper à ce grappin ont un désavantage.\nÀ la fin de chacun des virages de l'épine, tout agrippé par elle prend 3 (1d6) dégâts d'acide.\n**Fausse apparence.** Bien que l'épine reste immobile, elle est indissociable d'un buisson inanimé.",
+ "actionsText": "**Oreilles.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 9 m, une cible. Touché : 8 (2d6 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Oreilles",
+   "bonus": 3,
+   "damage": "2d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4644972df6_monstre-thorn-slinger.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "conditionImmunities": "aveuglé, assourdi, effrayé"
+}

@@ -15,6 +15,22 @@ const portraitHTML = (c, size) => c.portrait ? `<div class="avatar" style="width
 /* stored rest values ("court", "long", "aucun") -> displayed text */
 const restName = r => ({ court: t('short rest'), long: t('long rest'), aucun: t('no rest') }[r] || r);
 
+/* D&D 2024 (Player's Handbook 2024): cantrips and prepared spells by level (class tables), class spell lists ("c24" in spells.json) */
+const RULES24 = {
+  barde: { tours: [2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], prep: [4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 16, 17, 17, 18, 18, 19, 20, 21, 22],
+    lists: n => n >= 10 ? ['Barde', 'Clerc', 'Druide', 'Magicien'] : ['Barde'] },   // Magical Secrets (level 10)
+  clerc: { tours: [3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5], prep: [4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 16, 17, 17, 18, 18, 19, 20, 21, 22] },
+  druide: { tours: [2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], prep: [4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 16, 17, 17, 18, 18, 19, 20, 21, 22] },
+  paladin: { tours: null, prep: [2, 3, 4, 5, 6, 6, 7, 7, 9, 9, 10, 10, 11, 11, 12, 12, 14, 14, 15, 15] },
+  rodeur: { tours: null, prep: [2, 3, 4, 5, 6, 6, 7, 7, 9, 9, 10, 10, 11, 11, 12, 12, 14, 14, 15, 15] },
+  ensorceleur: { tours: [4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6], prep: [2, 4, 6, 7, 9, 10, 11, 12, 14, 15, 16, 16, 17, 17, 18, 18, 19, 20, 21, 22] },
+  occultiste: { tours: [2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], prep: [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15] },
+  magicien: { tours: [3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5], prep: [4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 16, 17, 18, 19, 21, 22, 23, 24, 25], book: 2 },
+};
+const rules2024 = () => (S.camp?.settings?.rules || '2024') !== '2014';
+/* class lists a character of class cls may pick from at level n (2024) */
+const lists24 = (cls, n) => cls === 'artificier' ? ['Artificier'] : RULES24[cls]?.lists?.(n) || [CLASSES[cls]?.liste].filter(Boolean);
+
 function prepMax(cls, n, c) {
   const C = CLASSES[cls]; if (!C?.ab) return 0;
   const lv = C.cast === 'full' ? n : Math.floor(n / 2) + (C.cast === 'halfup' ? n % 2 : 0);
@@ -156,12 +172,17 @@ function levelUpWizard(c, { onApply, player = false } = {}) {
   if (n > 20) return toast(t('Maximum level reached.'));
   const W = { c, n, cls, off: new Set(), hpMethod: 'avg', hpRoll: null, asiLevel: !!C?.asi?.includes(n), asiMode: '+2', asiA: 'FOR', asiB: 'DEX', feat: '', featStat: '', featSkills: [],
     subclass: '', featText: {}, catchup: [], cantrips: [], picks: [], swapOut: null, swapIn: null, expertise: [], showAll: false, noLimit: false, q: '', lvlF: '', step: 0, announce: true, chain: true };
+  if (player) { W.hpMethod = 'roll'; if (c.lvlRoll?.niveau === n) W.hpRoll = c.lvlRoll.roll; }   // a roll already made for this level is kept
   // highest abilities by default
   const best = STATS.slice().sort((a, b) => (c.stats?.[b] || 0) - (c.stats?.[a] || 0));
   W.asiA = best.find(s => (c.stats?.[s] || 0) < 20) || 'FOR'; W.asiB = best.find(s => s !== W.asiA && (c.stats?.[s] || 0) < 20) || 'CON';
   const sc0 = C?.cast ? slotsFor(cls, n) : [], maxLvl = sc0.reduce((m, v, i) => v > 0 ? i + 1 : m, 0);
-  const nCantrips = C?.tours && n > 1 ? Math.max(0, C.tours[n - 1] - C.tours[n - 2]) : 0;
-  const nSpells = !C?.cast ? 0 : C.mode === 'connus' ? Math.max(0, (C.connus[n - 1] || 0) - (C.connus[n - 2] || 0)) + (C.secrets?.includes(n) ? 2 : 0)
+  const R24 = rules2024() ? RULES24[cls] : null;
+  W.r24 = !!R24 || (rules2024() && cls === 'artificier'); W.player = player;
+  const nCantrips = R24 ? (R24.tours && n > 1 ? Math.max(0, R24.tours[n - 1] - R24.tours[n - 2]) : 0)
+    : C?.tours && n > 1 ? Math.max(0, C.tours[n - 1] - C.tours[n - 2]) : 0;
+  const nSpells = !C?.cast ? 0 : R24 ? (R24.book || Math.max(0, R24.prep[n - 1] - R24.prep[n - 2]))
+    : C.mode === 'connus' ? Math.max(0, (C.connus[n - 1] || 0) - (C.connus[n - 2] || 0)) + (C.secrets?.includes(n) ? 2 : 0)
     : C.mode === 'grimoire' ? 2 : Math.max(maxLvl > (slotsFor(cls, n - 1).reduce((m, v, i) => v > 0 ? i + 1 : m, 0)) ? 1 : 0, prepMax(cls, n, c) - prepMax(cls, n - 1, c));
   const steps = [['base', t('Hit points & features')]];
   if (W.asiLevel) steps.push(['abilities', t('Abilities')]);
@@ -169,8 +190,11 @@ function levelUpWizard(c, { onApply, player = false } = {}) {
   if (C?.cast && maxLvl > 0) steps.push(['spells', t('Spells')]);
   steps.push(['recap', t('Summary')]);
   const known = knownKeys(c);
+  const allowed = W.r24 ? lists24(cls, n) : [C?.liste];
+  const inList = s => W.r24 ? (s.c24 || []).some(x => allowed.includes(x)) : (C.secrets?.includes(n) || (s.classes || []).includes(C.liste));
   const listFor = lv => Object.entries(SPELLS.db?.sorts || {}).filter(([k, s]) => (lv === 0 ? s.niv === 0 : s.niv >= 1 && s.niv <= maxLvl)
-    && (W.showAll || C.secrets?.includes(n) || (s.classes || []).includes(C.liste)) && !known.has(k)).sort((a, b) => a[1].niv - b[1].niv || spellName(a[1]).localeCompare(spellName(b[1])));
+    && ((W.showAll && !player) || inList(s)) && !known.has(k)).sort((a, b) => a[1].niv - b[1].niv || spellName(a[1]).localeCompare(spellName(b[1])));
+  W.allowed = allowed;
 
   modal(`<div class="wiz"></div>`, (box, close) => {
     box.classList.add('wiz-box');
@@ -187,9 +211,12 @@ function levelUpWizard(c, { onApply, player = false } = {}) {
       bind(st);
     };
     const bind = st => {
-      $$('[data-go]', el).forEach(b => b.onclick = () => { W.step = +b.dataset.go; draw(); });
+      $$('[data-go]', el).forEach(b => b.onclick = () => { if (player && !W.hpRoll && +b.dataset.go > 0) return toast(t('Roll your hit die first.')); W.step = +b.dataset.go; draw(); });
       $('#wz-prev', el) && ($('#wz-prev', el).onclick = () => { W.step--; draw(); });
-      $('#wz-next', el) && ($('#wz-next', el).onclick = () => { W.step++; draw(); el.parentElement.scrollTop = 0; });
+      $('#wz-next', el) && ($('#wz-next', el).onclick = () => {
+        if (player && !W.hpRoll) return toast(t('Roll your hit die first.'));
+        W.step++; draw(); el.parentElement.scrollTop = 0;
+      });
       $('#wz-ok', el) && ($('#wz-ok', el).onclick = () => {
         const { nc, ch } = computeLevel(W);
         const sum = ch.filter(x => x.on && !['level', 'hd'].includes(x.k)).map(x => { const d = document.createElement('div'); d.innerHTML = x.label; return d.textContent; }).slice(0, 12);
@@ -198,6 +225,16 @@ function levelUpWizard(c, { onApply, player = false } = {}) {
       const on = (sel, ev, fn) => $$(sel, el).forEach(x => x[ev] = () => { fn(x); draw(); });
       on('[name=hpm]', 'onchange', x => { W.hpMethod = x.value; });
       on('#wz-roll', 'onclick', () => { const r = rollExpr('1d' + (+c.hitDie || C?.de || 8)); W.hpRoll = r.total; W.hpMethod = 'roll'; });
+      /* players: the hit die is rolled by the server, once per level */
+      $('#wz-sroll', el) && ($('#wz-sroll', el).onclick = async () => {
+        $('#wz-sroll', el).disabled = true;
+        try {
+          const r = await api('POST', '/api/action', { char: c.id, type: 'levelup_roll' });
+          W.hpRoll = r.result.roll; W.hpMethod = 'roll';
+          toast(`<i class="ico i-dice"></i> ${t('Hit die')} : <b>${r.result.roll}</b>${r.result.again ? ' (déjà lancé pour ce niveau)' : ''}`);
+        } catch (err) { toast('<i class="ico i-forbidden"></i> ' + esc(err.message)); }
+        draw();
+      });
       on('#wz-sub', 'onchange', x => { W.subclass = x.value.trim(); });
       on('[data-cu]', 'onchange', () => { W.catchup = $$('[data-cu]:checked', el).map(i => { const [l, ...f] = i.dataset.cu.split('|'); return [+l, f.join('|')]; }); });
       $$('[data-ftext]', el).forEach(x => x.oninput = () => { W.featText[x.dataset.ftext] = x.value; });
@@ -214,7 +251,8 @@ function levelUpWizard(c, { onApply, player = false } = {}) {
       const q = $('#wz-q', el); if (q) { q.oninput = () => { W.q = q.value; const p = q.selectionStart; draw(); const q2 = $('#wz-q', el); q2.focus(); q2.setSelectionRange(p, p); }; }
       $$('[data-pick]', el).forEach(x => x.onchange = () => {
         const [kind, k] = x.dataset.pick.split('|'), s = SPELLS.db.sorts[k], arr = kind === 't' ? W.cantrips : W.picks, lim = kind === 't' ? nCantrips : nSpells;
-        if (x.checked) { if (!W.noLimit && lim && arr.length >= lim && C.mode !== 'prepares') { x.checked = false; return toast(t('Limit reached ({n}). Uncheck a spell or tick "ignore limits".', { n: lim })); } arr.push({ k, n: s.n, niv: s.niv, label: spellName(s) }); }
+        const strict = W.r24 || C.mode !== 'prepares', free = W.noLimit && !player;
+        if (x.checked) { if (!free && strict && (W.r24 ? arr.length >= lim : lim && arr.length >= lim)) { x.checked = false; return toast(lim ? t('Limit reached ({n}). Uncheck a spell or tick "ignore limits".', { n: lim }) : 'Aucun nouveau sort de ce type à ce niveau.'); } arr.push({ k, n: s.n, niv: s.niv, label: spellName(s) }); }
         else arr.splice(arr.findIndex(y => y.k === k), 1);
         draw();
       });
@@ -237,12 +275,14 @@ const STEP_HTML = {
     const missing = missingFeatures(c, C, n);
     return `${!C ? `<div class="note warn">${t('Class "{cls}" not recognized: only hit points and proficiency will be updated.', { cls: esc(c.classe) })}</div>` : ''}
       <h4><i class="ico i-heal"></i> ${t('Hit points')} <span class="muted small">(d${hd} ${fmod(con)} CON)</span></h4>
-      <div class="wiz-cards">
+      ${W.player ? `<div class="wiz-cards"><div class="wcard on"><b>${t('Roll the die')}</b><span class="big">${W.hpRoll ? '+' + Math.max(1, W.hpRoll + con) : '?'}</span>
+          ${W.hpRoll ? `<small>1d${hd} = ${W.hpRoll} ${fmod(con)} CON — ${t('final result')}</small>` : `<button type="button" class="primary small" id="wz-sroll"><i class="ico i-dice"></i> ${t('Roll')} 1d${hd}</button><small>${t('one roll only, seen by the GM')}</small>`}</div></div>`
+      : `<div class="wiz-cards">
         <label class="wcard ${W.hpMethod === 'avg' ? 'on' : ''}"><input type="radio" name="hpm" value="avg" ${W.hpMethod === 'avg' ? 'checked' : ''}><b>${t('Average')}</b><span class="big">+${Math.max(1, avg + con)}</span><small>${t('official rule')}</small></label>
         <label class="wcard ${W.hpMethod === 'roll' ? 'on' : ''}"><input type="radio" name="hpm" value="roll" ${W.hpMethod === 'roll' ? 'checked' : ''}><b>${t('Roll the die')}</b><span class="big">${W.hpRoll ? '+' + Math.max(1, W.hpRoll + con) : '?'}</span>
           <button type="button" class="small" id="wz-roll"><i class="ico i-dice"></i> ${W.hpRoll ? t('Reroll') : t('Roll')} 1d${hd}</button></label>
         <label class="wcard ${W.hpMethod === 'max' ? 'on' : ''}"><input type="radio" name="hpm" value="max" ${W.hpMethod === 'max' ? 'checked' : ''}><b>${t('Maximum')}</b><span class="big">+${hd + con}</span><small>${t('house rule')}</small></label>
-      </div>
+      </div>`}
       ${subNeeded ? `<h4><i class="ico i-book"></i> ${esc(C.sousNom)}</h4><input id="wz-sub" list="wz-subl" value="${esc(W.subclass)}" placeholder="${t('Pick or type the subclass')}" style="width:100%">
         <datalist id="wz-subl">${(SUBCLASS_HINTS[cls] || []).map(s => `<option value="${esc(s)}">`).join('')}</datalist>` : ''}
       <h4><i class="ico i-sparkle"></i> ${t('New features')}</h4>
@@ -280,20 +320,25 @@ const STEP_HTML = {
       return `<label class="sprow ${sel ? 'on' : ''}"><input type="checkbox" data-pick="${kind}|${k}" ${sel ? 'checked' : ''}><span class="sp-ico">${SCHOOL_ICON[s.ecole] || ''}</span>
         <span class="grow"><b>${esc(spellName(s))}</b> <span class="muted small">${s.niv ? t('lvl {n}', { n: s.niv }) : t('cantrip')}${s.conc ? ' · C' : ''}${s.rituel ? ' · R' : ''}</span><br><span class="small muted">${spellSummary(s, { ...c, niveau: n }) || esc(s.resume).slice(0, 90)}</span></span>
         <a href="#" class="small" data-spv="${k}">${t('details')}</a></label>`; };
-    const modeTxt = C.mode === 'connus' ? t(nSpells > 1 ? 'You learn <b>{n}</b> new spells' : 'You learn <b>{n}</b> new spell', { n: nSpells }) + (C.secrets?.includes(n) ? ' ' + t('(including 2 Magical Secrets, any class)') : '') + '.'
+    const R = RULES24[W.cls];
+    const modeTxt = W.r24 ? (R?.book ? `Règles 2024 : vous ajoutez <b>2 sorts de magicien</b> à votre grimoire (sorts préparés : <b>${R.prep[n - 1]}</b>).`
+        : `Règles 2024 : vous pouvez préparer <b>${R ? R.prep[n - 1] : '?'}</b> sorts au niveau ${n}${R ? ` (${R.prep[n - 2]} avant)` : ''} : choisissez <b>${nSpells}</b> nouveau${nSpells > 1 ? 'x' : ''} sort${nSpells > 1 ? 's' : ''}${nCantrips ? ` et <b>${nCantrips}</b> sort${nCantrips > 1 ? 's' : ''} mineur${nCantrips > 1 ? 's' : ''}` : ''}.`)
+        + ` Seuls les sorts de la liste <b>${esc((W.allowed || []).join(', '))}</b> du Manuel des joueurs 2024 sont proposés.`
+      : C.mode === 'connus' ? t(nSpells > 1 ? 'You learn <b>{n}</b> new spells' : 'You learn <b>{n}</b> new spell', { n: nSpells }) + (C.secrets?.includes(n) ? ' ' + t('(including 2 Magical Secrets, any class)') : '') + '.'
       : C.mode === 'grimoire' ? t('You add <b>2 wizard spells</b> to your spellbook.')
         : t('You prepare your spells every day (maximum {max}). Add to the sheet the ones you want at hand', { max: prepMax(W.cls, n, c) }) + (nSpells ? ' — ' + t('suggestion: <b>{n}</b>', { n: nSpells }) : '') + '.';
     const mine = charSpells(c).filter(x => x.lvl > 0);
-    return `<div class="note">${modeTxt} ${t('Highest spell level')}: <b>${maxLvl}</b>.${C.listeNote ? ` <span class="muted">(${esc(C.listeNote)})</span>` : ''}</div>
-      <div class="row small"><label class="chk"><input type="checkbox" id="wz-all" ${W.showAll ? 'checked' : ''}> ${t('all spells (outside the class list)')}</label>
-        <label class="chk"><input type="checkbox" id="wz-nolim" ${W.noLimit ? 'checked' : ''}> ${t('ignore limits')}</label></div>
+    const canSwap = W.r24 || C.swap;
+    return `<div class="note">${modeTxt} ${t('Highest spell level')}: <b>${maxLvl}</b>.${!W.r24 && C.listeNote ? ` <span class="muted">(${esc(C.listeNote)})</span>` : ''}</div>
+      ${W.player ? '' : `<div class="row small"><label class="chk"><input type="checkbox" id="wz-all" ${W.showAll ? 'checked' : ''}> ${t('all spells (outside the class list)')}</label>
+        <label class="chk"><input type="checkbox" id="wz-nolim" ${W.noLimit ? 'checked' : ''}> ${t('ignore limits')}</label><span class="muted">(réservé au MJ, hors règles)</span></div>`}
       <div class="wiz-split"><div class="col grow">
         <div class="row"><input id="wz-q" placeholder="${t('Search a spell…')}" value="${esc(W.q)}" style="flex:1">
           <span class="seg">${['', ...Array.from({ length: maxLvl + 1 }, (_, i) => String(i))].map(l => `<button type="button" data-lf="${l}" class="${W.lvlF === l ? 'on' : ''}">${l === '' ? t('All') : l === '0' ? t('Cantrips') : l}</button>`).join('')}</span></div>
         ${nCantrips ? `<h4>${t('Cantrips')} <span class="cnt ${W.cantrips.length === nCantrips ? 'ok' : ''}">${W.cantrips.length}/${nCantrips}</span></h4><div class="splist">${filt(listFor(0)).map(x => row('t', x)).join('') || `<span class="muted small">${t('None.')}</span>`}</div>` : ''}
         <h4>${t('Spells')} <span class="cnt ${nSpells && W.picks.length >= nSpells ? 'ok' : ''}">${W.picks.length}${nSpells ? '/' + nSpells : ''}</span></h4>
         <div class="splist">${filt(listFor(1)).map(x => row('s', x)).join('') || `<span class="muted small">${t('No matching spell.')}</span>`}</div>
-        ${C.swap && mine.length ? `<h4>${t('Replace a known spell')} <span class="muted small">(${t('optional, allowed by the rules')})</span></h4>
+        ${canSwap && mine.length ? `<h4>${t('Replace a known spell')} <span class="muted small">(${t('optional, allowed by the rules')})</span></h4>
           <div class="row"><select id="wz-swo"><option value="">— ${t('none')} —</option>${mine.map(x => `<option value="${x.lvl}|${esc(x.name)}" ${W.swapOut?.name === x.name ? 'selected' : ''}>${esc(x.label)} (${t('lvl {n}', { n: x.lvl })})</option>`).join('')}</select> →
           <select id="wz-swi" ${W.swapOut ? '' : 'disabled'}><option value="">— ${t('new spell')} —</option>${listFor(1).map(([k, s]) => `<option value="${k}" ${W.swapIn?.k === k ? 'selected' : ''}>${esc(spellName(s))} (${t('lvl {n}', { n: s.niv })})</option>`).join('')}</select></div>` : ''}
       </div><div class="wiz-preview" id="wz-prev-sp"><p class="muted small">${t('Click "details" to read a spell.')}</p></div></div>`;

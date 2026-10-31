@@ -1,0 +1,45 @@
+{
+ "id": "akroan-hoplite",
+ "name": "Akroan Hoplite",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 18,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun",
+ "traits": "**Maintenez la ligne.** Tandis que l'hoplite tient une lance, d'autres créatures provoquent une attaque d'opportunité de l'hoplite quand elles se déplacent à l'intérieur de 1,50 m de lui. Lorsque l'hoplite frappe une créature avec une attaque d'opportunité à l'aide de sa lance, la créature prend un 4 (1d8) dégâts perforants supplémentaire, et la vitesse de la créature devient 0 pour le reste du tour.",
+ "actionsText": "**Multiattaques.** L'hoplite fait trois attaques à la mêlée ou deux attaques à portée.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m, ou portée 6/18 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants, ou 7 (1d8 + 3) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.\n**Bouclier.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d4 + 3) dégâts contondants. Si la cible est une créature moyenne ou plus petite, elle doit réussir sur une DD 13 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Bouclier",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/74130e48c5_monstre-akroan-hoplite.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "Breastplate, Bouclier",
+ "saves": "FOR +5, DEX +5"
+}

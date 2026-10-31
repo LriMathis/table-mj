@@ -1,0 +1,45 @@
+{
+ "id": "aartuk-weedling",
+ "name": "Aartuk Weedling",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "Aartuk",
+ "traits": "**Escalade des araignées.** L'aartuk peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Multiattaques.** L'aartuk fait deux attaques de Branch, deux attaques de Pellet radiant ou l'une de chacune.\n**Branche.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une cible. Touché : 8 (2d6 + 2) dégâts contondants.\n**Pellet radiant.** Attaque de sort à distance : +3 au toucher, portée 18 m, une cible. Touché : 7 (3d4 + 1) dégâts radiants.",
+ "attacks": [
+  {
+   "name": "Branche",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "contondant"
+  },
+  {
+   "name": "Pellet radiant",
+   "bonus": 3,
+   "damage": "3d4+1",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/acfdd43102_monstre-aartuk-weedling.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "bonusActions": "**Langue (Recharge 6).** L'aartuk essaie d'utiliser sa langue gooy pour arracher une créature moyenne ou plus petite qu'il peut voir en 9 m de lui-même. La cible doit faire un DD 11 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, la cible est agrippé par la langue (évasion DD 12) et a tiré jusqu'à 7,50 m vers l'aartuk. La langue peut battre une créature à la fois."
+}

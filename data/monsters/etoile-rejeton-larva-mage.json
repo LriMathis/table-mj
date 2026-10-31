@@ -1,0 +1,52 @@
+{
+ "id": "etoile-rejeton-larva-mage",
+ "name": "Star Spawn Larva Mage",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 16,
+ "hp": 168,
+ "hpFormula": "16d8+96",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 23,
+  "INT": 18,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "profond",
+ "traits": "**Retour aux vers.** Lorsque le mage est réduit à 0 points de vie, il se décompose en Nuée d'insectes dans le même espace. À moins que l'essaim ne soit détruit, le mage se reforme 24 heures plus tard.",
+ "actionsText": "**Multiattaques.** Le mage fait trois attaques Slam ou Eldritch Bolt.\n**Clamer.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants, et la cible doit réussir sur un DD 19 jet de sauvegarde de Constitution ou être empoisonné jusqu'à la fin de son prochain tour.\n**Bouchon d'Eldritch.** Attaque de sort à distance : +8 au toucher, portée 18 m, une cible. Touché : 19 (3d10 + 3) dégâts de force.\n**Plague des vers (Recharge 6).** Chaque créature autre qu'une étoile frayer dans 3 m du mage doit réussir sur un DD 19 jet de sauvegarde de Dextérité ou prendre 22 (5d8) dégâts nécrotiques et être aveuglé et entravé par des masses de vers en essaimage. La créature touchée prend 22 (5d8) dégâts nécrotiques au début de chaque tour du mage. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Le mage lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Main de mage, Message, Illusion mineure\n- 1/jour : Domination de monstre",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 8,
+   "damage": "1d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Bouchon d'Eldritch",
+   "bonus": 8,
+   "damage": "3d10+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/0b73a8b675_monstre-etoile-rejeton-larva-mage.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Étoile rejeton Larva mage",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, SAG +6, CHA +8",
+ "skills": "Perception +6",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé, effrayé, paralysé, pétrifié, empoisonné, entravé",
+ "reactions": "**Nourrir de faiblesse.** Lorsqu'une créature dans 6 m du mage échoue un jet de sauvegarde, le mage gagne 10 points de vie temporaires.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, étoile rejeton larva mage peut entreprendre l'une des actions ci-après.\n**Clamer.** La mage fait une attaque de Slam.\n**Eldritch Bolt (coûts 2 actions).** Le mage fait une attaque Eldritch Bolt.\n**Aliments pour animaux (coûts 3 actions).** Chaque créature entravé par la peste des vers du mage prend 13 (3d8) dégâts nécrotiques, et le mage gagne 6 points de vie temporaires."
+}

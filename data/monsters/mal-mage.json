@@ -1,0 +1,40 @@
+{
+ "id": "mal-mage",
+ "name": "Evil Mage",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, draconique, nain, elfique",
+ "traits": "**Détection orthographique.** Le mage est un spellcaster de niveau 4 qui utilise Intelligence comme son caractéristique d'incantation (save spell DD 13, +5 au toucher avec attaques de sort). Le mage connaît les sorts suivants de la liste des sorts de l'assistant :\n- Sorts mineurs (à volonté) : Lumière, Main de mage, Poigne électrique\n- Niveau 1 (4 emplacements) : Charme-personne, Projectile magique\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Foulée brumeuse",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +1 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d8 -1) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 1,
+   "damage": "1d8-1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f2a300852b_monstre-mal-mage.webp",
+ "notes": "",
+ "source": "Hunt for the Thessalhydra (5e.tools, traduction automatique)",
+ "aka": "Mal mage",
+ "saves": "INT +5, SAG +3",
+ "skills": "Arcanes +5, Histoire +5"
+}

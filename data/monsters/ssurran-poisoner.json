@@ -1,0 +1,45 @@
+{
+ "id": "ssurran-poisoner",
+ "name": "Ssurran Poisoner",
+ "type": "Monstruosité (homme-lézard)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 16,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Perception passive 13",
+ "languages": "draconique",
+ "traits": "**Maintenez votre souffle.** Le ssurran peut retenir son souffle pendant 15 minutes.",
+ "actionsText": "**Multiattaques.** Le ssurran fait deux attaques de Claw.\n**Griffe.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts tranchants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 4 (1d6 + 1) dégâts perforants plus 4 (1d8) dégâts de poison.\n**Bombe poison.** Le ssurran jette une bombe de la taille de la mandarine à un point jusqu'à 18 m, où il explose, libérant une sphère 3 m -radius de gaz toxique qui se disperse rapidement. Chaque créature dans la sphère doit faire un DD 11 jet de sauvegarde de Constitution, en prenant 10 (3d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Après que le ssurran lance une bombe, roulez une d6 ; sur un rouleau de 4 ou moins, le ssurran n'a plus de bombes à lancer.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/28c92ea197_monstre-ssurran-poisoner.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle, Bouclier",
+ "skills": "Perception +3, Discrétion +3, Survie +3"
+}

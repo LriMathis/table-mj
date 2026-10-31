@@ -1,0 +1,40 @@
+{
+ "id": "apprenti-derro",
+ "name": "Derro Apprentice",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "5d6+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 5,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 7",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Résistance magique.** Le derro a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sensibilité à la lumière du soleil.** En plein soleil, le derro présente un désavantage sur jets d'attaque.",
+ "actionsText": "**Chaos Blast.** Attaque de sort au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 10 (3d6) dégâts. Rouler un d4 pour déterminer le type de dégâts: 1, acide; 2, froid; 3, feu; 4, éclair.\n**force Burst (Recharge 4-6).** La magie brute de l'arcane jaillit du derro. Chaque créature de 3 m doit faire un DD 11 jet de sauvegarde de Force. Sur une sauvegarde échouée, la créature prend 7 (2d6) dégâts de force et a l'état à terre. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts seulement.\n**Détection orthographique.** Le derro lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 11) :\n- À volonté : Message, Prestidigitation\n- 1/jour : Charme-personne",
+ "attacks": [
+  {
+   "name": "Chaos Blast",
+   "bonus": 3,
+   "damage": "3d6",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/59a5ff47a0_monstre-apprenti-derro.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Apprenti Derro",
+ "caNote": "Armure en cuir",
+ "skills": "Discrétion +4"
+}

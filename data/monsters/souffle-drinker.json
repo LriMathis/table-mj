@@ -1,0 +1,45 @@
+{
+ "id": "souffle-drinker",
+ "name": "Breath Drinker",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 18,
+ "hp": 157,
+ "hpFormula": "21d8+63",
+ "vitesse": "0 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 5,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 15,
+  "CHA": 20
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 17",
+ "languages": "profond, télépathie 36 m",
+ "traits": "**Mouvement intégré.** Le buveur d'haleine peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**radiant absorption.** Lorsque le buveur d'haleine est soumis à dégâts radiants, il ne prend aucun dégâts et récupère plutôt un nombre de points de vie égal à la dégâts radiants distribuée.",
+ "actionsText": "**Multiattaques.** Le buveur d'haleine fait deux attaques de Griffe Enervating. Il peut également utiliser Drink Breath.\n**Griffe énervante.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une créature. Touché : 12 (2d6 + 5) dégâts nécrotiques, et si la cible est grande ou plus petite, il a l'état agrippé (évasion DD 18). La cible doit réussir sur une DD 18 jet de sauvegarde de Constitution ou sa maximum de points de vie est réduite d'un montant égal aux dégâts subis. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0.\n**Boire du souffle.** Le buveur d'haleine cible une créature qui a l'état neutralisé ou que le buveur d'haleine est en difficulté et qui n'est pas un Construct ou un mort-vivant. La cible doit faire un DD 18 jet de sauvegarde de Charisme. Sur une sauvegarde ratée, la cible prend 36 (8d8) dégâts nécrotiques, et son score Charisme est réduit de 1d6. Cette réduction dure jusqu'à ce que la cible termine un repos court ou long. Si cela réduit le Charisme de la cible à 0, la cible meurt. Jusqu'à ce que le buveur d'haleine meurt, la cible morte ne peut être ramenée à la vie par aucun moyen à court de l'intervention divine. Lors d'une sauvegarde réussie, la cible prend la moitié de dégâts nécrotiques seulement. Lors d'une sauvegarde réussie ou ratée, le buveur d'haleine retrouve un nombre de points de vie égal à celui de dégâts nécrotiques.\n**Invisibilité.** Le buveur de souffle a l'état invisible. Cette invisibilité se termine immédiatement après que le buveur d'haleine touche ou manque avec un jet d'attaque ou utilise Drink Breath.",
+ "attacks": [
+  {
+   "name": "Griffe énervante",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/d1dfb75df4_monstre-souffle-drinker.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Souffle Drinker",
+ "caNote": "armure naturelle",
+ "saves": "INT +5, SAG +7",
+ "skills": "Perception +7, Discrétion +9, Survie +7",
+ "vulnerabilities": "nécrotique",
+ "resistances": "acide, froid, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison, radiant",
+ "conditionImmunities": "agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

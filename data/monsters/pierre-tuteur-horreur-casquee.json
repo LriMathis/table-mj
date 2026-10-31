@@ -1,0 +1,43 @@
+{
+ "id": "pierre-tuteur-horreur-casquee",
+ "name": "Stone Guardian (Helmed Horror)",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 20,
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 14",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Résistance magique.** Le gardien de pierre a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Immunité orthographique.** Le gardien de pierre est à l'abri de trois sorts choisis par son créateur. Les immunités typiques comprennent Boule de feu, Métal brûlant et Éclair.",
+ "actionsText": "**Multiattaques.** Le gardien de pierre fait deux attaques d'épées longues.\n**Mot long.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/2b93144c15_monstre-pierre-tuteur-horreur-casquee.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "aka": "Pierre tuteur ( horreur casquée )",
+ "caNote": "Armure de plaque, Bouclier",
+ "skills": "Perception +4",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "immunities": "force, nécrotique, poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, paralysé, pétrifié, empoisonné, étourdi"
+}

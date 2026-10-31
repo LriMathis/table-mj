@@ -1,0 +1,42 @@
+{
+ "id": "deva",
+ "name": "Déva",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 229,
+ "hpFormula": "27d8+108",
+ "vitesse": "9 m, vol 27 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 20,
+  "CHA": 20
+ },
+ "saves": "SAG +9, CHA +9",
+ "skills": "Intuition +9, Perception +9",
+ "resistances": "radiants",
+ "conditionImmunities": "charmé, effrayé, épuisement",
+ "senses": "Vision dans le noir 36 m, Perception passive 19",
+ "languages": "toutes, télépathie 36 m",
+ "traits": "**Résistance à la magie.** Le déva a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration exaltée.** Si le déva meurt hors du Mont Céleste, son corps disparaît et il en acquiert aussitôt un nouveau en revenant à la vie avec tous ses pv, quelque part sur le Mont Céleste.",
+ "actionsText": "**Attaques multiples.** Le déva effectue deux attaques de Masse sainte.\n**Masse sainte.** Corps à corps : +8, allonge 1,50 m. Touché : 7 (1d6 + 4) dégâts contondants plus 18 (4d8) dégâts radiants.\n**Incantation.** Le déva lance l’un des sorts suivants, sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 17) :\n- À volonté : *changement de forme* (Bête ou Humanoïde uniquement, le sort ne fait pas gagner de points de vie temporaires, ni Concentration ni points de vie temporaires nécessaires pour maintenir le sort), *détection du mal et du bien*\n- 1/jour chacun : *communion*, *rappel à la vie*",
+ "bonusActions": "**Soutien divin (2/jour).** Le déva lance *délivrance des malédictions*, *restauration partielle* ou *soins*, avec la même caractéristique d’incantation que pour Incantation.",
+ "attacks": [
+  {
+   "name": "Masse sainte",
+   "bonus": 8,
+   "damage": "1d6+4+4d8",
+   "type": "contondant + radiant"
+  }
+ ],
+ "portrait": "/data/images/0efec505e0_monstre-deva.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 17"
+}

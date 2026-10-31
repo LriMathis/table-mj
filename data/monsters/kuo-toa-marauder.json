@@ -1,0 +1,39 @@
+{
+ "id": "kuo-toa-marauder",
+ "name": "Kuo-toa Marauder",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 9 m, Perception passive 14",
+ "languages": "commun, commun des profondeurs",
+ "traits": "**Amphibie.** Le kuo-toa peut respirer l'air et l'eau.\n**Sensibilité à la lumière du soleil.** En plein soleil, le kuo-toa a un désavantage sur tests de caractéristique et jets d'attaque.",
+ "actionsText": "**Délicate de saumure.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 9 (2d6 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Délicate de saumure",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a0aef97cdc_monstre-kuo-toa-marauder.webp",
+ "notes": "",
+ "source": "Heroes of the Borderlands (5e.tools, traduction automatique)",
+ "skills": "Perception +4",
+ "bonusActions": "**Slipperie.** Le kuo-toa prend l'action Se désengager."
+}

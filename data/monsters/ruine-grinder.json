@@ -1,0 +1,41 @@
+{
+ "id": "ruine-grinder",
+ "name": "Ruin Grinder",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 82,
+ "hpFormula": "11d10+22",
+ "vitesse": "9 m, creusement 9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**feu absorption.** Chaque fois que le broyeur de ruine est soumis à dégâts de feu, il récupère un nombre de points de vie égal à la moitié du dégâts de feu livré.\n**Monstre de siège.** Le broyeur de ruine inflige deux dégâts aux objets et aux structures.\n**Tunneler.** Le broyeur en ruine peut creuser à la moitié de sa vitesse de creusement et laisser un tunnel 3 m-diamètre dans son sillage.",
+ "actionsText": "**Multiattaques.** Le broyeur de ruine fait deux attaques d'excavateur.\n**Excavateur.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d6 + 6) dégâts de force. Si la cible est une créature Énorme ou plus petite, elle doit réussir sur un DD 17 jet de sauvegarde de Force ou être poussée jusqu'à 3 m et à terre.",
+ "attacks": [
+  {
+   "name": "Excavateur",
+   "bonus": 9,
+   "damage": "2d6+6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/597fed635b_monstre-ruine-grinder.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Ruine Grinder",
+ "caNote": "armure naturelle",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, pétrifié, empoisonné"
+}

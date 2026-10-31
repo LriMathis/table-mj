@@ -1,0 +1,40 @@
+{
+ "id": "arbre-fletrissement",
+ "name": "Tree Blight",
+ "type": "Plante",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 115,
+ "hpFormula": "10d12+50",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 10",
+ "languages": "C'est commun et druidique, mais il ne peut pas parler.",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La brûlure fait deux attaques de Branch et utilise Grasping Root.\n**Branche.** Jet d'attaque au corps à corps : +9, allonge 4,50 m. Touché : 16 (3d6 + 6) dégâts contondants.\n**Racine de graspage.** Jet de sauvegarde de Force : DD 17, une créature grande ou plus petite que la brûlure peut voir à l'intérieur de 4,50 m. Échec : La cible est tirée jusqu'à 3 m droit vers le feu et a l'état agrippé (évasion DD 16) à partir de l'une des six racines. Jusqu'à ce que le grappin se termine, la cible prend 13 (2d6 + 6) dégâts contondants au début de chacun de ses tours.",
+ "attacks": [
+  {
+   "name": "Branche",
+   "bonus": 9,
+   "damage": "3d6+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/75ca948893_monstre-arbre-fletrissement.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Arbre flétrissement",
+ "conditionImmunities": "assourdi",
+ "bonusActions": "**Gnash.** Jet de sauvegarde de Dextérité : DD 17, une créature agrippé par la brûlure. Échec : 19 (3d8 + 6) dégâts perforants. Réussite : Demi-dégâts."
+}

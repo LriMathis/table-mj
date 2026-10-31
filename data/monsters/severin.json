@@ -1,0 +1,49 @@
+{
+ "id": "severin",
+ "name": "Severin",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 16,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 20
+ },
+ "senses": "While wearing the Mask of the Dragon Queen: Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, draconique, infernal",
+ "traits": "**Matériel spécial.** Severin a le Masque de la reine du dragon.\n**Majesté draconienne.** Severin ajoute son bonus Charisme à son CA (inclus).\n**Ennemi incendiaire.** Si Severin distribue dégâts de feu à une créature en portant le masque de la Reine du Dragon, la cible prend feu. Au début de chaque tour, la cible de gravure prend 5 (1d10) dégâts de feu. Une créature à la portée du feu peut utiliser une action pour l'éteindre.\n**Résistance légendaire (5/jour).** Tout en portant le masque de la Reine Dragon, si Severin échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Touche brûlante.** Attaque de sort au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 18 (4d8) dégâts de feu.\n**Orbe flamboyante.** Attaque de sort à distance : +9 au toucher, portée 27 m, une cible. Touché : 40 (9d8) dégâts de feu.\n**Brûlures.** Severin choisit un point qu'il peut voir au sein de 18 m de lui. Chaque créature dans 1,50 m de ce point doit faire un DD 17 jet de sauvegarde de Dextérité, en prenant 18 (4d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Touche brûlante",
+   "bonus": 9,
+   "damage": "4d8",
+   "type": "feu"
+  },
+  {
+   "name": "Orbe flamboyante",
+   "bonus": 9,
+   "damage": "9d8",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/89a41e08a5_monstre-severin.webp",
+ "notes": "",
+ "source": "Rise of Tiamat (5e.tools, traduction automatique)",
+ "saves": "DEX +5, SAG +5",
+ "skills": "Arcanes +7, Religion +7",
+ "resistances": "Tout en portant le masque de la Reine Dragon: acide, froid, foudre, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "Tout en portant le masque de la Reine Dragon: feu",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "legendary": "Si Severin porte le masque de la Reine Dragon, il peut prendre 3 actions légendaires, en choisissant parmi les options énumérées. Seule une option d'action légendaire peut être utilisée à la fois et seulement à la fin du tour d'une autre créature. Severin reprend des actions légendaires au début de son tour.\n**Attaque.** Severin fait une attaque.\n**Téléportage de Fiery (actions de coût 2).** Severin, avec tous les objets qu'il porte ou qu'il transporte, téléporte jusqu'à 18 m dans un espace inoccupé qu'il peut voir. Chaque créature dans 1,50 m de Severin avant qu'il téléporte prend 5 (1d10) dégâts de feu.\n**Chaînes Hellish (coûts 3 actions).** Severin cible une créature qu'il peut voir dans 9 m de lui. La cible est enveloppée dans des chaînes magiques de feu et entravé. La cible entravé prend 21 (6d6) dégâts de feu au début de chacun de ses tours. À la fin de ses tours, la cible peut faire un DD 17 jet de sauvegarde de Force, mettant fin à l'effet sur elle-même sur un succès."
+}

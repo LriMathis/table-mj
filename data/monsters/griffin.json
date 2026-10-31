@@ -1,0 +1,44 @@
+{
+ "id": "griffin",
+ "name": "Griffin",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "9 m, vol 24 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**C'est la vue..** Le griffin a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le griffin fait deux attaques : une avec son bec et une avec ses griffes.\n**Bec.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/9981aff996_monstre-griffin.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "skills": "Perception +5"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "eclair-golem",
+ "name": "Lightning Golem",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 9,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 9,
+  "CON": 18,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Berserk.** Chaque fois que le golem commence son tour avec 40 points de vie ou moins, roulez un d6. Sur un 6, le golem devient berker. Sur chacun de ses virages pendant le bersk, le golem attaque la créature la plus proche qu'il puisse voir. Si aucune créature n'est assez proche pour se déplacer et attaquer, le golem attaque un objet, avec la préférence pour un objet plus petit que lui-même. Une fois que le golem devient berker, il continue à le faire jusqu'à ce qu'il soit détruit ou retrouve tout son points de vie.\nLe créateur du golem, si au sein de 18 m du golem berkerk, peut essayer de le calmer en parlant fermement et avec persuasion. Le golem doit pouvoir entendre son créateur, qui doit prendre une action pour faire un DD 15 test de Charisme (Persuasion). Si le chèque réussit, le golem cesse d'être bercé. S'il prend des dégâts alors qu'il est toujours à 40 points de vie ou moins, le golem pourrait redevenir berker.\n**Formulaire immuable.** Le golem est à l'abri de tout sort ou effet qui modifierait sa forme.\n**foudre absorption.** Chaque fois que le golem est soumis à dégâts de foudre, il ne prend aucun dégâts et récupère plutôt un nombre de points de vie égal à la dégâts de foudre traitée.\n**Résistance magique.** Le golem a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes du golem sont magiques.",
+ "actionsText": "**Multiattaques.** Le golem fait deux attaques de clam.\n**Clamer.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts de foudre.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/1e73b35ad5_monstre-eclair-golem.webp",
+ "notes": "",
+ "source": "Candlekeep Mysteries (5e.tools, traduction automatique)",
+ "aka": "Éclair Golem",
+ "immunities": "foudre, poison, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

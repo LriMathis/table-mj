@@ -1,0 +1,48 @@
+{
+ "id": "geant-du-feu-du-mal-feu",
+ "name": "Fire Giant of Evil Fire",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 150,
+ "hpFormula": "12d12+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 9,
+  "CON": 23,
+  "INT": 10,
+  "SAG": 19,
+  "CHA": 14
+ },
+ "senses": "Perception passive 18",
+ "languages": "commun, géant, igné",
+ "traits": "**Explosion des éclats.** Lorsque le géant tombe à 0 points de vie, son armure explose, détruisant le corps du géant et dispersant l'armure comme des éclats. Les créatures au sein de 3 m du géant lorsque son armure explose doivent faire un DD 18 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts perforants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques de Searing Scepter ou deux attaques de Bolt d'Imix.\n**Scepteur de la mer.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 17 (3d6 + 7) dégâts contondants plus 9 (2d8) dégâts de feu, et la cible est magiquement marquée. Alors que la marque de cette façon, la cible devient visible si elle est invisible, ne peut pas devenir invisible, et jette la lumière sombre dans un rayon 1,50 m. La marque disparaît après 24 heures, ou elle peut être retirée d'une créature ou d'un objet par tout sort qui met fin à une malédiction.\n**Bolt d'Imix.** Attaque de sort à distance : +8 au toucher, portée 36 m, une cible. Touché : 20 (3d10 + 4) dégâts de feu, et la cible doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'à la fin du prochain tour de la cible.",
+ "attacks": [
+  {
+   "name": "Scepteur de la mer",
+   "bonus": 11,
+   "damage": "3d6+7",
+   "type": "contondant + feu"
+  },
+  {
+   "name": "Bolt d'Imix",
+   "bonus": 8,
+   "damage": "3d10+4",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/b11b09c080_monstre-geant-du-feu-du-mal-feu.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant du feu du mal feu",
+ "caNote": "plaque",
+ "saves": "CON +10, SAG +8, CHA +6",
+ "skills": "Athlétisme +11, Perception +8",
+ "immunities": "feu"
+}

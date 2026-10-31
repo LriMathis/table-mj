@@ -1,0 +1,38 @@
+{
+ "id": "siren",
+ "name": "Siren",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Amphibie.** Siren peut respirer l'air et l'eau.\n**Résistance magique.** Siren a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Découpe intérieure.** Le caractéristique d'incantation inné de Siren est Charisme (spell save DD 13). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Charme-personne, Nappe de brouillard, Invisibilité supérieure, Métamorphose (autoseulement)",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.\n**Touche stupéfiante.** Siren touche une créature qu'elle peut voir dans 1,50 m d'elle. La créature doit réussir sur un DD 13 jet de sauvegarde d'Intelligence ou prendre 13 (3d6 + 3) dégâts psychiques et être étourdi jusqu'au prochain tour de Siren.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/dd7627be53_monstre-siren.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "skills": "Médecine +4, Nature +3, Discrétion +6, Survie +4"
+}

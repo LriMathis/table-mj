@@ -1,0 +1,40 @@
+{
+ "id": "grisha",
+ "name": "Grisha",
+ "type": "Humanoïde (Damaran humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 18,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, commun des profondeurs",
+ "traits": "**Détection orthographique.** Grisha est un lanceur d'orthographe de niveau 6. Son caractéristique d'incantation est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). Il a préparé les sorts clercs suivants:\n- Sorts mineurs (à volonté) : Assistance, Lumière, Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Soins, Faveur divine, Blessure, Protection contre le mal et le bien, Bouclier de la foi\n- Niveau 2 (3 emplacements) : Flamme éternelle, Immobilisation de personne, Arme magique, Arme spirituelle\n- Niveau 3 (3 emplacements) : Malédiction, Dissipation de la magie, Esprits gardiens",
+ "actionsText": "**Multiattaques.** Grisha fait deux attaques avec son défilement +1.\n**+1 Flacon.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "+1 Flacon",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/1987b6ce4f_monstre-grisha.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne, Bouclier",
+ "saves": "SAG +4, CHA +5",
+ "skills": "Persuasion +5, Religion +2"
+}

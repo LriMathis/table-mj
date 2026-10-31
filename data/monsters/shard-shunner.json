@@ -1,0 +1,51 @@
+{
+ "id": "shard-shunner",
+ "name": "Shard Shunner",
+ "type": "Humanoïde (halfelin, métamorphe)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "6d6+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m (rat form only), Perception passive 12",
+ "languages": "commun, halfelin, argot des voleurs",
+ "traits": "**Changeur de forme.** Le Shard Shunner peut utiliser leur action pour se polymorphiser en un hybride rat-humanoïde ou en un rat géant, ou revenir dans leur forme réelle, qui est humanoïde. Leurs statistiques, autres que leur taille, sont les mêmes dans chaque forme. Tout équipement qu'ils portent ou qu'ils transportent n'est pas transformé. Ils reviennent à leur vraie forme s'ils meurent.\n**Sensation de Keen.** Le Shard Shunner a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Demi-vieillesse.** Le Shard Shunner peut se déplacer à travers l'espace de créatures d'une taille plus grande qu'eux.\n**Brave.** Le Shard Shunner a un avantage sur jet de sauvegarde contre effrayé.",
+ "actionsText": "**Multiattaque (forme humaine ou hybride seulement).** Le Shard Shunner fait deux attaques, dont une seule peut être une morsure.\n**Bite (forme rat ou hybride seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants. Si la cible est un humanoïde, elle doit réussir sur un DD 11 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie de wedrat.\n**Mot court (forme humaine ou hybride seulement).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Acrobatie des mains (forme humaine ou hybride seulement).** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Bite (forme rat ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Mot court (forme humaine ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains (forme humaine ou hybride seulement)",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2843058e8c_monstre-shard-shunner.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "skills": "Perception +2, Discrétion +4",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées"
+}

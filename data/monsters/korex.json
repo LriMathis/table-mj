@@ -1,0 +1,41 @@
+{
+ "id": "korex",
+ "name": "Korex",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 52,
+ "hpFormula": "8d8",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "commun, elfique",
+ "traits": "**Discours d'égout.** Korex peut comprendre et communiquer verbalement avec Monstrosities.",
+ "actionsText": "**Couteau ranci.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 8 (2d4 + 3) dégâts perforants plus 7 (2d6) dégâts de poison, et la cible a l'état empoisonné jusqu'au prochain tour de Korex.\n**Tuyauterie.** Jet de sauvegarde de Sagesse : DD 12, une créature Korex peut voir dans 36 m. Échec : 14 (4d6) dégâts psychiques, et la cible a l'état charmé jusqu'au début du prochain tour de Korex. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Couteau ranci",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/33d8cd167b_monstre-korex.webp",
+ "notes": "",
+ "source": "Stranger Things: Welcome to the Hellfire Club (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Représentation +4, Discrétion +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Déchiqueteuse.** Korex prend l'action Foncer ou Se désengager."
+}

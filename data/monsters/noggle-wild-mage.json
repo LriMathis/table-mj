@@ -1,0 +1,44 @@
+{
+ "id": "noggle-wild-mage",
+ "name": "Noggle Wild Mage",
+ "type": "Fée",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d6+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, sylvestre",
+ "traits": "**Magie sauvage sanglante.** Alors qu'en sang, le noggle a une vitesse de vol de 9 m et il peut choisir pour tout dégâts qu'il inflige d'être dégâts de force.",
+ "actionsText": "**Multiattaques.** Le noggle fait deux attaques, en utilisant Noggling Stick ou Besufling Ray dans n'importe quelle combinaison.\n**Bâton à clin d'œil.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts contondants plus 2 (1d4) dégâts psychiques.\n**Ray qui s'enfuit.** Jet d'attaque à distance : +5, portée 18 m. Touché : 6 (1d6 + 3) dégâts psychiques, et la cible soustrait 1d4 de la prochaine jet de sauvegarde qu'elle effectue avant la fin du prochain tour du noggle.",
+ "attacks": [
+  {
+   "name": "Bâton à clin d'œil",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "Ray qui s'enfuit",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/314b99313a_monstre-noggle-wild-mage.webp",
+ "notes": "",
+ "source": "Lorwyn: First Light (5e.tools, traduction automatique)",
+ "saves": "CON +4, CHA +5"
+}

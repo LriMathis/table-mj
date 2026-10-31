@@ -1,0 +1,43 @@
+{
+ "id": "horreur-du-serpent",
+ "name": "Snake Horror",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 20,
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 14",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Résistance magique.** L'horreur du serpent a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Immunité orthographique.** L'horreur du serpent est immunisée contre trois sorts choisis par son créateur. Les immunités typiques comprennent Boule de feu, Métal brûlant et Éclair.",
+ "actionsText": "**Multiattaques.** L'horreur des serpents fait deux attaques d'épées longues.\n**Mot long.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains, et la cible doit faire un DD 12 jet de sauvegarde de Constitution, en prenant 9 (2d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/ec7adae9ed_monstre-horreur-du-serpent.webp",
+ "notes": "",
+ "source": "Rise of Tiamat (5e.tools, traduction automatique)",
+ "aka": "Horreur du serpent",
+ "caNote": "Armure de plaque, Bouclier",
+ "skills": "Perception +4",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas adamantine",
+ "immunities": "force, nécrotique, poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, paralysé, pétrifié, empoisonné, étourdi"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "nonaton-modron",
+ "name": "Nonaton Modron",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 161,
+ "hpFormula": "19d10+57",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 16,
+  "CHA": 13
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "Modron, télépathie 36 m",
+ "traits": "**Esprit axiomatique.** Le nonaton ne peut être contraint d'agir d'une manière contraire à sa nature ou à ses instructions.\n**Prêt au combat.** Le non-aton a un avantage sur les rouleaux d'initiative.\n**Désintégration.** Si le nonaton meurt, son corps se désintègre en poussière, laissant derrière lui tout ce qu'il transportait.",
+ "actionsText": "**Multiattaques.** Le nonaton fait trois attaques de bras et utilise Pilier de Vérité ou de Spellcasting.\n**Arme.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts perforants, et si la cible est une créature moyenne ou plus petite, il a l'état agrippé (évasion DD 14). Jusqu'à ce que ce grappin se termine, le nonaton ne peut pas utiliser ce bras contre d'autres cibles. Le nonaton a neuf bras, chacun d'entre eux pouvant battre une cible.\n**Pilier de vérité.** Le nonaton choisit un point sur le terrain qu'il peut voir en lui-même en 18 m. Un cylindre 18 m -tall, 6 m -radius de force magique s'élève à partir de ce point. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 21 (6d6) dégâts de force, et la créature revient à sa forme originale (si elle est sous une forme différente) et ne peut prendre une forme différente qu'à la fin de son prochain tour. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.\n**Détection orthographique.** Le nonaton lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection de la magie, Dissipation de la magie, Réparation (en tant qu'action)\n- 1/jour chacun : Changement de plan (autoseulement), Protection contre le mal et le bien",
+ "attacks": [
+  {
+   "name": "Arme",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6fd7f1c181_monstre-nonaton-modron.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +7, SAG +7",
+ "skills": "Investigation +7, Perception +11"
+}

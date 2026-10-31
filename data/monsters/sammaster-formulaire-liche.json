@@ -1,0 +1,51 @@
+{
+ "id": "sammaster-formulaire-liche",
+ "name": "Sammaster (Lich Form)",
+ "type": "Mort-vivant (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 18,
+ "hp": 322,
+ "hpFormula": "43d8+129",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 23,
+  "SAG": 15,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 19",
+ "languages": "commun, draconique, infernal",
+ "traits": "**Résistance légendaire (3/jour).** Si Sammaster échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**La répression de la vie.** Les créatures au sein de 18 m de Sammaster ne peuvent pas récupérer points de vie.\n**Résistance magique.** Sammaster a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Gemme de l'âme.** Si Sammaster est réduit à 0 points de vie alors qu'il existe un joyau magique de son âme, sa forme lich se dissout en poussière. Après 1d10 jours, il apparaît dans l'espace de sa gemme d'âme, en utilisant le bloc de statistiques Sammaster (Forme Dracolich). La gemme est un objet minuscule qui a CA 20; HP 50; et immunité à acide, nécrotique, poison et dégâts psychiques. Le bijou reprend tout son points de vie à la fin de chaque tour, mais il se tourne vers la poussière si réduit à 0 points de vie. Si le bijou est détruit, Sammaster peut en créer un nouveau en complétant un rituel de 8 heures en utilisant un bijou d'une valeur de 1 000 GP, que le rituel consomme, et en dépensant 5 000 GP.",
+ "actionsText": "**Multiattaques.** Sammaster fait trois attaques, en utilisant Corrosive Burst ou Paralysing Touch dans n'importe quelle combinaison. Il peut remplacer deux attaques par une utilisation de Spellcasting.\n**Inondations corrosives.** Jet d'attaque au corps à corps ou à distance : +13, allonge 1,50 m ou portée 36 m. Touché : 38 (5d12 + 6) acide ou dégâts nécrotiques (le choix de Sammaster).\n**Touche paralysante.** Jet d'attaque au corps à corps : +13, allonge 1,50 m. Touché : 16 (3d6 + 6) dégâts de froid, et la cible a l'état paralysé jusqu'au début du prochain tour de Sammaster.\n**Détection orthographique.** Sammaster lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 21) :\n- À volonté : Cône de froid, Détection de la magie, Dissipation de la magie, Invisibilité, Main de mage, Prestidigitation\n- 1/jour chacun : Création de mort-vivant (version de niveau 8), Désintégration, Mot de pouvoir mortel\n- 2/jour chacun : Communication avec les morts, Mur de force",
+ "attacks": [
+  {
+   "name": "Inondations corrosives",
+   "bonus": 13,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "Touche paralysante",
+   "bonus": 13,
+   "damage": "3d6+6",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/6a6f5ba3d7_monstre-sammaster-formulaire-liche.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Sammaster (formulaire liche)",
+ "saves": "DEX +9, CON +10, INT +13, SAG +9",
+ "skills": "Arcanes +20, Histoire +13, Perception +9",
+ "resistances": "acide, froid, foudre",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "reactions": "**Magie protectrice.** Sammaster lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Contresort, Bouclier",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, sammaster (formulaire liche) peut entreprendre l'une des actions ci-après.\n**Téléportation mortelle.** Sammaster téléporte jusqu'à 18 m dans un espace inoccupé qu'il peut voir, et chaque créature dans 3 m de l'espace qu'il a laissé prend 19 (3d12) dégâts nécrotiques.\n**Dissoudre.** Sammaster fait une attaque de l'incendie corrosif.\n**Présence terrifiante.** Jet de sauvegarde de Sagesse : DD 21, chaque créature dans une Emanation 6 m originaire de Sammaster. Échec : 13 (2d12) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour. Échec ou réussite : Sammaster ne peut pas reprendre cette action avant le début de son prochain tour."
+}

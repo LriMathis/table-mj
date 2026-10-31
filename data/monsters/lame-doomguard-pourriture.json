@@ -1,0 +1,48 @@
+{
+ "id": "lame-doomguard-pourriture",
+ "name": "Doomguard Rot Blade",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 18,
+ "hp": 97,
+ "hpFormula": "13d8+39",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 15
+ },
+ "senses": "Perception passive 13",
+ "languages": "Commun plus deux autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La lame de pourriture fait deux attaques de la lame entropique ou de Javelin entropique.\n**Lame entropique.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d10 + 4) dégâts tranchants plus 7 (2d6) dégâts nécrotiques. Une créature tuée par cette attaque a son corps et tout ce qu'elle porte, sauf pour les objets magiques, réduit à cendres. Touché ou raté : La lame pourriture peut provoquer une explosion de magie entropique dans une sphère 3 m -radius centrée sur l'arme. Chaque créature dans cette zone autre que la lame de pourriture doit réussir sur un DD 13 jet de sauvegarde de Constitution ou prendre 6 (1d12) dégâts nécrotiques. La lame ne peut émettre de magie entropique de cette façon qu'une seule fois par tour.\n**Javelin entropique.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 13 (2d12) dégâts nécrotiques. Une créature tuée par cette attaque a son corps et tout ce qu'elle porte, sauf pour les objets magiques, réduit à cendres.",
+ "attacks": [
+  {
+   "name": "Lame entropique",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Javelin entropique",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/ce1ec2b852_monstre-lame-doomguard-pourriture.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Lame Doomguard pourriture",
+ "caNote": "Armure de plaque",
+ "saves": "FOR +7, CON +6",
+ "skills": "Perception +3",
+ "resistances": "nécrotique"
+}

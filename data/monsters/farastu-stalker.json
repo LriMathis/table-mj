@@ -1,0 +1,50 @@
+{
+ "id": "farastu-stalker",
+ "name": "Farastu Stalker",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 71,
+ "hpFormula": "11d8+22",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal",
+ "traits": "**Slime adhésif.** Le farastu sécrète un épais, comme le goudron et il peut choisir d'utiliser ce slime pour sécuriser les ennemis qu'il a agrippé ou pour faire des armes deviennent attachés à lui. Il est en mesure de mettre fin à l'adhésion avec un action bonus, ce qui fait libérer tous les objets et les créatures qui y sont fixés. L'adhésion se termine aussi après la mort du farastu.\n**La vue du diable.** Les ténèbres magiques n'entravent pas la vision sombre du farastu.\n**Sensation de Keen.** Le farastu a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Résistance magique.** Le farastu a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes du farastu sont magiques.\n**Sans déconner.** Au début de son tour, le farastu peut gagner de l'avantage sur toutes les armes à melee jets d'attaque qu'il fabrique pendant ce tour, mais jets d'attaque contre lui a un avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Le farastu fait une attaque Bite et deux attaques de griffes.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants. La cible est maintenue rapidement par la slime adhésive du farastu (état agrippé, évasion DD 15) si le farastu n'est pas déjà aux prises avec une créature.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f8b08bacca_monstre-farastu-stalker.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +7, CON +5",
+ "skills": "Athlétisme +7",
+ "resistances": "froid, feu, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné",
+ "reactions": "**Cuir adhésif.** Après avoir pris des dégâts à une arme de mêlée, le farastu utilise sa réaction pour attacher l'arme à sa peau. L'attaquant doit faire un DD 15 jet de sauvegarde de Dextérité. En cas d'échec, l'arme devient attachée à la peau adhésive du farastu jusqu'à ce que le farastu meurt ou libère l'arme. Une créature peut également utiliser une action pour faire un DD 15 test de Force, en priant l'arme libre du farastu, si réussi."
+}

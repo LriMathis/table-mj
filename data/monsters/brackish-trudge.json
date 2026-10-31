@@ -1,0 +1,40 @@
+{
+ "id": "brackish-trudge",
+ "name": "Brackish Trudge",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 4,
+  "SAG": 14,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 14",
+ "languages": "—",
+ "traits": "**Fortitude fongique.** Si le dégâts réduit le débit à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + le dégâts pris, à moins que le dégâts soit radieux ou d'un coup critique. Sur un succès, le trudge tombe à 1 points de vie.",
+ "actionsText": "**Tusque.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants plus 3 (1d6) dégâts de poison. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Tusque",
+   "bonus": 7,
+   "damage": "2d10+5",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/416b81b03c_monstre-brackish-trudge.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4",
+ "resistances": "feu"
+}

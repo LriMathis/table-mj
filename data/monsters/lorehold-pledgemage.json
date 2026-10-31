@@ -1,0 +1,41 @@
+{
+ "id": "lorehold-pledgemage",
+ "name": "Lorehold Pledgemage",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 60,
+ "hpFormula": "11d8+11",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "Commun plus deux langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** La promesse fait deux attaques de Scroll Bash.\n**Faire défiler la masse.** Attaque de sort au corps à corps : +5 au toucher, allonge 9 m, une cible. Touché : 8 (1d10 + 3) dégâts contondants plus 9 (2d8) dégâts de tonnerre.\n**Réduit à la mémoire (Recharge 5-6).** L'énergie dorée tonnerre éclate autour d'une créature que le gage peut voir à l'intérieur de 27 m. La créature doit faire un DD 13 jet de sauvegarde de Constitution, en prenant 44 (8d10) dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Un Construction a un désavantage sur le jet de sauvegarde.\n**Détection orthographique.** Le gantage lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Assistance, Lumière\n- 1/jour chacun : Armure de mage, Communication avec les morts, Façonnage de la pierre\n- 2/jour chacun : Compréhension des langues, Localisation d'objet",
+ "attacks": [
+  {
+   "name": "Faire défiler la masse",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "contondant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/cdd8963e50_monstre-lorehold-pledgemage.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "saves": "CON +3, INT +5",
+ "skills": "Histoire +7, Perspicacité +3, Investigation +7",
+ "bonusActions": "**Pause thoracique (1/jour).** Le gageur choisit un point en lui-même en 9 m, écartant les esprits des créatures voisines de ce moment dans le temps. Chaque créature d'une sphère 3 m -radius centrée sur ce point doit réussir sur une DD 13 jet de sauvegarde de Sagesse ou être neutralisé jusqu'à la fin du prochain tour du gage.",
+ "reactions": "**Apprendre du passé (2/jour).** Quand une autre créature dans 18 m du gage manque une cible avec un jet d'attaque, le gage permet magiquement à l'attaquant de rerouler le jet d'attaque. Il doit utiliser le nouveau rouleau."
+}

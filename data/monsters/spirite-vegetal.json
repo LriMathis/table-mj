@@ -1,0 +1,33 @@
+{
+ "id": "spirite-vegetal",
+ "name": "Plant Spirit",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "12 m, escalade 12 m (Vin seulement)",
+ "stats": {
+  "FOR": 17,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Perception passive 11",
+ "languages": "comprend les langues que vous connaissez",
+ "traits": "**Monstre de siège (Tree seulement).** L'esprit inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** L'esprit fait un nombre d'attaques égal à la moitié du niveau de ce sort (ronde vers le bas).\n**Chelem (Tree ou Vine seulement).** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d10 + 3 + summonSpellLevel dégâts contondants.\n**Vaporisateur de spores (Fungus seulement).** Jet d'attaque au corps à corps ou à distance : votre bonus d'attaque de sort, allonge 1,50 m ou portée 9 m. Touché : 1d4 + summonSpellLevel dégâts de poison, et la cible a l'état empoisonné jusqu'à la fin de son prochain tour. Si la cible a déjà l'état empoisonné, elle prend plutôt un 3d4 dégâts de poison supplémentaire.",
+ "attacks": [],
+ "portrait": "/data/images/56d0fd56cb_monstre-spirite-vegetal.webp",
+ "notes": "points de vie : 50 + 10 pour chaque niveau de sort supérieur à 5",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "aka": "Spirite végétal",
+ "vulnerabilities": "feu (Tree seulement), tranchant (Fungus ou Vin seulement)",
+ "bonusActions": "**Twist Away (Vin seulement).** L'esprit prend l'action Foncer ou Se désengager."
+}

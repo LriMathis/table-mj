@@ -1,0 +1,50 @@
+{
+ "id": "abigor",
+ "name": "Abigor",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 22,
+ "hp": 337,
+ "hpFormula": "27d10+189",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 25,
+  "INT": 20,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 20",
+ "languages": "céleste, commun, draconique, infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas la vision obscure d'Abigor.\n**Résistance magique.** Abigor a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Abigor fait quatre attaques en utilisant son Warhammer, le Throwing Hammer, ou une combinaison des deux.\n**Marteau de guerre.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d8 + 8) dégâts contondants plus 3 (1d6) dégâts de tonnerre.\n**Lancer le marteau.** Attaque d'arme à distance : +15 au toucher, portée 9/18 m., une cible. Touché : 17 (2d8 + 8) dégâts contondants plus 3 (1d6) dégâts de tonnerre. Des marteaux jetés de cette façon tombent et s'enfoncent dans le sol après avoir frappé leur cible et un nouveau marteau apparaît dans la main d'Abigor.\n**Clame tonnerre (Recharge 5-6).** Abigor fait pleuvoir tous ses marteaux sur le champ de bataille d'énergie tonnerre, explosant vers l'extérieur avec un rugissement. Toutes les créatures dans une sphère 3 m -radius centrée sur chaque marteau doivent faire un DD 22 jet de sauvegarde de Constitution. Les cibles prennent 26 (4d12) dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si une créature se trouve dans plusieurs sphères, elle doit faire l'économie plusieurs fois, en prenant des dégâts de chaque source.",
+ "attacks": [
+  {
+   "name": "Marteau de guerre",
+   "bonus": 15,
+   "damage": "2d8+8",
+   "type": "contondant + tonnerre"
+  },
+  {
+   "name": "Lancer le marteau",
+   "bonus": 15,
+   "damage": "2d8+8",
+   "type": "contondant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/dd7bfaba32_monstre-abigor.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +15, INT +12",
+ "skills": "Athlétisme +22, Histoire +12, Perspicacité +10, Intimidation +17, Perception +10, Survie +10",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, abigor peut entreprendre l'une des actions ci-après.\n**Lancer le marteau.** Abigor fait une attaque de Hammer.\n**Appeler tonnerre (coûts 2 actions).** Abigor cible un marteau qu'il peut voir dans 18 m pour laisser sortir un rugissement tonnerre. Les créatures dans une sphère 3 m -radius centrée sur le marteau doivent faire un DD 22 jet de sauvegarde de Constitution, en prenant 26 (4d12) dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

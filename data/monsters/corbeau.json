@@ -1,0 +1,38 @@
+{
+ "id": "corbeau",
+ "name": "Corbeau",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non alignée",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "3 m, vol 15 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 5,
+  "SAG": 13,
+  "CHA": 6
+ },
+ "skills": "Perception +3",
+ "senses": "Perception passive 13",
+ "languages": "aucune",
+ "traits": "**Imitation.** Le corbeau peut imiter des bruits simples qu’il a entendus, comme un murmure ou des pépiements. Une créature qui l’entend peut se rendre compte qu’il s’agit d’imitations en réussissant un test de Sagesse (Intuition) DD 10.",
+ "actionsText": "**Bec.** Corps à corps : +4, allonge 1,50 m. Touché : 1 dégât perforant.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 4,
+   "damage": "1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/dd0b6fd7d8_monstre-corbeau.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

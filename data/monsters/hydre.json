@@ -1,0 +1,39 @@
+{
+ "id": "hydre",
+ "name": "Hydre",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "non alignée",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 184,
+ "hpFormula": "16d12+80",
+ "vitesse": "12 m, nage 12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 20,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "skills": "Perception +6",
+ "conditionImmunities": "assourdi, aveuglé, charmé, effrayé, étourdi, inconscient",
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "aucune",
+ "traits": "**Apnée.** L’hydre peut retenir son souffle pendant 1 heure.\n**Têtes multiples.** L’hydre est dotée de cinq têtes. Chaque fois que l’hydre subit au moins 25 dégâts dans un même tour, l’une de ses têtes meurt. L’hydre meurt quand toutes ses têtes sont mortes. À la fin de chacun de ses tours et à condition d’avoir au moins une tête vivante, deux têtes lui repoussent par tête morte depuis son tour précédent, sauf si elle a subi des dégâts de feu entre-temps. L’hydre récupère 20 points de vie quand il lui pousse de nouvelles têtes.\n**Têtes réactives.** Chaque tête dont est dotée l’hydre en plus de la première lui octroie une Réaction supplémentaire qu’elle ne peut jouer que pour effectuer une attaque d’Opportunité.",
+ "actionsText": "**Attaques multiples.** L’hydre effectue autant d’attaques de Morsure qu’elle a de têtes.\n**Morsure.** Corps à corps : +8, allonge 3 m. Touché : 10 (1d10 + 5) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 8,
+   "damage": "1d10+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/323bcfc6c8_monstre-hydre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 191"
+}

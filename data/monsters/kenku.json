@@ -1,0 +1,44 @@
+{
+ "id": "kenku",
+ "name": "Kenku",
+ "type": "Humanoïde (kenku)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "skills": "Discrétion +5, Perception +2, Supercherie +4",
+ "senses": "Perception passive 12",
+ "languages": "comprend l'aérien et le commun mais parle uniquement grâce au pouvoir imitation",
+ "traits": "**Attaque surprise.** Le kenku est avantagé sur les jets d'attaque contre les créatures qu'il surprend.\n**Imitation.** Le kenku peut imiter tous les sons déjà entendus, y compris des voix. Une créature qui entend ces sons peut reconnaître leur vraie nature en réussissant un test de Sagesse (Perspicacité) DD 14.",
+ "actionsText": "**Épée courte.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d6+3) dégâts perforants.\n**Arc court.** *Attaque d'arme à distance :* +5 pour toucher, portée 24/96 m, une cible. *Touché :* 6 (1d6+3) dégâts perforants.",
+ "portrait": "/data/images/c38afef2a0_monstre-kenku.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 193 · image : Manuel des monstres p. 192",
+ "attacks": [
+  {
+   "name": "Épée courte",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Arc court",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "ziraj-le-chasseur",
+ "name": "Ziraj the Hunter",
+ "type": "Humanoïde (demi-orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 153,
+ "hpFormula": "18d8+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, orc",
+ "traits": "**Détection orthographique.** Ziraj est un spellcaster de niveau 10. Son caractéristique d'incantation est Charisme. Il a préparé les sorts de paladin suivants:\n- Niveau 1 (4 emplacements) : Injonction, Protection contre le mal et le bien, Châtiment tonitruant\n- Niveau 2 (3 emplacements) : Châtiment révélateur, Appel de destrier\n- Niveau 3 (2 emplacements) : Châtiment aveuglant, Dissipation de la magie",
+ "actionsText": "**Multiattaques.** Ziraj fait trois attaques avec son glaive ou avec son longbow surdimensionné.\n**Glaive.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d10 + 4) dégâts tranchants.\n**Longbow surdimensionné.** Attaque d'arme à distance : +7 au toucher, portée 45/180 m., une cible. Touché : 11 (2d6 + 4) dégâts perforants.\n**Aspect terrible (recharge après un repos court ou long).** Ziraj exsude la menace magique. Chaque ennemi au sein de 9 m de lui doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute de Ziraj. Si un ennemi effrayé termine son tour plus que 9 m loin de Ziraj, l'ennemi peut répéter le jet de sauvegarde, mettant fin à l'effet sur lui-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Glaive",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Longbow surdimensionné",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e89df691ab_monstre-ziraj-le-chasseur.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "aka": "Ziraj le chasseur",
+ "caNote": "+2 armure en cuir",
+ "saves": "SAG +5, CHA +5",
+ "skills": "Athlétisme +7, Intimidation +5, Discrétion +7, Survie +5"
+}

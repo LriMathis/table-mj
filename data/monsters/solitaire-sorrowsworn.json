@@ -1,0 +1,40 @@
+{
+ "id": "solitaire-sorrowsworn",
+ "name": "Lonely Sorrowsworn",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun",
+ "traits": "**psychique Leech.** Au début de chaque tour de la douleur, chaque créature dans 1,50 m de lui doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou prendre 10 (3d6) dégâts psychiques.\n**Les tendances sur l'entreprise.** Le chagrinworn a un avantage sur jets d'attaque alors qu'il est à l'intérieur de 9 m d'au moins deux autres créatures. Il a autrement un désavantage sur jets d'attaque.",
+ "actionsText": "**Multiattaques.** La douleur a fait une attaque Harpoon Arm, et il utilise l'Embrace terrible.\n**Harpoon bras.** Attaque d'arme au corps à corps : +7 au toucher, allonge 18 m, une cible. Touché : 21 (4d8 + 3) dégâts perforants, et la cible est agrippé (évasion DD 15) si c'est une créature grande ou plus petite. La douleur a deux bras de harpon et peut gripper jusqu'à deux créatures à la fois.\n**Embracement douloureux.** Chaque créature agrippé par le chagrinsworn doit faire un DD 15 jet de sauvegarde de Sagesse, en prenant 18 (4d8) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Dans les deux cas, les chagrinsworn attire chacune de ces créatures jusqu'à 9 m directement vers elle.",
+ "attacks": [
+  {
+   "name": "Harpoon bras",
+   "bonus": 7,
+   "damage": "4d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/fa71ee4a52_monstre-solitaire-sorrowsworn.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Solitaire Sorrowsworn",
+ "caNote": "armure naturelle",
+ "resistances": "contondant, perforant, tranchant alors que dans la lumière sombre ou l'obscurité"
+}

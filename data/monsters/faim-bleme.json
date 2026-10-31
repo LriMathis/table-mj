@@ -1,0 +1,47 @@
+{
+ "id": "faim-bleme",
+ "name": "Hungry Ghast",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 36,
+ "hpFormula": "8d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 17,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun",
+ "traits": "**Poignée.** Toute créature qui commence son tour à l'intérieur de 1,50 m du ghast doit réussir sur un DD 10 jet de sauvegarde de Constitution ou être empoisonné jusqu'au début de son prochain tour. Sur un jet de sauvegarde réussi, la créature est à l'abri du sternum du ghast pendant 24 heures.\n**Tourne la défiance.** Le ghast et n'importe quel ghouls dans 9 m de celui-ci ont avantage sur jet de sauvegarde contre les effets qui deviennent morts-vivants.\n**Escalade des araignées.** Le ghast peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir à faire un test de caractéristique.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une créature. Touché : 12 (2d8 + 3) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants. Si la cible est une créature autre qu'un mort-vivant, elle doit réussir sur un DD 10 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "2d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/e862871ee1_monstre-faim-bleme.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Faim blême",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, empoisonné"
+}

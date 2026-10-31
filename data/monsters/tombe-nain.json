@@ -1,0 +1,55 @@
+{
+ "id": "tombe-nain",
+ "name": "Tomb Dwarf",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Sensibilité à la lumière du soleil.** En plein soleil, la tombe naine a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** La naine tombe fait deux attaques de longues épées ou deux attaques d'arbustes. Il peut utiliser son drain de vie à la place d'une attaque de l'épée.\n**Drain de vie.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d6 + 2) dégâts nécrotiques. La cible doit réussir sur une DD 13 jet de sauvegarde de Constitution ou sa maximum de points de vie est réduite d'un montant égal aux dégâts subis. Cette réduction dure jusqu'à ce que la cible termine un repos long. La cible meurt si cet effet réduit son maximum de points de vie à 0.Un humanoïde tué par cette attaque monte 24 heures plus tard comme un zombie sous le contrôle de la naine tombe, à moins que l'humanoïde soit rétabli à la vie ou son corps est détruit. Le nain tombe peut avoir pas plus de douze zombies sous son contrôle en même temps.\n**Bataille.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants, ou 7 (1d10 + 2) dégâts tranchants si utilisé avec deux mains.\n**Acrobatie légère.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Drain de vie",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "nécrotique"
+  },
+  {
+   "name": "Bataille",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d4710d1d30_monstre-tombe-nain.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Tombe nain",
+ "caNote": "Cuirs et peaux touffus",
+ "skills": "Perception +3, Discrétion +4",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

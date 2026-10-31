@@ -1,0 +1,40 @@
+{
+ "id": "galvanic-blastseeker",
+ "name": "Galvanic Blastseeker",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "Fréquent et primordial, plus une langue",
+ "traits": "**Galvanic Overcast (Recharge 5-6).** Lorsque le sneaker lance Éclair ou l'onde de tonnerre, il peut rouler une mort. Sur un nombre impair, le blastseeker prend 9 (2d8) dégâts de force. Sur un nombre pair, le sort traite également 9 (2d8) dégâts de foudre à chaque cible qui échoue son jet de sauvegarde.\n**Le cœur de la tempête.** Lorsque le blastseeker lance Éclair ou onde de tonnerre, toutes les autres créatures de 3 m du blastseeker prennent chacune 3 dégâts de foudre.\n**Leap propulsé de Gust.** Le blastseeker peut utiliser un action bonus pour voler jusqu'à 3 m sans provoquer d'attaques d'opportunités.\n**Découpe intérieure.** Le caractéristique d'incantation inné du blastseeker est Intelligence (save spell DD 15, +7 au toucher avec attaques de sort). Le blastseeker peut lancer innéement les sorts suivants, ne nécessitant aucun composant autre que son engrenage Izzet, qui ne fonctionne pas pour les autres:\n- 1/jour : Peau de pierre\n- 3/jour chacun : Lévitation, Éclair, Vague tonnante",
+ "actionsText": "**Lancer.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d6) dégâts perforants, ou 4 (1d8) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 3,
+   "damage": "1d6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5e4fd2e672_monstre-galvanic-blastseeker.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "saves": "DEX +6",
+ "skills": "Acrobaties +6, Arcanes +7, Perception +3",
+ "resistances": "foudre, tonnerre"
+}

@@ -1,0 +1,38 @@
+{
+ "id": "myconide-souverain",
+ "name": "Myconide souverain",
+ "type": "Plante",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "caNote": "armure naturelle",
+ "hp": 60,
+ "hpFormula": "8d10+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "vision dans le noir 36 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Soleillite aiguë.** Quand le myconide est exposé à la lumière du soleil, il est désavantagé sur ses tests de caractéristique, ses jets d'attaque et ses jets de sauvegarde. Il périt s'il passe plus d'une heure sous la lumière directe du soleil.\n**Spores de détresse.** Quand le myconide subit des dégâts, tous les myconides situés dans un rayon de 72 mètres perçoivent sa douleur.",
+ "actionsText": "**Attaques multiples.** Le myconide peut utiliser ses spores hallucinogènes ou ses spores pacificatrices puis faire une attaque de poing.\n**Poing.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 8 (3d4+1) dégâts contondants plus 7 (3d4) dégâts de poison.\n**Spores de communication.** Un nuage de spores de 6 mètres de rayon s'étend autour du myconide. Il contourne les angles et affecte uniquement les créatures dotées d'une Intelligence de 2 ou plus autres que les morts-vivants, les créatures artificielles et les élémentaires. Les créatures affectées sont alors capables de communiquer par télépathie tant qu'elles restent à 9 mètres ou moins les unes des autres. Cet effet dure 1 heure.\n**Spores hallucinogènes.** Le myconide projette des spores sur une créature située dans son champ de vision et dans un rayon de 1,50 mètre. La cible doit réussir un jet de sauvegarde de Constitution DD 12, sans quoi elle est empoisonnée pendant 1 minute. La victime est neutralisée tant qu'elle est sous l'effet de l'hallucination. Elle peut refaire ce jet de sauvegarde à la fin de chacun de ses tours et met un terme à l'effet dès qu'elle en réussit un.\n**Spores pacificatrices.** Le myconide projette un nuage de spores sur une créature située dans son champ de vision et dans un rayon de 1,50 mètre. La cible doit réussir un jet de sauvegarde de Constitution DD 12, sans quoi elle est étourdie pendant une minute. Elle peut refaire ce jet à la fin de chacun de ses tours et met un terme à l'étourdissement dès qu'elle en réussit un.\n**Spores réanimatrices (3/jour).** Le myconide choisit le cadavre d'un humanoïde ou d'une bête de Grande taille ou plus petite et le recouvre de spores. 24 heures plus tard, ce cadavre se relève sous forme de serviteur des spores. Il reste ainsi animé pendant 1d4+1 semaines ou jusqu'à ce que quelqu'un le détruise. Ensuite, il est impossible de l'animer de nouveau de cette manière.",
+ "portrait": "/data/images/f6c6478d56_monstre-myconide-souverain.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 232 · image : Manuel des monstres p. 231",
+ "attacks": [
+  {
+   "name": "Poing",
+   "bonus": 3,
+   "damage": "3d4+1+3d4",
+   "type": "contondant + poison"
+  }
+ ]
+}

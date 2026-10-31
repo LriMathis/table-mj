@@ -1,0 +1,50 @@
+{
+ "id": "acererak",
+ "name": "Acererak",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 21,
+ "hp": 285,
+ "hpFormula": "30d8+150",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 20,
+  "INT": 27,
+  "SAG": 21,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 22",
+ "languages": "abyssal, commun, draconique, nain, elfique, géant, infernal, primordial, commun des profondeurs",
+ "traits": "**Matériel spécial.** Acererak porte le Bâton de l'Oublié. Il porte un Talisman de la sphère et a un Sphère d'annihilation sous son contrôle.\n**Résistance légendaire (3/jour).** Si Acererak échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Réjuvenance.** Le corps d'Acererak se transforme en poussière lorsqu'il tombe à 0 points de vie, et son équipement est laissé derrière. Acererak gagne un nouveau corps après 1d10 jours, récupérant tout son points de vie et redevenant actif. Le nouveau corps apparaît à l'intérieur de 1,50 m de la phylactère d'Acererak, dont l'emplacement est caché.\n**Résistance au virage.** Acererak a un avantage sur jet de sauvegarde contre tout effet qui devient mort-vivant.\n**Détection orthographique.** Acererak est un spellcaster de niveau 20. Son caractéristique d'incantation est Intelligence (save spell DD 23, +15 au toucher avec attaques de sort). Acererak a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Main de mage, Rayon de givre, Poigne électrique\n- Niveau 1 : Rayon empoisonné, Bouclier\n- Niveau 2 : Verrou magique, Déblocage\n- Niveau 3 : Animation des morts, Contresort\n- Niveau 4 (3 emplacements) : Flétrissement, Tempête de grêle, Assassin imaginaire\n- Niveau 5 (3 emplacements) : Brume mortelle, Immobilisation de monstre, Mur de force\n- Niveau 6 (3 emplacements) : Chaîne d'éclairs, Cercle de mort, Désintégration\n- Niveau 7 (3 emplacements) : Doigt de mort, Changement de plan, Téléportation\n- Niveau 8 (2 emplacements) : Dédale, Esprit impénétrable\n- Niveau 9 (2 emplacements) : Mot de pouvoir mortel, Arrêt du temps",
+ "actionsText": "**Touche paralysante.** Attaque de sort au corps à corps : +15 au toucher, allonge 1,50 m, une créature. Touché : 10 (3d6) dégâts de froid, et la cible doit réussir sur un DD 20 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Personnel (+3 quarts).** Attaque d'arme au corps à corps : +11 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants plus 10 (3d6) dégâts nécrotiques, ou 8 (1d8 + 4) dégâts contondants plus 10 (3d6) dégâts nécrotiques lorsqu'il est utilisé à deux mains.\n**Invoquer la malédiction.** Tout en tenant le personnel de l'Obligué, Acererak dépense 1 charge et cible une créature il peut voir dans 18 m de lui. La cible doit réussir sur un DD 23 jet de sauvegarde de Constitution ou être maudite. Jusqu'à ce que la malédiction soit terminée, la cible ne peut pas retrouver points de vie et a une vulnérabilité à dégâts nécrotiques. Restauration supérieure, Délivrance des malédictions, ou magie similaire met fin à la malédiction sur la cible.",
+ "attacks": [
+  {
+   "name": "Touche paralysante",
+   "bonus": 15,
+   "damage": "3d6",
+   "type": "froid"
+  },
+  {
+   "name": "Personnel (+3 quarts)",
+   "bonus": 11,
+   "damage": "1d6+4",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/2150314196_monstre-acererak.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, INT +15, SAG +12",
+ "skills": "Arcanes +22, Histoire +22, Perspicacité +12, Perception +12",
+ "resistances": "froid, foudre",
+ "immunities": "nécrotique, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, acererak peut entreprendre l'une des actions ci-après.\n**L'orthographe à volonté.** Acererak lance un de ses sorts à volonté.\n**Attaque de Melee.** Acererak utilise Paralysing Touch ou fait une attaque de mêlée avec son personnel.\n**Gaz effroyable (coûts 2 actions).** Acererak fixe son regard sur une créature qu'il peut voir au sein de 3 m de lui. La cible doit réussir sur un DD 20 jet de sauvegarde de Sagesse contre cette magie ou devenir effrayé pendant 1 minute. La cible effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une cible est réussi ou si l'effet se termine pour elle, la cible est immunisée contre le regard d'Acererak pendant les 24 prochaines heures.\n**Talisman de la sphère (coûts 2 actions).** Acererak utilise sa Talisman de la sphère pour déplacer la Sphère d'annihilation sous son contrôle jusqu'à 27 m.\n**Perturbation de la vie (coûts 3 actions).** Chaque créature de 6 m d'Acererak doit faire un DD 20 jet de sauvegarde de Constitution contre cette magie, en prenant 42 (12d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

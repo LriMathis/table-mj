@@ -1,0 +1,47 @@
+{
+ "id": "mimique",
+ "name": "Mimique",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 5,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "skills": "Discrétion +5",
+ "immunities": "acide",
+ "conditionImmunities": "à terre",
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "aucune",
+ "traits": "**Engluage (forme d’objet uniquement).** La mimique adhère à tout ce qui la touche. Une créature de taille TG ou inférieure à laquelle la mimique adhère subit l’état Agrippé (évasion DD 13). Les tests de caractéristique visant à s’extraire de cette prise subissent le Désavantage.",
+ "actionsText": "**Morsure.** Corps à corps : +5 (avec Avantage si la cible est Agrippée par la mimique), allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts perforants, ou 12 (2d8 + 3) dégâts perforants si la cible est Agrippée par la mimique, plus 4 (1d8) dégâts d’acide.\n**Pseudopode.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts contondants plus 4 (1d8) dégâts d’acide. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 13). Les tests de caractéristique visant à s’extraire de cette prise subissent le Désavantage.",
+ "bonusActions": "**Changement d’aspect.** La mimique se transforme en objet de taille M ou P, tout en conservant son profil de jeu, ou bien retrouve son aspect véritable de masse informe. Rien de ce qu’elle porte n’est transformé.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant (+2d8+3 perforant sous condition) (+1d8 acide sous condition)"
+  },
+  {
+   "name": "Pseudopode",
+   "bonus": 5,
+   "damage": "1d8+3+1d8",
+   "type": "contondant + acide"
+  }
+ ],
+ "portrait": "/data/images/683180ee39_monstre-mimique.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 221"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "mephite-de-poussiere",
+ "name": "Méphite de poussière",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 17,
+ "hpFormula": "5d6",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 5,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "skills": "Discrétion +4, Perception +2",
+ "vulnerabilities": "feu",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné, épuisement",
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "primordial (aérien, terreux)",
+ "traits": "**Explosion finale.** Le méphite explose quand il meurt. JS Dextérité : DD 10, chaque créature dans une Émanation de 1,50 m centrée sur le méphite. Échec : 5 (2d4) dégâts contondants. Réussite : demi-dégâts.",
+ "actionsText": "**Griffe.** Corps à corps : +4, allonge 1,50 m. Touché : 4 (1d4 + 2) dégâts tranchants.\n**Sommeil (1/jour).** Le méphite lance *sommeil* sans composantes de sort, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 10).\n**Souffle aveuglant (recharge 6).** JS Dextérité : DD 10, chaque créature dans un Cône de 4,50 m. Échec : la cible subit l’état Aveuglé jusqu’à la fin du tour suivant du méphite.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a1721287b6_monstre-mephite-de-poussiere.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 219",
+ "aka": "Méphite poussiéreux (2024)"
+}

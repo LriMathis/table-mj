@@ -1,0 +1,56 @@
+{
+ "id": "carrelage-anime-chimere",
+ "name": "Animated Tile Chimera",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 19,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 18",
+ "languages": "comprend Draconic mais ne peut pas parler",
+ "traits": "**Réjuvenance.** S'il est détruit, la créature de tuiles reprend toute sa points de vie et reprend ses activités en 24 heures, à moins qu'au moins la moitié de ses tuiles ne soient recueillies et maintenues à l'écart du reste des tuiles de la créature.",
+ "actionsText": "**Multiattaques.** La chimère fait trois attaques: une avec sa morsure, une avec ses cornes, et une avec ses griffes. Lorsque son souffle de feu est disponible, il peut utiliser le souffle à la place de sa morsure ou de ses cornes.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants.\n**Cornes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d12 + 4) dégâts contondants.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants.\n**feu Respiration (Recharge 5-6).** La tête de dragon exhale le feu dans un cône 4,50 m. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 31 (7d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Cornes",
+   "bonus": 7,
+   "damage": "1d12+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/151449316b_monstre-carrelage-anime-chimere.webp",
+ "notes": "",
+ "source": "Rise of Tiamat (5e.tools, traduction automatique)",
+ "aka": "Carrelage animé chimère",
+ "caNote": "armure naturelle",
+ "skills": "Perception +8",
+ "resistances": "perforant",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, effrayé, paralysé, pétrifié, empoisonné",
+ "reactions": "**Étroit Dodge.** Lorsqu'elle est visée par une attaque à la mêlée, la créature de tuile peut réagir pour tourner son aspect le plus étroit vers l'attaquant. L'attaquant a un désavantage sur le jet d'attaque."
+}

@@ -1,0 +1,44 @@
+{
+ "id": "druide",
+ "name": "Druide",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 11
+ },
+ "skills": "Médecine +5, Nature +3, Perception +5",
+ "senses": "Perception passive 15",
+ "languages": "commun, druidique, sylvestre",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le druide effectue deux attaques, réparties à sa guise entre Bâton-lierre et Éclat verdoyant.\n**Bâton-lierre.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts contondants plus 2 (1d4) dégâts de poison.\n**Éclat verdoyant.** À distance : +5, portée 27 m. Touché : 10 (3d6) dégâts radiants.\n**Incantation.** Le druide lance l’un des sorts suivants, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde 13) :\n- À volonté : *communication avec les animaux*, *druidisme*\n- 2/jour chacun : *enchevêtrement*, *vague tonnante*\n- 1/jour chacun : *grande foulée*, *messager animal*, *rayon de lune*",
+ "attacks": [
+  {
+   "name": "Bâton-lierre",
+   "bonus": 5,
+   "damage": "1d8+3+1d4",
+   "type": "contondant + poison"
+  },
+  {
+   "name": "Éclat verdoyant",
+   "bonus": 5,
+   "damage": "3d6",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/55670e06da_monstre-druide.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

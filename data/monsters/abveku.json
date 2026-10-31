@@ -1,0 +1,44 @@
+{
+ "id": "abveku",
+ "name": "Abveku",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 17,
+ "hp": 209,
+ "hpFormula": "22d8+110",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 22,
+  "CON": 20,
+  "INT": 17,
+  "SAG": 18,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 19",
+ "languages": "Abyssal; télépathie 36 m.",
+ "traits": "**Restauration démoniaque.** Si l'abveku meurt à l'extérieur de l'abîme, son corps se dissout en ichor, et il gagne un nouveau corps instantanément, en ressuscitant avec tout son points de vie quelque part dans l'abîme.\n**Résistance magique.** L'abveku a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'abveku fait quatre attaques de griffe de Scything et utilise la danse mesmérisante si disponible.\n**Griffe de scything.** Jet d'attaque au corps à corps : +11, allonge 3 m. Touché : 19 (3d8 + 6) dégâts tranchants.\n**La danse en mesmérisation (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 18, chaque créature à l'intérieur d'une émanation 6 m provenant de l'abveku. Échec : La cible a l'état paralysé et répète l'enregistrement à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Après 1 minute, il réussit automatiquement.",
+ "attacks": [
+  {
+   "name": "Griffe de scything",
+   "bonus": 11,
+   "damage": "3d8+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f71c4a75c6_monstre-abveku.webp",
+ "notes": "",
+ "source": "Arcana Unleashed: Deadfall (5e.tools, traduction automatique)",
+ "saves": "FOR +8, DEX +11, INT +8, SAG +9",
+ "skills": "Acrobaties +11, Perception +9, Discrétion +16",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Vols d'ombre.** En Dim Light ou Darkness, l'abveku prend l'action Se cacher.",
+ "reactions": "**Parry.** Déclencheur : L'abveku est frappé par une melee jet d'attaque. Réponse : L'abveku ajoute 5 à sa CA contre cette attaque, ce qui peut la faire manquer."
+}

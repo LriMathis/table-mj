@@ -1,0 +1,60 @@
+{
+ "id": "emrakul",
+ "name": "Emrakul",
+ "type": "Monstruosité (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "30",
+ "xp": 155000,
+ "ca": 25,
+ "hp": 676,
+ "hpFormula": "33d20+330",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 11,
+  "CON": 30,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 11
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Résistance légendaire (3/jour).** Si Emrakul échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Emrakul a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Carapace réfléchissant.** Chaque fois qu'Emrakul est ciblé par un sort Projectile magique, un sort de ligne ou un sort qui nécessite un jet d'attaque varié, roulez un d6. Sur un 1 à 5, Emrakul n'est pas affecté. Sur un 6, Emrakul n'est pas affecté, et l'effet est réfléchi à la roulette comme s'il provenait d'Emrakul, tournant la roulette en la cible.\n**Monstre de siège.** Emrakul inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Emrakul peut utiliser sa présence effrayante. Il fait alors cinq attaques: une avec sa morsure, deux avec ses griffes, une avec ses cornes, et une avec sa queue. Il peut utiliser son allow au lieu de sa morsure.\n**Morceau.** Attaque d'arme au corps à corps : +19 au toucher, allonge 3 m, une cible. Touché : 36 (4d12 + 10) dégâts perforants. Si la cible est une créature, c'est agrippé (évasion DD 20). Jusqu'à ce que ce grappin se termine, la cible est entravé, et Emrakul ne peut pas mordre une autre cible.\n**Griffe.** Attaque d'arme au corps à corps : +19 au toucher, allonge 4,50 m, une cible. Touché : 28 (4d8 + 10) dégâts tranchants.\n**Cornes.** Attaque d'arme au corps à corps : +19 au toucher, allonge 3 m, une cible. Touché : 32 (4d10 + 10) dégâts perforants.\n**Queue.** Attaque d'arme au corps à corps : +19 au toucher, allonge 6 m, une cible. Touché : 24 (4d6 + 10) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 20 jet de sauvegarde de Force ou être à terre.\n**Présence effrayante.** Chaque créature du choix d'Emrakul dans 36 m de lui et consciente de lui doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou devenir effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, avec un désavantage si Emrakul est dans la ligne de vue, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la Présence effrayante d'Emrakul pour les prochaines 24 heures.\n**Avalez.** Emrakul fait une attaque de morsure contre une grande créature ou une plus petite créature qu'il est en train de combattre. Si l'attaque frappe, la cible prend les dégâts de la morsure, la cible est avalée, et le grappin se termine. En avalant, la créature est aveuglé et entravé, elle a 3 contre les attaques et autres effets en dehors d'Emrakul, et elle prend 56 (16d6) dégâts d'acide au début de chacun des tours d'Emrakul.\nSi Emrakul prend 60 dégâts ou plus sur un seul tour d'une créature à l'intérieur, Emrakul doit réussir sur un DD 20 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m d'Emrakul. Si Emrakul meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 9 m de mouvement, sortant d'à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 19,
+   "damage": "4d12+10",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 19,
+   "damage": "4d8+10",
+   "type": "tranchant"
+  },
+  {
+   "name": "Cornes",
+   "bonus": 19,
+   "damage": "4d10+10",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 19,
+   "damage": "4d6+10",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/80cbe8cff9_monstre-emrakul.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +5, SAG +9, CHA +9",
+ "immunities": "feu, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, emrakul peut entreprendre l'une des actions ci-après.\n**Attaque.** Emrakul fait une attaque de griffe ou de queue.\n**Bouge.** Emrakul se déplace à la moitié de sa vitesse.\n**Chompe (coûts 2 actions).** Emrakul fait une attaque de morsure ou utilise son Swallow."
+}

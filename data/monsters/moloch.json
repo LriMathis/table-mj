@@ -1,0 +1,56 @@
+{
+ "id": "moloch",
+ "name": "Moloch",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 19,
+ "hp": 253,
+ "hpFormula": "22d10+132",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 19,
+  "CON": 22,
+  "INT": 21,
+  "SAG": 18,
+  "CHA": 23
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 21",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Résistance légendaire (3/jour).** Si Moloch échoue à un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Moloch a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** Moloch retrouve 20 points de vie au début de son tour. S'il prend dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Moloch meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.",
+ "actionsText": "**Multiattaques.** Moloch fait une attaque Bite, une attaque Claw, et une attaque Whip à grande échelle.\n**Morceau.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 26 (4d8 + 8) dégâts de feu.\n**Griffe.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 17 (2d8 + 8) dégâts de force.\n**Whip à plusieurs queues.** Attaque d'arme au corps à corps : +15 au toucher, allonge 9 m, une cible. Touché : 13 (2d4 + 8) dégâts de foudre plus 11 (2d10) dégâts de tonnerre. Si la cible est une créature, elle doit réussir sur un DD 24 jet de sauvegarde de Force ou être tirée jusqu'à 9 m en ligne droite vers Moloch.\n**Souffle de désespoir (Recharge 5-6).** Moloch expire dans un cube 9 m. Chaque créature dans cette zone doit réussir sur un DD 21 jet de sauvegarde de Sagesse ou prendre 27 (5d10) dégâts psychiques, laisser tomber tout ce qu'elle tient, et devenir effrayé de Moloch pendant 1 minute. Alors qu'effrayé de cette façon, une créature doit prendre l'action Foncer et s'éloigner de Moloch par la route la plus sûre disponible sur chacun de ses tours, à moins qu'il n'y ait nulle part où se déplacer, auquel cas il n'a pas besoin de prendre l'action Foncer. Si la créature termine son tour dans un endroit où elle n'a pas de ligne de vue à Moloch, la créature peut répéter le jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès.\n**Téléportation.** Moloch téléporte, avec tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.\n**Détection orthographique.** Moloch lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 21) :\n- À volonté : Modification d'apparence (peut devenir moyen en changeant son apparence), Confusion, Détection de la magie, Vol, Image majeure, Nuage nauséabond, Suggestion, Mur de feu",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 15,
+   "damage": "4d8+8",
+   "type": "feu"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 15,
+   "damage": "2d8+8",
+   "type": "force"
+  },
+  {
+   "name": "Whip à plusieurs queues",
+   "bonus": 15,
+   "damage": "2d4+8",
+   "type": "foudre + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/855754d58e_monstre-moloch.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +11, CON +13, SAG +11, CHA +13",
+ "skills": "Tromperie +13, Intimidation +13, Perception +11",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, moloch peut entreprendre l'une des actions ci-après.\n**Attaque.** Moloch fait un Bite, une Griffe, ou une attaque de Whip à plusieurs queues.\n**Téléportation.** Moloch utilise Teleport.\n**Lancer un sort (coûts 2 actions).** Moloch utilise le spellcasting."
+}

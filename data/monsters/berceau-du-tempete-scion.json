@@ -1,0 +1,49 @@
+{
+ "id": "berceau-du-tempete-scion",
+ "name": "Cradle of the Storm Scion",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique bon",
+ "cr": "27",
+ "xp": 105000,
+ "ca": 19,
+ "hp": 682,
+ "hpFormula": "35d20+315",
+ "vitesse": "12 m, vol 18 m (vol stationnaire), nage 18 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 14,
+  "CON": 29,
+  "INT": 16,
+  "SAG": 23,
+  "CHA": 18
+ },
+ "senses": "Perception passive 16",
+ "languages": "géant, primordial",
+ "traits": "**L'éveil des Scion.** Le berceau est un conteneur pour le Scion de Stronmaus. Lorsque le berceau tombe à 0 points de vie, son corps éclate en lumière. Le scion apparaît instantanément dans l'espace occupé par le berceau et utilise le nombre d'initiatives du berceau.\n**Résistance légendaire (5/jour).** Si le berceau échoue un jet de sauvegarde, il peut choisir de réussir.\n**Résistance magique.** Le berceau a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le berceau inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le berceau fait trois attaques Slam ou Spit Hailstone dans n'importe quelle combinaison.\n**Clamer.** Attaque d'arme au corps à corps : +18 au toucher, allonge 6 m, une cible. Touché : 36 (4d12 + 10) dégâts contondants plus 19 (3d12) dégâts de foudre.\n**Craquage de pierre.** Attaque d'arme à distance : +18 au toucher, portée 36 m, une cible. Touché : 32 (4d10 + 10) dégâts contondants plus 14 (4d6) dégâts de froid, et la cible doit réussir sur un DD 26 jet de sauvegarde de Force ou avoir l'état à terre.\n**foudre Barrage (Recharge 5-6).** Le berceau lance plusieurs éclairs magiques à deux créatures qu'il peut voir en lui-même. Chaque cible doit faire un DD 22 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, la cible prend 71 (11d12) dégâts de foudre et a l'état étourdi jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 18,
+   "damage": "4d12+10",
+   "type": "contondant + foudre"
+  },
+  {
+   "name": "Craquage de pierre",
+   "bonus": 18,
+   "damage": "4d10+10",
+   "type": "contondant + froid"
+  }
+ ],
+ "portrait": "/data/images/b82f3bb851_monstre-berceau-du-tempete-scion.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Berceau du tempête Scion",
+ "caNote": "armure naturelle",
+ "resistances": "froid, feu, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi",
+ "reactions": "**Étape de démarrage.** Immédiatement après avoir subi des dégâts, le berceau craque avec le tonnerre et téléporte magiquement jusqu'à 18 m dans un espace inoccupé qu'il peut voir. Chaque créature dans 3 m de l'espace gauche du berceau doit faire un DD 22 jet de sauvegarde de Constitution, prenant 14 (4d6) dégâts de tonnerre en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

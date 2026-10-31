@@ -1,0 +1,37 @@
+{
+ "id": "serpent-venimeux",
+ "name": "Serpent venimeux",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non alignée",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 5,
+ "hpFormula": "2d4",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 10",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +4, allonge 1,50 m. Touché : 4 (1d4 + 2) dégâts perforants plus 3 (1d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1d4+2+1d6",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/0c9921f7e3_monstre-serpent-venimeux.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

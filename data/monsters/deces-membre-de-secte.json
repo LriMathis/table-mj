@@ -1,0 +1,47 @@
+{
+ "id": "deces-membre-de-secte",
+ "name": "Death Cultist",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 17,
+ "hp": 127,
+ "hpFormula": "15d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le culte fait trois attaques, utilisant Dread Scythe ou Deathly Ray dans n'importe quelle combinaison.\n**Épouvantable Scythe.** Jet d'attaque au corps à corps : +7, allonge 3 m. Touché : 9 (1d10 + 4) dégâts tranchants plus 11 (2d10) dégâts nécrotiques, et la cible ne peut retrouver points de vie qu'à la fin de son prochain tour.\n**Rayon de mort.** Jet d'attaque à distance : +6, portée 36 m. Touché : 22 (4d10) dégâts nécrotiques.\n**Détection orthographique.** Le cultivateur lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Communication avec les morts, Thaumaturgie",
+ "attacks": [
+  {
+   "name": "Épouvantable Scythe",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Rayon de mort",
+   "bonus": 6,
+   "damage": "4d10",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/96e76caff0_monstre-deces-membre-de-secte.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Décès membre de secte",
+ "saves": "CON +7, SAG +6",
+ "skills": "Perspicacité +6, Perception +6, Religion +4",
+ "bonusActions": "**Spirit Wail (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 14, chaque créature dans une Emanation 6 m originaire du culte. Échec : 14 (4d6) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour. Réussite : Demi-dégâts seulement."
+}

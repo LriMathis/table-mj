@@ -1,0 +1,41 @@
+{
+ "id": "serpent-polaire",
+ "name": "Polar Serpent",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 58,
+ "hpFormula": "9d10+9",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 19,
+  "CON": 12,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "comprend Primordial mais ne peut pas parler",
+ "traits": "**Dénuement de la misty.** Le serpent peut se déplacer dans un espace aussi étroit que 1 pouce sans dépenser de mouvement supplémentaire pour le faire.",
+ "actionsText": "**Multiattaques.** Le serpent fait une attaque Bite et utilise Constrict.\n**Morceau.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts perforants plus 3 (1d6) dégâts de froid.\n**Constriction.** Jet de sauvegarde de Force : DD 14, une créature moyenne ou plus petite que le serpent peut voir dans 3 m. Échec : 3 (1d6) dégâts contondants plus 7 (2d6) dégâts de froid. La cible a l'état agrippé (évasion DD 14), et elle a l'état entravé jusqu'à la fin du grappin.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant + froid"
+  }
+ ],
+ "portrait": "/data/images/88e3c47d08_monstre-serpent-polaire.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Serpent polaire",
+ "skills": "Perception +3, Discrétion +6",
+ "vulnerabilities": "feu",
+ "immunities": "froid"
+}

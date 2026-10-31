@@ -1,0 +1,41 @@
+{
+ "id": "royaume-uni",
+ "name": "Sion",
+ "type": "Humanoïde (humain, ensorceleur)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "commun",
+ "traits": "**Résistance magique.** Sion a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques s'il est dans la lumière sombre ou l'obscurité.\n**Shadesight.** L'obscurité magique n'entrave pas la vision sombre de Sion.\n**La mort des ombres.** Si Sion meurt, son corps fond dans l'ombre, laissant derrière lui seulement l'équipement qu'il portait ou portait.\n**Faiblesse de la lumière du soleil.** En plein soleil, Sion présente un désavantage sur jets d'attaque, tests de caractéristique et jet de sauvegarde.",
+ "actionsText": "**Multiattaques.** Sion fait une attaque d'Épée d'Ombre et utilise l'Ombre d'Affix ou le Spellcasting.\n**Épée de l'ombre.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d10 + 3) dégâts nécrotiques.\n**Affixer l'ombre.** Sion cible une créature en 18 m de lui-même qu'il peut voir. Cette cible doit faire un DD 13 jet de sauvegarde de Charisme. Sur une sauvegarde échouée, la cible a l'état agrippé (évasion DD 13) comme son ombre enveloppe autour. Une fois que la cible s'échappe du grappin, son ombre revient à la normale.\n**Détection orthographique.** Sion lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Main de mage, Illusion mineure\n- 1/jour chacun : Ténèbres, Image miroir, Silence",
+ "attacks": [
+  {
+   "name": "Épée de l'ombre",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/dda989d5b9_monstre-royaume-uni.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Royaume Uni",
+ "saves": "CON +3, CHA +5",
+ "skills": "Arcanes +3, Perception +4, Discrétion +6",
+ "bonusActions": "**Étape de l'ombre.** Alors que Sion est dans la lumière sombre ou l'obscurité, il téléporte magiquement jusqu'à 4,50 m dans un espace inoccupé qu'il peut voir aussi dans la lumière sombre ou l'obscurité."
+}

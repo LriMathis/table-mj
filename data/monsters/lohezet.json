@@ -1,0 +1,42 @@
+{
+ "id": "lohezet",
+ "name": "Lohezet",
+ "type": "Humanoïde (humain, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 12,
+ "hp": 137,
+ "hpFormula": "25d8+25",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, nain, elfique, infernal",
+ "traits": "**Maîtrise toxique.** Lohezet ignore la résistance d'une créature à dégâts de poison.",
+ "actionsText": "**Multiattaques.** Lohezet fait trois attaques Withering Blast et utilise Miasma si elle est disponible. Il peut remplacer l'une des attaques par un recours à Spellcasting.\n**Blast de flétrissement.** Attaque de sort au corps à corps ou à distance : +9 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 18 (2d12 + 5) dégâts nécrotiques.\n**Miasma (Recharge 4-6).** Lohezet évoque magiquement un nuage de brouillard pourpre dans une sphère 6 m -radius centrée sur un point au sein de 36 m de lui. La zone à l'intérieur de la sphère est 2, et quand une créature commence son tour dans la sphère ou entre la sphère pour la première fois sur un tour, elle doit faire un DD 17 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 39 (6d12) dégâts de poison et est empoisonné jusqu'au début de son prochain tour. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas empoisonné. Le nuage dure 1 minute, jusqu'à ce que Lohezet le termine tôt (aucune action requise), ou jusqu'à ce que Lohezet utilise à nouveau cette action. Un vent fort disperse le nuage.\n**Détection orthographique.** Lohezet lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection de la magie, Lumière, Prestidigitation\n- 1/jour chacun : Oeil magique, Domination de personne, Mur de force\n- 2/jour chacun : Porte dimensionnelle, Armure de mage",
+ "attacks": [
+  {
+   "name": "Blast de flétrissement",
+   "bonus": 9,
+   "damage": "2d12+5",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/2c81e29788_monstre-lohezet.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "saves": "CON +5, SAG +6",
+ "skills": "Arcanes +9, Histoire +9, Médecine +6",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "reactions": "**Réplique nocive (3/jour).** Lorsqu'une créature de 18 m de Lohezet l'endommage, Lohezet se rétorque magiquement avec un vaporisateur de brouillard pourpre. La créature doit faire un DD 17 jet de sauvegarde de Constitution, en prenant 16 (2d10 + 5) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

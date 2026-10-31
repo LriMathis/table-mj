@@ -1,0 +1,42 @@
+{
+ "id": "ancien-oblex",
+ "name": "Elder Oblex",
+ "type": "Vase",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 115,
+ "hpFormula": "10d12+50",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 21,
+  "INT": 22,
+  "SAG": 13,
+  "CHA": 18
+ },
+ "senses": "Vision aveugle 18 m (blind beyond this distance), Perception passive 15",
+ "languages": "Commun plus six autres langues",
+ "traits": "**Amorphe.** L'oblex peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\n**Aversion pour feu.** Si l'oblex prend dégâts de feu, il a un désavantage sur jets d'attaque et tests de caractéristique jusqu'à la fin de son prochain tour.\n**Nature inhabituelle.** L'oblex n'a pas besoin de dormir.",
+ "actionsText": "**Multiattaques.** L'oblex aîné fait deux attaques de Pseudopod, et il utilise Eat Memories.\n**Pseudopod.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 17 (4d6 + 3) dégâts contondants plus 14 (4d6) dégâts psychiques.\n**Mangez des souvenirs.** L'oblex cible une créature qu'il peut voir à l'intérieur de 1,50 m. La cible doit réussir sur un DD 18 jet de sauvegarde de Sagesse ou prendre 44 (8d10) dégâts psychiques et devenir drainée jusqu'à ce qu'elle termine un repos court ou long ou jusqu'à ce qu'elle bénéficie du sort Restauration supérieure ou Guérison. Construits, Oozes, Plantes et Undead réussissent automatiquement sur l'enregistrement.\nPendant que la mémoire est drainée, la cible doit rouler un d4 et soustraire le nombre roulé de n'importe quel test de caractéristique ou jet d'attaque qu'elle fabrique. Chaque fois que la cible est drainée au-delà du premier, la taille de la matrice augmente d'une : la d4 devient une d6, la d6 devient une d8, et ainsi de suite jusqu'à ce que la matrice devienne une d20, auquel point la cible devient inconscient pendant 1 heure. L'effet se termine alors.\nL'oblex apprend toutes les langues qu'une cible drainée par la mémoire connaît et gagne toutes ses compétences.\n**Coulisse (Psioniques).** L'oblex lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Charme-personne (sous forme de sort de niveau 5), Détection des pensées\n- 3/jour chacun : Porte dimensionnelle, Domination de personne, Motif hypnotique, Télékinésie",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 7,
+   "damage": "4d6+3",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/9ec886a4af_monstre-ancien-oblex.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Ancien Oblex",
+ "saves": "INT +10, CHA +8",
+ "skills": "Arcanes +10, Tromperie +8, Histoire +10, Nature +10, Perception +5, Religion +10",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, à terre",
+ "bonusActions": "**Imperfection sulfureuse.** L'oblex extrude un morceau de lui-même qui suppose l'apparition d'une créature moyenne ou plus petite dont il a volé les souvenirs. Ce simulacrum apparaît, sent et sonne exactement comme la créature qu'il incarne, bien qu'il sente peu le soufre. L'oblex peut se faire passer pour des créatures différentes de 2d6 + 1, chacune attachée à son corps par un brin de slime qui peut s'étendre jusqu'à 36 m. Le simulacrum est une extension de l'oblex, ce qui signifie que l'oblex occupe simultanément son espace et celui du simulacrum. L'attache est à l'abri des dégâts, mais elle est coupée s'il n'y a pas d'ouverture d'au moins 1 pouce de large entre l'oblex et le simulacrum. Le simulacrum disparaît si l'attache est coupée."
+}

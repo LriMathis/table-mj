@@ -1,0 +1,47 @@
+{
+ "id": "heritier-vadalis",
+ "name": "Vadalis Heir",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 17,
+  "CHA": 13
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, sylvestre",
+ "traits": "**Tactiques de conditionnement.** L'héritier a Avantage sur une jet d'attaque contre une créature si au moins un des alliés de l'héritier est dans 1,50 m de la créature et l'allié n'a pas l'état neutralisé.",
+ "actionsText": "**Multiattaques.** L'héritier fait quatre attaques, en utilisant Scimitar ou Lunar Wisp dans n'importe quelle combinaison.\n**Scimitar.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts tranchants plus 3 (1d6) dégâts de poison.\n**Wisp lunaire.** Jet d'attaque à distance : +5, portée 18 m. Touché : 9 (2d8) dégâts radiants, et la cible émet Dim Light dans un rayon de 3 m et ne peut pas bénéficier de l'état invisible jusqu'à la fin du prochain tour de l'héritier.\n**Détection orthographique.** L'héritier lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Druidisme, Lumière, Communication avec les animaux\n- 1/jour : Tempête de grêle\n- 3/jour chacun : Amitié avec les animaux, Messager animal",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Wisp lunaire",
+   "bonus": 5,
+   "damage": "2d8",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/c5429947eb_monstre-heritier-vadalis.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "aka": "Héritier Vadalis",
+ "saves": "DEX +5, CON +4, SAG +5",
+ "skills": "Dressage +7, Nature +4, Discrétion +5",
+ "bonusActions": "**Bête de l'épi.** L'héritier cible une Bête qu'il peut voir dans 9 m. La cible peut prendre une réaction pour avancer jusqu'à la moitié de sa vitesse et faire une attaque de mêlée."
+}

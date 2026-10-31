@@ -1,0 +1,47 @@
+{
+ "id": "aeshma",
+ "name": "Aeshma",
+ "type": "Humanoïde (tieffelin)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, infernal",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Aeshma fait deux attaques en utilisant son Shortsword, Hand Crossbow, ou une combinaison des deux.\n**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Acrobatie des mains.** Attaque d'arme à distance : +5 au toucher, portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/214e0e3c4e_monstre-aeshma.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "Bracelets de défense",
+ "saves": "DEX +5, CHA +5",
+ "skills": "Tromperie +7, Perspicacité +4, Représentation +7, Persuasion +7, Escamotage +7, Discrétion +5",
+ "bonusActions": "**Cunning.** Aeshma prend l'action Foncer, Se désengager ou Se cacher."
+}

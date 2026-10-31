@@ -1,0 +1,31 @@
+{
+ "id": "hare",
+ "name": "Hare",
+ "type": "Bête",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 1,
+ "hpFormula": "1d4-1",
+ "vitesse": "6 m, creusement 1,50 m",
+ "stats": {
+  "FOR": 1,
+  "DEX": 17,
+  "CON": 9,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 4
+ },
+ "senses": "Perception passive 12",
+ "languages": "—",
+ "traits": "**Évasion.** Le lièvre peut prendre l'action Foncer, Se désengager ou Se cacher en action bonus à chacun de ses tours.",
+ "actionsText": "",
+ "attacks": [],
+ "portrait": "/data/images/41f3248998_monstre-hare.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "skills": "Perception +2, Discrétion +5"
+}

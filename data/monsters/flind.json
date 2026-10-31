@@ -1,0 +1,58 @@
+{
+ "id": "flind",
+ "name": "Flind",
+ "type": "Fiélon (gnoll)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 127,
+ "hpFormula": "15d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 19,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "gnoll, abyssal",
+ "traits": "**Aura de la soif de sang.** Si le flind n'est pas neutralisé, n'importe quelle créature avec le caractère Rampage peut faire une attaque Bite en action bonus alors que dans 3 m du flind.",
+ "actionsText": "**Multiattaques.** Le flind fait une attaque de Flail de Chaos, une attaque de Flail de Douleur, et une attaque de Flail de Paralysis, ou il fait trois attaques de Longbow.\n**Flacon de Chaos.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 10 (1d10 + 5) dégâts contondants, et la cible doit faire un DD 16 jet de sauvegarde de Sagesse. Lors d'une sauvegarde ratée, la cible doit utiliser sa réaction, si disponible, pour faire une attaque de mêlée contre une créature aléatoire, autre que le flind, à sa portée. S'il n'y a pas de créature à portée de main, la cible déplace la moitié de sa vitesse dans une direction aléatoire.\n**Flacon de douleur.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 10 (1d10 + 5) dégâts contondants plus 16 (3d10) dégâts psychiques.\n**Flacon de paralysie.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 10 (1d10 + 5) dégâts contondants, et la cible doit réussir sur un DD 16 jet de sauvegarde de Constitution ou être paralysé jusqu'à la fin de son prochain tour.\n**Longbow.** Attaque d'arme à distance : +6 au toucher, portée 45/180 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Flacon de Chaos",
+   "bonus": 9,
+   "damage": "1d10+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Flacon de douleur",
+   "bonus": 9,
+   "damage": "1d10+5",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "Flacon de paralysie",
+   "bonus": 9,
+   "damage": "1d10+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 6,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9aa79c86cf_monstre-flind.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "saves": "CON +8, SAG +5",
+ "skills": "Intimidation +5, Perception +5"
+}

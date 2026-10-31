@@ -1,0 +1,42 @@
+{
+ "id": "inventeur-nevermind-gnome",
+ "name": "Nevermind Gnome Inventor",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 36,
+ "hpFormula": "8d6+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 18,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, gnome",
+ "traits": "**Toujours penser à l'avenir.** L'inventeur a un avantage sur les rouleaux d'initiative.",
+ "actionsText": "**Multiattaques.** L'inventeur fait deux attaques Flying Fangtrap. Il peut remplacer une de ces attaques par Thunderscream Gadget si elle est disponible.\n**Fangtrap volant.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants, et la créature doit réussir sur un DD 14 jet de sauvegarde de Dextérité ou avoir sa vitesse réduite à 0 jusqu'au début du prochain tour de l'inventeur.\n**Thunderscream Gadget (Recharge 5-6).** L'inventeur produit un gadget qui émet une onde sonore scrutante dans un cône 9 m provenant de l'inventeur. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Constitution, en prenant 10 (3d6) dégâts de tonnerre sur un sauvegarde raté ou la moitié de ces dégâts sur un succès.",
+ "attacks": [
+  {
+   "name": "Fangtrap volant",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/cb5fe75010_monstre-inventeur-nevermind-gnome.webp",
+ "notes": "",
+ "source": "MCV2DC (5e.tools, traduction automatique)",
+ "aka": "Inventeur Nevermind gnome",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +5, INT +6",
+ "skills": "Arcanes +6, Investigation +6, Perception +2",
+ "reactions": "**Poudre Flash.** Si l'inventeur est endommagé par une créature qu'il peut voir en 4,50 m de lui-même, l'inventeur rétorque en filant brillamment la poudre explosive sur la créature. La créature doit réussir sur un DD 14 jet de sauvegarde de Dextérité ou être aveuglé jusqu'à la fin de son prochain tour."
+}

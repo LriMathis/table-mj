@@ -1,0 +1,47 @@
+{
+ "id": "torbit",
+ "name": "Torbit",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "Thieves' ne peut plus deux langues",
+ "traits": "**Assassinat.** Lors de son premier tour, Torbit a avantage sur jets d'attaque contre toute créature qui n'a pas pris de tour. Tout coup de Torbit contre une créature surpris est un coup critique.\n**Évasion.** Si Torbit est soumis à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, Torbit ne prend plutôt aucun dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue.\n**Attaque d'éternuement (1/Turn).** Torbit inflige un dégâts supplémentaire de 14 (4d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur le jet d'attaque, ou lorsque la cible est à l'intérieur de 1,50 m d'un allié de Torbit qui n'est pas neutralisé et Torbit n'a pas d'inconvénient sur le jet d'attaque.",
+ "actionsText": "**Multiattaques.** Torbit fait deux attaques de mots courts.\n**Mot-clé.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants, et la cible doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 24 (7d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Acrobatie légère.** Attaque d'arme à distance : +6 au toucher, portée 24/96 m., une cible. Touché : 7 (1d8 + 3) dégâts perforants, et la cible doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 24 (7d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/7a5347f3be_monstre-torbit.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +6, INT +4",
+ "skills": "Acrobaties +6, Tromperie +3, Perception +3, Discrétion +9",
+ "resistances": "poison"
+}

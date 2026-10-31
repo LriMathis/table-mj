@@ -1,0 +1,46 @@
+{
+ "id": "krenko",
+ "name": "Krenko",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 17,
+ "hp": 21,
+ "hpFormula": "6d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, gobelin",
+ "traits": "**Échappement de Nimble.** Krenko peut prendre l'action Se désengager ou Se cacher comme action bonus à chacun de ses tours.",
+ "actionsText": "**Multiattaques.** Krenko fait deux attaques avec son scimitar.\n**Scimitar.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants plus 2 (1d4) dégâts de poison..\n**Acrobatie légère.** Attaque d'arme à distance : +4 au toucher, portée 24/96 m., une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Acrobatie légère",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/7dd8147ec0_monstre-krenko.webp",
+ "notes": "",
+ "source": "Krenko's Way (5e.tools, traduction automatique)",
+ "caNote": "Chemise chaîne, Bouclier",
+ "skills": "Discrétion +6, Tromperie +4, Persuasion +4",
+ "reactions": "**Réorienter l'attaque.** Quand une créature Krenko peut voir des cibles avec lui avec une attaque, Krenko choisit un autre goblin au sein de 1,50 m de lui. Les deux gobelins échangent des places, et le gobelin choisi devient la cible à la place."
+}

@@ -1,0 +1,51 @@
+{
+ "id": "aurelia",
+ "name": "Aurelia",
+ "type": "Céleste (ange)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 22,
+ "hp": 287,
+ "hpFormula": "25d8+175",
+ "vitesse": "15 m, vol 45 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 24,
+  "CON": 25,
+  "INT": 17,
+  "SAG": 25,
+  "CHA": 30
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 24",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (3/jour).** Si Aurelia échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Aurelia a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Aurelia fait trois longues attaques et utilise le leadership.\n**Mot long.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 12 (1d8 + 8) dégâts tranchants, ou 13 (1d10 + 8) dégâts tranchants lorsqu'il est utilisé avec deux mains, plus 27 (6d8) dégâts radiants.\n**Leadership.** Aurelia prononce quelques mots inspirants à une créature qu'elle peut voir au sein de 9 m d'elle. Si la créature peut l'entendre, elle peut ajouter un d10 à un jet d'attaque ou jet de sauvegarde qu'elle fait avant le début du prochain tour d'Aurelia.\n**Helix (Recharge 5-6) du chef de guerre.** Attaque de sort à distance : +17 au toucher, portée 18 m, une créature. Touché : 54 (12d8) dégâts radiants, et Aurelia peut choisir une autre créature qu'elle peut voir dans 3 m de la cible. La deuxième créature reprend 27 (6d8) points de vie.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 15,
+   "damage": "1d8+8",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Helix 5 du chef de guerre",
+   "bonus": 17,
+   "damage": "12d8",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/54ac90cf05_monstre-aurelia.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +14, CON +14, CHA +17",
+ "skills": "Perspicacité +14, Perception +14",
+ "resistances": "nécrotique, radiant, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "reactions": "**Parry.** Aurelia en ajoute 7 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, Aurelia doit voir l'agresseur et utiliser une arme à la mêlée.\n**Un rendement insuffisant.** Quand Aurelia est soumise à un effet qui la déplacerait, frapperait sa à terre, ou les deux, elle peut utiliser sa réaction pour ne pas être déplacée ni à terre.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, aurelia peut entreprendre l'une des actions ci-après.\n**Alliés de commandement.** Aurelia choisit jusqu'à trois créatures qu'elle peut voir dans 9 m d'elle. Si une créature choisie peut voir ou entendre Aurelia, elle peut immédiatement utiliser sa réaction pour faire une attaque d'arme, avec un avantage sur la jet d'attaque.\n**Attaque par une longue parole (coûts 2 actions).** Aurelia fait une attaque à la longue.\n**Frighten Foes (coûts 3 actions).** Aurelia cible jusqu'à cinq créatures qu'elle peut voir au sein de 9 m d'elle. Chaque cible doit réussir sur un DD 25 jet de sauvegarde de Sagesse ou être effrayé d'elle jusqu'à la fin de son prochain tour. Toute cible au sein de 1,50 m d'Aurelia a un désavantage sur la jet de sauvegarde."
+}

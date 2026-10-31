@@ -1,0 +1,48 @@
+{
+ "id": "duke-zalto",
+ "name": "Duke Zalto",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 221,
+ "hpFormula": "13d12+78",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 9,
+  "CON": 23,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, elfique, géant",
+ "traits": "**Monstre de siège.** Zalto inflige deux dégâts aux objets et aux structures.\n**Matériel spécial.** Zalto porte un Anneau de foudre résistance.\n**Accroche-toi.** Lorsque Zalto entre dans l'espace de l'ennemi pour la première fois sur un tour, l'ennemi doit réussir sur un DD 19 jet de sauvegarde de Force ou être à terre.",
+ "actionsText": "**Multiattaques.** Zalto fait deux attaques de maul.\n**Maul.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 28 (6d6 + 7) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +11 au toucher, portée 18/72 m., une cible. Touché : 29 (4d10 + 7) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 11,
+   "damage": "6d6+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 11,
+   "damage": "4d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/bc526698e9_monstre-duke-zalto.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "DEX +3, CON +10, CHA +5",
+ "skills": "Athlétisme +11, Perception +6",
+ "resistances": "foudre",
+ "immunities": "feu"
+}

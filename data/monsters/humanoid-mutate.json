@@ -1,0 +1,47 @@
+{
+ "id": "humanoid-mutate",
+ "name": "Humanoid Mutate",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "commun, télépathie 18 m",
+ "traits": "**Sensibilité à la lumière du soleil.** En plein soleil, le mutat présente un désavantage sur jets d'attaque.",
+ "actionsText": "**Multiattaques.** Le mutat fait deux attaques frappe à mains nues ou Nightmare Blast.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants plus 10 (3d6) dégâts psychiques.\n**Blast de cauchemar.** Attaque d'arme à distance : +6 au toucher, portée 18 m, une créature. Touché : 7 (2d6) dégâts psychiques, et la cible doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou avoir l'état effrayé jusqu'au prochain tour du mutat.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "Blast de cauchemar",
+   "bonus": 6,
+   "damage": "2d6",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/fa0b5b4d1f_monstre-humanoid-mutate.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +6",
+ "resistances": "psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Vol défensif.** Immédiatement après avoir subi des dégâts, le mutat vole à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités."
+}

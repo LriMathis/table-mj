@@ -1,0 +1,52 @@
+{
+ "id": "vent-de-l-est",
+ "name": "East Wind",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 60,
+ "hpFormula": "11d8+11",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 17,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Matériel spécial.** East Wind est armé d'un long mot qui est un Lame métamorphose.\n**Défense non armée.** Alors qu'East Wind ne porte pas d'armure et n'a pas de bouclier, son CA inclut son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** East Wind fait trois attaques frappes à mains nues ou trois fléchettes.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants. Si la cible est une créature, East Wind peut choisir l'un des effets supplémentaires suivants:\n- La cible doit réussir sur un DD 13 jet de sauvegarde de Force ou laisser tomber un élément qu'elle détient (le choix de l'aide).\n- La cible doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou être à terre.\n- La cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin du prochain virage d'East Wind.\n**Débrouille-toi.** Attaque d'arme à distance : +5 au toucher, portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants.\n**Lame polymorphe.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m, une créature. Touché : 7 (1d8 + 3) dégâts perforants. Si East Wind roule un 20 sur le jet d'attaque, la cible doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou subir les effets d'un sort Métamorphose.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Lame polymorphe",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/42e51d4f89_monstre-vent-de-l-est.webp",
+ "notes": "",
+ "source": "Lost Laboratory of Kwalish (5e.tools, traduction automatique)",
+ "aka": "Vent de l'est",
+ "skills": "Acrobaties +5, Perspicacité +5, Discrétion +5",
+ "reactions": "**Missile défectueux.** En réponse à une attaque d'armes, East Wind détourne le missile. Les dégâts qu'il prend de l'attaque sont réduits de 1d10 + 3. Si les dégâts sont réduits à 0, East Wind prend le missile s'il est assez petit pour tenir dans une main et East Wind a une main libre."
+}

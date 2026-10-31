@@ -1,0 +1,43 @@
+{
+ "id": "shadar-kai-ame-monger",
+ "name": "Shadar-kai Soul Monger",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 136,
+ "hpFormula": "21d8+42",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "commun, elfique",
+ "traits": "**Ancêtre fécale.** Le shadar-kai a l'avantage sur jet de sauvegarde contre le charmé et la magie ne peut pas le mettre en sommeil.\n**Résistance magique.** Le shadar-kai a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Soul Thirst.** Quand il réduit une créature à 0 points de vie, le shadar-kai peut gagner points de vie temporaires égal à la moitié du maximum de points de vie de la créature. Alors que le shadar-kai a points de vie temporaires de ce trait, il a avantage sur jets d'attaque.\n**Poids des âges.** Toute Bête ou Humanoïde (à l'exception d'un elfe) qui commence son tour dans 1,50 m du shadar-kai a sa vitesse réduite de 6 m jusqu'au début du prochain tour de cette créature.",
+ "actionsText": "**Multiattaques.** Le Shadar-kai fait deux attaques de Shadow Dagger.\n**Dague d'ombre.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 13 (4d4 + 3) dégâts perforants plus 19 (3d12) dégâts nécrotiques, et la cible a un désavantage sur jet de sauvegarde jusqu'à la fin du prochain tour de Shadar-kai. Touché ou raté : Le poignard revient magiquement à la main de Shadar-kai immédiatement après une attaque variée.\n**Vague de fatigue (Recharge 4-6).** Le shadar-kai émet de la fatigue dans un cube 18 m. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 45 (10d8) dégâts psychiques et souffre d'un niveau d'épuisement. Sur une sauvegarde réussie, il prend la moitié de ces dégâts et ne gagne pas un niveau d'épuisement.\n**Détection orthographique.** Le shadar-kai lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Intelligence comme caractéristique d'incantation (spell save DD 16):\n- 1/jour chacun : Malédiction, Doigt de mort, Forme gazeuse, Apparence trompeuse",
+ "attacks": [
+  {
+   "name": "Dague d'ombre",
+   "bonus": 7,
+   "damage": "4d4+3",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/abc7d7d707_monstre-shadar-kai-ame-monger.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Shadar -kai âme Monger",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "DEX +7, SAG +7, CHA +5",
+ "skills": "Perception +7",
+ "immunities": "nécrotique, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé"
+}

@@ -1,0 +1,49 @@
+{
+ "id": "ayo-jabe-niveau-2",
+ "name": "Ayo Jabe (Tier 2)",
+ "type": "Humanoïde (rôdeur, Génase d'eau)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, gobelin, orc",
+ "traits": "**Amphibie.** Ayo peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Ayo fait trois attaques Harpoon ou Longbow.\n**Harpoon.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d8 + 2) dégâts perforants.\n**Longbow.** Attaque d'arme à distance : +6 au toucher, portée 45/180 m., une cible. Touché : 12 (2d8 + 3) dégâts perforants.\n**Détection orthographique.** Ayo lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 13) :\n- 1/jour chacun : Amitié avec les animaux, Baies nourricières, Passage sans trace",
+ "attacks": [
+  {
+   "name": "Harpoon",
+   "bonus": 5,
+   "damage": "2d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/85a494dbb8_monstre-ayo-jabe-niveau-2.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Ayo Jabe (niveau 2)",
+ "caNote": "Cuirs et peaux touffus",
+ "saves": "FOR +5, DEX +6",
+ "skills": "Athlétisme +5, Perception +5, Survie +5",
+ "resistances": "acide",
+ "bonusActions": "**Reposition.** Ayo donne des ordres à un allié qu'elle peut voir au sein de 9 m elle-même. Si la cible peut voir ou entendre Ayo, elle peut dépenser sa réaction pour passer à sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités."
+}

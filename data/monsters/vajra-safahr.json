@@ -1,0 +1,39 @@
+{
+ "id": "vajra-safahr",
+ "name": "Vajra Safahr",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 14,
+ "hp": 126,
+ "hpFormula": "23d8+23",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 11,
+  "CHA": 16
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, nain, elfique, géant, halfelin, commun des profondeurs",
+ "traits": "**Matériel spécial.** Vajra manie le Bâton Noir, dont elle tient compte dans ses statistiques. Roulez 2d10 pour déterminer le nombre de frais que le personnel a encore.\n**Résistance magique.** Vajra a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Oreilles du personnel.** En tenant le Bâton Noir, Vajra peut utiliser une action pour dépenser 1 ou plusieurs de ses charges pour jeter l'un des sorts suivants à partir de lui, en utilisant son bonus DD de sauvegarde des sorts et attaque de sort: Cône de froid (5 charges), Boule de feu (version de niveau 5, 5 charges), Globe d'invulnérabilité (6 charges), Immobilisation de monstre (5 charges), Lévitation (2 charges), Éclair (version de niveau 5, 5 charges), Projectile magique (1 charge), Rayon affaiblissant (1 charge) ou Mur de force (5 charges).\n**Détection orthographique.** Vajra est un spellcaster de niveau 18. Son caractéristique d'incantation est Intelligence (save spell DD 18, +12 au toucher avec attaques de sort). Elle a préparé les sorts d'assistants suivants :\n- Sorts mineurs (à volonté) : Trait de feu, Lumière, Main de mage, Message, Prestidigitation\n- Niveau 1 (4 emplacements) : Détection de la magie, Identification, Armure de mage, Vague tonnante\n- Niveau 2 (3 emplacements) : Invisibilité, Foulée brumeuse, Toile d'araignée\n- Niveau 3 (3 emplacements) : Contresort, Vol, Communication à distance\n- Niveau 4 (3 emplacements) : Bannissement, Bouclier de feu, Peau de pierre\n- Niveau 5 (3 emplacements) : Main de Bigby, Quête, Télékinésie\n- Niveau 6 (1 emplacements) : Chaîne d'éclairs, Globe d'invulnérabilité\n- Niveau 7 (1 emplacements) : Cage de force, Rayons prismatiques\n- Niveau 8 (1 emplacements) : Champ antimagie, Mot de pouvoir étourdissant\n- Niveau 9 (1 emplacements) : Emprisonnement",
+ "actionsText": "**Personnel noir.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) bludgétisme, dégâts magiques, ou 6 (1d8 + 2) bludgétisme, dégâts magiques lorsqu'il est utilisé avec deux mains. Vajra peut dépenser 1 des frais du personnel pour traiter un 3 (1d6) dégâts de force supplémentaire sur un coup.",
+ "attacks": [
+  {
+   "name": "Personnel noir",
+   "bonus": 7,
+   "damage": "1d6",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/02a12326c6_monstre-vajra-safahr.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "saves": "FOR +2, DEX +4, CON +3, INT +12, SAG +7, CHA +5",
+ "skills": "Arcanes +10, Histoire +10"
+}

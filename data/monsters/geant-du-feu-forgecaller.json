@@ -1,0 +1,49 @@
+{
+ "id": "geant-du-feu-forgecaller",
+ "name": "Fire Giant Forgecaller",
+ "type": "Géant (clerc)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "tout alignement",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 18,
+ "hp": 312,
+ "hpFormula": "25d12+150",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 25,
+  "DEX": 11,
+  "CON": 23,
+  "INT": 16,
+  "SAG": 21,
+  "CHA": 18
+ },
+ "senses": "Perception passive 21",
+ "languages": "commun, géant",
+ "traits": "**Résistance légendaire (3/jour).** Si le géant échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Rune feu.** Le géant a une rune de feu inscrite sur un médaillon ou un autre objet en sa possession. Tout en tenant ou en portant l'objet portant la rune, le géant peut utiliser son action Magma Wave et Furnace Armor action bonus.\nL'objet portant la rune a CA 15; 40 points de vie ; et l'immunité à la nécrose, au poison, et dégâts psychiques. L'objet retrouve tout son points de vie à la fin de chaque tour, mais il se transforme en poussière si réduit à 0 points de vie ou quand le géant meurt. Si la rune est détruite, le géant peut inscrire une rune de feu sur un objet en sa possession lorsqu'il termine un repos court ou long.",
+ "actionsText": "**Multiattaques.** Le géant fait trois attaques Forge Hammer ou deux attaques Heated Rock.\n**Marteau de forge.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 24 (5d6 + 7) dégâts contondants. Touché ou raté : Le géant peut faire émettre un éclat de chaleur dans une sphère 9 m -radius centrée sur la cible. Les objets métalliques dans cette zone brillent rouge-chaud jusqu'au début du prochain tour du géant. Toute créature en contact physique avec un objet chauffé au début de son tour doit faire un DD 19 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 10 (3d6) dégâts de feu et a un désavantage sur jets d'attaque jusqu'au début de son prochain tour à moins qu'elle n'ait une immunité contre dégâts de feu. Le marteau ne peut émettre de la chaleur de cette façon qu'une seule fois par tour.\n**Roche chauffée.** Attaque d'arme à distance : +13 au toucher, portée 18/72 m., une cible. Touché : 23 (3d10 + 7) dégâts contondants plus 19 (3d12) dégâts de feu. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 21 jet de sauvegarde de Force ou avoir l'état à terre. Après que le géant jette le rocher, roulez un d6 ; sur un rouleau de 3 ou moins, le géant n'a plus de rochers à jeter.\n**Magma Wave (nécessite une rune feu).** Le géant émet une vague de magma de sa rune de feu dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 19 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 36 (8d8) dégâts de feu et a l'état entravé. En action, une créature peut faire un DD 19 test de Force (Athlétisme), se libérer ou une créature à sa portée de la roche sur un succès. La roche qui retient chaque créature a CA 17; 20 points de vie ; et l'immunité au feu, poison, et dégâts psychiques. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Marteau de forge",
+   "bonus": 13,
+   "damage": "5d6+7",
+   "type": "contondant + feu"
+  },
+  {
+   "name": "Roche chauffée",
+   "bonus": 13,
+   "damage": "3d10+7",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/2250d3c4a5_monstre-geant-du-feu-forgecaller.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant du feu Forgecaller",
+ "caNote": "plaque",
+ "saves": "DEX +6, INT +9, SAG +11",
+ "skills": "Athlétisme +13, Perception +11",
+ "immunities": "feu",
+ "bonusActions": "**Armure de four (nécessite une rune feu).** Le géant provoque de la fumée et des cendriers à se gonfler de son armure, remplissant une sphère 9 m -radius centrée sur le géant. Alors que l'armure est en train de gonfler la fumée, le géant en a 3. L'armure arrête de souffler de la fumée après 1 minute, quand le géant meurt, quand le géant utilise un action bonus pour mettre fin à l'effet, ou quand la rune de feu du géant est détruite."
+}

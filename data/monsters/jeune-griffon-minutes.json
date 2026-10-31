@@ -1,0 +1,45 @@
+{
+ "id": "jeune-griffon-minutes",
+ "name": "Young Griffon (Tiny)",
+ "type": "Monstruosité",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 5,
+ "hpFormula": "1d4+3",
+ "vitesse": "9 m, vol 12 m",
+ "stats": {
+  "FOR": 2,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**C'est la vue..** Le griffon a un avantage sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le griffon fait deux attaques : une avec son bec et une avec ses griffes.\n**Bec.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +0 au toucher, allonge 1,50 m, une cible. Touché : 1 dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "Griffes",
+   "bonus": 0,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/43fb60b1d4_monstre-jeune-griffon-minutes.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Jeune griffon (minutes)",
+ "skills": "Perception +5"
+}

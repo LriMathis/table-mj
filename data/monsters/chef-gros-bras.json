@@ -1,0 +1,44 @@
+{
+ "id": "chef-gros-bras",
+ "name": "Chef gros-bras",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "saves": "FOR +5, CON +5, CHA +2",
+ "senses": "Perception passive 10",
+ "languages": "commun et une autre langue",
+ "traits": "**Tactique de meute.** Quand au moins un de ses alliés non Neutralisés se situe dans un rayon de 1,50 m de la créature qu’il cible, le gros-bras a l’Avantage au jet d’attaque correspondant.",
+ "actionsText": "**Attaques multiples.** Le gros-bras effectue deux attaques, réparties à sa guise entre Marteau de guerre et Arbalète lourde.\n**Marteau de guerre.** Corps à corps : +5, allonge 1,50 m. Touché : 12 (2d8 + 3) dégâts contondants. Si la cible est une créature de taille G ou inférieure, le gros-bras la repousse en ligne droite d’un maximum de 3 m.\n**Arbalète lourde.** À distance : +4, portée 30/120 m. Touché : 13 (2d10 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Marteau de guerre",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Arbalète lourde",
+   "bonus": 4,
+   "damage": "2d10+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/46c4feb730_monstre-chef-gros-bras.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

@@ -1,0 +1,44 @@
+{
+ "id": "archon-d-etoiles-en-chute",
+ "name": "Archon of Falling Stars",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 144,
+ "hpFormula": "17d8+68",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 19,
+  "INT": 15,
+  "SAG": 21,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 19",
+ "languages": "tous",
+ "traits": "**Résistance magique.** L'archon a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Montage.** Si l'archen n'est pas monté, il peut utiliser un action bonus pour téléporter magiquement sur la créature servant de monture, à condition que l'archen et sa monture soient sur le même plan d'existence. Lorsqu'il téléporte, l'archon apparaît stupéfiant le montage, ainsi que tout équipement qu'il porte ou transporte. Bien que monté et non neutralisé, l'arcon ne peut pas être surpris, et à la fois lui et son montage ont avantage sur jet de sauvegarde de Dextérité. Si l'arc est réduit à 0 points de vie alors qu'il monte, le montage est réduit à 0 points de vie également.\n**radiant Renaissance (recharge après un repos long).** Si l'arc est réduit à 0 points de vie, il reprend 30 points de vie et ressort à ses pieds avec un éclat d'éclat. Chaque créature du choix de l'archon au sein de 9 m doit réussir sur un DD 16 jet de sauvegarde de Constitution, ou la créature prend 13 (3d8) dégâts radiants et est aveuglé jusqu'au début du tour de l'archon.\n**Découpe intérieure.** caractéristique d'incantation de l'archon est Sagesse (save DD 17, +9 au toucher avec attaques de sort). L'archon peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Injonction, Éclair traçant, Stabilisation\n- 1/jour chacun : Aura du croisé, Esprits gardiens",
+ "actionsText": "**Multiattaques.** L'archen fait deux attaques avec sa lance radieuse.\n**radiant Spear.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants plus 10 (3d6) dégâts radiants.",
+ "attacks": [
+  {
+   "name": "radiant Spear",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/e7ac8a42ae_monstre-archon-d-etoiles-en-chute.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Archon d'étoiles en chute",
+ "caNote": "plaque",
+ "saves": "FOR +9, CON +8, SAG +9, CHA +8",
+ "skills": "Arcanes +6, Histoire +6, Perspicacité +9, Perception +9",
+ "immunities": "radiant",
+ "conditionImmunities": "charmé, épuisement, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, archon d'étoiles en chute peut entreprendre l'une des actions ci-après.\n**Attaque.** L'arcon fait une attaque de lance radieuse ou lance Éclair traçant.\n**Agression coordonnée (coûts 2 actions).** L'archen fait une attaque de lance radieuse, et puis sa monture peut utiliser sa réaction pour faire une attaque d'arme à la mêlée.\n**Retour à Nyx (coûts 3 actions).** L'archon provoque un cadavre qu'il peut voir à l'intérieur de 9 m pour éclater dans une douche d'étoiles rayonnantes ne laissant aucune trace de lui derrière. Tout ce qu'il porte ou porte des restes. Chaque créature au sein de 3 m du corps lorsqu'il éclate doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 22 (4d10) dégâts radiants."
+}

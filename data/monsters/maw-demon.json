@@ -1,0 +1,41 @@
+{
+ "id": "maw-demon",
+ "name": "Maw Demon",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 8,
+  "CON": 13,
+  "INT": 5,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend Abyssal mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d8 + 2) dégâts perforants.\n**Dégorgement (Recharge 6).** Le démon vomit dans un cube 4,50 m. Chaque créature dans cette zone doit réussir sur un DD 11 jet de sauvegarde de Dextérité ou prendre 11 (2d10) dégâts d'acide et tomber à terre dans le jet.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/16950e4577_monstre-maw-demon.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

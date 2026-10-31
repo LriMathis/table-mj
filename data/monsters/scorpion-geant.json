@@ -1,0 +1,43 @@
+{
+ "id": "scorpion-geant",
+ "name": "Scorpion géant",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 1,
+  "SAG": 9,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 9",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le scorpion effectue deux attaques de Pince et une attaque de Dard.\n**Pince.** Corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts contondants. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 13) par l’une des deux pinces.\n**Dard.** Corps à corps : +5, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts perforants plus 11 (2d10) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Pince",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Dard",
+   "bonus": 5,
+   "damage": "1d8+3+2d10",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/6eb70b18ee_monstre-scorpion-geant.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

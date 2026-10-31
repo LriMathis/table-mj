@@ -1,0 +1,46 @@
+{
+ "id": "satyre-thornbearer",
+ "name": "Satyr Thornbearer",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 38,
+ "hpFormula": "7d8+7",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, sylvestre",
+ "traits": "**Résistance magique.** Le satyre a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Reveler sans sommeil.** La magie ne peut pas endormir le satyre.",
+ "actionsText": "**Multiattaques.** Le satyre fait trois attaques de bélier ou trois attaques de sauvagine.\n**Ram.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 6 (2d4 + 1) dégâts contondants.\n**Saubèche.** Attaque d'arme à distance : +6 au toucher, portée 24/96 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants.\n**Voile de flèches (Recharges après un repos court ou long).** Le satyre tire une flèche qui se transforme magiquement en un tourbillon de missiles dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 17 (5d6) dégâts perforants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Ram",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "contondant"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/4c91296ddb_monstre-satyre-thornbearer.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Satyre Thornbearer",
+ "caNote": "Armure en cuir",
+ "skills": "Perception +5, Représentation +6, Discrétion +6"
+}

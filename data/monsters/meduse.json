@@ -1,0 +1,52 @@
+{
+ "id": "meduse",
+ "name": "Méduse",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyale mauvaise",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 127,
+ "hpFormula": "17d8+51",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "saves": "SAG +4",
+ "skills": "Discrétion +6, Perception +4, Tromperie +5",
+ "senses": "Vision dans le noir 45 m, Perception passive 14",
+ "languages": "commun et une autre langue",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** La méduse effectue une attaque de Chevelure de serpents et deux de Griffe, ou bien elle effectue trois attaques de Rayon toxique.\n**Chevelure de serpents.** Corps à corps : +6, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts perforants plus 14 (4d6) dégâts de poison.\n**Griffe.** Corps à corps : +6, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts tranchants.\n**Rayon toxique.** À distance : +5, portée 45 m. Touché : 11 (2d8 + 2) dégâts de poison.",
+ "bonusActions": "**Regard pétrifiant (recharge 5–6).** JS Constitution : DD 13, chaque créature dans un Cône de 9 m. Si la méduse voit son reflet dans le Cône, elle effectue ce JS. Premier échec : la cible subit l’état Entravé et réitère le JS à la fin de son tour suivant si elle est toujours Entravée ; elle met un terme à l’effet sur elle-même en cas de réussite. Deuxième échec : la cible subit l’état Pétrifié qui remplace l’état Entravé.",
+ "attacks": [
+  {
+   "name": "Chevelure de serpents",
+   "bonus": 6,
+   "damage": "1d4+3+4d6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Rayon toxique",
+   "bonus": 5,
+   "damage": "2d8+2",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/0a99f55d34_monstre-meduse.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 216"
+}

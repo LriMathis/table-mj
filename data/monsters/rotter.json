@@ -1,0 +1,43 @@
+{
+ "id": "rotter",
+ "name": "Rotter",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "télépathie 18 m",
+ "traits": "**Club magique.** Dans la main du roteur, son club est magique et inflige 7 (3d4) dégâts supplémentaires (inclus dans ses attaques).\n**Camouflage des plantes.** Le roteur a un avantage sur tests de Dextérité (Discrétion) il fait dans le terrain avec une grande vie végétale obscurcie.\n**Régénération.** Le pourriteur retrouve 10 points de vie au début de son tour s'il est en contact avec le sol. Si le pourriture prend dégâts de feu, ce trait ne fonctionne pas au début du prochain tour du pourriture. Le pourriture meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Sens partagés.** Le pourriteur peut voir et entendre ce que toute plante de 36 m peut voir et entendre. De plus, le pourriteur peut communiquer télépathiquement avec n'importe quelle plante de cette gamme.\n**Essence d'arbres.** Une fois sur chacun de ses tours, le pourriture peut utiliser 3 m de son mouvement pour passer magiquement dans une cosses de champignons à l'intérieur de 1,50 m et émerger d'une seconde cosses de champignons à l'intérieur de 18 m de lui, apparaissant dans un espace inoccupé à l'intérieur de 1,50 m de la deuxième cosses. Les deux flics de champignons doivent être grands ou grands. Le pourriture n'a pas besoin de pouvoir voir le second flic pour utiliser cette capacité.",
+ "actionsText": "**Multiattaques.** Le roteur fait deux attaques avec son club.\n**Club.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 14 (4d4 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 7,
+   "damage": "4d4+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e5304b71e4_monstre-rotter.webp",
+ "notes": "",
+ "source": "Return to the Glory (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle, Bouclier",
+ "skills": "Athlétisme +7, Perception +4, Discrétion +4",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

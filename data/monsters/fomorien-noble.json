@@ -1,0 +1,42 @@
+{
+ "id": "fomorien-noble",
+ "name": "Fomorian Noble",
+ "type": "Géant (magicien)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 14,
+ "hp": 253,
+ "hpFormula": "22d12+110",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 18,
+  "CON": 20,
+  "INT": 19,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "Giant plus trois langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le fomorien fait trois attaques de Rod.\n**Tige.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 16 (3d6 + 6) dégâts contondants plus 11 (2d10) dégâts de force.\n**Détection orthographique.** Le fomorien lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Armure de mage (autoseulement), Main de mage, Prestidigitation\n- 1/jour chacun : Chaîne d'éclairs, Cône de froid (version de niveau 6), Boule de feu (version de niveau 6), Vol, Changement de plan (autoseulement)",
+ "attacks": [
+  {
+   "name": "Tige",
+   "bonus": 11,
+   "damage": "3d6+6",
+   "type": "contondant + force"
+  }
+ ],
+ "portrait": "/data/images/bc32db018e_monstre-fomorien-noble.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Fomorien noble",
+ "saves": "INT +9, SAG +7, CHA +8",
+ "skills": "Arcanes +14, Perception +7, Discrétion +9",
+ "conditionImmunities": "charmé",
+ "bonusActions": "**Présence en délire.** Le fomorien cible une créature qu'il peut voir en lui-même en 18 m. La cible doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou avoir l'état charmé pendant 1 minute. Une cible affectée peut répéter le jet de sauvegarde à la fin de chacun de ses tours et chaque fois qu'il prend des dégâts, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une cible est réussi ou si l'effet se termine pour elle, la cible devient immunisée contre la présence de beguiling de tous les fomoriens pendant les 24 prochaines heures."
+}

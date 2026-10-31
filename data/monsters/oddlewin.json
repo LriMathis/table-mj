@@ -1,0 +1,42 @@
+{
+ "id": "oddlewin",
+ "name": "Oddlewin",
+ "type": "Fée (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 21,
+ "hpFormula": "6d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, gobelin, sylvestre",
+ "traits": "**Fortune Teller.** Oddlewin peut lancer le sort Augure comme un rituel, en utilisant des cartes comme composant matériel.\n**Nilbogisme.** Toute créature qui tente d'endommager Oddlewin doit d'abord réussir sur un DD 12 jet de sauvegarde de Charisme ou avoir l'état charmé jusqu'à la fin du prochain tour de la créature. La créature doit utiliser son action louant Oddlewin.\nOddlewin ne peut pas retrouver points de vie, y compris par la guérison magique, sauf par sa réaction de révérend de Fortune.",
+ "actionsText": "**Le sceptre de l'enfer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants.\n**Nuage de cartes.** Oddlewin conjure les cartes magiques qui s'éteignent à l'air dans un cube 1,50 m à l'intérieur de 18 m d'Oddlewin jusqu'au prochain tour d'Oddlewin. Une créature qui commence son tour dans le cube ou qui entre dans cette zone pour la première fois sur un tour prend 10 (4d4) dégâts tranchants.\n**Détection orthographique.** Oddlewin lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Main de mage, Fou rire de Tasha",
+ "attacks": [
+  {
+   "name": "Le sceptre de l'enfer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ad51229164_monstre-oddlewin.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Représentation +4, Discrétion +6",
+ "conditionImmunities": "charmé",
+ "bonusActions": "**Échappement de Nimble.** Oddlewin prend l'action Se désengager ou Se cacher.",
+ "reactions": "**Révérend de la Fortune.** En réponse à une autre créature infligeant des dégâts à Oddlewin, Oddlewin réduit les dégâts à 0 et récupère 9 (2d8) points de vie."
+}

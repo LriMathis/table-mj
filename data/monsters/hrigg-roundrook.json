@@ -1,0 +1,41 @@
+{
+ "id": "hrigg-roundrook",
+ "name": "Hrigg Roundrook",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 16,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, nain",
+ "traits": "**Compétences en bonus.** Hrigg est compétent avec des armes simples et martiales et des armures légères et moyennes.\n**Résilience des nains.** Hrigg a l'avantage sur jet de sauvegarde fait pour éviter ou terminer l'état empoisonné sur lui-même.\n**Détection orthographique.** caractéristique d'incantation de Hrigg est Sagesse (save spell DD 12, +4 au toucher avec attaques de sort). Il a préparé les sorts clercs suivants:\n- À volonté : Assistance, Flamme sacrée\n- Niveau 1 (2 emplacements) : Soins",
+ "actionsText": "**Maul.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Maul",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3cbc2dff5b_monstre-hrigg-roundrook.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "demi-plaque",
+ "saves": "SAG +4",
+ "skills": "Athlétisme +4, Histoire +2, Médecine +4, Perception +4",
+ "resistances": "poison"
+}

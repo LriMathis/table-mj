@@ -1,0 +1,57 @@
+{
+ "id": "euryale",
+ "name": "Euryale",
+ "type": "Monstruosité (druide, médusa)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 17,
+ "hp": 297,
+ "hpFormula": "35d8+140",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 20,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 21",
+ "languages": "commun, druidique",
+ "traits": "**Résistance légendaire (3/jour).** Si Euryale échoue un jet de sauvegarde, elle peut choisir de réussir.\n**Matériel spécial.** Euryale porte la moitié d'une paire de Pierres de communication à distance ; l'autre moitié de la paire est détenue par Asteria.",
+ "actionsText": "**Multiattaques.** Euryale fait trois attaques. Si elle est sous forme de serpent, seule une de ces attaques peut être Constrict.\n**Constriction (formulaire usé seulement).** Attaque d'arme au corps à corps : +11 au toucher, allonge 4,50 m, une créature grande ou plus petite. Touché : 16 (2d10 + 5) dégâts contondants, et la cible a l'état agrippé (évasion DD 19). Jusqu'à ce que ce grappin se termine, la cible prend 11 (2d10) dégâts contondants au début de chacun de ses tours, et Euryale ne peut pas constricter une autre cible.\n**Morceau de serpent.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants, et la cible doit réussir sur un DD 18 jet de sauvegarde de Constitution ou avoir l'état empoisonné jusqu'au début du prochain tour d'Euryale.\n**Verdant Bolt (Forme Medusa seulement).** Attaque de sort à distance : +11 au toucher, portée 36 m, une cible. Touché : 18 (4d8) dégâts d'acide.\n**Diffusion orthographique (Forme Medusa seulement).** Euryale lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Sagesse comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Druidisme, Passage sans trace\n- 2/jour chacun : Baies nourricières, Restauration partielle, Localisation de créature, Terraformage, Voie végétale",
+ "attacks": [
+  {
+   "name": "Constriction (formulaire usé seulement)",
+   "bonus": 11,
+   "damage": "2d10+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Morceau de serpent",
+   "bonus": 11,
+   "damage": "2d6+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Verdant Bolt (Forme Medusa seulement)",
+   "bonus": 11,
+   "damage": "4d8",
+   "type": "acide"
+  }
+ ],
+ "portrait": "/data/images/5502f0f010_monstre-euryale.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +10, INT +7, SAG +11",
+ "skills": "Dressage +11, Perspicacité +17, Médecine +11, Nature +13, Perception +11",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, pétrifié, empoisonné",
+ "bonusActions": "**Modifier la forme.** Euryale change de forme en sa forme de serpent énorme ou de retour dans sa forme de médusa moyen. Les statistiques de jeu d'Euryale sont les mêmes dans chaque forme, sauf dans ce bloc de statistiques. Tout équipement qu'elle porte ou qu'elle transporte n'est pas transformé. Euryale revient à sa forme de médusa si elle meurt.\n**Gaz pétrifiant (Recharge 4-6).** Euryale libère la magie pétrifiante de ses yeux dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Constitution si elle n'a pas l'état aveuglé. Si le jet de sauvegarde échoue par 5 ou plus, la créature a l'état pétrifié. Sinon, sur un sauvegarde échoué, la créature prend 14 (4d6) dégâts de force, commence à tourner en pierre, et a l'état entravé. La créature entravé doit répéter la jet de sauvegarde à la fin de son prochain tour. Sur une sauvegarde ratée, il a l'état pétrifié, et sur une sauvegarde réussie, l'effet se termine sur elle, La pétrification dure jusqu'à ce que la créature soit libérée par le sort Restauration supérieure ou autre magie Une créature peut utiliser sa réaction, si disponible, pour fermer les yeux pour éviter la jet de sauvegarde. Si la créature le fait, elle a l'état aveuglé jusqu'à la fin de son prochain tour.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, euryale peut entreprendre l'une des actions ci-après.\n**Bouge.** Euryale se déplace à sa vitesse.\n**Grève veineuse (coûts 2 actions).** Euryale fait une attaque de serpents. Si la cible a l'état empoisonné, l'attaque offre un 16 (3d10) dégâts de poison supplémentaire."
+}

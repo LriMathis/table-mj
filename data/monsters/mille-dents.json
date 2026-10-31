@@ -1,0 +1,48 @@
+{
+ "id": "mille-dents",
+ "name": "Thousand Teeth",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 93,
+ "hpFormula": "11d10+33",
+ "vitesse": "9 m, nage 15 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Maintenez votre souffle.** Mille dents peuvent retenir son souffle pendant 30 minutes.\n**Résistance légendaire (2/jour).** Si mille dents échouent un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Mille dents font deux attaques: l'une avec sa morsure et l'autre avec sa queue.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants.\n**Queue.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0593981f99_monstre-mille-dents.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "aka": "Mille dents",
+ "caNote": "armure naturelle",
+ "saves": "FOR +7, CON +6",
+ "skills": "Athlétisme +7, Discrétion +3",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, mille dents peut entreprendre l'une des actions ci-après.\n**Détecter.** Mille dents fait un test de Sagesse (Perception).\n**Lunge.** Mille dents se déplace jusqu'à la moitié de sa vitesse.\n**Bite (coûts 2 actions).** Mille dents font une attaque de morsure."
+}

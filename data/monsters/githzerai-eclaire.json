@@ -1,0 +1,48 @@
+{
+ "id": "githzerai-eclaire",
+ "name": "Githzerai Enlightened",
+ "type": "Humanoïde (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 19,
+  "CON": 16,
+  "INT": 17,
+  "SAG": 19,
+  "CHA": 13
+ },
+ "senses": "Perception passive 18",
+ "languages": "gith",
+ "traits": "**psychique Défense.** Alors que le githzerai ne porte pas d'armure et ne porte pas de bouclier, son CA comprend son modificateur Sagesse.",
+ "actionsText": "**Multiattaques.** Le githzerai fait trois attaques frappe à mains nues.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants plus 18 (4d8) dégâts psychiques.\n**Grève temporelle (Recharge 6).** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 13 (2d8 + 4) dégâts contondants plus 52 (8d12) dégâts psychiques. La cible doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou faire un tour à temps. Une cible avancée dans le temps disparaît pour la durée. Lorsque l'effet se termine, la cible réapparaît dans l'espace qu'elle a laissé ou dans un espace inoccupé le plus proche de cet espace si elle est occupée.\n**Coulisse (Psioniques).** Le githzerai lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Main de mage (la main est invisible)\n- 1/jour chacun : Changement de plan, Téléportation\n- 3/jour : Voir l'invisible",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "contondant + psychique"
+  },
+  {
+   "name": "Grève temporelle (Recharge 6)",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/8a80df51c9_monstre-githzerai-eclaire.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Githzerai éclairé",
+ "caNote": "défense psychique",
+ "saves": "FOR +6, DEX +8, INT +7, SAG +8",
+ "skills": "Arcanes +7, Perspicacité +8, Perception +8",
+ "reactions": "**Chute lente.** Lorsque le githzerai tombe, il réduit de 50 les dégâts causés par la chute."
+}

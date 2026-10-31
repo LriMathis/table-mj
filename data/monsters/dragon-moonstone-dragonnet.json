@@ -1,0 +1,42 @@
+{
+ "id": "dragon-moonstone-dragonnet",
+ "name": "Moonstone Dragon Wyrmling",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 17,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "draconique",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 12 (2d8 + 3) dégâts perforants plus 3 (1d6) dégâts radiants.\n**Arme respiratoire (Recharge 5-6).** Le dragon utilise l'une des armes suivantes :\n- **Respiration de rêve** Le dragon expire la brume dans un cône 27 m. Chaque créature dans cette zone doit réussir sur un DD 12 jet de sauvegarde de Constitution ou tomber inconscient pendant 10 minutes. Cet effet se termine pour une créature si la créature prend des dégâts ou si quelqu'un utilise une action pour la réveiller.\n- **Respiration au clair de lune** Le dragon exhale un faisceau de clair de lune dans une ligne 9 m large. Chaque créature dans cette zone doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 14 (4d6) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/1389c698d4_monstre-dragon-moonstone-dragonnet.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon Moonstone dragonnet",
+ "caNote": "armure naturelle",
+ "saves": "INT +5, SAG +4, CHA +5",
+ "skills": "Perception +4, Persuasion +5, Discrétion +4",
+ "conditionImmunities": "charmé"
+}

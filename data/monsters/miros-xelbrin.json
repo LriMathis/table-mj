@@ -1,0 +1,50 @@
+{
+ "id": "miros-xelbrin",
+ "name": "Miros Xelbrin",
+ "type": "Humanoïde (Damaran humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun",
+ "traits": "**Information sur le jeu de rôles.** L'Innkeeper Miros est une attraction carnavale à la retraite, surnommée « l'Yeti » à cause de son corps en forme de canon et de ses cheveux blancs épais qui recouvrent ses bras, sa poitrine, son dos et sa tête. Quand Goldenfields souffre, tout comme ses affaires, il fait des progrès pour protéger le complexe.\nIdéal: \"Comme l'Enclave d'Emeraude, je crois que la civilisation et le désert ont besoin d'apprendre à coexister.\"\nObligation : \"Faites-vous plaisir de moi tout ce que vous voulez, mais ne parlez pas mal de mon auberge ou de mes employés.\"\nFaux : \"Quand quelque chose me bouleverse, j'ai tendance à voler dans une rage.\"",
+ "actionsText": "**Bouclier d'ours.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d4 + 3) dégâts contondants, et la cible agrippé (évasion DD 13) et prend 5 (1d4 + 3) dégâts contondants au début de chaque tour de Miros jusqu'à ce que le grappin se termine. Miros ne peut pas faire d'attaques en s'attaquant à une créature.\n**Club.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 1) dégâts contondants.\n**Grosse arbalète.** Attaque d'arme à distance : +2 au toucher, portée 30/120 m., une cible. Touché : 5 (1d10) dégâts perforants. Miros porte dix boulons arbalètes.",
+ "attacks": [
+  {
+   "name": "Bouclier d'ours",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Club",
+   "bonus": 5,
+   "damage": "1d4+1",
+   "type": "contondant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 2,
+   "damage": "1d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/de1c485513_monstre-miros-xelbrin.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "skills": "Intimidation +4, Perception +3"
+}

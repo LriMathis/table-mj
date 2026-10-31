@@ -1,0 +1,47 @@
+{
+ "id": "elemental-membre-de-secte",
+ "name": "Elemental Cultist",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 135,
+ "hpFormula": "18d8+54",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 18,
+  "CHA": 12
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun, primordial",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le cultivateur fait trois attaques, en utilisant la flamme élémentaire ou la griffe élémentaire dans n'importe quelle combinaison.\n**Flacon élémentaire.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 25 (6d6 + 4) dégâts d'un type choisi par le cultivateur: acide, froid, feu, foudre, ou tonnerre.\n**Griffe élémentaire.** Jet d'attaque à distance : +7, portée 36 m. Touché : 22 (4d10) dégâts d'un type choisi par le cultivateur: acide, froid, feu, foudre, ou tonnerre. Si la cible est une créature moyenne ou plus petite, le cultivateur déplace la cible jusqu'à 3 m directement vers ou loin de lui.\n**Détection orthographique.** Le cultivateur lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Élémentalisme, Main de mage",
+ "attacks": [
+  {
+   "name": "Flacon élémentaire",
+   "bonus": 7,
+   "damage": "6d6+4",
+   "type": ""
+  },
+  {
+   "name": "Griffe élémentaire",
+   "bonus": 7,
+   "damage": "4d10",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/96e76caff0_monstre-elemental-membre-de-secte.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Elemental membre de secte",
+ "saves": "CON +6, SAG +7",
+ "skills": "Arcanes +5, Perception +7, Religion +5",
+ "reactions": "**Absorption élémentaire (1/jour).** Déclencheur : Le cultivateur prend acide, froid, feu, foudre, ou dégâts de tonnerre. Réponse : Le culte se donne Résistance à cette instance de dégâts et gagne 10 points de vie temporaires."
+}

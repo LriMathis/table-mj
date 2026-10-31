@@ -1,0 +1,44 @@
+{
+ "id": "witherbloom-pledgemage",
+ "name": "Witherbloom Pledgemage",
+ "type": "Humanoïde (druide)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 17,
+  "CHA": 11
+ },
+ "senses": "Perception passive 17",
+ "languages": "Commun plus deux langues",
+ "traits": "**Régénération.** Tant que la promesse a au moins 1 points de vie restant, la promesse reprend 5 points de vie au début de son tour.\n**Talisman vert.** À la fin d'un rituel de 10 minutes, le gage peut toucher une créature volontaire (y compris elle-même) et lui accorder un petit talisman imprégné de magie. Après avoir reçu le talisman, la créature gagne 10 points de vie temporaires, et elle peut ajouter 1d6 à ses rouleaux d'initiative pendant qu'elle porte le talisman. Ces avantages durent 1 heure ou jusqu'à ce que le serment conduit un autre rituel pour donner un autre talisman. Lorsque les prestations expirent, le talisman s'écroule à la poussière.",
+ "actionsText": "**Vin de bruyère.** Attaque de sort au corps à corps : +5 au toucher, allonge 4,50 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants plus 18 (4d8) dégâts de poison. Si la cible est une créature grande ou plus petite, l'apprenti peut la ramener à 3 m plus près de lui.\n**Détection orthographique.** L'apprenti lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation :\n- À volonté : Druidisme, Stabilisation\n- 1/jour chacun : Protection contre la mort, Passage sans trace, Communication avec les plantes",
+ "attacks": [
+  {
+   "name": "Vin de bruyère",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/f85b6e0bae_monstre-witherbloom-pledgemage.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "15 avec forme vocifère",
+ "saves": "CON +3, SAG +5",
+ "skills": "Médecine +5, Nature +6, Perception +7",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Forme vocifère (1/jour).** Le gage se transforme en un avatar de plantes et d'ombres. Alors que dans cette forme, le gage ajoute son modificateur Sagesse à sa CA si elle ne porte pas d'armure ou de bouclier, et il a avantage sur jets d'attaque contre toute créature manquante points de vie. Ce formulaire dure 1 minute ou jusqu'à ce que le gage soit réduit à 0 points de vie.",
+ "reactions": "**Labourer les mains.** Lorsque le gage voit une créature dans 9 m de lui-même tomber à 0 points de vie, le gage canalise l'essence de vie dépensée et cible une autre créature qu'il peut voir dans 9 m de lui-même. La cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, la cible prend 3 (1d6) dégâts de poison au début de chacun de ses tours. La cible peut répéter l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès."
+}

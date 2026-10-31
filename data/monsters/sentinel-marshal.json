@@ -1,0 +1,46 @@
+{
+ "id": "sentinel-marshal",
+ "name": "Sentinel Marshal",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 16,
+ "hp": 110,
+ "hpFormula": "20d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 19,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Perception passive 18",
+ "languages": "Commun plus deux autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le maréchal fait trois attaques, en utilisant Longsword ou Pistol dans n'importe quelle combinaison.\n**Mot long.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts tranchants, et la cible a Désavantage sur la prochaine jet d'attaque il fait avant le début du prochain tour du maréchal.\n**Pistol.** Jet d'attaque à distance : +7, portée 9/27 m. Touché : 15 (2d10 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Pistol",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0ae326d476_monstre-sentinel-marshal.webp",
+ "notes": "",
+ "source": "Eberron: Forge of the Artificer (5e.tools, traduction automatique)",
+ "saves": "DEX +7, CON +4",
+ "skills": "Athlétisme +7, Perspicacité +5, Perception +8",
+ "reactions": "**Bouclier (3/jour).** Le maréchal lance Bouclier en réponse au déclencheur du sort, en utilisant Sagesse comme caractéristique d'incantation.\n- 3/jour : Bouclier"
+}

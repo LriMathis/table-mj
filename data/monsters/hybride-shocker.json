@@ -1,0 +1,45 @@
+{
+ "id": "hybride-shocker",
+ "name": "Hybrid Shocker",
+ "type": "Humanoïde (hybride simique)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Perception passive 11",
+ "languages": "Commun plus une langue",
+ "traits": "**Organe électrifié.** Toute créature qui touche l'hybride ou la frappe avec une attaque de melee alors que dans 1,50 m il prend 5 (1d10) dégâts de foudre.\n**Éclairage.** L'hybride apporte une lumière lumineuse dans un rayon de 3 m et une lumière dim pour un 3 m supplémentaire.",
+ "actionsText": "**Multiattaques.** L'hybride fait deux attaques : l'une avec son toucher choquant et l'autre avec ses tentacules.\n**Touche de choc.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d8) dégâts de foudre.\n**Tentacules.** Attaque d'arme au corps à corps : +4 au toucher, allonge 4,50 m, une créature. Touché : La cible est agrippé (évasion DD 11), et l'hybride tire la cible jusqu'à 4,50 m directement vers elle. Jusqu'à ce que ce grappin se termine, la cible prend 5 (1d10) dégâts de foudre au début de chacun de ses virages, et l'amortisseur hybride ne peut pas utiliser ses tentacules sur une autre créature.",
+ "attacks": [
+  {
+   "name": "Touche de choc",
+   "bonus": 4,
+   "damage": "2d8",
+   "type": "foudre"
+  },
+  {
+   "name": "Tentacules",
+   "bonus": 4,
+   "damage": "1d10",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/3bcbe4f772_monstre-hybride-shocker.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Hybride Shocker",
+ "immunities": "foudre"
+}

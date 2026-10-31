@@ -1,0 +1,39 @@
+{
+ "id": "azbara-jos",
+ "name": "Azbara Jos",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, draconique, infernal, primordial, Thayan",
+ "traits": "**Matériel spécial.** Azbara a deux rouleaux d'Armure de mage.\n**Potentiel sorts mineurs.** Quand Azbara lance une évocation sorts mineurs et rate, ou que la cible réussit sur sa jet de sauvegarde, la cible prend toujours la moitié des dégâts de la sort mineur mais ne subit aucun autre effet.\n**Pelleteries de chaume.** Quand Azbara lance un sort d'évocation qui affecte d'autres créatures qu'il peut voir, il peut choisir un nombre d'entre eux égal à 1+le niveau du sort pour réussir sur leur jet de sauvegarde contre le sort. Ces créatures ne prennent aucun dégâts si elles prennent normalement la moitié des dégâts du sort.\n**Détection orthographique.** Azbara est un spellcaster de niveau 6 qui utilise Intelligence comme son caractéristique d'incantation (spell save DD 13, +5 au toucher avec attaques de sort). Azbara a les sorts suivants préparés à partir de la liste des sorts de l'assistant :\n- Sorts mineurs (à volonté) : Main de mage, Prestidigitation, Rayon de givre, Poigne électrique\n- Niveau 1 (4 emplacements) : Nappe de brouillard, Projectile magique, Bouclier, Vague tonnante\n- Niveau 2 (3 emplacements) : Invisibilité, Foulée brumeuse, Rayon ardent\n- Niveau 3 (3 emplacements) : Contresort, Dissipation de la magie, Boule de feu",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou 6/18 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/14a3ca953d_monstre-azbara-jos.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "saves": "INT +5, SAG +3",
+ "skills": "Arcanes +5, Tromperie +2, Perspicacité +3, Discrétion +5"
+}

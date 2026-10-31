@@ -1,0 +1,41 @@
+{
+ "id": "clockwork-bronze-eclaireur",
+ "name": "Clockwork Bronze Scout",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 36,
+ "hpFormula": "8d8",
+ "vitesse": "9 m, creusement 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "comprend une langue de son créateur mais ne peut pas parler",
+ "traits": "**Armure de terre.** L'horlogerie ne provoque pas opportunity attacks quand elle creuse.\n**Résistance magique.** L'horlogerie a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** L'horlogerie ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 3 (1d6) dégâts de foudre.\n**foudre Flamme (recharge après un repos court ou long).** Chaque créature en contact avec le sol à l'intérieur de 4,50 m de l'horlogerie doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 14 (4d6) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + foudre"
+  }
+ ],
+ "portrait": "/data/images/e1f517864f_monstre-clockwork-bronze-eclaireur.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Clockwork bronze éclaireur",
+ "skills": "Perception +6, Discrétion +7",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

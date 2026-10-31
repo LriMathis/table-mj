@@ -1,0 +1,47 @@
+{
+ "id": "ogre-chitterlord",
+ "name": "Ogre Chitterlord",
+ "type": "Géant (druide)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 5,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, géant",
+ "traits": "**Parlez avec les rats.** L'ogre peut communiquer verbalement des concepts simples aux rats ordinaires et aux rats géants.",
+ "actionsText": "**Multiattaques.** L'ogre fait deux attaques Club, deux attaques Rat-Tail Whip, ou l'une de chacune.\n**Club.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts contondants.\n**Whip sur la queue de rat.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants, et si la cible est grande ou plus petite, il est tiré 1,50 m vers l'ogre.\n**Détection orthographique.** L'ogre lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 11) :\n- À volonté : Sens animal (rats seulement), Druidisme, Enchevêtrement\n- 1/jour chacun : Messager animal (rats seulement), Nuage nauséabond",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 6,
+   "damage": "2d10+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Whip sur la queue de rat",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1fc7d3e245_monstre-ogre-chitterlord.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "saves": "SAG +3",
+ "skills": "Dressage +3, Nature +1",
+ "bonusActions": "**Appeler les rats (1/jour).** L'ogre appelle magiquement des rats géants 1d4. Chaque rat apparaît dans un espace inoccupé à l'intérieur de 9 m de l'ogre que l'ogre peut voir. Les rats agissent comme les alliés de l'ogre, obéissent à ses commandements parlés, et prennent leur tour immédiatement après le tour de l'ogre sur le même compte d'initiative. Les rats restent pendant 1 heure, jusqu'à ce que l'ogre meurt, ou jusqu'à ce que l'ogre les rejette comme un action bonus."
+}

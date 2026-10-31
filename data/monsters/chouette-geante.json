@@ -1,0 +1,40 @@
+{
+ "id": "chouette-geante",
+ "name": "Chouette géante",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 19,
+ "hpFormula": "3d10+3",
+ "vitesse": "1,5 m, vol 18 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "saves": "SAG +4",
+ "skills": "Discrétion +6, Perception +6",
+ "resistances": "nécrotiques, radiants",
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "céleste, comprend le commun, l’elfique et le sylvestre mais ne peut pas les parler",
+ "traits": "**Repli aérien.** La chouette ne provoque pas d’attaque d’Opportunité lorsqu’elle quitte la zone d’allonge d’un ennemi en volant.",
+ "actionsText": "**Serres.** Corps à corps : +4, allonge 1,50 m. Touché : 7 (1d10 + 2) dégâts tranchants.\n**Incantation.** La chouette lance l’un des sorts suivants, sans aucune composante, la Sagesse étant sa caractéristique d’incantation :\n- À volonté : *détection de la magie*, *détection du mal et du bien*\n- 1/jour : *clairvoyance*",
+ "attacks": [
+  {
+   "name": "Serres",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/3d324b3527_monstre-chouette-geante.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

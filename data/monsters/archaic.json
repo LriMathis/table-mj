@@ -1,0 +1,45 @@
+{
+ "id": "archaic",
+ "name": "Archaic",
+ "type": "Céleste",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 20,
+ "hp": 245,
+ "hpFormula": "14d20+98",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 10,
+  "CON": 24,
+  "INT": 27,
+  "SAG": 24,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 23",
+ "languages": "tous",
+ "traits": "**Esprit énigmatique.** L'esprit archaïque ne peut pas être lu, les créatures ne peuvent communiquer télépathiquement avec l'archaïque que si elle le permet, et la magie ne peut pas déterminer si l'archaïque est couché.\n**Résistance légendaire (3/jour).** Si l'archaïque échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Nature inhabituelle.** L'archaïque n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** L'archec fait deux attaques force Strike. Il peut également utiliser Gravity Shift, si disponible.\n**Grève de force.** Attaque de sort au corps à corps ou à distance : +14 au toucher, allonge 4,50 m ou portée 36 m, une cible. Touché : 19 (2d10 + 8) dégâts de force, et la cible est tirée jusqu'à 3 m vers l'archaïque ou poussé 3 m loin de lui, comme l'archaïque choisit.\n**Maj de gravité (Recharge 5-6).** L'archéique inverse la gravité pour une créature il peut voir en 30 m de lui-même. La créature doit réussir sur un DD 22 jet de sauvegarde de Sagesse ou tomber 30 m vers le haut. Si la créature qui tombe rencontre un objet solide (comme un plafond) à cet automne, il frappe l'objet comme il le ferait lors d'une chute vers le bas. Si la créature atteint le sommet de la zone sans rien frapper, elle s'y jette jusqu'au début du prochain tour de l'arche, auquel moment la gravité revient à la normale et la créature tombe.\n**Téléportation.** L'arc-en-ciel se téléporte dans un espace inoccupé qu'il peut voir en lui-même en 36 m.\n**Détection orthographique.** L'archaïque lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 22) :\n- À volonté : Détection de la magie, Divination, Communication à distance\n- 1/jour chacun : Bannissement, Cage de force",
+ "attacks": [
+  {
+   "name": "Grève de force",
+   "bonus": 14,
+   "damage": "2d10+8",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/fef9b98544_monstre-archaic.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, INT +14, SAG +13, CHA +11",
+ "skills": "Arcanes +20, Tromperie +11, Histoire +20, Perception +13",
+ "resistances": "force",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, étourdi",
+ "reactions": "**Mimétisme orthographique (1/jour).** Immédiatement après qu'une créature l'archec peut voir lancer un sort de de niveau 5 ou inférieur, cette créature doit réussir sur un DD 22 jet de sauvegarde de Charisme, ou l'archec lance immédiatement le même sort au même niveau (+14 au toucher avec attaques de sort, sort sauvegarde DD 22), ne nécessitant aucun composant matériel et choisissant les cibles du sort.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, archaic peut entreprendre l'une des actions ci-après.\n**Grève.** L'archaïque fait une attaque force.\n**Téléportation.** L'archec utilise Teleport.\n**Dévoiler la magie (coûts 2 actions).** L'archec cible une créature il peut voir en lui-même 36 m. La cible doit réussir sur un DD 22 jet de sauvegarde de Constitution ou prendre 35 (10d6) dégâts de force, et chaque sort de de niveau 5 ou inférieur aux extrémités de la cible."
+}

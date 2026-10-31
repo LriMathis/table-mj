@@ -1,0 +1,52 @@
+{
+ "id": "chevalier-de-eldraine",
+ "name": "Knight of Eldraine",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 20,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Virtue chevalier.** Le chevalier a l'un des traits suivants, selon le tribunal qu'il sert:\n- **Courage (Embereth)** Le chevalier a un avantage sur tests de Sagesse et jet de sauvegarde de Sagesse.\n- **Connaissance (Vantresse)** Le chevalier a un avantage sur tests d'Intelligence et jet de sauvegarde d'Intelligence.\n- **Fidélité (Ardenvale)** Le chevalier a un avantage sur tests de Charisme et jet de sauvegarde de Charisme.\n- **Persistance (Locthwain)** Le chevalier a l'avantage sur jet de sauvegarde de Constitution.\n- **Force (Garenbrig)** Le chevalier a un avantage sur tests de Force et jet de sauvegarde de Force.",
+ "actionsText": "**Lance.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 9 (1d12 + 3) dégâts perforants plus 9 (2d8) dégâts radiants.\n**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants, ou 8 (1d10 + 3) dégâts tranchants si utilisé avec deux mains, plus 9 (2d8) dégâts radiants.\n**Grosse arbalète.** Attaque d'arme à distance : +3 au toucher, portée 30/120 m., une cible. Touché : 6 (1d10 + 1) dégâts perforants plus 9 (2d8) dégâts radiants.",
+ "attacks": [
+  {
+   "name": "Lance",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant + radiant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 3,
+   "damage": "1d10+1",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/01aa707e3b_monstre-chevalier-de-eldraine.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Chevalier de Eldraine",
+ "caNote": "plaque, Bouclier",
+ "saves": "CON +4, SAG +2"
+}

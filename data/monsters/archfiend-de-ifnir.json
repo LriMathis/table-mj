@@ -1,0 +1,49 @@
+{
+ "id": "archfiend-de-ifnir",
+ "name": "Archfiend of Ifnir",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 18,
+ "hp": 184,
+ "hpFormula": "16d10+96",
+ "vitesse": "6 m, vol 9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 19,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 11",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Résistance magique.** L'archfiend a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'archifiend utilise Horror Nimbus si elle le peut. Il fait ensuite trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une cible. Touché : 32 (5d10 + 5) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 15 (3d6 + 5) dégâts tranchants.\n**Horreur Nimbus (Recharge 5-6).** L'archifiend émet magiquement une lumière scintillante et multicolore. Chaque créature de 4,50 m de l'archifiend qui peut voir la lumière doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre l'horreur de l'archifiend Nimbus pendant les 24 prochaines heures.\n**Téléportation.** L'archfiend téléporte magiquement, avec tout équipement qu'il porte ou transporte, jusqu'à 36 m dans un espace inoccupé qu'il peut voir.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "5d10+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 10,
+   "damage": "3d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/64ad9068b9_monstre-archfiend-de-ifnir.webp",
+ "notes": "",
+ "source": "PSA (5e.tools, traduction automatique)",
+ "aka": "Archfiend de Ifnir",
+ "caNote": "armure naturelle",
+ "saves": "CON +11, INT +9, SAG +6, CHA +7",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

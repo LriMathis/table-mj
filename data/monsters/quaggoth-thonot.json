@@ -1,0 +1,41 @@
+{
+ "id": "quaggoth-thonot",
+ "name": "Quaggoth Thonot",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 14,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "commun des profondeurs",
+ "traits": "**Fureur sanglante.** Alors qu'en sang, le quaggot a avantage sur jets d'attaque.",
+ "actionsText": "**Multiattaques.** Le quaggot fait deux attaques de la griffe.\n**Griffe.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts tranchants plus 5 (2d4) dégâts psychiques.\n**Détection orthographique.** Le quagoth lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Main de mage (la main est invisible), Illusion mineure\n- 2/jour : Épine mentale",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/6ae51e9595_monstre-quaggoth-thonot.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "skills": "Athlétisme +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "reactions": "**Défense psionique (3/jour).** Le quaggoth lance Feuille morte ou Bouclier en réponse au déclencheur du sort, ne nécessitant aucun composant du sort et utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Feuille morte, Bouclier"
+}

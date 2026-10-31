@@ -1,0 +1,49 @@
+{
+ "id": "strahd-s-armure-animee",
+ "name": "Strahd's Animated Armor",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 21,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 9,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 13",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Nature construite.** Un objet animé ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.\nLa magie qui anime un objet est dissipée lorsque la construction tombe à 0 points de vie. Un objet d'animation réduit à 0 points de vie devient inanimé et est trop endommagé pour être d'une grande utilité ou d'une grande valeur pour quiconque.\n**Susceptibilité antimagique.** L'armure est neutralisé alors que dans la zone d'un Champ antimagie. Si elle est ciblée par Dissipation de la magie, l'armure doit réussir sur un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur ou tomber inconscient pendant 1 minute.\n**Fausse apparence.** Bien que l'armure reste immobile, elle est indistinctible d'un costume d'armure normal.",
+ "actionsText": "**Multiattaques.** L'armure fait deux attaques de mêlée ou utilise Shocking Bolt deux fois.\n**Grande épée.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants plus 3 (1d6) dégâts de foudre.\n**Bouchon de choc.** Attaque de sort à distance : +4 au toucher (avec avantage sur le jet d'attaque si la cible porte une armure en métal), portée 18 m, une cible. Touché : 10 (3d6) dégâts de foudre.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "tranchant + foudre"
+  },
+  {
+   "name": "Bouchon de choc",
+   "bonus": 4,
+   "damage": "3d6",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/eff4e1577e_monstre-strahd-s-armure-animee.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Strahd's armure animée",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3",
+ "resistances": "froid, feu",
+ "immunities": "foudre, poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

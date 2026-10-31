@@ -1,0 +1,42 @@
+{
+ "id": "allip",
+ "name": "Allip",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 6,
+  "DEX": 17,
+  "CON": 10,
+  "INT": 17,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Mouvement intégré.** L'allip peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Nature inhabituelle.** L'allip ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Touche fougueuse.** Attaque de sort au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 17 (4d6 + 3) dégâts psychiques.\n**Bamble (Recharge 6) hurlement.** Chaque créature au sein de 9 m de l'allip qui peut l'entendre doit faire un DD 14 jet de sauvegarde de Sagesse. Lors d'une sauvegarde ratée, une cible prend 12 (2d8 + 3) dégâts psychiques, et c'est étourdi jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, il prend la moitié de ces dégâts et n'est pas étourdi. Les constructions et les morts-vivants sont à l'abri de cet effet.\n**Whispers of Compulsion.** L'allip choisit jusqu'à trois créatures qu'il peut voir dans 18 m de lui. Chaque cible doit réussir sur une DD 14 jet de sauvegarde de Sagesse, ou elle prend 12 (2d8 + 3) dégâts psychiques et doit utiliser sa réaction pour faire une attaque d'arme à la mêlée contre une créature du choix de l'allip que l'allip peut voir. Les constructions et les morts-vivants sont à l'abri de cet effet.",
+ "attacks": [
+  {
+   "name": "Touche fougueuse",
+   "bonus": 6,
+   "damage": "4d6+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/2afb76f338_monstre-allip.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "saves": "INT +6, SAG +5",
+ "skills": "Perception +5, Discrétion +6",
+ "resistances": "acide, feu, foudre, tonnerre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

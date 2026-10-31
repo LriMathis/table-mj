@@ -1,0 +1,48 @@
+{
+ "id": "runic-colossus",
+ "name": "Runic Colossus",
+ "type": "Créature artificielle",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 20,
+ "hp": 315,
+ "hpFormula": "18d20+126",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 9,
+  "CON": 24,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "C'est géant, mais il ne peut pas parler.",
+ "traits": "**Formulaire immuable.** Le colosse est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Résistance magique.** Le colosse a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le colosse cause deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le colosse fait deux attaques de Slam et utilise ensuite Stomp.\n**Clamer.** Attaque d'arme au corps à corps : +14 au toucher, allonge 6 m, une cible. Touché : 26 (3d12 + 7) dégâts contondants.\n**Stompe.** Attaque d'arme au corps à corps : +14 au toucher, allonge 6 m, une cible. Touché : 29 (4d10 + 7) dégâts contondants. Si la cible est une créature Énorme ou plus petite, elle doit réussir sur une DD 22 jet de sauvegarde de Dextérité ou avoir l'état à terre. Jusqu'à ce que le colosse utilise à nouveau sa Stomp ou bouge, la créature a l'état entravé. La créature entravé ou une autre créature de 1,50 m peut utiliser son action pour faire une DD 22 test de Force. Lors d'un contrôle réussi, la créature affectée se déplace dans un espace inoccupé de son choix dans 1,50 m du colosse et n'est plus entravé.\n**Perles d'arcane (Recharge 5-6).** Le colosse tire un faisceau de force magique de sa poitrine, de ses mains ou de sa tête dans une ligne 45 m large. Chaque créature dans cette zone doit faire un DD 22 jet de sauvegarde de Dextérité, en prenant 58 (9d12) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 14,
+   "damage": "3d12+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Stompe",
+   "bonus": 14,
+   "damage": "4d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/87cad5bff3_monstre-runic-colossus.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "resistances": "acide, froid, feu, foudre",
+ "immunities": "poison, psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "reactions": "**Réflexion orthographique (2/jour).** Attaque de sort à distance : +14 au toucher, portée 36 m, une créature jetant un sort de de niveau 5 ou inférieur. Touché : 26 (4d12) dégâts de force, et la cible doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou le sort échoue et n'a aucun effet."
+}

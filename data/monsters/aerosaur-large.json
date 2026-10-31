@@ -1,0 +1,39 @@
+{
+ "id": "aerosaur-large",
+ "name": "Aerosaur (Large)",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 30,
+ "hpFormula": "4d12+4",
+ "vitesse": "3 m, vol 24 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 13,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Perception passive 12",
+ "languages": "—",
+ "traits": "**Attaque de plongée.** Si l'aerosaure vole et plonge au moins 9 m vers une cible, puis frappe avec une attaque de morsure, l'attaque inflige 10 (3d6) de plus de dégâts à la cible.\n**Volée.** L'aerosaure ne provoque pas une attaque d'opportunité quand elle s'envole hors de la portée d'un ennemi.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 3 m, une créature. Touché : 12 (3d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "3d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5585d98b38_monstre-aerosaur-large.webp",
+ "notes": "",
+ "source": "PSX (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +2"
+}

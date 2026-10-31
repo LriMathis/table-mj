@@ -1,0 +1,41 @@
+{
+ "id": "hjoldak-hollowhelm",
+ "name": "Hjoldak Hollowhelm",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 13,
+  "CON": 15,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 6
+ },
+ "senses": "Perception passive 12",
+ "languages": "télépathie 36 m, comprend les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Hjoldak fait deux attaques nécrotique Shard. Il utilise également la Couronne Psionique si disponible.\n**nécrotique Shard.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants plus 9 (2d8) dégâts nécrotiques. Si la cible est une créature, elle a un désavantage sur le prochain jet d'attaque qu'elle fait avant la fin de son prochain tour.\n**Couronne psionique (Recharge 5-6).** Hjoldak couronne la tête d'une créature qu'elle peut voir en 18 m elle-même avec une couronne de cristaux spectraux déchiquetés. La cible doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou avoir l'état charmé pendant 1 minute. Alors que charmé de cette façon, les pensées de la cible sont lentes; il ne peut pas prendre de réactions, sa vitesse est réduite de moitié, et il prend 9 (2d8) dégâts psychiques au début de chacun de ses tours. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Coulisse (Psioniques).** Hjoldak lance l'un des sorts suivants, ne nécessitant pas de composants d'épellation et utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Main de mage (la main est invisible)\n- 1/jour : Apaisement des émotions",
+ "attacks": [
+  {
+   "name": "nécrotique Shard",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/2ecbc7048e_monstre-hjoldak-hollowhelm.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +7, CON +5, INT +6, SAG +5",
+ "resistances": "nécrotique, poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, inconscient"
+}

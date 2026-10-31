@@ -1,0 +1,41 @@
+{
+ "id": "poltergeist",
+ "name": "Poltergeist",
+ "type": "Mort-vivant",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "1,50 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "Commun plus une autre langue",
+ "traits": "**Mouvement intégré.** Le poltergeiste peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.",
+ "actionsText": "**Multiattaques.** Le poltergeist fait un objet Slam attaque et utilise Telekinetic Thrust.\n**Objet Slam.** Jet d'attaque au corps à corps ou à distance : +4, allonge 1,50 m ou portée 9 m. Touché : 7 (2d4 + 2) dégâts contondants.\n**Thrust télékinétique.** Jet de sauvegarde de Force : DD 12, une créature le poltergeist peut voir dans 9 m. Échec : 9 (2d6 + 2) dégâts de force, et la cible est poussée jusqu'à 9 m tout de suite du poltergeist.",
+ "attacks": [
+  {
+   "name": "Objet Slam",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/15a3a9d6a0_monstre-poltergeist.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "resistances": "acide, contondant, froid, feu, foudre, perforant, tranchant, tonnerre",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient",
+ "bonusActions": "**Vaniche.** Le poltergeist se donne l'état invisible ou termine cette condition sur lui-même."
+}

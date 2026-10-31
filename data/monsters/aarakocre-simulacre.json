@@ -1,0 +1,45 @@
+{
+ "id": "aarakocre-simulacre",
+ "name": "Aarakocra Simulacrum",
+ "type": "Humanoïde (aarakocra)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 6,
+ "hpFormula": "3d4",
+ "vitesse": "6 m, vol 15 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 15",
+ "languages": "aérien, Aarakocra",
+ "traits": "**Attaque de plongée.** Si l'aarakocra vole et plonge au moins 9 m droit vers une cible et la frappe avec une attaque d'arme à la mêlée, l'attaque inflige 3 (1d6) de plus de dégâts à la cible.\n**Simulacra.** Lorsqu'un simulacrum tombe à 0 points de vie ou est soumis à un sort Dissipation de la magie réussi (DD 17), il retourne à la glace et à la neige et est détruit.",
+ "actionsText": "**Talon.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts tranchants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Invoquer Air Élémental.** Cinq aarakocra dans 9 m de l'autre peuvent magiquement convoquer un élément d'air. Chacun des cinq doit utiliser son action et son mouvement sur trois tours consécutifs pour effectuer une danse aérienne et doit maintenir concentration tout en agissant ainsi (comme si concentrating sur un sort). Lorsque les cinq ont terminé leur troisième tour de la danse, l'élémental apparaît dans un espace inoccupé au sein de 18 m. Elle est amicale envers eux et obéit à leurs commandements. Il reste pendant 1 heure, jusqu'à ce qu'il ou tous ses convocateurs meurent, ou jusqu'à ce que l'un de ses convocateurs le rejette comme un action bonus. Un convocateur ne peut plus jouer la danse tant qu'il n'a pas fini un repos court. Lorsque l'élémental retourne à l'avion élémentaire de l'air, n'importe quel aarakocra dans 1,50 m de celui-ci peut revenir avec lui.",
+ "attacks": [
+  {
+   "name": "Talon",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/36b923e2d4_monstre-aarakocre-simulacre.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Aarakocre simulacre",
+ "skills": "Perception +5"
+}

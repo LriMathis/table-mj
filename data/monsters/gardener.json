@@ -1,0 +1,45 @@
+{
+ "id": "gardener",
+ "name": "The Gardener",
+ "type": "Fée (archifey, druide)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 209,
+ "hpFormula": "22d8+110",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 16,
+  "CON": 20,
+  "INT": 17,
+  "SAG": 20,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 19",
+ "languages": "commun, druidique, elfique, sylvestre",
+ "traits": "**Renaissance de la fièvre.** Si le jardinier meurt dans le jardin éternel, ils ressuscitent avec tous leurs points de vie 1d4 jours plus tard dans un endroit sûr dans le jardin.\n**Résistance légendaire (3/jour).** Si le jardinier échoue un jet de sauvegarde, ils peuvent choisir de réussir à la place.\n**Étapes sans entrave.** Le jardinier n'est pas affecté par un terrain difficile.",
+ "actionsText": "**Multiattaques.** Le jardinier fait deux attaques de vigne et peut utiliser Breath of Tranquility si disponible.\n**Vin.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 11 (1d12 + 5) dégâts contondants plus 9 (2d8) dégâts psychiques, et si la cible est une créature grande ou plus petite, la vigne enveloppe la cible, et la cible a l'état agrippé (évasion DD 17). La vigne disparaît quand la cible n'est plus agrippé, ou quand le jardinier la veut (aucune action requise). Une créature réduite à 0 points de vie par la vigne a l'état inconscient mais est stable au lieu de mourir.\n**Respiration de Tranquillité (Recharge 5-6).** Le jardinier exhale de la vapeur soporifique dans un cône 9 m. Chaque créature dans cette zone doit réussir sur un DD 17 jet de sauvegarde de Constitution ou avoir l'état empoisonné. Une créature empoisonné doit répéter la jet de sauvegarde à la fin de son prochain tour. Sur une sauvegarde échouée, il a l'état inconscient, et sur une sauvegarde réussie, l'effet se termine sur elle. Une créature inconscient n'est plus empoisonné et reste inconscient pendant 1 heure, jusqu'à ce qu'elle prenne des dégâts, ou jusqu'à ce qu'une créature utilise une action pour la secouer éveillée.\n**Détection orthographique.** Le jardinier lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Druidisme, Communication avec les animaux, Communication avec les plantes\n- 1/jour chacun : Festin des héros (en tant qu'action), Téléportation\n- 2/jour chacun : Éveil (en tant qu'action), Baies nourricières, Croissance végétale (en action seulement)",
+ "attacks": [
+  {
+   "name": "Vin",
+   "bonus": 9,
+   "damage": "1d12+5",
+   "type": "contondant + psychique"
+  }
+ ],
+ "portrait": "/data/images/0c37eadb9a_monstre-gardener.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Gardener",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +9, SAG +9, CHA +8",
+ "skills": "Perspicacité +9, Nature +11, Perception +9, Survie +13",
+ "resistances": "froid, feu",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "reactions": "**Pacifique.** Quand une créature au sein de 36 m du jardinier endommage le jardinier, cette créature prend 10 (3d6) dégâts psychiques, et le jardinier téléporte, avec tout ce qu'ils portent ou transportent, dans un espace inoccupé qu'ils peuvent voir dans 4,50 m. Une créature réduite à 0 points de vie par le dégâts psychiques a l'état inconscient et est stable au lieu de mourir.\n**Refuge d'orthographe.** Lorsque le jardinier ou une créature au sein de 9 m du jardinier prend des dégâts d'un sort, le jardinier choisit jusqu'à 5 créatures au sein de 9 m d'eux-mêmes. Le jardinier et les créatures choisies ont la résistance à tous les dégâts du sort déclencheur."
+}

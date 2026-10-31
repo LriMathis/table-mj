@@ -1,0 +1,51 @@
+{
+ "id": "categorie-3-krasis",
+ "name": "Category 3 Krasis",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 16,
+ "hp": 287,
+ "hpFormula": "25d12+125",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 12,
+  "CON": 21,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "**Amphibie.** La krasis peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** La krasis fait trois attaques: une avec sa morsure, une avec ses griffes, et une avec sa queue.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une créature. Touché : 27 (6d6 + 6) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 22 (3d10 + 6) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +11 au toucher, allonge 4,50 m, une cible. Touché : 33 (6d8 + 6) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 19 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "6d6+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 11,
+   "damage": "3d10+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 11,
+   "damage": "6d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f6ba09a7bb_monstre-categorie-3-krasis.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Catégorie 3 Krasis",
+ "caNote": "armure naturelle"
+}

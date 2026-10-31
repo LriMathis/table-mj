@@ -1,0 +1,48 @@
+{
+ "id": "drowned-assassin",
+ "name": "Drowned Assassin",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 9,
+  "SAG": 9,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend les langues qu'il connaissait dans la vie mais ne peut pas parler",
+ "traits": "**Treader inférieur.** L'assassin noyé ne peut pas nager, et il coule au fond de n'importe quel plan d'eau. Il ne prend aucune sanction à ses mouvements ou attaques sous l'eau. Il est à l'abri des effets d'être sous l'eau à une profondeur supérieure à 30 m.\n**Ensemble.** L'assassin noyé partage son esprit avec tous les autres noyés l'un dans 1,5 km de lui, et peut leur communiquer ses pensées et observations instantanément et sans limitation.\n**Fortitude non-morte.** Si le dégâts réduit l'assassin noyé à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + le dégâts pris, à moins que le dégâts soit radieux ou d'un coup critique. Sur un succès, l'assassin noyé tombe à 1 points de vie.",
+ "actionsText": "**Multiattaques.** L'assassin noyé fait deux attaques arbalètes à main ou deux attaques de poignard. Il peut alors prendre l'action Foncer, Se désengager ou Se cacher.\n**Acrobatie des mains.** Attaque d'arme à distance : +5 au toucher, portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 3 (1d6) dégâts de poison, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou un bluerot contractuel (voir le \"Bluerot\" dans les notes).\n**Déclencheur.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 9 (2d8) dégâts de poison, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou un bluerot contractuel (voir le \"Bluerot\" dans les notes).\n**Révélé (1/jour).** L'assassin noyé enlève son masque, révélant son visage pourri. Chaque créature du choix de l'assassin au sein de 9 m qui peut voir l'assassin doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être effrayé jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/4d9c9c7af2_monstre-drowned-assassin.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +5, CON +5",
+ "skills": "Intimidation +5, Discrétion +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

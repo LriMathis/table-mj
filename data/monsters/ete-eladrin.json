@@ -1,0 +1,49 @@
+{
+ "id": "ete-eladrin",
+ "name": "Summer Eladrin",
+ "type": "Fée (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 19,
+ "hp": 165,
+ "hpFormula": "22d8+66",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 21,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Présence effrayante.** Toute créature non éladrine qui commence son tour à l'intérieur de 18 m de l'éladrine doit faire un DD 16 jet de sauvegarde de Sagesse. Sur un sauvetage raté, la créature devient effrayé de l'éladrine pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est à l'abri de toute présence effrayante d'Eladrin pendant les 24 prochaines heures.\n**Résistance magique.** L'eladrin a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'eladrine fait deux attaques Longsword ou Longbow.\n**Mot long.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants, ou 15 (2d10 + 4) dégâts tranchants si utilisé avec deux mains, plus 9 (2d8) dégâts de feu.\n**Longbow.** Attaque d'arme à distance : +9 au toucher, portée 45/180 m., une cible. Touché : 14 (2d8 + 5) dégâts perforants plus 9 (2d8) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "perforant + feu"
+  }
+ ],
+ "portrait": "/data/images/89517b486e_monstre-ete-eladrin.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Été Eladrin",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +8, Intimidation +8",
+ "resistances": "feu",
+ "bonusActions": "**Étape de Fey (Recharge 4-6).** Les téléports eladrins, ainsi que tout équipement qu'ils portent ou transportent, jusqu'à 9 m dans un espace inoccupé qu'ils peuvent voir.",
+ "reactions": "**Parry.** L'eladrin ajoute 3 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, l'eladrin doit voir l'agresseur et utiliser une arme à la mêlée."
+}

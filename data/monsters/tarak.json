@@ -1,0 +1,39 @@
+{
+ "id": "tarak",
+ "name": "Tarak",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, draconique, argot des voleurs",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Tarak fait trois attaques Dagger.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9490313b7a_monstre-tarak.webp",
+ "notes": "",
+ "source": "Dragons of Stormwreck Isle (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Perspicacité +4, Médecine +4, Nature +3",
+ "bonusActions": "**Action énergique.** Tarak prend l'action Foncer, Se désengager ou Se cacher."
+}

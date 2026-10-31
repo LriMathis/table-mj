@@ -1,0 +1,41 @@
+{
+ "id": "nepartak",
+ "name": "Nepartak",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 40,
+ "hpFormula": "9d4+18",
+ "vitesse": "0 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 1,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, télépathie 9 m",
+ "traits": "**Éclairage.** Nepartak apporte soit une lumière dim dans un rayon 4,50 m, soit une lumière lumineuse dans un rayon 4,50 m et une lumière dim pour un 4,50 m supplémentaire. Il peut basculer entre les options comme une action.\n**Résistance magique.** Nepartak a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Réjuvenance.** Si Nepartak est détruit, il retrouve tout son points de vie en 1 heure à moins que l'eau bénite ne soit aspergée sur ses restes ou qu'un sort Dissipation de la magie ou Délivrance des malédictions ne soit jeté sur eux.\n**Détection orthographique.** Nepartak est un spellcaster de niveau 5. Son caractéristique d'incantation est Intelligence (save spell DD 13, +5 au toucher avec attaques de sort). Il ne nécessite aucun composant somatique ou matériel pour lancer ses sorts. Nepartak a préparé les sorts d'assistant suivants :\n- Sorts mineurs (à volonté) : Main de mage\n- Niveau 1 (3 emplacements) : Projectile magique, Bouclier\n- Niveau 2 (2 emplacements) : Flou, Sphère de feu\n- Niveau 3 (1 emplacements) : Boule de feu",
+ "actionsText": "**Multiattaques.** Nepartak utilise feu Ray deux fois.\n**Rayon feu.** Attaque de sort à distance : +5 au toucher, portée 9 m, une cible. Touché : 10 (3d6) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Rayon feu",
+   "bonus": 5,
+   "damage": "3d6",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/b87802e05f_monstre-nepartak.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "skills": "Arcanes +5, Perception +2",
+ "resistances": "foudre, nécrotique, perforant",
+ "immunities": "froid, feu, poison",
+ "conditionImmunities": "charmé, effrayé, paralysé, empoisonné, à terre"
+}

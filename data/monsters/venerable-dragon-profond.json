@@ -1,0 +1,44 @@
+{
+ "id": "venerable-dragon-profond",
+ "name": "Ancient Deep Dragon",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre mauvais",
+ "cr": "18",
+ "xp": 20000,
+ "ca": 20,
+ "hp": 247,
+ "hpFormula": "15d20+90",
+ "vitesse": "12 m, creusement 12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 22,
+  "INT": 19,
+  "SAG": 18,
+  "CHA": 21
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 90 m, Perception passive 26",
+ "languages": "commun, draconique, commun des profondeurs",
+ "traits": "**Résistance légendaire (4/jour, ou 5/jour à Lair).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon fait trois attaques Rend.\n**Rend.** Jet d'attaque au corps à corps : +12, allonge 4,50 m. Touché : 17 (2d10 + 6) dégâts tranchants plus 5 (1d10) dégâts de poison.\n**Respiration de cauchemar (Recharge 5-6).** Jet de sauvegarde de Sagesse : DD 20, chaque créature dans un cône 27 m. Échec : 44 (8d10) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin du prochain tour du dragon. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 12,
+   "damage": "2d10+6",
+   "type": "tranchant + poison"
+  }
+ ],
+ "portrait": "/data/images/2a7351865f_monstre-venerable-dragon-profond.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Vénérable dragon profond",
+ "saves": "DEX +9, SAG +10",
+ "skills": "Perception +16, Discrétion +15",
+ "resistances": "poison, psychique",
+ "conditionImmunities": "charmé, effrayé, empoisonné",
+ "bonusActions": "**Forme-filtre.** La forme du dragon se transforme en humanoïde petit ou moyen ou en petite ou moyenne bête, ou elle revient à sa forme véritable. Ses statistiques de jeu, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, vénérable dragon profond peut entreprendre l'une des actions ci-après.\n**Ponce.** Le dragon se déplace jusqu'à la moitié de sa vitesse, et il fait une attaque Rend.\n**Spore Salvo.** Jet de sauvegarde de Constitution : DD 20, une créature à l'intérieur de 9 m du dragon qu'il peut voir. Échec : 16 (3d10) dégâts de poison, et la cible a l'état empoisonné. Il répète l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur lui-même sur un succès. Après 1 minute, il réussit automatiquement. Échec ou réussite : Le dragon ne peut pas reprendre cette action avant le début de son prochain tour."
+}

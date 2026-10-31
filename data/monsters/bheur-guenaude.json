@@ -1,0 +1,48 @@
+{
+ "id": "bheur-guenaude",
+ "name": "Bheur Hag",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 91,
+ "hpFormula": "14d8+28",
+ "vitesse": "9 m, vol 15 m (vol stationnaire) (, Magie Graystaff)",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "aérien, commun, géant",
+ "traits": "**Conditions météorologiques de contrôle (1/jour).** L'hag peut lancer le sort Contrôle du climat, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation.\n**Graystaff Magie.** La harpe porte un staff gris, un staff magique. La harpe ne peut utiliser sa vitesse de vol qu'en astrisant le personnel. Si le personnel est perdu ou détruit, la harpe doit en fabriquer une autre, ce qui prend un an et un jour. Seul un bheur hag peut utiliser un greystaff\n**Marche sur glace.** Le ham peut se déplacer et grimper sur des surfaces glacées sans avoir besoin de faire un test de caractéristique, et 3 composés de glace ou de neige ne coûte pas le ham plus mouvement.",
+ "actionsText": "**Multiattaques.** La harpe fait deux attaques de Slam ou Frost Shard.\n**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d8 + 1) dégâts contondants plus 18 (4d8) dégâts de froid.\n**Frost Shard.** Attaque de sort à distance : +6 au toucher, portée 18 m, une cible. Touché : 30 (6d8 + 3) dégâts de froid, et la vitesse de la cible est réduite de 3 m jusqu'au début du prochain tour du ham.\n**Une fête horrible.** La harpe se nourrit du cadavre d'un ennemi à portée de main qui est mort dans la dernière minute. Chaque créature du choix de l'hameçon qui se trouve à l'intérieur de 18 m et capable de voir l'alimentation doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou être effrayé de l'hameçon pendant 1 minute. Alors qu'effrayé de cette façon, une créature est neutralisé, ne peut pas comprendre ce que les autres disent, ne peut pas lire, et ne parle que dans le charabia. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre la fête horrible de la harpe pour les 24 prochaines heures.\n**Détection orthographique.** En tenant ou en chevauchant le personnel gris, le ham lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 14):\n- À volonté : Immobilisation de personne\n- 1/jour chacun : Cône de froid, Tempête de grêle, Mur de glace",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "2d8+1",
+   "type": "contondant + froid"
+  },
+  {
+   "name": "Frost Shard",
+   "bonus": 6,
+   "damage": "6d8+3",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/560694b649_monstre-bheur-guenaude.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Bheur guenaude",
+ "caNote": "armure naturelle",
+ "saves": "SAG +4",
+ "skills": "Nature +4, Perception +4, Discrétion +6, Survie +4",
+ "immunities": "froid"
+}

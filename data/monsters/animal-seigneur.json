@@ -1,0 +1,50 @@
+{
+ "id": "animal-seigneur",
+ "name": "Animal Lord",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 19,
+ "hp": 323,
+ "hpFormula": "34d8+170",
+ "vitesse": "18 m, vol 18 m (vol stationnaire), nage 18 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 25,
+  "CON": 20,
+  "INT": 19,
+  "SAG": 23,
+  "CHA": 22
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 28",
+ "languages": "tous",
+ "traits": "**Seigneurie des animaux.** Un maître animal représente un Forager, Hunter, ou Sage (le choix de le MD), qui détermine certains traits dans ce bloc de statistiques.\n**Résistance légendaire (4/jour).** Si le maître des animaux échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Présence de Dieu.** Jet de sauvegarde de Sagesse : DD 20, tout ennemi qui commence son tour dans une Emanation 9 m originaire du seigneur animal. Échec : La cible subit l'un des effets suivants :\n- **Captivants (forager seulement)** La cible a l'état charmé jusqu'à la fin de son prochain tour. Alors que charmé, la cible a l'état neutralisé.\n- **Crainsant (uniquement un chasseur)** La cible a l'état effrayé jusqu'à la fin de son prochain tour.\n- **Mired (Sage seulement)** La cible prend 10 (3d6) dégâts psychiques, et la cible est magiquement perplexe jusqu'à la fin de son prochain tour. Bien que déconcertée, la cible soustrait 1d4 de son jet de sauvegarde.\n**Résistance magique.** Le maître animal a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le seigneur animal fait deux attaques, utilisant Rend ou radiant Ray dans toute combinaison, et utilise l'esprit animal.\n**Rend.** Jet d'attaque au corps à corps : +13, allonge 1,50 m. Touché : 14 (2d6 + 7) dégâts tranchants plus 7 (2d6) dégâts de force.\n**Rayon radiant.** Jet d'attaque à distance : +12, portée 36 m. Touché : 20 (4d6 + 6) dégâts radiants.\n**Esprit animal.** Le maître animal conjure un esprit animal qui frappe une créature puis disparaît. Jet de sauvegarde de Dextérité : DD 20, une créature le seigneur animal peut voir dans 36 m. Échec : 28 (4d10 + 6) dégâts radiants. Réussite : Demi-dégâts. Échec ou réussite : L'un des effets suivants se produit :\n- **Fortifier (forager seulement)** Le maître des animaux gagne 20 points de vie temporaires.\n- **Marqué comme étant Prey (Hunter seulement)** Le maître animal a Avantage sur jets d'attaque contre la cible jusqu'au début du prochain tour du maître animal.\n- **Swarm de Pesky (sage seulement)** La cible a un désavantage sur jets d'attaque et tests de caractéristique jusqu'à la fin de son prochain tour.\n**Détection orthographique.** L'animal lord lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Amitié avec les animaux, Messager animal, Communication avec les animaux\n- 1/jour chacun : Formes animales, Éclat du soleil\n- 2/jour chacun : Éveil, Restauration supérieure",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 13,
+   "damage": "2d6+7",
+   "type": "tranchant + force"
+  },
+  {
+   "name": "Rayon radiant",
+   "bonus": 12,
+   "damage": "4d6+6",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/404f13265d_monstre-animal-seigneur.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Animal seigneur",
+ "saves": "CON +11, SAG +12",
+ "skills": "Acrobaties +13, Athlétisme +13, Perception +18, Discrétion +13",
+ "resistances": "froid, feu, nécrotique, psychique, radiant",
+ "conditionImmunities": "charmé, effrayé, étourdi",
+ "bonusActions": "**Forme-filtre.** La forme de lord animal se transforme en une version énorme ou plus petite de l'animal qu'il représente ou un humanoïde moyen ou petit, ou il revient à sa forme réelle. Ses statistiques de jeu, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, animal seigneur peut entreprendre l'une des actions ci-après.\n**Grève fécale.** Le maître des animaux monte à sa vitesse sans provoquer Opportunity Attacks, et il fait une attaque Rend.\n**Grève de radiant.** Le seigneur des animaux fait une attaque de Ray radiant."
+}

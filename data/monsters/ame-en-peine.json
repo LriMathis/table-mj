@@ -1,0 +1,40 @@
+{
+ "id": "ame-en-peine",
+ "name": "Âme-en-peine",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "1,5 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 6,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "resistances": "acide, contondants, feu, froid, perforants, tranchants",
+ "immunities": "nécrotiques, poison",
+ "conditionImmunities": "à terre, agrippé, charmé, empoisonné, entravé, épuisement, inconscient, paralysé, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun et deux autres langues",
+ "traits": "**Déplacement intangible.** L’âme-en-peine peut traverser d’autres créatures et objets comme s’il s’agissait d’un Terrain difficile. Elle subit 5 (1d10) dégâts de force si elle termine son tour à l’intérieur d’un objet.\n**Sensibilité au soleil.** Tant qu’elle est exposée à la lumière du soleil, l’âme-en-peine subit le Désavantage aux tests de caractéristique et aux jets d’attaque.",
+ "actionsText": "**Absorption de vie.** Corps à corps : +6, allonge 1,50 m. Touché : 21 (4d8 + 3) dégâts nécrotiques. Si la cible est une créature, son maximum de points de vie est réduit d’un montant égal aux dégâts subis.\n**Création de spectre.** L’âme-en-peine cible un Humanoïde dans un rayon de 3 m, mort depuis moins de 1 minute. L’esprit de la cible émerge sous forme de spectre de l’espace de son cadavre ou dans l’espace inoccupé le plus proche. Le spectre est sous le contrôle de l’âme-en-peine. L’âme-en-peine ne peut ainsi contrôler plus de sept spectres à la fois.",
+ "attacks": [
+  {
+   "name": "Absorption de vie",
+   "bonus": 6,
+   "damage": "4d8+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/ccf0ce7a54_monstre-ame-en-peine.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 15"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "glaive",
+ "name": "Glaive",
+ "type": "Créature artificielle (warforged)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 16,
+ "hp": 187,
+ "hpFormula": "22d8+88",
+ "vitesse": "9 m (15 m avec overdrive)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 16,
+  "CON": 19,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 9
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun",
+ "traits": "**Évier thermique.** Lorsque Glaive prend dégâts de froid, son Overdrive se recharge immédiatement.\n**Tactiques de conditionnement.** Glaive a un avantage sur jets d'attaque si au moins un allié est dans 1,50 m de la créature qu'elle attaque et l'allié n'a pas l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Glaive fait deux attaques de Glaive Spiked et deux attaques de Bolt Serré.\n**Glaive épicée.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 10 (1d10 + 5) perçage ou dégâts tranchants, ou 14 (1d10 + 9) perçage ou dégâts tranchants si Glaive est en surdrive.\n**Bolt déraillé.** Attaque d'arme à distance : +7 au toucher, portée 18 m, une cible. Touché : 13 (3d6 + 3) dégâts perforants. Si Glaive a un avantage sur le jet d'attaque, le boulon dentelé se loge dans la cible, et la vitesse de la cible est réduite de 3 m jusqu'à ce que le boulon dentelé soit enlevé. La vitesse d'une cible peut être réduite par un seul boulon dentelé à la fois. Une créature peut utiliser son action pour enlever un boulon dentelé logé en elle-même ou une autre créature à sa portée; lorsque le boulon est retiré d'une créature, cette créature prend 5 (2d4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Glaive épicée",
+   "bonus": 9,
+   "damage": "",
+   "type": ""
+  },
+  {
+   "name": "Bolt déraillé",
+   "bonus": 7,
+   "damage": "3d6+3",
+   "type": "perforant + tranchant"
+  }
+ ],
+ "portrait": "/data/images/e78ba87801_monstre-glaive.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +9, DEX +7, SAG +7",
+ "skills": "Athlétisme +9, Perception +7, Discrétion +7, Survie +7",
+ "resistances": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, empoisonné",
+ "bonusActions": "**Overdrive (Recharges après la finition d'un repos court ou long).** Glaive entre dans un état de surdrive qui dure 1 minute ou jusqu'à ce qu'elle ait l'état neutralisé. En surmenage, Glaive bénéficie des avantages suivants :\n- Glaive a un avantage sur tests de Force et jet de sauvegarde de Force.\n- Quand Glaive fait une attaque d'arme à la mêlée, elle gagne un bonus de +4 à la jet de dégâts.\n- La vitesse de Glaive augmente à 15 m.",
+ "reactions": "**Auto-préservation.** En réponse à une attaque d'arme, Glaive réduit les dégâts de 11 (2d10)."
+}

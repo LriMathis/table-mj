@@ -1,0 +1,41 @@
+{
+ "id": "traqueur-invisible",
+ "name": "Traqueur invisible",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 97,
+ "hpFormula": "13d10+26",
+ "vitesse": "15 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 19,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "skills": "Discrétion +10, Perception +8",
+ "resistances": "contondants, perforants, tranchants",
+ "immunities": "poison",
+ "conditionImmunities": "à terre, agrippé, empoisonné, entravé, épuisement, inconscient, paralysé, pétrifié",
+ "senses": "Vision dans le noir 18 m, Perception passive 18",
+ "languages": "commun, primordial (aérien)",
+ "traits": "**Corps d’air.** Le traqueur peut pénétrer dans un espace occupé par un ennemi et s’y arrêter. Il peut se déplacer dans un espace étroit d’une largeur minimale de 2,5 cm sans dépense supplémentaire en déplacement.\n**Invisibilité.** Le traqueur bénéficie de l’état Invisible.",
+ "actionsText": "**Attaques multiples.** Le traqueur effectue trois attaques de Pique de vent. Il peut remplacer l’une de ces attaques par une utilisation de Vortex.\n**Pique de vent.** Corps à corps : +7, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts de force.\n**Vortex.** JS Constitution : DD 14, une créature de taille G ou inférieure dans l’espace du traqueur. Échec : 7 (1d8 + 3) dégâts de tonnerre, et la cible subit l’état Agrippé (évasion DD 13). Tant qu’elle est Agrippée, la cible ne peut pas lancer de sorts à composante verbale et subit 7 (2d6) dégâts de tonnerre au début de chacun des tours du traqueur.",
+ "attacks": [
+  {
+   "name": "Pique de vent",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/41ab3476f4_monstre-traqueur-invisible.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 284"
+}

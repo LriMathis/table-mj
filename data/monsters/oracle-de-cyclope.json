@@ -1,0 +1,47 @@
+{
+ "id": "oracle-de-cyclope",
+ "name": "Cyclops Oracle",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 207,
+ "hpFormula": "18d12+90",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 11,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 10
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 22",
+ "languages": "géant",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Les cyclopes font trois attaques, en utilisant radiant Strike ou Flash de lumière dans n'importe quelle combinaison.\n**Grève de radiant.** Jet d'attaque au corps à corps : +10, allonge 3 m. Touché : 22 (3d10 + 6) dégâts radiants.\n**Flash de lumière.** Jet d'attaque à distance : +10, portée 36 m. Touché : 17 (2d10 + 6) dégâts radiants, et la cible a Désavantage sur jets d'attaque jusqu'à la fin du prochain tour des cyclopes.\n**Détection orthographique.** Les cyclopes lancent l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 16):\n- 1/jour : Mythes et légendes\n- 2/jour chacun : Oeil magique, Détection de la magie, Localisation d'objet",
+ "attacks": [
+  {
+   "name": "Grève de radiant",
+   "bonus": 10,
+   "damage": "3d10+6",
+   "type": "radiant"
+  },
+  {
+   "name": "Flash de lumière",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/a1c59c7fea_monstre-oracle-de-cyclope.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Oracle de cyclope",
+ "saves": "CON +9, SAG +8",
+ "skills": "Histoire +11, Perception +12",
+ "reactions": "**Portant (Recharge 4-6).** Déclencheur : Le cyclops ou un allié qu'il peut voir fait un test D20. Réponse : Le cyclopes roule 1d20 et choisit d'utiliser ce rouleau à la place du d20 roulé pour le test D20."
+}

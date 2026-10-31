@@ -1,0 +1,45 @@
+{
+ "id": "duergar",
+ "name": "Duergar",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "caNote": "armure d'écailles, bouclier",
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "resistances": "poison",
+ "senses": "vision dans le noir 36 m, Perception passive 10",
+ "languages": "commun des profondeurs, nain",
+ "traits": "**Résilience des duergars.** Le duergar est avantagé lors des jets de sauvegarde contre le poison, les sorts et les illusions, et tous ceux effectués pour résister aux états charmé et paralysé.\n**Sensibilité à la lumière du soleil.** Le duergar est désavantagé lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à la lumière du soleil.",
+ "actionsText": "**Agrandir (recharge après un court ou un long repos).** Pendant 1 minute, le duergar augmente par magie sa taille, ainsi que celle de tous les objets qu'il porte ou transporte. Le duergar est alors de Grande taille, il double les dés de dégâts de ses attaques d'arme basés sur la Force (inclus dans les attaques) et il est avantagé lors des tests de Force et des jets de sauvegarde de Force. Si le duergar n'a pas assez de place pour adopter une Grande taille, sa taille augmente tout de même du maximum possible en fonction de l'espace disponible.\n**Pic de guerre.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (1d8+2) dégâts perforants ou 11 (2d8+2) dégâts perforants s'il s'est agrandi.\n**Javeline.** *Attaque d'arme à distance ou au corps à corps :* +4 pour toucher, allonge 1,50 m ou portée 9/36 m, une cible. *Touché :* 5 (1d6+2) dégâts perforants ou 9 (2d6+2) dégâts perforants s'il s'est agrandi.\n**Invisibilité (recharge après un court ou un long repos).** Le duergar devient invisible par magie. Il redevient visible s'il attaque, lance un sort, utilise l'aptitude agrandir, si sa concentration est interrompue (comme s'il se concentrait sur un sort) ou au bout d'une heure. Les objets qu'il porte et transporte deviennent également invisibles.",
+ "portrait": "/data/images/94337cb19b_monstre-duergar.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 119 · image : Manuel des monstres p. 118",
+ "attacks": [
+  {
+   "name": "Pic de guerre",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Javeline",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ]
+}

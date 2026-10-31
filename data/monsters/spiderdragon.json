@@ -1,0 +1,48 @@
+{
+ "id": "spiderdragon",
+ "name": "Spiderdragon",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 152,
+ "hpFormula": "16d12+48",
+ "vitesse": "15 m, escalade 18 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 7,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 27 m, Perception passive 16",
+ "languages": "abyssal, draconique, commun des profondeurs",
+ "traits": "**Résistance magique.** L'araignée dragon a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Escalade des araignées.** L'araignée dragon peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Web Walker.** L'araignée dragon ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** L'araignée dragon fait une attaque de Bite et deux attaques de Griffe.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 10 (1d10 + 5) dégâts perforants plus 13 (2d12) dégâts de poison.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants.\n**Souffle d'araignée (Recharge 5-6).** L'araignée dragon exhale des araignées venimeuses dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 33 (6d10) dégâts perforants et 33 (6d10) dégâts de poison sur un sauvegarde raté ou la moitié de ces dégâts sur un succès.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "1d10+5",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/d6d1d58c99_monstre-spiderdragon.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +9, DEX +8",
+ "skills": "Intimidation +8, Perception +6",
+ "resistances": "poison, psychique",
+ "bonusActions": "**Éteignez les sites Web (Recharge 5-6).** L'araignée dragon tourne un cube 9 m de sangle forte et collante dans une zone adjacente à elle-même. La toile dure 1 minute, est un terrain difficile, et obscurcit légèrement sa zone. Une créature qui commence son tour dans le webbing ou entre dans le webbing pour la première fois à son tour doit réussir sur un DD 15 jet de sauvegarde de Dextérité ou avoir l'état entravé pendant que dans le web. En action, une créature peut se libérer elle-même ou une autre créature du web en réussissant sur un DD 15 test de Force.\nUn cube 1,50 m de la toile est détruit s'il prend au moins 10 acide, feu, ou dégâts tranchants sur un seul tour."
+}

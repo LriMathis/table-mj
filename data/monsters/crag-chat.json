@@ -1,0 +1,45 @@
+{
+ "id": "crag-chat",
+ "name": "Crag Cat",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 34,
+ "hpFormula": "4d10+12",
+ "vitesse": "12 m, escalade 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 4,
+  "SAG": 14,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "—",
+ "traits": "**Non-détection.** Le chat ne peut être ciblé ou détecté par aucune magie de divination ou perçu par des détecteurs magiques.\n**Ponce.** Si le chat se déplace au moins 6 m droit vers une créature, puis le frappe avec une attaque de griffe sur le même tour, cette cible doit réussir sur un DC13 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, le chat peut faire une attaque de morsure contre elle en tant qu'action bonus.\n**Tournage de l'orthographe.** Le chat a un avantage sur jet de sauvegarde contre tout sort qui cible uniquement le chat (pas une zone). Si le jet de sauvegarde du chat réussit et que le sort est de de niveau 7 ou inférieur, le sort n'a aucun effet sur le chat et cible plutôt le lanceur.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d10 + 3) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d10+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/62f7fbe0df_monstre-crag-chat.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Crag chat",
+ "skills": "Discrétion +7, Perception +4"
+}

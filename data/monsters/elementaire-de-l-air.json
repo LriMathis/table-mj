@@ -1,0 +1,40 @@
+{
+ "id": "elementaire-de-l-air",
+ "name": "Élémentaire de l'air",
+ "type": "Élémentaire",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 90,
+ "hpFormula": "12d10+24",
+ "vitesse": "3 m, vol 27 m (vol stationnaire)",
+ "stats": {
+  "FOR": 14,
+  "DEX": 20,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "resistances": "contondants, foudre, perforants, tranchants",
+ "immunities": "poison, tonnerre",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "primordial (aérien)",
+ "traits": "**Corps d’air.** L’élémentaire peut entrer dans l’espace d’une créature et s’y arrêter. Il peut se déplacer dans un espace étroit d’une largeur minimale de 2,5 cm sans dépense supplémentaire en déplacement.",
+ "actionsText": "**Attaques multiples.** L’élémentaire effectue deux attaques de Coup tonitruant.\n**Coup tonitruant.** Corps à corps : +8, allonge 3 m. Touché : 14 (2d8 + 5) dégâts de tonnerre.\n**Tourbillon (recharge 4–6).** JS Force : DD 13, une créature de taille M ou inférieure dans l’espace de l’élémentaire. Échec : 24 (4d10 + 2) dégâts de tonnerre, et la cible est repoussée de l’élémentaire de 6 m en ligne droite et subit l’état À terre. Réussite : demi-dégâts uniquement.",
+ "attacks": [
+  {
+   "name": "Coup tonitruant",
+   "bonus": 8,
+   "damage": "2d8+5",
+   "type": "tonnerre"
+  }
+ ],
+ "portrait": "/data/images/a985d6f5f1_monstre-elementaire-de-l-air.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

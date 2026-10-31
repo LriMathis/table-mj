@@ -1,0 +1,44 @@
+{
+ "id": "hazlik",
+ "name": "Hazlik",
+ "type": "Humanoïde (humain, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 16,
+ "hp": 154,
+ "hpFormula": "28d8+28",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "abyssal, commun, draconique, géant, infernal, commun des profondeurs",
+ "traits": "**Restauration de lord noir.** Si Hazlik meurt, il ressuscite avec tout son points de vie en 1d10 semaines quelque part à Hazlan.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Hazlik échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Hazlik a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Hazlik fait trois attaques Arcane Burst.\n**La Burst d'Arcane.** Jet d'attaque au corps à corps ou à distance : +10, allonge 1,50 m ou portée 45 m. Touché : 21 (3d10 + 5) dégâts de force.\n**Détection orthographique.** Hazlik lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection de la magie, Détection des pensées, Déguisement, Invisibilité, Lumière, Armure de mage (inclus dans CA), Main de mage, Prestidigitation\n- 1/jour chacun : Cône de froid, Esprit impénétrable (châssé avant le combat), Scrutation, Téléportation\n- 2/jour chacun : Vol, Éclair (version de niveau 5)",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 10,
+   "damage": "3d10+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/52b149b98d_monstre-hazlik.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "INT +10, SAG +7",
+ "skills": "Arcanes +10, Histoire +10, Perception +7",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé",
+ "bonusActions": "**Surge magique sauvage.** Hazlik manifeste l'une des poussées magiques suivantes, visant une créature qu'il peut voir dans 36 m. Alors qu'en sang, Hazlik manifeste deux surtensions (roulez 1d4 ; reroulez si Hazlik a déjà utilisé cette surtension pendant ce tour):\n- **1: Mouvement des missiles** Hazlik peut téléporter la cible jusqu'à 9 m dans un espace inoccupé qu'il peut voir sur une surface ou un liquide assez grand pour soutenir la cible.\n- **2: Lumière des yeux** Jet de sauvegarde de Constitution : DD 18. Échec : La cible a l'état aveuglé jusqu'à la fin de son prochain tour.\n- **3: Feu d'esprit** Jet de sauvegarde d'Intelligence : DD 18. Échec : 13 (2d12) dégâts psychiques, et la cible ne peut pas prendre l'action Magie avant la fin de son prochain tour.\n- **4: Imploser** Jet de sauvegarde de Dextérité : DD 18. Échec : La cible prend 10 (3d6) dégâts de force. Échec ou réussite : Chaque créature à l'intérieur de 1,50 m de la cible prend 10 (3d6) dégâts de force.",
+ "reactions": "**Magie protectrice (3/jour).** Hazlik lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Contresort, Bouclier",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, hazlik peut entreprendre l'une des actions ci-après.\n**Grève d'Arcane.** Hazlik fait une attaque d'Arcane Burst.\n**Arcane Teleport.** Hazlik téléporte jusqu'à 18 m dans un espace inoccupé qu'il peut voir, et chaque créature dans 3 m de l'espace qu'il a laissé prend 11 (2d10) dégâts de force. Hazlik ne peut pas reprendre cette action avant le début de son prochain tour."
+}

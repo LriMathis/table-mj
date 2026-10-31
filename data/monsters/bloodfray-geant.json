@@ -1,0 +1,48 @@
+{
+ "id": "bloodfray-geant",
+ "name": "Bloodfray Giant",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 14,
+ "hp": 103,
+ "hpFormula": "9d12+45",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 9,
+  "CON": 20,
+  "INT": 7,
+  "SAG": 8,
+  "CHA": 9
+ },
+ "senses": "Perception passive 12",
+ "languages": "géant",
+ "traits": "",
+ "actionsText": "**Chaîne.** Attaque d'arme au corps à corps : +9 au toucher, allonge 6 m, une cible. Touché : 16 (3d6 + 6) dégâts contondants. Si la cible est une créature, c'est agrippé (évasion DD 17). Jusqu'à ce que le grappin se termine, la cible est entravé, et le géant ne peut pas utiliser cette attaque sur quelqu'un d'autre.\n**Roche.** Attaque d'arme à distance : +9 au toucher, portée 18/72 m., une cible. Touché : 16 (3d6 + 6) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Chaîne",
+   "bonus": 9,
+   "damage": "3d6+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 9,
+   "damage": "3d6+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/40b6f8996b_monstre-bloodfray-geant.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Bloodfray géant",
+ "caNote": "armure naturelle",
+ "saves": "FOR +9, CON +8, SAG +2",
+ "skills": "Athlétisme +9, Perception +2",
+ "reactions": "**Défense furieuse.** Après une créature que le géant peut voir est endommagé par un ennemi au sein de 6 m du géant, le géant fait une attaque en chaîne contre cet ennemi."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "metallique-peacekeeper",
+ "name": "Metallic Peacekeeper",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 17,
+ "hp": 68,
+ "hpFormula": "8d8+32",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, draconique, télépathie 9 m",
+ "traits": "**Formulaire immuable.** Le soldat de la paix est à l'abri de tout sort ou effet qui pourrait modifier sa forme.\n**Bond télépathique.** Tandis que le soldat de la paix est sur le même plan d'existence que son maître, il peut par magie transmettre ce qu'il sent à son maître, et les deux peuvent communiquer télépathiquement entre eux.",
+ "actionsText": "**Multiattaques.** Le soldat de la paix fait deux attaques de Slam.\n**Clamer.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 16 (3d8 + 3) dégâts contondants.\n**Calmer Mist (Recharge 5-6).** Le soldat de la paix libère un gaz calmant dans une sphère 9 m -radius centrée sur lui-même. Chaque créature dans cette zone doit réussir sur un DD 14 jet de sauvegarde de Charisme ou devenir charmé par le maintien de la paix pendant 1 minute. Alors que charmé de cette façon, la créature est neutralisé et a une vitesse de 0.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "3d8+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2e16a454db_monstre-metallique-peacekeeper.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Métallique Peacekeeper",
+ "caNote": "armure naturelle",
+ "immunities": "feu",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

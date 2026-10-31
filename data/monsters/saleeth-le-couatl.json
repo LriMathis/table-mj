@@ -1,0 +1,45 @@
+{
+ "id": "saleeth-le-couatl",
+ "name": "Saleeth the Couatl",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 19,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m, vol 27 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 20,
+  "CON": 17,
+  "INT": 18,
+  "SAG": 20,
+  "CHA": 18
+ },
+ "senses": "",
+ "languages": "—",
+ "traits": "**Armes magiques.** Les attaques d'armes du couatl sont magiques.\n**Esprit blindé.** Le couatl est immunisé contre Scrutation et à tout effet qui sentirait ses émotions, lireait ses pensées, ou détecterait son emplacement.\n**Découpe intérieure.** caractéristique d'incantation du couatl est Charisme (spell save DD 14). Il peut innéalement lancer les sorts suivants, ne nécessitant que des composants verbaux:\n- À volonté : Détection du mal et du bien, Détection de la magie, Détection des pensées\n- 1/jour chacun : Songe, Restauration supérieure, Scrutation\n- 3/jour chacun : Bénédiction, Création de nourriture et d'eau, Soins, Restauration partielle, Protection contre le poison, Sanctuaire, Bouclier",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 8 (1d6 + 5) dégâts perforants. La cible doit faire une sauvegarde DD 13 Constitution, ou tomber inconscient. Une autre créature peut utiliser une action pour secouer la cible éveillée.\n**Constriction.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une créature moyenne ou plus petite. Touché : 10 (2d6 + 3) dégâts contondants. La cible est agrippé (évasion DD 15). Le couatl ne peut restreindre qu'une cible à la fois.\n**Modifier la forme.** Le couatl se polymorphe magiquement en Challenge Rating=[&0;&4], ou de nouveau dans sa forme réelle. Il revient à sa vraie forme s'il meurt. Tout équipement qu'il porte ou qu'il transporte est absorbé ou porté par la nouvelle forme (le choix du couatl).\nDans une nouvelle forme, le couatl conserve ses statistiques de jeu et sa capacité à parler, mais ses modes de mouvement, Force, Dextérité, et autres actions sont remplacés par celles de la nouvelle forme, et il gagne toutes les statistiques et capacités (sauf les fonctionnalités de classe, les actions légendaires et les actions de lair) que la nouvelle forme a mais qu'elle manque. Si la nouvelle forme a une attaque de morsure, le couatl peut utiliser sa morsure dans cette forme.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "1d6+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/d742b81d31_monstre-saleeth-le-couatl.webp",
+ "notes": "points de vie : 97",
+ "source": "Adventure with Muk (5e.tools, traduction automatique)",
+ "aka": "Saleeth le couatl",
+ "caNote": "armure naturelle"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "woe-strider",
+ "name": "Woe Strider",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 110,
+ "hpFormula": "13d10+39",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 8,
+  "SAG": 14,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "télépathie 36 m",
+ "traits": "**Cône antimagique.** La bouche ouverte de l'étrier de malheur crée une zone d'antimagique, comme dans le sort Champ antimagie, dans un cône 18 m. Au début de chacun de ses virages, l'étrier de malheur décide de la direction du cône et de l'ouverture ou de la fermeture de sa bouche.",
+ "actionsText": "**Multiattaques.** Le malheureux streider fait deux attaques de griffes et une attaque de morsure. Si les deux griffes frappent la même créature, la cible est agrippé (évasion DD 14).\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants plus 3 (1d6) dégâts psychiques.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature qui est agrippé, neutralisé ou entravé. Touché : 13 (2d8 + 4) dégâts perforants plus 16 (3d10) dégâts psychiques. En outre, chaque objet magique que la créature porte qui n'est pas un artefact a ses propriétés magiques supprimées pendant 1 minute.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "tranchant + psychique"
+  },
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/5a5f15de75_monstre-woe-strider.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Intimidation +5, Perception +5",
+ "conditionImmunities": "effrayé"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "femelle-steeder",
+ "name": "Female Steeder",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 14,
+ "hp": 30,
+ "hpFormula": "4d10+8",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "—",
+ "traits": "**Leap extraordinaire.** La distance des longs sauts de l'éleveur est triplée; chaque pied de sa vitesse de marche qu'il dépense sur le saut lui permet de déplacer 0,90 m.\n**Escalade des araignées.** Le steeder peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 9 (2d8) dégâts de poison.\n**Jambe collante.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature moyenne ou plus petite. Touché : La cible est collée à la jambe du steeder et agrippé (évasion DD 12). Le steeder ne peut avoir qu'une créature agrippé à la fois.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Jambe collante",
+   "bonus": 5,
+   "damage": "",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/6622086871_monstre-femelle-steeder.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Femelle Steeder",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +7, Perception +4"
+}

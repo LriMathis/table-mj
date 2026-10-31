@@ -1,0 +1,44 @@
+{
+ "id": "geant-des-collines",
+ "name": "Géant des collines",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 105,
+ "hpFormula": "10d12+40",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 8,
+  "CON": 19,
+  "INT": 5,
+  "SAG": 9,
+  "CHA": 6
+ },
+ "skills": "Perception +2",
+ "senses": "Perception passive 12",
+ "languages": "gigant",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le géant effectue deux attaques, réparties à sa guise entre Arbre-massue et Lancer de détritus.\n**Arbre-massue.** Corps à corps : +8, allonge 3 m. Touché : 18 (3d8 + 5) dégâts contondants. Si la cible est une créature de taille G ou inférieure, elle subit l’état À terre.\n**Lancer de détritus.** À distance : +8, portée 18/72 m. Touché : 16 (2d10 + 5) dégâts contondants, et la cible subit l’état Empoisonné jusqu’à la fin de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Arbre-massue",
+   "bonus": 8,
+   "damage": "3d8+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Lancer de détritus",
+   "bonus": 8,
+   "damage": "2d10+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/317f1a8275_monstre-geant-des-collines.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 153"
+}

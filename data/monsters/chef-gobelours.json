@@ -1,0 +1,45 @@
+{
+ "id": "chef-gobelours",
+ "name": "Chef gobelours",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 17,
+ "caNote": "chemise de mailles, bouclier",
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "skills": "Discrétion +6, Intimidation +2, Survie +3",
+ "senses": "vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, gobelin",
+ "traits": "**Attaque surprise.** Si le gobelours surprend une créature et réussit une attaque contre elle lors du premier round de combat, cette attaque inflige 7 (2d6) dégâts supplémentaires à la cible.\n**Brutal.** Une arme de corps à corps inflige un dé de dégâts supplémentaire quand le gobelours touche son ennemi avec elle (déjà inclus dans l'attaque).\n**Cœur de Hruggek.** Le gobelours est avantagé lors des jets de sauvegarde contre les états charmé, empoisonné, étourdi, paralysé et terrorisé, ainsi que contre les effets qui forcent le sommeil.",
+ "actionsText": "**Attaques multiples.** Le gobelours effectue deux attaques au corps à corps.\n**Javeline.** *Attaque d'arme au corps à corps ou à distance :* +5 pour toucher, allonge 1,50 m ou portée 9/36 m, une cible. *Touché :* 10 (2d6+3) dégâts perforants au corps à corps ou 6 (1d6+3) dégâts perforants à distance.\n**Morgenstern.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une cible. *Touché :* 12 (2d8+3) dégâts perforants.",
+ "portrait": "/data/images/e00b967056_monstre-chef-gobelours.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 166 · image : Manuel des monstres p. 165",
+ "attacks": [
+  {
+   "name": "Javeline",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Morgenstern",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "perforant"
+  }
+ ]
+}

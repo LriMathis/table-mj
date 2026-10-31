@@ -1,0 +1,41 @@
+{
+ "id": "kender-skirmisher",
+ "name": "Kender Skirmisher",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 14,
+ "hp": 14,
+ "hpFormula": "4d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 8,
+  "CHA": 14
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, Haut-parleur Kinders",
+ "traits": "",
+ "actionsText": "**Coq.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 12/48 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants, ou 5 (1d4 + 3) dégâts contondants si le kender a utilisé l'écharpe du hoopak pour faire une attaque variée.\n**C'est une blague..** Le kender lance un barrage d'insultes sur une créature qu'il peut voir en lui-même en 18 m. Si la cible peut entendre le kender, la cible doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou avoir un désavantage sur jets d'attaque jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Coq",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + contondant"
+  }
+ ],
+ "portrait": "/data/images/1504f552cb_monstre-kender-skirmisher.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Perception +3, Escamotage +7, Discrétion +5",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Elusive.** Le kender prend l'action Se désengager ou Se cacher."
+}

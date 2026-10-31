@@ -1,0 +1,44 @@
+{
+ "id": "thinnings",
+ "name": "Thinnings",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Action énergique.** À chacun de ses tours, Thinnings peut utiliser un action bonus pour prendre l'action Foncer, Se désengager ou Se cacher.\n**Attaque d'éternuement (1/Turn).** Thinnings inflige un dégâts supplémentaire de 7 (2d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur le jet d'attaque, ou lorsque la cible est à l'intérieur de 1,50 m d'un allié de Thinnings qui n'est pas neutralisé et Thinnings n'a pas d'inconvénient sur le jet d'attaque.",
+ "actionsText": "**Multiattaques.** Thinnings fait deux attaques à la mêlée.\n**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Acrobatie des mains.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Modifier la forme.** Les parchemins peuvent se rendre aussi plat qu'un morceau de parchemin ou revenir à son épaisseur normale. Dans sa forme aplatie, il peut glisser sous les portes, se rouler, ou même se plier dans les pages d'un livre.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/419668c73e_monstre-thinnings.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "skills": "Tromperie +5, Perspicacité +4, Investigation +5, Perception +6, Persuasion +5, Escamotage +4, Discrétion +4"
+}

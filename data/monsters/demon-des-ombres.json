@@ -1,0 +1,43 @@
+{
+ "id": "demon-des-ombres",
+ "name": "Démon des ombres",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 66,
+ "hpFormula": "12d8+12",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 1,
+  "DEX": 17,
+  "CON": 12,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "saves": "DEX +5, CHA +4",
+ "skills": "Discrétion +7",
+ "vulnerabilities": "radiants",
+ "resistances": "acide, feu, tonnerre, nécrotiques ; contondants, perforants et tranchants infligés par des attaques non magiques",
+ "immunities": "foudre, froid, poison",
+ "conditionImmunities": "à terre, empoigné, empoisonné, entravé, épuisé, paralysé, pétrifié",
+ "senses": "vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Déplacement intangible.** Le démon des ombres peut traverser créatures et objets en les considérant comme un terrain difficile. Il subit 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Sensibilité à la lumière.** Le démon des ombres est désavantagé lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à une lumière vive.\n**Discrétion dans les ombres.** Tant qu'il se trouve dans une zone faiblement éclairée ou plongée dans l'obscurité totale, le démon peut effectuer l'action se cacher par une action bonus.",
+ "actionsText": "**Griffes.** *Attaque d'arme au corps à corps :* +5 pour toucher, allonge 1,50 m, une créature. *Touché :* 10 (2d6+3) dégâts psychiques, ou 17 (4d6+3) dégâts psychiques si le démon était avantagé lors du jet d'attaque.",
+ "portrait": "/data/images/c051165ef6_monstre-demon-des-ombres.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 59 · image : Manuel des monstres p. 58",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "psychique"
+  }
+ ]
+}

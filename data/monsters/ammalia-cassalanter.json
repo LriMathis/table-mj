@@ -1,0 +1,41 @@
+{
+ "id": "ammalia-cassalanter",
+ "name": "Ammalia Cassalanter",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 45,
+ "hpFormula": "10d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, draconique, elfique, infernal",
+ "traits": "**Détection orthographique.** Ammalia est un spellcaster de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort). Elle a préparé les sorts d'assistants suivants :\n- Sorts mineurs (à volonté) : Amis, Main de mage, Réparation, Message\n- Niveau 1 (4 emplacements) : Charme-personne, Armure de mage, Projectile magique\n- Niveau 2 (3 emplacements) : Immobilisation de personne, Invisibilité, Suggestion\n- Niveau 3 (3 emplacements) : Boule de feu, Hâte, Don des langues\n- Niveau 4 (3 emplacements) : Confusion, Peau de pierre\n- Niveau 5 (1 emplacements) : Immobilisation de monstre",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d6 - 1) dégâts contondants, ou 3 (1d8 - 1) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 2,
+   "damage": "1d6-1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/eaaa1a663b_monstre-ammalia-cassalanter.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "saves": "INT +6, SAG +4",
+ "skills": "Arcanes +6, Histoire +6, Perspicacité +4, Persuasion +5",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

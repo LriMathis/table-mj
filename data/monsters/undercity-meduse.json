@@ -1,0 +1,40 @@
+{
+ "id": "undercity-meduse",
+ "name": "Undercity Medusa",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 16,
+ "hp": 120,
+ "hpFormula": "16d8+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, elfique",
+ "traits": "**Résistance magique.** La médusa a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Attaque surprise.** Au cours du premier tour de combat, la médusa a avantage sur jets d'attaque contre toute créature qui est surpris, et il inflige un 10 (3d6) de dégâts supplémentaires chaque fois qu'il frappe une telle créature avec une attaque.\n**Découpe intérieure.** Le caractéristique d'incantation inné de la médusa est Intelligence (spell save DD 14). La médusa peut innéement lancer les sorts suivants, ne nécessitant pas de composants matériels:\n- 1/jour chacun : Repli expéditif, Nappe de brouillard, Foulée brumeuse",
+ "actionsText": "**Multiattaques.** La médusa fait deux attaques de griffes. Il peut également utiliser Petrifing Gaze avant ou après ces attaques.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Gaz pétrifiant.** La médusa fixe son regard sur une créature à l'intérieur de 18 m qu'elle peut voir et qui peut voir ses yeux. La cible doit faire un DD 14 jet de sauvegarde de Constitution. Si le jet de sauvegarde échoue par 5 ou plus, la créature est instantanément pétrifié. Sinon, une créature qui échoue au sauvetage commence à se tourner vers la pierre et est entravé. La créature entravé doit répéter la jet de sauvegarde à la fin de son prochain tour, devenant pétrifié sur un échec ou mettant fin à l'effet sur un succès. La pétrification dure jusqu'à ce que la créature soit libérée par un sort Restauration supérieure ou une magie similaire.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/8bf8f57ab8_monstre-undercity-meduse.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Undercity méduse",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +5, Perspicacité +4, Perception +4, Discrétion +7"
+}

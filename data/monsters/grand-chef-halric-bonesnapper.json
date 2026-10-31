@@ -1,0 +1,39 @@
+{
+ "id": "grand-chef-halric-bonesnapper",
+ "name": "Great Chief Halric Bonesnapper",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 99,
+ "hpFormula": "9d8+27",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Perception passive 10",
+ "languages": "Les deux, commun",
+ "traits": "**Sans déconner.** Au début de son tour, Halric peut gagner de l'avantage sur toute l'arme de mêlée jets d'attaque pendant ce tour, mais jets d'attaque contre elle a avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Grandaxe +1.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d12 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Grandaxe +1",
+   "bonus": 6,
+   "damage": "1d12+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ced102c89a_monstre-grand-chef-halric-bonesnapper.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Grand chef Halric Bonesnapper",
+ "caNote": "Cache l'armure"
+}

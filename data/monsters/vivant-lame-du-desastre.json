@@ -1,0 +1,42 @@
+{
+ "id": "vivant-lame-du-desastre",
+ "name": "Living Blade of Disaster",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 67,
+ "hpFormula": "9d6+36",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 19,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Résistance magique.** Le sort vivant a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sans entrave.** Le sort vivant peut se déplacer à travers n'importe quelle barrière, même un mur de force magique.\n**Nature inhabituelle.** Le sort vivant ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Lame force.** Attaque de sort au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 26 (4d12) dégâts de force, sauf si le sort vivant a roulé un 18 ou plus sur le d20 pour l'attaque, auquel cas l'attaque est un coup critique qui traite 78 (12d12) dégâts de force à la place.",
+ "attacks": [
+  {
+   "name": "Lame force",
+   "bonus": 6,
+   "damage": "4d12",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/abaab10e79_monstre-vivant-lame-du-desastre.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Vivant lame du désastre",
+ "caNote": "armure naturelle",
+ "immunities": "poison, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "aveuglé, assourdi, épuisement, agrippé, paralysé, pétrifié, empoisonné, entravé, inconscient",
+ "reactions": "**Grève préventive.** Le sort vivant fait une attaque de mêlée contre une créature qui commence son tour dans 1,50 m du sort vivant."
+}

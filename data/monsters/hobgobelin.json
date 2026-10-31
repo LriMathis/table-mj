@@ -1,14 +1,16 @@
 {
  "id": "hobgobelin",
  "name": "Hobgobelin",
- "type": "Humanoïde",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyale mauvaise",
  "cr": "1/2",
  "xp": 100,
  "ca": 18,
  "hp": 11,
  "hpFormula": "2d8+2",
  "vitesse": "9 m",
- "size": 1,
  "stats": {
   "FOR": 13,
   "DEX": 12,
@@ -17,21 +19,26 @@
   "SAG": 10,
   "CHA": 9
  },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, gobelin",
+ "traits": "**Tactique de meute.** Quand au moins un de ses alliés non Neutralisés se situe dans un rayon de 1,50 m de la créature qu’il cible, le hobgobelin a l’Avantage au jet d’attaque correspondant contre cette créature.",
+ "actionsText": "**Épée longue.** Corps à corps : +3, allonge 1,50 m. Touché : 12 (2d10 + 1) dégâts tranchants.\n**Arc long.** À distance : +3, portée 45/180 m. Touché : 5 (1d8 + 1) dégâts perforants plus 7 (3d4) dégâts de poison.",
  "attacks": [
   {
    "name": "Épée longue",
    "bonus": 3,
-   "damage": "1d8+1",
+   "damage": "2d10+1",
    "type": "tranchant"
   },
   {
    "name": "Arc long",
    "bonus": 3,
-   "damage": "1d8+1",
-   "type": "perforant"
+   "damage": "1d8+1+3d4",
+   "type": "perforant + poison"
   }
  ],
- "traits": "**Avantage martial.** Une fois par tour, +2d6 dégâts si un allié est à 1,50 m de la cible.",
- "portrait": "/data/images/d5c38f0871_monstre-hobgobelin.svg",
- "notes": ""
+ "portrait": "/data/images/4b1b10baf6_monstre-hobgobelin.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr",
+ "aka": "Combattant hobgobelin (2024)"
 }

@@ -1,0 +1,41 @@
+{
+ "id": "blistercoil-ennemi-subconscient",
+ "name": "Blistercoil Weird",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "12 m, nage 18 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "draconique",
+ "traits": "**Alimentation sur feu.** Si l'étrange prend dégâts de feu d'un sort ou d'un autre effet magique, sa taille augmente d'une catégorie. S'il n'y a pas assez de place pour l'étrange pour augmenter la taille, il atteint la taille maximale possible dans l'espace disponible. Alors que le bizarre est grand ou plus grand, il rend tests de Force et jet de sauvegarde avec avantage. Si le bizarre commence son tour à la taille de Gargantuan, le bizarre libère de l'énergie dans une explosion. Chaque créature dans 9 m de l'étrange doit faire un DD 12 jet de sauvegarde de Dextérité, en prenant 28 (8d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. L'explosion enflamme des objets inflammables dans la zone qui ne sont pas portés ou transportés. La taille de l'étrange devient alors moyenne.\n**Forme de feu et eau.** L'étrange peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer. En outre, le bizarre peut entrer dans l'espace d'une créature hostile et s'arrêter là. La première fois que l'étrange entre dans l'espace d'une autre créature sur un tour, cette créature prend 5 (1d10) dégâts de feu et prend feu; jusqu'à ce que quelqu'un prenne une action pour faire le feu, la créature en feu prend 5 (1d10) dégâts de feu au début de chacun de ses tours.\n**Corps chauffé.** Une créature qui touche l'étrange ou la frappe avec une attaque de mêlée alors que dans 1,50 m il prend 5 (1d10) dégâts de feu.\n**Éclairage.** L'étrange apporte une lumière lumineuse dans un rayon de 9 m et une lumière dim pour un 9 m supplémentaire.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants plus 7 (2d6) dégâts de feu, ou 11 (2d8 + 3) dégâts contondants plus 14 (4d6) dégâts de feu si le bizarre est grand ou plus grand.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/eb47599c62_monstre-blistercoil-ennemi-subconscient.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Blistercoil ennemi subconscient",
+ "resistances": "froid, feu, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient"
+}

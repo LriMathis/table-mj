@@ -1,0 +1,38 @@
+{
+ "id": "melannor-fellbranch",
+ "name": "Melannor Fellbranch",
+ "type": "Humanoïde (demi-elf)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, elfique",
+ "traits": "**Ancêtre fécale.** Melannor a l'avantage sur jet de sauvegarde contre charmé et la magie ne peut pas le mettre au lit.\n**Détection orthographique.** Melannor est un spellcaster de niveau 4. Son caractéristique d'incantation est Sagesse. Il a préparé les sorts druides suivants:\n- Sorts mineurs (à volonté) : Druidisme, Flammes, Gourdin magique\n- Niveau 1 (4 emplacements) : Enchevêtrement, Grande foulée, Communication avec les animaux, Vague tonnante\n- Niveau 2 (3 emplacements) : Messager animal, Peau d'écorce",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +2 au toucher ou Melee Arme Attack +4 au toucher avec shillelagh, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants, ou 6 (1d8 + 2) dégâts contondants avec shillelagh ou avec deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/70246d7702_monstre-melannor-fellbranch.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "skills": "Médecine +4, Nature +3, Perception +4"
+}

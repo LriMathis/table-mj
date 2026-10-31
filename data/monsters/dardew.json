@@ -1,0 +1,42 @@
+{
+ "id": "dardew",
+ "name": "Dardew",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 19,
+ "hp": 105,
+ "hpFormula": "14d8+42",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "abyssal, commun, infernal",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Dardew fait deux attaques, en utilisant Fiery Claw ou Power Chord dans n'importe quelle combinaison.\n**Griffe de feu.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts tranchants plus 7 (2d6) dégâts de feu.\n**Chœur de puissance.** Jet de sauvegarde de Constitution : DD 14, une créature Dardew peut voir dans 36 m. Échec : 13 (3d6 + 3) dégâts de tonnerre.",
+ "attacks": [
+  {
+   "name": "Griffe de feu",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/cbf94d2f46_monstre-dardew.webp",
+ "notes": "",
+ "source": "Stranger Things: Welcome to the Hellfire Club (5e.tools, traduction automatique)",
+ "saves": "INT +5, CHA +6",
+ "skills": "Tromperie +6, Perception +4, Représentation +9",
+ "resistances": "froid, feu, foudre, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Langue d'argent.** Jet de sauvegarde de Charisme : DD 14, une créature Dardew peut voir dans 18 m. Échec : La créature a l'état charmé jusqu'au prochain tour de Dardew."
+}

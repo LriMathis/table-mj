@@ -1,0 +1,44 @@
+{
+ "id": "ramya-vasavadan",
+ "name": "Ramya Vasavadan",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 190,
+ "hpFormula": "20d8+100",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 20,
+  "CON": 20,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "abyssal, commun",
+ "traits": "**Restauration de lord noir.** Si Ramya meurt, son corps se dissout en brume, et elle gagne un nouveau corps en 1d10 semaines, en revivant avec tout son points de vie quelque part à Kalakeri.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Ramya échoue un jet de sauvegarde, elle peut choisir de réussir à la place.\n**Résistance magique.** Ramya a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Le maréchal n'est pas mort.** Des créatures mortes du choix de Ramya (sauf elle-même) dans une Emanation 18 m provenant de son avantage sur jets d'attaque et jet de sauvegarde. Elle ne peut pas utiliser ce trait si elle a l'état neutralisé.\n**Autorité responsable.** Ramya lance Injonction, en utilisant le même caractéristique d'incantation que Spellcasting. Ramya ne peut pas recommencer jusqu'au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Ramya fait trois attaques de Dread Blade.\n**Lame de dragage.** Jet d'attaque au corps à corps : +10, allonge 1,50 m. Touché : 12 (2d6 + 5) dégâts tranchants plus 9 (2d8) dégâts nécrotiques.\n**Vengeant feu (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 17, chaque créature dans une sphère 6 m -radius centrée sur un point Ramya peut voir dans 36 m. Échec : 28 (8d6) dégâts de feu plus 28 (8d6) dégâts nécrotiques. Réussite : Demi-dégâts.\n**Détection orthographique.** Ramya lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Monture fantôme\n- 1/jour : Création de mort-vivant",
+ "attacks": [
+  {
+   "name": "Lame de dragage",
+   "bonus": 10,
+   "damage": "2d6+5",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/a82d237402_monstre-ramya-vasavadan.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "FOR +7, SAG +8",
+ "skills": "Perception +8, Persuasion +9",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, effrayé, empoisonné",
+ "bonusActions": "**Illusoire Disguise.** Ramya lance Déguisement en utilisant le même caractéristique d'incantation que Spellcasting. Le sort dure jusqu'à ce que Ramya tombe à 80 points de vie ou moins ou utilise son action Vengeful feu. tests d'Intelligence (Investigation) pour discerner son apparence véritable sont faites avec Disadvantage.\nLorsque le déguisement se termine, chaque créature dans une Emanation 9 m originaire de Ramya est soumise à l'effet suivant. jet de sauvegarde de Sagesse : DD 17 (la cible réussit automatiquement si c'est un Construct ou un Undead). Défaut: La cible a l'état effrayé pendant 1 minute. Alors qu'effrayé, la cible a un désavantage sur jet de sauvegarde.\n- À volonté : Déguisement",
+ "reactions": "**Parry.** Déclencheur : Ramya est frappé par une melee jet d'attaque tout en tenant une arme. Réponse : Ramya ajoute 5 à sa CA contre cette attaque, ce qui peut la faire manquer.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, ramya vasavadan peut entreprendre l'une des actions ci-après.\n**Lunge.** Ramya se déplace jusqu'à la moitié de sa vitesse et fait une attaque de la lame de dread.\n**Mots de silence.** Jet de sauvegarde de Constitution : DD 17, une créature Ramya peut voir dans 36 m. Échec : 21 (6d6) dégâts psychiques, et la cible est maudite jusqu'à la fin de son prochain tour. Jusqu'à la fin de la malédiction, la cible ne peut pas parler ou lancer des sorts avec un composant verbal. Réussite : Demi-dégâts seulement."
+}

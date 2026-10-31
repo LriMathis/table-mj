@@ -1,0 +1,40 @@
+{
+ "id": "jeune-dragon-d-or",
+ "name": "Jeune dragon d'or",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 178,
+ "hpFormula": "17d10+85",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 14,
+  "CON": 21,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 20
+ },
+ "saves": "DEX +6, SAG +5",
+ "skills": "Discrétion +6, Intuition +5, Perception +9, Persuasion +9",
+ "immunities": "feu",
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 19",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer sous l’eau comme à l’air libre.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée. Il peut remplacer l’une de ces attaques par une utilisation de Souffle affaiblissant.\n**Saignée.** Corps à corps : +10, allonge 3 m. Touché : 17 (2d10 + 6) dégâts tranchants.\n**Souffle affaiblissant.** JS Force : DD 17, chaque créature non encore affectée par ce souffle dans un Cône de 9 m. Échec : la cible subit le Désavantage aux Tests d20 basés sur la Force et soustrait 3 (1d6) à ses jets de dégâts. Elle réitère le JS à la fin de chacun de ses tours, et met un terme à l’effet sur elle-même en cas de réussite. Au bout de 1 minute, elle réussit automatiquement ce JS.\n**Souffle de feu (recharge 5–6).** JS Dextérité : DD 17, chaque créature dans un Cône de 9 m. Échec : 55 (10d10) dégâts de feu. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ff6a77e593_monstre-jeune-dragon-d-or.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 111"
+}

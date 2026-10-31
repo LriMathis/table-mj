@@ -1,0 +1,41 @@
+{
+ "id": "esprit-dragon-dragonnet",
+ "name": "Spirit Dragon Wyrmling",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "9 m, creusement 6 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 12",
+ "languages": "commun, Draconique; télépathie 36 m.",
+ "traits": "",
+ "actionsText": "**Rend.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 9 (2d6 + 2) dégâts tranchants plus 3 (1d6) dégâts nécrotiques.\n**Respiration ruine (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 12, chaque créature dans un cône 4,50 m. Échec : 13 (3d8) dégâts nécrotiques. Réussite : Demi-dégâts.\n**Inspiration de l'heure.** Jet de sauvegarde de Sagesse : DD 12, chaque créature qui n'est pas actuellement affectée par ce souffle dans un cône 4,50 m. Échec : La vitesse de la cible est réduite de moitié, elle ne peut pas prendre de Réactions, et elle peut prendre une action ou une action bonus à son tour, pas les deux. Il répète l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur lui-même sur un succès. Après 1 minute, il réussit automatiquement.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/5358f81104_monstre-esprit-dragon-dragonnet.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Esprit dragon dragonnet",
+ "saves": "DEX +3, CON +4",
+ "skills": "Perception +2, Discrétion +3",
+ "resistances": "nécrotique"
+}

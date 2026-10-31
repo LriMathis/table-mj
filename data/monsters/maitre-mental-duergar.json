@@ -1,0 +1,43 @@
+{
+ "id": "maitre-mental-duergar",
+ "name": "Duergar Mind Master",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 39,
+ "hpFormula": "6d8+12",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Vision parfaite 9 m, Perception passive 12",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Résilience des duers.** Le duergar a un avantage sur jet de sauvegarde contre les sorts et les conditions charmé, paralysé et empoisonné.\n**Sensibilité à la lumière du soleil.** En plein soleil, le duergar présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le duergar fait deux attaques Mind- poison Dagger. Il peut remplacer une attaque par une utilisation de Mind Mastery.\n**Mind- poison Dague.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 10 (3d6) dégâts psychiques, ou 1 dégâts perforants plus 10 (3d6) dégâts psychiques alors que sous l'effet de Réduire.\n**Invisible (Recharge 4-6).** Le duergar tourne magiquement invisible pendant 1 heure ou jusqu'à ce qu'il attaque, il force une créature à faire un jet de sauvegarde ou son concentration est cassé (comme si concentrating sur un sort). Tout équipement que le duergar porte ou porte est invisible.\n**Maîtrise de l'esprit.** Le duergar cible une créature qu'il peut voir à l'intérieur de 18 m. La cible doit réussir sur un DD 12 jet de sauvegarde d'Intelligence, ou le duergar lui fait utiliser sa réaction, si disponible, soit pour faire une attaque d'arme contre une autre créature que le duergar peut voir ou pour passer à 3 m dans le sens du choix du du duergar. Les créatures qui ne peuvent pas être charmé sont immunisées contre cet effet.",
+ "attacks": [
+  {
+   "name": "Mind- poison Dague",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/60982fe03e_monstre-maitre-mental-duergar.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Maître mental duergar",
+ "caNote": "Armure en cuir",
+ "saves": "SAG +2",
+ "skills": "Perception +2, Discrétion +5",
+ "resistances": "poison",
+ "bonusActions": "**Réduire (Recharges après un repos court ou long).** Pendant 1 minute, le duergar diminue magiquement en taille, avec tout ce qu'il porte ou porte. Bien que réduit, le duergar est Tiny, réduit ses dégâts d'armes à 1, et rend jets d'attaque, tests de caractéristique et jet de sauvegarde avec un désavantage s'ils utilisent Force. Il gagne un bonus de +5 à tous les tests de Dextérité (Discrétion) et un bonus de +5 à son CA. Il peut également prendre un action bonus à chacun de ses tours pour prendre l'action Se cacher."
+}

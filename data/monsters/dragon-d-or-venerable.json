@@ -1,0 +1,41 @@
+{
+ "id": "dragon-d-or-venerable",
+ "name": "Dragon d'or vénérable",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal bon",
+ "cr": "24",
+ "xp": 62000,
+ "ca": 22,
+ "hp": 546,
+ "hpFormula": "28d20+252",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 14,
+  "CON": 29,
+  "INT": 18,
+  "SAG": 17,
+  "CHA": 28
+ },
+ "saves": "DEX +9, SAG +10",
+ "skills": "Discrétion +9, Intuition +10, Perception +17, Persuasion +16",
+ "immunities": "feu",
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 27",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Le dragon peut respirer sous l’eau comme à l’air libre.\n**Résistance légendaire (4/jour, ou 5/jour dans son antre).** Si le dragon rate un jet de sauvegarde, il peut décider de le réussir tout de même.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée. Il peut remplacer l’une de ces attaques par une utilisation de (A) Incantation pour lancer *rayon traçant* (au 4e niveau) ou (B) Souffle affaiblissant.\n**Saignée.** Corps à corps : +17, allonge 4,50 m. Touché : 19 (2d8 + 10) dégâts tranchants plus 9 (2d8) dégâts de feu.\n**Incantation.** Le dragon lance l’un des sorts suivants sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 24, +16 pour toucher) :\n- À volonté : *changement de forme* (Bête ou Humanoïde uniquement, le sort ne fait pas gagner de points de vie temporaires, ni Concentration ni points de vie temporaires nécessaires pour maintenir le sort), *détection de la magie*, *rayon traçant* (au 4e niveau)\n- 1/jour chacun : *colonne de flamme* (au 6e niveau), *mot de retour*, *zone de vérité*\n**Souffle affaiblissant.** JS Force : DD 24, chaque créature non encore affectée par ce souffle dans un Cône de 27 m. Échec : la cible subit le Désavantage aux Tests d20 basés sur la Force et soustrait 5 (1d10) à ses jets de dégâts. Elle réitère le JS à la fin de chacun de ses tours, et met un terme à l’effet sur elle-même en cas de réussite. Au bout de 1 minute, elle réussit automatiquement ce JS.\n**Souffle de feu (recharge 5–6).** JS Dextérité : DD 24, chaque créature dans un Cône de 27 m. Échec : 71 (13d10) dégâts de feu. Réussite : demi-dégâts.",
+ "legendary": "**Utilisations d'action Légendaire : 3 (4 dans son antre).** Aussitôt après le tour d'une autre créature, le dragon peut dépenser une utilisation pour entreprendre l'une des actions ci-après. Le dragon récupère toutes ses utilisations dépensées au début de chacun de ses tours.\n**Assaut incisif.** Le dragon se déplace à concurrence de la moitié de sa Vitesse et effectue une attaque de Saignée.\n**Bannissement.** JS Charisme : DD 24, une créature que le dragon voit dans un rayon de 36 m. Échec : 24 (7d6) dégâts de force ; la cible subit l’état Neutralisé et elle est transportée sur un demi-plan qui ne présente pas de danger jusqu’au début du tour suivant du dragon, puis elle réapparaît en un espace inoccupé au choix du dragon dans un rayon de 36 m. Échec ou réussite : Le dragon ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.\n**Lumière traçante.** Le dragon recourt à Incantation pour lancer *rayon traçant* (au 4e niveau).",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 17,
+   "damage": "2d8+10+2d8",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/ff6a77e593_monstre-dragon-d-or-venerable.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 111"
+}

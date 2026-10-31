@@ -1,0 +1,48 @@
+{
+ "id": "pestilence-demon",
+ "name": "Pestilence Demon",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 104,
+ "hpFormula": "11d10+44",
+ "vitesse": "12 m, vol 18 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Résistance magique.** Le démon a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le démon fait deux attaques : une avec son bec et une avec ses talons.\n**Bec.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants.\n**Talons.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 14 (2d10 + 3) dégâts tranchants.\n**Spores (Recharge 6).** Un nuage de spores toxiques 4,50 m -radius s'étend du démon. Les spores s'étendent autour des coins. Chaque créature dans cette zone doit réussir sur un DD 14 jet de sauvegarde de Constitution ou devenir empoisonné. Alors qu'empoisonné de cette façon, une cible prend 5 (1d10) dégâts de poison au début de chacun de ses tours. Une cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Vider une fiole d'eau bénite sur la cible finit également l'effet sur elle.\n**Échelle éblouissante (1/jour).** Le démon émet un cri horrible. Chaque créature au sein de 6 m qui peut l'entendre et qui n'est pas un démon doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être étourdi jusqu'à la fin du prochain tour du démon.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Talons",
+   "bonus": 6,
+   "damage": "2d10+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ed76500e3e_monstre-pestilence-demon.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, SAG +4, CHA +2",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

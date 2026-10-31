@@ -1,0 +1,41 @@
+{
+ "id": "skeletal-juggernaut",
+ "name": "Skeletal Juggernaut",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 142,
+ "hpFormula": "19d10+38",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Démontage.** Si le juggernaut est réduit à 0 points de vie, douze squelettes s'élèvent de ses restes.\n**La chute à l'écart.** Si le juggernaut n'a pas tout son points de vie au début de son tour, il perd 10 points de vie.",
+ "actionsText": "**Multiattaques.** Le juggernaut fait deux attaques de griffes.\n**Griffes.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 12 (2d8 + 3) dégâts tranchants.\n**Avalanche des os (Recharge 5-6).** Le juggernaut s'effondre dans un gros tas avant de se réformer rapidement. Chaque créature de 3 m du juggernaut doit faire un DD 14 jet de sauvegarde de Dextérité en prenant 18 (4d8) dégâts contondants en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature qui échoue ce jet de sauvegarde est également à terre.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 6,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/318ec4eb3f_monstre-skeletal-juggernaut.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "caNote": "déchets d'armures",
+ "vulnerabilities": "contondant",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

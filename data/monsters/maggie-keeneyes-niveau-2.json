@@ -1,0 +1,49 @@
+{
+ "id": "maggie-keeneyes-niveau-2",
+ "name": "Maggie Keeneyes (Tier 2)",
+ "type": "Géant (ogre)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 114,
+ "hpFormula": "12d10+48",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun, géant",
+ "traits": "**Poussez.** Une fois lors de chacun de ses tours, après avoir frappé une créature avec une attaque, Maggie peut forcer la cible à faire un DD 15 jet de sauvegarde de Force ; sur une sauvegarde ratée, la cible est poussée jusqu'à 3 m horizontalement loin de Maggie et à terre.\n**Préparation tactique.** Maggie et ses alliés au sein de 9 m ont l'avantage sur les rouleaux d'initiative, tant que Maggie n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Maggie fait deux attaques de Maul géant ou Hammer Toss.\n**Maul géant.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants.\n**Marteau.** Attaque d'arme à distance : +7 au toucher, portée 6/18 m., une cible. Touché : 9 (2d4 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Maul géant",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Marteau",
+   "bonus": 7,
+   "damage": "2d4+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/288d5358f2_monstre-maggie-keeneyes-niveau-2.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Maggie Keeneyes (niveau 2)",
+ "caNote": "Chemise chaîne",
+ "saves": "FOR +7, CON +7",
+ "skills": "Athlétisme +7, Perspicacité +6, Perception +6, Persuasion +5",
+ "conditionImmunities": "effrayé",
+ "bonusActions": "**Rallye (1/jour).** Maggie cible une créature elle peut voir en elle-même 9 m et la renforce avec des mots d'encouragement. La cible gagne 15 points de vie temporaires si elle peut voir ou entendre Maggie."
+}

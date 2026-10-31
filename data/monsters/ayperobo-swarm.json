@@ -1,0 +1,43 @@
+{
+ "id": "ayperobo-swarm",
+ "name": "Ayperobo Swarm",
+ "type": "Nuée de taille très petite (Fiélon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 20,
+ "hp": 130,
+ "hpFormula": "20d8+40",
+ "vitesse": "1,50 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 3,
+  "DEX": 24,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 13
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 15",
+ "languages": "céleste, draconique, infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas la vision sombre de l'essaim ayperobo.\n**Résistance magique.** L'essaim ayperobo a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Swarm.** L'essaim ayperobo peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour une créature minuscule. L'essaim ayperobo ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Multiattaques.** L'essaim ayperobo fait trois attaques Bite.\n**Morceau.** Attaque d'arme au corps à corps : +11 au toucher, allonge 0 m, une cible. Touché : 27 (8d4 + 7) dégâts perforants, ou 17 (4d4 + 7) dégâts perforants si l'essaim a la moitié de son points de vie (65) ou moins.\n**Burrow (Recharge 6).** L'essaim ayperobo fait une attaque Bite. Lors d'un coup, l'essaim s'enfonce à l'intérieur de la créature, lui fournissant un 35 (10d6) dégâts nécrotiques supplémentaire et prenant le contrôle de la créature. Au début de chacun de ses tours, la cible peut faire un DD 17 jet de sauvegarde de Constitution, expulser l'essaim ayperobo et prendre 14 (4d6) dégâts perforants sur un succès.\nPendant qu'il était enterré dans une créature, l'essaim ayperobo a trois attaques contre eux, et n'agit plus de leur propre initiative. Au lieu de cela, ils prennent le contrôle total de leur hôte, gagnant toutes ses capacités, attaques, et l'équipement.\nIls agissent pendant le tour de l'hôte, prenant des actions basées sur leur hôte. Si un hôte meurt pendant que l'essaim ayperobo est enterré, il quitte l'hôte à la fin du tour de l'hôte, en roulant si nécessaire. Les créatures qui servent d'hôtes à l'essaim ayperobo sont pleinement conscientes de leurs actions et de leur environnement, mais sont incapables de faire fonctionner leur corps.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 11,
+   "damage": "8d4+7",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/73074006f9_monstre-ayperobo-swarm.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +11, CHA +5",
+ "skills": "Intimidation +5, Perception +5, Discrétion +11, Survie +5",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "blaze",
+ "name": "Blaze",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "6 m, vol 6 m (vol stationnaire) (mouvement vertical seulement;)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 17,
+  "CON": 16,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Blaze Rod.** Lorsque le feu tombe à 0 points de vie, il disparaît dans un nuage de fumée et a une chance de 50% de laisser derrière une tige brillante d'une valeur de 100 gp. La tige jette une lumière faible dans un rayon de 1,50 m. Comme une action, une créature peut essayer de casser la tige, ce faisant avec un succès DD 14 test de Force. La tige cassée libère son énergie ardente dans une sphère 1,50 m -radius centrée sur elle-même. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 6 (1d12) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Aura thermique.** Toute créature qui commence son tour à l'intérieur de 1,50 m du feu prend 3 (1d6) dégâts de feu.\n**Éclairage.** L'incendie apporte une lumière lumineuse dans un rayon de 6 m et une lumière faible pour un 6 m supplémentaire.\n**Susceptibilité à l'eau.** L'incendie prend 1 dégâts de froid pour chaque 1,50 m qu'il se déplace dans l'eau, pour chaque gallon d'eau éclaboussé sur elle, ou chaque fois qu'il commence son tour dans la pluie.",
+ "actionsText": "**Multiattaques.** Le feu fait trois attaques Fiery Doom.\n**C'est la folie..** Attaque de sort au corps à corps ou à distance : +6 au toucher ; allonge 1,50 m ou 18 m, une cible. Touché : 8 (1d10 + 3) dégâts de feu, et la cible prend feu si c'est une créature ou un objet inflammable. Jusqu'à ce qu'une créature prenne une action pour éteindre le feu, la cible brûlante prend 3 (1d6) dégâts de feu à la fin de chacun de ses tours.",
+ "attacks": [
+  {
+   "name": "C'est la folie.",
+   "bonus": 6,
+   "damage": "1d10+3",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/19811ca882_monstre-blaze.webp",
+ "notes": "",
+ "source": "MCV3MC (5e.tools, traduction automatique)",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé"
+}

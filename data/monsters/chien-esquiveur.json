@@ -1,0 +1,39 @@
+{
+ "id": "chien-esquiveur",
+ "name": "Chien esquiveur",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyale bonne",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 17,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "skills": "Discrétion +5, Perception +5",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "chien esquiveur, comprend l’elfique et le sylvestre mais ne peut pas les parler",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +5, allonge 1,50 m. Touché : 5 (1d4 + 3) dégâts perforants.",
+ "bonusActions": "**Téléportation (recharge 4–6).** Le chien se téléporte d’un maximum de 12 m dans un espace inoccupé qu’il voit.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c2633b5eb8_monstre-chien-esquiveur.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 324"
+}

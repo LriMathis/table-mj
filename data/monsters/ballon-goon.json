@@ -1,0 +1,42 @@
+{
+ "id": "ballon-goon",
+ "name": "Goon Balloon",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 10,
+ "hp": 6,
+ "hpFormula": "1d8+2",
+ "vitesse": "6 m, escalade 6 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "profond",
+ "traits": "**Coupure.** Le ballon de goon éclate quand il tombe à 0 points de vie, libérant du gaz nocif dans une sphère 3 m -radius centrée sur lui-même. Les créatures dans cette zone doivent réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Une créature empoisonné peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Nature inhabituelle.** Le ballon de goon n'a pas besoin d'air, de nourriture ou de boisson.",
+ "actionsText": "**Multiattaques.** La montgolfière fait deux attaques de la griffe.\n**Griffe.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts tranchants.\n**Yeux scintillants.** La lumière magique et kaléidoscopique émane d'un des yeux du ballon de goon comme le ballon de goon cible une créature qu'il peut voir dans 9 m de lui-même. La cible doit faire un DD 12 jet de sauvegarde de Sagesse, en prenant 6 (1d12) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 2,
+   "damage": "1d6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/cdf33685ed_monstre-ballon-goon.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 1: Spelljammer Creatures (5e.tools, traduction automatique)",
+ "aka": "Ballon Goon",
+ "saves": "CON +4, SAG +4",
+ "skills": "Perception +6",
+ "vulnerabilities": "perforant",
+ "bonusActions": "**Flotte.** La montgolfière monte verticalement à 6 m dans une direction sans provoquer d'attaques d'opportunités. S'il met fin à ce mouvement suspendu dans l'air, il vole en place. Il ne peut pas être à terre en vol."
+}

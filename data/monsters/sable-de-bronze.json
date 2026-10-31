@@ -1,0 +1,42 @@
+{
+ "id": "sable-de-bronze",
+ "name": "Bronze Sable",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 14,
+  "CHA": 1
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "comprend une langue de son créateur mais ne peut pas parler",
+ "traits": "**Fausse apparence.** Bien que la sable reste immobile, elle est indistinctible d'une statue normale.\n**Tactiques de conditionnement.** La sable a un avantage sur une jet d'attaque contre une créature si au moins un des alliés de la sable est à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Attaque surprise.** Si la sable surprend une créature et la frappe avec une attaque lors du premier tour de combat, la cible prend 10 (3d6) de plus de dégâts de l'attaque.",
+ "actionsText": "**Multiattaques.** La sable fait deux attaques de morsure.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/445f7bd4cb_monstre-sable-de-bronze.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Sable de bronze",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +5",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, épuisement, paralysé, pétrifié, empoisonné"
+}

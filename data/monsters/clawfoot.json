@@ -1,0 +1,44 @@
+{
+ "id": "clawfoot",
+ "name": "Clawfoot",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 19,
+ "hpFormula": "3d8+6",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 4,
+  "SAG": 12,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**Tactiques de conditionnement.** Le pied de pince a avantage sur un jet d'attaque contre une créature si au moins un des alliés du pied de pince est dans 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Ponce.** Si le pied de pince se déplace au moins 6 m droit vers une créature et la frappe avec une attaque de griffe au même tour, cette cible doit réussir sur un DD 11 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, le clawfoot peut faire une attaque de morsure contre elle en tant qu'action bonus.",
+ "actionsText": "**Multiattaques.** Le pied de griffe fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants.\n**Griffes.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f04f5c55f8_monstre-clawfoot.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +5"
+}

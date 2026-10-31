@@ -1,0 +1,52 @@
+{
+ "id": "eliphas-adulare",
+ "name": "Eliphas Adulare",
+ "type": "Humanoïde (humain, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 10,
+ "hp": 135,
+ "hpFormula": "18d8+54",
+ "vitesse": "9 m (12 m, monter 9 m en ours ou en hybride)",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 18,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Perception passive 17",
+ "languages": "Fréquent (ne peut pas parler sous forme d'ours)",
+ "traits": "**Changeur de forme.** Eliphas peut utiliser son action pour se polymorphiser en un grand hybride ours-humanoïde ou en un grand ours, ou de nouveau dans sa forme véritable, qui est humanoïde. Ses statistiques, autres que sa taille et CA, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**Sensation de Keen.** Eliphas a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.",
+ "actionsText": "**Multiattaques.** En forme d'ours, Eliphas fait deux attaques de griffes. Sous forme humanoïde, il fait deux attaques de grandeaxe. Sous forme hybride, il peut attaquer comme un ours ou un humanoïde.\n**Bite (forme épineuse ou hybride seulement).** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants. Si la cible est un humanoïde, elle doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie de l'ours.\n**Griffe (forme épineuse ou hybride seulement).** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Greataxe (forme humaine ou hybride seulement).** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d12 + 4) dégâts tranchants.\n**Diffusion orthographique (forme humaine ou hybride seulement).** Eliphas lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (enregistrer DD 15) :\n- À volonté : Lumière, Illusion mineure, Prestidigitation\n- 1/jour chacun : Force fantasmagorique, Fracassement\n- 2/jour chacun : Détection de la magie, Nappe de brouillard",
+ "attacks": [
+  {
+   "name": "Bite (forme épineuse ou hybride seulement)",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe (forme épineuse ou hybride seulement)",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Greataxe (forme humaine ou hybride seulement)",
+   "bonus": 7,
+   "damage": "1d12+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ab4f1ddabb_monstre-eliphas-adulare.webp",
+ "notes": "",
+ "source": "Keys from the Golden Vault (5e.tools, traduction automatique)",
+ "caNote": "sous forme humanoïde",
+ "skills": "Perception +7",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées"
+}

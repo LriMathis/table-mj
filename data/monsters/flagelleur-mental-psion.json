@@ -1,0 +1,47 @@
+{
+ "id": "flagelleur-mental-psion",
+ "name": "Mind Flayer Psion",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "profond, commun des profondeurs, télépathie 36 m",
+ "traits": "**Résistance magique.** La tueuse mentale a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**La diffusion de l'orthographe innée (Psioniques).** La tueuse mentale est un spellcaster de niveau 10. Son caractéristique d'incantation inné est Intelligence (sorption sauvegardez DD 15 ; +7 au toucher avec attaques de sort). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Assistance, Main de mage, Moquerie cruelle, Coup au but, Détection des pensées, Lévitation\n- 1/jour chacun : Domination de monstre, Changement de plan (autoseulement)\n- Niveau 1 (4 emplacements) : Charme-personne, Injonction, Compréhension des langues, Sanctuaire\n- Niveau 2 (3 emplacements) : Couronne du dément, Force fantasmagorique, Voir l'invisible\n- Niveau 3 (3 emplacements) : Clairvoyance, Peur, Fusion dans la pierre\n- Niveau 4 (3 emplacements) : Confusion, Façonnage de la pierre\n- Niveau 5 (2 emplacements) : Scrutation, Télékinésie",
+ "actionsText": "**Tentacules.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 15 (2d10 + 4) dégâts psychiques. Si la cible est moyenne ou plus petite, elle est agrippé (évasion DD 15) et doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou être étourdi jusqu'à ce que ce grappin se termine.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, un humanoïde neutralisé agrippé par la couche mentale. Touché : La cible prend 55 (10d10) dégâts perforants. Si ces dégâts réduisent la cible à 0 points de vie, la tueuse mentale tue la cible en enlevant et en dévorant son cerveau.\n**Boussole mentale (Recharge 5-6).** La tueuse mentale émet magiquement de l'énergie psychique dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou prendre 22 (4d8 + 4) dégâts psychiques et être étourdi pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "psychique"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 7,
+   "damage": "10d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/d439321a43_monstre-flagelleur-mental-psion.webp",
+ "notes": "",
+ "source": "Volo's Guide to Monsters (5e.tools, traduction automatique)",
+ "aka": "Flagelleur mental Psion",
+ "caNote": "Breastplate",
+ "saves": "INT +7, SAG +6, CHA +6",
+ "skills": "Arcanes +7, Tromperie +6, Perspicacité +6, Perception +6, Persuasion +6, Discrétion +4"
+}

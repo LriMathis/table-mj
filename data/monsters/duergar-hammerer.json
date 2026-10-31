@@ -1,0 +1,47 @@
+{
+ "id": "duergar-hammerer",
+ "name": "Duergar Hammerer",
+ "type": "Créature artificielle (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 17,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 7,
+  "CON": 12,
+  "INT": 5,
+  "SAG": 5,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 7",
+ "languages": "comprend Dwarvish mais ne peut pas parler",
+ "traits": "**Monstre de siège.** Le marteau inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le marteau fait une attaque de griffe et un Hammer.\n**Griffe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Marteau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Marteau",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2094698928_monstre-duergar-hammerer.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "reactions": "**Moteur de la douleur.** Immédiatement après qu'une créature de 1,50 m du marteau l'ait frappée avec un jet d'attaque, le marteau fait une attaque de Hammer contre cette créature."
+}

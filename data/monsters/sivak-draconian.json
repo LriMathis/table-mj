@@ -1,0 +1,46 @@
+{
+ "id": "sivak-draconian",
+ "name": "Sivak Draconian",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 57,
+ "hpFormula": "6d10+24",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, draconique",
+ "traits": "**Throès de la mort.** Lorsque le draconien est réduit à 0 points de vie par une créature qui est grande ou plus petite, le draconien s'émiette en poussière qui forme alors une image spectrale, criante de la créature qui l'a tuée. L'image dure 1 minute. Chaque créature hostile au draconien dans 3 m de l'image doit réussir sur un DD 14 jet de sauvegarde de Sagesse ou être effrayé de l'image spectrale pendant 1 minute. Une créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "actionsText": "**Multiattaques.** Le draconien fait deux attaques d'épées déraillées et une attaque de Tail.\n**Épée déraillée.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts contondants. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 14 jet de sauvegarde de Force ou être à terre.",
+ "attacks": [
+  {
+   "name": "Épée déraillée",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2e5d4a988d_monstre-sivak-draconian.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +6, SAG +2",
+ "reactions": "**Vol de forme.** Après que le draconien tue un humanoïde moyen ou plus petit, le draconien se cache magiquement dans une illusion pour regarder et se sentir comme cette créature tout en conservant les statistiques du jeu du draconien (autre que sa taille). Cette transformation dure jusqu'à ce que le draconien meurt ou utilise un action bonus pour y mettre fin."
+}

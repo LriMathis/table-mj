@@ -1,0 +1,48 @@
+{
+ "id": "verin-thelyss",
+ "name": "Verin Thelyss",
+ "type": "Humanoïde (drow, elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 84,
+ "hpFormula": "13d8+26",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "commun, elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Verin a l'avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas le faire dormir.\n**Sensibilité à la lumière du soleil.** En plein soleil, Verin a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Verin fait trois attaques Glaive.\n**Glaive.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 9 (1d10 + 4) dégâts tranchants.\n**Acrobatie des mains.** Attaque d'arme à distance : +7 au toucher, portée 9/36 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants plus 22 (4d10) dégâts de poison.\n**Détection orthographique.** Verin lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques, Lévitation (autoseulement)",
+ "attacks": [
+  {
+   "name": "Glaive",
+   "bonus": 7,
+   "damage": "1d10+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 7,
+   "damage": "1d6+2",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/78887b3058_monstre-verin-thelyss.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "caNote": "demi-plaque",
+ "saves": "FOR +7, CON +5, SAG +5",
+ "skills": "Athlétisme +7, Histoire +4, Perception +5",
+ "bonusActions": "**Manifeste Echo.** Verin crée un écho magique, un objet translucide et gris qui lui ressemble. L'écho apparaît dans un espace inoccupé que Verin peut voir en lui-même. Alors que l'écho existe, Verin choisit si chacune de ses attaques provient de son espace ou de l'espace de l'écho. Au tour de Verin, l'écho peut se déplacer selon les souhaits de Verin. L'écho a CA 17 et 1 points de vie. Il utilise les statistiques de Verin. L'écho dure 1 minute ou jusqu'à ce qu'il soit détruit, jusqu'à ce que Verin termine son tour plus loin que 9 m, jusqu'à ce que Verin manifeste un autre écho, ou jusqu'à ce que Verin soit neutralisé.\n**Reposition.** Verin échange des places avec son écho.",
+ "reactions": "**Parry.** Verin ajoute 3 à son CA contre une attaque de mêlée qui le frapperait. Pour ce faire, il doit voir l'agresseur et manier une arme de mêlée."
+}

@@ -1,0 +1,45 @@
+{
+ "id": "resineux-malade",
+ "name": "Résineux malade",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "caNote": "armure naturelle",
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 4,
+  "SAG": 8,
+  "CHA": 3
+ },
+ "conditionImmunities": "assourdi, aveuglé",
+ "senses": "vision aveugle 18 m (aveugle au-delà de cette distance), Perception passive 9",
+ "languages": "comprend le commun, mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Aiguilles.** *Attaque d'arme à distance :* +3 pour toucher, portée 9/18 m, une cible. *Touché :* 8 (2d6+1) dégâts perforants.\n**Griffes.** *Attaque d'arme au corps à corps :* +3 pour toucher, allonge 1,50 m, une cible. *Touché :* 6 (2d4+1) dégâts perforants.",
+ "portrait": "/data/images/895aa33c4c_monstre-resineux-malade.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 301 · image : Manuel des monstres p. 301",
+ "attacks": [
+  {
+   "name": "Aiguilles",
+   "bonus": 3,
+   "damage": "2d6+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "perforant"
+  }
+ ]
+}

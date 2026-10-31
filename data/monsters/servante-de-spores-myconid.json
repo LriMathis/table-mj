@@ -1,0 +1,40 @@
+{
+ "id": "servante-de-spores-myconid",
+ "name": "Myconid Spore Servant",
+ "type": "Plante",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 37,
+ "hpFormula": "5d8+15",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 6,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 8",
+ "languages": "télépathie 9 m",
+ "traits": "",
+ "actionsText": "**Clamer.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts contondants plus 2 (1d4) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant + poison"
+  }
+ ],
+ "portrait": "/data/images/eef6bf6790_monstre-servante-de-spores-myconid.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Servante de spores Myconid",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, charmé, effrayé, paralysé, empoisonné"
+}

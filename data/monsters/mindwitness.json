@@ -1,0 +1,47 @@
+{
+ "id": "mindwitness",
+ "name": "Mindwitness",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 75,
+ "hpFormula": "10d10+20",
+ "vitesse": "0 m, vol 6 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "profond, commun des profondeurs, télépathie 180 m",
+ "traits": "**Hub télépathique.** Lorsque le témoin mental reçoit un message télépathique, il peut le partager télépathiquement avec jusqu'à sept autres créatures au sein de 180 m qu'il peut voir.",
+ "actionsText": "**Multiattaques.** Le témoin mental fait une attaque Bite et une attaque Tentacles, ou il utilise Eye Ray trois fois.\n**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 16 (4d6 + 2) dégâts perforants.\n**Tentacules.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une créature. Touché : 20 (4d8 + 2) dégâts psychiques. Si la cible est grande ou plus petite, elle est agrippé (évasion DD 13), et elle doit réussir sur un DD 13 jet de sauvegarde d'Intelligence ou être entravé jusqu'à ce que ce grappin se termine.\n**Rayon oculaire.** Le témoin mental tire un rayon magique des yeux au hasard (roulez un d6 et reroulez si le rayon a déjà été utilisé ce tour), en choisissant une cible il peut voir dans 36 m de celui-ci:\n- **1: Rayon d'aversion** La créature ciblée doit faire un DD 13 jet de sauvegarde de Charisme. Lors d'une sauvegarde ratée, la cible a un désavantage sur jets d'attaque pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **2: Peur Ray** La créature ciblée doit réussir sur un DD 13 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **3: Rayon psychique** La cible doit réussir sur un DD 13 jet de sauvegarde d'Intelligence ou prendre 27 (6d8) dégâts psychiques.\n- **4: Rayon lent** La créature ciblée doit faire un DD 13 jet de sauvegarde de Dextérité. Lors d'une sauvegarde ratée, la vitesse de la cible est réduite de moitié pendant 1 minute. En outre, la créature ne peut pas prendre de réactions, et elle peut prendre soit une action ou un action bonus à son tour, mais pas les deux. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **5: Rayon éblouissant** La créature ciblée doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être étourdi pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **6: Rayon télékinétique** Si la cible est une créature, elle doit faire un DD 13 jet de sauvegarde de Force. Sur une sauvegarde ratée, le témoin mental le déplace jusqu'à 9 m dans n'importe quelle direction, et c'est entravé par la prise télékinétique du rayon jusqu'au début du prochain tour du témoin mental ou jusqu'à ce que le témoin mental soit neutralisé. Si la cible est un objet pesant 150 kg ou moins qui n'est pas porté ou transporté, elle est télékinétiquement déplacée vers 9 m dans n'importe quelle direction. Le témoin mental peut également exercer un contrôle fin sur les objets avec ce rayon, comme manipuler un outil simple ou ouvrir une porte ou un conteneur.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "4d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Tentacules",
+   "bonus": 5,
+   "damage": "4d8+2",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/eee749ee18_monstre-mindwitness.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +5, SAG +5",
+ "skills": "Perception +8",
+ "conditionImmunities": "à terre"
+}

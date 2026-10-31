@@ -1,0 +1,46 @@
+{
+ "id": "faim-sorrowsworn",
+ "name": "Hungry Sorrowsworn",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 225,
+ "hpFormula": "30d8+90",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun",
+ "traits": "**Faim de vie.** Si une créature au sein de 18 m de la douleurworn retrouve points de vie, la douleurworn gagne deux avantages jusqu'à la fin de son prochain tour : elle a un avantage sur jets d'attaque, et sa Bite offre un 22 (4d10) dégâts nécrotiques supplémentaire sur un coup.",
+ "actionsText": "**Multiattaques.** Les douleurs ont fait une attaque Bite et une attaque de griffe.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants plus 13 (3d8) dégâts nécrotiques.\n**Griffe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 18 (4d6 + 4) dégâts tranchants. Si la cible est moyenne ou plus petite, c'est agrippé (évasion DD 16) et c'est entravé jusqu'à la fin du grappin. Alors qu'ils luttent contre une créature, les chagrins ne peuvent pas faire d'attaque de la griffe.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "1d8+4",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "4d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/e690a2bda6_monstre-faim-sorrowsworn.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Faim Sorrowsworn",
+ "caNote": "armure naturelle",
+ "resistances": "contondant, perforant, tranchant alors que dans la lumière sombre ou l'obscurité"
+}

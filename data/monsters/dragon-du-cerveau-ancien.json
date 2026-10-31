@@ -1,0 +1,56 @@
+{
+ "id": "dragon-du-cerveau-ancien",
+ "name": "Elder Brain Dragon",
+ "type": "Aberration",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 17,
+ "hp": 350,
+ "hpFormula": "20d20+140",
+ "vitesse": "12 m, vol 24 m (vol stationnaire)",
+ "stats": {
+  "FOR": 27,
+  "DEX": 13,
+  "CON": 25,
+  "INT": 21,
+  "SAG": 19,
+  "CHA": 24
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 28",
+ "languages": "profond, draconique, télépathie 5 miles",
+ "traits": "**Résistance légendaire (4/jour).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Monstre de siège.** Le dragon inflige deux dégâts aux objets et aux structures.\n**Nature inhabituelle.** Le dragon n'a pas besoin d'air ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le dragon fait une attaque de Bite, deux attaques de Griffe, et une attaque de Tentacle.\n**Morceau.** Attaque d'arme au corps à corps : +15 au toucher, allonge 4,50 m, une cible. Touché : 19 (2d10 + 8) dégâts perforants plus 11 (2d10) dégâts psychiques.\n**Griffe.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 11 (1d6 + 8) dégâts tranchants.\n**Tentacle.** Attaque d'arme au corps à corps : +15 au toucher, allonge 4,50 m, une créature. Touché : 12 (1d8 + 8) dégâts psychiques. Si la cible est Énorme ou plus petite, c'est agrippé (évasion DD 18). Le dragon peut avoir jusqu'à quatre cibles agrippé à la fois.\n**Souffle de saumure Tadpole (Recharge 5-6).** Le dragon exhale la saumure dans une ligne 36 m large. Chaque créature dans cette zone doit faire un DD 22 jet de sauvegarde de Constitution, en prenant 55 (10d10) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Sur un succès ou un échec, si la créature n'est pas un Construire ou un Undead, elle devient infestée de têtards illithid.\nEn cas d'infestation, la créature prend 16 (3d10) dégâts psychiques au début de chacun de ses tours. La créature peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même après qu'elle ait réussi sur trois de ces sauvegardes. Si la créature est visée par la magie qui met fin à une malédiction ou restaure 40 points de vie ou plus, les têtards infestant la créature sont tués instantanément, mettant fin à l'effet sur la créature.\nSi un humanoïde est réduit à 0 points de vie alors qu'il est infesté, la créature est stable mais reste inconscient pendant 6d12 heures. Lorsque la période d'inconscience se termine, la créature se transforme en Flagelleur mental (voir le Monster Manual) avec tout son points de vie. En jetant un sort Souhait sur la créature inconscient, on la débarrasse de l'infestation et on l'empêche de se transformer en une tueuse mentale.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 15,
+   "damage": "2d10+8",
+   "type": "perforant + psychique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 15,
+   "damage": "1d6+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 15,
+   "damage": "1d8+8",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/10dd9d2de1_monstre-dragon-du-cerveau-ancien.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Dragon du cerveau ancien",
+ "caNote": "armure naturelle",
+ "saves": "CON +14, INT +12, SAG +11, CHA +14",
+ "skills": "Arcanes +12, Perspicacité +18, Perception +18",
+ "immunities": "psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon du cerveau ancien peut entreprendre l'une des actions ci-après.\n**Tentacle.** Le dragon fait une attaque du Tentacle.\n**Concentration de l'écume (coûts 2 actions).** Le dragon cible une créature qu'il lutte. La cible est concentration sur un sort qu'elle a lancé ou une capacité qu'elle maintient des fins, et la cible prend 19 (3d12) dégâts psychiques."
+}

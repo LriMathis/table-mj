@@ -1,0 +1,45 @@
+{
+ "id": "chardalyn-berserker",
+ "name": "Chardalyn Berserker",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 13,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 17,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Perception passive 10",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**La folie de Chardalyn.** Le berker doit rouler un d6 au début de chacun de ses tours. Sur un 1, le berker ne fait rien à son tour que de parler à un maître maléfique inexistant qu'il s'est engagé à servir.\n**Sans déconner.** Au début de son tour, le berserker peut gagner un avantage sur toutes les armes à melee jets d'attaque pendant ce tour, mais jets d'attaque contre lui a un avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** Le berker attaque trois fois avec une arme.\n**Chardalyn Flail.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts contondants, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné jusqu'à la fin de son prochain tour.\n**Chardalyn Javelin.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants, et la cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné jusqu'à la fin de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Chardalyn Flail",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Chardalyn Javelin",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6e6a7c8c1a_monstre-chardalyn-berserker.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "caNote": "Cache l'armure",
+ "skills": "Survie +4"
+}

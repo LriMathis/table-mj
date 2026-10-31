@@ -1,0 +1,41 @@
+{
+ "id": "septon-modron",
+ "name": "Septon Modron",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 204,
+ "hpFormula": "24d10+72",
+ "vitesse": "9 m, vol 9 m (vol stationnaire), nage 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 17,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Esprit axiomatique.** Le septon ne peut être contraint d'agir d'une manière contraire à sa nature ou à ses instructions.\n**Prêt au combat.** Le septon a un avantage sur les contrôles d'initiative.\n**Désintégration.** Si le septon meurt, son corps se désintègre en poussière, laissant derrière lui tout ce qu'il transportait.",
+ "actionsText": "**Multiattaques.** Le septon fait quatre attaques Tentacle et utilise le réseau foudre ou Spellcasting.\n**Tentacle.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants, et si la cible est une créature moyenne ou plus petite, il a l'état agrippé (évasion DD 14). Jusqu'à ce que ce grappin se termine, le septon ne peut pas utiliser cette tente contre d'autres cibles. Le septon a sept tentacules, qui peuvent chacun gripper une cible.\n**Réseau foudre.** Le septon évoque un champ d'électricité qui remplit un cube 9 m originaire de lui-même avant de se dissiper. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Dextérité. Sur une sauvegarde ratée, une créature prend 33 (6d10) dégâts de foudre et a l'état étourdi pendant 1 minute. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement. Une créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Détection orthographique.** Le septon lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Détection de la magie, Dissipation de la magie, Réparation (en tant qu'action)\n- 1/jour chacun : Changement de plan (autoseulement), Protection contre le mal et le bien, Communication à distance",
+ "attacks": [
+  {
+   "name": "Tentacle",
+   "bonus": 8,
+   "damage": "2d10+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6fd7f1c181_monstre-septon-modron.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +8, SAG +7",
+ "skills": "Perception +11",
+ "resistances": "foudre, psychique"
+}

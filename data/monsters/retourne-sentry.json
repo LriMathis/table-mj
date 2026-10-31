@@ -1,0 +1,48 @@
+{
+ "id": "retourne-sentry",
+ "name": "Returned Sentry",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 15,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Tactiques de conditionnement.** Le Retourné a un avantage sur un jet d'attaque contre une créature si au moins un des alliés du Retourné est à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Résistance au virage.** Le Retourné a un avantage sur jet de sauvegarde contre tout effet qui devient mort-vivant.\n**Visage illisible.** Le Retourné est à l'abri de tout effet qui pourrait sentir ses émotions ou lire ses pensées. tests de Sagesse (Perspicacité) pour vérifier les intentions ou la sincérité du retour sont faites avec désavantage.",
+ "actionsText": "**Lancer.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants, ou 7 (1d8 + 3) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee, plus 7 (2d6) dégâts de poison.\n**Écharpe.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e3b7e458d4_monstre-retourne-sentry.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Retourné Sentry",
+ "caNote": "Armure en cuir, Bouclier",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

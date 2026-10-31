@@ -1,0 +1,39 @@
+{
+ "id": "bulette",
+ "name": "Bulette",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 94,
+ "hpFormula": "9d10+45",
+ "vitesse": "12 m, creusement 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 11,
+  "CON": 21,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "skills": "Perception +6",
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 36 m, Perception passive 16",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** La bulette effectue deux attaques de Morsure.\n**Morsure.** Corps à corps : +7, allonge 1,50 m. Touché : 17 (2d12 + 4) dégâts perforants.\n**Saut meurtrier.** Au prix de 1,50 m de déplacement, la bulette saute en un espace situé dans un rayon de 4,50 m et contenant une ou plusieurs créatures de taille G ou inférieure. JS Dextérité : DD 15, chaque créature dans l’espace de destination de la bulette. Échec : 19 (3d12) dégâts contondants, et la cible subit l’état À terre. Réussite : demi-dégâts, et la cible est repoussée sur 1,50 m en ligne droite de la bulette.",
+ "bonusActions": "**Bond.** La bulette effectue un saut d’un maximum de 9 m en dépensant 3 m de déplacement.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 7,
+   "damage": "2d12+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/02c3fd663c_monstre-bulette.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 28"
+}

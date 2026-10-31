@@ -1,0 +1,50 @@
+{
+ "id": "phisarazu-spyder-fiend",
+ "name": "Phisarazu Spyder-Fiend",
+ "type": "Fiélon (démon)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 17,
+ "hp": 170,
+ "hpFormula": "20d10+60",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 11,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 17",
+ "languages": "abyssal, commun, télépathie 36 m",
+ "traits": "**Résistance magique.** Le phisarazu a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Escalade des araignées.** Le phisarazu peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Sens du Web.** En contact avec un web, le phisarazu connaît l'emplacement exact de toute autre créature en contact avec le même web.\n**Web Walker.** Le phisarazu ignore les restrictions de mouvement causées par la sangle.",
+ "actionsText": "**Multiattaques.** Le phisarazu fait une attaque Bite et deux attaques Claw. Il peut remplacer l'une de ces attaques par un spray scintillant si disponible.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants plus 9 (2d8) dégâts de poison, et la cible a l'état empoisonné jusqu'au début du prochain tour du phisarazu.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 22 (4d8 + 4) dégâts tranchants.\n**Spray de scintillation (Recharge 5-6).** Le phisarazu expulse les toiles chatoyantes dans un cône 18 m. Les créatures et les objets dans cette zone sont tracés par les toiles scintillantes pendant 1 minute, pendant laquelle ils émettent une lumière dim pour 3 m et ne peuvent pas bénéficier de l'état invisible. En outre, les créatures dans cette zone doivent réussir sur un DD 16 jet de sauvegarde de Sagesse ou avoir l'état étourdi pendant 1 minute. Une créature étourdi peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d10+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "4d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/4911b5675b_monstre-phisarazu-spyder-fiend.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +7, CON +8, SAG +7",
+ "skills": "Perception +7, Discrétion +7",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Modifier la forme.** Le phisarazu se transforme en crabe, drider, ou crabe géant, ou revient à sa vraie forme. Ses statistiques de jeu, à l'exception de sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé."
+}

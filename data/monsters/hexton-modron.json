@@ -1,0 +1,49 @@
+{
+ "id": "hexton-modron",
+ "name": "Hexton Modron",
+ "type": "Créature artificielle",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal neutre",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 17,
+ "hp": 209,
+ "hpFormula": "22d12+66",
+ "vitesse": "12 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 19,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 15
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 23",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Esprit axiomatique.** L'hexton ne peut pas être contraint d'agir d'une manière contraire à sa nature ou à ses instructions.\n**Prêt au combat.** Le hexton a un avantage sur les rouleaux d'initiative.\n**Désintégration.** Si l'hexagone meurt, son corps se désintègre en poussière, laissant derrière lui tout ce qu'il transportait.\n**Résistance légendaire (4/jour).** Si l'hexton échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** L'hexton fait une attaque Pincer et deux attaques Tentacle.\n**Pincer.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants plus 10 (3d6) dégâts de force. Si la cible est une créature, elle doit réussir sur un DD 17 jet de sauvegarde de Constitution ou avoir l'état neutralisé jusqu'à la fin de son prochain tour.\n**Tentacle.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 15 (2d10 + 4) dégâts perforants, et si la cible est une créature moyenne ou plus petite, il a l'état agrippé (évasion DD 14). Jusqu'à ce que ce grappin finisse, l'hexagone ne peut pas utiliser cette tente contre d'autres cibles. L'hexton a six tentacules, chacun pouvant battre une cible.\n**Détection orthographique.** L'hexton lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection de la magie, Dissipation de la magie, Réparation (en tant qu'action)\n- 1/jour chacun : Changement de plan (autoseulement), Protection contre le mal et le bien",
+ "attacks": [
+  {
+   "name": "Pincer",
+   "bonus": 9,
+   "damage": "2d8+4",
+   "type": "contondant + force"
+  },
+  {
+   "name": "Tentacle",
+   "bonus": 9,
+   "damage": "2d10+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6fd7f1c181_monstre-hexton-modron.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +9, SAG +8",
+ "skills": "Perception +13",
+ "resistances": "foudre, psychique",
+ "conditionImmunities": "charmé, effrayé",
+ "reactions": "**Contre-magie.** L'hexton tente d'interrompre une créature qu'il peut voir qui jette un sort. Si le sort est de niveau 3 ou inférieur, il échoue et n'a aucun effet. Si le sort est de niveau 4 ou plus, l'hexton fait un test d'Intelligence (DD 10 + le niveau du sort). Sur un succès, le sort échoue et n'a aucun effet.\n**foudre Résoudre.** Quand une créature au sein de 36 m de l'hexton l'endommage, l'hexton répond magiquement avec un arc de foudre. La créature doit faire un DD 17 jet de sauvegarde de Dextérité, en prenant 11 (2d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

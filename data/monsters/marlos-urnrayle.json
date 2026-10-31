@@ -1,0 +1,46 @@
+{
+ "id": "marlos-urnrayle",
+ "name": "Marlos Urnrayle",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 136,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception des vibrations 18 m, Perception passive 14",
+ "languages": "commun, terreux",
+ "traits": "**Défaut de la terre.** Quand Marlos tombe à 0 points de vie, son corps se transforme en boue et s'effondre en piscine. Tout ce qu'il porte est laissé derrière.\n**Passage de la Terre.** Marlos peut se déplacer en 3 composé de tout ce qui est fait de terre ou de pierre comme si c'était un terrain normal. Il peut se déplacer à travers la terre solide et la roche comme si c'était 3. S'il finit son tour là-bas, il est jeté dans l'espace le plus proche qu'il ait occupé.\n**Résistance légendaire (2/jour).** Si Marlos échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Gaz pétrifiant.** Quand une créature qui peut voir les yeux de Marlos commence son tour au sein de 9 m de lui, Marlos peut la forcer à faire un DD 14 jet de sauvegarde de Constitution si Marlos n'est pas neutralisé et peut voir la créature. Si le jet de sauvegarde échoue par 5 ou plus, la créature est instantanément pétrifié. Sinon, une créature qui échoue au save commence à se tourner vers la pierre et est entravé. La créature entravé doit répéter la jet de sauvegarde à la fin de son prochain tour, devenant pétrifié sur un échec ou mettant fin à l'effet sur un succès. La pétrification dure jusqu'à ce que la créature soit libérée par le sort Restauration supérieure ou toute autre magie.\nSauf si surpris, une créature peut ouvrir les yeux pour éviter le jet de sauvegarde au début de son tour. Si la créature le fait, elle ne peut pas voir Marlos avant le début de son prochain tour, quand elle peut décider d'éviter ses yeux à nouveau. Si la créature regarde Marlos en attendant, elle doit immédiatement faire le sauvetage.\nSi Marlos se voit réfléchir sur une surface polie dans 9 m de lui et dans une zone de lumière vive, Marlos est, en raison de sa malédiction, affecté par son propre regard.",
+ "actionsText": "**Multiattaques.** Marlos fait trois attaques à la mêlée, une avec ses cheveux de serpent et deux avec Ironfang.\n**Poil de serpent.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 14 (4d6) dégâts de poison.\n**Fer à repasser.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 4 (1d8) dégâts de tonnerre.",
+ "attacks": [
+  {
+   "name": "Poil de serpent",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Fer à repasser",
+   "bonus": 9,
+   "damage": "1d8+3",
+   "type": "perforant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/cd2b0a6701_monstre-marlos-urnrayle.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +4, Tromperie +6, Perception +4",
+ "resistances": "acide"
+}

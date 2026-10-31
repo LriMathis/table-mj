@@ -1,0 +1,50 @@
+{
+ "id": "szass-tam",
+ "name": "Szass Tam",
+ "type": "Mort-vivant (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "23",
+ "xp": 50000,
+ "ca": 20,
+ "hp": 397,
+ "hpFormula": "53d8+159",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 23,
+  "SAG": 18,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 21",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (4/jour, ou 5/jour à Lair).** Si Szass Tam échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Jaune d'esprit.** S'il est détruit, Szass Tam se reforme en 1d10 jours s'il a un pot à alcool, en revitalisant avec tous ses points de vie. Le nouveau corps apparaît dans un espace inoccupé dans le repaire de Szass Tam.\n**La magie se fane.** Szass Tam lance Flétrissement ou Dissipation de la magie en utilisant le même caractéristique d'incantation que Spellcasting.",
+ "actionsText": "**Multiattaques.** Szass Tam fait trois attaques, en utilisant Paralysing Touch ou Soul-Draining Ray dans n'importe quelle combinaison. Il peut remplacer deux attaques par une utilisation de Spellcasting pour lancer Doigt de mort.\n**Touche paralysante.** Jet d'attaque au corps à corps : +13, allonge 1,50 m. Touché : 16 (3d6 + 6) dégâts de froid, et la cible a l'état paralysé jusqu'au prochain tour de Szass Tam.\n**Rayon de drainage d'âme.** Jet d'attaque à distance : +13, portée 36 m. Touché : 25 (3d12 + 6) dégâts nécrotiques, et la cible a Désavantage sur jets d'attaque et jet de sauvegarde jusqu'à la fin de son prochain tour.\n**Détection orthographique.** Szass Tam lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (sorption sauvegardez DD 21, +13 au toucher avec attaques de sort) :\n- À volonté : Détection de la magie, Détection des pensées, Doigt de mort, Boule de feu (version de niveau 8), Éclair (version de niveau 8), Main de mage, Prestidigitation\n- 1/jour chacun : Mot de pouvoir mortel, Projection d'image, Scrutation, Communication à distance\n- 2/jour chacun : Animation des morts, Porte dimensionnelle, Changement de plan",
+ "attacks": [
+  {
+   "name": "Touche paralysante",
+   "bonus": 13,
+   "damage": "3d6+6",
+   "type": "froid"
+  },
+  {
+   "name": "Rayon de drainage d'âme",
+   "bonus": 13,
+   "damage": "3d12+6",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/6ae2437f70_monstre-szass-tam.webp",
+ "notes": "",
+ "source": "Arcana Unleashed: Deadfall (5e.tools, traduction automatique)",
+ "saves": "DEX +9, CON +10, INT +13, SAG +11",
+ "skills": "Arcanes +20, Perspicacité +11, Investigation +13, Perception +11",
+ "resistances": "froid, foudre",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, effrayé, paralysé, empoisonné",
+ "reactions": "**Magie protectrice.** Szass Tam lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Contresort, Bouclier",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, szass tam peut entreprendre l'une des actions ci-après.\n**Téléportation mortelle.** Szass Tam téléporte jusqu'à 18 m dans un espace inoccupé qu'il peut voir, et chaque créature dans 3 m de l'espace qu'il a laissé prend 13 (3d8) dégâts nécrotiques.\n**Perturbation de la vie.** Jet de sauvegarde de Constitution : DD 21, chaque créature qui n'est pas un mort-vivant dans une Emanation 6 m originaire de Szass Tam. Échec : 14 (4d6) dégâts nécrotiques et le maximum de points de vie de la créature diminuent d'un montant égal aux dégâts subis. Réussite : Demi-dégâts seulement. Échec ou réussite : Szass Tam ne peut pas reprendre cette action avant le début de son prochain tour."
+}

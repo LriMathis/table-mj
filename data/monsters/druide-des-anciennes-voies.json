@@ -1,0 +1,41 @@
+{
+ "id": "druide-des-anciennes-voies",
+ "name": "Druid of the Old Ways",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 14,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 20,
+  "CHA": 14
+ },
+ "senses": "Perception passive 18",
+ "languages": "commun, druidique",
+ "traits": "**Monstre de siège.** La druide inflige deux dégâts aux objets et aux structures.\n**Parlez avec les bêtes et les plantes.** Le druide peut communiquer avec des bêtes et des plantes comme s'ils partageaient un langage.\n**Détection orthographique.** Le druid est un spellcaster de niveau 12 Gruul. Son caractéristique d'incantation est Sagesse (save spell DD 16, +8 au toucher avec attaques de sort). Il a les sorts druides suivants préparés:\n- Sorts mineurs (à volonté) : Druidisme, Flammes, Résistance, Fouet épineux\n- Niveau 1 (4 emplacements) : Soins, Lueurs féeriques, Vague tonnante\n- Niveau 2 (3 emplacements) : Sens animal, Lame de feu, Passage sans trace\n- Niveau 3 (3 emplacements) : Invocation d'animaux, Dissipation de la magie, Croissance végétale\n- Niveau 4 (3 emplacements) : Domination de bête, Liberté de mouvement, Mur de feu\n- Niveau 5 (2 emplacements) : Communion avec la nature, Invocation d'élémentaire, Scrutation\n- Niveau 6 (1 emplacements) : Voie végétale, Mur d'épines",
+ "actionsText": "**Quarter staff.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d6) dégâts contondants, ou 4 (1d8) dégâts contondants si utilisé avec deux mains.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 3,
+   "damage": "1d6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/7219b58f10_monstre-druide-des-anciennes-voies.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Druide des anciennes voies",
+ "caNote": "Cache l'armure",
+ "saves": "DEX +5, CON +6, SAG +8",
+ "skills": "Nature +3, Perception +8, Survie +8"
+}

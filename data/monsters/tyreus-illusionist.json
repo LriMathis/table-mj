@@ -1,0 +1,41 @@
+{
+ "id": "tyreus-illusionist",
+ "name": "Tyreus, Illusionist",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 13,
+ "hp": 156,
+ "hpFormula": "24d8+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun, profond, draconique, primordial, sylvestre",
+ "traits": "**Résistance légendaire (3/jour).** Si Tyreus échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Réalité illusoire.** Lorsque Tyreus jette un sort d'illusion de de niveau 1 ou plus, il peut choisir un objet inanimé et non magique qui fait partie de l'illusion et rend cet objet réel. Il peut le faire à son tour en action bonus pendant que le sort est en cours.\nL'objet reste réel pendant 1 minute. L'objet ne peut causer de dégâts ni nuire directement à personne.\n**Déplacement (recharges après que Tyreus a lancé une éperon d'illusion de de niveau 1 ou plus).** En tant qu'action bonus, Tyreus projette une illusion qui lui fait paraître être debout à quelques pouces de son emplacement réel, ce qui fait que toute créature a un désavantage sur jets d'attaque contre Tyreus. L'effet se termine si Tyreus prend des dégâts, il est neutralisé, ou sa vitesse devient 0.\n**Détection orthographique.** Tyreus est un spellcaster de niveau 16. Son caractéristique d'incantation est Intelligence (save spell DD 18, +10 au toucher avec attaques de sort). Il a préparé les sorts de magicien suivants.\n- Sorts mineurs (à volonté) : Trait de feu, Lumière, Main de mage, Illusion mineure, Poigne électrique\n- Niveau 1 (4 emplacements) : Armure de mage, Projectile magique, Bouclier, Vague tonnante\n- Niveau 2 (3 emplacements) : Invisibilité *, Image miroir *, Force fantasmagorique *\n- Niveau 3 (3 emplacements) : Contresort, Vol, Éclair, Image majeure *\n- Niveau 4 (3 emplacements) : Bannissement, Terrain hallucinatoire *, Assassin imaginaire *, Peau de pierre\n- Niveau 5 (2 emplacements) : Invocation d'élémentaire, Double illusoire *, Télékinésie\n- Niveau 6 (1 emplacements) : Désintégration\n- Niveau 7 (1 emplacements) : Changement de plan\n- Niveau 8 (1 emplacements) : Dédale\n*(Sortie d'illusion de de niveau 1 ou plus)",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +8 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants.\n**Modifier Illusion.** Quand Tyrée jette un sort d'illusion d'une durée d'une minute ou plus, il peut utiliser son action pour changer la nature de cette illusion (en utilisant les paramètres normaux du sort pour l'illusion), à condition qu'il puisse voir l'illusion.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 8,
+   "damage": "1d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0a5876f5c2_monstre-tyreus-illusionist.webp",
+ "notes": "",
+ "source": "Adventures in the Forgotten Realms: From Cyan Depths (5e.tools, traduction automatique)",
+ "saves": "INT +10, SAG +7",
+ "skills": "Arcanes +12, Tromperie +8, Histoire +10, Perception +7",
+ "resistances": "dégâts causés par des sorts, non magique contondant, perforant, tranchant (de la peau de pierres)",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, tyreus, illusionist peut entreprendre l'une des actions ci-après.\n**Examinez.** Tyreus fait un Intelligence (Investigation) ou test de Sagesse (Perception).\n**Lancer sort mineur.** Tyreus jette un sort mineur de sa liste de sorts.\n**Spell cast (coûts 1 à 3 actions).** Tyreus utilise un emplacement de sort pour lancer un sort 1er, 2ème ou de niveau 3 qu'il a préparé. Cela coûte 1 action légendaire par niveau du sort."
+}

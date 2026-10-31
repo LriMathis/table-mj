@@ -1,0 +1,40 @@
+{
+ "id": "insectes-nuee-de-infesting",
+ "name": "Swarm of Infesting Insects",
+ "type": "Nuée de taille très petite (Bête)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "6 m, escalade 6 m, nage 6 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et il peut se déplacer à travers n'importe quelle ouverture assez grande pour une créature minuscule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Infestation.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 12 (4d4 + 2) dégâts de poison, ou 7 (2d4 + 2) dégâts de poison si l'essaim est en sang, et la cible a l'état empoisonné. Si la cible reste empoisonné de cette façon après 1 heure, elle est soumise à l'effet suivant. Jet de sauvegarde de Constitution : DD 11. Échec : Roll 1d6 : sur un 1-2, la cible a l'état aveuglé ; sur un 3-4, le maximum de points de vie de la cible diminue de 5 (1d10); sur un 5-6, la cible gagne 1 niveau épuisement. L'effet dure jusqu'à ce que l'état empoisonné se termine. Réussite : l'état empoisonné se termine.",
+ "attacks": [
+  {
+   "name": "Infestation",
+   "bonus": 4,
+   "damage": "4d4+2",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/d4d8271496_monstre-insectes-nuee-de-infesting.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Insectes nuée de Infesting",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

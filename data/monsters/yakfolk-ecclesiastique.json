@@ -1,0 +1,40 @@
+{
+ "id": "yakfolk-ecclesiastique",
+ "name": "Yakfolk Priest",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 18,
+  "CHA": 14
+ },
+ "senses": "Perception passive 14",
+ "languages": "commun, Yikaria",
+ "traits": "**Possession (Recharges après un repos court ou long).** L'yakfolk tente de posséder un humanoïde ou géant par magie. L'yakfolk doit toucher la cible tout au long d'un repos court, ou la tentative échoue. A la fin du reste, la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être possédée par l'yakfolk, qui disparaît avec tout ce qu'il porte et porte. Jusqu'à la fin de la possession, la cible est neutralisé, perd le contrôle de son corps, et n'est pas au courant de son environnement. L'yakfolk contrôle maintenant le corps et ne peut être ciblé par aucune attaque, sort, ou autre effet, et il conserve son alignement, ses scores Intelligence, Sagesse et Charisme et ses compétences. Il utilise les statistiques de la cible, à l'exception des connaissances, des caractéristiques de classe, des exploits et des compétences de la cible.\nLa possession dure jusqu'à ce que soit le corps tombe à 0 points de vie, l'yakfolk termine la possession comme une action, ou l'yakfolk est forcé hors du corps par un effet tel que le sort Dissipation du mal et du bien. Lorsque la possession se termine, l'yakfolk réapparaît dans un espace inoccupé à l'intérieur de 1,50 m du corps et est étourdi jusqu'à la fin de son prochain tour. Si le corps de l'hôte meurt alors qu'il est possédé par l'yakfolk, l'yakfolk meurt aussi, et son corps ne réapparaît pas.\n**Détection orthographique.** L'yakfolk est un spellcaster de niveau 7. Son caractéristique d'incantation est Sagesse (save spell DD 14, +6 au toucher avec attaques de sort). Le prêtre a préparé les sorts clerciques suivants:\n- Sorts mineurs (à volonté) : Lumière, Réparation, Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Fléau, Injonction, Soins, Sanctuaire\n- Niveau 2 (3 emplacements) : Augure, Immobilisation de personne, Arme spirituelle\n- Niveau 3 (3 emplacements) : Malédiction, Protection contre une énergie, Communication à distance\n- Niveau 4 (1 emplacements) : Bannissement",
+ "actionsText": "**Multiattaques.** L'Yakfolk fait deux attaques à la mêlée.\n**Quarter staff.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants, ou 12 (2d8 + 3) dégâts contondants si utilisé avec deux mains.\n**Invoquer la Terre Élémentaire (1/jour).** L'Yakfolk appelle un Élémentaire de la terre. L'élémental apparaît dans un espace inoccupé au sein de 18 m de son convocateur et agit comme un allié de celui-ci. Il reste 10 minutes, jusqu'à ce qu'il meure, ou jusqu'à ce que son convocateur le rejette comme une action.",
+ "attacks": [
+  {
+   "name": "Quarter staff",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/f2f8ae97c6_monstre-yakfolk-ecclesiastique.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Yakfolk ecclésiastique",
+ "caNote": "Cache l'armure",
+ "skills": "Tromperie +4, Médecine +6, Survie +6"
+}

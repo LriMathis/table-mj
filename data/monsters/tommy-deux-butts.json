@@ -1,0 +1,46 @@
+{
+ "id": "tommy-deux-butts",
+ "name": "Tommy Two-Butts",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 21,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, gobelin",
+ "traits": "**Brute.** Une arme à melee inflige une mort supplémentaire de ses dégâts quand Tommy frappe avec elle (inclus dans l'attaque).\n**Attaque surprise.** Si Tommy surprend une créature et la frappe avec une attaque lors du premier tour de combat, la cible prend un 7 (2d6) de plus de dégâts de l'attaque.",
+ "actionsText": "**Matinée.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d8 + 2) dégâts perforants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 9 (2d6 + 2) dégâts perforants en melee ou 5 (1d6 + 2) dégâts perforants à portée.",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 4,
+   "damage": "2d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/c08fbd7327_monstre-tommy-deux-butts.webp",
+ "notes": "",
+ "source": "The Lost Dungeon of Rickedness: Big Rick Energy (5e.tools, traduction automatique)",
+ "aka": "Tommy deux- Butts",
+ "caNote": "Cache l'armure, Bouclier",
+ "skills": "Discrétion +6, Survie +2"
+}

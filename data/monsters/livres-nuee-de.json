@@ -1,0 +1,40 @@
+{
+ "id": "livres-nuee-de",
+ "name": "Swarm of Books",
+ "type": "Nuée de taille très petite (Créature artificielle)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 12,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "0 m, vol 9 m",
+ "stats": {
+  "FOR": 5,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 11",
+ "languages": "—",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un livre minuscule. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 0 m, une créature dans l'espace de l'essaim. Touché : 5 (2d4) dégâts contondants, ou 2 (1d4) dégâts contondants si l'essaim a la moitié de son points de vie ou moins.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "2d4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/cc00e489b5_monstre-livres-nuee-de.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "aka": "Livres nuée de",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, paralysé, pétrifié, à terre, entravé, étourdi, agrippé"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "frontline-medecin",
+ "name": "Frontline Medic",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 20,
+ "hp": 19,
+ "hpFormula": "3d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 12
+ },
+ "senses": "Perception passive 13",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "**Détection orthographique.** Le médecin est un orthographe de Boros de niveau 3. Son caractéristique d'incantation est Sagesse (save spell DD 11). Le médecin a les sorts clerciques suivants préparés:\n- Sorts mineurs (à volonté) : Réparation, Résistance, Stabilisation\n- Niveau 1 (4 emplacements) : Soins, Sanctuaire\n- Niveau 2 (2 emplacements) : Aide, Restauration partielle",
+ "actionsText": "**Lancer.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d6 + 2) dégâts perforants, ou 6 (1d8 + 2) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8c07ade470_monstre-frontline-medecin.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Frontline médecin",
+ "caNote": "Armure de plaque, Bouclier",
+ "skills": "Médecine +5, Perception +3"
+}

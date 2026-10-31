@@ -1,0 +1,38 @@
+{
+ "id": "chameau",
+ "name": "Chameau",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 10,
+ "hp": 17,
+ "hpFormula": "2d10+6",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 8,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 5
+ },
+ "saves": "CON +5",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +4, allonge 1,50 m. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/22846e151b_monstre-chameau.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

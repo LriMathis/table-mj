@@ -1,0 +1,610 @@
+{
+ "player": "",
+ "taille": "Moyenne",
+ "hpTemp": 0,
+ "xp": 353,
+ "niveau": 2,
+ "prof": 2,
+ "hitDice": 2,
+ "conditions": [],
+ "deathSaves": {
+  "s": 0,
+  "f": 0
+ },
+ "exhaustion": 0,
+ "color": "",
+ "source": "import (fichier texte)",
+ "inspiration": "",
+ "id": "borin",
+ "name": "Borin",
+ "title": "Le Poing du dernier lancer",
+ "race": "Nain des montagnes",
+ "classe": "Moine",
+ "historique": "Vagabond",
+ "alignement": "Chaotique Neutre",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 17,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "saves": [
+  "FOR",
+  "DEX"
+ ],
+ "hpMax": 23,
+ "hp": 23,
+ "ca": 15,
+ "initBonus": 3,
+ "hitDie": 8,
+ "skills": {
+  "Acrobaties": 5,
+  "Discrétion": 5,
+  "Perspicacité": 4,
+  "Athlétisme": 3
+ },
+ "attacks": [
+  {
+   "name": "Coup à mains nues",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Bâton (une main)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Bâton (deux mains)",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Dague (Arts martiaux, lancer 6/18 m)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant",
+   "item": "it2e05e90a1e"
+  },
+  {
+   "name": "Bâton en bois sombre marqué de coups de couteau",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant (deux mains 1d8)",
+   "item": "itf3303e04c7",
+   "auto": true
+  },
+  {
+   "name": "Épée de lumière lunaire (épée à deux mains)",
+   "bonus": 3,
+   "damage": "2d6+1",
+   "type": "tranchant",
+   "item": "it1a16f67925d4246",
+   "auto": true
+  }
+ ],
+ "resources": [
+  {
+   "name": "Chanceux (points de chance)",
+   "max": 2,
+   "cur": 2,
+   "reset": "long"
+  },
+  {
+   "name": "Connaissance de la pierre",
+   "max": 2,
+   "cur": 2,
+   "reset": "long"
+  },
+  {
+   "name": "Dagues",
+   "max": 2,
+   "cur": 2,
+   "reset": "aucun"
+  },
+  {
+   "name": "Points de ki",
+   "max": 2,
+   "cur": 2,
+   "reset": "court"
+  }
+ ],
+ "spells": {},
+ "features": [
+  {
+   "name": "Arts martiaux",
+   "text": "DEX au lieu de FOR pour les coups à mains nues et les armes de moine ; peut lancer 1d6 à la place des dégâts normaux ; un coup à mains nues par une action bonus ; DEX pour empoigner ou bousculer."
+  },
+  {
+   "name": "Défense sans armure",
+   "text": "Sans armure ni bouclier, CA = 10 + DEX + SAG."
+  },
+  {
+   "name": "Chanceux (don d'origine, Vagabond)",
+   "text": "2 points de chance par repos long : avantage à un test de d20, ou désavantage imposé à une attaque contre lui. Pour Borin, c'est la preuve qu'il est destiné à gagner le prochain pari."
+  },
+  {
+   "name": "Résistance naine",
+   "text": "Résistance aux dégâts de poison et avantage aux jets de sauvegarde contre l'état empoisonné. Il dit que c'est grâce aux mines ; ses amis pensent aux boissons douteuses des tavernes."
+  },
+  {
+   "name": "Robustesse naine",
+   "text": "+1 PV par niveau."
+  },
+  {
+   "name": "Connaissance de la pierre",
+   "text": "Action bonus : perception des vibrations sur 18 m pendant 10 minutes, tant qu'il touche de la pierre. 2 utilisations par repos long."
+  },
+  {
+   "name": "Vision dans le noir",
+   "text": "36 m."
+  },
+  {
+   "name": "Maîtrises et langues",
+   "text": "Armes courantes, armes de guerre légères (ni armure ni bouclier). Outils : outils de voleur, matériel de brasseur. Langues : commun, nain, halfelin."
+  },
+  {
+   "name": "Ki",
+   "text": "Points de ki (= niveau) : Déluge de coups, Défense patiente, Pas du vent."
+  },
+  {
+   "name": "Déplacement sans armure",
+   "text": "+3 m de vitesse sans armure (augmente avec le niveau)."
+  }
+ ],
+ "equipment": "Bâton en bois sombre marqué de coups de couteau, deux dagues, outils de voleur, matériel de brasseur (souvenir du monastère), sac d'explorateur, sac de couchage, vêtements de voyageur usés, jeu de dés en os (dont un légèrement truqué), jeu de cartes incomplet, petit médaillon représentant une montagne, porte-bonheur censé attirer les bonnes cartes, dette écrite sur un bout de parchemin, liste des tavernes où il est interdit de jouer, deux bourses. 8 pa.",
+ "gold": 47,
+ "notes": "Histoire : mineur nain devenu joueur ; gros gain, puis pertes, emprunts, mensonges ; a fui ses créanciers, s'est réfugié dans un monastère, en est reparti pour rejouer. Ses créanciers ont engagé des hommes pour le retrouver (il l'ignore).\nTrait : jovial et bavard, toujours le héros de ses histoires. Idéal : la liberté. Lien : son médaillon nain, qu'il ne mise jamais. Particularité : fait rouler un dé entre ses doigts quand il réfléchit.\nDéfauts : addiction au jeu, déni (dettes « temporaires »), superstition, orgueil, impulsivité.\nProgression prévue : niv. 2 Discipline, Mouvement sans armure, Métabolisme surnaturel ; niv. 3 voie de la Main ouverte ; niv. 4 DEX 17 → 18.\nIdées pour la campagne : les « hommes engagés » par ses créanciers peuvent être des Endettés de la Table, ou les gros bras de la Main Pleine, qui rachète toutes les dettes du Val. Boris Double-Six le reconnaîtra peut-être d'une ancienne partie.",
+ "sheet": "=====================================================\nBORIN — LE POING DU DERNIER LANCER (Niveau 1)\nD&D 5e — Règles 2024\n=====================================================\n\n« Les dés ne mentent jamais. Bon, parfois ils roulent sous la table.\nMais ça, c'est une autre histoire. »\n\nConcept    : nain moine, joueur compulsif qui croit toujours pouvoir\n             se refaire\nEspèce     : Nain (des montagnes, origine narrative)\nClasse     : Moine 1 (voie choisie au niveau 3)\nHistorique : Vagabond (Wayfarer)\nAlignement : Chaotique Neutre\nStyle      : combattant de mêlée mobile, à mains nues ou au bâton\n\n-----------------------------------------------------\nCARACTÉRISTIQUES\n(tableau standard + historique Vagabond : +2 DEX, +1 SAG)\n-----------------------------------------------------\nFOR 12 (+1)\nDEX 17 (+3)\nCON 14 (+2)\nINT  8 (-1)\nSAG 14 (+2)\nCHA 10 (+0)\n\n-----------------------------------------------------\nSTATISTIQUES\n-----------------------------------------------------\nBonus de maîtrise    : +2\nPV                   : 11 (8 + CON 2 + Robustesse naine 1)\n                       dé de vie : 1d8\nCA                   : 15 (Défense sans armure : 10 + DEX 3 + SAG 2)\nInitiative           : +3\nVitesse              : 9 m\nVision dans le noir  : 36 m\nPerception passive   : 12\nJets de sauvegarde   : FOR +3, DEX +5\nRésistance           : dégâts de poison\n\n-----------------------------------------------------\nCOMPÉTENCES\n-----------------------------------------------------\nAcrobaties    +5\nDiscrétion    +5\nPerspicacité  +4\nAthlétisme    +3\n\nOrigine des maîtrises :\n  Vagabond : Perspicacité, Discrétion\n  Moine    : Acrobaties, Athlétisme\n\n-----------------------------------------------------\nMAÎTRISES ET LANGUES\n-----------------------------------------------------\nArmes et armures : armes courantes, armes de guerre légères\n                   (pas d'armure ni de bouclier)\nOutils           : outils de voleur, matériel de brasseur\nLangues          : commun, nain, halfelin\n\n-----------------------------------------------------\nATTAQUES\n-----------------------------------------------------\nCoup à mains nues : +5 au toucher, 1d6 + 3 contondant\n                    Poings, coudes, pieds, ou coup de tête quand\n                    la partie tourne mal.\nBâton             : +5 au toucher, 1d6 + 3 contondant (une main)\n                    ou 1d8 + 3 (deux mains)\nDague (x2)        : +5 au toucher, 1d4 + 3 perforant\n                    (dé d'Arts martiaux possible : 1d6 + 3)\n                    Lancer : portée 6/18 m\n\nAction bonus : un coup à mains nues supplémentaire à chaque tour.\n\n-----------------------------------------------------\nSORTS\n-----------------------------------------------------\nAucun. Borin ne lance pas de sorts : ses capacités viennent de sa\ndiscipline martiale.\n\n-----------------------------------------------------\nCAPACITÉS\n-----------------------------------------------------\nArts martiaux\n  - Utilise la DEX au lieu de la FOR pour ses coups à mains nues et\n    ses armes de moine.\n  - Peut lancer 1d6 à la place des dégâts normaux de ces attaques.\n  - Peut faire un coup à mains nues par une action bonus.\n  - Peut utiliser la DEX pour empoigner ou bousculer.\n\nDéfense sans armure\n  Sans armure ni bouclier, CA = 10 + DEX + SAG.\n\nChanceux (don d'origine, Vagabond)\n  2 points de chance par repos long. Il peut en dépenser un pour\n  avoir l'avantage à un test de d20, ou pour imposer le désavantage\n  à une attaque contre lui.\n  Pour Borin, ce n'est pas une bénédiction : c'est la preuve qu'il\n  est destiné à gagner le prochain pari.\n\nRésistance naine\n  Résistance aux dégâts de poison et avantage aux jets de sauvegarde\n  contre l'état empoisonné. Il dit que c'est grâce aux mines. Ses\n  amis pensent plutôt aux boissons douteuses des tavernes.\n\nRobustesse naine\n  +1 PV par niveau.\n\nConnaissance de la pierre\n  Par une action bonus, gagne la perception des vibrations sur 18 m\n  pendant 10 minutes, tant qu'il touche de la pierre.\n  2 utilisations par repos long.\n\n-----------------------------------------------------\nÉQUIPEMENT\n-----------------------------------------------------\n- Bâton en bois sombre, marqué de coups de couteau\n- Deux dagues\n- Outils de voleur\n- Matériel de brasseur (souvenir du monastère)\n- Sac d'explorateur\n- Sac de couchage\n- Vêtements de voyageur usés\n- Jeu de dés en os, dont un légèrement truqué\n- Jeu de cartes incomplet\n- Petit médaillon représentant une montagne\n- Porte-bonheur censé attirer les bonnes cartes\n- Dette écrite sur un bout de parchemin\n- Liste des tavernes où il est interdit de jouer\n- Deux bourses, contenant 35 po 8 pa\n\n-----------------------------------------------------\nHISTOIRE\n-----------------------------------------------------\nBorin est né dans une communauté naine au cœur des montagnes. Sa\nfamille travaillait dans les mines depuis des générations. Son père\nlui a appris la patience, la précision et l'importance de tenir sa\nparole.\n\nBorin a retenu les deux premières leçons.\n\nIl a découvert le jeu dans une taverne de mineurs. Au début, quelques\npièces de cuivre, les plaisanteries, et cette seconde de silence\navant que les dés s'immobilisent. Puis il a gagné une grosse somme,\nassez pour lâcher son travail et s'imaginer vivre de sa chance.\n\nIl a fréquenté des salles plus prestigieuses, où les mises étaient\nplus hautes et les sourires moins sincères. Quand il a perdu ses\ngains, il a voulu se refaire. Quand il a perdu ses économies, il a\nemprunté. Quand il a perdu l'argent emprunté, il a menti.\n\nSes créanciers ne réclamaient pas poliment. Après une partie\ndésastreuse, il a dû fuir sa ville natale.\n\nIl s'est réfugié dans un monastère isolé, où les moines lui ont\nappris à maîtriser son souffle, ses gestes et ses émotions. Pendant\nun temps, ça a marché. Puis il a découvert qu'on pouvait parier sur\npresque tout : la météo du lendemain, le nombre de coups pour fendre\nune bûche, celui qui se réveillerait le premier.\n\nIl est parti, officiellement en pèlerinage. En réalité, il a repris\nle jeu. Il voyage de ville en ville, gagne de quoi vivre quelques\nsemaines, puis perd presque tout en une soirée. Il se répète qu'une\nseule grosse victoire suffira à tout remettre d'aplomb.\n\nIl ignore encore que ses créanciers ont engagé des hommes pour le\nretrouver.\n\n-----------------------------------------------------\nPERSONNALITÉ\n-----------------------------------------------------\nTrait         : jovial et bavard, il adore raconter des histoires\n                dont il est toujours le héros.\nIdéal         : la liberté. Il refuse d'être enfermé par les règles,\n                les dettes ou les attentes des autres.\nLien          : son médaillon nain, dernier souvenir de sa famille.\n                Il ne le mise jamais, même désespéré.\nParticularité : il fait rouler un dé entre ses doigts quand il\n                réfléchit, et accélère sans s'en rendre compte quand\n                il est nerveux.\n\n-----------------------------------------------------\nDÉFAUTS\n-----------------------------------------------------\n- Addiction au jeu : il a énormément de mal à quitter une table\n  quand il perd.\n- Déni : ses dettes sont « un problème temporaire », même quand\n  elles deviennent impossibles à rembourser.\n- Superstition : il croit aux séries, aux signes et aux\n  porte-bonheur.\n- Orgueil : il préfère affronter seul les conséquences plutôt que\n  demander de l'aide.\n- Impulsivité : il fait n'importe quoi si on lui dit qu'il n'en est\n  pas capable.\n\nConseil de jeu : son addiction doit créer des situations\nintéressantes sans que le groupe subisse sans cesse ses erreurs.\nBorin peut apprendre à reconnaître ses limites au fil de la campagne.\n\n-----------------------------------------------------\nPROGRESSION PRÉVUE\n-----------------------------------------------------\nNiveau 2 : Discipline (points de concentration : Déluge de coups,\n           Défense patiente, Pas du vent), Mouvement sans armure\n           (+3 m), Métabolisme surnaturel.\nNiveau 3 : choix de la voie. La Main ouverte convient à un combattant\n           qui mise tout sur son corps.\nNiveau 4 : Amélioration de caractéristique (DEX 17 -> 18).\n",
+ "portrait": "/data/images/7931faec8a_borin-portrait2.png",
+ "inventory": [
+  {
+   "uid": "itf3303e04c7",
+   "ref": "eq-quarterstaff",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Bâton en bois sombre marqué de coups de couteau"
+  },
+  {
+   "uid": "it2e05e90a1e",
+   "ref": "eq-dagger",
+   "qty": 2,
+   "equipped": true,
+   "attuned": false,
+   "name": "Dagues"
+  },
+  {
+   "uid": "it416d5f7286",
+   "ref": "eq-thieves-tools",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false
+  },
+  {
+   "uid": "it7e5eed83b1",
+   "ref": "eq-brewer-supplies",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Matériel de brasseur (souvenir du monastère)"
+  },
+  {
+   "uid": "itc77b06669f",
+   "ref": "eq-pack-explorer",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false
+  },
+  {
+   "uid": "itbb0444ee15",
+   "ref": "eq-bedroll",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false
+  },
+  {
+   "uid": "ite449a66440",
+   "ref": "eq-travelers-clothes",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Vêtements de voyageur usés"
+  },
+  {
+   "uid": "it0c25737e8d",
+   "ref": "eq-gaming-set-dice",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Jeu de dés en os (dont un légèrement truqué)"
+  },
+  {
+   "uid": "it48fa0967fa",
+   "ref": "eq-gaming-set-cards",
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Jeu de cartes incomplet"
+  },
+  {
+   "uid": "it8369f89758",
+   "ref": null,
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Petit médaillon représentant une montagne",
+   "desc": "",
+   "kind": "gear",
+   "cat": "Divers"
+  },
+  {
+   "uid": "itb251b8a6c5",
+   "ref": null,
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Porte-bonheur censé attirer les bonnes cartes",
+   "desc": "",
+   "kind": "gear",
+   "cat": "Divers"
+  },
+  {
+   "uid": "itfd1c2119ca",
+   "ref": null,
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Dette écrite sur un bout de parchemin",
+   "desc": "",
+   "kind": "gear",
+   "cat": "Divers"
+  },
+  {
+   "uid": "it82849dc00a",
+   "ref": null,
+   "qty": 1,
+   "equipped": false,
+   "attuned": false,
+   "name": "Liste des tavernes où il est interdit de jouer",
+   "desc": "",
+   "kind": "gear",
+   "cat": "Divers"
+  },
+  {
+   "uid": "itf833f8a81b",
+   "ref": null,
+   "qty": 2,
+   "equipped": false,
+   "attuned": false,
+   "name": "Bourses. 8 pa",
+   "desc": "",
+   "kind": "gear",
+   "cat": "Divers"
+  },
+  {
+   "uid": "it1a16f67925d4246",
+   "ref": "mi-epee-de-lumiere-lunaire",
+   "qty": 1,
+   "equipped": true,
+   "attuned": false,
+   "name": "Épée de lumière lunaire (épée à deux mains)",
+   "base": "eq-greatsword",
+   "value": 145
+  }
+ ],
+ "saveItemBonus": 0,
+ "purse": {
+  "pp": 0,
+  "po": 47,
+  "pa": 0,
+  "pc": 0
+ },
+ "levelHistory": [
+  {
+   "niveau": 1,
+   "t": 1792877927120,
+   "snap": {
+    "player": "",
+    "taille": "Moyenne",
+    "hpTemp": 0,
+    "xp": 353,
+    "niveau": 1,
+    "prof": 2,
+    "hitDice": 1,
+    "conditions": [],
+    "deathSaves": {
+     "s": 0,
+     "f": 0
+    },
+    "exhaustion": 0,
+    "color": "",
+    "source": "import (fichier texte)",
+    "inspiration": "",
+    "id": "borin",
+    "name": "Borin",
+    "title": "Le Poing du dernier lancer",
+    "race": "Nain des montagnes",
+    "classe": "Moine",
+    "historique": "Vagabond",
+    "alignement": "Chaotique Neutre",
+    "vitesse": "9 m",
+    "stats": {
+     "FOR": 12,
+     "DEX": 17,
+     "CON": 14,
+     "INT": 8,
+     "SAG": 14,
+     "CHA": 10
+    },
+    "saves": [
+     "FOR",
+     "DEX"
+    ],
+    "hpMax": 11,
+    "hp": 11,
+    "ca": 15,
+    "initBonus": 3,
+    "hitDie": 8,
+    "skills": {
+     "Acrobaties": 5,
+     "Discrétion": 5,
+     "Perspicacité": 4,
+     "Athlétisme": 3
+    },
+    "attacks": [
+     {
+      "name": "Coup à mains nues",
+      "bonus": 5,
+      "damage": "1d6+3",
+      "type": "contondant"
+     },
+     {
+      "name": "Bâton (une main)",
+      "bonus": 5,
+      "damage": "1d6+3",
+      "type": "contondant"
+     },
+     {
+      "name": "Bâton (deux mains)",
+      "bonus": 5,
+      "damage": "1d8+3",
+      "type": "contondant"
+     },
+     {
+      "name": "Dague (Arts martiaux, lancer 6/18 m)",
+      "bonus": 5,
+      "damage": "1d6+3",
+      "type": "perforant",
+      "item": "it2e05e90a1e"
+     },
+     {
+      "name": "Bâton en bois sombre marqué de coups de couteau",
+      "bonus": 3,
+      "damage": "1d6+1",
+      "type": "contondant (deux mains 1d8)",
+      "item": "itf3303e04c7",
+      "auto": true
+     },
+     {
+      "name": "Épée de lumière lunaire (épée à deux mains)",
+      "bonus": 3,
+      "damage": "2d6+1",
+      "type": "tranchant",
+      "item": "it1a16f67925d4246",
+      "auto": true
+     }
+    ],
+    "resources": [
+     {
+      "name": "Chanceux (points de chance)",
+      "max": 2,
+      "cur": 2,
+      "reset": "long"
+     },
+     {
+      "name": "Connaissance de la pierre",
+      "max": 2,
+      "cur": 2,
+      "reset": "long"
+     },
+     {
+      "name": "Dagues",
+      "max": 2,
+      "cur": 2,
+      "reset": "aucun"
+     }
+    ],
+    "spells": {},
+    "features": [
+     {
+      "name": "Arts martiaux",
+      "text": "DEX au lieu de FOR pour les coups à mains nues et les armes de moine ; peut lancer 1d6 à la place des dégâts normaux ; un coup à mains nues par une action bonus ; DEX pour empoigner ou bousculer."
+     },
+     {
+      "name": "Défense sans armure",
+      "text": "Sans armure ni bouclier, CA = 10 + DEX + SAG."
+     },
+     {
+      "name": "Chanceux (don d'origine, Vagabond)",
+      "text": "2 points de chance par repos long : avantage à un test de d20, ou désavantage imposé à une attaque contre lui. Pour Borin, c'est la preuve qu'il est destiné à gagner le prochain pari."
+     },
+     {
+      "name": "Résistance naine",
+      "text": "Résistance aux dégâts de poison et avantage aux jets de sauvegarde contre l'état empoisonné. Il dit que c'est grâce aux mines ; ses amis pensent aux boissons douteuses des tavernes."
+     },
+     {
+      "name": "Robustesse naine",
+      "text": "+1 PV par niveau."
+     },
+     {
+      "name": "Connaissance de la pierre",
+      "text": "Action bonus : perception des vibrations sur 18 m pendant 10 minutes, tant qu'il touche de la pierre. 2 utilisations par repos long."
+     },
+     {
+      "name": "Vision dans le noir",
+      "text": "36 m."
+     },
+     {
+      "name": "Maîtrises et langues",
+      "text": "Armes courantes, armes de guerre légères (ni armure ni bouclier). Outils : outils de voleur, matériel de brasseur. Langues : commun, nain, halfelin."
+     }
+    ],
+    "equipment": "Bâton en bois sombre marqué de coups de couteau, deux dagues, outils de voleur, matériel de brasseur (souvenir du monastère), sac d'explorateur, sac de couchage, vêtements de voyageur usés, jeu de dés en os (dont un légèrement truqué), jeu de cartes incomplet, petit médaillon représentant une montagne, porte-bonheur censé attirer les bonnes cartes, dette écrite sur un bout de parchemin, liste des tavernes où il est interdit de jouer, deux bourses. 8 pa.",
+    "gold": 47,
+    "notes": "Histoire : mineur nain devenu joueur ; gros gain, puis pertes, emprunts, mensonges ; a fui ses créanciers, s'est réfugié dans un monastère, en est reparti pour rejouer. Ses créanciers ont engagé des hommes pour le retrouver (il l'ignore).\nTrait : jovial et bavard, toujours le héros de ses histoires. Idéal : la liberté. Lien : son médaillon nain, qu'il ne mise jamais. Particularité : fait rouler un dé entre ses doigts quand il réfléchit.\nDéfauts : addiction au jeu, déni (dettes « temporaires »), superstition, orgueil, impulsivité.\nProgression prévue : niv. 2 Discipline, Mouvement sans armure, Métabolisme surnaturel ; niv. 3 voie de la Main ouverte ; niv. 4 DEX 17 → 18.\nIdées pour la campagne : les « hommes engagés » par ses créanciers peuvent être des Endettés de la Table, ou les gros bras de la Main Pleine, qui rachète toutes les dettes du Val. Boris Double-Six le reconnaîtra peut-être d'une ancienne partie.",
+    "sheet": "=====================================================\nBORIN — LE POING DU DERNIER LANCER (Niveau 1)\nD&D 5e — Règles 2024\n=====================================================\n\n« Les dés ne mentent jamais. Bon, parfois ils roulent sous la table.\nMais ça, c'est une autre histoire. »\n\nConcept    : nain moine, joueur compulsif qui croit toujours pouvoir\n             se refaire\nEspèce     : Nain (des montagnes, origine narrative)\nClasse     : Moine 1 (voie choisie au niveau 3)\nHistorique : Vagabond (Wayfarer)\nAlignement : Chaotique Neutre\nStyle      : combattant de mêlée mobile, à mains nues ou au bâton\n\n-----------------------------------------------------\nCARACTÉRISTIQUES\n(tableau standard + historique Vagabond : +2 DEX, +1 SAG)\n-----------------------------------------------------\nFOR 12 (+1)\nDEX 17 (+3)\nCON 14 (+2)\nINT  8 (-1)\nSAG 14 (+2)\nCHA 10 (+0)\n\n-----------------------------------------------------\nSTATISTIQUES\n-----------------------------------------------------\nBonus de maîtrise    : +2\nPV                   : 11 (8 + CON 2 + Robustesse naine 1)\n                       dé de vie : 1d8\nCA                   : 15 (Défense sans armure : 10 + DEX 3 + SAG 2)\nInitiative           : +3\nVitesse              : 9 m\nVision dans le noir  : 36 m\nPerception passive   : 12\nJets de sauvegarde   : FOR +3, DEX +5\nRésistance           : dégâts de poison\n\n-----------------------------------------------------\nCOMPÉTENCES\n-----------------------------------------------------\nAcrobaties    +5\nDiscrétion    +5\nPerspicacité  +4\nAthlétisme    +3\n\nOrigine des maîtrises :\n  Vagabond : Perspicacité, Discrétion\n  Moine    : Acrobaties, Athlétisme\n\n-----------------------------------------------------\nMAÎTRISES ET LANGUES\n-----------------------------------------------------\nArmes et armures : armes courantes, armes de guerre légères\n                   (pas d'armure ni de bouclier)\nOutils           : outils de voleur, matériel de brasseur\nLangues          : commun, nain, halfelin\n\n-----------------------------------------------------\nATTAQUES\n-----------------------------------------------------\nCoup à mains nues : +5 au toucher, 1d6 + 3 contondant\n                    Poings, coudes, pieds, ou coup de tête quand\n                    la partie tourne mal.\nBâton             : +5 au toucher, 1d6 + 3 contondant (une main)\n                    ou 1d8 + 3 (deux mains)\nDague (x2)        : +5 au toucher, 1d4 + 3 perforant\n                    (dé d'Arts martiaux possible : 1d6 + 3)\n                    Lancer : portée 6/18 m\n\nAction bonus : un coup à mains nues supplémentaire à chaque tour.\n\n-----------------------------------------------------\nSORTS\n-----------------------------------------------------\nAucun. Borin ne lance pas de sorts : ses capacités viennent de sa\ndiscipline martiale.\n\n-----------------------------------------------------\nCAPACITÉS\n-----------------------------------------------------\nArts martiaux\n  - Utilise la DEX au lieu de la FOR pour ses coups à mains nues et\n    ses armes de moine.\n  - Peut lancer 1d6 à la place des dégâts normaux de ces attaques.\n  - Peut faire un coup à mains nues par une action bonus.\n  - Peut utiliser la DEX pour empoigner ou bousculer.\n\nDéfense sans armure\n  Sans armure ni bouclier, CA = 10 + DEX + SAG.\n\nChanceux (don d'origine, Vagabond)\n  2 points de chance par repos long. Il peut en dépenser un pour\n  avoir l'avantage à un test de d20, ou pour imposer le désavantage\n  à une attaque contre lui.\n  Pour Borin, ce n'est pas une bénédiction : c'est la preuve qu'il\n  est destiné à gagner le prochain pari.\n\nRésistance naine\n  Résistance aux dégâts de poison et avantage aux jets de sauvegarde\n  contre l'état empoisonné. Il dit que c'est grâce aux mines. Ses\n  amis pensent plutôt aux boissons douteuses des tavernes.\n\nRobustesse naine\n  +1 PV par niveau.\n\nConnaissance de la pierre\n  Par une action bonus, gagne la perception des vibrations sur 18 m\n  pendant 10 minutes, tant qu'il touche de la pierre.\n  2 utilisations par repos long.\n\n-----------------------------------------------------\nÉQUIPEMENT\n-----------------------------------------------------\n- Bâton en bois sombre, marqué de coups de couteau\n- Deux dagues\n- Outils de voleur\n- Matériel de brasseur (souvenir du monastère)\n- Sac d'explorateur\n- Sac de couchage\n- Vêtements de voyageur usés\n- Jeu de dés en os, dont un légèrement truqué\n- Jeu de cartes incomplet\n- Petit médaillon représentant une montagne\n- Porte-bonheur censé attirer les bonnes cartes\n- Dette écrite sur un bout de parchemin\n- Liste des tavernes où il est interdit de jouer\n- Deux bourses, contenant 35 po 8 pa\n\n-----------------------------------------------------\nHISTOIRE\n-----------------------------------------------------\nBorin est né dans une communauté naine au cœur des montagnes. Sa\nfamille travaillait dans les mines depuis des générations. Son père\nlui a appris la patience, la précision et l'importance de tenir sa\nparole.\n\nBorin a retenu les deux premières leçons.\n\nIl a découvert le jeu dans une taverne de mineurs. Au début, quelques\npièces de cuivre, les plaisanteries, et cette seconde de silence\navant que les dés s'immobilisent. Puis il a gagné une grosse somme,\nassez pour lâcher son travail et s'imaginer vivre de sa chance.\n\nIl a fréquenté des salles plus prestigieuses, où les mises étaient\nplus hautes et les sourires moins sincères. Quand il a perdu ses\ngains, il a voulu se refaire. Quand il a perdu ses économies, il a\nemprunté. Quand il a perdu l'argent emprunté, il a menti.\n\nSes créanciers ne réclamaient pas poliment. Après une partie\ndésastreuse, il a dû fuir sa ville natale.\n\nIl s'est réfugié dans un monastère isolé, où les moines lui ont\nappris à maîtriser son souffle, ses gestes et ses émotions. Pendant\nun temps, ça a marché. Puis il a découvert qu'on pouvait parier sur\npresque tout : la météo du lendemain, le nombre de coups pour fendre\nune bûche, celui qui se réveillerait le premier.\n\nIl est parti, officiellement en pèlerinage. En réalité, il a repris\nle jeu. Il voyage de ville en ville, gagne de quoi vivre quelques\nsemaines, puis perd presque tout en une soirée. Il se répète qu'une\nseule grosse victoire suffira à tout remettre d'aplomb.\n\nIl ignore encore que ses créanciers ont engagé des hommes pour le\nretrouver.\n\n-----------------------------------------------------\nPERSONNALITÉ\n-----------------------------------------------------\nTrait         : jovial et bavard, il adore raconter des histoires\n                dont il est toujours le héros.\nIdéal         : la liberté. Il refuse d'être enfermé par les règles,\n                les dettes ou les attentes des autres.\nLien          : son médaillon nain, dernier souvenir de sa famille.\n                Il ne le mise jamais, même désespéré.\nParticularité : il fait rouler un dé entre ses doigts quand il\n                réfléchit, et accélère sans s'en rendre compte quand\n                il est nerveux.\n\n-----------------------------------------------------\nDÉFAUTS\n-----------------------------------------------------\n- Addiction au jeu : il a énormément de mal à quitter une table\n  quand il perd.\n- Déni : ses dettes sont « un problème temporaire », même quand\n  elles deviennent impossibles à rembourser.\n- Superstition : il croit aux séries, aux signes et aux\n  porte-bonheur.\n- Orgueil : il préfère affronter seul les conséquences plutôt que\n  demander de l'aide.\n- Impulsivité : il fait n'importe quoi si on lui dit qu'il n'en est\n  pas capable.\n\nConseil de jeu : son addiction doit créer des situations\nintéressantes sans que le groupe subisse sans cesse ses erreurs.\nBorin peut apprendre à reconnaître ses limites au fil de la campagne.\n\n-----------------------------------------------------\nPROGRESSION PRÉVUE\n-----------------------------------------------------\nNiveau 2 : Discipline (points de concentration : Déluge de coups,\n           Défense patiente, Pas du vent), Mouvement sans armure\n           (+3 m), Métabolisme surnaturel.\nNiveau 3 : choix de la voie. La Main ouverte convient à un combattant\n           qui mise tout sur son corps.\nNiveau 4 : Amélioration de caractéristique (DEX 17 -> 18).\n",
+    "portrait": "/data/images/7931faec8a_borin-portrait2.png",
+    "inventory": [
+     {
+      "uid": "itf3303e04c7",
+      "ref": "eq-quarterstaff",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Bâton en bois sombre marqué de coups de couteau"
+     },
+     {
+      "uid": "it2e05e90a1e",
+      "ref": "eq-dagger",
+      "qty": 2,
+      "equipped": true,
+      "attuned": false,
+      "name": "Dagues"
+     },
+     {
+      "uid": "it416d5f7286",
+      "ref": "eq-thieves-tools",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "it7e5eed83b1",
+      "ref": "eq-brewer-supplies",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Matériel de brasseur (souvenir du monastère)"
+     },
+     {
+      "uid": "itc77b06669f",
+      "ref": "eq-pack-explorer",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "itbb0444ee15",
+      "ref": "eq-bedroll",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false
+     },
+     {
+      "uid": "ite449a66440",
+      "ref": "eq-travelers-clothes",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Vêtements de voyageur usés"
+     },
+     {
+      "uid": "it0c25737e8d",
+      "ref": "eq-gaming-set-dice",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Jeu de dés en os (dont un légèrement truqué)"
+     },
+     {
+      "uid": "it48fa0967fa",
+      "ref": "eq-gaming-set-cards",
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Jeu de cartes incomplet"
+     },
+     {
+      "uid": "it8369f89758",
+      "ref": null,
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Petit médaillon représentant une montagne",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     },
+     {
+      "uid": "itb251b8a6c5",
+      "ref": null,
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Porte-bonheur censé attirer les bonnes cartes",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     },
+     {
+      "uid": "itfd1c2119ca",
+      "ref": null,
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Dette écrite sur un bout de parchemin",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     },
+     {
+      "uid": "it82849dc00a",
+      "ref": null,
+      "qty": 1,
+      "equipped": false,
+      "attuned": false,
+      "name": "Liste des tavernes où il est interdit de jouer",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     },
+     {
+      "uid": "itf833f8a81b",
+      "ref": null,
+      "qty": 2,
+      "equipped": false,
+      "attuned": false,
+      "name": "Bourses. 8 pa",
+      "desc": "",
+      "kind": "gear",
+      "cat": "Divers"
+     },
+     {
+      "uid": "it1a16f67925d4246",
+      "ref": "mi-epee-de-lumiere-lunaire",
+      "qty": 1,
+      "equipped": true,
+      "attuned": false,
+      "name": "Épée de lumière lunaire (épée à deux mains)",
+      "base": "eq-greatsword",
+      "value": 145
+     }
+    ],
+    "saveItemBonus": 0,
+    "purse": {
+     "pp": 0,
+     "po": 47,
+     "pa": 0,
+     "pc": 0
+    }
+   }
+  }
+ ]
+}

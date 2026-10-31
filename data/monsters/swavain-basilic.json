@@ -1,0 +1,47 @@
+{
+ "id": "swavain-basilic",
+ "name": "Swavain Basilisk",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 16,
+ "hp": 85,
+ "hpFormula": "10d12+20",
+ "vitesse": "4,50 m, nage 12 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 2,
+  "SAG": 8,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Amphibie.** Le basilisk peut respirer l'air et l'eau.\n**Secrets pétrifiants.** Une créature doit faire un DD 13 jet de sauvegarde de Constitution si elle frappe le basilic avec une attaque d'arme alors qu'elle se trouve à l'intérieur de 1,50 m ou si elle démarre son tour agrippé par le basilic. À moins que l'épargne ne réussisse, la créature commence magiquement à tourner en pierre et est entravé, et elle doit répéter le jet de sauvegarde à la fin de son prochain tour. Sur une sauvegarde réussie, l'effet se termine. Sur un échec, la créature est pétrifié.",
+ "actionsText": "**Multiattaques.** Le basilic fait deux attaques : une avec sa morsure et une avec sa queue.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 13 (3d6 + 3) dégâts perforants plus 10 (3d6) dégâts de poison.\n**Queue.** Attaque d'arme au corps à corps : +6 au toucher, allonge 4,50 m, une cible. Touché : 14 (2d10 + 3) dégâts contondants. Si la cible est une créature grande ou plus petite, c'est agrippé (évasion DD 12).",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "3d6+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Queue",
+   "bonus": 6,
+   "damage": "2d10+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/73c30bfbf7_monstre-swavain-basilic.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Swavain basilic",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

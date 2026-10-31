@@ -1,0 +1,46 @@
+{
+ "id": "zegdar",
+ "name": "Zegdar",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 117,
+ "hpFormula": "9d10+27",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "abyssal",
+ "traits": "**Frais.** Si Zegdar se déplace au moins 3 m droit vers une cible et la frappe avec une attaque gore au même tour, la cible prend un 9 (2d8) dégâts perforants supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 14 jet de sauvegarde de Force ou être poussée jusqu'à 3 m et à terre.\n**Rappel de Labyrinthine.** Zegdar peut parfaitement se rappeler n'importe quel chemin qu'il a parcouru.\n**Sans déconner.** Au début de son tour, Zegdar peut gagner de l'avantage sur toute l'arme à melee jets d'attaque qu'il fait pendant ce tour, mais jets d'attaque contre elle a de l'avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Brûlure de la respiration (Recharge 5-6).** Zegdar exhale un nuage de braises brûlantes dans un cône 4,50 m. Chaque créature dans cette zone doit réussir sur un DD 14 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Grandaxe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 17 (2d12 + 4) dégâts tranchants.\n**Gore.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 6,
+   "damage": "2d12+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Gore",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ea9814682f_monstre-zegdar.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "Courrier en chaîne",
+ "skills": "Perception +7",
+ "immunities": "feu"
+}

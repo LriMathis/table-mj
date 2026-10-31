@@ -1,0 +1,47 @@
+{
+ "id": "lame-orc-de-ilneval",
+ "name": "Orc Blade of Ilneval",
+ "type": "Humanoïde (orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 18,
+ "hp": 60,
+ "hpFormula": "8d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 11,
+  "CON": 17,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, orc",
+ "traits": "**Agressifs.** En tant qu'action bonus, l'orc peut se déplacer à sa vitesse vers une créature hostile qu'il peut voir.\n**Foe Smiter d'Ilneval.** L'orc inflige une mort supplémentaire de dégâts lorsqu'il frappe avec une attaque à longue épée (inclus dans l'attaque).",
+ "actionsText": "**Multiattaques.** L'orc fait deux attaques de mêlée avec son épée longue ou deux attaques de portée avec ses javelins. Si la commande Ilneval est disponible, l'orc peut l'utiliser après ces attaques.\n**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d8 + 3) dégâts tranchants, ou 14 (2d10 + 3) dégâts tranchants lorsqu'il est utilisé à deux mains.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Commande d'Ilneval (Recharge 4-6).** Jusqu'à trois orcs alliés dans 36 m de cet orc qui peut l'entendre peuvent utiliser leurs réactions à chaque faire une attaque d'arme.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "2d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/cee886cf9d_monstre-lame-orc-de-ilneval.webp",
+ "notes": "",
+ "source": "Volo's Guide to Monsters (5e.tools, traduction automatique)",
+ "aka": "Lame orc de Ilneval",
+ "caNote": "Courrier en chaîne, Bouclier",
+ "saves": "SAG +3",
+ "skills": "Perspicacité +3, Intimidation +4, Perception +3"
+}

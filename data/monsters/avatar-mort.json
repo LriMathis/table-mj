@@ -1,0 +1,24 @@
+{
+ "id": "avatar-mort",
+ "name": "Avatar de la mort (carte Crâne)",
+ "type": "Mort-vivant",
+ "cr": "—",
+ "xp": 0,
+ "ca": 20,
+ "hp": 20,
+ "hpFormula": "moitié des PV max du tireur",
+ "vitesse": "18 m, vol 18 m (stationnaire)",
+ "size": 1,
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "attacks": [],
+ "traits": "**PV.** La moitié des PV maximum de celui qui a tiré la carte : ajustez-les en combat. Bonus de maîtrise : celui du tireur.\n**Attaques multiples.** Autant d'attaques de faux que la moitié du bonus de maîtrise du tireur (arrondie au supérieur).\n**Faux de la mort.** Attaque au corps à corps qui touche automatiquement, allonge 1,50 m : 1d8+3 tranchant + 1d8 nécrotique.\n**Déplacement intangible.** Traverse créatures et objets comme un terrain difficile (1d10 force s'il termine son tour dans un objet).\n**Immunités** nécrotique, poison ; charmé, épuisé, effrayé, paralysé, pétrifié, empoisonné, inconscient. Vision véritable 18 m. Initiative +3.\n**Seul.** Il ne cible que le tireur. Un allié qui lui inflige des dégâts invoque son propre avatar (un seul par créature). Une créature tuée par un avatar ne peut pas être ramenée à la vie.\nStatistiques officielles (Guide du maître 2024, Deck of Many Things).",
+ "portrait": "/data/images/4e38bba2f1_monstre-spectre.svg",
+ "notes": "Campagne : Le Jeu des Mille Fortunes"
+}

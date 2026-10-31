@@ -1,0 +1,40 @@
+{
+ "id": "firenewt-guerrier",
+ "name": "Firenewt Warrior",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 7,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Perception passive 10",
+ "languages": "draconique, igné",
+ "traits": "**Amphibie.** Le newt peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Le feu fait deux attaques de Scimitar.\n**Scimitar.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts tranchants.\n**Spit feu (Recharge après un repos court ou long).** Le feu crache le feu sur une créature de 3 m. La créature doit faire un DD 11 jet de sauvegarde de Dextérité, en prenant 9 (2d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/553a0a16c8_monstre-firenewt-guerrier.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Firenewt guerrier",
+ "caNote": "Bouclier",
+ "immunities": "feu"
+}

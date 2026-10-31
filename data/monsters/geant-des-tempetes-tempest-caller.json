@@ -1,0 +1,49 @@
+{
+ "id": "geant-des-tempetes-tempest-caller",
+ "name": "Storm Giant Tempest Caller",
+ "type": "Géant (ensorceleur)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "tout alignement",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 17,
+ "hp": 310,
+ "hpFormula": "27d12+135",
+ "vitesse": "15 m, vol 15 m (vol stationnaire), nage 15 m",
+ "stats": {
+  "FOR": 29,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 21,
+  "SAG": 18,
+  "CHA": 25
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 20",
+ "languages": "commun, géant, primordial",
+ "traits": "**Alerte.** Le géant ne peut pas être surpris, et il a l'avantage sur les rouleaux d'initiative.\n**Amphibie.** Le géant peut respirer l'air et l'eau.\n**Résistance légendaire (3/jour).** Si le géant échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Scrying (nécessite une rune de tempête).** Le géant peut utiliser sa boule de cristal pour lancer le sort Scrutation (enregistrer DD 17).\n**Rune de tempête.** Le géant a une rune de tempête inscrite sur une boule de cristal. Alors que l'objet portant la rune est intégré dans son corps, le géant peut utiliser son action Tempest Call et son caractère Scrying.\nL'objet portant la rune d'orage a CA 17; 50 points de vie ; et l'immunité à la nécrose, le poison, et dégâts psychiques. L'objet retrouve tout son points de vie à la fin de chaque tour, mais il se transforme en poussière si réduit à 0 points de vie ou quand le géant meurt. Si la rune est détruite, le géant peut inscrire une rune d'orage sur une autre boule de cristal en sa possession lorsqu'il termine une repos court ou long.",
+ "actionsText": "**Multiattaques.** Le géant fait trois attaques foudre Blade ou foudre Lance.\n**Lame foudre.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 22 (3d8 + 9) dégâts tranchants plus 16 (3d10) dégâts de foudre.\n**foudre Lance.** Attaque de sort à distance : +13 au toucher, portée 150 m, une cible. Touché : 39 (5d12 + 7) dégâts de foudre.\n**Appel de tempête (nécessite une rune de tempête).** Le géant crée un vortex élémentaire qui remplit une sphère 18 m -radius centrée sur lui-même. Chaque créature dans cette zone autre que le géant doit faire un DD 21 jet de sauvegarde de Dextérité. Sur un sauvetage raté, une créature prend 43 (8d8 + 7) dégâts d'un type de choix du géant: froid, foudre, ou tonnerre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts.\n**Détection orthographique.** Le géant lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 21, +13 au toucher with attaques de sort) :\n- À volonté : Détection de la magie, Détection des pensées\n- 1/jour chacun : Contrôle de l'eau, Contrôle du climat (en tant qu'action), Dissipation de la magie, Changement de plan, Communication à distance, Arrêt du temps",
+ "attacks": [
+  {
+   "name": "Lame foudre",
+   "bonus": 15,
+   "damage": "3d8+9",
+   "type": "tranchant + foudre"
+  },
+  {
+   "name": "foudre Lance",
+   "bonus": 13,
+   "damage": "5d12+7",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/403b25e296_monstre-geant-des-tempetes-tempest-caller.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant des tempêtes Tempest Caller",
+ "caNote": "armure naturelle",
+ "saves": "FOR +15, CON +11, SAG +10, CHA +13",
+ "skills": "Arcanes +17, Athlétisme +15, Perception +10",
+ "resistances": "froid",
+ "immunities": "foudre, tonnerre"
+}

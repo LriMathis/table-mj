@@ -1,0 +1,41 @@
+{
+ "id": "serpent-jade-anime",
+ "name": "Animated Jade Serpent",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 14,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 18,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 12",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 6 (1d4 + 4) dégâts perforants, et la cible doit faire un DD 11 jet de sauvegarde de Constitution, en prenant 10 (3d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/cecb607658_monstre-serpent-jade-anime.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Serpent Jade animé",
+ "skills": "Perception +2",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

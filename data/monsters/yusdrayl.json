@@ -1,0 +1,38 @@
+{
+ "id": "yusdrayl",
+ "name": "Yusdrayl",
+ "type": "Humanoïde (kobold)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 16,
+ "hpFormula": "3d6+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, draconique",
+ "traits": "**Sensibilité à la lumière du soleil.** En plein soleil, Yusdrayl a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Tactiques de conditionnement.** Yusdrayl a un avantage sur un jet d'attaque contre une créature si au moins un de ses alliés est à l'intérieur de 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Détection orthographique.** Yusdrayl est un spellcaster de niveau 2. Son caractéristique d'incantation est Charisme (save spell DD 13, +5 au toucher avec attaques de sort). Elle connaît les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Main de mage, Prestidigitation, Rayon de givre, Poigne électrique\n- Niveau 1 (4 emplacements) : Mains brûlantes, Orbe chromatique, Armure de mage",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/33c2efe465_monstre-yusdrayl.webp",
+ "notes": "",
+ "source": "TftYP (5e.tools, traduction automatique)",
+ "skills": "Arcanes +2, Perspicacité +2, Discrétion +4"
+}

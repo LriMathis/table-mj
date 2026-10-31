@@ -1,0 +1,32 @@
+{
+ "id": "bridesmaid-de-zuggtmoy",
+ "name": "Bridesmaid of Zuggtmoy",
+ "type": "Plante",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "5d8",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 11,
+  "INT": 14,
+  "SAG": 8,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend Abyssal mais ne peut pas parler",
+ "traits": "**Fungus Stride.** Une fois à son tour, la demoiselle d'honneur peut utiliser 3 m de son mouvement pour passer magiquement dans un champignon vivant ou un timbre de champignon dans 1,50 m et émerger d'un autre dans 18 m du premier, apparaissant dans un espace inoccupé dans 1,50 m du deuxième timbre de champignon ou de champignon. Les champignons et les taches doivent être grands ou plus grands.",
+ "actionsText": "**Spores d'hallucination.** La demoiselle d'honneur éjecte des spores à une créature qu'elle peut voir à l'intérieur de 1,50 m. La cible doit réussir sur un DD 10 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, la cible est neutralisé. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Spores d'infestation (1/jour).** La demoiselle d'honneur libère des spores qui éclatent dans un nuage qui remplit une sphère 3 m -radius centrée sur elle, et le nuage s'attarde pendant 1 minute. Toute créature de chair et de sang dans le nuage quand il apparaît, ou qui l'entre plus tard, doit faire un DD 10 jet de sauvegarde de Constitution. Sur une sauvegarde réussie, la créature ne peut pas être infectée par ces spores pendant 24 heures. Sur une sauvegarde ratée, la créature est infectée par une maladie appelée spores de Zuggtmoy et gagne également une forme aléatoire de folie indéfinie (déterminée par rouler sur la folie de Zuggtmoy table à l'appendice D) qui dure jusqu'à ce que la créature soit guérie de maladie ou meurt. Alors qu'elle est infectée de cette façon, la créature ne peut pas être réinfectée, et elle doit répéter le jet de sauvegarde à la fin de toutes les 24 heures, mettant fin à l'infection sur un succès. En cas d'échec, le corps de la créature infectée est lentement repris par la croissance fongique, et après trois de ces arrêts ratés, la créature meurt et est réanimée comme servante de spores si c'est un type de créature qui peut être (voir l'entrée \"Myconides\" dans le Monster Manual).",
+ "attacks": [],
+ "portrait": "/data/images/11d7a1ac66_monstre-bridesmaid-de-zuggtmoy.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "aka": "Bridesmaid de Zuggtmoy",
+ "caNote": "armure naturelle"
+}

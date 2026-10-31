@@ -1,0 +1,41 @@
+{
+ "id": "vampirien",
+ "name": "Vampirien",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 90,
+ "hpFormula": "12d8+36",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "saves": "DEX +6, SAG +3",
+ "skills": "Discrétion +6, Perception +3",
+ "resistances": "nécrotiques",
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun et une autre langue",
+ "traits": "**Faiblesses des vampires.** Le vampire présente les faiblesses suivantes :\n* **Défense d’entrer.** Le vampire ne peut pas entrer dans une habitation sans y avoir été invité par l’un de ses occupants.\n* **Eau vive.** Le vampire subit 20 dégâts d’acide s’il termine son tour dans l’eau vive.\n* **Pieu dans le cœur.** Le vampire est détruit si une arme infligeant des dégâts perforants est fichée dans son cœur alors qu’il subit l’état Neutralisé.\n* **Lumière du soleil.** Le vampire subit 20 dégâts radiants lorsqu’il commence son tour exposé au soleil. Exposé à la lumière du soleil, il subit le Désavantage aux jets d’attaque ainsi qu’aux tests de caractéristique.\n**Pattes d’araignée.** Le vampire peut parcourir les parois les plus difficiles à escalader, y compris les plafonds, sans passer par un test de caractéristique.",
+ "actionsText": "**Attaques multiples.** Le vampire effectue deux attaques de Griffe et recourt à Morsure.\n**Griffe.** Corps à corps : +6, allonge 1,50 m. Touché : 8 (2d4 + 3) dégâts tranchants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 13) par l’une des deux griffes.\n**Morsure.** JS Constitution : DD 14, une créature dans un rayon de 1,50 m, consentante ou subissant l’état Agrippé, Entravé ou Neutralisé. Échec : 5 (1d4 + 3) dégâts perforants plus 10 (3d6) dégâts nécrotiques. Le maximum de points de vie de la cible est réduit d’un montant égal aux dégâts nécrotiques subis et le vampire récupère autant de points de vie que ce même montant.",
+ "bonusActions": "**Agilité immortelle.** Le vampire effectue l’action Désengagement ou Pointe.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "2d4+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b95c52cbc6_monstre-vampirien.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 295"
+}

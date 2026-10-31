@@ -1,0 +1,47 @@
+{
+ "id": "girallon-zombi",
+ "name": "Girallon Zombie",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 11,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 7,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Agressifs.** En tant qu'action bonus, le zombie peut se déplacer à sa vitesse vers une créature hostile qu'il peut voir.\n**Fortitude non-morte.** Si les dégâts réduisent le zombie à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5+ les dégâts pris, à moins que les dégâts soient rayonnants ou d'un coup critique. Sur un succès, le zombie tombe à 1 points de vie à la place.",
+ "actionsText": "**Multiattaques.** Le zombie fait cinq attaques : une avec sa morsure et quatre avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/7938ec0e2b_monstre-girallon-zombi.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "aka": "Girallon zombi",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

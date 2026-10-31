@@ -1,0 +1,48 @@
+{
+ "id": "doomguard-doom-seigneur",
+ "name": "Doomguard Doom Lord",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 202,
+ "hpFormula": "27d8+81",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 15,
+  "SAG": 14,
+  "CHA": 18
+ },
+ "senses": "Perception passive 16",
+ "languages": "Commun plus trois autres langues",
+ "traits": "**Aura de Doom.** Toute créature qui commence son tour à l'intérieur de 3 m du seigneur doom doit faire un DD 16 jet de sauvegarde de Constitution, en prenant 18 (4d8) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Si le doom lord n'a pas l'état neutralisé, il peut supprimer ou reprendre cette aura au début de son tour (aucune action requise).\n**Monstre de siège.** Le seigneur doom inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le seigneur doom fait deux Grandes épées entropiques ou des attaques entropiques de Javelin.\n**Grande épée entropique.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants plus 10 (3d6) dégâts nécrotiques. Une créature tuée par cette attaque a son corps et tout ce qu'elle porte, sauf pour les objets magiques, réduit à cendres.\n**Javelin entropique.** Attaque d'arme au corps à corps ou à distance : +9 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 8 (1d6 + 5) dégâts perforants plus 14 (4d6) dégâts nécrotiques. Une créature tuée par cette attaque a son corps et tout ce qu'elle porte, sauf pour les objets magiques, réduit à cendres.",
+ "attacks": [
+  {
+   "name": "Grande épée entropique",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Javelin entropique",
+   "bonus": 9,
+   "damage": "1d6+5",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/4788bece47_monstre-doomguard-doom-seigneur.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Doomguard Doom seigneur",
+ "caNote": "Armure de plaque",
+ "saves": "FOR +9, CON +7",
+ "skills": "Perception +6",
+ "immunities": "nécrotique"
+}

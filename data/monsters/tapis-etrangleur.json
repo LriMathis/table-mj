@@ -1,0 +1,39 @@
+{
+ "id": "tapis-etrangleur",
+ "name": "Tapis étrangleur",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non aligné",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "5d10",
+ "vitesse": "3 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 3,
+  "CHA": 1
+ },
+ "immunities": "poison, psychiques",
+ "conditionImmunities": "assourdi, charmé, effrayé, empoisonné, épuisement, paralysé, pétrifié",
+ "senses": "Vision aveugle 18 m, Perception passive 6",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Étouffement.** Corps à corps : +5, allonge 1,50 m. Touché : 10 (2d6 + 3) dégâts contondants. Si la cible est une créature de taille M ou inférieure, le tapis peut lui imposer l’état Agrippé (évasion DD 13) au lieu de lui infliger des dégâts. Tant que la cible est Agrippée, elle subit les états Aveuglé et Entravé, s’asphyxie, et subit 10 (2d6 + 3) dégâts contondants au début de chacun de ses tours. Le tapis ne peut étouffer qu’une créature à la fois.\nTant qu’il agrippe la cible, le tapis ne peut pas entreprendre cette action, il réduit de moitié les dégâts qu’il subit (arrondis à l’inférieur) et la cible subit autant de dégâts que lui.",
+ "attacks": [
+  {
+   "name": "Étouffement",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/5279fe8754_monstre-tapis-etrangleur.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 238"
+}

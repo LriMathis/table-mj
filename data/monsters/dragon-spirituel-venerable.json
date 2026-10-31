@@ -1,0 +1,42 @@
+{
+ "id": "dragon-spirituel-venerable",
+ "name": "Ancient Spirit Dragon",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 21,
+ "hp": 420,
+ "hpFormula": "24d20+168",
+ "vitesse": "12 m, creusement 9 m, vol 24 m",
+ "stats": {
+  "FOR": 26,
+  "DEX": 14,
+  "CON": 25,
+  "INT": 24,
+  "SAG": 18,
+  "CHA": 23
+ },
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 21",
+ "languages": "commun, Draconique; télépathie 36 m.",
+ "traits": "**Résistance légendaire (4/jour, ou 5/jour à Lair).** Si le dragon échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Le dragon fait trois attaques Rend. Il peut remplacer une attaque par une utilisation de (A) Time-Warping Breath ou (B) Spellcasting pour lancer Vague tonnante (version de niveau 2).\n**Rend.** Jet d'attaque au corps à corps : +15, allonge 4,50 m. Touché : 19 (2d10 + 8) dégâts tranchants plus 9 (2d8) dégâts nécrotiques.\n**Respiration ruine (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 22, chaque créature dans un cône 27 m. Échec : 72 (16d8) dégâts nécrotiques. Réussite : Demi-dégâts.\n**Inspiration de l'heure.** Jet de sauvegarde de Sagesse : DD 22, chaque créature qui n'est pas actuellement affectée par ce souffle dans un cône 27 m. Échec : La vitesse de la cible est réduite de moitié, elle ne peut pas prendre de Réactions, et elle peut prendre une action ou une action bonus à son tour, pas les deux. Il répète l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur lui-même sur un succès. Après 1 minute, il réussit automatiquement.\n**Détection orthographique.** Le dragon lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 22) :\n- À volonté : Détection de la magie, Changement de forme (Forme Bête ou Humanoïde seulement, aucun points de vie temporaires obtenu par le sort, et aucun concentration ou points de vie temporaires requis pour maintenir le sort), Vague tonnante (version de niveau 2)\n- 1/jour chacun : Mythes et légendes (en tant qu'action), Dissimulation",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 15,
+   "damage": "2d10+8",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/5358f81104_monstre-dragon-spirituel-venerable.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Dragon spirituel vénérable",
+ "saves": "DEX +9, CON +14",
+ "skills": "Histoire +14, Perspicacité +11, Perception +11, Discrétion +9",
+ "resistances": "nécrotique",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, dragon spirituel vénérable peut entreprendre l'une des actions ci-après.\n**Ponce.** Le dragon se déplace jusqu'à la moitié de sa vitesse, et il fait une attaque Rend.\n**La vague tremblante.** Le dragon utilise Spellcasting pour lancer Vague tonnante (version de niveau 2).\n**Ruines de la terre.** Le dragon soulève magiquement des ruines brisées, antiques dans un 6 m -radius, 18 m -haut Cylindre centré sur un point qu'il peut voir dans 36 m. Le sol dans le cylindre devient terrain difficile. Chaque créature du Cylindre lorsqu'elle apparaît est soumise à l'effet suivant. Jet de sauvegarde de Force : DD 22. Échec : 13 (3d8) dégâts contondants, et la cible a l'état à terre. Échec ou réussite : Le dragon ne peut pas reprendre cette action avant le début de son prochain tour."
+}

@@ -1,0 +1,49 @@
+{
+ "id": "beledros-witherbloom",
+ "name": "Beledros Witherbloom",
+ "type": "Dragon (druide)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre bon",
+ "cr": "24",
+ "xp": 62000,
+ "ca": 22,
+ "hp": 444,
+ "hpFormula": "24d20+192",
+ "vitesse": "12 m, vol 24 m, nage 12 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 14,
+  "CON": 27,
+  "INT": 18,
+  "SAG": 28,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 26",
+ "languages": "commun, draconique, druidique, sylvestre",
+ "traits": "**Résistance légendaire (3/jour).** Si Beledros échoue un jet de sauvegarde, elle peut choisir de réussir.\n**Nature inhabituelle.** Beledros n'a pas besoin d'air, de nourriture ou de boisson.",
+ "actionsText": "**Multiattaques.** Beledros fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +16 au toucher, allonge 4,50 m, une cible. Touché : 14 (1d10 + 9) dégâts perforants plus 6 (1d12) dégâts nécrotiques.\n**Griffe.** Attaque d'arme au corps à corps : +16 au toucher, allonge 3 m, une cible. Touché : 12 (1d6 + 9) dégâts tranchants. Si la cible est une créature Énorme ou plus petite, c'est à terre.\n**Respiration en panne (Recharge 5-6).** Beledros exhale l'énergie de décomposition dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 23 jet de sauvegarde de Constitution, en prenant 39 (6d12) dégâts nécrotiques et 39 (6d12) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Une créature qui prend des dégâts du souffle ne peut retrouver points de vie qu'au début du prochain tour de Beledros.\n**Flux miasmique.** Beledros devient un nuage tourbillonnant de brouillard vert et peut se déplacer jusqu'à la moitié de sa vitesse de vol sans provoquer des attaques d'opportunité, puis reprend sa vraie forme. Pendant ce mouvement, elle peut se déplacer à travers des créatures et des objets comme s'ils étaient 3. Si elle se déplace à travers une créature, elle doit réussir sur un DD 23 jet de sauvegarde de Constitution ou devenir empoisonné jusqu'à la fin de son prochain tour. Si Beledros termine ce déplacement à l'intérieur d'un objet, elle prend 5 (1d10) dégâts de force et est déviée vers l'espace inoccupé le plus proche.\n**Détection orthographique.** Beledros lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation :\n- 1/jour chacun : Restauration supérieure, Soins de groupe, Croissance végétale, Retour à la vie, Communication avec les morts",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 16,
+   "damage": "1d10+9",
+   "type": "perforant + nécrotique"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 16,
+   "damage": "1d6+9",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/754c6a89bc_monstre-beledros-witherbloom.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +9, CON +15, SAG +16, CHA +10",
+ "skills": "Arcanes +18, Médecine +16, Nature +18, Perception +16",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, beledros witherbloom peut entreprendre l'une des actions ci-après.\n**Griffe.** Beledros fait une attaque de Griffe.\n**Flux miasmique (coûts 2 actions).** Beledros utilise Miasmal Flow.\n**Adolescents avec la vie (coûts 3 actions).** Beledros invoque magiquement des mascottes nuisibles 1d4 dans des espaces inoccupés qu'elle peut voir au sein de 18 m d'elle-même. Les parasites obéissent à ses ordres et prennent leur tour immédiatement après les siennes. Toute créature, autre qu'un ravageur, prend 9 (2d8) dégâts de poison si elle commence son tour à l'intérieur de 1,50 m d'un ou plusieurs de ces parasites. Quand l'un de ces parasites tombe à 0 points de vie, Beledros retrouve 9 points de vie. Ces parasites disparaissent après 10 minutes, quand Beledros meurt, ou quand elle recourt à cette action."
+}

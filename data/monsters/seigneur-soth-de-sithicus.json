@@ -1,0 +1,43 @@
+{
+ "id": "seigneur-soth-de-sithicus",
+ "name": "Lord Soth of Sithicus",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "19",
+ "xp": 22000,
+ "ca": 18,
+ "hp": 228,
+ "hpFormula": "24d8+120",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 11,
+  "CON": 20,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 20
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "commun, infernal",
+ "traits": "**Restauration de lord noir.** Si Lord Soth meurt, il ressuscite avec tout son points de vie en 1d10 semaines quelque part à Sithicus.\n**Résistance légendaire (3/jour, ou 4/jour dans le domaine).** Si Lord Soth échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Lord Soth a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Le maréchal n'est pas mort.** Des créatures mortes du choix de Lord Soth (sauf lui-même) dans une Emanation 18 m originaire de lui ont Avantage sur jets d'attaque et jet de sauvegarde. Lord Soth ne peut pas utiliser ce trait s'il a l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Lord Soth fait trois attaques Forsaken Brand.\n**Marque abandonnée.** Jet d'attaque au corps à corps : +12, allonge 1,50 m. Touché : 10 (1d8 + 6) dégâts tranchants plus 13 (3d8) dégâts nécrotiques.\n**feu (Recharge 5-6) catalytique.** Jet de sauvegarde de Dextérité : DD 19, chaque créature dans un 6 m -radius Sphere centré sur un point Lord Soth peut voir dans 36 m. Échec : 24 (7d6) dégâts de feu plus 24 (7d6) dégâts nécrotiques. Réussite : Demi-dégâts.\n**Face de la mort (1/jour).** Jet de sauvegarde de Charisme : DD 19, chaque créature dans une Emanation 18 m originaire de Lord Soth. Échec : 22 (4d10) dégâts psychiques, et la créature a l'état effrayé. Réussite : Demi-dégâts seulement. Échec ou réussite : Si ce dégâts réduit la cible à 0 points de vie, la cible meurt.",
+ "attacks": [
+  {
+   "name": "Marque abandonnée",
+   "bonus": 12,
+   "damage": "1d8+6",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/1f069f4c76_monstre-seigneur-soth-de-sithicus.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Seigneur Soth de Sithicus",
+ "saves": "DEX +6, SAG +9, CHA +11",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, effrayé, empoisonné",
+ "bonusActions": "**Commande de la magie (3/jour).** Lord Soth lance Dissipation de la magie, Immobilisation de personne, ou Bannissement (version de niveau 5), en utilisant Charisme comme caractéristique d'incantation (spell save DD 19).\n- 3/jour : Dissipation de la magie, Immobilisation de personne, Bannissement (version de niveau 5)",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, seigneur soth de sithicus peut entreprendre l'une des actions ci-après.\n**Punir.** Lord Soth se déplace jusqu'à la moitié de sa vitesse, et il fait un Forsaken Brand attaque.\n**Le commandement de Soth.** Lord Soth lance Injonction (version de niveau 3) en utilisant le même caractéristique d'incantation que Commanding Magic. Lord Soth ne peut pas reprendre cette action avant le début de son prochain tour."
+}

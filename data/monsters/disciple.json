@@ -1,0 +1,40 @@
+{
+ "id": "disciple",
+ "name": "Disciple",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "",
+ "cr": "0",
+ "xp": 10,
+ "ca": 11,
+ "hp": 9,
+ "hpFormula": "2d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 9,
+  "CON": 10,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 9
+ },
+ "senses": "Perception passive 13",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Mace.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants.\n**Flamme sacrée (sort mineur).** Vous ciblez une créature que vous pouvez voir dans 18 m de vous. La cible doit réussir sur un DD 11 jet de sauvegarde de Dextérité ou prendre 4 (1d8) dégâts radiants. La cible ne bénéficie pas de la couverture pour ce jet de sauvegarde.\n**Détection orthographique.** Vous lancez un des sorts clercs suivants (spell save DD 11), en utilisant Sagesse comme caractéristique d'incantation :\n- À volonté : Assistance, Flamme sacrée\n- 2/jour : Soins",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/08c7f22258_monstre-disciple.webp",
+ "notes": "",
+ "source": "Ravenloft: The House of Lament (5e.tools, traduction automatique)",
+ "caNote": "Bouclier",
+ "saves": "SAG +3",
+ "skills": "Perception +3, Religion +2"
+}

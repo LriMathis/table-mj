@@ -1,0 +1,45 @@
+{
+ "id": "presage-vivant",
+ "name": "Living Portent",
+ "type": "Céleste",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 65,
+ "hpFormula": "10d8+20",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 14,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "tous",
+ "traits": "**Brilliance (formulaire véritable seulement).** Le porte-à-faux vivant apporte une lumière vive pour 9 m et une lumière dim pour un 9 m supplémentaire.",
+ "actionsText": "**Multiattaques.** Le porteur vivant fait deux attaques radiant Strike.\n**Grève de radiant.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 9 (1d12 + 3) dégâts radiants.\n**Bénédiction prophétique.** Le porteur vivant infuse magiquement la puissance de sa prophétie en une autre créature volontaire que le porteur vivant peut voir en lui-même en 9 m. La cible maximum de points de vie et la points de vie actuelle augmentent de 7 (1d8 + 3), et elle gagne une prophétie mourir, une d8. Une fois lors de chaque tour de la créature, quand elle échoue à un test de caractéristique ou jet de sauvegarde ou manque un jet d'attaque, elle peut rouler la prophétie mourir et ajouter le nombre roulé au total, potentiellement changer le résultat. La bénédiction se termine après 1 heure ou lorsque le portique vivant termine la bénédiction (aucune action requise) ou utilise à nouveau cette action.\n**Détection orthographique.** Le porteur vivant lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation :\n- 1/jour chacun : Divination, Restauration supérieure\n- 2/jour : Soins",
+ "attacks": [
+  {
+   "name": "Grève de radiant",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/8248f6b31d_monstre-presage-vivant.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "aka": "Présage vivant",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, SAG +5",
+ "skills": "Arcanes +6, Histoire +6, Perspicacité +5, Perception +5",
+ "immunities": "radiant",
+ "conditionImmunities": "épuisement",
+ "bonusActions": "**Modifier la forme.** Le vivant se transforme magiquement en Humanoïde tout en conservant ses statistiques de jeu (autre que sa taille et son caractère Brilliance). La transformation se termine si le portant vivant est réduit à 0 points de vie ou utilise un action bonus pour y mettre fin.",
+ "reactions": "**Prix de défiance.** Quand le portique vivant est endommagé par une créature qu'il peut voir en 36 m de lui-même, la puissance rayonnante souille la créature. La créature doit faire un DD 13 jet de sauvegarde de Constitution, en prenant 10 (3d6) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

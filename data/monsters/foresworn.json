@@ -1,0 +1,43 @@
+{
+ "id": "foresworn",
+ "name": "Foresworn",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 18,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 12,
+  "SAG": 18,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Droit de douane.** La prédatrice est tenue d'accomplir un devoir singulier qu'elle s'est engagée à accomplir dans la vie. Bien que ce devoir soit incomplet, chaque fois que le pré-soulèvement est détruit, il se reforme à son emplacement précédent après 3 (1d6), avec tous ses points de vie restaurés.\n**Mouvement intégré.** Les pré-soudés peuvent se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Nature inhabituelle.** La pré-respiration n'exige ni l'air, ni la nourriture, ni la boisson ni le sommeil.",
+ "actionsText": "**Multiattaques.** Le pré-souvent fait trois attaques Spectral Polearm.\n**Pôle spectrale.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts de force.\n**Détection orthographique.** Le pré-sworn jette l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- 1/jour : Mur de force\n- 2/jour chacun : Injonction, Détection du mal et du bien",
+ "attacks": [
+  {
+   "name": "Pôle spectrale",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/5b9221db12_monstre-foresworn.webp",
+ "notes": "",
+ "source": "MCV2DC (5e.tools, traduction automatique)",
+ "caNote": "Armure de plaque",
+ "saves": "FOR +8, SAG +7",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient",
+ "bonusActions": "**Bataillon fantôme (Recharge 5-6).** Le précepteur convoque un bataillon de soldats fantômes à son aide. Les soldats fantômes remplissent une coupe 3 m centrée sur le pré-soulèvement, se déplacent avec le pré-soulèvement quand le pré-soulèvement bouge, et durent jusqu'au prochain tour du pré-soulèvement. Tandis que les soldats fantômes sont présents, la zone qu'ils occupent est considérée comme un terrain difficile pour toutes les créatures, à l'exception de la présoudure, et la portée de la présoudée pour les attaques d'armes de mêlée augmente de 3 m."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "web-memoire",
+ "name": "Memory Web",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 39,
+ "hpFormula": "6d10+6",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 18,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m (can't see beyond this radius), Perception passive 12",
+ "languages": "—",
+ "traits": "**Transfert de dégâts.** Alors qu'il s'attaque à une créature, le web mémoire ne prend que la moitié des dégâts qui lui sont infligés, et la créature agrippé par le web prend l'autre moitié.\n**Fausse apparence.** Si le web mémoire est immobile au début du combat, il a avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte du web mémoire, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que le web mémoire est animé.\n**Inondation de mémoire.** Lorsque le web mémoire est réduit à 0 points de vie, il décharge tous les souvenirs qu'il a consommés au cours des dernières 24 heures dans un déluge télépathique. Des visions rêveuses de ces souvenirs déchargés logent dans l'esprit des créatures jusqu'à 36 m à partir de la toile de mémoire.",
+ "actionsText": "**Ensnare.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature grande ou plus petite. Touché : La cible a l'état agrippé (évasion DD 13). Jusqu'à ce que ce grappin se termine, la cible a l'état entravé et prend 7 (1d8 + 3) dégâts contondants au début de chacun de ses tours. Le web mémoire ne peut grappiller qu'une créature à la fois.",
+ "attacks": [
+  {
+   "name": "Ensnare",
+   "bonus": 5,
+   "damage": "1d8+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/443a942826_monstre-web-memoire.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "aka": "Web mémoire",
+ "resistances": "feu",
+ "conditionImmunities": "aveuglé, assourdi",
+ "bonusActions": "**Égoutter les souvenirs.** La mémoire web cible une créature agrippé par elle. La cible doit faire un DD 12 jet de sauvegarde d'Intelligence. Construits, Oozes, Plantes et Undead réussissent automatiquement sur l'enregistrement. Lors d'une sauvegarde ratée, la cible prend 5 (2d4) dégâts psychiques et devient drainée par la mémoire jusqu'à ce qu'elle termine un repos long ou que le web mémoire soit détruit.\nPendant que la mémoire est drainée, la cible doit rouler un d4 à chaque fois qu'elle fait un test de caractéristique ou jet d'attaque, en soustrayant le rouleau d4. Chaque fois que la cible est drainée au-delà de la première, la taille de la matrice augmente d'une : la d4 devient une d6, la d6 devient une d8, et ainsi de suite jusqu'à ce que la matrice devienne une d20, où la cible a l'état inconscient pendant 1 heure. Si une créature drainée par la mémoire est la cible du sort de la Grande Restauration ou Guérison, l'effet drainé par la mémoire se termine sur elle. Lors d'une sauvegarde réussie, la cible prend la moitié de ces dégâts seulement."
+}

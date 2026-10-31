@@ -1,0 +1,46 @@
+{
+ "id": "thurl-merosska",
+ "name": "Thurl Merosska",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 71,
+ "hpFormula": "11d8+21",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 15
+ },
+ "senses": "Perception passive 10",
+ "languages": "aérien, commun",
+ "traits": "**Détection orthographique.** Thurl est un épeautre de niveau 5. Son caractéristique d'incantation est Charisme (save spell DD 12, +4 au toucher avec attaques de sort). Thurl connaît les sorts suivants :\n- Sorts mineurs (à volonté) : Amis, Saute de vent, Lumière, Message, Rayon de givre\n- Niveau 1 (4 emplacements) : Repli expéditif, Feuille morte, Saut\n- Niveau 2 (3 emplacements) : Lévitation, Foulée brumeuse\n- Niveau 3 (2 emplacements) : Hâte",
+ "actionsText": "**Multiattaques.** Thurl fait deux attaques à la mêlée.\n**Grande épée.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.\n**Lance.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 9 (1d12 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Lance",
+   "bonus": 5,
+   "damage": "1d12+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/9984d2fd08_monstre-thurl-merosska.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "skills": "Dressage +2, Athlétisme +5, Tromperie +4, Persuasion +4",
+ "reactions": "**Parry.** Thurl ajoute 2 à sa CA contre une attaque à la mêlée qui le frapperait. Pour ce faire, Thurl doit voir l'agresseur et manier une arme de mêlée."
+}

@@ -1,0 +1,39 @@
+{
+ "id": "rakdos-lampooner",
+ "name": "Rakdos Lampooner",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 9,
+  "CHA": 18
+ },
+ "senses": "Perception passive 9",
+ "languages": "Commun plus une langue",
+ "traits": "**Détection orthographique.** Le lampooner est un spellcaster de niveau 4 Rakdos. Son caractéristique d'incantation est Charisme (save spell DD 14, +6 au toucher avec attaques de sort). Il connaît les sorts suivants :\n- Sorts mineurs (à volonté) : Lumières dansantes, Illusion mineure, Moquerie cruelle\n- Niveau 1 (4 emplacements) : Fléau, Murmures dissonants, Image silencieuse, Fou rire de Tasha, Vague tonnante\n- Niveau 2 (3 emplacements) : Couronne du dément, Discours captivant, Suggestion",
+ "actionsText": "**Club.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 2 (1d4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Club",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0c128d88fd_monstre-rakdos-lampooner.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Tromperie +6, Représentation +6"
+}

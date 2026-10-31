@@ -1,0 +1,50 @@
+{
+ "id": "alcool-tempest",
+ "name": "Tempest Spirit",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 12,
+ "hp": 195,
+ "hpFormula": "17d12+85",
+ "vitesse": "0 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 24,
+  "DEX": 14,
+  "CON": 20,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 19
+ },
+ "senses": "Perception passive 19",
+ "languages": "commun, géant",
+ "traits": "**Mouvement intégré.** L'esprit peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. L'esprit prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance légendaire (3/jour).** Si l'esprit échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** L'esprit fait deux attaques foudre Fist ou Hailstone dans n'importe quelle combinaison.\n**Fist foudre.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 25 (4d8 + 7) dégâts de foudre.\n**Grêle.** Attaque d'arme à distance : +12 au toucher, portée 27/54 m., une cible. Touché : 17 (3d6 + 7) dégâts contondants plus 7 (2d6) dégâts de froid.\n**Bolt de mort (Recharge 5-6).** L'esprit lance un éclair magique dans une ligne 36 m qui est large de 3 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 27 (6d8) dégâts de foudre plus 16 (3d10) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Lors d'un succès ou d'un échec, le maximum de points de vie d'une créature affectée est réduit d'une quantité égale au dégâts nécrotiques pris. Cette réduction dure jusqu'à ce que la créature termine un repos long. La créature meurt si son maximum de points de vie est réduit à 0.",
+ "attacks": [
+  {
+   "name": "Fist foudre",
+   "bonus": 12,
+   "damage": "4d8+7",
+   "type": "foudre"
+  },
+  {
+   "name": "Grêle",
+   "bonus": 12,
+   "damage": "3d6+7",
+   "type": "contondant + froid"
+  }
+ ],
+ "portrait": "/data/images/309efb93da_monstre-alcool-tempest.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Alcool Tempest",
+ "saves": "CON +10, INT +8, SAG +9, CHA +9",
+ "skills": "Arcanes +8, Perception +9",
+ "resistances": "froid, nécrotique, poison, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "foudre, tonnerre",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé",
+ "bonusActions": "**Accumulation (Recharge 4-6).** L'esprit évoque une tempête de grêle dans un 6 m -radius, 12 m -haut cylindre centré sur un point qu'il peut voir en lui-même. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Dextérité. Sur une sauvegarde échouée, une créature prend 10 (3d6) dégâts contondants plus 10 (3d6) dégâts de froid et a l'état à terre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement."
+}

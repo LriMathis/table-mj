@@ -1,0 +1,46 @@
+{
+ "id": "soluun-xibrindas",
+ "name": "Soluun Xibrindas",
+ "type": "Humanoïde (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 18,
+ "hp": 84,
+ "hpFormula": "13d8+26",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 18,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Ancêtre fécale.** Soluun a l'avantage sur jet de sauvegarde contre le fait d'être charmé et la magie ne peut pas mettre Soluun à dormir.\n**Gunslinger.** Le fait d'être dans 1,50 m d'une créature hostile ou d'attaquer à longue distance n'impose pas de désavantage à la jets d'attaque de Soluun avec un pistolet. En outre, Soluun ignore 3 et 3 lors de la réalisation d'attaques variées avec un pistolet.\n**Sensibilité à la lumière du soleil.** En plein soleil, Soluun a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Matériel.** Quatre paquets de poudre à fumée et une poche contenant 20 balles de pistolet\n**Bottes d'Elvenkind.** En portant ces bottes, les pas de Soluun ne font pas de bruit et il a avantage sur n'importe quel tests de Dextérité (Discrétion) qui compte sur le mouvement silencieux.\n**Découpe intérieure.** caractéristique d'incantation de Soluun est Charisme. Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Lumières dansantes\n- 1/jour chacun : Ténèbres, Lueurs féeriques, Lévitation (autoseulement)",
+ "actionsText": "**Multiattaques.** Soluun fait deux attaques de scimitar.\n**Scimitar.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts tranchants.\n**Pistol toxique.** Attaque d'arme à distance : +6 au toucher, portée 9/27 m., une cible. Touché : 9 (1d10 + 4) dégâts perforants plus 11 (2d10) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Pistol toxique",
+   "bonus": 6,
+   "damage": "1d10+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/3d79f36a1c_monstre-soluun-xibrindas.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Cuirs et peaux touffus, Bouclier",
+ "saves": "DEX +6, CON +4, SAG +3",
+ "skills": "Perception +3, Discrétion +8"
+}

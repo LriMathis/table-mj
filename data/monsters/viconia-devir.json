@@ -1,0 +1,41 @@
+{
+ "id": "viconia-devir",
+ "name": "Viconia DeVir",
+ "type": "Humanoïde (Elfe sourd)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "13",
+ "xp": 10000,
+ "ca": 21,
+ "hp": 135,
+ "hpFormula": "30d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 20,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "céleste, commun, elfique",
+ "traits": "**Ancêtre fécale.** Viconia a un avantage sur jet de sauvegarde contre charmé, et la magie ne peut pas endormir Viconia.\n**Ombre vivante.** Alors que dans la lumière ou l'obscurité, Viconia a une résistance aux dégâts qui n'est pas de la force, psychique, ou rayonnant.\n**Matériel spécial.** Viconia porte un Ceinturon de force de géant (feu) et un Cape de protection et dispose d'une masse de +3. Sans la ceinture, sa force est de 12 et sa vitesse est réduite à 6 m.\n**Sensibilité à la lumière du soleil.** Alors qu'au soleil, Viconia a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Viconia attaque deux fois avec sa Mace Magique et utilise son action Spellcasting.\n**Mac magique.** Attaque d'arme au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 13 (1d6 + 10) dégâts contondants plus 9 (2d8) dégâts nécrotiques.\n**Nettoyage sacré (Recharge 4-6).** Chaque créature dans un 3 m -radius, 12 m -haut cylindre centré sur un point dans 18 m doit faire un DD 18 jet de sauvegarde de Dextérité. Une créature prend 28 (8d6) dégâts de feu plus 28 (8d6) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Viconia lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Lumières dansantes, Lumière, Sanctuaire, Thaumaturgie\n- 1/jour chacun : Ténèbres, Parole divine, Lueurs féeriques, Aura sacrée\n- 2/jour chacun : Soins, Protection contre la mort, Restauration partielle",
+ "attacks": [
+  {
+   "name": "Mac magique",
+   "bonus": 15,
+   "damage": "1d6+10",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/7cdc670703_monstre-viconia-devir.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "Cape de protection, plaque, Bouclier",
+ "saves": "CON +5, SAG +10",
+ "skills": "Perspicacité +10, Persuasion +7, Religion +12",
+ "resistances": "nécrotique"
+}

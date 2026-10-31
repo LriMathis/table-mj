@@ -1,0 +1,42 @@
+{
+ "id": "crokek-toeck",
+ "name": "Crokek'toeck",
+ "type": "Fiélon (démon)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 15,
+ "hp": 297,
+ "hpFormula": "17d20+119",
+ "vitesse": "18 m, nage 18 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 10,
+  "CON": 24,
+  "INT": 6,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "comprend Abyssal mais ne peut pas parler",
+ "traits": "**Amphibie.** Crokek'toeck peut respirer de l'air et de l'eau.\n**Résistance magique.** Crokek'toeck a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Armes magiques.** Les attaques d'armes de Crokek'toeck sont magiques.\n**Mémoire sécurisée.** Crokek'toeck est à l'abri des eaux du Styx de la rivière ainsi que de tout effet qui volerait ou modifierait ses souvenirs ou détecterait ou lira ses pensées.\n**Leap debout.** Le long saut de Crokek'toeck est jusqu'à 18 m et son saut haut est jusqu'à 9 m, avec ou sans démarrage.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 4,50 m, une cible. Touché : 44 (10d6 + 9) dégâts perforants.\n**Alliés de dégorge (Recharge 6).** Crokek'toeck opens its mouth and disgorges 1d4 barlguras, 3d6 gnolls led by 1 Gnoll, croc d'Yeenoghu, 6d6 dretches, or 1d3 vrocks. Chaque créature qu'elle dégorge apparaît dans un espace inoccupé au sein de 9 m de la bouche de Crocek'toeck, ou dans l'espace inoccupé le plus proche.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "10d6+9",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/885ae16979_monstre-crokek-toeck.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, SAG +5",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, empoisonné"
+}

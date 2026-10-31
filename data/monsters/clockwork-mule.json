@@ -1,0 +1,39 @@
+{
+ "id": "clockwork-mule",
+ "name": "Clockwork Mule",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 10,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 10,
+  "CON": 13,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 5
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Maintenable.** La réparation de 1 points de vie de dégâts à la mule d'horlogerie prend 1 heure et nécessite des pièces de rechange, qui peuvent être achetés dans une grande ville pour 20 gp. Si la mule tombe à 0 points de vie, elle est détruite et irréparable.\n**Bête de la charge.** La mule est considérée comme un gros animal aux fins de la détermination de sa capacité de charge.\n**C'est sûr..** La mule a un avantage sur Force et jet de sauvegarde de Dextérité fait contre les effets qui le frapperaient à terre.",
+ "actionsText": "**Des voyous.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Des voyous",
+   "bonus": 2,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/be762335d0_monstre-clockwork-mule.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

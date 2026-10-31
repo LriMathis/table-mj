@@ -1,0 +1,47 @@
+{
+ "id": "morkoth",
+ "name": "Morkoth",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 165,
+ "hpFormula": "22d10+44",
+ "vitesse": "7,50 m, nage 15 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 13
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 20",
+ "languages": "télépathie 36 m",
+ "traits": "**Amphibie.** Le morkoth peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Le morkoth fait soit deux attaques Bite et une attaque Tentacles ou trois attaques Bite.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts tranchants plus 10 (3d6) dégâts psychiques.\n**Tentacules.** Attaque d'arme au corps à corps : +6 au toucher, allonge 4,50 m, une cible. Touché : 15 (3d8 + 2) dégâts contondants, et la cible est agrippé (évasion DD 14) si c'est une créature grande ou plus petite. Jusqu'à ce que ce grappin se termine, la cible est entravé et prend 15 (3d8 + 2) dégâts contondants au début de chacun de ses tours, et le morkoth ne peut pas utiliser ses tentacules sur une autre cible.\n**Hypnose.** Le morkoth projette un cône 9 m d'énergie magique. Chaque créature dans cette zone doit faire un DD 17 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature est charmé par le morkoth pendant 1 minute. Alors que charmé de cette façon, la cible essaie de se rapprocher le plus possible du morkoth, en utilisant ses actions à Foncer jusqu'à ce qu'il soit dans 1,50 m du morkoth. Une cible charmé peut répéter la jet de sauvegarde à la fin de chacun de ses tours et chaque fois qu'elle prend des dégâts, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature a avantage sur jet de sauvegarde contre l'hypnose du morkoth pendant 24 heures.\n**Détection orthographique.** Le morkoth lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection de la magie, Main de mage\n- 3/jour chacun : Ténèbres, Porte dimensionnelle, Dissipation de la magie, Éclair, Communication à distance",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d6+2",
+   "type": "tranchant + psychique"
+  },
+  {
+   "name": "Tentacules",
+   "bonus": 6,
+   "damage": "3d8+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3e92fa7740_monstre-morkoth.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, INT +9, SAG +6",
+ "skills": "Arcanes +9, Histoire +9, Perception +10, Discrétion +6",
+ "reactions": "**Réflexion orthographique.** Si le morkoth fait un succès jet de sauvegarde contre un sort ou qu'un attaque de sort le rate, le morkoth peut choisir une autre créature (y compris l'épellcaster) qu'il peut voir à l'intérieur de 36 m. Le sort cible la créature choisie au lieu du morkoth. Si le sort a forcé un jet de sauvegarde, la créature choisie fait son propre sauvetage. Si le sort était une attaque, le jet d'attaque est retourné contre la créature choisie."
+}

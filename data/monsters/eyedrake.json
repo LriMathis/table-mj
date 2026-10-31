@@ -1,0 +1,41 @@
+{
+ "id": "eyedrake",
+ "name": "Eyedrake",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 119,
+ "hpFormula": "14d10+42",
+ "vitesse": "0 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "profond, draconique",
+ "traits": "**Nature inhabituelle.** Le dessin n'a pas besoin de nourriture ou de boisson.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 13 (3d6 + 3) dégâts perforants.\n**Respiration antimagique (Recharge 6).** La drague émet une onde magique dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Constitution, en prenant 39 (6d12) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Chaque sort de de niveau 3 ou inférieure se termine sur des créatures et des objets du choix de l'oeil dans cette zone.\n**Rayons oculaires.** Le dessin des yeux tire trois des rayons oculaires magiques suivants au hasard (reroulement des duplicatas), chaque rayon ciblant une créature il peut voir dans 18 m de lui:\n- **1: Rayon de congélation** La cible doit faire un DD 14 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la cible prend 17 (5d6) dégâts de froid, et sa vitesse est réduite de moitié jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts sans effets supplémentaires.\n- **2: Rayon débilitant** La cible doit réussir sur un DD 14 jet de sauvegarde de Constitution ou prendre 7 (2d6) dégâts de tonnerre et devenir neutralisé jusqu'à la fin de son prochain tour.\n- **3: Rayon de répulsion** La cible doit réussir sur un DD 14 jet de sauvegarde de Force ou prendre 14 (4d6) dégâts de force et être poussée jusqu'à 18 m loin de la dérive oculaire.\n- **4: Rayon feu** La cible doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n- **5: Ray paralysant** La cible doit réussir sur un DD 14 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n- **6: Rayon de la mort** La cible doit faire un DD 14 jet de sauvegarde de Dextérité, en prenant 28 (8d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. La cible meurt si le rayon la réduit à 0 points de vie.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "3d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/99651a1aad_monstre-eyedrake.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +6, SAG +5",
+ "skills": "Perception +8, Discrétion +6",
+ "conditionImmunities": "à terre"
+}

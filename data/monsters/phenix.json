@@ -1,0 +1,49 @@
+{
+ "id": "phenix",
+ "name": "Phoenix",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "16",
+ "xp": 15000,
+ "ca": 18,
+ "hp": 175,
+ "hpFormula": "10d20+70",
+ "vitesse": "6 m, vol 36 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 26,
+  "CON": 25,
+  "INT": 2,
+  "SAG": 21,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "—",
+ "traits": "**Mort et renaissance ardentes.** Si le phénix meurt, il explose. Chaque créature dans la sphère 18 m -radius centrée sur le phénix doit faire un DD 20 jet de sauvegarde de Dextérité, en prenant 22 (4d10) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. L'incendie enflamme des objets inflammables dans la zone qui ne sont ni portés ni transportés.\nL'explosion détruit le corps du phoenix et laisse derrière lui un cylindre en forme d'œuf, qui pèse 2,5 kg. Le cylindre distribue 21 (6d6) dégâts de feu à toute créature qui la touche, mais pas plus d'une fois par tour. Le cylindre est à l'abri de tous les dégâts, et après 1d6 jours, il éclos un nouveau phénix.\n**Formulaire feu.** Le phénix peut se déplacer dans un espace aussi étroit que 1 pouce de large sans serrer.\nToute créature qui touche le phoenix ou le frappe avec une attaque de mêlée alors que dans 1,50 m il prend 5 (1d10) dégâts de feu. En outre, le phénix peut entrer dans l'espace d'une créature hostile et s'arrêter là. La première fois qu'il entre dans l'espace d'une créature sur un tour, cette créature prend 5 (1d10) dégâts de feu.\nAvec un toucher, le phénix peut également enflammer des objets inflammables qui ne sont pas portés ou transportés (aucune action requise).\n**Volée.** Le phénix ne provoque pas opportunity attacks quand il vole hors de la portée d'un ennemi.\n**Éclairage.** Le phoenix apporte une lumière lumineuse dans un rayon de 18 m et une lumière dim pour un 9 m supplémentaire.\n**Résistance légendaire (3/jour).** Si le phoenix échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Monstre de siège.** Le phénix inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le phénix fait deux attaques : une attaque de bec et une attaque de Talons Fiery.\n**Bec.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 15 (2d6 + 8) dégâts de feu.\n**Talons de feu.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 17 (2d8 + 8) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 13,
+   "damage": "2d6+8",
+   "type": "feu"
+  },
+  {
+   "name": "Talons de feu",
+   "bonus": 13,
+   "damage": "2d8+8",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/5f5a08c174_monstre-phenix.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Phénix",
+ "saves": "SAG +10, CHA +9",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu, poison",
+ "conditionImmunities": "épuisement, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, étourdi",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, phénix peut entreprendre l'une des actions ci-après.\n**Bouge.** Le phénix se déplace à sa vitesse.\n**Coucou.** Le phénix fait une attaque de bec.\n**Swoop (coûts 2 actions).** Le phénix se déplace à sa vitesse et fait une attaque de Fiery Talons."
+}

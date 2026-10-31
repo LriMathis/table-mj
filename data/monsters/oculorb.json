@@ -1,0 +1,48 @@
+{
+ "id": "oculorb",
+ "name": "Oculorb",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 13,
+ "hp": 127,
+ "hpFormula": "15d10+45",
+ "vitesse": "0 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 13,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 19
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 20",
+ "languages": "profond, télépathie 36 m",
+ "traits": "**Résistance magique.** L'oculorb a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Les yeux vigilants.** L'oculorb a un avantage sur les rouleaux d'initiative et ne peut pas être surpris.",
+ "actionsText": "**Multiattaques.** L'oculorb fait deux attaques de contact terrible ou quatre attaques de faisceau oculaire.\n**Un terrible contact.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 14 (3d6 + 4) dégâts psychiques ou 25 (6d6 + 4) dégâts psychiques si la cible a l'état effrayé.\n**Pelle de l'œil.** Attaque de sort à distance : +8 au toucher, portée 36 m, une créature. Touché : 14 (3d6 + 4) dégâts psychiques.\n**Inondation antipathique (Recharge 5-6).** L'oculorb libère une vague d'émotions négatives, en choisissant l'une des options suivantes:\n**Yeux pleurants.** L'oculorbe pleure, libérant une vague de désespoir écrasant. Chaque créature de 9 m de l'oculorb doit faire un DD 16 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la vitesse d'une créature est réduite à 0 m jusqu'à la fin du prochain tour de l'oculorb, et si la créature était concentrating, son concentration est cassé.\n**Glare de dépérissement.** Les yeux de l'oculorb libèrent une énergie écarlate furieuse dans un cône 18 m. Chaque créature dans cette zone doit faire un DD 16 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, une créature prend 33 (6d10) dégâts nécrotiques et a l'état effrayé pendant 1 minute. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas effrayé. Une créature effrayé peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès de sauvegarde.",
+ "attacks": [
+  {
+   "name": "Un terrible contact",
+   "bonus": 5,
+   "damage": "3d6+4",
+   "type": "psychique"
+  },
+  {
+   "name": "Pelle de l'œil",
+   "bonus": 8,
+   "damage": "3d6+4",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/bd2188e7bd_monstre-oculorb.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +6, SAG +6, CHA +8",
+ "skills": "Investigation +6, Perception +10",
+ "conditionImmunities": "aveuglé, à terre",
+ "reactions": "**Répudiation obsessionnelle.** Lorsque l'oculorb est endommagé par une créature qu'il peut voir en 18 m de lui-même, il force la créature à faire un DD 16 jet de sauvegarde de Sagesse. La créature prend 10 (3d6) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

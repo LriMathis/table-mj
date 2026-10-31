@@ -1,0 +1,49 @@
+{
+ "id": "reine-forfallen",
+ "name": "Queen Forfallen",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 16,
+ "hp": 153,
+ "hpFormula": "18d8+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 14,
+  "CON": 19,
+  "INT": 15,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Perception passive 17",
+ "languages": "commun",
+ "traits": "**Présence inspirante.** Les créatures du choix de Forfallen (sauf elle-même) dans une Emanation 9 m originaire d'elle ont Avantage sur jets d'attaque. Elle ne peut pas utiliser ce trait si elle a l'état neutralisé.\n**Résistance magique.** Forfallen a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Forfallen fait trois attaques, en utilisant Greataxe ou Handaxe dans n'importe quelle combinaison.\n**Grandaxe.** Jet d'attaque au corps à corps : +9, allonge 1,50 m. Touché : 18 (2d12 + 5) dégâts tranchants, et la cible a l'état empoisonné jusqu'à la fin de son prochain tour.\n**Handaxe.** Jet d'attaque au corps à corps ou à distance : +9, allonge 1,50 m ou portée 6/18 m. Touché : 22 (5d6 + 5) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 9,
+   "damage": "2d12+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Handaxe",
+   "bonus": 9,
+   "damage": "5d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/33e9baf45a_monstre-reine-forfallen.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Reine Forfallen",
+ "saves": "SAG +7",
+ "skills": "Athlétisme +9, Perspicacité +7, Perception +7",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, pétrifié, empoisonné",
+ "bonusActions": "**Poignée de la rouille.** Jet de sauvegarde de Constitution : DD 16, une créature Forfallen peut voir dans 6 m. La cible a un désavantage sur cette sauvegarde si elle a l'état empoisonné. Échec de 1 ou plus : La cible a l'état entravé et répète l'enregistrement à la fin de son prochain tour si c'est toujours entravé, mettant fin à l'effet sur elle-même sur un succès. Échec de 2 ou plus : La cible a l'état pétrifié au lieu de l'état entravé, devenant une statue de fer rouillé."
+}

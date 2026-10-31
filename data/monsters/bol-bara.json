@@ -1,0 +1,45 @@
+{
+ "id": "bol-bara",
+ "name": "Bol'bara",
+ "type": "Humanoïde (gobelinoïde)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 40,
+ "hpFormula": "9d6+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "commun, gobelin",
+ "traits": "**La Bénédiction de l'Ombre.** Lorsque Bol'bara réduit une créature hostile à 0 points de vie, elle gagne 6 points de vie temporaires.\n**Échappement de Nimble.** Bol'bara peut prendre l'action Se désengager ou Se cacher en action bonus à chacun de ses tours.\n**Découpe intérieure.** L'innée de Bol'bara caractéristique d'incantation est Charisme (save spell DD 12, +4 au toucher avec attaques de sort). Elle peut innéement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- À volonté : Décharge occulte, Simulacre de vie, Armure de mage, Main de mage\n- 1/jour chacun : Charme-personne, Maléfice, Immobilisation de personne, Invisibilité",
+ "actionsText": "**Multiattaques.** Bol'bara fait deux attaques de mêlée.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Blast d'Eldritch (sort mineur).** Attaque de sort à distance : +4 au toucher, portée 36 m, une créature. Touché : 7 (1d10 + 2) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Blast d'Eldritch (sort mineur)",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/c795fde6ce_monstre-bol-bara.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "legendary": "**Actions légendaires (2/round).** Aussitôt après le tour d'une autre créature, bol'bara peut entreprendre l'une des actions ci-après.\n**Dash incorporel.** Bol'bara passe à sa vitesse. Elle peut se déplacer à travers d'autres créatures et objets comme s'ils avaient 3. Elle prend 5 (1d10) dégâts de force si elle termine son tour à l'intérieur d'un objet.\n**Zone de Calamité (coûts 2 actions).** Une sphère 4,50 m -radius de confusion magique s'étend d'un point que Bol'bara peut voir à l'intérieur de 18 m d'elle et s'étend autour des coins. Chaque créature qui commence son tour dans cette zone est traitée comme si elle était ciblée par le sort Confusion (enregistrer DD 12). La sphère dure aussi longtemps que Bol'bara maintient concentration, jusqu'à 1 minute (comme si concentrating sur un sort)."
+}

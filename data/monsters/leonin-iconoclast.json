@@ -1,0 +1,46 @@
+{
+ "id": "leonin-iconoclast",
+ "name": "Leonin Iconoclast",
+ "type": "Humanoïde (léonine)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 67,
+ "hpFormula": "9d8+27",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 17,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, Leonin",
+ "traits": "**Évasion.** Si la léonine est soumise à un effet qui lui permet de faire un jet de sauvegarde de Dextérité pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue. Il ne peut pas utiliser ce trait si c'est neutralisé.\n**Défense non armée.** Bien que la léonine ne porte pas d'armure et ne porte pas de bouclier, sa CA inclut son modificateur Sagesse.\n**Découpe intérieure.** Le caractéristique d'incantation de la léonine est Sagesse (save DD 14 de l'orthographe). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Bannissement, Détection du mal et du bien",
+ "actionsText": "**Multiattaques.** La léonine fait trois attaques d'armes.\n**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants plus 7 (2d6) dégâts de force.\n**Débrouille-toi.** Attaque d'arme à distance : +7 au toucher, portée 6/18 m., une cible. Touché : 6 (1d4 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant + force"
+  },
+  {
+   "name": "Débrouille-toi",
+   "bonus": 7,
+   "damage": "1d4+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/2bc39f6f49_monstre-leonin-iconoclast.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "Défense non armée",
+ "saves": "DEX +7, SAG +6",
+ "skills": "Arcanes +4, Perspicacité +6, Intimidation +3, Discrétion +7, Survie +6"
+}

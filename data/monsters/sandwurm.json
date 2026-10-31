@@ -1,0 +1,45 @@
+{
+ "id": "sandwurm",
+ "name": "Sandwurm",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 18,
+ "hp": 247,
+ "hpFormula": "15d20+90",
+ "vitesse": "15 m, creusement 9 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 7,
+  "CON": 22,
+  "INT": 1,
+  "SAG": 8,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 9 m, Perception des vibrations 18 m, Perception passive 9",
+ "languages": "—",
+ "traits": "**Tunneler.** La wurm peut creuser à la moitié de la vitesse du terrier à travers la roche solide et laisse dans son sillage un tunnel de diamètre 3 m.",
+ "actionsText": "**Multiattaques.** Le wurm fait deux attaques : l'une avec sa morsure et l'autre avec son stinger.\n**Morceau.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une cible. Touché : 22 (3d8 + 9) dégâts perforants. Si la cible est une créature grande ou plus petite, elle doit réussir sur une DD 19 jet de sauvegarde de Dextérité ou être avalée par la wurm. Une créature avalée est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors du wurm, et il prend 21 (6d6) dégâts d'acide au début de chacun des tours du wurm.\nSi le wurm prend 30 dégâts ou plus sur un seul tour d'une créature à l'intérieur, le wurm doit réussir sur un DD 21 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m du wurm. Si le wurm meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 6 m de mouvement, sortant d'à terre.\n**Tail Stinger.** Attaque d'arme au corps à corps : +14 au toucher, allonge 3 m, une créature. Touché : 19 (3d6 + 9) dégâts perforants, et la cible doit faire un DD 19 jet de sauvegarde de Constitution, en prenant 42 (12d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 14,
+   "damage": "3d8+9",
+   "type": "perforant + acide"
+  },
+  {
+   "name": "Tail Stinger",
+   "bonus": 14,
+   "damage": "3d6+9",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/3c55dfa170_monstre-sandwurm.webp",
+ "notes": "",
+ "source": "PSA (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +11, SAG +4"
+}

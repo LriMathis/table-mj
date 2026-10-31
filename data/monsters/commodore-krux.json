@@ -1,0 +1,43 @@
+{
+ "id": "commodore-krux",
+ "name": "Commodore Krux",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun",
+ "traits": "**Connaissance des armes à feu.** La maîtrise de ses armes par Krux lui permet d'ignorer la propriété de chargement de toute arme à feu.\n**Rester comme elle va.** Sur le pont d'un navire, Krux a avantage sur tests de caractéristique et jet de sauvegarde fait contre les effets qui lui frapperaient à terre ou le pousseraient par-dessus bord.",
+ "actionsText": "**Multiattaques.** Krux fait deux attaques de Longsword ou Musket.\n**Mot long.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts tranchants, ou 9 (1d10 + 4) dégâts tranchants si utilisé avec deux mains.\n**Mousquet.** Attaque d'arme à distance : +4 au toucher, portée 12/36 m., une cible. Touché : 8 (1d12 + 2) dégâts perforants.\n**force Grenade.** Krux lance une grenade jusqu'à 18 m, et la grenade explose dans une sphère 6 m -radius. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 17 (5d6) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Après Krux lance la grenade, roulez un d6 ; sur un rouleau de 4 ou moins, Krux n'a plus de grenades à lancer.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Mousquet",
+   "bonus": 4,
+   "damage": "1d12+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3c39ace6bd_monstre-commodore-krux.webp",
+ "notes": "",
+ "source": "Light of Xaryxis (5e.tools, traduction automatique)"
+}

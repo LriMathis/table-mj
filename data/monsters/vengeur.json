@@ -1,0 +1,50 @@
+{
+ "id": "vengeur",
+ "name": "Venger",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 19,
+ "hp": 202,
+ "hpFormula": "27d8+81",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 20,
+  "CON": 16,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 21
+ },
+ "senses": "Vision dans le noir 36 m (unimpeded by magical Darkness), Perception passive 18",
+ "languages": "abyssal, commun, infernal",
+ "traits": "**Restauration fiendoise.** Si Venger meurt, son corps se dissipe en poussière pourpre, et il gagne un nouveau corps en 1d10 jours, en revigorant avec tout son points de vie quelque part dans un de ses repaires.\n**Résistance légendaire (3/jour, ou 4/jour à Lair).** Si Venger échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Venger a Avantage sur jet de sauvegarde contre les sorts et effets magiques.\n**Adépte monté.** Pendant que Venger est monté, lui et sa monture ont Avantage sur jet de sauvegarde de Dextérité, et Venger peut forcer une attaque visant sa monture pour le cibler à la place. Venger ne peut pas utiliser ce trait s'il a l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Venger fait trois attaques, en utilisant Crimson Claw ou Crimson Blast dans n'importe quelle combinaison.\n**Griffe Crimson.** Jet d'attaque au corps à corps : +11, allonge 1,50 m. Touché : 14 (2d8 + 5) dégâts tranchants plus 10 (3d6) dégâts de feu.\n**Crimson Blast.** Jet d'attaque à distance : +11, portée 36 m. Touché : 24 (3d12 + 5) dégâts de force.\n**Détection orthographique.** Venger lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 19) :\n- À volonté : Détection de la magie, Invisibilité, Main de mage, Image silencieuse\n- 1/jour chacun : Contrôle du climat, Emprisonnement\n- 2/jour chacun : Modification d'apparence, Contact avec un autre plan, Création de mort-vivant, Porte dimensionnelle",
+ "attacks": [
+  {
+   "name": "Griffe Crimson",
+   "bonus": 11,
+   "damage": "2d8+5",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Crimson Blast",
+   "bonus": 11,
+   "damage": "3d12+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/a485ccc569_monstre-vengeur.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "aka": "Vengeur",
+ "skills": "Arcanes +9, Tromperie +11, Intimidation +11, Perception +8",
+ "resistances": "froid, feu, foudre, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Télékinésie (2/jour).** Venger lance Télékinésie, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 2/jour : Télékinésie",
+ "reactions": "**Magie protectrice.** Venger lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Contresort, Bouclier",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, vengeur peut entreprendre l'une des actions ci-après.\n**Censure de boom.** Jet de sauvegarde de Sagesse : DD 19, une créature Venger peut voir dans 18 m. Échec : 14 (4d6) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour. Réussite : Demi-dégâts seulement.\n**Grève de Crimson.** Venger fait une attaque de Crimson Claw ou de Crimson Blast.\n**Chaînes magiques.** Jet de sauvegarde de Dextérité : DD 19, une créature Venger peut voir dans 9 m. Échec : La cible a l'état entravé jusqu'à la fin de son prochain tour. Alors qu'entravé, la cible ne peut pas prendre l'action Magie. Échec ou réussite : Venger ne peut pas reprendre cette action avant le début de son prochain tour."
+}

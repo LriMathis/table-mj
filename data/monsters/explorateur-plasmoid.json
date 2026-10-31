@@ -1,0 +1,46 @@
+{
+ "id": "explorateur-plasmoid",
+ "name": "Plasmoid Explorer",
+ "type": "Vase",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 16,
+ "hpFormula": "3d8+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun",
+ "traits": "**Amorphe.** Le plasmoïde peut se presser dans un espace aussi étroit que 1 pouce de large, à condition qu'il ne porte rien. Il a un avantage sur tests de caractéristique il fait d'initier ou d'échapper à un grappin.\n**Maintenez votre souffle.** Le plasmoïde peut retenir son souffle pendant 1 heure.",
+ "actionsText": "**Multiattaques.** Le plasmoïde fait deux attaques de Pseudopod. Il peut remplacer une de ces attaques par une attaque de Javelin.\n**Pseudopod.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts contondants.\n**Javelin.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 9/36 m., une cible. Touché : 4 (1d6 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Pseudopod",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "contondant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5f404c9252_monstre-explorateur-plasmoid.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Explorateur Plasmoid",
+ "skills": "Perception +4, Survie +4",
+ "resistances": "acide, poison"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "noir-gauntlet-de-imprecation",
+ "name": "Black Gauntlet of Bane",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 16,
+ "hp": 51,
+ "hpFormula": "6d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 18,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 18
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun",
+ "traits": "**Aura de la terreur.** Lorsqu'une créature hostile au sein de 1,50 m du gant noir fait un jet d'attaque ou un jet de sauvegarde, elle a un désavantage sur le rouleau. Les créatures qui sont immunisées contre l'état effrayé sont immunisées contre ce caractère.\n**Discipline tactique.** Le gant noir a un avantage sur tous les tests de caractéristique et jet de sauvegarde fabriqués pendant le combat.\n**Détection orthographique.** Le gant noir est un épeautre de niveau 5. Son caractéristique d'incantation est Charisme (save spell DD 15, +7 au toucher avec attaques de sort). Il a les sorts clercs suivants préparés:\n- Sorts mineurs (à volonté) : Assistance, Flamme sacrée, Thaumaturgie\n- Niveau 1 (4 emplacements) : Fléau, Bénédiction, Soins, Éclair traçant (voir \"Actions\" ci-dessous)\n- Niveau 2 (3 emplacements) : Cécité/Surdité, Immobilisation de personne, Silence\n- Niveau 3 (2 emplacements) : Communication à distance, Esprits gardiens",
+ "actionsText": "**Multiattaques.** Le gant noir fait deux attaques avec sa mac.\n**Mace.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts contondants plus 13 (3d8) dégâts nécrotiques.\n**Bolt de guidage (de niveau 1 Spell; Nécessite un emplacement de sort).** Attaque de sort à distance : +7 au toucher, portée 36 m, une créature. Touché : 14 (4d6) dégâts radiants, et la prochaine jet d'attaque faite contre la cible avant la fin du prochain tour du gant noir a avantage. Si le gant noir lance ce sort en utilisant un emplacement de sort de niveau 2 ou plus, les dégâts augmentent de 1d6 pour chaque niveau d'emplacement au-delà du niveau 1.",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "contondant + nécrotique"
+  },
+  {
+   "name": "Bolt de guidage (de niveau 1 Spell; Nécessite un emplacement de sort)",
+   "bonus": 7,
+   "damage": "4d6",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/a0918fdf0c_monstre-noir-gauntlet-de-imprecation.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "aka": "Noir Gauntlet de imprécation",
+ "caNote": "Courrier en chaîne",
+ "saves": "SAG +5",
+ "skills": "Intimidation +7, Perception +5",
+ "conditionImmunities": "effrayé"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "colossus",
+ "name": "Colossus",
+ "type": "Créature artificielle (titan)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "25",
+ "xp": 75000,
+ "ca": 23,
+ "hp": 553,
+ "hpFormula": "27d20+270",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 30,
+  "DEX": 11,
+  "CON": 30,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Vision parfaite 90 m, Perception passive 10",
+ "languages": "Céleste et commun mais ne peut pas parler",
+ "traits": "**Formulaire immuable.** Le colosse ne peut pas changer de forme.\n**Résistance légendaire (4/jour).** Si le colosse échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le colosse a Avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le colosse cause deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le colosse fait trois attaques, en utilisant Slam ou radiant Ray dans n'importe quelle combinaison.\n**Clamer.** Jet d'attaque au corps à corps : +18, allonge 6 m. Touché : 32 (4d10 + 10) dégâts contondants, et le colosse pousse la cible jusqu'à 6 m tout de suite.\n**Rayon radiant.** Jet d'attaque à distance : +18, portée 90 m. Touché : 22 (4d10) dégâts radiants. Si la cible est une créature grande ou plus petite, elle a l'état à terre.\n**Perle Divine (Recharge 5-6).** Jet de sauvegarde de Dextérité : DD 26, chaque créature dans une 90 m -long, 3 m -large Line. Échec : 65 (10d12) dégâts radiants. Réussite : Demi-dégâts. Échec ou réussite : Une créature réduite à 0 points de vie par ce faisceau se désintègre en poussière, laissant derrière tout objet magique qu'elle portait ou transportait.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 18,
+   "damage": "4d10+10",
+   "type": "contondant"
+  },
+  {
+   "name": "Rayon radiant",
+   "bonus": 18,
+   "damage": "4d10",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/8f3530a493_monstre-colossus.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "saves": "DEX +8, SAG +8",
+ "resistances": "nécrotique, radiant",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, étourdi, inconscient",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, colossus peut entreprendre l'une des actions ci-après.\n**Frappe.** Le colosse fait une attaque radiant Ray.\n**Stompe.** Le colosse se déplace jusqu'à la moitié de sa vitesse sans provoquer Opportunity Attacks, et il peut faire une attaque de Slam à n'importe quel moment pendant ce mouvement."
+}

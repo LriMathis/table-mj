@@ -1,0 +1,44 @@
+{
+ "id": "clapperclaw-le-epouvantail",
+ "name": "Clapperclaw the Scarecrow",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 14,
+ "hpFormula": "4d6",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 13,
+  "CON": 11,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, sylvestre",
+ "traits": "**Nature inhabituelle.** Clapperclaw n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts tranchants.\n**Étouffement.** Clapperclaw emballe la paille ou toute autre matière végétale morte en lui-même et retrouve 2d4 + 2 points de vie. Rouler un d6 ; sur un 1 ou 2, Clapperclaw est épuisé et doit passer 8 heures à chercher plus avant qu'il puisse utiliser cette action à nouveau.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 5,
+   "damage": "2d4+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b07d274c52_monstre-clapperclaw-le-epouvantail.webp",
+ "notes": "",
+ "source": "The Wild Beyond the Witchlight (5e.tools, traduction automatique)",
+ "aka": "Clapperclaw le épouvantail",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +3, Survie +2",
+ "vulnerabilities": "feu",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, inconscient",
+ "bonusActions": "**Présence de déstabilisation (Recharge 6).** Clapperclaw cible une créature il peut voir dans 4,50 m de lui. La cible doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou être magiquement effrayé jusqu'à la fin du prochain tour de Clapperclaw."
+}

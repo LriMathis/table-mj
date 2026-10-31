@@ -1,0 +1,46 @@
+{
+ "id": "statue-en-verre-anime",
+ "name": "Animated Glass Statue",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 10,
+ "hp": 22,
+ "hpFormula": "3d10+6",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "C'est commun, mais il ne peut pas le dire.",
+ "traits": "**La vue et l'odeur de Keen.** La statue a un avantage sur tests de Sagesse (Perception) qui repose sur la vue ou l'odeur.\n**Tactiques de conditionnement.** La statue a un avantage sur une jet d'attaque contre une créature si au moins un des alliés de la statue est dans 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** La statue fait deux attaques : une avec son bec et une avec ses talons.\n**Bec.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 7 (2d4 + 2) dégâts perforants.\n**Talons.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d6 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bec",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Talons",
+   "bonus": 4,
+   "damage": "2d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b70a9a51ed_monstre-statue-en-verre-anime.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Statue en verre animé",
+ "skills": "Perception +3",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

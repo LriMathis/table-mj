@@ -1,0 +1,46 @@
+{
+ "id": "serpent-de-riviere-geant",
+ "name": "Giant River Serpent",
+ "type": "Monstruosité",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 168,
+ "hpFormula": "16d12+64",
+ "vitesse": "15 m, escalade 12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 27 m, Perception passive 16",
+ "languages": "draconique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le serpent fait deux attaques : l'une avec sa morsure et l'autre pour constricter.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 22 (3d10 + 6) dégâts perforants.\n**Constriction.** Attaque d'arme au corps à corps : +10 au toucher, allonge 1,50 m, une créature grande ou plus petite. Touché : 17 (2d10 + 6) dégâts contondants plus 17 (2d10 + 6) dégâts tranchants. La cible est agrippé (évasion DD 16) si le serpent ne constricte pas déjà une créature, et la cible est entravé jusqu'à ce que ce grappin se termine.\n**Avalez.** Le serpent fait une attaque de morsure contre une cible moyenne ou plus petite qu'il est en train de combattre. Si l'attaque frappe, la cible est aussi avalée, et le grappin se termine. En avalant, la cible est aveuglé et entravé, il a 3 contre les attaques et autres effets en dehors du serpent, et il prend 21 (6d6) dégâts d'acide au début de chaque tour du serpent. Un serpent ne peut avoir qu'une créature avalé à la fois.\nSi le serpent prend 30 dégâts ou plus sur un seul tour de la créature avalée, le serpent doit réussir sur un DD 14 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter la créature, qui tombe à terre dans un espace à l'intérieur de 3 m du serpent. Si le serpent meurt, une créature avalée n'est plus entravé par elle et peut s'échapper du corps en utilisant 4,50 m de mouvement, sortant d'à terre.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "3d10+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 10,
+   "damage": "2d10+6",
+   "type": "contondant + tranchant"
+  }
+ ],
+ "portrait": "/data/images/dccbad93c7_monstre-serpent-de-riviere-geant.webp",
+ "notes": "",
+ "source": "PSA (5e.tools, traduction automatique)",
+ "aka": "Serpent de rivière géant",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6, Discrétion +7"
+}

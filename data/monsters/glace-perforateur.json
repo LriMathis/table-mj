@@ -1,0 +1,41 @@
+{
+ "id": "glace-perforateur",
+ "name": "Ice Piercer",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "hp": 22,
+ "hpFormula": "3d8+9",
+ "vitesse": "1,50 m, escalade 1,50 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Bien que le piercère de glace reste immobile au plafond, il est indistinctible d'un stalactite normal.\n**Escalade des araignées.** Le perceur de glace peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.",
+ "actionsText": "**Déposer.** Attaque d'arme au corps à corps : +3 au toucher, une créature directement sous le perceur. Touché : 10 (3d6) dégâts perforants plus 10 (3d6) dégâts de froid. Mlle : Le perceur prend la moitié des dégâts normaux de chute pour la distance tombée.",
+ "attacks": [
+  {
+   "name": "Déposer",
+   "bonus": 3,
+   "damage": "3d6",
+   "type": "perforant + froid"
+  }
+ ],
+ "portrait": "/data/images/789218d244_monstre-glace-perforateur.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Glace perforateur",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +5",
+ "immunities": "froid"
+}

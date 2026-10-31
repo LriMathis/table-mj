@@ -1,0 +1,47 @@
+{
+ "id": "ombre-horreur",
+ "name": "Shadow Horror",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 13,
+ "hp": 120,
+ "hpFormula": "16d10+32",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "—",
+ "traits": "**Mouvement intégré.** L'horreur peut se déplacer à travers d'autres créatures et objets comme s'ils étaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Vols d'ombre.** Alors que dans la lumière sombre ou sombre, l'horreur peut prendre l'action Se cacher comme un action bonus.\n**Fardeau d'ombre.** En tant qu'action bonus, l'horreur peut entrer dans une ombre à l'intérieur de 1,50 m et apparaît magiquement dans un espace inoccupé à l'intérieur de 1,50 m d'une seconde ombre qui est jusqu'à 18 m. Les deux ombres doivent être jetées par une petite créature ou un objet plus grand.\n**Sensibilité à la lumière du soleil.** En plein soleil, l'horreur a un désavantage sur jets d'attaque et sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** L'horreur fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 21 (4d8 + 3) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 13 (3d6 + 3) dégâts tranchants, et la cible doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou être effrayé de l'horreur jusqu'à la fin du prochain tour de la cible.\n**Ombres battantes (Recharge 5-6).** Chaque créature au sein de 18 m de l'horreur, sauf les autres horreurs, doit réussir sur un DD 16 jet de sauvegarde de Dextérité ou prendre 27 (6d8) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "4d8+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 7,
+   "damage": "3d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/1da1205992_monstre-ombre-horreur.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Ombre horreur",
+ "skills": "Perception +7, Discrétion +11",
+ "vulnerabilities": "radiant",
+ "conditionImmunities": "effrayé"
+}

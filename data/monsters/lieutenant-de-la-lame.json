@@ -1,0 +1,51 @@
+{
+ "id": "lieutenant-de-la-lame",
+ "name": "Blade Lieutenant",
+ "type": "Créature artificielle (warforged)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 153,
+ "hpFormula": "18d8+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 19,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 17
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun",
+ "traits": "**Tactiques de conditionnement.** Le lieutenant a avantage sur un jet d'attaque contre une créature si au moins un des alliés du lieutenant est dans 1,50 m de la créature et l'allié n'a pas l'état neutralisé.",
+ "actionsText": "**Multiattaques.** Le lieutenant fait trois attaques Longsword ou Javelin Launcher.\n**Mot long.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 17 (3d8 + 4) dégâts tranchants, ou 20 (3d10 + 4) dégâts tranchants si utilisé avec deux mains.\n**Lanceur Javelin.** Attaque d'arme à distance : +8 au toucher, portée 9/36 m., une cible. Touché : 14 (3d6 + 4) dégâts perforants et la cible a l'état à terre.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 8,
+   "damage": "3d8+4",
+   "type": "tranchant"
+  },
+  {
+   "name": "Lanceur Javelin",
+   "bonus": 8,
+   "damage": "3d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/614d7b6170_monstre-lieutenant-de-la-lame.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "aka": "Lieutenant de la lame",
+ "caNote": "armure naturelle",
+ "saves": "INT +6, CHA +7",
+ "skills": "Perspicacité +6, Intimidation +7, Perception +6",
+ "resistances": "poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "bonusActions": "**Commandez Allié.** Le lieutenant cible un allié qu'il peut voir en lui-même. Si la cible peut voir ou entendre le lieutenant, la cible peut faire une attaque de mêlée en utilisant sa réaction, si disponible, et a un avantage sur le jet d'attaque.\n**Rallye des troupes (1/jour).** Le lieutenant met fin aux conditions charmé et effrayé sur lui-même et sur chaque créature de son choix qu'il peut voir en lui-même.",
+ "reactions": "**Parry.** Le lieutenant ajoute 3 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, le lieutenant doit voir l'agresseur et utiliser une arme à la mêlée."
+}

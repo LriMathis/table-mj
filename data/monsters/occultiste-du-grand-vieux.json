@@ -1,0 +1,41 @@
+{
+ "id": "occultiste-du-grand-vieux",
+ "name": "Warlock of the Great Old One",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 13,
+ "hp": 91,
+ "hpFormula": "14d8+28",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "deux langues différentes, télépathie 9 m",
+ "traits": "**Aura sifflement.** Au début de chaque tour du warlock, chaque créature de son choix dans 3 m de lui doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou prendre 10 (3d6) dégâts psychiques, à condition que le warlock n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le sorcier fait deux attaques de Dagger.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 10 (3d6) dégâts psychiques.\n**Void de hurlement.** Le sorcier ouvre une faille extraplanaire momentanée dans 18 m de lui. La faille est un cube 6 m rempli de cris. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, une créature prend 9 (2d8) dégâts psychiques et est effrayé du warlock jusqu'au prochain tour du warlock. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas effrayé.\n**Détection orthographique.** Le warlock lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection de la magie, Assistance, Lévitation, Armure de mage (autoseulement), Main de mage, Illusion mineure, Prestidigitation\n- 1/jour chacun : Portail magique, Détection des pensées, Vision suprême",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 6,
+   "damage": "1d4+3",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/491b978c88_monstre-occultiste-du-grand-vieux.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Occultiste du grand vieux",
+ "saves": "SAG +4, CHA +7",
+ "skills": "Arcanes +4, Histoire +4",
+ "resistances": "psychique"
+}

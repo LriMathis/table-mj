@@ -1,0 +1,38 @@
+{
+ "id": "merrow-extortionist",
+ "name": "Merrow Extortionist",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 30,
+ "hpFormula": "4d10+8",
+ "vitesse": "3 m, nage 12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "abyssal, aquatique, commun",
+ "traits": "**Amphibie.** Le merrow peut respirer l'air et l'eau.",
+ "actionsText": "**Multiattaques.** Le Merrow fait deux attaques de Rend.\n**Rend.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 8 (2d4 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 5,
+   "damage": "2d4+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/fb84abf4c0_monstre-merrow-extortionist.webp",
+ "notes": "",
+ "source": "Dragons of Stormwreck Isle (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "ssurran-defiler",
+ "name": "Ssurran Defiler",
+ "type": "Monstruosité (homme-lézard)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 52,
+ "hpFormula": "7d8+21",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 15,
+  "SAG": 15,
+  "CHA": 7
+ },
+ "senses": "Perception passive 14",
+ "languages": "draconique",
+ "traits": "**Maintenez votre souffle.** Le ssurran peut retenir son souffle pendant 15 minutes.\n**Forteresse Intellect.** Le CA du ssurran comprend son modificateur Intelligence.",
+ "actionsText": "**Multiattaques.** Le ssurran fait deux attaques Claw et utilise Defile (si disponible).\n**Griffe.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts tranchants plus 4 (1d8) dégâts nécrotiques.\n**Défilez (Recharge 6).** Végétation ordinaire à l'intérieur de 3 m du ssurran se fane et meurt. De plus, chaque créature dans 3 m du ssurran doit faire un DD 11 jet de sauvegarde de Constitution, en prenant 22 (4d10) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Le ssurran retrouve 5 (1d10) points de vie pour chaque créature qui échoue le jet de sauvegarde.\n**Coulisse (Psioniques).** Le ssurran lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation :\n- À volonté : Main de mage (la main est invisible)\n- 1/jour : Invisibilité (autoseulement)",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/9cc4a0c289_monstre-ssurran-defiler.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle, forteresse intellect",
+ "saves": "CON +5, INT +4",
+ "skills": "Arcanes +4, Perception +4, Discrétion +3, Survie +4",
+ "resistances": "nécrotique"
+}

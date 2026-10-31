@@ -1,0 +1,40 @@
+{
+ "id": "sacre-pierre-moine",
+ "name": "Sacred Stone Monk",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 9
+ },
+ "senses": "Perception des vibrations 3 m, Perception passive 14",
+ "languages": "commun",
+ "traits": "**Défense non armée.** Alors que le moine ne porte pas d'armure et n'a pas de bouclier, son CA inclut son modificateur Sagesse.\n**Mouvement non armé.** Tandis que le moine ne porte pas d'armure et n'a pas de bouclier, sa vitesse de marche augmente de 3 m (inclus dans sa vitesse).",
+ "actionsText": "**Multiattaques.** Le moine fait deux attaques à la mêlée.\n**frappe à mains nues.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "frappe à mains nues",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e17b93105e_monstre-sacre-pierre-moine.webp",
+ "notes": "",
+ "source": "Princes of the Apocalypse (5e.tools, traduction automatique)",
+ "aka": "Sacré pierre moine",
+ "skills": "Acrobaties +4, Athlétisme +3, Perception +4",
+ "reactions": "**Parry.** Le moine ajoute 2 à sa CA contre une attaque de mêlée ou d'armes à portée de main qui la frapperait. Pour ce faire, le moine doit voir l'agresseur."
+}

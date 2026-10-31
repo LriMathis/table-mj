@@ -1,0 +1,42 @@
+{
+ "id": "thessalar",
+ "name": "Thessalar",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 14,
+ "hp": 104,
+ "hpFormula": "19d8+19",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, draconique, elfique, primordial",
+ "traits": "**Matériel spécial.** Thessalar manie une dague +1 recouverte de poison à la thésaltoxine (voir l'annexe C).\n**Homunculus alchimique.** Thessalar est accompagné de son Thessalar's homoncule. Si le sort Réparation est lancé dessus, l'homunculus reprend 2d6 points de vie.\n**Toxicité pour la guérison.** Tout objet magique qui restaure points de vie et peut être appliqué à une arme perçante ou slashing (une potion, une pommade, etc.) provoque un coup avec cette arme pour infliger des dégâts supplémentaires à Thessalar égale à la quantité que l'article guérirait normalement.\n**Plus grande restauration (1/jour).** Thessalar peut lancer Restauration supérieure s'il a accès à des approvisionnements alchimiques.\n**Détection orthographique.** Thessalar est un spellcaster de niveau 18. Son caractéristique d'incantation est Intelligence (save spell DD 16, +8 au toucher avec attaques de sort). Il a préparé les sorts d'artifice suivants:\n- Sorts mineurs (à volonté) : Lumière, Réparation, Message, Poigne électrique\n- Niveau 1 (4 emplacements) : Alarme, Soins, Identification, Rayon empoisonné\n- Niveau 2 (3 emplacements) : Invisibilité, Flèche acide de Melf, Toile d'araignée\n- Niveau 3 (3 emplacements) : Dissipation de la magie, Hâte, Nuage nauséabond\n- Niveau 4 (3 emplacements) : Flétrissement, Chien de garde de Mordenkainen, Sphère résiliente d'Otiluke\n- Niveau 5 (1 emplacements) : Brume mortelle",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d4 + 1) dégâts perforants, et la cible doit réussir sur un DD 15 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la cible est affectée comme si le sort Métamorphose se transformait en une bête aléatoire ou une créature qu'elle a vue au cours des dernières 24 heures (comme choisi par le MD). Cet effet dure jusqu'à ce que la cible termine un repos long.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/84754ebc5b_monstre-thessalar.webp",
+ "notes": "",
+ "source": "Infernal Machine Rebuild (5e.tools, traduction automatique)",
+ "caNote": "Breastplate",
+ "saves": "CON +5, INT +8, SAG +7",
+ "skills": "Dressage +7, Arcanes +8, Perspicacité +7, Médecine +7",
+ "immunities": "acide, poison",
+ "conditionImmunities": "empoisonné"
+}

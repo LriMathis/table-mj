@@ -1,0 +1,42 @@
+{
+ "id": "tete-aberrant-tete-death-s",
+ "name": "Aberrant Death's Head",
+ "type": "Mort-vivant",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 24,
+ "hpFormula": "7d4+7",
+ "vitesse": "1,50 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 8,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 14,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Volée.** La tête de la mort ne provoque pas un Opportunity Attack quand il vole hors de la portée de l'ennemi.",
+ "actionsText": "**Bite qui va vers le cerveau.** Jet d'attaque au corps à corps : +3, allonge 1,50 m. Touché : 3 (1d4 + 1) dégâts perforants plus 3 (1d6) dégâts psychiques, et la cible a l'état effrayé jusqu'au début du prochain tour de la tête de la mort.",
+ "attacks": [
+  {
+   "name": "Bite qui va vers le cerveau",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/ee3a4e89f3_monstre-tete-aberrant-tete-death-s.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Tête Aberrant tête Death's",
+ "saves": "INT +1, SAG +4",
+ "resistances": "nécrotique, psychique",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

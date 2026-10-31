@@ -1,0 +1,45 @@
+{
+ "id": "moins-tyrant-ombre",
+ "name": "Lesser Tyrant Shadow",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 20,
+ "hp": 114,
+ "hpFormula": "12d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 18,
+  "CON": 20,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Perception passive 17",
+ "languages": "comprend tout, télépathie 90 m",
+ "traits": "**Empathe.** L'ombre utilise la télépathie pour sentir les créatures voisines. L'ombre peut voir une créature si cette créature a des pensées et se trouve dans la portée de la télépathie de l'ombre. L'ombre ne peut pas voir des créatures immunisées à la télépathie.\n**Décoloration de la connexion.** L'ombre a été originellement engendrée par un démon spécifique et, si l'ombre est tuée, elle revient à la vie en 10 (1d20) jours au sein de 1,5 km de ce diable. L'ombre n'est définitivement tuée que si son progéniteur est tué en premier.",
+ "actionsText": "**Multiattaques.** L'ombre fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts nécrotiques, plus 3 (1d6) dégâts psychiques.\n**Cloque d'ombres.** L'ombre se penche dans l'obscurité autour d'elle-même, et a maintenant l'état invisible pendant 1 minute. L'invisibilité se termine si l'ombre est soumise à un sort Lumière du jour ou similaire.\n**Lien empathique.** L'ombre tente de former un lien entre elle-même et une créature qu'elle peut voir. La cible doit faire un DD 16 jet de sauvegarde d'Intelligence, en prenant 6 (1d12) dégâts psychiques sur un succès. Sur un sauvetage raté, la créature et l'ombre sont liées. Pendant qu'elle est liée, chaque fois que l'ombre est endommagée, la créature prend la moitié de ces dégâts comme dégâts psychiques. La créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, en prenant 6 (1d12) dégâts psychiques sur un sauvegarde échoué, ou en mettant fin à l'effet sur un succès.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "nécrotique + psychique"
+  }
+ ],
+ "portrait": "/data/images/4febe985e5_monstre-moins-tyrant-ombre.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "aka": "Moins Tyrant ombre",
+ "caNote": "armure naturelle",
+ "saves": "INT +8, SAG +7",
+ "skills": "Arcanes +8, Tromperie +12, Perception +7, Discrétion +12",
+ "resistances": "feu",
+ "immunities": "nécrotique, poison, psychique, contondant, perforant, tranchant d'attaques non magiques",
+ "conditionImmunities": "aveuglé, charmé, effrayé, empoisonné",
+ "bonusActions": "**Modifier la forme.** L'ombre se transforme en Bête, Humanoïde ou Fiend qu'elle a un lien empathique avec, ou de nouveau dans sa forme réelle. Dans une nouvelle forme, l'ombre conserve son alignement, points de vie, dés de vie, télépathie et Intelligence, Sagesse, et Charisme scores, ainsi que cette action. Ses statistiques et ses capacités sont autrement remplacées par celles du nouveau formulaire, à l'exception de toutes les caractéristiques de classe, des actions de tanière ou des actions légendaires de cette forme."
+}

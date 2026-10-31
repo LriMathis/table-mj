@@ -1,0 +1,45 @@
+{
+ "id": "yagra-stonefist",
+ "name": "Yagra Stonefist",
+ "type": "Humanoïde (demi-orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 11,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, orc",
+ "traits": "**Endurance sans relâche.** Lorsqu'elle est réduite à 0 points de vie, Yagra tombe à 1 points de vie à la place (mais ne peut pas le refaire jusqu'à ce qu'elle termine un repos long).\n**Tactiques de conditionnement.** Yagra a un avantage sur un jet d'attaque contre une créature si au moins un de ses alliés est dans 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Attaques de sauvetage.** Quand elle marque un coup critique Yagra peut rouler l'un des dés de dégâts de l'arme et l'ajouter aux dégâts supplémentaires du coup critique.",
+ "actionsText": "**Multiattaques.** Yagra fait deux attaques à la mêlée.\n**Mace.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d6 + 2) dégâts contondants.\n**Grosse arbalète.** Attaque d'arme à distance : +2 au toucher, portée 30/120 m., une cible. Touché : 5 (1d10) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mace",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 2,
+   "damage": "1d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/30334531fc_monstre-yagra-stonefist.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "skills": "Intimidation +2"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "phylaskia",
+ "name": "Phylaskia",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 104,
+ "hpFormula": "11d10+44",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 17",
+ "languages": "tous",
+ "traits": "**Aura du gardien.** Toute créature qui commence son tour à l'intérieur de 3 m de la phylaskia doit faire un DD 15 jet de sauvegarde de Sagesse. Sur un salut réussi, la créature est à l'abri de cette aura pendant les 24 prochaines heures. Lors d'une sauvegarde ratée, la créature a un désavantage sur jet de sauvegarde et sa vitesse est réduite de moitié jusqu'au début de son prochain tour.\n**Fortitude non-morte.** Si le dégâts réduit la phylasquie à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD égal à 5 + le dégâts pris, à moins que le dégâts soit radieux ou d'un coup critique. Sur un succès, la phylaskia tombe à 1 points de vie.\n**Vigilant.** La phylaskie ne peut pas être surpris.",
+ "actionsText": "**Multiattaques.** La phylaskie fait deux attaques de longues paroles et utilise son drain Force une fois.\n**Mot long.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 14 (2d8 + 5) dégâts tranchants, ou 16 (2d10 + 5) dégâts tranchants si utilisé avec deux mains, plus 11 (2d10) dégâts nécrotiques.\n**Égoutter Force.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une créature. Touché : 12 (2d6 + 5) dégâts nécrotiques. À moins que la cible ne soit immunisée contre dégâts nécrotiques, son score Force est réduit de 1d4. La cible meurt si cela réduit sa Force à 0. Sinon, la réduction dure jusqu'à ce que la cible termine un repos court ou long.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 9,
+   "damage": "2d8+5",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Égoutter Force",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/10f2b7e4bb_monstre-phylaskia.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "caNote": "plaque",
+ "saves": "CON +8, SAG +7",
+ "skills": "Perspicacité +7, Perception +7",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, empoisonné"
+}

@@ -1,0 +1,38 @@
+{
+ "id": "amphisbaena",
+ "name": "Amphisbaena",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 12",
+ "languages": "—",
+ "traits": "**Deux chefs.** L'amphisbaena a un avantage sur tests de Sagesse (Perception) et sur jet de sauvegarde contre aveuglé, charmé, assourdi, effrayé, étourdi et inconscient.",
+ "actionsText": "**Multiattaques.** L'amphisbaena fait deux attaques de morsure.\n**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts perforants, et la cible doit faire un DD 11 jet de sauvegarde de Constitution, en prenant 3 (1d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/f91bd94f2b_monstre-amphisbaena.webp",
+ "notes": "",
+ "source": "Ghosts of Saltmarsh (5e.tools, traduction automatique)",
+ "skills": "Perception +2"
+}

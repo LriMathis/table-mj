@@ -1,0 +1,45 @@
+{
+ "id": "espion",
+ "name": "Espion",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 16
+ },
+ "skills": "Discrétion +6, Escamotage +4, Intuition +4, Investigation +5, Perception +6, Tromperie +5",
+ "senses": "Perception passive 16",
+ "languages": "commun et une autre langue",
+ "traits": "",
+ "actionsText": "**Épée courte.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts perforants plus 7 (2d6) dégâts de poison.\n**Arbalète de poing.** À distance : +4, portée 9/36 m. Touché : 5 (1d6 + 2) dégâts perforants plus 7 (2d6) dégâts de poison.",
+ "bonusActions": "**Ruse.** L’espion entreprend l’action Désengagement, Furtivité ou Pointe.",
+ "attacks": [
+  {
+   "name": "Épée courte",
+   "bonus": 4,
+   "damage": "1d6+2+2d6",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Arbalète de poing",
+   "bonus": 4,
+   "damage": "1d6+2+2d6",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/6c964d2d80_monstre-espion.webp",
+ "notes": "Campagne : Le Jeu des Mille Fortunes",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

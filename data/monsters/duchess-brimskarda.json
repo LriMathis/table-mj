@@ -1,0 +1,47 @@
+{
+ "id": "duchess-brimskarda",
+ "name": "Duchess Brimskarda",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 162,
+ "hpFormula": "13d12+78",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 9,
+  "CON": 23,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, géant, gobelin",
+ "traits": "**Matériel spécial.** Brimskarda porte un Potion d'invulnérabilité, qu'elle fait trembler à son premier tour de combat.",
+ "actionsText": "**Multiattaques.** Le géant fait deux grandes attaques d'épées.\n**Grande épée.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 28 (6d6 + 7) dégâts tranchants.\n**Cauldron de fer.** Attaque d'arme à distance : +11 au toucher, portée 18/72 m., une cible. Touché : 29 (4d10 + 7) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 11,
+   "damage": "6d6+7",
+   "type": "tranchant"
+  },
+  {
+   "name": "Cauldron de fer",
+   "bonus": 11,
+   "damage": "4d10+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3e77fcef9b_monstre-duchess-brimskarda.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Robe à l'échelle dragon",
+ "saves": "DEX +3, CON +10, CHA +5",
+ "skills": "Athlétisme +11, Perception +6",
+ "immunities": "feu"
+}

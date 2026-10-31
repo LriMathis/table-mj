@@ -1,0 +1,41 @@
+{
+ "id": "silverquill-professeur-de-radiance",
+ "name": "Silverquill Professor of Radiance",
+ "type": "Humanoïde (barde)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 12,
+ "hp": 97,
+ "hpFormula": "15d8+30",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 19
+ },
+ "senses": "Perception passive 11",
+ "languages": "Commun plus quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le professeur fait deux attaques radiant Strike. Le professeur peut remplacer l'une des attaques par une utilisation de Spellcasting.\n**Grève de radiant.** Attaque de sort au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 17 (3d8 + 4) dégâts radiants. Si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Constitution être aveuglé jusqu'à la fin de son prochain tour.\n**Détection orthographique.** Le professeur lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 15):\n- À volonté : Lumières dansantes, Amis\n- 1/jour chacun : Motif hypnotique, Don des langues\n- 2/jour chacun : Bénédiction, Injonction, Soins, Lumière du jour, Armure de mage",
+ "attacks": [
+  {
+   "name": "Grève de radiant",
+   "bonus": 7,
+   "damage": "3d8+4",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/586d6dd8bb_monstre-silverquill-professeur-de-radiance.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Silverquill professeur de Radiance",
+ "saves": "DEX +5, INT +6, SAG +4, CHA +7",
+ "skills": "Arcanes +6, Tromperie +7, Représentation +10, Persuasion +10",
+ "resistances": "radiant"
+}

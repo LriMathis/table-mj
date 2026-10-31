@@ -1,0 +1,42 @@
+{
+ "id": "glabrezu",
+ "name": "Glabrezu",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 17,
+ "hp": 189,
+ "hpFormula": "18d10+90",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 21,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 16
+ },
+ "saves": "FOR +9, CON +9, SAG +7, CHA +7",
+ "skills": "Perception +7, Tromperie +7",
+ "resistances": "feu, foudre, froid",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision véritable 36 m, Perception passive 17",
+ "languages": "abyssal, télépathie 36 m",
+ "traits": "**Résistance à la magie.** Le glabrezu a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration démoniaque.** Si le glabrezu meurt hors des Abysses, son corps se dissout en ichor et il en acquiert aussitôt un nouveau en revenant à la vie avec tous ses pv, quelque part dans les Abysses.",
+ "actionsText": "**Attaques multiples.** Le glabrezu effectue deux attaques de Pince et recourt à Incantation ou Petits poings.\n**Pince.** Corps à corps : +9, allonge 3 m. Touché : 16 (2d10 + 5) dégâts tranchants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 15) par l’une des deux pinces.\n**Incantation.** Le glabrezu lance l’un des sorts suivants sans composantes matérielles, l’Intelligence étant sa caractéristique d’incantation (DD de sauvegarde 16) :\n- À volonté : *détection de la magie*, *dissipation de la magie*, *ténèbres*\n- 1/jour chacun : *confusion*, *mot de pouvoir étourdissant*, *vol*\n**Petits poings.** JS Dextérité : DD 17, une créature Agrippée par le glabrezu. Échec : 15 (3d6 + 5) dégâts contondants. Réussite : demi-dégâts.",
+ "attacks": [
+  {
+   "name": "Pince",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/e8b265d230_monstre-glabrezu.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 52"
+}

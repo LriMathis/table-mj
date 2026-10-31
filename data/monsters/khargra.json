@@ -1,0 +1,40 @@
+{
+ "id": "khargra",
+ "name": "Khargra",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 20,
+ "hp": 11,
+ "hpFormula": "2d6+4",
+ "vitesse": "1,50 m, vol 9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 5,
+  "SAG": 11,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "terreux",
+ "traits": "**Iron Scent.** Le khargra peut parfumer l'emplacement du métal ferreux dans 9 m de lui.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants, et si la cible porte une armure métallique ou un bouclier métallique, le khargra s'attache à cette armure ou bouclier. Le khargra n'attaque pas. Au lieu de cela, au début de chacun des tours du khargra, roulez un d20. Sur une 10 ou plus, l'armure ou le bouclier prend une pénalité permanente et cumulative -1 à la CA qu'il offre. Armure réduite à un CA de 10 ou un bouclier qui tombe à un bonus de 0 est détruit.\nLe khargra peut se détacher en dépensant 1,50 m de son mouvement. Une créature, y compris la cible, peut utiliser son action pour détacher le khargra.\n**La Terre s'accélère.** Jusqu'à la fin de son prochain virage, le khargra peut voler à travers la terre et la pierre non magiques. Ce faisant, elle ne perturbe pas le matériel qu'elle traverse. Il peut mettre fin à son mouvement à l'intérieur de la terre ou de la pierre, mais s'il reste à l'intérieur de la terre ou de la pierre lorsque cette capacité se termine, il prend 14 (4d6) dégâts de force et se déplace immédiatement vers l'espace inoccupé le plus proche.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/0f46d0ba27_monstre-khargra.webp",
+ "notes": "",
+ "source": "MFF (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +2, Discrétion +2",
+ "reactions": "**Faim opportuniste.** Lorsqu'une créature que le khargra peut voir dans 1,50 m il frappe avec une arme métallique, le khargra peut faire une attaque de morsure contre cette créature."
+}

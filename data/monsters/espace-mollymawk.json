@@ -1,0 +1,39 @@
+{
+ "id": "espace-mollymawk",
+ "name": "Space Mollymawk",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 3,
+ "hpFormula": "1d6",
+ "vitesse": "3 m, vol 15 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 3
+ },
+ "senses": "Perception passive 15",
+ "languages": "—",
+ "traits": "**Volée.** Le mollymawk ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.\n**Maintenez votre souffle.** Le mollymawk peut retenir son souffle pendant 15 minutes.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/17f314b64a_monstre-espace-mollymawk.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Espace Mollymawk",
+ "skills": "Perception +5"
+}

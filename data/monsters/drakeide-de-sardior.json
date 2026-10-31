@@ -1,0 +1,43 @@
+{
+ "id": "drakeide-de-sardior",
+ "name": "Dragonborn of Sardior",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 17,
+ "hp": 75,
+ "hpFormula": "10d8+30",
+ "vitesse": "9 m, vol 9 m (vol stationnaire)",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 18,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Perception passive 15",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (1/jour).** Si le dragonborn échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Défense mentale.** Tandis que le dragonborn ne porte pas d'armure, son CA inclut son modificateur Intelligence.",
+ "actionsText": "**Multiattaques.** Le dragon-né fait trois attaques de la lame mentale.\n**Blade de l'esprit.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 6 (1d4 + 4) dégâts perforants plus 10 (3d6) dégâts psychiques.\n**Chaleur Respiration (Recharge 6).** Le dragon-né exhale une vague de chaleur intense dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 14 jet de sauvegarde de Constitution, en prenant 27 (6d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Les objets métalliques dans cette zone brillent rouge-chaud jusqu'à la fin du prochain tour du dragon-né. Toute créature en contact physique avec un objet chauffé au début de son tour doit faire un DD 14 jet de sauvegarde de Constitution. Lors d'une sauvegarde ratée, la créature prend 9 (2d8) dégâts de feu et a un désavantage sur jets d'attaque jusqu'au début de son prochain tour.\n**Coulisse (Psioniques).** Le dragonborn lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15, +7 au toucher with attaques de sort) :\n- 1/jour chacun : Main de Bigby, Motif hypnotique, Télékinésie",
+ "attacks": [
+  {
+   "name": "Blade de l'esprit",
+   "bonus": 7,
+   "damage": "1d4+4",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/3f634375e4_monstre-drakeide-de-sardior.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Drakéide de Sardior",
+ "caNote": "défense mentale",
+ "saves": "CON +6, INT +7, SAG +5, CHA +4",
+ "skills": "Arcanes +7, Histoire +7, Perception +5",
+ "resistances": "psychique",
+ "conditionImmunities": "effrayé"
+}

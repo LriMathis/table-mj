@@ -1,0 +1,48 @@
+{
+ "id": "yuan-ti-broodguard",
+ "name": "Yuan-ti Broodguard",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 14,
+  "INT": 6,
+  "SAG": 11,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**Sans déconner.** Au début de son tour, le garde-pouvoir peut gagner de l'avantage sur toute l'arme de mêlée jets d'attaque qu'il fait pendant ce tour, mais jets d'attaque contre lui a avantage jusqu'au début de son prochain tour.",
+ "actionsText": "**Multiattaques.** La garde des couvées fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/e1f1e6c65a_monstre-yuan-ti-broodguard.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +4, DEX +4, SAG +2",
+ "skills": "Perception +2",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, paralysé, empoisonné"
+}

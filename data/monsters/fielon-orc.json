@@ -1,0 +1,48 @@
+{
+ "id": "fielon-orc",
+ "name": "Fiendish Orc",
+ "type": "Fiélon (orc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 16,
+ "hp": 93,
+ "hpFormula": "11d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "abyssal, commun, orc",
+ "traits": "**Agressifs.** En tant qu'action bonus, l'orc peut se déplacer à sa vitesse vers une créature hostile qu'il peut voir.\n**La fureur de Gruumsh.** L'orc inflige des dégâts supplémentaires de 4 (1d8) lorsqu'il frappe avec une attaque d'arme (inclus dans les attaques).",
+ "actionsText": "**Multiattaques.** L'orc fait deux attaques avec sa grandeaxe ou sa lance.\n**Grandaxe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 15 (1d12 + 4 plus 1d8) dégâts tranchants.\n**Lancer.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 12 (1d6 + 4 plus 1d8) dégâts perforants, ou 13 (2d8 + 4) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.\n**Cry de bataille (1/jour).** Chaque créature du choix du chef de guerre qui est dans 9 m de lui, peut l'entendre, et pas déjà affecté par Battle Cry gagne avantage sur jets d'attaque jusqu'au début du prochain tour du chef de guerre. Le chef de guerre peut alors faire une attaque en action bonus.",
+ "attacks": [
+  {
+   "name": "Grandaxe",
+   "bonus": 6,
+   "damage": "1d8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Lancer",
+   "bonus": 6,
+   "damage": "1d8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/be903bde90_monstre-fielon-orc.webp",
+ "notes": "",
+ "source": "Critical Role: Call of the Netherdeep (5e.tools, traduction automatique)",
+ "aka": "Fiélon orc",
+ "caNote": "Courrier en chaîne",
+ "saves": "FOR +6, CON +6, SAG +2",
+ "skills": "Intimidation +5",
+ "immunities": "feu, poison"
+}

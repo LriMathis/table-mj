@@ -1,0 +1,42 @@
+{
+ "id": "athar-null",
+ "name": "Athar Null",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 14,
+ "hp": 84,
+ "hpFormula": "13d8+26",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Perception passive 15",
+ "languages": "Commun plus deux autres langues",
+ "traits": "**Évitement.** Si le null est soumis à un effet qui lui permet de faire un jet de sauvegarde pour prendre la moitié de ces dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et la moitié de ces dégâts s'il échoue.",
+ "actionsText": "**Multiattaques.** Le null fait deux attaques force Dagger.\n**Dague force.** Attaque d'arme au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 13 (3d8) dégâts de force. Touché ou raté : La dague revient magiquement à la main de la null immédiatement après une attaque étendue.",
+ "attacks": [
+  {
+   "name": "Dague force",
+   "bonus": 6,
+   "damage": "1d4+3",
+   "type": "perforant + force"
+  }
+ ],
+ "portrait": "/data/images/236388072f_monstre-athar-null.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "DEX +6, SAG +5",
+ "skills": "Investigation +8, Perception +5, Discrétion +6",
+ "bonusActions": "**Le fouet de Defier.** Le null prend les actions Foncer, Se désengager ou Utiliser un objet.",
+ "reactions": "**Nullify Spell (3/jour).** Le nul prononce un mot magique d'annulation pour interrompre une créature qu'il peut voir qui jette un sort. Si le sort est de niveau 3 ou inférieur, il échoue et n'a aucun effet. Si le sort est de niveau 4 ou supérieur, le null fait un test d'Intelligence (DD 10 + niveau du sort). Sur un contrôle réussi, le sort échoue et n'a aucun effet."
+}

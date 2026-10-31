@@ -1,0 +1,48 @@
+{
+ "id": "chasseur-thri-kreen",
+ "name": "Thri-kreen Hunter",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 60,
+ "hpFormula": "11d8+11",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "télépathie 18 m, Thri-kreen",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le thri-kreen fait deux attaques de Gythka ou Chatkcha.\n**Gythka.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants.\n**Chatkcha.** Attaque d'arme à distance : +5 au toucher, portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Gythka",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Chatkcha",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/98ff091681_monstre-chasseur-thri-kreen.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Chasseur thri-kreen",
+ "caNote": "armure naturelle",
+ "skills": "Perception +4, Discrétion +5, Survie +6",
+ "bonusActions": "**Chaméléon Carapace.** Le thri-kreen change la couleur de sa carapace pour correspondre à la couleur et à la texture de son environnement, gagnant avantage sur tests de Dextérité (Discrétion) il fait de se cacher dans ces environnements.\n**Naissance.** Le thri-kreen saute jusqu'à 6 m dans n'importe quelle direction, à condition que sa vitesse ne soit pas 0.",
+ "reactions": "**Parry.** Le thri-kreen ajoute 2 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, le thri-kreen doit voir l'attaquant et manier une arme de mêlée."
+}

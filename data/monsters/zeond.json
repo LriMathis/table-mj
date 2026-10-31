@@ -1,0 +1,41 @@
+{
+ "id": "zeond",
+ "name": "Zeond",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 7,
+ "hpFormula": "3d4",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 5,
+  "DEX": 17,
+  "CON": 10,
+  "INT": 7,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "abyssal, commun",
+ "traits": "**Changeur de forme.** Zeond peut utiliser son action pour se polymorphiser en une forme de bête qui ressemble à une chauve-souris (vitesse 3 m vol 12 m), à un centipede (12 m, escalade 12 m) ou à un crapaud (12 m, nage 12 m), ou revenir dans sa forme réelle. Ses statistiques sont les mêmes dans chaque forme, sauf pour les changements de vitesse notés. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**Résistance magique.** Zeond a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Griffe (Bite sous forme de bête).** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts perforants, et la cible doit réussir sur un DD 10 jet de sauvegarde de Constitution ou prendre 5 (2d4) dégâts de poison et devenir empoisonné pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Scare (1/jour).** une créature du choix de Zeond au sein de 6 m de lui doit réussir sur un DD 10 jet de sauvegarde de Sagesse ou être effrayé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses virages, avec un désavantage si Zeond est en ligne de vue, mettant fin à l'effet sur elle-même sur un succès.\n**Invisibilité.** Zeond tourne magiquement invisible jusqu'à ce qu'il attaque ou utilise Screa, ou jusqu'à ce que son concentration se termine (comme si concentrating sur un sort). Tout équipement que Zeonde porte ou porte est invisible avec lui.",
+ "attacks": [
+  {
+   "name": "Griffe (Bite sous forme de bête)",
+   "bonus": 4,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/104bd7ed9b_monstre-zeond.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "skills": "Discrétion +5",
+ "resistances": "froid, feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

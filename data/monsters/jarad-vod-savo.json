@@ -1,0 +1,50 @@
+{
+ "id": "jarad-vod-savo",
+ "name": "Jarad Vod Savo",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "22",
+ "xp": 41000,
+ "ca": 17,
+ "hp": 180,
+ "hpFormula": "24d8+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 20,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 20",
+ "languages": "commun, elfique, Kraul",
+ "traits": "**Résistance légendaire (3/jour).** Si Jarad échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Jarad a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Régénération.** Jarad retrouve 25 points de vie au début de son tour. S'il prend feu ou dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Il meurt seulement s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Infusion de spores.** Jarad est entouré d'un nuage de spores. En tant qu'action bonus, il peut faire en sorte que les spores traitent 11 (2d10) dégâts de poison à une créature qu'il peut voir au sein de 3 m de lui.\n**Résistance au virage.** Jarad a un avantage sur jet de sauvegarde contre tout effet qui devient mort-vivant.\n**Fortitude non-morte.** Si le dégâts réduit Jarad à 0 points de vie, il doit faire un jet de sauvegarde de Constitution avec un DD de 5 + le dégâts pris, à moins que le dégâts soit radieux ou d'un coup critique. Sur un succès, il tombe à 1 points de vie.\n**Détection orthographique.** Jarad est un orthographe de Golgari de niveau 14. Son caractéristique d'incantation est Intelligence (save spell DD 20, +12 au toucher avec attaques de sort). Jarad a préparé les sorts d'assistant suivants :\n- Sorts mineurs (à volonté) : Aspersion d'acide, Contact glacial, Main de mage, Bouffée de poison, Prestidigitation\n- Niveau 1 (4 emplacements) : Enchevêtrement, Rayon empoisonné, Sommeil\n- Niveau 2 (3 emplacements) : Flèche acide de Melf, Rayon affaiblissant, Pattes d'araignée, Toile d'araignée\n- Niveau 3 (3 emplacements) : Animation des morts, Croissance végétale, Toucher du vampire\n- Niveau 4 (3 emplacements) : Flétrissement, Insecte géant, Liane avide\n- Niveau 5 (2 emplacements) : Brume mortelle, Fléau d'insectes\n- Niveau 6 (1 emplacements) : Cercle de mort, Création de mort-vivant\n- Niveau 7 (1 emplacements) : Doigt de mort, Cage de force",
+ "actionsText": "**Multiattaques.** Jarad fait deux attaques : l'une avec son Touche Noxieux et l'autre avec son Staff de Svogthir. Il peut lancer un sort avec un temps de lancer d'une action à la place d'une de ces attaques.\n**Touche nuisible.** Attaque de sort au corps à corps : +12 au toucher, allonge 1,50 m, une créature. Touché : 28 (8d6) dégâts de poison, et la cible doit réussir sur un DD 20 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Personnel de Svogthir.** Attaque d'arme au corps à corps : +12 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants plus 13 (3d8) dégâts de poison et 13 (3d8) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Touche nuisible",
+   "bonus": 12,
+   "damage": "8d6",
+   "type": "poison"
+  },
+  {
+   "name": "Personnel de Svogthir",
+   "bonus": 12,
+   "damage": "2d6+5",
+   "type": "contondant + poison + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/03c8031f63_monstre-jarad-vod-savo.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, INT +12, SAG +10",
+ "skills": "Arcanes +12, Perspicacité +10, Perception +10",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, jarad vod savo peut entreprendre l'une des actions ci-après.\n**sort mineur.** Jarad lance un de ses sorts mineurs.\n**Touche nocive (coûts 2 actions).** Jarad utilise le toucher nocif.\n**Perturbation de la vie (coûts 3 actions).** Chaque créature dans 9 m de Jarad doit faire un DD 20 jet de sauvegarde de Constitution, en prenant 35 (10d6) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "barkburr",
+ "name": "Barkburr",
+ "type": "Plante",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 52,
+ "hpFormula": "8d6+24",
+ "vitesse": "3 m, escalade 3 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 6,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 15,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (can't see beyond this radius), Perception passive 12",
+ "languages": "—",
+ "traits": "**Fausse apparence.** Si l'écorce est immobile au début du combat, elle a un avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'action de l'écorce, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que l'écorce est animée.\n**Leap de printemps.** Avec ou sans début de course, le saut de l'écorce est jusqu'à 4,50 m, et son long saut est jusqu'à 9 m. Les sauts de l'écorce peuvent dépasser sa vitesse si sa vitesse n'est pas 0.",
+ "actionsText": "**Multiattaques.** L'écorceur fait deux attaques poison Barb et utilise Lignify si possible.\n**poison Barbe.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une créature. Touché : 5 (1d4 + 3) dégâts perforants plus 7 (2d6) dégâts de poison, et l'écorce se fixe à la cible. Pendant que l'écorce est attachée, elle ne peut pas faire d'attaques poison Barb, et la cible a l'état entravé alors que son corps commence à se transformer en bois.\nUn bûcheron attaché peut se détacher en dépensant 1,50 m de son mouvement à son tour. Une créature qui peut atteindre l'écorce, y compris la cible, peut utiliser son action pour détacher l'écorce en faisant un DD 13 test de Force (Athlétisme) réussi.\n**Lignifier.** Le bûcheron cible la créature à laquelle il est attaché, et la cible doit faire un DD 13 jet de sauvegarde de Constitution. Sur une sauvegarde échouée, la cible a l'état pétrifié jusqu'à ce qu'elle soit libérée par le sort Restauration supérieure ou un autre effet, sauf qu'elle se transforme en arbre au lieu de pierre. Tout équipement que la cible porte ou porte est absorbé dans l'écorce de l'arbre.",
+ "attacks": [
+  {
+   "name": "poison Barbe",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/0f06fb6ddd_monstre-barkburr.webp",
+ "notes": "",
+ "source": "Quests from the Infinite Staircase (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Athlétisme +5",
+ "immunities": "psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé"
+}

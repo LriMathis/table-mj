@@ -1,0 +1,40 @@
+{
+ "id": "flagelleur-mental-nothic",
+ "name": "Mind Flayer Nothic",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 12",
+ "languages": "commun des profondeurs",
+ "traits": "**C'est la vue..** Le nothic a l'avantage sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le nothic fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Boussole mentale (Recharge 5-6).** Le nothic émet magiquement de l'énergie psychique dans un cône 9 m. Chaque créature dans cette zone doit réussir sur un DD 12 jet de sauvegarde d'Intelligence ou prendre 10 (2d8 + 1) dégâts psychiques et avoir l'état étourdi jusqu'à la fin de son prochain tour.\n**C'est bizarre..** Le nothic cible une créature il peut voir dans 9 m de lui. La cible doit contester sa test de Charisme (Tromperie) contre la test de Sagesse (Perspicacité) du nothic. Si le nothic gagne, il apprend magiquement un fait ou un secret sur la cible. La cible gagne automatiquement si elle est immunisée contre l'être charmé.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/aebecd8962_monstre-flagelleur-mental-nothic.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Flagelleur mental nothic",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +3, Perspicacité +4, Perception +2, Discrétion +5"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "avatar-du-deces",
+ "name": "Avatar of Death",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "0",
+ "xp": 10,
+ "ca": 20,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "18 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 16,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 13",
+ "languages": "toutes les langues connues de son convocateur",
+ "traits": "**Mouvement intégré.** L'avatar peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.",
+ "actionsText": "**Multiattaques.** L'avatar fait un certain nombre d'attaques de Reaping Scythe égale à la moitié du bonus de maîtrise de l'invocateur (arrondi).\n**Récupérer Scythe.** Jet d'attaque au corps à corps : frappe automatique, allonge 1,50 m. Touché : 7 (1d8 + 3) dégâts tranchants plus 4 (1d8) dégâts nécrotiques.",
+ "attacks": [],
+ "portrait": "/data/images/06de8ba911_monstre-avatar-du-deces.webp",
+ "notes": "points de vie : La moitié du maximum HP de son assignation",
+ "source": "Dungeon Master's Guide (2024) (5e.tools, traduction automatique)",
+ "aka": "Avatar du décès",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné, inconscient"
+}

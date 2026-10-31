@@ -1,0 +1,39 @@
+{
+ "id": "blaireau-geant",
+ "name": "Blaireau géant",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 15,
+ "hpFormula": "2d8+6",
+ "vitesse": "9 m, creusement 3 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 2,
+  "SAG": 12,
+  "CHA": 5
+ },
+ "skills": "Perception +3",
+ "resistances": "poison",
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Morsure.** Corps à corps : +3, allonge 1,50 m. Touché : 6 (2d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/08f043fdb8_monstre-blaireau-geant.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

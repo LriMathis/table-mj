@@ -1,0 +1,43 @@
+{
+ "id": "firegaunt",
+ "name": "Firegaunt",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 15,
+ "hp": 175,
+ "hpFormula": "14d12+84",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 25,
+  "DEX": 7,
+  "CON": 23,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Perception passive 16",
+ "languages": "géant",
+ "traits": "**feu Sang.** Chaque fois qu'une créature dans 1,50 m du feu frappe le feu avec une attaque de mêlée qui traite piercing ou dégâts tranchants, cette créature prend 5 (1d10) dégâts de feu.",
+ "actionsText": "**Multiattaques.** Le feu fait deux attaques de Maul chauffées.\n**Maul chauffé.** Attaque d'arme au corps à corps : +11 au toucher, allonge 3 m, une cible. Touché : 23 (3d10 + 7) dégâts contondants. Le feu peut provoquer l'éclatement de la maul avec des flammes cramoisi, et la cible doit réussir sur un DD 18 jet de sauvegarde de Dextérité ou prendre 10 (3d6) dégâts de feu et 10 (3d6) dégâts nécrotiques. Le maul ne peut éclater avec des flammes de cette façon qu'une seule fois par tour.\n**Rayons crimson (Recharge 5-6).** Le feu émet des faisceaux de feu de ses yeux, de sa bouche et de ses blessures dans un cône 9 m. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Dextérité, en prenant 31 (7d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Sur un succès ou un échec, cette créature prend feu. Jusqu'à ce que la créature en feu ou une autre créature qui peut l'atteindre prenne une action pour éteindre le feu, la créature en feu ne peut pas retrouver points de vie et prend 5 (1d10) dégâts de feu au début de chacun de ses tours.",
+ "attacks": [
+  {
+   "name": "Maul chauffé",
+   "bonus": 11,
+   "damage": "3d10+7",
+   "type": "contondant + feu + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/9c2644e639_monstre-firegaunt.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "caNote": "Plaque endommagée",
+ "saves": "DEX +2, CON +10, CHA +5",
+ "skills": "Athlétisme +11, Perception +6",
+ "resistances": "nécrotique",
+ "immunities": "feu, poison",
+ "conditionImmunities": "épuisement, pétrifié, empoisonné"
+}

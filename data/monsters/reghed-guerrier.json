@@ -1,0 +1,40 @@
+{
+ "id": "reghed-guerrier",
+ "name": "Reghed Warrior",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Tactiques de conditionnement.** Le guerrier a avantage sur un jet d'attaque contre une créature si au moins un des alliés du guerrier est dans 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Lancer.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d6 + 1) dégâts perforants, ou 5 (1d8 + 1) dégâts perforants si utilisé avec deux mains pour faire une attaque de melee.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/19702db13c_monstre-reghed-guerrier.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Reghed guerrier",
+ "caNote": "Cache l'armure",
+ "skills": "Survie +2"
+}

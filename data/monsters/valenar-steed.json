@@ -1,0 +1,38 @@
+{
+ "id": "valenar-steed",
+ "name": "Valenar Steed",
+ "type": "Fée",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 22,
+ "hpFormula": "3d10+6",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Perception passive 14",
+ "languages": "comprend Fréquent, elfique, et Sylvan mais ne peut pas parler",
+ "traits": "**Obligations.** Le pied peut magiquement se lier avec une créature il peut voir, immédiatement après avoir passé au moins 1 heure à observer cette créature pendant que dans 9 m de lui. Le lien dure jusqu'à ce que le pied soit lié à une autre créature ou jusqu'à ce que la créature liée meurt. Bien qu'ils soient liés, le pied et la créature liée peuvent communiquer télépathiquement entre eux à une distance allant jusqu'à 30 m.",
+ "actionsText": "**Des voyous.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Des voyous",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/9fe0f80b80_monstre-valenar-steed.webp",
+ "notes": "",
+ "source": "Eberron: Rising from the Last War (5e.tools, traduction automatique)",
+ "skills": "Perception +4"
+}

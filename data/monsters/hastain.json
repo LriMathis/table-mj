@@ -1,0 +1,46 @@
+{
+ "id": "hastain",
+ "name": "Hastain",
+ "type": "Céleste",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 19,
+ "hp": 82,
+ "hpFormula": "15d8+15",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 16,
+  "CHA": 24
+ },
+ "senses": "Perception passive 13",
+ "languages": "céleste, commun, profond, draconique",
+ "traits": "**Gloire.** Le classe d'armure de Hastain inclut son modificateur Charisme.\n**Maintenez votre souffle.** Hastain peut retenir son souffle pendant 1 heure.\n**Matériel spécial.** Hastain porte un Talarith.",
+ "actionsText": "**Multiattaques.** Hastain fait deux attaques Trident.\n**Trident.** Attaque d'arme au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants, ou 8 (1d8 + 4) dégâts perforants si utilisé avec deux mains pour faire une attaque de mêlée, plus 3 (1d6) dégâts de force si Hastain porte son talarith.\n**Bolt chromatique.** Attaque de sort à distance : +10 au toucher, portée 27 m, une cible. Touché : 22 (5d8) dégâts d'un type choisi par Hastain dans la liste suivante: froid, feu, foudre, ou rayonnant.\n**Invoquer le duplicata (Recharges après un repos court ou long).** À l'aide de son talarith, Hastain convoque un duplicata de lui-même. Le duplicata obéit aux commandes de Hastain et utilise les statistiques de Hastain, sauf que c'est un Construction non aligné qui n'a pas de talarith à lui. Le double prend son tour immédiatement après Hastain. Il disparaît après 1 heure ou quand il est réduit à 0 points de vie.\n**Coulisse (Psioniques).** Hastain lance l'un des sorts suivants, ne nécessitant pas de composants de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Lumière, Main de mage, Prestidigitation\n- 1/jour chacun : Suggestion de groupe, Communication à distance\n- 2/jour chacun : Porte dimensionnelle, Force fantasmagorique",
+ "attacks": [
+  {
+   "name": "Trident",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + force"
+  },
+  {
+   "name": "Bolt chromatique",
+   "bonus": 10,
+   "damage": "5d8",
+   "type": ""
+  }
+ ],
+ "portrait": "/data/images/db1a5619e7_monstre-hastain.webp",
+ "notes": "",
+ "source": "Light of Xaryxis (5e.tools, traduction automatique)",
+ "caNote": "gloire",
+ "saves": "DEX +5, CON +4, SAG +6, CHA +10",
+ "skills": "Arcanes +7, Histoire +7, Représentation +10, Persuasion +10"
+}

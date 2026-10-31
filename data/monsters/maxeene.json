@@ -1,0 +1,37 @@
+{
+ "id": "maxeene",
+ "name": "Maxeene",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 10,
+ "hp": 19,
+ "hpFormula": "3d10+3",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Des voyous.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d4 + 4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Des voyous",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/20267da77b_monstre-maxeene.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)"
+}

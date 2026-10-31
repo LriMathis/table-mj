@@ -1,0 +1,40 @@
+{
+ "id": "darkling-ancien",
+ "name": "Darkling Elder",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 17,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 16",
+ "languages": "elfique, sylvestre",
+ "traits": "**Brûlure de mort.** Quand l'aîné sombre meurt, la lumière magique s'en dégage dans un rayon de 3 m alors que son corps et ses biens, autres que les objets métalliques ou magiques, brûlent en cendres. Toute créature dans cette zone doit faire un DD 11 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la créature prend 7 (2d6) dégâts radiants et est aveuglé jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas aveuglé.",
+ "actionsText": "**Multiattaques.** L'aîné obscurcit fait deux attaques de Scimitar.\n**Scimitar.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants plus 7 (2d6) dégâts nécrotiques.\n**Ténèbre (recharge après un repos court ou long).** L'aînée obscurcie lance Ténèbres, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation.\n- 1/repos : Ténèbres",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/b4f9f541fd_monstre-darkling-ancien.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Darkling ancien",
+ "caNote": "Armure en cuir Studded",
+ "skills": "Acrobaties +5, Tromperie +3, Perception +6, Discrétion +7"
+}

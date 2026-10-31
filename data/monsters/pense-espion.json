@@ -1,0 +1,46 @@
+{
+ "id": "pense-espion",
+ "name": "Thought Spy",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 16,
+  "SAG": 13,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 13",
+ "languages": "Commun plus une langue",
+ "traits": "**Action énergique.** A chacun de ses tours, l'espion de pensée peut utiliser un action bonus pour prendre l'action Foncer, Se désengager ou Se cacher.\n**La diffusion de l'orthographe innée (Psioniques).** L'espion de pensée innée caractéristique d'incantation est Intelligence (spell save DD 13). L'espion de la pensée peut innéement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Charme-personne, Déguisement, Encode pensées (voir chapitre 2)\n- 1/jour chacun : Flou, Détection des pensées, Forme gazeuse",
+ "actionsText": "**Multiattaques.** L'espion-pensée fait deux attaques de mêlée, ou il fait trois attaques de portée avec ses poignards.\n**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +4 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.\n**Violeur.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Violeur",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b113ec4a8d_monstre-pense-espion.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "aka": "Pense espion",
+ "caNote": "Armure en cuir",
+ "skills": "Tromperie +6, Perspicacité +3, Investigation +5, Perception +3, Escamotage +4, Discrétion +4"
+}

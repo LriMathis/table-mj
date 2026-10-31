@@ -1,0 +1,41 @@
+{
+ "id": "dragonwing",
+ "name": "Dragonwing",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 13,
+  "INT": 11,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, draconique",
+ "traits": "**Dragon fanatique.** Le dragonnage a avantage sur jet de sauvegarde contre être charmé ou effrayé. Tandis que l'aiguillation peut voir un dragon ou un Culte supérieur du culte Dragon amical à lui, l'aiguillation ignore les effets d'être charmé ou effrayé.\n**Avantage fanatique.** Une fois par tour, si le dragon fait une attaque d'arme avec avantage sur le jet d'attaque et frappe, la cible prend un 7 (2d6) de plus en dégâts.\n**Vol limité.** Le dragonnage peut utiliser un action bonus pour gagner une vitesse de vol de 9 m jusqu'à la fin de son tour.\n**Tactiques de conditionnement.** Le dragonnage a avantage sur un jet d'attaque contre une créature si au moins un des alliés du dragonwing est dans le 1,50 m de la créature et l'allié n'est pas neutralisé.",
+ "actionsText": "**Multiattaques.** Le dragon attaque deux fois avec son scimitar.\n**Scimitar.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants plus 3 (1d6) dégâts du type auquel le cultivateur a une résistance.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/23c339747c_monstre-dragonwing.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "Armure en cuir",
+ "saves": "SAG +2",
+ "skills": "Tromperie +3, Discrétion +5",
+ "resistances": "l'un des éléments suivants: acide, froid, feu, foudre, poison"
+}

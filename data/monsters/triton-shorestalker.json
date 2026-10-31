@@ -1,0 +1,45 @@
+{
+ "id": "triton-shorestalker",
+ "name": "Triton Shorestalker",
+ "type": "Humanoïde (triton)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "commun, primordial",
+ "traits": "**Amphibie.** Le triton peut respirer de l'air et de l'eau.\n**Échappement de Nimble.** Le triton peut prendre les actions Se désengager ou Se cacher comme action bonus sur chacun de ses tours.\n**Découpe intérieure.** Le caractéristique d'incantation du triton est Sagesse (Spell save DD 12). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant matériel:\n- 1/jour chacun : Nappe de brouillard, Bourrasque",
+ "actionsText": "**Multiattaques.** Le triton fait deux attaques de mots courts d'oursin et d'épine.\n**Shortsword Urchin-Spine.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants plus 10 (3d6) dégâts de poison. Si le dégâts réduit une créature à 0 points de vie, cette créature est stable mais empoisonné pendant 1 heure, même après avoir récupéré points de vie, et est paralysé alors empoisonné de cette façon.\n**empoisonné Spine.** Attaque d'arme à distance : +5 au toucher, portée 9/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants plus 10 (3d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Shortsword Urchin-Spine",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "empoisonné Spine",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/76af6bae31_monstre-triton-shorestalker.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "skills": "Nature +4, Perception +4, Discrétion +5",
+ "resistances": "froid"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "barre-de-cristal-nothic",
+ "name": "Crystal Helm Nothic",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 15,
+ "hp": 45,
+ "hpFormula": "6d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 13,
+  "SAG": 10,
+  "CHA": 8
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 12",
+ "languages": "commun des profondeurs",
+ "traits": "**C'est la vue..** Le nothic a l'avantage sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le nothic fait deux attaques de griffes.\n**Griffe.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Gaz de routage.** Le nothic cible une créature il peut voir dans 9 m de lui. La cible doit réussir sur un DD 12 jet de sauvegarde de Constitution contre cette magie ou prendre 10 (3d6) dégâts nécrotiques.\n**C'est bizarre..** Le nothic cible une créature il peut voir dans 9 m de lui. La cible doit contester sa test de Charisme (Tromperie) contre la test de Sagesse (Perspicacité) du nothic. Si le nothic gagne, il apprend magiquement un fait ou un secret sur la cible. La cible gagne automatiquement si elle est immunisée contre l'être charmé.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/ec291c9dd4_monstre-barre-de-cristal-nothic.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Barre de cristal nothic",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +3, Perspicacité +4, Perception +2, Discrétion +5"
+}

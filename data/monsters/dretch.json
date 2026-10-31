@@ -1,0 +1,40 @@
+{
+ "id": "dretch",
+ "name": "Dretch",
+ "type": "Fiélon",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 11,
+ "hp": 18,
+ "hpFormula": "4d6+4",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 5,
+  "SAG": 8,
+  "CHA": 3
+ },
+ "resistances": "feu, foudre, froid",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "abyssal, télépathie 18 m (ne fonctionne qu’avec les créatures qui comprennent l’abyssal)",
+ "traits": "",
+ "actionsText": "**Saignée.** Corps à corps : +3, allonge 1,50 m. Touché : 4 (1d6 + 1) dégâts tranchants.\n**Nuage fétide (1/jour).** JS Constitution : DD 11, chaque créature dans une Émanation de 3 m centrée sur le dretch. Échec : la cible subit l’état Empoisonné jusqu’à la fin de son tour suivant. Tant qu’elle est ainsi Empoisonnée, la créature ne peut pas jouer de Réaction et n’a droit qu’à une action ou une action Bonus lors de son tour (pas les deux).",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/7851598d1e_monstre-dretch.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 51"
+}

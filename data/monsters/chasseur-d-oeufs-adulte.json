@@ -1,0 +1,43 @@
+{
+ "id": "chasseur-d-oeufs-adulte",
+ "name": "Egg Hunter Adult",
+ "type": "Monstruosité",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 16,
+ "hp": 52,
+ "hpFormula": "8d6+24",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 20,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 13,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "—",
+ "traits": "**Amphibie.** Le chasseur d'oeufs peut respirer de l'air et de l'eau.\n**Fausse apparence.** Si le chasseur d'oeufs est immobile au début du combat, il a un avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le chasseur d'oeufs bouger ou agir, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que le chasseur d'oeufs est animé. Les dragons ont un inconvénient sur ce chèque.",
+ "actionsText": "**Multiattaques.** Le chasseur d'oeufs fait deux attaques de Barbed Proboscis, et il peut utiliser Torpor Spores si elle est disponible.\n**Proboscis à barbe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d6 + 5) dégâts perforants plus 9 (2d8) dégâts nécrotiques, et le chasseur d'oeufs retrouve points de vie égal à dégâts nécrotiques distribué.\n**Torpores (Recharge 5-6).** Le chasseur d'oeufs libère une bouffée de spores bleues pétillantes. Chaque créature dans une sphère 9 m -radius centrée sur le chasseur d'oeufs doit réussir sur une DD 14 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, la créature peut prendre une action ou un action bonus à son tour, mais pas les deux, et elle ne peut pas prendre de réactions. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Si le jet de sauvegarde d'une créature est réussi ou si l'effet se termine pour elle, la créature est immunisée contre les spores Torpor de ce chasseur d'oeufs pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Proboscis à barbe",
+   "bonus": 8,
+   "damage": "1d6+5",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/48dc4b21d7_monstre-chasseur-d-oeufs-adulte.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Chasseur d'oeufs adulte",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, SAG +4",
+ "skills": "Perception +4, Discrétion +11",
+ "conditionImmunities": "effrayé, empoisonné",
+ "reactions": "**Adaptation rapide.** Lorsque le chasseur d'oeufs prend des dégâts, il se donne une résistance à ces dégâts."
+}

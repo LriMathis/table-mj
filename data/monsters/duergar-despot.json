@@ -1,0 +1,47 @@
+{
+ "id": "duergar-despot",
+ "name": "Duergar Despot",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 21,
+ "hp": 119,
+ "hpFormula": "14d8+56",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 5,
+  "CON": 19,
+  "INT": 15,
+  "SAG": 14,
+  "CHA": 13
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Résistance magique.** Le duergar a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Moteur psychique.** Lorsque le duergar subit un coup critique ou est réduit à 0 points de vie, l'énergie psychique s'évapore de son cadre pour traiter 14 (4d6) dégâts psychiques à chaque créature dans 1,50 m de lui.\n**Sensibilité à la lumière du soleil.** En plein soleil, le duergar présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le duergar fait deux attaques de Fer Fist et deux attaques de Stomping Foot. Après l'une des attaques, le duergar peut passer à sa vitesse sans provoquer opportunity attacks. Il peut remplacer l'une des attaques par une utilisation de Flame Jet.\n**Fer à repasser.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 23 (4d8 + 5) dégâts contondants. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 17 jet de sauvegarde de Force ou être poussée jusqu'à 9 m en ligne droite et être à terre.\n**Pied de gommage.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 10 (1d10 + 5) dégâts contondants, ou 21 (3d10 + 5) vers une cible à terre.\n**Jet de flamme.** Le duergar lance des flammes dans une ligne 30 m longue et 1,50 m large. Chaque créature dans la ligne doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 18 (4d8) dégâts de feu en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Coulisse (Psioniques).** Le duergar lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Main de mage, Illusion mineure\n- 1/jour : Nuage nauséabond",
+ "attacks": [
+  {
+   "name": "Fer à repasser",
+   "bonus": 9,
+   "damage": "4d8+5",
+   "type": "contondant"
+  },
+  {
+   "name": "Pied de gommage",
+   "bonus": 9,
+   "damage": "1d10+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/7672c73b00_monstre-duergar-despot.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, SAG +6",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "squelette-de-minotaure",
+ "name": "Squelette de minotaure",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 45,
+ "hpFormula": "6d10+12",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 6,
+  "SAG": 8,
+  "CHA": 5
+ },
+ "vulnerabilities": "contondants",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné, épuisement",
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend l’abyssal mais ne peut pas parler",
+ "traits": "",
+ "actionsText": "**Coup.** Corps à corps : +6, allonge 1,50 m. Touché : 15 (2d10 + 4) dégâts contondants.\n**Coup de corne.** Corps à corps : +6, allonge 1,50 m. Touché : 11 (2d6 + 4) dégâts perforants. Si la cible est une créature de taille G ou inférieure et si le squelette s’est déplacé en ligne droite d’un minimum de 6 m juste avant de la toucher, la cible subit 9 (2d8) dégâts perforants supplémentaires, ainsi que l’état À terre.",
+ "attacks": [
+  {
+   "name": "Coup",
+   "bonus": 6,
+   "damage": "2d10+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Coup de corne",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3364c5586a_monstre-squelette-de-minotaure.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 275",
+ "aka": "Minotaure squelette (2024)"
+}

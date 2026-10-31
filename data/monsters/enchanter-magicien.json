@@ -1,0 +1,41 @@
+{
+ "id": "enchanter-magicien",
+ "name": "Enchanter Wizard",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 49,
+ "hpFormula": "11d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'enchanteur fait trois attaques d'Arcane Burst.\n**La Burst d'Arcane.** Attaque de sort au corps à corps ou à distance : +6 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 19 (3d10 + 3) dégâts psychiques.\n**Détection orthographique.** L'enchanteur lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 14) :\n- À volonté : Amis, Main de mage, Message\n- 2/jour chacun : Charme-personne, Armure de mage, Immobilisation de personne, Invisibilité, Suggestion, Don des langues",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 6,
+   "damage": "3d10+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/b87ed5a927_monstre-enchanter-magicien.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Enchanter magicien",
+ "saves": "INT +6, SAG +4",
+ "skills": "Arcanes +6, Histoire +6",
+ "reactions": "**Charm Instinctive (Recharge 4-6).** Lorsqu'une créature visible au sein de 9 m de l'enchanteur fait un jet d'attaque contre elle, l'enchanteur force l'attaquant à faire un DD 14 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, l'attaquant redirige le jet d'attaque vers la créature la plus proche, autre que l'enchanteur ou lui-même. Si plusieurs créatures admissibles sont les plus proches, l'attaquant choisit celle à cibler."
+}

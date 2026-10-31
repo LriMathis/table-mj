@@ -1,0 +1,38 @@
+{
+ "id": "serpopard",
+ "name": "Serpopard",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 52,
+ "hpFormula": "7d10+14",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 8
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** Le serpopard a un avantage sur tests de Sagesse (Perception) qui repose sur l'odeur.\n**Ponce.** Si le serpopard se déplace au moins 6 m droit vers une créature et la frappe avec une attaque de morsure au même tour, cette cible doit réussir sur un DD 14 jet de sauvegarde de Force ou être à terre. Si la cible est à terre, le serpopard peut faire une attaque de morsure contre elle en tant qu'action bonus.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (1d10 + 4) dégâts perforants, et la cible doit faire un DD 14 jet de sauvegarde de Constitution, en prenant 10 (3d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "1d10+4",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/34f2da7aa9_monstre-serpopard.webp",
+ "notes": "",
+ "source": "PSA (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +6"
+}

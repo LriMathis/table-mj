@@ -1,0 +1,40 @@
+{
+ "id": "rilly-juin",
+ "name": "Rilly June",
+ "type": "Humanoïde (halfelin)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 12,
+ "hp": 13,
+ "hpFormula": "3d6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Perception passive 13",
+ "languages": "commun, halfelin",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Rilly June fait deux attaques de Hayfork.\n**Fourche à foin.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts perforants.\n**G'wan, Git ! (1/jour).** Jet de sauvegarde de Sagesse : DD 11, une créature Rilly Juin peut voir dans 18 m. Échec : 10 (3d6) dégâts psychiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Fourche à foin",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5aac20d7ed_monstre-rilly-juin.webp",
+ "notes": "",
+ "source": "Stranger Things: Welcome to the Hellfire Club (5e.tools, traduction automatique)",
+ "aka": "Rilly juin",
+ "saves": "SAG +3",
+ "skills": "Nature +2, Perception +3, Survie +3"
+}

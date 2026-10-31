@@ -1,0 +1,48 @@
+{
+ "id": "maw-de-yeenoghu",
+ "name": "Maw of Yeenoghu",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 15,
+ "hp": 161,
+ "hpFormula": "14d12+70",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 21,
+  "INT": 8,
+  "SAG": 14,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "abyssal, géant",
+ "traits": "**Résistance magique.** Le maw a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** La mache fait deux attaques Bite ou Fang Fling.\n**Morceau.** Attaque d'arme au corps à corps : +10 au toucher, allonge 3 m, une cible. Touché : 19 (2d12 + 6) dégâts perforants.\n**Fling Fang Fling.** Attaque d'arme à distance : +10 au toucher, portée 9/27 m., une cible. Touché : 11 (1d10 + 6) dégâts perforants.\n**Charge de gorgage (Recharge 5-6).** La mache se déplace à sa vitesse sans provoquer d'attaques d'opportunités et peut se déplacer à travers les espaces de Grandes ou de Petites créatures. Chaque fois que la mache entre dans l'espace d'une créature pour la première fois pendant ce mouvement, cette créature doit réussir sur un DD 18 jet de sauvegarde de Force ou prendre 25 (3d12 + 6) dégâts perforants et avoir l'état agrippé (évasion DD 16); si une créature est déjà agrippé de cette façon, elle a l'état à terre. Jusqu'à ce que ce grappin se termine, la cible a l'état entravé. Le maw peut avoir seulement une créature agrippé de cette façon à la fois.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 10,
+   "damage": "2d12+6",
+   "type": "perforant"
+  },
+  {
+   "name": "Fling Fang Fling",
+   "bonus": 10,
+   "damage": "1d10+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/592ff7cbc0_monstre-maw-de-yeenoghu.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Maw de Yeenoghu",
+ "caNote": "armure naturelle",
+ "saves": "CON +9, CHA +4",
+ "skills": "Perception +6",
+ "reactions": "**Réplique fictive.** En réponse à la prise de dégâts, la mache fait une attaque Bite contre une créature aléatoire en 3 m de lui-même. Si aucune créature n'est à portée de main, la mache peut faire deux attaques Fang Fling."
+}

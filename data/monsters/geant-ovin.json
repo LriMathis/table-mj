@@ -1,0 +1,39 @@
+{
+ "id": "geant-ovin",
+ "name": "Giant Ox",
+ "type": "Fée",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 105,
+ "hpFormula": "10d12+40",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 10,
+  "CON": 19,
+  "INT": 4,
+  "SAG": 11,
+  "CHA": 9
+ },
+ "senses": "Perception passive 10",
+ "languages": "comprend Giant et Sylvan mais ne peut pas parler",
+ "traits": "**Bête de la charge.** Le boeuf est considéré comme une taille plus grande pour déterminer sa capacité de charge.",
+ "actionsText": "**Gore.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 13 (2d6 + 6) dégâts perforants. Si le bœuf a déplacé au moins 6 m droit vers la cible immédiatement avant le coup, la cible prend un 7 (2d6) dégâts perforants supplémentaire, et il doit réussir sur un DD 16 jet de sauvegarde de Force ou avoir l'état à terre.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 8,
+   "damage": "2d6+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/de6cc54fb7_monstre-geant-ovin.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant ovin",
+ "caNote": "armure naturelle"
+}

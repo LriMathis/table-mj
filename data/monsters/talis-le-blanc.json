@@ -1,0 +1,41 @@
+{
+ "id": "talis-le-blanc",
+ "name": "Talis the White",
+ "type": "Humanoïde (demi-elf)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 18,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 14,
+  "INT": 10,
+  "SAG": 16,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun, draconique, elfique, infernal",
+ "traits": "**Matériel spécial.** Talis a +1 scale mail et un Baguette de l'hiver.\n**Ancêtre fécale.** Talis a un avantage sur jet de sauvegarde contre charmé et la magie ne peut pas la mettre au lit.\n**Grève d'hiver (3/jour).** Une fois par tour, quand Talis frappe avec une attaque de melee, elle peut dépenser une utilisation de ce trait pour traiter un 9 (2d8) dégâts de froid supplémentaire.\n**Détection orthographique.** Talis est un spellcaster de niveau 9 qui utilise Sagesse comme son caractéristique d'incantation (spell save DD 14, +6 au toucher avec attaques de sort). Talis a les sorts suivants préparés à partir de la liste des sorts clercs:\n- Sorts mineurs (à volonté) : Assistance, Résistance, Thaumaturgie\n- Niveau 1 (4 emplacements) : Injonction, Soins, Mot de guérison, Blessure\n- Niveau 2 (3 emplacements) : Cécité/Surdité, Restauration partielle, Arme spirituelle (précises)\n- Niveau 3 (3 emplacements) : Dissipation de la magie, Mot de guérison de groupe, Communication à distance\n- Niveau 4 (3 emplacements) : Protection contre la mort, Liberté de mouvement\n- Niveau 5 (1 emplacements) : Fléau d'insectes",
+ "actionsText": "**Lancer.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou 6/18 m, une cible. Touché : 6 (1d6 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Lancer",
+   "bonus": 5,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/cd5c448945_monstre-talis-le-blanc.webp",
+ "notes": "",
+ "source": "Hoard of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Talis le blanc",
+ "caNote": "+1 échelle de courrier, Bouclier",
+ "saves": "SAG +6, CHA +6",
+ "skills": "Tromperie +6, Perspicacité +6, Perception +6, Persuasion +6"
+}

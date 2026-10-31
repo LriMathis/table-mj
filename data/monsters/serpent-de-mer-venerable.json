@@ -1,0 +1,55 @@
+{
+ "id": "serpent-de-mer-venerable",
+ "name": "Ancient Sea Serpent",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 17,
+ "hp": 170,
+ "hpFormula": "11d20+55",
+ "vitesse": "6 m, nage 18 m",
+ "stats": {
+  "FOR": 24,
+  "DEX": 15,
+  "CON": 20,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "commun, draconique",
+ "traits": "**Amphibie.** Le serpent marin peut respirer de l'air et de l'eau.\n**Résistance légendaire (2/jour).** Si le serpent de mer échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Monstre de siège.** Le serpent de mer inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le serpent de mer fait une attaque Bite et une attaque Constrict ou Tail.\n**Morceau.** Attaque d'arme au corps à corps : +12 au toucher, allonge 4,50 m, une cible. Touché : 20 (2d12 + 7) dégâts perforants plus 6 (1d12) dégâts de froid.\n**Constriction.** Attaque d'arme au corps à corps : +12 au toucher, allonge 6 m, une créature. Touché : 29 (4d10 + 7) dégâts contondants, et la cible est agrippé (évasion DD 20). Jusqu'à ce que ce grappin se termine, la cible est entravé, et le serpent de mer ne peut pas constricter une autre cible.\n**Queue.** Attaque d'arme au corps à corps : +12 au toucher, allonge 6 m, une cible. Touché : 13 (1d12 + 7) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 20 jet de sauvegarde de Force ou être poussée jusqu'à 9 m loin du serpent de mer et à terre.\n**Respiration de l'anneau (Recharge 5-6).** Le serpent de mer expire un cône 18 m de froid. Chaque créature dans cette zone doit faire un DD 18 jet de sauvegarde de Constitution, en prenant 49 (9d10) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 12,
+   "damage": "2d12+7",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Constriction",
+   "bonus": 12,
+   "damage": "4d10+7",
+   "type": "contondant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 12,
+   "damage": "1d12+7",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/2a988efb23_monstre-serpent-de-mer-venerable.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Serpent de mer vénérable",
+ "caNote": "armure naturelle",
+ "saves": "FOR +12, CON +10",
+ "skills": "Perception +8, Discrétion +7",
+ "immunities": "froid",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, serpent de mer vénérable peut entreprendre l'une des actions ci-après.\n**Queue.** Le serpent de mer fait une attaque Tail.\n**Bite (coûts 2 actions).** Le serpent de mer fait une attaque Bite"
+}

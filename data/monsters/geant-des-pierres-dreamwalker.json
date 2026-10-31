@@ -1,0 +1,48 @@
+{
+ "id": "geant-des-pierres-dreamwalker",
+ "name": "Stone Giant Dreamwalker",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 161,
+ "hpFormula": "14d12+70",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 14,
+  "CON": 21,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, géant",
+ "traits": "**Le charme de Dreamwalker.** Un ennemi qui commence son tour à l'intérieur de 9 m du géant doit faire un DD 13 jet de sauvegarde de Charisme, à condition que le géant ne soit pas neutralisé. Sur une sauvegarde ratée, la créature est charmé par le géant. Une créature charmé de cette façon peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Une fois qu'il réussit sur le jet de sauvegarde, la créature est à l'abri du charme de ce géant Dreamwalker pendant 24 heures.",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques de Greatclub ou Rock.\n**Grand club.** Attaque d'arme au corps à corps : +10 au toucher, allonge 4,50 m, une cible. Touché : 24 (4d8 + 6) dégâts contondants.\n**Roche.** Attaque d'arme à distance : +10 au toucher, portée 18/72 m., une cible. Touché : 22 (3d10 + 6) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 17 jet de sauvegarde de Force ou être à terre.\n**Touche pétrifiant.** Le géant touche une créature moyenne ou plus petite à l'intérieur de 3 m qui est charmé par elle. La cible doit faire un DD 17 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, la cible devient pétrifié, et le géant peut adhérer à la cible à son corps pierreux. Les sorts Restauration supérieure et autres magies qui peuvent annuler la pétrification n'ont aucun effet sur une créature pétrifié adhéré au géant à moins que le géant soit mort, auquel cas la magie fonctionne normalement, libérant la créature pétrifié ainsi que la fin l'état pétrifié sur elle.",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 10,
+   "damage": "4d8+6",
+   "type": "contondant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 10,
+   "damage": "3d10+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e2e5ae4e81_monstre-geant-des-pierres-dreamwalker.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Géant des pierres Dreamwalker",
+ "caNote": "armure naturelle",
+ "saves": "DEX +6, CON +9, SAG +3",
+ "skills": "Athlétisme +14, Perception +3",
+ "conditionImmunities": "charmé, effrayé"
+}

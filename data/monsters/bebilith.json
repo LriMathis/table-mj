@@ -1,0 +1,56 @@
+{
+ "id": "bebilith",
+ "name": "Bebilith",
+ "type": "Fiélon (démon)",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 189,
+ "hpFormula": "18d12+72",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 22,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 18 m, Perception passive 15",
+ "languages": "comprend Abyssal mais ne parle télépathiquement qu'à son propre genre, télépathie 36 m",
+ "traits": "**Vue sombre.** L'obscurité magique n'entrave pas la vision obscure du bébilith.\n**Escalade des araignées.** Le bébilith peut grimper des surfaces difficiles, y compris à l'envers, sans avoir besoin de faire un test de caractéristique et ignore toute restriction de mouvement causée par la sangle.",
+ "actionsText": "**Multiattaques.** Le bebilith utilise empoisonné Web (si disponible) et fait ensuite une attaque Bite et deux attaques Foreleg.\n**Morceau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 16 (2d12 + 3) dégâts perforants plus 21 (6d6) dégâts de poison. Toute créature qui tombe à zéro points de vie à cause de cette attaque s'enflamme, souffrant 7 (2d6) dégâts de feu au début de chacun de ses tours jusqu'à ce que le points de vie de la créature soit au-dessus de zéro.\n**Précédant.** Attaque d'arme au corps à corps : +7 au toucher, allonge 3 m, une cible. Touché : 21 (4d8 + 3) dégâts tranchants.\n**empoisonné Web (Recharge 5-6).** Attaque d'arme à distance : +10 au toucher, portée 9/18 m., une créature. Touché : 51 (10d8 + 6) dégâts de poison, et la cible a l'état entravé jusqu'à ce que le web soit libre. Alors qu'entravé, la cible prend 9 (2d8) dégâts de poison au début de chacun de ses tours. La cible peut utiliser une action pour faire un DD 17 test de Force et si succès ils sont libérés de la webbing. La toile peut également être attaquée et détruite (CA 12; 10 points de vie ; immunité contre le bludgeon, le feu, le poison et dégâts psychiques). Si une attaque ou un sort faisant dégâts de feu est utilisé sur la sangle, la sangle s'enflamme (mais est autrement indemne). Toute créature entravé par la sangle souffre d'un 7 (2d6) dégâts de feu supplémentaire au début de chaque tour.\n**Ténèbre de Stalker (3/jour).** Le bébilith lance Ténèbres.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 7,
+   "damage": "2d12+3",
+   "type": "perforant + poison + feu"
+  },
+  {
+   "name": "Précédant",
+   "bonus": 7,
+   "damage": "4d8+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "empoisonné Web 5",
+   "bonus": 10,
+   "damage": "10d8+6",
+   "type": "poison + feu"
+  }
+ ],
+ "portrait": "/data/images/47a5319206_monstre-bebilith.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "CON +8, SAG +5",
+ "skills": "Perception +5, Discrétion +10",
+ "resistances": "froid, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Chasseur sans relâche.** Le bébilite peut utiliser un action bonus pour marquer une proie endommagée. Seul une créature peut être marqué à la fois. Le bébilith connaît toujours l'emplacement exact de la proie marquée sur le plan d'existence actuel, ne peut être surpris par elle, et a avantage sur tous les jets d'attaque contre elle."
+}

@@ -1,0 +1,44 @@
+{
+ "id": "darz-helgar",
+ "name": "Darz Helgar",
+ "type": "Humanoïde (Illuskan humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "5d8+5",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 11
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Attaque d'éternuement (1/Turn).** Darz inflige un dégâts supplémentaire de 7 (2d6) lorsqu'il frappe une cible avec une attaque d'arme et a un avantage sur le jet d'attaque, ou lorsque la cible est dans 1,50 m d'un allié de Darz qui n'est pas neutralisé et Darz n'a pas d'inconvénient sur le jet d'attaque.\n**Information sur le jeu de rôles.** Dans sa jeunesse, Darz était membre de la Guilde de Xanatar Thieves à Waterdeep. Après avoir purgé dix ans de prison pour ses crimes, il a coupé tous les liens avec la ville et a déménagé vers le nord pour être un gardien de terrain de camping.\nIdéal: \"Tu peux fuir ton passé, mais tu ne peux pas te cacher.\"\nObligation : \"J'ai fait une nouvelle vie à Triboar. Je ne vais pas m'enfuir cette fois. \"\nFaux : \"Je n'ai aucun regret. Je fais tout pour survivre. »",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Écharpe.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants. Darz porte vingt pierres de fronde.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/8227050dc6_monstre-darz-helgar.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "skills": "Intimidation +2, Escamotage +4, Discrétion +4"
+}

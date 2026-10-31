@@ -1,0 +1,39 @@
+{
+ "id": "dragonnel",
+ "name": "Dragonnel",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 58,
+ "hpFormula": "9d10+9",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 13",
+ "languages": "comprend Draconique et Commun mais ne peut pas parler",
+ "traits": "**Volée.** Le dragonne ne provoque pas une attaque d'opportunité quand il vole hors de la portée d'un ennemi.",
+ "actionsText": "**Multiattaques.** Le dragonne fait deux attaques de Rend.\n**Rend.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/f3dcdea56e_monstre-dragonnel.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +3"
+}

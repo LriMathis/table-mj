@@ -1,0 +1,42 @@
+{
+ "id": "vers-givre",
+ "name": "Frost Worm",
+ "type": "Monstruosité",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 18,
+ "hp": 264,
+ "hpFormula": "16d20+96",
+ "vitesse": "12 m, creusement 9 m",
+ "stats": {
+  "FOR": 28,
+  "DEX": 8,
+  "CON": 22,
+  "INT": 1,
+  "SAG": 5,
+  "CHA": 5
+ },
+ "senses": "Vision aveugle 9 m, Perception des vibrations 18 m, Perception passive 7",
+ "languages": "—",
+ "traits": "**Corps de congélation.** Une créature qui touche le ver ou le frappe avec une attaque de mêlée alors qu'à l'intérieur de 1,50 m il prend 10 (3d6) dégâts de froid.\n**Burst de mort.** Quand le ver meurt, il explose dans une explosion d'énergie frigide. Chaque créature de 18 m doit en faire un DD 20 jet de sauvegarde de Dextérité, en prenant 28 (8d6) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Créatures à l'intérieur du ver lorsqu'il meurt automatiquement échoue ce jet de sauvegarde.\n**Tunneler.** Le ver peut s'enfoncer dans une roche solide à la moitié de sa vitesse de creusement et laisse un tunnel 3 m-diamètre dans son sillage.",
+ "actionsText": "**Multiattaques.** Le ver fait deux attaques de morsure, ou utilise son Trill et fait une attaque de morsure.\n**Morceau.** Attaque d'arme au corps à corps : +15 au toucher, allonge 3 m, une cible. Touché : 22 (3d8 + 9) dégâts perforants plus 10 (3d6) dégâts de froid. Si la cible est une créature grande ou plus petite, elle doit réussir sur un DD 20 jet de sauvegarde de Dextérité ou être avalée par le ver. Une créature avalée est aveuglé et entravé, a 3 contre les attaques et autres effets en dehors du ver, et prend 10 (3d6) dégâts d'acide et 10 (3d6) dégâts de froid au début de chaque tour du ver.\nSi le ver prend 30 dégâts ou plus sur un seul tour d'une créature à l'intérieur, le ver doit réussir sur un DD 20 jet de sauvegarde de Constitution à la fin de ce tour ou régurgiter toutes les créatures avalées, qui tombent à terre dans un espace à l'intérieur de 3 m du ver.\n**Trille.** Le ver gelé émet un cri hantant. Chaque créature dans 18 m du ver qui peut l'entendre doit réussir sur un DD 20 jet de sauvegarde de Sagesse ou être étourdi pendant 1 minute. Une créature peut répéter le jet de sauvegarde chaque fois qu'elle prend des dégâts et à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès. Une fois qu'une créature a réussi à sauver contre cet effet, ou si cet effet se termine pour elle, cette créature est immunisée contre le Trill de tous les vers de gel pendant les 24 prochaines heures. Les vers de givre sont immunisés contre cet effet.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 15,
+   "damage": "3d8+9",
+   "type": "perforant + froid + acide"
+  }
+ ],
+ "portrait": "/data/images/928e05153e_monstre-vers-givre.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Vers givre",
+ "caNote": "armure naturelle",
+ "saves": "CON +12, SAG +3",
+ "vulnerabilities": "feu",
+ "immunities": "froid"
+}

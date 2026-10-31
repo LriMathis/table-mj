@@ -1,0 +1,44 @@
+{
+ "id": "guide-du-campus-strixhaven",
+ "name": "Strixhaven Campus Guide",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 17,
+ "hp": 31,
+ "hpFormula": "7d6+7",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Vision aveugle 18 m, Perception passive 11",
+ "languages": "Commun plus trois langues",
+ "traits": "**Connaissances du campus.** Pendant qu'il est à Strixhaven, le guide ne peut pas se perdre par des moyens magiques ou non magiques. Le guide a également avantage sur tests de caractéristique fait pour localiser des créatures ou des objets à Strixhaven.\n**Discours unique.** Quand le guide parle, toute créature qui connaît au moins une langue et peut entendre le guide comprend ce qu'il dit.\n**Nature inhabituelle.** Le guide n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le guide fait deux attaques de Slam.\n**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts contondants.\n**Souris et onde.** Chaque créature du choix du guide qui se trouve à l'intérieur de 9 m du guide doit réussir sur un DD 11 jet de sauvegarde de Sagesse ou être magiquement charmé par le guide pendant 1 heure.\nUne cible charmé doit se diriger vers le guide, en essayant d'obtenir à l'intérieur de 1,50 m du guide. La cible ne se déplace pas dans un sol manifestement dangereux, comme un feu ou une fosse. Chaque fois que la cible charmé prend des dégâts, elle peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès.\nUne cible qui économise avec succès est immunisée contre la capacité de sourire et d'onde de tout guide pendant les 24 prochaines heures.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3f46f9a8c5_monstre-guide-du-campus-strixhaven.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Guide du campus Strixhaven",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4",
+ "skills": "Perspicacité +3, Persuasion +3",
+ "immunities": "poison",
+ "conditionImmunities": "aveuglé, assourdi, épuisement, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Besoin d'instructions.** Le guide prend les mesures d'aide."
+}

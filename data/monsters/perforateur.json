@@ -1,0 +1,39 @@
+{
+ "id": "perforateur",
+ "name": "Perforateur",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non-aligné",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 22,
+ "hpFormula": "3d8+9",
+ "vitesse": "1,50 m, escalade 1,50 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 13,
+  "CON": 16,
+  "INT": 1,
+  "SAG": 7,
+  "CHA": 3
+ },
+ "skills": "Discrétion +5",
+ "senses": "vision aveugle 9 m, vision dans le noir 18 m, Perception passive 8",
+ "languages": "—",
+ "traits": "**Faux-semblant.** Tant que le perforateur reste immobile au plafond, il est impossible de le différencier d'une stalactite ordinaire.\n**Pattes d'araignée.** Le perforateur peut escalader des surfaces difficiles et même évoluer la tête en bas au plafond sans faire de test de caractéristique.",
+ "actionsText": "**Chute.** *Attaque d'arme au corps à corps :* +3 pour toucher, une créature située directement sous lui. *Touché :* 3 (1d6) dégâts perforants par tranche de 3 mètres de chute jusqu'à un maximum de 21 (6d6). *Raté :* si le perforateur rate sa cible, il subit la moitié des dégâts normalement associés à la distance sur laquelle il a chu.",
+ "portrait": "/data/images/314fb38261_monstre-perforateur.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 251 · image : Manuel des monstres p. 250",
+ "attacks": [
+  {
+   "name": "Chute",
+   "bonus": 3,
+   "damage": "1d6",
+   "type": "perforant"
+  }
+ ]
+}

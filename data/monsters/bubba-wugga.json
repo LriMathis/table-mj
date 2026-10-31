@@ -1,0 +1,43 @@
+{
+ "id": "bubba-wugga",
+ "name": "Bubba Wugga",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 11,
+ "hp": 68,
+ "hpFormula": "8d10+24",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "commun, elfique",
+ "traits": "",
+ "actionsText": "**Grand club.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts contondants.\n**Javelin.** Jet d'attaque au corps à corps ou à distance : +6, allonge 1,50 m ou portée 9/36 m. Touché : 11 (2d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Javelin",
+   "bonus": 6,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3032b8396f_monstre-bubba-wugga.webp",
+ "notes": "",
+ "source": "Dragon Delves: Baker's Doesn't (5e.tools, traduction automatique)"
+}

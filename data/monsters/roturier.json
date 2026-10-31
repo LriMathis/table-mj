@@ -1,0 +1,37 @@
+{
+ "id": "roturier",
+ "name": "Roturier",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne ou Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 4,
+ "hpFormula": "1d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 10,
+  "CON": 10,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 10
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun",
+ "traits": "**Formation.** Le roturier possède la maîtrise d’une compétence au choix du MJ et a l’Avantage chaque fois qu’il effectue un test de caractéristique s’appuyant sur cette compétence.",
+ "actionsText": "**Gourdin.** Corps à corps : +2, allonge 1,50 m. Touché : 2 (1d4) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Gourdin",
+   "bonus": 2,
+   "damage": "1d4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0ee4d94e82_monstre-roturier.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
+}

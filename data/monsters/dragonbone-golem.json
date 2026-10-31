@@ -1,0 +1,46 @@
+{
+ "id": "dragonbone-golem",
+ "name": "Dragonbone Golem",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "11",
+ "xp": 7200,
+ "ca": 17,
+ "hp": 161,
+ "hpFormula": "19d10+57",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 17,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend draconique et les langues de son créateur mais ne peut pas parler",
+ "traits": "**Peur Aura.** Chaque créature du choix du golem qui commence son tour à l'intérieur de 6 m du golem doit faire un DD 15 jet de sauvegarde de Sagesse à moins que le golem soit neutralisé. Sur une sauvegarde ratée, la créature est effrayé jusqu'au début de son prochain tour. Sur un salut réussi, la créature est à l'abri de la peur de ce golem Aura pendant les 24 prochaines heures.\n**Résistance magique.** Le golem a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** Le golem n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Multiattaques.** Le golem fait une attaque Pinion et deux attaques Rend.\n**Pignon.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants. Si la cible est une créature moyenne ou plus petite, elle est épinglée sous le pignon osseux et entravé. Le golem a deux pignons, chacun pouvant retenir une cible. Si une créature est entravé par l'un des pinions, le golem ne peut pas attaquer avec elle. Toute créature entravé par un pignon peut se libérer au début de son tour avec un DD 17 test de Force (Athlétisme) réussi.\n**Rend.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants plus 5 (1d10) dégâts nécrotiques.\n**Respiration pétrifiante (Recharge 5-6).** Le golem émet un cône 18 m de gaz pétrifiant de sa bouche. Chaque créature dans cette zone doit réussir sur un DD 15 jet de sauvegarde de Constitution ou prendre 35 (10d6) dégâts de poison et être entravé alors qu'elle commence à tourner en pierre. La cible entravé doit répéter la jet de sauvegarde à la fin de son prochain tour. Sur une sauvegarde réussie, l'effet se termine sur la cible. Lors d'une sauvegarde ratée, la cible est pétrifié.",
+ "attacks": [
+  {
+   "name": "Pignon",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Rend",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/1e92c30eab_monstre-dragonbone-golem.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "yestabrod",
+ "name": "Yestabrod",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 75,
+ "hpFormula": "10d10+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 13,
+  "SAG": 15,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "abyssal, télépathie 18 m",
+ "traits": "**Résistance légendaire (1/jour).** Si Yestabrod échoue un jet de sauvegarde, il peut choisir de réussir à la place.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 8 (3d4 + 1) dégâts contondants plus 7 (3d4) dégâts de poison.\n**Spores caustiques (1/jour).** Yestabrod libère des spores dans un cône 9 m. Chaque créature dans cette zone doit réussir sur un DD 12 jet de sauvegarde de Dextérité ou prendre 1d6 dégâts d'acide au début de chacun des tours d'Yestabrod. Une créature peut répéter le jet de sauvegarde à la fin de chaque tour, mettant fin à l'effet sur elle-même sur un succès.\n**Spores d'infestation (1/jour).** Yestabrod libère des spores qui éclatent dans un nuage qui remplit une sphère 3 m -radius centrée sur elle, et le nuage s'attarde pendant 1 minute. Toute créature de chair et de sang dans le nuage quand il apparaît, ou qui l'entre plus tard, doit faire un DD 12 jet de sauvegarde de Constitution. Sur une sauvegarde réussie, la créature ne peut pas être infectée par ces spores pendant 24 heures. Sur une sauvegarde ratée, la créature est infectée par une maladie appelée spores de Zuggtmoy et gagne également une forme aléatoire de folie indéfinie (déterminée par rouler sur la folie de Zuggtmoy table à l'appendice D) qui dure jusqu'à ce que la créature soit guérie de maladie ou meurt. Alors qu'elle est infectée de cette façon, la créature ne peut pas être réinfectée, et elle doit répéter le jet de sauvegarde à la fin de toutes les 24 heures, mettant fin à l'infection sur un succès. En cas d'échec, le corps de la créature infectée est lentement repris par la croissance fongique, et après trois de ces arrêts ratés, la créature meurt et est réanimée comme servante de spores si c'est un type de créature qui peut être (voir l'entrée \"Myconides\" dans le Monster Manual).",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 3,
+   "damage": "3d4+1",
+   "type": "contondant + poison"
+  }
+ ],
+ "portrait": "/data/images/1d98adf7d5_monstre-yestabrod.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "legendary": "**Actions légendaires (2/round).** Aussitôt après le tour d'une autre créature, yestabrod peut entreprendre l'une des actions ci-après.\n**Corpse Burst.** Gore, abats, et l'acide éclatent d'un cadavre dans 6 m d'Yestabrod. Les créatures dans 3 m du corps doivent réussir sur un DD 12 jet de sauvegarde de Dextérité ou prendre 7 (2d6) dégâts d'acide.\n**Absorption des muscles.** Yestabrod absorbe la putrescence d'un cadavre à l'intérieur de 1,50 m de celui-ci, récupérant 1d8 + 2 points de vie"
+}

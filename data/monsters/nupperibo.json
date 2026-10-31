@@ -1,0 +1,42 @@
+{
+ "id": "nupperibo",
+ "name": "Nupperibo",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 13,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 11,
+  "CON": 13,
+  "INT": 3,
+  "SAG": 8,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 6 m (aveugle au-delà de ce rayon), Perception passive 11",
+ "languages": "comprend Infernal mais ne peut pas parler",
+ "traits": "**Nuage de vermine.** Toute créature, autre qu'un diable, qui commence son tour dans 6 m d'un ou plusieurs nupperibos doit réussir sur un DD 11 jet de sauvegarde de Constitution ou prendre 5 (2d4) dégâts d'acide. Une créature dans les zones de deux ou plusieurs nupperibos rend le jet de sauvegarde avec un désavantage.\n**Traqueur motorisé.** Dans les Neuf Enfers, le nuppéribo peut suivre sans faille toute créature qui a pris des dégâts du Nuage de Vermin de nuppéribo dans les 24 heures précédentes.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e09b7c3d83_monstre-nupperibo.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +1",
+ "resistances": "acide, froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "aveuglé, charmé, effrayé, empoisonné"
+}

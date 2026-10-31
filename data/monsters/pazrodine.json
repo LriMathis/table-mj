@@ -1,0 +1,54 @@
+{
+ "id": "pazrodine",
+ "name": "Pazrodine",
+ "type": "Dragon (Pierre de lune)",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "loyal neutre",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 20,
+ "hp": 330,
+ "hpFormula": "20d20+120",
+ "vitesse": "12 m, vol 24 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 18,
+  "CON": 23,
+  "INT": 20,
+  "SAG": 22,
+  "CHA": 26
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 23",
+ "languages": "tous, télépathie 36 m",
+ "traits": "**Gardien du marché.** Pazrodine peut sentir quand un objet est volé à Seelie Market. Elle connaît la distance et la direction des objets volés, comme si par le sort Localisation d'objet.\n**Résistance légendaire (3/jour).** Si Pazrodine échoue à un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** Pazrodine fait une attaque Bite et deux attaques Claw.\n**Morceau.** Attaque d'arme au corps à corps : +13 au toucher, allonge 4,50 m, une cible. Touché : 17 (2d10 + 6) dégâts perforants plus 11 (2d10) dégâts radiants.\n**Griffe.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 13 (2d6 + 6) dégâts tranchants.\n**Queue.** Attaque d'arme au corps à corps : +13 au toucher, allonge 6 m, une cible. Touché : 10 (1d8 + 6) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 21 jet de sauvegarde de Force ou avoir l'état à terre.\n**Arme respiratoire (Recharge 5-6).** Pazrodine utilise l'une des armes respiratoires suivantes :\n- **Respiration de rêve** La pazrodine expire la brume dans un cône 27 m. Chaque créature dans cette zone doit réussir sur un DD 21 jet de sauvegarde de Constitution ou avoir l'état inconscient pendant 10 minutes. Cet effet se termine pour une créature si la créature prend des dégâts ou si quelqu'un utilise une action pour la réveiller.\n- **Respiration au clair de lune** Pazrodine exhale un faisceau de clair de lune dans une ligne 36 m qui est large de 3 m. Chaque créature dans cette zone doit faire un DD 21 jet de sauvegarde de Dextérité, en prenant 60 (11d10) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Pazrodine lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 23) :\n- À volonté : Lueurs féeriques\n- 1/jour chacun : Soins de groupe, Retour à la vie\n- 2/jour chacun : Apaisement des émotions, Dissipation de la magie, Invisibilité",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 13,
+   "damage": "2d10+6",
+   "type": "perforant + radiant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 13,
+   "damage": "2d6+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 13,
+   "damage": "1d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/68ef8bcffa_monstre-pazrodine.webp",
+ "notes": "",
+ "source": "The Book of Many Things (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +12, SAG +13, CHA +15",
+ "skills": "Perception +13, Persuasion +15, Discrétion +11",
+ "conditionImmunities": "charmé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, pazrodine peut entreprendre l'une des actions ci-après.\n**Queue.** Pazrodine fait une attaque Tail.\n**Lancer un sort (coûts 2 actions).** Pazrodine utilise la projection orthographique."
+}

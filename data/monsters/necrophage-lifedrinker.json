@@ -1,0 +1,48 @@
+{
+ "id": "necrophage-lifedrinker",
+ "name": "Wight Lifedrinker",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 82,
+ "hpFormula": "11d8+33",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "Commun plus une autre langue",
+ "traits": "**Sensibilité à la lumière du soleil.** En plein soleil, le wight a un désavantage sur tests de caractéristique et jets d'attaque.",
+ "actionsText": "**Multiattaques.** Le wight fait deux attaques, en utilisant nécrotique Sword ou nécrotique Bow dans n'importe quelle combinaison. Il peut remplacer une attaque par une utilisation de Drink Life.\n**Épée nécrotique.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 6 (1d8 + 2) dégâts tranchants plus 4 (1d8) dégâts nécrotiques.\n**nécrotique Bow.** Jet d'attaque à distance : +4, portée 45/180 m. Touché : 6 (1d8 + 2) dégâts perforants plus 4 (1d8) dégâts nécrotiques.\n**Boissons Vie (Recharge 5-6).** Jet de sauvegarde de Constitution : DD 13, une créature dans 1,50 m. Échec : 6 (1d8 + 2) dégâts nécrotiques, et le wight retrouve un nombre de points de vie égal à dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Épée nécrotique",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "nécrotique Bow",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/e32e7d6569_monstre-necrophage-lifedrinker.webp",
+ "notes": "",
+ "source": "Heroes of the Borderlands (5e.tools, traduction automatique)",
+ "aka": "Nécrophage Lifedrinker",
+ "skills": "Perception +3, Discrétion +4",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné"
+}

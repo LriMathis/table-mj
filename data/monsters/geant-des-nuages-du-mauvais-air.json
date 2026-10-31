@@ -1,0 +1,47 @@
+{
+ "id": "geant-des-nuages-du-mauvais-air",
+ "name": "Cloud Giant of Evil Air",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 14,
+ "hp": 200,
+ "hpFormula": "16d12+96",
+ "vitesse": "12 m, vol 12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 22,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 19
+ },
+ "senses": "Perception passive 17",
+ "languages": "aérien, commun, géant",
+ "traits": "**Volée.** Le géant ne provoque pas une attaque d'opportunité quand il vole hors de la portée d'un ennemi.",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques Scimitar et une attaque Storm Boomerang.\n**Scimitar.** Attaque d'arme au corps à corps : +12 au toucher, allonge 3 m, une cible. Touché : 18 (3d6 + 8) dégâts tranchants.\n**Tempête Boomerang.** Attaque d'arme à distance : +12 au toucher, portée 18/72 m., une cible. Touché : 15 (3d4 + 8) dégâts contondants plus 7 (2d6) dégâts de tonnerre, et la cible doit réussir sur un DD 16 jet de sauvegarde de Constitution ou avoir l'état étourdi jusqu'à la fin de son prochain tour. Touché ou raté : Le boomerang revient magiquement à la main du géant immédiatement après l'attaque.\n**Détection orthographique.** Le géant lance l'un des sorts suivants, ne nécessitant pas de composants matériels et utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Détection de la magie, Nappe de brouillard, Lumière\n- 1/jour : Forme gazeuse\n- 2/jour : Télékinésie",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 12,
+   "damage": "3d6+8",
+   "type": "tranchant"
+  },
+  {
+   "name": "Tempête Boomerang",
+   "bonus": 12,
+   "damage": "3d4+8",
+   "type": "contondant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/92ea65fff5_monstre-geant-des-nuages-du-mauvais-air.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Géant des nuages du mauvais air",
+ "caNote": "armure naturelle",
+ "saves": "CON +10, SAG +7, CHA +8",
+ "skills": "Perspicacité +7, Perception +7, Discrétion +4"
+}

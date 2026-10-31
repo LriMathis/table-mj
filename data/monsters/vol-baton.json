@@ -1,0 +1,42 @@
+{
+ "id": "vol-baton",
+ "name": "Flying Staff",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 17,
+ "hp": 17,
+ "hpFormula": "5d6",
+ "vitesse": "0 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 5,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 7",
+ "languages": "—",
+ "traits": "**Susceptibilité antimagique.** Le personnel est neutralisé alors que dans la zone d'un Champ antimagie. Si elle est ciblée par Dissipation de la magie, le personnel doit réussir sur un jet de sauvegarde de Constitution contre DD de sauvegarde des sorts du lanceur ou tomber inconscient pendant 1 minute.\n**Fausse apparence.** Bien que le personnel reste immobile et ne vole pas, il est indistinct d'un personnel normal.",
+ "actionsText": "**Couteau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Couteau",
+   "bonus": 3,
+   "damage": "1d6+1",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/60ab0c437d_monstre-vol-baton.webp",
+ "notes": "",
+ "source": "Waterdeep: Dragon Heist (5e.tools, traduction automatique)",
+ "aka": "Vol bâton",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, paralysé, pétrifié, empoisonné"
+}

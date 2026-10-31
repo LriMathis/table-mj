@@ -1,0 +1,41 @@
+{
+ "id": "sneak",
+ "name": "Sneak",
+ "type": "Humanoïde",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "",
+ "cr": "0",
+ "xp": 10,
+ "ca": 13,
+ "hp": 9,
+ "hpFormula": "2d6+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 9
+ },
+ "senses": "Perception passive 11",
+ "languages": "une langue au choix (généralement le commun)",
+ "traits": "",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +3 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/bd02f565fe_monstre-sneak.webp",
+ "notes": "",
+ "source": "Ravenloft: The House of Lament (5e.tools, traduction automatique)",
+ "caNote": "Bouclier",
+ "saves": "DEX +3",
+ "skills": "Escamotage +3, Discrétion +3",
+ "bonusActions": "**Désengagement.** Vous prenez l'action Se désengager."
+}

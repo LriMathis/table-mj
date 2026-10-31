@@ -1,0 +1,38 @@
+{
+ "id": "stirge",
+ "name": "Stirge",
+ "type": "Monstruosité",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "non alignée",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 13,
+ "hp": 5,
+ "hpFormula": "2d4",
+ "vitesse": "3 m, vol 12 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 2,
+  "SAG": 8,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Trompe.** Corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts perforants, et la strige se fixe à la cible. Tant qu’elle est fixée à la cible, la strige ne peut pas effectuer d’attaques de Trompe et la cible subit 5 (2d4) dégâts nécrotiques au début de chaque tour de la strige.\nLa strige peut se détacher de la cible en y consacrant 1,50 m de déplacement. La cible ou une créature dans un rayon de 1,50 m d’elle peut décrocher la strige au prix d’une action.",
+ "attacks": [
+  {
+   "name": "Trompe",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/549005bfc3_monstre-stirge.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 276",
+ "aka": "Strige (2024)"
+}

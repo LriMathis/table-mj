@@ -1,0 +1,47 @@
+{
+ "id": "shadowghast",
+ "name": "Shadowghast",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 49,
+ "hpFormula": "9d8+9",
+ "vitesse": "10,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 20,
+  "CON": 12,
+  "INT": 12,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Poignée.** Toute créature qui commence son tour à l'intérieur de 1,50 m du shadowghast doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné jusqu'au début de son prochain tour. Sur un jet de sauvegarde réussi, la créature est à l'abri de ce stench pendant 24 heures.\n**Vols d'ombre.** Pendant que dans la lumière ou l'obscurité, l'ombreghast peut prendre l'action Se cacher en action bonus.",
+ "actionsText": "**Multiattaques.** L'ombre fait deux attaques : une avec sa morsure et une avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une créature. Touché : 11 (2d8 + 2) dégâts tranchants plus 5 (1d10) dégâts nécrotiques.\n**Griffes.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants. Si la cible est une créature autre qu'un mort-vivant, elle doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être paralysé pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d8+2",
+   "type": "tranchant + nécrotique"
+  },
+  {
+   "name": "Griffes",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a8706e5b7e_monstre-shadowghast.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +8",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, empoisonné"
+}

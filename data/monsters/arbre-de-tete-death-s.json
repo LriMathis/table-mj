@@ -1,0 +1,42 @@
+{
+ "id": "arbre-de-tete-death-s",
+ "name": "Death's Head Tree",
+ "type": "Plante",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 95,
+ "hpFormula": "10d12+30",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 10,
+  "CHA": 13
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Succursales surplombantes.** Les alliés de l'arbre peuvent volontairement mettre fin à leurs mouvements dans l'espace de l'arbre. Les alliés dans l'espace de l'arbre ont la demi-couverture.\n**Récroissance impie.** Si l'arbre meurt, 2d6 Death's Head Trees s'installe autour du même endroit en 365 jours, à moins que l'arbre ne soit tué par une créature sous l'effet d'un sort Bénédiction à l'aide d'une arme qui traite dégâts tranchants.",
+ "actionsText": "**Multiattaques.** L'arbre fait deux attaques de Chelem.\n**Clamer.** Jet d'attaque au corps à corps : +6, allonge 3 m. Touché : 15 (2d10 + 4) dégâts contondants.\n**Tête d'explosion.** Jet de sauvegarde de Dextérité : DD 14, chaque créature dans un 3 m -radius Sphere centré sur un point que l'arbre peut voir dans 36 m. Échec : 10 (3d6) dégâts nécrotiques, et la créature a l'état empoisonné jusqu'au début du prochain tour de l'arbre. Réussite : Demi-dégâts seulement.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 6,
+   "damage": "2d10+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/ee3a4e89f3_monstre-arbre-de-tete-death-s.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Arbre de tête Death's",
+ "saves": "FOR +6",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, empoisonné",
+ "bonusActions": "**Fruits de la tête.** Chaque allié Undead dans l'espace de l'arbre peut immédiatement prendre une réaction pour gagner 5 points de vie temporaires."
+}

@@ -1,0 +1,47 @@
+{
+ "id": "grotesque-tentacle",
+ "name": "Grotesque Tentacle",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 127,
+ "hpFormula": "15d10+45",
+ "vitesse": "0 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 18,
+  "CON": 16,
+  "INT": 16,
+  "SAG": 19,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 14",
+ "languages": "céleste, commun",
+ "traits": "**Réjuvenance.** Si elle meurt, le tentacule revient à la vie en 1d6 jours et retrouve tout son points de vie. Seul un sort Souhait peut empêcher ce caractère de fonctionner.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une créature. Touché : 8 (1d8 + 4) dégâts perforants, et la cible doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 45 (10d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Craquage poison.** Attaque d'arme à distance : +8 au toucher, portée 4,50/9 m., une créature. Touché : La cible doit faire un DD 15 jet de sauvegarde de Constitution, en prenant 45 (10d8) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "1d8+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Craquage poison",
+   "bonus": 8,
+   "damage": "10d8",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/a99188349a_monstre-grotesque-tentacle.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +8, CON +7, INT +7, SAG +8, CHA +8",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, empoisonné"
+}

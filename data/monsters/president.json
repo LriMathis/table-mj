@@ -1,0 +1,49 @@
+{
+ "id": "president",
+ "name": "Vladimir Horngaard",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 17,
+ "hp": 192,
+ "hpFormula": "16d8+64",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, draconique",
+ "traits": "**Régénération.** Vladimir retrouve 10 points de vie au début de son tour. S'il prend feu ou dégâts radiants, ce trait ne fonctionne pas au début de son prochain tour. Le corps de Vladimir n'est détruit que s'il commence son tour avec 0 points de vie et ne se régénère pas.\n**Réjuvenance.** Quand le corps de Vladimir est détruit, son âme s'attarde. Après 24 heures, l'âme habite et anime un autre cadavre sur le même plan d'existence et retrouve tout son points de vie. Alors que l'âme est sans bodiles, un sort Souhait peut être utilisé pour forcer l'âme à aller à l'au-delà et non revenir.\n**Matériel spécial.** Vladimir manie un +2 grand mot avec une pointe sculptée pour ressembler à des ailes de dragon argenté et un pommel en forme de tête de dragon argenté griffant un opale noir entre ses dents.\n**Tourner l'immunité.** Vladimir est à l'abri des effets qui ne deviennent pas morts.\n**Tracker vengeur.** Vladimir connaît la distance et la direction de Strahd, même si Strahd et Vladimir sont sur différents plans d'existence. Si Strahd est détruit, Vladimir le sait.",
+ "actionsText": "**Multiattaques.** Vladimir fait deux coups de poing ou deux coups de pied avec son +2 Greatsword.\n**Fist.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants. Strahd, la cible de la vengeance assermentée de Vladimir, prend un 14 (4d6) dégâts contondants supplémentaire. Au lieu d'infliger des dégâts, Vladimir peut faire face à la cible (évasion DD 14) à condition que la cible soit grande ou plus petite.\n**Grandes paroles +2.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 20 (4d6 + 6) dégâts tranchants. Contre Strahd, Vladimir propose une 14 (4d6) dégâts tranchants supplémentaire avec cette arme.\n**Glare vengeur.** Vladimir peut cibler Strahd dans 9 m à condition qu'il puisse voir Strahd. Strahd doit faire un DD 15 jet de sauvegarde de Sagesse. Sur un échec, Strahd est paralysé jusqu'à ce que Vladimir lui inflige des dégâts, ou jusqu'à la fin du prochain tour de Vladimir. Quand la paralysie se termine, Strahd est effrayé de Vladimir pendant 1 minute. Strahd peut répéter le jet de sauvegarde à la fin de chacun de ses tours, avec un désavantage s'il peut voir Vladimir, se terminant l'état effrayé sur lui-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Grandes paroles +2",
+   "bonus": 9,
+   "damage": "4d6+6",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a27815365a_monstre-president.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Président",
+ "caNote": "Armure demi-plate",
+ "saves": "FOR +7, CON +7, SAG +6, CHA +7",
+ "resistances": "nécrotique, psychique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné, étourdi"
+}

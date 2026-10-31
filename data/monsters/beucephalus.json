@@ -1,0 +1,39 @@
+{
+ "id": "beucephalus",
+ "name": "Beucephalus",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 13,
+ "hp": 104,
+ "hpFormula": "8d10+24",
+ "vitesse": "18 m, vol 27 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 10,
+  "SAG": 13,
+  "CHA": 15
+ },
+ "senses": "Perception passive 11",
+ "languages": "comprend l'abyssale, le commun et l'infernal, mais ne peut pas parler",
+ "traits": "**Confer feu Résistance.** Beucephalus peut accorder une résistance à dégâts de feu à n'importe qui.\n**Éclairage.** Beucephalus apporte une lumière lumineuse dans un rayon de 3 m et une lumière faible pour un 3 m supplémentaire.",
+ "actionsText": "**Des voyous.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants plus 7 (2d6) dégâts de feu.\n**Étheral Stride.** Beucephalus et jusqu'à trois créatures volontaires dans 1,50 m de celui-ci entrent magiquement dans l'avion éthéré de l'avion matériel, ou vice versa.",
+ "attacks": [
+  {
+   "name": "Des voyous",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "contondant + feu"
+  }
+ ],
+ "portrait": "/data/images/42a2319ab1_monstre-beucephalus.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "immunities": "feu"
+}

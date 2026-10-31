@@ -1,0 +1,43 @@
+{
+ "id": "y-demi",
+ "name": "Y'demi",
+ "type": "Humanoïde (humain, occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 127,
+ "hpFormula": "15d8+60",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 20,
+  "SAG": 12,
+  "CHA": 12
+ },
+ "senses": "Perception passive 11",
+ "languages": "Commun plus quatre langues",
+ "traits": "**Aegis sanguin.** Le CA d'Y'demi comprend son modificateur Constitution alors qu'elle ne porte pas d'armure ou d'un bouclier.\n**Masque Oriq.** Y'demi porte un masque Oriq. Tout en portant le masque, Y'demi ne peut être ciblé par aucune magie de divination ou perçu par des capteurs magiques, et elle ajoute son double bonus de maîtrise à tests de Charisme (Tromperie) (inclus ci-dessus).\n**Sanguine Sensée.** Alors qu'Y'demi n'est pas aveuglé, elle peut voir n'importe quelle créature qui n'est pas un mort-vivant ou un bâtiment en 18 m de lui-même, même à travers 3, 2 zones, l'invisibilité, ou tout autre phénomène qui empêcherait la vue.",
+ "actionsText": "**Multiattaques.** Y'demi fait deux attaques de sang.\n**Laisse de sang.** Attaque de sort au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 21 (3d10 + 5) dégâts nécrotiques. Si la cible est une créature, elle ne peut retrouver points de vie qu'au début du prochain tour d'Y'demi.\n**Bouillir de sang (Recharge 4-6).** Y'demi choisit un point dans 45 m de lui-même, et une sphère de rayon 6 m centrée sur ce point se remplit d'une explosion de brouillard rouge sang. Chaque créature du choix d'Y'demi qu'elle peut voir dans cette zone doit faire un DD 17 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 38 (7d10) dégâts nécrotiques et est neutralisé jusqu'à la fin de son prochain tour. Sur un succès, une créature prend la moitié de ces dégâts et n'est pas neutralisé. Une créature meurt si elle est réduite à 0 points de vie par ce dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Laisse de sang",
+   "bonus": 9,
+   "damage": "3d10+5",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/3430db1891_monstre-y-demi.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "caNote": "l'égide du sang",
+ "saves": "CON +8, INT +9, SAG +5, CHA +5",
+ "skills": "Tromperie +9, Médecine +5, Survie +5",
+ "resistances": "nécrotique",
+ "conditionImmunities": "épuisement",
+ "bonusActions": "**Tentacles Sanguine (1/jour).** Le sang dans le bassin de cuivre disparaît comme des tentacules de sang congelé remplissent un cube 3 m centré à un point sur le sol qu'Y'demi peut voir au sein de 4,50 m d'elle. L'effet dure 1 minute, pendant laquelle cette zone est 3. Toute créature entrant dans cette zone pour la première fois sur un tour ou en commençant son tour doit réussir sur un DD 13 jet de sauvegarde de Dextérité ou être entravé par les tentacules. Une créature qui commence son tour entravé par les tentacules prend 10 (3d6) dégâts contondants. Une créature entravé par les tentacules peut utiliser son action pour faire soit un DD 13 test de Force (Athlétisme) ou un DD 13 test de Dextérité (Acrobaties), se terminant l'état entravé sur elle-même sur un succès."
+}

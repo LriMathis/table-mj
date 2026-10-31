@@ -1,0 +1,40 @@
+{
+ "id": "dragonnet-de-cuivre",
+ "name": "Dragonnet de cuivre",
+ "type": "Dragon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique bon",
+ "cr": "1",
+ "xp": 200,
+ "ca": 16,
+ "hp": 22,
+ "hpFormula": "4d8+4",
+ "vitesse": "9 m, escalade 9 m, vol 18 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 12,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 11,
+  "CHA": 13
+ },
+ "saves": "DEX +3, SAG +2",
+ "skills": "Discrétion +3, Perception +4",
+ "immunities": "acide",
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 14",
+ "languages": "draconique",
+ "traits": "",
+ "actionsText": "**Saignée.** Corps à corps : +4, allonge 1,50 m. Touché : 7 (1d10 + 2) dégâts tranchants.\n**Souffle d'acide (recharge 5–6).** JS Dextérité : DD 11, chaque créature dans une Ligne de 6 m de long sur 1,50 m de large. Échec : 18 (4d8) dégâts d'acide. Réussite : demi-dégâts.\n**Souffle ralentissant.** JS Constitution : DD 11, chaque créature dans un Cône de 4,50 m. Échec : la cible voit sa Vitesse réduite de moitié, ne peut pas jouer de Réaction et peut entreprendre une action ou une action Bonus à son tour, mais pas les deux. L'effet persiste jusqu'à la fin de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/c99eae3799_monstre-dragonnet-de-cuivre.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 108"
+}

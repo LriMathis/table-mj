@@ -1,0 +1,41 @@
+{
+ "id": "occultiste-du-fiend",
+ "name": "Warlock of the Fiend",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 13,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 12,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "deux langues (habituellement l'abyssale ou l'infernale)",
+ "traits": "**La chance de Dark One (recharge après un repos court ou long).** Lorsque le warlock fait un test de caractéristique ou jet de sauvegarde, il peut ajouter un d10 au rouleau. Il peut le faire après que le rouleau est fait, mais avant que l'un des effets du rouleau se produise.",
+ "actionsText": "**Multiattaques.** Le sorcier fait trois attaques Scimitar.\n**Scimitar.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants plus 14 (4d6) dégâts de feu.\n**Feu d'enfer.** La flamme verte explose dans une sphère 3 m -radius centrée sur un point situé à l'intérieur de 36 m du sorcier. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 16 (3d10) dégâts de feu et 11 (2d10) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Le warlock lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Modification d'apparence, Armure de mage (autoseulement), Main de mage, Illusion mineure, Prestidigitation\n- 1/jour chacun : Bannissement, Changement de plan, Suggestion",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/92afcb3052_monstre-occultiste-du-fiend.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Occultiste du Fiend",
+ "saves": "SAG +4, CHA +7",
+ "skills": "Arcanes +4, Tromperie +7, Persuasion +7, Religion +4",
+ "reactions": "**Répudiation fiende (3/jour).** En réponse à être endommagé par une créature visible au sein de 18 m, le sorcier force cette créature à faire un DD 15 jet de sauvegarde de Constitution, en prenant 22 (4d10) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite."
+}

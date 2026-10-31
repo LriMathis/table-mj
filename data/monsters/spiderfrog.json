@@ -1,0 +1,38 @@
+{
+ "id": "spiderfrog",
+ "name": "Spiderfrog",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique collant",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "2d8+4",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 14,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 4
+ },
+ "senses": "Vision aveugle 3 m, Vision dans le noir 18 m, Perception passive 13",
+ "languages": "—",
+ "traits": "**Amphibie.** La grenouille-araignée peut respirer l'air et l'eau.\n**Escalade des araignées.** La grenouille-araignée peut monter des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Leap debout.** Le long saut de Spiderfrog est jusqu'à 6 m et son saut en hauteur est jusqu'à 3 m, avec ou sans démarrage.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +2 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d6 + 1) dégâts perforants. La cible est agrippé (évasion DD 11). Jusqu'à ce que ce grappin se termine, la cible est entravé, et la grenouille araignée ne peut pas mordre une autre cible.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 2,
+   "damage": "1d6+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/455a31bd55_monstre-spiderfrog.webp",
+ "notes": "",
+ "source": "Muk's Guide to Everything He Learned From Tasha (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +7"
+}

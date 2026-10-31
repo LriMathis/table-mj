@@ -1,0 +1,46 @@
+{
+ "id": "koh-tam",
+ "name": "Koh Tam",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 143,
+ "hpFormula": "22d8+44",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 19,
+  "SAG": 20,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "abyssal, céleste, commun, infernal",
+ "traits": "",
+ "actionsText": "**Touche d'Arbiter.** Attaque de sort au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts radiants.\n**Jugement.** Koh Tam juge une créature au sein de 18 m de lui. La cible doit réussir sur un DD 17 jet de sauvegarde de Sagesse ou prendre 50 (10d8 + 5) dégâts radiants. Si la cible avait moins de points de vie que leur maximum avant cette attaque, la créature prend 70 (10d12 + 5) dégâts radiants.\n**Lumière d'Arbiter (Recharge 4-6).** Attaque de sort à distance : +9 au toucher, portée 36 m, une cible. Touché : 70 (10d12 + 5) dégâts radiants, et la cible a l'état aveuglé jusqu'au début du prochain tour de Koh Tam.\n**Détection orthographique.** Koh Tam lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 17) :\n- À volonté : Simulacre de vie, Préservation des morts, Restauration partielle, Protection contre le mal et le bien, Communication avec les morts\n- 1/jour chacun : Coquille antivie, Flétrissement, Protection contre la mort, Dissipation du mal et du bien, Restauration supérieure, Rappel à la vie, Régénération, Retour à la vie, Arme spirituelle",
+ "attacks": [
+  {
+   "name": "Touche d'Arbiter",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "radiant"
+  },
+  {
+   "name": "Lumière d'Arbiter 4",
+   "bonus": 9,
+   "damage": "10d12+5",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/15d1192eb5_monstre-koh-tam.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "Breastplate, Bouclier",
+ "saves": "SAG +9, CHA +6",
+ "skills": "Arcanes +8, Histoire +8, Perspicacité +9, Religion +8"
+}

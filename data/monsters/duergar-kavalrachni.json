@@ -1,0 +1,45 @@
+{
+ "id": "duergar-kavalrachni",
+ "name": "Duergar Kavalrachni",
+ "type": "Humanoïde (nain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 16,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 11,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Formation à la cavalerie.** Lorsque le duergar frappe une cible avec une attaque de melee alors qu'elle est montée, la monture peut utiliser sa réaction pour faire une attaque de melee contre la même cible.\n**Résilience des duers.** Le duergar a un avantage sur jet de sauvegarde contre les sorts et les conditions charmé, paralysé et empoisonné.\n**Sensibilité à la lumière du soleil.** En plein soleil, le duergar présente un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Multiattaques.** Le duergar fait deux attaques de War Pick.\n**Choix de guerre.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts perforants plus 5 (2d4) dégâts de poison.\n**Grosse arbalète.** Attaque d'arme à distance : +2 au toucher, portée 30/120 m., une cible. Touché : 5 (1d10) dégâts perforants.\n**Invisibilité partagée (Recharges après un repos court ou long).** Le duergar tourne magiquement invisible jusqu'à 1 heure ou jusqu'à ce qu'il attaque, il force une créature à faire un jet de sauvegarde, ou son concentration est cassé (comme si concentrating sur un sort). Tout équipement que le duergar porte ou porte est invisible. Pendant que le duergar invisible est monté, le montage est également invisible. L'invisibilité se termine tôt sur la montagne immédiatement après qu'elle attaque.",
+ "attacks": [
+  {
+   "name": "Choix de guerre",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 2,
+   "damage": "1d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/11ece8196a_monstre-duergar-kavalrachni.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "Courrier d'échelle, Bouclier",
+ "resistances": "poison"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "ogre-carreau-launcher",
+ "name": "Ogre Bolt Launcher",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 12,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Fist.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d4 + 4) dégâts contondants.\n**Lanceur de boulons.** Attaque d'arme à distance : +3 au toucher, portée 36/144 m., une cible. Touché : 17 (3d10 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Lanceur de boulons",
+   "bonus": 3,
+   "damage": "3d10+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/1d4dc09e12_monstre-ogre-carreau-launcher.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Ogre carreau Launcher",
+ "caNote": "Cache l'armure"
+}

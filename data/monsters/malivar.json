@@ -1,0 +1,39 @@
+{
+ "id": "malivar",
+ "name": "Malivar",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 17
+ },
+ "senses": "Perception passive 11",
+ "languages": "commun, draconique, igné, infernal",
+ "traits": "**Transport bénin (recharge après Malivar jette un sort de conjuration de de niveau 1 ou supérieur).** En tant qu'action bonus, Malivar téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir.\nS'il choisit plutôt un espace à portée qui est occupé par une petite ou moyenne créature volontaire, ils téléportent tous les deux, échangeant des lieux.\n**Détection orthographique.** Malivar est un épeautre de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Aspersion d'acide, Main de mage, Bouffée de poison, Prestidigitation\n- Niveau 1 (4 emplacements) : Armure de mage, Projectile magique, Serviteur invisible *\n- Niveau 2 (3 emplacements) : Nuée de dagues *, Foulée brumeuse *, Toile d'araignée *\n- Niveau 3 (3 emplacements) : Boule de feu, Foulée tonitruante *\n- Niveau 4 (3 emplacements) : Tentacules noirs d'Evard *, Peau de pierre\n- Niveau 5 (2 emplacements) : Cône de froid *, Invocation d'élémentaire *\n*Terme de conjuration de de niveau 1 ou plus",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/50fed82e41_monstre-malivar.webp",
+ "notes": "",
+ "source": "Adventures in the Forgotten Realms: In Scarlet Flames (5e.tools, traduction automatique)",
+ "saves": "INT +6, SAG +4",
+ "skills": "Arcanes +6, Histoire +6"
+}

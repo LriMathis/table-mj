@@ -1,0 +1,50 @@
+{
+ "id": "nyssa-otellion",
+ "name": "Nyssa Otellion",
+ "type": "Fiélon (diable, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "17",
+ "xp": 18000,
+ "ca": 19,
+ "hp": 202,
+ "hpFormula": "27d8+81",
+ "vitesse": "9 m, vol 15 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 22,
+  "SAG": 23,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "draconique, infernal, télépathie 36 m",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir de Nyssa.\n**Résistance magique.** Nyssa a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Nyssa fait trois attaques Bite ou foudre Strike.\n**Morceau.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 13 (2d10 + 2) dégâts perforants plus 14 (4d6) dégâts de foudre.\n**Grève de foudre.** Attaque de sort à distance : +12 au toucher, portée 36 m, une cible. Touché : 36 (8d8) dégâts de foudre.\n**Détection orthographique.** Nyssa lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 20) :\n- À volonté : Déguisement, Main de mage, Illusion mineure\n- 2/jour chacun : Charme-personne, Dissipation de la magie, Invisibilité supérieure, Mur de force",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 8,
+   "damage": "2d10+2",
+   "type": "perforant + foudre"
+  },
+  {
+   "name": "Grève de foudre",
+   "bonus": 12,
+   "damage": "8d8",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/542bacdcb0_monstre-nyssa-otellion.webp",
+ "notes": "",
+ "source": "Vecna: Eve of Ruin (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +12, SAG +12",
+ "skills": "Arcanes +12",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, foudre, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Téléportation.** Les téléports Nyssa, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir."
+}

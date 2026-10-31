@@ -1,0 +1,41 @@
+{
+ "id": "nuee-de-undead-snakes",
+ "name": "Swarm of Undead Snakes",
+ "type": "Nuée de taille très petite (Mort-vivant)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 14,
+ "hp": 36,
+ "hpFormula": "8d8",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 18,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 3 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un petit serpent. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.",
+ "actionsText": "**Morceaux.** Attaque d'arme au corps à corps : +6 au toucher, allonge 0 m, une créature dans l'espace de l'essaim. Touché : 7 (2d6) dégâts perforants, ou 3 (1d6) dégâts perforants si l'essaim a la moitié de son points de vie ou moins. La cible doit faire un DD 10 jet de sauvegarde de Constitution, en prenant 14 (4d6) dégâts de poison en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Morceaux",
+   "bonus": 6,
+   "damage": "2d6",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/febeeb8510_monstre-nuee-de-undead-snakes.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Nuée de Undead Snakes",
+ "resistances": "contondant, perforant, tranchant",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi, empoisonné"
+}

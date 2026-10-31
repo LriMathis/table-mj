@@ -1,0 +1,49 @@
+{
+ "id": "automne-eladrin",
+ "name": "Autumn Eladrin",
+ "type": "Fée (elfe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 19,
+ "hp": 165,
+ "hpFormula": "22d8+66",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 16,
+  "INT": 14,
+  "SAG": 17,
+  "CHA": 18
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 13",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Présence enchanteur.** Toute créature non éladrine qui commence son tour à l'intérieur de 18 m de l'éladrine doit faire un DD 16 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature devient charmé par l'éladrin pendant 1 minute. Sur un salut réussi, la créature devient immunisée contre toute Présence Enchantante d'Eladrin pendant 24 heures.\nChaque fois que l'éladrine inflige des dégâts à la créature charmé, la créature charmé peut répéter la jet de sauvegarde, mettant fin à l'effet sur elle-même sur un succès.\n**Résistance magique.** L'eladrin a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'eladrine fait deux attaques Longsword ou Longbow. Il peut remplacer une attaque par une utilisation de Spellcasting.\n**Mot long.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants, ou 6 (1d10 + 1) dégâts tranchants si utilisé avec deux mains, plus 22 (5d8) dégâts psychiques.\n**Longbow.** Attaque d'arme à distance : +7 au toucher, portée 45/180 m., une cible. Touché : 7 (1d8 + 3) dégâts perforants plus 22 (5d8) dégâts psychiques.\n**Détection orthographique.** L'eladrin lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 16) :\n- À volonté : Immobilisation de personne\n- 1/jour chacun : Restauration supérieure, Retour à la vie\n- 2/jour chacun : Soins (sous forme de sort de niveau 5), Restauration partielle",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 5,
+   "damage": "1d8+1",
+   "type": "tranchant + psychique"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 7,
+   "damage": "1d8+3",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/e0f3c86664_monstre-automne-eladrin.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Automne Eladrin",
+ "caNote": "armure naturelle",
+ "skills": "Perspicacité +7, Médecine +7",
+ "resistances": "psychique",
+ "bonusActions": "**Étape de Fey (Recharge 4-6).** Les téléports eladrins, ainsi que tout équipement qu'ils portent ou transportent, jusqu'à 9 m dans un espace inoccupé qu'ils peuvent voir.",
+ "reactions": "**Favoriser la paix.** Si une créature charmé par l'eladrin frappe avec un jet d'attaque alors qu'elle se trouve dans 18 m de l'eladrin, l'eladrin provoque magiquement l'attaque à manquer, à condition que l'eladrin puisse voir l'attaquant."
+}

@@ -1,0 +1,41 @@
+{
+ "id": "rats-corrompus-nuee-de",
+ "name": "Swarm of Corrupted Rats",
+ "type": "Nuée de taille très petite (Monstruosité)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 27,
+ "hpFormula": "6d8",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 2,
+  "SAG": 11,
+  "CHA": 4
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "—",
+ "traits": "**Burst de mort.** Le rat explose quand il meurt. Jet de sauvegarde de Constitution : DD 10, chaque créature dans une émanation 3 m provenant du rat. Échec : 2d4 dégâts d'acide. Réussite : Demi-dégâts.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un petit rat. L'essaim ne peut pas récupérer points de vie.",
+ "actionsText": "**Morceau.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 6 (2d4 + 2) dégâts perforants ou 1d4 + 2 dégâts perforants si l'essaim est Bloodé.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/cd7b688d85_monstre-rats-corrompus-nuee-de.webp",
+ "notes": "",
+ "source": "Stranger Things: Welcome to the Hellfire Club (5e.tools, traduction automatique)",
+ "aka": "Rats corrompus nuée de",
+ "saves": "DEX +4",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi"
+}

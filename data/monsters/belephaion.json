@@ -1,0 +1,47 @@
+{
+ "id": "belephaion",
+ "name": "Belephaion",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 18,
+ "hp": 152,
+ "hpFormula": "16d10+64",
+ "vitesse": "12 m, creusement 6 m, vol 24 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 10,
+  "CON": 19,
+  "INT": 14,
+  "SAG": 13,
+  "CHA": 17
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 19",
+ "languages": "commun, draconique",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Belephaion fait trois attaques : une avec sa morsure et deux avec ses griffes.\n**Morceau.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 16 (2d10 + 5) dégâts perforants plus 5 (1d10) dégâts de foudre.\n**Griffe.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 12 (2d6 + 5) dégâts tranchants.\n**foudre Respiration (Recharge 5-6).** Belephaion exhale la foudre dans une ligne 18 m qui est large. Chaque créature dans cette ligne doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 55 (10d10) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Forme alter.** Belephaion se transforme magiquement en Aigle ou Ecclésiastique, tout en conservant son alignement, les immunités de dégâts, points de vie, dés de vie, Intelligence, Sagesse et Charisme. Cette transformation prend fin s'il est réduit à 0 points de vie ou utilise un action bonus pour y mettre fin.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "perforant + foudre"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/70bde854b4_monstre-belephaion.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4, CON +8, SAG +5, CHA +7",
+ "skills": "Perception +9, Discrétion +4",
+ "immunities": "foudre"
+}

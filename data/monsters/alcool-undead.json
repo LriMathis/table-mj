@@ -1,0 +1,33 @@
+{
+ "id": "alcool-undead",
+ "name": "Undead Spirit",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m, vol 12 m (vol stationnaire) (Fantôme seulement)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 9
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "comprend les langues que vous connaissez",
+ "traits": "**Aura (Putrid seulement).** Jet de sauvegarde de Constitution : DD est égal à votre DD de sauvegarde des sorts, toute créature (autre que vous) qui commence son tour dans une Emanation 1,50 m provenant de l'esprit. Échec : La créature a l'état empoisonné jusqu'au début de son prochain tour.\n**Passage intégré (Ghostly seulement).** L'esprit peut se déplacer à travers d'autres créatures et objets comme s'ils étaient terrain difficile. Si elle termine son virage à l'intérieur d'un objet, elle est déviée vers l'espace inoccupé le plus proche et prend 1d10 dégâts de force pour chaque 1,50 m parcouru.",
+ "actionsText": "**Multiattaques.** L'esprit fait un nombre d'attaques égal à la moitié du niveau de ce sort (ronde vers le bas).\n**Touche mortelle (Ghostly seulement).** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d8 + 3 + summonSpellLevel dégâts nécrotiques, et la cible a l'état effrayé jusqu'à la fin de son prochain tour.\n**Bolt de Grave (Squelettique seulement).** Jet d'attaque à distance : votre bonus d'attaque de sort, portée 45 m. Touché : 2d4 + 3 + summonSpellLevel dégâts nécrotiques.\n**Griffe rotative (Putrid seulement).** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d6 + 3 + summonSpellLevel dégâts tranchants. Si la cible a l'état empoisonné, elle a l'état paralysé jusqu'à la fin de son prochain tour.",
+ "attacks": [],
+ "portrait": "/data/images/b2102d5d1f_monstre-alcool-undead.webp",
+ "notes": "points de vie : 30 (Ghostly et Putrid seulement) ou 20 (Squelettique seulement) + 10 pour chaque niveau de sort supérieur à 3",
+ "source": "Player's Handbook (2024) (5e.tools, traduction automatique)",
+ "aka": "Alcool Undead",
+ "immunities": "nécrotique, poison",
+ "conditionImmunities": "épuisement, effrayé, paralysé, empoisonné"
+}

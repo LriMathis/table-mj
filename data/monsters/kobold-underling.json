@@ -1,0 +1,43 @@
+{
+ "id": "kobold-underling",
+ "name": "Kobold Underling",
+ "type": "Humanoïde (kobold)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 13,
+ "hp": 7,
+ "hpFormula": "3d6-3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 16,
+  "CON": 9,
+  "INT": 8,
+  "SAG": 9,
+  "CHA": 8
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, draconique",
+ "traits": "**Messy Fin.** Le kobold explose 3 rounds après sa mort, ou immédiatement s'il a été tué par un coup critique. L'explosion détruit le corps du Kobold, laissant son équipement derrière. Chaque créature dans 1,50 m de l'explosion kobold doit faire un DD 10 jet de sauvegarde de Dextérité, en prenant 4 (1d8) dégâts contondants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Tactiques de conditionnement.** Le kobold a avantage sur un jet d'attaque contre une créature si au moins un des alliés du kobold est dans le 1,50 m de la créature et l'allié n'est pas neutralisé.\n**Sensibilité à la lumière du soleil.** En plein soleil, le kobold a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.",
+ "actionsText": "**Mot-clé.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts perforants.\n**Acrobatie des mains.** Attaque d'arme à distance : +5 au toucher, portée 9/36 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  },
+  {
+   "name": "Acrobatie des mains",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3f2b4a6265_monstre-kobold-underling.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)"
+}

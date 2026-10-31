@@ -1,0 +1,41 @@
+{
+ "id": "inquisitor-de-l-epee",
+ "name": "Inquisitor of the Sword",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 120,
+ "hpFormula": "16d8+48",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 14,
+  "CON": 17,
+  "INT": 15,
+  "SAG": 18,
+  "CHA": 16
+ },
+ "senses": "Vision parfaite 9 m, Perception passive 17",
+ "languages": "Commun plus deux autres langues",
+ "traits": "**Contrôle métabolique.** Au début de chacun de ses tours, si l'inquisiteur a au moins 1 points de vie, il retrouve 10 points de vie et peut mettre fin à une condition sur lui-même.",
+ "actionsText": "**Multiattaques.** L'inquisiteur fait trois attaques Silvered Longsword.\n**Épée Longue Argentée.** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts tranchants plus 4 (1d8) dégâts psychiques. Critical Touché : Si la cible est une créature décalée, elle prend un 4 (1d8) dégâts tranchants supplémentaire. Touché ou raté : L'inquisiteur peut téléporter jusqu'à 18 m vers un espace inoccupé qu'il peut voir.\n**Détection orthographique.** L'inquisiteur lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection de la magie, Détection des pensées, Dissipation de la magie, Main de mage (la main est invisible), Communication à distance\n- 1/jour chacun : Porte dimensionnelle, Vol, Invisibilité supérieure",
+ "attacks": [
+  {
+   "name": "Épée Longue Argentée",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/aa2db08a8d_monstre-inquisitor-de-l-epee.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Inquisitor de l'épée",
+ "saves": "INT +5, SAG +7, CHA +6",
+ "skills": "Acrobaties +5, Perspicacité +7, Perception +7",
+ "conditionImmunities": "charmé, effrayé"
+}

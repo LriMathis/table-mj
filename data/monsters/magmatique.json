@@ -1,0 +1,39 @@
+{
+ "id": "magmatique",
+ "name": "Magmatique",
+ "type": "Élémentaire",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "1/2",
+ "xp": 100,
+ "ca": 14,
+ "hp": 13,
+ "hpFormula": "3d6+3",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 11,
+  "CHA": 10
+ },
+ "immunities": "feu",
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "primordial (igné)",
+ "traits": "**Explosion finale.** Le magmatique explose quand il meurt. JS Dextérité : DD 11, chaque créature dans une Émanation de 3 m centrée sur le magmatique. Échec : 7 (2d6) dégâts de feu. Réussite : demi-dégâts.",
+ "actionsText": "**Contact.** Corps à corps : +4, allonge 1,50 m. Touché : 7 (2d4 + 2) dégâts de feu. Si la cible est une créature ou un objet inflammable qui n’est porté par personne, elle s’embrase.",
+ "bonusActions": "**Illumination embrasée.** Le magmatique s’embrase ou éteint ses flammes. Embrasé, le magmatique produit une Lumière vive sur un rayon de 3 m et une Lumière faible sur 3 m de plus.",
+ "attacks": [
+  {
+   "name": "Contact",
+   "bonus": 4,
+   "damage": "2d4+2",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/5614efaad0_monstre-magmatique.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 211"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dragon-d-airain-venerable",
+ "name": "Dragon d'airain vénérable",
+ "type": "Dragon",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "chaotique bon",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 20,
+ "hp": 332,
+ "hpFormula": "19d20+133",
+ "vitesse": "12 m, creusement 12 m, vol 24 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 10,
+  "CON": 25,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 22
+ },
+ "saves": "DEX +6, SAG +8",
+ "skills": "Discrétion +6, Histoire +9, Perception +14, Persuasion +12",
+ "immunities": "feu",
+ "senses": "Vision aveugle 18 m, Vision dans le noir 36 m, Perception passive 24",
+ "languages": "commun, draconique",
+ "traits": "**Résistance légendaire (4/jour, ou 5/jour dans son antre).** Si le dragon rate un jet de sauvegarde, il peut décider de le réussir tout de même.",
+ "actionsText": "**Attaques multiples.** Le dragon effectue trois attaques de Saignée. Il peut remplacer l’une de ces attaques par une utilisation de (A) Incantation pour lancer *rayon ardent* (au 3e niveau) ou (B) Souffle soporifique.\n**Saignée.** Corps à corps : +14, allonge 4,50 m. Touché : 19 (2d10 + 8) dégâts tranchants plus 7 (2d6) dégâts de feu.\n**Incantation.** Le dragon lance l’un des sorts suivants sans composantes matérielles, le Charisme étant sa caractéristique d’incantation (DD de sauvegarde 20) :\n- À volonté : *changement de forme* (Bête ou Humanoïde uniquement, le sort ne fait pas gagner de points de vie temporaires, ni Concentration ni points de vie temporaires nécessaires pour maintenir le sort), *communication avec les animaux*, *détection de la magie*, *illusion mineure*, *rayon ardent* (au 3e niveau)\n- 1/jour chacun : *contrôle du climat*, *détection des pensées*\n**Souffle de feu (recharge 5–6).** JS Dextérité : DD 21, chaque créature dans une Ligne de 27 m de long sur 1,50 m de large. Échec : 58 (13d8) dégâts de feu. Réussite : demi-dégâts.\n**Souffle soporifique.** JS Constitution : DD 21, chaque créature dans un Cône de 27 m. Échec : la cible subit l’état Neutralisé jusqu’à la fin de son tour suivant, et réitère alors son JS. Deuxième échec : la cible subit l’état Inconscient pendant 10 minutes. Cet effet prend fin pour la cible si celle-ci subit des dégâts ou si une créature dans un rayon de 1,50 m consacre une action à la réveiller.",
+ "legendary": "**Utilisations d'action Légendaire : 3 (4 dans son antre).** Aussitôt après le tour d'une autre créature, le dragon peut dépenser une utilisation pour entreprendre l'une des actions ci-après. Le dragon récupère toutes ses utilisations dépensées au début de chacun de ses tours.\n**Assaut incisif.** Le dragon se déplace à concurrence de la moitié de sa Vitesse et effectue une attaque de Saignée.\n**Lumière aveuglante.** Le dragon recourt à Incantation pour lancer *rayon ardent* (au 3e niveau).\n**Sables brûlants.** JS Dextérité : DD 20, une créature que le dragon voit dans un rayon de 36 m. Échec : 36 (8d8) dégâts de feu, et la Vitesse de la cible est réduite de moitié jusqu’à la fin de son tour suivant. Échec ou réussite : le dragon ne peut alors plus entreprendre cette action jusqu’au début de son tour suivant.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 14,
+   "damage": "2d10+8+2d6",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/10e82ce565_monstre-dragon-d-airain-venerable.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 99"
+}

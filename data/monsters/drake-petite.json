@@ -1,0 +1,40 @@
+{
+ "id": "drake-petite",
+ "name": "Drake (Small)",
+ "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 13,
+ "hpFormula": "3d8",
+ "vitesse": "3 m, vol 18 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 2,
+  "SAG": 9,
+  "CHA": 5
+ },
+ "senses": "Perception passive 11",
+ "languages": "—",
+ "traits": "**Volée.** Le drake ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 6 (2d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 3,
+   "damage": "2d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/81e2ab2601_monstre-drake-petite.webp",
+ "notes": "",
+ "source": "PSK (5e.tools, traduction automatique)",
+ "aka": "Drake (petite)",
+ "caNote": "armure naturelle",
+ "skills": "Perception +1"
+}

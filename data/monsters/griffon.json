@@ -1,0 +1,38 @@
+{
+ "id": "griffon",
+ "name": "Griffon",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "non alignée",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "9 m, vol 24 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 2,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "skills": "Perception +5",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "aucune",
+ "traits": "",
+ "actionsText": "**Attaques multiples.** Le griffon effectue deux attaques de Saignée.\n**Saignée.** Corps à corps : +6, allonge 1,50 m. Touché : 8 (1d8 + 4) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état Agrippé (évasion DD 14) par les deux griffes antérieures du griffon.",
+ "attacks": [
+  {
+   "name": "Saignée",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/ac00ff8c57_monstre-griffon.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 174"
+}

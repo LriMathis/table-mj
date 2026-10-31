@@ -1,0 +1,42 @@
+{
+ "id": "cristal-battleaxe",
+ "name": "Crystal Battleaxe",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 17,
+ "hp": 17,
+ "hpFormula": "5d6",
+ "vitesse": "0 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 11,
+  "INT": 1,
+  "SAG": 5,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 7",
+ "languages": "—",
+ "traits": "**Susceptibilité antimagique.** La porte de bataille est neutralisé alors que dans la zone d'un Champ antimagie. Si elle est ciblée par Dissipation de la magie, la porte de bataille doit réussir sur une jet de sauvegarde de Constitution contre la DD de sauvegarde des sorts du lanceur ou tomber sur inconscient pendant 1 minute.\n**Fausse apparence.** Bien que la battaxe reste immobile et ne vole pas, elle est indissociable d'une battaxe normale.",
+ "actionsText": "**Bataille.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Bataille",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/aa47918a0a_monstre-cristal-battleaxe.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Cristal Battleaxe",
+ "caNote": "armure naturelle",
+ "saves": "DEX +4",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, effrayé, paralysé, pétrifié, empoisonné"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "flumph",
+ "name": "Flumph",
+ "type": "Aberration",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 12,
+ "hp": 7,
+ "hpFormula": "2d6",
+ "vitesse": "1,50 m, vol 9 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 14,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "skills": "Arcanes +4, Histoire +4, Religion +4",
+ "vulnerabilities": "psychiques",
+ "senses": "vision dans le noir 18 m, Perception passive 12",
+ "languages": "comprend le commun des profondeurs, mais ne peut pas parler, télépathie 18 m",
+ "traits": "**Camouflage télépathique.** Le flumph est immunisé contre les effets susceptibles de percevoir ses émotions ou de lire ses pensées, ainsi que contre les sorts de divination.\n**Faiblesse à terre.** Si le flumph est jeté à terre, lancez un dé. Sur un résultat impair, le flumph se retrouve au sol, à l'envers, et il est neutralisé. À la fin de chacun de ses tours, il peut effectuer un jet de sauvegarde de Dextérité DD 10 ; il se remet à l'endroit et n'est plus neutralisé en cas de réussite.\n**Télépathie avancée.** Le flumph perçoit le contenu de toute conversation télépathique menée dans un rayon de 18 mètres et il ne peut pas être surpris par les créatures douées de télépathie.",
+ "actionsText": "**Appendices.** *Attaque d'arme au corps à corps :* +4 pour toucher, allonge 1,50 m, une créature. *Touché :* 4 (1d4+2) dégâts perforants plus 2 (1d4) dégâts d'acide. À la fin de chacun de ses tours, la cible doit effectuer un jet de sauvegarde de Constitution DD 10. Elle subit 2 (1d4) dégâts d'acide en cas d'échec ou met fin aux dégâts d'acide récurrents en cas de réussite. Elle met également fin aux dégâts d'acide récurrents si elle bénéficie du sort *restauration inférieure*.\n**Aspersion nauséabonde (1/jour).** Les créatures dans un cône de 4,50 mètres ayant pour origine le flumph doivent réussir un jet de sauvegarde de Dextérité DD 10 pour ne pas être aspergées d'un liquide à l'odeur infecte. Une horrible puanteur émane d'une créature aspergée pendant 1d4 heures. La créature aspergée est empoisonnée tant que persiste cette odeur et les autres créatures sont elles aussi empoisonnées dès qu'elles se trouvent à 1,50 mètre ou moins de la créature aspergée. Une créature peut éliminer la puanteur sur elle-même en passant un court repos à se baigner dans de l'eau, de l'alcool ou du vinaigre.",
+ "portrait": "/data/images/6e2d162e2a_monstre-flumph.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 137 · image : Manuel des monstres p. 136",
+ "attacks": [
+  {
+   "name": "Appendices",
+   "bonus": 4,
+   "damage": "1d4+2+1d4",
+   "type": "perforant + acide"
+  }
+ ]
+}

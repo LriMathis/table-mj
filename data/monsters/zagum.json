@@ -1,0 +1,49 @@
+{
+ "id": "zagum",
+ "name": "Zagum",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "20",
+ "xp": 25000,
+ "ca": 19,
+ "hp": 255,
+ "hpFormula": "30d8+120",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 22,
+  "SAG": 25,
+  "CHA": 27
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 17",
+ "languages": "céleste, commun, draconique, infernal, télépathie 36 m",
+ "traits": "**Obligés contractuellement.** Zagum a l'avantage de frapper des créatures sous un contrat infernal et quand il frappe de telles créatures, il délivre 9 (2d8) de plus de dégâts d'un type à laquelle la cible est la plus vulnérable. Une créature liée par un contrat infernal fait aussi tout jet de sauvegarde contre les effets provenant de Zagum avec désavantage.\n**La vue du diable.** Les ténèbres magiques n'entravent pas la vision obscure de Zagum.\n**Résistance magique.** Zagum a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Zagum fait trois attaques avec Désarmer la langue ou Oration.\n**Désarmer la langue.** Attaque d'arme au corps à corps : +9 au toucher, allonge 3 m, une cible. Touché : 10 (3d4 + 3) dégâts tranchants. Une cible touchée par cette attaque a une vulnérabilité à dégâts psychiques jusqu'au début de leur prochain tour.\n**Oraison.** Attaque de sort à distance : +14 au toucher, portée 18 m, une cible. Touché : 35 (6d8 + 8) dégâts psychiques.\n**Jargon (Recharge 4-6) juridique.** Zagum choisit un point qu'il peut voir dans 27 m de lui. Toutes les créatures dans une sphère 6 m -radius centrée sur ce point doivent faire un DD 22 jet de sauvegarde de Sagesse. Les créatures qui échouent le save sont confondues pendant jusqu'à 1 minute et doivent rouler un d10 au début de chacun de leurs tours.\nSur un 1, une créature se déplace dans une direction aléatoire puis termine son tour. Sur un 2-6, une créature ne peut pas utiliser les actions de ce tour. Sur un 7-8, une créature doit utiliser son action pour faire une attaque de mêlée contre une créature déterminée au hasard à leur portée qui n'est pas un Fiend. Sur un 9-10, une créature peut se déplacer et agir normalement.\nUne créature confuse peut répéter le jet de sauvegarde à la fin de son tour, mettant fin à l'effet sur un succès.",
+ "attacks": [
+  {
+   "name": "Désarmer la langue",
+   "bonus": 9,
+   "damage": "3d4+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Oraison",
+   "bonus": 14,
+   "damage": "6d8+8",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/aec8d7fadb_monstre-zagum.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "INT +12, SAG +13, CHA +14",
+ "skills": "Arcanes +12, Tromperie +20, Perspicacité +13, Intimidation +14, Représentation +14, Persuasion +20",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison, psychique",
+ "conditionImmunities": "charmé, empoisonné"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "markham-southwell",
+ "name": "Markham Southwell",
+ "type": "Humanoïde (Turami humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal bon",
+ "cr": "0",
+ "xp": 10,
+ "ca": 17,
+ "hp": 58,
+ "hpFormula": "9d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 11,
+  "SAG": 16,
+  "CHA": 14
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun",
+ "traits": "**Information sur le jeu de rôles.** Shérif Markham de Bryn Shander est un homme bravé, sympathique, avec peu de mots. Rien n'est plus important pour lui que de protéger Icewind Dale. Il juge les autres par leurs actes, pas par leurs paroles.\nIdéal: \"Tous les gens méritent d'être traités avec dignité.\"\nObligation : \"Duvesse est une leader naturelle, mais elle a besoin d'aide. C'est mon boulot.\"\nFaux : \"J'enterre mes émotions et je n'ai aucun intérêt pour de petites discussions.\"",
+ "actionsText": "**Multiattaques.** Markham fait deux attaques à la mêlée.\n**Mot long.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d8 + 2) dégâts tranchants, ou 7 (1d10 + 2) dégâts tranchants si utilisé avec deux mains.\n**Grosse arbalète.** Attaque d'arme à distance : +3 au toucher, portée 30/120 m., une cible. Touché : 6 (1d10 + 1) dégâts perforants. Markham porte vingt boulons arbalètes.",
+ "attacks": [
+  {
+   "name": "Mot long",
+   "bonus": 4,
+   "damage": "1d8+2",
+   "type": "tranchant"
+  },
+  {
+   "name": "Grosse arbalète",
+   "bonus": 3,
+   "damage": "1d10+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/465d054099_monstre-markham-southwell.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "caNote": "Armure Splint",
+ "skills": "Perception +5, Survie +5"
+}

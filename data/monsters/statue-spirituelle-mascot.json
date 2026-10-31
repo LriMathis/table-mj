@@ -1,0 +1,40 @@
+{
+ "id": "statue-spirituelle-mascot",
+ "name": "Spirit Statue Mascot",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 14,
+ "hp": 26,
+ "hpFormula": "4d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 9,
+  "CON": 15,
+  "INT": 12,
+  "SAG": 13,
+  "CHA": 8
+ },
+ "senses": "Perception passive 13",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Burst de mort.** Lorsque la statue spirituelle est réduite à 0 points de vie, la statue s'écroule et l'esprit revient à l'au-delà dans une explosion de flamme blanche fantôme. Chaque créature de 1,50 m doit réussir sur un DD 12 jet de sauvegarde de Constitution ou prendre 3 (1d6) dégâts radiants.",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts contondants.\n**Conseiller du passé (2/jour).** La statue spirituelle touche une créature. Une fois dans les 10 minutes suivantes, cette créature peut rouler un d4 et ajouter le nombre roulé à un test de caractéristique de son choix, immédiatement après avoir roulé le d20.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/695168e242_monstre-statue-spirituelle-mascot.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Statue spirituelle Mascot",
+ "caNote": "armure naturelle",
+ "skills": "Arcanes +5, Histoire +5, Perception +3"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "rudolph-von-aubrecker",
+ "name": "Rudolph von Aubrecker",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 15,
+ "hp": 112,
+ "hpFormula": "15d8+45",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 19,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Rudolph fait une attaque Taser et utilise Spellcasting pour lancer Injonction ou Épine mentale.\n**Taser.** Jet d'attaque au corps à corps : +6, allonge 1,50 m. Touché : 14 (4d6) dégâts de foudre, et la cible a l'état paralysé jusqu'au début du prochain tour de Rudolph.\n**Détection orthographique.** Rudolph lance l'un des sorts suivants, ne nécessitant pas de composants de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection des pensées, Épine mentale\n- 1/jour : Injonction",
+ "attacks": [
+  {
+   "name": "Taser",
+   "bonus": 6,
+   "damage": "4d6",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/add79c7e8b_monstre-rudolph-von-aubrecker.webp",
+ "notes": "",
+ "source": "Project_Lamordia (5e.tools, traduction automatique)",
+ "saves": "INT +7, CHA +5",
+ "skills": "Perception +8, Représentation +5",
+ "immunities": "poison",
+ "conditionImmunities": "épuisement, paralysé",
+ "bonusActions": "**Numérisation par rayons X.** Rudolph gagne Blindsight à une gamme de 18 m. Ce Blindsight ignore la couverture totale créée par jusqu'à 0,30 m de pierre, 1 pouce de métal commun, ou 0,90 m de bois ou de saleté. Des substances plus épaisses ou de minces feuilles de plomb bloquent la vue aveugle comme d'habitude. Ce bénéfice dure 1 minute ou jusqu'à ce que Rudolph ait l'état aveuglé.",
+ "reactions": "**Générateur de champ de force.** Rudolph lance Bouclier en réponse au déclencheur du sort, ne nécessitant aucun composant du sort et utilisant le même caractéristique d'incantation que Spellcasting.\n- À volonté : Bouclier"
+}

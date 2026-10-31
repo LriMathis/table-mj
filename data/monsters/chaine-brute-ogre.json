@@ -1,0 +1,45 @@
+{
+ "id": "chaine-brute-ogre",
+ "name": "Ogre Chain Brute",
+ "type": "Géant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 11,
+ "hp": 59,
+ "hpFormula": "7d10+21",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 8,
+  "CON": 16,
+  "INT": 5,
+  "SAG": 7,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 8",
+ "languages": "commun, géant",
+ "traits": "",
+ "actionsText": "**Fist.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 9 (2d4 + 4) dégâts contondants.\n**Chaîne Smash (Recharge 6).** Attaque d'arme au corps à corps : +6 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts contondants, et la cible doit faire un DD 14 jet de sauvegarde de Constitution ou être étourdi pendant 1 minute. La cible répète le jet de sauvegarde si elle prend des dégâts et à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Balayage des chaînes.** L'ogre balance sa chaîne, et chaque créature à l'intérieur de 3 m de lui doit faire un DD 14 jet de sauvegarde de Dextérité. Sur un jet de sauvegarde échoué, une créature prend 8 (1d8 + 4) dégâts contondants et est à terre. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas à terre.",
+ "attacks": [
+  {
+   "name": "Fist",
+   "bonus": 6,
+   "damage": "2d4+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Chaîne Smash (Recharge 6)",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0f18fc5017_monstre-chaine-brute-ogre.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Chaîne brute ogre",
+ "caNote": "Cache l'armure"
+}

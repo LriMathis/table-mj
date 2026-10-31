@@ -2,30 +2,37 @@
  "id": "loup",
  "name": "Loup",
  "type": "Bête",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "non alignée",
  "cr": "1/4",
  "xp": 50,
- "ca": 13,
+ "ca": 12,
  "hp": 11,
  "hpFormula": "2d8+2",
  "vitesse": "12 m",
- "size": 1,
  "stats": {
-  "FOR": 12,
+  "FOR": 14,
   "DEX": 15,
   "CON": 12,
   "INT": 3,
   "SAG": 12,
   "CHA": 6
  },
+ "skills": "Discrétion +4, Perception +5",
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "aucune",
+ "traits": "**Tactique de meute.** Quand au moins un de ses alliés non Neutralisés se situe dans un rayon de 1,50 m de la créature qu’il cible, le loup a l’Avantage au jet d’attaque correspondant.",
+ "actionsText": "**Morsure.** Corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts perforants. Si la cible est une créature de taille M ou inférieure, elle subit l’état À terre.",
  "attacks": [
   {
    "name": "Morsure",
    "bonus": 4,
-   "damage": "2d4+2",
+   "damage": "1d6+2",
    "type": "perforant"
   }
  ],
- "traits": "**Tactique de groupe.** Avantage si un allié est à 1,50 m de la cible.\n**Morsure.** Si la cible est une créature : sauvegarde de FOR DD 11 ou à terre.",
- "portrait": "/data/images/e338eeac97_monstre-loup.svg",
- "notes": ""
+ "portrait": "/data/images/e277063100_monstre-loup.webp",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) · image : dd2024.fr"
 }

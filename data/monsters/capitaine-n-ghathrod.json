@@ -1,0 +1,47 @@
+{
+ "id": "capitaine-n-ghathrod",
+ "name": "Captain N'ghathrod",
+ "type": "Aberration",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 111,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 19,
+  "SAG": 17,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "profond, commun des profondeurs, télépathie 36 m",
+ "traits": "**Résistance magique.** Le capitaine N'ghathrod a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**La diffusion de l'orthographe innée (Psioniques).** caractéristique d'incantation inné du capitaine N'ghathrod est Intelligence (spell save DD 15). Il peut innéalement lancer les sorts suivants, ne nécessitant aucun composant:\n- À volonté : Détection des pensées, Lévitation\n- 1/jour chacun : Domination de monstre, Changement de plan (autoseulement)\n**Détection orthographique.** Le capitaine N'ghathrod est un orthographe de niveau 10. Son caractéristique d'incantation est Intelligence (enregistrer DD 15, +7 au toucher avec attaques de sort). Le capitaine N'ghathrod a préparé les sorts de sorciers suivants :\n- Sorts mineurs (à volonté) : Protection contre les armes, Lumières dansantes, Main de mage, Poigne électrique\n- Niveau 1 (4 emplacements) : Détection de la magie, Déguisement, Bouclier, Sommeil\n- Niveau 2 (3 emplacements) : Flou, Invisibilité, Rayon affaiblissant\n- Niveau 3 (3 emplacements) : Clairvoyance, Éclair, Communication à distance\n- Niveau 4 (3 emplacements) : Confusion, Terrain hallucinatoire\n- Niveau 5 (2 emplacements) : Télékinésie, Mur de force",
+ "actionsText": "**Tentacules.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 15 (2d10 + 4) dégâts psychiques. Si la cible est moyenne ou plus petite, elle est agrippé (évasion DD 15) et doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou être étourdi jusqu'à ce que ce grappin se termine.\n**Extraire le cerveau.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, un humanoïde neutralisé agrippé par le capitaine N'ghathrod. Touché : La cible prend 55 (10d10) dégâts perforants. Si ces dégâts réduisent la cible à 0 points de vie, le capitaine N'ghathrod tue la cible en extrayant et en dévorant son cerveau.\n**Boussole mentale (Recharge 5-6).** Le capitaine N'ghathrod émet magiquement de l'énergie psychique dans un cône 18 m. Chaque créature dans cette zone doit réussir sur un DD 15 jet de sauvegarde d'Intelligence ou prendre 22 (4d8 + 4) dégâts psychiques et être étourdi pendant 1 minute. Une créature peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.",
+ "attacks": [
+  {
+   "name": "Tentacules",
+   "bonus": 7,
+   "damage": "2d10+4",
+   "type": "psychique"
+  },
+  {
+   "name": "Extraire le cerveau",
+   "bonus": 7,
+   "damage": "10d10",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/e76c9c30af_monstre-capitaine-n-ghathrod.webp",
+ "notes": "",
+ "source": "Waterdeep: Dungeon of the Mad Mage (5e.tools, traduction automatique)",
+ "aka": "Capitaine N'ghathrod",
+ "caNote": "Breastplate",
+ "saves": "INT +7, SAG +6, CHA +6",
+ "skills": "Arcanes +7, Tromperie +6, Perspicacité +6, Perception +6, Persuasion +6, Discrétion +4"
+}

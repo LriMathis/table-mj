@@ -1,0 +1,40 @@
+{
+ "id": "biomancer",
+ "name": "Biomancer",
+ "type": "Humanoïde (toute race)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 17,
+ "hp": 110,
+ "hpFormula": "17d8+34",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 20,
+  "SAG": 14,
+  "CHA": 15
+ },
+ "senses": "Perception passive 12",
+ "languages": "Commun plus une langue",
+ "traits": "**Présence de renforcement.** Le biomanter émane magiquement de l'énergie vitale en 9 m de lui-même. Tout allié du biomancer qui commence son tour y retrouve 5 (1d10) points de vie.\n**Résistance magique.** Le biomanter a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Détection orthographique.** Le biomanter est un spellcaster de niveau 16 Simic. Son caractéristique d'incantation est Intelligence (save spell DD 17, +9 au toucher avec attaques de sort). Le biomanter a les sorts d'assistant suivants préparés:\n- Sorts mineurs (à volonté) : Aspersion d'acide, Lumière, Réparation, Bouffée de poison, Poigne électrique\n- Niveau 1 (4 emplacements) : Détection de la magie, Graisse, Bouclier\n- Niveau 2 (3 emplacements) : Modification d'apparence, Vision dans le noir, Agrandissement/Rapetissement, Immobilisation de personne\n- Niveau 3 (3 emplacements) : Contresort, Dissipation de la magie, Hâte, Protection contre une énergie\n- Niveau 4 (3 emplacements) : Confusion, Invocation d'élémentaires mineurs, Métamorphose\n- Niveau 5 (2 emplacements) : Cône de froid, Création, Immobilisation de monstre\n- Niveau 6 (1 emplacements) : Terraformage, Mur de glace\n- Niveau 7 (1 emplacements) : Rayons prismatiques\n- Niveau 8 (1 emplacements) : Contrôle du climat",
+ "actionsText": "**Scimitar.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 6,
+   "damage": "1d6+2",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/3be2241de4_monstre-biomancer.webp",
+ "notes": "",
+ "source": "Guildmasters' Guide to Ravnica (5e.tools, traduction automatique)",
+ "caNote": "Armure Splint",
+ "saves": "INT +9, SAG +6",
+ "skills": "Arcanes +9, Nature +9"
+}

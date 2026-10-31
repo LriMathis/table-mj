@@ -1,0 +1,42 @@
+{
+ "id": "astral-elfe-etoile-ecclesiastique",
+ "name": "Astral Elf Star Priest",
+ "type": "Humanoïde (clerc)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 90,
+ "hpFormula": "20d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 11,
+  "DEX": 11,
+  "CON": 10,
+  "INT": 16,
+  "SAG": 20,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 15",
+ "languages": "céleste, commun, elfique",
+ "traits": "**Ancêtre fécale.** L'elfe a l'avantage sur jet de sauvegarde il fait d'éviter ou de terminer l'état charmé sur lui-même, et la magie ne peut pas le mettre au sommeil.\n**Nature inhabituelle.** L'elfe n'a pas besoin de dormir.",
+ "actionsText": "**Multiattaques.** L'elfe fait deux attaques de Morningstar. Il peut utiliser Rain of Radiance au lieu d'une de ces attaques.\n**Matinée.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 4 (1d8) dégâts perforants plus 17 (5d6) dégâts radiants.\n**Pluie de rayonnement.** Un rayonnement magique, semblable à une flamme, pleut sur une créature que l'elfe peut voir à l'intérieur de la 18 m. La cible doit faire un DD 16 jet de sauvegarde de Dextérité, en prenant 22 (5d8) dégâts radiants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** L'elfe lance l'un des sorts suivants, en utilisant Sagesse comme caractéristique d'incantation (spell save DD 16) :\n- 1/jour chacun : Divination, Communication à distance, Mot de retour\n- 2/jour chacun : Soins (version de niveau 8), Immobilisation de personne",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 3,
+   "damage": "1d8",
+   "type": "perforant + radiant"
+  }
+ ],
+ "portrait": "/data/images/29c4bd19c4_monstre-astral-elfe-etoile-ecclesiastique.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Astral elfe étoile ecclésiastique",
+ "caNote": "Chemise chaîne",
+ "saves": "INT +6, SAG +8, CHA +6",
+ "skills": "Médecine +8, Religion +6",
+ "bonusActions": "**Étape de lumière (2/jour).** L'elfe téléporte magiquement jusqu'à 9 m, avec tout ce qu'il porte ou porte, dans un espace inoccupé qu'il peut voir."
+}

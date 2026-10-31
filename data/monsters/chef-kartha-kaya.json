@@ -1,0 +1,46 @@
+{
+ "id": "chef-kartha-kaya",
+ "name": "Chief Kartha-Kaya",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 11,
+ "hp": 70,
+ "hpFormula": "8d10+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 15,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Perception passive 12",
+ "languages": "commun, Yikaria",
+ "traits": "**Possession (Recharges après un repos court ou long).** Le chef Kartha-Kaya tente de posséder un humanoïde ou un géant. Le chef Kartha-Kaya doit toucher la cible tout au long d'un repos court, ou la tentative échoue. A la fin du reste, la cible doit réussir sur une DD 12 jet de sauvegarde de Constitution ou être possédée par le chef Kartha-Kaya, qui disparaît avec tout ce qu'elle porte et porte. Jusqu'à la fin de la possession, la cible est neutralisé, perd le contrôle de son corps, et n'est pas au courant de son environnement. Le chef Kartha-Kaya contrôle maintenant le corps et ne peut être ciblé par aucune attaque, sort ou autre effet, et il conserve son alignement, ses scores Intelligence, Sagesse et Charisme et ses compétences. Il utilise les statistiques de la cible, à l'exception des connaissances, des caractéristiques de classe, des exploits et des compétences de la cible.\nLa possession dure jusqu'à ce que soit le corps tombe à 0 points de vie, Chef Kartha-Kaya met fin à la possession comme une action, ou Chef Kartha-Kaya est expulsé du corps par un effet tel que le sort Dissipation du mal et du bien. Lorsque la possession prend fin, le chef Kartha-Kaya réapparaît dans un espace inoccupé au sein de 1,50 m du corps et est étourdi jusqu'à la fin de son prochain tour. Si le corps de l'hôte meurt alors qu'il est possédé par le chef Kartha-Kaya, le chef Kartha-Kaya meurt aussi, et son corps ne réapparaît pas.",
+ "actionsText": "**Multiattaques.** Le chef Kartha-Kaya fait deux attaques, soit avec sa langue de flamme grand-sword, soit avec sa longbow.\n**Grande épée de la langue de la flamme.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 18 (4d6 + 4) dégâts tranchants plus 7 (2d6) dégâts de feu.\n**Longbow.** Attaque d'arme à distance : +2 au toucher, portée 45/180 m., une cible. Touché : 9 (2d8) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Grande épée de la langue de la flamme",
+   "bonus": 6,
+   "damage": "4d6+4",
+   "type": "tranchant + feu"
+  },
+  {
+   "name": "Longbow",
+   "bonus": 2,
+   "damage": "2d8",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/f2f8ae97c6_monstre-chef-kartha-kaya.webp",
+ "notes": "",
+ "source": "Storm King's Thunder (5e.tools, traduction automatique)",
+ "aka": "Chef Kartha - Kaya",
+ "caNote": "Armure en cuir",
+ "skills": "Tromperie +4, Survie +4"
+}

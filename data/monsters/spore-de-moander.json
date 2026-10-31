@@ -1,0 +1,42 @@
+{
+ "id": "spore-de-moander",
+ "name": "Spore of Moander",
+ "type": "Plante",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 19,
+ "hp": 230,
+ "hpFormula": "20d12+100",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 22,
+  "DEX": 9,
+  "CON": 20,
+  "INT": 4,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 10",
+ "languages": "comprend Abyssal mais ne peut pas parler",
+ "traits": "**Noyau d ' explosifs.** Lorsque la spore est soumise à dégâts de feu, chaque créature dans une Emanation 1,50 m provenant de la spore prend 7 (2d6) dégâts de feu.\n**Masse de roulement.** La spore n'a pas besoin de dépenser des mouvements supplémentaires pour se déplacer à travers le terrain difficile.",
+ "actionsText": "**Multiattaques.** La spore fait quatre attaques du Tendril. Alternativement, il fait deux attaques Tendril et utilise Consume une fois.\n**Tendril.** Jet d'attaque au corps à corps : +10, allonge 6 m. Touché : 11 (1d10 + 6) dégâts perforants plus 10 (3d6) dégâts d'acide. Si la cible est grande ou plus petite, la spore tire la cible 1,50 m droit vers elle-même.\n**Consommation.** Jet de sauvegarde de Force : DD 18, une créature grande ou plus petite au sein de 1,50 m. Échec : La cible est tirée dans l'espace de la spore et possède l'état agrippé (évasion DD 16). Jusqu'à la fin du grappin, la cible a les conditions aveuglé et entravé, et elle prend 17 (5d6) dégâts d'acide au début de chaque tour de spore. Lorsque la spore se déplace, la cible agrippé se déplace avec elle, ce qui ne lui coûte aucun mouvement supplémentaire. La spore peut avoir une Grande créature ou jusqu'à neuf Petites ou Moyennes créatures agrippé à la fois.",
+ "attacks": [
+  {
+   "name": "Tendril",
+   "bonus": 10,
+   "damage": "1d10+6",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/4620bfec60_monstre-spore-de-moander.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Spore de Moander",
+ "saves": "FOR +10, CON +9",
+ "resistances": "acide, froid, foudre",
+ "immunities": "feu, poison",
+ "conditionImmunities": "aveuglé, assourdi, épuisement, paralysé, empoisonné, à terre"
+}

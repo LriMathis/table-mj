@@ -1,0 +1,51 @@
+{
+ "id": "levistus",
+ "name": "Levistus",
+ "type": "Fiélon (diable)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "26",
+ "xp": 90000,
+ "ca": 23,
+ "hp": 336,
+ "hpFormula": "32d8+192",
+ "vitesse": "0 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 26,
+  "CON": 22,
+  "INT": 25,
+  "SAG": 28,
+  "CHA": 26
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 35",
+ "languages": "céleste, commun, draconique, infernal, télépathie 300 m",
+ "traits": "**Armure de glace.** Le Lévistus est toujours englobé dans la glace. La glace fournit 100 points de vie temporaires. Bien que Lévistus a ces points de vie temporaires, il a une vulnérabilité à dégâts de feu. Si Levistus commence son tour sans points de vie temporaires de la glace, il retrouve 100 points de vie temporaires.\n**La vue du diable.** Les ténèbres magiques n'entravent pas la vision obscure de Léviste.\n**Résistance légendaire (3/jour).** Si Levistus échoue à un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Levistus a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sous-zéro.** dégâts de froid traité par Lévistus ignore les résistances et les immunités.",
+ "actionsText": "**Multiattaques.** Levistus fait trois Touch de Stygie ou d'attaques de bol de glace. Il peut remplacer l'une des attaques par Blizzard (si disponible).\n**Touche de Stygie.** Attaque de sort au corps à corps : +15 au toucher, allonge 1,50 m, une cible. Touché : 20 (3d8 + 7) dégâts psychiques, et la cible doit réussir sur un DD 23 jet de sauvegarde d'Intelligence ou avoir l'état étourdi pendant 1 minute. La cible peut répéter le jet de sauvegarde à la fin de ses tours, mettant fin à l'effet sur un succès. Une créature qui réussit sur le jet de sauvegarde est immunisée contre cet effet pendant 1 heure.\n**Boule à glace.** Attaque de sort à distance : +15 au toucher, portée 36 m, une cible. Touché : 23 (3d10 + 7) dégâts de froid.\n**Blizzard (Recharge 4-6).** Lévistus choisit un point qu'il peut voir dans 90 m de lui. Chaque créature dans un 6 m -radius, 12 m -haut cylindre centré sur ce point doit faire un DD 23 jet de sauvegarde de Dextérité. Les cibles prennent 13 (3d8) dégâts de force plus 13 (3d8) dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Détection orthographique.** Levistus lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 23) :\n- À volonté : Cône de froid, Ténèbres, Tempête de grêle, Mur de glace",
+ "attacks": [
+  {
+   "name": "Touche de Stygie",
+   "bonus": 15,
+   "damage": "3d8+7",
+   "type": "psychique"
+  },
+  {
+   "name": "Boule à glace",
+   "bonus": 15,
+   "damage": "3d10+7",
+   "type": "froid"
+  }
+ ],
+ "portrait": "/data/images/2938acebe8_monstre-levistus.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +16, CON +14, INT +15, SAG +17",
+ "skills": "Acrobaties +24, Tromperie +16, Intimidation +16, Perception +25, Persuasion +16, Discrétion +16",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "froid, feu, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "reactions": "**Contre-orpilleurs.** En réaction à une créature qu'il peut voir jeter un sort, Lévistus peut essayer d'empêcher le casting. Levistus fait un test d'Intelligence (+7) contre un DD de (10 + niveau de sort). Sur un succès, le sort de la créature échoue et n'a aucun effet.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, levistus peut entreprendre l'une des actions ci-après.\n**Amnésie.** Levistus sélectionne une créature étourdi qu'il peut voir. La créature doit réussir sur un DD 23 jet de sauvegarde de Charisme ou Levistus efface une mémoire spécifique de la cible. La mémoire doit être celle que la cible a connue au cours des dernières 24 heures et qui a duré pas plus de 10 minutes. La mémoire ne peut être restaurée qu'avec un sort Délivrance des malédictions ou Restauration supérieure.\n**Grèves de givre.** Levistus fait une attaque de glaçons. Sur un coup, la cible tombe et a l'état à terre.\n**Appel d'offres (coûts 3 actions).** Lévistus convoque un Diable gelé allié dans un espace inoccupé qu'il peut voir."
+}

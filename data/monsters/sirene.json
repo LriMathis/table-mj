@@ -1,0 +1,44 @@
+{
+ "id": "sirene",
+ "name": "Sirene",
+ "type": "Fée",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "3",
+ "xp": 700,
+ "ca": 14,
+ "hp": 63,
+ "hpFormula": "14d8",
+ "vitesse": "9 m, nage 9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 11,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "commun, elfique, sylvestre",
+ "traits": "**Amphibie.** Le sirène peut respirer l'air et l'eau.\n**Résistance magique.** Le sirène a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le sirène fait deux attaques Dagger ou deux attaques Shortbow.\n**Déclencheur.** Attaque d'arme au corps à corps : +6 au toucher, portée 1,50 m, une cible. Touché : 6 (1d4 + 4) dégâts perforants plus 3 (1d6) dégâts de froid.\n**Saubèche.** Attaque d'arme à distance : +6 au toucher, portée 24/96 m., une cible. Touché : 7 (1d6 + 4) dégâts perforants.\n**Chant de Sirene (2/jour).** Le sirène lance Suggestion avec une gamme de 1,5 km qui affecte toutes les créatures du sirène qui le choisissent dans sa gamme. Chaque cible a un désavantage sur le jet de sauvegarde.\n**Détection orthographique.** Le sirène lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13):\n- 1/jour chacun : Couronne du dément, Nappe de brouillard, Invisibilité",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 6,
+   "damage": "1d4+4",
+   "type": "perforant + froid"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3161cb248d_monstre-sirene.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "skills": "Représentation +5, Persuasion +5, Discrétion +6"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "evoker-archimage",
+ "name": "Evoker Archmage",
+ "type": "Humanoïde (magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 16,
+ "hp": 214,
+ "hpFormula": "39d8+39",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 17",
+ "languages": "Commun plus cinq autres langues",
+ "traits": "**Sculpteur de l'évocation.** Lorsque l'archemage jette un sort qui crée une zone d'effet, il peut choisir lui-même et jusqu'à cinq autres créatures qu'il peut voir, sculptant l'énergie du sort autour d'eux. Une créature choisie réussit automatiquement sur son jet de sauvegarde contre le sort, et il ne prend aucun dégâts s'il prend normalement la moitié des dégâts sur un succès de sauvegarde.\n**Résistance magique.** L'arcade a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'arcade fait quatre attaques d'Arcane Burst. Il peut remplacer une attaque par une utilisation de Spellcasting pour lancer Fracassement.\n**La Burst d'Arcane.** Jet d'attaque au corps à corps ou à distance : +10, allonge 1,50 m ou portée 45 m. Touché : 27 (4d10 + 5) dégâts de force.\n**Détection orthographique.** L'archétype lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection de la magie, Armure de mage (inclus dans CA), Main de mage, Prestidigitation, Fracassement (version de niveau 3)\n**Barrage d'évocation (Recharge 5-6).** L'arcade lance deux fois Boule de feu, Tempête de grêle ou Éclair dans n'importe quelle combinaison, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 5/recharge : Boule de feu, Tempête de grêle, Éclair",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 10,
+   "damage": "4d10+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/a2fd77fb73_monstre-evoker-archimage.webp",
+ "notes": "",
+ "source": "Arcana Unleashed (5e.tools, traduction automatique)",
+ "aka": "Evoker archimage",
+ "skills": "Arcanes +15, Histoire +10, Intimidation +8, Perception +7",
+ "reactions": "**Magie protectrice (3/jour).** L'arcade lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Contresort, Bouclier"
+}

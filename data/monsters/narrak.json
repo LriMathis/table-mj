@@ -1,0 +1,38 @@
+{
+ "id": "narrak",
+ "name": "Narrak",
+ "type": "Humanoïde (derro)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 12,
+ "hp": 40,
+ "hpFormula": "9d6+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 5,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 7",
+ "languages": "nain, commun des profondeurs",
+ "traits": "**Insanité.** Narrak a un avantage sur jet de sauvegarde contre charmé ou effrayé.\n**Résistance magique.** Narrak a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Sensibilité à la lumière du soleil.** En plein soleil, Narrak a un désavantage sur jets d'attaque, ainsi que sur tests de Sagesse (Perception) qui dépendent de la vue.\n**Détection orthographique.** Narrak est un orthographe de niveau 5. Son caractéristique d'incantation est Charisme (Save DD 13, +5 au toucher avec attaques de sort) Narrak a deux emplacements de sort de niveau 2, qu'il retrouve après avoir terminé un repos court ou long, et connaît les sorts de warlock suivants:\n- Sorts mineurs (à volonté) : Décharge occulte, Amis, Bouffée de poison\n- Niveau 2 (2 emplacements) : Armure d'Agathys, Charme-personne, Maléfice, Immobilisation de personne, Rayon affaiblissant, Pattes d'araignée",
+ "actionsText": "**Armure d'ombres (Recharge après un repos court ou long).** Narrak lance Armure de mage sur lui-même\n**Mot-clé.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts perforants.\n**Un avec des ombres.** Alors qu'il est dans une faible lumière ou l'obscurité, Narrak peut devenir invisible. Il le demeure jusqu'à ce qu'il bouge ou prenne une action ou une réaction.",
+ "attacks": [
+  {
+   "name": "Mot-clé",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/b94e6ea444_monstre-narrak.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "skills": "Arcanes +4, Discrétion +4"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "heralds-de-residus-de-poussiere",
+ "name": "Heralds of Dust Remnant",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 12,
+ "hp": 45,
+ "hpFormula": "7d8+14",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 8,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 11
+ },
+ "senses": "Perception passive 14",
+ "languages": "Commun plus trois autres langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le reste fait deux attaques nécrotique Surge.\n**nécrotique Surgélation.** Attaque de sort au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 14 (2d10 + 3) dégâts nécrotiques.\n**Détection orthographique.** Le reste lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 13):\n- À volonté : Armure de mage, Main de mage, Prestidigitation\n- 1/jour chacun : Fléau, Porte dimensionnelle, Toile d'araignée",
+ "attacks": [
+  {
+   "name": "nécrotique Surgélation",
+   "bonus": 5,
+   "damage": "2d10+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/2ff2d58e3e_monstre-heralds-de-residus-de-poussiere.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "aka": "Heralds de résidus de poussière",
+ "skills": "Arcanes +5, Perception +4, Discrétion +6",
+ "resistances": "nécrotique",
+ "bonusActions": "**Phase (2/jour).** Le reste devient partiellement incorporé tant qu'il maintient concentration sur l'effet (comme si concentrating sur un sort). Bien que partiellement incorporé, le reste a une résistance au bludgung, au perçage et au dégâts tranchants."
+}

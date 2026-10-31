@@ -1,0 +1,42 @@
+{
+ "id": "yggdrasti",
+ "name": "Yggdrasti",
+ "type": "Plante",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "sans alignement",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "hp": 112,
+ "hpFormula": "9d20+18",
+ "vitesse": "9 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 10,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 36 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "**Cavités.** L'yggdrasti a des cavités 1d4 + 2 dans son tronc. Chaque cavité est assez grande pour contenir une créature moyenne, deux petites créatures, ou huit petites créatures. Une créature à l'intérieur d'une cavité a 3 contre des attaques et d'autres effets qui proviennent de l'extérieur de la cavité. Les cavités des yggdrasti ne sont pas reliées les unes aux autres.\n**Fausse apparence.** Si l'yggdrasti est immobile et enraciné dans le sol au début du combat, il ressemble à un arbre mort et a un avantage sur son rôle d'initiative. De plus, si une créature n'a pas observé le mouvement ou l'acte d'yggdrasti enraciné, cette créature doit réussir sur un DD 18 test d'Intelligence (Investigation) pour discerner que l'yggdrasti est animé.\n**Conduit foudre.** Si l'yggdrasti est soumis à dégâts de foudre, il est libre, et le dégâts de foudre est à la place divisé uniformément entre toutes les créatures qu'il lutte. De plus, les yggdrasti retrouvent une utilisation de foudre Discharge.\n**Nature inhabituelle.** Les yggdrasti ne nécessitent ni l'air ni le sommeil.",
+ "actionsText": "**Multiattaques.** L'yggdrasti fait deux attaques Root et utilise foudre Discharge (si disponible).\n**Racine.** Attaque d'arme au corps à corps : +8 au toucher, allonge 6 m, une cible. Touché : 12 (2d6 + 5) dégâts contondants, et si la cible est une créature, c'est agrippé (évasion DD 15). L'yggdrasti a quatre racines, chacune pouvant battre une cible.\n**Décharge foudre (3/jour).** L'yggdrasti tire la foudre sur une créature en 36 m de lui-même. La cible doit faire un DD 13 jet de sauvegarde de Dextérité, en prenant 31 (7d8) dégâts de foudre en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Racine",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/c35abae2d6_monstre-yggdrasti.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 1: Spelljammer Creatures (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "vulnerabilities": "feu",
+ "resistances": "contondant, perforant",
+ "immunities": "foudre",
+ "conditionImmunities": "aveuglé, assourdi, épuisement"
+}

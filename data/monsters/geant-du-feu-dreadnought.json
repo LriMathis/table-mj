@@ -1,0 +1,48 @@
+{
+ "id": "geant-du-feu-dreadnought",
+ "name": "Fire Giant Dreadnought",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "loyal mauvais",
+ "cr": "14",
+ "xp": 11500,
+ "ca": 21,
+ "hp": 187,
+ "hpFormula": "15d12+90",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 9,
+  "CON": 23,
+  "INT": 8,
+  "SAG": 10,
+  "CHA": 11
+ },
+ "senses": "Perception passive 15",
+ "languages": "géant",
+ "traits": "**Dual Shields.** Le géant porte deux boucliers qui, ensemble, donnent au géant +3 à sa CA (représentée ci-dessus).",
+ "actionsText": "**Multiattaques.** Le géant fait deux attaques de pare-feu ou Rock.\n**Pare-feu.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 22 (4d6 + 8) dégâts contondants plus 7 (2d6) dégâts de feu plus 7 (2d6) dégâts perforants.\n**Roche.** Attaque d'arme à distance : +13 au toucher, portée 18/72 m., une cible. Touché : 30 (4d10 + 8) dégâts contondants.\n**Charge de bouclier (Recharge 5-6).** Le géant se déplace jusqu'à 9 m en ligne droite et peut se déplacer dans l'espace de n'importe quelle créature plus petite que Huge. La première fois qu'il entre dans l'espace d'une créature pendant ce mouvement, cette créature doit réussir sur un DD 21 jet de sauvegarde de Force ou prendre 36 (8d6 + 8) dégâts contondants plus 14 (4d6) dégâts de feu et être poussée jusqu'à 9 m et à terre.",
+ "attacks": [
+  {
+   "name": "Pare-feu",
+   "bonus": 13,
+   "damage": "4d6+8",
+   "type": "contondant + feu + perforant"
+  },
+  {
+   "name": "Roche",
+   "bonus": 13,
+   "damage": "4d10+8",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/cf894213be_monstre-geant-du-feu-dreadnought.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Géant du feu Dreadnought",
+ "caNote": "plaque, Dual Shields",
+ "saves": "DEX +4, CON +11, CHA +5",
+ "skills": "Athlétisme +13, Perception +5",
+ "immunities": "feu"
+}

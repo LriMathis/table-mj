@@ -1,0 +1,48 @@
+{
+ "id": "nergaliid",
+ "name": "Nergaliid",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 12,
+ "hp": 42,
+ "hpFormula": "4d10+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 12,
+  "CON": 20,
+  "INT": 12,
+  "SAG": 10,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 12",
+ "languages": "commun, infernal",
+ "traits": "**Vols d'ombre.** Pendant que dans la lumière ou l'obscurité, le nergaliid peut prendre l'action Se cacher comme un action bonus.\n**Leap debout.** Le long saut du nergaliid est jusqu'à 9 m et son saut en hauteur est jusqu'à 6 m, avec ou sans démarrage.",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une créature. Touché : 13 (2d8 + 4) dégâts perforants, et la cible doit réussir sur un DD 15 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 minute. La créature empoisonné peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Laisse de langue.** Attaque d'arme au corps à corps : +6 au toucher, allonge 6 m, une cible. Touché : 10 (1d12 + 4) dégâts contondants.\n**Siphon Life (Recharge 4-6).** Le nergaliid tire magiquement la vie d'un humanoïde qu'il peut voir dans 12 m de lui. La cible doit faire un DD 15 jet de sauvegarde de Sagesse. Une cible neutralisé échoue automatiquement. Sur une sauvegarde ratée, la créature prend 10 (3d6) dégâts psychiques, et le nergaliid gagne points de vie temporaires égal aux dégâts pris. Sur une sauvegarde réussie, la cible prend la moitié de ces dégâts, et le nergaliid ne gagne pas points de vie temporaires. Si ce dégâts tue la cible, son corps s'élève à la fin du virage actuel du nergaliid en Husk zombi (voir plus haut dans ce chapitre).",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 6,
+   "damage": "2d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Laisse de langue",
+   "bonus": 6,
+   "damage": "1d12+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/6db2508dcd_monstre-nergaliid.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Tromperie +5, Perception +2, Discrétion +5",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné"
+}

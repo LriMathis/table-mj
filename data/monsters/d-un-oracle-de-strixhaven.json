@@ -1,0 +1,42 @@
+{
+ "id": "d-un-oracle-de-strixhaven",
+ "name": "Oracle of Strixhaven",
+ "type": "Humanoïde (humain, magicien)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "15",
+ "xp": 13000,
+ "ca": 12,
+ "hp": 150,
+ "hpFormula": "20d8+60",
+ "vitesse": "9 m, vol 4,50 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 16,
+  "INT": 21,
+  "SAG": 20,
+  "CHA": 18
+ },
+ "senses": "Perception passive 20",
+ "languages": "tous",
+ "traits": "**Résistance légendaire (3/jour).** Si l'Oracle échoue un jet de sauvegarde, elle peut choisir de réussir à la place.",
+ "actionsText": "**Multiattaques.** L'Oracle fait deux attaques d'éclat magique. Elle peut également utiliser Paradoxy, si disponible.\n**Flamme magique.** Attaque de sort au corps à corps ou à distance : +10 au toucher, allonge 1,50 m ou portée 18 m, une cible. Touché : 24 (3d12 + 5) dégâts de force.\n**Paradoxy (Recharge 4-6).** Les déformations momentanées en réalité apparaissent à trois points différents que l'Oracle peut voir au sein de 36 m d'elle. Chaque créature dans une sphère 6 m -radius centrée sur chaque point doit faire un DD 18 jet de sauvegarde de Force. Sur une sauvegarde ratée, une créature prend 33 (6d10) dégâts de force et est tirée jusqu'à 4,50 m en ligne droite vers le centre de la sphère. Sur une sauvegarde réussie, la créature prend la moitié de ces dégâts et n'est pas tirée. Une créature capturée dans la zone de plusieurs guêpes est affectée par une seule, que l'Oracle choisit.\n**Téléportation.** Les téléports Oracle, ainsi que tout équipement qu'elle porte ou transporte, dans un espace inoccupé qu'elle peut voir dans 18 m d'elle-même.\n**Détection orthographique.** L'Oracle lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection de la magie\n- 1/jour chacun : Mot de pouvoir étourdissant, Scrutation (en tant qu'action), Mur de force\n- 2/jour chacun : Dissipation de la magie, Armure de mage, Délivrance des malédictions, Communication à distance",
+ "attacks": [
+  {
+   "name": "Flamme magique",
+   "bonus": 10,
+   "damage": "3d12+5",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/d753a35a20_monstre-d-un-oracle-de-strixhaven.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "D'un oracle de Strixhaven",
+ "saves": "CON +8, INT +10, SAG +10, CHA +9",
+ "skills": "Arcanes +15, Perspicacité +15, Investigation +15, Nature +10, Perception +10",
+ "conditionImmunities": "charmé, effrayé",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, d'un oracle de strixhaven peut entreprendre l'une des actions ci-après.\n**Déplacement des vecteurs.** L'Oracle téléporte une créature qu'elle peut voir au sein de 18 m d'elle-même, ainsi que tout équipement qu'elle porte ou transporte, dans un espace inoccupé au sein de 9 m d'elle-même. Une cible qui ne veut pas réussir sur un DD 18 jet de sauvegarde de Charisme pour éviter l'effet.\n**La diffusion orthographique (coûts 2 actions).** L'Oracle utilise Spellcasting.\n**Vortex Jaunt (coûts 2 actions).** L'Oracle utilise Teleport, et immédiatement après sa disparition, chaque créature dans 9 m de l'espace qu'elle a quitté doit réussir sur un DD 18 jet de sauvegarde de Constitution ou prendre 16 (3d10) dégâts de force."
+}

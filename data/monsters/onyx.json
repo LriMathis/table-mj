@@ -1,0 +1,38 @@
+{
+ "id": "onyx",
+ "name": "Onyx",
+ "type": "Bête",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 12,
+ "hp": 2,
+ "hpFormula": "1d4",
+ "vitesse": "120 m, escalade 60 m",
+ "stats": {
+  "FOR": 3,
+  "DEX": 15,
+  "CON": 10,
+  "INT": 3,
+  "SAG": 12,
+  "CHA": 7
+ },
+ "senses": "Perception passive 13",
+ "languages": "—",
+ "traits": "**Sensation de Keen.** Le chat a l'avantage sur tests de Sagesse (Perception) qui dépendent de l'odeur.\n**Taille relative.** Tout dégâts qu'Onyx prendrait est réduit à 0. Elle a un avantage sur tests de caractéristique et jet de sauvegarde.\n**Traiter avec Onyx.** Onyx ne peut pas être vaincu ou tué par le combat. Toute attaque d'arme contre elle qui frappe CA 12 fait contact mais n'inflige aucun dégâts durable. Cependant, si l'attaque cause 10 dégâts ou plus, Onyx a un désavantage sur jets d'attaque jusqu'à la fin de son prochain tour. Si Onyx prend 10 ou plus de dégâts par sorts ou autres effets, il donne le même résultat. Les sorts qui imposent des conditions fonctionnent normalement contre Onyx, mais ces conditions se terminent automatiquement à la fin du prochain tour du chat.",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +7 au toucher, allonge 6 m, une cible. Touché : 11 (2d10) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 7,
+   "damage": "2d10",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/b3ee58a06e_monstre-onyx.webp",
+ "notes": "",
+ "source": "The Orrery of the Wanderer (5e.tools, traduction automatique)",
+ "skills": "Perception +3, Discrétion +4"
+}

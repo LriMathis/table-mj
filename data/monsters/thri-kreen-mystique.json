@@ -1,0 +1,47 @@
+{
+ "id": "thri-kreen-mystique",
+ "name": "Thri-kreen Mystic",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 15,
+ "hp": 99,
+ "hpFormula": "18d8+18",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 15,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 16,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 16",
+ "languages": "télépathie 18 m, Thri-kreen",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le thri-kreen fait deux attaques Gythka ou quatre attaques psychique Bolt.\n**Gythka.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d8 + 1) dégâts tranchants.\n**psychique Bolt.** Attaque de sort à distance : +6 au toucher, portée 18 m, une créature. Touché : 6 (1d6 + 3) dégâts psychiques.\n**Égoutter la vitalité (recharge après un repos court ou long).** Le thri-kreen cible une créature il peut voir en lui-même 9 m. La cible doit faire un DD 14 jet de sauvegarde de Constitution, en prenant 32 (5d12) dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Le thri-kreen récupère points de vie égal aux dégâts infligés.\n**Coulisse (Psioniques).** Le thri-kreen lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Sagesse comme caractéristique d'incantation :\n- À volonté : Lévitation (autoseulement), Main de mage (la main est invisible)\n- 1/jour chacun : Liberté de mouvement (autoseulement), Invisibilité (autoseulement)",
+ "attacks": [
+  {
+   "name": "Gythka",
+   "bonus": 4,
+   "damage": "2d8+1",
+   "type": "tranchant"
+  },
+  {
+   "name": "psychique Bolt",
+   "bonus": 6,
+   "damage": "1d6+3",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/3ef05b3611_monstre-thri-kreen-mystique.webp",
+ "notes": "",
+ "source": "Boo's Astral Menagerie (5e.tools, traduction automatique)",
+ "aka": "Thri-kreen mystique",
+ "caNote": "armure naturelle",
+ "skills": "Perception +6, Discrétion +5, Survie +6",
+ "bonusActions": "**Chaméléon Carapace.** Le thri-kreen change la couleur de sa carapace pour correspondre à la couleur et à la texture de son environnement, gagnant avantage sur tests de Dextérité (Discrétion) il fait de se cacher dans ces environnements."
+}

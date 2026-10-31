@@ -1,0 +1,49 @@
+{
+ "id": "manteleur-mutate",
+ "name": "Cloaker Mutate",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 14,
+ "hp": 143,
+ "hpFormula": "22d10+22",
+ "vitesse": "3 m, vol 9 m",
+ "stats": {
+  "FOR": 19,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 18,
+  "SAG": 13,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 11",
+ "languages": "profond, télépathie 18 m, commun des profondeurs",
+ "traits": "**Évitement.** Si le mutat est soumis à un effet qui lui permet de faire un jet de sauvegarde pour ne prendre que la moitié des dégâts, il ne prend pas de dégâts s'il réussit sur le jet de sauvegarde, et seulement la moitié des dégâts s'il échoue.\n**Sensibilité à la lumière.** Alors qu'il est en lumière vive, le mutat a un désavantage sur jets d'attaque.",
+ "actionsText": "**Multiattaques.** Le mutat fait une attaque de Corpse Swipe et deux attaques de Tail, ou il fait quatre attaques de Tail.\n**Corpse Swipe.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 20 (3d10 + 4) dégâts contondants. Si la cible est une créature, elle doit réussir sur un DD 16 jet de sauvegarde de Constitution ou avoir l'état empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, une créature ne peut pas retrouver points de vie.\n**Queue.** Attaque d'arme au corps à corps : +8 au toucher, allonge 3 m, une cible. Touché : 13 (2d8 + 4) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Corpse Swipe",
+   "bonus": 8,
+   "damage": "3d10+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Queue",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/fa0b5b4d1f_monstre-manteleur-mutate.webp",
+ "notes": "",
+ "source": "Phandelver and Below: The Shattered Obelisk (5e.tools, traduction automatique)",
+ "aka": "Manteleur Mutate",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +6",
+ "resistances": "nécrotique, poison, psychique",
+ "conditionImmunities": "épuisement, empoisonné",
+ "bonusActions": "**Duplicats fantômes.** Le mutat projette magiquement jusqu'à quatre copies illusoires de lui-même. Ces duplications rendent difficile de déterminer l'emplacement réel du mutat et durent jusqu'à la fin du prochain tour du mutat. Bien que les copies existent, jets d'attaque contre le mutat sont faites avec un désavantage.\n**psychique Moan (Recharge 6).** Le mutat laisse sortir un gémissement chargé d'énergie psychique. Chaque créature au sein de 18 m du mutat qui n'est pas une Aberration doit réussir sur un DD 16 jet de sauvegarde de Sagesse ou prendre 17 (5d6) dégâts psychiques et avoir l'état effrayé jusqu'à la fin du tour suivant du mutat."
+}

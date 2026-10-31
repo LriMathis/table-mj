@@ -1,0 +1,41 @@
+{
+ "id": "ghostblade-eidolon",
+ "name": "Ghostblade Eidolon",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 55,
+ "hpFormula": "10d8+10",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 13,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "senses": "Perception passive 14",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Forme floue.** jets d'attaque contre l'éidolon sont faites avec un désavantage à moins que l'éidolon soit neutralisé.\n**Mouvement intégré.** L'éidolon peut se déplacer à travers d'autres créatures et objets comme s'ils avaient 3. Il prend 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.\n**Résistance au virage.** L'eidolon a un avantage sur jet de sauvegarde contre tout effet qui devient mort-vivant.",
+ "actionsText": "**Multiattaques.** L'éidolon fait deux attaques de la lame fantôme.\n**Lame fantôme.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 3) dégâts tranchants plus 11 (2d10) dégâts de force.",
+ "attacks": [
+  {
+   "name": "Lame fantôme",
+   "bonus": 6,
+   "damage": "1d8+3",
+   "type": "tranchant + force"
+  }
+ ],
+ "portrait": "/data/images/b03bd9de7d_monstre-ghostblade-eidolon.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "skills": "Acrobaties +5, Athlétisme +6, Perception +4",
+ "resistances": "nécrotique, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, entravé"
+}

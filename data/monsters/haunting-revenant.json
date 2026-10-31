@@ -1,0 +1,41 @@
+{
+ "id": "haunting-revenant",
+ "name": "Haunting Revenant",
+ "type": "Mort-vivant",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 20,
+ "hp": 203,
+ "hpFormula": "14d20+56",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 12,
+  "CON": 18,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 20
+ },
+ "senses": "Vision parfaite 18 m, Perception passive 14",
+ "languages": "Commun plus deux autres langues",
+ "traits": "**Zone hantée.** Jet de sauvegarde de Constitution : DD 17, toute créature qui jette un sort dans l'espace du révenant. Échec : Le sort échoue et est perdu.\n**Rétablissement des morts-vivants.** Si le renifleur meurt, il ressuscite 24 heures plus tard, à moins que Dissipation du mal et du bien ne soit jeté sur ses restes. S'il réanime, il anime un autre objet ou structure Gargantuan ailleurs sur le même plan d'existence ; il semble maintenant différent mais utilise le même bloc de statistiques et retourne avec tout son points de vie.",
+ "actionsText": "**Multiattaques.** Le révenant fait deux attaques Objet Slam et utilise Invitation.\n**Objet Slam.** Jet d'attaque au corps à corps ou à distance : +9 (avec Avantage si la cible est à l'intérieur de l'espace du réceptif), allonge 3 m ou portée 9/27 m. Touché : 27 (5d8 + 5) dégâts contondants.\n**Invitation.** Jet de sauvegarde de Charisme : DD 17, chaque créature dans un cône 18 m. Échec : La cible est téléportée à l'intérieur de l'espace du ravisseur et avalée. Une créature avalée a Total Cover contre les attaques et d'autres effets en dehors du révenant.\nAlors que le révenant a points de vie, une créature avalée peut quitter l'espace du révenant seulement en utilisant la magie qui permet le voyage planaire, comme le sort Changement de plan.",
+ "attacks": [
+  {
+   "name": "Objet Slam",
+   "bonus": 9,
+   "damage": "5d8+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/7eb7bda10f_monstre-haunting-revenant.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "saves": "CON +8, SAG +8",
+ "resistances": "nécrotique, psychique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, paralysé, pétrifié, empoisonné, à terre, entravé, inconscient"
+}

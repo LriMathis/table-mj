@@ -1,0 +1,52 @@
+{
+ "id": "buer",
+ "name": "Buer",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "21",
+ "xp": 33000,
+ "ca": 21,
+ "hp": 315,
+ "hpFormula": "30d10+150",
+ "vitesse": "7,50 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 22,
+  "CON": 21,
+  "INT": 16,
+  "SAG": 18,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 21",
+ "languages": "céleste, commun, draconique, infernal, télépathie 36 m",
+ "traits": "**Obligés contractuellement.** Buer a l'avantage de frapper des créatures sous un contrat infernal et quand elle frappe de telles créatures, elle délivre 9 (2d8) de plus de dégâts d'un type à laquelle la cible est la plus vulnérable. Une créature liée par un contrat infernal fait également tout jet de sauvegarde contre les effets provenant de Buer avec désavantage.\n**La vue du diable.** Les ténèbres magiques n'empêchent pas la vision obscure de Buer.\n**Résistance magique.** Buer a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Buer fait trois attaques en utilisant sa griffe. Elle peut remplacer deux des attaques par une attaque par un bit nettoyant.\n**Griffe.** Attaque d'arme au corps à corps : +13 au toucher, allonge 3 m, une cible. Touché : 22 (3d10 + 6) dégâts tranchants.\n**Bite nettoyante.** Attaque d'arme au corps à corps : +13 au toucher, allonge 1,50 m, une cible. Touché : 19 (2d12 + 6) dégâts contondants, cicatrisation Buer pour un montant égal aux dégâts infligés.\n**Récupération spectrale (Recharge 6).** Buer focalise sa forme éthérée, se dirigeant vers 15 m en ligne droite à travers le plan éthéré. Toute créature dans la ligne doit faire un DD 21 jet de sauvegarde de Constitution, en prenant 42 (12d6) dégâts de force en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Buer peut réapparaître dans n'importe quel espace inoccupé le long de la ligne. Pendant 1 minute après avoir utilisé Spectral Reaping, Buer est alimenté par l'essence éthérée. Son attaque de la Bite Nettoyante traite maintenant dégâts de force au lieu de bludgeoning.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 13,
+   "damage": "3d10+6",
+   "type": "tranchant"
+  },
+  {
+   "name": "Bite nettoyante",
+   "bonus": 13,
+   "damage": "2d12+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/3afae63956_monstre-buer.webp",
+ "notes": "",
+ "source": "Chains of Asmodeus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "FOR +15, DEX +13, CON +14",
+ "skills": "Arcanes +10, Athlétisme +22, Perspicacité +11, Intimidation +17, Perception +11, Survie +11",
+ "resistances": "froid, contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées",
+ "immunities": "feu, poison",
+ "conditionImmunities": "charmé, empoisonné",
+ "bonusActions": "**Voyage défensif (Recharge 5-6).** Buer tente de ralentir les actions d'une créature qu'elle peut voir dans 18 m d'elle. La cible doit réussir sur un DD 18 jet de sauvegarde de Sagesse ou être ralentie jusqu'à la fin de son prochain tour. La vitesse d'une créature ralentie est réduite de moitié, elle prend une pénalité de 2 pour CA et jet de sauvegarde de Dextérité, et elle ne peut pas utiliser ses réactions. Peu importe les capacités de la créature ralentie ou les objets magiques, il ne peut pas faire plus d'une mêlée ou d'attaque variée pendant son tour.",
+ "reactions": "**Échange d'âme.** Quand Buer est soumise à un sort qui ne la vise que, elle peut essayer d'échanger des places avec une créature qu'elle a endommagée à son dernier tour. La créature doit faire un DD 19 jet de sauvegarde de Sagesse. Sur une sauvegarde ratée, la créature et Buer échangent des positions, et le sort cible maintenant la créature au lieu de Buer.",
+ "legendary": "**Actions légendaires (3/round).** Aussitôt après le tour d'une autre créature, buer peut entreprendre l'une des actions ci-après.\n**Travail d'équipe.** Buer ou un autre diable dans la 18 m de Buer fait une attaque d'arme de mêlée contre une cible de Buer choix.\n**Clause de la porte arrière.** Buer fait tourner l'énergie autour d'une créature qu'elle peut voir au sein de 18 m d'elle. Jusqu'à la fin du prochain virage de Buer, la cible est couverte d'énergie froide ou de feu, le choix de Buer. Chaque fois que la cible est frappée par une attaque à la mêlée, l'agresseur prend 9 (2d8) feu ou dégâts de froid.\n**Rafraîchir les âmes (coûts 2 actions).** Buer dévore une pièce d'âme, rafraîchissant instantanément une capacité de recharge de tout diable dans 18 m, y compris elle-même."
+}

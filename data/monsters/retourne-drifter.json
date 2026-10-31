@@ -1,0 +1,48 @@
+{
+ "id": "retourne-drifter",
+ "name": "Returned Drifter",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal neutre",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 13,
+ "hp": 11,
+ "hpFormula": "2d8+2",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "les langues qu'il connaissait de son vivant",
+ "traits": "**Résistance au virage.** Le Retourné a un avantage sur jet de sauvegarde contre tout effet qui devient mort-vivant.\n**Visage illisible.** Le Retourné est à l'abri de tout effet qui pourrait sentir ses émotions ou lire ses pensées. tests de Sagesse (Perspicacité) pour vérifier les intentions ou la sincérité du retour sont faites avec désavantage.",
+ "actionsText": "**Scimitar.** Attaque d'arme au corps à corps : +4 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d6 + 2) dégâts tranchants plus 3 (1d6) dégâts de poison.\n**Écharpe.** Attaque d'arme à distance : +4 au toucher, portée 9/36 m., une cible. Touché : 4 (1d4 + 2) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Écharpe",
+   "bonus": 4,
+   "damage": "1d4+2",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e3b7e458d4_monstre-retourne-drifter.webp",
+ "notes": "",
+ "source": "Mythic Odysseys of Theros (5e.tools, traduction automatique)",
+ "aka": "Retourné Drifter",
+ "caNote": "Armure en cuir",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

@@ -1,0 +1,45 @@
+{
+ "id": "drider",
+ "name": "Drider",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique mauvaise",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 19,
+ "hp": 123,
+ "hpFormula": "13d10+52",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 19,
+  "CON": 18,
+  "INT": 13,
+  "SAG": 16,
+  "CHA": 12
+ },
+ "skills": "Discrétion +10, Perception +6",
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "elfique, commun des profondeurs",
+ "traits": "**Marche dans les toiles.** Le drider n’est pas soumis aux contraintes de déplacement imposées par les toiles et connaît la position de toute autre créature en contact avec la même toile que lui.\n**Pattes d’araignée.** Le drider peut parcourir les parois les plus difficiles à escalader, y compris les plafonds, sans passer par un test de caractéristique.\n**Sensibilité au soleil.** Tant qu’il est exposé à la lumière du soleil, le drider subit le Désavantage aux tests de caractéristique et aux jets d’attaque.",
+ "actionsText": "**Attaques multiples.** Le drider effectue trois attaques, réparties à sa guise entre Patte avant et Décharge toxique.\n**Patte avant.** Corps à corps : +7, allonge 3 m. Touché : 13 (2d8 + 4) dégâts perforants.\n**Décharge toxique.** À distance : +6, portée 36 m. Touché : 13 (3d6 + 3) dégâts de poison.",
+ "bonusActions": "**Magie de la Reine Araignée (recharge 5–6).** Le drider lance *lueurs féeriques*, *ténèbres* ou *toile d’araignée*, sans composantes matérielles, la Sagesse étant sa caractéristique d’incantation (DD de sauvegarde 14).",
+ "attacks": [
+  {
+   "name": "Patte avant",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "perforant"
+  },
+  {
+   "name": "Décharge toxique",
+   "bonus": 6,
+   "damage": "3d6+3",
+   "type": "poison"
+  }
+ ],
+ "portrait": "/data/images/f706e09bd0_monstre-drider.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 116"
+}

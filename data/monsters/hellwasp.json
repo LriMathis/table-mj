@@ -1,0 +1,47 @@
+{
+ "id": "hellwasp",
+ "name": "Hellwasp",
+ "type": "Fiélon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 19,
+ "hp": 52,
+ "hpFormula": "8d10+8",
+ "vitesse": "3 m, vol 18 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 10,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 10",
+ "languages": "infernal, télépathie 90 m (with other hellwasps only)",
+ "traits": "**Armes magiques.** Les attaques d'armes de l'enfer sont magiques.",
+ "actionsText": "**Multiattaques.** L'enferwasp fait deux attaques: une avec sa piqûre et une avec ses talons à épée.\n**Sting.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une créature. Touché : 8 (1d8 + 4) dégâts perforants plus 7 (2d6) dégâts de feu, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, la cible est également paralysé. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Épée Talons.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Sting",
+   "bonus": 7,
+   "damage": "1d8+4",
+   "type": "perforant + feu"
+  },
+  {
+   "name": "Épée Talons",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/df48441a61_monstre-hellwasp.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, SAG +3",
+ "vulnerabilities": "froid",
+ "immunities": "feu"
+}

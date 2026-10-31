@@ -1,0 +1,45 @@
+{
+ "id": "firenewt-occultiste-de-imix",
+ "name": "Firenewt Warlock of Imix",
+ "type": "Élémentaire",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 10,
+ "hp": 33,
+ "hpFormula": "6d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 13,
+  "DEX": 11,
+  "CON": 12,
+  "INT": 9,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 10",
+ "languages": "draconique, igné",
+ "traits": "**Amphibie.** Le newt peut respirer l'air et l'eau.\n**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir du feu.\n**Imix est bénissant.** Lorsque le feu réduit un ennemi à 0 points de vie, le feu gagne 5 points de vie temporaires.",
+ "actionsText": "**Multiattaques.** Le feu fait trois attaques Morningstar ou feu Ray.\n**Matinée.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d8 + 1) dégâts perforants.\n**Rayon feu.** Attaque de sort à distance : +4 au toucher, portée 36 m, une cible. Touché : 5 (1d6 + 2) dégâts de feu.\n**Détection orthographique.** Le firenewt lance l'un des sorts suivants, en utilisant Charisme comme caractéristique d'incantation (spell save DD 12) :\n- À volonté : Assistance, Lumière, Armure de mage, Main de mage, Prestidigitation",
+ "attacks": [
+  {
+   "name": "Matinée",
+   "bonus": 3,
+   "damage": "1d8+1",
+   "type": "perforant"
+  },
+  {
+   "name": "Rayon feu",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "feu"
+  }
+ ],
+ "portrait": "/data/images/1299710013_monstre-firenewt-occultiste-de-imix.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Firenewt occultiste de Imix",
+ "immunities": "feu"
+}

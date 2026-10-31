@@ -1,0 +1,48 @@
+{
+ "id": "gearkeeper-creature-artificielle",
+ "name": "Gearkeeper Construct",
+ "type": "Créature artificielle",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "10",
+ "xp": 5900,
+ "ca": 18,
+ "hp": 161,
+ "hpFormula": "17d10+68",
+ "vitesse": "18 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 16,
+  "CON": 18,
+  "INT": 3,
+  "SAG": 11,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 36 m, Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler",
+ "traits": "**Formulaire immuable.** L'engin est à l'abri de tout sort ou effet qui modifierait sa forme.\n**Déplacement rapide.** Les attaques possibles contre l'enginier sont désavantagées.\n**Lames à fouetter.** Toute créature qui commence son tour dans 1,50 m du engrenage prend 4 (1d8) dégâts tranchants.",
+ "actionsText": "**Multiattaques.** L'engin fait deux attaques de la lame de bras, ou une attaque de la lame de bras et une attaque de lance-spers.\n**Lame de bras.** Attaque d'arme au corps à corps : +9 au toucher, allonge 1,50 m, une cible. Touché : 18 (3d8 + 5) dégâts tranchants.\n**Spear Launcher.** Attaque d'arme à distance : +9 au toucher, portée 27 m, une cible. Touché : 12 (2d6 + 5) dégâts perforants, et la cible est à terre.\n**Blast de shrapnel (Recharge 6).** Le gardien lance un jet de métal déchiqueté dans un cône 9 m. Chaque créature de la zone doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 21 (6d6) dégâts perforants en cas d'échec, ou la moitié de ces dégâts en cas de réussite.",
+ "attacks": [
+  {
+   "name": "Lame de bras",
+   "bonus": 9,
+   "damage": "3d8+5",
+   "type": "tranchant"
+  },
+  {
+   "name": "Spear Launcher",
+   "bonus": 9,
+   "damage": "2d6+5",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/13589c9f55_monstre-gearkeeper-creature-artificielle.webp",
+ "notes": "",
+ "source": "Explorer's Guide to Wildemount (5e.tools, traduction automatique)",
+ "aka": "Gearkeeper créature artificielle",
+ "caNote": "armure naturelle",
+ "resistances": "contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "feu, poison, psychique",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

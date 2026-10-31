@@ -1,0 +1,41 @@
+{
+ "id": "zombi-clot",
+ "name": "Zombie Clot",
+ "type": "Mort-vivant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "neutre mauvais",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 104,
+ "hpFormula": "11d12+33",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 10,
+  "CON": 16,
+  "INT": 3,
+  "SAG": 8,
+  "CHA": 10
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend Common plus une autre langue mais ne peut pas parler",
+ "traits": "**Détachement mortel.** Jet de sauvegarde de Constitution : DD 14, toute créature qui commence son tour dans une Emanation 3 m originaire du zombie. Échec : 9 (2d8) dégâts de poison, et la cible a l'état empoisonné jusqu'au début de son prochain tour.\n**Fortitude non-morte.** Si les dégâts réduisent le zombie à 0 points de vie, il fait un jet de sauvegarde de Constitution (DD 5 plus les dégâts pris) à moins que les dégâts soient radiant ou à partir d'un Hit critique. Sur une sauvegarde réussie, le zombie tombe à 1 points de vie à la place.",
+ "actionsText": "**Multiattaques.** Le zombie fait deux attaques de Slam.\n**Clamer.** Jet d'attaque au corps à corps : +8, allonge 3 m. Touché : 15 (3d6 + 5) dégâts contondants.\n**Entomb de chair (Recharge 5-6).** Jet de sauvegarde de Force : DD 16, une créature le zombie peut voir dans 9 m. Échec : 16 (3d10) dégâts contondants. Si la cible est une créature grande ou plus petite, elle est englobée dans un tas de chair morte. Alors qu'entombed, la cible a l'état entravé, a Total Cover contre les attaques et autres effets en dehors de la chair morte, et prend 10 (3d6) dégâts nécrotiques au début de chacun de ses tours.\nLa cible peut être libérée si la chair morte est détruite (CA 10; HP 25; Immunité à nécrotique, poison et dégâts psychiques",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 8,
+   "damage": "3d6+5",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/0005f35503_monstre-zombi-clot.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Zombi Clot",
+ "saves": "CON +6",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, paralysé, pétrifié, empoisonné, à terre, étourdi"
+}

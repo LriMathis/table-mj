@@ -1,0 +1,41 @@
+{
+ "id": "petit-serviteur",
+ "name": "Tiny Servant",
+ "type": "Créature artificielle",
+ "sizeName": "Très petite",
+ "size": 0.5,
+ "alignment": "sans alignement",
+ "cr": "0",
+ "xp": 10,
+ "ca": 15,
+ "hp": 10,
+ "hpFormula": "4d4",
+ "vitesse": "9 m, escalade 9 m",
+ "stats": {
+  "FOR": 4,
+  "DEX": 16,
+  "CON": 10,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 10",
+ "languages": "—",
+ "traits": "",
+ "actionsText": "**Clamer.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/b3dd7b6ed4_monstre-petit-serviteur.webp",
+ "notes": "",
+ "source": "Xanathar's Guide to Everything (5e.tools, traduction automatique)",
+ "aka": "Petit serviteur",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné"
+}

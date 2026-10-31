@@ -1,0 +1,44 @@
+{
+ "id": "gemme-stalker",
+ "name": "Gem Stalker",
+ "type": "Monstruosité",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 17,
+ "hp": 67,
+ "hpFormula": "9d10+18",
+ "vitesse": "12 m, escalade 12 m",
+ "stats": {
+  "FOR": 17,
+  "DEX": 15,
+  "CON": 14,
+  "INT": 15,
+  "SAG": 10,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 13",
+ "languages": "télépathie 18 m understands Draconic but can't speak",
+ "traits": "**Escalade des araignées.** Le harceleur de gemme peut grimper des surfaces difficiles, y compris à l'envers sur les plafonds, sans avoir besoin de faire un test de caractéristique.\n**Nature inhabituelle.** Le harceleur de gemmes n'a pas besoin de nourriture ou de boisson.",
+ "actionsText": "**Multiattaques.** Le harceleur fait quatre attaques de griffe.\n**Griffe.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/a395092a4b_monstre-gemme-stalker.webp",
+ "notes": "",
+ "source": "Fizban's Treasury of Dragons (5e.tools, traduction automatique)",
+ "aka": "Gemme Stalker",
+ "caNote": "armure naturelle",
+ "saves": "DEX +5, INT +5",
+ "skills": "Perception +3, Discrétion +5",
+ "resistances": "psychique",
+ "bonusActions": "**Cristal Dart.** Attaque de sort à distance : +5 au toucher, portée 9 m, une cible. Touché : 7 (1d10 + 2) dégâts de force, et l'un des effets suivants se produit, déterminé par le type de dragon qui a créé le harceleur de gemme:\n**Améthyste.** Le harceleur de pierres précieuses peut se téléporter dans un espace inoccupé qu'il peut voir à l'intérieur de 9 m.\n**Cristal.** Le harceleur de pierres précieuses gagne un nombre de points de vie temporaires égal aux dégâts infligés.\n**Émeraude.** La cible doit rouler un d4 et soustraire le nombre roulé du prochain jet d'attaque qu'elle effectue avant le début du prochain tour du harceleur de pierres précieuses.\n**Saphir.** La cible doit réussir sur un DD 13 jet de sauvegarde de Force ou être poussée horizontalement jusqu'à 3 m loin du harceleur de pierres précieuses et être à terre.\n**Topaze.** La cible doit réussir sur un DD 13 jet de sauvegarde de Constitution ou être empoisonné jusqu'au prochain tour du harceleur de pierres précieuses.",
+ "reactions": "**Lien de protection.** Lorsqu'une autre créature que le harceleur de pierres précieuses peut voir à l'intérieur de 9 m est sur le point de prendre des dégâts, le harceleur de pierres précieuses réduit ces dégâts de 10 (3d6). Le harceleur de pierres précieuses prend alors des dégâts égaux à cette quantité."
+}

@@ -1,0 +1,42 @@
+{
+ "id": "mane-vaporspawn",
+ "name": "Manes Vaporspawn",
+ "type": "Fiélon (démon)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 13,
+ "hp": 19,
+ "hpFormula": "3d8+6",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 12,
+  "CON": 15,
+  "INT": 5,
+  "SAG": 8,
+  "CHA": 3
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "comprend Abyssal mais ne peut pas parler",
+ "traits": "**Contortionniste.** Les crinières peuvent se déplacer à travers un espace aussi étroit que 1 pouce sans dépenser de mouvement supplémentaire pour le faire.\n**Vapors diluants.** Jet de sauvegarde de Constitution : DD 12, chaque créature dans une Emanation 1,50 m provenant de la crinière à la fin du tour de la crinière. Échec : La cible a l'état neutralisé jusqu'à la fin de son prochain tour. Réussite : La cible est immunisée contre les vapeurs de la crinière pendant 24 heures.",
+ "actionsText": "**Griffe.** Jet d'attaque au corps à corps : +4, allonge 1,50 m. Touché : 5 (1d6 + 2) dégâts tranchants plus 5 (2d4) dégâts nécrotiques.",
+ "attacks": [
+  {
+   "name": "Griffe",
+   "bonus": 4,
+   "damage": "1d6+2",
+   "type": "tranchant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/5a3aba5b1b_monstre-mane-vaporspawn.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Mâne Vaporspawn",
+ "resistances": "froid, feu, foudre",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, agrippé, empoisonné, entravé",
+ "bonusActions": "**Vols d'ombre.** Dans la Lumière Dim ou l'Obscurcie, la crinière prend l'action Se cacher."
+}

@@ -1,0 +1,42 @@
+{
+ "id": "apprenti-witherbloom",
+ "name": "Witherbloom Apprentice",
+ "type": "Humanoïde (druide)",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 44,
+ "hpFormula": "8d8+8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 12,
+  "SAG": 15,
+  "CHA": 11
+ },
+ "senses": "Perception passive 16",
+ "languages": "Commun plus deux langues",
+ "traits": "**Régénération.** L'apprenti reprend 5 points de vie au début de son tour s'il a au moins 1 points de vie.\n**Talisman vert.** À la fin d'un rituel de 10 minutes, l'apprenti peut toucher une créature volontaire (y compris elle-même) et lui accorder un petit talisman imprégné de magie. Après avoir reçu le talisman, la créature gagne 10 points de vie temporaires, et elle peut ajouter 1d6 à ses rouleaux d'initiative pendant qu'elle porte le talisman. Ces prestations durent 1 heure ou jusqu'à ce que l'apprenti effectue un autre rituel pour accorder un autre talisman. Lorsque les prestations expirent, le talisman s'écroule à la poussière.",
+ "actionsText": "**Vin de bruyère.** Attaque de sort au corps à corps : +4 au toucher, allonge 4,50 m, une cible. Touché : 7 (1d10 + 2) dégâts perforants plus 9 (2d8) dégâts de poison. Si la cible est une créature grande ou plus petite, l'apprenti peut la ramener à 3 m plus près de lui.\n**Détection orthographique.** L'apprenti lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation :\n- À volonté : Druidisme, Stabilisation\n- 1/jour chacun : Passage sans trace",
+ "attacks": [
+  {
+   "name": "Vin de bruyère",
+   "bonus": 4,
+   "damage": "1d10+2",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/7ea93b8c26_monstre-apprenti-witherbloom.webp",
+ "notes": "",
+ "source": "Strixhaven: A Curriculum of Chaos (5e.tools, traduction automatique)",
+ "aka": "Apprenti Witherbloom",
+ "caNote": "Armure en cuir",
+ "saves": "CON +3, SAG +4",
+ "skills": "Médecine +4, Nature +5, Perception +6",
+ "reactions": "**Labourer les mains.** Lorsque l'apprenti voit une créature dans 9 m de lui-même tomber à 0 points de vie, l'apprenti canalise l'essence de vie dépensée et cible une autre créature qu'il peut voir dans 9 m de lui-même. La cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 minute. Alors qu'empoisonné de cette façon, la cible prend 3 (1d6) dégâts de poison au début de chacun de ses tours. La cible peut répéter l'épargne à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès."
+}

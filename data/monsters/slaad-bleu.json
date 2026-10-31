@@ -1,0 +1,46 @@
+{
+ "id": "slaad-bleu",
+ "name": "Slaad bleu",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "chaotique neutre",
+ "cr": "7",
+ "xp": 2900,
+ "ca": 15,
+ "caNote": "armure naturelle",
+ "hp": 123,
+ "hpFormula": "13d10+52",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 20,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 7,
+  "SAG": 7,
+  "CHA": 9
+ },
+ "skills": "Perception +1",
+ "resistances": "acide, feu, foudre, froid, tonnerre",
+ "senses": "vision dans le noir 18 m, Perception passive 11",
+ "languages": "slaad, télépathie à 18 m",
+ "traits": "**Régénération.** Le slaad récupère 10 points de vie au début de son tour tant qu'il lui reste au moins 1 point de vie.\n**Résistance à la magie.** Le slaad est avantagé lors de ses jets de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Attaques multiples.** Le slaad porte trois attaques, l'une avec sa morsure, les deux autres avec ses griffes.\n**Morsure.** *Attaque d'arme au corps à corps :* +8 pour toucher, allonge 1,50 m, une cible. *Touché :* 12 (2d6+5) dégâts perforants.\n**Griffe.** *Attaque d'arme au corps à corps :* +8 pour toucher, allonge 1,50 m, une cible. *Touché :* 12 (2d6+5) dégâts tranchants. Si la cible est un humanoïde, elle doit réussir un jet de sauvegarde de Constitution DD 15, sans quoi elle est infectée par une maladie appelée le phage du chaos. Tant que la cible est affectée, elle ne peut pas récupérer de points de vie et son maximum de points de vie se réduit de 10 (3d6) toutes les 24 heures. Si la maladie fait tomber le total de points de vie de la victime à 0, cette dernière se transforme immédiatement en slaad rouge ou en slaad vert si elle était capable de lancer des sorts de niveau 3 ou plus. Seul un *souhait* permet d'inverser cette transformation.",
+ "portrait": "/data/images/12971f5029_monstre-slaad-bleu.jpg",
+ "notes": "",
+ "source": "Manuel des monstres (2014), p. 268 · image : Manuel des monstres p. 266",
+ "attacks": [
+  {
+   "name": "Morsure",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "perforant"
+  },
+  {
+   "name": "Griffe",
+   "bonus": 8,
+   "damage": "2d6+5",
+   "type": "tranchant"
+  }
+ ]
+}

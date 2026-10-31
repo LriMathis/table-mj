@@ -1,0 +1,41 @@
+{
+ "id": "jiangshi",
+ "name": "Jiangshi",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 16,
+ "hp": 119,
+ "hpFormula": "14d8+56",
+ "vitesse": "6 m, vol 1,50 m (vol stationnaire)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 3,
+  "CON": 18,
+  "INT": 17,
+  "SAG": 14,
+  "CHA": 12
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 16",
+ "languages": "Commun plus trois autres langues",
+ "traits": "**Jiangshi Faiblesses.** Le jiangshi a ces faiblesses :\n- **La peur de sa propre réflexion** Si le jiangshi voit sa réflexion, il prend immédiatement sa Réaction, si disponible, pour se déplacer le plus loin possible de la réflexion.\n- **Sensible aux Saints Symboles** Alors que le jiangshi porte ou touche un Saint symbole, il perd son immunité à l'état effrayé et échoue automatiquement à jet de sauvegarde pour éviter ou terminer l'état effrayé.",
+ "actionsText": "**Multiattaques.** Le jiangshi fait trois attaques de Chelem et utilise Consume Energy.\n**Clamer.** Jet d'attaque au corps à corps : +8, allonge 1,50 m. Touché : 13 (2d8 + 4) dégâts contondants.\n**Consommer l'énergie.** Jet de sauvegarde de Constitution : DD 16, une créature le jiangshi peut voir à l'intérieur de 9 m. Échec : 18 (4d8) dégâts nécrotiques. Réussite : Demi-dégâts. Échec ou réussite : Le jiangshi retrouve points de vie égal au dégâts nécrotiques pris, la vitesse de vol du jiangshi augmente jusqu'à 6 m jusqu'à la fin de son prochain tour, et il peut prendre son Hungering Stride action bonus. Un Humanoïde réduit à 0 points de vie par ce dégâts augmente à la fin du tour du jiangshi comme un Wight sous le contrôle du jiangshi. Si cette wight tue un humanoïde avec son action de drain de vie, la wight se transforme en un Jiangshi indépendant 5 jours plus tard.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 8,
+   "damage": "2d8+4",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/6866f2025a_monstre-jiangshi.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "saves": "CON +8, INT +7, SAG +6, CHA +5",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné",
+ "bonusActions": "**Étroite de la faim (nécessite de consommer de l'énergie).** Le jiangshi prend l'action Foncer.\n**Forme-filtre.** La forme du jiangshi se transforme en une Bête moyenne ou petite, Humanoïde, ou Une créature morte, ou elle revient à sa vraie forme. Ses statistiques de jeu, autres que sa taille, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé."
+}

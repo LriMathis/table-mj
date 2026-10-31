@@ -1,0 +1,41 @@
+{
+ "id": "armee-de-dragon-dragonnel",
+ "name": "Dragon Army Dragonnel",
+ "type": "Dragon",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "3",
+ "xp": 700,
+ "ca": 16,
+ "hp": 58,
+ "hpFormula": "9d10+9",
+ "vitesse": "9 m, vol 18 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 15,
+  "CON": 12,
+  "INT": 8,
+  "SAG": 13,
+  "CHA": 10
+ },
+ "senses": "Vision aveugle 9 m, Vision dans le noir 36 m, Perception passive 13",
+ "languages": "comprend le commun et le draconien mais ne peut pas parler",
+ "traits": "**Volée.** Le dragonne ne provoque pas d'attaques d'opportunités quand il vole hors de la portée d'un ennemi.",
+ "actionsText": "**Multiattaques.** Le dragonne fait deux attaques de Rend.\n**Rend.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants plus 3 (1d6) dégâts de feu.",
+ "attacks": [
+  {
+   "name": "Rend",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant + feu"
+  }
+ ],
+ "portrait": "/data/images/9e06871fe0_monstre-armee-de-dragon-dragonnel.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Armée de dragon Dragonnel",
+ "caNote": "barrettes de cuir chevelu",
+ "skills": "Perception +3",
+ "resistances": "feu"
+}

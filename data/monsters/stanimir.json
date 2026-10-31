@@ -1,0 +1,39 @@
+{
+ "id": "stanimir",
+ "name": "Stanimir",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "chaotique neutre",
+ "cr": "6",
+ "xp": 2300,
+ "ca": 12,
+ "hp": 40,
+ "hpFormula": "9d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 11,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "quatre langues",
+ "traits": "**Détection orthographique.** Stanimir est un spellcaster de niveau 9. Son caractéristique d'incantation est Intelligence (save spell DD 14, +6 au toucher avec attaques de sort). Stanimir a préparé les sorts d'assistant suivants :\n- Sorts mineurs (à volonté) : Amis, Lumière, Main de mage, Prestidigitation\n- Niveau 1 (4 emplacements) : Charme-personne, Armure de mage, Bouclier, Sommeil\n- Niveau 2 (3 emplacements) : Foulée brumeuse, Suggestion\n- Niveau 3 (3 emplacements) : Malédiction, Monture fantôme, Toucher du vampire\n- Niveau 4 (3 emplacements) : Invisibilité supérieure, Peau de pierre\n- Niveau 5 (1 emplacements) : Domination de personne",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 4 (1d4 + 2) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+2",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/97713aefbc_monstre-stanimir.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "saves": "INT +6, SAG +4",
+ "skills": "Arcanes +6, Histoire +6"
+}

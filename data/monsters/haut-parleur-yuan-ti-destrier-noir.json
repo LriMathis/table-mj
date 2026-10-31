@@ -1,0 +1,56 @@
+{
+ "id": "haut-parleur-yuan-ti-destrier-noir",
+ "name": "Yuan-ti Nightmare Speaker",
+ "type": "Monstruosité (occultiste)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 14,
+ "hp": 71,
+ "hpFormula": "13d8+13",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 14,
+  "CON": 13,
+  "INT": 14,
+  "SAG": 12,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "abyssal, commun, draconique",
+ "traits": "**La vue du diable.** L'obscurité magique n'entrave pas le vision dans le noir du yuan-ti.\n**Résistance magique.** L'yuan-ti a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** L'yuan-ti fait une attaque Constrict et une attaque Scimitar, ou il fait deux attaques Spectral Fangs.\n**Constriction.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants, et la cible est agrippé (évasion DD 14) si c'est une créature grande ou plus petite. Jusqu'à ce que ce grappin se termine, la cible est entravé. L'yuan-ti ne peut contenir qu'une créature à la fois.\n**Scimitar (Forme Yuan-ti seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants.\n**Fangs spectraux.** Attaque de sort à distance : +5 au toucher, portée 36 m, une cible. Touché : 16 (3d8 + 3) dégâts nécrotiques.\n**Invoquer Nightmare (Recharge après un repos court ou long).** L'yuan-ti puise dans les cauchemars d'une créature qu'il peut voir à l'intérieur de 18 m et crée une manifestation illusoire et immobile des peurs les plus profondes de la créature, visible uniquement à cette créature.\nLa cible doit faire un DD 13 jet de sauvegarde d'Intelligence. Sur une sauvegarde ratée, la cible prend 22 (4d10) dégâts psychiques et est effrayé de la manifestation, croyant qu'elle est réelle. L'yuan-ti doit se concentrer pour maintenir l'illusion (comme si concentrating sur un sort), qui dure jusqu'à 1 minute et ne peut pas être blessé. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'illusion d'un succès ou prenant 11 (2d10) dégâts psychiques en échec.\n**Diffusion de l'orthographe (Forme Yuan-ti seulement).** L'yuan-ti lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Amitié avec les animaux (snakes seulement), Main de mage, Message, Prestidigitation\n- 2/jour chacun : Ténèbres, Peur\n- 3/jour : Suggestion",
+ "attacks": [
+  {
+   "name": "Constriction",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Scimitar (Forme Yuan-ti seulement)",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant"
+  },
+  {
+   "name": "Fangs spectraux",
+   "bonus": 5,
+   "damage": "3d8+3",
+   "type": "nécrotique"
+  }
+ ],
+ "portrait": "/data/images/0c8917d128_monstre-haut-parleur-yuan-ti-destrier-noir.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Haut-parleur yuan-ti destrier noir",
+ "caNote": "armure naturelle",
+ "saves": "SAG +3, CHA +5",
+ "skills": "Tromperie +5, Discrétion +4",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Modifier la forme.** L'yuan-ti se transforme en serpent moyen ou de nouveau en sa vraie forme. Ses statistiques sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. S'il meurt, il reste dans sa forme actuelle."
+}

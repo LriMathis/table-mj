@@ -1,0 +1,51 @@
+{
+ "id": "maitre-forestier",
+ "name": "Forest Master",
+ "type": "Céleste (Licorne)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre bon",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 16,
+ "hp": 105,
+ "hpFormula": "14d10+28",
+ "vitesse": "15 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 14,
+  "CON": 15,
+  "INT": 13,
+  "SAG": 19,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 17",
+ "languages": "céleste, elfique, sylvestre, télépathie 18 m",
+ "traits": "**Résistance légendaire (2/jour).** Si le maître de la forêt échoue un jet de sauvegarde, il peut choisir de réussir à la place.\n**Résistance magique.** Le maître de forêt a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Maître des bêtes.** Le maître forestier peut comprendre et communiquer avec n'importe quelle Bête, même si la Bête ne connaît pas de langues.",
+ "actionsText": "**Multiattaques.** Le maître de la forêt fait deux attaques Hooves, deux attaques Moon Bolt, ou l'une de chacune.\n**Des voyous.** Attaque d'arme au corps à corps : +7 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts contondants.\n**Bolt de lune.** Attaque de sort à distance : +7 au toucher, portée 18 m, une cible. Touché : 11 (2d6 + 4) dégâts radiants.\n**Détection orthographique.** Le maître de la forêt lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Sagesse comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Druidisme, Nappe de brouillard, Assistance\n- 2/jour chacun : Baies nourricières, Restauration supérieure, Passage sans trace, Communication avec les plantes",
+ "attacks": [
+  {
+   "name": "Des voyous",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "contondant"
+  },
+  {
+   "name": "Bolt de lune",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "radiant"
+  }
+ ],
+ "portrait": "/data/images/2d31c466a5_monstre-maitre-forestier.webp",
+ "notes": "",
+ "source": "MCV2DC (5e.tools, traduction automatique)",
+ "aka": "Maître forestier",
+ "caNote": "armure naturelle",
+ "saves": "INT +4, SAG +7",
+ "skills": "Perspicacité +7, Nature +4, Perception +7",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, paralysé, empoisonné",
+ "bonusActions": "**Brèves (Recharge 4-6).** Le maître de la forêt touche sa corne à la terre et provoque l'éclatement d'un mur de briques 1,50 m -tout dans une ligne 27 m large. Lorsque le mur apparaît, chaque créature dans sa zone est poussée dans l'espace inoccupé le plus proche adjacent au mur et doit faire un DD 15 jet de sauvegarde de Dextérité, en prenant 27 (6d8) dégâts perforants sur un sauvegarde raté ou la moitié de ces dégâts sur un succès.\nLe mur des brioches dure jusqu'au prochain virage du maître de forêt. Le mur bloque la ligne de vue et compte comme terrain difficile pour toutes les créatures à l'exception du maître de forêt. La première fois qu'une créature entre dans la zone du mur sur un virage, cette créature doit réussir sur un DD 15 jet de sauvegarde de Dextérité ou prendre 13 (3d8) dégâts perforants.",
+ "reactions": "**Échappement de la fausseté.** Si le maître de la forêt prend des dégâts à la suite d'une attaque à la mêlée, il téléporte, avec tout équipement qu'il porte ou transporte, dans un espace inoccupé de 9 m qu'il peut voir."
+}

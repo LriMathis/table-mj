@@ -1,0 +1,41 @@
+{
+ "id": "zombi-peste-spreader",
+ "name": "Zombie Plague Spreader",
+ "type": "Mort-vivant",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 10,
+ "hp": 78,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 3,
+  "SAG": 5,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 7",
+ "languages": "comprend Common plus une autre langue mais ne peut pas parler",
+ "traits": "**Fortitude non-morte.** Si les dégâts réduisent le zombie à 0 points de vie, il fait un jet de sauvegarde de Constitution (DD 5 plus les dégâts pris) à moins que les dégâts soient radiant ou à partir d'un Hit critique. Sur une sauvegarde réussie, le zombie tombe à 1 points de vie à la place.\n**Aura virale.** Jet de sauvegarde de Constitution : DD 12, toute créature qui commence son tour dans une Emanation 3 m originaire du zombie. Échec : La cible a l'état empoisonné jusqu'au début de son prochain tour. Alors qu'empoisonné, la cible ne peut pas récupérer points de vie. Réussite : La créature est immunisée contre l'aura virale de ce zombie pendant 24 heures.",
+ "actionsText": "**Multiattaques.** Le zombie fait deux attaques de Slam.\n**Clamer.** Jet d'attaque au corps à corps : +5, allonge 1,50 m. Touché : 6 (1d6 + 3) dégâts contondants plus 9 (2d8) dégâts nécrotiques.\n**Miasma virulent (1/jour).** Jet de sauvegarde de Constitution : DD 12, chaque créature dans une Emanation 9 m originaire du zombie. Échec : 14 (4d6) dégâts de poison. Réussite : Demi-dégâts. Échec ou réussite : Si ce dégâts réduit la cible à 0 points de vie, il meurt et monte 1 minute plus tard comme un Zombie.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "contondant + nécrotique"
+  }
+ ],
+ "portrait": "/data/images/0005f35503_monstre-zombi-peste-spreader.webp",
+ "notes": "",
+ "source": "Ravenloft: The Horrors Within (5e.tools, traduction automatique)",
+ "aka": "Zombi peste Spreader",
+ "resistances": "nécrotique",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, empoisonné"
+}

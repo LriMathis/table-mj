@@ -1,0 +1,44 @@
+{
+ "id": "haut-parleur-diable",
+ "name": "Speaker Devil",
+ "type": "Fiélon (diable)",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 17,
+ "hp": 189,
+ "hpFormula": "18d10+90",
+ "vitesse": "9 m, vol 9 m",
+ "stats": {
+  "FOR": 21,
+  "DEX": 19,
+  "CON": 20,
+  "INT": 22,
+  "SAG": 18,
+  "CHA": 17
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "Infernal; télépathie 36 m.",
+ "traits": "**Restauration diabolique.** Si le diable meurt en dehors des Neuf Enfers, son corps disparaît dans la fumée sulfureuse, et il gagne un nouveau corps instantanément, en revigorant avec tous ses points de vie quelque part dans les Neuf Enfers.\n**Résistance magique.** Le diable a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le diable fait deux attaques de Thundering Halberd.\n**Le tonnerre Halberd.** Jet d'attaque au corps à corps : +9, allonge 3 m. Touché : 16 (2d10 + 5) dégâts tranchants plus 14 (4d6) dégâts de tonnerre.\n**Détection orthographique.** Le diable lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Intelligence comme caractéristique d'incantation (spell save DD 18) :\n- À volonté : Détection de la magie, Détection des pensées\n- 2/jour chacun : Porte dimensionnelle, Modification de mémoire",
+ "attacks": [
+  {
+   "name": "Le tonnerre Halberd",
+   "bonus": 9,
+   "damage": "2d10+5",
+   "type": "tranchant + tonnerre"
+  }
+ ],
+ "portrait": "/data/images/5ecbe4bad8_monstre-haut-parleur-diable.webp",
+ "notes": "",
+ "source": "Astarion's Book of Hungers (5e.tools, traduction automatique)",
+ "aka": "Haut-parleur diable",
+ "saves": "CON +9, INT +10, SAG +8, CHA +7",
+ "skills": "Arcanes +10, Histoire +10, Perception +8",
+ "resistances": "froid",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Épuisement de la douleur.** Jet de sauvegarde de Sagesse : DD 18, chaque créature dans une Emanation 6 m originaire du diable. Échec : La cible a l'état étourdi jusqu'à la fin du prochain tour du diable.\n**Utterance de l'incrédulité.** Jet de sauvegarde de Constitution : DD 18, chaque créature dans une Emanation 6 m originaire du diable. Échec : 22 (4d10) dégâts de force. Réussite : Demi-dégâts."
+}

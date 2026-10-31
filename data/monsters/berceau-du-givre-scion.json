@@ -1,0 +1,50 @@
+{
+ "id": "berceau-du-givre-scion",
+ "name": "Cradle of the Frost Scion",
+ "type": "Élémentaire",
+ "sizeName": "Gigantesque",
+ "size": 4,
+ "alignment": "neutre mauvais",
+ "cr": "24",
+ "xp": 62000,
+ "ca": 20,
+ "hp": 499,
+ "hpFormula": "27d20+216",
+ "vitesse": "12 m, nage 12 m",
+ "stats": {
+  "FOR": 27,
+  "DEX": 14,
+  "CON": 26,
+  "INT": 11,
+  "SAG": 19,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 14",
+ "languages": "géant, primordial",
+ "traits": "**L'éveil des Scion.** Le berceau est un conteneur pour le Scion de Thrym. Lorsque le berceau tombe à 0 points de vie, son corps se brise en éclats de glace. Le scion apparaît instantanément dans l'espace occupé par le berceau et utilise le nombre d'initiatives du berceau.\n**Résistance légendaire (5/jour).** Si le berceau échoue un jet de sauvegarde, il peut choisir de réussir.\n**Résistance magique.** Le berceau a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Monstre de siège.** Le berceau inflige deux dégâts aux objets et aux structures.",
+ "actionsText": "**Multiattaques.** Le berceau fait deux attaques de Slam ou d'Icicle de Hurl.\n**Clamer.** Attaque d'arme au corps à corps : +15 au toucher, allonge 6 m, une cible. Touché : 30 (4d10 + 8) dégâts contondants plus 11 (2d10) dégâts de froid.\n**Hurl Icicle.** Attaque d'arme à distance : +15 au toucher, portée 36 m, une cible. Touché : 26 (4d8 + 8) dégâts perforants plus 9 (2d8) dégâts de froid, et la cible doit réussir sur un DD 23 jet de sauvegarde de Force ou avoir l'état à terre.\n**Respiration verglaçante (Recharge 5-6).** Le berceau exhale une explosion de gel dans un cône 27 m. Chaque créature dans cette zone doit faire un DD 23 jet de sauvegarde de Constitution. Sur une sauvegarde ratée, une créature prend 52 (8d12) dégâts de froid, et sa vitesse est réduite à 0 jusqu'à la fin de son prochain tour. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts seulement. Si ces dégâts réduisent la cible à 0 points de vie, la cible tombe à 1 points de vie à la place et a l'état pétrifié, se transformant en une statue gelée.\nSi la statue prend dégâts contondants, elle se brise, tuant la créature gelée. Si la statue prend dégâts de feu, elle ne prend pas de dégâts et de dégels, mettant fin à la pétrification.",
+ "attacks": [
+  {
+   "name": "Clamer",
+   "bonus": 15,
+   "damage": "4d10+8",
+   "type": "contondant + froid"
+  },
+  {
+   "name": "Hurl Icicle",
+   "bonus": 15,
+   "damage": "4d8+8",
+   "type": "perforant + froid"
+  }
+ ],
+ "portrait": "/data/images/0378cde3df_monstre-berceau-du-givre-scion.webp",
+ "notes": "",
+ "source": "Bigby Presents: Glory of the Giants (5e.tools, traduction automatique)",
+ "aka": "Berceau du givre Scion",
+ "caNote": "armure naturelle",
+ "saves": "SAG +11, CHA +10",
+ "resistances": "feu, foudre, contondant, perforant, tranchant d'attaques non magiques",
+ "immunities": "froid, poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, pétrifié, empoisonné",
+ "bonusActions": "**Brillante brume.** Le berceau évoque magiquement un nuage de brouillard qui remplit une sphère 9 m -radius centrée sur un point qu'il peut voir en lui-même. La brume s'étend autour des coins. Chaque créature dans cette zone doit réussir sur un DD 19 jet de sauvegarde de Constitution ou prendre 28 (8d6) dégâts de froid et ne pas pouvoir utiliser les réactions jusqu'au début de son prochain tour. La brume disparaît à la fin du tournant du berceau."
+}

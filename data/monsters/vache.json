@@ -1,0 +1,38 @@
+{
+ "id": "vache",
+ "name": "Cow",
+ "type": "Bête",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 10,
+ "hp": 15,
+ "hpFormula": "2d10+4",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 10,
+  "CON": 14,
+  "INT": 2,
+  "SAG": 10,
+  "CHA": 4
+ },
+ "senses": "Perception passive 10",
+ "languages": "—",
+ "traits": "**Frais.** Si la vache déplace au moins 6 m droit vers une cible et la frappe avec une attaque de gore au même tour, la cible prend un 7 (2d6) dégâts perforants supplémentaire.",
+ "actionsText": "**Gore.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 7 (1d6 + 4) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Gore",
+   "bonus": 6,
+   "damage": "1d6+4",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/3ecc2c4728_monstre-vache.webp",
+ "notes": "",
+ "source": "Volo's Guide to Monsters (5e.tools, traduction automatique)",
+ "aka": "Vache"
+}

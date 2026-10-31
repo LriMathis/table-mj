@@ -1,0 +1,47 @@
+{
+ "id": "yorb",
+ "name": "Yorb",
+ "type": "Humanoïde (grognement)",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 49,
+ "hpFormula": "9d6+18",
+ "vitesse": "7,50 m, escalade 7,50 m",
+ "stats": {
+  "FOR": 7,
+  "DEX": 16,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 12
+ },
+ "senses": "Perception passive 12",
+ "languages": "Grung",
+ "traits": "**Amphibie.** Yorb peut respirer l'air et l'eau.\n**Peau toxique.** Toute créature qui grippe Yorb ou qui entre en contact direct avec la peau d'Yorb doit réussir sur un DD 12 jet de sauvegarde de Constitution ou devenir empoisonné pendant 1 minute. Une créature empoisonné qui n'est plus en contact direct avec Yorb peut répéter la jet de sauvegarde à la fin de chacun de ses tours, mettant fin à l'effet sur elle-même sur un succès.\n**Leap debout.** Le long saut d'Yorb est jusqu'à 7,50 m et son saut haut est jusqu'à 4,50 m, avec ou sans démarrage.",
+ "actionsText": "**Déclencheur.** Attaque d'arme au corps à corps ou à distance : +5 au toucher, allonge 1,50 m ou portée 6/18 m., une cible. Touché : 5 (1d4 + 3) dégâts perforants, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou prendre 5 (2d4) dégâts de poison.\n**Saubèche.** Attaque d'arme à distance : +5 au toucher, portée 24/96 m., une cible. Touché : 6 (1d6 + 3) dégâts perforants, et la cible doit réussir sur un DD 12 jet de sauvegarde de Constitution ou prendre 5 (2d4) dégâts de poison.\n**Mesmérisant Chirr (Recharge 6).** Yorb fait un bruit criant auquel les grogneurs sont immunisés. Chaque humanoïde ou bête qui se trouve dans 4,50 m d'Yorb et capable de l'entendre doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou être étourdi jusqu'à la fin du prochain tour d'Yorb.",
+ "attacks": [
+  {
+   "name": "Déclencheur",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Saubèche",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/d8e6a34a9a_monstre-yorb.webp",
+ "notes": "",
+ "source": "Tomb of Annihilation (5e.tools, traduction automatique)",
+ "saves": "DEX +5",
+ "skills": "Athlétisme +2, Perception +2, Discrétion +5, Survie +2",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné"
+}

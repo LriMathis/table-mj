@@ -1,0 +1,42 @@
+{
+ "id": "diable-des-chaines",
+ "name": "Diable des chaînes",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 85,
+ "hpFormula": "10d8+40",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 15,
+  "CON": 18,
+  "INT": 11,
+  "SAG": 12,
+  "CHA": 14
+ },
+ "saves": "CON +7, SAG +4",
+ "resistances": "contondants, froid, perforants, tranchants",
+ "immunities": "feu, poison",
+ "conditionImmunities": "empoisonné",
+ "senses": "Vision dans le noir 36 m, Perception passive 11",
+ "languages": "infernal, télépathie 36 m",
+ "traits": "**Résistance à la magie.** Le diable a l’Avantage aux jets de sauvegarde contre les sorts et autres effets magiques.\n**Restauration diabolique.** Si le diable meurt hors des Neuf Enfers, son corps disparaît dans un nuage de fumée sulfureuse, tandis qu’il en acquiert aussitôt un nouveau et revient à la vie avec tous ses pv quelque part dans les Neuf Enfers.",
+ "actionsText": "**Attaques multiples.** Le diable effectue deux attaques de Chaîne et recourt à Invocation de chaîne infernale.\n**Chaîne.** Corps à corps : +7, allonge 3 m. Touché : 11 (2d6 + 4) dégâts tranchants. Si la cible est une créature de taille G ou inférieure, elle subit l’état Agrippé (évasion DD 14) par l’une des deux chaînes, ainsi que l’état Entravé tant qu’elle est Agrippée.\n**Invocation de chaîne infernale.** Le diable invoque une chaîne de feu afin d’entraver une créature. JS Dextérité : DD 15, une créature que le diable voit dans un rayon de 18 m. Échec : 9 (2d4 + 4) dégâts de feu et la cible subit l’état Entravé jusqu’à la fin du tour suivant du diable, stade auquel la chaîne disparaît. Si la cible est de taille G ou inférieure, le diable la déplace vers lui d’un maximum de 9 m en ligne droite. Réussite : la chaîne disparaît.",
+ "reactions": "**Regard dérangeant.** Déclencheur : une créature que le diable voit commence son tour dans un rayon de 9 m du diable et peut le voir. Conséquences—JS Sagesse : DD 15, la créature ayant déclenché la Réaction. Échec : la cible subit l’état Effrayé jusqu’à la fin de son tour suivant. Réussite : la cible est immunisée contre le Regard dérangeant de ce diable pendant 24 heures.",
+ "attacks": [
+  {
+   "name": "Chaîne",
+   "bonus": 7,
+   "damage": "2d6+4",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/0af88ddc79_monstre-diable-des-chaines.jpg",
+ "notes": "",
+ "source": "SRD 5.2.1 (dd2024.fr) — illustration : Manuel des monstres · image : Manuel des monstres p. 68"
+}

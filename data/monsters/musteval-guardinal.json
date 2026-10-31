@@ -1,0 +1,42 @@
+{
+ "id": "musteval-guardinal",
+ "name": "Musteval Guardinal",
+ "type": "Céleste",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 38,
+ "hpFormula": "11d6",
+ "vitesse": "10,50 m",
+ "stats": {
+  "FOR": 12,
+  "DEX": 16,
+  "CON": 11,
+  "INT": 14,
+  "SAG": 15,
+  "CHA": 14
+ },
+ "senses": "Perception passive 16",
+ "languages": "céleste, commun",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le musteval fait deux attaques de la lame osseuse.\n**Lame osseuse.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 6 (1d6 + 3) dégâts tranchants plus 3 (1d6) dégâts radiants.\n**Détection orthographique.** Le musteval lance l'un des sorts suivants, ne nécessitant aucun composant matériel et utilisant Charisme comme caractéristique d'incantation :\n- À volonté : Lumières dansantes\n- 1/jour chacun : Déguisement, Invisibilité",
+ "attacks": [
+  {
+   "name": "Lame osseuse",
+   "bonus": 5,
+   "damage": "1d6+3",
+   "type": "tranchant + radiant"
+  }
+ ],
+ "portrait": "/data/images/a3fdc1f134_monstre-musteval-guardinal.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "saves": "DEX +5, CHA +4",
+ "skills": "Perception +6, Discrétion +7",
+ "resistances": "radiant",
+ "conditionImmunities": "effrayé",
+ "reactions": "**Mouvement escarpé.** Lorsqu'une créature termine son virage à l'intérieur de 1,50 m de la mustevale, la mustevale peut se déplacer jusqu'à la moitié de sa vitesse. Ce mouvement ne provoque pas d'attaques d'opportunités."
+}

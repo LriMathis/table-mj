@@ -1,0 +1,38 @@
+{
+ "id": "veldyskar",
+ "name": "Veldyskar",
+ "type": "Monstruosité",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "3",
+ "xp": 700,
+ "ca": 15,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 8,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 8,
+  "CHA": 7
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 9",
+ "languages": "commun, nain, géant, commun des profondeurs",
+ "traits": "**Gaz pétrifiant.** Si une créature commence son tour dans 9 m de Veldyskar et que les deux d'entre eux peuvent se voir, Veldyskar peut forcer la créature à faire un DD 12 jet de sauvegarde de Constitution si Veldyskar n'est pas neutralisé. Sur une sauvegarde ratée, la créature commence magiquement à se tourner vers la pierre et est entravé. Il doit répéter le jet de sauvegarde à la fin de son prochain tour. Sur un succès, l'effet se termine. Sur un échec, la créature est pétrifié jusqu'à ce qu'elle soit libérée par le sort Restauration supérieure ou autre magie.\nUne créature qui n'est pas surpris peut détourner ses yeux pour éviter la jet de sauvegarde au début de son tour. Si c'est le cas, il ne peut voir Veldyskar qu'au début de son prochain tour, quand il pourra à nouveau l'éviter. S'il regarde Veldyskar en attendant, il doit immédiatement faire l'enregistrement.\nSi Veldyskar voit sa réflexion au sein de 9 m en lumière vive, il s'erreur pour un rival et se vise avec son regard.\n**Découpe intérieure.** Veldyskar peut innerately lancer le sort suivant, ne nécessitant aucun composant matériel:\n- 1/jour : Restauration supérieure",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts perforants plus 7 (2d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/e46ef6598b_monstre-veldyskar.webp",
+ "notes": "",
+ "source": "Out of the Abyss (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle"
+}

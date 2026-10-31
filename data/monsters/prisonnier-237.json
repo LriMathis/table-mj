@@ -1,0 +1,39 @@
+{
+ "id": "prisonnier-237",
+ "name": "Prisoner 237",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "1",
+ "xp": 200,
+ "ca": 11,
+ "hp": 32,
+ "hpFormula": "5d8+10",
+ "vitesse": "9 m (3 m pendant qu'il est enchaîné)",
+ "stats": {
+  "FOR": 9,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 17,
+  "SAG": 10,
+  "CHA": 15
+ },
+ "senses": "Perception passive 10",
+ "languages": "commun, draconique, infernal, orc",
+ "traits": "**Détection orthographique.** Le prisonnier 237 est un orthographe de niveau 5. Son caractéristique d'incantation est Intelligence (spell save DD 13 ; +5 au toucher avec attaques de sort). Il a préparé les sorts d'assistant suivants:\n- Sorts mineurs (à volonté) : Lumière *, Message *, Prestidigitation, Poigne électrique (voir \"Actions\" ci-dessous)\n- Niveau 1 (4 emplacements) : Armure de mage *, Bouclier, Sommeil\n- Niveau 2 (3 emplacements) : Verrou magique *, Détection des pensées *, Suggestion *\n- Niveau 3 (2 emplacements) : Contresort, Éclair *\n*Le prisonnier 237 a besoin de composants matériels pour lancer ces sorts.",
+ "actionsText": "**Gras de scoop (sort mineur).** Attaque de sort au corps à corps : +5 au toucher (avec avantage sur l'attaque si la cible porte une armure en métal), allonge 1,50 m, une créature. Touché : 9 (2d8) dégâts de foudre, et la cible ne peut pas prendre de réactions avant le début de son prochain tour.",
+ "attacks": [
+  {
+   "name": "Gras de scoop (sort mineur)",
+   "bonus": 5,
+   "damage": "2d8",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/83952cfc86_monstre-prisonnier-237.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "aka": "Prisonnier 237",
+ "skills": "Arcanes +5, Tromperie +4, Persuasion +4"
+}

@@ -1,0 +1,40 @@
+{
+ "id": "cranium-rat-squeaker-swarm",
+ "name": "Cranium Rat Squeaker Swarm",
+ "type": "Nuée de taille très petite (Aberration)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 12,
+ "hp": 76,
+ "hpFormula": "17d8",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 10,
+  "INT": 15,
+  "SAG": 11,
+  "CHA": 14
+ },
+ "senses": "Vision dans le noir 9 m, Perception passive 10",
+ "languages": "télépathie 9 m",
+ "traits": "**psychique Messager.** L'essaim peut utiliser son sort Communication à distance pour cibler quelqu'un familier avec une créature en contact télépathique avec l'essaim.\n**Swarm.** L'essaim peut occuper l'espace d'une autre créature et vice versa, et l'essaim peut se déplacer à travers n'importe quelle ouverture assez grande pour un petit rat. L'essaim ne peut pas récupérer points de vie ou gagner points de vie temporaires.\n**Chouette télépathique.** L'essaim est à l'abri de tout effet qui sentirait ses émotions ou lirait ses pensées, ainsi que des sorts de divination.",
+ "actionsText": "**Morceaux.** Attaque d'arme au corps à corps : +5 au toucher, allonge 0 m, une cible dans l'espace de l'essaim. Touché : 14 (4d6) dégâts perforants, ou 7 (2d6) dégâts perforants si l'essaim a la moitié de son points de vie ou moins, plus 22 (5d8) dégâts psychiques.\n**Coulisse (Psioniques).** L'essaim lance l'un des sorts suivants, ne nécessitant pas de composants de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 13) :\n- À volonté : Injonction *, Détection des pensées *, Communication à distance *\n- 1/jour chacun : Confusion *, Domination de monstre *\n*Pour lancer ce sort, l'essaim doit avoir plus de la moitié de son points de vie restant.",
+ "attacks": [
+  {
+   "name": "Morceaux",
+   "bonus": 5,
+   "damage": "4d6",
+   "type": "perforant + psychique"
+  }
+ ],
+ "portrait": "/data/images/c6864db111_monstre-cranium-rat-squeaker-swarm.webp",
+ "notes": "",
+ "source": "Morte's Planar Parade (5e.tools, traduction automatique)",
+ "resistances": "contondant, perforant, tranchant",
+ "conditionImmunities": "charmé, effrayé, agrippé, paralysé, pétrifié, à terre, entravé, étourdi",
+ "bonusActions": "**Éclairage.** L'essaim jette une lumière dim de son cerveau dans un rayon de 1,50 m, augmente l'éclairage à la lumière lumineuse dans un rayon de 5 à 6 m et une lumière dim pour un nombre supplémentaire de pieds égal au rayon choisi, ou éteint la lumière."
+}

@@ -1,0 +1,49 @@
+{
+ "id": "agent-phaerimm",
+ "name": "Phaerimm Agent",
+ "type": "Aberration",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "neutre mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 15,
+ "hp": 123,
+ "hpFormula": "19d10+19",
+ "vitesse": "3 m, vol 12 m (vol stationnaire)",
+ "stats": {
+  "FOR": 12,
+  "DEX": 18,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 16,
+  "CHA": 18
+ },
+ "senses": "Vision parfaite 36 m, Perception passive 16",
+ "languages": "télépathie 36 m understands Common and Deep Speech but can't speak",
+ "traits": "**Résistance magique.** Le phaerimm a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.",
+ "actionsText": "**Multiattaques.** Le phaerimm fait trois attaques, en utilisant Dread Stinger ou Mindwarp Ray dans n'importe quelle combinaison.\n**C'est un cramoisi..** Jet d'attaque au corps à corps : +7, allonge 1,50 m. Touché : 7 (1d6 + 4) dégâts perforants plus 13 (2d12) dégâts de poison.\n**Rayon des esprits.** Jet d'attaque à distance : +7, portée 36 m. Touché : 13 (2d8 + 4) dégâts psychiques, et la cible a l'état charmé jusqu'au début du prochain tour du phaerimm.\n**Détection orthographique.** Le phaerimm lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Charisme comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection de la magie, Détection des pensées, Main de mage\n- 1/jour chacun : Clairvoyance, Image majeure, Perturbations synaptiques",
+ "attacks": [
+  {
+   "name": "C'est un cramoisi.",
+   "bonus": 7,
+   "damage": "1d6+4",
+   "type": "perforant + poison"
+  },
+  {
+   "name": "Rayon des esprits",
+   "bonus": 7,
+   "damage": "2d8+4",
+   "type": "psychique"
+  }
+ ],
+ "portrait": "/data/images/0bed35e001_monstre-agent-phaerimm.webp",
+ "notes": "",
+ "source": "Forgotten Realms: Adventures in Faerûn (5e.tools, traduction automatique)",
+ "aka": "Agent Phaerimm",
+ "saves": "CON +4, INT +6, SAG +6, CHA +7",
+ "skills": "Arcanes +9, Perspicacité +6, Perception +6",
+ "conditionImmunities": "charmé",
+ "bonusActions": "**Téléportation.** Le phaerimm téléporte jusqu'à 9 m dans un espace inoccupé qu'il peut voir.",
+ "reactions": "**Magie protectrice (3/jour).** Le phaerimm lance Contresort ou Bouclier en réponse au déclencheur du sort, en utilisant le même caractéristique d'incantation que Spellcasting.\n- 3/jour : Contresort, Bouclier"
+}

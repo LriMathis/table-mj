@@ -1,0 +1,42 @@
+{
+ "id": "githyanki-kith-rak",
+ "name": "Githyanki Kith'rak",
+ "type": "Humanoïde (Ceinture)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 18,
+ "hp": 180,
+ "hpFormula": "24d8+72",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 16,
+  "CON": 17,
+  "INT": 16,
+  "SAG": 15,
+  "CHA": 17
+ },
+ "senses": "Perception passive 16",
+ "languages": "gith",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le githyanki fait trois attaques de Grande-parole.\n**Grande épée.** Attaque d'arme au corps à corps : +8 au toucher, allonge 1,50 m, une cible. Touché : 11 (2d6 + 4) dégâts tranchants plus 17 (5d6) dégâts psychiques.\n**Coulisse (Psioniques).** Le githyanki lance l'un des sorts suivants, ne nécessitant aucun composant du sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Main de mage (la main est invisible)\n- 1/jour chacun : Changement de plan, Télékinésie\n- 3/jour chacun : Flou, Antidétection (autoseulement)",
+ "attacks": [
+  {
+   "name": "Grande épée",
+   "bonus": 8,
+   "damage": "2d6+4",
+   "type": "tranchant + psychique"
+  }
+ ],
+ "portrait": "/data/images/46ba80826f_monstre-githyanki-kith-rak.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "caNote": "plaque",
+ "saves": "CON +7, INT +7, SAG +6",
+ "skills": "Intimidation +7, Perception +6",
+ "bonusActions": "**Étape astrale (Recharge 4-6).** Les téléports githyanki, ainsi que tout équipement qu'il porte ou transporte, jusqu'à 9 m dans un espace inoccupé qu'il peut voir.\n**Rassemblement des troupes.** Le githyanki met fin magiquement aux conditions charmé et effrayé sur lui-même et sur chaque créature de son choix qu'il peut voir à l'intérieur de 9 m.",
+ "reactions": "**Parry.** Le githyanki ajoute 4 à sa CA contre une attaque de mêlée qui la frapperait. Pour ce faire, les githyankis doivent voir l'agresseur et manier une arme à la mêlée."
+}

@@ -1,0 +1,31 @@
+{
+ "id": "esprit-bestial",
+ "name": "Bestial Spirit",
+ "type": "Bête",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "0",
+ "xp": 10,
+ "ca": 10,
+ "hp": 0,
+ "hpFormula": "",
+ "vitesse": "9 m, escalade 9 m (Terrain seulement), vol 18 m (Air seulement), nage 9 m (Eau seulement)",
+ "stats": {
+  "FOR": 18,
+  "DEX": 11,
+  "CON": 16,
+  "INT": 4,
+  "SAG": 14,
+  "CHA": 5
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "comprend les langues que vous connaissez",
+ "traits": "**Volée (Air seulement).** L'esprit ne provoque pas Opportunity Attacks quand il vole hors de la portée d'un ennemi.\n**Pack Tactics (terres et eau seulement).** L'esprit a avantage sur un jet d'attaque contre une créature si au moins un des alliés de l'esprit est dans 1,50 m de la créature et l'allié n'a pas l'état neutralisé.\n**Respiration d'eau (eau seulement).** L'esprit ne peut respirer que sous l'eau.",
+ "actionsText": "**Multiattaques.** L'esprit fait un certain nombre d'attaques Rend égal à la moitié du niveau de ce sort (ronde vers le bas).\n**Rend.** Jet d'attaque au corps à corps : votre bonus d'attaque de sort, allonge 1,50 m. Touché : 1d8 + 4 + summonSpellLevel dégâts perforants.",
+ "attacks": [],
+ "portrait": "/data/images/81a6919adb_monstre-esprit-bestial.webp",
+ "notes": "points de vie : 20 (Air seulement) ou 30 (Terre et eau seulement) + 5 pour chaque niveau de sort supérieur à 2",
+ "source": "Player's Handbook (2024) (5e.tools, traduction automatique)",
+ "aka": "Esprit bestial"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "broom-d-attaque-animee",
+ "name": "Broom of Animated Attack",
+ "type": "Créature artificielle",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1/4",
+ "xp": 50,
+ "ca": 15,
+ "hp": 17,
+ "hpFormula": "5d6",
+ "vitesse": "0 m, vol 15 m (vol stationnaire)",
+ "stats": {
+  "FOR": 10,
+  "DEX": 17,
+  "CON": 10,
+  "INT": 1,
+  "SAG": 5,
+  "CHA": 1
+ },
+ "senses": "Vision aveugle 9 m (aveugle au-delà de ce rayon), Perception passive 7",
+ "languages": "—",
+ "traits": "**Nature construite.** Un objet animé ne nécessite pas d'air, de nourriture, de boisson ou de sommeil.\nLa magie qui anime un objet est dissipée lorsque la construction tombe à 0 points de vie. Un objet d'animation réduit à 0 points de vie devient inanimé et est trop endommagé pour être d'une grande utilité ou d'une grande valeur pour quiconque.\n**Susceptibilité antimagique.** Le balai est neutralisé alors que dans la zone d'un Champ antimagie. Si la cible est Dissipation de la magie, le balai doit réussir sur un jet de sauvegarde de Constitution contre le DD de sauvegarde des sorts du lanceur ou tomber inconscient pendant 1 minute.\n**Fausse apparence.** Bien que le balai reste immobile et ne vole pas, il est indistinctible d'un balai normal.",
+ "actionsText": "**Multiattaques.** Le balai fait deux attaques à la mêlée.\n**Rouge à balai.** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 5 (1d4 + 3) dégâts contondants.",
+ "attacks": [
+  {
+   "name": "Rouge à balai",
+   "bonus": 5,
+   "damage": "1d4+3",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/e2c24cfbeb_monstre-broom-d-attaque-animee.webp",
+ "notes": "",
+ "source": "Curse of Strahd (5e.tools, traduction automatique)",
+ "aka": "Broom d'attaque animée",
+ "caNote": "armure naturelle",
+ "immunities": "poison, psychique",
+ "conditionImmunities": "aveuglé, charmé, assourdi, épuisement, effrayé, paralysé, pétrifié, empoisonné, à terre",
+ "reactions": "**Attaque animée.** Si le balai est immobile et qu'une créature le saisit, le balai fait un test de Dextérité contesté par le test de Force de la créature. Si le balai gagne le concours, il s'envole hors de la portée de la créature et fait une attaque de mêlée contre elle avec l'avantage sur le jet d'attaque."
+}

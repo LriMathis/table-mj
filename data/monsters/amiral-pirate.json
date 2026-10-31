@@ -1,0 +1,48 @@
+{
+ "id": "amiral-pirate",
+ "name": "Pirate Admiral",
+ "type": "Humanoïde",
+ "sizeName": "Petite ou Moyenne",
+ "size": 1,
+ "alignment": "neutre",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 20,
+ "hp": 182,
+ "hpFormula": "28d8+56",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 14,
+  "DEX": 22,
+  "CON": 14,
+  "INT": 12,
+  "SAG": 14,
+  "CHA": 19
+ },
+ "senses": "Perception passive 16",
+ "languages": "Commun plus une autre langue",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le pirate fait trois attaques, utilisant Scimitar ou Pistol dans n'importe quelle combinaison.\n**Scimitar.** Jet d'attaque au corps à corps : +10, allonge 1,50 m. Touché : 16 (3d6 + 6) dégâts tranchants plus 7 (2d6) dégâts de poison, et la cible subit l'un des effets suivants du choix du pirate:\n- **Awestruck** La cible a l'état charmé jusqu'au début du prochain tour du pirate.\n- **poison** La cible a l'état empoisonné jusqu'au début du prochain tour du pirate.\n**Pistol.** Jet d'attaque à distance : +10, portée 9/27 m. Touché : 28 (4d10 + 6) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Scimitar",
+   "bonus": 10,
+   "damage": "3d6+6",
+   "type": "tranchant + poison"
+  },
+  {
+   "name": "Pistol",
+   "bonus": 10,
+   "damage": "4d10+6",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/5ee10c7c91_monstre-amiral-pirate.webp",
+ "notes": "",
+ "source": "Monster Manual (2025) (5e.tools, traduction automatique)",
+ "aka": "Amiral pirate",
+ "saves": "FOR +6, DEX +10, SAG +6, CHA +8",
+ "skills": "Acrobaties +10, Athlétisme +6, Perception +6",
+ "bonusActions": "**Rallye (1/jour).** Le pirate choisit jusqu'à trois autres créatures qu'il peut voir dans 9 m. Jusqu'au prochain virage du pirate, les cibles ont Avantage sur jets d'attaque et jet de sauvegarde.",
+ "reactions": "**Stance défensive.** Déclencheur : Le pirate est frappé par une melee jet d'attaque tout en tenant une arme. Réponse : Le pirate ajoute 4 à sa CA contre la melee jets d'attaque (y compris l'attaque de déclenchement) jusqu'au début de son prochain tour, ce qui peut faire passer les attaques."
+}

@@ -1,0 +1,32 @@
+{
+ "id": "hypnos-magen",
+ "name": "Hypnos Magen",
+ "type": "Créature artificielle",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "sans alignement",
+ "cr": "1",
+ "xp": 200,
+ "ca": 12,
+ "hp": 34,
+ "hpFormula": "4d8+16",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 18,
+  "INT": 14,
+  "SAG": 10,
+  "CHA": 7
+ },
+ "senses": "Perception passive 10",
+ "languages": "comprend les langues de son créateur mais ne peut pas parler, télépathie 9 m",
+ "traits": "**Fin de feu.** Si le mage meurt, son corps se désintègre dans un éclat inoffensif de feu et de fumée, laissant derrière lui tout ce qu'il portait ou portait.\n**Résistance magique.** Le magen a un avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Nature inhabituelle.** Le magen n'a pas besoin d'air, de nourriture, de boisson ou de sommeil.",
+ "actionsText": "**Laisse psychique.** Les yeux du magen brillent argent comme il cible une créature qu'il peut voir dans 18 m de lui. La cible doit réussir sur un DD 12 jet de sauvegarde de Sagesse ou prendre 11 (2d10) dégâts psychiques.\n**Suggestion.** Le magen lance le sort Suggestion (save DD 12), ne nécessitant aucun composant matériel. La cible doit être une créature que le mage peut communiquer avec télépathe. S'il réussit sur son jet de sauvegarde, la cible est à l'abri du sort Suggestion de ce Magen pour les 24 prochaines heures. caractéristique d'incantation du magen est Intelligence.",
+ "attacks": [],
+ "portrait": "/data/images/15fe651881_monstre-hypnos-magen.webp",
+ "notes": "",
+ "source": "Icewind Dale: Rime of the Frostmaiden (5e.tools, traduction automatique)",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, effrayé, paralysé, empoisonné"
+}

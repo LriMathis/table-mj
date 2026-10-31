@@ -1,0 +1,40 @@
+{
+ "id": "evoker-magicien",
+ "name": "Evoker Wizard",
+ "type": "Humanoïde",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "tout alignement",
+ "cr": "9",
+ "xp": 5000,
+ "ca": 12,
+ "hp": 121,
+ "hpFormula": "22d8+22",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 9,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 17,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Perception passive 11",
+ "languages": "quatre langues",
+ "traits": "",
+ "actionsText": "**Multiattaques.** L'évoquant fait trois attaques d'Arcane Burst.\n**La Burst d'Arcane.** Attaque de sort au corps à corps ou à distance : +7 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 25 (4d10 + 3) dégâts de force.\n**Explosion sculptée (Recharge 4-6).** L'évoquant déclenche une explosion magique d'un type particulier de dégâts : le froid, le feu, la foudre ou le tonnerre. La magie éclate dans une sphère 6 m -radius centrée sur un point au sein de 45 m de l'évoquant. Chaque créature dans cette zone doit faire un DD 15 jet de sauvegarde de Dextérité. L'évomeur peut sélectionner jusqu'à trois créatures qu'il peut voir dans la région pour ignorer le sort, comme l'évoquant sculpte l'énergie du sort autour d'eux. Sur une sauvegarde ratée, une créature prend 40 (9d8) dégâts du type choisi et est à terre. Sur une sauvegarde réussie, une créature prend la moitié de ces dégâts et n'est pas à terre.\n**Détection orthographique.** L'auteur lance l'un des sorts suivants, en utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Lumière, Main de mage, Message, Prestidigitation\n- 1/jour chacun : Mur de glace\n- 2/jour chacun : Tempête de grêle, Éclair, Armure de mage",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 7,
+   "damage": "4d10+3",
+   "type": "force"
+  }
+ ],
+ "portrait": "/data/images/c898a708ad_monstre-evoker-magicien.webp",
+ "notes": "",
+ "source": "Mordenkainen Presents: Monsters of the Multiverse (5e.tools, traduction automatique)",
+ "aka": "Evoker magicien",
+ "saves": "INT +7, SAG +5",
+ "skills": "Arcanes +7, Histoire +7"
+}

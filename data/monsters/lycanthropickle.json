@@ -1,0 +1,41 @@
+{
+ "id": "lycanthropickle",
+ "name": "Lycanthropickle",
+ "type": "Plante",
+ "sizeName": "Petite",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "1/8",
+ "xp": 25,
+ "ca": 13,
+ "hp": 4,
+ "hpFormula": "1d6+1",
+ "vitesse": "6 m",
+ "stats": {
+  "FOR": 6,
+  "DEX": 13,
+  "CON": 12,
+  "INT": 4,
+  "SAG": 8,
+  "CHA": 3
+ },
+ "senses": "Vision aveugle 18 m (aveugle au-delà de ce rayon), Perception passive 9",
+ "languages": "comprend Commun mais ne peut pas parler",
+ "traits": "**Fausse apparence.** Alors que le lycanthropickle reste immobile, il est indistinctible d'un cornichon.",
+ "actionsText": "**Griffes.** Attaque d'arme au corps à corps : +3 au toucher, allonge 1,50 m, une cible. Touché : 3 (1d4 + 1) dégâts perforants.",
+ "attacks": [
+  {
+   "name": "Griffes",
+   "bonus": 3,
+   "damage": "1d4+1",
+   "type": "perforant"
+  }
+ ],
+ "portrait": "/data/images/6e3e43d1a4_monstre-lycanthropickle.webp",
+ "notes": "",
+ "source": "The Lost Dungeon of Rickedness: Big Rick Energy (5e.tools, traduction automatique)",
+ "caNote": "armure naturelle",
+ "skills": "Discrétion +3",
+ "vulnerabilities": "feu",
+ "conditionImmunities": "aveuglé, assourdi"
+}

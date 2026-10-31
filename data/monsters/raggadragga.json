@@ -1,0 +1,46 @@
+{
+ "id": "raggadragga",
+ "name": "Raggadragga",
+ "type": "Humanoïde (humain, métamorphe)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 10,
+ "hp": 120,
+ "hpFormula": "12d8+24",
+ "vitesse": "9 m (12 m sous forme de sanglier)",
+ "stats": {
+  "FOR": 17,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 10,
+  "SAG": 11,
+  "CHA": 8
+ },
+ "senses": "Perception passive 12",
+ "languages": "Fréquent (ne peut pas parler sous forme de sanglier)",
+ "traits": "**Changeur de forme.** Raggadragga peut utiliser son action pour se polymorphiser en un hybride sanglier-humanoïde ou en un sanglier, ou revenir dans sa forme réelle, qui est humanoïde. Ses statistiques, autres que sa CA, sont les mêmes dans chaque forme. Tout équipement qu'il porte ou qu'il transporte n'est pas transformé. Il revient à sa vraie forme s'il meurt.\n**Charge (Formulaire de sanglier ou hybride seulement).** Si Raggadragga se déplace au moins 4,50 m droit vers une cible et la frappe avec ses défenses au même tour, la cible prend un 7 (2d6) dégâts tranchants supplémentaire. Si la cible est une créature, elle doit réussir sur un DD 13 jet de sauvegarde de Force ou être à terre.\n**Sans relâche (recharge après un repos court ou long).** Si Raggadragga prend 14 dégâts ou moins qui le ramèneraient à 0 points de vie, il est réduit à 1 points de vie.",
+ "actionsText": "**Multiattaque (forme humaine ou hybride seulement).** Raggadragga fait deux attaques, dont une seule peut être avec ses défenses.\n**Maul (forme humaine ou hybride seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts contondants.\n**Tusks (boîte ou forme hybride seulement).** Attaque d'arme au corps à corps : +5 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants. Si la cible est un humanoïde, elle doit réussir sur un DD 12 jet de sauvegarde de Constitution ou être maudite avec la lycanthropie de sang-froid.",
+ "attacks": [
+  {
+   "name": "Maul (forme humaine ou hybride seulement)",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "contondant"
+  },
+  {
+   "name": "Tusks (boîte ou forme hybride seulement)",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/4a4cc5b1af_monstre-raggadragga.webp",
+ "notes": "",
+ "source": "Baldur's Gate: Descent Into Avernus (5e.tools, traduction automatique)",
+ "caNote": "sous forme humanoïde",
+ "skills": "Perception +2",
+ "immunities": "contondant, perforant, tranchant d'attaques non magiques qui ne sont pas argentées"
+}

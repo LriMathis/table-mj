@@ -1,0 +1,40 @@
+{
+ "id": "cornelius-watson",
+ "name": "Cornelius Watson",
+ "type": "Humanoïde (humain)",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "neutre bon",
+ "cr": "12",
+ "xp": 8400,
+ "ca": 12,
+ "hp": 154,
+ "hpFormula": "28d8+28",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 10,
+  "DEX": 14,
+  "CON": 12,
+  "INT": 20,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Perception passive 16",
+ "languages": "céleste, commun, nain, gnome, halfelin, infernal",
+ "traits": "**Résistance magique.** Doc Watson a avantage sur jet de sauvegarde contre les sorts et autres effets magiques.\n**Portant (Recharge 6).** Lorsque Doc Watson ou une créature qu'il peut voir fait un jet d'attaque, un jet de sauvegarde ou un test de caractéristique, Doc Watson peut rouler un d20 et choisir d'utiliser ce rouleau à la place du jet d'attaque, jet de sauvegarde ou test de caractéristique. Ce trait se recharge après avoir utilisé l'action Spellcasting.",
+ "actionsText": "**Multiattaques.** Doc Watson fait trois attaques d'Arcane Burst.\n**La Burst d'Arcane.** Attaque de sort au corps à corps ou à distance : +9 au toucher, allonge 1,50 m ou portée 36 m, une cible. Touché : 32 (5d10 + 5) dégâts de foudre.\n**Détection orthographique.** Doc Watson lance l'un des sorts suivants en utilisant Intelligence comme son caractéristique d'incantation (spell save DD 17) :\n- À volonté : Détection de la magie, Identification, Armure de mage, Lien télépathique de Rary\n- 1/jour chacun : Prémonition, Vision suprême\n- 2/jour chacun : Clairvoyance, Localisation d'objet, Scrutation",
+ "attacks": [
+  {
+   "name": "La Burst d'Arcane",
+   "bonus": 9,
+   "damage": "5d10+5",
+   "type": "foudre"
+  }
+ ],
+ "portrait": "/data/images/f62f6ebd74_monstre-cornelius-watson.webp",
+ "notes": "",
+ "source": "Minsc and Boo's Journal of Villainy (5e.tools, traduction automatique)",
+ "saves": "INT +9, SAG +6",
+ "skills": "Arcanes +13, Histoire +13, Investigation +13, Perception +6",
+ "resistances": "dégâts causés par des sorts"
+}

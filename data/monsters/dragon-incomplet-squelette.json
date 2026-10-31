@@ -1,0 +1,41 @@
+{
+ "id": "dragon-incomplet-squelette",
+ "name": "Incomplete Dragon Skeleton",
+ "type": "Mort-vivant",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal mauvais",
+ "cr": "4",
+ "xp": 1100,
+ "ca": 15,
+ "hp": 58,
+ "hpFormula": "9d10+9",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 15,
+  "DEX": 16,
+  "CON": 12,
+  "INT": 15,
+  "SAG": 15,
+  "CHA": 16
+ },
+ "senses": "Vision dans le noir 18 m, Perception passive 12",
+ "languages": "Commun plus une autre langue",
+ "traits": "",
+ "actionsText": "**Morceau.** Attaque d'arme au corps à corps : +5 au toucher, allonge 3 m, une créature. Touché : 10 (2d6 + 3) dégâts perforants plus 10 (3d6) dégâts de poison.",
+ "attacks": [
+  {
+   "name": "Morceau",
+   "bonus": 5,
+   "damage": "2d6+3",
+   "type": "perforant + poison"
+  }
+ ],
+ "portrait": "/data/images/e31cba84ad_monstre-dragon-incomplet-squelette.webp",
+ "notes": "",
+ "source": "Dragonlance: Shadow of the Dragon Queen (5e.tools, traduction automatique)",
+ "aka": "Dragon incomplet squelette",
+ "caNote": "armure naturelle",
+ "immunities": "poison",
+ "conditionImmunities": "charmé, épuisement, paralysé, empoisonné"
+}

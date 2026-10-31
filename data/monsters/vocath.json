@@ -1,0 +1,40 @@
+{
+ "id": "vocath",
+ "name": "Vocath",
+ "type": "Céleste",
+ "sizeName": "Grande",
+ "size": 2,
+ "alignment": "loyal neutre",
+ "cr": "5",
+ "xp": 1800,
+ "ca": 13,
+ "hp": 75,
+ "hpFormula": "10d10+20",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 16,
+  "DEX": 10,
+  "CON": 15,
+  "INT": 18,
+  "SAG": 16,
+  "CHA": 15
+ },
+ "senses": "Perception passive 16",
+ "languages": "commun, géant, télépathie 18 m (see also Mercane telepathy)",
+ "traits": "**Mercane Telepathy.** Vocath peut communiquer télépathiquement avec n'importe quel autre mercanique qu'il connaît, quelle que soit la distance entre eux.",
+ "actionsText": "**Multiattaques.** Vocath fait trois attaques de la lame imbue de Psi.\n**Psi-Imbued Blade.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 10 (2d6 + 3) dégâts tranchants, et si la cible est une créature, elle doit réussir sur un DD 15 jet de sauvegarde de Sagesse ou être effrayé de Vocath jusqu'à la fin du prochain tour de la cible.\n**Coulisse (Psioniques).** Vocath lance l'un des sorts suivants, ne nécessitant aucun composant de sort et utilisant Intelligence comme caractéristique d'incantation (spell save DD 15) :\n- À volonté : Détection de la magie, Lumière\n- 1/jour chacun : Porte dimensionnelle, Invisibilité, Armure de mage (autoseulement)",
+ "attacks": [
+  {
+   "name": "Psi-Imbued Blade",
+   "bonus": 6,
+   "damage": "2d6+3",
+   "type": "tranchant"
+  }
+ ],
+ "portrait": "/data/images/7926d433a6_monstre-vocath.webp",
+ "notes": "",
+ "source": "Light of Xaryxis (5e.tools, traduction automatique)",
+ "caNote": "Armure de mage",
+ "saves": "INT +7, SAG +6, CHA +5",
+ "skills": "Perspicacité +9, Perception +6, Persuasion +5"
+}

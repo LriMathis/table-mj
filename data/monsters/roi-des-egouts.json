@@ -1,0 +1,43 @@
+{
+ "id": "roi-des-egouts",
+ "name": "Sewer King",
+ "type": "Fiélon",
+ "sizeName": "Moyenne",
+ "size": 1,
+ "alignment": "loyal mauvais",
+ "cr": "2",
+ "xp": 450,
+ "ca": 13,
+ "hp": 52,
+ "hpFormula": "8d8+16",
+ "vitesse": "12 m",
+ "stats": {
+  "FOR": 18,
+  "DEX": 13,
+  "CON": 14,
+  "INT": 8,
+  "SAG": 12,
+  "CHA": 11
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 15",
+ "languages": "infernal, télépathie 9 m",
+ "traits": "**Discours de la bête.** Le roi des égouts peut comprendre et communiquer verbalement avec n'importe quelle bête.",
+ "actionsText": "**Bite rancide.** Attaque d'arme au corps à corps : +6 au toucher, allonge 1,50 m, une cible. Touché : 8 (1d8 + 4) dégâts perforants plus 7 (2d6) dégâts d'acide. Si la cible est une créature, elle doit réussir sur un DD 12 jet de sauvegarde de Constitution ou avoir l'état empoisonné jusqu'au prochain virage du roi des égouts.\n**Invoquer le swarm (1/jour).** Le roi des égouts cogne et convoque un essaim de rats à son aide. L'essaim apparaît dans un espace inoccupé au sein de 9 m du roi des égouts que le roi des égouts peut voir. Il agit comme allié du roi des égouts, obéit aux ordres du roi des égouts, et prend son tour immédiatement après ceux du roi des égouts. L'essaim reste jusqu'à sa mort, le roi des égouts meurt, ou jusqu'à ce que le roi des égouts le rejette comme une action.",
+ "attacks": [
+  {
+   "name": "Bite rancide",
+   "bonus": 6,
+   "damage": "1d8+4",
+   "type": "perforant + acide"
+  }
+ ],
+ "portrait": "/data/images/c24913c713_monstre-roi-des-egouts.webp",
+ "notes": "",
+ "source": "Monstrous Compendium Volume 4: Eldraine Creatures (5e.tools, traduction automatique)",
+ "aka": "Roi des égouts",
+ "caNote": "armure naturelle",
+ "skills": "Perception +5, Discrétion +3",
+ "immunities": "poison",
+ "conditionImmunities": "empoisonné",
+ "bonusActions": "**Déchiqueteuse.** Le roi des égouts se déplace à sa vitesse sans provoquer d'attaques d'opportunités."
+}

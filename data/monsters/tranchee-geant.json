@@ -1,0 +1,40 @@
+{
+ "id": "tranchee-geant",
+ "name": "Trench Giant",
+ "type": "Géant",
+ "sizeName": "Très grande",
+ "size": 3,
+ "alignment": "chaotique mauvais",
+ "cr": "8",
+ "xp": 3900,
+ "ca": 14,
+ "hp": 149,
+ "hpFormula": "13d12+65",
+ "vitesse": "9 m",
+ "stats": {
+  "FOR": 23,
+  "DEX": 10,
+  "CON": 20,
+  "INT": 9,
+  "SAG": 14,
+  "CHA": 6
+ },
+ "senses": "Vision dans le noir 36 m, Perception passive 18",
+ "languages": "géant, commun des profondeurs",
+ "traits": "",
+ "actionsText": "**Multiattaques.** Le géant attaque deux fois avec son grand club ou fait un grand club attaque et utilise Evil Eye une fois.\n**Grand club.** Attaque d'arme au corps à corps : +9 au toucher, allonge 4,50 m, une cible. Touché : 19 (3d8 + 6) dégâts contondants.\n**Mauvais oeil.** Le géant force magiquement une créature qu'il peut voir à l'intérieur de 18 m pour faire un DD 14 jet de sauvegarde de Charisme. La créature prend 27 (6d8) dégâts psychiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite.\n**Malédiction de l'œil maléfique (recharge après un repos court ou long).** Avec un regard, le géant utilise Evil Eye, mais sur un sauvetage raté, la créature est également maudite avec des déformations magiques. Bien que déformée, la créature a sa vitesse de moitié et a un désavantage sur tests de caractéristique, jet de sauvegarde, et des attaques basées sur Force ou Dextérité.\nLa créature transformée peut répéter le jet de sauvegarde chaque fois qu'elle termine un repos long, mettant fin à l'effet sur un succès.",
+ "attacks": [
+  {
+   "name": "Grand club",
+   "bonus": 9,
+   "damage": "3d8+6",
+   "type": "contondant"
+  }
+ ],
+ "portrait": "/data/images/41c85934dc_monstre-tranchee-geant.webp",
+ "notes": "",
+ "source": "PSZ (5e.tools, traduction automatique)",
+ "aka": "Tranchée géant",
+ "caNote": "armure naturelle",
+ "skills": "Perception +8, Discrétion +3"
+}
